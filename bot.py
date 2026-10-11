@@ -18,6 +18,7 @@ Uso:
   python bot.py teste-canal      manda uma mensagem de teste no canal
 """
 
+import base64
 import hashlib
 import html
 import json
@@ -99,6 +100,85 @@ def estado_vazio():
         "revisar": [],        # ofertas esperando você aprovar
         "proximo_id": 1,
     }
+
+
+# ---------------------------------------------------------------- onde a fila fica guardada
+# No PC: dados/estado.json. No GitHub Actions e no Render: o mesmo arquivo, mas lido e gravado
+# direto no repositório pela API do GitHub, para os dois enxergarem sempre a mesma fila.
+
+class Conflito(Exception):
+    pass
+
+
+def _repo():
+    return segredo("GITHUB_REPO") or os.environ.get("GITHUB_REPOSITORY", "")
+
+
+def usar_github():
+    return bool(segredo("GITHUB_TOKEN") and _repo()) and not SIMULAR
+
+
+def _github(metodo, corpo=None):
+    url = f"https://api.github.com/repos/{_repo()}/contents/dados/estado.json"
+    req = urllib.request.Request(url, method=metodo,
+                                 data=json.dumps(corpo).encode() if corpo is not None else None,
+                                 headers={"Authorization": f"Bearer {segredo('GITHUB_TOKEN')}",
+                                          "Accept": "application/vnd.github+json",
+                                          "User-Agent": "bot-achados"})
+    with urllib.request.urlopen(req, timeout=20) as resp:
+        return json.loads(resp.read().decode())
+
+
+def carregar_estado():
+    sha = None
+    if usar_github():
+        try:
+            r = _github("GET")
+            estado, sha = json.loads(base64.b64decode(r["content"]).decode("utf-8")), r["sha"]
+        except urllib.error.HTTPError as e:
+            if e.code != 404:
+                raise
+            estado = estado_vazio()
+    else:
+        estado = carregar_json(ARQ_ESTADO, estado_vazio())
+    for chave, valor in estado_vazio().items():
+        estado.setdefault(chave, valor)
+    return estado, sha
+
+
+def salvar_estado(estado, sha):
+    if SIMULAR:
+        return
+    if not usar_github():
+        salvar_json(ARQ_ESTADO, estado)
+        return
+    texto = json.dumps(estado, ensure_ascii=False, indent=2)
+    corpo = {"message": "estado do bot", "content": base64.b64encode(texto.encode("utf-8")).decode()}
+    if sha:
+        corpo["sha"] = sha
+    try:
+        _github("PUT", corpo)
+    except urllib.error.HTTPError as e:
+        if e.code in (409, 422):
+            raise Conflito() from e
+        raise
+
+
+def com_estado(acao, tentativas=3):
+    """Carrega a fila, roda a ação e salva. Se outro processo salvou no meio, tenta de novo."""
+    for _ in range(tentativas):
+        estado, sha = carregar_estado()
+        antes = json.dumps(estado, sort_keys=True)
+        acao(estado)
+        if json.dumps(estado, sort_keys=True) == antes:
+            return estado
+        try:
+            salvar_estado(estado, sha)
+            return estado
+        except Conflito:
+            log("A fila mudou enquanto eu trabalhava. Tentando de novo.")
+    log("Não consegui salvar a fila depois de 3 tentativas.")
+    return None
 
 
 def http(url, dados=None, headers=None, timeout=20):
@@ -186,6 +266,9 @@ def montar_post(item):
         linhas.append(f"De <s>{reais(de)}</s> por <b>{reais(por)}</b> ({off}% off)")
     elif por:
         linhas.append(f"Por <b>{reais(por)}</b>")
+    if item.get("prime"):
+        extra = f" (sem Prime: {reais(item['sem_prime'])})" if item.get("sem_prime") else ""
+        linhas.append(f"👑 Preço exclusivo para membros Prime{extra}")
     if item.get("cupom"):
         linhas.append(f"🎟️ Cupom: <code>{e(item['cupom'])}</code>")
     elif item.get("cupom_loja"):
@@ -298,11 +381,30 @@ def extrair_da_pagina(pagina, loja):
         m = re.search(r'id="productTitle"[^>]*>(.*?)</span>', pagina, re.S)
         if m:
             achado["nome"] = _limpar(m.group(1))
-        m = re.search(r'(?:corePriceDisplay|corePrice_feature_div|apex_desktop).*?class="a-offscreen">([^<]+)<', pagina, re.S)
-        if m:
+        # Jeito mais confiável: os rótulos de acessibilidade que a Amazon põe no preço principal.
+        a_pagar = [_preco(v) for v in re.findall(r'data-pricetopay-label="[^"]*"[^>]*>\s*R\$(?:&nbsp;|\s)*([\d.,]+)', pagina)]
+        m_de = re.search(r'apex-basisprice-offscreen-label">\s*De:\s*R\$(?:&nbsp;|\s)*([\d.,]+)', pagina)
+        prime = "exclusiva para membros do Amazon Prime" in pagina or "Assine o Prime para comprar este produto por" in pagina
+        if a_pagar:
+            achado["por"] = a_pagar[0]
+            if prime:
+                achado["prime"] = True
+                if len(a_pagar) > 1 and a_pagar[1] and a_pagar[1] > a_pagar[0]:
+                    achado["sem_prime"] = a_pagar[1]
+        if m_de:
+            achado["de"] = _preco(m_de.group(1))
+        # Preço principal: o bloco "priceToPay" dentro do quadro de preço do produto.
+        bloco = re.search(r'id="(?:corePriceDisplay_desktop_feature_div|corePrice_feature_div|apex_desktop)"(.*?)(?:id="(?:corePriceDisplay_mobile|tp_price_block|addToCart)|$)', pagina, re.S)
+        area = bloco.group(1)[:30000] if bloco else ""
+        m = re.search(r'priceToPay[^"]*"[^>]*>.*?class="a-offscreen">([^<]+)<', area, re.S) \
+            or re.search(r'class="a-offscreen">([^<]+)<', area)
+        if m and not achado.get("por"):
             achado["por"] = _preco(m.group(1))
-        m = re.search(r'class="a-price a-text-price"[^>]*data-a-strike="true"[^>]*>\s*<span class="a-offscreen">([^<]+)<', pagina, re.S)
-        if m:
+        m = re.search(r'basisPrice.*?class="a-offscreen">([^<]+)<', area, re.S)
+        if m and not achado.get("de"):
+            achado["de"] = _preco(m.group(1))
+        m = re.search(r'class="a-price a-text-price"[^>]*data-a-strike="true"[^>]*>\s*<span class="a-offscreen">([^<]+)<', area, re.S)
+        if m and "de" not in achado:
             achado["de"] = _preco(m.group(1))
         m = re.search(r'(Aplicar (?:o )?cupom de [^<]{1,30}?)(?:<|\s{2})', pagina)
         if m:
@@ -514,7 +616,7 @@ def aplicar_correcao(item, texto):
         linha = linha.strip()
         if not linha:
             continue
-        m = re.match(r"(nome|t[ií]tulo|pre[cç]o|frase|link|de|por|cupom)\s*[:=]\s*(.+)", linha, re.I)
+        m = re.match(r"(nome|t[ií]tulo|pre[cç]o|frase|link|de|por|cupom|prime)\s*[:=]\s*(.+)", linha, re.I)
         campo, valor = (m.group(1).lower(), m.group(2).strip()) if m else ("", linha)
         if campo.startswith("pre") or (not campo and re.fullmatch(r"[\d.,R$\s]+|de .+ por .+", linha, re.I)):
             de, por = ler_precos(valor)
@@ -531,6 +633,10 @@ def aplicar_correcao(item, texto):
             item["frase"] = "" if valor == "-" else valor
         elif campo == "link":
             item["link"] = valor
+        elif campo == "prime":
+            item["prime"] = valor.lower() in ("sim", "s", "1", "yes")
+            if not item["prime"]:
+                item.pop("sem_prime", None)
         elif campo == "cupom":
             item["cupom"] = "" if valor == "-" else valor
             if valor == "-":
@@ -570,8 +676,35 @@ def tratar_botao(estado, cb):
     responder_admin(resultado, responder_a=msg.get("message_id"))
 
 
-def ler_mensagens(estado):
+def processar_update(estado, up):
+    """Trata uma mensagem ou clique vindo do Telegram (usado pelo GitHub e pelo servidor do Render)."""
     admin = segredo("ADMIN_ID")
+    if up.get("callback_query"):
+        cb = up["callback_query"]
+        if str(cb.get("from", {}).get("id")) == admin:
+            tratar_botao(estado, cb)
+        return
+    msg = up.get("message") or {}
+    if msg.get("chat", {}).get("type") != "private":
+        return
+    if str(msg.get("from", {}).get("id")) != admin:
+        log(f"Ignorei mensagem de {msg.get('from', {}).get('id')}: não é o ADMIN_ID cadastrado.")
+        return
+    texto = (msg.get("text") or msg.get("caption") or "").strip()
+    foto = msg["photo"][-1]["file_id"] if msg.get("photo") else None
+    respondida = (msg.get("reply_to_message") or {}).get("message_id")
+    item = next((x for x in estado["revisar"] if respondida and x.get("msg_id") == respondida), None)
+    if item:
+        aplicar_correcao(item, texto)
+        if foto:
+            item["foto"] = foto
+        estado["revisar"] = [x for x in estado["revisar"] if x["id"] != item["id"]]
+        mandar_para_revisao(estado, item)
+    else:
+        tratar_comando(estado, texto, foto)
+
+
+def ler_mensagens(estado):
     if SIMULAR:
         return
     faltam = [n for n in ("TELEGRAM_TOKEN", "TELEGRAM_CHANNEL", "ADMIN_ID") if not segredo(n)]
@@ -579,34 +712,18 @@ def ler_mensagens(estado):
         log(f"ATENÇÃO: faltam os segredos {', '.join(faltam)}. Sem eles não leio suas mensagens.")
         if "TELEGRAM_TOKEN" in faltam:
             return
-    updates = telegram("getUpdates", offset=estado["offset_telegram"] + 1 if estado["offset_telegram"] else None,
-                       timeout=0, allowed_updates=["message", "callback_query"])
+    try:
+        updates = telegram("getUpdates", offset=estado["offset_telegram"] + 1 if estado["offset_telegram"] else None,
+                           timeout=0, allowed_updates=["message", "callback_query"])
+    except RuntimeError as e:
+        if "webhook" in str(e).lower():
+            log("O servidor do Render está ligado: ele responde suas mensagens na hora. Aqui eu só posto.")
+            return
+        raise
     log(f"Telegram: {len(updates)} mensagem(ns)/clique(s) novos.")
     for up in updates:
         estado["offset_telegram"] = up["update_id"]
-        if up.get("callback_query"):
-            cb = up["callback_query"]
-            if str(cb.get("from", {}).get("id")) == admin:
-                tratar_botao(estado, cb)
-            continue
-        msg = up.get("message") or {}
-        if msg.get("chat", {}).get("type") != "private":
-            continue
-        if str(msg.get("from", {}).get("id")) != admin:
-            log(f"Ignorei mensagem de {msg.get('from', {}).get('id')}: não é o ADMIN_ID cadastrado.")
-            continue
-        texto = (msg.get("text") or msg.get("caption") or "").strip()
-        foto = msg["photo"][-1]["file_id"] if msg.get("photo") else None
-        respondida = (msg.get("reply_to_message") or {}).get("message_id")
-        item = next((x for x in estado["revisar"] if respondida and x.get("msg_id") == respondida), None)
-        if item:
-            aplicar_correcao(item, texto)
-            if foto:
-                item["foto"] = foto
-            estado["revisar"] = [x for x in estado["revisar"] if x["id"] != item["id"]]
-            mandar_para_revisao(estado, item)
-        else:
-            tratar_comando(estado, texto, foto)
+        processar_update(estado, up)
 
 
 def tratar_comando(estado, texto, foto=None):
@@ -788,12 +905,7 @@ def limpar_estado(estado):
 
 # ---------------------------------------------------------------- comandos
 
-def cmd_rodar():
-    estado = carregar_json(ARQ_ESTADO, estado_vazio())
-    for chave, valor in estado_vazio().items():
-        estado.setdefault(chave, valor)
-    if SIMULAR:
-        log("MODO SIMULAÇÃO: nada é enviado e o estado não é salvo.")
+def ciclo(estado):
     try:
         ler_mensagens(estado)
     except Exception as e:
@@ -807,9 +919,14 @@ def cmd_rodar():
     except Exception as e:
         log(f"Erro ao postar: {e}")
     limpar_estado(estado)
-    log(f"Fila agora: {len(estado['fila'])} oferta(s).")
-    if not SIMULAR:
-        salvar_json(ARQ_ESTADO, estado)
+    log(f"Fila agora: {len(estado['fila'])} oferta(s). Esperando revisão: {len(estado['revisar'])}.")
+
+
+def cmd_rodar():
+    if SIMULAR:
+        log("MODO SIMULAÇÃO: nada é enviado e o estado não é salvo.")
+    log("Fila guardada no " + ("repositório do GitHub." if usar_github() else "arquivo dados/estado.json."))
+    com_estado(ciclo)
 
 
 def cmd_ids():

@@ -1,6 +1,6 @@
 # Bot do grupo de achados
 
-Bot do canal de ofertas no Telegram. Roda de graça no GitHub Actions, uma vez por hora.
+Bot do canal de ofertas no Telegram. Roda de graça no GitHub Actions (posta nos horários) e, se quiser, no Render (responde na hora).
 
 ## O que ele faz
 
@@ -57,7 +57,24 @@ Enquanto `SHOPEE_APP_ID` estiver vazio, o bot usa `dados/shopee_exemplo.json`. A
 1. Crie uma conta em github.com e clique em **New repository**. Nome `grupo-achados`, marque **Private** e crie.
 2. Na página do repositório, clique em **uploading an existing file** e arraste **o conteúdo da pasta `para-github`** (não a pasta de fora: lá tem o `.env`). Clique em **Commit changes**.
 3. Vá em **Settings > Secrets and variables > Actions > New repository secret** e crie um por um, copiando os valores do seu `.env`: `TELEGRAM_TOKEN`, `TELEGRAM_CHANNEL`, `ADMIN_ID`. (Os da Shopee e da Gemini só quando tiver.)
-4. Vá em **Actions > set up a workflow yourself**, apague o que vier, cole o conteúdo do `workflow_bot.yml` e clique em **Commit changes**.
+4. Clique em **Add file > Create new file**, digite o nome `.github/workflows/bot.yml`, cole o conteúdo do `workflow_bot.yml` e clique em **Commit changes**.
 5. Em **Actions**, abra "bot-achados" e clique em **Run workflow** para o primeiro teste. Se ficar verde, está rodando sozinho a cada 30 minutos.
 
 Depois disso, pare de usar `RODAR_AGORA.bat` e `POSTAR_AGORA_TESTE.bat` no PC.
+
+## Resposta na hora (servidor no Render)
+
+Sem o Render, o bot só lê suas mensagens e botões a cada 30 minutos. Com o `servidor.py` rodando no Render (grátis), o Telegram avisa o servidor na hora e a revisão chega em segundos. O GitHub Actions continua postando nos horários. Os dois usam a mesma fila, guardada em `dados/estado.json` dentro do repositório.
+
+1. **Token do GitHub:** em github.com > foto > **Settings > Developer settings > Personal access tokens > Fine-grained tokens > Generate new token**. Nome `bot-render`, validade 1 ano, **Only select repositories** > `grupo-achados`, em **Repository permissions** coloque **Contents: Read and write**. Gere e copie o token (começa com `github_pat_`). Ele aparece uma vez só.
+2. **Render:** crie a conta em render.com entrando com o GitHub. **New > Web Service**, escolha o repositório `grupo-achados`.
+   - Language: **Python 3**
+   - Build Command: `echo ok`
+   - Start Command: `python3 servidor.py`
+   - Instance Type: **Free**
+3. Em **Environment Variables**, adicione `TELEGRAM_TOKEN`, `TELEGRAM_CHANNEL`, `ADMIN_ID` (os mesmos do `.env`), `GITHUB_TOKEN` (o `github_pat_...`) e `GITHUB_REPO` = `seu-usuario/grupo-achados`.
+4. Clique em **Deploy**. No log deve aparecer "Webhook ligado". Pronto.
+
+O plano grátis do Render "dorme" depois de 15 minutos sem uso. A primeira mensagem depois disso demora cerca de 1 minuto, e as seguintes saem na hora. Para ele não dormir, cadastre o endereço do serviço num "pinger" grátis (ex.: UptimeRobot, a cada 5 minutos).
+
+Para desligar o Render e voltar ao modo de 30 em 30 minutos, mande para o Telegram: `https://api.telegram.org/bot<TOKEN>/deleteWebhook` (abra no navegador com o seu token).
