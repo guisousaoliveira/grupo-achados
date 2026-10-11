@@ -1,11 +1,23 @@
 {
-  "offset_telegram": 0,
+  "offset_telegram": 217357892,
   "fila": [],
   "postados": [],
   "slots_usados": {
     "2026-10-11": []
   },
   "shopee_buscado_em": "",
-  "revisar": [],
-  "proximo_id": 1
+  "revisar": [
+    {
+      "loja": "amazon",
+      "link": "https://link.amazon/B0fShFE8r",
+      "nome": "Gillette Mach3 Carga para Aparelho de Barbear 16 Unidades",
+      "por": 65.34,
+      "foto": "https://m.media-amazon.com/images/I/71trWiva9mL._AC_SL1000_.jpg",
+      "chave": "amazon:https://link.amazon/B0fShFE8r",
+      "frase": "Achado do dia, aproveita antes de acabar.",
+      "id": 1,
+      "msg_id": 11
+    }
+  ],
+  "proximo_id": 2
 }
