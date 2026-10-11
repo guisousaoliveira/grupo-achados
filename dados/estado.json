@@ -17,7 +17,14 @@
       "frase": "Achado do dia, aproveita antes de acabar.",
       "id": 1,
       "msg_id": 11
+    },
+    {
+      "loja": "amazon",
+      "link": "https://link.amazon/B0ifEWlUa",
+      "chave": "amazon:https://link.amazon/B0ifEWlUa",
+      "id": 2,
+      "msg_id": 15
     }
   ],
-  "proximo_id": 2
+  "proximo_id": 3
 }
