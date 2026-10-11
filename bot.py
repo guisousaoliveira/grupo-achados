@@ -135,6 +135,25 @@ def _github(metodo, corpo=None):
         raise
 
 
+def chamar_github_agora():
+    """No Render: pede ao GitHub Actions para rodar já (a Amazon bloqueia o Render, mas costuma abrir para o GitHub).
+    Precisa que o token tenha também a permissão Actions: Read and write."""
+    if not (os.environ.get("RENDER") and usar_github()):
+        return False
+    url = f"https://api.github.com/repos/{_repo()}/actions/workflows/bot.yml/dispatches"
+    req = urllib.request.Request(url, method="POST", data=json.dumps({"ref": "main"}).encode(),
+                                 headers={"Authorization": f"Bearer {segredo('GITHUB_TOKEN')}",
+                                          "Accept": "application/vnd.github+json",
+                                          "User-Agent": "bot-achados"})
+    try:
+        urllib.request.urlopen(req, timeout=20).close()
+        log("Pedi ao GitHub para reler a página agora.")
+        return True
+    except urllib.error.HTTPError as e:
+        log(f"GitHub não deixou rodar agora ({e.code}). Dê ao token a permissão Actions: Read and write.")
+        return False
+
+
 def carregar_estado():
     sha = None
     if usar_github():
@@ -567,6 +586,7 @@ BOTOES_REVISAO = lambda i: {"inline_keyboard": [[
     {"text": "✅ Aprovar", "callback_data": f"ok:{i}"},
     {"text": "❌ Descartar", "callback_data": f"no:{i}"},
 ]]}
+SO_DESCARTAR = lambda i: {"inline_keyboard": [[{"text": "❌ Descartar", "callback_data": f"no:{i}"}]]}
 
 
 def gerar_frase(item):
@@ -609,14 +629,15 @@ def mandar_para_revisao(estado, item):
     falta = faltando(item)
     texto = "📝 <b>Revisar oferta</b>\n\n" + (montar_post(item) if item.get("nome") else html.escape(item["link"]))
     if falta and item.get("ler_depois"):
-        texto += ("\n\n⏳ A loja bloqueou a leitura agora. Vou tentar de novo sozinho em até 30 minutos, "
+        prazo = "em 1 ou 2 minutos" if chamar_github_agora() else "em até 30 minutos"
+        texto += (f"\n\n⏳ A loja bloqueou a leitura agora. Vou tentar de novo sozinho {prazo}, "
                   "ou você completa já respondendo esta mensagem.")
     elif falta:
         texto += (f"\n\n⚠️ Não consegui ler: <b>{', '.join(falta)}</b>. "
-                  "Responda esta mensagem com o que falta.")
+                  "Responda esta mensagem com o que falta e o botão ✅ Aprovar aparece.")
     texto += ("\n\n<i>Para corrigir, responda (arrastar para o lado) esta mensagem com uma ou mais linhas:\n"
               "nome: Creatina Growth 250g\npreço: 119,90 69,90\nfrase: A mais vendida\ncupom: NOITEPRIME10\n(frase: - ou cupom: - para tirar)</i>")
-    msg = responder_admin(texto, botoes=None if falta else BOTOES_REVISAO(item["id"]))
+    msg = responder_admin(texto, botoes=SO_DESCARTAR(item["id"]) if falta else BOTOES_REVISAO(item["id"]))
     item["msg_id"] = msg.get("message_id") if msg else None
     estado["revisar"].append(item)
 
@@ -745,6 +766,7 @@ def tratar_comando(estado, texto, foto=None):
             "e te mando para revisar. Se quiser, escreva nas linhas de baixo o nome, o preço (De 199 por 129) "
             "e uma frase, e isso vale mais que o que eu ler.\n\n"
             "Comandos:\n/fila (ver a fila)\n/remover N (tirar o item N da fila)\n"
+            "/postar (posta agora a 1ª da fila; /postar 3 posta a 3ª)\n"
             "/pendentes (ofertas esperando revisão)\n/aprovartudo (aprova todas as pendentes completas)\n/ajuda")
     elif cmd == "/fila":
         if not estado["fila"]:
@@ -759,6 +781,18 @@ def tratar_comando(estado, texto, foto=None):
             responder_admin(f"Tirei da fila: {html.escape(tirado['nome'])}")
         except (IndexError, ValueError):
             responder_admin("Use assim: /remover 2 (o número que aparece no /fila)")
+    elif cmd == "/postar":
+        try:
+            n = int(texto.split()[1]) if len(texto.split()) > 1 else 1
+            item = estado["fila"][n - 1]
+        except (IndexError, ValueError):
+            responder_admin("Não achei esse item. Veja os números com /fila." if estado["fila"] else "A fila está vazia.")
+            return
+        publicar(item)
+        estado["fila"].pop(n - 1)
+        estado["postados"].append({"chave": item["chave"], "loja": item["loja"], "nome": item["nome"],
+                                   "data": agora().isoformat(timespec="minutes")})
+        responder_admin(f"📢 Postei agora: {html.escape(item['nome'])}. Fila: {len(estado['fila'])}.")
     elif cmd == "/pendentes":
         if not estado["revisar"]:
             responder_admin("Nada esperando revisão.")
@@ -775,9 +809,15 @@ def tratar_comando(estado, texto, foto=None):
         if erro:
             responder_admin(erro)
             return
-        if any(x["chave"] == item["chave"] for x in estado["fila"] + estado["revisar"]):
-            responder_admin("Esse link já está na fila ou esperando revisão.")
+        if any(x["chave"] == item["chave"] for x in estado["fila"]):
+            responder_admin("Esse link já está na fila.")
             return
+        antigo = next((x for x in estado["revisar"] if x["chave"] == item["chave"]), None)
+        if antigo and not faltando(antigo):
+            responder_admin("Esse link já está esperando revisão (é só aprovar a mensagem anterior).")
+            return
+        if antigo:  # a leitura anterior falhou: troca pela nova tentativa
+            estado["revisar"] = [x for x in estado["revisar"] if x["id"] != antigo["id"]]
         mandar_para_revisao(estado, item)
 
 
