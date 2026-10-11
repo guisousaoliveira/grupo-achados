@@ -572,10 +572,16 @@ def tratar_botao(estado, cb):
 
 def ler_mensagens(estado):
     admin = segredo("ADMIN_ID")
-    if SIMULAR or not segredo("TELEGRAM_TOKEN"):
+    if SIMULAR:
         return
+    faltam = [n for n in ("TELEGRAM_TOKEN", "TELEGRAM_CHANNEL", "ADMIN_ID") if not segredo(n)]
+    if faltam:
+        log(f"ATENÇÃO: faltam os segredos {', '.join(faltam)}. Sem eles não leio suas mensagens.")
+        if "TELEGRAM_TOKEN" in faltam:
+            return
     updates = telegram("getUpdates", offset=estado["offset_telegram"] + 1 if estado["offset_telegram"] else None,
                        timeout=0, allowed_updates=["message", "callback_query"])
+    log(f"Telegram: {len(updates)} mensagem(ns)/clique(s) novos.")
     for up in updates:
         estado["offset_telegram"] = up["update_id"]
         if up.get("callback_query"):
@@ -587,7 +593,7 @@ def ler_mensagens(estado):
         if msg.get("chat", {}).get("type") != "private":
             continue
         if str(msg.get("from", {}).get("id")) != admin:
-            log("Ignorei mensagem de alguém que não é o admin.")
+            log(f"Ignorei mensagem de {msg.get('from', {}).get('id')}: não é o ADMIN_ID cadastrado.")
             continue
         texto = (msg.get("text") or msg.get("caption") or "").strip()
         foto = msg["photo"][-1]["file_id"] if msg.get("photo") else None
