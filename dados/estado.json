@@ -1,22 +1,18 @@
 {
   "offset_telegram": 217357892,
-  "fila": [
-    {
-      "loja": "amazon",
-      "link": "https://link.amazon/B0ifEWlUa",
-      "chave": "amazon:https://link.amazon/B0ifEWlUa",
-      "nome": "Gillette Mach3 Carga 16 Unidades",
-      "de": 129.9,
-      "por": 89.9,
-      "frase": "Menor preço que vi nos últimos dias."
-    }
-  ],
+  "fila": [],
   "postados": [
     {
       "chave": "mercadolivre:https://meli.la/168a1Y6",
       "loja": "mercadolivre",
       "nome": "Kit 6 Pares Meias Puma Algodão Cano Médio Alto Atoalhado",
       "data": "2026-10-11T20:43-03:00"
+    },
+    {
+      "chave": "amazon:https://link.amazon/B0ifEWlUa",
+      "loja": "amazon",
+      "nome": "Gillette Mach3 Carga 16 Unidades",
+      "data": "2026-10-11T20:47-03:00"
     }
   ],
   "slots_usados": {
