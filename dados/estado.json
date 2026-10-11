@@ -1,6 +1,17 @@
 {
   "offset_telegram": 217357892,
-  "fila": [],
+  "fila": [
+    {
+      "loja": "mercadolivre",
+      "link": "https://meli.la/168a1Y6",
+      "por": 56.98,
+      "de": 199.0,
+      "nome": "Kit 6 Pares Meias Puma Algodão Cano Médio Alto Atoalhado",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_617361-MLB54128842596_032023-O.webp",
+      "chave": "mercadolivre:https://meli.la/168a1Y6",
+      "frase": "71% off, isso aqui não fica muito tempo assim."
+    }
+  ],
   "postados": [],
   "slots_usados": {
     "2026-10-11": []
@@ -24,18 +35,6 @@
       "chave": "amazon:https://link.amazon/B0ifEWlUa",
       "id": 2,
       "msg_id": 15
-    },
-    {
-      "loja": "mercadolivre",
-      "link": "https://meli.la/168a1Y6",
-      "por": 56.98,
-      "de": 199.0,
-      "nome": "Kit 6 Pares Meias Puma Algodão Cano Médio Alto Atoalhado",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_617361-MLB54128842596_032023-O.webp",
-      "chave": "mercadolivre:https://meli.la/168a1Y6",
-      "frase": "71% off, isso aqui não fica muito tempo assim.",
-      "id": 3,
-      "msg_id": 19
     }
   ],
   "proximo_id": 4
