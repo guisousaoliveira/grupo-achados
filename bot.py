@@ -969,22 +969,24 @@ def reler_bloqueadas(estado):
     """Ofertas que a loja bloqueou no servidor do Render: tenta ler de novo daqui (outro endereço)."""
     for item in [x for x in estado["revisar"] if x.get("ler_depois")]:
         lido = ler_pagina(item["link"])
-        if lido.pop("_bloqueado", False):
-            item["tentativas"] = item.get("tentativas", 0) + 1
-            if item["tentativas"] >= 2:  # desiste e avisa, para você não ficar esperando à toa
-                item.pop("ler_depois", None)
-                responder_admin("A loja bloqueou de novo. Complete essa oferta respondendo a revisão com nome: e preço:.",
-                                responder_a=item.get("msg_id"))
-            log(f"A loja bloqueou de novo: {item['link']}")
-            continue
-        item.pop("ler_depois", None)
+        bloqueou = lido.pop("_bloqueado", False)
         for chave, valor in lido.items():
             item.setdefault(chave, valor)
         if not faltando(item):
             log(f"Consegui ler agora: {item['nome']}")
+            item.pop("ler_depois", None)
             estado["revisar"] = [x for x in estado["revisar"] if x["id"] != item["id"]]
-            item.pop("frase", None) if not item.get("frase") else None
             mandar_para_revisao(estado, item)
+            continue
+        item["tentativas"] = item.get("tentativas", 0) + 1
+        log(f"Ainda não deu para ler ({'bloqueado' if bloqueou else 'faltou ' + ', '.join(faltando(item))}): {item['link']}")
+        if item["tentativas"] >= 2:  # desiste e avisa, para você não ficar esperando à toa
+            item.pop("ler_depois", None)
+            responder_admin("Não consegui ler essa oferta nem pelo GitHub. Complete respondendo a revisão com nome: e preço:.",
+                            responder_a=item.get("msg_id"))
+        else:
+            responder_admin("A loja bloqueou também o GitHub. Tento mais uma vez em até 30 minutos, "
+                            "ou complete já respondendo a revisão com nome: e preço:.", responder_a=item.get("msg_id"))
 
 
 def ciclo(estado):
