@@ -270,13 +270,20 @@ def publicar(item):
     if not canal:
         raise RuntimeError("Falta o TELEGRAM_CHANNEL (no .env ou nos segredos do GitHub).")
     foto = item.get("foto")
+    if not foto and not os.environ.get("RENDER"):  # sem foto: tenta pegar da página (no GitHub a Amazon costuma abrir)
+        try:
+            foto = ler_pagina(item["link"]).get("foto")
+        except Exception:
+            foto = None
     if foto and len(texto) <= 1024:
         try:
             telegram("sendPhoto", chat_id=canal, photo=foto, caption=texto, parse_mode="HTML")
             return
         except RuntimeError as e:
             log(f"Foto falhou ({e}), mandando só o texto.")
-    telegram("sendMessage", chat_id=canal, text=texto, parse_mode="HTML")
+    # Sem foto: mostra a prévia do link grande, em cima do texto, para o post não ficar "pelado".
+    telegram("sendMessage", chat_id=canal, text=texto, parse_mode="HTML",
+             link_preview_options={"url": item["link"], "prefer_large_media": True, "show_above_text": True})
 
 
 # ---------------------------------------------------------------- formato do post
@@ -635,6 +642,8 @@ def mandar_para_revisao(estado, item):
     elif falta:
         texto += (f"\n\n⚠️ Não consegui ler: <b>{', '.join(falta)}</b>. "
                   "Responda esta mensagem com o que falta e o botão ✅ Aprovar aparece.")
+    if not falta and not item.get("foto"):
+        texto += "\n\n📷 Sem foto. Se quiser, responda esta mensagem com um print do produto."
     texto += ("\n\n<i>Para corrigir, responda (arrastar para o lado) esta mensagem com uma ou mais linhas:\n"
               "nome: Creatina Growth 250g\npreço: 119,90 69,90\nfrase: A mais vendida\ncupom: NOITEPRIME10\n(frase: - ou cupom: - para tirar)</i>")
     msg = responder_admin(texto, botoes=SO_DESCARTAR(item["id"]) if falta else BOTOES_REVISAO(item["id"]))
@@ -961,6 +970,12 @@ def reler_bloqueadas(estado):
     for item in [x for x in estado["revisar"] if x.get("ler_depois")]:
         lido = ler_pagina(item["link"])
         if lido.pop("_bloqueado", False):
+            item["tentativas"] = item.get("tentativas", 0) + 1
+            if item["tentativas"] >= 2:  # desiste e avisa, para você não ficar esperando à toa
+                item.pop("ler_depois", None)
+                responder_admin("A loja bloqueou de novo. Complete essa oferta respondendo a revisão com nome: e preço:.",
+                                responder_a=item.get("msg_id"))
+            log(f"A loja bloqueou de novo: {item['link']}")
             continue
         item.pop("ler_depois", None)
         for chave, valor in lido.items():
