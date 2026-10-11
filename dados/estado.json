@@ -34,10 +34,11 @@
     {
       "loja": "amazon",
       "link": "https://link.amazon/B0ifEWlUa",
-      "ler_depois": true,
       "chave": "amazon:https://link.amazon/B0ifEWlUa",
       "id": 5,
-      "msg_id": 31
+      "msg_id": 31,
+      "nome": "Gillette Mach3 Carga para Aparelho de Barbear 16 Unidades",
+      "foto": "https://m.media-amazon.com/images/I/71trWiva9mL._AC_SL1000_.jpg"
     }
   ],
   "proximo_id": 6
