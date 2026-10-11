@@ -125,8 +125,14 @@ def _github(metodo, corpo=None):
                                  headers={"Authorization": f"Bearer {segredo('GITHUB_TOKEN')}",
                                           "Accept": "application/vnd.github+json",
                                           "User-Agent": "bot-achados"})
-    with urllib.request.urlopen(req, timeout=20) as resp:
-        return json.loads(resp.read().decode())
+    try:
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            return json.loads(resp.read().decode())
+    except urllib.error.HTTPError as e:
+        if e.code in (401, 403) or (e.code == 404 and metodo == "PUT"):
+            log(f"GitHub recusou ({e.code}). Confira: GITHUB_REPO = '{_repo()}' (tem que ser usuario/grupo-achados, "
+                "sem https) e se o token tem o repositório grupo-achados com Contents: Read and write.")
+        raise
 
 
 def carregar_estado():
@@ -456,7 +462,7 @@ def ler_pagina(link):
         pagina, final = http(link, headers=cabecalhos, timeout=20)
     except Exception as e:
         log(f"Não consegui abrir a página ({e}).")
-        return {}
+        return {"_bloqueado": True}
     loja = loja_do_link(final) if loja_do_link(final) != "outra" else loja_do_link(link)
     if os.environ.get("BOT_SALVAR_PAGINA"):  # usado pelo TESTAR_LINK.bat, para diagnóstico
         destino = PASTA / "dados" / f"pagina_{loja}.html"
@@ -464,7 +470,7 @@ def ler_pagina(link):
         log(f"Página salva em {destino.name} ({len(pagina)} letras). Endereço final: {final}")
     if "captcha" in pagina[:20000].lower() and "productTitle" not in pagina:
         log("A loja mostrou um captcha (bloqueou o robô).")
-        return {}
+        return {"_bloqueado": True}
     achado = extrair_da_pagina(pagina, loja)
     if loja == "shopee":
         achado.update(shopee_por_link(final))
@@ -536,6 +542,8 @@ def interpretar_mensagem(texto, foto=None, buscar_pagina=True):
 
     if buscar_pagina and not ("nome" in item and "foto" in item and "por" in item):
         lido = ler_pagina(link)
+        if lido.pop("_bloqueado", False):
+            item["ler_depois"] = True
         if tem_preco:  # o preço que você escreveu vale mais que o da página
             lido.pop("de", None)
             lido.pop("por", None)
@@ -600,7 +608,10 @@ def mandar_para_revisao(estado, item):
     estado["proximo_id"] += 1
     falta = faltando(item)
     texto = "📝 <b>Revisar oferta</b>\n\n" + (montar_post(item) if item.get("nome") else html.escape(item["link"]))
-    if falta:
+    if falta and item.get("ler_depois"):
+        texto += ("\n\n⏳ A loja bloqueou a leitura agora. Vou tentar de novo sozinho em até 30 minutos, "
+                  "ou você completa já respondendo esta mensagem.")
+    elif falta:
         texto += (f"\n\n⚠️ Não consegui ler: <b>{', '.join(falta)}</b>. "
                   "Responda esta mensagem com o que falta.")
     texto += ("\n\n<i>Para corrigir, responda (arrastar para o lado) esta mensagem com uma ou mais linhas:\n"
@@ -905,7 +916,28 @@ def limpar_estado(estado):
 
 # ---------------------------------------------------------------- comandos
 
+def reler_bloqueadas(estado):
+    """Ofertas que a loja bloqueou no servidor do Render: tenta ler de novo daqui (outro endereço)."""
+    for item in [x for x in estado["revisar"] if x.get("ler_depois")]:
+        lido = ler_pagina(item["link"])
+        if lido.pop("_bloqueado", False):
+            continue
+        item.pop("ler_depois", None)
+        for chave, valor in lido.items():
+            item.setdefault(chave, valor)
+        if not faltando(item):
+            log(f"Consegui ler agora: {item['nome']}")
+            estado["revisar"] = [x for x in estado["revisar"] if x["id"] != item["id"]]
+            item.pop("frase", None) if not item.get("frase") else None
+            mandar_para_revisao(estado, item)
+
+
 def ciclo(estado):
+    if not os.environ.get("RENDER"):
+        try:
+            reler_bloqueadas(estado)
+        except Exception as e:
+            log(f"Erro relendo ofertas bloqueadas: {e}")
     try:
         ler_mensagens(estado)
     except Exception as e:
