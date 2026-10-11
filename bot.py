@@ -1,0 +1,877 @@
+"""Bot do canal de achados (Telegram).
+
+Faz três coisas a cada execução:
+  1. Lê as mensagens que você mandou no privado do bot (links da Amazon e do
+     Mercado Livre) e coloca as ofertas na fila.
+  2. Uma vez por dia busca ofertas da Shopee pela Affiliate Open API, filtra
+     pelo nicho e coloca no máximo 2 na fila.
+  3. Se chegou a hora de um dos horários de postagem, posta a próxima oferta
+     da fila no canal.
+
+Só usa a biblioteca padrão do Python (nada para instalar).
+
+Uso:
+  python bot.py rodar            ciclo completo (o GitHub Actions roda isso a cada hora)
+  python bot.py rodar --simular  mostra na tela o que faria, sem mandar nada
+  python bot.py ids              descobre o seu ID e o ID do canal
+  python bot.py previa "texto"   mostra como uma mensagem sua vira post
+  python bot.py teste-canal      manda uma mensagem de teste no canal
+"""
+
+import hashlib
+import html
+import json
+import os
+import random
+import re
+import sys
+import time
+import urllib.error
+import urllib.parse
+import urllib.request
+from datetime import datetime, timedelta, timezone
+from pathlib import Path
+
+PASTA = Path(__file__).resolve().parent
+ARQ_CONFIG = PASTA / "config.json"
+ARQ_ESTADO = PASTA / "dados" / "estado.json"
+ARQ_MOCK = PASTA / "dados" / "shopee_exemplo.json"
+ARQ_ENV = PASTA / ".env"
+
+# Horário de Brasília (sem horário de verão desde 2019).
+BRT = timezone(timedelta(hours=-3))
+
+SHOPEE_URL = "https://open-api.affiliate.shopee.com.br/graphql"
+USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+
+SIMULAR = False
+FORCAR = False  # --agora: posta a próxima da fila sem esperar o horário (para teste)
+
+
+# ---------------------------------------------------------------- utilidades
+
+def log(msg):
+    print(f"[{agora():%d/%m %H:%M}] {msg}", flush=True)
+
+
+def agora():
+    hora = os.environ.get("BOT_HORA_TESTE")  # só para teste: força a hora
+    dt = datetime.now(BRT)
+    if hora:
+        dt = dt.replace(hour=int(hora), minute=5)
+    return dt
+
+
+def carregar_env():
+    """Lê o .env local (no GitHub os segredos já vêm como variáveis)."""
+    if not ARQ_ENV.exists():
+        return
+    for linha in ARQ_ENV.read_text(encoding="utf-8").splitlines():
+        linha = linha.strip()
+        if not linha or linha.startswith("#") or "=" not in linha:
+            continue
+        chave, valor = linha.split("=", 1)
+        os.environ.setdefault(chave.strip(), valor.strip().strip('"').strip("'"))
+
+
+def segredo(nome):
+    return os.environ.get(nome, "").strip()
+
+
+def carregar_json(caminho, padrao):
+    if caminho.exists():
+        return json.loads(caminho.read_text(encoding="utf-8"))
+    return padrao
+
+
+def salvar_json(caminho, dados):
+    caminho.parent.mkdir(parents=True, exist_ok=True)
+    caminho.write_text(json.dumps(dados, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def estado_vazio():
+    return {
+        "offset_telegram": 0,
+        "fila": [],
+        "postados": [],       # {chave, loja, nome, data}
+        "slots_usados": {},   # {"2026-10-11": [12, 18]}
+        "shopee_buscado_em": "",
+        "revisar": [],        # ofertas esperando você aprovar
+        "proximo_id": 1,
+    }
+
+
+def http(url, dados=None, headers=None, timeout=20):
+    corpo = None
+    if dados is not None:
+        corpo = dados if isinstance(dados, bytes) else urllib.parse.urlencode(dados).encode()
+    req = urllib.request.Request(url, data=corpo, headers={"User-Agent": USER_AGENT, **(headers or {})})
+    with urllib.request.urlopen(req, timeout=timeout) as resp:
+        return resp.read().decode("utf-8", errors="replace"), resp.geturl()
+
+
+def reais(valor):
+    return f"R$ {valor:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
+
+
+def numero_br(texto):
+    """'1.299,90' -> 1299.9 ; '129' -> 129.0 ; '129.90' -> 129.9"""
+    t = texto.strip()
+    if "," in t:
+        t = t.replace(".", "").replace(",", ".")
+    elif re.fullmatch(r"\d{1,3}(\.\d{3})+", t):
+        t = t.replace(".", "")
+    return float(t)
+
+
+# ---------------------------------------------------------------- telegram
+
+def telegram(metodo, **params):
+    token = segredo("TELEGRAM_TOKEN")
+    if not token:
+        raise RuntimeError("Falta o TELEGRAM_TOKEN (no .env ou nos segredos do GitHub).")
+    dados = {k: (json.dumps(v) if isinstance(v, (dict, list)) else v) for k, v in params.items() if v is not None}
+    try:
+        texto, _ = http(f"https://api.telegram.org/bot{token}/{metodo}", dados, timeout=30)
+    except urllib.error.HTTPError as e:
+        texto = e.read().decode("utf-8", errors="replace")
+    resp = json.loads(texto)
+    if not resp.get("ok"):
+        raise RuntimeError(f"Telegram recusou {metodo}: {resp.get('description')}")
+    return resp["result"]
+
+
+def responder_admin(texto, botoes=None, responder_a=None):
+    """Manda mensagem no seu privado. Devolve a mensagem enviada (para guardar o ID)."""
+    admin = segredo("ADMIN_ID")
+    if SIMULAR or not admin:
+        log(f"(resposta para você) {texto}" + (f"  [botões: {botoes}]" if botoes else ""))
+        return {}
+    try:
+        return telegram("sendMessage", chat_id=admin, text=texto, parse_mode="HTML",
+                        disable_web_page_preview="true", reply_markup=botoes,
+                        reply_to_message_id=responder_a)
+    except Exception as e:
+        log(f"Não consegui te responder no privado: {e}")
+        return {}
+
+
+def publicar(item):
+    texto = montar_post(item)
+    canal = segredo("TELEGRAM_CHANNEL")
+    if SIMULAR:
+        log("(simulação) post que iria para o canal:\n" + "-" * 40 + f"\n{texto}\n" + "-" * 40)
+        return
+    if not canal:
+        raise RuntimeError("Falta o TELEGRAM_CHANNEL (no .env ou nos segredos do GitHub).")
+    foto = item.get("foto")
+    if foto and len(texto) <= 1024:
+        try:
+            telegram("sendPhoto", chat_id=canal, photo=foto, caption=texto, parse_mode="HTML")
+            return
+        except RuntimeError as e:
+            log(f"Foto falhou ({e}), mandando só o texto.")
+    telegram("sendMessage", chat_id=canal, text=texto, parse_mode="HTML")
+
+
+# ---------------------------------------------------------------- formato do post
+
+def montar_post(item):
+    def e(t):
+        return html.escape(t, quote=False)
+    linhas = [f"🔥 <b>{e(item['nome'])}</b>"]
+    de, por = item.get("de"), item.get("por")
+    if por and de and de > por:
+        off = round((1 - por / de) * 100)
+        linhas.append(f"De <s>{reais(de)}</s> por <b>{reais(por)}</b> ({off}% off)")
+    elif por:
+        linhas.append(f"Por <b>{reais(por)}</b>")
+    if item.get("cupom"):
+        linhas.append(f"🎟️ Cupom: <code>{e(item['cupom'])}</code>")
+    elif item.get("cupom_loja"):
+        linhas.append(f"🎟️ {e(item['cupom_loja'])}")
+    if item.get("frase"):
+        linhas.append(f"✅ {e(item['frase'])}")
+    loja = {"amazon": "Amazon", "mercadolivre": "Mercado Livre", "shopee": "Shopee"}.get(item.get("loja"), "")
+    linhas.append(f"🛒 {e(item['link'])}" + (f"  ({loja})" if loja else ""))
+    rodape = CONFIG.get("rodape", "")
+    if rodape:
+        linhas += ["", e(rodape)]
+    return "\n".join(linhas)
+
+
+# ---------------------------------------------------------------- seus links (Amazon / ML / Shopee)
+
+def loja_do_link(link):
+    host = urllib.parse.urlparse(link).netloc.lower()
+    if "amzn" in host or "amazon" in host:
+        return "amazon"
+    if "mercadolivre" in host or "mercadolibre" in host or "meli.la" in host:
+        return "mercadolivre"
+    if "shopee" in host or "shp.ee" in host:
+        return "shopee"
+    return "outra"
+
+
+def _limpar(texto):
+    texto = html.unescape(re.sub(r"<[^>]+>", " ", texto or ""))
+    return re.sub(r"\s+", " ", texto).strip()
+
+
+def _preco(texto):
+    """'R$ 1.299,90' / '1299.90' / 1299.9 -> 1299.9"""
+    if texto is None:
+        return None
+    if isinstance(texto, (int, float)):
+        return float(texto) or None
+    m = re.search(r"\d[\d.,]*", str(texto))
+    if not m:
+        return None
+    t = m.group(0).rstrip(".,")
+    if "," in t:
+        t = t.replace(".", "").replace(",", ".")
+    elif t.count(".") > 1 or re.fullmatch(r"\d{1,3}\.\d{3}", t):
+        t = t.replace(".", "")
+    try:
+        return float(t) or None
+    except ValueError:
+        return None
+
+
+def nome_curto(nome, limite=70):
+    """Títulos de loja são enormes. Corta no primeiro separador e no limite de letras."""
+    nome = _limpar(nome)
+    nome = re.sub(r"\s*[|]\s*(Mercado Livre|Amazon\.com\.br|Shopee Brasil).*$", "", nome, flags=re.I)
+    nome = re.sub(r"\s*[-–]\s*(Mercado Livre|Amazon\.com\.br|Shopee Brasil)\s*$", "", nome, flags=re.I)
+    for sep in (" | ", " - ", " – ", ", "):
+        antes = nome.split(sep)[0]
+        if sep in nome and len(antes) >= 15:
+            nome = antes
+            break
+    if len(nome) > limite:
+        nome = nome[:limite].rsplit(" ", 1)[0]
+    return nome.strip(" -,|")
+
+
+def extrair_da_pagina(pagina, loja):
+    """Lê nome, preço atual, preço antigo e foto do HTML de uma página de produto."""
+    achado = {}
+
+    def meta(prop):
+        m = re.search(rf'<meta[^>]+(?:property|name|itemprop)=["\']{prop}["\'][^>]*content=["\']([^"\']+)', pagina, re.I) \
+            or re.search(rf'<meta[^>]+content=["\']([^"\']+)["\'][^>]+(?:property|name|itemprop)=["\']{prop}["\']', pagina, re.I)
+        return html.unescape(m.group(1)).strip() if m else ""
+
+    # 1) Dados estruturados (JSON-LD), quando a loja coloca.
+    for bloco in re.findall(r'<script[^>]+application/ld\+json[^>]*>(.*?)</script>', pagina, re.S | re.I):
+        try:
+            dados = json.loads(bloco.strip())
+        except ValueError:
+            continue
+        pilha = dados if isinstance(dados, list) else [dados]
+        while pilha:
+            d = pilha.pop()
+            if isinstance(d, list):
+                pilha.extend(d)
+                continue
+            if not isinstance(d, dict):
+                continue
+            pilha.extend(d.get("@graph", []) if isinstance(d.get("@graph"), list) else [])
+            if "Product" not in str(d.get("@type", "")):
+                continue
+            achado.setdefault("nome", d.get("name"))
+            img = d.get("image")
+            img = img[0] if isinstance(img, list) and img else img
+            if isinstance(img, dict):
+                img = img.get("url")
+            if isinstance(img, str):
+                achado.setdefault("foto", img)
+            ofertas = d.get("offers") or {}
+            ofertas = ofertas[0] if isinstance(ofertas, list) and ofertas else ofertas
+            if isinstance(ofertas, dict):
+                p = _preco(ofertas.get("price") or ofertas.get("lowPrice"))
+                if p:
+                    achado.setdefault("por", p)
+
+    # 2) Partes específicas de cada loja.
+    if loja == "amazon":
+        m = re.search(r'id="productTitle"[^>]*>(.*?)</span>', pagina, re.S)
+        if m:
+            achado["nome"] = _limpar(m.group(1))
+        m = re.search(r'(?:corePriceDisplay|corePrice_feature_div|apex_desktop).*?class="a-offscreen">([^<]+)<', pagina, re.S)
+        if m:
+            achado["por"] = _preco(m.group(1))
+        m = re.search(r'class="a-price a-text-price"[^>]*data-a-strike="true"[^>]*>\s*<span class="a-offscreen">([^<]+)<', pagina, re.S)
+        if m:
+            achado["de"] = _preco(m.group(1))
+        m = re.search(r'(Aplicar (?:o )?cupom de [^<]{1,30}?)(?:<|\s{2})', pagina)
+        if m:
+            achado["cupom_loja"] = _limpar(m.group(1)).rstrip(" .") + " na página"
+        m = re.search(r'"hiRes":"(https://[^"]+)"', pagina) or re.search(r'data-old-hires="(https://[^"]+)"', pagina)
+        if m:
+            achado["foto"] = m.group(1)
+    elif loja == "mercadolivre":
+        # Link de afiliado do ML abre a "vitrine" (/social/...): o produto principal é o do og:title,
+        # e o preço dele vem num bloco JSON logo depois do nome (os outros blocos são recomendações).
+        titulo = meta("og:title")
+        if titulo:
+            for pos in [mm.start() for mm in re.finditer(re.escape(json.dumps(titulo, ensure_ascii=False)[1:-1]), pagina)]:
+                trecho = pagina[pos:pos + 3000]
+                atual = re.search(r'"current_price":\{"value":([\d.]+)', trecho)
+                if atual:
+                    achado["por"] = float(atual.group(1))
+                    antes = re.search(r'"previous_price":\{"value":([\d.]+)', trecho[:atual.start()])
+                    if antes:
+                        achado["de"] = float(antes.group(1))
+                    break
+        m = re.search(r'"original_price":\s*([\d.]+)', pagina)
+        if m and "de" not in achado:
+            achado["de"] = _preco(float(m.group(1)))
+        m = re.search(r'andes-money-amount--previous[^>]*aria-label="[^"]*?(\d[\d.]*)\s*reais(?:\s*(?:com|con)\s*(\d+)\s*centavos)?', pagina)
+        if m and "de" not in achado:
+            achado["de"] = float(m.group(1).replace(".", "")) + (int(m.group(2)) / 100 if m.group(2) else 0)
+
+    # 3) Etiquetas genéricas (Open Graph), como último recurso.
+    achado.setdefault("nome", meta("og:title") or meta("twitter:title"))
+    achado.setdefault("foto", meta("og:image"))
+    if not achado.get("por"):
+        achado["por"] = _preco(meta("product:price:amount") or meta("og:price:amount") or meta("price"))
+
+    if achado.get("nome"):
+        achado["nome"] = nome_curto(achado["nome"])
+    if achado.get("de") and achado.get("por") and achado["de"] <= achado["por"]:
+        achado.pop("de")
+    return {k: v for k, v in achado.items() if v}
+
+
+def ler_pagina(link):
+    """Abre o link (seguindo o redirecionamento do link curto) e lê a página. Se a loja bloquear, devolve vazio."""
+    cabecalhos = {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "pt-BR,pt;q=0.9,en;q=0.8",
+    }
+    try:
+        pagina, final = http(link, headers=cabecalhos, timeout=20)
+    except Exception as e:
+        log(f"Não consegui abrir a página ({e}).")
+        return {}
+    loja = loja_do_link(final) if loja_do_link(final) != "outra" else loja_do_link(link)
+    if os.environ.get("BOT_SALVAR_PAGINA"):  # usado pelo TESTAR_LINK.bat, para diagnóstico
+        destino = PASTA / "dados" / f"pagina_{loja}.html"
+        destino.write_text(f"<!-- {final} -->\n" + pagina, encoding="utf-8")
+        log(f"Página salva em {destino.name} ({len(pagina)} letras). Endereço final: {final}")
+    if "captcha" in pagina[:20000].lower() and "productTitle" not in pagina:
+        log("A loja mostrou um captcha (bloqueou o robô).")
+        return {}
+    achado = extrair_da_pagina(pagina, loja)
+    if loja == "shopee":
+        achado.update(shopee_por_link(final))
+    return achado
+
+
+def shopee_por_link(url):
+    """Com a chave da Open API, busca nome, preço e foto pelo número do produto que está no link."""
+    m = re.search(r"i\.(\d+)\.(\d+)", url) or re.search(r"shopee\.com\.br/(?:[^/?]+/)?(\d{5,})/(\d{5,})", url)
+    if not m or not segredo("SHOPEE_APP_ID"):
+        return {}
+    try:
+        nos = shopee_consulta(CONSULTA_SHOPEE_ITEM, {"item": int(m.group(2)), "loja": int(m.group(1))})
+    except Exception as e:
+        log(f"Shopee API não achou o produto: {e}")
+        return {}
+    if not nos:
+        return {}
+    o = oferta_shopee(nos[0])
+    return {k: o[k] for k in ("nome", "por", "de", "foto") if o.get(k)}
+
+
+def ler_precos(linha):
+    nums = [numero_br(n) for n in re.findall(r"\d[\d.]*(?:,\d{1,2})?", linha)]
+    if len(nums) >= 2:
+        return max(nums[:2]), min(nums[:2])
+    return None, (nums[0] if nums else None)
+
+
+def interpretar_mensagem(texto, foto=None, buscar_pagina=True):
+    """Transforma o que você mandou no privado em uma oferta.
+
+    Basta o link. O bot tenta ler nome, preço e foto da página. O que você
+    escrever nas linhas de baixo tem prioridade sobre o que ele leu:
+        https://amzn.to/abc123
+        Creatina 1kg Growth
+        De 199 por 129
+        A mais vendida, rende 200 doses
+    """
+    urls = re.findall(r"https?://\S+", texto)
+    if not urls:
+        return None, "Não achei nenhum link na mensagem. Manda o link do produto (e, se quiser, nome e preço embaixo)."
+    link = urls[0].rstrip(").,")
+    # Texto na mesma linha do link é ignorado (ex.: mensagem encaminhada de outro canal).
+    resto = [l.strip() for l in texto.splitlines() if l.strip() and urls[0] not in l]
+
+    item = {"loja": loja_do_link(link), "link": link}
+    if foto:
+        item["foto"] = foto
+
+    tem_preco = False
+    for linha in list(resto):
+        m = re.match(r"cupom\s*[:=]?\s*(\S+)", linha, re.I)
+        if m:
+            item["cupom"] = m.group(1)
+            resto.remove(linha)
+    for linha in resto:
+        if not tem_preco and re.search(r"\d", linha) and re.search(r"(r\$|\bde\b|\bpor\b|^\s*[\d.,]+(\s+[\d.,]+)?\s*$)", linha, re.I):
+            de, por = ler_precos(linha)
+            if de:
+                item["de"] = de
+            if por:
+                item["por"] = por
+            tem_preco = True
+        elif "nome" not in item:
+            item["nome"] = linha
+        elif "frase" not in item:
+            item["frase"] = linha
+
+    if buscar_pagina and not ("nome" in item and "foto" in item and "por" in item):
+        lido = ler_pagina(link)
+        if tem_preco:  # o preço que você escreveu vale mais que o da página
+            lido.pop("de", None)
+            lido.pop("por", None)
+        for chave, valor in lido.items():
+            item.setdefault(chave, valor)
+
+    item["chave"] = f"{item['loja']}:{link}"
+    return item, None
+
+
+def faltando(item):
+    falta = []
+    if not item.get("nome"):
+        falta.append("nome")
+    if not item.get("por"):
+        falta.append("preço")
+    return falta
+
+
+BOTOES_REVISAO = lambda i: {"inline_keyboard": [[
+    {"text": "✅ Aprovar", "callback_data": f"ok:{i}"},
+    {"text": "❌ Descartar", "callback_data": f"no:{i}"},
+]]}
+
+
+def gerar_frase(item):
+    """Frase chamativa para a oferta. Usa IA (Gemini, grátis) se tiver a chave; se não, o banco de frases do config."""
+    off = round((1 - item["por"] / item["de"]) * 100) if item.get("de") and item.get("por") else 0
+    chave = segredo("GEMINI_API_KEY")
+    if chave and not SIMULAR:
+        modelo = CONFIG.get("ia", {}).get("modelo", "gemini-2.5-flash")
+        pedido = (CONFIG.get("ia", {}).get("instrucao", "") +
+                  f"\nProduto: {item.get('nome')}\nPreço: {item.get('por')}\nDesconto: {off}%\nFrase:")
+        try:
+            texto, _ = http(f"https://generativelanguage.googleapis.com/v1beta/models/{modelo}:generateContent?key={chave}",
+                            json.dumps({"contents": [{"parts": [{"text": pedido}]}]}).encode(),
+                            {"Content-Type": "application/json"})
+            frase = json.loads(texto)["candidates"][0]["content"]["parts"][0]["text"].strip().strip('"')
+            if frase:
+                return frase.splitlines()[0][:140]
+        except Exception as e:
+            log(f"IA não respondeu ({e}), usando o banco de frases.")
+    frases = CONFIG.get("frases", {})
+    nome = (item.get("nome") or "").lower()
+    opcoes = []
+    for tema, palavras in CONFIG.get("palavras", {}).items():
+        if any(re.search(rf"\b{re.escape(p)}\b", nome) for p in palavras):
+            opcoes = frases.get(tema, [])
+            break
+    if off >= 40:
+        opcoes = opcoes + frases.get("desconto_alto", [])
+    opcoes = opcoes or frases.get("geral", [])
+    if not opcoes:
+        return ""
+    return random.choice(opcoes).replace("{off}", str(off))
+
+
+def mandar_para_revisao(estado, item):
+    if not item.get("frase") and item.get("nome"):
+        item["frase"] = gerar_frase(item)
+    item["id"] = estado["proximo_id"]
+    estado["proximo_id"] += 1
+    falta = faltando(item)
+    texto = "📝 <b>Revisar oferta</b>\n\n" + (montar_post(item) if item.get("nome") else html.escape(item["link"]))
+    if falta:
+        texto += (f"\n\n⚠️ Não consegui ler: <b>{', '.join(falta)}</b>. "
+                  "Responda esta mensagem com o que falta.")
+    texto += ("\n\n<i>Para corrigir, responda (arrastar para o lado) esta mensagem com uma ou mais linhas:\n"
+              "nome: Creatina Growth 250g\npreço: 119,90 69,90\nfrase: A mais vendida\ncupom: NOITEPRIME10\n(frase: - ou cupom: - para tirar)</i>")
+    msg = responder_admin(texto, botoes=None if falta else BOTOES_REVISAO(item["id"]))
+    item["msg_id"] = msg.get("message_id") if msg else None
+    estado["revisar"].append(item)
+
+
+def aplicar_correcao(item, texto):
+    """Linhas tipo 'nome: ...', 'preço: 199 129', 'frase: ...', 'link: ...'. Linha sem rótulo com números = preço."""
+    for linha in texto.splitlines():
+        linha = linha.strip()
+        if not linha:
+            continue
+        m = re.match(r"(nome|t[ií]tulo|pre[cç]o|frase|link|de|por|cupom)\s*[:=]\s*(.+)", linha, re.I)
+        campo, valor = (m.group(1).lower(), m.group(2).strip()) if m else ("", linha)
+        if campo.startswith("pre") or (not campo and re.fullmatch(r"[\d.,R$\s]+|de .+ por .+", linha, re.I)):
+            de, por = ler_precos(valor)
+            item["de"], item["por"] = de, por
+            if not de:
+                item.pop("de", None)
+        elif campo == "de":
+            item["de"] = _preco(valor)
+        elif campo == "por":
+            item["por"] = _preco(valor)
+        elif campo in ("nome", "título", "titulo") or (not campo and not item.get("nome")):
+            item["nome"] = valor
+        elif campo == "frase" or not campo:
+            item["frase"] = "" if valor == "-" else valor
+        elif campo == "link":
+            item["link"] = valor
+        elif campo == "cupom":
+            item["cupom"] = "" if valor == "-" else valor
+            if valor == "-":
+                item.pop("cupom_loja", None)
+
+
+def aprovar(estado, item):
+    estado["revisar"] = [x for x in estado["revisar"] if x["id"] != item["id"]]
+    if any(x["chave"] == item["chave"] for x in estado["fila"]):
+        return "Esse link já estava na fila."
+    limpo = {k: v for k, v in item.items() if k not in ("id", "msg_id")}
+    estado["fila"].append(limpo)
+    return f"✅ Aprovada. Posição {len(estado['fila'])} na fila."
+
+
+def tratar_botao(estado, cb):
+    try:
+        telegram("answerCallbackQuery", callback_query_id=cb["id"])
+    except Exception:
+        pass  # clique antigo: o Telegram já não aceita resposta, mas a ação vale
+    acao, _, ident = (cb.get("data") or "").partition(":")
+    item = next((x for x in estado["revisar"] if str(x["id"]) == ident), None)
+    msg = cb.get("message") or {}
+    if not item:
+        resultado = "Essa oferta já foi resolvida."
+    elif acao == "ok":
+        falta = faltando(item)
+        resultado = f"Ainda falta: {', '.join(falta)}." if falta else aprovar(estado, item)
+    else:
+        estado["revisar"] = [x for x in estado["revisar"] if x["id"] != item["id"]]
+        resultado = "❌ Descartada."
+    try:
+        telegram("editMessageReplyMarkup", chat_id=msg["chat"]["id"], message_id=msg["message_id"],
+                 reply_markup={"inline_keyboard": []})
+    except Exception:
+        pass
+    responder_admin(resultado, responder_a=msg.get("message_id"))
+
+
+def ler_mensagens(estado):
+    admin = segredo("ADMIN_ID")
+    if SIMULAR or not segredo("TELEGRAM_TOKEN"):
+        return
+    updates = telegram("getUpdates", offset=estado["offset_telegram"] + 1 if estado["offset_telegram"] else None,
+                       timeout=0, allowed_updates=["message", "callback_query"])
+    for up in updates:
+        estado["offset_telegram"] = up["update_id"]
+        if up.get("callback_query"):
+            cb = up["callback_query"]
+            if str(cb.get("from", {}).get("id")) == admin:
+                tratar_botao(estado, cb)
+            continue
+        msg = up.get("message") or {}
+        if msg.get("chat", {}).get("type") != "private":
+            continue
+        if str(msg.get("from", {}).get("id")) != admin:
+            log("Ignorei mensagem de alguém que não é o admin.")
+            continue
+        texto = (msg.get("text") or msg.get("caption") or "").strip()
+        foto = msg["photo"][-1]["file_id"] if msg.get("photo") else None
+        respondida = (msg.get("reply_to_message") or {}).get("message_id")
+        item = next((x for x in estado["revisar"] if respondida and x.get("msg_id") == respondida), None)
+        if item:
+            aplicar_correcao(item, texto)
+            if foto:
+                item["foto"] = foto
+            estado["revisar"] = [x for x in estado["revisar"] if x["id"] != item["id"]]
+            mandar_para_revisao(estado, item)
+        else:
+            tratar_comando(estado, texto, foto)
+
+
+def tratar_comando(estado, texto, foto=None):
+    cmd = texto.split()[0].lower() if texto else ""
+    if cmd in ("/start", "/ajuda"):
+        responder_admin(
+            "Me manda só o link de afiliado (Amazon, Mercado Livre ou Shopee). Eu leio nome, preço e foto "
+            "e te mando para revisar. Se quiser, escreva nas linhas de baixo o nome, o preço (De 199 por 129) "
+            "e uma frase, e isso vale mais que o que eu ler.\n\n"
+            "Comandos:\n/fila (ver a fila)\n/remover N (tirar o item N da fila)\n"
+            "/pendentes (ofertas esperando revisão)\n/aprovartudo (aprova todas as pendentes completas)\n/ajuda")
+    elif cmd == "/fila":
+        if not estado["fila"]:
+            responder_admin("A fila está vazia.")
+        else:
+            linhas = [f"{i}. [{x['loja']}] {html.escape(x['nome'])}" for i, x in enumerate(estado["fila"], 1)]
+            responder_admin("Fila de postagem:\n" + "\n".join(linhas))
+    elif cmd == "/remover":
+        try:
+            n = int(texto.split()[1])
+            tirado = estado["fila"].pop(n - 1)
+            responder_admin(f"Tirei da fila: {html.escape(tirado['nome'])}")
+        except (IndexError, ValueError):
+            responder_admin("Use assim: /remover 2 (o número que aparece no /fila)")
+    elif cmd == "/pendentes":
+        if not estado["revisar"]:
+            responder_admin("Nada esperando revisão.")
+        for item in list(estado["revisar"]):
+            estado["revisar"] = [x for x in estado["revisar"] if x["id"] != item["id"]]
+            mandar_para_revisao(estado, item)
+    elif cmd == "/aprovartudo":
+        prontos = [x for x in estado["revisar"] if not faltando(x)]
+        for item in prontos:
+            aprovar(estado, item)
+        responder_admin(f"Aprovei {len(prontos)} oferta(s). Fila: {len(estado['fila'])}.")
+    else:
+        item, erro = interpretar_mensagem(texto, foto)
+        if erro:
+            responder_admin(erro)
+            return
+        if any(x["chave"] == item["chave"] for x in estado["fila"] + estado["revisar"]):
+            responder_admin("Esse link já está na fila ou esperando revisão.")
+            return
+        mandar_para_revisao(estado, item)
+
+
+# ---------------------------------------------------------------- Shopee
+
+CONSULTA_SHOPEE = """query ($palavra: String, $limite: Int) {
+  productOfferV2(keyword: $palavra, sortType: 2, page: 1, limit: $limite) {
+    nodes { itemId productName price priceMin priceMax priceDiscountRate
+            sales ratingStar imageUrl offerLink shopName }
+  }
+}"""
+
+
+CONSULTA_SHOPEE_ITEM = """query ($item: Int64, $loja: Int64) {
+  productOfferV2(itemId: $item, shopId: $loja, page: 1, limit: 1) {
+    nodes { itemId productName price priceMin priceMax priceDiscountRate
+            sales ratingStar imageUrl offerLink shopName }
+  }
+}"""
+
+
+def shopee_buscar(palavra, limite):
+    if not (segredo("SHOPEE_APP_ID") and segredo("SHOPEE_SECRET")):
+        exemplos = carregar_json(ARQ_MOCK, {})
+        return exemplos.get(palavra, [])
+    return shopee_consulta(CONSULTA_SHOPEE, {"palavra": palavra, "limite": limite})
+
+
+def shopee_consulta(consulta, variaveis):
+    app_id, secret = segredo("SHOPEE_APP_ID"), segredo("SHOPEE_SECRET")
+    corpo = json.dumps({"query": consulta, "variables": variaveis}, separators=(",", ":"))
+    ts = str(int(time.time()))
+    assinatura = hashlib.sha256(f"{app_id}{ts}{corpo}{secret}".encode()).hexdigest()
+    headers = {"Content-Type": "application/json",
+               "Authorization": f"SHA256 Credential={app_id}, Timestamp={ts}, Signature={assinatura}"}
+    texto, _ = http(SHOPEE_URL, corpo.encode(), headers)
+    resp = json.loads(texto)
+    if resp.get("errors"):
+        raise RuntimeError(f"Shopee respondeu com erro: {resp['errors']}")
+    return resp["data"]["productOfferV2"]["nodes"]
+
+
+def oferta_shopee(no):
+    preco = float(no.get("priceMin") or no.get("price") or 0)
+    desconto = float(no.get("priceDiscountRate") or 0)
+    de = round(preco / (1 - desconto / 100), 2) if 0 < desconto < 100 else None
+    return {
+        "loja": "shopee",
+        "chave": f"shopee:{no.get('itemId')}",
+        "nome": (no.get("productName") or "").strip()[:120],
+        "por": preco or None,
+        "de": de,
+        "desconto": desconto,
+        "nota": float(no.get("ratingStar") or 0),
+        "vendas": int(no.get("sales") or 0),
+        "foto": no.get("imageUrl"),
+        "link": no.get("offerLink"),
+    }
+
+
+def buscar_shopee(estado):
+    regras = CONFIG["shopee"]
+    hoje = agora().date().isoformat()
+    if not regras.get("ativo", True):
+        return
+    if not SIMULAR and not segredo("SHOPEE_APP_ID"):
+        return  # sem a chave da API, ofertas de exemplo só aparecem na simulação
+    if estado.get("shopee_buscado_em") == hoje:
+        return
+    if agora().hour < regras.get("buscar_a_partir_das", 8):
+        return
+    modo = "API" if segredo("SHOPEE_APP_ID") else "exemplo (sem chave da API ainda)"
+    log(f"Buscando ofertas da Shopee, modo {modo}...")
+
+    limite_dias = agora() - timedelta(days=regras["nao_repetir_dias"])
+    recentes = {p["chave"] for p in estado["postados"] if datetime.fromisoformat(p["data"]) >= limite_dias}
+    na_fila = {x["chave"] for x in estado["fila"]}
+
+    candidatos = {}
+    for palavras in CONFIG["palavras"].values():
+        for palavra in palavras:
+            try:
+                nos = shopee_buscar(palavra, regras.get("resultados_por_palavra", 20))
+            except Exception as e:
+                log(f"Shopee falhou em '{palavra}': {e}")
+                continue
+            for no in nos:
+                o = oferta_shopee(no)
+                if not o["link"] or not o["nome"] or o["chave"] in recentes or o["chave"] in na_fila:
+                    continue
+                if o["desconto"] < regras["desconto_minimo"] or o["nota"] < regras["nota_minima"] \
+                        or o["vendas"] < regras["vendas_minimas"]:
+                    continue
+                candidatos[o["chave"]] = o
+
+    escolhidos = sorted(candidatos.values(), key=lambda o: (o["desconto"], o["vendas"]), reverse=True)
+    escolhidos = escolhidos[: regras["maximo_por_dia"]]
+    estado["fila"].extend(escolhidos)
+    estado["shopee_buscado_em"] = hoje
+    log(f"Shopee: {len(candidatos)} passaram no filtro, {len(escolhidos)} entraram na fila.")
+
+
+# ---------------------------------------------------------------- postagem
+
+def postar_se_for_hora(estado):
+    dt = agora()
+    hoje = dt.date().isoformat()
+    usados = estado["slots_usados"].setdefault(hoje, [])
+    # Horários que já chegaram (com até 2h de atraso, caso o GitHub demore) e ainda não foram usados.
+    vencidos = [h for h in CONFIG["horarios"] if 0 <= dt.hour - h <= 2 and h not in usados]
+    if FORCAR:
+        vencidos = ["teste"]
+    if not vencidos:
+        log("Nenhum horário de postagem agora.")
+        return
+    if not estado["fila"]:
+        log("Chegou um horário de postagem, mas a fila está vazia.")
+        return
+    item = estado["fila"][0]
+    publicar(item)
+    estado["fila"].pop(0)
+    # Um post por execução: se o GitHub atrasar e passar mais de um horário,
+    # o próximo sai na execução seguinte, sem rajada.
+    if not FORCAR:
+        usados.append(vencidos[0])
+    estado["postados"].append({"chave": item["chave"], "loja": item["loja"],
+                               "nome": item["nome"], "data": dt.isoformat(timespec="minutes")})
+    log(f"Postado: {item['nome']}")
+
+
+def limpar_estado(estado):
+    corte = (agora() - timedelta(days=30)).date().isoformat()
+    estado["postados"] = [p for p in estado["postados"] if p["data"][:10] >= corte]
+    estado["slots_usados"] = {d: v for d, v in estado["slots_usados"].items() if d >= corte}
+
+
+# ---------------------------------------------------------------- comandos
+
+def cmd_rodar():
+    estado = carregar_json(ARQ_ESTADO, estado_vazio())
+    for chave, valor in estado_vazio().items():
+        estado.setdefault(chave, valor)
+    if SIMULAR:
+        log("MODO SIMULAÇÃO: nada é enviado e o estado não é salvo.")
+    try:
+        ler_mensagens(estado)
+    except Exception as e:
+        log(f"Erro lendo suas mensagens: {e}")
+    try:
+        buscar_shopee(estado)
+    except Exception as e:
+        log(f"Erro na Shopee: {e}")
+    try:
+        postar_se_for_hora(estado)
+    except Exception as e:
+        log(f"Erro ao postar: {e}")
+    limpar_estado(estado)
+    log(f"Fila agora: {len(estado['fila'])} oferta(s).")
+    if not SIMULAR:
+        salvar_json(ARQ_ESTADO, estado)
+
+
+def cmd_ids():
+    updates = telegram("getUpdates", timeout=0)
+    if not updates:
+        print("Nada chegou ainda. Mande um 'oi' no privado do bot e poste qualquer coisa no canal "
+              "(com o bot já como administrador), depois rode de novo.")
+        return
+    vistos = set()
+    for up in updates:
+        msg = up.get("message") or up.get("channel_post") or up.get("my_chat_member") or {}
+        chat = msg.get("chat", {})
+        if chat.get("type") == "private" and ("eu", chat["id"]) not in vistos:
+            vistos.add(("eu", chat["id"]))
+            print(f"Seu ID (ADMIN_ID): {chat['id']}  ({chat.get('first_name', '')})")
+        elif chat.get("type") == "channel" and ("canal", chat["id"]) not in vistos:
+            vistos.add(("canal", chat["id"]))
+            print(f"ID do canal (TELEGRAM_CHANNEL): {chat['id']}  ({chat.get('title', '')})")
+
+
+def cmd_previa(texto):
+    item, erro = interpretar_mensagem(texto)
+    if erro:
+        print(erro)
+        return
+    if item.get("nome") and not item.get("frase"):
+        item["frase"] = gerar_frase(item)
+    print("Como fica no canal (o Telegram transforma <b> em negrito e <s> em riscado):\n")
+    print(montar_post(item) if item.get("nome") else f"(sem nome) {item['link']}")
+    falta = faltando(item)
+    print("\nO que o bot leu sozinho:", {k: v for k, v in item.items() if k not in ("chave",)})
+    if falta:
+        print("Faltou:", ", ".join(falta), "(você completaria respondendo a mensagem de revisão)")
+
+
+def cmd_teste_canal():
+    telegram("sendMessage", chat_id=segredo("TELEGRAM_CHANNEL"),
+             text="✅ Teste do bot de achados: se você está lendo isso, o bot consegue postar aqui.")
+    print("Mensagem de teste enviada para o canal.")
+
+
+def main():
+    global SIMULAR, FORCAR, CONFIG
+    sys.stdout.reconfigure(encoding="utf-8")
+    carregar_env()
+    CONFIG = carregar_json(ARQ_CONFIG, {})
+    args = sys.argv[1:]
+    SIMULAR = "--simular" in args
+    FORCAR = "--agora" in args
+    args = [a for a in args if a not in ("--simular", "--agora")]
+    cmd = args[0] if args else "rodar"
+    try:
+        if cmd == "rodar":
+            cmd_rodar()
+        elif cmd == "ids":
+            cmd_ids()
+        elif cmd == "previa":
+            cmd_previa(" ".join(args[1:]).replace("\\n", "\n"))
+        elif cmd == "teste-canal":
+            cmd_teste_canal()
+        else:
+            print(__doc__)
+    except RuntimeError as e:
+        print(f"ERRO: {e}")
+        sys.exit(1)
+
+
+CONFIG = {}
+
+if __name__ == "__main__":
+    main()

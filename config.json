@@ -1,0 +1,96 @@
+{
+  "horarios": [
+    9,
+    12,
+    15,
+    18,
+    20,
+    22
+  ],
+  "rodape": "",
+  "palavras": {
+    "Academia": [
+      "creatina",
+      "whey",
+      "coqueteleira",
+      "luva de academia",
+      "corda de pular"
+    ],
+    "Estilo": [
+      "relógio masculino",
+      "perfume masculino",
+      "carteira de couro",
+      "camisa polo"
+    ],
+    "Cuidados": [
+      "máquina de barbear",
+      "aparador de barba",
+      "kit barba"
+    ],
+    "Mente e rotina": [
+      "livro de finanças",
+      "livro de estoicismo",
+      "agenda",
+      "garrafa térmica"
+    ],
+    "Gadgets": [
+      "fone bluetooth",
+      "smartwatch",
+      "power bank",
+      "suporte de celular"
+    ]
+  },
+  "shopee": {
+    "ativo": true,
+    "buscar_a_partir_das": 8,
+    "resultados_por_palavra": 20,
+    "desconto_minimo": 20,
+    "nota_minima": 4.7,
+    "vendas_minimas": 100,
+    "nao_repetir_dias": 7,
+    "maximo_por_dia": 2
+  },
+  "frases": {
+    "geral": [
+      "Preço bom assim não dura, corre!",
+      "Achado do dia, aproveita antes de acabar.",
+      "Vale cada centavo nesse preço.",
+      "Menor preço que vi nos últimos dias.",
+      "Estoque voa nesse valor, garante o seu."
+    ],
+    "desconto_alto": [
+      "{off}% off, isso aqui não fica muito tempo assim.",
+      "Desconto de {off}%: é agora ou nunca.",
+      "Preço de queima, {off}% mais barato."
+    ],
+    "Academia": [
+      "Pra quem leva o treino a sério.",
+      "Suplemento bom pelo preço justo, aproveita.",
+      "Investimento no shape que cabe no bolso."
+    ],
+    "Estilo": [
+      "Presença começa no detalhe.",
+      "Estilo de homem que se respeita, por menos.",
+      "Sobe o nível do visual sem gastar muito."
+    ],
+    "Cuidados": [
+      "Barba alinhada, presença garantida.",
+      "Cuidado de barbearia em casa, pagando pouco.",
+      "Homem que se cuida chama atenção."
+    ],
+    "Mente e rotina": [
+      "Disciplina se constrói todo dia.",
+      "Invista na mente, o retorno é garantido.",
+      "Rotina forte começa pelas ferramentas certas."
+    ],
+    "Gadgets": [
+      "Tecnologia boa pelo preço certo.",
+      "Útil no dia a dia e com desconto.",
+      "Upgrade que vale a pena nesse preço."
+    ]
+  },
+  "ia": {
+    "modelo": "gemini-2.5-flash",
+    "instrucao": "Escreva UMA frase curta (até 12 palavras) em português do Brasil, chamativa e direta, para um post de oferta num canal de achados masculino (academia, estilo, cuidados, gadgets). Tom confiante, sem exageros falsos, sem emojis, sem hashtags. Pode criar urgência leve."
+  }
+}

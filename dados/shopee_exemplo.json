@@ -1,0 +1,13 @@
+{
+  "creatina": [
+    {"itemId": 1001, "productName": "Creatina Monohidratada 500g Pura", "priceMin": "79.90", "priceDiscountRate": 38, "sales": 5400, "ratingStar": "4.9", "imageUrl": "https://picsum.photos/seed/creatina/600", "offerLink": "https://s.shopee.com.br/EXEMPLO1", "shopName": "Loja Exemplo"},
+    {"itemId": 1002, "productName": "Creatina 300g Sabor Limão", "priceMin": "59.90", "priceDiscountRate": 10, "sales": 900, "ratingStar": "4.8", "imageUrl": "", "offerLink": "https://s.shopee.com.br/EXEMPLO2", "shopName": "Loja Exemplo"}
+  ],
+  "relógio masculino": [
+    {"itemId": 2001, "productName": "Relógio Masculino Aço Inox Prova d'Água", "priceMin": "89.00", "priceDiscountRate": 55, "sales": 1200, "ratingStar": "4.8", "imageUrl": "https://picsum.photos/seed/relogio/600", "offerLink": "https://s.shopee.com.br/EXEMPLO3", "shopName": "Loja Exemplo"},
+    {"itemId": 2002, "productName": "Relógio Digital Barato", "priceMin": "19.90", "priceDiscountRate": 60, "sales": 40, "ratingStar": "4.2", "imageUrl": "", "offerLink": "https://s.shopee.com.br/EXEMPLO4", "shopName": "Loja Exemplo"}
+  ],
+  "fone bluetooth": [
+    {"itemId": 3001, "productName": "Fone Bluetooth 5.3 com Cancelamento de Ruído", "priceMin": "64.90", "priceDiscountRate": 30, "sales": 8800, "ratingStar": "4.7", "imageUrl": "https://picsum.photos/seed/fone/600", "offerLink": "https://s.shopee.com.br/EXEMPLO5", "shopName": "Loja Exemplo"}
+  ]
+}
