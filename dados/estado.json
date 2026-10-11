@@ -33,9 +33,13 @@
       "loja": "amazon",
       "link": "https://link.amazon/B0ifEWlUa",
       "chave": "amazon:https://link.amazon/B0ifEWlUa",
-      "id": 2,
-      "msg_id": 15
+      "id": 4,
+      "msg_id": 22,
+      "nome": "Gillette Mach3 Carga 16 Unidades",
+      "de": 129.9,
+      "por": 89.9,
+      "frase": "Menor preço que vi nos últimos dias."
     }
   ],
-  "proximo_id": 4
+  "proximo_id": 5
 }
