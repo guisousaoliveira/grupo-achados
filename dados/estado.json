@@ -140,6 +140,23 @@
       "garimpado_em": "2026-10-12T15:00-03:00",
       "pix": true,
       "aprovado_em": "2026-10-12T15:03-03:00"
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0DB6KW9SQ",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://link.amazon/B0j6FgfxE",
+      "link_produto": "https://www.amazon.com.br/dp/B0DB6KW9SQ?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/ninja-blast-max-liquidificador-portatil-e-pessoal-twist-amp-go-3108849/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3108849/",
+      "nome": "Ninja Blast Max - Liquidificador Portátil",
+      "por": 549.7,
+      "de": 699.39,
+      "foto": "AgACAgQAAxkDAAO0as0ik_71Npyl6LuwLEBTOT5S44AAArYPaxve-W1SNnjdoirn__kBAAMCAAN4AAM9BA",
+      "foto_origem": "loja",
+      "garimpado_em": "2026-10-12T15:10-03:00",
+      "aprovado_em": "2026-10-12T15:13-03:00"
     }
   ],
   "postados": [
@@ -322,25 +339,6 @@
       "id": 61,
       "garimpado_em": "2026-10-12T15:10-03:00",
       "msg_id": 179
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0DB6KW9SQ",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B0DB6KW9SQ?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0DB6KW9SQ?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/ninja-blast-max-liquidificador-portatil-e-pessoal-twist-amp-go-3108849/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3108849/",
-      "nome": "Ninja Blast Max",
-      "por": 549.7,
-      "de": 699.39,
-      "foto": "AgACAgQAAxkDAAO0as0ik_71Npyl6LuwLEBTOT5S44AAArYPaxve-W1SNnjdoirn__kBAAMCAAN4AAM9BA",
-      "foto_origem": "loja",
-      "titulo": "Menor preço histórico com desconto exclusivo",
-      "id": 62,
-      "garimpado_em": "2026-10-12T15:10-03:00",
-      "msg_id": 180
     },
     {
       "loja": "mercadolivre",
@@ -618,7 +616,7 @@
       },
       "promobit": {
         "achados": 4,
-        "aprovados": 1,
+        "aprovados": 2,
         "reprovados": 1
       }
     }
