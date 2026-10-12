@@ -158,23 +158,48 @@ def png(img):
     return saida.getvalue()
 
 
+def icone(nome, altura):
+    arq = PASTA / "icones" / f"{nome}.png"  # ícones Lucide (licença ISC), em dourado
+    if not arq.exists():
+        return None
+    img = Image.open(arq).convert("RGBA")
+    return img.resize((altura, altura), Image.LANCZOS)
+
+
 def story_fixo(canal=""):
     img = fundo()
     d = ImageDraw.Draw(img)
-    lv = leao(400)
-    img.paste(lv, ((L - lv.width) // 2, 170), lv)
-    centro(d, 640, "ALPHA PROMO", fonte("Playfair-Black.ttf", 118), DOURADO)
-    centro(d, 790, "ACHADOS PARA O HOMEM QUE SE CUIDA", fonte("Inter-SemiBold.ttf", 30), CINZA, espaco=3)
-    divisor(d, 880)
-    itens = ["Promoção de verdade, conferida", "Amazon, Mercado Livre e Shopee", "Academia, estilo, cuidados e gadgets", "Cupons que funcionam, todo dia"]
-    f = fonte("Inter-Regular.ttf", 44)
-    y = 950
-    for t in itens:
-        x = 170
-        d.regular_polygon((x, y + 28, 11), 4, fill=DOURADO)
-        d.text((x + 38, y), t, font=f, fill=BRANCO)
-        y += 92
-    rodape(img, d, canal, "Entra no canal. É de graça.")
+    lv = leao(240)
+    img.paste(lv, ((L - lv.width) // 2, 140), lv)
+    centro(d, 405, "ALPHA PROMO", fonte("Playfair-Black.ttf", 112), DOURADO)
+    centro(d, 545, "ACHADOS PARA O HOMEM QUE SE CUIDA", fonte("Inter-SemiBold.ttf", 30), CINZA, espaco=3)
+    divisor(d, 625)
+
+    f = fonte("Inter-SemiBold.ttf", 42)
+    y = 680
+    for linha in quebrar(d, "Chega de pagar mais caro. Encontramos os melhores preços da internet "
+                            "para você economizar de verdade.", f, L - 150, 4):
+        centro(d, y, linha, f, BRANCO)
+        y += 56
+
+    y += 44
+    centro(d, y, "O QUE VOCÊ VAI ENCONTRAR NO CANAL", fonte("Inter-ExtraBold.ttf", 28), DOURADO, espaco=3)
+    y += 66
+    itens = [("package", "Achados diários: tech, estilo, treino e casa"),
+             ("shopping-cart", "As melhores ofertas da Amazon, Shopee e Mercado Livre"),
+             ("ticket-percent", "Cupons e preços conferidos, todo dia")]
+    f = fonte("Inter-Regular.ttf", 38)
+    x = 120
+    for nome, texto in itens:
+        ic = icone(nome, 56)
+        linhas = quebrar(d, texto, f, L - x - 80 - 110, 2)
+        altura = len(linhas) * 50
+        if ic is not None:
+            img.paste(ic, (x, int(y + (altura - 56) / 2) + 2), ic)
+        for i, linha in enumerate(linhas):
+            d.text((x + 80, y + i * 52), linha, font=f, fill=BRANCO)
+        y += altura + 30
+    rodape(img, d, canal, "100% gratuito. Toque para entrar.")
     return png(img)
 
 
