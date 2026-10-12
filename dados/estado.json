@@ -510,23 +510,6 @@
       "garimpado_em": "2026-10-12T17:11-03:00",
       "na_revisao_desde": "2026-10-12T17:11-03:00",
       "msg_id": 225
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0FHYLZ7W1",
-      "origem": "boletando",
-      "link": "https://www.amazon.com.br/dp/B0FHYLZ7W1?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0FHYLZ7W1?tag=alphadominu09-20",
-      "post_origem": "https://t.me/boletando/76615",
-      "link_canal": "https://boletando.com/oferta/268672/",
-      "foto": "AgACAgQAAxkDAAPias0-4QJwOkSZAg5GTY9VeVK7MU8AAiAPaxuHFD1SrCdG8PC8d_4BAAMCAAN4AAM9BA",
-      "foto_origem": "loja",
-      "nome": "Caixa de Som AIWA Speaker 30W RMS Bluetooth App Aiwa Stereo Bataria 6 horas IPX5  SP-05-LB",
-      "titulo": "Caixa de som AIWA 30W com 35% off",
-      "id": 95,
-      "garimpado_em": "2026-10-12T17:11-03:00",
-      "na_revisao_desde": "2026-10-12T17:11-03:00",
-      "msg_id": 226
     }
   ],
   "proximo_id": 96,
@@ -834,7 +817,26 @@
       "por": 239.9
     }
   ],
-  "lixeira": [],
+  "lixeira": [
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0FHYLZ7W1",
+      "origem": "boletando",
+      "link": "https://www.amazon.com.br/dp/B0FHYLZ7W1?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0FHYLZ7W1?tag=alphadominu09-20",
+      "post_origem": "https://t.me/boletando/76615",
+      "link_canal": "https://boletando.com/oferta/268672/",
+      "foto": "AgACAgQAAxkDAAPias0-4QJwOkSZAg5GTY9VeVK7MU8AAiAPaxuHFD1SrCdG8PC8d_4BAAMCAAN4AAM9BA",
+      "foto_origem": "loja",
+      "nome": "Caixa de Som AIWA Speaker 30W RMS Bluetooth App Aiwa Stereo Bataria 6 horas IPX5  SP-05-LB",
+      "titulo": "Caixa de som AIWA 30W com 35% off",
+      "id": 95,
+      "garimpado_em": "2026-10-12T17:11-03:00",
+      "na_revisao_desde": "2026-10-12T17:11-03:00",
+      "removido_em": "2026-10-12T17:12:18-03:00",
+      "removido_de": "revisar"
+    }
+  ],
   "garimpo": {
     "2026-10-12": {
       "promooeasy": {
@@ -880,7 +882,7 @@
       "boletando": {
         "achados": 1,
         "aprovados": 0,
-        "reprovados": 0
+        "reprovados": 1
       }
     }
   },
