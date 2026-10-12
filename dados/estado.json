@@ -1,6 +1,17 @@
 {
   "offset_telegram": 217357892,
-  "fila": [],
+  "fila": [
+    {
+      "loja": "mercadolivre",
+      "link": "https://meli.la/28z9La1",
+      "por": 184.3,
+      "de": 349.99,
+      "nome": "Tênis Flyer Runner Mesh Bdp Puma",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_730513-MLB80451340719_112024-O.webp",
+      "chave": "mercadolivre:https://meli.la/28z9La1",
+      "frase": "Preço de queima, 47% mais barato."
+    }
+  ],
   "postados": [
     {
       "chave": "mercadolivre:https://meli.la/168a1Y6",
@@ -45,18 +56,6 @@
       "msg_id": 31,
       "nome": "Gillette Mach3 Carga para Aparelho de Barbear 16 Unidades",
       "foto": "https://m.media-amazon.com/images/I/71trWiva9mL._AC_SL1000_.jpg"
-    },
-    {
-      "loja": "mercadolivre",
-      "link": "https://meli.la/28z9La1",
-      "por": 184.3,
-      "de": 349.99,
-      "nome": "Tênis Flyer Runner Mesh Bdp Puma",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_730513-MLB80451340719_112024-O.webp",
-      "chave": "mercadolivre:https://meli.la/28z9La1",
-      "frase": "Preço de queima, 47% mais barato.",
-      "id": 10,
-      "msg_id": 47
     }
   ],
   "proximo_id": 11,
