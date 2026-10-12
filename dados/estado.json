@@ -210,22 +210,6 @@
       "titulo": "Whey Growth de chocolate com desconto",
       "garimpado_em": "2026-10-12T16:01-03:00",
       "aprovado_em": "2026-10-12T16:10-03:00"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB68826578",
-      "origem": "urubupromo",
-      "link": "https://meli.la/1gDuRwZ",
-      "link_produto": "https://www.mercadolivre.com.br/creatina-max-titanium-7-belo-em-po-x-300g/p/MLB68826578",
-      "post_origem": "https://t.me/urubupromo/41575",
-      "link_canal": "https://meli.la/2Fn2DGb",
-      "foto": "AgACAgQAAxkDAAPEas0wpX40DN9mrD6RdL2C8NlKZLcAAuQMaxtkEq1TxgEQuQKXzlsBAAMCAAN4AAM9BA",
-      "foto_origem": "loja",
-      "nome": "Creatina Max Titanium 7 Belo em pó x 300g",
-      "por": 41.54,
-      "titulo": "Frete grátis com Prime e Pix",
-      "garimpado_em": "2026-10-12T16:10-03:00",
-      "aprovado_em": "2026-10-12T16:13-03:00"
     }
   ],
   "postados": [
@@ -384,6 +368,12 @@
       "loja": "mercadolivre",
       "nome": "Notebook ASUS Vivobook S 14 S5406SA Copilot+ PC Intel Core Ultra 7",
       "data": "2026-10-12T15:39-03:00"
+    },
+    {
+      "chave": "mercadolivre:MLB68826578",
+      "loja": "mercadolivre",
+      "nome": "Creatina Max Titanium 7 Belo em pó x 300g",
+      "data": "2026-10-12T16:13-03:00"
     }
   ],
   "slots_usados": {
@@ -616,6 +606,15 @@
   "ultimos": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB68826578",
+      "link": "https://meli.la/1gDuRwZ",
+      "link_produto": "https://www.mercadolivre.com.br/creatina-max-titanium-7-belo-em-po-x-300g/p/MLB68826578",
+      "foto": "AgACAgQAAxkDAAPEas0wpX40DN9mrD6RdL2C8NlKZLcAAuQMaxtkEq1TxgEQuQKXzlsBAAMCAAN4AAM9BA",
+      "nome": "Creatina Max Titanium 7 Belo em pó x 300g",
+      "por": 41.54
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB67893601",
       "link": "https://meli.la/1rtp73o",
       "link_produto": "https://www.mercadolivre.com.br/notebook-asus-vivobook-s-14-s5406sa-copilot-pc-intel-core-ultra-7-256-v-16gb-ram-512gb-ssd-windows-11-home-14-oled-mist-blue-qd299w/p/MLB67893601",
@@ -749,16 +748,6 @@
       "nome": "Tênis Casual Kappa Zenit Masculino Unissex Conforto",
       "de": 229.99,
       "por": 83.79
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB25929487",
-      "link": "https://meli.la/16vRB5b",
-      "link_produto": "https://www.mercadolivre.com.br/creatina-monohidratada-dark-lab-1kg-100/p/MLB25929487",
-      "foto": "AgACAgEAAxkDAANwasxIlpjnwdu_F9H5YE_WK-WaaxsAAiAQaxvw92FGMW8f5u5FnIMBAAMCAAN4AAM9BA",
-      "nome": "Creatina Monohidratada Pura 1kg Dark Lab Unidade Sem sabor",
-      "por": 78.9,
-      "de": 159.9
     }
   ],
   "lixeira": [
