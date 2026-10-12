@@ -254,11 +254,15 @@ def responder_admin(texto, botoes=None, responder_a=None, foto=None):
         log(f"(resposta para você) {texto}" + (f"  [botões: {botoes}]" if botoes else ""))
         return {}
     if foto and len(texto) <= 1024:  # revisão com a foto que vai no post
-        try:
-            return telegram("sendPhoto", chat_id=admin, photo=foto, caption=texto, parse_mode="HTML",
-                            reply_markup=botoes, reply_to_message_id=responder_a)
-        except Exception as e:
-            log(f"O Telegram não buscou a foto da revisão ({e}). Baixando e enviando o arquivo.")
+        if not foto_so_por_arquivo(foto):
+            try:
+                return telegram("sendPhoto", chat_id=admin, photo=foto, caption=texto, parse_mode="HTML",
+                                reply_markup=botoes, reply_to_message_id=responder_a)
+            except RuntimeError as e:
+                log(f"O Telegram não buscou a foto da revisão ({e}). Baixando e enviando o arquivo.")
+            except OSError as e:  # demorou demais: pode ter chegado mesmo assim, então não manda de novo
+                log(f"O Telegram demorou para mandar a revisão ({e}); não reenvio para não duplicar.")
+                return {}
         dados = baixar_foto(foto)
         if dados:
             try:
@@ -276,6 +280,12 @@ def responder_admin(texto, botoes=None, responder_a=None, foto=None):
         return {}
 
 
+def foto_so_por_arquivo(foto):
+    """Fotos de outros canais (telesco.pe): o Telegram demora ou recusa buscar pelo endereço.
+    Mandar o endereço e depois o arquivo gerava revisão duplicada, então essas vão direto como arquivo."""
+    return "telesco.pe" in foto
+
+
 def publicar(item):
     texto = montar_post(item)
     canal = segredo("TELEGRAM_CHANNEL")
@@ -291,11 +301,15 @@ def publicar(item):
         except Exception:
             foto = None
     if foto and len(texto) <= 1024:
-        try:
-            telegram("sendPhoto", chat_id=canal, photo=foto, caption=texto, parse_mode="HTML")
-            return
-        except RuntimeError as e:
-            log(f"O Telegram não buscou a foto pelo endereço ({e}). Baixando e enviando o arquivo.")
+        if not foto_so_por_arquivo(foto):
+            try:
+                telegram("sendPhoto", chat_id=canal, photo=foto, caption=texto, parse_mode="HTML")
+                return
+            except RuntimeError as e:
+                log(f"O Telegram não buscou a foto pelo endereço ({e}). Baixando e enviando o arquivo.")
+            except OSError as e:  # demorou demais: pode ter saído mesmo assim, então não posta de novo
+                log(f"O Telegram demorou para postar ({e}); considero postado para não duplicar no canal.")
+                return
         dados = baixar_foto(foto)  # fotos de outros canais (telesco.pe) o Telegram não busca sozinho
         if dados:
             try:
