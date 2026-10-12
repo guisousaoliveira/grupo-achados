@@ -1372,6 +1372,31 @@ def rodar_radar(estado, teste=False):
     log(f"Radar: {novas} oferta(s) nova(s) do nicho." + (" (teste, nada enviado)" if teste else ""))
 
 
+def cmd_foto_teste(links):
+    """Diagnóstico (workflow diagnostico.yml): o que a loja devolve para este servidor."""
+    for link in links:
+        log(f"--- {link}")
+        try:
+            req = urllib.request.Request(link, headers={"User-Agent": USER_AGENT, "Accept-Language": "pt-BR,pt;q=0.9"})
+            with urllib.request.urlopen(req, timeout=20) as resp:
+                pagina = resp.read().decode("utf-8", "replace")
+                log(f"HTTP {resp.status} · final {resp.geturl()} · {len(pagina)} letras")
+        except urllib.error.HTTPError as e:
+            log(f"HTTP {e.code} · {e.geturl()}")
+            pagina = e.read().decode("utf-8", "replace")
+        except Exception as e:
+            log(f"Falhou: {e}")
+            continue
+        t = re.search(r"<title[^>]*>(.*?)</title>", pagina, re.S)
+        log("title: " + (t.group(1).strip()[:120] if t else "(nenhum)"))
+        m = re.search(r'<meta[^>]+property="og:image"[^>]+content="([^"]+)"', pagina)
+        log("og:image: " + (m.group(1) if m else "(nenhum)"))
+        log("ler_pagina: " + json.dumps(ler_pagina(link), ensure_ascii=False)[:400])
+        a = re.search(r"/dp/([A-Z0-9]{10})", link)
+        if a:
+            log("foto por ASIN: " + str(foto_amazon_por_asin(a.group(1))))
+
+
 def cmd_radar_teste():
     """TESTAR_RADAR.bat: lê os canais agora e mostra o que mandaria, sem enviar nada."""
     os.environ["BOT_SALVAR_PAGINA"] = "1"
@@ -1497,6 +1522,8 @@ def main():
             cmd_radar_teste()
         elif cmd == "teste-canal":
             cmd_teste_canal()
+        elif cmd == "foto-teste":
+            cmd_foto_teste(args[1:])
         else:
             print(__doc__)
     except RuntimeError as e:
