@@ -3,20 +3,6 @@
   "fila": [
     {
       "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB75627276",
-      "origem": "gatunopromos",
-      "link": "https://meli.la/2Ez1sVB",
-      "link_produto": "https://www.mercadolivre.com.br/mochila-para-notebook-impermeavel-e-reforcada-com-entrada-usb-25-a-40l-masculina-e-feminina/p/MLB75627276",
-      "foto": "AgACAgQAAxkDAAOQaszE9fFNqDChOVXKu2GsZjUULtIAAoMNaxs62IRThvOsPSKiMHgBAAMCAAN4AAM9BA",
-      "foto_origem": "loja",
-      "nome": "Mochila para Notebook Impermeável e Reforçada com Entrada USB",
-      "por": 79.19,
-      "de": 369.69,
-      "titulo": "Preço de queima, 79% mais barato.",
-      "aprovado_em": "2026-10-12T12:35-03:00"
-    },
-    {
-      "loja": "mercadolivre",
       "link": "https://meli.la/2x4uuZ1",
       "chave": "mercadolivre:https://meli.la/2x4uuZ1",
       "foto": "https://http2.mlstatic.com/D_NQ_NP_859161-MLA99962428017_112025-O.webp",
@@ -420,6 +406,14 @@
       "data": "2026-10-12T16:45-03:00",
       "link": "https://link.amazon/B0afRUzpC",
       "link_produto": "https://www.amazon.com.br/dp/B0FFTRKRCV?tag=alphadominu09-20"
+    },
+    {
+      "chave": "mercadolivre:MLB75627276",
+      "loja": "mercadolivre",
+      "nome": "Mochila para Notebook Impermeável e Reforçada com Entrada USB",
+      "data": "2026-10-12T17:10-03:00",
+      "link": "https://meli.la/2Ez1sVB",
+      "link_produto": "https://www.mercadolivre.com.br/mochila-para-notebook-impermeavel-e-reforcada-com-entrada-usb-25-a-40l-masculina-e-feminina/p/MLB75627276"
     }
   ],
   "slots_usados": {
@@ -434,7 +428,8 @@
       12,
       13,
       14,
-      15
+      15,
+      16
     ]
   },
   "shopee_buscado_em": "",
@@ -550,6 +545,18 @@
     "promobit_visto": 3109015
   },
   "ultimos": [
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB75627276",
+      "origem": "gatunopromos",
+      "link": "https://meli.la/2Ez1sVB",
+      "link_produto": "https://www.mercadolivre.com.br/mochila-para-notebook-impermeavel-e-reforcada-com-entrada-usb-25-a-40l-masculina-e-feminina/p/MLB75627276",
+      "foto": "AgACAgQAAxkDAAOQaszE9fFNqDChOVXKu2GsZjUULtIAAoMNaxs62IRThvOsPSKiMHgBAAMCAAN4AAM9BA",
+      "nome": "Mochila para Notebook Impermeável e Reforçada com Entrada USB",
+      "por": 79.19,
+      "de": 369.69,
+      "titulo": "Preço de queima, 79% mais barato."
+    },
     {
       "loja": "amazon",
       "chave": "amazon:B0FFTRKRCV",
