@@ -143,8 +143,6 @@ def chamar_github_agora(motivo="Pedi ao GitHub para reler a página agora."):
         return False
     url = f"https://api.github.com/repos/{_repo()}/actions/workflows/bot.yml/dispatches"
     corpo = {"ref": "main"}
-    if os.environ.get("RENDER_EXTERNAL_URL"):  # o GitHub usa o Render para ler o Mercado Livre (veja ler_pelo_servidor)
-        corpo["inputs"] = {"servidor": os.environ["RENDER_EXTERNAL_URL"]}
     req = urllib.request.Request(url, method="POST", data=json.dumps(corpo).encode(),
                                  headers={"Authorization": f"Bearer {segredo('GITHUB_TOKEN')}",
                                           "Accept": "application/vnd.github+json",
@@ -743,6 +741,15 @@ def aplicar_correcao(item, texto):
         elif campo == "link":
             item["link"] = valor
             item.pop("precisa_link", None)
+            if item.get("foto_origem") == "canal" or not item.get("foto"):
+                # O ML bloqueia a página do produto para servidores, mas abre o seu link de afiliado (meli.la):
+                # aproveita para trocar a foto do canal pela foto oficial da loja.
+                try:
+                    lido = ler_pagina(valor)
+                except Exception:
+                    lido = {}
+                if lido.get("foto") and not lido.get("_bloqueado"):
+                    item["foto"], item["foto_origem"] = lido["foto"], "loja"
         elif campo == "prime":
             item["prime"] = valor.lower().split()[0] in ("sim", "s", "1", "yes")  # "prime: sim 189,37"
             num = re.search(r"\d[\d.]*(?:,\d{1,2})?", valor)
@@ -1232,6 +1239,8 @@ def produto_do_link(link):
             url = prod.group(0) if prod else f"https://produto.mercadolivre.com.br/MLB-{m.group(1)}"
             ident = re.search(r"MLB-?(\d+)", url).group(1)
             achado = {"loja": "mercadolivre", "chave": f"mercadolivre:MLB{ident}", "link_produto": url}
+            if "/social/" in final:  # link de afiliado do canal: a vitrine abre para servidores (a página do produto não)
+                achado["vitrine"] = extrair_da_pagina(pagina, "mercadolivre")
             cfg = CONFIG.get("radar", {})
             if cfg.get("ml_matt_word") and cfg.get("ml_matt_tool"):  # mesmo código que o seu link meli.la carrega
                 achado["meu_link"] = (f"{url}?matt_word={cfg['ml_matt_word']}&matt_tool={cfg['ml_matt_tool']}")
@@ -1252,23 +1261,6 @@ def foto_amazon_por_asin(asin):
             return url if len(resp.read(5000)) >= 2000 else None  # sem foto, a Amazon devolve um gif de 1 pixel
     except Exception:
         return None
-
-
-def ler_pelo_servidor(link):
-    """O Mercado Livre bloqueia o GitHub, mas abre para o Render. Pede ao servidor do Render para ler a página.
-    O endereço do Render chega pela rodada pedida pelo /tick (SERVIDOR_URL)."""
-    base = os.environ.get("SERVIDOR_URL", "").rstrip("/")
-    if not base:
-        return None
-    try:
-        texto, _ = http(f"{base}/ler?u={urllib.parse.quote(link, safe='')}", timeout=45)
-        lido = json.loads(texto)
-    except Exception as e:
-        log(f"O Render não conseguiu ler a página ({e}).")
-        return None
-    if lido.get("foto"):
-        log("Foto oficial lida pelo Render.")
-    return lido
 
 
 def oferta_do_post(post, canal):
@@ -1308,12 +1300,13 @@ def oferta_do_post(post, canal):
             item["de"], item["por"] = max(valores[:2]), min(valores[:2])
         else:
             item["por"] = valores[0]
-    try:
-        lido = ler_pagina(item["link_produto"])
-    except Exception:
-        lido = {}
-    if lido.get("_bloqueado") and item["loja"] == "mercadolivre":
-        lido = ler_pelo_servidor(item["link_produto"]) or lido
+    if prod.get("vitrine", {}).get("foto"):
+        lido = prod["vitrine"]
+    else:
+        try:
+            lido = ler_pagina(item["link_produto"])
+        except Exception:
+            lido = {}
     if lido.get("foto") and not lido.get("_bloqueado"):
         item["foto"], item["foto_origem"] = lido["foto"], "loja"
     elif item["loja"] == "amazon":
@@ -1416,14 +1409,12 @@ def cmd_foto_teste(links):
         except Exception as e:
             log(f"Falhou: {e}")
             continue
-        if "/ler?" in link:  # resposta do servidor do Render
-            log("resposta: " + pagina[:400])
-            continue
         t = re.search(r"<title[^>]*>(.*?)</title>", pagina, re.S)
         log("title: " + (t.group(1).strip()[:120] if t else "(nenhum)"))
         m = re.search(r'<meta[^>]+property="og:image"[^>]+content="([^"]+)"', pagina)
         log("og:image: " + (m.group(1) if m else "(nenhum)"))
         log("ler_pagina: " + json.dumps(ler_pagina(link), ensure_ascii=False)[:400])
+        log("produto_do_link: " + json.dumps(produto_do_link(link), ensure_ascii=False)[:500])
         a = re.search(r"/dp/([A-Z0-9]{10})", link)
         if a:
             log("foto por ASIN: " + str(foto_amazon_por_asin(a.group(1))))

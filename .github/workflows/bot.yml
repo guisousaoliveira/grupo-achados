@@ -5,8 +5,7 @@ on:
     - cron: "*/30 * * * *"
   workflow_dispatch:
     inputs:
-      servidor:
-        description: "Endereço do Render (preenchido sozinho pelo /tick)"
+      servidor:  # não é mais usado; fica para o Render antigo não dar erro ao pedir uma rodada
         required: false
         default: ""
 
@@ -32,5 +31,4 @@ jobs:
           SHOPEE_SECRET: ${{ secrets.SHOPEE_SECRET }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SERVIDOR_URL: ${{ inputs.servidor }}
         run: python3 bot.py rodar
