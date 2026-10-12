@@ -1,6 +1,21 @@
 {
   "offset_telegram": 217357892,
-  "fila": [],
+  "fila": [
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB42978348",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/2EC8yAy",
+      "link_produto": "https://www.mercadolivre.com.br/bicicleta-ergometrica-bike-spinning-6kg-sensacao-inercia-fitness-preto-e-vermelho-sevenfit-para-cardio/p/MLB42978348",
+      "foto": "AgACAgQAAxkDAAOYaszM_gYn2_4F1H-UfjpPRdZ3RvMAAi4NaxsbFxRTWc5X9yYqCIUBAAMCAAN4AAM9BA",
+      "foto_origem": "loja",
+      "nome": "Bicicleta Ergométrica Bike Spinning 6kg Sensação Inércia Fitness",
+      "de": 1094.0,
+      "por": 458.0,
+      "titulo": "Desconto de 58%: é agora ou nunca.",
+      "aprovado_em": "2026-10-12T12:32-03:00"
+    }
+  ],
   "postados": [
     {
       "chave": "mercadolivre:https://meli.la/168a1Y6",
@@ -358,21 +373,6 @@
       "titulo": "Achado do dia, aproveita antes de acabar.",
       "id": 47,
       "msg_id": 153
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB42978348",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/2EC8yAy",
-      "link_produto": "https://www.mercadolivre.com.br/bicicleta-ergometrica-bike-spinning-6kg-sensacao-inercia-fitness-preto-e-vermelho-sevenfit-para-cardio/p/MLB42978348",
-      "foto": "AgACAgQAAxkDAAOYaszM_gYn2_4F1H-UfjpPRdZ3RvMAAi4NaxsbFxRTWc5X9yYqCIUBAAMCAAN4AAM9BA",
-      "foto_origem": "loja",
-      "nome": "Bicicleta Ergométrica Bike Spinning 6kg Sensação Inércia Fitness",
-      "de": 1094.0,
-      "por": 458.0,
-      "titulo": "Desconto de 58%: é agora ou nunca.",
-      "id": 48,
-      "msg_id": 155
     }
   ],
   "proximo_id": 49,
