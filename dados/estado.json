@@ -81,13 +81,29 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [],
-  "proximo_id": 25,
+  "revisar": [
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0DPXRVFVB",
+      "origem": "lobaopromo",
+      "link": "https://www.amazon.com.br/dp/B0DPXRVFVB?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0DPXRVFVB?tag=alphadominu09-20",
+      "foto": "AgACAgQAAxkDAAN2asxK8ku_JsZ7zqQZ7SFhl-YEYBsAAqQLaxuuDXxR0U4YuK1FYAMBAAMCAAN4AAM9BA",
+      "foto_origem": "loja",
+      "nome": "Mini Liquidificador Pocket",
+      "de": 99.0,
+      "por": 52.67,
+      "frase": "47% off, isso aqui não fica muito tempo assim.",
+      "id": 25,
+      "msg_id": 118
+    }
+  ],
+  "proximo_id": 26,
   "radar": {
     "visto": {
       "xetdaspromocoes": 84418,
-      "lobaopromo": 188363,
-      "gatunopromos": 124814,
+      "lobaopromo": 188365,
+      "gatunopromos": 124815,
       "pobregram": 41737,
       "urubupromo": 41551,
       "tudonapromo": 101548,
@@ -97,14 +113,15 @@
       "infoBRpromos": 67366
     },
     "dia": "2026-10-11",
-    "hoje": 6,
+    "hoje": 7,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
       "mercadolivre:MLB4250522675",
       "mercadolivre:MLB29164669",
       "amazon:B0HJJSKJ2S",
-      "mercadolivre:MLB25929487"
+      "mercadolivre:MLB25929487",
+      "amazon:B0DPXRVFVB"
     ]
   },
   "ultimos": [
