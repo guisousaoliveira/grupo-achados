@@ -24,6 +24,18 @@
       "nome": "Esteira Ergométrica Elétrica Dobrável Bivolt 150kg",
       "por": 474.0,
       "frase": "Corre pra garantir!"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB25929487",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/16vRB5b",
+      "link_produto": "https://www.mercadolivre.com.br/creatina-monohidratada-dark-lab-1kg-100/p/MLB25929487",
+      "foto": "AgACAgEAAxkDAANwasxIlpjnwdu_F9H5YE_WK-WaaxsAAiAQaxvw92FGMW8f5u5FnIMBAAMCAAN4AAM9BA",
+      "foto_origem": "canal",
+      "nome": "Creatina Monohidratada Pura 1kg Dark Lab Unidade Sem sabor",
+      "por": 78.0,
+      "frase": "Pra quem leva o treino a sério."
     }
   ],
   "postados": [
@@ -76,22 +88,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB25929487",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/16vRB5b",
-      "link_produto": "https://www.mercadolivre.com.br/creatina-monohidratada-dark-lab-1kg-100/p/MLB25929487",
-      "foto": "AgACAgEAAxkDAANwasxIlpjnwdu_F9H5YE_WK-WaaxsAAiAQaxvw92FGMW8f5u5FnIMBAAMCAAN4AAM9BA",
-      "foto_origem": "canal",
-      "nome": "Creatina Monohidratada Pura 1kg Dark Lab Unidade Sem sabor",
-      "por": 78.0,
-      "frase": "Pra quem leva o treino a sério.",
-      "id": 24,
-      "msg_id": 114
-    }
-  ],
+  "revisar": [],
   "proximo_id": 25,
   "radar": {
     "visto": {
