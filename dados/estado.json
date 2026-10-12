@@ -1,22 +1,6 @@
 {
   "offset_telegram": 217357892,
-  "fila": [
-    {
-      "loja": "amazon",
-      "link": "https://link.amazon/B023PEkoV",
-      "ler_depois": true,
-      "chave": "amazon:https://link.amazon/B023PEkoV",
-      "nome": "Philips OneBlade Barbeador e Aparador Elétrico: Raspa, Apara e Contorna",
-      "foto": "AgACAgEAAxkBAAMpaswouSxtTunPjl0NK6yb9ShLMuAAAhgQaxvw92FGvOaaPsJN_aYBAAMCAAN4AAM9BA",
-      "tentativas": 1,
-      "de": 244.74,
-      "por": 149.0,
-      "prime": true,
-      "sem_prime": 189.37,
-      "cupom": "PHILIPS10",
-      "frase": "Achado do dia, aproveita antes de acabar."
-    }
-  ],
+  "fila": [],
   "postados": [
     {
       "chave": "mercadolivre:https://meli.la/168a1Y6",
@@ -29,6 +13,12 @@
       "loja": "amazon",
       "nome": "Gillette Mach3 Carga 16 Unidades",
       "data": "2026-10-11T20:47-03:00"
+    },
+    {
+      "chave": "amazon:https://link.amazon/B023PEkoV",
+      "loja": "amazon",
+      "nome": "Philips OneBlade Barbeador e Aparador Elétrico: Raspa, Apara e Contorna",
+      "data": "2026-10-11T21:24-03:00"
     }
   ],
   "slots_usados": {
