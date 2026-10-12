@@ -490,26 +490,6 @@
       "garimpado_em": "2026-10-12T17:11-03:00",
       "na_revisao_desde": "2026-10-12T17:11-03:00",
       "msg_id": 224
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB67500776",
-      "origem": "infoBRpromos",
-      "link": "https://www.mercadolivre.com.br/monitor-gamer-phillips-de-238-full-hd-ips-com-200hz/p/MLB67500776?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/monitor-gamer-phillips-de-238-full-hd-ips-com-200hz/p/MLB67500776",
-      "post_origem": "https://t.me/infoBRpromos/67416",
-      "link_canal": "https://meli.la/1t6hS8i",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_642739-MLA109096803510_042026-O.webp",
-      "foto_origem": "loja",
-      "por": 586.0,
-      "aviso_preco": true,
-      "nome": "Monitor Gamer Phillips de 23.8\" Full HD IPS com 200Hz",
-      "cupom": "PROMODEHOJE",
-      "titulo": "Monitor Gamer Phillips com 42% de desconto",
-      "id": 94,
-      "garimpado_em": "2026-10-12T17:11-03:00",
-      "na_revisao_desde": "2026-10-12T17:11-03:00",
-      "msg_id": 225
     }
   ],
   "proximo_id": 96,
@@ -819,6 +799,27 @@
   ],
   "lixeira": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB67500776",
+      "origem": "infoBRpromos",
+      "link": "https://www.mercadolivre.com.br/monitor-gamer-phillips-de-238-full-hd-ips-com-200hz/p/MLB67500776?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/monitor-gamer-phillips-de-238-full-hd-ips-com-200hz/p/MLB67500776",
+      "post_origem": "https://t.me/infoBRpromos/67416",
+      "link_canal": "https://meli.la/1t6hS8i",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_642739-MLA109096803510_042026-O.webp",
+      "foto_origem": "loja",
+      "por": 586.0,
+      "aviso_preco": true,
+      "nome": "Monitor Gamer Phillips de 23.8\" Full HD IPS com 200Hz",
+      "cupom": "PROMODEHOJE",
+      "titulo": "Monitor Gamer Phillips com 42% de desconto",
+      "id": 94,
+      "garimpado_em": "2026-10-12T17:11-03:00",
+      "na_revisao_desde": "2026-10-12T17:11-03:00",
+      "removido_em": "2026-10-12T17:12:22-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0FHYLZ7W1",
       "origem": "boletando",
@@ -872,7 +873,7 @@
       "infoBRpromos": {
         "achados": 2,
         "aprovados": 0,
-        "reprovados": 1
+        "reprovados": 2
       },
       "promonocontext": {
         "achados": 1,
