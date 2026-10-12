@@ -486,27 +486,6 @@
       "garimpado_em": "2026-10-12T18:20-03:00",
       "na_revisao_desde": "2026-10-12T18:20-03:00",
       "msg_id": 239
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB18758275",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/jogo-elden-ring-standard-edition-playstation-5-fisico/p/MLB18758275?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/jogo-elden-ring-standard-edition-playstation-5-fisico/p/MLB18758275",
-      "post_origem": "https://t.me/lobaopromo/188547",
-      "link_canal": "https://meli.la/1PWj7fM",
-      "foto": "AgACAgQAAxkDAAPwas1PJsh3RrS57jneOwa0sznXb3AAAj8Naxs4ZlxQ1hydfwlW9wcBAAMCAAN4AAM9BA",
-      "foto_origem": "loja",
-      "nome": "Jogo Elden Ring Standard Edition",
-      "pix": true,
-      "de": 291.1,
-      "por": 165.57,
-      "cupom": "JOGOS1210",
-      "titulo": "Elden Ring Standard Edition com 43% off",
-      "id": 106,
-      "garimpado_em": "2026-10-12T18:20-03:00",
-      "na_revisao_desde": "2026-10-12T18:20-03:00",
-      "msg_id": 240
     }
   ],
   "proximo_id": 107,
@@ -863,6 +842,28 @@
   ],
   "lixeira": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB18758275",
+      "origem": "lobaopromo",
+      "link": "https://www.mercadolivre.com.br/jogo-elden-ring-standard-edition-playstation-5-fisico/p/MLB18758275?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/jogo-elden-ring-standard-edition-playstation-5-fisico/p/MLB18758275",
+      "post_origem": "https://t.me/lobaopromo/188547",
+      "link_canal": "https://meli.la/1PWj7fM",
+      "foto": "AgACAgQAAxkDAAPwas1PJsh3RrS57jneOwa0sznXb3AAAj8Naxs4ZlxQ1hydfwlW9wcBAAMCAAN4AAM9BA",
+      "foto_origem": "loja",
+      "nome": "Jogo Elden Ring Standard Edition",
+      "pix": true,
+      "de": 291.1,
+      "por": 165.57,
+      "cupom": "JOGOS1210",
+      "titulo": "Elden Ring Standard Edition com 43% off",
+      "id": 106,
+      "garimpado_em": "2026-10-12T18:20-03:00",
+      "na_revisao_desde": "2026-10-12T18:20-03:00",
+      "removido_em": "2026-10-12T18:21:35-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0G4VCY39X",
       "origem": "promobit",
@@ -1086,7 +1087,7 @@
       "lobaopromo": {
         "achados": 5,
         "aprovados": 1,
-        "reprovados": 3
+        "reprovados": 4
       },
       "urubupromo": {
         "achados": 1,
