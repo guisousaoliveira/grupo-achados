@@ -488,7 +488,7 @@ function montarPost(x){
   if (x.por && o) p.push(`💰 De <s>${reais(x.de)}</s> por <b>${reais(x.por)}</b>${pix} (${o}% off)`);
   else if (x.por) p.push(`💰 Por <b>${reais(x.por)}</b>${pix}`);
   const np = parseInt(x.parcelas);
-  if (x.por && np >= 2 && np <= 24) p.push(`💳 ou ${np}x de ${reais(x.parcela_valor || x.por / np)} sem juros`);
+  if (x.por && np >= 2 && np <= 24) p.push(`💳 ou ${np}x de ${reais(x.parcela_valor || x.por / np)} sem juros${x.parcela_valor ? ` (total ${reais(np * x.parcela_valor).replace(' ', '\u00a0')})` : ''}`);
   if (x.prime) p.push(`Preço exclusivo para membros Prime${x.sem_prime ? ` (sem Prime: ${reais(x.sem_prime)})` : ''}`);
   if (p.length) b.push(p.join('<br>'));
   if (x.cupom) b.push(`🎟️ Cupom: <code>${esc(x.cupom)}</code>`);
@@ -831,7 +831,10 @@ function editorHTML(x, p){
       <label class="chk"><input type="checkbox" id="${p}-prime" ${x.prime?'checked':''}>Preço exclusivo Prime</label></div>
       <div class="fl" id="${p}-semprime-w" style="${x.prime?'':'display:none'}"><label>Preço sem Prime</label><input class="in" id="${p}-sem_prime" inputmode="decimal" value="${num(x.sem_prime)}" placeholder="opcional"></div>
     </div>
-    <div class="fl"><label>Parcelas sem juros <span>opcional</span></label><input class="in" id="${p}-parcelas" value="${esc(textoParcelas(x))}" placeholder="Ex.: 4  (ou 10x 39,90 para dizer o valor)"></div>
+    <div class="two">
+      <div class="fl"><label>Parcelas sem juros</label><input class="in" id="${p}-parcelas" inputmode="numeric" value="${x.parcelas || ''}" placeholder="Ex.: 3"></div>
+      <div class="fl"><label>Valor da parcela</label><input class="in" id="${p}-parcela_valor" inputmode="decimal" value="${num(x.parcela_valor)}" placeholder="divide o preço"></div>
+    </div>
     <div class="fl"><label>Cupom ${x.cupom_loja && !x.cupom ? `<span>${esc(x.cupom_loja)}</span>` : ''}</label><input class="in" id="${p}-cupom" value="${esc(x.cupom)}" placeholder="opcional"></div>
     <div class="fl"><label>Seu link de afiliado <span class="atalhos">${(x.link_produto || x.url) ? `<a href="${esc(x.link_produto || x.url)}" target="_blank" rel="noopener">${marca(x.loja)}abrir produto</a>` : ''}${x.post_origem ? `<a href="${esc(x.post_origem)}" target="_blank" rel="noopener">${x.fonte === 'promobit' ? '<span class="mk pb">P</span>oferta no Promobit' : marca('tg') + 'post original'}</a>` : ''}</span></label><input class="in" id="${p}-link" value="${esc(x.link)}" placeholder="https://...">${gerarLinkHTML(x)}</div>
     <div class="fl"><label>Foto</label><div class="fotoed"><span id="${p}-fotoph">${foto(x)}</span>
@@ -842,7 +845,7 @@ function editorHTML(x, p){
   </div>
   <div class="prev"><div class="lbl"><span>Como fica no canal</span><span>prévia</span></div><div class="tg"><div class="bub" id="${p}-bub"></div></div></div></div>`;
 }
-const FORM = ['titulo','nome','de','por','sem_prime','cupom','link','parcelas'];
+const FORM = ['titulo','nome','de','por','sem_prime','cupom','link','parcelas','parcela_valor'];
 const textoParcelas = x => x.parcelas ? `${x.parcelas}x${x.parcela_valor ? ' ' + num(x.parcela_valor) : ''}` : '';
 function lerParcelas(t){  // mesmo jeito do bot: "4", "10x 39,90"
   const m = String(t || '').match(/(\d{1,2})\s*(?:x|vezes)?(?:\s*(?:de)?\s*(?:R\$)?\s*(\d[\d.]*,\d{2}|\d+(?:\.\d{2})?))?/i);
@@ -854,6 +857,8 @@ function dadosForm(p, x){
   const d = {}; FORM.forEach(k => d[k] = g(k));
   d.prime = document.getElementById(`${p}-prime`).checked;
   d.pix = document.getElementById(`${p}-pix`).checked;
+  if (d.parcela_valor && /^\d{1,2}$/.test(d.parcelas)) d.parcelas = `${d.parcelas}x ${d.parcela_valor}`;  // o servidor lê "3x 32,33"
+  delete d.parcela_valor;
   if (x._foto_nova) d.foto = x._foto_nova;
   return d;
 }
@@ -864,6 +869,7 @@ function ligarEditor(p, x){
     if (!d.cupom) y.cupom = '';
     document.getElementById(`${p}-bub`).innerHTML = (y.foto ? `<div class="im"><img src="${esc(y.foto)}" alt="" onerror="this.parentNode.remove()"></div>` : '')
       + `<div class="ch">Alpha Promo</div><div class="tx">${montarPost(y)}</div><div class="hr">${String(new Date().getHours()).padStart(2,'0')}:00</div>`;
+    document.getElementById(`${p}-parcela_valor`).placeholder = y.parcelas && y.por ? num(y.por / y.parcelas) : 'divide o preço';
     const n = d.nome.length; const c = document.getElementById(`${p}-cnt`);
     c.textContent = `${n}/70`; c.style.color = n > 70 ? 'var(--warn)' : '';
     const falta = []; if (!d.nome) falta.push('nome'); if (!preco(d.por)) falta.push('preço');

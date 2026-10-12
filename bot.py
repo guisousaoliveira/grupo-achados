@@ -374,10 +374,11 @@ def emoji_titulo(item):
 
 
 def texto_parcelas(item):
-    """'ou 4x de R$ 39,97 sem juros'. Sem o valor da parcela informado, divide o preço."""
+    """'ou 3x de R$ 32,33 sem juros (total R$ 96,99)'. Sem o valor da parcela informado, divide o preço."""
     n = int(item["parcelas"])
-    valor = item.get("parcela_valor") or item["por"] / n
-    return f"ou {n}x de {reais(valor)} sem juros"
+    if item.get("parcela_valor"):
+        return f"ou {n}x de {reais(item['parcela_valor'])} sem juros (total {reais(n * item['parcela_valor']).replace(' ', '\u00a0')})"
+    return f"ou {n}x de {reais(item['por'] / n)} sem juros"
 
 
 def ler_parcelas(texto):
