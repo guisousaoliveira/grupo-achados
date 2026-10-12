@@ -691,6 +691,8 @@ def mandar_para_revisao(estado, item):
     texto = "📝 <b>Revisar oferta</b>\n\n" + (montar_post(item) if item.get("nome") else html.escape(item["link"]))
     if item.get("origem"):
         texto += f"\n\n📡 Achei no @{html.escape(item['origem'])}. Confira o preço antes de aprovar: {html.escape(item.get('link_produto', ''))}"
+    if item.get("aviso_preco"):
+        texto += "\n⚠️ O post do canal tinha dois preços muito diferentes. Usei o maior: confira o preço na loja."
     if item.get("precisa_link"):
         texto += ("\n🔗 Gere o <b>seu</b> link desse produto no painel de afiliado e responda esta mensagem com "
                   "<code>link: https://...</code>")
@@ -1322,6 +1324,9 @@ def foto_amazon_por_asin(asin):
         return None
 
 
+PRECO_NAO = r"cupom|cashback|frete|resgat|economi|acima de|em compras|parcela|\b\d{1,2}\s*x\b|\bsem juros|moedas|pontos"
+
+
 def oferta_do_post(post, canal):
     """Monta a oferta a partir do post. None se não for do nicho ou não tiver link de loja."""
     texto = post["texto"]
@@ -1352,13 +1357,24 @@ def oferta_do_post(post, canal):
                 not re.search(r"r\$|http|cupom|link|compre|clique|exclusiv|\bpor\s+[\d]|\bde\s+[\d]", limpo, re.I)):
             item["nome"] = limpo[:120]
             break
-    valores = [numero_br(v) for v in re.findall(r"(?:R\$|\bpor\b|\bde\b)\s*(?:R\$)?\s*(\d[\d.]*(?:,\d{1,2})?)", texto, re.I)]
+    # Preço: só das linhas de preço. Linhas de cupom, cashback, frete e parcelas também têm "R$",
+    # mas não são o preço (ex.: "Resgate o cupom de R$100" virava "por R$ 100, 96% off").
+    valores = []
+    for l in linhas:
+        if re.search(PRECO_NAO, l, re.I):
+            if re.search(r"cupom|resgat", l, re.I) and re.search(r"R\$|%", l) and "http" not in l:
+                item.setdefault("cupom_loja", re.sub(r"^[^\w]+", "", l).strip()[:80])
+            continue
+        valores += [numero_br(v) for v in re.findall(r"(?:R\$|\bpor\b|\bde\b)\s*(?:R\$)?\s*(\d[\d.]*(?:,\d{1,2})?)", l, re.I)]
     valores = [v for v in valores if v >= 5]
     if valores:
         if len(valores) >= 2 and max(valores[:2]) > min(valores[:2]):
             item["de"], item["por"] = max(valores[:2]), min(valores[:2])
         else:
             item["por"] = valores[0]
+    if item.get("de") and item.get("por") and item["por"] < item["de"] * 0.2:  # mais de 80% off: quase sempre leitura errada
+        item["por"] = item.pop("de")
+        item["aviso_preco"] = True
     if prod.get("vitrine", {}).get("foto"):
         lido = prod["vitrine"]
     else:

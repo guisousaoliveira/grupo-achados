@@ -473,6 +473,7 @@ function cardRevisao(x){
   if (x.ler_depois) tags.push('<span class="tag warn">a loja bloqueou, o GitHub vai tentar ler</span>');
   else if (x.falta.length) tags.push(`<span class="tag bad">falta ${esc(x.falta.join(', '))}</span>`);
   if (x.foto_origem === 'canal') tags.push('<span class="tag warn">foto do canal</span>');
+  if (x.aviso_preco) tags.push('<span class="tag warn">confira o preço</span>');
   const conferir = x.link_produto || x.link;
   return `<div class="of" ${x.url ? `data-url="${esc(x.url)}"` : ''}>${foto(x)}
     <div style="min-width:0"><div class="meta">${loja(x.loja)}${tags.join('')}</div>
