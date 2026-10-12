@@ -233,6 +233,11 @@ textarea.in{resize:vertical;min-height:64px}
 .alert.warn{background:var(--warnbg);border-color:rgba(245,165,36,.4);color:#ffd99a}
 .alert.bad{background:var(--badbg);border-color:rgba(242,85,90,.4);color:#ffc0c2}
 .in-ia{position:relative}.in-ia .in{padding-right:44px}
+.iafoto{border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+.iafoto summary{cursor:pointer;font-weight:600;display:flex;gap:8px;align-items:center;color:var(--gold)}
+.iafoto[open] summary{margin-bottom:8px}
+.iapassos{margin:0 0 8px;padding-left:20px;font-size:13px;color:var(--mut)}
+.iaprompt{white-space:pre-wrap;word-break:break-word;font:12.5px/1.5 ui-monospace,Menlo,monospace;background:rgba(0,0,0,.25);border:1px solid var(--line);border-radius:8px;padding:10px;margin:0 0 8px;max-height:180px;overflow:auto}
 .ia-bt{position:absolute;right:6px;top:50%;transform:translateY(-50%);width:32px;height:32px;border-radius:8px;border:0;background:transparent;color:var(--gold);display:grid;place-items:center;cursor:pointer}
 .ia-bt:hover{background:var(--goldbg)}.ia-bt:disabled{cursor:wait}
 .ia-bt.gerando svg{animation:brilho 1s ease-in-out infinite}
@@ -844,6 +849,15 @@ function editorHTML(x, p){
       <button class="btn sm ghost" onclick="colarFotoURL('${p}')">Usar endereço de imagem</button>
       <span class="hint" style="margin:0;width:100%">ou copie uma imagem e aperte Ctrl+V aqui (ou arraste para a tela)</span></div></div>
       ${x.foto_origem === 'canal' ? '<div class="hint">Essa é a foto do canal de origem. Colar o seu link meli.la no campo de link costuma trocar pela foto oficial.</div>' : ''}</div>
+    <details class="iafoto" id="${p}-iafoto"><summary>${ic('foto',15)}Foto nossa com IA (grátis no Gemini)</summary>
+      <ol class="iapassos"><li>Copie a foto do produto e o prompt.</li><li>Abra o Gemini, cole a foto e o prompt e envie.</li><li>Copie a imagem gerada e aperte Ctrl+V aqui no campo Foto.</li></ol>
+      <pre class="iaprompt" id="${p}-iaprompt"></pre>
+      <div style="display:flex;gap:6px;flex-wrap:wrap">
+        <button type="button" class="btn sm gold" onclick="iaCopiarFoto('${p}')">${ic('copiar',15)}1. Copiar foto do produto</button>
+        <button type="button" class="btn sm gold" onclick="iaCopiarPrompt('${p}')">${ic('copiar',15)}2. Copiar prompt</button>
+        <a class="btn sm" href="https://gemini.google.com/app" target="_blank" rel="noopener">3. Abrir Gemini</a>
+        <button type="button" class="btn sm ghost" onclick="iaOutra('${p}')">Outra ideia de cena</button>
+      </div></details>
   </div>
   <div class="prev"><div class="lbl"><span>Como fica no canal</span><span>prévia</span></div><div class="tg"><div class="bub" id="${p}-bub"></div></div></div></div>`;
 }
@@ -887,7 +901,56 @@ function ligarEditor(p, x){
   [...FORM, 'prime', 'pix'].forEach(k => document.getElementById(`${p}-${k}`).addEventListener('input', atual));
   document.getElementById(`${p}-prime`).addEventListener('change', e => { document.getElementById(`${p}-semprime-w`).style.display = e.target.checked ? '' : 'none'; atual(); });
   x._atual = atual;
+  IAF[p] = {x, n: 0};
+  document.getElementById(`${p}-iafoto`)?.addEventListener('toggle', () => iaMostrar(p));
   atual();
+}
+// ---------- Foto nossa com IA: prompt que muda conforme o produto (cena escolhida pela categoria + variação)
+const IAF = {};
+const IA_CENAS = [
+  [/perfum|body ?splash|col[oô]nia|fragr[aâ]n|desodorante/i, ['on a polished black marble bathroom counter, warm golden light from the side, soft reflections and a few water droplets on the glass', 'on a dark wooden shelf with a leather watch and sunglasses blurred in the background, moody warm evening light', 'held by a man\'s hand with a gold bracelet, close-up, blurred luxury bathroom behind, warm ambient light', 'standing on black velvet with thin golden smoke curling behind it, dramatic rim light']],
+  [/rel[oó]gio|smartwatch|pulseira/i, ['on a man\'s wrist resting on a dark wooden desk next to a notebook and coffee, warm morning light', 'on a black leather surface with its box slightly open behind it, golden rim light, macro detail of the dial', 'on a wrist holding a steering wheel inside a car at sunset, warm light through the window', 'on a stone ledge outdoors at golden hour, city lights blurred in the background']],
+  [/fone|headphone|earbud|caixa de som|speaker|jbl/i, ['on a dark desk next to a laptop with a soft purple and gold desk lamp glow', 'being worn by a young man walking in the city at night, neon bokeh behind', 'on a gym bench with a water bottle and towel, dramatic side light', 'floating above its open case on black glossy surface, studio lighting']],
+  [/t[eê]nis|sapat|chinelo|bota|sand[aá]lia/i, ['on a clean concrete floor with soft shadows, low angle, urban street light', 'being worn mid-step on a city sidewalk at golden hour, low angle close-up', 'on top of its box on a dark wooden bench in a modern bedroom, warm light', 'on a basketball court at dusk, dramatic rim light']],
+  [/camis|camiseta|bermuda|cal[cç]a|jaqueta|moletom|blusa|bon[eé]|cueca|meia/i, ['neatly folded on a dark wooden table next to a watch and perfume, warm light', 'worn by a confident young man leaning on a wall in the city at golden hour', 'hanging on a black metal rack in a minimal store with warm spotlights', 'laid flat on a black linen sheet, top-down, soft window light']],
+  [/creatina|whey|suplement|pr[eé]-treino|vitamina|col[aá]geno/i, ['on a gym bench next to dumbbells, dramatic side light, chalk dust in the air', 'on a kitchen counter next to a shaker and fruits, bright morning light', 'held by a muscular hand in a dark gym with warm spotlights', 'on a black surface with powder splash frozen in motion, studio lighting']],
+  [/airfryer|panela|liquidificador|cafeteira|cozinha|frigideira|faca|garrafa|copo|t[eé]rmic/i, ['on a modern kitchen counter with fresh ingredients around it, warm morning light', 'in use on a dark stone countertop with steam rising, cozy evening light', 'on a wooden table set for breakfast, soft window light', 'on a black marble counter with golden pendant lights blurred behind']],
+  [/celular|smartphone|iphone|galaxy|tablet|notebook|carregador|power ?bank|cabo|mouse|teclado|monitor/i, ['on a dark desk setup with ambient LED glow and a coffee mug', 'held in a hand on a city street at night with neon bokeh', 'on a black glossy surface with a dramatic gold rim light', 'on a wooden bedside table next to a book and lamp, warm light']],
+  [/barbeador|aparador|m[aá]quina de cortar|secador|chapinha|escova|navalha|barba|cabelo/i, ['on a black marble bathroom counter next to a towel and mirror, warm light', 'in a man\'s hand in front of a bathroom mirror, close-up, soft warm light', 'on a dark wooden barber station with vintage tools blurred behind', 'on black slate with water droplets, dramatic side light']],
+  [/ferrament|furadeira|parafusadeira|chave|alicate|serra/i, ['on a wooden workbench in a garage with warm work light', 'in a gloved hand at a construction site at golden hour', 'on a black rubber mat with sparks blurred behind, dramatic light', 'on a pegboard wall with tools around, clean studio light']],
+];
+const IA_GERAL = ['on a dark marble surface with warm golden side light and soft reflections', 'held by a man\'s hand with a gold bracelet, close-up, warm blurred background', 'on a wooden table in a cozy modern room at golden hour', 'on black velvet with a dramatic gold rim light, premium studio look'];
+const IA_CAMERA = ['Eye-level shot', 'Slight top-down angle', 'Low angle hero shot', 'Close-up with shallow depth of field'];
+function iaPrompt(p){
+  const s = IAF[p]; if (!s) return '';
+  const nome = (document.getElementById(`${p}-nome`)?.value || s.x.nome || 'the product').trim();
+  const cenas = (IA_CENAS.find(([re]) => re.test(nome)) || [null, IA_GERAL])[1];
+  let h = 0; for (const c of String(s.x.chave || nome)) h = (h * 31 + c.charCodeAt(0)) >>> 0;
+  const i = (h + s.n) % cenas.length, cam = IA_CAMERA[(h + s.n * 3) % IA_CAMERA.length];
+  return `Create a realistic, high-end product photo of this exact product: "${nome}".\n`
+    + `Use the attached photo as the reference: keep the product's shape, colors, logo and label exactly the same, do not invent a different product.\n`
+    + `Scene: the product ${cenas[i]}. ${cam}.\n`
+    + `Style: photorealistic, like a real smartphone photo from a premium store, sharp focus on the product, natural shadows.\n`
+    + `Square 1:1 image. No text, no price, no watermark, no extra logos.`;
+}
+function iaMostrar(p){ const el = document.getElementById(`${p}-iaprompt`); if (el) el.textContent = iaPrompt(p); }
+function iaOutra(p){ if (IAF[p]) { IAF[p].n++; iaMostrar(p); toast('Nova ideia de cena'); } }
+function iaCopiarPrompt(p){ iaMostrar(p); copiarTexto(iaPrompt(p), 'Prompt copiado'); }
+async function iaCopiarFoto(p){
+  const f = IAF[p]?.x.foto;
+  if (!f) return toast('Essa oferta ainda não tem foto. Envie uma antes.', true);
+  const url = f.startsWith('http') ? '/painel/foto?f=' + encodeURIComponent(f) : f;  // passa pelo servidor: copiar imagem de outro site é bloqueado
+  try {
+    const png = fetch(url).then(r => { if (!r.ok) throw 0; return r.blob(); }).then(b => createImageBitmap(b)).then(bm => {
+      const c = document.createElement('canvas'); c.width = bm.width; c.height = bm.height; c.getContext('2d').drawImage(bm, 0, 0);
+      return new Promise(res => c.toBlob(res, 'image/png'));
+    });
+    await navigator.clipboard.write([new ClipboardItem({'image/png': png})]);
+    toast('Foto copiada. Cole no Gemini.');
+  } catch(e) {
+    window.open(url, '_blank');
+    toast('Não deu pra copiar aqui. Abri a foto: salve e envie no Gemini.', true);
+  }
 }
 function escolherFoto(p){
   const inp = document.getElementById('arquivo');
