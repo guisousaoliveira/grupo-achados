@@ -64,6 +64,17 @@
       "frase": "Vale cada centavo nesse preço.",
       "cupom": "🎟️ Resgate o cupom de R$100 no anúncio",
       "aprovado_em": "2026-10-12T04:39-03:00"
+    },
+    {
+      "loja": "amazon",
+      "link": "https://link.amazon/B05qTBYbL",
+      "chave": "amazon:https://link.amazon/B05qTBYbL",
+      "foto": "AgACAgEAAxkDAAOHasyabvyEah37Pnhy65SFG6guPjsAAjQQaxvw92FG7I2ItIePsQ4BAAMCAAN4AAM9BA",
+      "titulo": "Camiseta de treino com preço baixo",
+      "nome": "Camiseta Masculina Academia Trifil Poliamida Dry Fit",
+      "de": 116.99,
+      "por": 56.99,
+      "aprovado_em": "2026-10-12T05:30-03:00"
     }
   ],
   "postados": [
