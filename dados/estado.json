@@ -261,6 +261,23 @@
       "parcela_valor": 36.5,
       "pix": true,
       "aprovado_em": "2026-10-12T19:45-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB49217710",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/1tqC1AP",
+      "link_produto": "https://meli.la/1tqC1AP",
+      "post_origem": "https://t.me/lobaopromo/188585",
+      "link_canal": "https://meli.la/13SFiP3",
+      "foto": "AgACAgEAAxkDAAIBDmrNby012wGfEnflKPGbq2xW70KNAAKRDWsb8PdpRiMmd_5PBlLbAQADAgADeQADPQQ",
+      "nome": "Creatina +Mu em pó sabor Melancia x 500g",
+      "por": 67.0,
+      "titulo": "Creatina para render mais no treino",
+      "garimpado_em": "2026-10-12T20:00-03:00",
+      "na_revisao_desde": "2026-10-12T20:00-03:00",
+      "de": 124.99,
+      "aprovado_em": "2026-10-12T20:38-03:00"
     }
   ],
   "postados": [
@@ -543,24 +560,6 @@
   },
   "shopee_buscado_em": "",
   "revisar": [
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB49217710",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/creatina-mu-em-po-sabor-melancia-x-500g/p/MLB49217710?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/creatina-mu-em-po-sabor-melancia-x-500g/p/MLB49217710",
-      "post_origem": "https://t.me/lobaopromo/188585",
-      "link_canal": "https://meli.la/13SFiP3",
-      "foto": "AgACAgQAAxkDAAIBBGrNZpNrXmDfOTz1gRI1o_sgcK_yAAKdDGsbUUp1UR3jqMIIdZhvAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Creatina +Mu em pó sabor Melancia x 500g",
-      "por": 67.0,
-      "titulo": "Creatina para render mais no treino",
-      "id": 123,
-      "garimpado_em": "2026-10-12T20:00-03:00",
-      "na_revisao_desde": "2026-10-12T20:00-03:00",
-      "msg_id": 260
-    },
     {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB21802395",
@@ -1549,7 +1548,7 @@
       },
       "lobaopromo": {
         "achados": 12,
-        "aprovados": 2,
+        "aprovados": 3,
         "reprovados": 7
       },
       "urubupromo": {
