@@ -209,6 +209,25 @@
       "parcela_valor": 23.74,
       "pix": true,
       "aprovado_em": "2026-10-12T17:07-03:00"
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0GM1LSHQF",
+      "origem": "lobaopromo",
+      "link": "https://link.amazon/B01NDkKyh",
+      "link_produto": "https://www.amazon.com.br/dp/B0GM1LSHQF?tag=alphadominu09-20",
+      "post_origem": "https://t.me/lobaopromo/188556",
+      "link_canal": "https://amzlink.to/az0EDfkYT39rS",
+      "foto": "AgACAgQAAxkDAAP1as1TyuticvvhWbKjYzBW2Fu-Gb4AAlUQaxspmW1S3Q4h0U_zUl8BAAMCAAN4AAM9BA",
+      "foto_origem": "loja",
+      "nome": "JBL Fone de Ouvido Bluetooth Over-Ear Tune 530BT",
+      "pix": true,
+      "de": 299.0,
+      "por": 168.0,
+      "titulo": "Fone JBL Tune 530BT com 44% off",
+      "garimpado_em": "2026-10-12T18:40-03:00",
+      "na_revisao_desde": "2026-10-12T18:40-03:00",
+      "aprovado_em": "2026-10-12T18:46-03:00"
     }
   ],
   "postados": [
@@ -514,26 +533,6 @@
       "garimpado_em": "2026-10-12T18:40-03:00",
       "na_revisao_desde": "2026-10-12T18:40-03:00",
       "msg_id": 244
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0GM1LSHQF",
-      "origem": "lobaopromo",
-      "link": "https://www.amazon.com.br/dp/B0GM1LSHQF?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0GM1LSHQF?tag=alphadominu09-20",
-      "post_origem": "https://t.me/lobaopromo/188556",
-      "link_canal": "https://amzlink.to/az0EDfkYT39rS",
-      "foto": "AgACAgQAAxkDAAP1as1TyuticvvhWbKjYzBW2Fu-Gb4AAlUQaxspmW1S3Q4h0U_zUl8BAAMCAAN4AAM9BA",
-      "foto_origem": "loja",
-      "nome": "JBL Fone de Ouvido Bluetooth Over-Ear Tune 530BT",
-      "pix": true,
-      "de": 299.0,
-      "por": 168.0,
-      "titulo": "Fone JBL Tune 530BT com 44% off",
-      "id": 110,
-      "garimpado_em": "2026-10-12T18:40-03:00",
-      "na_revisao_desde": "2026-10-12T18:40-03:00",
-      "msg_id": 245
     }
   ],
   "proximo_id": 111,
@@ -1175,7 +1174,7 @@
       },
       "lobaopromo": {
         "achados": 7,
-        "aprovados": 1,
+        "aprovados": 2,
         "reprovados": 4
       },
       "urubupromo": {
