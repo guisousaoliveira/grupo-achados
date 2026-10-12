@@ -3,20 +3,6 @@
   "fila": [
     {
       "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB42978348",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/2EC8yAy",
-      "link_produto": "https://www.mercadolivre.com.br/bicicleta-ergometrica-bike-spinning-6kg-sensacao-inercia-fitness-preto-e-vermelho-sevenfit-para-cardio/p/MLB42978348",
-      "foto": "AgACAgQAAxkDAAOYaszM_gYn2_4F1H-UfjpPRdZ3RvMAAi4NaxsbFxRTWc5X9yYqCIUBAAMCAAN4AAM9BA",
-      "foto_origem": "loja",
-      "nome": "Bicicleta Ergométrica Bike Spinning 6kg Sensação Inércia Fitness",
-      "de": 1094.0,
-      "por": 458.0,
-      "titulo": "Desconto de 58%: é agora ou nunca.",
-      "aprovado_em": "2026-10-12T12:32-03:00"
-    },
-    {
-      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB75627276",
       "origem": "gatunopromos",
       "link": "https://meli.la/2Ez1sVB",
@@ -133,6 +119,12 @@
       "loja": "amazon",
       "nome": "Camiseta Masculina Academia Trifil Poliamida Dry Fit",
       "data": "2026-10-12T12:00-03:00"
+    },
+    {
+      "chave": "mercadolivre:MLB42978348",
+      "loja": "mercadolivre",
+      "nome": "Bicicleta Ergométrica Bike Spinning 6kg Sensação Inércia Fitness",
+      "data": "2026-10-12T13:00-03:00"
     }
   ],
   "slots_usados": {
@@ -144,7 +136,8 @@
       9,
       10,
       11,
-      12
+      12,
+      13
     ]
   },
   "shopee_buscado_em": "",
@@ -378,15 +371,15 @@
   "proximo_id": 51,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84477,
-      "lobaopromo": 188477,
+      "xetdaspromocoes": 84478,
+      "lobaopromo": 188478,
       "gatunopromos": 124874,
       "pobregram": 41764,
       "urubupromo": 41569,
-      "tudonapromo": 101603,
-      "promonocontext": 125905,
-      "promooeasy": 220089,
-      "aquitempechincha": 281072,
+      "tudonapromo": 101604,
+      "promonocontext": 125907,
+      "promooeasy": 220090,
+      "aquitempechincha": 281073,
       "infoBRpromos": 67411
     },
     "dia": "2026-10-12",
@@ -423,22 +416,32 @@
       "mercadolivre:MLB76427437"
     ],
     "ultima": {
-      "em": "2026-10-12T12:55:15-03:00",
+      "em": "2026-10-12T13:00:26-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 10,
       "lidos": 10,
       "falhas": [],
-      "posts_novos": 15,
-      "do_nicho": 2,
-      "repetidas": 1,
-      "novas": 1,
+      "posts_novos": 7,
+      "do_nicho": 0,
+      "repetidas": 0,
+      "novas": 0,
       "limite_dia": false
     },
-    "hora": "2026-10-12T12",
-    "nesta_hora": 1
+    "hora": "2026-10-12T13",
+    "nesta_hora": 0
   },
   "ultimos": [
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB42978348",
+      "link": "https://meli.la/2EC8yAy",
+      "link_produto": "https://www.mercadolivre.com.br/bicicleta-ergometrica-bike-spinning-6kg-sensacao-inercia-fitness-preto-e-vermelho-sevenfit-para-cardio/p/MLB42978348",
+      "foto": "AgACAgQAAxkDAAOYaszM_gYn2_4F1H-UfjpPRdZ3RvMAAi4NaxsbFxRTWc5X9yYqCIUBAAMCAAN4AAM9BA",
+      "nome": "Bicicleta Ergométrica Bike Spinning 6kg Sensação Inércia Fitness",
+      "de": 1094.0,
+      "por": 458.0
+    },
     {
       "loja": "amazon",
       "link": "https://link.amazon/B05qTBYbL",
