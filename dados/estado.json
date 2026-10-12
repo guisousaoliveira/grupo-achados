@@ -209,6 +209,25 @@
       "parcela_valor": 23.74,
       "pix": true,
       "aprovado_em": "2026-10-12T17:07-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB21835256",
+      "origem": "promonocontext",
+      "link": "https://meli.la/2RKjsdt",
+      "link_produto": "https://www.mercadolivre.com.br/maquininha-3-em-1-kemei-km-1910-aparador-pelo-corpo-agua-resistente/p/MLB21835256",
+      "post_origem": "https://t.me/promonocontext/125966",
+      "link_canal": "https://meli.la/2mHQNPx",
+      "foto": "AgACAgQAAxkDAAPnas1DcbzBBB-HZDSgXjU5vnimAekAAjINaxuj3XRQYu_3KQABP-NcAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Maquininha 3 Em 1 Kemei KM-1910 Aparador Pelo Corpo Água Resistente",
+      "de": 99.9,
+      "por": 51.76,
+      "titulo": "Maquininha Kemei com 48% off",
+      "garimpado_em": "2026-10-12T17:30-03:00",
+      "na_revisao_desde": "2026-10-12T17:47-03:00",
+      "pix": true,
+      "aprovado_em": "2026-10-12T17:49-03:00"
     }
   ],
   "postados": [
@@ -439,27 +458,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB21835256",
-      "origem": "promonocontext",
-      "link": "https://www.mercadolivre.com.br/maquininha-3-em-1-kemei-km-1910-aparador-pelo-corpo-agua-resistente/p/MLB21835256?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/maquininha-3-em-1-kemei-km-1910-aparador-pelo-corpo-agua-resistente/p/MLB21835256",
-      "post_origem": "https://t.me/promonocontext/125966",
-      "link_canal": "https://meli.la/2mHQNPx",
-      "foto": "AgACAgQAAxkDAAPnas1DcbzBBB-HZDSgXjU5vnimAekAAjINaxuj3XRQYu_3KQABP-NcAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Maquininha 3 Em 1 Kemei KM-1910 Aparador Pelo Corpo Água Resistente",
-      "de": 99.0,
-      "por": 51.0,
-      "titulo": "Maquininha Kemei com 48% off",
-      "garimpado_em": "2026-10-12T17:30-03:00",
-      "id": 103,
-      "na_revisao_desde": "2026-10-12T17:47-03:00",
-      "msg_id": 236
-    }
-  ],
+  "revisar": [],
   "proximo_id": 104,
   "radar": {
     "visto": {
@@ -1039,7 +1038,7 @@
       },
       "promonocontext": {
         "achados": 2,
-        "aprovados": 1,
+        "aprovados": 2,
         "reprovados": 0
       },
       "boletando": {
