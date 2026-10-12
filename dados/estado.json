@@ -160,6 +160,23 @@
       "titulo": "Boné unissex ajustável com menor preço",
       "garimpado_em": "2026-10-12T15:47-03:00",
       "aprovado_em": "2026-10-12T15:59-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB22357681",
+      "origem": "gatunopromos",
+      "link": "https://meli.la/31oLFm5",
+      "link_produto": "https://www.mercadolivre.com.br/aparador-de-pelos-kemei-km-6511-nariz-orelhas-sem-fio-preto/p/MLB22357681",
+      "post_origem": "https://t.me/gatunopromos/124892",
+      "link_canal": "https://meli.la/2EA97YX",
+      "foto": "AgACAgQAAxkDAAO4as0k8VJI5KxNjEbUGWRUFhLEwWUAApEPaxurvGRSfwqBK-hyHyoBAAMCAAN4AAM9BA",
+      "foto_origem": "loja",
+      "nome": "Aparador de Pelos Kemei KM-6511 Nariz Orelhas Sem Fio Preto",
+      "pix": true,
+      "de": 78.0,
+      "por": 28.0,
+      "garimpado_em": "2026-10-12T15:20-03:00",
+      "aprovado_em": "2026-10-12T16:01-03:00"
     }
   ],
   "postados": [
@@ -337,25 +354,6 @@
   },
   "shopee_buscado_em": "",
   "revisar": [
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB22357681",
-      "origem": "gatunopromos",
-      "link": "https://www.mercadolivre.com.br/aparador-de-pelos-kemei-km-6511-nariz-orelhas-sem-fio-preto/p/MLB22357681?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/aparador-de-pelos-kemei-km-6511-nariz-orelhas-sem-fio-preto/p/MLB22357681",
-      "post_origem": "https://t.me/gatunopromos/124892",
-      "link_canal": "https://meli.la/2EA97YX",
-      "foto": "AgACAgQAAxkDAAO4as0k8VJI5KxNjEbUGWRUFhLEwWUAApEPaxurvGRSfwqBK-hyHyoBAAMCAAN4AAM9BA",
-      "foto_origem": "loja",
-      "nome": "Aparador de Pelos Kemei KM-6511 Nariz Orelhas Sem Fio Preto",
-      "pix": true,
-      "de": 78.0,
-      "por": 28.0,
-      "titulo": "Menor preço histórico com desconto absurdo",
-      "id": 65,
-      "garimpado_em": "2026-10-12T15:20-03:00",
-      "msg_id": 184
-    },
     {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB68717302",
@@ -725,7 +723,7 @@
       },
       "gatunopromos": {
         "achados": 1,
-        "aprovados": 0,
+        "aprovados": 1,
         "reprovados": 0
       }
     }
