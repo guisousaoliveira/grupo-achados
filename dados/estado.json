@@ -210,6 +210,12 @@
       "loja": "amazon",
       "nome": "soundcore P30i da Anker, ANC Fone de Ouvido Bluetooth 5.4 Sem Fio, TWS",
       "data": "2026-10-12T13:33-03:00"
+    },
+    {
+      "chave": "mercadolivre:https://meli.la/1RgUNd8",
+      "loja": "mercadolivre",
+      "nome": "Tênis Nike Run Defy Masculino",
+      "data": "2026-10-12T13:41-03:00"
     }
   ],
   "slots_usados": {
@@ -296,6 +302,15 @@
     "nesta_hora": 3
   },
   "ultimos": [
+    {
+      "loja": "mercadolivre",
+      "link": "https://meli.la/1RgUNd8",
+      "chave": "mercadolivre:https://meli.la/1RgUNd8",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_789783-MLB112891519507_062026-O.webp",
+      "nome": "Tênis Nike Run Defy Masculino",
+      "de": 349.99,
+      "por": 256.49
+    },
     {
       "loja": "amazon",
       "link": "https://link.amazon/B053xXD0M",
@@ -415,13 +430,6 @@
       "de": 69.9,
       "nome": "Bolsa Térmica Mochila Marmita Grande Cooler Impermeável",
       "foto": "AgACAgQAAxkDAANPasxCZO5yKgXGySWYZISpSps9d-EAAicPaxt2C81RfaoV6Zo9JbQBAAMCAAN4AAM9BA"
-    },
-    {
-      "loja": "mercadolivre",
-      "foto": "https://cdn1.telesco.pe/file/ISRVm11Gd8bt6QOdyyocPgp6qCIU47gowAqXDkEpZ80uW4OeMkYn5CagPQUrViilncBOzyjZQ5YNP0IqJSXYH13Q4bRfvChIjgcJq7jDSzuGr9p8AN5YPQwhDXPJH3lV84x4RVPhYEkfRx5fLh0dcwT1aPkWo_iKnZWmye82y9ITRqb0u8fusIQ3XaUtiAd1RDuaEWgfEwLTe9S9t76chq7EM2zF0ui7WNWuMkPD9izlxhpPst73p3bxvgMn3VxrKdVD_vnSIgHM_bFc5uu1t2uasP2-SZX5xJhzEVujIoraPenJ1wfXrayHVx9KDlDPcr6b5QcRpmE8EOvl7-uT3A.jpg",
-      "nome": "Kit 2 Creatina Max Titanium 300g",
-      "de": 179.0,
-      "por": 78.0
     }
   ]
 }
