@@ -308,24 +308,38 @@
       "titulo": "Vale cada centavo nesse preço.",
       "id": 41,
       "msg_id": 147
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B09JZBTWV1",
+      "origem": "aquitempechincha",
+      "link": "https://www.amazon.com.br/dp/B09JZBTWV1?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B09JZBTWV1?tag=alphadominu09-20",
+      "nome": "Lava e Seca TCL 11kg C311WDW Inverter - 110V",
+      "foto": "AgACAgQAAxkDAAOUaszJiA5od-AuHNVJyQ4JH3MQIN8AAtG5MRsQqh1QRGKkA6UxjSkBAAMCAAN5AAM9BA",
+      "foto_origem": "loja",
+      "cupom": "IFPPWQWM",
+      "titulo": "Estoque voa nesse valor, garante o seu.",
+      "id": 42,
+      "msg_id": 148
     }
   ],
-  "proximo_id": 42,
+  "proximo_id": 43,
   "radar": {
     "visto": {
       "xetdaspromocoes": 84419,
-      "lobaopromo": 188401,
-      "gatunopromos": 124842,
+      "lobaopromo": 188402,
+      "gatunopromos": 124844,
       "pobregram": 41742,
       "urubupromo": 41556,
       "tudonapromo": 101548,
       "promonocontext": 125770,
-      "promooeasy": 219977,
-      "aquitempechincha": 280953,
+      "promooeasy": 219981,
+      "aquitempechincha": 280958,
       "infoBRpromos": 67377
     },
     "dia": "2026-10-12",
-    "hoje": 14,
+    "hoje": 15,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -348,19 +362,20 @@
       "mercadolivre:MLB75627276",
       "shopee:1552226494.58267803701",
       "shopee:1537142489.23398712317",
-      "amazon:B076BJH4JH"
+      "amazon:B076BJH4JH",
+      "amazon:B09JZBTWV1"
     ],
     "ultima": {
-      "em": "2026-10-12T08:45:19-03:00",
+      "em": "2026-10-12T08:50:22-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 10,
       "lidos": 10,
       "falhas": [],
-      "posts_novos": 5,
-      "do_nicho": 0,
+      "posts_novos": 12,
+      "do_nicho": 1,
       "repetidas": 0,
-      "novas": 0,
+      "novas": 1,
       "limite_dia": false
     }
   },
