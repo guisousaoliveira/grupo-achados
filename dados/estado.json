@@ -151,9 +151,9 @@
     "visto": {
       "xetdaspromocoes": 84418,
       "lobaopromo": 188394,
-      "gatunopromos": 124830,
+      "gatunopromos": 124832,
       "pobregram": 41740,
-      "urubupromo": 41552,
+      "urubupromo": 41553,
       "tudonapromo": 101548,
       "promonocontext": 125768,
       "promooeasy": 219962,
@@ -176,13 +176,13 @@
       "mercadolivre:MLB54026101"
     ],
     "ultima": {
-      "em": "2026-10-12T07:25:16-03:00",
+      "em": "2026-10-12T07:35:17-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 10,
       "lidos": 10,
       "falhas": [],
-      "posts_novos": 2,
+      "posts_novos": 3,
       "do_nicho": 0,
       "repetidas": 0,
       "novas": 0,
