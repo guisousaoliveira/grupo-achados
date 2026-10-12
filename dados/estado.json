@@ -398,26 +398,84 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [],
-  "proximo_id": 88,
+  "revisar": [
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB5364050300",
+      "origem": "promonocontext",
+      "link": "https://produto.mercadolivre.com.br/MLB-5364050300-tnis-masculino-olympikus-marte-macio-leve-_JM?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-5364050300-tnis-masculino-olympikus-marte-macio-leve-_JM",
+      "post_origem": "https://t.me/promonocontext/125964",
+      "link_canal": "https://meli.la/2iEKRZz",
+      "foto": "AgACAgQAAxkDAAPaas08bxhi-eoZYOVIad8DlMrS9tYAAli6MRvumwVQL5NanykFRKoBAAMCAAN4AAM9BA",
+      "foto_origem": "loja",
+      "nome": "Tênis Masculino Olympikus Marte Macio Leve",
+      "de": 300.0,
+      "por": 165.0,
+      "titulo": "Tênis Olympikus com 45% off",
+      "id": 88,
+      "garimpado_em": "2026-10-12T17:00-03:00",
+      "na_revisao_desde": "2026-10-12T17:00-03:00",
+      "msg_id": 218
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0DP5K22XJ",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0DP5K22XJ?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0DP5K22XJ?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220188",
+      "link_canal": "https://www.amazon.com.br/dp/B0DP5K22XJ?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAPbas08c5Bk4CnUyAnm_PVcjgPuHDAAAoEOaxtN7nVS1InpoG9gSjABAAMCAAN4AAM9BA",
+      "foto_origem": "loja",
+      "nome": "Monitor Gamer Redragon Ombra 32 Quad HD IPS 165hz GMQ3222SUC",
+      "parcelas": 12,
+      "por": 1499.0,
+      "titulo": "Monitor Gamer Redragon com desconto de 25%",
+      "id": 89,
+      "garimpado_em": "2026-10-12T17:00-03:00",
+      "na_revisao_desde": "2026-10-12T17:00-03:00",
+      "msg_id": 219
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0DJW5G283",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0DJW5G283?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0DJW5G283?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220190",
+      "link_canal": "https://www.amazon.com.br/dp/B0DJW5G283?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAPcas08dD-46pGd_fj70lzPW-jVcu4AAsQPaxvzUVRQ5sQ04d37ms8BAAMCAAN4AAM9BA",
+      "foto_origem": "loja",
+      "nome": "soundcore Q11i da Anker Headphone Bluetooth Over Ear, 60H Fone Gamer Preto",
+      "parcelas": 6,
+      "por": 189.0,
+      "titulo": "Headphone Anker Q11i com 60 horas de bateria",
+      "id": 90,
+      "garimpado_em": "2026-10-12T17:00-03:00",
+      "na_revisao_desde": "2026-10-12T17:00-03:00",
+      "msg_id": 220
+    }
+  ],
+  "proximo_id": 91,
   "radar": {
     "visto": {
       "xetdaspromocoes": 84504,
-      "lobaopromo": 188523,
-      "gatunopromos": 124911,
+      "lobaopromo": 188524,
+      "gatunopromos": 124914,
       "pobregram": 41778,
-      "urubupromo": 41577,
+      "urubupromo": 41579,
       "tudonapromo": 101625,
-      "promonocontext": 125963,
-      "promooeasy": 220186,
-      "aquitempechincha": 281159,
+      "promonocontext": 125965,
+      "promooeasy": 220193,
+      "aquitempechincha": 281161,
       "infoBRpromos": 67415,
-      "boletando": 76612,
+      "boletando": 76613,
       "promotop": 260183,
-      "achadosdotb": 11753
+      "achadosdotb": 11754
     },
     "dia": "2026-10-12",
-    "hoje": 58,
+    "hoje": 61,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -484,27 +542,30 @@
       "amazon:B0FFTRKRCV",
       "amazon:B0HBZXL4CN",
       "amazon:B0DX88HMJV",
-      "shopee:1009975506.40983623796"
+      "shopee:1009975506.40983623796",
+      "mercadolivre:MLB5364050300",
+      "amazon:B0DP5K22XJ",
+      "amazon:B0DJW5G283"
     ],
     "ultima": {
-      "em": "2026-10-12T16:50:19-03:00",
+      "em": "2026-10-12T17:00:26-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 18,
-      "do_nicho": 3,
+      "posts_novos": 31,
+      "do_nicho": 5,
       "repetidas": 2,
-      "novas": 1,
+      "novas": 3,
       "limite_dia": false,
       "promobit": 0
     },
-    "hora": "2026-10-12T16",
-    "nesta_hora": 12,
-    "promobit_hora": "2026-10-12T16",
-    "promobit_nesta_hora": 5,
-    "promobit_visto": 3108996
+    "hora": "2026-10-12T17",
+    "nesta_hora": 3,
+    "promobit_hora": "2026-10-12T17",
+    "promobit_nesta_hora": 0,
+    "promobit_visto": 3109015
   },
   "ultimos": [
     {
@@ -843,7 +904,7 @@
   "garimpo": {
     "2026-10-12": {
       "promooeasy": {
-        "achados": 12,
+        "achados": 14,
         "aprovados": 3,
         "reprovados": 9
       },
@@ -876,8 +937,13 @@
         "achados": 1,
         "aprovados": 0,
         "reprovados": 1
+      },
+      "promonocontext": {
+        "achados": 1,
+        "aprovados": 0,
+        "reprovados": 0
       }
     }
   },
-  "aviso_post": "2026-10-12 15|mercadolivre:MLB67893601"
+  "aviso_post": "2026-10-12 17|mercadolivre:MLB75627276"
 }
