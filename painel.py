@@ -1,7 +1,7 @@
 """Painel web do bot (no mesmo servidor do Render): https://<seu-servico>.onrender.com/painel
 
 Tudo o que você faz no privado do bot, numa tela só: ver e reordenar a fila, revisar as ofertas do radar,
-colar um link e montar a oferta, gerar story e pedir sugestões de título e frase para a IA.
+colar um link e montar a oferta, gerar story e pedir sugestões de título e nome para a IA.
 Usa a mesma fila (dados/estado.json no GitHub) que o bot e o GitHub Actions.
 
 Variáveis no Render:
@@ -122,6 +122,9 @@ def url_produto(x):
 def item_json(x, ident):
     d = {k: x.get(k) for k in CAMPOS if x.get(k) not in (None, "", False)}
     d["id"] = ident
+    if not d.get("titulo") and d.get("frase"):  # frase é o nome antigo do título
+        d["titulo"] = d["frase"]
+    d.pop("frase", None)
     d["url"] = url_produto(x)
     d["foto"] = url_foto(x.get("foto"))
     d["foto_raw"] = x.get("foto") or ""
@@ -235,7 +238,9 @@ def radar_status(pedido, desde):
 
 def aplicar_campos(item, d):
     """Campos vindos do formulário do painel. Texto vazio apaga o campo."""
-    for campo in ("titulo", "nome", "frase", "cupom"):
+    if "titulo" in d:
+        item.pop("frase", None)  # frase é o nome antigo do título
+    for campo in ("titulo", "nome", "cupom"):
         if campo in d:
             valor = (d[campo] or "").strip()
             if valor:
@@ -284,10 +289,8 @@ def ler_link(texto):
             foto = bot.foto_amazon_por_asin(m.group(1))
             if foto:
                 item["foto"] = foto
-    if not item.get("frase") and item.get("nome"):
-        item["frase"] = bot.gerar_frase(item)
     if not item.get("titulo") and item.get("nome"):
-        item["titulo"] = bot.gerar_titulo(item)
+        item["titulo"] = bot.gerar_titulo(item) or bot.gerar_frase(item)
     estado, _ = bot.carregar_estado()
     aviso = ""
     if any(x["chave"] == item["chave"] for x in estado["fila"]):
@@ -331,14 +334,12 @@ def tirar_botoes(msg_id):
 PEDIDO_IA = """Você escreve ofertas para o Alpha Promo, um canal de achados no Telegram com público masculino
 de 18 a 35 anos (academia, estilo, cuidados, tecnologia, games, ferramentas, casa, cozinha, churrasco e carro).
 Olhe a foto (se tiver) e os dados abaixo e devolva só um JSON assim:
-{"titulos": [3 opções], "nomes": [3 opções], "frases": [3 opções], "nota": "..."}
+{"titulos": [5 opções], "nomes": [3 opções], "nota": "..."}
 - titulos: chamada curta para o topo do post, até 6 palavras, estilo dos canais de promoção: direta, com gancho
   (benefício, brinde, menor preço, desconto). Ex.: "Troca o celular e ganha o relógio", "Menor preço da creatina".
   Sem emoji, sem preço, sem inventar o que não está nos dados.
 - nomes: nome curto do produto, até 60 caracteres. Tipo de produto + marca + o detalhe que importa
   (tamanho, capacidade, voltagem, cor). Sem emoji, sem caixa alta, sem preço, sem palavras como "oferta".
-- frases: frase chamativa de até 90 caracteres, português do Brasil, tom direto e masculino, sem exagero e sem
-  inventar o que não está nos dados. Pode citar o desconto se houver. No máximo 1 emoji.
 - nota: uma frase curta de opinião sobre a oferta (se o desconto é forte, se vale destacar o cupom, ou um alerta se
   algo parece estranho nos dados, como preço fora do normal para o produto).
 
@@ -352,9 +353,9 @@ def ia(d):
     off = round((1 - item["por"] / item["de"]) * 100) if item["de"] and item["por"] and item["de"] > item["por"] else 0
     chave = bot.segredo("GEMINI_API_KEY")
     if not chave:
-        frases = list(dict.fromkeys(bot.gerar_frase(item) for _ in range(12)))[:3]
-        return {"sem_chave": True, "titulos": [], "nomes": [bot.nome_curto(item["nome"], 60)] if item["nome"] else [],
-                "frases": [f for f in frases if f], "nota": ""}
+        frases = list(dict.fromkeys(bot.gerar_frase(item) for _ in range(15)))[:5]
+        return {"sem_chave": True, "titulos": [f for f in frases if f],
+                "nomes": [bot.nome_curto(item["nome"], 60)] if item["nome"] else [], "nota": ""}
     dados = (f"Nome atual: {item['nome']}\nLoja: {LOJAS.get(item['loja'], item['loja'])}\n"
              f"Preço: {bot.reais(item['por']) if item['por'] else '?'}"
              + (f" (antes {bot.reais(item['de'])}, {off}% off)" if off else "")
@@ -362,7 +363,7 @@ def ia(d):
              + ("\nPreço exclusivo Prime" if d.get("prime") else "")
              + ("\nPreço no Pix" if d.get("pix") else "")
              + (f"\nTítulo atual: {d['titulo']}" if d.get("titulo") else "")
-             + (f"\nFrase atual: {d['frase']}" if d.get("frase") else ""))
+             )
     partes = [{"text": PEDIDO_IA + dados}]
     foto = bot.baixar_foto(d.get("foto_raw")) if d.get("foto_raw") else None
     if foto and len(foto) < 3_500_000:
@@ -380,7 +381,7 @@ def ia(d):
         bot.log(f"Painel: IA falhou ({e}).")
         return {"erro": "A IA não respondeu agora. Tente de novo em alguns segundos."}
     limpa = lambda lista, n: [str(t).strip().strip('"') for t in (lista or []) if str(t).strip()][:n]
-    return {"titulos": limpa(r.get("titulos"), 3), "nomes": limpa(r.get("nomes"), 3), "frases": limpa(r.get("frases"), 3),
+    return {"titulos": limpa(r.get("titulos"), 5), "nomes": limpa(r.get("nomes"), 3),
             "nota": str(r.get("nota") or "")}
 
 

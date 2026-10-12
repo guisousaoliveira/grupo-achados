@@ -332,30 +332,30 @@ def montar_post(item):
     """Post do canal em blocos separados por uma linha em branco (no celular fica menos apertado)."""
     def e(t):
         return html.escape(t, quote=False)
-    # Com título (chamada): título em cima, depois o nome do produto. Sem título: o nome vira o destaque.
-    if item.get("titulo"):
-        blocos = [f"🚨 <b>{e(item['titulo'].upper())}</b>", f"📦 {e(item['nome'])}"]
+    # Título (a chamada) em cima, depois o nome. Emoji só no título, no cupom e no carrinho.
+    # "frase" é o nome antigo do título (ofertas que já estavam na fila).
+    titulo = item.get("titulo") or item.get("frase")
+    if titulo:
+        blocos = [f"🚨 <b>{e(titulo.upper())}</b>", e(item["nome"])]
     else:
-        blocos = [f"🔥 <b>{e(item['nome'])}</b>"]
+        blocos = [f"<b>{e(item['nome'])}</b>"]
     preco = []
     de, por = item.get("de"), item.get("por")
     pix = " no Pix" if item.get("pix") else ""
     if por and de and de > por:
         off = round((1 - por / de) * 100)
-        preco.append(f"💰 De <s>{reais(de)}</s> por <b>{reais(por)}</b>{pix} ({off}% off)")
+        preco.append(f"De <s>{reais(de)}</s> por <b>{reais(por)}</b>{pix} ({off}% off)")
     elif por:
-        preco.append(f"💰 Por <b>{reais(por)}</b>{pix}")
+        preco.append(f"Por <b>{reais(por)}</b>{pix}")
     if item.get("prime"):
         extra = f" (sem Prime: {reais(item['sem_prime'])})" if item.get("sem_prime") else ""
-        preco.append(f"👑 Preço exclusivo para membros Prime{extra}")
+        preco.append(f"Preço exclusivo para membros Prime{extra}")
     if preco:
         blocos.append("\n".join(preco))
     if item.get("cupom"):
         blocos.append(f"🎟️ Cupom: <code>{e(item['cupom'])}</code>")
     elif item.get("cupom_loja"):
         blocos.append(f"🎟️ {e(item['cupom_loja'])}")
-    if item.get("frase"):
-        blocos.append(f"✅ {e(item['frase'])}")
     loja = {"amazon": "Amazon", "mercadolivre": "Mercado Livre", "shopee": "Shopee"}.get(item.get("loja"), "")
     blocos.append(f"🛒 {e(item['link'])}" + (f"  ({loja})" if loja else ""))
     rodape = CONFIG.get("rodape", "")
@@ -620,8 +620,8 @@ def interpretar_mensagem(texto, foto=None, buscar_pagina=True):
             tem_preco = True
         elif "nome" not in item:
             item["nome"] = linha
-        elif "frase" not in item:
-            item["frase"] = linha
+        elif "titulo" not in item:
+            item["titulo"] = linha
 
     if buscar_pagina and not ("nome" in item and "foto" in item and "por" in item):
         lido = ler_pagina(link)
@@ -715,10 +715,8 @@ def gerar_titulo(item):
 
 
 def mandar_para_revisao(estado, item):
-    if not item.get("frase") and item.get("nome"):
-        item["frase"] = gerar_frase(item)
-    if "titulo" not in item and item.get("nome"):
-        item["titulo"] = gerar_titulo(item)
+    if not (item.get("titulo") or item.get("frase")) and item.get("nome"):
+        item["titulo"] = gerar_titulo(item) or gerar_frase(item)  # sem a chave da Gemini: banco de frases
     item["id"] = estado["proximo_id"]
     estado["proximo_id"] += 1
     falta = faltando(item)
@@ -746,7 +744,7 @@ def mandar_para_revisao(estado, item):
         else:
             texto += "\n\n📷 Sem foto. Se quiser, responda esta mensagem com um print do produto."
     texto += ("\n\n<i>Para corrigir, responda (arrastar para o lado) esta mensagem com uma ou mais linhas:\n"
-              "título: Troca o celular e ganha o relógio\nnome: Creatina Growth 250g\npreço: 119,90 69,90\nfrase: A mais vendida\ncupom: NOITEPRIME10\npix: sim\nprime: sim 189,37 (preço sem Prime)\n(título: -, frase: - ou cupom: - para tirar)</i>")
+              "título: Troca o celular e ganha o relógio\nnome: Creatina Growth 250g\npreço: 119,90 69,90\ncupom: NOITEPRIME10\npix: sim\nprime: sim 189,37 (preço sem Prime)\n(título: - ou cupom: - para tirar)</i>")
     msg = responder_admin(texto, botoes=botoes_revisao(item),
                           foto=item.get("foto"))
     item["msg_id"] = msg.get("message_id") if msg else None
@@ -772,14 +770,13 @@ def aplicar_correcao(item, texto):
             item["de"] = _preco(valor)
         elif campo == "por":
             item["por"] = _preco(valor)
-        elif campo in ("título", "titulo", "chamada"):
-            item["titulo"] = "" if valor == "-" else valor
-        elif campo == "pix":
-            item["pix"] = valor.lower().split()[0] in ("sim", "s", "1", "yes")
         elif campo == "nome" or (not campo and not item.get("nome")):
             item["nome"] = valor
-        elif campo == "frase" or not campo:
-            item["frase"] = "" if valor == "-" else valor
+        elif campo in ("título", "titulo", "chamada", "frase") or not campo:  # frase e título agora são a mesma coisa
+            item["titulo"] = "" if valor == "-" else valor
+            item.pop("frase", None)
+        elif campo == "pix":
+            item["pix"] = valor.lower().split()[0] in ("sim", "s", "1", "yes")
         elif campo == "link":
             item["link"] = valor
             item.pop("precisa_link", None)
@@ -1079,7 +1076,7 @@ def tratar_comando(estado, texto, foto=None):
         responder_admin(
             "Me manda só o link de afiliado (Amazon, Mercado Livre ou Shopee). Eu leio nome, preço e foto "
             "e te mando para revisar. Se quiser, escreva nas linhas de baixo o nome, o preço (De 199 por 129) "
-            "e uma frase, e isso vale mais que o que eu ler.\n\n"
+            "e um título, e isso vale mais que o que eu ler.\n\n"
             "Comandos:\n/fila (ver a fila)\n/remover N (tirar o item N da fila)\n"
             "/postar (posta agora a 1ª da fila; /postar 3 posta a 3ª)\n"
             "/story (escolher uma das 3 últimas postadas para virar story)\n/storyfixo (story de divulgação do canal)\n"
@@ -1655,8 +1652,8 @@ def cmd_previa(texto):
     if erro:
         print(erro)
         return
-    if item.get("nome") and not item.get("frase"):
-        item["frase"] = gerar_frase(item)
+    if item.get("nome") and not item.get("titulo"):
+        item["titulo"] = gerar_frase(item)
     print("Como fica no canal (o Telegram transforma <b> em negrito e <s> em riscado):\n")
     print(montar_post(item) if item.get("nome") else f"(sem nome) {item['link']}")
     falta = faltando(item)

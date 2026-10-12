@@ -354,18 +354,17 @@ function quando(iso){
 
 /* -------- montagem do post (igual ao bot) -------- */
 function montarPost(x){
-  const b = x.titulo ? [`🚨 <b>${esc(x.titulo.toUpperCase())}</b>`, `📦 ${esc(x.nome || 'Nome do produto')}`]
-    : [`🔥 <b>${esc(x.nome || 'Nome do produto')}</b>`];
+  const b = x.titulo ? [`🚨 <b>${esc(x.titulo.toUpperCase())}</b>`, esc(x.nome || 'Nome do produto')]
+    : [`<b>${esc(x.nome || 'Nome do produto')}</b>`];
   const p = [];
   const o = offDe(x);
   const pix = x.pix ? ' no Pix' : '';
-  if (x.por && o) p.push(`💰 De <s>${reais(x.de)}</s> por <b>${reais(x.por)}</b>${pix} (${o}% off)`);
-  else if (x.por) p.push(`💰 Por <b>${reais(x.por)}</b>${pix}`);
-  if (x.prime) p.push(`👑 Preço exclusivo para membros Prime${x.sem_prime ? ` (sem Prime: ${reais(x.sem_prime)})` : ''}`);
+  if (x.por && o) p.push(`De <s>${reais(x.de)}</s> por <b>${reais(x.por)}</b>${pix} (${o}% off)`);
+  else if (x.por) p.push(`Por <b>${reais(x.por)}</b>${pix}`);
+  if (x.prime) p.push(`Preço exclusivo para membros Prime${x.sem_prime ? ` (sem Prime: ${reais(x.sem_prime)})` : ''}`);
   if (p.length) b.push(p.join('<br>'));
   if (x.cupom) b.push(`🎟️ Cupom: <code>${esc(x.cupom)}</code>`);
   else if (x.cupom_loja) b.push(`🎟️ ${esc(x.cupom_loja)}`);
-  if (x.frase) b.push(`✅ ${esc(x.frase)}`);
   b.push(`🛒 ${esc(x.link || '')}` + (LOJAS[x.loja] ? `  (${LOJAS[x.loja]})` : ''));
   return b.join('<br><br>');
 }
@@ -481,7 +480,7 @@ function cardRevisao(x){
   return `<div class="of" ${x.url ? `data-url="${esc(x.url)}"` : ''}>${foto(x)}
     <div style="min-width:0"><div class="meta">${loja(x.loja)}${tags.join('')}</div>
       ${x.titulo ? `<div class="tit">${esc(x.titulo)}</div>` : ''}<div class="nm">${esc(x.nome || x.link)}</div>${precoHTML(x)}
-      ${x.frase ? `<div class="meta" style="margin-top:4px">“${esc(x.frase)}”</div>` : ''}${x.url ? `<div class="abrir" style="margin-top:4px">${ic('link',13)}abrir produto</div>` : ''}</div>
+${x.url ? `<div class="abrir" style="margin-top:4px">${ic('link',13)}abrir produto</div>` : ''}</div>
     <div class="side-acts">
       <button class="btn gold sm" ${x.falta.length ? 'disabled title="Complete pelo Editar"' : ''} onclick="fazer(this,'rev_aprovar','${x.id}')">Aprovar</button>
       <div class="row"><button class="btn sm" onclick="editar('revisar','${x.id}')">Editar</button>
@@ -558,18 +557,17 @@ function editorHTML(x, p){
       <div class="fl" id="${p}-semprime-w" style="${x.prime?'':'display:none'}"><label>Preço sem Prime</label><input class="in" id="${p}-sem_prime" inputmode="decimal" value="${num(x.sem_prime)}" placeholder="opcional"></div>
     </div>
     <div class="fl"><label>Cupom ${x.cupom_loja && !x.cupom ? `<span>${esc(x.cupom_loja)}</span>` : ''}</label><input class="in" id="${p}-cupom" value="${esc(x.cupom)}" placeholder="opcional"></div>
-    <div class="fl"><label>Frase</label><textarea class="in" id="${p}-frase" rows="2" placeholder="A frase que vai com o ✅">${esc(x.frase)}</textarea></div>
     <div class="fl"><label>Seu link de afiliado ${x.link_produto ? `<a href="${esc(x.link_produto)}" target="_blank" rel="noopener" style="color:var(--gold2)">abrir produto</a>` : ''}</label><input class="in" id="${p}-link" value="${esc(x.link)}" placeholder="https://..."></div>
     <div class="fl"><label>Foto</label><div class="fotoed"><span id="${p}-fotoph">${foto(x)}</span>
       <div style="display:flex;gap:6px;flex-wrap:wrap"><button class="btn sm" onclick="escolherFoto('${p}')">${ic('foto',15)}Enviar foto</button>
       <button class="btn sm ghost" onclick="colarFotoURL('${p}')">Usar endereço de imagem</button></div></div>
       ${x.foto_origem === 'canal' ? '<div class="hint">Essa é a foto do canal de origem. Colar o seu link meli.la no campo de link costuma trocar pela foto oficial.</div>' : ''}</div>
-    <div class="iabox"><div class="h"><b>${ic('ia',16)}Sugestões da IA</b><button class="btn sm" onclick="pedirIA(this,'${p}')">Sugerir título, nome e frase</button></div>
-      <div id="${p}-ia"><div class="hint" style="margin-top:6px">${E.ia ? 'A IA olha a foto, o nome e o preço e sugere títulos, nomes e frases. Toque numa sugestão para usar.' : 'IA desligada: sem a chave GEMINI_API_KEY no Render, as sugestões vêm do banco de frases do bot.'}</div></div></div>
+    <div class="iabox"><div class="h"><b>${ic('ia',16)}Sugestões da IA</b><button class="btn sm" onclick="pedirIA(this,'${p}')">Sugerir título e nome</button></div>
+      <div id="${p}-ia"><div class="hint" style="margin-top:6px">${E.ia ? 'A IA olha a foto, o nome e o preço e sugere títulos e nomes. Toque numa sugestão para usar.' : 'IA desligada: sem a chave GEMINI_API_KEY no Render, as sugestões vêm do banco de frases do bot.'}</div></div></div>
   </div>
   <div class="prev"><div class="lbl"><span>Como fica no canal</span><span>prévia</span></div><div class="tg"><div class="bub" id="${p}-bub"></div></div></div></div>`;
 }
-const FORM = ['titulo','nome','de','por','sem_prime','cupom','frase','link'];
+const FORM = ['titulo','nome','de','por','sem_prime','cupom','link'];
 function dadosForm(p, x){
   const g = k => document.getElementById(`${p}-${k}`).value.trim();
   const d = {}; FORM.forEach(k => d[k] = g(k));
@@ -645,7 +643,7 @@ async function pedirIA(btn, p){
   if (r.erro) return;
   const alvo = document.getElementById(`${p}-ia`);
   const lista = (t, campo, arr) => arr.length ? `<small>${t}</small>` + arr.map(s => `<button class="chip" data-c="${campo}">${esc(s)}</button>`).join('') : '';
-  alvo.innerHTML = `<div class="sug">${lista('Títulos (chamada)', 'titulo', r.titulos || [])}${lista('Nomes', 'nome', r.nomes || [])}${lista('Frases', 'frase', r.frases || [])}</div>`
+  alvo.innerHTML = `<div class="sug">${lista('Títulos (chamada)', 'titulo', r.titulos || [])}${lista('Nomes', 'nome', r.nomes || [])}</div>`
     + (r.nota ? `<div class="nota">💡 ${esc(r.nota)}</div>` : '')
     + (r.sem_chave ? '<div class="hint">Essas vieram do banco de frases. Com a chave da Gemini no Render, a IA olha a foto e escreve sugestões novas.</div>' : '');
   alvo.querySelectorAll('.chip').forEach(c => c.onclick = () => {
@@ -658,7 +656,7 @@ async function pedirIA(btn, p){
 /* -------- nova oferta -------- */
 function novaPag(){
   return topo('Nova oferta', 'Cole o seu link de afiliado. Eu abro a página e trago nome, preço e foto.')
-    + `<div class="box"><div class="colar"><textarea class="in" id="nv-texto" rows="2" placeholder="https://amzn.to/...   (se quiser, nas linhas de baixo: nome, preço “De 199 por 129”, frase)">${esc(nova.texto)}</textarea>
+    + `<div class="box"><div class="colar"><textarea class="in" id="nv-texto" rows="2" placeholder="https://amzn.to/...   (se quiser, nas linhas de baixo: nome, preço “De 199 por 129”, título)">${esc(nova.texto)}</textarea>
       <button class="btn gold" id="nv-buscar" style="height:52px;min-width:130px">Buscar oferta</button></div>
       <div class="hint">Amazon, Mercado Livre ou Shopee. Se a loja bloquear a leitura, eu aviso e você completa à mão.</div></div>
     <div id="nova-ed">${nova.item ? novaEditor() : ''}</div>`;
