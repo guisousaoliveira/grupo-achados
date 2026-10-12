@@ -81,23 +81,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0DPXRVFVB",
-      "origem": "lobaopromo",
-      "link": "https://www.amazon.com.br/dp/B0DPXRVFVB?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0DPXRVFVB?tag=alphadominu09-20",
-      "foto": "AgACAgQAAxkDAAN2asxK8ku_JsZ7zqQZ7SFhl-YEYBsAAqQLaxuuDXxR0U4YuK1FYAMBAAMCAAN4AAM9BA",
-      "foto_origem": "loja",
-      "nome": "Mini Liquidificador Pocket",
-      "de": 99.0,
-      "por": 52.67,
-      "frase": "47% off, isso aqui não fica muito tempo assim.",
-      "id": 25,
-      "msg_id": 118
-    }
-  ],
+  "revisar": [],
   "proximo_id": 26,
   "radar": {
     "visto": {
