@@ -254,21 +254,6 @@
       "titulo": "Achado do dia, aproveita antes de acabar.",
       "id": 39,
       "msg_id": 145
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:1537142489.23398712317",
-      "origem": "infoBRpromos",
-      "link": "https://shopee.com.br/product/1537142489/23398712317",
-      "link_produto": "https://shopee.com.br/product/1537142489/23398712317",
-      "precisa_link": true,
-      "foto": "AgACAgEAAxkDAAOSaszGDp_QLpgJS9AJ-87sWbNUJ9YAAjwQaxvw92FGuFbWcfo5P7UBAAMCAAN4AAM9BA",
-      "foto_origem": "canal",
-      "nome": "Monitor Gamer Samsung Odyssey G5 32, QHD, 165Hz, 1ms, Freesync, HDMI, DP",
-      "por": 901.0,
-      "titulo": "Menor preço que vi nos últimos dias.",
-      "id": 40,
-      "msg_id": 146
     }
   ],
   "proximo_id": 54,
