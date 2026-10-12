@@ -433,26 +433,67 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [],
-  "proximo_id": 96,
+  "revisar": [
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB18425328",
+      "origem": "pobregram",
+      "link": "https://www.mercadolivre.com.br/mixer-de-mao-200w-compacto-leve-e-ergonomico-mix1001-elgin/p/MLB18425328?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/mixer-de-mao-200w-compacto-leve-e-ergonomico-mix1001-elgin/p/MLB18425328",
+      "post_origem": "https://t.me/pobregram/41779",
+      "link_canal": "https://meli.la/2cYeScY",
+      "foto": "AgACAgQAAxkDAAPjas1BErL1Tz5JX184PHDm2Ex8JhIAAqQNaxv6okxTMDBC3AMudeEBAAMCAAN4AAM9BA",
+      "foto_origem": "loja",
+      "nome": "Mixer De Mão 200w Compacto Leve E Ergonômico MIX1001 Elgin",
+      "de": 100.0,
+      "por": 52.9,
+      "titulo": "Mixer de mão Elgin com 47% off",
+      "id": 96,
+      "garimpado_em": "2026-10-12T17:20-03:00",
+      "na_revisao_desde": "2026-10-12T17:20-03:00",
+      "msg_id": 227
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:473616631.41365763294",
+      "origem": "promooeasy",
+      "link": "https://shopee.com.br/product/473616631/41365763294",
+      "link_produto": "https://shopee.com.br/product/473616631/41365763294",
+      "post_origem": "https://t.me/promooeasy/220205",
+      "link_canal": "https://s.shopee.com.br/1B6lyvLLK?lp=aff",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAPkas1BIRAU4OUUx6NE91h6YMAV0_MAAmYNaxvw92lGzerQEZJzCdgBAAMCAAN4AAM9BA",
+      "foto_origem": "canal",
+      "nome": "Teclado Mecânico Gamer Titorion Computador ABNT2 Hot Swap RGB Switch LED",
+      "pix": true,
+      "de": 301.67,
+      "por": 137.58,
+      "titulo": "Teclado Mecânico Gamer Titorion com 54% off",
+      "id": 97,
+      "garimpado_em": "2026-10-12T17:20-03:00",
+      "na_revisao_desde": "2026-10-12T17:20-03:00",
+      "msg_id": 228
+    }
+  ],
+  "proximo_id": 98,
   "radar": {
     "visto": {
       "xetdaspromocoes": 84504,
-      "lobaopromo": 188528,
-      "gatunopromos": 124917,
-      "pobregram": 41778,
-      "urubupromo": 41580,
-      "tudonapromo": 101625,
+      "lobaopromo": 188529,
+      "gatunopromos": 124919,
+      "pobregram": 41779,
+      "urubupromo": 41582,
+      "tudonapromo": 101626,
       "promonocontext": 125965,
-      "promooeasy": 220201,
-      "aquitempechincha": 281164,
+      "promooeasy": 220207,
+      "aquitempechincha": 281169,
       "infoBRpromos": 67416,
       "boletando": 76615,
       "promotop": 260183,
       "achadosdotb": 11754
     },
     "dia": "2026-10-12",
-    "hoje": 66,
+    "hoje": 68,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -527,27 +568,29 @@
       "amazon:B09729YMPT",
       "amazon:B0FDX5NC1G",
       "mercadolivre:MLB67500776",
-      "amazon:B0FHYLZ7W1"
+      "amazon:B0FHYLZ7W1",
+      "mercadolivre:MLB18425328",
+      "shopee:473616631.41365763294"
     ],
     "ultima": {
-      "em": "2026-10-12T17:10:48-03:00",
+      "em": "2026-10-12T17:20:19-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 32,
-      "do_nicho": 6,
-      "repetidas": 1,
-      "novas": 5,
+      "posts_novos": 29,
+      "do_nicho": 2,
+      "repetidas": 0,
+      "novas": 2,
       "limite_dia": false,
       "promobit": 0
     },
     "hora": "2026-10-12T17",
-    "nesta_hora": 8,
+    "nesta_hora": 10,
     "promobit_hora": "2026-10-12T17",
     "promobit_nesta_hora": 0,
-    "promobit_visto": 3109030
+    "promobit_visto": 3109048
   },
   "ultimos": [
     {
@@ -843,7 +886,7 @@
   "garimpo": {
     "2026-10-12": {
       "promooeasy": {
-        "achados": 16,
+        "achados": 17,
         "aprovados": 4,
         "reprovados": 12
       },
@@ -886,6 +929,11 @@
         "achados": 1,
         "aprovados": 0,
         "reprovados": 1
+      },
+      "pobregram": {
+        "achados": 1,
+        "aprovados": 0,
+        "reprovados": 0
       }
     }
   },
