@@ -332,14 +332,19 @@ def montar_post(item):
     """Post do canal em blocos separados por uma linha em branco (no celular fica menos apertado)."""
     def e(t):
         return html.escape(t, quote=False)
-    blocos = [f"🔥 <b>{e(item['nome'])}</b>"]
+    # Com título (chamada): título em cima, depois o nome do produto. Sem título: o nome vira o destaque.
+    if item.get("titulo"):
+        blocos = [f"🚨 <b>{e(item['titulo'].upper())}</b>", f"📦 {e(item['nome'])}"]
+    else:
+        blocos = [f"🔥 <b>{e(item['nome'])}</b>"]
     preco = []
     de, por = item.get("de"), item.get("por")
+    pix = " no Pix" if item.get("pix") else ""
     if por and de and de > por:
         off = round((1 - por / de) * 100)
-        preco.append(f"De <s>{reais(de)}</s> por <b>{reais(por)}</b> ({off}% off)")
+        preco.append(f"💰 De <s>{reais(de)}</s> por <b>{reais(por)}</b>{pix} ({off}% off)")
     elif por:
-        preco.append(f"Por <b>{reais(por)}</b>")
+        preco.append(f"💰 Por <b>{reais(por)}</b>{pix}")
     if item.get("prime"):
         extra = f" (sem Prime: {reais(item['sem_prime'])})" if item.get("sem_prime") else ""
         preco.append(f"👑 Preço exclusivo para membros Prime{extra}")
@@ -595,7 +600,7 @@ def interpretar_mensagem(texto, foto=None, buscar_pagina=True):
         item["foto"] = foto
 
     tem_preco = False
-    rotulo = r"(nome|t[ií]tulo|pre[cç]o|frase|cupom|prime)\s*[:=]"
+    rotulo = r"(nome|t[ií]tulo|chamada|pre[cç]o|frase|cupom|prime|pix)\s*[:=]"
     if any(re.match(rotulo, l, re.I) for l in resto):  # mesmo formato da correção (nome:, preço:, prime:...)
         aplicar_correcao(item, "\n".join(resto))
         tem_preco = bool(item.get("por"))
@@ -643,11 +648,14 @@ def faltando(item):
     return falta
 
 
-BOTOES_REVISAO = lambda i: {"inline_keyboard": [[
-    {"text": "✅ Aprovar", "callback_data": f"ok:{i}"},
-    {"text": "❌ Descartar", "callback_data": f"no:{i}"},
-]]}
-SO_DESCARTAR = lambda i: {"inline_keyboard": [[{"text": "❌ Descartar", "callback_data": f"no:{i}"}]]}
+def botoes_revisao(item):
+    """Aprovar/Descartar (só Descartar se faltar algo) e a chave do Pix (marca se o preço anunciado é no Pix)."""
+    i = item["id"]
+    linha = [{"text": "❌ Descartar", "callback_data": f"no:{i}"}]
+    if not faltando(item):
+        linha.insert(0, {"text": "✅ Aprovar", "callback_data": f"ok:{i}"})
+    pix = {"text": "💠 Preço no Pix: " + ("SIM" if item.get("pix") else "não") + " (trocar)", "callback_data": f"px:{i}"}
+    return {"inline_keyboard": [linha, [pix]]}
 
 
 def gerar_frase(item):
@@ -682,9 +690,35 @@ def gerar_frase(item):
     return random.choice(opcoes).replace("{off}", str(off))
 
 
+def gerar_titulo(item):
+    """Chamada curta para o topo do post (só com a chave da Gemini; sem ela o post sai sem título)."""
+    chave = segredo("GEMINI_API_KEY")
+    if not chave or SIMULAR:
+        return ""
+    off = round((1 - item["por"] / item["de"]) * 100) if item.get("de") and item.get("por") else 0
+    pedido = ("Escreva UMA chamada curta (até 6 palavras) em português do Brasil para o topo de um post de oferta "
+              "num canal de achados masculino. Estilo dos canais de promoção: direta, com gancho (benefício, brinde, "
+              "menor preço, desconto). Sem emoji, sem hashtag, sem preço, sem aspas, sem inventar o que não está nos dados.\n"
+              f"Produto: {item.get('nome')}\nPreço: {item.get('por')}\nDesconto: {off}%\n"
+              + (f"Cupom: {item.get('cupom') or item.get('cupom_loja')}\n" if item.get("cupom") or item.get("cupom_loja") else "")
+              + "Chamada:")
+    modelo = CONFIG.get("ia", {}).get("modelo", "gemini-2.5-flash")
+    try:
+        texto, _ = http(f"https://generativelanguage.googleapis.com/v1beta/models/{modelo}:generateContent?key={chave}",
+                        json.dumps({"contents": [{"parts": [{"text": pedido}]}]}).encode(),
+                        {"Content-Type": "application/json"})
+        titulo = json.loads(texto)["candidates"][0]["content"]["parts"][0]["text"].strip().strip('"').splitlines()[0]
+        return titulo[:60]
+    except Exception as e:
+        log(f"IA não fez o título ({e}).")
+        return ""
+
+
 def mandar_para_revisao(estado, item):
     if not item.get("frase") and item.get("nome"):
         item["frase"] = gerar_frase(item)
+    if "titulo" not in item and item.get("nome"):
+        item["titulo"] = gerar_titulo(item)
     item["id"] = estado["proximo_id"]
     estado["proximo_id"] += 1
     falta = faltando(item)
@@ -712,8 +746,8 @@ def mandar_para_revisao(estado, item):
         else:
             texto += "\n\n📷 Sem foto. Se quiser, responda esta mensagem com um print do produto."
     texto += ("\n\n<i>Para corrigir, responda (arrastar para o lado) esta mensagem com uma ou mais linhas:\n"
-              "nome: Creatina Growth 250g\npreço: 119,90 69,90\nfrase: A mais vendida\ncupom: NOITEPRIME10\nprime: sim 189,37 (preço sem Prime)\n(frase: - ou cupom: - para tirar)</i>")
-    msg = responder_admin(texto, botoes=SO_DESCARTAR(item["id"]) if faltando(item) else BOTOES_REVISAO(item["id"]),
+              "título: Troca o celular e ganha o relógio\nnome: Creatina Growth 250g\npreço: 119,90 69,90\nfrase: A mais vendida\ncupom: NOITEPRIME10\npix: sim\nprime: sim 189,37 (preço sem Prime)\n(título: -, frase: - ou cupom: - para tirar)</i>")
+    msg = responder_admin(texto, botoes=botoes_revisao(item),
                           foto=item.get("foto"))
     item["msg_id"] = msg.get("message_id") if msg else None
     if msg and msg.get("photo"):  # guarda a foto já no Telegram: o post usa essa, sem depender do link de fora
@@ -727,7 +761,7 @@ def aplicar_correcao(item, texto):
         linha = linha.strip()
         if not linha:
             continue
-        m = re.match(r"(nome|t[ií]tulo|pre[cç]o|frase|link|de|por|cupom|prime)\s*[:=]\s*(.+)", linha, re.I)
+        m = re.match(r"(nome|t[ií]tulo|chamada|pre[cç]o|frase|link|de|por|cupom|prime|pix)\s*[:=]\s*(.+)", linha, re.I)
         campo, valor = (m.group(1).lower(), m.group(2).strip()) if m else ("", linha)
         if campo.startswith("pre") or (not campo and re.fullmatch(r"[\d.,R$\s]+|de .+ por .+", linha, re.I)):
             de, por = ler_precos(valor)
@@ -738,7 +772,11 @@ def aplicar_correcao(item, texto):
             item["de"] = _preco(valor)
         elif campo == "por":
             item["por"] = _preco(valor)
-        elif campo in ("nome", "título", "titulo") or (not campo and not item.get("nome")):
+        elif campo in ("título", "titulo", "chamada"):
+            item["titulo"] = "" if valor == "-" else valor
+        elif campo == "pix":
+            item["pix"] = valor.lower().split()[0] in ("sim", "s", "1", "yes")
+        elif campo == "nome" or (not campo and not item.get("nome")):
             item["nome"] = valor
         elif campo == "frase" or not campo:
             item["frase"] = "" if valor == "-" else valor
@@ -846,6 +884,15 @@ def tratar_botao(estado, cb):
         return
     item = next((x for x in estado["revisar"] if str(x["id"]) == ident), None)
     msg = cb.get("message") or {}
+    if item and acao == "px":  # liga/desliga "no Pix" e manda a revisão de novo com o post atualizado
+        item["pix"] = not item.get("pix")
+        try:
+            telegram("deleteMessage", chat_id=msg["chat"]["id"], message_id=msg["message_id"])
+        except Exception:
+            pass
+        estado["revisar"] = [x for x in estado["revisar"] if x["id"] != item["id"]]
+        mandar_para_revisao(estado, item)
+        return
     if not item:
         resultado = "Essa oferta já foi resolvida."
     elif acao == "ok":
@@ -1365,6 +1412,8 @@ def oferta_do_post(post, canal):
             if re.search(r"cupom|resgat", l, re.I) and re.search(r"R\$|%", l) and "http" not in l:
                 item.setdefault("cupom_loja", re.sub(r"^[^\w]+", "", l).strip()[:80])
             continue
+        if re.search(r"\bpix\b", l, re.I) and re.search(r"\d", l):
+            item["pix"] = True
         valores += [numero_br(v) for v in re.findall(r"(?:R\$|\bpor\b|\bde\b)\s*(?:R\$)?\s*(\d[\d.]*(?:,\d{1,2})?)", l, re.I)]
     valores = [v for v in valores if v >= 5]
     if valores:

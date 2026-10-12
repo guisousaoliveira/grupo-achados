@@ -126,6 +126,7 @@ main{min-width:0;padding:26px 34px 60px;max-width:1180px}
 .ph .pos{position:absolute;left:5px;top:5px;background:#0b0b0cdd;color:var(--gold2);font-weight:700;font-size:11.5px;border-radius:6px;padding:1px 6px}
 .of .nm{font-weight:600;font-size:14.5px;margin:3px 0 4px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .meta{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;color:var(--mut);font-size:12.5px}
+.tit{color:var(--gold2);font-size:11.5px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;margin-top:4px}
 .price{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
 .price s{color:var(--mut2);font-size:12.5px}
 .price b{color:var(--gold2);font-size:16px}
@@ -341,7 +342,7 @@ const foto = (x, pos) => x.foto
 function precoHTML(x){
   if (!x.por) return '<span class="tag bad">sem preço</span>';
   const o = offDe(x);
-  return `<div class="price">${o ? `<s>${reais(x.de)}</s>` : ''}<b>${reais(x.por)}</b>${o ? `<span class="off">-${o}%</span>` : ''}${x.prime ? '<span class="tag">Prime</span>' : ''}${x.cupom ? `<span class="tag">cupom ${esc(x.cupom)}</span>` : ''}</div>`;
+  return `<div class="price">${o ? `<s>${reais(x.de)}</s>` : ''}<b>${reais(x.por)}</b>${o ? `<span class="off">-${o}%</span>` : ''}${x.pix ? '<span class="tag">no Pix</span>' : ''}${x.prime ? '<span class="tag">Prime</span>' : ''}${x.cupom ? `<span class="tag">cupom ${esc(x.cupom)}</span>` : ''}</div>`;
 }
 function horasDesde(iso){ if (!iso) return 0; return (new Date(E.agora) - new Date(iso)) / 36e5; }
 function quando(iso){
@@ -353,11 +354,13 @@ function quando(iso){
 
 /* -------- montagem do post (igual ao bot) -------- */
 function montarPost(x){
-  const b = [`🔥 <b>${esc(x.nome || 'Nome do produto')}</b>`];
+  const b = x.titulo ? [`🚨 <b>${esc(x.titulo.toUpperCase())}</b>`, `📦 ${esc(x.nome || 'Nome do produto')}`]
+    : [`🔥 <b>${esc(x.nome || 'Nome do produto')}</b>`];
   const p = [];
   const o = offDe(x);
-  if (x.por && o) p.push(`De <s>${reais(x.de)}</s> por <b>${reais(x.por)}</b> (${o}% off)`);
-  else if (x.por) p.push(`Por <b>${reais(x.por)}</b>`);
+  const pix = x.pix ? ' no Pix' : '';
+  if (x.por && o) p.push(`💰 De <s>${reais(x.de)}</s> por <b>${reais(x.por)}</b>${pix} (${o}% off)`);
+  else if (x.por) p.push(`💰 Por <b>${reais(x.por)}</b>${pix}`);
   if (x.prime) p.push(`👑 Preço exclusivo para membros Prime${x.sem_prime ? ` (sem Prime: ${reais(x.sem_prime)})` : ''}`);
   if (p.length) b.push(p.join('<br>'));
   if (x.cupom) b.push(`🎟️ Cupom: <code>${esc(x.cupom)}</code>`);
@@ -477,7 +480,7 @@ function cardRevisao(x){
   const conferir = x.link_produto || x.link;
   return `<div class="of" ${x.url ? `data-url="${esc(x.url)}"` : ''}>${foto(x)}
     <div style="min-width:0"><div class="meta">${loja(x.loja)}${tags.join('')}</div>
-      <div class="nm">${esc(x.nome || x.link)}</div>${precoHTML(x)}
+      ${x.titulo ? `<div class="tit">${esc(x.titulo)}</div>` : ''}<div class="nm">${esc(x.nome || x.link)}</div>${precoHTML(x)}
       ${x.frase ? `<div class="meta" style="margin-top:4px">“${esc(x.frase)}”</div>` : ''}${x.url ? `<div class="abrir" style="margin-top:4px">${ic('link',13)}abrir produto</div>` : ''}</div>
     <div class="side-acts">
       <button class="btn gold sm" ${x.falta.length ? 'disabled title="Complete pelo Editar"' : ''} onclick="fazer(this,'rev_aprovar','${x.id}')">Aprovar</button>
@@ -497,7 +500,7 @@ function cardFila(x, i){
   const velha = horasDesde(x.aprovado_em) >= E.validade_horas;
   return `<div class="of" ${x.url ? `data-url="${esc(x.url)}"` : ''}>${foto(x, i+1)}
     <div style="min-width:0"><div class="meta">${loja(x.loja)}<span>sai ${esc(x.previsao || 'depois')}</span>${x.aprovado_em ? `<span>aprovada ${quando(x.aprovado_em)}</span>` : ''}${velha ? '<span class="tag warn">confira o preço</span>' : ''}</div>
-      <div class="nm">${esc(x.nome)}</div>${precoHTML(x)}${x.url ? `<div class="abrir" style="margin-top:4px">${ic('link',13)}abrir produto</div>` : ''}</div>
+      ${x.titulo ? `<div class="tit">${esc(x.titulo)}</div>` : ''}<div class="nm">${esc(x.nome)}</div>${precoHTML(x)}${x.url ? `<div class="abrir" style="margin-top:4px">${ic('link',13)}abrir produto</div>` : ''}</div>
     <div class="side-acts">
       <div class="row">
         <button class="btn sm icon" title="Subir" ${i===0?'disabled':''} onclick="fazer(this,'fila_mover','${x.id}',{para:${i-1}})">↑</button>
@@ -543,13 +546,15 @@ function fecharTudo(){
 function editorHTML(x, p){
   return `<div class="ed"><div class="f">
     <div id="${p}-alerta"></div>
+    <div class="fl"><label>Título (chamada no topo do post) <span>opcional</span></label><input class="in" id="${p}-titulo" value="${esc(x.titulo)}" placeholder="Ex.: Troca o celular e ganha o relógio"></div>
     <div class="fl"><label>Nome do produto <span id="${p}-cnt"></span></label><input class="in" id="${p}-nome" value="${esc(x.nome)}" placeholder="Ex.: Creatina Growth 250g"></div>
     <div class="two">
       <div class="fl"><label>Preço antes (De)</label><input class="in" id="${p}-de" inputmode="decimal" value="${num(x.de)}" placeholder="opcional"></div>
       <div class="fl"><label>Preço agora (Por)</label><input class="in" id="${p}-por" inputmode="decimal" value="${num(x.por)}" placeholder="69,90"></div>
     </div>
     <div class="two" style="align-items:end">
-      <label class="chk"><input type="checkbox" id="${p}-prime" ${x.prime?'checked':''}>Preço exclusivo Prime</label>
+      <div style="display:flex;flex-direction:column;gap:10px"><label class="chk"><input type="checkbox" id="${p}-pix" ${x.pix?'checked':''}>Preço no Pix</label>
+      <label class="chk"><input type="checkbox" id="${p}-prime" ${x.prime?'checked':''}>Preço exclusivo Prime</label></div>
       <div class="fl" id="${p}-semprime-w" style="${x.prime?'':'display:none'}"><label>Preço sem Prime</label><input class="in" id="${p}-sem_prime" inputmode="decimal" value="${num(x.sem_prime)}" placeholder="opcional"></div>
     </div>
     <div class="fl"><label>Cupom ${x.cupom_loja && !x.cupom ? `<span>${esc(x.cupom_loja)}</span>` : ''}</label><input class="in" id="${p}-cupom" value="${esc(x.cupom)}" placeholder="opcional"></div>
@@ -559,16 +564,17 @@ function editorHTML(x, p){
       <div style="display:flex;gap:6px;flex-wrap:wrap"><button class="btn sm" onclick="escolherFoto('${p}')">${ic('foto',15)}Enviar foto</button>
       <button class="btn sm ghost" onclick="colarFotoURL('${p}')">Usar endereço de imagem</button></div></div>
       ${x.foto_origem === 'canal' ? '<div class="hint">Essa é a foto do canal de origem. Colar o seu link meli.la no campo de link costuma trocar pela foto oficial.</div>' : ''}</div>
-    <div class="iabox"><div class="h"><b>${ic('ia',16)}Sugestões da IA</b><button class="btn sm" onclick="pedirIA(this,'${p}')">Sugerir título e frase</button></div>
-      <div id="${p}-ia"><div class="hint" style="margin-top:6px">${E.ia ? 'A IA olha a foto, o nome e o preço e sugere 3 títulos e 3 frases. Toque numa sugestão para usar.' : 'IA desligada: sem a chave GEMINI_API_KEY no Render, as sugestões vêm do banco de frases do bot.'}</div></div></div>
+    <div class="iabox"><div class="h"><b>${ic('ia',16)}Sugestões da IA</b><button class="btn sm" onclick="pedirIA(this,'${p}')">Sugerir título, nome e frase</button></div>
+      <div id="${p}-ia"><div class="hint" style="margin-top:6px">${E.ia ? 'A IA olha a foto, o nome e o preço e sugere títulos, nomes e frases. Toque numa sugestão para usar.' : 'IA desligada: sem a chave GEMINI_API_KEY no Render, as sugestões vêm do banco de frases do bot.'}</div></div></div>
   </div>
   <div class="prev"><div class="lbl"><span>Como fica no canal</span><span>prévia</span></div><div class="tg"><div class="bub" id="${p}-bub"></div></div></div></div>`;
 }
-const FORM = ['nome','de','por','sem_prime','cupom','frase','link'];
+const FORM = ['titulo','nome','de','por','sem_prime','cupom','frase','link'];
 function dadosForm(p, x){
   const g = k => document.getElementById(`${p}-${k}`).value.trim();
   const d = {}; FORM.forEach(k => d[k] = g(k));
   d.prime = document.getElementById(`${p}-prime`).checked;
+  d.pix = document.getElementById(`${p}-pix`).checked;
   if (x._foto_nova) d.foto = x._foto_nova;
   return d;
 }
@@ -591,7 +597,7 @@ function ligarEditor(p, x){
     if (x.precisa_link && falta.includes('seu link de afiliado')) al.innerHTML += '<div class="alert warn" style="margin-top:8px">Esse produto veio de outro canal. Gere o <b>seu</b> link no painel de afiliado e cole no campo de link.</div>';
     if (p === 'nv') { const ok = !falta.length; document.querySelectorAll('.nv-pronto').forEach(b => b.disabled = !ok); }
   };
-  [...FORM, 'prime'].forEach(k => document.getElementById(`${p}-${k}`).addEventListener('input', atual));
+  [...FORM, 'prime', 'pix'].forEach(k => document.getElementById(`${p}-${k}`).addEventListener('input', atual));
   document.getElementById(`${p}-prime`).addEventListener('change', e => { document.getElementById(`${p}-semprime-w`).style.display = e.target.checked ? '' : 'none'; atual(); });
   x._atual = atual;
   atual();
@@ -639,7 +645,7 @@ async function pedirIA(btn, p){
   if (r.erro) return;
   const alvo = document.getElementById(`${p}-ia`);
   const lista = (t, campo, arr) => arr.length ? `<small>${t}</small>` + arr.map(s => `<button class="chip" data-c="${campo}">${esc(s)}</button>`).join('') : '';
-  alvo.innerHTML = `<div class="sug">${lista('Títulos', 'nome', r.titulos || [])}${lista('Frases', 'frase', r.frases || [])}</div>`
+  alvo.innerHTML = `<div class="sug">${lista('Títulos (chamada)', 'titulo', r.titulos || [])}${lista('Nomes', 'nome', r.nomes || [])}${lista('Frases', 'frase', r.frases || [])}</div>`
     + (r.nota ? `<div class="nota">💡 ${esc(r.nota)}</div>` : '')
     + (r.sem_chave ? '<div class="hint">Essas vieram do banco de frases. Com a chave da Gemini no Render, a IA olha a foto e escreve sugestões novas.</div>' : '');
   alvo.querySelectorAll('.chip').forEach(c => c.onclick = () => {
