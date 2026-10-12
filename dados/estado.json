@@ -193,23 +193,6 @@
       "titulo": "Power bank gigante com menor preço",
       "garimpado_em": "2026-10-12T16:01-03:00",
       "aprovado_em": "2026-10-12T16:09-03:00"
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:873865538.58200280616",
-      "origem": "promooeasy",
-      "link": "https://s.shopee.com.br/5AtCrnfuu9",
-      "link_produto": "https://shopee.com.br/product/873865538/58200280616",
-      "post_origem": "https://t.me/promooeasy/220165",
-      "link_canal": "https://s.shopee.com.br/1LgUHbAKHo?lp=aff",
-      "foto": "AgACAgEAAxkDAAPGas0wsNcSXVVkmUDfuy5oGxAwin8AAjcNaxvw92lGkycG3wXNYbwBAAMCAAN4AAM9BA",
-      "foto_origem": "canal",
-      "nome": "Relógio Apple Watch Series 11 GPS 42mm 46mm S11",
-      "pix": true,
-      "por": 2134.0,
-      "titulo": "APPLE WATCH COM DESCONTO",
-      "garimpado_em": "2026-10-12T16:10-03:00",
-      "aprovado_em": "2026-10-12T16:26-03:00"
     }
   ],
   "postados": [
@@ -380,6 +363,14 @@
       "loja": "mercadolivre",
       "nome": "Proteína Growth Supplements Basic Whey em pó sabor Chocolate x 1kg",
       "data": "2026-10-12T16:15-03:00"
+    },
+    {
+      "chave": "shopee:873865538.58200280616",
+      "loja": "shopee",
+      "nome": "Relógio Apple Watch Series 11 GPS 42mm 46mm S11",
+      "data": "2026-10-12T16:28-03:00",
+      "link": "https://s.shopee.com.br/5AtCrnfuu9",
+      "link_produto": "https://shopee.com.br/product/873865538/58200280616"
     }
   ],
   "slots_usados": {
@@ -498,6 +489,19 @@
     "promobit_visto": 3108952
   },
   "ultimos": [
+    {
+      "loja": "shopee",
+      "chave": "shopee:873865538.58200280616",
+      "origem": "promooeasy",
+      "link": "https://s.shopee.com.br/5AtCrnfuu9",
+      "link_produto": "https://shopee.com.br/product/873865538/58200280616",
+      "post_origem": "https://t.me/promooeasy/220165",
+      "foto": "AgACAgEAAxkDAAPGas0wsNcSXVVkmUDfuy5oGxAwin8AAjcNaxvw92lGkycG3wXNYbwBAAMCAAN4AAM9BA",
+      "nome": "Relógio Apple Watch Series 11 GPS 42mm 46mm S11",
+      "pix": true,
+      "por": 2134.0,
+      "titulo": "APPLE WATCH COM DESCONTO"
+    },
     {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB18725403",
