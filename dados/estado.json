@@ -51,20 +51,52 @@
       "msg_id": 31,
       "nome": "Gillette Mach3 Carga para Aparelho de Barbear 16 Unidades",
       "foto": "https://m.media-amazon.com/images/I/71trWiva9mL._AC_SL1000_.jpg"
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0D84WRDBB",
+      "origem": "lobaopromo",
+      "link": "https://www.amazon.com.br/dp/B0D84WRDBB?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0D84WRDBB?tag=alphadominu09-20",
+      "foto": "https://cdn1.telesco.pe/file/nmvd3MWVhxq7PvJtoQamJDfzcjV7JPx9n33Jm3Zcdo4WV60ttQjNSzkDRWjAYB6a2IX1BWiBbKr621WtwFswYL6fF6uY9W9UxCHv--Wq1mnfk5y4wZ4hahNlGnr_x5S4FU7tqXq1f3qWgPotkAReD4spqTjZ7paiHSF7CzpS8YosDN81N7RyBB8zIiCn_sfD83VLAsEbt46iIqch97GeuT3HU8-desW4hDlXd8tcMaJFC0Gr-colEaO2InyWVdGgTR3gCrrLT5cOztBk-DlqaZqpAvwWJMaINn2MMoFe6BFlm6fW7uedfTC38Pm0kXhTQ8e_Vk38g-jq_k7YNY4d4g.jpg",
+      "nome": "Gillette Mach3 Carbono Carga para Aparelho de Barbear com 8 Unidades",
+      "de": 99.88,
+      "por": 56.42,
+      "prime": true,
+      "frase": "44% off, isso aqui não fica muito tempo assim.",
+      "id": 11,
+      "msg_id": 57
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB24081502",
+      "origem": "lobaopromo",
+      "link": "https://www.mercadolivre.com.br/creatina-max-titanium-em-po-sem-sabor-x-300g-2-un/p/MLB24081502?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/creatina-max-titanium-em-po-sem-sabor-x-300g-2-un/p/MLB24081502",
+      "foto": "https://cdn1.telesco.pe/file/ISRVm11Gd8bt6QOdyyocPgp6qCIU47gowAqXDkEpZ80uW4OeMkYn5CagPQUrViilncBOzyjZQ5YNP0IqJSXYH13Q4bRfvChIjgcJq7jDSzuGr9p8AN5YPQwhDXPJH3lV84x4RVPhYEkfRx5fLh0dcwT1aPkWo_iKnZWmye82y9ITRqb0u8fusIQ3XaUtiAd1RDuaEWgfEwLTe9S9t76chq7EM2zF0ui7WNWuMkPD9izlxhpPst73p3bxvgMn3VxrKdVD_vnSIgHM_bFc5uu1t2uasP2-SZX5xJhzEVujIoraPenJ1wfXrayHVx9KDlDPcr6b5QcRpmE8EOvl7-uT3A.jpg",
+      "nome": "Kit 2 Creatina Max Titanium 300g",
+      "de": 179.0,
+      "por": 78.0,
+      "frase": "Preço de queima, 56% mais barato.",
+      "id": 12,
+      "msg_id": 58
     }
   ],
-  "proximo_id": 11,
+  "proximo_id": 13,
   "radar": {
     "visto": {
       "xetdaspromocoes": 84418,
-      "lobaopromo": 188341,
-      "gatunopromos": 124802,
+      "lobaopromo": 188353,
+      "gatunopromos": 124807,
       "pobregram": 41737,
       "urubupromo": 41551
     },
     "dia": "2026-10-11",
-    "hoje": 0,
-    "chaves": []
+    "hoje": 2,
+    "chaves": [
+      "amazon:B0D84WRDBB",
+      "mercadolivre:MLB24081502"
+    ]
   },
   "ultimos": [
     {
