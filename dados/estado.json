@@ -254,14 +254,14 @@
   "radar": {
     "visto": {
       "xetdaspromocoes": 84418,
-      "lobaopromo": 188399,
-      "gatunopromos": 124839,
-      "pobregram": 41740,
+      "lobaopromo": 188400,
+      "gatunopromos": 124840,
+      "pobregram": 41741,
       "urubupromo": 41556,
       "tudonapromo": 101548,
       "promonocontext": 125768,
-      "promooeasy": 219967,
-      "aquitempechincha": 280939,
+      "promooeasy": 219969,
+      "aquitempechincha": 280940,
       "infoBRpromos": 67374
     },
     "dia": "2026-10-12",
@@ -287,16 +287,16 @@
       "amazon:B07DHSHXVP"
     ],
     "ultima": {
-      "em": "2026-10-12T08:20:18-03:00",
+      "em": "2026-10-12T08:25:16-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 10,
       "lidos": 10,
       "falhas": [],
-      "posts_novos": 4,
-      "do_nicho": 1,
-      "repetidas": 0,
-      "novas": 1,
+      "posts_novos": 6,
+      "do_nicho": 3,
+      "repetidas": 3,
+      "novas": 0,
       "limite_dia": false
     }
   },
