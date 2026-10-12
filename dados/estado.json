@@ -279,6 +279,24 @@
       "parcela_valor": 36.5,
       "pix": true,
       "aprovado_em": "2026-10-12T19:45-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB4113792113",
+      "origem": "promonocontext",
+      "link": "https://meli.la/347Y3aU",
+      "link_produto": "https://meli.la/347Y3aU",
+      "post_origem": "https://t.me/promonocontext/126017",
+      "link_canal": "https://meli.la/32WpkJK",
+      "foto": "AgACAgQAAxkDAAIBA2rNZDmPMrA4L_5rpQiqEIdrg5T6AAKjEGsbixvdU4xRZgvwu4PgAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Tênis Sandrini Aero Run Academia Caminhada Treino",
+      "de": 149.99,
+      "por": 59.99,
+      "titulo": "Tênis Sandrini com 60% off",
+      "garimpado_em": "2026-10-12T19:50-03:00",
+      "na_revisao_desde": "2026-10-12T19:50-03:00",
+      "aprovado_em": "2026-10-12T19:52-03:00"
     }
   ],
   "postados": [
@@ -542,27 +560,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB4113792113",
-      "origem": "promonocontext",
-      "link": "https://produto.mercadolivre.com.br/MLB-4113792113-tnis-sandrini-aero-run-academia-caminhada-treino-_JM?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-4113792113-tnis-sandrini-aero-run-academia-caminhada-treino-_JM",
-      "post_origem": "https://t.me/promonocontext/126017",
-      "link_canal": "https://meli.la/32WpkJK",
-      "foto": "AgACAgQAAxkDAAIBA2rNZDmPMrA4L_5rpQiqEIdrg5T6AAKjEGsbixvdU4xRZgvwu4PgAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Tênis Sandrini Aero Run Academia Caminhada Treino",
-      "de": 149.0,
-      "por": 59.0,
-      "titulo": "Tênis Sandrini com 60% off",
-      "id": 122,
-      "garimpado_em": "2026-10-12T19:50-03:00",
-      "na_revisao_desde": "2026-10-12T19:50-03:00",
-      "msg_id": 259
-    }
-  ],
+  "revisar": [],
   "proximo_id": 123,
   "radar": {
     "visto": {
@@ -1442,7 +1440,7 @@
       },
       "promonocontext": {
         "achados": 5,
-        "aprovados": 4,
+        "aprovados": 5,
         "reprovados": 0
       },
       "boletando": {
