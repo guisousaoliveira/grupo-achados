@@ -2,20 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "shopee",
-      "chave": "shopee:1537142489.58263646145",
-      "origem": "lobaopromo",
-      "link": "https://s.shopee.com.br/6q1Q4Ndupi",
-      "link_produto": "https://shopee.com.br/product/1537142489/58263646145",
-      "foto": "AgACAgEAAxkDAAOEasyNP_u1-E_s2J-D44fOvmHKRB8AAi8Qaxvw92FGi35TtFAgbGQBAAMCAAN4AAM9BA",
-      "foto_origem": "canal",
-      "nome": "Galaxy A57 5G (256GB) - Cinza + Galaxy Watch8 BT 44mm",
-      "por": 2808.76,
-      "frase": "Vale cada centavo nesse preço.",
-      "cupom": "🎟️ Resgate o cupom de R$100 no anúncio",
-      "aprovado_em": "2026-10-12T04:39-03:00"
-    },
-    {
       "loja": "amazon",
       "link": "https://link.amazon/B05qTBYbL",
       "chave": "amazon:https://link.amazon/B05qTBYbL",
@@ -117,6 +103,12 @@
       "loja": "mercadolivre",
       "nome": "Carregador Portátil Turbo 20.000mAh com Visor LED",
       "data": "2026-10-12T10:00-03:00"
+    },
+    {
+      "chave": "shopee:1537142489.58263646145",
+      "loja": "shopee",
+      "nome": "Galaxy A57 5G (256GB) - Cinza + Galaxy Watch8 BT 44mm",
+      "data": "2026-10-12T11:00-03:00"
     }
   ],
   "slots_usados": {
@@ -126,7 +118,8 @@
     "2026-10-12": [
       8,
       9,
-      10
+      10,
+      11
     ]
   },
   "shopee_buscado_em": "",
@@ -390,14 +383,14 @@
   "proximo_id": 48,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84454,
-      "lobaopromo": 188451,
+      "xetdaspromocoes": 84456,
+      "lobaopromo": 188455,
       "gatunopromos": 124862,
-      "pobregram": 41754,
+      "pobregram": 41756,
       "urubupromo": 41566,
-      "tudonapromo": 101585,
+      "tudonapromo": 101587,
       "promonocontext": 125841,
-      "promooeasy": 220043,
+      "promooeasy": 220046,
       "aquitempechincha": 281036,
       "infoBRpromos": 67405
     },
@@ -434,13 +427,13 @@
       "mercadolivre:MLB67893601"
     ],
     "ultima": {
-      "em": "2026-10-12T10:55:17-03:00",
+      "em": "2026-10-12T11:00:28-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 10,
       "lidos": 10,
       "falhas": [],
-      "posts_novos": 6,
+      "posts_novos": 5,
       "do_nicho": 0,
       "repetidas": 0,
       "novas": 0,
@@ -449,6 +442,16 @@
     }
   },
   "ultimos": [
+    {
+      "loja": "shopee",
+      "chave": "shopee:1537142489.58263646145",
+      "link": "https://s.shopee.com.br/6q1Q4Ndupi",
+      "link_produto": "https://shopee.com.br/product/1537142489/58263646145",
+      "foto": "AgACAgEAAxkDAAOEasyNP_u1-E_s2J-D44fOvmHKRB8AAi8Qaxvw92FGi35TtFAgbGQBAAMCAAN4AAM9BA",
+      "nome": "Galaxy A57 5G (256GB) - Cinza + Galaxy Watch8 BT 44mm",
+      "por": 2808.76,
+      "cupom": "🎟️ Resgate o cupom de R$100 no anúncio"
+    },
     {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB54026101",
