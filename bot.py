@@ -891,8 +891,24 @@ def aplicar_correcao(item, texto):
                 item.pop("cupom_loja", None)
 
 
+def contar_garimpo(estado, item, campo, quanto=1):
+    """Placar do garimpo por fonte e por dia (o dia em que a oferta foi achada): achados, aprovados, reprovados.
+    Só conta o que veio do radar (canal ou Promobit); link que você mandou não entra."""
+    fonte = item.get("origem")
+    if not fonte:
+        return
+    dia = (item.get("garimpado_em") or agora().isoformat())[:10]
+    g = estado.setdefault("garimpo", {})
+    linha = g.setdefault(dia, {}).setdefault(fonte, {"achados": 0, "aprovados": 0, "reprovados": 0})
+    linha[campo] = max(0, linha.get(campo, 0) + quanto)
+    for velho in sorted(g)[:-14]:  # guarda 2 semanas
+        del g[velho]
+
+
 def pra_lixeira(estado, item, de):
     """Guarda o que foi descartado ou tirado da fila (os 40 últimos), para dar para desfazer pelo painel."""
+    if de == "revisar":
+        contar_garimpo(estado, item, "reprovados")
     copia = {k: v for k, v in item.items() if k != "msg_id"}
     copia["removido_em"], copia["removido_de"] = agora().isoformat(timespec="seconds"), de
     estado["lixeira"] = ([copia] + estado.get("lixeira", []))[:40]
@@ -902,6 +918,7 @@ def aprovar(estado, item):
     estado["revisar"] = [x for x in estado["revisar"] if x["id"] != item["id"]]
     if any(x["chave"] == item["chave"] for x in estado["fila"]):
         return "Esse link já estava na fila."
+    contar_garimpo(estado, item, "aprovados")
     limpo = {k: v for k, v in item.items() if k not in ("id", "msg_id")}
     limpo["aprovado_em"] = agora().isoformat(timespec="minutes")
     estado["fila"].append(limpo)
@@ -938,6 +955,27 @@ def checar_validade(estado):
         responder_admin(f"⏰ <b>Na fila há mais de {horas} horas.</b> Abra o link e confira se o preço ainda vale:\n\n"
                         + montar_post(item), botoes)
         item["aviso_validade"] = True
+
+
+def avisar_antes_de_postar(estado):
+    """Uns minutos antes do post automático, manda no seu privado qual oferta vai sair, para conferir o preço.
+    Se não estiver valendo, o botão Remover tira da fila e sai a próxima no lugar."""
+    antes = CONFIG.get("aviso_antes_minutos", 10)
+    if not antes or not estado["fila"]:
+        return
+    dt = agora()
+    prox = proximo_post(estado, dt)
+    if not prox or not 0 <= (prox - dt).total_seconds() <= antes * 60:
+        return
+    item = estado["fila"][0]
+    marca = f"{prox:%Y-%m-%d %H}|{item['chave']}"
+    if estado.get("aviso_post") == marca:
+        return
+    ident = id_story(item)
+    botoes = {"inline_keyboard": [[{"text": "🗑️ Remover da fila", "callback_data": f"vr:{ident}"}]]}
+    responder_admin(f"⏳ <b>Sai às {prox:%H:%M}.</b> Confira se o preço ainda está certo. Se não estiver, "
+                    "remova e sai a próxima da fila no lugar:\n\n" + montar_post(item), botoes)
+    estado["aviso_post"] = marca
 
 
 def botao_validade(estado, acao, ident):
@@ -1739,7 +1777,7 @@ def radar_promobit(estado, r, cfg, conta, usadas, teste, acordando):
     if not pcfg.get("ligado"):
         return 0
     paginas = pcfg.get("paginas") or ["https://www.promobit.com.br/promocoes/recentes/", "https://www.promobit.com.br/"]
-    limite_hora, limite_dia = pcfg.get("max_por_hora", 2), cfg.get("max_por_dia", 10)
+    limite_hora, limite_dia = pcfg.get("max_por_hora", 0), cfg.get("max_por_dia", 0)  # 0 = sem limite
     hora = agora().strftime("%Y-%m-%dT%H")
     if r.get("promobit_hora") != hora:
         r["promobit_hora"], r["promobit_nesta_hora"] = hora, 0
@@ -1761,9 +1799,10 @@ def radar_promobit(estado, r, cfg, conta, usadas, teste, acordando):
         if not teste and o["offerId"] <= visto:
             continue
         conta["posts_novos"] += 1
-        if not teste and (r["promobit_nesta_hora"] >= limite_hora or r["hoje"] >= limite_dia):
-            conta["limite_dia"] = r["hoje"] >= limite_dia
-            conta["limite_hora"] = True
+        cheia_dia = bool(limite_dia) and r["hoje"] >= limite_dia
+        if not teste and ((limite_hora and r["promobit_nesta_hora"] >= limite_hora) or cheia_dia):
+            conta["limite_dia"] = cheia_dia
+            conta["limite_hora"] = not cheia_dia
             break
         item = oferta_do_promobit(o)
         if not item:
@@ -1781,6 +1820,7 @@ def radar_promobit(estado, r, cfg, conta, usadas, teste, acordando):
         r["promobit_nesta_hora"] += 1
         r["chaves"] = (r["chaves"] + [item["chave"]])[-400:]
         mandar_para_revisao(estado, item)
+        contar_garimpo(estado, item, "achados")
     if not teste:
         r["promobit_visto"] = ultimo
     return novas
@@ -1804,7 +1844,7 @@ def rodar_radar(estado, teste=False):
     hoje = agora().date().isoformat()
     if r.get("dia") != hoje:
         r["dia"], r["hoje"] = hoje, 0
-    limite_dia, limite_rodada = cfg.get("max_por_dia", 10), cfg.get("max_por_rodada", 3)
+    limite_dia, limite_rodada = cfg.get("max_por_dia", 0), cfg.get("max_por_rodada", 0)  # 0 = sem limite
     # Limite por hora: espalha as ofertas pelo dia em vez de gastar a cota toda logo de manhã.
     limite_hora = cfg.get("max_por_hora", 0)
     hora = agora().strftime("%Y-%m-%dT%H")
@@ -1850,10 +1890,12 @@ def rodar_radar(estado, teste=False):
                 continue
             conta["posts_novos"] += 1
             cheia_hora = bool(limite_hora) and r["nesta_hora"] >= limite_hora
-            if novas_canais >= limite_rodada or ((r["hoje"] >= limite_dia or cheia_hora) and not teste):
-                conta["limite_dia"] = r["hoje"] >= limite_dia
+            cheia_dia = bool(limite_dia) and r["hoje"] >= limite_dia
+            cheia_rodada = bool(limite_rodada) and novas_canais >= limite_rodada
+            if cheia_rodada or ((cheia_dia or cheia_hora) and not teste):
+                conta["limite_dia"] = cheia_dia
                 conta["limite_hora"] = cheia_hora
-                conta["limite_rodada"] = novas_canais >= limite_rodada
+                conta["limite_rodada"] = cheia_rodada
                 break
             item = oferta_do_post(post, canal)
             if not item:
@@ -1872,6 +1914,7 @@ def rodar_radar(estado, teste=False):
             r["nesta_hora"] = r.get("nesta_hora", 0) + 1
             r["chaves"] = (r["chaves"] + [item["chave"]])[-400:]
             mandar_para_revisao(estado, item)
+            contar_garimpo(estado, item, "achados")
         if not teste:
             r["visto"][canal] = ultimo
     conta["novas"] = novas
@@ -1964,6 +2007,10 @@ def ciclo(estado):
         postar_se_for_hora(estado)
     except Exception as e:
         log(f"Erro ao postar: {e}")
+    try:
+        avisar_antes_de_postar(estado)
+    except Exception as e:
+        log(f"Erro avisando o próximo post: {e}")
     limpar_estado(estado)
     log(f"Fila agora: {len(estado['fila'])} oferta(s). Esperando revisão: {len(estado['revisar'])}.")
 

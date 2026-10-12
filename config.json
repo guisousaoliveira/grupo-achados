@@ -121,12 +121,12 @@
       "achadosdotb"
     ],
     "tag_amazon": "alphadominu09-20",
-    "max_por_rodada": 3,
-    "max_por_dia": 48,
-    "max_por_hora": 3,
+    "max_por_rodada": 0,
+    "max_por_dia": 0,
+    "max_por_hora": 0,
     "promobit": {
       "ligado": true,
-      "max_por_hora": 2,
+      "max_por_hora": 0,
       "paginas": [
         "https://www.promobit.com.br/promocoes/recentes/",
         "https://www.promobit.com.br/"
@@ -248,5 +248,6 @@
     "ml_matt_word": "alphapromo",
     "ml_matt_tool": "59136903"
   },
-  "canal_publico": "alphadominuspromo"
+  "canal_publico": "alphadominuspromo",
+  "aviso_antes_minutos": 10
 }

@@ -214,6 +214,7 @@ def resumo(estado):
         "revisar": [item_json(x, str(x["id"])) for x in sorted(estado["revisar"], key=lambda x: x["id"], reverse=True)],
         "ultimos": [item_json(x, bot.id_story(x)) for x in estado.get("ultimos", [])],
         "lixeira": [item_json(x, id_lixeira(x)) for x in estado.get("lixeira", [])],
+        "garimpo": estado.get("garimpo", {}),
         "story_cfg": story_cfg(estado),
         "postados": [{**p, "url": url_produto(p)} for p in reversed(estado["postados"][-300:])],
         "canais_radar": [c.strip().replace("https://t.me/", "").replace("@", "").strip("/")
@@ -518,6 +519,7 @@ def acao(corpo):
                 else:
                     estado["revisar"].append(feito["revisao"])
                     estado["proximo_id"] = max(estado["proximo_id"], feito["revisao"]["id"] + 1)
+                bot.contar_garimpo(estado, item, "reprovados", -1)  # desfez o descarte
                 saida["ok"] = "Voltou para Revisar."
         elif a == "story_config":
             if d.get("padrao"):

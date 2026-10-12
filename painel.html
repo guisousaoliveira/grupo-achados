@@ -80,6 +80,21 @@ main{min-width:0;padding:26px 34px 60px;max-width:1180px}
 .box h2{font-size:14.5px;margin:0 0 14px;display:flex;align-items:center;gap:8px}
 .box h2 .r{margin-left:auto;font-weight:400}
 .cols{display:grid;grid-template-columns:1.4fr 1fr;gap:16px}
+.abas.mini{margin:0;gap:4px}.abas.mini button{padding:5px 11px;font-size:12px}
+.gtab{display:flex;flex-direction:column}
+.gr{display:grid;grid-template-columns:minmax(0,1.6fr) .6fr .7fr .7fr 1.3fr;gap:10px;align-items:center;padding:9px 0;border-top:1px solid var(--line);font-size:14px}
+.gr.gh{border-top:0;padding-top:0;color:var(--mut);font-size:12px;text-transform:uppercase;letter-spacing:.04em}
+.gr.gt{font-weight:700}
+.gr .ok{color:#4ade80}.gr .bad{color:#f87171}.gr .gm{color:var(--mut)}
+.gf{display:flex;align-items:center;gap:8px;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.gb{display:flex;align-items:center;gap:8px}.gb b{font-size:13px;min-width:36px}
+.gtx{flex:1;height:6px;border-radius:9px;background:var(--card2);overflow:hidden}.gtx i{display:block;height:100%;background:var(--gold)}
+.gh i{font-style:normal}.gh .sm{display:none}
+@media (max-width:700px){
+  .gr{grid-template-columns:minmax(0,1fr) 44px 26px 26px 40px;gap:8px;font-size:13.5px}
+  .gh .lg{display:none}.gh .sm{display:inline}.gr.gh{text-transform:none}
+  .gtx{display:none}.gb b{min-width:0}
+}
 .cols > *,.grid4 > *{min-width:0}
 
 .slots{display:flex;flex-wrap:wrap;gap:6px}
@@ -491,7 +506,7 @@ function desenharNav(){
   document.getElementById('mob-badge').innerHTML = conta.revisar ? `<span class="badge">${conta.revisar}</span>` : '';
   const r = E.radar;
   document.getElementById('radarbox').innerHTML = `<div class="t"><span class="dot ${r.pausado?'off':''}"></span>Radar ${r.pausado?'pausado':'ligado'}</div>
-    <p>${r.canais} canais · ${r.hoje}/${r.max_dia} hoje${r.pausa_de!=null ? ` · pausa ${r.pausa_de}h–${r.pausa_ate}h` : ''}${r.rodada ? `<br>Última rodada ${quandoISO(r.rodada.atualizada)}` : ''}</p>
+    <p>${r.canais} canais · ${r.hoje}${r.max_dia ? '/' + r.max_dia : ' achadas'} hoje${r.pausa_de!=null ? ` · pausa ${r.pausa_de}h–${r.pausa_ate}h` : ''}${r.rodada ? `<br>Última rodada ${quandoISO(r.rodada.atualizada)}` : ''}</p>
     <button class="btn sm" style="width:100%" onclick="rodarRadar()">${ic('radar',15)}Rodar agora</button>`;
 }
 function desenhar(){
@@ -532,10 +547,11 @@ function inicio(){
       <div class="stat click" onclick="ir('fila')"><div class="k">${ic('fila',15)}Na fila</div><div class="v">${E.fila.length}</div><div class="s">${E.fila.length ? `próxima sai ${esc(E.fila[0].previsao)}` : 'fila vazia'}</div></div>
       <div class="stat click" onclick="ir('revisar')"><div class="k">${ic('revisar',15)}Para revisar</div><div class="v">${E.revisar.length}</div><div class="s">${E.revisar.filter(x=>!x.falta.length).length} prontas para aprovar</div></div>
       <div class="stat click" onclick="ir('historico')"><div class="k">${ic('historico',15)}Postadas hoje</div><div class="v">${postHoje.length}</div><div class="s">${proxHoras} horário(s) ainda hoje</div></div>
-      <div class="stat"><div class="k">${ic('radar',15)}Radar hoje</div><div class="v">${E.radar.hoje}<span style="font-size:15px;color:var(--mut);font-weight:500"> / ${E.radar.max_dia}</span></div><div class="bar"><i style="width:${Math.min(100, E.radar.hoje/E.radar.max_dia*100)}%"></i></div>
+      <div class="stat"><div class="k">${ic('radar',15)}Radar hoje</div><div class="v">${E.radar.hoje}${E.radar.max_dia ? `<span style="font-size:15px;color:var(--mut);font-weight:500"> / ${E.radar.max_dia}</span>` : '<span style="font-size:15px;color:var(--mut);font-weight:500"> achadas</span>'}</div>${E.radar.max_dia ? `<div class="bar"><i style="width:${Math.min(100, E.radar.hoje/E.radar.max_dia*100)}%"></i></div>` : ''}
         <div class="s" style="margin-top:8px;display:flex;align-items:center;justify-content:space-between;gap:8px">${E.radar.pausado ? 'pausado' : 'ligado'}${E.radar.rodada ? ` · ${quandoISO(E.radar.rodada.atualizada)}` : ''}<button class="btn sm" onclick="rodarRadar()">Rodar agora</button></div></div>
     </div>
     <div class="box"><h2>Horários de hoje<span class="r tag">um post por horário, se tiver fila</span></h2><div class="slots">${slots}</div></div>
+    ${garimpoBox()}
     <div class="cols">
       <div class="box"><h2>Próximas a sair<a class="r btn sm ghost" onclick="ir('fila')">Ver fila toda</a></h2>
         ${E.fila.length ? `<div class="list">${E.fila.slice(0,3).map((x,i) => `<div class="hl" style="padding:8px 0" ${x.url ? `data-url="${esc(x.url)}"` : ''}>${foto(x)}<div style="min-width:0;flex:1"><div class="nm" style="font-weight:600">${esc(x.nome)}</div><div class="meta">${loja(x.loja)}<span>${esc(x.previsao)}</span>${x.por?`<span>${reais(x.por)}</span>`:''}</div></div></div>`).join('').replaceAll('class="ph', 'style="width:52px;height:52px" class="ph')}</div>` : `<div class="vazio-box" style="padding:26px"><b>Fila vazia</b>Aprove ofertas em Revisar ou cole um link em Nova oferta.</div>`}
@@ -544,6 +560,33 @@ function inicio(){
         ${E.postados.slice(0,5).map(p => `<div class="hl" style="padding:8px 0" ${p.url ? `data-url="${esc(p.url)}"` : ''}><span class="h" style="width:auto;min-width:44px">${p.data.slice(0,10) === hoje ? '' : p.data.slice(8,10) + '/' + p.data.slice(5,7) + ' '}${p.data.slice(11,16)}</span><span class="n">${esc(p.nome)}</span>${loja(p.loja)}</div>`).join('') || '<p style="color:var(--mut);margin:0">Nada postado ainda.</p>'}
       </div>
     </div>`;
+}
+
+/* -------- placar do garimpo -------- */
+let garPer = 'hoje';
+function garimpoBox(){
+  const dias = Object.keys(E.garimpo || {}).sort();
+  const hoje = E.agora.slice(0,10);
+  const ontem = new Date(new Date(hoje + 'T12:00:00').getTime() - 864e5).toISOString().slice(0,10);
+  const usar = garPer === 'hoje' ? [hoje] : garPer === 'ontem' ? [ontem] : dias.slice(-7);
+  const soma = {};
+  usar.forEach(d => Object.entries((E.garimpo || {})[d] || {}).forEach(([f, v]) => {
+    const t = soma[f] = soma[f] || {achados:0, aprovados:0, reprovados:0};
+    t.achados += v.achados || 0; t.aprovados += v.aprovados || 0; t.reprovados += v.reprovados || 0;
+  }));
+  const linhas = Object.entries(soma).sort((a, b) => b[1].achados - a[1].achados || b[1].aprovados - a[1].aprovados);
+  const tot = linhas.reduce((t, [, v]) => ({achados: t.achados + v.achados, aprovados: t.aprovados + v.aprovados, reprovados: t.reprovados + v.reprovados}), {achados:0, aprovados:0, reprovados:0});
+  const taxa = v => { const d = v.aprovados + v.reprovados; return d ? Math.round(v.aprovados / d * 100) : null; };
+  const barra = v => { const t = taxa(v); return t === null ? '<span class="gm">—</span>' : `<span class="gtx"><i style="width:${t}%"></i></span><b>${t}%</b>`; };
+  const nome = f => f === 'promobit' ? '<span class="mk pb">P</span>Promobit' : `${marca('tg')}@${esc(f)}`;
+  const per = [['hoje','Hoje'],['ontem','Ontem'],['7d','7 dias']].map(([k,t]) => `<button class="${garPer===k?'on':''}" onclick="garPer='${k}';desenhar()">${t}</button>`).join('');
+  return `<div class="box"><h2>Placar do garimpo<span class="r abas mini">${per}</span></h2>
+    ${linhas.length ? `<div class="gtab"><div class="gr gh"><span>Fonte</span><span>Achou</span><span><i class="lg">Aprovou</i><i class="sm">✓</i></span><span><i class="lg">Reprovou</i><i class="sm">✕</i></span><span><i class="lg">Aproveitamento</i><i class="sm">%</i></span></div>
+      ${linhas.map(([f, v]) => `<div class="gr"><span class="gf">${nome(f)}</span><span>${v.achados}</span><span class="ok">${v.aprovados}</span><span class="bad">${v.reprovados}</span><span class="gb">${barra(v)}</span></div>`).join('')}
+      <div class="gr gt"><span>Total</span><span>${tot.achados}</span><span class="ok">${tot.aprovados}</span><span class="bad">${tot.reprovados}</span><span class="gb">${barra(tot)}</span></div></div>
+      <p class="hint" style="margin:10px 0 0">Conta pelo dia em que a oferta foi achada. O que ainda está em Revisar não entra no aproveitamento.</p>`
+    : `<p style="color:var(--mut);margin:0">${garPer === 'hoje' ? 'Nada garimpado hoje ainda.' : 'Sem dados nesse período (o placar começou a contar hoje).'}</p>`}
+  </div>`;
 }
 
 /* -------- revisar -------- */
