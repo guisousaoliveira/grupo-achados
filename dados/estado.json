@@ -210,6 +210,22 @@
       "titulo": "Whey Growth de chocolate com desconto",
       "garimpado_em": "2026-10-12T16:01-03:00",
       "aprovado_em": "2026-10-12T16:10-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB68826578",
+      "origem": "urubupromo",
+      "link": "https://meli.la/1gDuRwZ",
+      "link_produto": "https://www.mercadolivre.com.br/creatina-max-titanium-7-belo-em-po-x-300g/p/MLB68826578",
+      "post_origem": "https://t.me/urubupromo/41575",
+      "link_canal": "https://meli.la/2Fn2DGb",
+      "foto": "AgACAgQAAxkDAAPEas0wpX40DN9mrD6RdL2C8NlKZLcAAuQMaxtkEq1TxgEQuQKXzlsBAAMCAAN4AAM9BA",
+      "foto_origem": "loja",
+      "nome": "Creatina Max Titanium 7 Belo em pó x 300g",
+      "por": 41.54,
+      "titulo": "Frete grátis com Prime e Pix",
+      "garimpado_em": "2026-10-12T16:10-03:00",
+      "aprovado_em": "2026-10-12T16:13-03:00"
     }
   ],
   "postados": [
@@ -458,23 +474,6 @@
       "id": 73,
       "garimpado_em": "2026-10-12T16:10-03:00",
       "msg_id": 195
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB68826578",
-      "origem": "urubupromo",
-      "link": "https://www.mercadolivre.com.br/creatina-max-titanium-7-belo-em-po-x-300g/p/MLB68826578?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/creatina-max-titanium-7-belo-em-po-x-300g/p/MLB68826578",
-      "post_origem": "https://t.me/urubupromo/41575",
-      "link_canal": "https://meli.la/2Fn2DGb",
-      "foto": "AgACAgQAAxkDAAPEas0wpX40DN9mrD6RdL2C8NlKZLcAAuQMaxtkEq1TxgEQuQKXzlsBAAMCAAN4AAM9BA",
-      "foto_origem": "loja",
-      "nome": "Creatina Max Titanium 7 Belo em pó x 300g",
-      "por": 41.54,
-      "titulo": "Frete grátis com Prime e Pix",
-      "id": 74,
-      "garimpado_em": "2026-10-12T16:10-03:00",
-      "msg_id": 196
     },
     {
       "loja": "amazon",
@@ -868,7 +867,7 @@
       },
       "urubupromo": {
         "achados": 1,
-        "aprovados": 0,
+        "aprovados": 1,
         "reprovados": 0
       }
     }
