@@ -45,12 +45,18 @@
       "link": "https://link.amazon/B023PEkoV",
       "ler_depois": true,
       "chave": "amazon:https://link.amazon/B023PEkoV",
-      "id": 8,
-      "msg_id": 39,
-      "nome": "Philips OneBlade Barbeador e Aparador Elétrico: Raspa",
-      "foto": "https://m.media-amazon.com/images/I/71QS7WTTChL._AC_SL1500_.jpg",
-      "tentativas": 1
+      "id": 9,
+      "msg_id": 42,
+      "nome": "Philips OneBlade Barbeador e Aparador Elétrico: Raspa, Apara e Contorna",
+      "foto": "AgACAgEAAxkBAAMpaswouSxtTunPjl0NK6yb9ShLMuAAAhgQaxvw92FGvOaaPsJN_aYBAAMCAAN4AAM9BA",
+      "tentativas": 1,
+      "de": 244.74,
+      "por": 149.0,
+      "prime": true,
+      "sem_prime": 189.37,
+      "cupom": "PHILIPS10",
+      "frase": "Achado do dia, aproveita antes de acabar."
     }
   ],
-  "proximo_id": 9
+  "proximo_id": 10
 }
