@@ -447,17 +447,78 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [],
-  "proximo_id": 104,
+  "revisar": [
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0DXFBMYN4",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0DXFBMYN4?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0DXFBMYN4?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/mochila-esportiva-com-cordao-separacao-seca-e-humida-mochila-de-grande-capacidade-para-viagens-de-lazer-bolsos-laterais-em-malha-preto-com-lis-3109123/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3109123/",
+      "nome": "Mochila Esportiva com Cordão",
+      "por": 45.1,
+      "foto": "AgACAgQAAxkDAAPuas1PH6SQ00Mq1wxRuUxIsPPtk9MAAuEPaxuOGm1Smedec3OQAAGSAQADAgADbQADPQQ",
+      "foto_origem": "canal",
+      "titulo": "Mochila esportiva para carregar seus itens na academia",
+      "id": 104,
+      "garimpado_em": "2026-10-12T18:20-03:00",
+      "na_revisao_desde": "2026-10-12T18:20-03:00",
+      "msg_id": 238
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0HF7B2W69",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0HF7B2W69?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0HF7B2W69?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/notebook-samsung-galaxy-book6-16-copilot-pc-windows-11-home-ultra-5-16gb-512gb-ssd-174-kg-3109128/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3109128/",
+      "nome": "Notebook Samsung Galaxy Book6 16\" Copilot+ PC Windows 11 Home Ultra 5",
+      "por": 7699.0,
+      "de": 8499.0,
+      "foto": "AgACAgQAAxkDAAPvas1PIpxGK6epe-HBMD_HnJ9KjJYAApAPaxs3MwxSxAgzDxrpKSkBAAMCAAN5AAM9BA",
+      "foto_origem": "loja",
+      "titulo": "Notebook Samsung Galaxy Book6 com 9% off",
+      "id": 105,
+      "garimpado_em": "2026-10-12T18:20-03:00",
+      "na_revisao_desde": "2026-10-12T18:20-03:00",
+      "msg_id": 239
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB18758275",
+      "origem": "lobaopromo",
+      "link": "https://www.mercadolivre.com.br/jogo-elden-ring-standard-edition-playstation-5-fisico/p/MLB18758275?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/jogo-elden-ring-standard-edition-playstation-5-fisico/p/MLB18758275",
+      "post_origem": "https://t.me/lobaopromo/188547",
+      "link_canal": "https://meli.la/1PWj7fM",
+      "foto": "AgACAgQAAxkDAAPwas1PJsh3RrS57jneOwa0sznXb3AAAj8Naxs4ZlxQ1hydfwlW9wcBAAMCAAN4AAM9BA",
+      "foto_origem": "loja",
+      "nome": "Jogo Elden Ring Standard Edition",
+      "pix": true,
+      "de": 291.1,
+      "por": 165.57,
+      "cupom": "JOGOS1210",
+      "titulo": "Elden Ring Standard Edition com 43% off",
+      "id": 106,
+      "garimpado_em": "2026-10-12T18:20-03:00",
+      "na_revisao_desde": "2026-10-12T18:20-03:00",
+      "msg_id": 240
+    }
+  ],
+  "proximo_id": 107,
   "radar": {
     "visto": {
       "xetdaspromocoes": 84504,
-      "lobaopromo": 188543,
-      "gatunopromos": 124932,
+      "lobaopromo": 188547,
+      "gatunopromos": 124935,
       "pobregram": 41780,
       "urubupromo": 41584,
       "tudonapromo": 101626,
-      "promonocontext": 125969,
+      "promonocontext": 125971,
       "promooeasy": 220225,
       "aquitempechincha": 281179,
       "infoBRpromos": 67417,
@@ -466,7 +527,7 @@
       "achadosdotb": 11754
     },
     "dia": "2026-10-12",
-    "hoje": 73,
+    "hoje": 76,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -548,27 +609,30 @@
       "mercadolivre:MLB21835256",
       "mercadolivre:MLB2108955543",
       "amazon:B0DKLPWQKS",
-      "amazon:B0G4VCY39X"
+      "amazon:B0G4VCY39X",
+      "amazon:B0DXFBMYN4",
+      "amazon:B0HF7B2W69",
+      "mercadolivre:MLB18758275"
     ],
     "ultima": {
-      "em": "2026-10-12T18:10:18-03:00",
+      "em": "2026-10-12T18:20:19-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
       "posts_novos": 20,
-      "do_nicho": 1,
+      "do_nicho": 4,
       "repetidas": 1,
-      "novas": 0,
+      "novas": 3,
       "limite_dia": false,
-      "promobit": 0
+      "promobit": 2
     },
     "hora": "2026-10-12T18",
-    "nesta_hora": 0,
+    "nesta_hora": 1,
     "promobit_hora": "2026-10-12T18",
-    "promobit_nesta_hora": 0,
-    "promobit_visto": 3109112
+    "promobit_nesta_hora": 2,
+    "promobit_visto": 3109128
   },
   "ultimos": [
     {
@@ -1010,7 +1074,7 @@
         "reprovados": 13
       },
       "promobit": {
-        "achados": 13,
+        "achados": 15,
         "aprovados": 6,
         "reprovados": 7
       },
@@ -1020,7 +1084,7 @@
         "reprovados": 0
       },
       "lobaopromo": {
-        "achados": 4,
+        "achados": 5,
         "aprovados": 1,
         "reprovados": 3
       },
