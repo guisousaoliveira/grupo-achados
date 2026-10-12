@@ -1063,7 +1063,11 @@ def produto_do_link(link):
             prod = re.search(r"https://(?:produto\.mercadolivre\.com\.br/MLB-\d+[^\s\"'<>?#]*|www\.mercadolivre\.com\.br/[^\s\"'<>?#]+/p/MLB\d+)", pagina)
             url = prod.group(0) if prod else f"https://produto.mercadolivre.com.br/MLB-{m.group(1)}"
             ident = re.search(r"MLB-?(\d+)", url).group(1)
-            return {"loja": "mercadolivre", "chave": f"mercadolivre:MLB{ident}", "link_produto": url}
+            achado = {"loja": "mercadolivre", "chave": f"mercadolivre:MLB{ident}", "link_produto": url}
+            cfg = CONFIG.get("radar", {})
+            if cfg.get("ml_matt_word") and cfg.get("ml_matt_tool"):  # mesmo código que o seu link meli.la carrega
+                achado["meu_link"] = (f"{url}?matt_word={cfg['ml_matt_word']}&matt_tool={cfg['ml_matt_tool']}")
+            return achado
     m = re.search(r"i\.(\d+)\.(\d+)", final) or re.search(r"shopee\.com\.br/(?:[^/?]+/)?(\d{5,})/(\d{5,})", final)
     if m:
         return {"loja": "shopee", "chave": f"shopee:{m.group(1)}.{m.group(2)}",
