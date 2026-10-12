@@ -407,27 +407,63 @@
       "id": 70,
       "garimpado_em": "2026-10-12T15:48-03:00",
       "msg_id": 190
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB18725403",
+      "origem": "lobaopromo",
+      "link": "https://www.mercadolivre.com.br/proteina-growth-supplements-basic-whey-em-po-sabor-chocolate-x-1kg/p/MLB18725403?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/proteina-growth-supplements-basic-whey-em-po-sabor-chocolate-x-1kg/p/MLB18725403",
+      "post_origem": "https://t.me/lobaopromo/188513",
+      "link_canal": "https://meli.la/2FJrMYU",
+      "foto": "AgACAgQAAxkDAAO_as0uXQrZz3JlsLJIrS4Hac4GEh4AAjIMaxvlY-RRlGj7tAXk7TIBAAMCAAN4AAM9BA",
+      "foto_origem": "loja",
+      "nome": "Proteína Growth Supplements Basic Whey em pó sabor Chocolate x 1kg",
+      "de": 104.9,
+      "por": 72.9,
+      "titulo": "Menor preço histórico em whey chocolate",
+      "id": 71,
+      "garimpado_em": "2026-10-12T16:01-03:00",
+      "msg_id": 193
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:1510737053.22794690094",
+      "origem": "promooeasy",
+      "link": "https://shopee.com.br/product/1510737053/22794690094",
+      "link_produto": "https://shopee.com.br/product/1510737053/22794690094",
+      "post_origem": "https://t.me/promooeasy/220160",
+      "link_canal": "https://s.shopee.com.br/50ZmdhlrQR?lp=aff",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAPAas0uanJJmsNa4S836due4vy8zkkAAjUNaxvw92lGVxnx00CKYm0BAAMCAAN4AAM9BA",
+      "foto_origem": "canal",
+      "nome": "Power Bank 50000mAh Carga Rápida Display Digital 33W66W USB Type-C",
+      "por": 127.3,
+      "titulo": "Power bank gigante com menor preço",
+      "id": 72,
+      "garimpado_em": "2026-10-12T16:01-03:00",
+      "msg_id": 194
     }
   ],
-  "proximo_id": 71,
+  "proximo_id": 73,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84499,
-      "lobaopromo": 188511,
-      "gatunopromos": 124897,
-      "pobregram": 41776,
-      "urubupromo": 41573,
-      "tudonapromo": 101621,
-      "promonocontext": 125951,
-      "promooeasy": 220156,
-      "aquitempechincha": 281121,
+      "xetdaspromocoes": 84502,
+      "lobaopromo": 188514,
+      "gatunopromos": 124899,
+      "pobregram": 41777,
+      "urubupromo": 41574,
+      "tudonapromo": 101622,
+      "promonocontext": 125954,
+      "promooeasy": 220161,
+      "aquitempechincha": 281133,
       "infoBRpromos": 67414,
       "boletando": 76612,
       "promotop": 260183,
       "achadosdotb": 11753
     },
     "dia": "2026-10-12",
-    "hoje": 41,
+    "hoje": 43,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -477,27 +513,29 @@
       "amazon:B0GRBWKY4W",
       "amazon:B0H8JXN6V4",
       "amazon:B076QS31ZW",
-      "amazon:B0FPDW9PLB"
+      "amazon:B0FPDW9PLB",
+      "mercadolivre:MLB18725403",
+      "shopee:1510737053.22794690094"
     ],
     "ultima": {
-      "em": "2026-10-12T15:50:19-03:00",
+      "em": "2026-10-12T16:01:05-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 3,
-      "do_nicho": 0,
-      "repetidas": 0,
-      "novas": 0,
+      "posts_novos": 43,
+      "do_nicho": 6,
+      "repetidas": 4,
+      "novas": 2,
       "limite_dia": false,
       "promobit": 0
     },
-    "hora": "2026-10-12T15",
-    "nesta_hora": 5,
-    "promobit_hora": "2026-10-12T15",
-    "promobit_nesta_hora": 6,
-    "promobit_visto": 3108916
+    "hora": "2026-10-12T16",
+    "nesta_hora": 2,
+    "promobit_hora": "2026-10-12T16",
+    "promobit_nesta_hora": 0,
+    "promobit_visto": 3108933
   },
   "ultimos": [
     {
@@ -712,7 +750,7 @@
   "garimpo": {
     "2026-10-12": {
       "promooeasy": {
-        "achados": 5,
+        "achados": 6,
         "aprovados": 1,
         "reprovados": 1
       },
@@ -724,6 +762,11 @@
       "gatunopromos": {
         "achados": 1,
         "aprovados": 1,
+        "reprovados": 0
+      },
+      "lobaopromo": {
+        "achados": 1,
+        "aprovados": 0,
         "reprovados": 0
       }
     }
