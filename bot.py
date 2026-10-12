@@ -1134,8 +1134,10 @@ def postar_se_for_hora(estado):
     dt = agora()
     hoje = dt.date().isoformat()
     usados = estado["slots_usados"].setdefault(hoje, [])
-    # Horários que já chegaram (com até 2h de atraso, caso o GitHub demore) e ainda não foram usados.
-    vencidos = [h for h in CONFIG["horarios"] if 0 <= dt.hour - h <= 2 and h not in usados]
+    # Horários que já chegaram e ainda não foram usados. Com o tick de 5 em 5 minutos, um horário vale só
+    # dentro da própria hora (ex.: o das 15h até 15h59), para não sair uma rajada de posts atrasados.
+    atraso = CONFIG.get("atraso_max_horas", 0)
+    vencidos = [h for h in CONFIG["horarios"] if 0 <= dt.hour - h <= atraso and h not in usados]
     if FORCAR:
         vencidos = ["teste"]
     if not vencidos:
