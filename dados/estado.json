@@ -453,24 +453,6 @@
       "garimpado_em": "2026-10-12T17:10-03:00",
       "na_revisao_desde": "2026-10-12T17:10-03:00",
       "msg_id": 222
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B09729YMPT",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B09729YMPT?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B09729YMPT?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/220199",
-      "link_canal": "https://www.amazon.com.br/Placa-Video-MSI-Shadow-GDDR7-912-V537-037/dp/B09729YMPT?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAPfas0-2reGGIf2GziiXEmyxvUO5JgAAt4Naxuj4VRSK3UQ5xGFH-cBAAMCAAN4AAM9BA",
-      "foto_origem": "loja",
-      "nome": "Placa de Video MSI RTX 5060 Shadow 2X OC, 8GB, GDDR7-912-V537-037",
-      "por": 2906.05,
-      "titulo": "Placa de vídeo MSI RTX 5060 para rodar jogos atuais",
-      "id": 92,
-      "garimpado_em": "2026-10-12T17:11-03:00",
-      "na_revisao_desde": "2026-10-12T17:11-03:00",
-      "msg_id": 223
     }
   ],
   "proximo_id": 96,
@@ -781,6 +763,25 @@
   "lixeira": [
     {
       "loja": "amazon",
+      "chave": "amazon:B09729YMPT",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B09729YMPT?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B09729YMPT?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220199",
+      "link_canal": "https://www.amazon.com.br/Placa-Video-MSI-Shadow-GDDR7-912-V537-037/dp/B09729YMPT?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAPfas0-2reGGIf2GziiXEmyxvUO5JgAAt4Naxuj4VRSK3UQ5xGFH-cBAAMCAAN4AAM9BA",
+      "foto_origem": "loja",
+      "nome": "Placa de Video MSI RTX 5060 Shadow 2X OC, 8GB, GDDR7-912-V537-037",
+      "por": 2906.05,
+      "titulo": "Placa de vídeo MSI RTX 5060 para rodar jogos atuais",
+      "id": 92,
+      "garimpado_em": "2026-10-12T17:11-03:00",
+      "na_revisao_desde": "2026-10-12T17:11-03:00",
+      "removido_em": "2026-10-12T17:12:32-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "amazon",
       "chave": "amazon:B0FDX5NC1G",
       "origem": "promooeasy",
       "link": "https://www.amazon.com.br/dp/B0FDX5NC1G?tag=alphadominu09-20",
@@ -844,7 +845,7 @@
       "promooeasy": {
         "achados": 16,
         "aprovados": 4,
-        "reprovados": 11
+        "reprovados": 12
       },
       "promobit": {
         "achados": 11,
