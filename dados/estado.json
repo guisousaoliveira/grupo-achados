@@ -54,27 +54,43 @@
       "frase": "Achado do dia, aproveita antes de acabar.",
       "id": 1,
       "msg_id": 11
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB4250522675",
+      "origem": "gatunopromos",
+      "link": "https://produto.mercadolivre.com.br/MLB-4250522675-bolsa-termica-mochila-marmita-grande-cooler-impermeavel-_JM?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-4250522675-bolsa-termica-mochila-marmita-grande-cooler-impermeavel-_JM",
+      "foto": "https://cdn1.telesco.pe/file/TDDY1aht17eRg2jXl81R7qjQnaPxcDHES4dVt1ebp933SCEKyDGZ-3knC8Qja1LtEzsaCNR-Pp_TlZlBGfs4En4uv6HsrU9oHVD2DH6rdjyAJlGYApM0kBwn98lgwoDlELuHyAK13RN_nwDLB5l8_zFXyOgljxtkJTVIVhHA0TwsQzwgVGzasYpYWrQdNOqJ0Yn7PkUin8oQYI_d5jrrb1ntQn4LhVOlbCXuBniiBwxIkJmPIu4h7zdWpx9E5_N5LqCtlxPUvNWBI-HjG_VKoJeccjloi52rI6TFEAzdPTMi8-91U1i4CDSGs_XwrAjlEyOlHqrcHznU-vnlPvCEGw.jpg",
+      "foto_origem": "canal",
+      "nome": "Bolsa Térmica Mochila Marmita Grande Cooler Impermeável (3 Cores)",
+      "de": 69.9,
+      "por": 48.93,
+      "frase": "Menor preço que vi nos últimos dias.",
+      "id": 14,
+      "msg_id": 75
     }
   ],
-  "proximo_id": 14,
+  "proximo_id": 15,
   "radar": {
     "visto": {
       "xetdaspromocoes": 84418,
       "lobaopromo": 188357,
-      "gatunopromos": 124810,
+      "gatunopromos": 124811,
       "pobregram": 41737,
       "urubupromo": 41551,
       "tudonapromo": 101548,
       "promonocontext": 125768,
-      "promooeasy": 219875,
+      "promooeasy": 219876,
       "aquitempechincha": 280933,
       "infoBRpromos": 67366
     },
     "dia": "2026-10-11",
-    "hoje": 2,
+    "hoje": 3,
     "chaves": [
       "amazon:B0D84WRDBB",
-      "mercadolivre:MLB24081502"
+      "mercadolivre:MLB24081502",
+      "mercadolivre:MLB4250522675"
     ]
   },
   "ultimos": [
