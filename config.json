@@ -14,7 +14,8 @@
     19,
     20,
     21,
-    22
+    22,
+    23
   ],
   "validade_horas": 12,
   "rodape": "",
@@ -119,7 +120,7 @@
     "tag_amazon": "alphadominu09-20",
     "max_por_rodada": 3,
     "max_por_dia": 20,
-    "pausa_de": 0,
+    "pausa_de": 1,
     "pausa_ate": 7,
     "palavras_extra": [
       "creatina",
