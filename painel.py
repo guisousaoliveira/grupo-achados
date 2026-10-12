@@ -16,6 +16,7 @@ import html
 import json
 import re
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from datetime import timedelta
@@ -29,6 +30,31 @@ CAMPOS = ("nome", "de", "por", "prime", "sem_prime", "cupom", "cupom_loja", "fra
           "loja", "origem", "foto_origem", "aprovado_em", "aviso_validade", "ler_depois", "precisa_link", "chave", "aviso_preco", "titulo", "pix", "garimpado_em", "post_origem", "link_canal", "removido_em", "removido_de", "fonte")
 
 _fotos = {}  # cache das fotos do Telegram (file_id -> bytes), para a tela abrir rápido
+_estado_cache = {"etag": None, "texto": None}
+
+
+def estado_atual():
+    """Estado para a tela, que pergunta de 15 em 15 segundos. Usa o ETag do GitHub: quando nada mudou,
+    a resposta é um 304 rápido que não gasta o limite de chamadas da API."""
+    if not bot.usar_github():
+        return bot.carregar_estado()[0]
+    url = f"https://api.github.com/repos/{bot._repo()}/contents/dados/estado.json"
+    cab = {"Authorization": f"Bearer {bot.segredo('GITHUB_TOKEN')}", "Accept": "application/vnd.github+json",
+           "User-Agent": "bot-achados"}
+    if _estado_cache["etag"]:
+        cab["If-None-Match"] = _estado_cache["etag"]
+    try:
+        with urllib.request.urlopen(urllib.request.Request(url, headers=cab), timeout=20) as resp:
+            dados = json.loads(resp.read().decode())
+            _estado_cache["texto"] = base64.b64decode(dados["content"]).decode("utf-8")
+            _estado_cache["etag"] = resp.headers.get("ETag")
+    except urllib.error.HTTPError as e:
+        if e.code != 304 or not _estado_cache["texto"]:
+            return bot.carregar_estado()[0]
+    estado = json.loads(_estado_cache["texto"])
+    for chave, valor in bot.estado_vazio().items():
+        estado.setdefault(chave, valor)
+    return estado
 
 
 # ---------------------------------------------------------------- senha
@@ -647,8 +673,7 @@ def tratar_get(req):
     if caminho == "/painel":
         responder(req, 200, ARQ_HTML.read_bytes(), "text/html; charset=utf-8")
     elif caminho == "/painel/api/estado":
-        estado, _ = bot.carregar_estado()
-        responder(req, 200, resumo(estado))
+        responder(req, 200, resumo(estado_atual()))
     elif caminho == "/painel/foto":
         f = q.get("f", "")
         if f not in _fotos:

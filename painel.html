@@ -446,13 +446,24 @@ async function api(acao, id, dados){
   if (r.status === 401) { location.reload(); return {}; }
   return r.json();
 }
-async function carregar(forcar){
+let ULTIMO = '';
+async function carregar(forcar, sozinho){
+  let texto;
   try {
     const r = await fetch('/painel/api/estado', {cache:'no-store'});
     if (r.status === 401) { location.reload(); return; }
-    E = await r.json();
+    texto = await r.text();
   } catch(e) { if (forcar) toast('Sem conexão com o servidor.', true); return; }
-  desenhar();
+  // Atualização automática: só redesenha se algo mudou, e não mexe na tela enquanto você edita.
+  if (sozinho && texto === ULTIMO) return;
+  const antes = E ? E.revisar.length : null;
+  ULTIMO = texto; E = JSON.parse(texto);
+  const ocupado = ED || document.getElementById('modal').classList.contains('on') || document.getElementById('drawer').classList.contains('on');
+  if (sozinho && ocupado) desenharNav(); else desenhar();
+  if (sozinho && antes !== null && E.revisar.length > antes) {
+    const n = E.revisar.length - antes;
+    toast(n === 1 ? 'Chegou 1 oferta nova para revisar.' : `Chegaram ${n} ofertas novas para revisar.`);
+  }
   if (forcar) toast('Atualizado.');
 }
 async function fazer(btn, acao, id, dados, depois){
@@ -1122,11 +1133,8 @@ document.addEventListener('click', e => {
 
 pagina = location.hash.slice(1) || 'inicio';
 carregar();
-setInterval(() => {
-  if (document.hidden || ED || document.getElementById('modal').classList.contains('on')) return;
-  carregar();
-}, 45000);
-document.addEventListener('visibilitychange', () => { if (!document.hidden && !ED) carregar(); });
+setInterval(() => { if (!document.hidden) carregar(false, true); }, 15000);
+document.addEventListener('visibilitychange', () => { if (!document.hidden) carregar(false, true); });
 </script>
 </body>
 </html>
