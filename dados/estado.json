@@ -192,25 +192,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "shopee",
-      "chave": "shopee:1083800536.58219483729",
-      "origem": "urubupromo",
-      "link": "https://shopee.com.br/product/1083800536/58219483729",
-      "link_produto": "https://shopee.com.br/product/1083800536/58219483729",
-      "precisa_link": true,
-      "foto": "AgACAgEAAxkDAAOKasy7sBJcKFp_QGjzisETCzuY_q8AAjkQaxvw92FGriLVgk60Yt4BAAMCAAN4AAM9BA",
-      "foto_origem": "canal",
-      "nome": "Caixa de Som JBL PartyBox 330 280W",
-      "cupom_loja": "Resgate o cupom de R$100 OFF",
-      "pix": true,
-      "por": 2398.0,
-      "titulo": "Achado do dia, aproveita antes de acabar.",
-      "id": 32,
-      "msg_id": 138
-    }
-  ],
+  "revisar": [],
   "proximo_id": 54,
   "radar": {
     "visto": {
