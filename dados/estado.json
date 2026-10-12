@@ -398,26 +398,46 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [],
-  "proximo_id": 87,
+  "revisar": [
+    {
+      "loja": "shopee",
+      "chave": "shopee:1009975506.40983623796",
+      "origem": "infoBRpromos",
+      "link": "https://shopee.com.br/product/1009975506/40983623796",
+      "link_produto": "https://shopee.com.br/product/1009975506/40983623796",
+      "post_origem": "https://t.me/infoBRpromos/67415",
+      "link_canal": "https://s.shopee.com.br/9APLeSOldf",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAPZas06F0xGYqlwGZPLqfMTLyq4H08AAlgNaxvw92lGpWQZMKD0OoQBAAMCAAN4AAM9BA",
+      "foto_origem": "canal",
+      "nome": "Smart TV Philco 50 4K UHD Roku TV HDR10 Dolby Audio P50crb Space Gray",
+      "por": 1657.0,
+      "titulo": "Smart TV Philco 50 4K com 33% off",
+      "id": 87,
+      "garimpado_em": "2026-10-12T16:50-03:00",
+      "na_revisao_desde": "2026-10-12T16:50-03:00",
+      "msg_id": 217
+    }
+  ],
+  "proximo_id": 88,
   "radar": {
     "visto": {
       "xetdaspromocoes": 84504,
-      "lobaopromo": 188522,
-      "gatunopromos": 124908,
+      "lobaopromo": 188523,
+      "gatunopromos": 124911,
       "pobregram": 41778,
-      "urubupromo": 41576,
+      "urubupromo": 41577,
       "tudonapromo": 101625,
-      "promonocontext": 125960,
-      "promooeasy": 220183,
-      "aquitempechincha": 281154,
-      "infoBRpromos": 67414,
+      "promonocontext": 125963,
+      "promooeasy": 220186,
+      "aquitempechincha": 281159,
+      "infoBRpromos": 67415,
       "boletando": 76612,
       "promotop": 260183,
       "achadosdotb": 11753
     },
     "dia": "2026-10-12",
-    "hoje": 57,
+    "hoje": 58,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -483,27 +503,28 @@
       "amazon:B0839M5VRD",
       "amazon:B0FFTRKRCV",
       "amazon:B0HBZXL4CN",
-      "amazon:B0DX88HMJV"
+      "amazon:B0DX88HMJV",
+      "shopee:1009975506.40983623796"
     ],
     "ultima": {
-      "em": "2026-10-12T16:40:49-03:00",
+      "em": "2026-10-12T16:50:19-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 26,
+      "posts_novos": 18,
       "do_nicho": 3,
-      "repetidas": 0,
-      "novas": 3,
+      "repetidas": 2,
+      "novas": 1,
       "limite_dia": false,
-      "promobit": 2
+      "promobit": 0
     },
     "hora": "2026-10-12T16",
-    "nesta_hora": 11,
+    "nesta_hora": 12,
     "promobit_hora": "2026-10-12T16",
     "promobit_nesta_hora": 5,
-    "promobit_visto": 3108994
+    "promobit_visto": 3108996
   },
   "ultimos": [
     {
@@ -850,6 +871,11 @@
         "achados": 1,
         "aprovados": 0,
         "reprovados": 1
+      },
+      "infoBRpromos": {
+        "achados": 1,
+        "aprovados": 0,
+        "reprovados": 0
       }
     }
   },
