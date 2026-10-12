@@ -220,24 +220,6 @@
       "parcela_valor": 23.74,
       "pix": true,
       "aprovado_em": "2026-10-12T17:07-03:00"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB18425328",
-      "origem": "pobregram",
-      "link": "https://meli.la/1bCa7qk",
-      "link_produto": "https://www.mercadolivre.com.br/mixer-de-mao-200w-compacto-leve-e-ergonomico-mix1001-elgin/p/MLB18425328",
-      "post_origem": "https://t.me/pobregram/41779",
-      "link_canal": "https://meli.la/2cYeScY",
-      "foto": "AgACAgQAAxkDAAPjas1BErL1Tz5JX184PHDm2Ex8JhIAAqQNaxv6okxTMDBC3AMudeEBAAMCAAN4AAM9BA",
-      "foto_origem": "loja",
-      "nome": "Mixer De Mão 200w Compacto Leve E Ergonômico MIX1001 Elgin",
-      "de": 100.0,
-      "por": 52.9,
-      "titulo": "Mixer Elgin com 47% off",
-      "garimpado_em": "2026-10-12T17:20-03:00",
-      "na_revisao_desde": "2026-10-12T17:20-03:00",
-      "aprovado_em": "2026-10-12T17:23-03:00"
     }
   ],
   "postados": [
@@ -432,6 +414,14 @@
       "data": "2026-10-12T17:10-03:00",
       "link": "https://meli.la/2Ez1sVB",
       "link_produto": "https://www.mercadolivre.com.br/mochila-para-notebook-impermeavel-e-reforcada-com-entrada-usb-25-a-40l-masculina-e-feminina/p/MLB75627276"
+    },
+    {
+      "chave": "mercadolivre:MLB18425328",
+      "loja": "mercadolivre",
+      "nome": "Mixer De Mão 200w Compacto Leve E Ergonômico MIX1001 Elgin",
+      "data": "2026-10-12T17:23-03:00",
+      "link": "https://meli.la/1bCa7qk",
+      "link_produto": "https://www.mercadolivre.com.br/mixer-de-mao-200w-compacto-leve-e-ergonomico-mix1001-elgin/p/MLB18425328"
     }
   ],
   "slots_usados": {
@@ -570,6 +560,19 @@
     "promobit_visto": 3109048
   },
   "ultimos": [
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB18425328",
+      "origem": "pobregram",
+      "link": "https://meli.la/1bCa7qk",
+      "link_produto": "https://www.mercadolivre.com.br/mixer-de-mao-200w-compacto-leve-e-ergonomico-mix1001-elgin/p/MLB18425328",
+      "post_origem": "https://t.me/pobregram/41779",
+      "foto": "AgACAgQAAxkDAAPjas1BErL1Tz5JX184PHDm2Ex8JhIAAqQNaxv6okxTMDBC3AMudeEBAAMCAAN4AAM9BA",
+      "nome": "Mixer De Mão 200w Compacto Leve E Ergonômico MIX1001 Elgin",
+      "de": 100.0,
+      "por": 52.9,
+      "titulo": "Mixer Elgin com 47% off"
+    },
     {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB75627276",
