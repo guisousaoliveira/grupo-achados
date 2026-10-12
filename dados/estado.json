@@ -3,18 +3,6 @@
   "fila": [
     {
       "loja": "mercadolivre",
-      "link": "https://meli.la/2DoKFbN",
-      "chave": "mercadolivre:https://meli.la/2DoKFbN",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_627065-MLB109020200579_032026-O.webp",
-      "nome": "Tênis Casual Kappa Zenit Masculino Unissex Conforto",
-      "de": 229.99,
-      "por": 83.79,
-      "aprovado_em": "2026-10-12T04:43-03:00",
-      "titulo": "CORRE QUE JA VAI ACABAR!",
-      "pix": true
-    },
-    {
-      "loja": "mercadolivre",
       "link": "https://meli.la/18y2P8F",
       "chave": "mercadolivre:https://meli.la/18y2P8F",
       "foto": "https://http2.mlstatic.com/D_NQ_NP_919217-MLB114468760310_082026-O.webp",
@@ -136,13 +124,21 @@
       "loja": "mercadolivre",
       "nome": "Creatina Monohidratada Pura 1kg Dark Lab Unidade Sem sabor",
       "data": "2026-10-12T05:43-03:00"
+    },
+    {
+      "chave": "mercadolivre:https://meli.la/2DoKFbN",
+      "loja": "mercadolivre",
+      "nome": "Tênis Casual Kappa Zenit Masculino Unissex Conforto",
+      "data": "2026-10-12T08:01-03:00"
     }
   ],
   "slots_usados": {
     "2026-10-11": [
       22
     ],
-    "2026-10-12": []
+    "2026-10-12": [
+      8
+    ]
   },
   "shopee_buscado_em": "",
   "revisar": [
@@ -208,24 +204,40 @@
       "titulo": "Preço de queima, 52% mais barato.",
       "id": 34,
       "msg_id": 140
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB75755258",
+      "origem": "lobaopromo",
+      "link": "https://www.mercadolivre.com.br/mochila-para-notebook-impermeavel-com-porta-usb-e-senha-para-homem/p/MLB75755258?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/mochila-para-notebook-impermeavel-com-porta-usb-e-senha-para-homem/p/MLB75755258",
+      "foto": "AgACAgQAAxkDAAONasy-DCa8fA4CaoVeHbBcZqmDw8oAAv4NaxtENzRTnoAo7DOXpwEBAAMCAAN4AAM9BA",
+      "foto_origem": "loja",
+      "nome": "Mochila Para Notebook Impermeável com Porta USB e Senha Para Homem",
+      "pix": true,
+      "de": 369.0,
+      "por": 91.0,
+      "titulo": "75% off, isso aqui não fica muito tempo assim.",
+      "id": 35,
+      "msg_id": 141
     }
   ],
-  "proximo_id": 35,
+  "proximo_id": 36,
   "radar": {
     "visto": {
       "xetdaspromocoes": 84418,
-      "lobaopromo": 188396,
-      "gatunopromos": 124835,
+      "lobaopromo": 188397,
+      "gatunopromos": 124836,
       "pobregram": 41740,
       "urubupromo": 41555,
       "tudonapromo": 101548,
       "promonocontext": 125768,
       "promooeasy": 219963,
-      "aquitempechincha": 280935,
+      "aquitempechincha": 280936,
       "infoBRpromos": 67374
     },
     "dia": "2026-10-12",
-    "hoje": 7,
+    "hoje": 8,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -241,10 +253,11 @@
       "shopee:1537142489.58263645964",
       "shopee:1083800536.58219483729",
       "amazon:B078HS3SKS",
-      "mercadolivre:MLB52868715"
+      "mercadolivre:MLB52868715",
+      "mercadolivre:MLB75755258"
     ],
     "ultima": {
-      "em": "2026-10-12T07:55:18-03:00",
+      "em": "2026-10-12T08:00:29-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 10,
@@ -258,6 +271,15 @@
     }
   },
   "ultimos": [
+    {
+      "loja": "mercadolivre",
+      "link": "https://meli.la/2DoKFbN",
+      "chave": "mercadolivre:https://meli.la/2DoKFbN",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_627065-MLB109020200579_032026-O.webp",
+      "nome": "Tênis Casual Kappa Zenit Masculino Unissex Conforto",
+      "de": 229.99,
+      "por": 83.79
+    },
     {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB25929487",
