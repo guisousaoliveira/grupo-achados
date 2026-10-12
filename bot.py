@@ -1271,33 +1271,6 @@ def ler_pelo_servidor(link):
     return lido
 
 
-def buscar_foto_web(nome):
-    """Busca uma foto do produto pelo nome (busca de imagens do DuckDuckGo, sem chave).
-    É a 3ª opção, depois da loja: a foto pode não ser exatamente o mesmo modelo, por isso a revisão avisa."""
-    if not nome:
-        return None
-    q = urllib.parse.quote(nome[:100])
-    try:
-        pagina, _ = http(f"https://duckduckgo.com/?q={q}&iax=images&ia=images", timeout=15)
-        vqd = re.search(r'vqd=["\']?([\d-]+)', pagina)
-        if not vqd:
-            log("Busca de foto: não achei o token da busca.")
-            return None
-        texto, _ = http(f"https://duckduckgo.com/i.js?l=br-pt&o=json&q={q}&vqd={vqd.group(1)}&f=,,,,,&p=1",
-                        headers={"Referer": "https://duckduckgo.com/", "Accept": "application/json"}, timeout=15)
-        resultados = json.loads(texto).get("results", [])
-        if os.environ.get("BOT_DEBUG"):
-            log(f"Busca de foto: {len(resultados)} resultados. {texto[:300]}")
-        for r in resultados[:8]:
-            url = r.get("image", "")
-            largura, altura = r.get("width") or 0, r.get("height") or 0
-            if url.startswith("https://") and largura >= 300 and altura >= 300 and 0.5 <= largura / altura <= 2:
-                return url
-    except Exception as e:
-        log(f"Busca de foto falhou ({e}).")
-    return None
-
-
 def oferta_do_post(post, canal):
     """Monta a oferta a partir do post. None se não for do nicho ou não tiver link de loja."""
     texto = post["texto"]
@@ -1431,9 +1404,6 @@ def rodar_radar(estado, teste=False):
 def cmd_foto_teste(links):
     """Diagnóstico (workflow diagnostico.yml): o que a loja devolve para este servidor."""
     for link in links:
-        if not link.startswith("http"):  # nome de produto (use _ no lugar de espaço): testa a busca de foto
-            log(f"--- busca: {link} -> {buscar_foto_web(link.replace('_', ' '))}")
-            continue
         log(f"--- {link}")
         try:
             req = urllib.request.Request(link, headers={"User-Agent": USER_AGENT, "Accept-Language": "pt-BR,pt;q=0.9"})
