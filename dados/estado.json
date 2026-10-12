@@ -391,26 +391,81 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [],
-  "proximo_id": 84,
+  "revisar": [
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0FFTRKRCV",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0FFTRKRCV?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0FFTRKRCV?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/tenis-mizuno-neo-vortex-3108979/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3108979/",
+      "nome": "Tênis Mizuno Neo Vortex",
+      "por": 279.9,
+      "cupom": "VOCEPRIME",
+      "foto": "AgACAgQAAxkDAAPRas03rMhRRcz8ze_H58nISq5P7UUAAu8Paxt0_G1SoARkwe4_hzEBAAMCAANtAAM9BA",
+      "foto_origem": "canal",
+      "titulo": "Tênis Mizuno Neo Vortex para corrida",
+      "id": 84,
+      "garimpado_em": "2026-10-12T16:40-03:00",
+      "msg_id": 213
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0HBZXL4CN",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0HBZXL4CN?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0HBZXL4CN?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/webcam-2k-foco-automatico-microfone-3108982/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3108982/",
+      "nome": "Webcam 2K Foco Automático Microfone",
+      "por": 79.78,
+      "foto": "AgACAgQAAxkDAAPSas03rusw5vOHvt6W9SHKZMjNjYoAAr4Paxt8WWxSj1_4h1tpNdcBAAMCAANtAAM9BA",
+      "foto_origem": "canal",
+      "titulo": "Webcam 2K para melhorar suas reuniões online",
+      "id": 85,
+      "garimpado_em": "2026-10-12T16:40-03:00",
+      "msg_id": 214
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0DX88HMJV",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0DX88HMJV?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0DX88HMJV?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220183",
+      "link_canal": "https://www.amazon.com.br/dp/B0DX88HMJV?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAPXas031f-CwqTx0mSGHEq04zCPpt8AAqgPaxtUVDVQN5X-dUuC2xkBAAMCAAN4AAM9BA",
+      "foto_origem": "loja",
+      "nome": "Kalkan Kit Simulador de Corrida G500 ProRacing Volante Pedais e Câmbio USB Force Feedback 3.2Nm 900° Compatível c/ PC, X",
+      "por": 951.97,
+      "titulo": "Simulador de corrida Kalkan com 48% off",
+      "id": 86,
+      "garimpado_em": "2026-10-12T16:41-03:00",
+      "msg_id": 215
+    }
+  ],
+  "proximo_id": 87,
   "radar": {
     "visto": {
       "xetdaspromocoes": 84504,
-      "lobaopromo": 188521,
-      "gatunopromos": 124905,
+      "lobaopromo": 188522,
+      "gatunopromos": 124908,
       "pobregram": 41778,
-      "urubupromo": 41575,
-      "tudonapromo": 101623,
-      "promonocontext": 125959,
-      "promooeasy": 220179,
-      "aquitempechincha": 281152,
+      "urubupromo": 41576,
+      "tudonapromo": 101625,
+      "promonocontext": 125960,
+      "promooeasy": 220183,
+      "aquitempechincha": 281154,
       "infoBRpromos": 67414,
       "boletando": 76612,
       "promotop": 260183,
       "achadosdotb": 11753
     },
     "dia": "2026-10-12",
-    "hoje": 54,
+    "hoje": 57,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -473,27 +528,30 @@
       "amazon:B0CJGNFGPQ",
       "amazon:B0H2BZQDQ8",
       "amazon:B0FH7LY3R4",
-      "amazon:B0839M5VRD"
+      "amazon:B0839M5VRD",
+      "amazon:B0FFTRKRCV",
+      "amazon:B0HBZXL4CN",
+      "amazon:B0DX88HMJV"
     ],
     "ultima": {
-      "em": "2026-10-12T16:30:23-03:00",
+      "em": "2026-10-12T16:40:49-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 35,
-      "do_nicho": 6,
-      "repetidas": 1,
-      "novas": 5,
+      "posts_novos": 26,
+      "do_nicho": 3,
+      "repetidas": 0,
+      "novas": 3,
       "limite_dia": false,
-      "promobit": 3
+      "promobit": 2
     },
     "hora": "2026-10-12T16",
-    "nesta_hora": 10,
+    "nesta_hora": 11,
     "promobit_hora": "2026-10-12T16",
-    "promobit_nesta_hora": 3,
-    "promobit_visto": 3108977
+    "promobit_nesta_hora": 5,
+    "promobit_visto": 3108994
   },
   "ultimos": [
     {
@@ -758,12 +816,12 @@
   "garimpo": {
     "2026-10-12": {
       "promooeasy": {
-        "achados": 11,
+        "achados": 12,
         "aprovados": 3,
         "reprovados": 8
       },
       "promobit": {
-        "achados": 9,
+        "achados": 11,
         "aprovados": 5,
         "reprovados": 4
       },
