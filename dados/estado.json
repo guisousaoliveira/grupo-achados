@@ -291,15 +291,15 @@
   "proximo_id": 54,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84478,
-      "lobaopromo": 188478,
+      "xetdaspromocoes": 84479,
+      "lobaopromo": 188480,
       "gatunopromos": 124875,
       "pobregram": 41764,
       "urubupromo": 41569,
-      "tudonapromo": 101604,
-      "promonocontext": 125914,
-      "promooeasy": 220094,
-      "aquitempechincha": 281078,
+      "tudonapromo": 101605,
+      "promonocontext": 125915,
+      "promooeasy": 220095,
+      "aquitempechincha": 281079,
       "infoBRpromos": 67411
     },
     "dia": "2026-10-12",
@@ -339,16 +339,16 @@
       "mercadolivre:MLB5004194280"
     ],
     "ultima": {
-      "em": "2026-10-12T13:10:40-03:00",
+      "em": "2026-10-12T13:15:17-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 10,
       "lidos": 10,
       "falhas": [],
       "posts_novos": 6,
-      "do_nicho": 2,
+      "do_nicho": 0,
       "repetidas": 0,
-      "novas": 2,
+      "novas": 0,
       "limite_dia": false,
       "limite_hora": true,
       "limite_rodada": false
