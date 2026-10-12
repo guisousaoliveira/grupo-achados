@@ -45,6 +45,24 @@
       "por": 5683.0,
       "pix": true,
       "aprovado_em": "2026-10-12T13:02-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB79167580",
+      "origem": "promonocontext",
+      "link": "https://meli.la/1K9W7E7",
+      "link_produto": "https://www.mercadolivre.com.br/caixa-de-som-basike-ba-rad207-edicao-80w-radio-fm-bluetooth-53-tws-rgb-bass-boost-9000mah-camuflagem/p/MLB79167580",
+      "post_origem": "https://t.me/promonocontext/125912",
+      "link_canal": "https://meli.la/1hy5uJd",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_977855-MLA117476418581_092026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Caixa De Som Basike Ba-RAD207 Edição 80W Rádio FM Bluetooth 5.3 TWS",
+      "de": 615.0,
+      "por": 267.0,
+      "cupom": "DESCONTOSML",
+      "garimpado_em": "2026-10-12T13:10-03:00",
+      "pix": true,
+      "aprovado_em": "2026-10-12T13:15-03:00"
     }
   ],
   "postados": [
@@ -248,25 +266,6 @@
       "titulo": "Menor preço que vi nos últimos dias.",
       "id": 40,
       "msg_id": 146
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB79167580",
-      "origem": "promonocontext",
-      "link": "https://www.mercadolivre.com.br/caixa-de-som-basike-ba-rad207-edicao-80w-radio-fm-bluetooth-53-tws-rgb-bass-boost-9000mah-camuflagem/p/MLB79167580?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/caixa-de-som-basike-ba-rad207-edicao-80w-radio-fm-bluetooth-53-tws-rgb-bass-boost-9000mah-camuflagem/p/MLB79167580",
-      "post_origem": "https://t.me/promonocontext/125912",
-      "link_canal": "https://meli.la/1hy5uJd",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_977855-MLA117476418581_092026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Caixa De Som Basike Ba-RAD207 Edição 80W Rádio FM Bluetooth 5.3 TWS",
-      "de": 615.0,
-      "por": 267.0,
-      "cupom": "DESCONTOSML",
-      "titulo": "Menor preço histórico com cupom aplicado",
-      "id": 52,
-      "garimpado_em": "2026-10-12T13:10-03:00",
-      "msg_id": 164
     },
     {
       "loja": "mercadolivre",
