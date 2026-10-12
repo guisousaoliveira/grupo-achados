@@ -2,24 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "amazon",
-      "chave": "amazon:B00Z0UWV3O",
-      "origem": "promooeasy",
-      "link": "https://link.amazon/B0hTKsXtq",
-      "link_produto": "https://www.amazon.com.br/dp/B00Z0UWV3O?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/220105",
-      "link_canal": "https://www.amazon.com.br/dp/B00Z0UWV3O?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAOpas0RP067Bj9xHK-AirKnM0kGSGAAAisOaxsbPWRSR0odBpHqIwcBAAMCAAN4AAM9BA",
-      "foto_origem": "loja",
-      "nome": "Câmbio Logitech G Driving Force Compatível com Volantes Logitech G29, G920 e G923",
-      "por": 280.0,
-      "titulo": "Cambio para volante Logitech com desconto",
-      "garimpado_em": "2026-10-12T13:56-03:00",
-      "de": 469.9,
-      "pix": true,
-      "aprovado_em": "2026-10-12T13:59-03:00"
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB4113792113",
       "origem": "promonocontext",
@@ -539,6 +521,15 @@
       "data": "2026-10-12T19:36-03:00",
       "link": "https://meli.la/321qqqb",
       "link_produto": "https://produto.mercadolivre.com.br/MLB-4176446999-relogio-luxo-poedagar-masculino-pulseira-em-couro-funcional-_JM"
+    },
+    {
+      "chave": "amazon:B00Z0UWV3O",
+      "loja": "amazon",
+      "nome": "Câmbio Logitech G Driving Force Compatível com Volantes Logitech G29, G920 e G923",
+      "data": "2026-10-12T20:01-03:00",
+      "link": "https://link.amazon/B0hTKsXtq",
+      "link_produto": "https://www.amazon.com.br/dp/B00Z0UWV3O?tag=alphadominu09-20",
+      "slot": 19
     }
   ],
   "slots_usados": {
@@ -556,7 +547,8 @@
       15,
       16,
       17,
-      18
+      18,
+      19
     ]
   },
   "shopee_buscado_em": "",
@@ -742,6 +734,20 @@
     "promobit_visto": 3109246
   },
   "ultimos": [
+    {
+      "loja": "amazon",
+      "chave": "amazon:B00Z0UWV3O",
+      "origem": "promooeasy",
+      "link": "https://link.amazon/B0hTKsXtq",
+      "link_produto": "https://www.amazon.com.br/dp/B00Z0UWV3O?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220105",
+      "foto": "AgACAgQAAxkDAAOpas0RP067Bj9xHK-AirKnM0kGSGAAAisOaxsbPWRSR0odBpHqIwcBAAMCAAN4AAM9BA",
+      "nome": "Câmbio Logitech G Driving Force Compatível com Volantes Logitech G29, G920 e G923",
+      "por": 280.0,
+      "titulo": "Cambio para volante Logitech com desconto",
+      "de": 469.9,
+      "pix": true
+    },
     {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB4176446999",
