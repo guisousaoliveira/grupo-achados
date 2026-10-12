@@ -3,24 +3,6 @@
   "fila": [
     {
       "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB5004194280",
-      "origem": "promonocontext",
-      "link": "https://meli.la/1XZTvgs",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-5004194280-mochila-tatica-impermeavel-militar-reforcada-grande-50litros-_JM",
-      "post_origem": "https://t.me/promonocontext/125913",
-      "link_canal": "https://meli.la/2Kcsp3P",
-      "foto": "AgACAgQAAxkDAAOjas0GfE9njHOSoJySBZtmG1DAcHsAAiYPaxuAWsVTVkZjuoEbqZQBAAMCAAN4AAM9BA",
-      "foto_origem": "loja",
-      "nome": "Mochila Tática Grande Resistente 50l Para Viagem Aventura Preto",
-      "de": 189.0,
-      "por": 70.0,
-      "cupom": "MELICOMPRA",
-      "titulo": "Mochila tática com 63% de desconto",
-      "garimpado_em": "2026-10-12T13:10-03:00",
-      "aprovado_em": "2026-10-12T13:17-03:00"
-    },
-    {
-      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB67893601",
       "origem": "promonocontext",
       "link": "https://meli.la/1rtp73o",
@@ -234,6 +216,12 @@
       "loja": "mercadolivre",
       "nome": "Tênis Nike Run Defy Masculino",
       "data": "2026-10-12T13:41-03:00"
+    },
+    {
+      "chave": "mercadolivre:MLB5004194280",
+      "loja": "mercadolivre",
+      "nome": "Mochila Tática Grande Resistente 50l Para Viagem Aventura Preto",
+      "data": "2026-10-12T14:00-03:00"
     }
   ],
   "slots_usados": {
@@ -246,7 +234,8 @@
       10,
       11,
       12,
-      13
+      13,
+      14
     ]
   },
   "shopee_buscado_em": "",
@@ -254,17 +243,17 @@
   "proximo_id": 55,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84484,
+      "xetdaspromocoes": 84485,
       "lobaopromo": 188486,
-      "gatunopromos": 124879,
-      "pobregram": 41767,
+      "gatunopromos": 124880,
+      "pobregram": 41768,
       "urubupromo": 41569,
       "tudonapromo": 101609,
-      "promonocontext": 125933,
-      "promooeasy": 220105,
+      "promonocontext": 125935,
+      "promooeasy": 220106,
       "aquitempechincha": 281087,
       "infoBRpromos": 67411,
-      "boletando": 76605,
+      "boletando": 76606,
       "promotop": 260183,
       "achadosdotb": 11753
     },
@@ -306,26 +295,37 @@
       "amazon:B00Z0UWV3O"
     ],
     "ultima": {
-      "em": "2026-10-12T13:55:44-03:00",
-      "pedido": "89a9fd0f33",
-      "forcado": true,
+      "em": "2026-10-12T14:00:30-03:00",
+      "pedido": "",
+      "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 17,
-      "do_nicho": 1,
+      "posts_novos": 15,
+      "do_nicho": 0,
       "repetidas": 0,
-      "novas": 1,
+      "novas": 0,
       "limite_dia": false,
       "promobit": 0
     },
-    "hora": "2026-10-12T13",
-    "nesta_hora": 4,
-    "promobit_hora": "2026-10-12T13",
+    "hora": "2026-10-12T14",
+    "nesta_hora": 0,
+    "promobit_hora": "2026-10-12T14",
     "promobit_nesta_hora": 0,
-    "promobit_visto": 3108721
+    "promobit_visto": 3108733
   },
   "ultimos": [
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB5004194280",
+      "link": "https://meli.la/1XZTvgs",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-5004194280-mochila-tatica-impermeavel-militar-reforcada-grande-50litros-_JM",
+      "foto": "AgACAgQAAxkDAAOjas0GfE9njHOSoJySBZtmG1DAcHsAAiYPaxuAWsVTVkZjuoEbqZQBAAMCAAN4AAM9BA",
+      "nome": "Mochila Tática Grande Resistente 50l Para Viagem Aventura Preto",
+      "de": 189.0,
+      "por": 70.0,
+      "cupom": "MELICOMPRA"
+    },
     {
       "loja": "mercadolivre",
       "link": "https://meli.la/1RgUNd8",
@@ -447,13 +447,6 @@
       "nome": "Aparador Barbeador Kemei Recarregável 3 Em 1",
       "de": 79.0,
       "por": 46.79
-    },
-    {
-      "loja": "mercadolivre",
-      "por": 48.93,
-      "de": 69.9,
-      "nome": "Bolsa Térmica Mochila Marmita Grande Cooler Impermeável",
-      "foto": "AgACAgQAAxkDAANPasxCZO5yKgXGySWYZISpSps9d-EAAicPaxt2C81RfaoV6Zo9JbQBAAMCAAN4AAM9BA"
     }
   ]
 }
