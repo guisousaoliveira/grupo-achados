@@ -540,26 +540,6 @@
       "garimpado_em": "2026-10-12T19:40-03:00",
       "na_revisao_desde": "2026-10-12T19:40-03:00",
       "msg_id": 256
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB77830419",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/massageador-corporal-pistola-pescoco-aquecimento-eletrico-masajeador-massageador-pes-lombar-panturrilha-mao-pescoco-cabeca-costas-coluna-pernas-ombros-cervical-aparelho-massagem-portatil-preto/p/MLB77830419?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/massageador-corporal-pistola-pescoco-aquecimento-eletrico-masajeador-massageador-pes-lombar-panturrilha-mao-pescoco-cabeca-costas-coluna-pernas-ombros-cervical-aparelho-massagem-portatil-preto/p/MLB77830419",
-      "post_origem": "https://t.me/lobaopromo/188579",
-      "link_canal": "https://meli.la/2x5DVnN",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_992586-MLA117487254060_102026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Massageador Corporal Pistola Pescoço Aquecimento Elétrico Masajeador",
-      "pix": true,
-      "de": 58.5,
-      "por": 27.51,
-      "titulo": "Massageador com aquecimento e 53% off",
-      "id": 120,
-      "garimpado_em": "2026-10-12T19:40-03:00",
-      "na_revisao_desde": "2026-10-12T19:40-03:00",
-      "msg_id": 257
     }
   ],
   "proximo_id": 122,
@@ -970,6 +950,27 @@
     }
   ],
   "lixeira": [
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB77830419",
+      "origem": "lobaopromo",
+      "link": "https://www.mercadolivre.com.br/massageador-corporal-pistola-pescoco-aquecimento-eletrico-masajeador-massageador-pes-lombar-panturrilha-mao-pescoco-cabeca-costas-coluna-pernas-ombros-cervical-aparelho-massagem-portatil-preto/p/MLB77830419?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/massageador-corporal-pistola-pescoco-aquecimento-eletrico-masajeador-massageador-pes-lombar-panturrilha-mao-pescoco-cabeca-costas-coluna-pernas-ombros-cervical-aparelho-massagem-portatil-preto/p/MLB77830419",
+      "post_origem": "https://t.me/lobaopromo/188579",
+      "link_canal": "https://meli.la/2x5DVnN",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_992586-MLA117487254060_102026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Massageador Corporal Pistola Pescoço Aquecimento Elétrico Masajeador",
+      "pix": true,
+      "de": 58.5,
+      "por": 27.51,
+      "titulo": "Massageador com aquecimento e 53% off",
+      "id": 120,
+      "garimpado_em": "2026-10-12T19:40-03:00",
+      "na_revisao_desde": "2026-10-12T19:40-03:00",
+      "removido_em": "2026-10-12T19:43:20-03:00",
+      "removido_de": "revisar"
+    },
     {
       "loja": "amazon",
       "chave": "amazon:B0DT4DHZ6R",
@@ -1400,7 +1401,7 @@
       "lobaopromo": {
         "achados": 8,
         "aprovados": 2,
-        "reprovados": 5
+        "reprovados": 6
       },
       "urubupromo": {
         "achados": 1,
