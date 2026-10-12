@@ -141,8 +141,19 @@ def url_produto(x):
         tag = bot.CONFIG.get("radar", {}).get("tag_amazon", "")
         return f"https://www.amazon.com.br/dp/{resto}" + (f"?tag={tag}" if tag else "")
     if loja == "mercadolivre" and resto.startswith("MLB"):
-        return f"https://produto.mercadolivre.com.br/MLB-{resto[3:]}"
+        # Anúncio (MLB + 9 ou mais dígitos) abre em produto.mercadolivre; produto de catálogo (/p/MLB...) não:
+        # era isso que dava "link inválido" no Histórico.
+        if len(resto) - 3 >= 9:
+            return f"https://produto.mercadolivre.com.br/MLB-{resto[3:]}"
+        return f"https://www.mercadolivre.com.br/p/{resto}"
     return ""
+
+
+def historico_json(p, ultimos):
+    """Linha do Histórico: o link de afiliado que saiu no post (ou a página do produto) e se dá para repostar."""
+    u = ultimos.get(p.get("chave"))
+    base = {**(u or {}), **p}
+    return {**p, "url": (u or p).get("link") or url_produto(base), "repostar": bool(u)}
 
 
 def story_cfg(estado):
@@ -203,6 +214,7 @@ def resumo(estado):
         j = item_json(x, bot.id_story(x))
         j["previsao"] = previsao[i] if i < len(previsao) else ""
         fila.append(j)
+    ultimos = {u.get("chave"): u for u in estado.get("ultimos", [])}
     prox = bot.proximo_post(estado, dt) if estado["fila"] else None
     return {
         "agora": dt.isoformat(timespec="minutes"),
@@ -220,7 +232,7 @@ def resumo(estado):
         "lixeira": [item_json(x, id_lixeira(x)) for x in estado.get("lixeira", [])],
         "garimpo": estado.get("garimpo", {}),
         "story_cfg": story_cfg(estado),
-        "postados": [{**p, "url": url_produto(p)} for p in reversed(estado["postados"][-300:])],
+        "postados": [historico_json(p, ultimos) for p in reversed(estado["postados"][-300:])],
         "canais_radar": [c.strip().replace("https://t.me/", "").replace("@", "").strip("/")
                          for c in cfg_radar.get("canais", [])],
         "tag_amazon": cfg_radar.get("tag_amazon", ""),
@@ -391,9 +403,9 @@ Com os dados abaixo, escreva {pedido}. Responda só com o texto, numa linha, sem
 Dados:
 """
 PEDIDOS_IA = {
-    "titulo": "UMA chamada curta para o topo do post: até 6 palavras, estilo dos canais de promoção, direta, com gancho "
-              "(benefício, brinde, desconto, cupom). Ex.: Troca o celular e ganha o relógio. Sem emoji, sem preço, "
-              "sem inventar o que não está nos dados. Se tiver um título atual, escreva um diferente dele",
+    "titulo": "UMA chamada curta para o topo do post (até 7 palavras): o produto (nome curto) e o principal atrativo "
+              "que está nos dados, normalmente o desconto. Sem emoji, sem o preço em reais. Se tiver um título atual, "
+              "escreva um diferente dele. " + bot.EXEMPLOS_TITULO,
     "nome": "UM nome curto do produto, até 60 caracteres: tipo de produto + marca + o detalhe que importa (tamanho, "
             "capacidade, voltagem, cor). Sem emoji, sem caixa alta, sem preço, sem palavras como oferta",
 }
@@ -403,25 +415,20 @@ def ia(d):
     """Uma sugestão só, para o campo pedido (título ou nome): gasta uma chamada da IA por clique."""
     campo = "nome" if d.get("campo") == "nome" else "titulo"
     item = {"nome": d.get("nome", ""), "por": bot._preco(d.get("por")), "de": bot._preco(d.get("de")),
-            "loja": d.get("loja", "")}
-    off = round((1 - item["por"] / item["de"]) * 100) if item["de"] and item["por"] and item["de"] > item["por"] else 0
+            "loja": d.get("loja", ""), "cupom": (d.get("cupom") or "").strip(), "pix": bool(d.get("pix")),
+            "prime": bool(d.get("prime"))}
+    bot.aplicar_parcelas(item, d.get("parcelas") or "")
     if not bot.segredo("GEMINI_API_KEY"):
         texto = bot.gerar_frase(item) if campo == "titulo" else bot.nome_curto(item["nome"], 60)
         return {"texto": texto or "", "sem_chave": True}
-    dados = (f"Nome atual: {item['nome']}\nLoja: {LOJAS.get(item['loja'], item['loja'])}\n"
-             f"Preço: {bot.reais(item['por']) if item['por'] else '?'}"
-             + (f" (antes {bot.reais(item['de'])}, {off}% off)" if off else "")
-             + (f"\nCupom: {d['cupom']}" if d.get("cupom") else "")
-             + ("\nPreço exclusivo Prime" if d.get("prime") else "")
-             + ("\nPreço no Pix" if d.get("pix") else "")
-             + (f"\nTítulo atual: {d['titulo']}" if d.get("titulo") else ""))
+    dados = bot.dados_ia(item) + (f"\nTítulo atual: {d['titulo']}" if d.get("titulo") else "")
     corpo = {"contents": [{"parts": [{"text": PEDIDO_IA.format(pedido=PEDIDOS_IA[campo], regra=bot.REGRA_IA) + dados}]}],
              "generationConfig": {"temperature": 1.0}}
     try:
         texto = bot.gemini(corpo, timeout=30)
-        if campo == "titulo" and not bot.texto_ia_ok(texto):  # afirmou o que não sabemos: pede outro
+        if campo == "titulo" and not bot.texto_ia_ok(texto, item):  # afirmou o que não está nos dados: pede outro
             texto = bot.gemini(corpo, timeout=30)
-            if not bot.texto_ia_ok(texto):
+            if not bot.texto_ia_ok(texto, item):
                 texto = bot.gerar_frase(item)
     except bot.ErroIA as e:
         return {"erro": f"A IA não respondeu: {e}."}
@@ -492,6 +499,18 @@ def acao(corpo):
                 depois.append(lambda m=x.get("msg_id"): tirar_botoes(m))
             saida["ok"] = f"Descartei {len(revisar)} oferta(s). Dá para desfazer na Lixeira."
             estado["revisar"] = []
+        elif a == "hist_repostar":
+            original = next((u for u in estado.get("ultimos", []) if u.get("chave") == ident), None)
+            if not original:
+                saida["erro"] = "Essa oferta é antiga e não ficou guardada para repostar."
+                return
+            if any(x["chave"] == ident for x in fila):
+                saida["erro"] = "Essa oferta já está na fila."
+                return
+            item = dict(original)
+            item["aprovado_em"] = bot.agora().isoformat(timespec="minutes")
+            fila.insert(0, item)
+            saida["ok"] = "Voltou para a fila em 1º lugar. Edite lá se quiser trocar o título, ou use Postar agora."
         elif a == "lixeira_apagar":
             antes = len(estado.get("lixeira", []))
             estado["lixeira"] = [x for x in estado.get("lixeira", []) if id_lixeira(x) != ident]
@@ -614,8 +633,7 @@ def postar(estado, item, feito):
         feito["postado"] = item.get("nome", "")
     estado["fila"] = [x for x in estado["fila"] if x is not item]
     bot.guardar_ultimo(estado, item)
-    estado["postados"].append({"chave": item["chave"], "loja": item["loja"], "nome": item["nome"],
-                               "data": bot.agora().isoformat(timespec="minutes")})
+    estado["postados"].append(bot.registro_postado(item, bot.agora()))
 
 
 # ---------------------------------------------------------------- story

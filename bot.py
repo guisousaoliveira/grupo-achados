@@ -792,7 +792,7 @@ def gerar_frase(item):
                   f"\nProduto: {item.get('nome')}\nPreço: {item.get('por')}\nDesconto: {off}%\nFrase:")
         try:
             frase = gemini({"contents": [{"parts": [{"text": pedido}]}]}).strip('"')
-            if texto_ia_ok(frase):
+            if texto_ia_ok(frase, item):
                 return frase.splitlines()[0][:140]
         except Exception as e:
             log(f"IA não respondeu ({e}), usando o banco de frases.")
@@ -811,36 +811,69 @@ def gerar_frase(item):
     return random.choice(opcoes).replace("{off}", str(off))
 
 
-# A gente não tem histórico de preço nem de estoque: a IA não pode afirmar "menor preço histórico" etc.
-REGRA_IA = ("Tom sério e direto, de quem indica uma compra boa, sem exagero de camelô. Não afirme nada que não esteja "
-            "nos dados: NUNCA diga menor preço, menor preço histórico, mínimo histórico, nunca visto, mais barato da "
-            "internet, últimas unidades ou que vai esgotar (não temos histórico de preço nem estoque). Use o que os dados "
-            "mostram: o desconto em %, o cupom, o Pix, o Prime, as parcelas, ou o benefício do produto.")
+# A IA só pode usar o que está nos dados da oferta. Ela inventava "frete grátis", "Prime", "Pix" e
+# "menor preço histórico" em oferta que não tinha nada disso (ex.: Prime em produto do Mercado Livre).
+REGRA_IA = ("Tom sério e objetivo, como uma indicação de compra, nada de exagero de camelô. Use SOMENTE as informações "
+            "listadas nos dados. Não mencione frete, Prime, Pix, cupom, parcelas, brinde ou estoque se isso não estiver "
+            "nos dados. Nunca diga menor preço, preço histórico, nunca visto, mais barato da internet, últimas unidades "
+            "ou que vai esgotar (não temos histórico de preço nem estoque).")
+EXEMPLOS_TITULO = ("Exemplos do tom certo: Whey Max Titanium com 37% off | Mochila tática 50L pela metade do preço | "
+                   "Creatina Growth com cupom de desconto | Fone JBL com 25% off no Pix | Air fryer Philips em oferta")
 PROIBIDO_IA = re.compile(r"menor\s+pre[cç]o|hist[oó]ric|nunca\s+vist|mais\s+barat[oa]\s+d[ao]|[uú]ltimas\s+unidades|"
-                         r"esgot|pre[cç]o\s+m[ií]nimo|m[ií]nimo\s+hist", re.I)
+                         r"esgot|pre[cç]o\s+m[ií]nimo|m[ií]nimo\s+hist|frete|entrega\s+gr[aá]tis|brinde|lan[cç]amento", re.I)
 
 
-def texto_ia_ok(texto):
-    """Descarta o que a IA escreveu se afirmar algo que a gente não tem como saber (ex.: menor preço histórico)."""
-    return bool(texto) and not PROIBIDO_IA.search(texto)
+def texto_ia_ok(texto, item=None):
+    """Descarta o que a IA escreveu se afirmar algo que não está nos dados (frete, Prime, Pix, cupom, parcelas)
+    ou que a gente não tem como saber (menor preço histórico, estoque)."""
+    if not texto or PROIBIDO_IA.search(texto):
+        return False
+    item = item or {}
+    if re.search(r"\bprime\b", texto, re.I) and not item.get("prime"):
+        return False
+    if re.search(r"\bpix\b", texto, re.I) and not item.get("pix"):
+        return False
+    if re.search(r"cupo[mn]", texto, re.I) and not (item.get("cupom") or item.get("cupom_loja")):
+        return False
+    if re.search(r"parcel|sem\s+juros|\d+\s*x\b", texto, re.I) and not item.get("parcelas"):
+        return False
+    return True
+
+
+def dados_ia(item):
+    """Os fatos da oferta que a IA pode usar (só o que existe)."""
+    de, por = item.get("de"), item.get("por")
+    off = round((1 - por / de) * 100) if de and por and de > por else 0
+    loja = {"amazon": "Amazon", "mercadolivre": "Mercado Livre", "shopee": "Shopee"}.get(item.get("loja"), "")
+    linhas = [f"Produto: {item.get('nome')}"]
+    if loja:
+        linhas.append(f"Loja: {loja}")
+    if por:
+        linhas.append(f"Preço: {reais(por)}" + (f" (antes {reais(de)}, {off}% off)" if off else ""))
+    if item.get("cupom") or item.get("cupom_loja"):
+        linhas.append(f"Cupom: {item.get('cupom') or item.get('cupom_loja')}")
+    if item.get("pix"):
+        linhas.append("Esse preço é no Pix")
+    if item.get("prime"):
+        linhas.append("Preço exclusivo para membros Prime")
+    if item.get("parcelas"):
+        linhas.append(f"Parcelas: {item['parcelas']}x sem juros")
+    return "\n".join(linhas)
 
 
 def gerar_titulo(item):
-    """Chamada curta para o topo do post (só com a chave da Gemini; sem ela o post sai sem título)."""
+    """Chamada curta para o topo do post (só com a chave da Gemini; sem ela vai o banco de frases)."""
     chave = segredo("GEMINI_API_KEY")
     if not chave or SIMULAR:
         return ""
-    off = round((1 - item["por"] / item["de"]) * 100) if item.get("de") and item.get("por") else 0
-    pedido = ("Escreva UMA chamada curta (até 6 palavras) em português do Brasil para o topo de um post de oferta "
-              "num canal de achados masculino, com gancho (benefício, brinde, desconto, cupom). Sem emoji, sem hashtag, "
-              "sem preço, sem aspas. " + REGRA_IA + "\n"
-              f"Produto: {item.get('nome')}\nPreço: {item.get('por')}\nDesconto: {off}%\n"
-              + (f"Cupom: {item.get('cupom') or item.get('cupom_loja')}\n" if item.get("cupom") or item.get("cupom_loja") else "")
-              + "Chamada:")
+    pedido = ("Escreva UMA chamada curta (até 7 palavras) em português do Brasil para o topo de um post de oferta "
+              "num canal de achados masculino: o produto (nome curto) e o principal atrativo que está nos dados, "
+              "normalmente o desconto. Sem emoji, sem hashtag, sem o preço em reais, sem aspas. " + REGRA_IA + "\n"
+              + EXEMPLOS_TITULO + "\n\nDados:\n" + dados_ia(item) + "\nChamada:")
     try:
-        for _ in range(2):  # se afirmar o que não sabemos, tenta mais uma vez; senão vai o banco de frases
-            titulo = gemini({"contents": [{"parts": [{"text": pedido}]}]}).strip('"').splitlines()[0]
-            if texto_ia_ok(titulo):
+        for _ in range(2):  # se afirmar o que não está nos dados, tenta mais uma vez; senão vai o banco de frases
+            titulo = gemini({"contents": [{"parts": [{"text": pedido}]}]}).strip().strip('"').splitlines()[0].rstrip(".")
+            if texto_ia_ok(titulo, item):
                 return titulo[:60]
         return ""
     except Exception as e:
@@ -984,8 +1017,7 @@ def postar_agora(estado, item):
     publicar(item)
     estado["fila"] = [x for x in estado["fila"] if x is not item]
     guardar_ultimo(estado, item)
-    estado["postados"].append({"chave": item["chave"], "loja": item["loja"], "nome": item["nome"],
-                               "data": agora().isoformat(timespec="minutes")})
+    estado["postados"].append(registro_postado(item, agora()))
     responder_admin(f"📢 Postei agora: {html.escape(item['nome'])}. Fila: {len(estado['fila'])}.")
 
 
@@ -1151,10 +1183,21 @@ def ler_mensagens(estado):
 # ---------------------------------------------------------------- stories para o Instagram
 
 def guardar_ultimo(estado, item):
-    """Guarda as últimas ofertas postadas (completas) para o /story."""
+    """Guarda as últimas ofertas postadas (completas) para o /story e para repostar pelo Histórico do painel."""
     limpo = {k: v for k, v in item.items()
-             if k in ("nome", "de", "por", "foto", "loja", "cupom", "prime", "chave", "link", "link_produto")}
-    estado["ultimos"] = ([limpo] + estado.get("ultimos", []))[:15]
+             if k in ("nome", "de", "por", "foto", "loja", "cupom", "cupom_loja", "prime", "sem_prime", "pix", "titulo",
+                      "parcelas", "parcela_valor", "chave", "link", "link_produto", "origem", "fonte", "post_origem")}
+    antigos = [u for u in estado.get("ultimos", []) if u.get("chave") != limpo.get("chave")]
+    estado["ultimos"] = ([limpo] + antigos)[:40]
+
+
+def registro_postado(item, dt):
+    """Linha do histórico (o link vai junto para o Histórico do painel abrir o produto certo)."""
+    r = {"chave": item["chave"], "loja": item["loja"], "nome": item["nome"], "data": dt.isoformat(timespec="minutes")}
+    for k in ("link", "link_produto"):
+        if item.get(k):
+            r[k] = item[k]
+    return r
 
 
 def baixar_foto(foto):
@@ -1514,8 +1557,7 @@ def registrar_post(estado, item, slot, dt):
     guardar_ultimo(estado, item)
     if slot != "teste":
         estado["slots_usados"].setdefault(dt.date().isoformat(), []).append(slot)
-    estado["postados"].append({"chave": item["chave"], "loja": item["loja"],
-                               "nome": item["nome"], "data": dt.isoformat(timespec="minutes")})
+    estado["postados"].append(registro_postado(item, dt))
 
 
 def postar_se_for_hora(estado):

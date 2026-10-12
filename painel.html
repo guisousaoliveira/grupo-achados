@@ -90,6 +90,8 @@ main{min-width:0;padding:26px 34px 60px;max-width:1180px}
 .gb{display:flex;align-items:center;gap:8px}.gb b{font-size:13px;min-width:36px}
 .gtx{flex:1;height:6px;border-radius:9px;background:var(--card2);overflow:hidden}.gtx i{display:block;height:100%;background:var(--gold)}
 .gh i{font-style:normal}
+.hl .rep{flex:none;gap:6px;padding:4px 10px;height:auto}
+@media (max-width:700px){.hl .rep{padding:4px 8px;font-size:0;gap:0}.hl .rep svg{width:16px;height:16px}}
 .prox-bn{display:flex;align-items:center;gap:14px;padding:12px 14px;margin-bottom:18px;border-radius:14px;border:1px solid var(--goldln);background:linear-gradient(90deg,var(--goldbg),transparent)}
 .prox-bn .ph{width:58px;height:58px;flex:none}.prox-bn .t{flex:1;min-width:0}
 .prox-bn small{display:flex;align-items:center;gap:6px;color:var(--gold2);font-size:12.5px}.prox-bn small b{color:var(--gold2)}
@@ -1001,7 +1003,7 @@ async function enviarNova(btn, destino){
 
 /* -------- stories -------- */
 function stories(){
-  const cards = E.ultimos.map(x => `<div class="sc"><div ${x.url ? `data-url="${esc(x.url)}" title="Abrir produto"` : ''}>${foto(x)}</div><div class="c">${loja(x.loja)}<div class="nm">${esc(x.nome)}</div>${precoHTML(x)}
+  const cards = E.ultimos.slice(0, 15).map(x => `<div class="sc"><div ${x.url ? `data-url="${esc(x.url)}" title="Abrir produto"` : ''}>${foto(x)}</div><div class="c">${loja(x.loja)}<div class="nm">${esc(x.nome)}</div>${precoHTML(x)}
       <button class="btn sm gold" onclick="abrirStory('ultimo','${x.id}')">Gerar story</button></div></div>`).join('');
   return topo('Stories', 'Stories das ofertas que já saíram: o modelo 🛒 com link do produto (para vender) ou o 📸 de prova. A frase é sorteada da sua lista.',
       `<button class="btn" onclick="personalizarStory()">${ic('editar',16)}Personalizar textos</button>`)
@@ -1121,7 +1123,7 @@ function historico(){
   return topo('Histórico', 'O que saiu no canal nos últimos 30 dias.')
     + `<div class="cols"><div class="box"><h2>Últimos 7 dias</h2><div class="semana">${semana.map(([k,n,d]) => `<div><b>${n}</b><i style="height:${n/max*70}%"></i><span>${d.toLocaleDateString('pt-BR',{weekday:'short'}).replace('.','')}</span></div>`).join('')}</div></div>
       <div class="box"><h2>Por loja (7 dias)</h2>${Object.entries(porLoja).sort((a,b)=>b[1]-a[1]).map(([l,n]) => `<div class="hl" style="padding:8px 0">${loja(l)}<span class="n"></span><b>${n}</b></div>`).join('') || '<p style="color:var(--mut);margin:0">Nada ainda.</p>'}</div></div>`
-    + Object.keys(dias).sort().reverse().map(d => `<div class="dia"><h3>${nomeDia(d)} · ${dias[d].length}</h3><div class="box" style="padding:4px 6px">${dias[d].map(p => `<div class="hl" ${p.url ? `data-url="${esc(p.url)}"` : ''}><span class="h">${p.data.slice(11,16)}</span><span class="n">${esc(p.nome)}</span>${loja(p.loja)}</div>`).join('')}</div></div>`).join('');
+    + Object.keys(dias).sort().reverse().map(d => `<div class="dia"><h3>${nomeDia(d)} · ${dias[d].length}</h3><div class="box" style="padding:4px 6px">${dias[d].map(p => `<div class="hl" ${p.url ? `data-url="${esc(p.url)}" title="Abrir o produto"` : ''}><span class="h">${p.data.slice(11,16)}</span><span class="n">${esc(p.nome)}</span>${loja(p.loja)}${p.repostar ? `<button class="btn sm ghost rep" title="Volta para a fila em 1º lugar, para editar e postar de novo" onclick="fazer(this,'hist_repostar',${esc(JSON.stringify(p.chave))})">${ic('sortear',14)}Repostar</button>` : ''}</div>`).join('')}</div></div>`).join('');
 }
 
 /* -------- links -------- */
