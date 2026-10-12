@@ -242,22 +242,6 @@
       "msg_id": 143
     },
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB75627276",
-      "origem": "gatunopromos",
-      "link": "https://www.mercadolivre.com.br/mochila-para-notebook-impermeavel-e-reforcada-com-entrada-usb-25-a-40l-masculina-e-feminina/p/MLB75627276?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/mochila-para-notebook-impermeavel-e-reforcada-com-entrada-usb-25-a-40l-masculina-e-feminina/p/MLB75627276",
-      "foto": "AgACAgQAAxkDAAOQaszE9fFNqDChOVXKu2GsZjUULtIAAoMNaxs62IRThvOsPSKiMHgBAAMCAAN4AAM9BA",
-      "foto_origem": "loja",
-      "nome": "Mochila para Notebook Impermeável e Reforçada com Entrada USB",
-      "por": 79.19,
-      "de": 369.69,
-      "cupom": "COMPRANOMELI",
-      "titulo": "Preço de queima, 79% mais barato.",
-      "id": 38,
-      "msg_id": 144
-    },
-    {
       "loja": "shopee",
       "chave": "shopee:1552226494.58267803701",
       "origem": "infoBRpromos",
@@ -373,9 +357,25 @@
       "titulo": "Achado do dia, aproveita antes de acabar.",
       "id": 47,
       "msg_id": 153
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB75627276",
+      "origem": "gatunopromos",
+      "link": "https://meli.la/2Ez1sVB",
+      "link_produto": "https://www.mercadolivre.com.br/mochila-para-notebook-impermeavel-e-reforcada-com-entrada-usb-25-a-40l-masculina-e-feminina/p/MLB75627276",
+      "foto": "AgACAgQAAxkDAAOQaszE9fFNqDChOVXKu2GsZjUULtIAAoMNaxs62IRThvOsPSKiMHgBAAMCAAN4AAM9BA",
+      "foto_origem": "loja",
+      "nome": "Mochila para Notebook Impermeável e Reforçada com Entrada USB",
+      "por": 79.19,
+      "de": 369.69,
+      "cupom": "COMPRANOMELI",
+      "titulo": "Preço de queima, 79% mais barato.",
+      "id": 49,
+      "msg_id": 158
     }
   ],
-  "proximo_id": 49,
+  "proximo_id": 50,
   "radar": {
     "visto": {
       "xetdaspromocoes": 84470,
