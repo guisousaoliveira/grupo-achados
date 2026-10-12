@@ -216,6 +216,25 @@
       "garimpado_em": "2026-10-12T18:40-03:00",
       "na_revisao_desde": "2026-10-12T18:40-03:00",
       "aprovado_em": "2026-10-12T18:46-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB4176446999",
+      "origem": "promonocontext",
+      "link": "https://meli.la/321qqqb",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-4176446999-relogio-luxo-poedagar-masculino-pulseira-em-couro-funcional-_JM",
+      "post_origem": "https://t.me/promonocontext/125985",
+      "link_canal": "https://meli.la/1SbTynn",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_632932-MLB105966928572_022026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Relógio Luxo Poedagar Masculino Pulseira Em Couro Funcional",
+      "de": 320.0,
+      "por": 104.0,
+      "titulo": "Relógio masculino Poedagar com 68% off",
+      "garimpado_em": "2026-10-12T19:10-03:00",
+      "na_revisao_desde": "2026-10-12T19:10-03:00",
+      "obs": "Aplique o Cupom de 10% 📌",
+      "aprovado_em": "2026-10-12T19:33-03:00"
     }
   ],
   "postados": [
@@ -627,25 +646,6 @@
       "garimpado_em": "2026-10-12T18:50-03:00",
       "na_revisao_desde": "2026-10-12T18:50-03:00",
       "msg_id": 251
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB4176446999",
-      "origem": "promonocontext",
-      "link": "https://meli.la/321qqqb",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-4176446999-relogio-luxo-poedagar-masculino-pulseira-em-couro-funcional-_JM",
-      "post_origem": "https://t.me/promonocontext/125985",
-      "link_canal": "https://meli.la/1SbTynn",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_632932-MLB105966928572_022026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Relógio Luxo Poedagar Masculino Pulseira Em Couro Funcional",
-      "de": 320.0,
-      "por": 104.0,
-      "titulo": "Relógio masculino Poedagar com 68% off",
-      "id": 116,
-      "garimpado_em": "2026-10-12T19:10-03:00",
-      "na_revisao_desde": "2026-10-12T19:10-03:00",
-      "msg_id": 252
     }
   ],
   "proximo_id": 118,
@@ -1345,7 +1345,7 @@
       },
       "promonocontext": {
         "achados": 3,
-        "aprovados": 2,
+        "aprovados": 3,
         "reprovados": 0
       },
       "boletando": {
