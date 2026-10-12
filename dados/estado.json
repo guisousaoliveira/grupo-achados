@@ -515,25 +515,6 @@
       "id": 76,
       "garimpado_em": "2026-10-12T16:10-03:00",
       "msg_id": 198
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:696238225.20799773548",
-      "origem": "promooeasy",
-      "link": "https://shopee.com.br/product/696238225/20799773548",
-      "link_produto": "https://shopee.com.br/product/696238225/20799773548",
-      "post_origem": "https://t.me/promooeasy/220166",
-      "link_canal": "https://s.shopee.com.br/70Kr26Lvqw?lp=aff",
-      "precisa_link": true,
-      "foto": "AgACAgEAAxkDAAPHas0wt9xzhOt0zEtOOOfs5qkp3DMAAjgNaxvw92lGL6O9KIFsSwUBAAMCAAN4AAM9BA",
-      "foto_origem": "canal",
-      "nome": "Apple MacBook Pro 14 Processador M5 16GB RAM 512GB ou 1TB SSD 2026",
-      "por": 14199.0,
-      "cupom": "AQUI",
-      "titulo": "Desconto com cupom no MacBook Pro",
-      "id": 77,
-      "garimpado_em": "2026-10-12T16:10-03:00",
-      "msg_id": 199
     }
   ],
   "proximo_id": 78,
@@ -783,6 +764,26 @@
   ],
   "lixeira": [
     {
+      "loja": "shopee",
+      "chave": "shopee:696238225.20799773548",
+      "origem": "promooeasy",
+      "link": "https://shopee.com.br/product/696238225/20799773548",
+      "link_produto": "https://shopee.com.br/product/696238225/20799773548",
+      "post_origem": "https://t.me/promooeasy/220166",
+      "link_canal": "https://s.shopee.com.br/70Kr26Lvqw?lp=aff",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAPHas0wt9xzhOt0zEtOOOfs5qkp3DMAAjgNaxvw92lGL6O9KIFsSwUBAAMCAAN4AAM9BA",
+      "foto_origem": "canal",
+      "nome": "Apple MacBook Pro 14 Processador M5 16GB RAM 512GB ou 1TB SSD 2026",
+      "por": 14199.0,
+      "cupom": "AQUI",
+      "titulo": "Desconto com cupom no MacBook Pro",
+      "id": 77,
+      "garimpado_em": "2026-10-12T16:10-03:00",
+      "removido_em": "2026-10-12T16:12:05-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0GRBWKY4W",
       "origem": "promobit",
@@ -848,7 +849,7 @@
       "promooeasy": {
         "achados": 9,
         "aprovados": 2,
-        "reprovados": 1
+        "reprovados": 2
       },
       "promobit": {
         "achados": 6,
