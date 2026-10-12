@@ -1352,48 +1352,120 @@ def agenda_do_dia(data_iso):
     return agenda
 
 
-def postar_se_for_hora(estado):
-    dt = agora()
+def _ultimo_post(estado, dt):
+    try:
+        ultimo = datetime.fromisoformat(estado["postados"][-1]["data"])
+        return ultimo.replace(tzinfo=dt.tzinfo) if ultimo.tzinfo is None else ultimo
+    except (IndexError, ValueError, KeyError):
+        return None
+
+
+def horario_vencido(estado, dt):
+    """O horário de hoje que já pode postar agora, ou None. Cada horário tem um minuto sorteado (agenda_do_dia)
+    e vale a partir dele por até `janela_minutos`, para não sair rajada de posts atrasados se o GitHub demorar."""
     hoje = dt.date().isoformat()
-    usados = estado["slots_usados"].setdefault(hoje, [])
-    # Cada horário tem um minuto sorteado (agenda_do_dia). Ele vale a partir desse minuto por até 40 min,
-    # para não sair uma rajada de posts atrasados se o GitHub demorar.
+    usados = estado["slots_usados"].get(hoje, [])
     agenda = agenda_do_dia(hoje)
     agora_min = dt.hour * 60 + dt.minute
     janela = CONFIG.get("janela_minutos", 40)
     vencidos = [h for h in CONFIG["horarios"]
                 if 0 <= agora_min - (h * 60 + agenda[h]) <= janela and h not in usados]
-    if vencidos and estado["postados"] and not FORCAR:  # nunca dois posts colados
-        try:
-            ultimo = datetime.fromisoformat(estado["postados"][-1]["data"])
-            if ultimo.tzinfo is None:
-                ultimo = ultimo.replace(tzinfo=dt.tzinfo)
-            if dt - ultimo < timedelta(minutes=CONFIG.get("intervalo_minimo", 25)):
-                log("Horário chegou, mas o último post foi há pouco. Espero um pouco.")
-                return
-        except (ValueError, KeyError):
-            pass
-    if FORCAR:
-        vencidos = ["teste"]
     if not vencidos:
-        proximo = [f"{h}:{agenda[h]:02d}" for h in sorted(CONFIG["horarios"]) if h not in usados
-                   and h * 60 + agenda[h] > agora_min]
-        log(f"Nenhum horário de postagem agora. Próximo: {proximo[0] if proximo else 'amanhã'}.")
+        return None
+    ultimo = _ultimo_post(estado, dt)
+    if ultimo and dt - ultimo < timedelta(minutes=CONFIG.get("intervalo_minimo", 25)):
+        log("Horário chegou, mas o último post foi há pouco. Espero um pouco.")
+        return None
+    return vencidos[0]
+
+
+def proximo_post(estado, dt):
+    """Quando sai o próximo post de hoje (data e hora com o minuto sorteado), ou None."""
+    hoje = dt.date().isoformat()
+    usados = estado["slots_usados"].get(hoje, [])
+    agenda = agenda_do_dia(hoje)
+    ultimo = _ultimo_post(estado, dt)
+    for h in sorted(CONFIG["horarios"]):
+        quando = dt.replace(hour=h, minute=agenda[h], second=0, microsecond=0)
+        if h in usados or quando + timedelta(minutes=CONFIG.get("janela_minutos", 40)) < dt:
+            continue
+        if ultimo:
+            quando = max(quando, ultimo + timedelta(minutes=CONFIG.get("intervalo_minimo", 25)))
+        return quando
+    return None
+
+
+def registrar_post(estado, item, slot, dt):
+    estado["fila"] = [x for x in estado["fila"] if x["chave"] != item["chave"]]
+    guardar_ultimo(estado, item)
+    if slot != "teste":
+        estado["slots_usados"].setdefault(dt.date().isoformat(), []).append(slot)
+    estado["postados"].append({"chave": item["chave"], "loja": item["loja"],
+                               "nome": item["nome"], "data": dt.isoformat(timespec="minutes")})
+
+
+def postar_se_for_hora(estado):
+    dt = agora()
+    slot = "teste" if FORCAR else horario_vencido(estado, dt)
+    if not slot:
+        prox = proximo_post(estado, dt)
+        log(f"Nenhum horário de postagem agora. Próximo: {prox:%H:%M}." if prox else
+            "Nenhum horário de postagem agora. Próximo: amanhã.")
         return
     if not estado["fila"]:
         log("Chegou um horário de postagem, mas a fila está vazia.")
         return
     item = estado["fila"][0]
     publicar(item)
-    estado["fila"].pop(0)
-    guardar_ultimo(estado, item)
     # Um post por execução: se o GitHub atrasar e passar mais de um horário,
     # o próximo sai na execução seguinte, sem rajada.
-    if not FORCAR:
-        usados.append(vencidos[0])
-    estado["postados"].append({"chave": item["chave"], "loja": item["loja"],
-                               "nome": item["nome"], "data": dt.isoformat(timespec="minutes")})
+    registrar_post(estado, item, slot, dt)
     log(f"Postado: {item['nome']}")
+
+
+def esperar_e_postar():
+    """O tick roda de 5 em 5 (ou 10 em 10) minutos, o que arredondaria os horários (15:40, 16:20...).
+    Se o próximo post cai antes do tick seguinte, a rodada espera até o minuto (e segundo) exato e posta,
+    para sair em horários bem quebrados, tipo 13:33, 16:28, 20:31."""
+    if SIMULAR or FORCAR or os.environ.get("RENDER"):
+        return
+    estado, _ = carregar_estado()
+    dt = agora()
+    prox = proximo_post(estado, dt)
+    if not estado["fila"] or not prox:
+        return
+    espera = (prox - dt).total_seconds() + random.randint(0, 45)
+    if not 0 < espera <= CONFIG.get("espera_max_minutos", 10) * 60:
+        return
+    log(f"Próximo post às {prox:%H:%M}. Esperando {espera / 60:.1f} min para postar no minuto certo.")
+    time.sleep(espera)
+    pego = {}
+
+    def reservar(est):  # tira da fila e marca o horário ANTES de publicar: se o salvar repetir, não posta duas vezes
+        pego.clear()
+        dt2 = agora()
+        slot = horario_vencido(est, dt2)
+        if slot and est["fila"]:
+            pego.update(item=est["fila"][0], slot=slot, dt=dt2)
+            registrar_post(est, est["fila"][0], slot, dt2)
+
+    if not com_estado(reservar) or not pego:
+        return
+    try:
+        publicar(pego["item"])
+        log(f"Postado: {pego['item']['nome']}")
+    except Exception as e:
+        log(f"Erro ao postar, devolvendo para a fila: {e}")
+
+        def devolver(est):
+            est["fila"].insert(0, pego["item"])
+            dia = pego["dt"].date().isoformat()
+            if pego["slot"] in est["slots_usados"].get(dia, []):
+                est["slots_usados"][dia].remove(pego["slot"])
+            est["postados"] = [p for p in est["postados"] if p["chave"] != pego["item"]["chave"]
+                               or p["data"] != pego["dt"].isoformat(timespec="minutes")]
+            est["ultimos"] = [u for u in est.get("ultimos", []) if u.get("chave") != pego["item"]["chave"]]
+        com_estado(devolver)
 
 
 def limpar_estado(estado):
@@ -1901,6 +1973,7 @@ def cmd_rodar():
         log("MODO SIMULAÇÃO: nada é enviado e o estado não é salvo.")
     log("Fila guardada no " + ("repositório do GitHub." if usar_github() else "arquivo dados/estado.json."))
     com_estado(ciclo)
+    esperar_e_postar()
 
 
 def cmd_ids():
