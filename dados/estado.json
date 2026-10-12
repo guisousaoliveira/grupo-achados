@@ -23,6 +23,19 @@
       "nome": "Creatina Monohidratada Pura 1kg Dark Lab Unidade Sem sabor",
       "por": 78.0,
       "frase": "Pra quem leva o treino a sério."
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB50232347",
+      "origem": "lobaopromo",
+      "link": "https://www.mercadolivre.com.br/fritadeira-air-fryer-55l-widemax-com-interior-de-aluminio-1900w-midea/p/MLB50232347?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/fritadeira-air-fryer-55l-widemax-com-interior-de-aluminio-1900w-midea/p/MLB50232347",
+      "foto": "AgACAgEAAxkDAAN4asxMGo-KUab4H-A1jsg6mGTafbgAAiIQaxvw92FGgXa-reLHX7IBAAMCAAN4AAM9BA",
+      "foto_origem": "canal",
+      "nome": "Fritadeira Air Fryer 5,5l Widemax Com Interior De Alumínio 1900w Midea",
+      "de": 740.0,
+      "por": 261.0,
+      "frase": "Desconto de 65%: é agora ou nunca."
     }
   ],
   "postados": [
@@ -81,23 +94,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB50232347",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/fritadeira-air-fryer-55l-widemax-com-interior-de-aluminio-1900w-midea/p/MLB50232347?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/fritadeira-air-fryer-55l-widemax-com-interior-de-aluminio-1900w-midea/p/MLB50232347",
-      "foto": "AgACAgEAAxkDAAN4asxMGo-KUab4H-A1jsg6mGTafbgAAiIQaxvw92FGgXa-reLHX7IBAAMCAAN4AAM9BA",
-      "foto_origem": "canal",
-      "nome": "Fritadeira Air Fryer 5,5l Widemax Com Interior De Alumínio 1900w Midea",
-      "de": 740.0,
-      "por": 261.0,
-      "frase": "Desconto de 65%: é agora ou nunca.",
-      "id": 26,
-      "msg_id": 120
-    }
-  ],
+  "revisar": [],
   "proximo_id": 27,
   "radar": {
     "visto": {
