@@ -1,0 +1,19 @@
+name: teste-sites
+
+on:
+  workflow_dispatch:
+    inputs:
+      urls:
+        description: "Endereços separados por espaço"
+        required: true
+
+jobs:
+  testar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v5
+      - name: Testar sites
+        env:
+          URLS: ${{ inputs.urls }}
+        run: python3 ferramentas/teste_sites.py $URLS
