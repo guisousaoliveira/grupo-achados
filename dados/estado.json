@@ -495,19 +495,58 @@
       "garimpado_em": "2026-10-12T18:30-03:00",
       "na_revisao_desde": "2026-10-12T18:30-03:00",
       "msg_id": 243
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB5088391500",
+      "origem": "lobaopromo",
+      "link": "https://produto.mercadolivre.com.br/MLB-5088391500-colageno-verisol-e-creatina-monohidratada-renova-be-original-_JM?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-5088391500-colageno-verisol-e-creatina-monohidratada-renova-be-original-_JM",
+      "post_origem": "https://t.me/lobaopromo/188555",
+      "link_canal": "https://meli.la/15rsoUj",
+      "foto": "AgACAgQAAxkDAAP0as1TyOzkzow50ZR0bNbbtyzVlCcAAsgNaxt4hC1ToP-AL4dWUZABAAMCAAN4AAM9BA",
+      "foto_origem": "loja",
+      "nome": "Colágeno Verisol E Creatina Monohidratada Renova Be Original",
+      "de": 431.0,
+      "por": 142.0,
+      "titulo": "Colágeno e creatina Renova Be com 67% off",
+      "id": 109,
+      "garimpado_em": "2026-10-12T18:40-03:00",
+      "na_revisao_desde": "2026-10-12T18:40-03:00",
+      "msg_id": 244
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0GM1LSHQF",
+      "origem": "lobaopromo",
+      "link": "https://www.amazon.com.br/dp/B0GM1LSHQF?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0GM1LSHQF?tag=alphadominu09-20",
+      "post_origem": "https://t.me/lobaopromo/188556",
+      "link_canal": "https://amzlink.to/az0EDfkYT39rS",
+      "foto": "AgACAgQAAxkDAAP1as1TyuticvvhWbKjYzBW2Fu-Gb4AAlUQaxspmW1S3Q4h0U_zUl8BAAMCAAN4AAM9BA",
+      "foto_origem": "loja",
+      "nome": "JBL Fone de Ouvido Bluetooth Over-Ear Tune 530BT",
+      "pix": true,
+      "de": 299.0,
+      "por": 168.0,
+      "titulo": "Fone JBL Tune 530BT com 44% off",
+      "id": 110,
+      "garimpado_em": "2026-10-12T18:40-03:00",
+      "na_revisao_desde": "2026-10-12T18:40-03:00",
+      "msg_id": 245
     }
   ],
-  "proximo_id": 109,
+  "proximo_id": 111,
   "radar": {
     "visto": {
       "xetdaspromocoes": 84504,
-      "lobaopromo": 188553,
-      "gatunopromos": 124938,
+      "lobaopromo": 188556,
+      "gatunopromos": 124941,
       "pobregram": 41780,
-      "urubupromo": 41586,
+      "urubupromo": 41588,
       "tudonapromo": 101630,
-      "promonocontext": 125972,
-      "promooeasy": 220228,
+      "promonocontext": 125973,
+      "promooeasy": 220229,
       "aquitempechincha": 281184,
       "infoBRpromos": 67417,
       "boletando": 76618,
@@ -515,7 +554,7 @@
       "achadosdotb": 11754
     },
     "dia": "2026-10-12",
-    "hoje": 78,
+    "hoje": 80,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -602,27 +641,29 @@
       "amazon:B0HF7B2W69",
       "mercadolivre:MLB18758275",
       "amazon:B0HF7D9C2J",
-      "amazon:B0FFTP5WF4"
+      "amazon:B0FFTP5WF4",
+      "mercadolivre:MLB5088391500",
+      "amazon:B0GM1LSHQF"
     ],
     "ultima": {
-      "em": "2026-10-12T18:30:21-03:00",
+      "em": "2026-10-12T18:40:17-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 35,
+      "posts_novos": 14,
       "do_nicho": 4,
       "repetidas": 2,
       "novas": 2,
       "limite_dia": false,
-      "promobit": 2
+      "promobit": 0
     },
     "hora": "2026-10-12T18",
-    "nesta_hora": 1,
+    "nesta_hora": 3,
     "promobit_hora": "2026-10-12T18",
     "promobit_nesta_hora": 4,
-    "promobit_visto": 3109141
+    "promobit_visto": 3109145
   },
   "ultimos": [
     {
@@ -1133,7 +1174,7 @@
         "reprovados": 0
       },
       "lobaopromo": {
-        "achados": 5,
+        "achados": 7,
         "aprovados": 1,
         "reprovados": 4
       },
@@ -1169,5 +1210,5 @@
       }
     }
   },
-  "aviso_post": "2026-10-12 17|mercadolivre:https://meli.la/2x4uuZ1"
+  "aviso_post": "2026-10-12 18|mercadolivre:https://meli.la/2XEGBAf"
 }
