@@ -1417,13 +1417,20 @@ def endereco_final(link):
 def produto_do_link(link):
     """Devolve {loja, chave, link_produto, meu_link?} ou None se não for de loja conhecida."""
     final, pagina = endereco_final(link)
-    for alvo in [final] + LINK_LOJA.findall(pagina)[:20]:
-        alvo = html.unescape(alvo)
-        m = ASIN.search(alvo)
-        if m and "amazon" in alvo:
-            tag = CONFIG.get("radar", {}).get("tag_amazon", "")
-            meu = f"https://www.amazon.com.br/dp/{m.group(1)}" + (f"?tag={tag}" if tag else "")
-            return {"loja": "amazon", "chave": f"amazon:{m.group(1)}", "link_produto": meu, "meu_link": meu}
+    m = ASIN.search(final) if "amazon" in final else None
+    asin = m.group(1) if m else None
+    if not asin:
+        # Página no meio do caminho (ex.: amzn.divulgador.link) que leva para UM produto da Amazon.
+        # Só vale se a página citar um único produto: o site do próprio canal, por exemplo, mostra
+        # dezenas, e pegar o primeiro trazia foto e link de outra coisa (Pokémon no lugar da fritadeira).
+        asins = {a.group(1) for a in (ASIN.search(html.unescape(x)) for x in LINK_LOJA.findall(pagina))
+                 if a and "amazon" in a.string}
+        if len(asins) == 1:
+            asin = asins.pop()
+    if asin:
+        tag = CONFIG.get("radar", {}).get("tag_amazon", "")
+        meu = f"https://www.amazon.com.br/dp/{asin}" + (f"?tag={tag}" if tag else "")
+        return {"loja": "amazon", "chave": f"amazon:{asin}", "link_produto": meu, "meu_link": meu}
     for alvo in [final, pagina[:300000]]:
         m = re.search(r"MLB-?(\d{6,})", alvo)
         if m and ("mercadoli" in final or "meli.la" in link):
@@ -1464,10 +1471,12 @@ def oferta_do_post(post, canal):
     if not texto or not any(p in sem_acento(texto) for p in palavras_radar()):
         return None
     candidatos = [l for l in post["links"] if l.startswith("http") and "t.me/" not in l]
+    # Links de loja (ou encurtador de loja) primeiro; o resto (site do canal, Instagram...) só depois.
+    candidatos.sort(key=lambda l: not LINK_LOJA.match(l))
     if not candidatos:
         return None
     prod = None
-    for link in candidatos[:3]:
+    for link in candidatos[:4]:
         prod = produto_do_link(link)
         if prod:
             break
