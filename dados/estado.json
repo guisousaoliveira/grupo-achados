@@ -247,23 +247,6 @@
     },
     {
       "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB49217710",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/1tqC1AP",
-      "link_produto": "https://meli.la/1tqC1AP",
-      "post_origem": "https://t.me/lobaopromo/188585",
-      "link_canal": "https://meli.la/13SFiP3",
-      "foto": "AgACAgEAAxkDAAIBDmrNby012wGfEnflKPGbq2xW70KNAAKRDWsb8PdpRiMmd_5PBlLbAQADAgADeQADPQQ",
-      "nome": "Creatina +Mu em pó sabor Melancia x 500g",
-      "por": 67.0,
-      "titulo": "Creatina para render mais no treino",
-      "garimpado_em": "2026-10-12T20:00-03:00",
-      "na_revisao_desde": "2026-10-12T20:00-03:00",
-      "de": 124.99,
-      "aprovado_em": "2026-10-12T20:38-03:00"
-    },
-    {
-      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB7776080994",
       "origem": "lobaopromo",
       "link": "https://meli.la/1cKY6BV",
@@ -546,6 +529,14 @@
       "link": "https://meli.la/33xceQY",
       "link_produto": "https://produto.mercadolivre.com.br/MLB-2843236667-regata-academia-basica-_JM",
       "slot": 20
+    },
+    {
+      "chave": "mercadolivre:MLB49217710",
+      "loja": "mercadolivre",
+      "nome": "Creatina +Mu em pó sabor Melancia x 500g",
+      "data": "2026-10-12T20:51-03:00",
+      "link": "https://meli.la/1tqC1AP",
+      "link_produto": "https://meli.la/1tqC1AP"
     }
   ],
   "slots_usados": {
@@ -813,6 +804,19 @@
     "promobit_visto": 3109286
   },
   "ultimos": [
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB49217710",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/1tqC1AP",
+      "link_produto": "https://meli.la/1tqC1AP",
+      "post_origem": "https://t.me/lobaopromo/188585",
+      "foto": "AgACAgEAAxkDAAIBDmrNby012wGfEnflKPGbq2xW70KNAAKRDWsb8PdpRiMmd_5PBlLbAQADAgADeQADPQQ",
+      "nome": "Creatina +Mu em pó sabor Melancia x 500g",
+      "por": 67.0,
+      "titulo": "Creatina para render mais no treino",
+      "de": 124.99
+    },
     {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB2843236667",
