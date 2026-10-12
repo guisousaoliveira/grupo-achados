@@ -16,17 +16,6 @@
     },
     {
       "loja": "mercadolivre",
-      "link": "https://meli.la/18y2P8F",
-      "chave": "mercadolivre:https://meli.la/18y2P8F",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_919217-MLB114468760310_082026-O.webp",
-      "nome": "Furadeira Parafusadeira 2 Bateria 21v 10mm + 349 Acessórios",
-      "frase": "Preço bom assim não dura, corre!",
-      "de": 378.39,
-      "por": 239.9,
-      "aprovado_em": "2026-10-12T04:31-03:00"
-    },
-    {
-      "loja": "mercadolivre",
       "link": "https://meli.la/2DoKFbN",
       "chave": "mercadolivre:https://meli.la/2DoKFbN",
       "foto": "https://http2.mlstatic.com/D_NQ_NP_627065-MLB109020200579_032026-O.webp",
@@ -35,6 +24,17 @@
       "de": 229.99,
       "por": 83.79,
       "aprovado_em": "2026-10-12T04:43-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "link": "https://meli.la/18y2P8F",
+      "chave": "mercadolivre:https://meli.la/18y2P8F",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_919217-MLB114468760310_082026-O.webp",
+      "nome": "Furadeira Parafusadeira 2 Bateria 21v 10mm + 349 Acessórios",
+      "frase": "Preço bom assim não dura, corre!",
+      "de": 378.39,
+      "por": 239.9,
+      "aprovado_em": "2026-10-12T04:31-03:00"
     },
     {
       "loja": "mercadolivre",
