@@ -47,5 +47,17 @@
       "foto": "https://m.media-amazon.com/images/I/71trWiva9mL._AC_SL1000_.jpg"
     }
   ],
-  "proximo_id": 10
+  "proximo_id": 10,
+  "radar": {
+    "visto": {
+      "xetdaspromocoes": 84418,
+      "lobaopromo": 188341,
+      "gatunopromos": 124802,
+      "pobregram": 41737,
+      "urubupromo": 41551
+    },
+    "dia": "2026-10-11",
+    "hoje": 0,
+    "chaves": []
+  }
 }
