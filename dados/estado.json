@@ -398,27 +398,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "shopee",
-      "chave": "shopee:1009975506.40983623796",
-      "origem": "infoBRpromos",
-      "link": "https://shopee.com.br/product/1009975506/40983623796",
-      "link_produto": "https://shopee.com.br/product/1009975506/40983623796",
-      "post_origem": "https://t.me/infoBRpromos/67415",
-      "link_canal": "https://s.shopee.com.br/9APLeSOldf",
-      "precisa_link": true,
-      "foto": "AgACAgEAAxkDAAPZas06F0xGYqlwGZPLqfMTLyq4H08AAlgNaxvw92lGpWQZMKD0OoQBAAMCAAN4AAM9BA",
-      "foto_origem": "canal",
-      "nome": "Smart TV Philco 50 4K UHD Roku TV HDR10 Dolby Audio P50crb Space Gray",
-      "por": 1657.0,
-      "titulo": "Smart TV Philco 50 4K com 33% off",
-      "id": 87,
-      "garimpado_em": "2026-10-12T16:50-03:00",
-      "na_revisao_desde": "2026-10-12T16:50-03:00",
-      "msg_id": 217
-    }
-  ],
+  "revisar": [],
   "proximo_id": 88,
   "radar": {
     "visto": {
@@ -706,6 +686,26 @@
   ],
   "lixeira": [
     {
+      "loja": "shopee",
+      "chave": "shopee:1009975506.40983623796",
+      "origem": "infoBRpromos",
+      "link": "https://shopee.com.br/product/1009975506/40983623796",
+      "link_produto": "https://shopee.com.br/product/1009975506/40983623796",
+      "post_origem": "https://t.me/infoBRpromos/67415",
+      "link_canal": "https://s.shopee.com.br/9APLeSOldf",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAPZas06F0xGYqlwGZPLqfMTLyq4H08AAlgNaxvw92lGpWQZMKD0OoQBAAMCAAN4AAM9BA",
+      "foto_origem": "canal",
+      "nome": "Smart TV Philco 50 4K UHD Roku TV HDR10 Dolby Audio P50crb Space Gray",
+      "por": 1657.0,
+      "titulo": "Smart TV Philco 50 4K com 33% off",
+      "id": 87,
+      "garimpado_em": "2026-10-12T16:50-03:00",
+      "na_revisao_desde": "2026-10-12T16:50-03:00",
+      "removido_em": "2026-10-12T16:53:11-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0DX88HMJV",
       "origem": "promooeasy",
@@ -875,7 +875,7 @@
       "infoBRpromos": {
         "achados": 1,
         "aprovados": 0,
-        "reprovados": 0
+        "reprovados": 1
       }
     }
   },
