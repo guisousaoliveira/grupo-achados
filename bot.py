@@ -805,7 +805,9 @@ def mandar_para_revisao(estado, item):
     texto = "📝 <b>Revisar oferta</b>\n\n" + (montar_post(item) if item.get("nome") else html.escape(item["link"]))
     if item.get("origem"):
         canal = html.escape(item["origem"])
-        if item.get("post_origem"):
+        if item.get("fonte") == "promobit":
+            canal = f'<a href="{html.escape(item.get("post_origem", ""))}">Promobit (ver a oferta lá)</a>'
+        elif item.get("post_origem"):
             canal = f'<a href="{html.escape(item["post_origem"])}">@{canal} (ver post original)</a>'
         else:
             canal = "@" + canal
@@ -1561,6 +1563,123 @@ def oferta_do_post(post, canal):
     return item
 
 
+# ---------------------------------------------------------------- Promobit
+# Site de promoções da comunidade. Abre para servidor (o Pelando não: Cloudflare). A página traz as ofertas
+# prontas no __NEXT_DATA__; o "Ir à loja" é promobit.com.br/Redirect/to/<id>/, que leva até a loja.
+LOJAS_PROMOBIT = {"amazon.com.br", "mercadolivre.com.br", "shopee.com.br"}
+
+
+def ler_promobit(paginas):
+    """Ofertas das páginas do Promobit (recentes, destaques), sem repetir, da mais antiga para a mais nova."""
+    ofertas = {}
+    for url in paginas:
+        pagina, _ = http(url, headers={"Accept-Language": "pt-BR,pt;q=0.9"})
+        m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', pagina, re.S)
+        if not m:
+            raise RuntimeError("a página mudou (sem __NEXT_DATA__)")
+        props = json.loads(m.group(1)).get("props", {}).get("pageProps", {})
+        lista = (props.get("serverOffers") or {}).get("offers", []) + (props.get("serverFeaturedOffers") or [])
+        for o in lista:
+            if o.get("offerId"):
+                ofertas[o["offerId"]] = o
+    return [ofertas[k] for k in sorted(ofertas)]
+
+
+def oferta_do_promobit(o):
+    """Oferta do Promobit no formato do radar. None se não for de Amazon/ML/Shopee ou do nicho."""
+    if o.get("storeDomain") not in LOJAS_PROMOBIT:
+        return None
+    texto = " ".join(str(o.get(k) or "") for k in ("offerTitle", "categoryName", "subcategoryName", "suggestionKeywords"))
+    if not any(p in sem_acento(texto) for p in palavras_radar()):
+        return None
+    link = f"https://www.promobit.com.br/Redirect/to/{o['offerId']}/"
+    prod = produto_do_link(link)
+    if not prod:
+        return None
+    item = {"loja": prod["loja"], "chave": prod["chave"], "origem": "promobit", "fonte": "promobit",
+            "link": prod.get("meu_link") or prod["link_produto"], "link_produto": prod["link_produto"],
+            "post_origem": f"https://www.promobit.com.br/oferta/{o.get('offerSlug', '')}/", "link_canal": link,
+            "nome": nome_curto(o.get("offerTitle", ""))}
+    if not prod.get("meu_link"):
+        item["precisa_link"] = True
+    por, de = o.get("offerPrice") or 0, o.get("offerOldPrice") or 0
+    if por:
+        item["por"] = float(por)
+        if de and de > por:
+            item["de"] = float(de)
+    if o.get("offerCoupon"):
+        item["cupom"] = str(o["offerCoupon"]).strip()[:30]
+    # foto: a oficial da loja quando abre; se não, a do Promobit
+    lido = prod.get("vitrine") or {}
+    if not lido.get("foto"):
+        try:
+            lido = ler_pagina(item["link_produto"])
+        except Exception:
+            lido = {}
+    if lido.get("foto") and not lido.get("_bloqueado"):
+        item["foto"], item["foto_origem"] = lido["foto"], "loja"
+    elif item["loja"] == "amazon" and foto_amazon_por_asin(item["chave"].split(":", 1)[1]):
+        item["foto"], item["foto_origem"] = foto_amazon_por_asin(item["chave"].split(":", 1)[1]), "loja"
+    elif o.get("offerPhoto"):
+        foto = o["offerPhoto"]
+        item["foto"] = foto if foto.startswith("http") else "https://i.promobit.com.br/268/" + foto.lstrip("/")
+        item["foto_origem"] = "canal"
+    return item
+
+
+def radar_promobit(estado, r, cfg, conta, usadas, teste, acordando):
+    """Lê o Promobit com limite próprio por hora (não come a cota dos canais), mas conta no limite do dia."""
+    pcfg = cfg.get("promobit") or {}
+    if not pcfg.get("ligado"):
+        return 0
+    paginas = pcfg.get("paginas") or ["https://www.promobit.com.br/promocoes/recentes/", "https://www.promobit.com.br/"]
+    limite_hora, limite_dia = pcfg.get("max_por_hora", 2), cfg.get("max_por_dia", 10)
+    hora = agora().strftime("%Y-%m-%dT%H")
+    if r.get("promobit_hora") != hora:
+        r["promobit_hora"], r["promobit_nesta_hora"] = hora, 0
+    try:
+        ofertas = ler_promobit(paginas)
+    except Exception as e:
+        log(f"Radar: não consegui ler o Promobit ({e}).")
+        conta["falhas"].append("promobit")
+        return 0
+    conta["lidos"] += 1
+    visto = r.get("promobit_visto")
+    ultimo = max((o["offerId"] for o in ofertas), default=visto or 0)
+    if (visto is None or acordando) and not teste:
+        r["promobit_visto"] = ultimo
+        log("Radar: comecei a acompanhar o Promobit." if visto is None else "Radar: voltei da pausa no Promobit.")
+        return 0
+    novas = 0
+    for o in ofertas:
+        if not teste and o["offerId"] <= visto:
+            continue
+        conta["posts_novos"] += 1
+        if not teste and (r["promobit_nesta_hora"] >= limite_hora or r["hoje"] >= limite_dia):
+            conta["limite_dia"] = r["hoje"] >= limite_dia
+            conta["limite_hora"] = True
+            break
+        item = oferta_do_promobit(o)
+        if not item:
+            continue
+        conta["do_nicho"] += 1
+        if item["chave"] in usadas:
+            conta["repetidas"] += 1
+            continue
+        usadas.add(item["chave"])
+        novas += 1
+        if teste:
+            log(f"Radar achou no Promobit: {json.dumps(item, ensure_ascii=False)}")
+            continue
+        r["hoje"] += 1
+        r["promobit_nesta_hora"] += 1
+        r["chaves"] = (r["chaves"] + [item["chave"]])[-400:]
+        mandar_para_revisao(estado, item)
+    if not teste:
+        r["promobit_visto"] = ultimo
+    return novas
+
+
 def radar_pausado(cfg):
     """Pausa do radar, em horas de Brasília. Ex.: pausa_de 0 e pausa_ate 7 = pausado da meia-noite às 6h59."""
     de, ate = cfg.get("pausa_de"), cfg.get("pausa_ate")
@@ -1602,7 +1721,9 @@ def rodar_radar(estado, teste=False):
         return
     acordando = (False if forcado else r.pop("pausado", False)) and not teste
     usadas = set(r["chaves"]) | {x["chave"] for x in estado["fila"] + estado["revisar"]}
-    novas = 0
+    novas = radar_promobit(estado, r, cfg, conta, usadas, teste, acordando)
+    conta["promobit"] = novas
+    novas_canais = 0
     for canal in canais:
         canal = canal.strip().replace("https://t.me/", "").replace("@", "").strip("/")
         try:
@@ -1623,10 +1744,10 @@ def rodar_radar(estado, teste=False):
                 continue
             conta["posts_novos"] += 1
             cheia_hora = bool(limite_hora) and r["nesta_hora"] >= limite_hora
-            if novas >= limite_rodada or ((r["hoje"] >= limite_dia or cheia_hora) and not teste):
+            if novas_canais >= limite_rodada or ((r["hoje"] >= limite_dia or cheia_hora) and not teste):
                 conta["limite_dia"] = r["hoje"] >= limite_dia
                 conta["limite_hora"] = cheia_hora
-                conta["limite_rodada"] = novas >= limite_rodada
+                conta["limite_rodada"] = novas_canais >= limite_rodada
                 break
             item = oferta_do_post(post, canal)
             if not item:
@@ -1637,6 +1758,7 @@ def rodar_radar(estado, teste=False):
                 continue
             usadas.add(item["chave"])
             novas += 1
+            novas_canais += 1
             if teste:
                 log(f"Radar achou em @{canal}: {json.dumps(item, ensure_ascii=False)}")
                 continue

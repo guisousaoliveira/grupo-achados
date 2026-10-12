@@ -248,6 +248,11 @@ textarea.in{resize:vertical;min-height:64px}
 .fr .ib{width:38px;flex:none}
 .frase-st{display:flex;gap:8px;margin-top:12px}
 .frase-st .in{flex:1}
+.abas{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px}
+.abas button{display:inline-flex;align-items:center;gap:7px;padding:7px 12px;border-radius:999px;border:1px solid var(--line2);background:var(--card);color:var(--mut);font:inherit;font-size:13px;font-weight:500;cursor:pointer}
+.abas button span{font-size:11.5px;background:#232327;border-radius:999px;padding:0 7px;color:var(--tx)}
+.abas button.on{border-color:var(--goldln);background:var(--goldbg);color:var(--gold2)}
+.mk.pb{background:#f0532b;color:#fff;font-weight:800;font-size:11px}
 .toast button{background:none;border:0;color:var(--gold2);font:inherit;font-weight:600;cursor:pointer;padding:0 0 0 6px}
 .toast.erro{border-color:rgba(242,85,90,.5)}
 
@@ -530,19 +535,28 @@ function inicio(){
 }
 
 /* -------- revisar -------- */
+let revFonte = 'todas';
+const fonteDe = x => x.fonte === 'promobit' ? 'promobit' : (x.origem ? 'telegram' : 'manual');
 function revisar(){
+  const conta = {todas: E.revisar.length, telegram: 0, promobit: 0, manual: 0};
+  E.revisar.forEach(x => conta[fonteDe(x)]++);
+  if (revFonte !== 'todas' && !conta[revFonte]) revFonte = 'todas';
+  const lista = revFonte === 'todas' ? E.revisar : E.revisar.filter(x => fonteDe(x) === revFonte);
+  const abas = [['todas','Todas'],['telegram','Canais do Telegram'],['promobit','Promobit'],['manual','Seus links']]
+    .filter(([k]) => k === 'todas' || conta[k])
+    .map(([k,t]) => `<button class="${revFonte===k?'on':''}" onclick="revFonte='${k}';desenhar()">${t}<span>${conta[k]}</span></button>`).join('');
   const prontas = E.revisar.filter(x => !x.falta.length).length;
   return topo('Revisar', 'Ofertas do radar e links que você mandou, as mais recentes primeiro. Só vai para a fila o que você aprovar.',
       `<button class="btn ghost" onclick="ir('lixeira')">${ic('lixeira',16)}Lixeira${E.lixeira.length ? ` (${E.lixeira.length})` : ''}</button>`
       + (E.revisar.length > 1 ? `<button class="btn bad" onclick="confirmar('Descartar todas as ${E.revisar.length}?', 'Elas vão para a Lixeira, e dá para trazer de volta.', 'Descartar todas', () => fazer(null,'rev_descartar_tudo'))">Descartar todas</button>` : '')
       + (prontas > 1 ? `<button class="btn gold" onclick="fazer(this,'rev_aprovar_tudo')">Aprovar as ${prontas} completas</button>` : ''))
-    + (E.revisar.length ? `<div class="list">${E.revisar.map(cardRevisao).join('')}</div>`
+    + (E.revisar.length ? `<div class="abas">${abas}</div><div class="list">${lista.map(cardRevisao).join('')}</div>`
       : `<div class="vazio-box"><b>Nada para revisar</b>Quando o radar achar algo do nicho, aparece aqui (e no seu Telegram).</div>`);
 }
 function cardRevisao(x){
   // Card enxuto: loja, canal e hora numa linha; nome e preço; no máximo um aviso embaixo.
   const velho = x.garimpado_em && horasDesde(x.garimpado_em) >= 6;
-  const info = [x.origem ? '@' + esc(x.origem) : 'seu link', x.garimpado_em ? `<span class="${velho ? 'velho' : ''}">${horaDia(x.garimpado_em)}</span>` : ''].filter(Boolean).join(' · ');
+  const info = [x.fonte === 'promobit' ? 'Promobit' : x.origem ? '@' + esc(x.origem) : 'seu link', x.garimpado_em ? `<span class="${velho ? 'velho' : ''}">${horaDia(x.garimpado_em)}</span>` : ''].filter(Boolean).join(' · ');
   const conferirO = [];
   if (x.loja === 'shopee' && x.origem) conferirO.push('produto');
   if (x.foto_origem === 'canal') conferirO.push('foto');
@@ -560,7 +574,7 @@ function cardRevisao(x){
       <button class="btn gold sm" ${x.falta.length ? 'disabled title="Complete pelo editor"' : ''} onclick="fazer(this,'rev_aprovar','${x.id}')">Aprovar</button>
       <div class="ibar">
         <button class="ib" title="Editar" onclick="editar('revisar','${x.id}')">${ic('editar',16)}</button>
-        <a class="ib ${x.post_origem ? '' : 'off'}" ${x.post_origem ? `href="${esc(x.post_origem)}"` : ''} target="_blank" rel="noopener" title="Ver o post original no Telegram">${marca('tg')}</a>
+        <a class="ib ${x.post_origem ? '' : 'off'}" ${x.post_origem ? `href="${esc(x.post_origem)}"` : ''} target="_blank" rel="noopener" title="${x.fonte === 'promobit' ? 'Ver a oferta no Promobit' : 'Ver o post original no Telegram'}">${x.fonte === 'promobit' ? '<span class="mk pb">P</span>' : marca('tg')}</a>
         <a class="ib ${conferir ? '' : 'off'}" href="${esc(conferir)}" target="_blank" rel="noopener" title="Ver o produto na ${esc(nomeLoja)}">${marca(x.loja)}</a>
         <button class="ib bad" title="Descartar" onclick="fazer(this,'rev_descartar','${x.id}')">${ic('lixo',16)}</button>
       </div>
@@ -672,7 +686,7 @@ function editorHTML(x, p){
       <div class="fl" id="${p}-semprime-w" style="${x.prime?'':'display:none'}"><label>Preço sem Prime</label><input class="in" id="${p}-sem_prime" inputmode="decimal" value="${num(x.sem_prime)}" placeholder="opcional"></div>
     </div>
     <div class="fl"><label>Cupom ${x.cupom_loja && !x.cupom ? `<span>${esc(x.cupom_loja)}</span>` : ''}</label><input class="in" id="${p}-cupom" value="${esc(x.cupom)}" placeholder="opcional"></div>
-    <div class="fl"><label>Seu link de afiliado <span class="atalhos">${(x.link_produto || x.url) ? `<a href="${esc(x.link_produto || x.url)}" target="_blank" rel="noopener">${marca(x.loja)}abrir produto</a>` : ''}${x.post_origem ? `<a href="${esc(x.post_origem)}" target="_blank" rel="noopener">${marca('tg')}post original</a>` : ''}</span></label><input class="in" id="${p}-link" value="${esc(x.link)}" placeholder="https://...">${gerarLinkHTML(x)}</div>
+    <div class="fl"><label>Seu link de afiliado <span class="atalhos">${(x.link_produto || x.url) ? `<a href="${esc(x.link_produto || x.url)}" target="_blank" rel="noopener">${marca(x.loja)}abrir produto</a>` : ''}${x.post_origem ? `<a href="${esc(x.post_origem)}" target="_blank" rel="noopener">${x.fonte === 'promobit' ? '<span class="mk pb">P</span>oferta no Promobit' : marca('tg') + 'post original'}</a>` : ''}</span></label><input class="in" id="${p}-link" value="${esc(x.link)}" placeholder="https://...">${gerarLinkHTML(x)}</div>
     <div class="fl"><label>Foto</label><div class="fotoed"><span id="${p}-fotoph">${foto(x)}</span>
       <div style="display:flex;gap:6px;flex-wrap:wrap"><button class="btn sm" onclick="escolherFoto('${p}')">${ic('foto',15)}Enviar foto</button>
       <button class="btn sm ghost" onclick="colarFotoURL('${p}')">Usar endereço de imagem</button>

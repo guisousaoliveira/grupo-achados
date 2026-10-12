@@ -26,7 +26,7 @@ ARQ_HTML = bot.PASTA / "painel.html"
 COOKIE = "painel"
 LOJAS = {"amazon": "Amazon", "mercadolivre": "Mercado Livre", "shopee": "Shopee"}
 CAMPOS = ("nome", "de", "por", "prime", "sem_prime", "cupom", "cupom_loja", "frase", "link", "link_produto",
-          "loja", "origem", "foto_origem", "aprovado_em", "aviso_validade", "ler_depois", "precisa_link", "chave", "aviso_preco", "titulo", "pix", "garimpado_em", "post_origem", "link_canal", "removido_em", "removido_de")
+          "loja", "origem", "foto_origem", "aprovado_em", "aviso_validade", "ler_depois", "precisa_link", "chave", "aviso_preco", "titulo", "pix", "garimpado_em", "post_origem", "link_canal", "removido_em", "removido_de", "fonte")
 
 _fotos = {}  # cache das fotos do Telegram (file_id -> bytes), para a tela abrir rápido
 
