@@ -2,20 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB54026101",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/2o6qkzs",
-      "link_produto": "https://www.mercadolivre.com.br/carregador-portatil-power-bank-turbo-20000mah-225w-universal-para-iphone-samsung-motorola-xiaomi-com-display-digital-dtimp/p/MLB54026101",
-      "foto": "AgACAgQAAxkDAAOGasyNQ9Ye9AeiwvUr5sWDTZCijQgAAp8Laxv9-KxRvzgLNkWza5UBAAMCAAN4AAM9BA",
-      "foto_origem": "loja",
-      "nome": "Carregador Portátil Turbo 20.000mAh com Visor LED",
-      "de": 299.0,
-      "por": 99.0,
-      "aprovado_em": "2026-10-12T04:34-03:00",
-      "titulo": "Nunca mais fique sem bateria"
-    },
-    {
       "loja": "shopee",
       "chave": "shopee:1537142489.58263646145",
       "origem": "lobaopromo",
@@ -125,6 +111,12 @@
       "loja": "mercadolivre",
       "nome": "Furadeira Parafusadeira 2 Bateria 21v 10mm + 349 Acessórios",
       "data": "2026-10-12T09:00-03:00"
+    },
+    {
+      "chave": "mercadolivre:MLB54026101",
+      "loja": "mercadolivre",
+      "nome": "Carregador Portátil Turbo 20.000mAh com Visor LED",
+      "data": "2026-10-12T10:00-03:00"
     }
   ],
   "slots_usados": {
@@ -133,7 +125,8 @@
     ],
     "2026-10-12": [
       8,
-      9
+      9,
+      10
     ]
   },
   "shopee_buscado_em": "",
@@ -397,15 +390,15 @@
   "proximo_id": 48,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84439,
-      "lobaopromo": 188428,
+      "xetdaspromocoes": 84441,
+      "lobaopromo": 188432,
       "gatunopromos": 124855,
-      "pobregram": 41747,
+      "pobregram": 41748,
       "urubupromo": 41564,
-      "tudonapromo": 101567,
-      "promonocontext": 125804,
+      "tudonapromo": 101570,
+      "promonocontext": 125808,
       "promooeasy": 220016,
-      "aquitempechincha": 280998,
+      "aquitempechincha": 281003,
       "infoBRpromos": 67397
     },
     "dia": "2026-10-12",
@@ -441,7 +434,7 @@
       "mercadolivre:MLB67893601"
     ],
     "ultima": {
-      "em": "2026-10-12T09:55:21-03:00",
+      "em": "2026-10-12T10:00:29-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 10,
@@ -456,6 +449,16 @@
     }
   },
   "ultimos": [
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB54026101",
+      "link": "https://meli.la/2o6qkzs",
+      "link_produto": "https://www.mercadolivre.com.br/carregador-portatil-power-bank-turbo-20000mah-225w-universal-para-iphone-samsung-motorola-xiaomi-com-display-digital-dtimp/p/MLB54026101",
+      "foto": "AgACAgQAAxkDAAOGasyNQ9Ye9AeiwvUr5sWDTZCijQgAAp8Laxv9-KxRvzgLNkWza5UBAAMCAAN4AAM9BA",
+      "nome": "Carregador Portátil Turbo 20.000mAh com Visor LED",
+      "de": 299.0,
+      "por": 99.0
+    },
     {
       "loja": "mercadolivre",
       "link": "https://meli.la/18y2P8F",
