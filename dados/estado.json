@@ -1,18 +1,6 @@
 {
   "offset_telegram": 217357892,
-  "fila": [
-    {
-      "loja": "amazon",
-      "link": "https://link.amazon/B05qTBYbL",
-      "chave": "amazon:https://link.amazon/B05qTBYbL",
-      "foto": "AgACAgEAAxkDAAOHasyabvyEah37Pnhy65SFG6guPjsAAjQQaxvw92FG7I2ItIePsQ4BAAMCAAN4AAM9BA",
-      "titulo": "Camiseta de treino com preço baixo",
-      "nome": "Camiseta Masculina Academia Trifil Poliamida Dry Fit",
-      "de": 116.99,
-      "por": 56.99,
-      "aprovado_em": "2026-10-12T05:30-03:00"
-    }
-  ],
+  "fila": [],
   "postados": [
     {
       "chave": "mercadolivre:https://meli.la/168a1Y6",
@@ -109,6 +97,12 @@
       "loja": "shopee",
       "nome": "Galaxy A57 5G (256GB) - Cinza + Galaxy Watch8 BT 44mm",
       "data": "2026-10-12T11:00-03:00"
+    },
+    {
+      "chave": "amazon:https://link.amazon/B05qTBYbL",
+      "loja": "amazon",
+      "nome": "Camiseta Masculina Academia Trifil Poliamida Dry Fit",
+      "data": "2026-10-12T12:00-03:00"
     }
   ],
   "slots_usados": {
@@ -119,7 +113,8 @@
       8,
       9,
       10,
-      11
+      11,
+      12
     ]
   },
   "shopee_buscado_em": "",
@@ -383,16 +378,16 @@
   "proximo_id": 48,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84464,
-      "lobaopromo": 188465,
+      "xetdaspromocoes": 84465,
+      "lobaopromo": 188466,
       "gatunopromos": 124870,
       "pobregram": 41760,
       "urubupromo": 41566,
-      "tudonapromo": 101595,
-      "promonocontext": 125863,
-      "promooeasy": 220067,
-      "aquitempechincha": 281054,
-      "infoBRpromos": 67406
+      "tudonapromo": 101596,
+      "promonocontext": 125866,
+      "promooeasy": 220068,
+      "aquitempechincha": 281056,
+      "infoBRpromos": 67408
     },
     "dia": "2026-10-12",
     "hoje": 20,
@@ -427,13 +422,13 @@
       "mercadolivre:MLB67893601"
     ],
     "ultima": {
-      "em": "2026-10-12T11:55:17-03:00",
+      "em": "2026-10-12T12:00:35-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 10,
       "lidos": 10,
       "falhas": [],
-      "posts_novos": 6,
+      "posts_novos": 7,
       "do_nicho": 0,
       "repetidas": 0,
       "novas": 0,
@@ -442,6 +437,15 @@
     }
   },
   "ultimos": [
+    {
+      "loja": "amazon",
+      "link": "https://link.amazon/B05qTBYbL",
+      "chave": "amazon:https://link.amazon/B05qTBYbL",
+      "foto": "AgACAgEAAxkDAAOHasyabvyEah37Pnhy65SFG6guPjsAAjQQaxvw92FG7I2ItIePsQ4BAAMCAAN4AAM9BA",
+      "nome": "Camiseta Masculina Academia Trifil Poliamida Dry Fit",
+      "de": 116.99,
+      "por": 56.99
+    },
     {
       "loja": "shopee",
       "chave": "shopee:1537142489.58263646145",
