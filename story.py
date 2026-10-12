@@ -11,7 +11,7 @@ import io
 import random
 from pathlib import Path
 
-from PIL import Image, ImageDraw, ImageFilter, ImageFont
+from PIL import Image, ImageChops, ImageDraw, ImageFilter, ImageFont
 
 PASTA = Path(__file__).resolve().parent / "assets"
 L, A = 1080, 1920
@@ -236,6 +236,20 @@ def story_fixo(canal="", cfg=None):
     return png(img)
 
 
+def encaixar_foto(foto, largura, altura):
+    """Foto do produto do tamanho da área: corta a borda branca em volta (fotos de loja costumam ter muita)
+    e amplia fotos pequenas, para o produto não ficar minúsculo no meio do card."""
+    f_img = Image.open(io.BytesIO(foto)).convert("RGB")
+    fundo_ = Image.new("RGB", f_img.size, (255, 255, 255))
+    caixa = ImageChops.difference(f_img, fundo_).convert("L").point(lambda v: 255 if v > 18 else 0).getbbox()
+    if caixa:
+        x0, y0, x1, y1 = caixa
+        folga = int(max(x1 - x0, y1 - y0) * 0.04)
+        f_img = f_img.crop((max(0, x0 - folga), max(0, y0 - folga), min(f_img.width, x1 + folga), min(f_img.height, y1 + folga)))
+    escala = min(largura / f_img.width, altura / f_img.height, 4)  # amplia até 4x; mais que isso fica borrado
+    return f_img.resize((max(1, int(f_img.width * escala)), max(1, int(f_img.height * escala))), Image.LANCZOS)
+
+
 def story_oferta(item, foto=None, canal="", frase=None, cfg=None):
     c = config(cfg)
     img = fundo()
@@ -253,8 +267,7 @@ def story_oferta(item, foto=None, canal="", frase=None, cfg=None):
         img.paste(lv2, ((L - lv2.width) // 2, cy0 + (cy1 - cy0 - lv2.height) // 2), lv2)
     if foto:
         try:
-            f_img = Image.open(io.BytesIO(foto)).convert("RGB")
-            f_img.thumbnail((cx1 - cx0 - 80, cy1 - cy0 - 80), Image.LANCZOS)
+            f_img = encaixar_foto(foto, cx1 - cx0 - 80, cy1 - cy0 - 80)
             img.paste(f_img, (cx0 + (cx1 - cx0 - f_img.width) // 2, cy0 + (cy1 - cy0 - f_img.height) // 2))
         except Exception:
             pass
@@ -330,9 +343,9 @@ def story_venda(item, foto=None, canal="", frase=None, cfg=None):
     d.rounded_rectangle((cx0, cy0, cx1, cy1), radius=44, fill=(255, 255, 255))
     if foto:
         try:
-            f_img = Image.open(io.BytesIO(foto)).convert("RGB")
-            f_img.thumbnail((cx1 - cx0 - 90, cy1 - cy0 - 90), Image.LANCZOS)
-            img.paste(f_img, (cx0 + (cx1 - cx0 - f_img.width) // 2, cy0 + (cy1 - cy0 - f_img.height) // 2))
+            topo = cy0 + 105  # abaixo do selo da loja e do desconto
+            f_img = encaixar_foto(foto, cx1 - cx0 - 90, cy1 - topo - 40)
+            img.paste(f_img, (cx0 + (cx1 - cx0 - f_img.width) // 2, topo + (cy1 - 40 - topo - f_img.height) // 2))
         except Exception:
             foto = None
     if not foto:
