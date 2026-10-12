@@ -1544,8 +1544,10 @@ def agenda_do_dia(data_iso):
 
 
 def _ultimo_post(estado, dt):
+    """Último post AGENDADO. O que você posta na mão ("postar agora") não empurra os horários da agenda."""
+    agendados = [p for p in estado.get("postados", []) if p.get("slot")]
     try:
-        ultimo = datetime.fromisoformat(estado["postados"][-1]["data"])
+        ultimo = datetime.fromisoformat(agendados[-1]["data"])
         return ultimo.replace(tzinfo=dt.tzinfo) if ultimo.tzinfo is None else ultimo
     except (IndexError, ValueError, KeyError):
         return None
