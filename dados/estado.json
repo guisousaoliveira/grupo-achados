@@ -106,6 +106,23 @@
       "titulo": "Desconto absurdo no teclado mecanico",
       "garimpado_em": "2026-10-12T14:10-03:00",
       "aprovado_em": "2026-10-12T14:12-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB2843236667",
+      "origem": "gatunopromos",
+      "link": "https://meli.la/33xceQY",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-2843236667-regata-academia-basica-_JM",
+      "post_origem": "https://t.me/gatunopromos/124881",
+      "link_canal": "https://meli.la/2BCRvtb",
+      "foto": "AgACAgQAAxkDAAOras0Uj4wlmhw13J9s-_-yS_fraD4AAuG7MRsKXq1TlkTBaX_2D_kBAAMCAAN4AAM9BA",
+      "foto_origem": "loja",
+      "nome": "Regata Academia Básica",
+      "de": 50.0,
+      "por": 39.92,
+      "titulo": "Garanta sua regata com desconto",
+      "garimpado_em": "2026-10-12T14:10-03:00",
+      "aprovado_em": "2026-10-12T14:13-03:00"
     }
   ],
   "postados": [
@@ -257,26 +274,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB2843236667",
-      "origem": "gatunopromos",
-      "link": "https://produto.mercadolivre.com.br/MLB-2843236667-regata-academia-basica-_JM?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-2843236667-regata-academia-basica-_JM",
-      "post_origem": "https://t.me/gatunopromos/124881",
-      "link_canal": "https://meli.la/2BCRvtb",
-      "foto": "AgACAgQAAxkDAAOras0Uj4wlmhw13J9s-_-yS_fraD4AAuG7MRsKXq1TlkTBaX_2D_kBAAMCAAN4AAM9BA",
-      "foto_origem": "loja",
-      "nome": "Regata Academia Básica",
-      "de": 50.0,
-      "por": 39.0,
-      "titulo": "Menor preço em regata de academia",
-      "id": 56,
-      "garimpado_em": "2026-10-12T14:10-03:00",
-      "msg_id": 171
-    }
-  ],
+  "revisar": [],
   "proximo_id": 57,
   "radar": {
     "visto": {
