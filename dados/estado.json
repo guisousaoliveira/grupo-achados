@@ -276,21 +276,6 @@
       "titulo": "Menor preço que vi nos últimos dias.",
       "id": 44,
       "msg_id": 150
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0B8PGDMWK",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0B8PGDMWK?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0B8PGDMWK?tag=alphadominu09-20",
-      "foto": "AgACAgQAAxkDAAOXaszL84CCwtCveiau0_yGgoNPB6AAAnW0MRv8QmRRwtRTm-gFitwBAAMCAAN5AAM9BA",
-      "foto_origem": "loja",
-      "nome": "Headset Gamer HyperX Cloud Stinger 2 - Preto + Frete Grátis",
-      "pix": true,
-      "por": 148.23,
-      "titulo": "Vale cada centavo nesse preço.",
-      "id": 45,
-      "msg_id": 151
     }
   ],
   "proximo_id": 52,
