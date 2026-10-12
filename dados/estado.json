@@ -39,22 +39,6 @@
       "msg_id": 31,
       "nome": "Gillette Mach3 Carga para Aparelho de Barbear 16 Unidades",
       "foto": "https://m.media-amazon.com/images/I/71trWiva9mL._AC_SL1000_.jpg"
-    },
-    {
-      "loja": "amazon",
-      "link": "https://link.amazon/B023PEkoV",
-      "ler_depois": true,
-      "chave": "amazon:https://link.amazon/B023PEkoV",
-      "id": 7,
-      "msg_id": 36,
-      "nome": "Philips OneBlade Barbeador e Aparador Elétrico: Raspa, Apara e Contorna",
-      "foto": "AgACAgEAAxkBAAMjaswn5bkgqTB7ZE0zoNFu0cguuXkAAhcQaxvw92FGUHz-KvNZZb0BAAMCAAN4AAM9BA",
-      "tentativas": 1,
-      "de": 244.74,
-      "por": 149.0,
-      "prime": false,
-      "cupom": "PHILIPS10",
-      "frase": "Menor preço que vi nos últimos dias."
     }
   ],
   "proximo_id": 8
