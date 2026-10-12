@@ -203,8 +203,11 @@ def resumo(estado):
         j = item_json(x, bot.id_story(x))
         j["previsao"] = previsao[i] if i < len(previsao) else ""
         fila.append(j)
+    prox = bot.proximo_post(estado, dt) if estado["fila"] else None
     return {
         "agora": dt.isoformat(timespec="minutes"),
+        # próximo post automático: o painel mostra o aviso e manda a notificação do navegador uns minutos antes
+        "proximo_post": {"quando": prox.isoformat(timespec="minutes"), "id": bot.id_story(estado["fila"][0])} if prox else None,
         "hora": dt.hour,
         "horarios": bot.CONFIG.get("horarios", []),
         "agenda_hoje": bot.agenda_do_dia(hoje),

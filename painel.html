@@ -90,6 +90,12 @@ main{min-width:0;padding:26px 34px 60px;max-width:1180px}
 .gb{display:flex;align-items:center;gap:8px}.gb b{font-size:13px;min-width:36px}
 .gtx{flex:1;height:6px;border-radius:9px;background:var(--card2);overflow:hidden}.gtx i{display:block;height:100%;background:var(--gold)}
 .gh i{font-style:normal}
+.prox-bn{display:flex;align-items:center;gap:14px;padding:12px 14px;margin-bottom:18px;border-radius:14px;border:1px solid var(--goldln);background:linear-gradient(90deg,var(--goldbg),transparent)}
+.prox-bn .ph{width:58px;height:58px;flex:none}.prox-bn .t{flex:1;min-width:0}
+.prox-bn small{display:flex;align-items:center;gap:6px;color:var(--gold2);font-size:12.5px}.prox-bn small b{color:var(--gold2)}
+.prox-bn .nm{font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin:2px 0}
+.prox-bn .a{display:flex;gap:6px;flex:none}
+@media (max-width:700px){.prox-bn{flex-wrap:wrap}.prox-bn .a{width:100%}.prox-bn .a .btn{flex:1;justify-content:center}}
 /* janela do story: imagem à esquerda, controles à direita (no celular, um embaixo do outro) */
 .modal.st{width:min(860px,calc(100% - 32px));padding:22px}
 .st-hd{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px}.st-hd h3{margin:0;font-size:17px}
@@ -512,7 +518,9 @@ async function carregar(forcar, sozinho){
   if (sozinho && antes !== null && E.revisar.length > antes) {
     const n = E.revisar.length - antes;
     toast(n === 1 ? 'Chegou 1 oferta nova para revisar.' : `Chegaram ${n} ofertas novas para revisar.`);
+    notificar(n === 1 ? 'Nova oferta para revisar' : `${n} ofertas novas para revisar`, E.revisar[0]?.nome || '', 'revisar', 'rev-' + E.revisar[0]?.id);
   }
+  avisarProximo();
   if (forcar) toast('Atualizado.');
 }
 async function fazer(btn, acao, id, dados, depois){
@@ -549,10 +557,54 @@ function desenhar(){
   const m = document.getElementById('main');
   if (pagina === 'nova' && m.dataset.p === 'nova' && document.getElementById('nova-ed')) return; // não apaga o que você está montando
   m.dataset.p = pagina;
-  m.innerHTML = ({inicio, revisar, fila, nova: novaPag, stories, historico, lixeira, links}[pagina] || inicio)();
+  m.innerHTML = (pagina === 'nova' ? '' : bannerProximo()) + ({inicio, revisar, fila, nova: novaPag, stories, historico, lixeira, links}[pagina] || inicio)();
   if (pagina === 'nova') ligarNova();
 }
 const topo = (t, s, acts='') => `<div class="top"><div><h1>${t}</h1>${s ? `<p>${s}</p>` : ''}</div><div class="acts">${acts}</div></div>`;
+
+/* -------- próximo post: aviso no painel e notificação do navegador -------- */
+const AVISO_MIN = 10;
+function proximoInfo(){
+  const p = E && E.proximo_post;
+  if (!p) return null;
+  const x = E.fila.find(f => f.id === p.id);
+  if (!x) return null;
+  const quando = new Date(p.quando);
+  return {x, quando, min: Math.round((quando - Date.now()) / 60000), hm: p.quando.slice(11, 16)};
+}
+function bannerProximo(){
+  const p = proximoInfo();
+  if (!p || p.min > AVISO_MIN + 5) return '';
+  const falta = p.min <= 0 ? 'saindo agora' : `em ${p.min} min`;
+  return `<div class="prox-bn">${foto(p.x)}<div class="t"><small>${ic('relogio',14)}Próximo post às <b>${p.hm}</b> · ${falta}</small><div class="nm">${esc(p.x.nome)}</div>
+      <div class="meta">${loja(p.x.loja)}${p.x.por ? `<span>${reais(p.x.por)}</span>` : ''}<span>confira se o preço ainda está certo</span></div></div>
+    <div class="a"><button class="btn sm" onclick="editar('fila','${p.x.id}')">${ic('editar',15)}Editar</button>
+      <button class="btn sm bad" onclick="fazer(this,'fila_remover','${p.x.id}')">${ic('lixo',15)}Tirar da fila</button></div></div>`;
+}
+const avisosLigados = () => { try { return 'Notification' in window && Notification.permission === 'granted' && localStorage.getItem('avisos') !== 'off'; } catch(e) { return false; } };
+const jaAvisei = new Set();
+function notificar(titulo, corpo, pagina, chave){
+  if (!avisosLigados() || jaAvisei.has(chave)) return;
+  jaAvisei.add(chave);
+  try {
+    const n = new Notification(titulo, {body: corpo, icon: '/painel/logo/leao', tag: chave});
+    n.onclick = () => { window.focus(); ir(pagina); n.close(); };
+  } catch(e) {}
+}
+function avisarProximo(){
+  const p = proximoInfo();
+  if (p && p.min <= AVISO_MIN && p.min >= -2)
+    notificar(`Sai às ${p.hm}: confira o preço`, p.x.nome + (p.x.por ? ` · ${reais(p.x.por)}` : ''), 'fila', 'post-' + p.x.id + '-' + p.hm);
+}
+async function alternarAvisos(){
+  if (!('Notification' in window)) return toast('Este navegador não tem notificações.', true);
+  if (avisosLigados()) { try { localStorage.setItem('avisos', 'off'); } catch(e) {} desenhar(); return toast('Avisos do navegador desligados.'); }
+  const r = Notification.permission === 'granted' ? 'granted' : await Notification.requestPermission();
+  if (r !== 'granted') return toast('O navegador bloqueou as notificações. Libere no cadeado ao lado do endereço do site.', true);
+  try { localStorage.setItem('avisos', 'on'); } catch(e) {}
+  desenhar(); toast('Pronto: aviso no navegador quando chegar oferta e uns minutos antes de cada post.');
+}
+const botaoAvisos = () => `<button class="btn ${avisosLigados() ? 'ghost' : ''}" onclick="alternarAvisos()" title="Notificação no navegador quando chegar oferta para revisar e antes de cada post">${avisosLigados() ? '🔔 Avisos ligados' : '🔕 Ativar avisos'}</button>`;
 
 /* -------- início -------- */
 function inicio(){
@@ -574,7 +626,7 @@ function inicio(){
     return `<div class="slot ${cls}" title="${esc(p ? p.nome : '')}"><b>${hm}</b><span>${sub}</span></div>`;
   }).join('');
   return topo(`${ola}`, `Resumo do Alpha Promo agora, ${new Date(E.agora).toLocaleDateString('pt-BR',{weekday:'long', day:'numeric', month:'long'})}.`,
-      `<button class="btn" onclick="carregar(true)">Atualizar</button><button class="btn gold" onclick="ir('nova')">${ic('nova',15)}Nova oferta</button>`)
+      `${botaoAvisos()}<button class="btn" onclick="carregar(true)">Atualizar</button><button class="btn gold" onclick="ir('nova')">${ic('nova',15)}Nova oferta</button>`)
     + (E.revisar.length ? `<div class="callout"><span class="badge">${E.revisar.length}</span><p><b>${E.revisar.length} oferta(s) esperando você.</b> O radar e os seus links caem aqui antes de ir para a fila.</p><button class="btn gold sm" onclick="ir('revisar')">Revisar</button></div>` : '')
     + (vencidas.length ? `<div class="callout warn"><span>⏰</span><p><b>${vencidas.length} na fila há mais de ${E.validade_horas}h.</b> Vale conferir se o preço ainda está de pé.</p><button class="btn sm" onclick="ir('fila')">Ver fila</button></div>` : '')
     + `<div class="grid4">
@@ -1241,7 +1293,8 @@ document.addEventListener('click', e => {
 
 pagina = location.hash.slice(1) || 'inicio';
 carregar();
-setInterval(() => { if (!document.hidden) carregar(false, true); }, 15000);
+// Com a aba escondida só continua conferindo se os avisos do navegador estiverem ligados (para poder notificar).
+setInterval(() => { if (!document.hidden || avisosLigados()) carregar(false, true); }, 15000);
 document.addEventListener('visibilitychange', () => { if (!document.hidden) carregar(false, true); });
 </script>
 </body>
