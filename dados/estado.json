@@ -261,6 +261,23 @@
       "na_revisao_desde": "2026-10-12T20:00-03:00",
       "de": 124.99,
       "aprovado_em": "2026-10-12T20:38-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB7776080994",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/1cKY6BV",
+      "link_produto": "https://meli.la/1cKY6BV",
+      "post_origem": "https://t.me/lobaopromo/188590",
+      "link_canal": "https://meli.la/1svt6Yx",
+      "foto": "AgACAgEAAxkDAAIBD2rNcfx_NI-LVoOi9VgqcRVEvlr3AAKSDWsb8PdpRh_entQIEX2QAQADAgADeQADPQQ",
+      "nome": "Tênis Fila Academia Corrida Caminhada Macio Treino Couro Lev",
+      "de": 333.0,
+      "por": 107.39,
+      "titulo": "Tênis Fila para treino e corrida",
+      "garimpado_em": "2026-10-12T20:10-03:00",
+      "na_revisao_desde": "2026-10-12T20:10-03:00",
+      "aprovado_em": "2026-10-12T20:51-03:00"
     }
   ],
   "postados": [
@@ -571,25 +588,6 @@
       "garimpado_em": "2026-10-12T20:10-03:00",
       "na_revisao_desde": "2026-10-12T20:10-03:00",
       "msg_id": 263
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB7776080994",
-      "origem": "lobaopromo",
-      "link": "https://produto.mercadolivre.com.br/MLB-7776080994-tnis-fila-academia-corrida-caminhada-macio-treino-couro-lev-_JM?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-7776080994-tnis-fila-academia-corrida-caminhada-macio-treino-couro-lev-_JM",
-      "post_origem": "https://t.me/lobaopromo/188590",
-      "link_canal": "https://meli.la/1svt6Yx",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_842160-MLB119021804587_102026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Tênis Fila Academia Corrida Caminhada Macio Treino Couro Lev",
-      "de": 333.0,
-      "por": 97.0,
-      "titulo": "Tênis Fila para treino e corrida com 71% off",
-      "id": 126,
-      "garimpado_em": "2026-10-12T20:10-03:00",
-      "na_revisao_desde": "2026-10-12T20:10-03:00",
-      "msg_id": 264
     },
     {
       "loja": "mercadolivre",
@@ -1593,7 +1591,7 @@
       },
       "lobaopromo": {
         "achados": 13,
-        "aprovados": 3,
+        "aprovados": 4,
         "reprovados": 7
       },
       "urubupromo": {
