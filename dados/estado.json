@@ -3,24 +3,6 @@
   "fila": [
     {
       "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB4113792113",
-      "origem": "promonocontext",
-      "link": "https://meli.la/347Y3aU",
-      "link_produto": "https://meli.la/347Y3aU",
-      "post_origem": "https://t.me/promonocontext/126017",
-      "link_canal": "https://meli.la/32WpkJK",
-      "foto": "AgACAgQAAxkDAAIBA2rNZDmPMrA4L_5rpQiqEIdrg5T6AAKjEGsbixvdU4xRZgvwu4PgAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Tênis Sandrini Aero Run Academia Caminhada Treino",
-      "de": 149.99,
-      "por": 59.99,
-      "titulo": "Tênis Sandrini com 60% off",
-      "garimpado_em": "2026-10-12T19:50-03:00",
-      "na_revisao_desde": "2026-10-12T19:50-03:00",
-      "aprovado_em": "2026-10-12T19:52-03:00"
-    },
-    {
-      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB2843236667",
       "origem": "gatunopromos",
       "link": "https://meli.la/33xceQY",
@@ -530,6 +512,14 @@
       "link": "https://link.amazon/B0hTKsXtq",
       "link_produto": "https://www.amazon.com.br/dp/B00Z0UWV3O?tag=alphadominu09-20",
       "slot": 19
+    },
+    {
+      "chave": "mercadolivre:MLB4113792113",
+      "loja": "mercadolivre",
+      "nome": "Tênis Sandrini Aero Run Academia Caminhada Treino",
+      "data": "2026-10-12T20:24-03:00",
+      "link": "https://meli.la/347Y3aU",
+      "link_produto": "https://meli.la/347Y3aU"
     }
   ],
   "slots_usados": {
@@ -794,6 +784,19 @@
     "promobit_visto": 3109265
   },
   "ultimos": [
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB4113792113",
+      "origem": "promonocontext",
+      "link": "https://meli.la/347Y3aU",
+      "link_produto": "https://meli.la/347Y3aU",
+      "post_origem": "https://t.me/promonocontext/126017",
+      "foto": "AgACAgQAAxkDAAIBA2rNZDmPMrA4L_5rpQiqEIdrg5T6AAKjEGsbixvdU4xRZgvwu4PgAQADAgADeAADPQQ",
+      "nome": "Tênis Sandrini Aero Run Academia Caminhada Treino",
+      "de": 149.99,
+      "por": 59.99,
+      "titulo": "Tênis Sandrini com 60% off"
+    },
     {
       "loja": "amazon",
       "chave": "amazon:B00Z0UWV3O",
