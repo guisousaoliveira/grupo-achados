@@ -88,6 +88,24 @@
       "por": 2099.0,
       "pix": true,
       "aprovado_em": "2026-10-12T13:38-03:00"
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B00Z0UWV3O",
+      "origem": "promooeasy",
+      "link": "https://link.amazon/B0hTKsXtq",
+      "link_produto": "https://www.amazon.com.br/dp/B00Z0UWV3O?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220105",
+      "link_canal": "https://www.amazon.com.br/dp/B00Z0UWV3O?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAOpas0RP067Bj9xHK-AirKnM0kGSGAAAisOaxsbPWRSR0odBpHqIwcBAAMCAAN4AAM9BA",
+      "foto_origem": "loja",
+      "nome": "Câmbio Logitech G Driving Force Compatível com Volantes Logitech G29, G920 e G923",
+      "por": 280.0,
+      "titulo": "Cambio para volante Logitech com desconto",
+      "garimpado_em": "2026-10-12T13:56-03:00",
+      "de": 469.9,
+      "pix": true,
+      "aprovado_em": "2026-10-12T13:59-03:00"
     }
   ],
   "postados": [
@@ -232,25 +250,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "amazon",
-      "chave": "amazon:B00Z0UWV3O",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B00Z0UWV3O?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B00Z0UWV3O?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/220105",
-      "link_canal": "https://www.amazon.com.br/dp/B00Z0UWV3O?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAOpas0RP067Bj9xHK-AirKnM0kGSGAAAisOaxsbPWRSR0odBpHqIwcBAAMCAAN4AAM9BA",
-      "foto_origem": "loja",
-      "nome": "Câmbio Logitech G Driving Force Compatível com Volantes Logitech G29, G920 e G923 para Ps5, Ps4, Xbox Series XS, Xbox On",
-      "por": 280.0,
-      "titulo": "Melhore seu setup gamer hoje com o câmbio Logitech pelo menor preço.",
-      "id": 54,
-      "garimpado_em": "2026-10-12T13:56-03:00",
-      "msg_id": 169
-    }
-  ],
+  "revisar": [],
   "proximo_id": 55,
   "radar": {
     "visto": {
