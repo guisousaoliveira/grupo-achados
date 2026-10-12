@@ -262,20 +262,6 @@
       "titulo": "Vale cada centavo nesse preço.",
       "id": 41,
       "msg_id": 147
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0HCQYG4NM",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0HCQYG4NM?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0HCQYG4NM?tag=alphadominu09-20",
-      "foto": "AgACAgQAAxkDAAOWaszL8H4tN1NyDkVdnPDGL_W-4-UAAgoOaxtJfpVTSWHwIm6FK90BAAMCAAN4AAM9BA",
-      "foto_origem": "loja",
-      "nome": "Onimusha Way Of The Sword - PS5 + Frete Grátis",
-      "por": 339.9,
-      "titulo": "Menor preço que vi nos últimos dias.",
-      "id": 44,
-      "msg_id": 150
     }
   ],
   "proximo_id": 52,
