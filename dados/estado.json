@@ -542,17 +542,37 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [],
-  "proximo_id": 122,
+  "revisar": [
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB4113792113",
+      "origem": "promonocontext",
+      "link": "https://produto.mercadolivre.com.br/MLB-4113792113-tnis-sandrini-aero-run-academia-caminhada-treino-_JM?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-4113792113-tnis-sandrini-aero-run-academia-caminhada-treino-_JM",
+      "post_origem": "https://t.me/promonocontext/126017",
+      "link_canal": "https://meli.la/32WpkJK",
+      "foto": "AgACAgQAAxkDAAIBA2rNZDmPMrA4L_5rpQiqEIdrg5T6AAKjEGsbixvdU4xRZgvwu4PgAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Tênis Sandrini Aero Run Academia Caminhada Treino",
+      "de": 149.0,
+      "por": 59.0,
+      "titulo": "Tênis Sandrini com 60% off",
+      "id": 122,
+      "garimpado_em": "2026-10-12T19:50-03:00",
+      "na_revisao_desde": "2026-10-12T19:50-03:00",
+      "msg_id": 259
+    }
+  ],
+  "proximo_id": 123,
   "radar": {
     "visto": {
       "xetdaspromocoes": 84504,
-      "lobaopromo": 188580,
-      "gatunopromos": 124956,
+      "lobaopromo": 188582,
+      "gatunopromos": 124959,
       "pobregram": 41782,
       "urubupromo": 41589,
       "tudonapromo": 101630,
-      "promonocontext": 126015,
+      "promonocontext": 126020,
       "promooeasy": 220237,
       "aquitempechincha": 281203,
       "infoBRpromos": 67419,
@@ -561,7 +581,7 @@
       "achadosdotb": 11757
     },
     "dia": "2026-10-12",
-    "hoje": 90,
+    "hoje": 91,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -660,27 +680,28 @@
       "amazon:B0GLSYH1KV",
       "amazon:B0HBWR14NG",
       "mercadolivre:MLB77830419",
-      "mercadolivre:MLB53342774"
+      "mercadolivre:MLB53342774",
+      "mercadolivre:MLB4113792113"
     ],
     "ultima": {
-      "em": "2026-10-12T19:40:17-03:00",
+      "em": "2026-10-12T19:50:19-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 33,
-      "do_nicho": 3,
+      "posts_novos": 16,
+      "do_nicho": 1,
       "repetidas": 0,
-      "novas": 3,
+      "novas": 1,
       "limite_dia": false,
-      "promobit": 1
+      "promobit": 0
     },
     "hora": "2026-10-12T19",
-    "nesta_hora": 4,
+    "nesta_hora": 5,
     "promobit_hora": "2026-10-12T19",
     "promobit_nesta_hora": 1,
-    "promobit_visto": 3109215
+    "promobit_visto": 3109221
   },
   "ultimos": [
     {
@@ -1420,7 +1441,7 @@
         "reprovados": 3
       },
       "promonocontext": {
-        "achados": 4,
+        "achados": 5,
         "aprovados": 4,
         "reprovados": 0
       },
