@@ -38,6 +38,20 @@
       "por": 99.0,
       "frase": "Tecnologia boa pelo preço certo.",
       "aprovado_em": "2026-10-12T04:34-03:00"
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:1537142489.58263646145",
+      "origem": "lobaopromo",
+      "link": "https://s.shopee.com.br/6q1Q4Ndupi",
+      "link_produto": "https://shopee.com.br/product/1537142489/58263646145",
+      "foto": "AgACAgEAAxkDAAOEasyNP_u1-E_s2J-D44fOvmHKRB8AAi8Qaxvw92FGi35TtFAgbGQBAAMCAAN4AAM9BA",
+      "foto_origem": "canal",
+      "nome": "Galaxy A57 5G (256GB) - Cinza + Galaxy Watch8 BT 44mm",
+      "por": 2808.76,
+      "frase": "Vale cada centavo nesse preço.",
+      "cupom": "🎟️ Resgate o cupom de R$100 no anúncio",
+      "aprovado_em": "2026-10-12T04:39-03:00"
     }
   ],
   "postados": [
@@ -116,22 +130,6 @@
   },
   "shopee_buscado_em": "",
   "revisar": [
-    {
-      "loja": "shopee",
-      "chave": "shopee:1537142489.58263646145",
-      "origem": "lobaopromo",
-      "link": "https://shopee.com.br/product/1537142489/58263646145",
-      "link_produto": "https://shopee.com.br/product/1537142489/58263646145",
-      "precisa_link": true,
-      "foto": "AgACAgEAAxkDAAOEasyNP_u1-E_s2J-D44fOvmHKRB8AAi8Qaxvw92FGi35TtFAgbGQBAAMCAAN4AAM9BA",
-      "foto_origem": "canal",
-      "nome": "Galaxy A57 5G (256GB) - Cinza + Galaxy Watch8 BT 44mm",
-      "de": 2808.76,
-      "por": 100.0,
-      "frase": "Desconto de 96%: é agora ou nunca.",
-      "id": 28,
-      "msg_id": 132
-    },
     {
       "loja": "shopee",
       "chave": "shopee:1083800536.58216638809",
