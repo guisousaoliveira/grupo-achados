@@ -6,6 +6,9 @@ on:
       urls:
         description: "Endereços separados por espaço"
         required: true
+      script:
+        description: "Script de ferramentas/ (padrão teste_sites.py)"
+        required: false
 
 jobs:
   testar:
@@ -16,4 +19,4 @@ jobs:
       - name: Testar sites
         env:
           URLS: ${{ inputs.urls }}
-        run: python3 ferramentas/teste_sites.py $URLS
+        run: python3 ferramentas/${{ inputs.script || 'teste_sites.py' }} $URLS
