@@ -213,6 +213,27 @@
       "na_revisao_desde": "2026-10-12T17:00-03:00",
       "de": 199.0,
       "aprovado_em": "2026-10-12T17:05-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB5364050300",
+      "origem": "promonocontext",
+      "link": "https://meli.la/23Es6kZ",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-5364050300-tnis-masculino-olympikus-marte-macio-leve-_JM",
+      "post_origem": "https://t.me/promonocontext/125964",
+      "link_canal": "https://meli.la/2iEKRZz",
+      "foto": "AgACAgQAAxkDAAPaas08bxhi-eoZYOVIad8DlMrS9tYAAli6MRvumwVQL5NanykFRKoBAAMCAAN4AAM9BA",
+      "foto_origem": "loja",
+      "nome": "Tênis Masculino Olympikus Marte Macio Leve",
+      "de": 246.94,
+      "por": 165.21,
+      "titulo": "Tênis Olympikus leve para o dia a dia",
+      "garimpado_em": "2026-10-12T17:00-03:00",
+      "na_revisao_desde": "2026-10-12T17:00-03:00",
+      "parcelas": 8,
+      "parcela_valor": 23.74,
+      "pix": true,
+      "aprovado_em": "2026-10-12T17:07-03:00"
     }
   ],
   "postados": [
@@ -418,25 +439,6 @@
   },
   "shopee_buscado_em": "",
   "revisar": [
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB5364050300",
-      "origem": "promonocontext",
-      "link": "https://produto.mercadolivre.com.br/MLB-5364050300-tnis-masculino-olympikus-marte-macio-leve-_JM?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-5364050300-tnis-masculino-olympikus-marte-macio-leve-_JM",
-      "post_origem": "https://t.me/promonocontext/125964",
-      "link_canal": "https://meli.la/2iEKRZz",
-      "foto": "AgACAgQAAxkDAAPaas08bxhi-eoZYOVIad8DlMrS9tYAAli6MRvumwVQL5NanykFRKoBAAMCAAN4AAM9BA",
-      "foto_origem": "loja",
-      "nome": "Tênis Masculino Olympikus Marte Macio Leve",
-      "de": 300.0,
-      "por": 165.0,
-      "titulo": "Tênis Olympikus com 45% off",
-      "id": 88,
-      "garimpado_em": "2026-10-12T17:00-03:00",
-      "na_revisao_desde": "2026-10-12T17:00-03:00",
-      "msg_id": 218
-    },
     {
       "loja": "amazon",
       "chave": "amazon:B0DP5K22XJ",
@@ -940,7 +942,7 @@
       },
       "promonocontext": {
         "achados": 1,
-        "aprovados": 0,
+        "aprovados": 1,
         "reprovados": 0
       }
     }
