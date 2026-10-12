@@ -51,13 +51,29 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [],
-  "proximo_id": 17,
+  "revisar": [
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB29164669",
+      "origem": "gatunopromos",
+      "link": "https://www.mercadolivre.com.br/aparador-barbeador-kemei-km-6558-recarregavel-sem-fio-3-em-1-bivolt-preto/p/MLB29164669?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/aparador-barbeador-kemei-km-6558-recarregavel-sem-fio-3-em-1-bivolt-preto/p/MLB29164669",
+      "foto": "AgACAgEAAxkDAANaasxD5zxWchO2UzHVpsN7VBAmIE4AAh0Qaxvw92FGcjkRCZaC3QMBAAMCAAN4AAM9BA",
+      "foto_origem": "canal",
+      "nome": "Aparador Barbeador Kemei Recarregável 3 Em 1",
+      "de": 79.0,
+      "por": 46.79,
+      "frase": "Preço de queima, 41% mais barato.",
+      "id": 17,
+      "msg_id": 90
+    }
+  ],
+  "proximo_id": 18,
   "radar": {
     "visto": {
       "xetdaspromocoes": 84418,
       "lobaopromo": 188358,
-      "gatunopromos": 124811,
+      "gatunopromos": 124812,
       "pobregram": 41737,
       "urubupromo": 41551,
       "tudonapromo": 101548,
@@ -67,11 +83,12 @@
       "infoBRpromos": 67366
     },
     "dia": "2026-10-11",
-    "hoje": 3,
+    "hoje": 4,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
-      "mercadolivre:MLB4250522675"
+      "mercadolivre:MLB4250522675",
+      "mercadolivre:MLB29164669"
     ]
   },
   "ultimos": [
