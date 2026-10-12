@@ -15,6 +15,22 @@
       "cupom": "COMPRANOMELI",
       "titulo": "Preço de queima, 79% mais barato.",
       "aprovado_em": "2026-10-12T12:35-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB76427437",
+      "origem": "xetdaspromocoes",
+      "link": "https://meli.la/1JvU7yJ",
+      "link_produto": "https://www.mercadolivre.com.br/lanterna-tatica-recarregavel-atualizada-led-visor-digital-zoom-telescopico-abs-3-modos-iluminacao-usb-display-digital-zoom-potente-alta-potencia-commlite/p/MLB76427437",
+      "post_origem": "https://t.me/xetdaspromocoes/84477",
+      "link_canal": "https://meli.la/2KsVn1P",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_833234-MLA116884183450_092026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Lanterna Tática Recarregável Atualizada Led Visor Digital Zoom",
+      "de": 57.0,
+      "por": 19.0,
+      "garimpado_em": "2026-10-12T12:55-03:00",
+      "aprovado_em": "2026-10-12T13:01-03:00"
     }
   ],
   "postados": [
@@ -348,24 +364,6 @@
       "titulo": "Achado do dia, aproveita antes de acabar.",
       "id": 47,
       "msg_id": 153
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB76427437",
-      "origem": "xetdaspromocoes",
-      "link": "https://www.mercadolivre.com.br/lanterna-tatica-recarregavel-atualizada-led-visor-digital-zoom-telescopico-abs-3-modos-iluminacao-usb-display-digital-zoom-potente-alta-potencia-commlite/p/MLB76427437?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/lanterna-tatica-recarregavel-atualizada-led-visor-digital-zoom-telescopico-abs-3-modos-iluminacao-usb-display-digital-zoom-potente-alta-potencia-commlite/p/MLB76427437",
-      "post_origem": "https://t.me/xetdaspromocoes/84477",
-      "link_canal": "https://meli.la/2KsVn1P",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_833234-MLA116884183450_092026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Lanterna Tática Recarregável Atualizada Led Visor Digital Zoom",
-      "de": 57.0,
-      "por": 19.0,
-      "titulo": "67% off, isso aqui não fica muito tempo assim.",
-      "id": 50,
-      "garimpado_em": "2026-10-12T12:55-03:00",
-      "msg_id": 160
     }
   ],
   "proximo_id": 51,
