@@ -627,27 +627,66 @@
       "garimpado_em": "2026-10-12T18:50-03:00",
       "na_revisao_desde": "2026-10-12T18:50-03:00",
       "msg_id": 251
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB4176446999",
+      "origem": "promonocontext",
+      "link": "https://produto.mercadolivre.com.br/MLB-4176446999-relogio-luxo-poedagar-masculino-pulseira-em-couro-funcional-_JM?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-4176446999-relogio-luxo-poedagar-masculino-pulseira-em-couro-funcional-_JM",
+      "post_origem": "https://t.me/promonocontext/125985",
+      "link_canal": "https://meli.la/1SbTynn",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_632932-MLB105966928572_022026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Relógio Luxo Poedagar Masculino Pulseira Em Couro Funcional",
+      "cupom_loja": "Aplique o Cupom de 10% OFF 📌",
+      "de": 320.0,
+      "por": 104.0,
+      "titulo": "Relógio masculino Poedagar com 68% off",
+      "id": 116,
+      "garimpado_em": "2026-10-12T19:10-03:00",
+      "na_revisao_desde": "2026-10-12T19:10-03:00",
+      "msg_id": 252
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0GLSYH1KV",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0GLSYH1KV?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0GLSYH1KV?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220232",
+      "link_canal": "https://www.amazon.com.br/dp/B0GLSYH1KV?tag=promof26-20",
+      "foto": "AgACAgEAAxkDAAP9as1a4eCqE3VAA8LCca_IiwqktvUAAoINaxvw92lGWX2ZS9lMaaIBAAMCAAN4AAM9BA",
+      "foto_origem": "canal",
+      "nome": "Redragon Gabinete Gamer Eternal Pro Mid Tower Aço e Vidro Temperado Sem Fans c/ Tela Lcd Atx Preto e Vermelho Ca-613Br",
+      "parcelas": 10,
+      "por": 433.0,
+      "titulo": "Gabinete Redragon Eternal Pro com 37% off",
+      "id": 117,
+      "garimpado_em": "2026-10-12T19:10-03:00",
+      "na_revisao_desde": "2026-10-12T19:10-03:00",
+      "msg_id": 253
     }
   ],
-  "proximo_id": 116,
+  "proximo_id": 118,
   "radar": {
     "visto": {
       "xetdaspromocoes": 84504,
-      "lobaopromo": 188564,
-      "gatunopromos": 124946,
+      "lobaopromo": 188565,
+      "gatunopromos": 124949,
       "pobregram": 41780,
       "urubupromo": 41588,
       "tudonapromo": 101630,
-      "promonocontext": 125979,
-      "promooeasy": 220230,
-      "aquitempechincha": 281189,
-      "infoBRpromos": 67417,
+      "promonocontext": 125987,
+      "promooeasy": 220232,
+      "aquitempechincha": 281194,
+      "infoBRpromos": 67418,
       "boletando": 76618,
       "promotop": 260184,
-      "achadosdotb": 11756
+      "achadosdotb": 11757
     },
     "dia": "2026-10-12",
-    "hoje": 85,
+    "hoje": 87,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -741,27 +780,29 @@
       "amazon:B0DT4DHZ6R",
       "amazon:B0B4DT2DBJ",
       "amazon:B0F258T13X",
-      "mercadolivre:MLB54151538"
+      "mercadolivre:MLB54151538",
+      "mercadolivre:MLB4176446999",
+      "amazon:B0GLSYH1KV"
     ],
     "ultima": {
-      "em": "2026-10-12T19:00:27-03:00",
+      "em": "2026-10-12T19:10:18-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 14,
-      "do_nicho": 0,
-      "repetidas": 0,
-      "novas": 0,
+      "posts_novos": 23,
+      "do_nicho": 3,
+      "repetidas": 1,
+      "novas": 2,
       "limite_dia": false,
       "promobit": 0
     },
     "hora": "2026-10-12T19",
-    "nesta_hora": 0,
+    "nesta_hora": 2,
     "promobit_hora": "2026-10-12T19",
     "promobit_nesta_hora": 0,
-    "promobit_visto": 3109176
+    "promobit_visto": 3109178
   },
   "ultimos": [
     {
@@ -1268,7 +1309,7 @@
   "garimpo": {
     "2026-10-12": {
       "promooeasy": {
-        "achados": 17,
+        "achados": 18,
         "aprovados": 4,
         "reprovados": 13
       },
@@ -1303,7 +1344,7 @@
         "reprovados": 3
       },
       "promonocontext": {
-        "achados": 2,
+        "achados": 3,
         "aprovados": 2,
         "reprovados": 0
       },
