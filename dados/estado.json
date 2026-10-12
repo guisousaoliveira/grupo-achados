@@ -1,17 +1,6 @@
 {
   "offset_telegram": 217357892,
-  "fila": [
-    {
-      "loja": "mercadolivre",
-      "link": "https://meli.la/28z9La1",
-      "por": 184.3,
-      "de": 349.99,
-      "nome": "Tênis Flyer Runner Mesh Bdp Puma",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_730513-MLB80451340719_112024-O.webp",
-      "chave": "mercadolivre:https://meli.la/28z9La1",
-      "frase": "Preço de queima, 47% mais barato."
-    }
-  ],
+  "fila": [],
   "postados": [
     {
       "chave": "mercadolivre:https://meli.la/168a1Y6",
@@ -30,6 +19,12 @@
       "loja": "amazon",
       "nome": "Philips OneBlade Barbeador e Aparador Elétrico: Raspa, Apara e Contorna",
       "data": "2026-10-11T21:24-03:00"
+    },
+    {
+      "chave": "mercadolivre:https://meli.la/28z9La1",
+      "loja": "mercadolivre",
+      "nome": "Tênis Flyer Runner Mesh Bdp Puma",
+      "data": "2026-10-11T22:25-03:00"
     }
   ],
   "slots_usados": {
@@ -70,5 +65,14 @@
     "dia": "2026-10-11",
     "hoje": 0,
     "chaves": []
-  }
+  },
+  "ultimos": [
+    {
+      "loja": "mercadolivre",
+      "por": 184.3,
+      "de": 349.99,
+      "nome": "Tênis Flyer Runner Mesh Bdp Puma",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_730513-MLB80451340719_112024-O.webp"
+    }
+  ]
 }
