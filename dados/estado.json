@@ -383,10 +383,10 @@
       "pobregram": 41764,
       "urubupromo": 41569,
       "tudonapromo": 101602,
-      "promonocontext": 125883,
-      "promooeasy": 220084,
-      "aquitempechincha": 281068,
-      "infoBRpromos": 67409
+      "promonocontext": 125884,
+      "promooeasy": 220085,
+      "aquitempechincha": 281072,
+      "infoBRpromos": 67410
     },
     "dia": "2026-10-12",
     "hoje": 20,
@@ -421,13 +421,13 @@
       "mercadolivre:MLB67893601"
     ],
     "ultima": {
-      "em": "2026-10-12T12:40:18-03:00",
+      "em": "2026-10-12T12:45:19-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 10,
       "lidos": 10,
       "falhas": [],
-      "posts_novos": 5,
+      "posts_novos": 4,
       "do_nicho": 0,
       "repetidas": 0,
       "novas": 0,
