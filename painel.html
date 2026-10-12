@@ -224,6 +224,12 @@ textarea.in{resize:vertical;min-height:64px}
 .alert.ok{background:var(--okbg);border-color:rgba(62,207,142,.35);color:#b7f0d3}
 .alert.warn{background:var(--warnbg);border-color:rgba(245,165,36,.4);color:#ffd99a}
 .alert.bad{background:var(--badbg);border-color:rgba(242,85,90,.4);color:#ffc0c2}
+.in-ia{position:relative}.in-ia .in{padding-right:44px}
+.ia-bt{position:absolute;right:6px;top:50%;transform:translateY(-50%);width:32px;height:32px;border-radius:8px;border:0;background:transparent;color:var(--gold);display:grid;place-items:center;cursor:pointer}
+.ia-bt:hover{background:var(--goldbg)}.ia-bt:disabled{cursor:wait}
+.ia-bt.gerando svg{animation:brilho 1s ease-in-out infinite}
+@keyframes brilho{0%,100%{opacity:.35;transform:scale(.85)}50%{opacity:1;transform:scale(1.1)}}
+.in.brilhou{border-color:var(--gold);box-shadow:0 0 0 3px var(--goldbg);transition:.3s}
 .iabox{border:1px solid var(--goldln);background:linear-gradient(180deg,rgba(212,175,55,.08),rgba(212,175,55,.02));border-radius:12px;padding:12px}
 .iabox .h{display:flex;align-items:center;gap:8px;justify-content:space-between}
 .iabox .h b{display:flex;gap:7px;align-items:center;color:var(--gold2)}
@@ -473,6 +479,8 @@ function montarPost(x){
   const pix = x.pix ? ' no Pix' : '';
   if (x.por && o) p.push(`De <s>${reais(x.de)}</s> por <b>${reais(x.por)}</b>${pix} (${o}% off)`);
   else if (x.por) p.push(`Por <b>${reais(x.por)}</b>${pix}`);
+  const np = parseInt(x.parcelas);
+  if (x.por && np >= 2 && np <= 24) p.push(`ou ${np}x de ${reais(x.parcela_valor || x.por / np)} sem juros`);
   if (x.prime) p.push(`Preço exclusivo para membros Prime${x.sem_prime ? ` (sem Prime: ${reais(x.sem_prime)})` : ''}`);
   if (p.length) b.push(p.join('<br>'));
   if (x.cupom) b.push(`🎟️ Cupom: <code>${esc(x.cupom)}</code>`);
@@ -758,8 +766,8 @@ async function gerarLink(lojaId, url){
 function editorHTML(x, p){
   return `<div class="ed"><div class="f">
     <div id="${p}-alerta"></div>
-    <div class="fl"><label>Título (chamada no topo do post) <span>opcional</span></label><input class="in" id="${p}-titulo" value="${esc(x.titulo)}" placeholder="Ex.: Troca o celular e ganha o relógio"></div>
-    <div class="fl"><label>Nome do produto <span id="${p}-cnt"></span></label><input class="in" id="${p}-nome" value="${esc(x.nome)}" placeholder="Ex.: Creatina Growth 250g"></div>
+    <div class="fl"><label>Título (chamada no topo do post) <span>opcional</span></label><div class="in-ia"><input class="in" id="${p}-titulo" value="${esc(x.titulo)}" placeholder="Ex.: Troca o celular e ganha o relógio">${botaoIA(p, 'titulo')}</div></div>
+    <div class="fl"><label>Nome do produto <span id="${p}-cnt"></span></label><div class="in-ia"><input class="in" id="${p}-nome" value="${esc(x.nome)}" placeholder="Ex.: Creatina Growth 250g">${botaoIA(p, 'nome')}</div></div>
     <div class="two">
       <div class="fl"><label>Preço antes (De)</label><input class="in" id="${p}-de" inputmode="decimal" value="${num(x.de)}" placeholder="opcional"></div>
       <div class="fl"><label>Preço agora (Por)</label><input class="in" id="${p}-por" inputmode="decimal" value="${num(x.por)}" placeholder="69,90"></div>
@@ -769,6 +777,7 @@ function editorHTML(x, p){
       <label class="chk"><input type="checkbox" id="${p}-prime" ${x.prime?'checked':''}>Preço exclusivo Prime</label></div>
       <div class="fl" id="${p}-semprime-w" style="${x.prime?'':'display:none'}"><label>Preço sem Prime</label><input class="in" id="${p}-sem_prime" inputmode="decimal" value="${num(x.sem_prime)}" placeholder="opcional"></div>
     </div>
+    <div class="fl"><label>Parcelas sem juros <span>opcional</span></label><input class="in" id="${p}-parcelas" value="${esc(textoParcelas(x))}" placeholder="Ex.: 4  (ou 10x 39,90 para dizer o valor)"></div>
     <div class="fl"><label>Cupom ${x.cupom_loja && !x.cupom ? `<span>${esc(x.cupom_loja)}</span>` : ''}</label><input class="in" id="${p}-cupom" value="${esc(x.cupom)}" placeholder="opcional"></div>
     <div class="fl"><label>Seu link de afiliado <span class="atalhos">${(x.link_produto || x.url) ? `<a href="${esc(x.link_produto || x.url)}" target="_blank" rel="noopener">${marca(x.loja)}abrir produto</a>` : ''}${x.post_origem ? `<a href="${esc(x.post_origem)}" target="_blank" rel="noopener">${x.fonte === 'promobit' ? '<span class="mk pb">P</span>oferta no Promobit' : marca('tg') + 'post original'}</a>` : ''}</span></label><input class="in" id="${p}-link" value="${esc(x.link)}" placeholder="https://...">${gerarLinkHTML(x)}</div>
     <div class="fl"><label>Foto</label><div class="fotoed"><span id="${p}-fotoph">${foto(x)}</span>
@@ -776,12 +785,16 @@ function editorHTML(x, p){
       <button class="btn sm ghost" onclick="colarFotoURL('${p}')">Usar endereço de imagem</button>
       <span class="hint" style="margin:0;width:100%">ou copie uma imagem e aperte Ctrl+V aqui (ou arraste para a tela)</span></div></div>
       ${x.foto_origem === 'canal' ? '<div class="hint">Essa é a foto do canal de origem. Colar o seu link meli.la no campo de link costuma trocar pela foto oficial.</div>' : ''}</div>
-    <div class="iabox"><div class="h"><b>${ic('ia',16)}Sugestões da IA</b><button class="btn sm" onclick="pedirIA(this,'${p}')">Sugerir título e nome</button></div>
-      <div id="${p}-ia"><div class="hint" style="margin-top:6px">${E.ia ? 'A IA olha a foto, o nome e o preço e sugere títulos e nomes. Toque numa sugestão para usar.' : 'IA desligada: sem a chave GEMINI_API_KEY no Render, as sugestões vêm do banco de frases do bot.'}</div></div></div>
   </div>
   <div class="prev"><div class="lbl"><span>Como fica no canal</span><span>prévia</span></div><div class="tg"><div class="bub" id="${p}-bub"></div></div></div></div>`;
 }
-const FORM = ['titulo','nome','de','por','sem_prime','cupom','link'];
+const FORM = ['titulo','nome','de','por','sem_prime','cupom','link','parcelas'];
+const textoParcelas = x => x.parcelas ? `${x.parcelas}x${x.parcela_valor ? ' ' + num(x.parcela_valor) : ''}` : '';
+function lerParcelas(t){  // mesmo jeito do bot: "4", "10x 39,90"
+  const m = String(t || '').match(/(\d{1,2})\s*(?:x|vezes)?(?:\s*(?:de)?\s*(?:R\$)?\s*(\d[\d.]*,\d{2}|\d+(?:\.\d{2})?))?/i);
+  if (!m || +m[1] < 2 || +m[1] > 24) return {parcelas: 0, parcela_valor: 0};
+  return {parcelas: +m[1], parcela_valor: m[2] ? preco(m[2]) : 0};
+}
 function dadosForm(p, x){
   const g = k => document.getElementById(`${p}-${k}`).value.trim();
   const d = {}; FORM.forEach(k => d[k] = g(k));
@@ -793,7 +806,7 @@ function dadosForm(p, x){
 function ligarEditor(p, x){
   const atual = () => {
     const d = dadosForm(p, x);
-    const y = {...x, ...d, foto: x.foto, de: preco(d.de), por: preco(d.por), sem_prime: preco(d.sem_prime)};  // d.foto é o código do Telegram; a prévia usa o endereço
+    const y = {...x, ...d, foto: x.foto, de: preco(d.de), por: preco(d.por), sem_prime: preco(d.sem_prime), ...lerParcelas(d.parcelas)};  // d.foto é o código do Telegram; a prévia usa o endereço
     if (!d.cupom) y.cupom = '';
     document.getElementById(`${p}-bub`).innerHTML = (y.foto ? `<div class="im"><img src="${esc(y.foto)}" alt="" onerror="this.parentNode.remove()"></div>` : '')
       + `<div class="ch">Alpha Promo</div><div class="tx">${montarPost(y)}</div><div class="hr">${String(new Date().getHours()).padStart(2,'0')}:00</div>`;
@@ -876,21 +889,19 @@ function trocarFoto(p, url, raw){
   document.getElementById(`${p}-fotoph`).innerHTML = foto(x);
   x._atual && x._atual();
 }
-async function pedirIA(btn, p){
+const botaoIA = (p, campo) => `<button class="ia-bt" type="button" title="${campo === 'titulo' ? 'Gerar um título com a IA' : 'Gerar um nome curto com a IA'}" onclick="pedirIA(this,'${p}','${campo}')">${ic('ia',16)}</button>`;
+async function pedirIA(btn, p, campo){
   const x = p === 'dr' ? ED.x : nova.item;
-  const d = {...dadosForm(p, x), loja: x.loja, foto_raw: x.foto_raw};
-  const r = await fazer(btn, 'ia', '', d);
-  if (r.erro) return;
-  const alvo = document.getElementById(`${p}-ia`);
-  const lista = (t, campo, arr) => arr.length ? `<small>${t}</small>` + arr.map(s => `<button class="chip" data-c="${campo}">${esc(s)}</button>`).join('') : '';
-  alvo.innerHTML = `<div class="sug">${lista('Títulos (chamada)', 'titulo', r.titulos || [])}${lista('Nomes', 'nome', r.nomes || [])}</div>`
-    + (r.nota ? `<div class="nota">💡 ${esc(r.nota)}</div>` : '')
-    + (r.sem_chave ? '<div class="hint">Essas vieram do banco de frases. Com a chave da Gemini no Render, a IA olha a foto e escreve sugestões novas.</div>' : '');
-  alvo.querySelectorAll('.chip').forEach(c => c.onclick = () => {
-    const campo = document.getElementById(`${p}-${c.dataset.c}`);
-    campo.value = c.textContent; campo.dispatchEvent(new Event('input'));
-    alvo.querySelectorAll(`.chip[data-c="${c.dataset.c}"]`).forEach(o => o.classList.remove('on')); c.classList.add('on');
-  });
+  const d = {...dadosForm(p, x), loja: x.loja, campo};
+  btn.classList.add('gerando'); btn.disabled = true;
+  let r = {};
+  try { r = await api('ia', '', d); } catch(e) { r = {erro: 'Sem conexão com o servidor.'}; }
+  btn.classList.remove('gerando'); btn.disabled = false;
+  if (r.erro) return toast(r.erro, true);
+  if (!r.texto) return toast('A IA não trouxe nada desta vez. Tente de novo.', true);
+  const el = document.getElementById(`${p}-${campo}`);
+  el.value = r.texto; el.dispatchEvent(new Event('input'));
+  el.classList.add('brilhou'); setTimeout(() => el.classList.remove('brilhou'), 900);
 }
 
 /* -------- nova oferta -------- */
@@ -965,11 +976,11 @@ async function abrirStory(tipo, id, frase){
         <button class="btn icon" title="Usar esta frase" onclick="abrirStory('${tipo}','${id}',document.getElementById('st-frase').value)">✓</button>
         <button class="btn icon" title="Sortear outra frase" onclick="abrirStory('${tipo}','${id}')">${ic('sortear',17)}</button></div></div>`;
   const linkRow = (logo, rot, sub, val, msg) => `<button class="st-link" onclick="copiarTexto(${esc(JSON.stringify(val))}, '${msg}')">${logo}<span class="t"><b>${rot}</b><small>${esc(sub)}</small></span>${ic('copiar',17)}</button>`;
-  const links = venda && x ? `<div class="st-sec"><div class="st-lb">Links para o sticker do Instagram</div>
-      ${linkRow(marca(x.loja), 'Link do produto', (x.link || '').replace(/^https?:\/\//, ''), x.link || '', 'Link do produto copiado. Cole no sticker de link.')}
-      ${canalURL ? linkRow(marca('tg'), 'Link do canal', canalURL.replace('https://', ''), canalURL, 'Link do canal copiado.') : ''}</div>` : '';
-  const dica = fixo ? '<p class="hint" style="margin:0">Poste e coloque o sticker de link do canal na parte de baixo.</p>'
-    : venda ? '<p class="hint" style="margin:0">No Instagram: sticker de link, cole o link e troque o texto do sticker para algo como “COMPRAR NA LOJA”.</p>' : '';
+  const rowProd = venda && x ? linkRow(marca(x.loja), 'Link do produto', (x.link || '').replace(/^https?:\/\//, ''), x.link || '', 'Link do produto copiado. Cole no sticker de link.') : '';
+  const rowCanal = canalURL ? linkRow(marca('tg'), 'Link do canal', canalURL.replace('https://', ''), canalURL, 'Link do canal copiado. Cole no sticker de link.') : '';
+  const links = rowProd || rowCanal ? `<div class="st-sec"><div class="st-lb">${rowProd ? 'Links' : 'Link'} para o sticker do Instagram</div>${rowProd}${rowCanal}</div>` : '';
+  const dica = venda ? '<p class="hint" style="margin:0">No Instagram: sticker de link, cole o link e troque o texto do sticker para algo como “COMPRAR NA LOJA”.</p>'
+    : '<p class="hint" style="margin:0">No Instagram: sticker de link na parte de baixo, cole o link do canal.</p>';
   m.classList.add('st');
   m.innerHTML = `<div class="st-hd"><h3>${fixo ? 'Story fixo do canal' : 'Story'}</h3><button class="btn icon sm ghost" onclick="fecharTudo()" aria-label="Fechar">✕</button></div>
     <div class="st-grid">

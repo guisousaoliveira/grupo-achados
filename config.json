@@ -66,7 +66,7 @@
       "Preço bom assim não dura, corre!",
       "Achado do dia, aproveita antes de acabar.",
       "Vale cada centavo nesse preço.",
-      "Menor preço que vi nos últimos dias.",
+      "Preço bom, vale conferir.",
       "Estoque voa nesse valor, garante o seu."
     ],
     "desconto_alto": [
@@ -102,7 +102,7 @@
   },
   "ia": {
     "modelo": "gemini-flash-latest",
-    "instrucao": "Escreva UMA frase curta (até 12 palavras) em português do Brasil, chamativa e direta, para um post de oferta num canal de achados masculino (academia, estilo, cuidados, gadgets, games, ferramentas, churrasco, carro). Tom confiante, sem exageros falsos, sem emojis, sem hashtags. Pode criar urgência leve."
+    "instrucao": "Escreva UMA frase curta (até 12 palavras) em português do Brasil, chamativa e direta, para um post de oferta num canal de achados masculino (academia, estilo, cuidados, gadgets, games, ferramentas, churrasco, carro). Tom confiante, sem exageros falsos, sem emojis, sem hashtags. Sem afirmar menor preço ou histórico de preço."
   },
   "radar": {
     "canais": [

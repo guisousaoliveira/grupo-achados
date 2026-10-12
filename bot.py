@@ -347,6 +347,8 @@ def montar_post(item):
         preco.append(f"De <s>{reais(de)}</s> por <b>{reais(por)}</b>{pix} ({off}% off)")
     elif por:
         preco.append(f"Por <b>{reais(por)}</b>{pix}")
+    if item.get("parcelas") and por:
+        preco.append(texto_parcelas(item))
     if item.get("prime"):
         extra = f" (sem Prime: {reais(item['sem_prime'])})" if item.get("sem_prime") else ""
         preco.append(f"Preço exclusivo para membros Prime{extra}")
@@ -362,6 +364,33 @@ def montar_post(item):
     if rodape:
         blocos.append(e(rodape))
     return "\n\n".join(blocos)
+
+
+def texto_parcelas(item):
+    """'ou 4x de R$ 39,97 sem juros'. Sem o valor da parcela informado, divide o preço."""
+    n = int(item["parcelas"])
+    valor = item.get("parcela_valor") or item["por"] / n
+    return f"ou {n}x de {reais(valor)} sem juros"
+
+
+def ler_parcelas(texto):
+    """'4', '4x', '10x 39,90', 'em até 10x de R$ 39,90 sem juros' -> (10, 39.9). '-' ou nada -> (None, None)."""
+    m = re.search(r"(\d{1,2})\s*(?:x|vezes)?(?:\s*(?:de|sem juros de)?\s*(?:R\$)?\s*(\d[\d.]*,\d{2}|\d+(?:\.\d{2})?))?",
+                  str(texto or ""), re.I)
+    if not m or not 2 <= int(m.group(1)) <= 24:
+        return None, None
+    return int(m.group(1)), (numero_br(m.group(2)) if m.group(2) else None)
+
+
+def aplicar_parcelas(item, texto):
+    n, valor = ler_parcelas(texto)
+    item.pop("parcela_valor", None)
+    if n:
+        item["parcelas"] = n
+        if valor:
+            item["parcela_valor"] = valor
+    else:
+        item.pop("parcelas", None)
 
 
 # ---------------------------------------------------------------- seus links (Amazon / ML / Shopee)
@@ -600,7 +629,7 @@ def interpretar_mensagem(texto, foto=None, buscar_pagina=True):
         item["foto"] = foto
 
     tem_preco = False
-    rotulo = r"(nome|t[ií]tulo|chamada|pre[cç]o|frase|cupom|prime|pix)\s*[:=]"
+    rotulo = r"(nome|t[ií]tulo|chamada|pre[cç]o|frase|cupom|prime|pix|parcelas?)\s*[:=]"
     if any(re.match(rotulo, l, re.I) for l in resto):  # mesmo formato da correção (nome:, preço:, prime:...)
         aplicar_correcao(item, "\n".join(resto))
         tem_preco = bool(item.get("por"))
@@ -752,11 +781,11 @@ def gerar_frase(item):
     off = round((1 - item["por"] / item["de"]) * 100) if item.get("de") and item.get("por") else 0
     chave = segredo("GEMINI_API_KEY")
     if chave and not SIMULAR:
-        pedido = (CONFIG.get("ia", {}).get("instrucao", "") +
+        pedido = (CONFIG.get("ia", {}).get("instrucao", "") + " " + REGRA_IA +
                   f"\nProduto: {item.get('nome')}\nPreço: {item.get('por')}\nDesconto: {off}%\nFrase:")
         try:
             frase = gemini({"contents": [{"parts": [{"text": pedido}]}]}).strip('"')
-            if frase:
+            if texto_ia_ok(frase):
                 return frase.splitlines()[0][:140]
         except Exception as e:
             log(f"IA não respondeu ({e}), usando o banco de frases.")
@@ -775,6 +804,20 @@ def gerar_frase(item):
     return random.choice(opcoes).replace("{off}", str(off))
 
 
+# A gente não tem histórico de preço nem de estoque: a IA não pode afirmar "menor preço histórico" etc.
+REGRA_IA = ("Tom sério e direto, de quem indica uma compra boa, sem exagero de camelô. Não afirme nada que não esteja "
+            "nos dados: NUNCA diga menor preço, menor preço histórico, mínimo histórico, nunca visto, mais barato da "
+            "internet, últimas unidades ou que vai esgotar (não temos histórico de preço nem estoque). Use o que os dados "
+            "mostram: o desconto em %, o cupom, o Pix, o Prime, as parcelas, ou o benefício do produto.")
+PROIBIDO_IA = re.compile(r"menor\s+pre[cç]o|hist[oó]ric|nunca\s+vist|mais\s+barat[oa]\s+d[ao]|[uú]ltimas\s+unidades|"
+                         r"esgot|pre[cç]o\s+m[ií]nimo|m[ií]nimo\s+hist", re.I)
+
+
+def texto_ia_ok(texto):
+    """Descarta o que a IA escreveu se afirmar algo que a gente não tem como saber (ex.: menor preço histórico)."""
+    return bool(texto) and not PROIBIDO_IA.search(texto)
+
+
 def gerar_titulo(item):
     """Chamada curta para o topo do post (só com a chave da Gemini; sem ela o post sai sem título)."""
     chave = segredo("GEMINI_API_KEY")
@@ -782,14 +825,17 @@ def gerar_titulo(item):
         return ""
     off = round((1 - item["por"] / item["de"]) * 100) if item.get("de") and item.get("por") else 0
     pedido = ("Escreva UMA chamada curta (até 6 palavras) em português do Brasil para o topo de um post de oferta "
-              "num canal de achados masculino. Estilo dos canais de promoção: direta, com gancho (benefício, brinde, "
-              "menor preço, desconto). Sem emoji, sem hashtag, sem preço, sem aspas, sem inventar o que não está nos dados.\n"
+              "num canal de achados masculino, com gancho (benefício, brinde, desconto, cupom). Sem emoji, sem hashtag, "
+              "sem preço, sem aspas. " + REGRA_IA + "\n"
               f"Produto: {item.get('nome')}\nPreço: {item.get('por')}\nDesconto: {off}%\n"
               + (f"Cupom: {item.get('cupom') or item.get('cupom_loja')}\n" if item.get("cupom") or item.get("cupom_loja") else "")
               + "Chamada:")
     try:
-        titulo = gemini({"contents": [{"parts": [{"text": pedido}]}]}).strip('"').splitlines()[0]
-        return titulo[:60]
+        for _ in range(2):  # se afirmar o que não sabemos, tenta mais uma vez; senão vai o banco de frases
+            titulo = gemini({"contents": [{"parts": [{"text": pedido}]}]}).strip('"').splitlines()[0]
+            if texto_ia_ok(titulo):
+                return titulo[:60]
+        return ""
     except Exception as e:
         log(f"IA não fez o título ({e}).")
         return ""
@@ -833,7 +879,7 @@ def mandar_para_revisao(estado, item):
         else:
             texto += "\n\n📷 Sem foto. Se quiser, responda esta mensagem com um print do produto."
     texto += ("\n\n<i>Para corrigir, responda (arrastar para o lado) esta mensagem com uma ou mais linhas:\n"
-              "título: Troca o celular e ganha o relógio\nnome: Creatina Growth 250g\npreço: 119,90 69,90\ncupom: NOITEPRIME10\npix: sim\nprime: sim 189,37 (preço sem Prime)\n(título: - ou cupom: - para tirar)</i>")
+              "título: Troca o celular e ganha o relógio\nnome: Creatina Growth 250g\npreço: 119,90 69,90\ncupom: NOITEPRIME10\npix: sim\nprime: sim 189,37 (preço sem Prime)\nparcela: 4 (ou 10x 39,90)\n(título: - ou cupom: - para tirar)</i>")
     msg = responder_admin(texto, botoes=botoes_revisao(item),
                           foto=item.get("foto"))
     item["msg_id"] = msg.get("message_id") if msg else None
@@ -848,7 +894,7 @@ def aplicar_correcao(item, texto):
         linha = linha.strip()
         if not linha:
             continue
-        m = re.match(r"(nome|t[ií]tulo|chamada|pre[cç]o|frase|link|de|por|cupom|prime|pix)\s*[:=]\s*(.+)", linha, re.I)
+        m = re.match(r"(nome|t[ií]tulo|chamada|pre[cç]o|frase|link|de|por|cupom|prime|pix|parcelas?)\s*[:=]\s*(.+)", linha, re.I)
         campo, valor = (m.group(1).lower(), m.group(2).strip()) if m else ("", linha)
         if campo.startswith("pre") or (not campo and re.fullmatch(r"[\d.,R$\s]+|de .+ por .+", linha, re.I)):
             de, por = ler_precos(valor)
@@ -866,6 +912,8 @@ def aplicar_correcao(item, texto):
             item.pop("frase", None)
         elif campo == "pix":
             item["pix"] = valor.lower().split()[0] in ("sim", "s", "1", "yes")
+        elif campo.startswith("parcela"):
+            aplicar_parcelas(item, "" if valor == "-" else valor)
         elif campo == "link":
             item["link"] = valor
             item.pop("precisa_link", None)
@@ -1681,6 +1729,8 @@ def oferta_do_post(post, canal):
     valores = []
     for l in linhas:
         if re.search(PRECO_NAO, l, re.I):
+            if "parcelas" not in item and re.search(r"\d{1,2}\s*x", l, re.I) and re.search(r"sem juros", l, re.I):
+                aplicar_parcelas(item, l)  # "em até 10x de R$ 39,90 sem juros" vira a linha de parcelas do post
             if re.search(r"cupom|resgat", l, re.I) and re.search(r"R\$|%", l) and "http" not in l:
                 item.setdefault("cupom_loja", re.sub(r"^[^\w]+", "", l).strip()[:80])
             continue

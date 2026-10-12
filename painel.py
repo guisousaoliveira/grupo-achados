@@ -27,7 +27,7 @@ ARQ_HTML = bot.PASTA / "painel.html"
 COOKIE = "painel"
 LOJAS = {"amazon": "Amazon", "mercadolivre": "Mercado Livre", "shopee": "Shopee"}
 CAMPOS = ("nome", "de", "por", "prime", "sem_prime", "cupom", "cupom_loja", "frase", "link", "link_produto",
-          "loja", "origem", "foto_origem", "aprovado_em", "aviso_validade", "ler_depois", "precisa_link", "chave", "aviso_preco", "titulo", "pix", "garimpado_em", "post_origem", "link_canal", "removido_em", "removido_de", "fonte")
+          "loja", "origem", "foto_origem", "aprovado_em", "aviso_validade", "ler_depois", "precisa_link", "chave", "aviso_preco", "titulo", "pix", "garimpado_em", "post_origem", "link_canal", "removido_em", "removido_de", "fonte", "parcelas", "parcela_valor")
 
 _fotos = {}  # cache das fotos do Telegram (file_id -> bytes), para a tela abrir rápido
 _estado_cache = {"etag": None, "texto": None}
@@ -302,6 +302,8 @@ def aplicar_campos(item, d):
                 item[campo] = valor
             else:
                 item.pop(campo, None)
+    if "parcelas" in d:
+        bot.aplicar_parcelas(item, d["parcelas"])
     if "pix" in d:
         if d["pix"]:
             item["pix"] = True
@@ -379,55 +381,51 @@ def tirar_botoes(msg_id):
 
 PEDIDO_IA = """Você escreve ofertas para o Alpha Promo, um canal de achados no Telegram com público masculino
 de 18 a 35 anos (academia, estilo, cuidados, tecnologia, games, ferramentas, casa, cozinha, churrasco e carro).
-Olhe a foto (se tiver) e os dados abaixo e devolva só um JSON assim:
-{"titulos": [5 opções], "nomes": [3 opções], "nota": "..."}
-- titulos: chamada curta para o topo do post, até 6 palavras, estilo dos canais de promoção: direta, com gancho
-  (benefício, brinde, menor preço, desconto). Ex.: "Troca o celular e ganha o relógio", "Menor preço da creatina".
-  Sem emoji, sem preço, sem inventar o que não está nos dados.
-- nomes: nome curto do produto, até 60 caracteres. Tipo de produto + marca + o detalhe que importa
-  (tamanho, capacidade, voltagem, cor). Sem emoji, sem caixa alta, sem preço, sem palavras como "oferta".
-- nota: uma frase curta de opinião sobre a oferta (se o desconto é forte, se vale destacar o cupom, ou um alerta se
-  algo parece estranho nos dados, como preço fora do normal para o produto).
+Com os dados abaixo, escreva {pedido}. Responda só com o texto, numa linha, sem aspas.
+{regra}
 
 Dados:
 """
+PEDIDOS_IA = {
+    "titulo": "UMA chamada curta para o topo do post: até 6 palavras, estilo dos canais de promoção, direta, com gancho "
+              "(benefício, brinde, desconto, cupom). Ex.: Troca o celular e ganha o relógio. Sem emoji, sem preço, "
+              "sem inventar o que não está nos dados. Se tiver um título atual, escreva um diferente dele",
+    "nome": "UM nome curto do produto, até 60 caracteres: tipo de produto + marca + o detalhe que importa (tamanho, "
+            "capacidade, voltagem, cor). Sem emoji, sem caixa alta, sem preço, sem palavras como oferta",
+}
 
 
 def ia(d):
+    """Uma sugestão só, para o campo pedido (título ou nome): gasta uma chamada da IA por clique."""
+    campo = "nome" if d.get("campo") == "nome" else "titulo"
     item = {"nome": d.get("nome", ""), "por": bot._preco(d.get("por")), "de": bot._preco(d.get("de")),
             "loja": d.get("loja", "")}
     off = round((1 - item["por"] / item["de"]) * 100) if item["de"] and item["por"] and item["de"] > item["por"] else 0
-    chave = bot.segredo("GEMINI_API_KEY")
-    if not chave:
-        frases = list(dict.fromkeys(bot.gerar_frase(item) for _ in range(15)))[:5]
-        return {"sem_chave": True, "titulos": [f for f in frases if f],
-                "nomes": [bot.nome_curto(item["nome"], 60)] if item["nome"] else [], "nota": ""}
+    if not bot.segredo("GEMINI_API_KEY"):
+        texto = bot.gerar_frase(item) if campo == "titulo" else bot.nome_curto(item["nome"], 60)
+        return {"texto": texto or "", "sem_chave": True}
     dados = (f"Nome atual: {item['nome']}\nLoja: {LOJAS.get(item['loja'], item['loja'])}\n"
              f"Preço: {bot.reais(item['por']) if item['por'] else '?'}"
              + (f" (antes {bot.reais(item['de'])}, {off}% off)" if off else "")
              + (f"\nCupom: {d['cupom']}" if d.get("cupom") else "")
              + ("\nPreço exclusivo Prime" if d.get("prime") else "")
              + ("\nPreço no Pix" if d.get("pix") else "")
-             + (f"\nTítulo atual: {d['titulo']}" if d.get("titulo") else "")
-             )
-    partes = [{"text": PEDIDO_IA + dados}]
-    foto = bot.baixar_foto(d.get("foto_raw")) if d.get("foto_raw") else None
-    if foto and len(foto) < 3_500_000:
-        tipo = "image/png" if foto[:4] == b"\x89PNG" else "image/webp" if foto[8:12] == b"WEBP" else "image/jpeg"
-        partes.append({"inline_data": {"mime_type": tipo, "data": base64.b64encode(foto).decode()}})
-    corpo = {"contents": [{"parts": partes}],
-             "generationConfig": {"responseMimeType": "application/json", "temperature": 0.9}}
+             + (f"\nTítulo atual: {d['titulo']}" if d.get("titulo") else ""))
+    corpo = {"contents": [{"parts": [{"text": PEDIDO_IA.format(pedido=PEDIDOS_IA[campo], regra=bot.REGRA_IA) + dados}]}],
+             "generationConfig": {"temperature": 1.0}}
     try:
-        bruto = bot.gemini(corpo, timeout=40)
-        r = json.loads(bruto[bruto.find("{"):bruto.rfind("}") + 1])
+        texto = bot.gemini(corpo, timeout=30)
+        if campo == "titulo" and not bot.texto_ia_ok(texto):  # afirmou o que não sabemos: pede outro
+            texto = bot.gemini(corpo, timeout=30)
+            if not bot.texto_ia_ok(texto):
+                texto = bot.gerar_frase(item)
     except bot.ErroIA as e:
         return {"erro": f"A IA não respondeu: {e}."}
     except Exception as e:
         bot.log(f"Painel: IA falhou ({e}).")
         return {"erro": "A IA não respondeu agora. Tente de novo em alguns segundos."}
-    limpa = lambda lista, n: [str(t).strip().strip('"') for t in (lista or []) if str(t).strip()][:n]
-    return {"titulos": limpa(r.get("titulos"), 5), "nomes": limpa(r.get("nomes"), 3),
-            "nota": str(r.get("nota") or "")}
+    texto = (texto or "").strip().splitlines()[0].strip().strip('"').strip("“”").rstrip(".") if texto else ""
+    return {"texto": texto[:60 if campo == "nome" else 80]}
 
 
 # ---------------------------------------------------------------- ações que mudam a fila
