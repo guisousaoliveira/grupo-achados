@@ -193,23 +193,6 @@
       "titulo": "Power bank gigante com menor preço",
       "garimpado_em": "2026-10-12T16:01-03:00",
       "aprovado_em": "2026-10-12T16:09-03:00"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB18725403",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/2JfxHGC",
-      "link_produto": "https://www.mercadolivre.com.br/proteina-growth-supplements-basic-whey-em-po-sabor-chocolate-x-1kg/p/MLB18725403",
-      "post_origem": "https://t.me/lobaopromo/188513",
-      "link_canal": "https://meli.la/2FJrMYU",
-      "foto": "AgACAgQAAxkDAAO_as0uXQrZz3JlsLJIrS4Hac4GEh4AAjIMaxvlY-RRlGj7tAXk7TIBAAMCAAN4AAM9BA",
-      "foto_origem": "loja",
-      "nome": "Proteína Growth Supplements Basic Whey em pó sabor Chocolate x 1kg",
-      "de": 104.9,
-      "por": 72.9,
-      "titulo": "Whey Growth de chocolate com desconto",
-      "garimpado_em": "2026-10-12T16:01-03:00",
-      "aprovado_em": "2026-10-12T16:10-03:00"
     }
   ],
   "postados": [
@@ -374,6 +357,12 @@
       "loja": "mercadolivre",
       "nome": "Creatina Max Titanium 7 Belo em pó x 300g",
       "data": "2026-10-12T16:13-03:00"
+    },
+    {
+      "chave": "mercadolivre:MLB18725403",
+      "loja": "mercadolivre",
+      "nome": "Proteína Growth Supplements Basic Whey em pó sabor Chocolate x 1kg",
+      "data": "2026-10-12T16:15-03:00"
     }
   ],
   "slots_usados": {
@@ -606,6 +595,16 @@
   "ultimos": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB18725403",
+      "link": "https://meli.la/2JfxHGC",
+      "link_produto": "https://www.mercadolivre.com.br/proteina-growth-supplements-basic-whey-em-po-sabor-chocolate-x-1kg/p/MLB18725403",
+      "foto": "AgACAgQAAxkDAAO_as0uXQrZz3JlsLJIrS4Hac4GEh4AAjIMaxvlY-RRlGj7tAXk7TIBAAMCAAN4AAM9BA",
+      "nome": "Proteína Growth Supplements Basic Whey em pó sabor Chocolate x 1kg",
+      "de": 104.9,
+      "por": 72.9
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB68826578",
       "link": "https://meli.la/1gDuRwZ",
       "link_produto": "https://www.mercadolivre.com.br/creatina-max-titanium-7-belo-em-po-x-300g/p/MLB68826578",
@@ -739,15 +738,6 @@
       "nome": "Furadeira Parafusadeira 2 Bateria 21v 10mm + 349 Acessórios",
       "de": 378.39,
       "por": 239.9
-    },
-    {
-      "loja": "mercadolivre",
-      "link": "https://meli.la/2DoKFbN",
-      "chave": "mercadolivre:https://meli.la/2DoKFbN",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_627065-MLB109020200579_032026-O.webp",
-      "nome": "Tênis Casual Kappa Zenit Masculino Unissex Conforto",
-      "de": 229.99,
-      "por": 83.79
     }
   ],
   "lixeira": [
