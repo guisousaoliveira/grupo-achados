@@ -580,7 +580,7 @@ function dadosForm(p, x){
 function ligarEditor(p, x){
   const atual = () => {
     const d = dadosForm(p, x);
-    const y = {...x, ...d, de: preco(d.de), por: preco(d.por), sem_prime: preco(d.sem_prime)};
+    const y = {...x, ...d, foto: x.foto, de: preco(d.de), por: preco(d.por), sem_prime: preco(d.sem_prime)};  // d.foto é o código do Telegram; a prévia usa o endereço
     if (!d.cupom) y.cupom = '';
     document.getElementById(`${p}-bub`).innerHTML = (y.foto ? `<div class="im"><img src="${esc(y.foto)}" alt="" onerror="this.parentNode.remove()"></div>` : '')
       + `<div class="ch">Alpha Promo</div><div class="tx">${montarPost(y)}</div><div class="hr">${String(new Date().getHours()).padStart(2,'0')}:00</div>`;
