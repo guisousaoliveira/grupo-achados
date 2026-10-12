@@ -248,20 +248,6 @@
       "titulo": "Menor preço que vi nos últimos dias.",
       "id": 40,
       "msg_id": 146
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B076BJH4JH",
-      "origem": "aquitempechincha",
-      "link": "https://www.amazon.com.br/dp/B076BJH4JH?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B076BJH4JH?tag=alphadominu09-20",
-      "nome": "ISDIN Sabonete Líquido Corporal Ureadin Bath Gel - 424g",
-      "por": 59.75,
-      "foto": "AgACAgQAAxkDAAOTaszHOLODWc-QTU76G-N9eYHmgVoAApMOaxtl_1xQIZMKMlWRyg8BAAMCAAN4AAM9BA",
-      "foto_origem": "loja",
-      "titulo": "Vale cada centavo nesse preço.",
-      "id": 41,
-      "msg_id": 147
     }
   ],
   "proximo_id": 52,
