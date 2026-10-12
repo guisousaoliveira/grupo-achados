@@ -129,24 +129,7 @@
     "2026-10-12": []
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "shopee",
-      "chave": "shopee:1083800536.58216638809",
-      "origem": "lobaopromo",
-      "link": "https://shopee.com.br/product/1083800536/58216638809",
-      "link_produto": "https://shopee.com.br/product/1083800536/58216638809",
-      "precisa_link": true,
-      "foto": "AgACAgEAAxkDAAOFasyNQZVZzPu6As9XNe_yHJIXfjMAAjAQaxvw92FGS0y7MBCcLj0BAAMCAAN4AAM9BA",
-      "foto_origem": "canal",
-      "nome": "Smart TV Hisense 55 QLED 4K UHD",
-      "de": 2092.13,
-      "por": 100.0,
-      "frase": "Preço de queima, 95% mais barato.",
-      "id": 29,
-      "msg_id": 133
-    }
-  ],
+  "revisar": [],
   "proximo_id": 31,
   "radar": {
     "visto": {
