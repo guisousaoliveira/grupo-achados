@@ -225,20 +225,6 @@
       "titulo": "75% off, isso aqui não fica muito tempo assim.",
       "id": 35,
       "msg_id": 141
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B07DHSHXVP",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B07DHSHXVP?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B07DHSHXVP?tag=alphadominu09-20",
-      "foto": "AgACAgQAAxkDAAOPaszCeL_7086Po2RgSHph3D99X-AAAnoNaxvsS5xRHyRTKu-T5scBAAMCAAN5AAM9BA",
-      "foto_origem": "loja",
-      "nome": "Power Bank Pro 20000mAH, Bateria Portátil Universal, Carga Rápida, Display Indicador, Entradas Micro USB e USB-C, 2 Port",
-      "por": 125.06,
-      "titulo": "Upgrade que vale a pena nesse preço.",
-      "id": 37,
-      "msg_id": 143
     }
   ],
   "proximo_id": 54,
