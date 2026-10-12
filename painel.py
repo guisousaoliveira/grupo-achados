@@ -77,18 +77,18 @@ def pagina_login(erro=""):
     elif erro:
         aviso = f'<p class="erro">{html.escape(erro)}</p>'
     return f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1"><title>Alpha Promo · Painel</title>
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>Alpha Promo · Painel</title><link rel="icon" type="image/png" href="/painel/logo/leao">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 *{{box-sizing:border-box}}body{{margin:0;min-height:100vh;display:grid;place-items:center;background:#0b0b0c;color:#ededed;font:15px Inter,system-ui,sans-serif}}
 form{{width:min(360px,calc(100% - 32px));background:#141416;border:1px solid #26262a;border-radius:16px;padding:28px}}
-.marca{{display:flex;align-items:center;gap:10px;margin-bottom:22px}}.selo{{width:36px;height:36px;border-radius:10px;background:linear-gradient(135deg,#e7c867,#b8932f);display:grid;place-items:center;color:#0b0b0c;font-weight:700}}
+.marca{{display:flex;align-items:center;gap:10px;margin-bottom:22px}}.selo{{width:40px;height:40px;border-radius:11px;background:#0b0b0c;border:1px solid rgba(212,175,55,.45);display:grid;place-items:center}}.selo img{{height:30px}}
 h1{{font-size:17px;margin:0}}small{{color:#8a8a90}}label{{display:block;font-size:13px;color:#a1a1a8;margin-bottom:6px}}
 input{{width:100%;padding:12px 14px;border-radius:10px;border:1px solid #2c2c31;background:#0e0e10;color:#fff;font:inherit}}input:focus{{outline:none;border-color:#d4af37}}
 button{{width:100%;margin-top:14px;padding:12px;border:0;border-radius:10px;background:#d4af37;color:#0b0b0c;font:600 15px Inter,sans-serif;cursor:pointer}}
 .erro{{background:#2a1515;border:1px solid #5a2323;color:#ffb4b4;padding:10px 12px;border-radius:10px;font-size:13px}}
 </style></head><body><form method="post" action="/painel/entrar">
-<div class="marca"><div class="selo">A</div><div><h1>Alpha Promo</h1><small>Painel do grupo de achados</small></div></div>
+<div class="marca"><div class="selo"><img src="/painel/logo/leao" alt=""></div><div><h1>Alpha Promo</h1><small>Painel do grupo de achados</small></div></div>
 {aviso}<label for="s">Senha</label><input id="s" name="senha" type="password" autofocus autocomplete="current-password">
 <button>Entrar</button></form></body></html>"""
 
@@ -495,6 +495,15 @@ def tratar_get(req):
     url = urllib.parse.urlparse(req.path)
     q = dict(urllib.parse.parse_qsl(url.query))
     caminho = url.path.rstrip("/")
+    if caminho.startswith("/painel/logo/"):  # logos (sem senha: a tela de login também usa o leão)
+        nome = caminho.rsplit("/", 1)[1]
+        arq = {"leao": bot.PASTA / "assets" / "leao.png"}.get(nome) or (
+            bot.PASTA / "assets" / "logos" / f"{nome}.png" if nome in ("mercadolivre", "shopee", "telegram", "amazon") else None)
+        if not arq or not arq.exists():
+            responder(req, 404, "", "text/plain")
+            return
+        responder(req, 200, arq.read_bytes(), "image/png", {"Cache-Control": "public, max-age=604800"})
+        return
     if caminho == "/painel/sair":
         responder(req, 303, "", "text/plain", {"Location": "/painel", "Set-Cookie": f"{COOKIE}=; Path=/painel; Max-Age=0"})
         return
