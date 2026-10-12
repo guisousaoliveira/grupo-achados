@@ -489,6 +489,13 @@ def acao(corpo):
                 depois.append(lambda m=x.get("msg_id"): tirar_botoes(m))
             saida["ok"] = f"Descartei {len(revisar)} oferta(s). Dá para desfazer na Lixeira."
             estado["revisar"] = []
+        elif a == "lixeira_apagar":
+            antes = len(estado.get("lixeira", []))
+            estado["lixeira"] = [x for x in estado.get("lixeira", []) if id_lixeira(x) != ident]
+            saida["ok"] = "Apagado de vez." if len(estado["lixeira"]) < antes else "Esse item já não estava na lixeira."
+        elif a == "lixeira_esvaziar":
+            saida["ok"] = f"Lixeira esvaziada ({len(estado.get('lixeira', []))} item(ns) apagados de vez)."
+            estado["lixeira"] = []
         elif a == "lixeira_restaurar":
             lixo = next((x for x in estado.get("lixeira", []) if id_lixeira(x) == ident), None)
             if not lixo:
