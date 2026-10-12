@@ -27,7 +27,7 @@ ARQ_HTML = bot.PASTA / "painel.html"
 COOKIE = "painel"
 LOJAS = {"amazon": "Amazon", "mercadolivre": "Mercado Livre", "shopee": "Shopee"}
 CAMPOS = ("nome", "de", "por", "prime", "sem_prime", "cupom", "cupom_loja", "frase", "link", "link_produto",
-          "loja", "origem", "foto_origem", "aprovado_em", "aviso_validade", "ler_depois", "precisa_link", "chave", "aviso_preco", "titulo", "pix", "garimpado_em", "post_origem", "link_canal", "removido_em", "removido_de", "fonte", "parcelas", "parcela_valor")
+          "loja", "origem", "foto_origem", "aprovado_em", "aviso_validade", "ler_depois", "precisa_link", "chave", "aviso_preco", "titulo", "pix", "garimpado_em", "post_origem", "link_canal", "removido_em", "removido_de", "expirou", "na_revisao_desde", "fonte", "parcelas", "parcela_valor")
 
 _fotos = {}  # cache das fotos do Telegram (file_id -> bytes), para a tela abrir rápido
 _estado_cache = {"etag": None, "texto": None}
@@ -524,7 +524,7 @@ def acao(corpo):
                 saida["erro"] = "Esse item não está mais na lixeira."
                 return
             estado["lixeira"] = [x for x in estado["lixeira"] if x is not lixo]
-            item = {k: v for k, v in lixo.items() if k not in ("removido_em", "removido_de", "id")}
+            item = {k: v for k, v in lixo.items() if k not in ("removido_em", "removido_de", "id", "expirou", "na_revisao_desde")}
             if lixo.get("removido_de") == "fila":
                 if any(x["chave"] == item["chave"] for x in fila):
                     saida["erro"] = "Esse produto já está na fila."
@@ -540,7 +540,8 @@ def acao(corpo):
                 else:
                     estado["revisar"].append(feito["revisao"])
                     estado["proximo_id"] = max(estado["proximo_id"], feito["revisao"]["id"] + 1)
-                bot.contar_garimpo(estado, item, "reprovados", -1)  # desfez o descarte
+                if not lixo.get("expirou"):
+                    bot.contar_garimpo(estado, item, "reprovados", -1)  # desfez o descarte
                 saida["ok"] = "Voltou para Revisar."
         elif a == "story_config":
             if d.get("padrao"):

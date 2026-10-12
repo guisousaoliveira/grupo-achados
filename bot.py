@@ -892,6 +892,7 @@ def mandar_para_revisao(estado, item):
     item["id"] = estado["proximo_id"]
     estado["proximo_id"] += 1
     item.setdefault("garimpado_em", agora().isoformat(timespec="minutes"))
+    item["na_revisao_desde"] = agora().isoformat(timespec="minutes")  # conta a validade do Revisar
     falta = faltando(item)
     texto = "📝 <b>Revisar oferta</b>\n\n" + (montar_post(item) if item.get("nome") else html.escape(item["link"]))
     if item.get("origem"):
@@ -1000,7 +1001,7 @@ def contar_garimpo(estado, item, campo, quanto=1):
 
 def pra_lixeira(estado, item, de):
     """Guarda o que foi descartado ou tirado da fila (os 40 últimos), para dar para desfazer pelo painel."""
-    if de == "revisar":
+    if de == "revisar" and not item.get("expirou"):
         contar_garimpo(estado, item, "reprovados")
     copia = {k: v for k, v in item.items() if k != "msg_id"}
     copia["removido_em"], copia["removido_de"] = agora().isoformat(timespec="seconds"), de
@@ -1047,6 +1048,23 @@ def checar_validade(estado):
         responder_admin(f"⏰ <b>Na fila há mais de {horas} horas.</b> Abra o link e confira se o preço ainda vale:\n\n"
                         + montar_post(item), botoes)
         item["aviso_validade"] = True
+
+
+def vencer_revisao(estado):
+    """Oferta esquecida no Revisar por mais de revisar_validade_horas vai para a lixeira (dá para restaurar),
+    para não acumular dezenas de itens com preço que já pode ter mudado."""
+    horas = CONFIG.get("revisar_validade_horas", 12)
+    if not horas:
+        return
+    limite = agora() - timedelta(hours=horas)
+    vencidos = [x for x in estado["revisar"]
+                if datetime.fromisoformat(x.get("na_revisao_desde") or x.get("garimpado_em") or agora().isoformat()) < limite]
+    for item in vencidos:
+        estado["revisar"].remove(item)
+        item["expirou"] = True
+        pra_lixeira(estado, item, "revisar")
+    if vencidos:
+        log(f"{len(vencidos)} oferta(s) passaram de {horas}h sem revisão e foram para a lixeira.")
 
 
 def avisar_antes_de_postar(estado):
@@ -2119,6 +2137,10 @@ def ciclo(estado):
         checar_validade(estado)
     except Exception as e:
         log(f"Erro checando a validade da fila: {e}")
+    try:
+        vencer_revisao(estado)
+    except Exception as e:
+        log(f"Erro tirando ofertas vencidas do Revisar: {e}")
     if not os.environ.get("RENDER"):
         try:
             rodar_radar(estado)
