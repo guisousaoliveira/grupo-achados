@@ -3,17 +3,6 @@
   "fila": [
     {
       "loja": "mercadolivre",
-      "link": "https://meli.la/2x4uuZ1",
-      "chave": "mercadolivre:https://meli.la/2x4uuZ1",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_859161-MLA99962428017_112025-O.webp",
-      "titulo": "Whey Protein Dark Lab com desconto",
-      "nome": "Whey Isolate Protein Fuse 900g Dark Lab Sabor Chocolate",
-      "de": 129.9,
-      "por": 78.9,
-      "aprovado_em": "2026-10-12T13:34-03:00"
-    },
-    {
-      "loja": "mercadolivre",
       "link": "https://meli.la/2XEGBAf",
       "chave": "mercadolivre:https://meli.la/2XEGBAf",
       "foto": "https://http2.mlstatic.com/D_NQ_NP_750412-MLA108743699852_032026-O.webp",
@@ -422,6 +411,14 @@
       "data": "2026-10-12T17:23-03:00",
       "link": "https://meli.la/1bCa7qk",
       "link_produto": "https://www.mercadolivre.com.br/mixer-de-mao-200w-compacto-leve-e-ergonomico-mix1001-elgin/p/MLB18425328"
+    },
+    {
+      "chave": "mercadolivre:https://meli.la/2x4uuZ1",
+      "loja": "mercadolivre",
+      "nome": "Whey Isolate Protein Fuse 900g Dark Lab Sabor Chocolate",
+      "data": "2026-10-12T17:48-03:00",
+      "link": "https://meli.la/2x4uuZ1",
+      "slot": 17
     }
   ],
   "slots_usados": {
@@ -437,7 +434,8 @@
       13,
       14,
       15,
-      16
+      16,
+      17
     ]
   },
   "shopee_buscado_em": "",
@@ -585,6 +583,16 @@
     "promobit_visto": 3109078
   },
   "ultimos": [
+    {
+      "loja": "mercadolivre",
+      "link": "https://meli.la/2x4uuZ1",
+      "chave": "mercadolivre:https://meli.la/2x4uuZ1",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_859161-MLA99962428017_112025-O.webp",
+      "titulo": "Whey Protein Dark Lab com desconto",
+      "nome": "Whey Isolate Protein Fuse 900g Dark Lab Sabor Chocolate",
+      "de": 129.9,
+      "por": 78.9
+    },
     {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB18425328",
