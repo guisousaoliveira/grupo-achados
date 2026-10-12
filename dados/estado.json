@@ -626,27 +626,46 @@
       "garimpado_em": "2026-10-12T20:10-03:00",
       "na_revisao_desde": "2026-10-12T20:10-03:00",
       "msg_id": 265
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB2078002740",
+      "origem": "promonocontext",
+      "link": "https://www.mercadolivre.com.br/adaptador-de-ngulo-magnetico-a-para-aco-cromado-vanadio-g/p/MLB2078002740?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/adaptador-de-ngulo-magnetico-a-para-aco-cromado-vanadio-g/p/MLB2078002740",
+      "post_origem": "https://t.me/promonocontext/126024",
+      "link_canal": "https://meli.la/2WXcSGz",
+      "foto": "AgACAgQAAxkDAAIBCmrNa0HBvay-Z81j0VXTXSxWq704AAL6D2sbzlPsUYCWdl6Nes7_AQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Jogo De Bits Parafusadeira Aço 50 Peças Magnético Ponteira",
+      "de": 139.0,
+      "por": 48.0,
+      "titulo": "Jogo de bits com 65% off",
+      "id": 128,
+      "garimpado_em": "2026-10-12T20:20-03:00",
+      "na_revisao_desde": "2026-10-12T20:20-03:00",
+      "msg_id": 266
     }
   ],
-  "proximo_id": 128,
+  "proximo_id": 129,
   "radar": {
     "visto": {
       "xetdaspromocoes": 84504,
-      "lobaopromo": 188590,
-      "gatunopromos": 124965,
-      "pobregram": 41782,
+      "lobaopromo": 188593,
+      "gatunopromos": 124967,
+      "pobregram": 41783,
       "urubupromo": 41590,
       "tudonapromo": 101633,
-      "promonocontext": 126023,
-      "promooeasy": 220241,
-      "aquitempechincha": 281209,
+      "promonocontext": 126024,
+      "promooeasy": 220242,
+      "aquitempechincha": 281211,
       "infoBRpromos": 67419,
       "boletando": 76620,
       "promotop": 260184,
       "achadosdotb": 11757
     },
     "dia": "2026-10-12",
-    "hoje": 96,
+    "hoje": 97,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -751,27 +770,28 @@
       "mercadolivre:MLB27410652",
       "mercadolivre:MLB21802395",
       "mercadolivre:MLB7776080994",
-      "mercadolivre:MLB19794389"
+      "mercadolivre:MLB19794389",
+      "mercadolivre:MLB2078002740"
     ],
     "ultima": {
-      "em": "2026-10-12T20:10:18-03:00",
+      "em": "2026-10-12T20:20:20-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 24,
-      "do_nicho": 3,
+      "posts_novos": 17,
+      "do_nicho": 1,
       "repetidas": 0,
-      "novas": 3,
+      "novas": 1,
       "limite_dia": false,
       "promobit": 0
     },
     "hora": "2026-10-12T20",
-    "nesta_hora": 5,
+    "nesta_hora": 6,
     "promobit_hora": "2026-10-12T20",
     "promobit_nesta_hora": 0,
-    "promobit_visto": 3109254
+    "promobit_visto": 3109265
   },
   "ultimos": [
     {
@@ -1545,7 +1565,7 @@
         "reprovados": 3
       },
       "promonocontext": {
-        "achados": 6,
+        "achados": 7,
         "aprovados": 5,
         "reprovados": 0
       },
