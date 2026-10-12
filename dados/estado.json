@@ -209,25 +209,6 @@
       "parcela_valor": 23.74,
       "pix": true,
       "aprovado_em": "2026-10-12T17:07-03:00"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB21835256",
-      "origem": "promonocontext",
-      "link": "https://meli.la/2RKjsdt",
-      "link_produto": "https://www.mercadolivre.com.br/maquininha-3-em-1-kemei-km-1910-aparador-pelo-corpo-agua-resistente/p/MLB21835256",
-      "post_origem": "https://t.me/promonocontext/125966",
-      "link_canal": "https://meli.la/2mHQNPx",
-      "foto": "AgACAgQAAxkDAAPnas1DcbzBBB-HZDSgXjU5vnimAekAAjINaxuj3XRQYu_3KQABP-NcAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Maquininha 3 Em 1 Kemei KM-1910 Aparador Pelo Corpo Água Resistente",
-      "de": 99.9,
-      "por": 51.76,
-      "titulo": "Maquininha Kemei com 48% off",
-      "garimpado_em": "2026-10-12T17:30-03:00",
-      "na_revisao_desde": "2026-10-12T17:47-03:00",
-      "pix": true,
-      "aprovado_em": "2026-10-12T17:49-03:00"
     }
   ],
   "postados": [
@@ -438,6 +419,14 @@
       "data": "2026-10-12T17:48-03:00",
       "link": "https://meli.la/2x4uuZ1",
       "slot": 17
+    },
+    {
+      "chave": "mercadolivre:MLB21835256",
+      "loja": "mercadolivre",
+      "nome": "Maquininha 3 Em 1 Kemei KM-1910 Aparador Pelo Corpo Água Resistente",
+      "data": "2026-10-12T17:49-03:00",
+      "link": "https://meli.la/2RKjsdt",
+      "link_produto": "https://www.mercadolivre.com.br/maquininha-3-em-1-kemei-km-1910-aparador-pelo-corpo-agua-resistente/p/MLB21835256"
     }
   ],
   "slots_usados": {
@@ -582,6 +571,20 @@
     "promobit_visto": 3109078
   },
   "ultimos": [
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB21835256",
+      "origem": "promonocontext",
+      "link": "https://meli.la/2RKjsdt",
+      "link_produto": "https://www.mercadolivre.com.br/maquininha-3-em-1-kemei-km-1910-aparador-pelo-corpo-agua-resistente/p/MLB21835256",
+      "post_origem": "https://t.me/promonocontext/125966",
+      "foto": "AgACAgQAAxkDAAPnas1DcbzBBB-HZDSgXjU5vnimAekAAjINaxuj3XRQYu_3KQABP-NcAQADAgADeAADPQQ",
+      "nome": "Maquininha 3 Em 1 Kemei KM-1910 Aparador Pelo Corpo Água Resistente",
+      "de": 99.9,
+      "por": 51.76,
+      "titulo": "Maquininha Kemei com 48% off",
+      "pix": true
+    },
     {
       "loja": "mercadolivre",
       "link": "https://meli.la/2x4uuZ1",
