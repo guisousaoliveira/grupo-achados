@@ -355,6 +355,8 @@ def montar_post(item):
         preco.append(f"Preço exclusivo para membros Prime{extra}")
     if preco:
         blocos.append("\n".join(preco))
+    if item.get("obs"):  # observação livre embaixo do preço ("Frete grátis acima de R$ 79", "Só no app")
+        blocos.append(f"📌 {e(item['obs'])}")
     if item.get("cupom"):
         if re.search(r"\s", item["cupom"].strip()):  # frase da loja ("Aplique o cupom de 10% OFF"), não é código
             blocos.append(f"🎟️ {e(item['cupom'])}")
@@ -928,7 +930,7 @@ def mandar_para_revisao(estado, item):
         else:
             texto += "\n\n📷 Sem foto. Se quiser, responda esta mensagem com um print do produto."
     texto += ("\n\n<i>Para corrigir, responda (arrastar para o lado) esta mensagem com uma ou mais linhas:\n"
-              "título: Troca o celular e ganha o relógio\nnome: Creatina Growth 250g\npreço: 119,90 69,90\ncupom: NOITEPRIME10\npix: sim\nprime: sim 189,37 (preço sem Prime)\nparcela: 4 (ou 10x 39,90)\n(título: - ou cupom: - para tirar)</i>")
+              "título: Troca o celular e ganha o relógio\nnome: Creatina Growth 250g\npreço: 119,90 69,90\ncupom: NOITEPRIME10\nobs: Frete grátis acima de R$ 79\npix: sim\nprime: sim 189,37 (preço sem Prime)\nparcela: 4 (ou 10x 39,90)\n(título: - ou cupom: - para tirar)</i>")
     msg = responder_admin(texto, botoes=botoes_revisao(item),
                           foto=item.get("foto"))
     item["msg_id"] = msg.get("message_id") if msg else None
@@ -943,7 +945,7 @@ def aplicar_correcao(item, texto):
         linha = linha.strip()
         if not linha:
             continue
-        m = re.match(r"(nome|t[ií]tulo|chamada|pre[cç]o|frase|link|de|por|cupom|prime|pix|parcelas?)\s*[:=]\s*(.+)", linha, re.I)
+        m = re.match(r"(nome|t[ií]tulo|chamada|pre[cç]o|frase|link|de|por|cupom|obs|prime|pix|parcelas?)\s*[:=]\s*(.+)", linha, re.I)
         campo, valor = (m.group(1).lower(), m.group(2).strip()) if m else ("", linha)
         if campo.startswith("pre") or (not campo and re.fullmatch(r"[\d.,R$\s]+|de .+ por .+", linha, re.I)):
             de, por = ler_precos(valor)
@@ -984,6 +986,11 @@ def aplicar_correcao(item, texto):
                 item.pop("sem_prime", None)
         elif campo == "cupom":
             item["cupom"] = "" if valor == "-" else valor
+        elif campo == "obs":
+            if valor == "-":
+                item.pop("obs", None)
+            else:
+                item["obs"] = valor
             if valor == "-":
                 item.pop("cupom_loja", None)
 
@@ -1211,7 +1218,7 @@ def ler_mensagens(estado):
 def guardar_ultimo(estado, item):
     """Guarda as últimas ofertas postadas (completas) para o /story e para repostar pelo Histórico do painel."""
     limpo = {k: v for k, v in item.items()
-             if k in ("nome", "de", "por", "foto", "loja", "cupom", "cupom_loja", "prime", "sem_prime", "pix", "titulo",
+             if k in ("nome", "de", "por", "foto", "loja", "cupom", "cupom_loja", "obs", "prime", "sem_prime", "pix", "titulo",
                       "parcelas", "parcela_valor", "chave", "link", "link_produto", "origem", "fonte", "post_origem")}
     antigos = [u for u in estado.get("ultimos", []) if u.get("chave") != limpo.get("chave")]
     estado["ultimos"] = ([limpo] + antigos)[:40]

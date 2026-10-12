@@ -491,6 +491,7 @@ function montarPost(x){
   if (x.por && np >= 2 && np <= 24) p.push(`💳 <i>ou ${np}x de ${reais(x.parcela_valor || x.por / np)}${x.parcela_valor ? ` (${reais(np * x.parcela_valor).replace(' ', '\u00a0')})` : ''}</i>`);
   if (x.prime) p.push(`Preço exclusivo para membros Prime${x.sem_prime ? ` (sem Prime: ${reais(x.sem_prime)})` : ''}`);
   if (p.length) b.push(p.join('<br>'));
+  if (x.obs) b.push(`📌 ${esc(x.obs)}`);
   if (x.cupom) b.push(/\s/.test(x.cupom.trim()) ? `🎟️ ${esc(x.cupom)}` : `🎟️ Cupom: <code>${esc(x.cupom)}</code>`);  // frase da loja sai sem formato de código
   else if (x.cupom_loja) b.push(`🎟️ ${esc(x.cupom_loja)}`);
   b.push(`🛒 ${esc(x.link || '')}` + (LOJAS[x.loja] ? `  (${LOJAS[x.loja]})` : ''));
@@ -835,6 +836,7 @@ function editorHTML(x, p){
       <div class="fl"><label>Parcelas sem juros</label><input class="in" id="${p}-parcelas" inputmode="numeric" value="${x.parcelas || ''}" placeholder="Ex.: 3"></div>
       <div class="fl"><label>Valor da parcela</label><input class="in" id="${p}-parcela_valor" inputmode="decimal" value="${num(x.parcela_valor)}" placeholder="divide o preço"></div>
     </div>
+    <div class="fl"><label>Observação (embaixo do preço) <span>opcional</span></label><input class="in" id="${p}-obs" value="${esc(x.obs || '')}" placeholder="Ex.: Frete grátis acima de R$ 79"></div>
     <div class="fl"><label>Cupom</label><input class="in" id="${p}-cupom" value="${esc(x.cupom || x.cupom_loja || '')}" placeholder="código, ou apague pra tirar do post"></div>
     <div class="fl"><label>Seu link de afiliado <span class="atalhos">${(x.link_produto || x.url) ? `<a href="${esc(x.link_produto || x.url)}" target="_blank" rel="noopener">${marca(x.loja)}abrir produto</a>` : ''}${x.post_origem ? `<a href="${esc(x.post_origem)}" target="_blank" rel="noopener">${x.fonte === 'promobit' ? '<span class="mk pb">P</span>oferta no Promobit' : marca('tg') + 'post original'}</a>` : ''}</span></label><input class="in" id="${p}-link" value="${esc(x.link)}" placeholder="https://...">${gerarLinkHTML(x)}</div>
     <div class="fl"><label>Foto</label><div class="fotoed"><span id="${p}-fotoph">${foto(x)}</span>
@@ -845,7 +847,7 @@ function editorHTML(x, p){
   </div>
   <div class="prev"><div class="lbl"><span>Como fica no canal</span><span>prévia</span></div><div class="tg"><div class="bub" id="${p}-bub"></div></div></div></div>`;
 }
-const FORM = ['titulo','nome','de','por','sem_prime','cupom','link','parcelas','parcela_valor'];
+const FORM = ['titulo','nome','de','por','sem_prime','cupom','obs','link','parcelas','parcela_valor'];
 const textoParcelas = x => x.parcelas ? `${x.parcelas}x${x.parcela_valor ? ' ' + num(x.parcela_valor) : ''}` : '';
 function lerParcelas(t){  // mesmo jeito do bot: "4", "10x 39,90"
   const m = String(t || '').match(/(\d{1,2})\s*(?:x|vezes)?(?:\s*(?:de)?\s*(?:R\$)?\s*(\d[\d.]*,\d{2}|\d+(?:\.\d{2})?))?/i);

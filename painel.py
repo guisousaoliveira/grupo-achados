@@ -26,7 +26,7 @@ import bot
 ARQ_HTML = bot.PASTA / "painel.html"
 COOKIE = "painel"
 LOJAS = {"amazon": "Amazon", "mercadolivre": "Mercado Livre", "shopee": "Shopee"}
-CAMPOS = ("nome", "de", "por", "prime", "sem_prime", "cupom", "cupom_loja", "frase", "link", "link_produto",
+CAMPOS = ("nome", "de", "por", "prime", "sem_prime", "cupom", "cupom_loja", "obs", "frase", "link", "link_produto",
           "loja", "origem", "foto_origem", "aprovado_em", "aviso_validade", "ler_depois", "precisa_link", "chave", "aviso_preco", "titulo", "pix", "garimpado_em", "post_origem", "link_canal", "removido_em", "removido_de", "expirou", "na_revisao_desde", "fonte", "parcelas", "parcela_valor")
 
 _fotos = {}  # cache das fotos do Telegram (file_id -> bytes), para a tela abrir rápido
@@ -336,7 +336,7 @@ def aplicar_campos(item, d):
     """Campos vindos do formulário do painel. Texto vazio apaga o campo."""
     if "titulo" in d:
         item.pop("frase", None)  # frase é o nome antigo do título
-    for campo in ("titulo", "nome", "cupom"):
+    for campo in ("titulo", "nome", "cupom", "obs"):
         if campo in d:
             valor = (d[campo] or "").strip()
             if valor:
