@@ -768,8 +768,56 @@ def aprovar(estado, item):
     if any(x["chave"] == item["chave"] for x in estado["fila"]):
         return "Esse link já estava na fila."
     limpo = {k: v for k, v in item.items() if k not in ("id", "msg_id")}
+    limpo["aprovado_em"] = agora().isoformat(timespec="minutes")
     estado["fila"].append(limpo)
     return f"✅ Aprovada. Posição {len(estado['fila'])} na fila."
+
+
+def postar_agora(estado, item):
+    publicar(item)
+    estado["fila"] = [x for x in estado["fila"] if x is not item]
+    guardar_ultimo(estado, item)
+    estado["postados"].append({"chave": item["chave"], "loja": item["loja"], "nome": item["nome"],
+                               "data": agora().isoformat(timespec="minutes")})
+    responder_admin(f"📢 Postei agora: {html.escape(item['nome'])}. Fila: {len(estado['fila'])}.")
+
+
+def checar_validade(estado):
+    """Oferta parada na fila há muito tempo: pergunta se ainda vale (o preço pode ter mudado)."""
+    horas = CONFIG.get("validade_horas", 12)
+    if not horas or radar_pausado(CONFIG.get("radar", {})):  # de madrugada não incomoda
+        return
+    agora_ = agora()
+    for item in estado["fila"]:
+        if not item.get("aprovado_em"):
+            item["aprovado_em"] = agora_.isoformat(timespec="minutes")
+            continue
+        if item.get("aviso_validade"):
+            continue
+        if agora_ - datetime.fromisoformat(item["aprovado_em"]) < timedelta(hours=horas):
+            continue
+        ident = id_story(item)
+        botoes = {"inline_keyboard": [[{"text": "🚀 Postar agora", "callback_data": f"vp:{ident}"},
+                                       {"text": "✅ Manter", "callback_data": f"vm:{ident}"},
+                                       {"text": "🗑️ Remover", "callback_data": f"vr:{ident}"}]]}
+        responder_admin(f"⏰ <b>Na fila há mais de {horas} horas.</b> Abra o link e confira se o preço ainda vale:\n\n"
+                        + montar_post(item), botoes)
+        item["aviso_validade"] = True
+
+
+def botao_validade(estado, acao, ident):
+    item = next((x for x in estado["fila"] if id_story(x) == ident), None)
+    if not item:
+        return "Essa oferta já saiu da fila."
+    if acao == "vp":
+        postar_agora(estado, item)
+        return None
+    if acao == "vm":
+        item["aprovado_em"] = agora().isoformat(timespec="minutes")
+        item.pop("aviso_validade", None)
+        return f"✅ Mantida na fila. Se não sair antes, pergunto de novo em {CONFIG.get('validade_horas', 12)} horas."
+    estado["fila"] = [x for x in estado["fila"] if x is not item]
+    return f"🗑️ Removida da fila. Fila: {len(estado['fila'])}."
 
 
 def tratar_botao(estado, cb):
@@ -780,6 +828,17 @@ def tratar_botao(estado, cb):
     acao, _, ident = (cb.get("data") or "").partition(":")
     if acao in ("st", "sf"):
         botao_story(estado, acao, ident)
+        return
+    msg = cb.get("message") or {}
+    if acao in ("vp", "vm", "vr"):
+        resultado = botao_validade(estado, acao, ident)
+        try:
+            telegram("editMessageReplyMarkup", chat_id=msg["chat"]["id"], message_id=msg["message_id"],
+                     reply_markup={"inline_keyboard": []})
+        except Exception:
+            pass
+        if resultado:
+            responder_admin(resultado, responder_a=msg.get("message_id"))
         return
     item = next((x for x in estado["revisar"] if str(x["id"]) == ident), None)
     msg = cb.get("message") or {}
@@ -995,12 +1054,7 @@ def tratar_comando(estado, texto, foto=None):
         except (IndexError, ValueError):
             responder_admin("Não achei esse item. Veja os números com /fila." if estado["fila"] else "A fila está vazia.")
             return
-        publicar(item)
-        estado["fila"].pop(n - 1)
-        guardar_ultimo(estado, item)
-        estado["postados"].append({"chave": item["chave"], "loja": item["loja"], "nome": item["nome"],
-                                   "data": agora().isoformat(timespec="minutes")})
-        responder_admin(f"📢 Postei agora: {html.escape(item['nome'])}. Fila: {len(estado['fila'])}.")
+        postar_agora(estado, item)
     elif cmd == "/pendentes":
         if not estado["revisar"]:
             responder_admin("Nada esperando revisão.")
@@ -1463,6 +1517,10 @@ def ciclo(estado):
         ler_mensagens(estado)
     except Exception as e:
         log(f"Erro lendo suas mensagens: {e}")
+    try:
+        checar_validade(estado)
+    except Exception as e:
+        log(f"Erro checando a validade da fila: {e}")
     if not os.environ.get("RENDER"):
         try:
             rodar_radar(estado)
