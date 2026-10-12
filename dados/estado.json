@@ -512,25 +512,6 @@
       "msg_id": 243
     },
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB5088391500",
-      "origem": "lobaopromo",
-      "link": "https://produto.mercadolivre.com.br/MLB-5088391500-colageno-verisol-e-creatina-monohidratada-renova-be-original-_JM?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-5088391500-colageno-verisol-e-creatina-monohidratada-renova-be-original-_JM",
-      "post_origem": "https://t.me/lobaopromo/188555",
-      "link_canal": "https://meli.la/15rsoUj",
-      "foto": "AgACAgQAAxkDAAP0as1TyOzkzow50ZR0bNbbtyzVlCcAAsgNaxt4hC1ToP-AL4dWUZABAAMCAAN4AAM9BA",
-      "foto_origem": "loja",
-      "nome": "Colágeno Verisol E Creatina Monohidratada Renova Be Original",
-      "de": 431.0,
-      "por": 142.0,
-      "titulo": "Colágeno e creatina Renova Be com 67% off",
-      "id": 109,
-      "garimpado_em": "2026-10-12T18:40-03:00",
-      "na_revisao_desde": "2026-10-12T18:40-03:00",
-      "msg_id": 244
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B09QL7J9Q8",
       "origem": "promobit",
@@ -963,6 +944,26 @@
   ],
   "lixeira": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB5088391500",
+      "origem": "lobaopromo",
+      "link": "https://produto.mercadolivre.com.br/MLB-5088391500-colageno-verisol-e-creatina-monohidratada-renova-be-original-_JM?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-5088391500-colageno-verisol-e-creatina-monohidratada-renova-be-original-_JM",
+      "post_origem": "https://t.me/lobaopromo/188555",
+      "link_canal": "https://meli.la/15rsoUj",
+      "foto": "AgACAgQAAxkDAAP0as1TyOzkzow50ZR0bNbbtyzVlCcAAsgNaxt4hC1ToP-AL4dWUZABAAMCAAN4AAM9BA",
+      "foto_origem": "loja",
+      "nome": "Colágeno Verisol E Creatina Monohidratada Renova Be Original",
+      "de": 431.0,
+      "por": 142.0,
+      "titulo": "Colágeno e creatina Renova Be com 67% off",
+      "id": 109,
+      "garimpado_em": "2026-10-12T18:40-03:00",
+      "na_revisao_desde": "2026-10-12T18:40-03:00",
+      "removido_em": "2026-10-12T19:34:53-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0HF7D9C2J",
       "origem": "promobit",
@@ -1330,7 +1331,7 @@
       "lobaopromo": {
         "achados": 7,
         "aprovados": 2,
-        "reprovados": 4
+        "reprovados": 5
       },
       "urubupromo": {
         "achados": 1,
