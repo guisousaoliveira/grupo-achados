@@ -407,23 +407,6 @@
       "id": 79,
       "garimpado_em": "2026-10-12T16:30-03:00",
       "msg_id": 204
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0FH7LY3R4",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0FH7LY3R4?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0FH7LY3R4?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/220171",
-      "link_canal": "https://www.amazon.com.br/dp/B0FH7LY3R4?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAPPas01Ye4coEED7gyRZUuo4iZPwvEAAnkPaxu7b1RSTmZcnyIL9eYBAAMCAAN4AAM9BA",
-      "foto_origem": "loja",
-      "nome": "Roku Streaming Stick HD 2025  Dispositivo de streaming para TV HD/FHD com controle remoto por comando de voz compatível ",
-      "por": 204.5,
-      "titulo": "Roku Streaming Stick HD com 14% off",
-      "id": 82,
-      "garimpado_em": "2026-10-12T16:30-03:00",
-      "msg_id": 207
     }
   ],
   "proximo_id": 84,
@@ -693,6 +676,24 @@
   "lixeira": [
     {
       "loja": "amazon",
+      "chave": "amazon:B0FH7LY3R4",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0FH7LY3R4?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0FH7LY3R4?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220171",
+      "link_canal": "https://www.amazon.com.br/dp/B0FH7LY3R4?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAPPas01Ye4coEED7gyRZUuo4iZPwvEAAnkPaxu7b1RSTmZcnyIL9eYBAAMCAAN4AAM9BA",
+      "foto_origem": "loja",
+      "nome": "Roku Streaming Stick HD 2025  Dispositivo de streaming para TV HD/FHD com controle remoto por comando de voz compatível ",
+      "por": 204.5,
+      "titulo": "Roku Streaming Stick HD com 14% off",
+      "id": 82,
+      "garimpado_em": "2026-10-12T16:30-03:00",
+      "removido_em": "2026-10-12T16:35:45-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "amazon",
       "chave": "amazon:B0839M5VRD",
       "origem": "promooeasy",
       "link": "https://www.amazon.com.br/dp/B0839M5VRD?tag=alphadominu09-20",
@@ -756,7 +757,7 @@
       "promooeasy": {
         "achados": 11,
         "aprovados": 3,
-        "reprovados": 7
+        "reprovados": 8
       },
       "promobit": {
         "achados": 9,
