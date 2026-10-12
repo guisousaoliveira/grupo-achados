@@ -193,6 +193,23 @@
       "titulo": "Power bank gigante com menor preço",
       "garimpado_em": "2026-10-12T16:01-03:00",
       "aprovado_em": "2026-10-12T16:09-03:00"
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:873865538.58200280616",
+      "origem": "promooeasy",
+      "link": "https://s.shopee.com.br/5AtCrnfuu9",
+      "link_produto": "https://shopee.com.br/product/873865538/58200280616",
+      "post_origem": "https://t.me/promooeasy/220165",
+      "link_canal": "https://s.shopee.com.br/1LgUHbAKHo?lp=aff",
+      "foto": "AgACAgEAAxkDAAPGas0wsNcSXVVkmUDfuy5oGxAwin8AAjcNaxvw92lGkycG3wXNYbwBAAMCAAN4AAM9BA",
+      "foto_origem": "canal",
+      "nome": "Relógio Apple Watch Series 11 GPS 42mm 46mm S11",
+      "pix": true,
+      "por": 2134.0,
+      "titulo": "APPLE WATCH COM DESCONTO",
+      "garimpado_em": "2026-10-12T16:10-03:00",
+      "aprovado_em": "2026-10-12T16:26-03:00"
     }
   ],
   "postados": [
@@ -473,26 +490,6 @@
       "id": 75,
       "garimpado_em": "2026-10-12T16:10-03:00",
       "msg_id": 197
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:873865538.58200280616",
-      "origem": "promooeasy",
-      "link": "https://shopee.com.br/product/873865538/58200280616",
-      "link_produto": "https://shopee.com.br/product/873865538/58200280616",
-      "post_origem": "https://t.me/promooeasy/220165",
-      "link_canal": "https://s.shopee.com.br/1LgUHbAKHo?lp=aff",
-      "precisa_link": true,
-      "foto": "AgACAgEAAxkDAAPGas0wsNcSXVVkmUDfuy5oGxAwin8AAjcNaxvw92lGkycG3wXNYbwBAAMCAAN4AAM9BA",
-      "foto_origem": "canal",
-      "nome": "Relógio Apple Watch Series 11 GPS 42mm 46mm S11 Lançamento Envio Imediato com Nota Fiscal",
-      "pix": true,
-      "por": 2134.0,
-      "cupom": "AQUI",
-      "titulo": "Lançamento Apple Watch com cupom aplicado",
-      "id": 76,
-      "garimpado_em": "2026-10-12T16:10-03:00",
-      "msg_id": 198
     }
   ],
   "proximo_id": 79,
@@ -846,7 +843,7 @@
     "2026-10-12": {
       "promooeasy": {
         "achados": 9,
-        "aprovados": 2,
+        "aprovados": 3,
         "reprovados": 2
       },
       "promobit": {
