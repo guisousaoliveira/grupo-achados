@@ -177,18 +177,17 @@
     ],
     "pausado": true,
     "ultima": {
-      "em": "2026-10-12T04:33:12-03:00",
-      "pedido": "38300efb8f",
+      "em": "2026-10-12T05:45:31-03:00",
+      "pedido": "16dd57d2fe",
       "forcado": true,
       "canais": 10,
       "lidos": 10,
       "falhas": [],
-      "posts_novos": 12,
-      "do_nicho": 3,
+      "posts_novos": 0,
+      "do_nicho": 0,
       "repetidas": 0,
-      "novas": 3,
-      "limite_dia": false,
-      "limite_rodada": true
+      "novas": 0,
+      "limite_dia": false
     }
   },
   "ultimos": [
