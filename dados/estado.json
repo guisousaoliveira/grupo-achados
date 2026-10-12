@@ -452,27 +452,6 @@
       "garimpado_em": "2026-10-12T17:20-03:00",
       "na_revisao_desde": "2026-10-12T17:20-03:00",
       "msg_id": 227
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:473616631.41365763294",
-      "origem": "promooeasy",
-      "link": "https://shopee.com.br/product/473616631/41365763294",
-      "link_produto": "https://shopee.com.br/product/473616631/41365763294",
-      "post_origem": "https://t.me/promooeasy/220205",
-      "link_canal": "https://s.shopee.com.br/1B6lyvLLK?lp=aff",
-      "precisa_link": true,
-      "foto": "AgACAgEAAxkDAAPkas1BIRAU4OUUx6NE91h6YMAV0_MAAmYNaxvw92lGzerQEZJzCdgBAAMCAAN4AAM9BA",
-      "foto_origem": "canal",
-      "nome": "Teclado Mecânico Gamer Titorion Computador ABNT2 Hot Swap RGB Switch LED",
-      "pix": true,
-      "de": 301.67,
-      "por": 137.58,
-      "titulo": "Teclado Mecânico Gamer Titorion com 54% off",
-      "id": 97,
-      "garimpado_em": "2026-10-12T17:20-03:00",
-      "na_revisao_desde": "2026-10-12T17:20-03:00",
-      "msg_id": 228
     }
   ],
   "proximo_id": 98,
@@ -784,6 +763,28 @@
   ],
   "lixeira": [
     {
+      "loja": "shopee",
+      "chave": "shopee:473616631.41365763294",
+      "origem": "promooeasy",
+      "link": "https://shopee.com.br/product/473616631/41365763294",
+      "link_produto": "https://shopee.com.br/product/473616631/41365763294",
+      "post_origem": "https://t.me/promooeasy/220205",
+      "link_canal": "https://s.shopee.com.br/1B6lyvLLK?lp=aff",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAPkas1BIRAU4OUUx6NE91h6YMAV0_MAAmYNaxvw92lGzerQEZJzCdgBAAMCAAN4AAM9BA",
+      "foto_origem": "canal",
+      "nome": "Teclado Mecânico Gamer Titorion Computador ABNT2 Hot Swap RGB Switch LED",
+      "pix": true,
+      "de": 301.67,
+      "por": 137.58,
+      "titulo": "Teclado Mecânico Gamer Titorion com 54% off",
+      "id": 97,
+      "garimpado_em": "2026-10-12T17:20-03:00",
+      "na_revisao_desde": "2026-10-12T17:20-03:00",
+      "removido_em": "2026-10-12T17:21:36-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB55813838",
       "origem": "lobaopromo",
@@ -888,7 +889,7 @@
       "promooeasy": {
         "achados": 17,
         "aprovados": 4,
-        "reprovados": 12
+        "reprovados": 13
       },
       "promobit": {
         "achados": 11,
