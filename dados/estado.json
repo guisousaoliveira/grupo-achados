@@ -438,27 +438,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0DP5K22XJ",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0DP5K22XJ?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0DP5K22XJ?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/220188",
-      "link_canal": "https://www.amazon.com.br/dp/B0DP5K22XJ?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAPbas08c5Bk4CnUyAnm_PVcjgPuHDAAAoEOaxtN7nVS1InpoG9gSjABAAMCAAN4AAM9BA",
-      "foto_origem": "loja",
-      "nome": "Monitor Gamer Redragon Ombra 32 Quad HD IPS 165hz GMQ3222SUC",
-      "parcelas": 12,
-      "por": 1499.0,
-      "titulo": "Monitor Gamer Redragon com desconto de 25%",
-      "id": 89,
-      "garimpado_em": "2026-10-12T17:00-03:00",
-      "na_revisao_desde": "2026-10-12T17:00-03:00",
-      "msg_id": 219
-    }
-  ],
+  "revisar": [],
   "proximo_id": 91,
   "radar": {
     "visto": {
@@ -749,6 +729,26 @@
   ],
   "lixeira": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B0DP5K22XJ",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0DP5K22XJ?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0DP5K22XJ?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220188",
+      "link_canal": "https://www.amazon.com.br/dp/B0DP5K22XJ?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAPbas08c5Bk4CnUyAnm_PVcjgPuHDAAAoEOaxtN7nVS1InpoG9gSjABAAMCAAN4AAM9BA",
+      "foto_origem": "loja",
+      "nome": "Monitor Gamer Redragon Ombra 32 Quad HD IPS 165hz GMQ3222SUC",
+      "parcelas": 12,
+      "por": 1499.0,
+      "titulo": "Monitor Gamer Redragon com desconto de 25%",
+      "id": 89,
+      "garimpado_em": "2026-10-12T17:00-03:00",
+      "na_revisao_desde": "2026-10-12T17:00-03:00",
+      "removido_em": "2026-10-12T17:07:51-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:1009975506.40983623796",
       "origem": "infoBRpromos",
@@ -908,7 +908,7 @@
       "promooeasy": {
         "achados": 14,
         "aprovados": 4,
-        "reprovados": 9
+        "reprovados": 10
       },
       "promobit": {
         "achados": 11,
