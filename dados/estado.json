@@ -193,6 +193,23 @@
       "titulo": "Power bank gigante com menor preço",
       "garimpado_em": "2026-10-12T16:01-03:00",
       "aprovado_em": "2026-10-12T16:09-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB18725403",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/2JfxHGC",
+      "link_produto": "https://www.mercadolivre.com.br/proteina-growth-supplements-basic-whey-em-po-sabor-chocolate-x-1kg/p/MLB18725403",
+      "post_origem": "https://t.me/lobaopromo/188513",
+      "link_canal": "https://meli.la/2FJrMYU",
+      "foto": "AgACAgQAAxkDAAO_as0uXQrZz3JlsLJIrS4Hac4GEh4AAjIMaxvlY-RRlGj7tAXk7TIBAAMCAAN4AAM9BA",
+      "foto_origem": "loja",
+      "nome": "Proteína Growth Supplements Basic Whey em pó sabor Chocolate x 1kg",
+      "de": 104.9,
+      "por": 72.9,
+      "titulo": "Whey Growth de chocolate com desconto",
+      "garimpado_em": "2026-10-12T16:01-03:00",
+      "aprovado_em": "2026-10-12T16:10-03:00"
     }
   ],
   "postados": [
@@ -423,24 +440,6 @@
       "id": 70,
       "garimpado_em": "2026-10-12T15:48-03:00",
       "msg_id": 190
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB18725403",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/proteina-growth-supplements-basic-whey-em-po-sabor-chocolate-x-1kg/p/MLB18725403?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/proteina-growth-supplements-basic-whey-em-po-sabor-chocolate-x-1kg/p/MLB18725403",
-      "post_origem": "https://t.me/lobaopromo/188513",
-      "link_canal": "https://meli.la/2FJrMYU",
-      "foto": "AgACAgQAAxkDAAO_as0uXQrZz3JlsLJIrS4Hac4GEh4AAjIMaxvlY-RRlGj7tAXk7TIBAAMCAAN4AAM9BA",
-      "foto_origem": "loja",
-      "nome": "Proteína Growth Supplements Basic Whey em pó sabor Chocolate x 1kg",
-      "de": 104.9,
-      "por": 72.9,
-      "titulo": "Menor preço histórico em whey chocolate",
-      "id": 71,
-      "garimpado_em": "2026-10-12T16:01-03:00",
-      "msg_id": 193
     },
     {
       "loja": "mercadolivre",
@@ -863,7 +862,7 @@
       },
       "lobaopromo": {
         "achados": 2,
-        "aprovados": 0,
+        "aprovados": 1,
         "reprovados": 0
       },
       "urubupromo": {
