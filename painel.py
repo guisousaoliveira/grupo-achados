@@ -169,6 +169,7 @@ def item_json(x, ident):
     d["foto"] = url_foto(x.get("foto"))
     d["foto_raw"] = x.get("foto") or ""
     d["falta"] = bot.faltando(x)
+    d["emoji_titulo"] = bot.emoji_titulo(x)
     return d
 
 

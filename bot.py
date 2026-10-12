@@ -332,23 +332,24 @@ def montar_post(item):
     """Post do canal em blocos separados por uma linha em branco (no celular fica menos apertado)."""
     def e(t):
         return html.escape(t, quote=False)
-    # Título (a chamada) em cima, depois o nome. Emoji só no título, no cupom e no carrinho.
+    # Título (a chamada) em cima, depois o nome. Emoji em cada linha: título (🚨 ou 🔥, sorteado por oferta,
+    # sempre o mesmo para a mesma oferta), 📦 produto, 💰 preço, 🎟️ cupom e 🛒 link.
     # "frase" é o nome antigo do título (ofertas que já estavam na fila).
     titulo = item.get("titulo") or item.get("frase")
     if titulo:
-        blocos = [f"🚨 <b>{e(titulo.upper())}</b>", e(item["nome"])]
+        blocos = [f"{emoji_titulo(item)} <b>{e(titulo.upper())}</b>", f"📦 {e(item['nome'])}"]
     else:
-        blocos = [f"<b>{e(item['nome'])}</b>"]
+        blocos = [f"📦 <b>{e(item['nome'])}</b>"]
     preco = []
     de, por = item.get("de"), item.get("por")
     pix = " no Pix" if item.get("pix") else ""
     if por and de and de > por:
         off = round((1 - por / de) * 100)
-        preco.append(f"De <s>{reais(de)}</s> por <b>{reais(por)}</b>{pix} ({off}% off)")
+        preco.append(f"💰 De <s>{reais(de)}</s> por <b>{reais(por)}</b>{pix} ({off}% off)")
     elif por:
-        preco.append(f"Por <b>{reais(por)}</b>{pix}")
+        preco.append(f"💰 Por <b>{reais(por)}</b>{pix}")
     if item.get("parcelas") and por:
-        preco.append(texto_parcelas(item))
+        preco.append("💳 " + texto_parcelas(item))
     if item.get("prime"):
         extra = f" (sem Prime: {reais(item['sem_prime'])})" if item.get("sem_prime") else ""
         preco.append(f"Preço exclusivo para membros Prime{extra}")
@@ -364,6 +365,12 @@ def montar_post(item):
     if rodape:
         blocos.append(e(rodape))
     return "\n\n".join(blocos)
+
+
+def emoji_titulo(item):
+    """🚨 ou 🔥, sorteado pela oferta (o mesmo na prévia, na revisão e no post)."""
+    chave = item.get("chave") or item.get("link") or item.get("nome") or ""
+    return ("🚨", "🔥")[int(hashlib.md5(chave.encode()).hexdigest(), 16) % 2]
 
 
 def texto_parcelas(item):

@@ -472,15 +472,15 @@ function quando(iso){
 
 /* -------- montagem do post (igual ao bot) -------- */
 function montarPost(x){
-  const b = x.titulo ? [`🚨 <b>${esc(x.titulo.toUpperCase())}</b>`, esc(x.nome || 'Nome do produto')]
-    : [`<b>${esc(x.nome || 'Nome do produto')}</b>`];
+  const b = x.titulo ? [`${x.emoji_titulo || '🚨'} <b>${esc(x.titulo.toUpperCase())}</b>`, `📦 ${esc(x.nome || 'Nome do produto')}`]
+    : [`📦 <b>${esc(x.nome || 'Nome do produto')}</b>`];
   const p = [];
   const o = offDe(x);
   const pix = x.pix ? ' no Pix' : '';
-  if (x.por && o) p.push(`De <s>${reais(x.de)}</s> por <b>${reais(x.por)}</b>${pix} (${o}% off)`);
-  else if (x.por) p.push(`Por <b>${reais(x.por)}</b>${pix}`);
+  if (x.por && o) p.push(`💰 De <s>${reais(x.de)}</s> por <b>${reais(x.por)}</b>${pix} (${o}% off)`);
+  else if (x.por) p.push(`💰 Por <b>${reais(x.por)}</b>${pix}`);
   const np = parseInt(x.parcelas);
-  if (x.por && np >= 2 && np <= 24) p.push(`ou ${np}x de ${reais(x.parcela_valor || x.por / np)} sem juros`);
+  if (x.por && np >= 2 && np <= 24) p.push(`💳 ou ${np}x de ${reais(x.parcela_valor || x.por / np)} sem juros`);
   if (x.prime) p.push(`Preço exclusivo para membros Prime${x.sem_prime ? ` (sem Prime: ${reais(x.sem_prime)})` : ''}`);
   if (p.length) b.push(p.join('<br>'));
   if (x.cupom) b.push(`🎟️ Cupom: <code>${esc(x.cupom)}</code>`);
