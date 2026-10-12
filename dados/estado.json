@@ -326,18 +326,38 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [],
-  "proximo_id": 65,
+  "revisar": [
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB22357681",
+      "origem": "gatunopromos",
+      "link": "https://www.mercadolivre.com.br/aparador-de-pelos-kemei-km-6511-nariz-orelhas-sem-fio-preto/p/MLB22357681?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/aparador-de-pelos-kemei-km-6511-nariz-orelhas-sem-fio-preto/p/MLB22357681",
+      "post_origem": "https://t.me/gatunopromos/124892",
+      "link_canal": "https://meli.la/2EA97YX",
+      "foto": "AgACAgQAAxkDAAO4as0k8VJI5KxNjEbUGWRUFhLEwWUAApEPaxurvGRSfwqBK-hyHyoBAAMCAAN4AAM9BA",
+      "foto_origem": "loja",
+      "nome": "Aparador de Pelos Kemei KM-6511 Nariz Orelhas Sem Fio Preto",
+      "pix": true,
+      "de": 78.0,
+      "por": 28.0,
+      "titulo": "Menor preço histórico com desconto absurdo",
+      "id": 65,
+      "garimpado_em": "2026-10-12T15:20-03:00",
+      "msg_id": 184
+    }
+  ],
+  "proximo_id": 66,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84495,
-      "lobaopromo": 188502,
-      "gatunopromos": 124891,
-      "pobregram": 41773,
+      "xetdaspromocoes": 84496,
+      "lobaopromo": 188503,
+      "gatunopromos": 124892,
+      "pobregram": 41774,
       "urubupromo": 41572,
-      "tudonapromo": 101616,
-      "promonocontext": 125947,
-      "promooeasy": 220131,
+      "tudonapromo": 101617,
+      "promonocontext": 125949,
+      "promooeasy": 220135,
       "aquitempechincha": 281109,
       "infoBRpromos": 67414,
       "boletando": 76611,
@@ -345,7 +365,7 @@
       "achadosdotb": 11753
     },
     "dia": "2026-10-12",
-    "hoje": 35,
+    "hoje": 36,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -389,27 +409,28 @@
       "amazon:B0HB7NS9RM",
       "amazon:B0DB6KW9SQ",
       "amazon:B07ZHGT9ZT",
-      "mercadolivre:MLB80066974"
+      "mercadolivre:MLB80066974",
+      "mercadolivre:MLB22357681"
     ],
     "ultima": {
-      "em": "2026-10-12T15:10:18-03:00",
+      "em": "2026-10-12T15:20:18-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 31,
-      "do_nicho": 4,
-      "repetidas": 0,
-      "novas": 4,
+      "posts_novos": 21,
+      "do_nicho": 2,
+      "repetidas": 1,
+      "novas": 1,
       "limite_dia": false,
-      "promobit": 3
+      "promobit": 0
     },
     "hora": "2026-10-12T15",
-    "nesta_hora": 1,
+    "nesta_hora": 2,
     "promobit_hora": "2026-10-12T15",
     "promobit_nesta_hora": 4,
-    "promobit_visto": 3108855
+    "promobit_visto": 3108868
   },
   "ultimos": [
     {
@@ -608,6 +629,11 @@
         "achados": 4,
         "aprovados": 3,
         "reprovados": 1
+      },
+      "gatunopromos": {
+        "achados": 1,
+        "aprovados": 0,
+        "reprovados": 0
       }
     }
   }
