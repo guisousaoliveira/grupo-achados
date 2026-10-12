@@ -277,26 +277,44 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [],
-  "proximo_id": 59,
+  "revisar": [
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0G5RDXV7N",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0G5RDXV7N?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0G5RDXV7N?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220118",
+      "link_canal": "https://www.amazon.com.br/dp/B0G5RDXV7N?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAOwas0d6RFfnOw572RDb3qPFV6f-vIAAg4PaxtzFzRSRcdbFb_04d4BAAMCAAN4AAM9BA",
+      "foto_origem": "loja",
+      "nome": "Air Cooler GamerStorm X Redragon AK400 RD Preto 4 Heatpipes Fan 120 mm",
+      "por": 148.0,
+      "titulo": "Air Cooler Redragon com menor preço",
+      "id": 59,
+      "garimpado_em": "2026-10-12T14:50-03:00",
+      "msg_id": 176
+    }
+  ],
+  "proximo_id": 60,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84489,
-      "lobaopromo": 188495,
-      "gatunopromos": 124886,
+      "xetdaspromocoes": 84490,
+      "lobaopromo": 188499,
+      "gatunopromos": 124888,
       "pobregram": 41770,
       "urubupromo": 41572,
-      "tudonapromo": 101612,
-      "promonocontext": 125941,
-      "promooeasy": 220117,
+      "tudonapromo": 101614,
+      "promonocontext": 125944,
+      "promooeasy": 220121,
       "aquitempechincha": 281109,
-      "infoBRpromos": 67412,
-      "boletando": 76609,
+      "infoBRpromos": 67414,
+      "boletando": 76610,
       "promotop": 260183,
       "achadosdotb": 11753
     },
     "dia": "2026-10-12",
-    "hoje": 29,
+    "hoje": 30,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -334,27 +352,28 @@
       "amazon:B08F2XPY3W",
       "mercadolivre:MLB2843236667",
       "amazon:B0FV12RHG9",
-      "amazon:B0HC8MGM1Q"
+      "amazon:B0HC8MGM1Q",
+      "amazon:B0G5RDXV7N"
     ],
     "ultima": {
-      "em": "2026-10-12T14:40:20-03:00",
+      "em": "2026-10-12T14:50:19-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 14,
-      "do_nicho": 0,
-      "repetidas": 0,
-      "novas": 0,
+      "posts_novos": 28,
+      "do_nicho": 2,
+      "repetidas": 1,
+      "novas": 1,
       "limite_dia": false,
       "promobit": 0
     },
     "hora": "2026-10-12T14",
-    "nesta_hora": 2,
+    "nesta_hora": 3,
     "promobit_hora": "2026-10-12T14",
     "promobit_nesta_hora": 2,
-    "promobit_visto": 3108800
+    "promobit_visto": 3108810
   },
   "ultimos": [
     {
@@ -515,5 +534,14 @@
       "removido_em": "2026-10-12T14:23:13-03:00",
       "removido_de": "revisar"
     }
-  ]
+  ],
+  "garimpo": {
+    "2026-10-12": {
+      "promooeasy": {
+        "achados": 1,
+        "aprovados": 0,
+        "reprovados": 0
+      }
+    }
+  }
 }
