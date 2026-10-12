@@ -433,28 +433,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB55813838",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/power-bank-60000mah-100w-para-starlink-mini-ultra-rapido-carregador-portatil-e-notebooks-celulares-computadores-viagens-trabalho-home-office-protecoes-contra-sobrecarga-e-curto-circuito-ice-coorel/p/MLB55813838?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/power-bank-60000mah-100w-para-starlink-mini-ultra-rapido-carregador-portatil-e-notebooks-celulares-computadores-viagens-trabalho-home-office-protecoes-contra-sobrecarga-e-curto-circuito-ice-coorel/p/MLB55813838",
-      "post_origem": "https://t.me/lobaopromo/188526",
-      "link_canal": "https://meli.la/1nTs7TV",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_673301-MLA103377891620_012026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Power Bank 60.000mah 100w Para",
-      "de": 429.0,
-      "por": 313.43,
-      "cupom": "PROMODEHOJE",
-      "titulo": "Power Bank 60.000mAh com 27% de desconto",
-      "id": 91,
-      "garimpado_em": "2026-10-12T17:10-03:00",
-      "na_revisao_desde": "2026-10-12T17:10-03:00",
-      "msg_id": 222
-    }
-  ],
+  "revisar": [],
   "proximo_id": 96,
   "radar": {
     "visto": {
@@ -762,6 +741,27 @@
   ],
   "lixeira": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB55813838",
+      "origem": "lobaopromo",
+      "link": "https://www.mercadolivre.com.br/power-bank-60000mah-100w-para-starlink-mini-ultra-rapido-carregador-portatil-e-notebooks-celulares-computadores-viagens-trabalho-home-office-protecoes-contra-sobrecarga-e-curto-circuito-ice-coorel/p/MLB55813838?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/power-bank-60000mah-100w-para-starlink-mini-ultra-rapido-carregador-portatil-e-notebooks-celulares-computadores-viagens-trabalho-home-office-protecoes-contra-sobrecarga-e-curto-circuito-ice-coorel/p/MLB55813838",
+      "post_origem": "https://t.me/lobaopromo/188526",
+      "link_canal": "https://meli.la/1nTs7TV",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_673301-MLA103377891620_012026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Power Bank 60.000mah 100w Para",
+      "de": 429.0,
+      "por": 313.43,
+      "cupom": "PROMODEHOJE",
+      "titulo": "Power Bank 60.000mAh com 27% de desconto",
+      "id": 91,
+      "garimpado_em": "2026-10-12T17:10-03:00",
+      "na_revisao_desde": "2026-10-12T17:10-03:00",
+      "removido_em": "2026-10-12T17:12:36-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B09729YMPT",
       "origem": "promooeasy",
@@ -860,7 +860,7 @@
       "lobaopromo": {
         "achados": 3,
         "aprovados": 1,
-        "reprovados": 1
+        "reprovados": 2
       },
       "urubupromo": {
         "achados": 1,
