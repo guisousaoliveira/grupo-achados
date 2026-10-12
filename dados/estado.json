@@ -234,24 +234,38 @@
       "titulo": "Mais foco no seu treino: Pré-Treino Core Growth por R$ 59.",
       "id": 36,
       "msg_id": 142
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B07DHSHXVP",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B07DHSHXVP?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B07DHSHXVP?tag=alphadominu09-20",
+      "foto": "AgACAgQAAxkDAAOPaszCeL_7086Po2RgSHph3D99X-AAAnoNaxvsS5xRHyRTKu-T5scBAAMCAAN5AAM9BA",
+      "foto_origem": "loja",
+      "nome": "Power Bank Pro 20000mAH, Bateria Portátil Universal, Carga Rápida, Display Indicador, Entradas Micro USB e USB-C, 2 Port",
+      "por": 125.06,
+      "titulo": "Upgrade que vale a pena nesse preço.",
+      "id": 37,
+      "msg_id": 143
     }
   ],
-  "proximo_id": 37,
+  "proximo_id": 38,
   "radar": {
     "visto": {
       "xetdaspromocoes": 84418,
-      "lobaopromo": 188398,
-      "gatunopromos": 124838,
+      "lobaopromo": 188399,
+      "gatunopromos": 124839,
       "pobregram": 41740,
       "urubupromo": 41556,
       "tudonapromo": 101548,
       "promonocontext": 125768,
-      "promooeasy": 219965,
+      "promooeasy": 219967,
       "aquitempechincha": 280939,
       "infoBRpromos": 67374
     },
     "dia": "2026-10-12",
-    "hoje": 9,
+    "hoje": 10,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -269,16 +283,17 @@
       "amazon:B078HS3SKS",
       "mercadolivre:MLB52868715",
       "mercadolivre:MLB75755258",
-      "amazon:B0C9R59R1X"
+      "amazon:B0C9R59R1X",
+      "amazon:B07DHSHXVP"
     ],
     "ultima": {
-      "em": "2026-10-12T08:15:17-03:00",
+      "em": "2026-10-12T08:20:18-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 10,
       "lidos": 10,
       "falhas": [],
-      "posts_novos": 3,
+      "posts_novos": 4,
       "do_nicho": 1,
       "repetidas": 0,
       "novas": 1,
