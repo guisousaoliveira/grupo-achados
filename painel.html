@@ -90,8 +90,30 @@ main{min-width:0;padding:26px 34px 60px;max-width:1180px}
 .gb{display:flex;align-items:center;gap:8px}.gb b{font-size:13px;min-width:36px}
 .gtx{flex:1;height:6px;border-radius:9px;background:var(--card2);overflow:hidden}.gtx i{display:block;height:100%;background:var(--gold)}
 .gh i{font-style:normal}
-.st-mod{justify-content:center;margin-bottom:12px}
-.st-links{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin-top:10px}.st-links .btn{gap:8px}.gh .sm{display:none}
+/* janela do story: imagem à esquerda, controles à direita (no celular, um embaixo do outro) */
+.modal.st{width:min(860px,calc(100% - 32px));padding:22px}
+.st-hd{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px}.st-hd h3{margin:0;font-size:17px}
+.st-grid{display:grid;grid-template-columns:minmax(0,340px) minmax(0,1fr);gap:24px;align-items:start}
+.st-grid .storyimg{margin:0}
+.st-side{display:flex;flex-direction:column;gap:18px;min-width:0}
+.st-sec{display:flex;flex-direction:column;gap:8px}
+.st-lb{font-size:12px;color:var(--mut);text-transform:uppercase;letter-spacing:.06em;font-weight:600}
+.seg{display:grid;grid-template-columns:1fr 1fr;gap:4px;padding:4px;border-radius:12px;background:#0f0f11;border:1px solid var(--line)}
+.seg button{display:flex;align-items:center;justify-content:center;gap:7px;padding:9px 8px;border-radius:9px;border:0;background:transparent;color:var(--mut);font:inherit;font-size:13.5px;font-weight:500;cursor:pointer}
+.seg button.on{background:var(--goldbg);color:var(--gold2);box-shadow:inset 0 0 0 1px var(--goldln)}
+.st-frase{display:flex;gap:6px}.st-frase .in{flex:1;min-width:0}.st-frase .btn.icon{width:42px;height:auto;flex:none;justify-content:center}
+.st-link{display:flex;align-items:center;gap:12px;width:100%;padding:11px 13px;border-radius:12px;border:1px solid var(--line2);background:var(--card2);color:var(--tx);font:inherit;text-align:left;cursor:pointer}
+.st-link:hover{border-color:var(--goldln)}.st-link svg{color:var(--mut);flex:none}
+.st-link .t{flex:1;min-width:0;display:flex;flex-direction:column}.st-link b{font-size:14px;font-weight:600}
+.st-link small{color:var(--mut);font-size:12px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.st-acts{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:auto}.st-acts .btn{justify-content:center;gap:8px}
+@media (max-width:700px){
+  .modal.st{padding:16px;top:0;left:0;transform:none;width:100%;height:100%;max-height:none;border-radius:0;border:0}
+  .modal.st.on{transform:none}
+  .st-grid{grid-template-columns:1fr;gap:16px}
+  .st-grid .storyimg{width:auto;height:min(56vh,520px);justify-self:center}
+  .st-acts{position:sticky;bottom:-16px;background:var(--card);padding:12px 0 16px;margin-bottom:-16px;border-top:1px solid var(--line)}
+}.gh .sm{display:none}
 @media (max-width:700px){
   .gr{grid-template-columns:minmax(0,1fr) 44px 26px 26px 40px;gap:8px;font-size:13.5px}
   .gh .lg{display:none}.gh .sm{display:inline}.gr.gh{text-transform:none}
@@ -391,6 +413,8 @@ const I = {
   link:'<path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>',
   links:'<path d="M19 21l-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/>',
   foto:'<rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.1-3.1a2 2 0 0 0-2.8 0L6 21"/>',
+  baixar:'<path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/>',
+  sortear:'<path d="M2 18h1.4c1.3 0 2.5-.6 3.3-1.7l6.1-8.6c.7-1.1 2-1.7 3.3-1.7H22"/><path d="m18 2 4 4-4 4"/><path d="M2 6h1.9c1.5 0 2.9.9 3.6 2.2"/><path d="M22 18h-5.9c-1.3 0-2.6-.7-3.3-1.8l-.5-.8"/><path d="m18 14 4 4-4 4"/>',
 };
 const ic = (n, s=17) => `<svg width="${s}" height="${s}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">${I[n]}</svg>`;
 const PAGINAS = [
@@ -708,6 +732,7 @@ function abrirMenu(){
 }
 function fecharTudo(){
   ['veu','drawer','modal'].forEach(i => document.getElementById(i).classList.remove('on'));
+  setTimeout(() => { if (!document.getElementById('modal').classList.contains('on')) document.getElementById('modal').classList.remove('st'); }, 200);
   document.getElementById('side').classList.remove('aberta');
   ED = null;
 }
@@ -928,19 +953,32 @@ async function copiarTexto(t, msg){
 async function abrirStory(tipo, id, frase){
   const m = document.getElementById('modal');
   const x = (E.ultimos || []).find(u => u.id === id);
-  const venda = tipo !== 'fixo' && stModelo === 'venda';
+  const fixo = tipo === 'fixo';
+  const venda = !fixo && stModelo === 'venda';
   const canalURL = E.canal ? `https://t.me/${E.canal.replace('@','')}` : '';
-  const modelos = tipo === 'fixo' ? '' : `<div class="abas mini st-mod">${[['venda','🛒 Com link do produto'],['prova','📸 Prova']].map(([k,t]) =>
-      `<button class="${stModelo===k?'on':''}" onclick="stModelo='${k}';abrirStory('${tipo}','${id}',document.getElementById('st-frase')?.value||'')">${t}</button>`).join('')}</div>`;
-  const links = venda && x ? `<div class="st-links"><button class="btn sm" onclick="copiarTexto(${esc(JSON.stringify(x.link || ''))}, 'Link do produto copiado. Cole no sticker de link.')">${marca(x.loja)}Copiar link do produto</button>
-      ${canalURL ? `<button class="btn sm" onclick="copiarTexto('${canalURL}', 'Link do canal copiado.')">${marca('tg')}Copiar link do canal</button>` : ''}</div>` : '';
-  m.innerHTML = `<h3>Story</h3>${modelos}<div class="storyimg" id="st-img"><span class="spin" style="width:26px;height:26px;border:3px solid var(--gold);border-right-color:transparent;border-radius:50%;animation:g .7s linear infinite"></span></div>
-    ${tipo === 'fixo' ? '' : `<div class="frase-st"><input class="in" id="st-frase" maxlength="40" placeholder="Escreva a frase deste story (ou deixe sorteada)" value="${esc(frase || '')}"
-      onkeydown="if(event.key==='Enter')abrirStory('${tipo}','${id}',this.value)"><button class="btn sm" onclick="abrirStory('${tipo}','${id}',document.getElementById('st-frase').value)">Usar</button></div>`}
-    ${links}
-    <div class="acts"><button class="btn ghost" onclick="fecharTudo()">Fechar</button>${tipo === 'fixo' ? '' : `<button class="btn" onclick="abrirStory('${tipo}','${id}')">Sortear outra</button>`}
-    <button class="btn" id="st-tg" onclick="fazer(this,'story_telegram','',{tipo:'${tipo}',id:'${id}',modelo:stModelo,frase:document.getElementById('st-frase')?.value||''})">Mandar no Telegram</button>
-    <a class="btn gold" id="st-dl" download="${venda ? 'story_venda.png' : 'story_alpha_promo.png'}">Baixar</a></div>`;
+  const fraseAtual = () => document.getElementById('st-frase')?.value || '';
+  const modelos = fixo ? '' : `<div class="st-sec"><div class="st-lb">Modelo</div><div class="seg">${[['venda','🛒','Com link do produto'],['prova','📸','Prova']].map(([k,e,t]) =>
+      `<button class="${stModelo===k?'on':''}" onclick="stModelo='${k}';abrirStory('${tipo}','${id}',document.getElementById('st-frase')?.value||'')"><span>${e}</span>${t}</button>`).join('')}</div></div>`;
+  const fraseBox = fixo ? '' : `<div class="st-sec"><div class="st-lb">Frase ${venda ? 'do topo' : 'de baixo'}</div>
+      <div class="st-frase"><input class="in" id="st-frase" maxlength="40" placeholder="Sorteada da sua lista. Escreva para trocar." value="${esc(frase || '')}"
+        onkeydown="if(event.key==='Enter')abrirStory('${tipo}','${id}',this.value)">
+        <button class="btn icon" title="Usar esta frase" onclick="abrirStory('${tipo}','${id}',document.getElementById('st-frase').value)">✓</button>
+        <button class="btn icon" title="Sortear outra frase" onclick="abrirStory('${tipo}','${id}')">${ic('sortear',17)}</button></div></div>`;
+  const linkRow = (logo, rot, sub, val, msg) => `<button class="st-link" onclick="copiarTexto(${esc(JSON.stringify(val))}, '${msg}')">${logo}<span class="t"><b>${rot}</b><small>${esc(sub)}</small></span>${ic('copiar',17)}</button>`;
+  const links = venda && x ? `<div class="st-sec"><div class="st-lb">Links para o sticker do Instagram</div>
+      ${linkRow(marca(x.loja), 'Link do produto', (x.link || '').replace(/^https?:\/\//, ''), x.link || '', 'Link do produto copiado. Cole no sticker de link.')}
+      ${canalURL ? linkRow(marca('tg'), 'Link do canal', canalURL.replace('https://', ''), canalURL, 'Link do canal copiado.') : ''}</div>` : '';
+  const dica = fixo ? '<p class="hint" style="margin:0">Poste e coloque o sticker de link do canal na parte de baixo.</p>'
+    : venda ? '<p class="hint" style="margin:0">No Instagram: sticker de link, cole o link e troque o texto do sticker para algo como “COMPRAR NA LOJA”.</p>' : '';
+  m.classList.add('st');
+  m.innerHTML = `<div class="st-hd"><h3>${fixo ? 'Story fixo do canal' : 'Story'}</h3><button class="btn icon sm ghost" onclick="fecharTudo()" aria-label="Fechar">✕</button></div>
+    <div class="st-grid">
+      <div class="storyimg" id="st-img"><span class="spin" style="width:26px;height:26px;border:3px solid var(--gold);border-right-color:transparent;border-radius:50%;animation:g .7s linear infinite"></span></div>
+      <div class="st-side">${modelos}${fraseBox}${links}${dica}
+        <div class="st-acts"><button class="btn" id="st-tg" onclick="fazer(this,'story_telegram','',{tipo:'${tipo}',id:'${id}',modelo:stModelo,frase:document.getElementById('st-frase')?.value||''})">${marca('tg')}Mandar no Telegram</button>
+          <a class="btn gold" id="st-dl" download="${venda ? 'story_venda.png' : 'story_alpha_promo.png'}">${ic('baixar',17)}Baixar</a></div>
+      </div>
+    </div>`;
   document.getElementById('veu').classList.add('on'); m.classList.add('on');
   try {
     const r = await fetch(`/painel/story?tipo=${tipo}&modelo=${stModelo}&id=${encodeURIComponent(id)}&frase=${encodeURIComponent(frase || '')}&t=${Date.now()}`);
