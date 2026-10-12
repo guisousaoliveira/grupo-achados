@@ -560,18 +560,56 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [],
-  "proximo_id": 123,
+  "revisar": [
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB49217710",
+      "origem": "lobaopromo",
+      "link": "https://www.mercadolivre.com.br/creatina-mu-em-po-sabor-melancia-x-500g/p/MLB49217710?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/creatina-mu-em-po-sabor-melancia-x-500g/p/MLB49217710",
+      "post_origem": "https://t.me/lobaopromo/188585",
+      "link_canal": "https://meli.la/13SFiP3",
+      "foto": "AgACAgQAAxkDAAIBBGrNZpNrXmDfOTz1gRI1o_sgcK_yAAKdDGsbUUp1UR3jqMIIdZhvAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Creatina +Mu em pó sabor Melancia x 500g",
+      "por": 67.0,
+      "titulo": "Creatina para render mais no treino",
+      "id": 123,
+      "garimpado_em": "2026-10-12T20:00-03:00",
+      "na_revisao_desde": "2026-10-12T20:00-03:00",
+      "msg_id": 260
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB27410652",
+      "origem": "lobaopromo",
+      "link": "https://www.mercadolivre.com.br/jogo-de-frigideiras-francesas-3-pecas-14-18-24cm-preto-nacional/p/MLB27410652?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/jogo-de-frigideiras-francesas-3-pecas-14-18-24cm-preto-nacional/p/MLB27410652",
+      "post_origem": "https://t.me/lobaopromo/188586",
+      "link_canal": "https://meli.la/2wjGsSD",
+      "foto": "AgACAgQAAxkDAAIBBWrNZpUTYYsMVDR8T6ooF6f1TPBtAAJxDWsbsvzNU2khqlCi1P6JAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Jogo De Frigideiras Francesas 3 Peças 14 18 24cm Preto Nacional",
+      "de": 74.9,
+      "por": 55.9,
+      "titulo": "Jogo de frigideiras com 25% off",
+      "id": 124,
+      "garimpado_em": "2026-10-12T20:00-03:00",
+      "na_revisao_desde": "2026-10-12T20:00-03:00",
+      "msg_id": 261
+    }
+  ],
+  "proximo_id": 125,
   "radar": {
     "visto": {
       "xetdaspromocoes": 84504,
-      "lobaopromo": 188582,
-      "gatunopromos": 124959,
+      "lobaopromo": 188587,
+      "gatunopromos": 124962,
       "pobregram": 41782,
       "urubupromo": 41589,
-      "tudonapromo": 101630,
-      "promonocontext": 126020,
-      "promooeasy": 220237,
+      "tudonapromo": 101633,
+      "promonocontext": 126022,
+      "promooeasy": 220238,
       "aquitempechincha": 281203,
       "infoBRpromos": 67419,
       "boletando": 76620,
@@ -579,7 +617,7 @@
       "achadosdotb": 11757
     },
     "dia": "2026-10-12",
-    "hoje": 91,
+    "hoje": 93,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -679,27 +717,29 @@
       "amazon:B0HBWR14NG",
       "mercadolivre:MLB77830419",
       "mercadolivre:MLB53342774",
-      "mercadolivre:MLB4113792113"
+      "mercadolivre:MLB4113792113",
+      "mercadolivre:MLB49217710",
+      "mercadolivre:MLB27410652"
     ],
     "ultima": {
-      "em": "2026-10-12T19:50:19-03:00",
+      "em": "2026-10-12T20:00:26-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 16,
-      "do_nicho": 1,
-      "repetidas": 0,
-      "novas": 1,
+      "posts_novos": 21,
+      "do_nicho": 3,
+      "repetidas": 1,
+      "novas": 2,
       "limite_dia": false,
       "promobit": 0
     },
-    "hora": "2026-10-12T19",
-    "nesta_hora": 5,
-    "promobit_hora": "2026-10-12T19",
-    "promobit_nesta_hora": 1,
-    "promobit_visto": 3109221
+    "hora": "2026-10-12T20",
+    "nesta_hora": 2,
+    "promobit_hora": "2026-10-12T20",
+    "promobit_nesta_hora": 0,
+    "promobit_visto": 3109246
   },
   "ultimos": [
     {
@@ -1419,7 +1459,7 @@
         "reprovados": 0
       },
       "lobaopromo": {
-        "achados": 8,
+        "achados": 10,
         "aprovados": 2,
         "reprovados": 6
       },
@@ -1455,5 +1495,5 @@
       }
     }
   },
-  "aviso_post": "2026-10-12 18|mercadolivre:https://meli.la/2XEGBAf"
+  "aviso_post": "2026-10-12 20|amazon:B00Z0UWV3O"
 }
