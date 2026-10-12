@@ -339,27 +339,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB80066974",
-      "origem": "promooeasy",
-      "link": "https://www.mercadolivre.com.br/monitor-portatil-de-156-full-hd-ips-com-usb-c-e-mini-hdmi/p/MLB80066974?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/monitor-portatil-de-156-full-hd-ips-com-usb-c-e-mini-hdmi/p/MLB80066974",
-      "post_origem": "https://t.me/promooeasy/220127",
-      "link_canal": "https://meli.la/1y1wWLG",
-      "foto": "AgACAgQAAxkDAAO2as0im_0YkFJLQzMMOxIiLimZKOkAAjgLaxtGSaxQ2kWjXe0EaacBAAMCAAN4AAM9BA",
-      "foto_origem": "loja",
-      "nome": "Monitor Gamer Portátil 15.6 1080p Fhd Ips Com Hdmi Usb Preto 127/220v",
-      "pix": true,
-      "por": 328.7,
-      "cupom": "PROMODEHOJE",
-      "titulo": "Menor preço com cupom de desconto",
-      "id": 64,
-      "garimpado_em": "2026-10-12T15:10-03:00",
-      "msg_id": 182
-    }
-  ],
+  "revisar": [],
   "proximo_id": 65,
   "radar": {
     "visto": {
@@ -587,6 +567,26 @@
   ],
   "lixeira": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB80066974",
+      "origem": "promooeasy",
+      "link": "https://www.mercadolivre.com.br/monitor-portatil-de-156-full-hd-ips-com-usb-c-e-mini-hdmi/p/MLB80066974?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/monitor-portatil-de-156-full-hd-ips-com-usb-c-e-mini-hdmi/p/MLB80066974",
+      "post_origem": "https://t.me/promooeasy/220127",
+      "link_canal": "https://meli.la/1y1wWLG",
+      "foto": "AgACAgQAAxkDAAO2as0im_0YkFJLQzMMOxIiLimZKOkAAjgLaxtGSaxQ2kWjXe0EaacBAAMCAAN4AAM9BA",
+      "foto_origem": "loja",
+      "nome": "Monitor Gamer Portátil 15.6 1080p Fhd Ips Com Hdmi Usb Preto 127/220v",
+      "pix": true,
+      "por": 328.7,
+      "cupom": "PROMODEHOJE",
+      "titulo": "Menor preço com cupom de desconto",
+      "id": 64,
+      "garimpado_em": "2026-10-12T15:10-03:00",
+      "removido_em": "2026-10-12T15:14:41-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B07ZHGT9ZT",
       "origem": "promobit",
@@ -612,7 +612,7 @@
       "promooeasy": {
         "achados": 2,
         "aprovados": 1,
-        "reprovados": 0
+        "reprovados": 1
       },
       "promobit": {
         "achados": 4,
