@@ -693,6 +693,7 @@ def gemini(corpo, timeout=30):
     candidatos = list(dict.fromkeys(_modelo_ia + [CONFIG.get("ia", {}).get("modelo", "gemini-flash-latest"),
                                                   "gemini-flash-latest"]))
     procurou = False
+    tentou = {}
     while candidatos:
         modelo = candidatos.pop(0)
         url = f"https://generativelanguage.googleapis.com/v1beta/models/{modelo}:generateContent?key={chave}"
@@ -700,10 +701,22 @@ def gemini(corpo, timeout=30):
             texto, _ = http(url, json.dumps(corpo).encode(), {"Content-Type": "application/json"}, timeout=timeout)
         except urllib.error.HTTPError as e:
             detalhe = e.read().decode("utf-8", "replace")
-            if e.code == 404:
+            if e.code in (404, 500, 503, 504):
+                # 404: modelo não existe para a chave. 5xx: Google sobrecarregado (comum no grátis):
+                # tenta de novo uma vez e depois passa para outro modelo "flash".
+                if e.code != 404 and tentou.get(modelo, 0) < 1:
+                    tentou[modelo] = 1
+                    log(f"IA: {modelo} ocupado ({e.code}), tentando de novo.")
+                    time.sleep(2)
+                    candidatos.insert(0, modelo)
+                    continue
                 if not procurou:
                     procurou = True
-                    candidatos += [m for m in _modelos_disponiveis(chave) if m not in candidatos]
+                    candidatos += [m for m in _modelos_disponiveis(chave) if m not in candidatos and m != modelo]
+                if candidatos:
+                    continue
+                if e.code != 404:
+                    raise ErroIA("o Google está sobrecarregado agora (erro 503), tente de novo em 1 minuto")
                 continue
             motivo = {400: "chave inválida ou pedido recusado", 403: "chave sem permissão (confira se a API está ativa)",
                       429: "limite grátis do minuto/dia atingido, tente daqui a pouco"}.get(e.code, f"erro {e.code}")
