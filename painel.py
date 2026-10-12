@@ -180,11 +180,12 @@ def proximos_horarios(estado, n):
     for dia in range(4):
         data = (dt + timedelta(days=dia)).date()
         usados = estado["slots_usados"].get(data.isoformat(), [])
+        agenda = bot.agenda_do_dia(data.isoformat())
         for h in horarios:
-            if dia == 0 and (h < dt.hour or h in usados):
+            if dia == 0 and (h * 60 + agenda[h] + 40 < dt.hour * 60 + dt.minute or h in usados):
                 continue
             rotulo = "hoje" if dia == 0 else "amanhã" if dia == 1 else data.strftime("%d/%m")
-            saida.append(f"{rotulo} {h}h")
+            saida.append(f"{rotulo} {h}:{agenda[h]:02d}")
             if len(saida) >= n:
                 return saida
     return saida
@@ -205,6 +206,7 @@ def resumo(estado):
         "agora": dt.isoformat(timespec="minutes"),
         "hora": dt.hour,
         "horarios": bot.CONFIG.get("horarios", []),
+        "agenda_hoje": bot.agenda_do_dia(hoje),
         "usados_hoje": estado["slots_usados"].get(hoje, []),
         "validade_horas": bot.CONFIG.get("validade_horas", 12),
         "canal": bot.CONFIG.get("canal_publico", ""),

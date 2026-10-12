@@ -1333,18 +1333,52 @@ def buscar_shopee(estado):
 
 # ---------------------------------------------------------------- postagem
 
+def agenda_do_dia(data_iso):
+    """Minuto em que cada horário posta naquele dia: {15: 37, 16: 12, ...}. É sorteado, mas sempre igual para
+    o mesmo dia (o painel mostra a mesma previsão que o bot usa), com pelo menos `intervalo_minimo` minutos
+    entre um post e o próximo. Fica com cara de gente postando, não de robô às 15:00, 16:00..."""
+    horarios = sorted(CONFIG.get("horarios", []))
+    if not CONFIG.get("minutos_aleatorios", True):
+        return {h: 0 for h in horarios}
+    rnd = random.Random(f"agenda-{data_iso}")
+    intervalo = CONFIG.get("intervalo_minimo", 25)
+    agenda, anterior = {}, None
+    for h in horarios:
+        menor = 2
+        if anterior is not None and anterior[0] == h - 1:
+            menor = max(menor, anterior[1] + intervalo - 60)
+        agenda[h] = rnd.randint(min(menor, 55), 55)
+        anterior = (h, agenda[h])
+    return agenda
+
+
 def postar_se_for_hora(estado):
     dt = agora()
     hoje = dt.date().isoformat()
     usados = estado["slots_usados"].setdefault(hoje, [])
-    # Horários que já chegaram e ainda não foram usados. Com o tick de 5 em 5 minutos, um horário vale só
-    # dentro da própria hora (ex.: o das 15h até 15h59), para não sair uma rajada de posts atrasados.
-    atraso = CONFIG.get("atraso_max_horas", 0)
-    vencidos = [h for h in CONFIG["horarios"] if 0 <= dt.hour - h <= atraso and h not in usados]
+    # Cada horário tem um minuto sorteado (agenda_do_dia). Ele vale a partir desse minuto por até 40 min,
+    # para não sair uma rajada de posts atrasados se o GitHub demorar.
+    agenda = agenda_do_dia(hoje)
+    agora_min = dt.hour * 60 + dt.minute
+    janela = CONFIG.get("janela_minutos", 40)
+    vencidos = [h for h in CONFIG["horarios"]
+                if 0 <= agora_min - (h * 60 + agenda[h]) <= janela and h not in usados]
+    if vencidos and estado["postados"] and not FORCAR:  # nunca dois posts colados
+        try:
+            ultimo = datetime.fromisoformat(estado["postados"][-1]["data"])
+            if ultimo.tzinfo is None:
+                ultimo = ultimo.replace(tzinfo=dt.tzinfo)
+            if dt - ultimo < timedelta(minutes=CONFIG.get("intervalo_minimo", 25)):
+                log("Horário chegou, mas o último post foi há pouco. Espero um pouco.")
+                return
+        except (ValueError, KeyError):
+            pass
     if FORCAR:
         vencidos = ["teste"]
     if not vencidos:
-        log("Nenhum horário de postagem agora.")
+        proximo = [f"{h}:{agenda[h]:02d}" for h in sorted(CONFIG["horarios"]) if h not in usados
+                   and h * 60 + agenda[h] > agora_min]
+        log(f"Nenhum horário de postagem agora. Próximo: {proximo[0] if proximo else 'amanhã'}.")
         return
     if not estado["fila"]:
         log("Chegou um horário de postagem, mas a fila está vazia.")

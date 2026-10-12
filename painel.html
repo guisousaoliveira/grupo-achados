@@ -521,7 +521,8 @@ function inicio(){
     else if (h === hora) { cls = 'agora'; sub = E.fila.length ? 'agora' : 'fila vazia'; }
     else if (h < hora) { cls = 'vazio'; sub = 'sem post'; }
     else { sub = E.fila.length > (E.horarios.filter(x => x >= hora && x < h && !E.usados_hoje.includes(x)).length) ? 'previsto' : 'livre'; }
-    return `<div class="slot ${cls}" title="${esc(p ? p.nome : '')}"><b>${h}h</b><span>${sub}</span></div>`;
+    const hm = p ? p.data.slice(11,16) : `${h}:${String((E.agenda_hoje || {})[h] || 0).padStart(2,'0')}`;
+    return `<div class="slot ${cls}" title="${esc(p ? p.nome : '')}"><b>${hm}</b><span>${sub}</span></div>`;
   }).join('');
   return topo(`${ola}`, `Resumo do Alpha Promo agora, ${new Date(E.agora).toLocaleDateString('pt-BR',{weekday:'long', day:'numeric', month:'long'})}.`,
       `<button class="btn" onclick="carregar(true)">Atualizar</button><button class="btn gold" onclick="ir('nova')">${ic('nova',15)}Nova oferta</button>`)
