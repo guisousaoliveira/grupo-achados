@@ -264,9 +264,39 @@
       "titulo": "Preço de queima, 79% mais barato.",
       "id": 38,
       "msg_id": 144
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:1552226494.58267803701",
+      "origem": "infoBRpromos",
+      "link": "https://shopee.com.br/product/1552226494/58267803701",
+      "link_produto": "https://shopee.com.br/product/1552226494/58267803701",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAORaszGB1Ngxf0La6rQC0txx1Gt2uUAAjsQaxvw92FGyefr_F4ZAAFUAQADAgADeAADPQQ",
+      "foto_origem": "canal",
+      "nome": "Monitor Gamer ASUS Tuf Gaming Series 5 Vg279qm5f, 27 Pol, Full Hd, 260Hz, Fast IPS, 0.3ms, Elmb Sync, FreeSync Premium",
+      "por": 828.0,
+      "titulo": "Achado do dia, aproveita antes de acabar.",
+      "id": 39,
+      "msg_id": 145
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:1537142489.23398712317",
+      "origem": "infoBRpromos",
+      "link": "https://shopee.com.br/product/1537142489/23398712317",
+      "link_produto": "https://shopee.com.br/product/1537142489/23398712317",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAOSaszGDp_QLpgJS9AJ-87sWbNUJ9YAAjwQaxvw92FGuFbWcfo5P7UBAAMCAAN4AAM9BA",
+      "foto_origem": "canal",
+      "nome": "Monitor Gamer Samsung Odyssey G5 32, QHD, 165Hz, 1ms, Freesync, HDMI, DP",
+      "por": 901.0,
+      "titulo": "Menor preço que vi nos últimos dias.",
+      "id": 40,
+      "msg_id": 146
     }
   ],
-  "proximo_id": 39,
+  "proximo_id": 41,
   "radar": {
     "visto": {
       "xetdaspromocoes": 84418,
@@ -276,12 +306,12 @@
       "urubupromo": 41556,
       "tudonapromo": 101548,
       "promonocontext": 125769,
-      "promooeasy": 219970,
+      "promooeasy": 219973,
       "aquitempechincha": 280945,
-      "infoBRpromos": 67374
+      "infoBRpromos": 67377
     },
     "dia": "2026-10-12",
-    "hoje": 11,
+    "hoje": 13,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -301,19 +331,21 @@
       "mercadolivre:MLB75755258",
       "amazon:B0C9R59R1X",
       "amazon:B07DHSHXVP",
-      "mercadolivre:MLB75627276"
+      "mercadolivre:MLB75627276",
+      "shopee:1552226494.58267803701",
+      "shopee:1537142489.23398712317"
     ],
     "ultima": {
-      "em": "2026-10-12T08:30:27-03:00",
+      "em": "2026-10-12T08:35:17-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 10,
       "lidos": 10,
       "falhas": [],
-      "posts_novos": 8,
-      "do_nicho": 3,
-      "repetidas": 2,
-      "novas": 1,
+      "posts_novos": 6,
+      "do_nicho": 2,
+      "repetidas": 0,
+      "novas": 2,
       "limite_dia": false
     }
   },
