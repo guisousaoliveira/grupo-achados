@@ -967,6 +967,7 @@ def aplicar_correcao(item, texto):
             aplicar_parcelas(item, "" if valor == "-" else valor)
         elif campo == "link":
             item["link"] = valor
+            item["link_produto"] = valor  # o link que você editou passa a ser o que abre o produto em todo lugar
             item.pop("precisa_link", None)
             if item.get("foto_origem") == "canal" or not item.get("foto"):
                 # O ML bloqueia a página do produto para servidores, mas abre o seu link de afiliado (meli.la):
