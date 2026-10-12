@@ -1285,7 +1285,10 @@ def buscar_foto_web(nome):
             return None
         texto, _ = http(f"https://duckduckgo.com/i.js?l=br-pt&o=json&q={q}&vqd={vqd.group(1)}&f=,,,,,&p=1",
                         headers={"Referer": "https://duckduckgo.com/", "Accept": "application/json"}, timeout=15)
-        for r in json.loads(texto).get("results", [])[:8]:
+        resultados = json.loads(texto).get("results", [])
+        if os.environ.get("BOT_DEBUG"):
+            log(f"Busca de foto: {len(resultados)} resultados. {texto[:300]}")
+        for r in resultados[:8]:
             url = r.get("image", "")
             largura, altura = r.get("width") or 0, r.get("height") or 0
             if url.startswith("https://") and largura >= 300 and altura >= 300 and 0.5 <= largura / altura <= 2:

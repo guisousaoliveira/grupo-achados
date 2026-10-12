@@ -16,4 +16,5 @@ jobs:
       - name: Testar links
         env:
           LINKS: ${{ inputs.links }}
+          BOT_DEBUG: "1"
         run: python3 bot.py foto-teste $LINKS
