@@ -645,7 +645,7 @@ def mandar_para_revisao(estado, item):
     if not falta and not item.get("foto"):
         texto += "\n\n📷 Sem foto. Se quiser, responda esta mensagem com um print do produto."
     texto += ("\n\n<i>Para corrigir, responda (arrastar para o lado) esta mensagem com uma ou mais linhas:\n"
-              "nome: Creatina Growth 250g\npreço: 119,90 69,90\nfrase: A mais vendida\ncupom: NOITEPRIME10\n(frase: - ou cupom: - para tirar)</i>")
+              "nome: Creatina Growth 250g\npreço: 119,90 69,90\nfrase: A mais vendida\ncupom: NOITEPRIME10\nprime: sim 189,37 (preço sem Prime)\n(frase: - ou cupom: - para tirar)</i>")
     msg = responder_admin(texto, botoes=SO_DESCARTAR(item["id"]) if falta else BOTOES_REVISAO(item["id"]))
     item["msg_id"] = msg.get("message_id") if msg else None
     estado["revisar"].append(item)
@@ -675,7 +675,10 @@ def aplicar_correcao(item, texto):
         elif campo == "link":
             item["link"] = valor
         elif campo == "prime":
-            item["prime"] = valor.lower() in ("sim", "s", "1", "yes")
+            item["prime"] = valor.lower().split()[0] in ("sim", "s", "1", "yes")  # "prime: sim 189,37"
+            num = re.search(r"\d[\d.]*(?:,\d{1,2})?", valor)
+            if item["prime"] and num:
+                item["sem_prime"] = numero_br(num.group(0))
             if not item["prime"]:
                 item.pop("sem_prime", None)
         elif campo == "cupom":
