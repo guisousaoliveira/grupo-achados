@@ -248,24 +248,62 @@
       "titulo": "Menor preço que vi nos últimos dias.",
       "id": 40,
       "msg_id": 146
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB79167580",
+      "origem": "promonocontext",
+      "link": "https://www.mercadolivre.com.br/caixa-de-som-basike-ba-rad207-edicao-80w-radio-fm-bluetooth-53-tws-rgb-bass-boost-9000mah-camuflagem/p/MLB79167580?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/caixa-de-som-basike-ba-rad207-edicao-80w-radio-fm-bluetooth-53-tws-rgb-bass-boost-9000mah-camuflagem/p/MLB79167580",
+      "post_origem": "https://t.me/promonocontext/125912",
+      "link_canal": "https://meli.la/1hy5uJd",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_977855-MLA117476418581_092026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Caixa De Som Basike Ba-RAD207 Edição 80W Rádio FM Bluetooth 5.3 TWS",
+      "de": 615.0,
+      "por": 267.0,
+      "cupom": "DESCONTOSML",
+      "titulo": "Menor preço histórico com cupom aplicado",
+      "id": 52,
+      "garimpado_em": "2026-10-12T13:10-03:00",
+      "msg_id": 164
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB5004194280",
+      "origem": "promonocontext",
+      "link": "https://produto.mercadolivre.com.br/MLB-5004194280-mochila-tatica-impermeavel-militar-reforcada-grande-50litros-_JM?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-5004194280-mochila-tatica-impermeavel-militar-reforcada-grande-50litros-_JM",
+      "post_origem": "https://t.me/promonocontext/125913",
+      "link_canal": "https://meli.la/2Kcsp3P",
+      "foto": "AgACAgQAAxkDAAOjas0GfE9njHOSoJySBZtmG1DAcHsAAiYPaxuAWsVTVkZjuoEbqZQBAAMCAAN4AAM9BA",
+      "foto_origem": "loja",
+      "nome": "Mochila Tática Grande Resistente 50l Para Viagem Aventura Preto",
+      "de": 189.0,
+      "por": 70.0,
+      "cupom": "MELICOMPRA",
+      "titulo": "Mochila tática com 63% de desconto",
+      "id": 53,
+      "garimpado_em": "2026-10-12T13:10-03:00",
+      "msg_id": 165
     }
   ],
-  "proximo_id": 52,
+  "proximo_id": 54,
   "radar": {
     "visto": {
       "xetdaspromocoes": 84478,
       "lobaopromo": 188478,
-      "gatunopromos": 124874,
+      "gatunopromos": 124875,
       "pobregram": 41764,
       "urubupromo": 41569,
       "tudonapromo": 101604,
-      "promonocontext": 125910,
-      "promooeasy": 220091,
+      "promonocontext": 125914,
+      "promooeasy": 220094,
       "aquitempechincha": 281078,
       "infoBRpromos": 67411
     },
     "dia": "2026-10-12",
-    "hoje": 22,
+    "hoje": 24,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -296,23 +334,27 @@
       "mercadolivre:MLB42978348",
       "mercadolivre:MLB67893601",
       "mercadolivre:MLB76427437",
-      "amazon:B0HCCTKPGN"
+      "amazon:B0HCCTKPGN",
+      "mercadolivre:MLB79167580",
+      "mercadolivre:MLB5004194280"
     ],
     "ultima": {
-      "em": "2026-10-12T13:05:16-03:00",
+      "em": "2026-10-12T13:10:40-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 10,
       "lidos": 10,
       "falhas": [],
-      "posts_novos": 9,
+      "posts_novos": 6,
       "do_nicho": 2,
-      "repetidas": 1,
-      "novas": 1,
-      "limite_dia": false
+      "repetidas": 0,
+      "novas": 2,
+      "limite_dia": false,
+      "limite_hora": true,
+      "limite_rodada": false
     },
     "hora": "2026-10-12T13",
-    "nesta_hora": 1
+    "nesta_hora": 3
   },
   "ultimos": [
     {
