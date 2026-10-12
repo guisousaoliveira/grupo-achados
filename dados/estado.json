@@ -3,22 +3,6 @@
   "fila": [
     {
       "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB76427437",
-      "origem": "xetdaspromocoes",
-      "link": "https://meli.la/1JvU7yJ",
-      "link_produto": "https://www.mercadolivre.com.br/lanterna-tatica-recarregavel-atualizada-led-visor-digital-zoom-telescopico-abs-3-modos-iluminacao-usb-display-digital-zoom-potente-alta-potencia-commlite/p/MLB76427437",
-      "post_origem": "https://t.me/xetdaspromocoes/84477",
-      "link_canal": "https://meli.la/2KsVn1P",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_833234-MLA116884183450_092026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Lanterna Tática Recarregável Atualizada Led Visor Digital Zoom",
-      "de": 57.0,
-      "por": 19.0,
-      "garimpado_em": "2026-10-12T12:55-03:00",
-      "aprovado_em": "2026-10-12T13:01-03:00"
-    },
-    {
-      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB5004194280",
       "origem": "promonocontext",
       "link": "https://meli.la/1XZTvgs",
@@ -191,6 +175,12 @@
       "loja": "mercadolivre",
       "nome": "Bicicleta Ergométrica Bike Spinning 6kg Sensação Inércia Fitness",
       "data": "2026-10-12T13:00-03:00"
+    },
+    {
+      "chave": "mercadolivre:MLB76427437",
+      "loja": "mercadolivre",
+      "nome": "Lanterna Tática Recarregável Atualizada Led Visor Digital Zoom",
+      "data": "2026-10-12T13:22-03:00"
     }
   ],
   "slots_usados": {
@@ -277,6 +267,16 @@
     "nesta_hora": 3
   },
   "ultimos": [
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB76427437",
+      "link": "https://meli.la/1JvU7yJ",
+      "link_produto": "https://www.mercadolivre.com.br/lanterna-tatica-recarregavel-atualizada-led-visor-digital-zoom-telescopico-abs-3-modos-iluminacao-usb-display-digital-zoom-potente-alta-potencia-commlite/p/MLB76427437",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_833234-MLA116884183450_092026-O.webp",
+      "nome": "Lanterna Tática Recarregável Atualizada Led Visor Digital Zoom",
+      "de": 57.0,
+      "por": 19.0
+    },
     {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB42978348",
@@ -392,13 +392,6 @@
       "de": 99.88,
       "por": 56.42,
       "prime": true
-    },
-    {
-      "loja": "mercadolivre",
-      "por": 184.3,
-      "de": 349.99,
-      "nome": "Tênis Flyer Runner Mesh Bdp Puma",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_730513-MLB80451340719_112024-O.webp"
     }
   ]
 }
