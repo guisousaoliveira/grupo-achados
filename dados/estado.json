@@ -362,24 +362,54 @@
       "titulo": "Vale cada centavo nesse preço.",
       "id": 45,
       "msg_id": 151
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB42978348",
+      "origem": "lobaopromo",
+      "link": "https://www.mercadolivre.com.br/bicicleta-ergometrica-bike-spinning-6kg-sensacao-inercia-fitness-preto-e-vermelho-sevenfit-para-cardio/p/MLB42978348?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/bicicleta-ergometrica-bike-spinning-6kg-sensacao-inercia-fitness-preto-e-vermelho-sevenfit-para-cardio/p/MLB42978348",
+      "foto": "AgACAgQAAxkDAAOYaszM_gYn2_4F1H-UfjpPRdZ3RvMAAi4NaxsbFxRTWc5X9yYqCIUBAAMCAAN4AAM9BA",
+      "foto_origem": "loja",
+      "nome": "Bicicleta Ergométrica Bike Spinning 6kg Sensação Inércia Fitness",
+      "de": 1094.0,
+      "por": 458.0,
+      "titulo": "Desconto de 58%: é agora ou nunca.",
+      "id": 46,
+      "msg_id": 152
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB67893601",
+      "origem": "promonocontext",
+      "link": "https://www.mercadolivre.com.br/notebook-asus-vivobook-s-14-s5406sa-copilot-pc-intel-core-ultra-7-256-v-16gb-ram-512gb-ssd-windows-11-home-14-oled-mist-blue-qd299w/p/MLB67893601?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/notebook-asus-vivobook-s-14-s5406sa-copilot-pc-intel-core-ultra-7-256-v-16gb-ram-512gb-ssd-windows-11-home-14-oled-mist-blue-qd299w/p/MLB67893601",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_842080-MLA109454435224_042026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Notebook ASUS Vivobook S 14 S5406SA Copilot+ PC Intel Core Ultra 7",
+      "de": 6999.0,
+      "por": 5683.0,
+      "titulo": "Achado do dia, aproveita antes de acabar.",
+      "id": 47,
+      "msg_id": 153
     }
   ],
-  "proximo_id": 46,
+  "proximo_id": 48,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84420,
-      "lobaopromo": 188404,
-      "gatunopromos": 124845,
+      "xetdaspromocoes": 84421,
+      "lobaopromo": 188407,
+      "gatunopromos": 124846,
       "pobregram": 41742,
-      "urubupromo": 41556,
-      "tudonapromo": 101548,
-      "promonocontext": 125776,
-      "promooeasy": 219988,
-      "aquitempechincha": 280965,
-      "infoBRpromos": 67377
+      "urubupromo": 41558,
+      "tudonapromo": 101550,
+      "promonocontext": 125779,
+      "promooeasy": 219993,
+      "aquitempechincha": 280968,
+      "infoBRpromos": 67380
     },
     "dia": "2026-10-12",
-    "hoje": 18,
+    "hoje": 20,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -406,21 +436,23 @@
       "amazon:B09JZBTWV1",
       "amazon:B08CNBSPBD",
       "amazon:B0HCQYG4NM",
-      "amazon:B0B8PGDMWK"
+      "amazon:B0B8PGDMWK",
+      "mercadolivre:MLB42978348",
+      "mercadolivre:MLB67893601"
     ],
     "ultima": {
-      "em": "2026-10-12T09:00:33-03:00",
+      "em": "2026-10-12T09:05:15-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 10,
       "lidos": 10,
       "falhas": [],
-      "posts_novos": 10,
+      "posts_novos": 14,
       "do_nicho": 3,
-      "repetidas": 0,
-      "novas": 3,
-      "limite_dia": false,
-      "limite_rodada": true
+      "repetidas": 1,
+      "novas": 2,
+      "limite_dia": true,
+      "limite_rodada": false
     }
   },
   "ultimos": [
