@@ -23,16 +23,6 @@
       "nome": "Creatina Monohidratada Pura 1kg Dark Lab Unidade Sem sabor",
       "por": 78.0,
       "frase": "Pra quem leva o treino a sério."
-    },
-    {
-      "loja": "mercadolivre",
-      "link": "https://meli.la/2gn9Kg2",
-      "por": 261.9,
-      "de": 739.68,
-      "nome": "Fritadeira Air Fryer 5,5l Widemax Com Interior De Alumínio 1900w Midea",
-      "foto": "AgACAgQAAxkDAAN_asxMhl2nPcgI1bJFpqWAtNQxEDAAAqEMaxs5ZnVRCmuQo1YEPngBAAMCAAN4AAM9BA",
-      "chave": "mercadolivre:https://meli.la/2gn9Kg2",
-      "frase": "Desconto de 65%: é agora ou nunca."
     }
   ],
   "postados": [
@@ -89,6 +79,12 @@
       "loja": "mercadolivre",
       "nome": "Fritadeira Air Fryer 5,5l Widemax Com Interior De Alumínio 1900w Midea",
       "data": "2026-10-11T23:56-03:00"
+    },
+    {
+      "chave": "mercadolivre:https://meli.la/2gn9Kg2",
+      "loja": "mercadolivre",
+      "nome": "Fritadeira Air Fryer 5,5l Widemax Com Interior De Alumínio 1900w Midea",
+      "data": "2026-10-11T23:57-03:00"
     }
   ],
   "slots_usados": {
@@ -126,6 +122,13 @@
     ]
   },
   "ultimos": [
+    {
+      "loja": "mercadolivre",
+      "por": 261.9,
+      "de": 739.68,
+      "nome": "Fritadeira Air Fryer 5,5l Widemax Com Interior De Alumínio 1900w Midea",
+      "foto": "AgACAgQAAxkDAAN_asxMhl2nPcgI1bJFpqWAtNQxEDAAAqEMaxs5ZnVRCmuQo1YEPngBAAMCAAN4AAM9BA"
+    },
     {
       "loja": "mercadolivre",
       "foto": "AgACAgEAAxkDAAN4asxMGo-KUab4H-A1jsg6mGTafbgAAiIQaxvw92FGgXa-reLHX7IBAAMCAAN4AAM9BA",
