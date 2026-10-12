@@ -665,7 +665,7 @@ class ErroIA(Exception):
 _modelo_ia = []  # modelo que funcionou (guardado para não procurar de novo)
 
 
-def _modelos_disponiveis(chave):
+def _modelos_disponiveis(chave, com_lite=False):
     """Pergunta ao Google quais modelos a chave tem e devolve os "flash" de texto, do mais novo para o mais velho."""
     try:
         texto, _ = http(f"https://generativelanguage.googleapis.com/v1beta/models?pageSize=200&key={chave}", timeout=20)
@@ -674,7 +674,7 @@ def _modelos_disponiveis(chave):
         return []
     nomes = [m["name"].split("/", 1)[1] for m in json.loads(texto).get("models", [])
              if "generateContent" in m.get("supportedGenerationMethods", [])]
-    ruins = ("image", "tts", "audio", "live", "embedding", "thinking", "exp", "preview", "lite")
+    ruins = ("image", "tts", "audio", "live", "embedding", "thinking", "exp", "preview") + (() if com_lite else ("lite",))
     bons = [n for n in nomes if "flash" in n and not any(r in n for r in ruins)]
     bons += [n for n in nomes if "flash" in n and n not in bons and not any(r in n for r in ruins[:5])]
 
@@ -694,8 +694,13 @@ def gemini(corpo, timeout=30):
                                                   "gemini-flash-latest"]))
     procurou = False
     tentou = {}
+    usados, refazer = set(), {}
+    cota = False  # algum modelo já deu 429 (cota grátis acabou): a cota é por modelo, então tenta os outros
     while candidatos:
         modelo = candidatos.pop(0)
+        if modelo in usados and not refazer.pop(modelo, False):
+            continue
+        usados.add(modelo)
         url = f"https://generativelanguage.googleapis.com/v1beta/models/{modelo}:generateContent?key={chave}"
         try:
             texto, _ = http(url, json.dumps(corpo).encode(), {"Content-Type": "application/json"}, timeout=timeout)
@@ -709,6 +714,7 @@ def gemini(corpo, timeout=30):
                     log(f"IA: {modelo} ocupado ({e.code}), tentando de novo.")
                     time.sleep(2)
                     candidatos.insert(0, modelo)
+                    refazer[modelo] = True
                     continue
                 if not procurou:
                     procurou = True
@@ -718,6 +724,17 @@ def gemini(corpo, timeout=30):
                 if e.code != 404:
                     raise ErroIA("o Google está sobrecarregado agora (erro 503), tente de novo em 1 minuto")
                 continue
+            if e.code == 429:
+                # Cota grátis desse modelo acabou (minuto ou dia). Cada modelo tem a sua cota, e os "lite"
+                # têm bem mais: passa para eles em vez de desistir.
+                log(f"IA: cota do {modelo} acabou (429), tentando outro modelo.")
+                cota = True
+                if modelo in _modelo_ia:
+                    _modelo_ia.clear()
+                extras = ["gemini-flash-lite-latest"] + _modelos_disponiveis(chave, com_lite=True)
+                candidatos += [m for m in extras if m not in usados and m not in candidatos]
+                if candidatos:
+                    continue
             motivo = {400: "chave inválida ou pedido recusado", 403: "chave sem permissão (confira se a API está ativa)",
                       429: "limite grátis do minuto/dia atingido, tente daqui a pouco"}.get(e.code, f"erro {e.code}")
             log(f"IA: {motivo}. {detalhe[:200]}")
@@ -725,6 +742,8 @@ def gemini(corpo, timeout=30):
         _modelo_ia[:] = [modelo]
         partes = json.loads(texto)["candidates"][0]["content"]["parts"]
         return "".join(p.get("text", "") for p in partes).strip()
+    if cota:
+        raise ErroIA("limite grátis do minuto/dia atingido em todos os modelos, tente daqui a pouco")
     raise ErroIA("nenhum modelo Gemini disponível para essa chave")
 
 
