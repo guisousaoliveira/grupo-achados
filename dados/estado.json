@@ -193,24 +193,39 @@
       "titulo": "Preço bom assim não dura, corre!",
       "id": 33,
       "msg_id": 139
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB52868715",
+      "origem": "lobaopromo",
+      "link": "https://www.mercadolivre.com.br/fritadeira-eletrica-air-fryer-quad-fry-42-l1400w-preto-elgin/p/MLB52868715?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/fritadeira-eletrica-air-fryer-quad-fry-42-l1400w-preto-elgin/p/MLB52868715",
+      "foto": "AgACAgQAAxkDAAOMasy82itJUcUO7d9zgjF7WT2q8Z4AAs0LaxsB5m1R4HzighpUZ-UBAAMCAAN4AAM9BA",
+      "foto_origem": "loja",
+      "nome": "Fritadeira Elétrica Air Fryer Quad Fry 4,2 L,1400w Preto Elgin",
+      "de": 299.0,
+      "por": 145.0,
+      "titulo": "Preço de queima, 52% mais barato.",
+      "id": 34,
+      "msg_id": 140
     }
   ],
-  "proximo_id": 34,
+  "proximo_id": 35,
   "radar": {
     "visto": {
       "xetdaspromocoes": 84418,
-      "lobaopromo": 188395,
-      "gatunopromos": 124834,
+      "lobaopromo": 188396,
+      "gatunopromos": 124835,
       "pobregram": 41740,
       "urubupromo": 41555,
       "tudonapromo": 101548,
       "promonocontext": 125768,
       "promooeasy": 219963,
-      "aquitempechincha": 280934,
+      "aquitempechincha": 280935,
       "infoBRpromos": 67374
     },
     "dia": "2026-10-12",
-    "hoje": 6,
+    "hoje": 7,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -225,19 +240,20 @@
       "mercadolivre:MLB54026101",
       "shopee:1537142489.58263645964",
       "shopee:1083800536.58219483729",
-      "amazon:B078HS3SKS"
+      "amazon:B078HS3SKS",
+      "mercadolivre:MLB52868715"
     ],
     "ultima": {
-      "em": "2026-10-12T07:50:19-03:00",
+      "em": "2026-10-12T07:55:18-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 10,
       "lidos": 10,
       "falhas": [],
-      "posts_novos": 5,
+      "posts_novos": 3,
       "do_nicho": 2,
-      "repetidas": 0,
-      "novas": 2,
+      "repetidas": 1,
+      "novas": 1,
       "limite_dia": false
     }
   },
