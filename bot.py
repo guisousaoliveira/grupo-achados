@@ -1118,7 +1118,7 @@ def cmd_story(estado, texto):
     canal = CONFIG.get("canal_publico", "").replace("@", "").replace("https://t.me/", "")
     partes = texto.split()
     if partes[0].lower() == "/storyfixo":
-        enviar_arquivo(story.story_fixo(canal), "story_alpha_promo.png",
+        enviar_arquivo(story.story_fixo(canal, estado.get("story_cfg")), "story_alpha_promo.png",
                        "Story fixo do canal. Poste e coloque o sticker de link do canal na parte de baixo.")
         return
     ultimos = estado.get("ultimos", [])
@@ -1137,15 +1137,15 @@ def cmd_story(estado, texto):
     except (IndexError, ValueError):
         responder_admin(f"Tenho as {len(ultimos)} últimas postadas guardadas. Use /story para escolher, ou /story 2.")
         return
-    gerar_story(story, item, canal)
+    gerar_story(story, item, canal, estado.get("story_cfg"))
 
 
 def id_story(item):
     return hashlib.md5(item.get("chave", item.get("nome", "")).encode()).hexdigest()[:12]
 
 
-def gerar_story(story, item, canal):
-    enviar_arquivo(story.story_oferta(item, baixar_foto(item.get("foto")), canal), "story_oferta.png",
+def gerar_story(story, item, canal, cfg=None):
+    enviar_arquivo(story.story_oferta(item, baixar_foto(item.get("foto")), canal, cfg=cfg), "story_oferta.png",
                    f"Story de prova: {item.get('nome', '')}. Coloque o sticker de link do canal embaixo.")
 
 
@@ -1163,7 +1163,8 @@ def botao_story(estado, acao, ident):
     except ImportError:
         cmd_story(estado, "/story 1")  # mostra o aviso do Pillow
         return
-    gerar_story(story, item, CONFIG.get("canal_publico", "").replace("@", "").replace("https://t.me/", ""))
+    gerar_story(story, item, CONFIG.get("canal_publico", "").replace("@", "").replace("https://t.me/", ""),
+                estado.get("story_cfg"))
 
 
 def tratar_comando(estado, texto, foto=None):

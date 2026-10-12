@@ -231,6 +231,16 @@ textarea.in{resize:vertical;min-height:64px}
 
 .toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%) translateY(20px);opacity:0;z-index:60;background:#1d1d21;border:1px solid var(--line2);padding:11px 16px;border-radius:12px;box-shadow:0 10px 30px rgba(0,0,0,.4);transition:.2s;max-width:calc(100% - 32px);display:flex;gap:9px;align-items:center}
 .toast.on{opacity:1;transform:translateX(-50%)}
+.stcfg{display:flex;flex-direction:column;gap:14px}
+.stcfg .box{display:flex;flex-direction:column;gap:12px;margin-bottom:0}
+.stcfg h2{margin:0}
+.stcfg .hint{margin:-4px 0 0}
+.fr{display:flex;gap:8px;align-items:center;margin-bottom:8px}
+.fr .in{flex:1}
+.fr .cnt{font-size:12px;color:var(--mut2);width:22px;text-align:right}
+.fr .ib{width:38px;flex:none}
+.frase-st{display:flex;gap:8px;margin-top:12px}
+.frase-st .in{flex:1}
 .toast button{background:none;border:0;color:var(--gold2);font:inherit;font-weight:600;cursor:pointer;padding:0 0 0 6px}
 .toast.erro{border-color:rgba(242,85,90,.5)}
 
@@ -799,21 +809,24 @@ async function enviarNova(btn, destino){
 function stories(){
   const cards = E.ultimos.map(x => `<div class="sc"><div ${x.url ? `data-url="${esc(x.url)}" title="Abrir produto"` : ''}>${foto(x)}</div><div class="c">${loja(x.loja)}<div class="nm">${esc(x.nome)}</div>${precoHTML(x)}
       <button class="btn sm gold" onclick="abrirStory('ultimo','${x.id}')">Gerar story</button></div></div>`).join('');
-  return topo('Stories', 'Story de “prova” das ofertas que já saíram, no padrão preto e dourado. A frase de baixo muda a cada vez.')
+  return topo('Stories', 'Story de “prova” das ofertas que já saíram, no padrão preto e dourado. A frase de baixo é sorteada da sua lista.',
+      `<button class="btn" onclick="personalizarStory()">${ic('editar',16)}Personalizar textos</button>`)
     + `<div class="sgrid"><div class="sc fixo"><div class="ph"><img src="/painel/logo/leao" alt="" style="height:96px"></div><div class="c"><span class="tag">divulgação</span><div class="nm">Story fixo do canal</div><div class="meta">Para chamar gente para o Alpha Promo.</div>
       <button class="btn sm gold" onclick="abrirStory('fixo','')">Gerar story</button></div></div>${cards}</div>`
     + (E.ultimos.length ? '' : '<div class="hint" style="margin-top:12px">As ofertas aparecem aqui depois que saem no canal.</div>');
 }
 let storyURL = null;
-async function abrirStory(tipo, id){
+async function abrirStory(tipo, id, frase){
   const m = document.getElementById('modal');
   m.innerHTML = `<h3>Story</h3><div class="storyimg" id="st-img"><span class="spin" style="width:26px;height:26px;border:3px solid var(--gold);border-right-color:transparent;border-radius:50%;animation:g .7s linear infinite"></span></div>
-    <div class="acts"><button class="btn ghost" onclick="fecharTudo()">Fechar</button><button class="btn" onclick="abrirStory('${tipo}','${id}')">Outra frase</button>
-    <button class="btn" id="st-tg" onclick="fazer(this,'story_telegram','',{tipo:'${tipo}',id:'${id}'})">Mandar no Telegram</button>
+    ${tipo === 'fixo' ? '' : `<div class="frase-st"><input class="in" id="st-frase" maxlength="40" placeholder="Escreva a frase deste story (ou deixe sorteada)" value="${esc(frase || '')}"
+      onkeydown="if(event.key==='Enter')abrirStory('${tipo}','${id}',this.value)"><button class="btn sm" onclick="abrirStory('${tipo}','${id}',document.getElementById('st-frase').value)">Usar</button></div>`}
+    <div class="acts"><button class="btn ghost" onclick="fecharTudo()">Fechar</button>${tipo === 'fixo' ? '' : `<button class="btn" onclick="abrirStory('${tipo}','${id}')">Sortear outra</button>`}
+    <button class="btn" id="st-tg" onclick="fazer(this,'story_telegram','',{tipo:'${tipo}',id:'${id}',frase:document.getElementById('st-frase')?.value||''})">Mandar no Telegram</button>
     <a class="btn gold" id="st-dl" download="story_alpha_promo.png">Baixar</a></div>`;
   document.getElementById('veu').classList.add('on'); m.classList.add('on');
   try {
-    const r = await fetch(`/painel/story?tipo=${tipo}&id=${encodeURIComponent(id)}&t=${Date.now()}`);
+    const r = await fetch(`/painel/story?tipo=${tipo}&id=${encodeURIComponent(id)}&frase=${encodeURIComponent(frase || '')}&t=${Date.now()}`);
     if (!r.ok) throw new Error(await r.text());
     const blob = await r.blob();
     if (storyURL) URL.revokeObjectURL(storyURL);
@@ -822,6 +835,58 @@ async function abrirStory(tipo, id){
     document.getElementById('st-dl').href = storyURL;
   } catch(e) {
     document.getElementById('st-img').innerHTML = `<div class="hint" style="padding:20px;text-align:center">${esc(e.message || 'Não consegui gerar o story.')}</div>`;
+  }
+}
+
+/* Personalizar os textos do story (fica salvo para o painel e para o /story do Telegram). */
+function personalizarStory(){
+  const c = E.story_cfg || {};
+  if (!c.padrao) return toast('O servidor precisa do Pillow para gerar stories.', true);
+  const campo = (id, rot, val, max, dica) => `<div class="fl"><label>${rot} <span>${dica || ''}</span></label><input class="in" id="sc-${id}" maxlength="${max}" value="${esc(val)}" placeholder="${esc(c.padrao[id] || '')}"></div>`;
+  document.getElementById('dr-t').textContent = 'Personalizar stories';
+  document.getElementById('dr-b').innerHTML = `<div class="stcfg">
+    <div class="box"><h2>Frases do story de oferta</h2><p class="hint">Uma é sorteada a cada story, embaixo, acima do botão do canal. Até uns 32 caracteres cabem numa linha.</p>
+      <div id="sc-frases">${c.frases.map(fraseLinha).join('')}</div>
+      <button class="btn sm" onclick="addFrase()">+ Adicionar frase</button></div>
+    <div class="box"><h2>Story de oferta</h2>
+      ${campo('cabecalho', 'Texto do topo', c.cabecalho, 30)}
+      <label class="chk"><input type="checkbox" id="sc-mostrar_desconto" ${c.mostrar_desconto ? 'checked' : ''}>Mostrar o selo de desconto (-30%)</label>
+      <label class="chk"><input type="checkbox" id="sc-mostrar_de" ${c.mostrar_de ? 'checked' : ''}>Mostrar o preço antigo riscado</label></div>
+    <div class="box"><h2>Story fixo do canal</h2>
+      ${campo('fixo_subtitulo', 'Subtítulo', c.fixo_subtitulo, 45)}
+      <div class="fl"><label>Texto principal</label><textarea class="in" id="sc-fixo_texto" maxlength="160" rows="3">${esc(c.fixo_texto)}</textarea></div>
+      ${campo('fixo_rotulo', 'Título da lista', c.fixo_rotulo, 40)}
+      ${c.fixo_itens.map((t, i) => campo('item' + i, `Item ${i + 1}`, t, 70, ['caixa', 'carrinho', 'cupom'][i])).join('')}
+      ${campo('fixo_chamada', 'Chamada acima do link', c.fixo_chamada, 45)}</div></div>`;
+  document.getElementById('dr-f').innerHTML = `<button class="btn ghost esq" onclick="salvarStoryCfg(this, true)">Voltar ao padrão</button>
+    <button class="btn" onclick="salvarStoryCfg(this, false, 'fixo')">Salvar e ver o fixo</button>
+    <button class="btn gold" onclick="salvarStoryCfg(this, false, 'oferta')">Salvar e ver uma oferta</button>`;
+  document.getElementById('veu').classList.add('on');
+  document.getElementById('drawer').classList.add('on');
+}
+const fraseLinha = f => `<div class="fr"><input class="in" maxlength="40" value="${esc(f)}" oninput="this.nextElementSibling.textContent=this.value.length"><span class="cnt">${f.length}</span><button class="ib bad" title="Apagar" onclick="this.parentNode.remove()">${ic('lixo',15)}</button></div>`;
+function addFrase(){
+  const box = document.getElementById('sc-frases');
+  box.insertAdjacentHTML('beforeend', fraseLinha(''));
+  box.lastElementChild.querySelector('input').focus();
+}
+async function salvarStoryCfg(btn, padrao, ver){
+  if (padrao && !await confirmarP('Voltar os textos ao padrão?', 'Suas frases e textos personalizados serão apagados.', 'Voltar ao padrão')) return;
+  const v = id => document.getElementById('sc-' + id);
+  const dados = padrao ? {padrao: true} : {
+    frases: [...document.querySelectorAll('#sc-frases input')].map(i => i.value.trim()).filter(Boolean),
+    cabecalho: v('cabecalho').value, mostrar_desconto: v('mostrar_desconto').checked, mostrar_de: v('mostrar_de').checked,
+    fixo_subtitulo: v('fixo_subtitulo').value, fixo_texto: v('fixo_texto').value, fixo_rotulo: v('fixo_rotulo').value,
+    fixo_itens: [0, 1, 2].map(i => v('item' + i).value), fixo_chamada: v('fixo_chamada').value,
+  };
+  if (!padrao && !dados.frases.length) return toast('Deixe pelo menos uma frase.', true);
+  const r = await fazer(btn, 'story_config', '', dados);
+  if (r.erro) return;
+  if (padrao) return personalizarStory();
+  if (ver === 'fixo') { fecharTudo(); abrirStory('fixo', ''); }
+  else if (ver === 'oferta') {
+    if (!E.ultimos.length) return toast('Ainda não tem oferta postada para mostrar.', true);
+    fecharTudo(); abrirStory('ultimo', E.ultimos[0].id);
   }
 }
 

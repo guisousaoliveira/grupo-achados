@@ -47,6 +47,40 @@ FRASES = [
     "Mais um achado do dia.",
 ]
 
+# Textos que dá para mudar no painel (aba Stories > Personalizar). Fica guardado em estado["story_cfg"].
+PADRAO = {
+    "frases": FRASES,
+    "cabecalho": "SAIU NO ALPHA PROMO",
+    "mostrar_desconto": True,
+    "mostrar_de": True,
+    "fixo_subtitulo": "ACHADOS PARA O HOMEM QUE SE CUIDA",
+    "fixo_texto": "Chega de pagar mais caro. Encontramos os melhores preços da internet para você economizar de verdade.",
+    "fixo_rotulo": "O QUE VOCÊ VAI ENCONTRAR NO CANAL",
+    "fixo_itens": ["Achados diários: tech, estilo, treino e casa",
+                   "As melhores ofertas da Amazon, Shopee e Mercado Livre",
+                   "Cupons e preços conferidos, todo dia"],
+    "fixo_chamada": "100% gratuito. Toque para entrar.",
+}
+
+
+def config(cfg=None):
+    """Junta o que você mudou no painel com o padrão (campo vazio volta para o padrão)."""
+    c = dict(PADRAO)
+    for k, v in (cfg or {}).items():
+        if k not in PADRAO:
+            continue
+        if isinstance(PADRAO[k], bool):
+            c[k] = bool(v)
+        elif isinstance(PADRAO[k], list):
+            lista = [str(x).strip() for x in (v or []) if str(x).strip()]
+            if k == "fixo_itens":
+                lista = (lista + PADRAO[k])[:3] if lista else PADRAO[k]
+            c[k] = lista or PADRAO[k]
+        elif str(v or "").strip():
+            c[k] = str(v).strip()
+    return c
+
+
 LOGOS = PASTA / "logos"  # logos oficiais (PNG transparente): amazon, mercadolivre, shopee, telegram
 
 
@@ -166,28 +200,26 @@ def icone(nome, altura):
     return img.resize((altura, altura), Image.LANCZOS)
 
 
-def story_fixo(canal=""):
+def story_fixo(canal="", cfg=None):
+    c = config(cfg)
     img = fundo()
     d = ImageDraw.Draw(img)
     lv = leao(240)
     img.paste(lv, ((L - lv.width) // 2, 140), lv)
     centro(d, 405, "ALPHA PROMO", fonte("Playfair-Black.ttf", 112), DOURADO)
-    centro(d, 545, "ACHADOS PARA O HOMEM QUE SE CUIDA", fonte("Inter-SemiBold.ttf", 30), CINZA, espaco=3)
+    centro(d, 545, c["fixo_subtitulo"].upper(), fonte("Inter-SemiBold.ttf", 30), CINZA, espaco=3)
     divisor(d, 625)
 
     f = fonte("Inter-SemiBold.ttf", 42)
     y = 680
-    for linha in quebrar(d, "Chega de pagar mais caro. Encontramos os melhores preços da internet "
-                            "para você economizar de verdade.", f, L - 150, 4):
+    for linha in quebrar(d, c["fixo_texto"], f, L - 150, 4):
         centro(d, y, linha, f, BRANCO)
         y += 56
 
     y += 44
-    centro(d, y, "O QUE VOCÊ VAI ENCONTRAR NO CANAL", fonte("Inter-ExtraBold.ttf", 28), DOURADO, espaco=3)
+    centro(d, y, c["fixo_rotulo"].upper(), fonte("Inter-ExtraBold.ttf", 28), DOURADO, espaco=3)
     y += 66
-    itens = [("package", "Achados diários: tech, estilo, treino e casa"),
-             ("shopping-cart", "As melhores ofertas da Amazon, Shopee e Mercado Livre"),
-             ("ticket-percent", "Cupons e preços conferidos, todo dia")]
+    itens = list(zip(("package", "shopping-cart", "ticket-percent"), c["fixo_itens"]))
     f = fonte("Inter-Regular.ttf", 38)
     x = 120
     for nome, texto in itens:
@@ -199,16 +231,17 @@ def story_fixo(canal=""):
         for i, linha in enumerate(linhas):
             d.text((x + 80, y + i * 52), linha, font=f, fill=BRANCO)
         y += altura + 30
-    rodape(img, d, canal, "100% gratuito. Toque para entrar.")
+    rodape(img, d, canal, c["fixo_chamada"])
     return png(img)
 
 
-def story_oferta(item, foto=None, canal="", frase=None):
+def story_oferta(item, foto=None, canal="", frase=None, cfg=None):
+    c = config(cfg)
     img = fundo()
     d = ImageDraw.Draw(img)
     lv = leao(110)
     img.paste(lv, ((L - lv.width) // 2, 95), lv)
-    centro(d, 230, "SAIU NO ALPHA PROMO", fonte("Inter-ExtraBold.ttf", 38), DOURADO, espaco=6)
+    centro(d, 230, c["cabecalho"].upper(), fonte("Inter-ExtraBold.ttf", 38), DOURADO, espaco=6)
 
     # Cartão branco com a foto do produto
     cx0, cy0, cx1, cy1 = 170, 320, L - 170, 960
@@ -225,7 +258,7 @@ def story_oferta(item, foto=None, canal="", frase=None):
         except Exception:
             pass
     de, por = item.get("de"), item.get("por")
-    if de and por and de > por:
+    if de and por and de > por and c["mostrar_desconto"]:
         off = round((1 - por / de) * 100)
         f = fonte("Inter-ExtraBold.ttf", 52)
         texto = f"-{off}%"
@@ -240,7 +273,7 @@ def story_oferta(item, foto=None, canal="", frase=None):
         centro(d, y, linha, f_nome, BRANCO)
         y += 60
     y += 20
-    if de and por and de > por:
+    if de and por and de > por and c["mostrar_de"]:
         f_de = fonte("Inter-Regular.ttf", 42)
         t = f"de {reais(de)}"
         w = d.textlength(t, font=f_de)
@@ -250,5 +283,5 @@ def story_oferta(item, foto=None, canal="", frase=None):
         y += 62
     if por:
         centro(d, y - 10, f"por {reais(por)}", fonte("Playfair-Black.ttf", 104), DOURADO)
-    rodape(img, d, canal, frase or random.choice(FRASES))
+    rodape(img, d, canal, frase or random.choice(c["frases"]))
     return png(img)

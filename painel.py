@@ -119,6 +119,16 @@ def url_produto(x):
     return ""
 
 
+def story_cfg(estado):
+    try:
+        import story
+    except ImportError:  # sem Pillow: o painel mostra o aviso ao gerar
+        return {}
+    c = story.config(estado.get("story_cfg"))
+    c["padrao"] = story.PADRAO
+    return c
+
+
 def id_lixeira(x):
     return f"{x.get('chave', '')}@{x.get('removido_em', '')}"
 
@@ -176,6 +186,7 @@ def resumo(estado):
         "revisar": [item_json(x, str(x["id"])) for x in sorted(estado["revisar"], key=lambda x: x["id"], reverse=True)],
         "ultimos": [item_json(x, bot.id_story(x)) for x in estado.get("ultimos", [])],
         "lixeira": [item_json(x, id_lixeira(x)) for x in estado.get("lixeira", [])],
+        "story_cfg": story_cfg(estado),
         "postados": [{**p, "url": url_produto(p)} for p in reversed(estado["postados"][-300:])],
         "canais_radar": [c.strip().replace("https://t.me/", "").replace("@", "").strip("/")
                          for c in cfg_radar.get("canais", [])],
@@ -473,6 +484,13 @@ def acao(corpo):
                     estado["revisar"].append(feito["revisao"])
                     estado["proximo_id"] = max(estado["proximo_id"], feito["revisao"]["id"] + 1)
                 saida["ok"] = "Voltou para Revisar."
+        elif a == "story_config":
+            if d.get("padrao"):
+                estado.pop("story_cfg", None)
+                saida["ok"] = "Voltei os textos do story para o padrão."
+            else:
+                estado["story_cfg"] = limpar_story_cfg(d)
+                saida["ok"] = "Textos do story salvos."
         elif a == "rev_aprovar_tudo":
             prontos = [x for x in revisar if not bot.faltando(x)]
             for x in prontos:
@@ -563,27 +581,39 @@ def postar(estado, item, feito):
 
 # ---------------------------------------------------------------- story
 
-def achar_para_story(tipo, ident):
-    if tipo == "fixo":
-        return None
-    estado, _ = bot.carregar_estado()
-    lista = estado.get("ultimos", []) if tipo == "ultimo" else estado["fila"]
-    return next((x for x in lista if bot.id_story(x) == ident), None)
-
-
-def gerar_story_png(tipo, ident):
+def gerar_story_png(tipo, ident, frase=""):
     import story
+    estado, _ = bot.carregar_estado()
+    cfg = estado.get("story_cfg")
     canal = bot.CONFIG.get("canal_publico", "").replace("@", "").replace("https://t.me/", "")
     if tipo == "fixo":
-        return story.story_fixo(canal), "story_alpha_promo.png"
-    item = achar_para_story(tipo, ident)
+        return story.story_fixo(canal, cfg), "story_alpha_promo.png"
+    lista = estado.get("ultimos", []) if tipo == "ultimo" else estado["fila"]
+    item = next((x for x in lista if bot.id_story(x) == ident), None)
     if not item:
         return None, ""
-    return story.story_oferta(item, bot.baixar_foto(item.get("foto")), canal), "story_oferta.png"
+    png = story.story_oferta(item, bot.baixar_foto(item.get("foto")), canal, frase=frase.strip()[:60] or None, cfg=cfg)
+    return png, "story_oferta.png"
+
+
+def limpar_story_cfg(d):
+    """O que vem do painel (aba Stories > Personalizar), com limites para caber na imagem."""
+    curto = lambda v, n: str(v or "").strip()[:n]
+    return {
+        "frases": [curto(f, 60) for f in (d.get("frases") or []) if curto(f, 60)][:60],
+        "cabecalho": curto(d.get("cabecalho"), 30),
+        "mostrar_desconto": bool(d.get("mostrar_desconto", True)),
+        "mostrar_de": bool(d.get("mostrar_de", True)),
+        "fixo_subtitulo": curto(d.get("fixo_subtitulo"), 45),
+        "fixo_texto": curto(d.get("fixo_texto"), 160),
+        "fixo_rotulo": curto(d.get("fixo_rotulo"), 40),
+        "fixo_itens": [curto(x, 70) for x in (d.get("fixo_itens") or [])][:3],
+        "fixo_chamada": curto(d.get("fixo_chamada"), 45),
+    }
 
 
 def story_telegram(d):
-    png, nome = gerar_story_png(d.get("tipo", "ultimo"), str(d.get("id", "")))
+    png, nome = gerar_story_png(d.get("tipo", "ultimo"), str(d.get("id", "")), str(d.get("frase") or ""))
     if not png:
         return {"erro": "Não achei mais essa oferta."}
     bot.enviar_arquivo(png, nome, "Story gerado pelo painel.")
@@ -632,7 +662,7 @@ def tratar_get(req):
         responder(req, 200, _fotos[f], "image/jpeg")
     elif caminho == "/painel/story":
         try:
-            png, nome = gerar_story_png(q.get("tipo", "ultimo"), q.get("id", ""))
+            png, nome = gerar_story_png(q.get("tipo", "ultimo"), q.get("id", ""), q.get("frase", ""))
         except ImportError:
             responder(req, 500, "O servidor precisa do Pillow: Build Command = pip install -r requirements.txt", "text/plain")
             return
