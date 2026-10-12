@@ -257,7 +257,15 @@ def responder_admin(texto, botoes=None, responder_a=None, foto=None):
             return telegram("sendPhoto", chat_id=admin, photo=foto, caption=texto, parse_mode="HTML",
                             reply_markup=botoes, reply_to_message_id=responder_a)
         except Exception as e:
-            log(f"Foto da revisão falhou ({e}), mandando só o texto.")
+            log(f"O Telegram não buscou a foto da revisão ({e}). Baixando e enviando o arquivo.")
+        dados = baixar_foto(foto)
+        if dados:
+            try:
+                return enviar_multipart("sendPhoto", {"chat_id": admin, "caption": texto, "parse_mode": "HTML",
+                                                      "reply_markup": botoes, "reply_to_message_id": responder_a},
+                                        "photo", dados, "oferta.jpg", "image/jpeg")
+            except Exception as e:
+                log(f"Foto da revisão falhou ({e}), mandando só o texto.")
     try:
         return telegram("sendMessage", chat_id=admin, text=texto, parse_mode="HTML",
                         disable_web_page_preview="true", reply_markup=botoes,
@@ -286,7 +294,15 @@ def publicar(item):
             telegram("sendPhoto", chat_id=canal, photo=foto, caption=texto, parse_mode="HTML")
             return
         except RuntimeError as e:
-            log(f"Foto falhou ({e}), mandando só o texto.")
+            log(f"O Telegram não buscou a foto pelo endereço ({e}). Baixando e enviando o arquivo.")
+        dados = baixar_foto(foto)  # fotos de outros canais (telesco.pe) o Telegram não busca sozinho
+        if dados:
+            try:
+                enviar_multipart("sendPhoto", {"chat_id": canal, "caption": texto, "parse_mode": "HTML"},
+                                 "photo", dados, "oferta.jpg", "image/jpeg")
+                return
+            except RuntimeError as e:
+                log(f"Foto falhou de novo ({e}), mandando só o texto.")
     # Sem foto: mostra a prévia do link grande, em cima do texto, para o post não ficar "pelado".
     telegram("sendMessage", chat_id=canal, text=texto, parse_mode="HTML",
              link_preview_options={"url": item["link"], "prefer_large_media": True, "show_above_text": True})
@@ -662,13 +678,19 @@ def mandar_para_revisao(estado, item):
         texto += (f"\n\n⚠️ Não consegui ler: <b>{', '.join(falta)}</b>. "
                   "Responda esta mensagem com o que falta e o botão ✅ Aprovar aparece.")
     if not falta:
-        texto += ("\n\n📷 Foto: ok (é a que aparece aqui)." if item.get("foto") else
-                  "\n\n📷 Sem foto. Se quiser, responda esta mensagem com um print do produto.")
+        if item.get("foto_origem") == "canal":
+            texto += "\n\n📷 Foto do canal de origem (não achei a oficial). Para trocar, responda com outra foto."
+        elif item.get("foto"):
+            texto += "\n\n📷 Foto: ok (é a que aparece aqui). Para trocar, responda com outra foto."
+        else:
+            texto += "\n\n📷 Sem foto. Se quiser, responda esta mensagem com um print do produto."
     texto += ("\n\n<i>Para corrigir, responda (arrastar para o lado) esta mensagem com uma ou mais linhas:\n"
               "nome: Creatina Growth 250g\npreço: 119,90 69,90\nfrase: A mais vendida\ncupom: NOITEPRIME10\nprime: sim 189,37 (preço sem Prime)\n(frase: - ou cupom: - para tirar)</i>")
     msg = responder_admin(texto, botoes=SO_DESCARTAR(item["id"]) if faltando(item) else BOTOES_REVISAO(item["id"]),
                           foto=item.get("foto"))
     item["msg_id"] = msg.get("message_id") if msg else None
+    if msg and msg.get("photo"):  # guarda a foto já no Telegram: o post usa essa, sem depender do link de fora
+        item["foto"] = msg["photo"][-1]["file_id"]
     estado["revisar"].append(item)
 
 
@@ -764,6 +786,7 @@ def processar_update(estado, up):
         aplicar_correcao(item, texto)
         if foto:
             item["foto"] = foto
+            item.pop("foto_origem", None)
         estado["revisar"] = [x for x in estado["revisar"] if x["id"] != item["id"]]
         mandar_para_revisao(estado, item)
     else:
@@ -815,20 +838,35 @@ def baixar_foto(foto):
         return None
 
 
-def enviar_arquivo(dados, nome, legenda=""):
-    """Manda um arquivo (sem compressão) no seu privado."""
+def enviar_multipart(metodo, campos, campo_arquivo, dados, nome, tipo):
+    """Manda um arquivo para o Telegram como upload (em vez de passar um endereço)."""
     fronteira = "----achados" + hashlib.md5(dados[:64]).hexdigest()
     partes = []
-    for campo, valor in (("chat_id", segredo("ADMIN_ID")), ("caption", legenda)):
+    for campo, valor in campos.items():
+        if valor is None:
+            continue
+        valor = json.dumps(valor) if isinstance(valor, (dict, list)) else valor
         partes.append(f'--{fronteira}\r\nContent-Disposition: form-data; name="{campo}"\r\n\r\n{valor}\r\n'.encode())
-    partes.append(f'--{fronteira}\r\nContent-Disposition: form-data; name="document"; filename="{nome}"\r\n'
-                  f"Content-Type: image/png\r\n\r\n".encode() + dados + b"\r\n")
+    partes.append(f'--{fronteira}\r\nContent-Disposition: form-data; name="{campo_arquivo}"; filename="{nome}"\r\n'
+                  f"Content-Type: {tipo}\r\n\r\n".encode() + dados + b"\r\n")
     partes.append(f"--{fronteira}--\r\n".encode())
-    req = urllib.request.Request(f"https://api.telegram.org/bot{segredo('TELEGRAM_TOKEN')}/sendDocument",
+    req = urllib.request.Request(f"https://api.telegram.org/bot{segredo('TELEGRAM_TOKEN')}/{metodo}",
                                  data=b"".join(partes),
                                  headers={"Content-Type": f"multipart/form-data; boundary={fronteira}"})
-    with urllib.request.urlopen(req, timeout=60) as resp:
-        return json.loads(resp.read().decode())
+    try:
+        with urllib.request.urlopen(req, timeout=60) as resp:
+            r = json.loads(resp.read().decode())
+    except urllib.error.HTTPError as e:
+        r = json.loads(e.read().decode("utf-8", errors="replace") or "{}")
+    if not r.get("ok"):
+        raise RuntimeError(f"Telegram recusou {metodo}: {r.get('description')}")
+    return r["result"]
+
+
+def enviar_arquivo(dados, nome, legenda=""):
+    """Manda um arquivo (sem compressão) no seu privado."""
+    return enviar_multipart("sendDocument", {"chat_id": segredo("ADMIN_ID"), "caption": legenda},
+                            "document", dados, nome, "image/png")
 
 
 def cmd_story(estado, texto):
@@ -1144,6 +1182,17 @@ def produto_do_link(link):
     return None
 
 
+def foto_amazon_por_asin(asin):
+    """Foto oficial da Amazon pelo código do produto (funciona mesmo quando a página bloqueia)."""
+    url = f"https://images-na.ssl-images-amazon.com/images/P/{asin}.01.LZZZZZZZ.jpg"
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            return url if len(resp.read(5000)) >= 2000 else None  # sem foto, a Amazon devolve um gif de 1 pixel
+    except Exception:
+        return None
+
+
 def oferta_do_post(post, canal):
     """Monta a oferta a partir do post. None se não for do nicho ou não tiver link de loja."""
     texto = post["texto"]
@@ -1163,8 +1212,8 @@ def oferta_do_post(post, canal):
             "link": prod.get("meu_link") or prod["link_produto"], "link_produto": prod["link_produto"]}
     if not prod.get("meu_link"):
         item["precisa_link"] = True
-    if post.get("foto"):
-        item["foto"] = post["foto"]
+    if post.get("foto"):  # foto do canal: só fica se não acharmos a oficial da loja
+        item["foto"], item["foto_origem"] = post["foto"], "canal"
     linhas = [l.strip() for l in texto.splitlines() if l.strip()]
     for l in linhas:  # nome: primeira linha que parece nome de produto (pula a chamada em CAIXA ALTA do canal)
         limpo = re.sub(r"[^\w\s,.+\-/()%°ºªçÇãõáéíóúâêôàÁÉÍÓÚÂÊÔÃÕ]", "", l).strip(" -–:.")
@@ -1181,11 +1230,17 @@ def oferta_do_post(post, canal):
             item["de"], item["por"] = max(valores[:2]), min(valores[:2])
         else:
             item["por"] = valores[0]
+    try:
+        lido = ler_pagina(item["link_produto"])
+    except Exception:
+        lido = {}
+    if lido.get("foto") and not lido.get("_bloqueado"):
+        item["foto"], item["foto_origem"] = lido["foto"], "loja"
+    elif item["loja"] == "amazon":
+        foto_amz = foto_amazon_por_asin(item["chave"].split(":", 1)[1])
+        if foto_amz:
+            item["foto"], item["foto_origem"] = foto_amz, "loja"
     if item["loja"] == "mercadolivre" or not item.get("nome"):
-        try:
-            lido = ler_pagina(item["link_produto"])
-        except Exception:
-            lido = {}
         if lido.get("nome") and not lido.get("_bloqueado"):
             item["nome"] = lido["nome"]
         if not item.get("por") and lido.get("por"):

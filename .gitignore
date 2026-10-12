@@ -1,0 +1,4 @@
+# Segredos: nunca subir
+.env
+__pycache__/
+*.pyc

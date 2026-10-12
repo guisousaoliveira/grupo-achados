@@ -66,7 +66,7 @@ Depois disso, pare de usar `RODAR_AGORA.bat` e `POSTAR_AGORA_TESTE.bat` no PC.
 
 Sem o Render, o bot só lê suas mensagens e botões a cada 30 minutos. Com o `servidor.py` rodando no Render (grátis), o Telegram avisa o servidor na hora e a revisão chega em segundos. O GitHub Actions continua postando nos horários. Os dois usam a mesma fila, guardada em `dados/estado.json` dentro do repositório.
 
-1. **Token do GitHub:** em github.com > foto > **Settings > Developer settings > Personal access tokens > Fine-grained tokens > Generate new token**. Nome `bot-render`, validade 1 ano, **Only select repositories** > `grupo-achados`, em **Repository permissions** coloque **Contents: Read and write**. Gere e copie o token (começa com `github_pat_`). Ele aparece uma vez só.
+1. **Token do GitHub:** em github.com > foto > **Settings > Developer settings > Personal access tokens > Fine-grained tokens > Generate new token**. Nome `bot-render`, validade 1 ano, **Only select repositories** > `grupo-achados`, em **Repository permissions** coloque **Contents: Read and write** e **Actions: Read and write** (o Actions deixa o Render chamar o GitHub na hora quando a Amazon bloqueia). Gere e copie o token (começa com `github_pat_`). Ele aparece uma vez só.
 2. **Render:** crie a conta em render.com entrando com o GitHub. **New > Web Service**, escolha o repositório `grupo-achados`.
    - Language: **Python 3**
    - Build Command: `echo ok`
