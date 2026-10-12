@@ -177,6 +177,22 @@
       "por": 28.0,
       "garimpado_em": "2026-10-12T15:20-03:00",
       "aprovado_em": "2026-10-12T16:01-03:00"
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:1510737053.22794690094",
+      "origem": "promooeasy",
+      "link": "https://s.shopee.com.br/7faXpIObLd",
+      "link_produto": "https://shopee.com.br/product/1510737053/22794690094",
+      "post_origem": "https://t.me/promooeasy/220160",
+      "link_canal": "https://s.shopee.com.br/50ZmdhlrQR?lp=aff",
+      "foto": "AgACAgEAAxkDAAPAas0uanJJmsNa4S836due4vy8zkkAAjUNaxvw92lGVxnx00CKYm0BAAMCAAN4AAM9BA",
+      "foto_origem": "canal",
+      "nome": "Power Bank 50000mAh Carga Rápida Display Digital 33W66W USB Type-C",
+      "por": 127.3,
+      "titulo": "Power bank gigante com menor preço",
+      "garimpado_em": "2026-10-12T16:01-03:00",
+      "aprovado_em": "2026-10-12T16:09-03:00"
     }
   ],
   "postados": [
@@ -425,24 +441,6 @@
       "id": 71,
       "garimpado_em": "2026-10-12T16:01-03:00",
       "msg_id": 193
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:1510737053.22794690094",
-      "origem": "promooeasy",
-      "link": "https://shopee.com.br/product/1510737053/22794690094",
-      "link_produto": "https://shopee.com.br/product/1510737053/22794690094",
-      "post_origem": "https://t.me/promooeasy/220160",
-      "link_canal": "https://s.shopee.com.br/50ZmdhlrQR?lp=aff",
-      "precisa_link": true,
-      "foto": "AgACAgEAAxkDAAPAas0uanJJmsNa4S836due4vy8zkkAAjUNaxvw92lGVxnx00CKYm0BAAMCAAN4AAM9BA",
-      "foto_origem": "canal",
-      "nome": "Power Bank 50000mAh Carga Rápida Display Digital 33W66W USB Type-C",
-      "por": 127.3,
-      "titulo": "Power bank gigante com menor preço",
-      "id": 72,
-      "garimpado_em": "2026-10-12T16:01-03:00",
-      "msg_id": 194
     }
   ],
   "proximo_id": 73,
@@ -751,7 +749,7 @@
     "2026-10-12": {
       "promooeasy": {
         "achados": 6,
-        "aprovados": 1,
+        "aprovados": 2,
         "reprovados": 1
       },
       "promobit": {
