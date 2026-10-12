@@ -658,19 +658,72 @@ def botoes_revisao(item):
     return {"inline_keyboard": [linha, [pix]]}
 
 
+class ErroIA(Exception):
+    pass
+
+
+_modelo_ia = []  # modelo que funcionou (guardado para não procurar de novo)
+
+
+def _modelos_disponiveis(chave):
+    """Pergunta ao Google quais modelos a chave tem e devolve os "flash" de texto, do mais novo para o mais velho."""
+    try:
+        texto, _ = http(f"https://generativelanguage.googleapis.com/v1beta/models?pageSize=200&key={chave}", timeout=20)
+    except Exception as e:
+        log(f"IA: não consegui listar os modelos ({e}).")
+        return []
+    nomes = [m["name"].split("/", 1)[1] for m in json.loads(texto).get("models", [])
+             if "generateContent" in m.get("supportedGenerationMethods", [])]
+    ruins = ("image", "tts", "audio", "live", "embedding", "thinking", "exp", "preview", "lite")
+    bons = [n for n in nomes if "flash" in n and not any(r in n for r in ruins)]
+    bons += [n for n in nomes if "flash" in n and n not in bons and not any(r in n for r in ruins[:5])]
+
+    def versao(n):
+        m = re.search(r"(\d+(?:\.\d+)?)", n)
+        return (n.endswith("-latest"), float(m.group(1)) if m else 0)
+    return sorted(bons, key=versao, reverse=True)
+
+
+def gemini(corpo, timeout=30):
+    """Chama a Gemini e devolve o texto da resposta. Se o modelo do config não existir mais (404),
+    descobre sozinho um modelo "flash" que a chave tem. Levanta ErroIA com o motivo, se não der."""
+    chave = segredo("GEMINI_API_KEY")
+    if not chave:
+        raise ErroIA("sem a chave GEMINI_API_KEY")
+    candidatos = list(dict.fromkeys(_modelo_ia + [CONFIG.get("ia", {}).get("modelo", "gemini-flash-latest"),
+                                                  "gemini-flash-latest"]))
+    procurou = False
+    while candidatos:
+        modelo = candidatos.pop(0)
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{modelo}:generateContent?key={chave}"
+        try:
+            texto, _ = http(url, json.dumps(corpo).encode(), {"Content-Type": "application/json"}, timeout=timeout)
+        except urllib.error.HTTPError as e:
+            detalhe = e.read().decode("utf-8", "replace")
+            if e.code == 404:
+                if not procurou:
+                    procurou = True
+                    candidatos += [m for m in _modelos_disponiveis(chave) if m not in candidatos]
+                continue
+            motivo = {400: "chave inválida ou pedido recusado", 403: "chave sem permissão (confira se a API está ativa)",
+                      429: "limite grátis do minuto/dia atingido, tente daqui a pouco"}.get(e.code, f"erro {e.code}")
+            log(f"IA: {motivo}. {detalhe[:200]}")
+            raise ErroIA(motivo)
+        _modelo_ia[:] = [modelo]
+        partes = json.loads(texto)["candidates"][0]["content"]["parts"]
+        return "".join(p.get("text", "") for p in partes).strip()
+    raise ErroIA("nenhum modelo Gemini disponível para essa chave")
+
+
 def gerar_frase(item):
     """Frase chamativa para a oferta. Usa IA (Gemini, grátis) se tiver a chave; se não, o banco de frases do config."""
     off = round((1 - item["por"] / item["de"]) * 100) if item.get("de") and item.get("por") else 0
     chave = segredo("GEMINI_API_KEY")
     if chave and not SIMULAR:
-        modelo = CONFIG.get("ia", {}).get("modelo", "gemini-2.5-flash")
         pedido = (CONFIG.get("ia", {}).get("instrucao", "") +
                   f"\nProduto: {item.get('nome')}\nPreço: {item.get('por')}\nDesconto: {off}%\nFrase:")
         try:
-            texto, _ = http(f"https://generativelanguage.googleapis.com/v1beta/models/{modelo}:generateContent?key={chave}",
-                            json.dumps({"contents": [{"parts": [{"text": pedido}]}]}).encode(),
-                            {"Content-Type": "application/json"})
-            frase = json.loads(texto)["candidates"][0]["content"]["parts"][0]["text"].strip().strip('"')
+            frase = gemini({"contents": [{"parts": [{"text": pedido}]}]}).strip('"')
             if frase:
                 return frase.splitlines()[0][:140]
         except Exception as e:
@@ -702,12 +755,8 @@ def gerar_titulo(item):
               f"Produto: {item.get('nome')}\nPreço: {item.get('por')}\nDesconto: {off}%\n"
               + (f"Cupom: {item.get('cupom') or item.get('cupom_loja')}\n" if item.get("cupom") or item.get("cupom_loja") else "")
               + "Chamada:")
-    modelo = CONFIG.get("ia", {}).get("modelo", "gemini-2.5-flash")
     try:
-        texto, _ = http(f"https://generativelanguage.googleapis.com/v1beta/models/{modelo}:generateContent?key={chave}",
-                        json.dumps({"contents": [{"parts": [{"text": pedido}]}]}).encode(),
-                        {"Content-Type": "application/json"})
-        titulo = json.loads(texto)["candidates"][0]["content"]["parts"][0]["text"].strip().strip('"').splitlines()[0]
+        titulo = gemini({"contents": [{"parts": [{"text": pedido}]}]}).strip('"').splitlines()[0]
         return titulo[:60]
     except Exception as e:
         log(f"IA não fez o título ({e}).")

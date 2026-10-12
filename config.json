@@ -101,7 +101,7 @@
     ]
   },
   "ia": {
-    "modelo": "gemini-2.5-flash",
+    "modelo": "gemini-flash-latest",
     "instrucao": "Escreva UMA frase curta (até 12 palavras) em português do Brasil, chamativa e direta, para um post de oferta num canal de achados masculino (academia, estilo, cuidados, gadgets, games, ferramentas, churrasco, carro). Tom confiante, sem exageros falsos, sem emojis, sem hashtags. Pode criar urgência leve."
   },
   "radar": {

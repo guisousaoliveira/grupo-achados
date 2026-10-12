@@ -369,14 +369,13 @@ def ia(d):
     if foto and len(foto) < 3_500_000:
         tipo = "image/png" if foto[:4] == b"\x89PNG" else "image/webp" if foto[8:12] == b"WEBP" else "image/jpeg"
         partes.append({"inline_data": {"mime_type": tipo, "data": base64.b64encode(foto).decode()}})
-    modelo = bot.CONFIG.get("ia", {}).get("modelo", "gemini-2.5-flash")
     corpo = {"contents": [{"parts": partes}],
              "generationConfig": {"responseMimeType": "application/json", "temperature": 0.9}}
     try:
-        texto, _ = bot.http(f"https://generativelanguage.googleapis.com/v1beta/models/{modelo}:generateContent?key={chave}",
-                            json.dumps(corpo).encode(), {"Content-Type": "application/json"}, timeout=40)
-        bruto = json.loads(texto)["candidates"][0]["content"]["parts"][0]["text"]
+        bruto = bot.gemini(corpo, timeout=40)
         r = json.loads(bruto[bruto.find("{"):bruto.rfind("}") + 1])
+    except bot.ErroIA as e:
+        return {"erro": f"A IA não respondeu: {e}."}
     except Exception as e:
         bot.log(f"Painel: IA falhou ({e}).")
         return {"erro": "A IA não respondeu agora. Tente de novo em alguns segundos."}
