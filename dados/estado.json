@@ -248,24 +248,40 @@
       "titulo": "Upgrade que vale a pena nesse preço.",
       "id": 37,
       "msg_id": 143
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB75627276",
+      "origem": "gatunopromos",
+      "link": "https://www.mercadolivre.com.br/mochila-para-notebook-impermeavel-e-reforcada-com-entrada-usb-25-a-40l-masculina-e-feminina/p/MLB75627276?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/mochila-para-notebook-impermeavel-e-reforcada-com-entrada-usb-25-a-40l-masculina-e-feminina/p/MLB75627276",
+      "foto": "AgACAgQAAxkDAAOQaszE9fFNqDChOVXKu2GsZjUULtIAAoMNaxs62IRThvOsPSKiMHgBAAMCAAN4AAM9BA",
+      "foto_origem": "loja",
+      "nome": "Mochila para Notebook Impermeável e Reforçada com Entrada USB",
+      "por": 79.19,
+      "de": 369.69,
+      "cupom": "COMPRANOMELI",
+      "titulo": "Preço de queima, 79% mais barato.",
+      "id": 38,
+      "msg_id": 144
     }
   ],
-  "proximo_id": 38,
+  "proximo_id": 39,
   "radar": {
     "visto": {
       "xetdaspromocoes": 84418,
       "lobaopromo": 188400,
-      "gatunopromos": 124840,
+      "gatunopromos": 124841,
       "pobregram": 41741,
       "urubupromo": 41556,
       "tudonapromo": 101548,
-      "promonocontext": 125768,
-      "promooeasy": 219969,
-      "aquitempechincha": 280940,
+      "promonocontext": 125769,
+      "promooeasy": 219970,
+      "aquitempechincha": 280945,
       "infoBRpromos": 67374
     },
     "dia": "2026-10-12",
-    "hoje": 10,
+    "hoje": 11,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -284,19 +300,20 @@
       "mercadolivre:MLB52868715",
       "mercadolivre:MLB75755258",
       "amazon:B0C9R59R1X",
-      "amazon:B07DHSHXVP"
+      "amazon:B07DHSHXVP",
+      "mercadolivre:MLB75627276"
     ],
     "ultima": {
-      "em": "2026-10-12T08:25:16-03:00",
+      "em": "2026-10-12T08:30:27-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 10,
       "lidos": 10,
       "falhas": [],
-      "posts_novos": 6,
+      "posts_novos": 8,
       "do_nicho": 3,
-      "repetidas": 3,
-      "novas": 0,
+      "repetidas": 2,
+      "novas": 1,
       "limite_dia": false
     }
   },
