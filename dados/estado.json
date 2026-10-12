@@ -81,12 +81,28 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [],
-  "proximo_id": 26,
+  "revisar": [
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB50232347",
+      "origem": "lobaopromo",
+      "link": "https://www.mercadolivre.com.br/fritadeira-air-fryer-55l-widemax-com-interior-de-aluminio-1900w-midea/p/MLB50232347?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/fritadeira-air-fryer-55l-widemax-com-interior-de-aluminio-1900w-midea/p/MLB50232347",
+      "foto": "AgACAgEAAxkDAAN4asxMGo-KUab4H-A1jsg6mGTafbgAAiIQaxvw92FGgXa-reLHX7IBAAMCAAN4AAM9BA",
+      "foto_origem": "canal",
+      "nome": "Fritadeira Air Fryer 5,5l Widemax Com Interior De Alumínio 1900w Midea",
+      "de": 740.0,
+      "por": 261.0,
+      "frase": "Desconto de 65%: é agora ou nunca.",
+      "id": 26,
+      "msg_id": 120
+    }
+  ],
+  "proximo_id": 27,
   "radar": {
     "visto": {
       "xetdaspromocoes": 84418,
-      "lobaopromo": 188365,
+      "lobaopromo": 188366,
       "gatunopromos": 124815,
       "pobregram": 41737,
       "urubupromo": 41551,
@@ -97,7 +113,7 @@
       "infoBRpromos": 67366
     },
     "dia": "2026-10-11",
-    "hoje": 7,
+    "hoje": 8,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -105,7 +121,8 @@
       "mercadolivre:MLB29164669",
       "amazon:B0HJJSKJ2S",
       "mercadolivre:MLB25929487",
-      "amazon:B0DPXRVFVB"
+      "amazon:B0DPXRVFVB",
+      "mercadolivre:MLB50232347"
     ]
   },
   "ultimos": [
