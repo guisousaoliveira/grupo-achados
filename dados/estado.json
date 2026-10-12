@@ -441,8 +441,28 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [],
-  "proximo_id": 103,
+  "revisar": [
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB21835256",
+      "origem": "promonocontext",
+      "link": "https://www.mercadolivre.com.br/maquininha-3-em-1-kemei-km-1910-aparador-pelo-corpo-agua-resistente/p/MLB21835256?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/maquininha-3-em-1-kemei-km-1910-aparador-pelo-corpo-agua-resistente/p/MLB21835256",
+      "post_origem": "https://t.me/promonocontext/125966",
+      "link_canal": "https://meli.la/2mHQNPx",
+      "foto": "AgACAgQAAxkDAAPnas1DcbzBBB-HZDSgXjU5vnimAekAAjINaxuj3XRQYu_3KQABP-NcAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Maquininha 3 Em 1 Kemei KM-1910 Aparador Pelo Corpo Água Resistente",
+      "de": 99.0,
+      "por": 51.0,
+      "titulo": "Maquininha Kemei com 48% off",
+      "garimpado_em": "2026-10-12T17:30-03:00",
+      "id": 103,
+      "na_revisao_desde": "2026-10-12T17:47-03:00",
+      "msg_id": 236
+    }
+  ],
+  "proximo_id": 104,
   "radar": {
     "visto": {
       "xetdaspromocoes": 84504,
@@ -831,26 +851,6 @@
       "removido_de": "revisar"
     },
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB21835256",
-      "origem": "promonocontext",
-      "link": "https://www.mercadolivre.com.br/maquininha-3-em-1-kemei-km-1910-aparador-pelo-corpo-agua-resistente/p/MLB21835256?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/maquininha-3-em-1-kemei-km-1910-aparador-pelo-corpo-agua-resistente/p/MLB21835256",
-      "post_origem": "https://t.me/promonocontext/125966",
-      "link_canal": "https://meli.la/2mHQNPx",
-      "foto": "AgACAgQAAxkDAAPnas1DcbzBBB-HZDSgXjU5vnimAekAAjINaxuj3XRQYu_3KQABP-NcAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Maquininha 3 Em 1 Kemei KM-1910 Aparador Pelo Corpo Água Resistente",
-      "de": 99.0,
-      "por": 51.0,
-      "titulo": "Maquininha Kemei com 48% off",
-      "id": 99,
-      "garimpado_em": "2026-10-12T17:30-03:00",
-      "na_revisao_desde": "2026-10-12T17:30-03:00",
-      "removido_em": "2026-10-12T17:46:34-03:00",
-      "removido_de": "revisar"
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B00N6AKNQW",
       "origem": "lobaopromo",
@@ -1032,7 +1032,7 @@
       "promonocontext": {
         "achados": 2,
         "aprovados": 1,
-        "reprovados": 1
+        "reprovados": 0
       },
       "boletando": {
         "achados": 1,
