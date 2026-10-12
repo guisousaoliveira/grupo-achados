@@ -597,6 +597,8 @@ def faltando(item):
         falta.append("nome")
     if not item.get("por"):
         falta.append("preço")
+    if item.get("precisa_link"):
+        falta.append("seu link de afiliado")
     return falta
 
 
@@ -646,6 +648,12 @@ def mandar_para_revisao(estado, item):
     estado["proximo_id"] += 1
     falta = faltando(item)
     texto = "📝 <b>Revisar oferta</b>\n\n" + (montar_post(item) if item.get("nome") else html.escape(item["link"]))
+    if item.get("origem"):
+        texto += f"\n\n📡 Achei no @{html.escape(item['origem'])}. Confira o preço antes de aprovar: {html.escape(item.get('link_produto', ''))}"
+    if item.get("precisa_link"):
+        texto += ("\n🔗 Gere o <b>seu</b> link desse produto no painel de afiliado e responda esta mensagem com "
+                  "<code>link: https://...</code>")
+        falta = [f for f in falta if f != "seu link de afiliado"]
     if falta and item.get("ler_depois"):
         prazo = "em 1 ou 2 minutos" if chamar_github_agora() else "em até 30 minutos"
         texto += (f"\n\n⏳ A loja bloqueou a leitura agora. Vou tentar de novo sozinho {prazo}, "
@@ -658,7 +666,7 @@ def mandar_para_revisao(estado, item):
                   "\n\n📷 Sem foto. Se quiser, responda esta mensagem com um print do produto.")
     texto += ("\n\n<i>Para corrigir, responda (arrastar para o lado) esta mensagem com uma ou mais linhas:\n"
               "nome: Creatina Growth 250g\npreço: 119,90 69,90\nfrase: A mais vendida\ncupom: NOITEPRIME10\nprime: sim 189,37 (preço sem Prime)\n(frase: - ou cupom: - para tirar)</i>")
-    msg = responder_admin(texto, botoes=SO_DESCARTAR(item["id"]) if falta else BOTOES_REVISAO(item["id"]),
+    msg = responder_admin(texto, botoes=SO_DESCARTAR(item["id"]) if faltando(item) else BOTOES_REVISAO(item["id"]),
                           foto=item.get("foto"))
     item["msg_id"] = msg.get("message_id") if msg else None
     estado["revisar"].append(item)
@@ -687,6 +695,7 @@ def aplicar_correcao(item, texto):
             item["frase"] = "" if valor == "-" else valor
         elif campo == "link":
             item["link"] = valor
+            item.pop("precisa_link", None)
         elif campo == "prime":
             item["prime"] = valor.lower().split()[0] in ("sim", "s", "1", "yes")  # "prime: sim 189,37"
             num = re.search(r"\d[\d.]*(?:,\d{1,2})?", valor)
@@ -981,6 +990,200 @@ def limpar_estado(estado):
 
 # ---------------------------------------------------------------- comandos
 
+# ---------------------------------------------------------------- radar de ofertas
+# Lê a página pública dos canais de promoção (t.me/s/canal, sem login e sem usar sua conta),
+# fica só com o que é do seu nicho, troca o link da Amazon pelo seu e manda para você revisar.
+# Nunca copia o texto do canal: nome e preço viram o post no padrão do Alpha Promo, com frase própria.
+
+ASIN = re.compile(r"/(?:dp|gp/product|gp/aw/d|d|exec/obidos/ASIN)/([A-Z0-9]{10})(?:[/?&#]|$)")
+LINK_LOJA = re.compile(r"https?://[^\s\"'<>]*(?:amazon\.com\.br|amzn\.to|amzn\.divulgador\.link|"
+                       r"mercadolivre\.com\.br|meli\.la|shopee\.com\.br|s\.shopee\.com\.br)[^\s\"'<>]*")
+
+
+def sem_acento(t):
+    import unicodedata
+    return "".join(c for c in unicodedata.normalize("NFD", t.lower()) if unicodedata.category(c) != "Mn")
+
+
+def palavras_radar():
+    cfg = CONFIG.get("radar", {})
+    lista = [p for ps in CONFIG.get("palavras", {}).values() for p in ps] + cfg.get("palavras_extra", [])
+    return [sem_acento(p) for p in lista if p.strip()]
+
+
+def ler_canal(canal):
+    """Posts recentes da página pública do canal: [{id, texto, links, foto}]."""
+    pagina, _ = http(f"https://t.me/s/{canal}", headers={"Accept-Language": "pt-BR,pt;q=0.9"})
+    if os.environ.get("BOT_SALVAR_PAGINA"):
+        (PASTA / "dados" / f"radar_{canal}.html").write_text(pagina, encoding="utf-8")
+    posts = []
+    for bloco in pagina.split('data-post="')[1:]:
+        m = re.match(r"[^/\"]+/(\d+)\"", bloco)
+        if not m:
+            continue
+        corpo = bloco.split('data-post="')[0]
+        tm = re.search(r'class="tgme_widget_message_text[^"]*"[^>]*>(.*?)</div>', corpo, re.S)
+        bruto = tm.group(1) if tm else ""
+        links = [html.unescape(h) for h in re.findall(r'href="([^"]+)"', bruto)]
+        texto = re.sub(r"<br\s*/?>", "\n", bruto)
+        texto = html.unescape(re.sub(r"<[^>]+>", "", texto)).strip()
+        links += LINK_LOJA.findall(texto)
+        fm = re.search(r"tgme_widget_message_photo_wrap[^>]*background-image:url\('([^']+)'\)", corpo)
+        posts.append({"id": int(m.group(1)), "texto": texto, "links": list(dict.fromkeys(links)),
+                      "foto": fm.group(1) if fm else None})
+    return posts
+
+
+def endereco_final(link):
+    """Segue o link curto até a loja. Se a loja bloquear, o endereço final já basta."""
+    req = urllib.request.Request(link, headers={"User-Agent": USER_AGENT, "Accept-Language": "pt-BR"})
+    try:
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            final, pagina = resp.geturl(), resp.read(300000).decode("utf-8", errors="replace")
+    except urllib.error.HTTPError as e:
+        final, pagina = e.geturl() or link, ""
+    except Exception:
+        return link, ""
+    return final, pagina
+
+
+def produto_do_link(link):
+    """Devolve {loja, chave, link_produto, meu_link?} ou None se não for de loja conhecida."""
+    final, pagina = endereco_final(link)
+    for alvo in [final] + LINK_LOJA.findall(pagina)[:20]:
+        alvo = html.unescape(alvo)
+        m = ASIN.search(alvo)
+        if m and "amazon" in alvo:
+            tag = CONFIG.get("radar", {}).get("tag_amazon", "")
+            meu = f"https://www.amazon.com.br/dp/{m.group(1)}" + (f"?tag={tag}" if tag else "")
+            return {"loja": "amazon", "chave": f"amazon:{m.group(1)}", "link_produto": meu, "meu_link": meu}
+    for alvo in [final, pagina[:300000]]:
+        m = re.search(r"MLB-?(\d{6,})", alvo)
+        if m and ("mercadoli" in final or "meli.la" in link):
+            prod = re.search(r"https://(?:produto\.mercadolivre\.com\.br/MLB-\d+[^\s\"'<>?#]*|www\.mercadolivre\.com\.br/[^\s\"'<>?#]+/p/MLB\d+)", pagina)
+            url = prod.group(0) if prod else f"https://produto.mercadolivre.com.br/MLB-{m.group(1)}"
+            ident = re.search(r"MLB-?(\d+)", url).group(1)
+            return {"loja": "mercadolivre", "chave": f"mercadolivre:MLB{ident}", "link_produto": url}
+    m = re.search(r"i\.(\d+)\.(\d+)", final) or re.search(r"shopee\.com\.br/(?:[^/?]+/)?(\d{5,})/(\d{5,})", final)
+    if m:
+        return {"loja": "shopee", "chave": f"shopee:{m.group(1)}.{m.group(2)}",
+                "link_produto": f"https://shopee.com.br/product/{m.group(1)}/{m.group(2)}"}
+    return None
+
+
+def oferta_do_post(post, canal):
+    """Monta a oferta a partir do post. None se não for do nicho ou não tiver link de loja."""
+    texto = post["texto"]
+    if not texto or not any(p in sem_acento(texto) for p in palavras_radar()):
+        return None
+    candidatos = [l for l in post["links"] if l.startswith("http") and "t.me/" not in l]
+    if not candidatos:
+        return None
+    prod = None
+    for link in candidatos[:3]:
+        prod = produto_do_link(link)
+        if prod:
+            break
+    if not prod:
+        return None
+    item = {"loja": prod["loja"], "chave": prod["chave"], "origem": canal,
+            "link": prod.get("meu_link") or prod["link_produto"], "link_produto": prod["link_produto"]}
+    if not prod.get("meu_link"):
+        item["precisa_link"] = True
+    if post.get("foto"):
+        item["foto"] = post["foto"]
+    linhas = [l.strip() for l in texto.splitlines() if l.strip()]
+    for l in linhas:  # nome: primeira linha que parece nome de produto (pula a chamada em CAIXA ALTA do canal)
+        limpo = re.sub(r"[^\w\s,.+\-/()%°ºªçÇãõáéíóúâêôàÁÉÍÓÚÂÊÔÃÕ]", "", l).strip(" -–:.")
+        letras = [c for c in limpo if c.isalpha()]
+        gritando = letras and sum(c.isupper() for c in letras) / len(letras) > 0.7
+        if (len(limpo) >= 10 and not gritando and
+                not re.search(r"r\$|http|cupom|link|compre|clique|exclusiv|\bpor\s+[\d]|\bde\s+[\d]", limpo, re.I)):
+            item["nome"] = limpo[:120]
+            break
+    valores = [numero_br(v) for v in re.findall(r"(?:R\$|\bpor\b|\bde\b)\s*(?:R\$)?\s*(\d[\d.]*(?:,\d{1,2})?)", texto, re.I)]
+    valores = [v for v in valores if v >= 5]
+    if valores:
+        if len(valores) >= 2 and max(valores[:2]) > min(valores[:2]):
+            item["de"], item["por"] = max(valores[:2]), min(valores[:2])
+        else:
+            item["por"] = valores[0]
+    if item["loja"] == "mercadolivre" or not item.get("nome"):
+        try:
+            lido = ler_pagina(item["link_produto"])
+        except Exception:
+            lido = {}
+        if lido.get("nome") and not lido.get("_bloqueado"):
+            item["nome"] = lido["nome"]
+        if not item.get("por") and lido.get("por"):
+            item["por"], item["de"] = lido["por"], lido.get("de")
+            if not item["de"]:
+                item.pop("de")
+    if not item.get("nome"):  # último recurso: nome pelo endereço do produto
+        slug = re.search(r"\.com\.br/([^/?#]+?)(?:/(?:dp|p)/|-_JM|$)", item["link_produto"])
+        if slug and not slug.group(1).startswith(("dp", "MLB")):
+            item["nome"] = nome_curto(re.sub(r"^MLB-\d+-", "", slug.group(1)).replace("-", " ").capitalize())
+    c = re.search(r"cupom\s*[:\-]?\s*([A-Z0-9]{4,20})\b", texto, re.I)
+    if c and not c.group(1).isdigit():
+        item["cupom"] = c.group(1).upper()
+    if re.search(r"prime", texto, re.I) and re.search(r"exclusiv|membro|assinante", texto, re.I):
+        item["prime"] = True
+    return item
+
+
+def rodar_radar(estado, teste=False):
+    cfg = CONFIG.get("radar", {})
+    canais = cfg.get("canais", [])
+    if not canais:
+        return
+    r = estado.setdefault("radar", {"visto": {}, "dia": "", "hoje": 0, "chaves": []})
+    hoje = agora().date().isoformat()
+    if r.get("dia") != hoje:
+        r["dia"], r["hoje"] = hoje, 0
+    limite_dia, limite_rodada = cfg.get("max_por_dia", 10), cfg.get("max_por_rodada", 3)
+    usadas = set(r["chaves"]) | {x["chave"] for x in estado["fila"] + estado["revisar"]}
+    novas = 0
+    for canal in canais:
+        canal = canal.strip().replace("https://t.me/", "").replace("@", "").strip("/")
+        try:
+            posts = ler_canal(canal)
+        except Exception as e:
+            log(f"Radar: não consegui ler @{canal} ({e}).")
+            continue
+        visto = r["visto"].get(canal)
+        ultimo = max((p["id"] for p in posts), default=visto or 0)
+        if visto is None and not teste:  # primeira vez: só marca onde está, não manda o histórico
+            r["visto"][canal] = ultimo
+            log(f"Radar: comecei a acompanhar @{canal}.")
+            continue
+        for post in sorted(posts, key=lambda p: p["id"]):
+            if not teste and post["id"] <= visto:
+                continue
+            if novas >= limite_rodada or (r["hoje"] >= limite_dia and not teste):
+                break
+            item = oferta_do_post(post, canal)
+            if not item or item["chave"] in usadas:
+                continue
+            usadas.add(item["chave"])
+            novas += 1
+            if teste:
+                log(f"Radar achou em @{canal}: {json.dumps(item, ensure_ascii=False)}")
+                continue
+            r["hoje"] += 1
+            r["chaves"] = (r["chaves"] + [item["chave"]])[-400:]
+            mandar_para_revisao(estado, item)
+        if not teste:
+            r["visto"][canal] = ultimo
+    log(f"Radar: {novas} oferta(s) nova(s) do nicho." + (" (teste, nada enviado)" if teste else ""))
+
+
+def cmd_radar_teste():
+    """TESTAR_RADAR.bat: lê os canais agora e mostra o que mandaria, sem enviar nada."""
+    os.environ["BOT_SALVAR_PAGINA"] = "1"
+    CONFIG.setdefault("radar", {})["max_por_rodada"] = 8
+    rodar_radar(estado_vazio(), teste=True)
+
+
 def reler_bloqueadas(estado):
     """Ofertas que a loja bloqueou no servidor do Render: tenta ler de novo daqui (outro endereço)."""
     for item in [x for x in estado["revisar"] if x.get("ler_depois")]:
@@ -1015,6 +1218,11 @@ def ciclo(estado):
         ler_mensagens(estado)
     except Exception as e:
         log(f"Erro lendo suas mensagens: {e}")
+    if not os.environ.get("RENDER"):
+        try:
+            rodar_radar(estado)
+        except Exception as e:
+            log(f"Erro no radar: {e}")
     try:
         buscar_shopee(estado)
     except Exception as e:
@@ -1090,6 +1298,8 @@ def main():
             cmd_ids()
         elif cmd == "previa":
             cmd_previa(" ".join(args[1:]).replace("\\n", "\n"))
+        elif cmd == "radar-teste":
+            cmd_radar_teste()
         elif cmd == "teste-canal":
             cmd_teste_canal()
         else:

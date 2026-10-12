@@ -92,5 +92,38 @@
   "ia": {
     "modelo": "gemini-2.5-flash",
     "instrucao": "Escreva UMA frase curta (até 12 palavras) em português do Brasil, chamativa e direta, para um post de oferta num canal de achados masculino (academia, estilo, cuidados, gadgets). Tom confiante, sem exageros falsos, sem emojis, sem hashtags. Pode criar urgência leve."
+  },
+  "radar": {
+    "canais": [
+      "xetdaspromocoes",
+      "lobaopromo",
+      "gatunopromos",
+      "pobregram",
+      "urubupromo"
+    ],
+    "tag_amazon": "alphadominu09-20",
+    "max_por_rodada": 3,
+    "max_por_dia": 10,
+    "palavras_extra": [
+      "creatina",
+      "whey",
+      "pré-treino",
+      "pre treino",
+      "coqueteleira",
+      "barbeador",
+      "aparador",
+      "oneblade",
+      "barbear",
+      "perfume masculino",
+      "relógio",
+      "smartwatch",
+      "fone bluetooth",
+      "power bank",
+      "garrafa térmica",
+      "halter",
+      "academia",
+      "suplemento",
+      "barba"
+    ]
   }
 }
