@@ -414,24 +414,6 @@
   "revisar": [
     {
       "loja": "amazon",
-      "chave": "amazon:B0HBZXL4CN",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B0HBZXL4CN?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0HBZXL4CN?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/webcam-2k-foco-automatico-microfone-3108982/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3108982/",
-      "nome": "Webcam 2K Foco Automático Microfone",
-      "por": 79.78,
-      "foto": "AgACAgQAAxkDAAPSas03rusw5vOHvt6W9SHKZMjNjYoAAr4Paxt8WWxSj1_4h1tpNdcBAAMCAANtAAM9BA",
-      "foto_origem": "canal",
-      "titulo": "Webcam 2K para melhorar suas reuniões online",
-      "id": 85,
-      "garimpado_em": "2026-10-12T16:40-03:00",
-      "msg_id": 214
-    },
-    {
-      "loja": "amazon",
       "chave": "amazon:B0DX88HMJV",
       "origem": "promooeasy",
       "link": "https://www.amazon.com.br/dp/B0DX88HMJV?tag=alphadominu09-20",
@@ -717,6 +699,25 @@
   ],
   "lixeira": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B0HBZXL4CN",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0HBZXL4CN?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0HBZXL4CN?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/webcam-2k-foco-automatico-microfone-3108982/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3108982/",
+      "nome": "Webcam 2K Foco Automático Microfone",
+      "por": 79.78,
+      "foto": "AgACAgQAAxkDAAPSas03rusw5vOHvt6W9SHKZMjNjYoAAr4Paxt8WWxSj1_4h1tpNdcBAAMCAANtAAM9BA",
+      "foto_origem": "canal",
+      "titulo": "Webcam 2K para melhorar suas reuniões online",
+      "id": 85,
+      "garimpado_em": "2026-10-12T16:40-03:00",
+      "removido_em": "2026-10-12T16:45:01-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB79167580",
       "origem": "promonocontext",
@@ -824,7 +825,7 @@
       "promobit": {
         "achados": 11,
         "aprovados": 6,
-        "reprovados": 4
+        "reprovados": 5
       },
       "gatunopromos": {
         "achados": 1,
