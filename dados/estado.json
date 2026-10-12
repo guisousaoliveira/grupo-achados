@@ -24,6 +24,20 @@
       "de": 378.39,
       "por": 239.9,
       "aprovado_em": "2026-10-12T04:31-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB54026101",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/2o6qkzs",
+      "link_produto": "https://www.mercadolivre.com.br/carregador-portatil-power-bank-turbo-20000mah-225w-universal-para-iphone-samsung-motorola-xiaomi-com-display-digital-dtimp/p/MLB54026101",
+      "foto": "AgACAgQAAxkDAAOGasyNQ9Ye9AeiwvUr5sWDTZCijQgAAp8Laxv9-KxRvzgLNkWza5UBAAMCAAN4AAM9BA",
+      "foto_origem": "loja",
+      "nome": "Carregador Portátil Power Bank Turbo 20000mah 22.5w universal",
+      "de": 299.0,
+      "por": 99.0,
+      "frase": "Tecnologia boa pelo preço certo.",
+      "aprovado_em": "2026-10-12T04:34-03:00"
     }
   ],
   "postados": [
@@ -133,21 +147,6 @@
       "frase": "Preço de queima, 95% mais barato.",
       "id": 29,
       "msg_id": 133
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB54026101",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/carregador-portatil-power-bank-turbo-20000mah-225w-universal-para-iphone-samsung-motorola-xiaomi-com-display-digital-dtimp/p/MLB54026101?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/carregador-portatil-power-bank-turbo-20000mah-225w-universal-para-iphone-samsung-motorola-xiaomi-com-display-digital-dtimp/p/MLB54026101",
-      "foto": "AgACAgQAAxkDAAOGasyNQ9Ye9AeiwvUr5sWDTZCijQgAAp8Laxv9-KxRvzgLNkWza5UBAAMCAAN4AAM9BA",
-      "foto_origem": "loja",
-      "nome": "Carregador Portátil Power Bank Turbo 20000mah 22.5w universal para",
-      "de": 299.0,
-      "por": 99.0,
-      "frase": "Tecnologia boa pelo preço certo.",
-      "id": 30,
-      "msg_id": 134
     }
   ],
   "proximo_id": 31,
