@@ -125,6 +125,8 @@ main{min-width:0;padding:26px 34px 60px;max-width:1180px}
 .sc .ph.none img{height:64px}
 .ph .pos{position:absolute;left:5px;top:5px;background:#0b0b0cdd;color:var(--gold2);font-weight:700;font-size:11.5px;border-radius:6px;padding:1px 6px}
 .of .nm{font-weight:600;font-size:14.5px;margin:3px 0 4px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.post-orig{display:inline-flex;align-items:center;gap:4px;color:var(--gold2);text-decoration:none;border-bottom:1px dashed var(--goldln)}
+.post-orig:hover{color:var(--gold)}
 .meta{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;color:var(--mut);font-size:12.5px}
 .tit{color:var(--gold2);font-size:11.5px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;margin-top:4px}
 .price{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
@@ -299,6 +301,7 @@ textarea.in{resize:vertical;min-height:64px}
 
 <script>
 const I = {
+  relogio:'<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',
   inicio:'<path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V21h14V9.5"/>',
   revisar:'<path d="M22 12h-6l-2 3h-4l-2-3H2"/><path d="M5.5 5.1 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.5-6.9A2 2 0 0 0 16.7 4H7.3a2 2 0 0 0-1.8 1.1z"/>',
   fila:'<path d="M8 6h13M8 12h13M8 18h13"/><circle cx="3.5" cy="6" r="1"/><circle cx="3.5" cy="12" r="1"/><circle cx="3.5" cy="18" r="1"/>',
@@ -345,9 +348,15 @@ function precoHTML(x){
   return `<div class="price">${o ? `<s>${reais(x.de)}</s>` : ''}<b>${reais(x.por)}</b>${o ? `<span class="off">-${o}%</span>` : ''}${x.pix ? '<span class="tag">no Pix</span>' : ''}${x.prime ? '<span class="tag">Prime</span>' : ''}${x.cupom ? `<span class="tag">cupom ${esc(x.cupom)}</span>` : ''}</div>`;
 }
 function horasDesde(iso){ if (!iso) return 0; return (new Date(E.agora) - new Date(iso)) / 36e5; }
+function horaDia(iso){
+  const d = new Date(iso), hoje = new Date(E.agora);
+  const h = d.toLocaleTimeString('pt-BR', {hour:'2-digit', minute:'2-digit', timeZone:'America/Sao_Paulo'});
+  if (d.toDateString() === hoje.toDateString()) return h;
+  return d.toLocaleDateString('pt-BR', {day:'2-digit', month:'2-digit', timeZone:'America/Sao_Paulo'}) + ' ' + h;
+}
 function quando(iso){
   const h = horasDesde(iso);
-  if (h < 1) return 'agora há pouco';
+  if (h < 1) { const m = Math.round(h*60); return m < 2 ? 'agora há pouco' : `há ${m} min`; }
   if (h < 24) return `há ${Math.floor(h)}h`;
   return `há ${Math.floor(h/24)} dia(s)`;
 }
@@ -464,16 +473,20 @@ function inicio(){
 /* -------- revisar -------- */
 function revisar(){
   const prontas = E.revisar.filter(x => !x.falta.length).length;
-  return topo('Revisar', 'Ofertas do radar e links que você mandou. Só vai para a fila o que você aprovar.',
+  return topo('Revisar', 'Ofertas do radar e links que você mandou, as mais recentes primeiro. Só vai para a fila o que você aprovar.',
       prontas > 1 ? `<button class="btn gold" onclick="fazer(this,'rev_aprovar_tudo')">Aprovar as ${prontas} completas</button>` : '')
     + (E.revisar.length ? `<div class="list">${E.revisar.map(cardRevisao).join('')}</div>`
       : `<div class="vazio-box"><b>Nada para revisar</b>Quando o radar achar algo do nicho, aparece aqui (e no seu Telegram).</div>`);
 }
 function cardRevisao(x){
   const tags = [];
-  if (x.origem) tags.push(`<span>do @${esc(x.origem)}</span>`);
+  if (x.garimpado_em) tags.push(`<span class="${horasDesde(x.garimpado_em) >= 6 ? 'tag warn' : ''}" title="Quando entrou na revisão" style="display:inline-flex;align-items:center;gap:4px">${ic('relogio',13)}${horaDia(x.garimpado_em)} · ${quando(x.garimpado_em)}</span>`);
+  if (x.origem) tags.push(x.post_origem
+    ? `<a class="post-orig" href="${esc(x.post_origem)}" target="_blank" rel="noopener" title="Abrir o post do canal no Telegram">do @${esc(x.origem)} ${ic('link',12)}</a>`
+    : `<span>do @${esc(x.origem)}</span>`);
   if (x.ler_depois) tags.push('<span class="tag warn">a loja bloqueou, o GitHub vai tentar ler</span>');
   else if (x.falta.length) tags.push(`<span class="tag bad">falta ${esc(x.falta.join(', '))}</span>`);
+  if (x.loja === 'shopee' && x.origem) tags.push('<span class="tag warn" title="A Shopee não deixa o bot ler a página, então o produto não foi conferido">confira o produto pelo post</span>');
   if (x.foto_origem === 'canal') tags.push('<span class="tag warn">foto do canal</span>');
   if (x.aviso_preco) tags.push('<span class="tag warn">confira o preço</span>');
   const conferir = x.link_produto || x.link;

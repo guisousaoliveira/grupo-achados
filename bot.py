@@ -781,10 +781,16 @@ def mandar_para_revisao(estado, item):
         item["titulo"] = gerar_titulo(item) or gerar_frase(item)  # sem a chave da Gemini: banco de frases
     item["id"] = estado["proximo_id"]
     estado["proximo_id"] += 1
+    item.setdefault("garimpado_em", agora().isoformat(timespec="minutes"))
     falta = faltando(item)
     texto = "📝 <b>Revisar oferta</b>\n\n" + (montar_post(item) if item.get("nome") else html.escape(item["link"]))
     if item.get("origem"):
-        texto += f"\n\n📡 Achei no @{html.escape(item['origem'])}. Confira o preço antes de aprovar: {html.escape(item.get('link_produto', ''))}"
+        canal = html.escape(item["origem"])
+        if item.get("post_origem"):
+            canal = f'<a href="{html.escape(item["post_origem"])}">@{canal} (ver post original)</a>'
+        else:
+            canal = "@" + canal
+        texto += f"\n\n📡 Achei no {canal}. Confira o preço antes de aprovar: {html.escape(item.get('link_produto', ''))}"
     if item.get("aviso_preco"):
         texto += "\n⚠️ O post do canal tinha dois preços muito diferentes. Usei o maior: confira o preço na loja."
     if item.get("precisa_link"):
@@ -1449,7 +1455,8 @@ def oferta_do_post(post, canal):
     if not prod:
         return None
     item = {"loja": prod["loja"], "chave": prod["chave"], "origem": canal,
-            "link": prod.get("meu_link") or prod["link_produto"], "link_produto": prod["link_produto"]}
+            "link": prod.get("meu_link") or prod["link_produto"], "link_produto": prod["link_produto"],
+            "post_origem": f"https://t.me/{canal}/{post['id']}", "link_canal": link}
     if not prod.get("meu_link"):
         item["precisa_link"] = True
     if post.get("foto"):  # foto do canal: só fica se não acharmos a oficial da loja
