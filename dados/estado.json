@@ -145,15 +145,33 @@
     "2026-10-12": []
   },
   "shopee_buscado_em": "",
-  "revisar": [],
-  "proximo_id": 31,
+  "revisar": [
+    {
+      "loja": "shopee",
+      "chave": "shopee:1537142489.58263645964",
+      "origem": "urubupromo",
+      "link": "https://shopee.com.br/product/1537142489/58263645964",
+      "link_produto": "https://shopee.com.br/product/1537142489/58263645964",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAOJasy5I15KtGLr1b4LTNEuZph448AAAjgQaxvw92FGbY_m6-fu7lIBAAMCAAN4AAM9BA",
+      "foto_origem": "canal",
+      "nome": "Caixa De Som Boombox Aiwa AWS-BBS-01B 200w IP66",
+      "cupom_loja": "Resgate o cupom de R$100 OFF",
+      "pix": true,
+      "por": 1139.0,
+      "titulo": "Menor preço com cupom de desconto",
+      "id": 31,
+      "msg_id": 137
+    }
+  ],
+  "proximo_id": 32,
   "radar": {
     "visto": {
       "xetdaspromocoes": 84418,
       "lobaopromo": 188394,
       "gatunopromos": 124832,
       "pobregram": 41740,
-      "urubupromo": 41553,
+      "urubupromo": 41554,
       "tudonapromo": 101548,
       "promonocontext": 125768,
       "promooeasy": 219962,
@@ -161,7 +179,7 @@
       "infoBRpromos": 67374
     },
     "dia": "2026-10-12",
-    "hoje": 3,
+    "hoje": 4,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -173,19 +191,20 @@
       "mercadolivre:MLB50232347",
       "shopee:1537142489.58263646145",
       "shopee:1083800536.58216638809",
-      "mercadolivre:MLB54026101"
+      "mercadolivre:MLB54026101",
+      "shopee:1537142489.58263645964"
     ],
     "ultima": {
-      "em": "2026-10-12T07:35:17-03:00",
+      "em": "2026-10-12T07:40:18-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 10,
       "lidos": 10,
       "falhas": [],
-      "posts_novos": 3,
-      "do_nicho": 0,
+      "posts_novos": 1,
+      "do_nicho": 1,
       "repetidas": 0,
-      "novas": 0,
+      "novas": 1,
       "limite_dia": false
     }
   },
