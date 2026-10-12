@@ -349,7 +349,7 @@ def montar_post(item):
     elif por:
         preco.append(f"💰 Por <b>{reais(por)}</b>{pix}")
     if item.get("parcelas") and por:
-        preco.append("💳 " + texto_parcelas(item))
+        preco.append(f"💳 <i>{texto_parcelas(item)}</i>")
     if item.get("prime"):
         extra = f" (sem Prime: {reais(item['sem_prime'])})" if item.get("sem_prime") else ""
         preco.append(f"Preço exclusivo para membros Prime{extra}")
@@ -374,11 +374,12 @@ def emoji_titulo(item):
 
 
 def texto_parcelas(item):
-    """'ou 3x de R$ 32,33 sem juros (total R$ 96,99)'. Sem o valor da parcela informado, divide o preço."""
+    """'ou 3x de R$ 32,33 (R$ 96,99)': discreto, o destaque fica no preço à vista. Sem o valor da parcela, divide o preço."""
     n = int(item["parcelas"])
     if item.get("parcela_valor"):
-        return f"ou {n}x de {reais(item['parcela_valor'])} sem juros (total {reais(n * item['parcela_valor']).replace(' ', '\u00a0')})"
-    return f"ou {n}x de {reais(item['por'] / n)} sem juros"
+        total = reais(n * item["parcela_valor"]).replace(" ", "\u00a0")
+        return f"ou {n}x de {reais(item['parcela_valor'])} ({total})"
+    return f"ou {n}x de {reais(item['por'] / n)}"
 
 
 def ler_parcelas(texto):
