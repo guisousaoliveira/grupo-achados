@@ -570,27 +570,83 @@
       "garimpado_em": "2026-10-12T20:00-03:00",
       "na_revisao_desde": "2026-10-12T20:00-03:00",
       "msg_id": 260
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB21802395",
+      "origem": "lobaopromo",
+      "link": "https://www.mercadolivre.com.br/mochila-viagem-masculina-40l-grande-impermeavel-reforcada-para-aviao-item-pessoal-suporta-ate-10kg-matein-1159-preto/p/MLB21802395?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/mochila-viagem-masculina-40l-grande-impermeavel-reforcada-para-aviao-item-pessoal-suporta-ate-10kg-matein-1159-preto/p/MLB21802395",
+      "post_origem": "https://t.me/lobaopromo/188589",
+      "link_canal": "https://meli.la/23htVEQ",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_910810-MLA116816614939_082026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Mochila Viagem Masculina 40L Grande Impermeável Reforçada para Avião",
+      "de": 300.0,
+      "por": 62.0,
+      "titulo": "Mochila de viagem 40L com 79% off",
+      "id": 125,
+      "garimpado_em": "2026-10-12T20:10-03:00",
+      "na_revisao_desde": "2026-10-12T20:10-03:00",
+      "msg_id": 263
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB7776080994",
+      "origem": "lobaopromo",
+      "link": "https://produto.mercadolivre.com.br/MLB-7776080994-tnis-fila-academia-corrida-caminhada-macio-treino-couro-lev-_JM?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-7776080994-tnis-fila-academia-corrida-caminhada-macio-treino-couro-lev-_JM",
+      "post_origem": "https://t.me/lobaopromo/188590",
+      "link_canal": "https://meli.la/1svt6Yx",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_842160-MLB119021804587_102026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Tênis Fila Academia Corrida Caminhada Macio Treino Couro Lev",
+      "de": 333.0,
+      "por": 97.0,
+      "titulo": "Tênis Fila para treino e corrida com 71% off",
+      "id": 126,
+      "garimpado_em": "2026-10-12T20:10-03:00",
+      "na_revisao_desde": "2026-10-12T20:10-03:00",
+      "msg_id": 264
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB19794389",
+      "origem": "promonocontext",
+      "link": "https://www.mercadolivre.com.br/creatina-ftw-em-po-sem-sabor-x-300g/p/MLB19794389?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/creatina-ftw-em-po-sem-sabor-x-300g/p/MLB19794389",
+      "post_origem": "https://t.me/promonocontext/126023",
+      "link_canal": "https://meli.la/2sUBgo8",
+      "foto": "AgACAgQAAxkDAAIBCWrNaOqrlk1nwqpio3NZ_-nAelTsAAJXC2sbpxt9UaRoi7b8jrSqAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Creatina FTW em pó Sem sabor x 300g",
+      "por": 25.0,
+      "titulo": "Creatina FTW com 64% off",
+      "id": 127,
+      "garimpado_em": "2026-10-12T20:10-03:00",
+      "na_revisao_desde": "2026-10-12T20:10-03:00",
+      "msg_id": 265
     }
   ],
-  "proximo_id": 125,
+  "proximo_id": 128,
   "radar": {
     "visto": {
       "xetdaspromocoes": 84504,
-      "lobaopromo": 188587,
-      "gatunopromos": 124962,
+      "lobaopromo": 188590,
+      "gatunopromos": 124965,
       "pobregram": 41782,
-      "urubupromo": 41589,
+      "urubupromo": 41590,
       "tudonapromo": 101633,
-      "promonocontext": 126022,
-      "promooeasy": 220238,
-      "aquitempechincha": 281203,
+      "promonocontext": 126023,
+      "promooeasy": 220241,
+      "aquitempechincha": 281209,
       "infoBRpromos": 67419,
       "boletando": 76620,
       "promotop": 260184,
       "achadosdotb": 11757
     },
     "dia": "2026-10-12",
-    "hoje": 93,
+    "hoje": 96,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -692,27 +748,30 @@
       "mercadolivre:MLB53342774",
       "mercadolivre:MLB4113792113",
       "mercadolivre:MLB49217710",
-      "mercadolivre:MLB27410652"
+      "mercadolivre:MLB27410652",
+      "mercadolivre:MLB21802395",
+      "mercadolivre:MLB7776080994",
+      "mercadolivre:MLB19794389"
     ],
     "ultima": {
-      "em": "2026-10-12T20:00:26-03:00",
+      "em": "2026-10-12T20:10:18-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 21,
+      "posts_novos": 24,
       "do_nicho": 3,
-      "repetidas": 1,
-      "novas": 2,
+      "repetidas": 0,
+      "novas": 3,
       "limite_dia": false,
       "promobit": 0
     },
     "hora": "2026-10-12T20",
-    "nesta_hora": 2,
+    "nesta_hora": 5,
     "promobit_hora": "2026-10-12T20",
     "promobit_nesta_hora": 0,
-    "promobit_visto": 3109246
+    "promobit_visto": 3109254
   },
   "ultimos": [
     {
@@ -1466,7 +1525,7 @@
         "reprovados": 0
       },
       "lobaopromo": {
-        "achados": 10,
+        "achados": 12,
         "aprovados": 2,
         "reprovados": 7
       },
@@ -1486,7 +1545,7 @@
         "reprovados": 3
       },
       "promonocontext": {
-        "achados": 5,
+        "achados": 6,
         "aprovados": 5,
         "reprovados": 0
       },
