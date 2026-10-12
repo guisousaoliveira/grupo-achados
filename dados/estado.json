@@ -101,23 +101,71 @@
     "2026-10-12": []
   },
   "shopee_buscado_em": "",
-  "revisar": [],
-  "proximo_id": 28,
+  "revisar": [
+    {
+      "loja": "shopee",
+      "chave": "shopee:1537142489.58263646145",
+      "origem": "lobaopromo",
+      "link": "https://shopee.com.br/product/1537142489/58263646145",
+      "link_produto": "https://shopee.com.br/product/1537142489/58263646145",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAOEasyNP_u1-E_s2J-D44fOvmHKRB8AAi8Qaxvw92FGi35TtFAgbGQBAAMCAAN4AAM9BA",
+      "foto_origem": "canal",
+      "nome": "Galaxy A57 5G (256GB) - Cinza + Galaxy Watch8 BT 44mm",
+      "de": 2808.76,
+      "por": 100.0,
+      "frase": "Desconto de 96%: é agora ou nunca.",
+      "id": 28,
+      "msg_id": 132
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:1083800536.58216638809",
+      "origem": "lobaopromo",
+      "link": "https://shopee.com.br/product/1083800536/58216638809",
+      "link_produto": "https://shopee.com.br/product/1083800536/58216638809",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAOFasyNQZVZzPu6As9XNe_yHJIXfjMAAjAQaxvw92FGS0y7MBCcLj0BAAMCAAN4AAM9BA",
+      "foto_origem": "canal",
+      "nome": "Smart TV Hisense 55 QLED 4K UHD",
+      "de": 2092.13,
+      "por": 100.0,
+      "frase": "Preço de queima, 95% mais barato.",
+      "id": 29,
+      "msg_id": 133
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB54026101",
+      "origem": "lobaopromo",
+      "link": "https://www.mercadolivre.com.br/carregador-portatil-power-bank-turbo-20000mah-225w-universal-para-iphone-samsung-motorola-xiaomi-com-display-digital-dtimp/p/MLB54026101?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/carregador-portatil-power-bank-turbo-20000mah-225w-universal-para-iphone-samsung-motorola-xiaomi-com-display-digital-dtimp/p/MLB54026101",
+      "foto": "AgACAgQAAxkDAAOGasyNQ9Ye9AeiwvUr5sWDTZCijQgAAp8Laxv9-KxRvzgLNkWza5UBAAMCAAN4AAM9BA",
+      "foto_origem": "loja",
+      "nome": "Carregador Portátil Power Bank Turbo 20000mah 22.5w universal para",
+      "de": 299.0,
+      "por": 99.0,
+      "frase": "Tecnologia boa pelo preço certo.",
+      "id": 30,
+      "msg_id": 134
+    }
+  ],
+  "proximo_id": 31,
   "radar": {
     "visto": {
       "xetdaspromocoes": 84418,
-      "lobaopromo": 188366,
-      "gatunopromos": 124815,
-      "pobregram": 41737,
+      "lobaopromo": 188391,
+      "gatunopromos": 124827,
+      "pobregram": 41740,
       "urubupromo": 41551,
       "tudonapromo": 101548,
       "promonocontext": 125768,
-      "promooeasy": 219877,
+      "promooeasy": 219957,
       "aquitempechincha": 280933,
-      "infoBRpromos": 67366
+      "infoBRpromos": 67374
     },
     "dia": "2026-10-12",
-    "hoje": 0,
+    "hoje": 3,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -126,9 +174,26 @@
       "amazon:B0HJJSKJ2S",
       "mercadolivre:MLB25929487",
       "amazon:B0DPXRVFVB",
-      "mercadolivre:MLB50232347"
+      "mercadolivre:MLB50232347",
+      "shopee:1537142489.58263646145",
+      "shopee:1083800536.58216638809",
+      "mercadolivre:MLB54026101"
     ],
-    "pausado": true
+    "pausado": true,
+    "ultima": {
+      "em": "2026-10-12T04:33:12-03:00",
+      "pedido": "38300efb8f",
+      "forcado": true,
+      "canais": 10,
+      "lidos": 10,
+      "falhas": [],
+      "posts_novos": 12,
+      "do_nicho": 3,
+      "repetidas": 0,
+      "novas": 3,
+      "limite_dia": false,
+      "limite_rodada": true
+    }
   },
   "ultimos": [
     {
