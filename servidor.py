@@ -14,6 +14,7 @@ import hashlib
 import json
 import os
 import time
+import urllib.parse
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
 import bot
@@ -48,6 +49,21 @@ class Atendente(BaseHTTPRequestHandler):
             _ultimo_tick[0] = time.time()
             ok = bot.chamar_github_agora("Tick: pedi uma rodada ao GitHub.")
             self._responder(200, "rodada pedida" if ok else "nao consegui pedir a rodada (veja o log)")
+            return
+        if self.path.startswith("/ler?"):
+            # O GitHub pede para ler páginas do Mercado Livre daqui (lá o ML bloqueia). Só ML, para ninguém usar à toa.
+            link = urllib.parse.parse_qs(urllib.parse.urlparse(self.path).query).get("u", [""])[0]
+            host = urllib.parse.urlparse(link).hostname or ""
+            if not (host == "meli.la" or host.endswith("mercadolivre.com.br")):
+                self._responder(400, "so mercado livre")
+                return
+            try:
+                lido = bot.ler_pagina(link)
+            except Exception as e:
+                lido = {"_erro": str(e)}
+            corpo = json.dumps({k: v for k, v in lido.items() if k in ("nome", "por", "de", "foto", "_bloqueado")},
+                               ensure_ascii=False)
+            self._responder(200, corpo)
             return
         self._responder(200, "bot de achados ligado")
 

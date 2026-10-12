@@ -142,7 +142,10 @@ def chamar_github_agora(motivo="Pedi ao GitHub para reler a página agora."):
     if not (os.environ.get("RENDER") and usar_github()):
         return False
     url = f"https://api.github.com/repos/{_repo()}/actions/workflows/bot.yml/dispatches"
-    req = urllib.request.Request(url, method="POST", data=json.dumps({"ref": "main"}).encode(),
+    corpo = {"ref": "main"}
+    if os.environ.get("RENDER_EXTERNAL_URL"):  # o GitHub usa o Render para ler o Mercado Livre (veja ler_pelo_servidor)
+        corpo["inputs"] = {"servidor": os.environ["RENDER_EXTERNAL_URL"]}
+    req = urllib.request.Request(url, method="POST", data=json.dumps(corpo).encode(),
                                  headers={"Authorization": f"Bearer {segredo('GITHUB_TOKEN')}",
                                           "Accept": "application/vnd.github+json",
                                           "User-Agent": "bot-achados"})
@@ -531,6 +534,9 @@ def ler_pagina(link):
         destino = PASTA / "dados" / f"pagina_{loja}.html"
         destino.write_text(f"<!-- {final} -->\n" + pagina, encoding="utf-8")
         log(f"Página salva em {destino.name} ({len(pagina)} letras). Endereço final: {final}")
+    if "account-verification" in final:  # o Mercado Livre pede login para IPs de servidor (como o do GitHub)
+        log("O Mercado Livre pediu verificação de conta (bloqueou o robô).")
+        return {"_bloqueado": True}
     if "captcha" in pagina[:20000].lower() and "productTitle" not in pagina:
         log("A loja mostrou um captcha (bloqueou o robô).")
         return {"_bloqueado": True}
@@ -1244,6 +1250,23 @@ def foto_amazon_por_asin(asin):
         return None
 
 
+def ler_pelo_servidor(link):
+    """O Mercado Livre bloqueia o GitHub, mas abre para o Render. Pede ao servidor do Render para ler a página.
+    O endereço do Render chega pela rodada pedida pelo /tick (SERVIDOR_URL)."""
+    base = os.environ.get("SERVIDOR_URL", "").rstrip("/")
+    if not base:
+        return None
+    try:
+        texto, _ = http(f"{base}/ler?u={urllib.parse.quote(link, safe='')}", timeout=45)
+        lido = json.loads(texto)
+    except Exception as e:
+        log(f"O Render não conseguiu ler a página ({e}).")
+        return None
+    if lido.get("foto"):
+        log("Foto oficial lida pelo Render.")
+    return lido
+
+
 def oferta_do_post(post, canal):
     """Monta a oferta a partir do post. None se não for do nicho ou não tiver link de loja."""
     texto = post["texto"]
@@ -1285,6 +1308,8 @@ def oferta_do_post(post, canal):
         lido = ler_pagina(item["link_produto"])
     except Exception:
         lido = {}
+    if lido.get("_bloqueado") and item["loja"] == "mercadolivre":
+        lido = ler_pelo_servidor(item["link_produto"]) or lido
     if lido.get("foto") and not lido.get("_bloqueado"):
         item["foto"], item["foto_origem"] = lido["foto"], "loja"
     elif item["loja"] == "amazon":

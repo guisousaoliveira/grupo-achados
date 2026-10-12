@@ -3,7 +3,12 @@ name: bot-achados
 on:
   schedule:
     - cron: "*/30 * * * *"
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      servidor:
+        description: "Endereço do Render (preenchido sozinho pelo /tick)"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -27,4 +32,5 @@ jobs:
           SHOPEE_SECRET: ${{ secrets.SHOPEE_SECRET }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SERVIDOR_URL: ${{ inputs.servidor }}
         run: python3 bot.py rodar
