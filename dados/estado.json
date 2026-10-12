@@ -2,18 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "link": "https://meli.la/2XEGBAf",
-      "chave": "mercadolivre:https://meli.la/2XEGBAf",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_750412-MLA108743699852_032026-O.webp",
-      "titulo": "Smart TV Philco 4K Roku com desconto",
-      "nome": "Smart Tv Philco 50 P50vik 4k Uhd Led Roku Dolby Audio Wi-fi Hdr10",
-      "de": 3499.0,
-      "por": 2099.0,
-      "pix": true,
-      "aprovado_em": "2026-10-12T13:38-03:00"
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B00Z0UWV3O",
       "origem": "promooeasy",
@@ -454,6 +442,14 @@
       "data": "2026-10-12T18:22-03:00",
       "link": "https://link.amazon/B08ri0Zeb",
       "link_produto": "https://www.amazon.com.br/dp/B0DXFBMYN4?tag=alphadominu09-20"
+    },
+    {
+      "chave": "mercadolivre:https://meli.la/2XEGBAf",
+      "loja": "mercadolivre",
+      "nome": "Smart Tv Philco 50 P50vik 4k Uhd Led Roku Dolby Audio Wi-fi Hdr10",
+      "data": "2026-10-12T18:47-03:00",
+      "link": "https://meli.la/2XEGBAf",
+      "slot": 18
     }
   ],
   "slots_usados": {
@@ -470,7 +466,8 @@
       14,
       15,
       16,
-      17
+      17,
+      18
     ]
   },
   "shopee_buscado_em": "",
@@ -665,6 +662,17 @@
     "promobit_visto": 3109145
   },
   "ultimos": [
+    {
+      "loja": "mercadolivre",
+      "link": "https://meli.la/2XEGBAf",
+      "chave": "mercadolivre:https://meli.la/2XEGBAf",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_750412-MLA108743699852_032026-O.webp",
+      "titulo": "Smart TV Philco 4K Roku com desconto",
+      "nome": "Smart Tv Philco 50 P50vik 4k Uhd Led Roku Dolby Audio Wi-fi Hdr10",
+      "de": 3499.0,
+      "por": 2099.0,
+      "pix": true
+    },
     {
       "loja": "amazon",
       "chave": "amazon:B0DXFBMYN4",
