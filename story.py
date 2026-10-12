@@ -7,6 +7,7 @@ Precisa do Pillow (pip install pillow). As fontes e o leão ficam em assets/.
 """
 
 import io
+import random
 from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
@@ -21,6 +22,32 @@ BRANCO = (245, 245, 245)
 CINZA = (150, 150, 150)
 # Faixa de baixo fica livre para o sticker de link do Instagram.
 FAIXA_STICKER = 280
+
+# Sorteada a cada /story (no máximo ~30 caracteres para caber numa linha).
+FRASES = [
+    "Quem estava no canal pegou.",
+    "Saiu primeiro no canal.",
+    "Quem viu, garantiu.",
+    "Esse já voou no canal.",
+    "Promoção assim não espera.",
+    "No canal chega antes.",
+    "Pegou quem estava de olho.",
+    "Achado de verdade é assim.",
+    "Desconto real, conferido.",
+    "Quem chegou cedo levou.",
+    "Ofertas assim saem todo dia.",
+    "Não perca a próxima.",
+    "O próximo pode ser seu.",
+    "Ativa as notificações.",
+    "Preço baixo dura pouco.",
+    "Isso aqui é o Alpha Promo.",
+    "Economia de homem esperto.",
+    "Entra antes da próxima.",
+    "Só quem segue vê a tempo.",
+    "Mais um achado do dia.",
+]
+
+LOGOS = PASTA / "logos"  # logos oficiais (PNG transparente): amazon, mercadolivre, shopee, telegram
 
 
 def fonte(nome, tamanho):
@@ -85,14 +112,43 @@ def divisor(d, y, largura=260):
     d.regular_polygon((L / 2, y, 9), 4, fill=DOURADO)
 
 
-def rodape(d, canal, chamada):
+def logo(nome, altura):
+    arq = LOGOS / f"{nome}.png"
+    if not arq.exists():
+        return None
+    img = Image.open(arq).convert("RGBA")
+    return img.resize((int(img.width * altura / img.height), altura), Image.LANCZOS)
+
+
+def selo_loja(img, loja, x, y, altura=72):
+    """Selo branco pequeno com o logo da loja (Mercado Livre e Shopee levam o nome ao lado do ícone)."""
+    lg = logo(loja, {"amazon": 34, "mercadolivre": 46, "shopee": 44}.get(loja, 44))
+    if lg is None:
+        return
+    nome, cor = {"mercadolivre": ("Mercado Livre", (45, 50, 119)), "shopee": ("Shopee", (238, 77, 45))}.get(loja, ("", None))
+    d = ImageDraw.Draw(img)
+    f = fonte("Inter-ExtraBold.ttf", 28)
+    w = lg.width + 48 + (d.textlength(nome, font=f) + 12 if nome else 0)
+    d.rounded_rectangle((x, y, x + w, y + altura), radius=altura // 2, fill=(255, 255, 255), outline=(60, 50, 20), width=2)
+    img.paste(lg, (int(x + 24), int(y + (altura - lg.height) / 2 + (4 if loja == "amazon" else 0))), lg)
+    if nome:
+        d.text((x + 24 + lg.width + 12, y + altura / 2), nome, font=f, fill=cor, anchor="lm")
+
+
+def rodape(img, d, canal, chamada):
     y = A - FAIXA_STICKER - 210
     centro(d, y, chamada, fonte("Inter-SemiBold.ttf", 40), BRANCO)
     alvo = f"t.me/{canal}" if canal else "Canal no Telegram"
     f = fonte("Inter-ExtraBold.ttf", 46)
-    w = d.textlength(alvo, font=f) + 90
-    d.rounded_rectangle(((L - w) / 2, y + 75, (L + w) / 2, y + 165), radius=45, fill=DOURADO)
-    centro(d, y + 93, alvo, f, PRETO)
+    tw = d.textlength(alvo, font=f)
+    r = 27
+    w = tw + 2 * r + 22 + 90
+    x0 = (L - w) / 2
+    d.rounded_rectangle((x0, y + 75, x0 + w, y + 165), radius=45, fill=DOURADO)
+    tg = logo("telegram", 2 * r)
+    if tg is not None:
+        img.paste(tg, (int(x0 + 45), int(y + 120 - r)), tg)
+    d.text((x0 + 45 + 2 * r + 22, y + 120), alvo, font=f, fill=PRETO, anchor="lm")
     centro(d, A - FAIXA_STICKER + 40, "▼  toque no link  ▼", fonte("Inter-Regular.ttf", 30), DOURADO_ESCURO)
 
 
@@ -118,11 +174,11 @@ def story_fixo(canal=""):
         d.regular_polygon((x, y + 28, 11), 4, fill=DOURADO)
         d.text((x + 38, y), t, font=f, fill=BRANCO)
         y += 92
-    rodape(d, canal, "Entra no canal. É de graça.")
+    rodape(img, d, canal, "Entra no canal. É de graça.")
     return png(img)
 
 
-def story_oferta(item, foto=None, canal=""):
+def story_oferta(item, foto=None, canal="", frase=None):
     img = fundo()
     d = ImageDraw.Draw(img)
     lv = leao(110)
@@ -151,6 +207,7 @@ def story_oferta(item, foto=None, canal=""):
         w = d.textlength(texto, font=f) + 60
         d.rounded_rectangle((cx1 - w + 30, cy0 - 35, cx1 + 30, cy0 + 55), radius=45, fill=DOURADO)
         d.text((cx1 - w + 60, cy0 - 25), texto, font=f, fill=PRETO)
+    selo_loja(img, item.get("loja", ""), cx0 - 30, cy0 - 36)
 
     f_nome = fonte("Inter-SemiBold.ttf", 46)
     y = 1000
@@ -168,5 +225,5 @@ def story_oferta(item, foto=None, canal=""):
         y += 62
     if por:
         centro(d, y - 10, f"por {reais(por)}", fonte("Playfair-Black.ttf", 104), DOURADO)
-    rodape(d, canal, "Quem estava no canal pegou.")
+    rodape(img, d, canal, frase or random.choice(FRASES))
     return png(img)
