@@ -220,9 +220,23 @@
       "titulo": "75% off, isso aqui não fica muito tempo assim.",
       "id": 35,
       "msg_id": 141
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0C9R59R1X",
+      "origem": "aquitempechincha",
+      "link": "https://www.amazon.com.br/dp/B0C9R59R1X?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0C9R59R1X?tag=alphadominu09-20",
+      "nome": "Pré Treino Core 150g Growth",
+      "por": 59.0,
+      "foto": "AgACAgQAAxkDAAOOaszBbeemr3z2QGBjARXdY4IpvbgAAm67MRs4by1Toj76r0mfAAEUAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "titulo": "Mais foco no seu treino: Pré-Treino Core Growth por R$ 59.",
+      "id": 36,
+      "msg_id": 142
     }
   ],
-  "proximo_id": 36,
+  "proximo_id": 37,
   "radar": {
     "visto": {
       "xetdaspromocoes": 84418,
@@ -233,11 +247,11 @@
       "tudonapromo": 101548,
       "promonocontext": 125768,
       "promooeasy": 219965,
-      "aquitempechincha": 280936,
+      "aquitempechincha": 280939,
       "infoBRpromos": 67374
     },
     "dia": "2026-10-12",
-    "hoje": 8,
+    "hoje": 9,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -254,19 +268,20 @@
       "shopee:1083800536.58219483729",
       "amazon:B078HS3SKS",
       "mercadolivre:MLB52868715",
-      "mercadolivre:MLB75755258"
+      "mercadolivre:MLB75755258",
+      "amazon:B0C9R59R1X"
     ],
     "ultima": {
-      "em": "2026-10-12T08:10:19-03:00",
+      "em": "2026-10-12T08:15:17-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 10,
       "lidos": 10,
       "falhas": [],
       "posts_novos": 3,
-      "do_nicho": 0,
+      "do_nicho": 1,
       "repetidas": 0,
-      "novas": 0,
+      "novas": 1,
       "limite_dia": false
     }
   },
