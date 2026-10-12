@@ -416,24 +416,6 @@
       "id": 69,
       "garimpado_em": "2026-10-12T15:48-03:00",
       "msg_id": 189
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB54944960",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/cortador-de-cabelo-mondial-super-groom-6-bg-04-melhor-categ-pretoverde/p/MLB54944960?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/cortador-de-cabelo-mondial-super-groom-6-bg-04-melhor-categ-pretoverde/p/MLB54944960",
-      "post_origem": "https://t.me/lobaopromo/188515",
-      "link_canal": "https://meli.la/2fturBK",
-      "foto": "AgACAgQAAxkDAAPDas0woSIbg4b1YrQTkeaSi7inQfEAAnoOaxv0_MVS_SLRdbGvcrUBAAMCAAN4AAM9BA",
-      "foto_origem": "loja",
-      "nome": "Cortador De Cabelo Mondial Super Groom 6 Bg-04 Melhor Categ",
-      "de": 169.0,
-      "por": 80.0,
-      "titulo": "Super Groom 6 com desconto e cupom",
-      "id": 73,
-      "garimpado_em": "2026-10-12T16:10-03:00",
-      "msg_id": 195
     }
   ],
   "proximo_id": 79,
@@ -684,6 +666,25 @@
   ],
   "lixeira": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB54944960",
+      "origem": "lobaopromo",
+      "link": "https://www.mercadolivre.com.br/cortador-de-cabelo-mondial-super-groom-6-bg-04-melhor-categ-pretoverde/p/MLB54944960?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/cortador-de-cabelo-mondial-super-groom-6-bg-04-melhor-categ-pretoverde/p/MLB54944960",
+      "post_origem": "https://t.me/lobaopromo/188515",
+      "link_canal": "https://meli.la/2fturBK",
+      "foto": "AgACAgQAAxkDAAPDas0woSIbg4b1YrQTkeaSi7inQfEAAnoOaxv0_MVS_SLRdbGvcrUBAAMCAAN4AAM9BA",
+      "foto_origem": "loja",
+      "nome": "Cortador De Cabelo Mondial Super Groom 6 Bg-04 Melhor Categ",
+      "de": 169.0,
+      "por": 80.0,
+      "titulo": "Super Groom 6 com desconto e cupom",
+      "id": 73,
+      "garimpado_em": "2026-10-12T16:10-03:00",
+      "removido_em": "2026-10-12T16:26:41-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0FPDW9PLB",
       "origem": "promooeasy",
@@ -862,7 +863,7 @@
       "lobaopromo": {
         "achados": 2,
         "aprovados": 1,
-        "reprovados": 0
+        "reprovados": 1
       },
       "urubupromo": {
         "achados": 1,
