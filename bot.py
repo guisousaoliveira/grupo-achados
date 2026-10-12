@@ -356,7 +356,10 @@ def montar_post(item):
     if preco:
         blocos.append("\n".join(preco))
     if item.get("cupom"):
-        blocos.append(f"🎟️ Cupom: <code>{e(item['cupom'])}</code>")
+        if re.search(r"\s", item["cupom"].strip()):  # frase da loja ("Aplique o cupom de 10% OFF"), não é código
+            blocos.append(f"🎟️ {e(item['cupom'])}")
+        else:
+            blocos.append(f"🎟️ Cupom: <code>{e(item['cupom'])}</code>")
     elif item.get("cupom_loja"):
         blocos.append(f"🎟️ {e(item['cupom_loja'])}")
     loja = {"amazon": "Amazon", "mercadolivre": "Mercado Livre", "shopee": "Shopee"}.get(item.get("loja"), "")

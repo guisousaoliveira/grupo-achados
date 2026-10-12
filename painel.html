@@ -491,7 +491,7 @@ function montarPost(x){
   if (x.por && np >= 2 && np <= 24) p.push(`💳 <i>ou ${np}x de ${reais(x.parcela_valor || x.por / np)}${x.parcela_valor ? ` (${reais(np * x.parcela_valor).replace(' ', '\u00a0')})` : ''}</i>`);
   if (x.prime) p.push(`Preço exclusivo para membros Prime${x.sem_prime ? ` (sem Prime: ${reais(x.sem_prime)})` : ''}`);
   if (p.length) b.push(p.join('<br>'));
-  if (x.cupom) b.push(`🎟️ Cupom: <code>${esc(x.cupom)}</code>`);
+  if (x.cupom) b.push(/\s/.test(x.cupom.trim()) ? `🎟️ ${esc(x.cupom)}` : `🎟️ Cupom: <code>${esc(x.cupom)}</code>`);  // frase da loja sai sem formato de código
   else if (x.cupom_loja) b.push(`🎟️ ${esc(x.cupom_loja)}`);
   b.push(`🛒 ${esc(x.link || '')}` + (LOJAS[x.loja] ? `  (${LOJAS[x.loja]})` : ''));
   return b.join('<br><br>');
@@ -835,7 +835,7 @@ function editorHTML(x, p){
       <div class="fl"><label>Parcelas sem juros</label><input class="in" id="${p}-parcelas" inputmode="numeric" value="${x.parcelas || ''}" placeholder="Ex.: 3"></div>
       <div class="fl"><label>Valor da parcela</label><input class="in" id="${p}-parcela_valor" inputmode="decimal" value="${num(x.parcela_valor)}" placeholder="divide o preço"></div>
     </div>
-    <div class="fl"><label>Cupom ${x.cupom_loja && !x.cupom ? `<span>${esc(x.cupom_loja)}</span>` : ''}</label><input class="in" id="${p}-cupom" value="${esc(x.cupom)}" placeholder="opcional"></div>
+    <div class="fl"><label>Cupom</label><input class="in" id="${p}-cupom" value="${esc(x.cupom || x.cupom_loja || '')}" placeholder="código, ou apague pra tirar do post"></div>
     <div class="fl"><label>Seu link de afiliado <span class="atalhos">${(x.link_produto || x.url) ? `<a href="${esc(x.link_produto || x.url)}" target="_blank" rel="noopener">${marca(x.loja)}abrir produto</a>` : ''}${x.post_origem ? `<a href="${esc(x.post_origem)}" target="_blank" rel="noopener">${x.fonte === 'promobit' ? '<span class="mk pb">P</span>oferta no Promobit' : marca('tg') + 'post original'}</a>` : ''}</span></label><input class="in" id="${p}-link" value="${esc(x.link)}" placeholder="https://...">${gerarLinkHTML(x)}</div>
     <div class="fl"><label>Foto</label><div class="fotoed"><span id="${p}-fotoph">${foto(x)}</span>
       <div style="display:flex;gap:6px;flex-wrap:wrap"><button class="btn sm" onclick="escolherFoto('${p}')">${ic('foto',15)}Enviar foto</button>
@@ -866,7 +866,7 @@ function ligarEditor(p, x){
   const atual = () => {
     const d = dadosForm(p, x);
     const y = {...x, ...d, foto: x.foto, de: preco(d.de), por: preco(d.por), sem_prime: preco(d.sem_prime), ...lerParcelas(d.parcelas)};  // d.foto é o código do Telegram; a prévia usa o endereço
-    if (!d.cupom) y.cupom = '';
+    if (!d.cupom) { y.cupom = ''; y.cupom_loja = ''; }  // campo vazio tira o cupom (o servidor faz igual ao salvar)
     document.getElementById(`${p}-bub`).innerHTML = (y.foto ? `<div class="im"><img src="${esc(y.foto)}" alt="" onerror="this.parentNode.remove()"></div>` : '')
       + `<div class="ch">Alpha Promo</div><div class="tx">${montarPost(y)}</div><div class="hr">${String(new Date().getHours()).padStart(2,'0')}:00</div>`;
     document.getElementById(`${p}-parcela_valor`).placeholder = y.parcelas && y.por ? num(y.por / y.parcelas) : 'divide o preço';
