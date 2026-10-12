@@ -135,8 +135,9 @@ def _github(metodo, corpo=None):
         raise
 
 
-def chamar_github_agora():
-    """No Render: pede ao GitHub Actions para rodar já (a Amazon bloqueia o Render, mas costuma abrir para o GitHub).
+def chamar_github_agora(motivo="Pedi ao GitHub para reler a página agora."):
+    """No Render: pede ao GitHub Actions para rodar já (a Amazon bloqueia o Render, mas costuma abrir para o GitHub;
+    e o /tick do servidor usa isto para rodar o radar de 5 em 5 minutos).
     Precisa que o token tenha também a permissão Actions: Read and write."""
     if not (os.environ.get("RENDER") and usar_github()):
         return False
@@ -147,7 +148,7 @@ def chamar_github_agora():
                                           "User-Agent": "bot-achados"})
     try:
         urllib.request.urlopen(req, timeout=20).close()
-        log("Pedi ao GitHub para reler a página agora.")
+        log(motivo)
         return True
     except urllib.error.HTTPError as e:
         log(f"GitHub não deixou rodar agora ({e.code}). Dê ao token a permissão Actions: Read and write.")
@@ -1259,6 +1260,15 @@ def oferta_do_post(post, canal):
     return item
 
 
+def radar_pausado(cfg):
+    """Pausa do radar, em horas de Brasília. Ex.: pausa_de 0 e pausa_ate 7 = pausado da meia-noite às 6h59."""
+    de, ate = cfg.get("pausa_de"), cfg.get("pausa_ate")
+    if de is None or ate is None or de == ate:
+        return False
+    h = agora().hour
+    return de <= h < ate if de < ate else (h >= de or h < ate)
+
+
 def rodar_radar(estado, teste=False):
     cfg = CONFIG.get("radar", {})
     canais = cfg.get("canais", [])
@@ -1269,6 +1279,13 @@ def rodar_radar(estado, teste=False):
     if r.get("dia") != hoje:
         r["dia"], r["hoje"] = hoje, 0
     limite_dia, limite_rodada = cfg.get("max_por_dia", 10), cfg.get("max_por_rodada", 3)
+    if radar_pausado(cfg) and not teste:
+        # Madrugada: não lê nada. Na primeira rodada depois da pausa só marca onde cada canal está,
+        # para não mandar oferta da madrugada que talvez já mudou de preço.
+        r["pausado"] = True
+        log("Radar: pausado (madrugada).")
+        return
+    acordando = r.pop("pausado", False) and not teste
     usadas = set(r["chaves"]) | {x["chave"] for x in estado["fila"] + estado["revisar"]}
     novas = 0
     for canal in canais:
@@ -1280,9 +1297,9 @@ def rodar_radar(estado, teste=False):
             continue
         visto = r["visto"].get(canal)
         ultimo = max((p["id"] for p in posts), default=visto or 0)
-        if visto is None and not teste:  # primeira vez: só marca onde está, não manda o histórico
+        if (visto is None or acordando) and not teste:  # primeira vez ou fim da madrugada: só marca onde está
             r["visto"][canal] = ultimo
-            log(f"Radar: comecei a acompanhar @{canal}.")
+            log(f"Radar: {'voltei da pausa em' if acordando else 'comecei a acompanhar'} @{canal}.")
             continue
         for post in sorted(posts, key=lambda p: p["id"]):
             if not teste and post["id"] <= visto:

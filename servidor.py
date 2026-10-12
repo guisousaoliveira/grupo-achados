@@ -13,12 +13,19 @@ No Render:
 import hashlib
 import json
 import os
+import time
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
 import bot
 
 bot.carregar_env()
 bot.CONFIG = bot.carregar_json(bot.ARQ_CONFIG, {})
+
+# /tick: um site de agendamento (cron-job.org) abre este endereço de 5 em 5 minutos.
+# Isso mantém o Render acordado e pede uma rodada ao GitHub (radar, postagens, releituras).
+# No máximo uma rodada a cada 4 minutos, mesmo que alguém abra o endereço várias vezes.
+INTERVALO_TICK = 4 * 60
+_ultimo_tick = [0.0]
 
 SEGREDO = hashlib.sha256(("webhook" + bot.segredo("TELEGRAM_TOKEN")).encode()).hexdigest()[:32]
 
@@ -34,6 +41,14 @@ class Atendente(BaseHTTPRequestHandler):
         self.wfile.flush()
 
     def do_GET(self):  # usado pelo Render (e por um "pinger", se você quiser) para ver se está vivo
+        if self.path.split("?")[0].rstrip("/") == "/tick":
+            if time.time() - _ultimo_tick[0] < INTERVALO_TICK:
+                self._responder(200, "cedo demais, rodada recente")
+                return
+            _ultimo_tick[0] = time.time()
+            ok = bot.chamar_github_agora("Tick: pedi uma rodada ao GitHub.")
+            self._responder(200, "rodada pedida" if ok else "nao consegui pedir a rodada (veja o log)")
+            return
         self._responder(200, "bot de achados ligado")
 
     def do_HEAD(self):

@@ -78,3 +78,11 @@ Sem o Render, o bot só lê suas mensagens e botões a cada 30 minutos. Com o `s
 O plano grátis do Render "dorme" depois de 15 minutos sem uso. A primeira mensagem depois disso demora cerca de 1 minuto, e as seguintes saem na hora. Para ele não dormir, cadastre o endereço do serviço num "pinger" grátis (ex.: UptimeRobot, a cada 5 minutos).
 
 Para desligar o Render e voltar ao modo de 30 em 30 minutos, mande para o Telegram: `https://api.telegram.org/bot<TOKEN>/deleteWebhook` (abra no navegador com o seu token).
+
+## Rodar de 5 em 5 minutos (cron-job.org)
+
+O agendamento do próprio GitHub atrasa muito (e às vezes nem dispara). Para o radar e as postagens
+rodarem de 5 em 5 minutos, crie em https://cron-job.org (grátis) um job que abre
+`https://SEU-SERVICO.onrender.com/tick` a cada 5 minutos. Cada abertura mantém o Render acordado e
+pede uma rodada ao GitHub (no máximo uma a cada 4 minutos). O radar fica pausado das `pausa_de`
+às `pausa_ate` horas (config.json, padrão 0h às 7h) e, ao voltar, ignora o que saiu de madrugada.
