@@ -410,25 +410,6 @@
     },
     {
       "loja": "amazon",
-      "chave": "amazon:B0CJGNFGPQ",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B0CJGNFGPQ?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0CJGNFGPQ?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/3-coracoes-tres-cafeteira-espresso-e-multibebidas-luna-preta-110v-3108970/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3108970/",
-      "nome": "3 Corações TRES Cafeteira Espresso e Multibebidas Luna Preta",
-      "por": 320.97,
-      "de": 499.9,
-      "foto": "AgACAgQAAxkDAAPNas01WdBg3wknGMiQ51vlPT5wiD4AAgoQaxv7um1SbcoyTO_5WVsBAAMCAAN4AAM9BA",
-      "foto_origem": "loja",
-      "titulo": "Cafeteira 3 Corações com 36% off",
-      "id": 80,
-      "garimpado_em": "2026-10-12T16:30-03:00",
-      "msg_id": 205
-    },
-    {
-      "loja": "amazon",
       "chave": "amazon:B0H2BZQDQ8",
       "origem": "promobit",
       "fonte": "promobit",
@@ -746,7 +727,28 @@
       "por": 239.9
     }
   ],
-  "lixeira": [],
+  "lixeira": [
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0CJGNFGPQ",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0CJGNFGPQ?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0CJGNFGPQ?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/3-coracoes-tres-cafeteira-espresso-e-multibebidas-luna-preta-110v-3108970/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3108970/",
+      "nome": "3 Corações TRES Cafeteira Espresso e Multibebidas Luna Preta",
+      "por": 320.97,
+      "de": 499.9,
+      "foto": "AgACAgQAAxkDAAPNas01WdBg3wknGMiQ51vlPT5wiD4AAgoQaxv7um1SbcoyTO_5WVsBAAMCAAN4AAM9BA",
+      "foto_origem": "loja",
+      "titulo": "Cafeteira 3 Corações com 36% off",
+      "id": 80,
+      "garimpado_em": "2026-10-12T16:30-03:00",
+      "removido_em": "2026-10-12T16:32:04-03:00",
+      "removido_de": "revisar"
+    }
+  ],
   "garimpo": {
     "2026-10-12": {
       "promooeasy": {
@@ -757,7 +759,7 @@
       "promobit": {
         "achados": 9,
         "aprovados": 4,
-        "reprovados": 2
+        "reprovados": 3
       },
       "gatunopromos": {
         "achados": 1,
