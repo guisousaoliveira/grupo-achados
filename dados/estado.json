@@ -87,8 +87,21 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [],
-  "proximo_id": 27,
+  "revisar": [
+    {
+      "loja": "mercadolivre",
+      "link": "https://meli.la/2gn9Kg2",
+      "por": 261.9,
+      "de": 739.68,
+      "nome": "Fritadeira Air Fryer 5,5l Widemax Com Interior De Alumínio 1900w Midea",
+      "foto": "AgACAgQAAxkDAAN_asxMhl2nPcgI1bJFpqWAtNQxEDAAAqEMaxs5ZnVRCmuQo1YEPngBAAMCAAN4AAM9BA",
+      "chave": "mercadolivre:https://meli.la/2gn9Kg2",
+      "frase": "Desconto de 65%: é agora ou nunca.",
+      "id": 27,
+      "msg_id": 127
+    }
+  ],
+  "proximo_id": 28,
   "radar": {
     "visto": {
       "xetdaspromocoes": 84418,
