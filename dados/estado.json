@@ -90,7 +90,8 @@
   "slots_usados": {
     "2026-10-11": [
       22
-    ]
+    ],
+    "2026-10-12": []
   },
   "shopee_buscado_em": "",
   "revisar": [],
@@ -108,8 +109,8 @@
       "aquitempechincha": 280933,
       "infoBRpromos": 67366
     },
-    "dia": "2026-10-11",
-    "hoje": 8,
+    "dia": "2026-10-12",
+    "hoje": 0,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -119,7 +120,8 @@
       "mercadolivre:MLB25929487",
       "amazon:B0DPXRVFVB",
       "mercadolivre:MLB50232347"
-    ]
+    ],
+    "pausado": true
   },
   "ultimos": [
     {
