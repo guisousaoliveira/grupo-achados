@@ -792,6 +792,70 @@ def ler_mensagens(estado):
         processar_update(estado, up)
 
 
+# ---------------------------------------------------------------- stories para o Instagram
+
+def guardar_ultimo(estado, item):
+    """Guarda as últimas ofertas postadas (completas) para o /story."""
+    limpo = {k: v for k, v in item.items() if k in ("nome", "de", "por", "foto", "loja", "cupom", "prime")}
+    estado["ultimos"] = ([limpo] + estado.get("ultimos", []))[:15]
+
+
+def baixar_foto(foto):
+    if not foto:
+        return None
+    try:
+        if not foto.startswith("http"):  # foto que você mandou no Telegram: pega pelo file_id
+            caminho = telegram("getFile", file_id=foto)["file_path"]
+            foto = f"https://api.telegram.org/file/bot{segredo('TELEGRAM_TOKEN')}/{caminho}"
+        req = urllib.request.Request(foto, headers={"User-Agent": USER_AGENT})
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            return resp.read()
+    except Exception as e:
+        log(f"Não consegui baixar a foto para o story ({e}).")
+        return None
+
+
+def enviar_arquivo(dados, nome, legenda=""):
+    """Manda um arquivo (sem compressão) no seu privado."""
+    fronteira = "----achados" + hashlib.md5(dados[:64]).hexdigest()
+    partes = []
+    for campo, valor in (("chat_id", segredo("ADMIN_ID")), ("caption", legenda)):
+        partes.append(f'--{fronteira}\r\nContent-Disposition: form-data; name="{campo}"\r\n\r\n{valor}\r\n'.encode())
+    partes.append(f'--{fronteira}\r\nContent-Disposition: form-data; name="document"; filename="{nome}"\r\n'
+                  f"Content-Type: image/png\r\n\r\n".encode() + dados + b"\r\n")
+    partes.append(f"--{fronteira}--\r\n".encode())
+    req = urllib.request.Request(f"https://api.telegram.org/bot{segredo('TELEGRAM_TOKEN')}/sendDocument",
+                                 data=b"".join(partes),
+                                 headers={"Content-Type": f"multipart/form-data; boundary={fronteira}"})
+    with urllib.request.urlopen(req, timeout=60) as resp:
+        return json.loads(resp.read().decode())
+
+
+def cmd_story(estado, texto):
+    try:
+        import story
+    except ImportError:
+        responder_admin("Para gerar stories o servidor precisa do Pillow. No Render, mude o Build Command para "
+                        "<code>pip install -r requirements.txt</code>.")
+        return
+    canal = CONFIG.get("canal_publico", "").replace("@", "").replace("https://t.me/", "")
+    partes = texto.split()
+    if partes[0].lower() == "/storyfixo":
+        enviar_arquivo(story.story_fixo(canal), "story_alpha_promo.png",
+                       "Story fixo do canal. Poste e coloque o sticker de link do canal na parte de baixo.")
+        return
+    ultimos = estado.get("ultimos", [])
+    try:
+        n = int(partes[1]) if len(partes) > 1 else 1
+        item = ultimos[n - 1]
+    except (IndexError, ValueError):
+        responder_admin("Ainda não tenho oferta postada guardada. Depois que a próxima oferta sair no canal, "
+                        "mande /story de novo." if not ultimos else "Use /story 1 (a última postada), /story 2...")
+        return
+    enviar_arquivo(story.story_oferta(item, baixar_foto(item.get("foto")), canal), "story_oferta.png",
+                   f"Story de prova: {item.get('nome', '')}. Coloque o sticker de link do canal embaixo.")
+
+
 def tratar_comando(estado, texto, foto=None):
     cmd = texto.split()[0].lower() if texto else ""
     if cmd in ("/start", "/ajuda"):
@@ -801,6 +865,7 @@ def tratar_comando(estado, texto, foto=None):
             "e uma frase, e isso vale mais que o que eu ler.\n\n"
             "Comandos:\n/fila (ver a fila)\n/remover N (tirar o item N da fila)\n"
             "/postar (posta agora a 1ª da fila; /postar 3 posta a 3ª)\n"
+            "/story (imagem de story da última oferta postada)\n/storyfixo (story de divulgação do canal)\n"
             "/pendentes (ofertas esperando revisão)\n/aprovartudo (aprova todas as pendentes completas)\n/ajuda")
     elif cmd == "/fila":
         if not estado["fila"]:
@@ -815,6 +880,8 @@ def tratar_comando(estado, texto, foto=None):
             responder_admin(f"Tirei da fila: {html.escape(tirado['nome'])}")
         except (IndexError, ValueError):
             responder_admin("Use assim: /remover 2 (o número que aparece no /fila)")
+    elif cmd in ("/story", "/storyfixo"):
+        cmd_story(estado, texto)
     elif cmd == "/postar":
         try:
             n = int(texto.split()[1]) if len(texto.split()) > 1 else 1
@@ -824,6 +891,7 @@ def tratar_comando(estado, texto, foto=None):
             return
         publicar(item)
         estado["fila"].pop(n - 1)
+        guardar_ultimo(estado, item)
         estado["postados"].append({"chave": item["chave"], "loja": item["loja"], "nome": item["nome"],
                                    "data": agora().isoformat(timespec="minutes")})
         responder_admin(f"📢 Postei agora: {html.escape(item['nome'])}. Fila: {len(estado['fila'])}.")
@@ -973,6 +1041,7 @@ def postar_se_for_hora(estado):
     item = estado["fila"][0]
     publicar(item)
     estado["fila"].pop(0)
+    guardar_ultimo(estado, item)
     # Um post por execução: se o GitHub atrasar e passar mais de um horário,
     # o próximo sai na execução seguinte, sem rajada.
     if not FORCAR:
