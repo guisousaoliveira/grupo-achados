@@ -13,6 +13,17 @@
       "de": 79.0,
       "por": 46.79,
       "frase": "Preço de queima, 41% mais barato."
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0HJJSKJ2S",
+      "origem": "promooeasy",
+      "link": "https://link.amazon/B09cDoFfW",
+      "link_produto": "https://www.amazon.com.br/dp/B0HJJSKJ2S?tag=alphadominu09-20",
+      "foto": "AgACAgEAAxkBAANjasxGsdnDlH5hXafUhKO-mAZ5qKoAAh8Qaxvw92FGhUyQm7Bts60BAAMCAAN4AAM9BA",
+      "nome": "Esteira Ergométrica Elétrica Dobrável Bivolt 150kg",
+      "por": 474.0,
+      "frase": "Corre pra garantir!"
     }
   ],
   "postados": [
@@ -65,21 +76,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0HJJSKJ2S",
-      "origem": "promooeasy",
-      "link": "https://link.amazon/B09cDoFfW",
-      "link_produto": "https://www.amazon.com.br/dp/B0HJJSKJ2S?tag=alphadominu09-20",
-      "foto": "AgACAgEAAxkBAANjasxGsdnDlH5hXafUhKO-mAZ5qKoAAh8Qaxvw92FGhUyQm7Bts60BAAMCAAN4AAM9BA",
-      "nome": "Esteira Ergométrica Elétrica Dobrável Bivolt 150kg",
-      "por": 474.0,
-      "frase": "Corre pra garantir!",
-      "id": 22,
-      "msg_id": 102
-    }
-  ],
+  "revisar": [],
   "proximo_id": 23,
   "radar": {
     "visto": {
