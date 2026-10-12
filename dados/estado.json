@@ -398,26 +398,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "amazon",
-      "chave": "amazon:B076QS31ZW",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B076QS31ZW?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B076QS31ZW?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/220153",
-      "link_canal": "https://www.amazon.com.br/Garrafa-Lumina-Litro-Rosca-Inox/dp/B076QS31ZW?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAO9as0rZ-LxvmgPdQFiz4e7b9RhAZcAAqEPaxtkaG1SH7BWVKhhFXEBAAMCAAN4AAM9BA",
-      "foto_origem": "loja",
-      "nome": "Garrafa Térmica Lúmina Preta 1l",
-      "pix": true,
-      "por": 64.0,
-      "titulo": "Menor preço para Garrafa Térmica Lúmina",
-      "id": 69,
-      "garimpado_em": "2026-10-12T15:48-03:00",
-      "msg_id": 189
-    }
-  ],
+  "revisar": [],
   "proximo_id": 79,
   "radar": {
     "visto": {
@@ -666,6 +647,25 @@
   ],
   "lixeira": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B076QS31ZW",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B076QS31ZW?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B076QS31ZW?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220153",
+      "link_canal": "https://www.amazon.com.br/Garrafa-Lumina-Litro-Rosca-Inox/dp/B076QS31ZW?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAO9as0rZ-LxvmgPdQFiz4e7b9RhAZcAAqEPaxtkaG1SH7BWVKhhFXEBAAMCAAN4AAM9BA",
+      "foto_origem": "loja",
+      "nome": "Garrafa Térmica Lúmina Preta 1l",
+      "pix": true,
+      "por": 64.0,
+      "titulo": "Menor preço para Garrafa Térmica Lúmina",
+      "id": 69,
+      "garimpado_em": "2026-10-12T15:48-03:00",
+      "removido_em": "2026-10-12T16:26:44-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB54944960",
       "origem": "lobaopromo",
@@ -848,7 +848,7 @@
       "promooeasy": {
         "achados": 9,
         "aprovados": 3,
-        "reprovados": 5
+        "reprovados": 6
       },
       "promobit": {
         "achados": 6,
