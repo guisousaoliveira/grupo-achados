@@ -65,28 +65,44 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [],
-  "proximo_id": 19,
+  "revisar": [
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0HJJSKJ2S",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0HJJSKJ2S?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0HJJSKJ2S?tag=alphadominu09-20",
+      "foto": "AgACAgEAAxkDAANgasxGRf79Di9ewNLWjOBblwGAXMwAAh4Qaxvw92FGjbr36NGkBWgBAAMCAAN4AAM9BA",
+      "foto_origem": "canal",
+      "nome": "Esteira Ergométrica Elétrica Dobrável Bivolt 150kg",
+      "por": 474.0,
+      "frase": "Estoque voa nesse valor, garante o seu.",
+      "id": 19,
+      "msg_id": 96
+    }
+  ],
+  "proximo_id": 20,
   "radar": {
     "visto": {
       "xetdaspromocoes": 84418,
-      "lobaopromo": 188359,
-      "gatunopromos": 124812,
+      "lobaopromo": 188360,
+      "gatunopromos": 124813,
       "pobregram": 41737,
       "urubupromo": 41551,
       "tudonapromo": 101548,
       "promonocontext": 125768,
-      "promooeasy": 219876,
+      "promooeasy": 219877,
       "aquitempechincha": 280933,
       "infoBRpromos": 67366
     },
     "dia": "2026-10-11",
-    "hoje": 4,
+    "hoje": 5,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
       "mercadolivre:MLB4250522675",
-      "mercadolivre:MLB29164669"
+      "mercadolivre:MLB29164669",
+      "amazon:B0HJJSKJ2S"
     ]
   },
   "ultimos": [
