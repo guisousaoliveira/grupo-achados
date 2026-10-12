@@ -838,7 +838,7 @@ function editorHTML(x, p){
     </div>
     <div class="fl"><label>Observação (embaixo do preço) <span>opcional</span></label><input class="in" id="${p}-obs" value="${esc(x.obs || '')}" placeholder="Ex.: Frete grátis acima de R$ 79"></div>
     <div class="fl"><label>Cupom</label><input class="in" id="${p}-cupom" value="${esc(x.cupom || x.cupom_loja || '')}" placeholder="código, ou apague pra tirar do post"></div>
-    <div class="fl"><label>Seu link de afiliado <span class="atalhos">${(x.link_produto || x.url) ? `<a href="${esc(x.link_produto || x.url)}" target="_blank" rel="noopener">${marca(x.loja)}abrir produto</a>` : ''}${x.post_origem ? `<a href="${esc(x.post_origem)}" target="_blank" rel="noopener">${x.fonte === 'promobit' ? '<span class="mk pb">P</span>oferta no Promobit' : marca('tg') + 'post original'}</a>` : ''}</span></label><input class="in" id="${p}-link" value="${esc(x.link)}" placeholder="https://...">${gerarLinkHTML(x)}</div>
+    <div class="fl"><label>Seu link de afiliado <span class="atalhos">${(x.link_produto || x.url) ? `<a href="${esc(x.link_produto || x.url)}" target="_blank" rel="noopener">${marca(x.loja)}abrir produto</a>` : ''}${x.post_origem ? `<a href="${esc(x.post_origem)}" target="_blank" rel="noopener">${x.fonte === 'promobit' ? '<span class="mk pb">P</span>oferta no Promobit' : marca('tg') + 'post original'}</a>` : ''}</span></label><div class="in-ia"><input class="in" id="${p}-link" value="${esc(x.link)}" placeholder="https://..." onfocus="selTudo(this)"><button type="button" class="ia-bt" title="Copiar link" aria-label="Copiar link" onclick="copiarCampo('${p}-link')">${ic('copiar',16)}</button></div>${gerarLinkHTML(x)}</div>
     <div class="fl"><label>Foto</label><div class="fotoed"><span id="${p}-fotoph">${foto(x)}</span>
       <div style="display:flex;gap:6px;flex-wrap:wrap"><button class="btn sm" onclick="escolherFoto('${p}')">${ic('foto',15)}Enviar foto</button>
       <button class="btn sm ghost" onclick="colarFotoURL('${p}')">Usar endereço de imagem</button>
@@ -1020,6 +1020,8 @@ function stories(){
     + (E.ultimos.length ? '' : '<div class="hint" style="margin-top:12px">As ofertas aparecem aqui depois que saem no canal.</div>');
 }
 let storyURL = null, stModelo = 'venda';
+function selTudo(el){ setTimeout(() => { try { el.setSelectionRange(0, el.value.length); } catch(e) { el.select(); } }, 0); }  // clicou no campo: já seleciona o link todo (PC e celular)
+function copiarCampo(id){ const v = document.getElementById(id).value.trim(); if (v) copiarTexto(v, 'Link copiado'); else toast('O campo está vazio.', true); }
 async function copiarTexto(t, msg){
   try { await navigator.clipboard.writeText(t); toast(msg); } catch(e) { prompt('Copie o link:', t); }
 }
