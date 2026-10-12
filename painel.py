@@ -17,6 +17,7 @@ import json
 import re
 import time
 import urllib.parse
+import urllib.request
 from datetime import timedelta
 
 import bot
@@ -178,9 +179,56 @@ def resumo(estado):
             "pausado": bot.radar_pausado(cfg_radar),
             "pausa_de": cfg_radar.get("pausa_de"),
             "pausa_ate": cfg_radar.get("pausa_ate"),
+            "ultima": r.get("ultima"),
+            "rodada": ultima_rodada(),
         },
         "ia": bool(bot.segredo("GEMINI_API_KEY")),
     }
+
+
+# ---------------------------------------------------------------- radar: andamento da rodada pedida no painel
+
+_rodadas = {"em": 0.0, "lista": []}
+
+
+def rodadas_github():
+    """Últimas rodadas do GitHub Actions (guardadas por 20 segundos para não gastar a cota da API)."""
+    if time.time() - _rodadas["em"] < 20:
+        return _rodadas["lista"]
+    url = f"https://api.github.com/repos/{bot._repo()}/actions/workflows/bot.yml/runs?per_page=5"
+    req = urllib.request.Request(url, headers={"Authorization": f"Bearer {bot.segredo('GITHUB_TOKEN')}",
+                                               "Accept": "application/vnd.github+json", "User-Agent": "bot-achados"})
+    try:
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            runs = json.loads(resp.read().decode()).get("workflow_runs", [])
+    except Exception as e:
+        bot.log(f"Painel: não li as rodadas do GitHub ({e}).")
+        return _rodadas["lista"]
+    _rodadas["em"], _rodadas["lista"] = time.time(), [
+        {"status": x.get("status"), "conclusao": x.get("conclusion"), "criada": x.get("created_at"),
+         "atualizada": x.get("updated_at"), "url": x.get("html_url")} for x in runs]
+    return _rodadas["lista"]
+
+
+def ultima_rodada():
+    feitas = [x for x in rodadas_github() if x["status"] == "completed"]
+    return feitas[0] if feitas else None
+
+
+def radar_status(pedido, desde):
+    _rodadas["em"] = 0  # quem está esperando quer a situação de agora
+    estado, _ = bot.carregar_estado()
+    ultima = estado.get("radar", {}).get("ultima") or {}
+    if pedido and ultima.get("pedido") == pedido:
+        return {"fase": "pronto", "ultima": ultima, "revisar": len(estado["revisar"])}
+    desde_iso = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime(desde - 10))
+    runs = [x for x in rodadas_github() if (x["criada"] or "") >= desde_iso]
+    run = runs[-1] if runs else None  # a mais antiga depois do clique é a nossa
+    if not run:
+        return {"fase": "pedido"}
+    if run["status"] == "completed" and run["conclusao"] != "success":
+        return {"fase": "erro", "run": run}
+    return {"fase": "rodando" if run["status"] != "completed" else "salvando", "run": run}
 
 
 # ---------------------------------------------------------------- edição
@@ -337,9 +385,12 @@ def acao(corpo):
     if a == "foto":
         return subir_foto(d.get("imagem", ""))
     if a == "radar":
-        if bot.chamar_github_agora("Painel: pedi uma rodada ao GitHub."):
-            return {"ok": "Pedi uma rodada ao GitHub. As ofertas novas aparecem em Revisar em 1 ou 2 minutos."}
+        pedido = hashlib.md5(str(time.time()).encode()).hexdigest()[:10]
+        if bot.chamar_github_agora("Painel: pedi uma rodada do radar.", {"radar_forcado": "1", "pedido": pedido}):
+            return {"pedido": pedido, "desde": time.time()}
         return {"erro": "Não consegui chamar o GitHub agora."}
+    if a == "radar_status":
+        return radar_status(str(d.get("pedido", "")), float(d.get("desde") or 0))
     if a == "story_telegram":
         return story_telegram(d)
 

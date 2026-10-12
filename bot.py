@@ -135,7 +135,7 @@ def _github(metodo, corpo=None):
         raise
 
 
-def chamar_github_agora(motivo="Pedi ao GitHub para reler a página agora."):
+def chamar_github_agora(motivo="Pedi ao GitHub para reler a página agora.", inputs=None):
     """No Render: pede ao GitHub Actions para rodar já (a Amazon bloqueia o Render, mas costuma abrir para o GitHub;
     e o /tick do servidor usa isto para rodar o radar de 5 em 5 minutos).
     Precisa que o token tenha também a permissão Actions: Read and write."""
@@ -143,6 +143,8 @@ def chamar_github_agora(motivo="Pedi ao GitHub para reler a página agora."):
         return False
     url = f"https://api.github.com/repos/{_repo()}/actions/workflows/bot.yml/dispatches"
     corpo = {"ref": "main"}
+    if inputs:
+        corpo["inputs"] = inputs
     req = urllib.request.Request(url, method="POST", data=json.dumps(corpo).encode(),
                                  headers={"Authorization": f"Bearer {segredo('GITHUB_TOKEN')}",
                                           "Accept": "application/vnd.github+json",
@@ -1408,13 +1410,20 @@ def rodar_radar(estado, teste=False):
     if r.get("dia") != hoje:
         r["dia"], r["hoje"] = hoje, 0
     limite_dia, limite_rodada = cfg.get("max_por_dia", 10), cfg.get("max_por_rodada", 3)
-    if radar_pausado(cfg) and not teste:
+    # "Rodar agora" do painel: roda mesmo de madrugada e deixa o resultado para o painel mostrar.
+    forcado = os.environ.get("BOT_RADAR_FORCADO") == "1"
+    conta = {"em": agora().isoformat(timespec="seconds"), "pedido": os.environ.get("BOT_PEDIDO", ""),
+             "forcado": forcado, "canais": len(canais), "lidos": 0, "falhas": [], "posts_novos": 0,
+             "do_nicho": 0, "repetidas": 0, "novas": 0, "limite_dia": False}
+    if radar_pausado(cfg) and not teste and not forcado:
+        if conta["pedido"]:  # só guarda quando foi pedido (para não gravar a fila a cada 5 minutos à toa)
+            r["ultima"] = {**conta, "pausado": True}
         # Madrugada: não lê nada. Na primeira rodada depois da pausa só marca onde cada canal está,
         # para não mandar oferta da madrugada que talvez já mudou de preço.
         r["pausado"] = True
         log("Radar: pausado (madrugada).")
         return
-    acordando = r.pop("pausado", False) and not teste
+    acordando = (False if forcado else r.pop("pausado", False)) and not teste
     usadas = set(r["chaves"]) | {x["chave"] for x in estado["fila"] + estado["revisar"]}
     novas = 0
     for canal in canais:
@@ -1423,7 +1432,9 @@ def rodar_radar(estado, teste=False):
             posts = ler_canal(canal)
         except Exception as e:
             log(f"Radar: não consegui ler @{canal} ({e}).")
+            conta["falhas"].append(canal)
             continue
+        conta["lidos"] += 1
         visto = r["visto"].get(canal)
         ultimo = max((p["id"] for p in posts), default=visto or 0)
         if (visto is None or acordando) and not teste:  # primeira vez ou fim da madrugada: só marca onde está
@@ -1433,10 +1444,17 @@ def rodar_radar(estado, teste=False):
         for post in sorted(posts, key=lambda p: p["id"]):
             if not teste and post["id"] <= visto:
                 continue
+            conta["posts_novos"] += 1
             if novas >= limite_rodada or (r["hoje"] >= limite_dia and not teste):
+                conta["limite_dia"] = r["hoje"] >= limite_dia
+                conta["limite_rodada"] = novas >= limite_rodada
                 break
             item = oferta_do_post(post, canal)
-            if not item or item["chave"] in usadas:
+            if not item:
+                continue
+            conta["do_nicho"] += 1
+            if item["chave"] in usadas:
+                conta["repetidas"] += 1
                 continue
             usadas.add(item["chave"])
             novas += 1
@@ -1448,6 +1466,9 @@ def rodar_radar(estado, teste=False):
             mandar_para_revisao(estado, item)
         if not teste:
             r["visto"][canal] = ultimo
+    conta["novas"] = novas
+    if not teste and (conta["pedido"] or conta["posts_novos"] or conta["falhas"]):
+        r["ultima"] = conta
     log(f"Radar: {novas} oferta(s) nova(s) do nicho." + (" (teste, nada enviado)" if teste else ""))
 
 

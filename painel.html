@@ -196,6 +196,17 @@ textarea.in{resize:vertical;min-height:64px}
 .modal.on{opacity:1;pointer-events:auto;transform:translate(-50%,-50%)}
 .modal h3{margin:0 0 6px;font-size:16px}.modal p{color:var(--mut);margin:0 0 16px}
 .modal .acts{justify-content:flex-end}
+.modal h3 svg{vertical-align:-3px;color:var(--gold)}
+.passos{display:flex;flex-direction:column;gap:10px;margin:16px 0}
+.passo{display:flex;align-items:center;gap:10px;color:var(--mut)}
+.passo .bola{width:24px;height:24px;border-radius:50%;border:1px solid var(--line2);display:grid;place-items:center;font-size:12px;font-weight:700;flex:none}
+.passo.feito{color:var(--tx)}.passo.feito .bola{background:var(--gold);border-color:var(--gold);color:#0b0b0c}
+.passo.atual{color:var(--tx)}.passo.atual .bola{border-color:var(--gold);color:var(--gold)}
+.passo.atual .spin{width:12px;height:12px;border:2px solid var(--gold);border-right-color:transparent;border-radius:50%;animation:g .7s linear infinite}
+.passo.falhou{color:#ffb4b6}.passo.falhou .bola{background:var(--bad);border-color:var(--bad);color:#fff}
+.nums{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:12px}
+.num{background:#0f0f11;border:1px solid var(--line);border-radius:10px;padding:10px 6px;text-align:center}
+.num b{display:block;font-size:20px}.num span{font-size:11px;color:var(--mut)}
 .storyimg{width:100%;aspect-ratio:9/16;border-radius:12px;background:#0f0f11;display:grid;place-items:center;overflow:hidden;margin-bottom:14px;border:1px solid var(--line)}
 .storyimg img{width:100%;height:100%;object-fit:contain}
 
@@ -394,8 +405,8 @@ function desenharNav(){
     `<a class="${pagina===k?'on':''}" onclick="ir('${k}')">${ic(k,20)}${t.replace(' oferta','')}${k==='revisar' && conta[k] ? `<span class="badge">${conta[k]}</span>` : ''}</a>`).join('');
   const r = E.radar;
   document.getElementById('radarbox').innerHTML = `<div class="t"><span class="dot ${r.pausado?'off':''}"></span>Radar ${r.pausado?'pausado':'ligado'}</div>
-    <p>${r.canais} canais · ${r.hoje}/${r.max_dia} hoje${r.pausa_de!=null ? ` · pausa ${r.pausa_de}h–${r.pausa_ate}h` : ''}</p>
-    <button class="btn sm" style="width:100%" onclick="fazer(this,'radar')">${ic('radar',15)}Rodar agora</button>`;
+    <p>${r.canais} canais · ${r.hoje}/${r.max_dia} hoje${r.pausa_de!=null ? ` · pausa ${r.pausa_de}h–${r.pausa_ate}h` : ''}${r.rodada ? `<br>Última rodada ${quandoISO(r.rodada.atualizada)}` : ''}</p>
+    <button class="btn sm" style="width:100%" onclick="rodarRadar()">${ic('radar',15)}Rodar agora</button>`;
 }
 function desenhar(){
   if (!E) return;
@@ -434,7 +445,8 @@ function inicio(){
       <div class="stat click" onclick="ir('fila')"><div class="k">${ic('fila',15)}Na fila</div><div class="v">${E.fila.length}</div><div class="s">${E.fila.length ? `próxima sai ${esc(E.fila[0].previsao)}` : 'fila vazia'}</div></div>
       <div class="stat click" onclick="ir('revisar')"><div class="k">${ic('revisar',15)}Para revisar</div><div class="v">${E.revisar.length}</div><div class="s">${E.revisar.filter(x=>!x.falta.length).length} prontas para aprovar</div></div>
       <div class="stat click" onclick="ir('historico')"><div class="k">${ic('historico',15)}Postadas hoje</div><div class="v">${postHoje.length}</div><div class="s">${proxHoras} horário(s) ainda hoje</div></div>
-      <div class="stat"><div class="k">${ic('radar',15)}Radar hoje</div><div class="v">${E.radar.hoje}<span style="font-size:15px;color:var(--mut);font-weight:500"> / ${E.radar.max_dia}</span></div><div class="bar"><i style="width:${Math.min(100, E.radar.hoje/E.radar.max_dia*100)}%"></i></div></div>
+      <div class="stat"><div class="k">${ic('radar',15)}Radar hoje</div><div class="v">${E.radar.hoje}<span style="font-size:15px;color:var(--mut);font-weight:500"> / ${E.radar.max_dia}</span></div><div class="bar"><i style="width:${Math.min(100, E.radar.hoje/E.radar.max_dia*100)}%"></i></div>
+        <div class="s" style="margin-top:8px;display:flex;align-items:center;justify-content:space-between;gap:8px">${E.radar.pausado ? 'pausado' : 'ligado'}${E.radar.rodada ? ` · ${quandoISO(E.radar.rodada.atualizada)}` : ''}<button class="btn sm" onclick="rodarRadar()">Rodar agora</button></div></div>
     </div>
     <div class="box"><h2>Horários de hoje<span class="r tag">um post por horário, se tiver fila</span></h2><div class="slots">${slots}</div></div>
     <div class="cols">
@@ -782,6 +794,73 @@ function procurar(onde){
   const e = encodeURIComponent(q);
   window.open({amazon: `https://www.amazon.com.br/s?k=${e}`, ml: `https://lista.mercadolivre.com.br/${q.replace(/\s+/g,'-')}`, shopee: `https://shopee.com.br/search?keyword=${e}`}[onde], '_blank', 'noopener');
 }
+
+/* -------- radar: rodar agora com andamento -------- */
+function quandoISO(iso){
+  if (!iso) return '';
+  const min = Math.round((Date.now() - new Date(iso)) / 6e4);
+  return min < 1 ? 'agora há pouco' : min < 60 ? `há ${min} min` : `há ${Math.floor(min/60)}h${String(min%60).padStart(2,'0')}`;
+}
+let RADAR = null;
+const PASSOS = [['pedido','Pedido enviado ao GitHub'],['rodando','Lendo os canais'],['pronto','Resultado']];
+function desenharRadar(fase, info){
+  const ordem = {pedido:0, rodando:1, salvando:1, pronto:2, erro:1};
+  const i = ordem[fase] ?? 0;
+  const seg = Math.round((Date.now() - RADAR.inicio) / 1000);
+  const passos = PASSOS.map(([k,t], j) => {
+    const st = j < i || fase === 'pronto' ? 'feito' : j === i ? (fase === 'erro' ? 'falhou' : 'atual') : '';
+    return `<div class="passo ${st}"><span class="bola">${st === 'feito' ? '✓' : st === 'falhou' ? '!' : st === 'atual' ? '<span class="spin"></span>' : j+1}</span><span>${t}</span></div>`;
+  }).join('');
+  let corpo = '';
+  if (fase === 'pronto') corpo = resultadoRadar(info);
+  else if (fase === 'erro') corpo = `<div class="alert bad">A rodada deu erro no GitHub. <a href="${esc(info.run.url)}" target="_blank" rel="noopener">Ver o log</a></div>`;
+  else if (seg > 240) corpo = `<div class="alert warn">Está demorando mais que o normal. Pode fechar: se aparecer algo, cai em Revisar e no seu Telegram.${info && info.run ? ` <a href="${esc(info.run.url)}" target="_blank" rel="noopener">Ver no GitHub</a>` : ''}</div>`;
+  else corpo = `<p class="hint" style="margin:0">${fase === 'pedido' ? 'Esperando o GitHub começar' : 'O GitHub está lendo os canais'}… ${seg}s. Costuma levar menos de 1 minuto.</p>`;
+  const m = document.getElementById('modal');
+  m.innerHTML = `<h3>${ic('radar',17)} Rodada do radar</h3><div class="passos">${passos}</div>${corpo}
+    <div class="acts" style="margin-top:16px">${fase === 'pronto' && info.ultima.novas ? `<button class="btn gold" onclick="fecharTudo();ir('revisar')">Ver em Revisar</button>` : ''}<button class="btn ${fase === 'pronto' ? '' : 'ghost'}" onclick="fecharRadar()">Fechar</button></div>`;
+}
+function resultadoRadar(info){
+  const u = info.ultima;
+  const n = (v, t) => `<div class="num"><b>${v}</b><span>${t}</span></div>`;
+  let frase;
+  if (u.novas) frase = `<div class="alert ok"><b>${u.novas} oferta(s) nova(s)</b> foram para Revisar (e para o seu Telegram).</div>`;
+  else if (u.lidos === 0) frase = `<div class="alert bad">Não consegui ler nenhum canal agora. Tente de novo em alguns minutos.</div>`;
+  else if (!u.posts_novos) frase = `<div class="alert warn">Os canais não postaram nada novo desde a última leitura. Nada para trazer.</div>`;
+  else if (u.limite_dia) frase = `<div class="alert warn">Chegou no limite de ${E.radar.max_dia} ofertas por dia. O radar volta amanhã.</div>`;
+  else if (!u.do_nicho) frase = `<div class="alert warn">Teve ${u.posts_novos} post(s) novo(s), mas nenhum do nicho (academia, estilo, games, ferramentas…).</div>`;
+  else frase = `<div class="alert warn">As ${u.do_nicho} oferta(s) do nicho já tinham aparecido antes (fila, revisão ou já vistas).</div>`;
+  return `<div class="nums">${n(`${u.lidos}/${u.canais}`, 'canais lidos')}${n(u.posts_novos, 'posts novos')}${n(u.do_nicho, 'do nicho')}${n(u.novas, 'para revisar')}</div>${frase}`
+    + (u.falhas && u.falhas.length ? `<p class="hint">Não abriu agora: ${u.falhas.map(c => '@' + esc(c)).join(', ')}</p>` : '');
+}
+async function rodarRadar(){
+  if (RADAR) { document.getElementById('veu').classList.add('on'); document.getElementById('modal').classList.add('on'); return; }
+  let r;
+  try { r = await api('radar'); } catch(e) { r = {erro:'Sem conexão com o servidor.'}; }
+  if (r.erro) return toast(r.erro, true);
+  RADAR = {pedido: r.pedido, desde: r.desde, inicio: Date.now()};
+  desenharRadar('pedido');
+  document.getElementById('veu').classList.add('on'); document.getElementById('modal').classList.add('on');
+  const passo = async () => {
+    if (!RADAR) return;
+    let s = {};
+    try { s = await api('radar_status', '', {pedido: RADAR.pedido, desde: RADAR.desde}); } catch(e) {}
+    if (!RADAR) return;
+    const aberto = document.getElementById('modal').classList.contains('on');
+    if (s.fase === 'pronto' || s.fase === 'erro') {
+      const fim = RADAR; RADAR = null;
+      if (aberto) { RADAR = fim; desenharRadar(s.fase, s); RADAR = null; }
+      else toast(s.fase === 'pronto' ? (s.ultima.novas ? `Radar: ${s.ultima.novas} oferta(s) nova(s) em Revisar.` : 'Radar: nada novo agora.') : 'A rodada do radar deu erro.', s.fase === 'erro');
+      carregar();
+      return;
+    }
+    if (aberto) desenharRadar(s.fase || 'pedido', s);
+    if (Date.now() - RADAR.inicio > 6 * 60e3) { RADAR = null; return; }
+    setTimeout(passo, 4000);
+  };
+  setTimeout(passo, 3000);
+}
+function fecharRadar(){ document.getElementById('modal').classList.remove('on'); document.getElementById('veu').classList.remove('on'); }
 
 /* -------- avisos -------- */
 let tt = null;
