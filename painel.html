@@ -1,0 +1,726 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0b0b0c">
+<title>Alpha Promo · Painel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0b0b0c;--side:#0f0f11;--card:#141416;--card2:#1a1a1d;--line:#232327;--line2:#2e2e33;
+  --tx:#ededef;--mut:#8b8b93;--mut2:#5f5f66;
+  --gold:#d4af37;--gold2:#e9cb6b;--goldbg:rgba(212,175,55,.10);--goldln:rgba(212,175,55,.35);
+  --ok:#3ecf8e;--okbg:rgba(62,207,142,.10);--warn:#f5a524;--warnbg:rgba(245,165,36,.10);--bad:#f2555a;--badbg:rgba(242,85,90,.10);
+  --r:14px;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--tx);font:14px/1.45 Inter,system-ui,-apple-system,sans-serif;-webkit-font-smoothing:antialiased}
+button,input,textarea{font:inherit;color:inherit}
+a{color:inherit}
+svg{flex:none}
+.app{display:grid;grid-template-columns:236px 1fr;min-height:100vh}
+
+/* barra lateral */
+.side{position:sticky;top:0;height:100vh;background:var(--side);border-right:1px solid var(--line);display:flex;flex-direction:column;padding:18px 12px}
+.brand{display:flex;align-items:center;gap:10px;padding:4px 8px 20px}
+.brand .logo{width:34px;height:34px;border-radius:10px;background:linear-gradient(135deg,var(--gold2),#a8842a);display:grid;place-items:center;color:#0b0b0c;font-weight:700;font-size:16px}
+.brand b{display:block;font-size:14.5px}.brand small{color:var(--mut);font-size:12px}
+.nav{display:flex;flex-direction:column;gap:2px}
+.nav a{display:flex;align-items:center;gap:10px;padding:9px 10px;border-radius:9px;color:var(--mut);text-decoration:none;font-weight:500;cursor:pointer}
+.nav a:hover{background:#17171a;color:var(--tx)}
+.nav a.on{background:#1b1b1f;color:var(--tx)}
+.nav a.on svg{color:var(--gold)}
+.nav .badge{margin-left:auto}
+.side .fim{margin-top:auto;display:flex;flex-direction:column;gap:8px}
+.radarbox{border:1px solid var(--line);border-radius:12px;padding:12px;background:#121214}
+.radarbox .t{display:flex;align-items:center;gap:8px;font-weight:600;font-size:13px}
+.radarbox p{margin:6px 0 10px;color:var(--mut);font-size:12.5px}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--ok);box-shadow:0 0 0 3px var(--okbg)}
+.dot.off{background:var(--mut2);box-shadow:0 0 0 3px rgba(255,255,255,.05)}
+.sair{color:var(--mut);text-decoration:none;font-size:13px;padding:6px 10px;display:flex;gap:8px;align-items:center}
+.sair:hover{color:var(--tx)}
+
+/* conteúdo */
+main{min-width:0;padding:26px 34px 60px;max-width:1180px}
+.top{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;margin-bottom:22px;flex-wrap:wrap}
+.top h1{font-size:22px;margin:0;letter-spacing:-.01em}
+.top p{margin:4px 0 0;color:var(--mut)}
+.acts{display:flex;gap:8px;flex-wrap:wrap}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:7px;height:36px;padding:0 14px;border-radius:10px;border:1px solid var(--line2);background:var(--card2);color:var(--tx);font-weight:500;cursor:pointer;white-space:nowrap;text-decoration:none}
+.btn:hover{border-color:#3a3a40;background:#202024}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+.btn.gold{background:var(--gold);border-color:var(--gold);color:#0b0b0c;font-weight:600}
+.btn.gold:hover{background:var(--gold2)}
+.btn.ghost{background:transparent;border-color:transparent;color:var(--mut)}
+.btn.ghost:hover{color:var(--tx);background:#1a1a1d}
+.btn.bad{color:#ff9a9d}
+.btn.bad:hover{background:var(--badbg);border-color:rgba(242,85,90,.4)}
+.btn.sm{height:30px;padding:0 10px;font-size:13px;border-radius:8px}
+.btn.icon{width:30px;padding:0}
+.btn .spin{width:14px;height:14px;border:2px solid currentColor;border-right-color:transparent;border-radius:50%;animation:g .7s linear infinite}
+@keyframes g{to{transform:rotate(360deg)}}
+
+.badge{display:inline-flex;align-items:center;justify-content:center;min-width:20px;height:20px;padding:0 6px;border-radius:99px;background:var(--gold);color:#0b0b0c;font-size:11.5px;font-weight:700}
+.badge.mute{background:#26262b;color:var(--mut)}
+
+.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:16px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:16px}
+.stat .k{color:var(--mut);font-size:12.5px;display:flex;align-items:center;gap:7px}
+.stat .v{font-size:28px;font-weight:700;letter-spacing:-.02em;margin-top:6px}
+.stat .s{color:var(--mut);font-size:12.5px}
+.stat.click{cursor:pointer}.stat.click:hover{border-color:var(--line2)}
+.bar{height:5px;border-radius:9px;background:#232327;margin-top:10px;overflow:hidden}.bar i{display:block;height:100%;background:var(--gold);border-radius:9px}
+
+.box{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:18px;margin-bottom:16px}
+.box h2{font-size:14.5px;margin:0 0 14px;display:flex;align-items:center;gap:8px}
+.box h2 .r{margin-left:auto;font-weight:400}
+.cols{display:grid;grid-template-columns:1.4fr 1fr;gap:16px}
+
+.slots{display:flex;flex-wrap:wrap;gap:6px}
+.slot{min-width:58px;padding:8px 8px 7px;border-radius:10px;border:1px solid var(--line);background:#111113;text-align:center}
+.slot b{display:block;font-size:13.5px}
+.slot span{font-size:11px;color:var(--mut)}
+.slot.feito{border-color:var(--goldln);background:var(--goldbg)}.slot.feito span{color:var(--gold2)}
+.slot.agora{border-color:var(--ok);box-shadow:0 0 0 3px var(--okbg)}.slot.agora span{color:var(--ok)}
+.slot.vazio{opacity:.45}
+
+.callout{display:flex;align-items:center;gap:12px;padding:13px 14px;border-radius:12px;border:1px solid var(--goldln);background:var(--goldbg);margin-bottom:16px}
+.callout.warn{border-color:rgba(245,165,36,.4);background:var(--warnbg)}
+.callout p{margin:0;flex:1}
+
+/* cartões de oferta */
+.list{display:flex;flex-direction:column;gap:10px}
+.of{display:grid;grid-template-columns:92px 1fr auto;gap:14px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:12px}
+.of:hover{border-color:var(--line2)}
+.ph{width:92px;height:92px;border-radius:10px;background:#fff;overflow:hidden;display:grid;place-items:center;position:relative}
+.ph img{max-width:100%;max-height:100%;object-fit:contain}
+.ph.none{background:#1b1b1f;color:var(--mut2)}
+.ph .pos{position:absolute;left:5px;top:5px;background:#0b0b0cdd;color:var(--gold2);font-weight:700;font-size:11.5px;border-radius:6px;padding:1px 6px}
+.of .nm{font-weight:600;font-size:14.5px;margin:3px 0 4px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.meta{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;color:var(--mut);font-size:12.5px}
+.price{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.price s{color:var(--mut2);font-size:12.5px}
+.price b{color:var(--gold2);font-size:16px}
+.off{background:var(--goldbg);color:var(--gold2);border:1px solid var(--goldln);border-radius:6px;padding:0 6px;font-size:11.5px;font-weight:600}
+.loja{display:inline-flex;align-items:center;gap:5px;font-size:11.5px;font-weight:600;padding:1px 7px;border-radius:6px;background:#1f1f23;color:#cfcfd4}
+.loja i{width:7px;height:7px;border-radius:50%}
+.loja.amazon i{background:#ff9900}.loja.mercadolivre i{background:#ffe600}.loja.shopee i{background:#ee4d2d}.loja.outra i{background:#888}
+.tag{font-size:11.5px;padding:1px 7px;border-radius:6px;border:1px solid var(--line2);color:var(--mut)}
+.tag.warn{color:var(--warn);border-color:rgba(245,165,36,.4);background:var(--warnbg)}
+.tag.bad{color:#ff9a9d;border-color:rgba(242,85,90,.4);background:var(--badbg)}
+.tag.ok{color:var(--ok);border-color:rgba(62,207,142,.35);background:var(--okbg)}
+.of .side-acts{display:flex;flex-direction:column;gap:6px;align-items:stretch;min-width:150px}
+.of .row{display:flex;gap:6px;justify-content:flex-end}
+.vazio-box{text-align:center;padding:46px 20px;color:var(--mut);border:1px dashed var(--line2);border-radius:var(--r)}
+.vazio-box b{display:block;color:var(--tx);font-size:15px;margin-bottom:4px}
+
+/* formulário / editor */
+.ed{display:grid;grid-template-columns:1fr 340px;gap:18px;align-items:start}
+.f{display:flex;flex-direction:column;gap:13px}
+.fl label{display:flex;justify-content:space-between;font-size:12.5px;color:var(--mut);margin-bottom:5px}
+.in{width:100%;padding:10px 12px;border-radius:10px;border:1px solid var(--line2);background:#0f0f11;outline:none}
+.in:focus{border-color:var(--gold)}
+textarea.in{resize:vertical;min-height:64px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.chk{display:flex;align-items:center;gap:9px;cursor:pointer;user-select:none;color:var(--tx);font-size:13.5px}
+.chk input{width:16px;height:16px;accent-color:var(--gold)}
+.fotoed{display:flex;gap:12px;align-items:center}
+.fotoed .ph{width:72px;height:72px}
+.alert{padding:11px 13px;border-radius:10px;font-size:13.5px;border:1px solid}
+.alert.ok{background:var(--okbg);border-color:rgba(62,207,142,.35);color:#b7f0d3}
+.alert.warn{background:var(--warnbg);border-color:rgba(245,165,36,.4);color:#ffd99a}
+.alert.bad{background:var(--badbg);border-color:rgba(242,85,90,.4);color:#ffc0c2}
+.iabox{border:1px solid var(--goldln);background:linear-gradient(180deg,rgba(212,175,55,.08),rgba(212,175,55,.02));border-radius:12px;padding:12px}
+.iabox .h{display:flex;align-items:center;gap:8px;justify-content:space-between}
+.iabox .h b{display:flex;gap:7px;align-items:center;color:var(--gold2)}
+.sug{display:flex;flex-direction:column;gap:6px;margin-top:10px}
+.sug small{color:var(--mut);font-size:11.5px;text-transform:uppercase;letter-spacing:.05em;margin-top:4px}
+.chip{text-align:left;padding:8px 10px;border-radius:9px;border:1px solid var(--line2);background:#121214;cursor:pointer;font-size:13.5px}
+.chip:hover{border-color:var(--gold)}
+.chip.on{border-color:var(--gold);background:var(--goldbg)}
+.nota{font-size:12.5px;color:var(--mut);font-style:italic;margin-top:8px}
+
+/* prévia estilo Telegram */
+.prev{position:sticky;top:20px}
+.prev .lbl{font-size:12px;color:var(--mut);margin-bottom:8px;display:flex;justify-content:space-between}
+.tg{background:#0e1621;border-radius:14px;padding:14px;border:1px solid #1b2836}
+.bub{background:#182533;border-radius:12px;overflow:hidden;max-width:100%}
+.bub .im{background:#fff;display:grid;place-items:center;max-height:300px;overflow:hidden}
+.bub .im img{max-width:100%;max-height:300px;object-fit:contain}
+.bub .ch{color:#6ab3f3;font-weight:600;font-size:13px;padding:9px 12px 0}
+.bub .tx{padding:6px 12px 10px;font-size:13.5px;line-height:1.42;word-break:break-word;color:#e9eef4}
+.bub .tx s{color:#8fa1b3}
+.bub .tx code{background:#0f1a26;padding:1px 4px;border-radius:4px;font-size:12.5px}
+.bub .hr{color:#6d7f8f;font-size:11px;text-align:right;padding:0 10px 7px}
+
+/* gaveta e janelas */
+.veu{position:fixed;inset:0;background:rgba(0,0,0,.55);backdrop-filter:blur(2px);z-index:40;opacity:0;pointer-events:none;transition:.18s}
+.veu.on{opacity:1;pointer-events:auto}
+.drawer{position:fixed;top:0;right:0;bottom:0;width:min(940px,100%);background:var(--bg);border-left:1px solid var(--line);z-index:41;transform:translateX(100%);transition:transform .22s ease;display:flex;flex-direction:column}
+.drawer.on{transform:none}
+.drawer .hd{display:flex;align-items:center;gap:10px;padding:14px 20px;border-bottom:1px solid var(--line)}
+.drawer .hd h3{margin:0;font-size:15.5px;flex:1}
+.drawer .bd{overflow:auto;padding:20px;flex:1}
+.drawer .ft{display:flex;gap:8px;justify-content:flex-end;padding:12px 20px;border-top:1px solid var(--line);flex-wrap:wrap}
+.drawer .ft .esq{margin-right:auto}
+.modal{position:fixed;left:50%;top:50%;transform:translate(-50%,-48%) scale(.98);opacity:0;pointer-events:none;z-index:42;background:var(--card);border:1px solid var(--line2);border-radius:16px;width:min(420px,calc(100% - 32px));padding:20px;transition:.18s;max-height:calc(100vh - 40px);overflow:auto}
+.modal.on{opacity:1;pointer-events:auto;transform:translate(-50%,-50%)}
+.modal h3{margin:0 0 6px;font-size:16px}.modal p{color:var(--mut);margin:0 0 16px}
+.modal .acts{justify-content:flex-end}
+.storyimg{width:100%;aspect-ratio:9/16;border-radius:12px;background:#0f0f11;display:grid;place-items:center;overflow:hidden;margin-bottom:14px;border:1px solid var(--line)}
+.storyimg img{width:100%;height:100%;object-fit:contain}
+
+.toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%) translateY(20px);opacity:0;z-index:60;background:#1d1d21;border:1px solid var(--line2);padding:11px 16px;border-radius:12px;box-shadow:0 10px 30px rgba(0,0,0,.4);transition:.2s;max-width:calc(100% - 32px);display:flex;gap:9px;align-items:center}
+.toast.on{opacity:1;transform:translateX(-50%)}
+.toast.erro{border-color:rgba(242,85,90,.5)}
+
+/* nova oferta */
+.colar{display:flex;gap:10px;align-items:flex-start}
+.colar textarea{flex:1;min-height:52px}
+.hint{color:var(--mut);font-size:12.5px;margin-top:8px}
+
+/* stories */
+.sgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}
+.sc{background:var(--card);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column}
+.sc .ph{width:100%;height:150px;border-radius:0}
+.sc .c{padding:11px 12px;display:flex;flex-direction:column;gap:6px;flex:1}
+.sc .c .nm{font-weight:600;font-size:13.5px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.sc .btn{margin-top:auto}
+.sc.fixo .ph{background:radial-gradient(circle at 50% 35%,#2a2312,#0b0b0c 70%);color:var(--gold)}
+
+/* histórico */
+.dia{margin-bottom:18px}
+.dia h3{font-size:12.5px;color:var(--mut);text-transform:uppercase;letter-spacing:.06em;margin:0 0 8px;font-weight:600}
+.hl{display:flex;align-items:center;gap:12px;padding:9px 12px;border-bottom:1px solid var(--line)}
+.hl:last-child{border-bottom:0}
+.hl .h{color:var(--mut);font-variant-numeric:tabular-nums;width:44px}
+.hl .n{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.semana{display:flex;align-items:flex-end;gap:8px;height:110px;margin-top:6px}
+.semana div{flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;height:100%;justify-content:flex-end}
+.semana i{display:block;width:100%;max-width:38px;background:var(--gold);border-radius:6px 6px 3px 3px;min-height:3px;opacity:.85}
+.semana span{font-size:11px;color:var(--mut)}
+.semana b{font-size:12px}
+
+.tabbar{display:none}
+.mob-top{display:none}
+
+@media (max-width:980px){
+  .grid4{grid-template-columns:repeat(2,1fr)}
+  .cols{grid-template-columns:1fr}
+  .ed{grid-template-columns:1fr}
+  .prev{position:static}
+}
+@media (max-width:820px){
+  .app{grid-template-columns:1fr}
+  .side{display:none}
+  main{padding:16px 16px 96px}
+  .mob-top{display:flex;align-items:center;gap:10px;padding:12px 16px;border-bottom:1px solid var(--line);position:sticky;top:0;background:rgba(11,11,12,.92);backdrop-filter:blur(8px);z-index:20}
+  .mob-top .logo{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,var(--gold2),#a8842a);display:grid;place-items:center;color:#0b0b0c;font-weight:700}
+  .mob-top b{flex:1}
+  .tabbar{display:grid;grid-template-columns:repeat(5,1fr);position:fixed;left:0;right:0;bottom:0;z-index:30;background:rgba(15,15,17,.96);backdrop-filter:blur(10px);border-top:1px solid var(--line);padding:6px 4px calc(6px + env(safe-area-inset-bottom))}
+  .tabbar a{display:flex;flex-direction:column;align-items:center;gap:3px;font-size:10.5px;color:var(--mut);text-decoration:none;padding:4px 0;position:relative}
+  .tabbar a.on{color:var(--gold2)}
+  .tabbar .badge{position:absolute;top:-2px;left:calc(50% + 6px);min-width:17px;height:17px;font-size:10px;padding:0 4px}
+  .top h1{font-size:19px}
+  .of{grid-template-columns:72px 1fr;gap:12px}
+  .ph{width:72px;height:72px}
+  .of .side-acts{grid-column:1/-1;min-width:0}
+  .of .row{justify-content:stretch}.of .row .btn{flex:1}
+  .drawer .bd{padding:16px}
+  .drawer .ft{padding:10px 16px calc(10px + env(safe-area-inset-bottom))}
+  .drawer .ft .btn{flex:1}
+  .drawer .ft .esq{flex:0 0 auto}
+  .colar{flex-direction:column}.colar .btn{width:100%}
+}
+</style>
+</head>
+<body>
+<div class="mob-top"><div class="logo">A</div><b>Alpha Promo</b><button class="btn sm ghost" onclick="carregar(true)" aria-label="Atualizar"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-3-6.7L21 8"/><path d="M21 3v5h-5"/></svg></button></div>
+<div class="app">
+  <aside class="side">
+    <div class="brand"><div class="logo">A</div><div><b>Alpha Promo</b><small>Painel do grupo de achados</small></div></div>
+    <nav class="nav" id="nav"></nav>
+    <div class="fim">
+      <div class="radarbox" id="radarbox"></div>
+      <a class="sair" href="/painel/sair"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><path d="m16 17 5-5-5-5"/><path d="M21 12H9"/></svg>Sair</a>
+    </div>
+  </aside>
+  <main id="main"><div class="vazio-box"><b>Carregando…</b></div></main>
+</div>
+<nav class="tabbar" id="tabbar"></nav>
+
+<div class="veu" id="veu" onclick="fecharTudo()"></div>
+<aside class="drawer" id="drawer"><div class="hd"><h3 id="dr-t"></h3><button class="btn icon sm ghost" onclick="fecharTudo()" aria-label="Fechar">✕</button></div><div class="bd" id="dr-b"></div><div class="ft" id="dr-f"></div></aside>
+<div class="modal" id="modal"></div>
+<div class="toast" id="toast"></div>
+<input type="file" id="arquivo" accept="image/*" hidden>
+
+<script>
+const I = {
+  inicio:'<path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V21h14V9.5"/>',
+  revisar:'<path d="M22 12h-6l-2 3h-4l-2-3H2"/><path d="M5.5 5.1 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.5-6.9A2 2 0 0 0 16.7 4H7.3a2 2 0 0 0-1.8 1.1z"/>',
+  fila:'<path d="M8 6h13M8 12h13M8 18h13"/><circle cx="3.5" cy="6" r="1"/><circle cx="3.5" cy="12" r="1"/><circle cx="3.5" cy="18" r="1"/>',
+  nova:'<path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.7 1.7"/><path d="M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.7-1.7"/>',
+  stories:'<rect x="5" y="2" width="14" height="20" rx="3"/><path d="M9 8h6M9 12h6M9 16h3"/>',
+  historico:'<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',
+  ia:'<path d="M12 3l1.9 4.6L18.5 9.5 13.9 11.4 12 16l-1.9-4.6L5.5 9.5l4.6-1.9z"/><path d="M19 15l.8 2 2 .8-2 .8-.8 2-.8-2-2-.8 2-.8z"/>',
+  radar:'<path d="M19.1 4.9A10 10 0 1 1 4.9 19.1"/><path d="M16.2 7.8a6 6 0 1 1-8.4 8.4"/><circle cx="12" cy="12" r="2"/><path d="M12 12 19 5"/>',
+  link:'<path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>',
+  foto:'<rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.1-3.1a2 2 0 0 0-2.8 0L6 21"/>',
+};
+const ic = (n, s=17) => `<svg width="${s}" height="${s}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">${I[n]}</svg>`;
+const PAGINAS = [
+  ['inicio','Início'],['revisar','Revisar'],['fila','Fila'],['nova','Nova oferta'],['stories','Stories'],['historico','Histórico']
+];
+const LOJAS = {amazon:'Amazon', mercadolivre:'Mercado Livre', shopee:'Shopee'};
+let E = null, pagina = 'inicio', nova = {texto:'', res:null, item:null};
+
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const reais = v => 'R$ ' + Number(v).toLocaleString('pt-BR', {minimumFractionDigits:2, maximumFractionDigits:2});
+const num = v => v ? Number(v).toFixed(2).replace('.', ',') : '';
+function preco(t){
+  if (t === null || t === undefined || t === '') return null;
+  if (typeof t === 'number') return t || null;
+  const m = String(t).match(/\d[\d.,]*/); if (!m) return null;
+  let s = m[0].replace(/[.,]$/, '');
+  if (s.includes(',')) s = s.replace(/\./g,'').replace(',', '.');
+  else if ((s.match(/\./g)||[]).length > 1 || /^\d{1,3}\.\d{3}$/.test(s)) s = s.replace(/\./g,'');
+  const n = parseFloat(s); return isNaN(n) || !n ? null : n;
+}
+const offDe = x => (x.de && x.por && x.de > x.por) ? Math.round((1 - x.por/x.de)*100) : 0;
+const loja = l => `<span class="loja ${esc(l||'outra')}"><i></i>${esc(LOJAS[l] || 'Outra loja')}</span>`;
+const foto = (x, pos) => x.foto
+  ? `<div class="ph">${pos ? `<span class="pos">${pos}</span>` : ''}<img src="${esc(x.foto)}" loading="lazy" alt="" onerror="this.parentNode.classList.add('none');this.remove()"></div>`
+  : `<div class="ph none">${pos ? `<span class="pos">${pos}</span>` : ''}${ic('foto',22)}</div>`;
+function precoHTML(x){
+  if (!x.por) return '<span class="tag bad">sem preço</span>';
+  const o = offDe(x);
+  return `<div class="price">${o ? `<s>${reais(x.de)}</s>` : ''}<b>${reais(x.por)}</b>${o ? `<span class="off">-${o}%</span>` : ''}${x.prime ? '<span class="tag">Prime</span>' : ''}${x.cupom ? `<span class="tag">cupom ${esc(x.cupom)}</span>` : ''}</div>`;
+}
+function horasDesde(iso){ if (!iso) return 0; return (new Date(E.agora) - new Date(iso)) / 36e5; }
+function quando(iso){
+  const h = horasDesde(iso);
+  if (h < 1) return 'agora há pouco';
+  if (h < 24) return `há ${Math.floor(h)}h`;
+  return `há ${Math.floor(h/24)} dia(s)`;
+}
+
+/* -------- montagem do post (igual ao bot) -------- */
+function montarPost(x){
+  const b = [`🔥 <b>${esc(x.nome || 'Nome do produto')}</b>`];
+  const p = [];
+  const o = offDe(x);
+  if (x.por && o) p.push(`De <s>${reais(x.de)}</s> por <b>${reais(x.por)}</b> (${o}% off)`);
+  else if (x.por) p.push(`Por <b>${reais(x.por)}</b>`);
+  if (x.prime) p.push(`👑 Preço exclusivo para membros Prime${x.sem_prime ? ` (sem Prime: ${reais(x.sem_prime)})` : ''}`);
+  if (p.length) b.push(p.join('<br>'));
+  if (x.cupom) b.push(`🎟️ Cupom: <code>${esc(x.cupom)}</code>`);
+  else if (x.cupom_loja) b.push(`🎟️ ${esc(x.cupom_loja)}`);
+  if (x.frase) b.push(`✅ ${esc(x.frase)}`);
+  b.push(`🛒 ${esc(x.link || '')}` + (LOJAS[x.loja] ? `  (${LOJAS[x.loja]})` : ''));
+  return b.join('<br><br>');
+}
+
+/* -------- servidor -------- */
+async function api(acao, id, dados){
+  const r = await fetch('/painel/api/acao', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({acao, id, dados})});
+  if (r.status === 401) { location.reload(); return {}; }
+  return r.json();
+}
+async function carregar(forcar){
+  try {
+    const r = await fetch('/painel/api/estado', {cache:'no-store'});
+    if (r.status === 401) { location.reload(); return; }
+    E = await r.json();
+  } catch(e) { if (forcar) toast('Sem conexão com o servidor.', true); return; }
+  desenhar();
+  if (forcar) toast('Atualizado.');
+}
+async function fazer(btn, acao, id, dados, depois){
+  const antes = btn ? btn.innerHTML : '';
+  if (btn) { btn.disabled = true; btn.innerHTML = '<span class="spin"></span>'; }
+  let r = {};
+  try { r = await api(acao, id, dados); } catch(e) { r = {erro:'Sem conexão com o servidor.'}; }
+  if (btn) { btn.disabled = false; btn.innerHTML = antes; }
+  if (r.erro) toast(r.erro, true); else if (r.ok) toast(r.ok);
+  if (!r.erro && depois) depois(r);
+  if (!r.erro && acao !== 'ia' && acao !== 'ler_link' && acao !== 'foto') await carregar();
+  return r;
+}
+
+/* -------- navegação -------- */
+function ir(p){ location.hash = p; }
+window.addEventListener('hashchange', () => { pagina = (location.hash.slice(1) || 'inicio'); fecharTudo(); desenhar(); window.scrollTo(0,0); });
+function desenharNav(){
+  const conta = {revisar: E.revisar.length, fila: E.fila.length};
+  document.getElementById('nav').innerHTML = PAGINAS.map(([k,t]) =>
+    `<a class="${pagina===k?'on':''}" onclick="ir('${k}')">${ic(k)}${t}${conta[k] ? `<span class="badge ${k==='fila'?'mute':''}">${conta[k]}</span>` : ''}</a>`).join('');
+  document.getElementById('tabbar').innerHTML = PAGINAS.filter(p => p[0] !== 'historico').map(([k,t]) =>
+    `<a class="${pagina===k?'on':''}" onclick="ir('${k}')">${ic(k,20)}${t.replace(' oferta','')}${k==='revisar' && conta[k] ? `<span class="badge">${conta[k]}</span>` : ''}</a>`).join('');
+  const r = E.radar;
+  document.getElementById('radarbox').innerHTML = `<div class="t"><span class="dot ${r.pausado?'off':''}"></span>Radar ${r.pausado?'pausado':'ligado'}</div>
+    <p>${r.canais} canais · ${r.hoje}/${r.max_dia} hoje${r.pausa_de!=null ? ` · pausa ${r.pausa_de}h–${r.pausa_ate}h` : ''}</p>
+    <button class="btn sm" style="width:100%" onclick="fazer(this,'radar')">${ic('radar',15)}Rodar agora</button>`;
+}
+function desenhar(){
+  if (!E) return;
+  desenharNav();
+  const m = document.getElementById('main');
+  if (pagina === 'nova' && m.dataset.p === 'nova' && document.getElementById('nova-ed')) return; // não apaga o que você está montando
+  m.dataset.p = pagina;
+  m.innerHTML = ({inicio, revisar, fila, nova: novaPag, stories, historico}[pagina] || inicio)();
+  if (pagina === 'nova') ligarNova();
+}
+const topo = (t, s, acts='') => `<div class="top"><div><h1>${t}</h1>${s ? `<p>${s}</p>` : ''}</div><div class="acts">${acts}</div></div>`;
+
+/* -------- início -------- */
+function inicio(){
+  const hora = E.hora;
+  const ola = hora >= 5 && hora < 12 ? 'Bom dia' : hora >= 12 && hora < 18 ? 'Boa tarde' : 'Boa noite';
+  const hoje = E.agora.slice(0,10);
+  const postHoje = E.postados.filter(p => p.data.slice(0,10) === hoje);
+  const vencidas = E.fila.filter(x => horasDesde(x.aprovado_em) >= E.validade_horas);
+  const proxHoras = E.horarios.filter(h => h >= hora && !E.usados_hoje.includes(h)).length;
+  const slots = E.horarios.map(h => {
+    const feito = E.usados_hoje.includes(h);
+    const p = postHoje.find(p => +p.data.slice(11,13) === h);
+    let cls = '', sub = '';
+    if (feito) { cls = 'feito'; sub = 'postado'; }
+    else if (h === hora) { cls = 'agora'; sub = E.fila.length ? 'agora' : 'fila vazia'; }
+    else if (h < hora) { cls = 'vazio'; sub = 'sem post'; }
+    else { sub = E.fila.length > (E.horarios.filter(x => x >= hora && x < h && !E.usados_hoje.includes(x)).length) ? 'previsto' : 'livre'; }
+    return `<div class="slot ${cls}" title="${esc(p ? p.nome : '')}"><b>${h}h</b><span>${sub}</span></div>`;
+  }).join('');
+  return topo(`${ola}`, `Resumo do Alpha Promo agora, ${new Date(E.agora).toLocaleDateString('pt-BR',{weekday:'long', day:'numeric', month:'long'})}.`,
+      `<button class="btn" onclick="carregar(true)">Atualizar</button><button class="btn gold" onclick="ir('nova')">${ic('nova',15)}Nova oferta</button>`)
+    + (E.revisar.length ? `<div class="callout"><span class="badge">${E.revisar.length}</span><p><b>${E.revisar.length} oferta(s) esperando você.</b> O radar e os seus links caem aqui antes de ir para a fila.</p><button class="btn gold sm" onclick="ir('revisar')">Revisar</button></div>` : '')
+    + (vencidas.length ? `<div class="callout warn"><span>⏰</span><p><b>${vencidas.length} na fila há mais de ${E.validade_horas}h.</b> Vale conferir se o preço ainda está de pé.</p><button class="btn sm" onclick="ir('fila')">Ver fila</button></div>` : '')
+    + `<div class="grid4">
+      <div class="stat click" onclick="ir('fila')"><div class="k">${ic('fila',15)}Na fila</div><div class="v">${E.fila.length}</div><div class="s">${E.fila.length ? `próxima sai ${esc(E.fila[0].previsao)}` : 'fila vazia'}</div></div>
+      <div class="stat click" onclick="ir('revisar')"><div class="k">${ic('revisar',15)}Para revisar</div><div class="v">${E.revisar.length}</div><div class="s">${E.revisar.filter(x=>!x.falta.length).length} prontas para aprovar</div></div>
+      <div class="stat click" onclick="ir('historico')"><div class="k">${ic('historico',15)}Postadas hoje</div><div class="v">${postHoje.length}</div><div class="s">${proxHoras} horário(s) ainda hoje</div></div>
+      <div class="stat"><div class="k">${ic('radar',15)}Radar hoje</div><div class="v">${E.radar.hoje}<span style="font-size:15px;color:var(--mut);font-weight:500"> / ${E.radar.max_dia}</span></div><div class="bar"><i style="width:${Math.min(100, E.radar.hoje/E.radar.max_dia*100)}%"></i></div></div>
+    </div>
+    <div class="box"><h2>Horários de hoje<span class="r tag">um post por horário, se tiver fila</span></h2><div class="slots">${slots}</div></div>
+    <div class="cols">
+      <div class="box"><h2>Próximas a sair<a class="r btn sm ghost" onclick="ir('fila')">Ver fila toda</a></h2>
+        ${E.fila.length ? `<div class="list">${E.fila.slice(0,3).map((x,i) => `<div class="hl" style="padding:8px 0">${foto(x)}<div style="min-width:0;flex:1"><div class="nm" style="font-weight:600">${esc(x.nome)}</div><div class="meta">${loja(x.loja)}<span>${esc(x.previsao)}</span>${x.por?`<span>${reais(x.por)}</span>`:''}</div></div></div>`).join('').replaceAll('class="ph', 'style="width:52px;height:52px" class="ph')}</div>` : `<div class="vazio-box" style="padding:26px"><b>Fila vazia</b>Aprove ofertas em Revisar ou cole um link em Nova oferta.</div>`}
+      </div>
+      <div class="box"><h2>Últimas postadas<a class="r btn sm ghost" onclick="ir('stories')">Gerar story</a></h2>
+        ${E.postados.slice(0,5).map(p => `<div class="hl" style="padding:8px 0"><span class="h" style="width:auto;min-width:44px">${p.data.slice(0,10) === hoje ? '' : p.data.slice(8,10) + '/' + p.data.slice(5,7) + ' '}${p.data.slice(11,16)}</span><span class="n">${esc(p.nome)}</span>${loja(p.loja)}</div>`).join('') || '<p style="color:var(--mut);margin:0">Nada postado ainda.</p>'}
+      </div>
+    </div>`;
+}
+
+/* -------- revisar -------- */
+function revisar(){
+  const prontas = E.revisar.filter(x => !x.falta.length).length;
+  return topo('Revisar', 'Ofertas do radar e links que você mandou. Só vai para a fila o que você aprovar.',
+      prontas > 1 ? `<button class="btn gold" onclick="fazer(this,'rev_aprovar_tudo')">Aprovar as ${prontas} completas</button>` : '')
+    + (E.revisar.length ? `<div class="list">${E.revisar.map(cardRevisao).join('')}</div>`
+      : `<div class="vazio-box"><b>Nada para revisar</b>Quando o radar achar algo do nicho, aparece aqui (e no seu Telegram).</div>`);
+}
+function cardRevisao(x){
+  const tags = [];
+  if (x.origem) tags.push(`<span>do @${esc(x.origem)}</span>`);
+  if (x.ler_depois) tags.push('<span class="tag warn">a loja bloqueou, o GitHub vai tentar ler</span>');
+  else if (x.falta.length) tags.push(`<span class="tag bad">falta ${esc(x.falta.join(', '))}</span>`);
+  if (x.foto_origem === 'canal') tags.push('<span class="tag warn">foto do canal</span>');
+  const conferir = x.link_produto || x.link;
+  return `<div class="of">${foto(x)}
+    <div style="min-width:0"><div class="meta">${loja(x.loja)}${tags.join('')}</div>
+      <div class="nm">${esc(x.nome || x.link)}</div>${precoHTML(x)}
+      ${x.frase ? `<div class="meta" style="margin-top:4px">“${esc(x.frase)}”</div>` : ''}</div>
+    <div class="side-acts">
+      <button class="btn gold sm" ${x.falta.length ? 'disabled title="Complete pelo Editar"' : ''} onclick="fazer(this,'rev_aprovar','${x.id}')">Aprovar</button>
+      <div class="row"><button class="btn sm" onclick="editar('revisar','${x.id}')">Editar</button>
+      <a class="btn sm icon" href="${esc(conferir)}" target="_blank" rel="noopener" title="Conferir na loja">${ic('link',15)}</a>
+      <button class="btn sm bad" onclick="fazer(this,'rev_descartar','${x.id}')">Descartar</button></div>
+    </div></div>`;
+}
+
+/* -------- fila -------- */
+function fila(){
+  return topo('Fila', 'Sai uma por horário, nesta ordem. Use as setas para mudar a ordem.')
+    + (E.fila.length ? `<div class="list">${E.fila.map(cardFila).join('')}</div>`
+      : `<div class="vazio-box"><b>Fila vazia</b>Aprove ofertas em Revisar ou cole um link em Nova oferta.</div>`);
+}
+function cardFila(x, i){
+  const velha = horasDesde(x.aprovado_em) >= E.validade_horas;
+  return `<div class="of">${foto(x, i+1)}
+    <div style="min-width:0"><div class="meta">${loja(x.loja)}<span>sai ${esc(x.previsao || 'depois')}</span>${x.aprovado_em ? `<span>aprovada ${quando(x.aprovado_em)}</span>` : ''}${velha ? '<span class="tag warn">confira o preço</span>' : ''}</div>
+      <div class="nm">${esc(x.nome)}</div>${precoHTML(x)}</div>
+    <div class="side-acts">
+      <div class="row">
+        <button class="btn sm icon" title="Subir" ${i===0?'disabled':''} onclick="fazer(this,'fila_mover','${x.id}',{para:${i-1}})">↑</button>
+        <button class="btn sm icon" title="Descer" ${i===E.fila.length-1?'disabled':''} onclick="fazer(this,'fila_mover','${x.id}',{para:${i+1}})">↓</button>
+        <button class="btn sm" ${i===0?'disabled':''} onclick="fazer(this,'fila_mover','${x.id}',{para:0})">Topo</button>
+      </div>
+      <div class="row"><button class="btn sm" onclick="editar('fila','${x.id}')">Editar</button>
+        <button class="btn sm gold" onclick="confirmar('Postar agora no canal?', '${esc(x.nome).replace(/'/g,'')}', 'Postar agora', b => fazer(b,'fila_postar','${x.id}'))">Postar</button></div>
+      <div class="row">${velha ? `<button class="btn sm" onclick="fazer(this,'fila_manter','${x.id}')">Manter</button>` : ''}
+        <button class="btn sm bad" onclick="confirmar('Tirar da fila?', '', 'Remover', b => fazer(b,'fila_remover','${x.id}'))">Remover</button></div>
+    </div></div>`;
+}
+
+/* -------- editor (gaveta) -------- */
+let ED = null; // {ctx, id, x}
+function editar(ctx, id){
+  const x = (ctx === 'fila' ? E.fila : E.revisar).find(y => y.id === id);
+  if (!x) return toast('Essa oferta já saiu daqui.', true);
+  ED = {ctx, id, x: {...x}};
+  document.getElementById('dr-t').textContent = ctx === 'fila' ? 'Editar oferta da fila' : 'Revisar oferta';
+  document.getElementById('dr-b').innerHTML = editorHTML(ED.x, 'dr');
+  const f = document.getElementById('dr-f');
+  if (ctx === 'fila') f.innerHTML = `<button class="btn bad esq" onclick="acaoEditor(this,'fila_remover')">Remover</button>
+      <button class="btn" onclick="acaoEditor(this,'fila_salvar')">Salvar</button>
+      <button class="btn gold" onclick="acaoEditor(this,'fila_postar')">Salvar e postar agora</button>`;
+  else f.innerHTML = `<button class="btn bad esq" onclick="acaoEditor(this,'rev_descartar')">Descartar</button>
+      <button class="btn" onclick="acaoEditor(this,'rev_salvar')">Salvar</button>
+      <button class="btn gold" onclick="acaoEditor(this,'rev_aprovar')">Salvar e aprovar</button>`;
+  ligarEditor('dr', ED.x);
+  document.getElementById('veu').classList.add('on');
+  document.getElementById('drawer').classList.add('on');
+}
+async function acaoEditor(btn, acao){
+  if (acao === 'fila_postar' && !await confirmarP('Postar agora no canal?', 'Salva as mudanças e posta já.', 'Postar agora')) return;
+  const r = await fazer(btn, acao, ED.id, dadosForm('dr', ED.x));
+  if (!r.erro) fecharTudo();
+}
+function fecharTudo(){
+  ['veu','drawer','modal'].forEach(i => document.getElementById(i).classList.remove('on'));
+  ED = null;
+}
+
+function editorHTML(x, p){
+  return `<div class="ed"><div class="f">
+    <div id="${p}-alerta"></div>
+    <div class="fl"><label>Nome do produto <span id="${p}-cnt"></span></label><input class="in" id="${p}-nome" value="${esc(x.nome)}" placeholder="Ex.: Creatina Growth 250g"></div>
+    <div class="two">
+      <div class="fl"><label>Preço antes (De)</label><input class="in" id="${p}-de" inputmode="decimal" value="${num(x.de)}" placeholder="opcional"></div>
+      <div class="fl"><label>Preço agora (Por)</label><input class="in" id="${p}-por" inputmode="decimal" value="${num(x.por)}" placeholder="69,90"></div>
+    </div>
+    <div class="two" style="align-items:end">
+      <label class="chk"><input type="checkbox" id="${p}-prime" ${x.prime?'checked':''}>Preço exclusivo Prime</label>
+      <div class="fl" id="${p}-semprime-w" style="${x.prime?'':'display:none'}"><label>Preço sem Prime</label><input class="in" id="${p}-sem_prime" inputmode="decimal" value="${num(x.sem_prime)}" placeholder="opcional"></div>
+    </div>
+    <div class="fl"><label>Cupom ${x.cupom_loja && !x.cupom ? `<span>${esc(x.cupom_loja)}</span>` : ''}</label><input class="in" id="${p}-cupom" value="${esc(x.cupom)}" placeholder="opcional"></div>
+    <div class="fl"><label>Frase</label><textarea class="in" id="${p}-frase" rows="2" placeholder="A frase que vai com o ✅">${esc(x.frase)}</textarea></div>
+    <div class="fl"><label>Seu link de afiliado ${x.link_produto ? `<a href="${esc(x.link_produto)}" target="_blank" rel="noopener" style="color:var(--gold2)">abrir produto</a>` : ''}</label><input class="in" id="${p}-link" value="${esc(x.link)}" placeholder="https://..."></div>
+    <div class="fl"><label>Foto</label><div class="fotoed"><span id="${p}-fotoph">${foto(x)}</span>
+      <div style="display:flex;gap:6px;flex-wrap:wrap"><button class="btn sm" onclick="escolherFoto('${p}')">${ic('foto',15)}Enviar foto</button>
+      <button class="btn sm ghost" onclick="colarFotoURL('${p}')">Usar endereço de imagem</button></div></div>
+      ${x.foto_origem === 'canal' ? '<div class="hint">Essa é a foto do canal de origem. Colar o seu link meli.la no campo de link costuma trocar pela foto oficial.</div>' : ''}</div>
+    <div class="iabox"><div class="h"><b>${ic('ia',16)}Sugestões da IA</b><button class="btn sm" onclick="pedirIA(this,'${p}')">Sugerir título e frase</button></div>
+      <div id="${p}-ia"><div class="hint" style="margin-top:6px">${E.ia ? 'A IA olha a foto, o nome e o preço e sugere 3 títulos e 3 frases. Toque numa sugestão para usar.' : 'IA desligada: sem a chave GEMINI_API_KEY no Render, as sugestões vêm do banco de frases do bot.'}</div></div></div>
+  </div>
+  <div class="prev"><div class="lbl"><span>Como fica no canal</span><span>prévia</span></div><div class="tg"><div class="bub" id="${p}-bub"></div></div></div></div>`;
+}
+const FORM = ['nome','de','por','sem_prime','cupom','frase','link'];
+function dadosForm(p, x){
+  const g = k => document.getElementById(`${p}-${k}`).value.trim();
+  const d = {}; FORM.forEach(k => d[k] = g(k));
+  d.prime = document.getElementById(`${p}-prime`).checked;
+  if (x._foto_nova) d.foto = x._foto_nova;
+  return d;
+}
+function ligarEditor(p, x){
+  const atual = () => {
+    const d = dadosForm(p, x);
+    const y = {...x, ...d, de: preco(d.de), por: preco(d.por), sem_prime: preco(d.sem_prime)};
+    if (!d.cupom) y.cupom = '';
+    document.getElementById(`${p}-bub`).innerHTML = (y.foto ? `<div class="im"><img src="${esc(y.foto)}" alt="" onerror="this.parentNode.remove()"></div>` : '')
+      + `<div class="ch">Alpha Promo</div><div class="tx">${montarPost(y)}</div><div class="hr">${String(new Date().getHours()).padStart(2,'0')}:00</div>`;
+    const n = d.nome.length; const c = document.getElementById(`${p}-cnt`);
+    c.textContent = `${n}/70`; c.style.color = n > 70 ? 'var(--warn)' : '';
+    const falta = []; if (!d.nome) falta.push('nome'); if (!preco(d.por)) falta.push('preço');
+    if (x.precisa_link && (!d.link || d.link === x.link)) falta.push('seu link de afiliado');
+    const al = document.getElementById(`${p}-alerta`);
+    if (x.bloqueado && falta.length) al.innerHTML = `<div class="alert bad"><b>A loja bloqueou a leitura aqui no servidor.</b> Preencha ${esc(falta.join(' e '))} à mão, ou use “Mandar pro Telegram” para o GitHub tentar ler (1 a 2 minutos).</div>`;
+    else if (falta.length) al.innerHTML = `<div class="alert warn">Não consegui ler: <b>${esc(falta.join(', '))}</b>. Preencha abaixo.</div>`;
+    else if (x.precisa_link) al.innerHTML = '';
+    else al.innerHTML = p === 'nv' ? '<div class="alert ok">Tudo certo. Confira a prévia e escolha o que fazer.</div>' : '';
+    if (x.precisa_link && falta.includes('seu link de afiliado')) al.innerHTML += '<div class="alert warn" style="margin-top:8px">Esse produto veio de outro canal. Gere o <b>seu</b> link no painel de afiliado e cole no campo de link.</div>';
+    if (p === 'nv') { const ok = !falta.length; document.querySelectorAll('.nv-pronto').forEach(b => b.disabled = !ok); }
+  };
+  [...FORM, 'prime'].forEach(k => document.getElementById(`${p}-${k}`).addEventListener('input', atual));
+  document.getElementById(`${p}-prime`).addEventListener('change', e => { document.getElementById(`${p}-semprime-w`).style.display = e.target.checked ? '' : 'none'; atual(); });
+  x._atual = atual;
+  atual();
+}
+function escolherFoto(p){
+  const inp = document.getElementById('arquivo');
+  inp.value = '';
+  inp.onchange = async () => {
+    const f = inp.files[0]; if (!f) return;
+    toast('Enviando foto…');
+    const url = await reduzir(f);
+    const r = await api('foto', '', {imagem: url});
+    if (r.erro) return toast(r.erro, true);
+    trocarFoto(p, r.foto, r.foto_raw);
+    toast('Foto trocada. Salve para valer.');
+  };
+  inp.click();
+}
+function reduzir(f){
+  return new Promise(res => {
+    const img = new Image();
+    img.onload = () => {
+      const k = Math.min(1, 1600 / Math.max(img.width, img.height));
+      const c = document.createElement('canvas'); c.width = img.width*k; c.height = img.height*k;
+      const g = c.getContext('2d'); g.fillStyle = '#fff'; g.fillRect(0,0,c.width,c.height); g.drawImage(img,0,0,c.width,c.height);
+      res(c.toDataURL('image/jpeg', .9));
+    };
+    img.src = URL.createObjectURL(f);
+  });
+}
+function colarFotoURL(p){
+  const u = prompt('Cole o endereço da imagem (https://...)');
+  if (u && /^https?:\/\//.test(u.trim())) trocarFoto(p, u.trim(), u.trim());
+}
+function trocarFoto(p, url, raw){
+  const x = p === 'dr' ? ED.x : nova.item;
+  x.foto = url; x.foto_raw = raw; x._foto_nova = raw; x.foto_origem = '';
+  document.getElementById(`${p}-fotoph`).innerHTML = foto(x);
+  x._atual && x._atual();
+}
+async function pedirIA(btn, p){
+  const x = p === 'dr' ? ED.x : nova.item;
+  const d = {...dadosForm(p, x), loja: x.loja, foto_raw: x.foto_raw};
+  const r = await fazer(btn, 'ia', '', d);
+  if (r.erro) return;
+  const alvo = document.getElementById(`${p}-ia`);
+  const lista = (t, campo, arr) => arr.length ? `<small>${t}</small>` + arr.map(s => `<button class="chip" data-c="${campo}">${esc(s)}</button>`).join('') : '';
+  alvo.innerHTML = `<div class="sug">${lista('Títulos', 'nome', r.titulos || [])}${lista('Frases', 'frase', r.frases || [])}</div>`
+    + (r.nota ? `<div class="nota">💡 ${esc(r.nota)}</div>` : '')
+    + (r.sem_chave ? '<div class="hint">Essas vieram do banco de frases. Com a chave da Gemini no Render, a IA olha a foto e escreve sugestões novas.</div>' : '');
+  alvo.querySelectorAll('.chip').forEach(c => c.onclick = () => {
+    const campo = document.getElementById(`${p}-${c.dataset.c}`);
+    campo.value = c.textContent; campo.dispatchEvent(new Event('input'));
+    alvo.querySelectorAll(`.chip[data-c="${c.dataset.c}"]`).forEach(o => o.classList.remove('on')); c.classList.add('on');
+  });
+}
+
+/* -------- nova oferta -------- */
+function novaPag(){
+  return topo('Nova oferta', 'Cole o seu link de afiliado. Eu abro a página e trago nome, preço e foto.')
+    + `<div class="box"><div class="colar"><textarea class="in" id="nv-texto" rows="2" placeholder="https://amzn.to/...   (se quiser, nas linhas de baixo: nome, preço “De 199 por 129”, frase)">${esc(nova.texto)}</textarea>
+      <button class="btn gold" id="nv-buscar" style="height:52px;min-width:130px">Buscar oferta</button></div>
+      <div class="hint">Amazon, Mercado Livre ou Shopee. Se a loja bloquear a leitura, eu aviso e você completa à mão.</div></div>
+    <div id="nova-ed">${nova.item ? novaEditor() : ''}</div>`;
+}
+function novaEditor(){
+  return `<div class="box">${nova.aviso ? `<div class="alert warn" style="margin-bottom:12px">${esc(nova.aviso)}</div>` : ''}${editorHTML(nova.item, 'nv')}
+    <div class="acts" style="justify-content:flex-end;margin-top:16px;border-top:1px solid var(--line);padding-top:14px">
+      <button class="btn ghost" onclick="limparNova()">Limpar</button>
+      <button class="btn" onclick="enviarNova(this,'telegram')" title="Vai para a revisão no Telegram e aparece em Revisar">Mandar pro Telegram revisar</button>
+      <button class="btn nv-pronto" onclick="enviarNova(this,'fila')">Colocar na fila</button>
+      <button class="btn gold nv-pronto" onclick="enviarNova(this,'postar')">Postar agora</button>
+    </div></div>`;
+}
+function ligarNova(){
+  const t = document.getElementById('nv-texto');
+  t.addEventListener('input', () => nova.texto = t.value);
+  t.addEventListener('paste', () => setTimeout(() => { if (/^https?:\/\/\S+$/.test(t.value.trim())) buscarNova(); }, 50));
+  document.getElementById('nv-buscar').onclick = buscarNova;
+  if (nova.item) ligarEditor('nv', nova.item);
+}
+async function buscarNova(){
+  const b = document.getElementById('nv-buscar');
+  if (!nova.texto.trim()) return toast('Cole um link primeiro.', true);
+  const r = await fazer(b, 'ler_link', '', {texto: nova.texto});
+  if (r.erro) return;
+  nova.item = r.item; nova.aviso = r.aviso;
+  document.getElementById('nova-ed').innerHTML = novaEditor();
+  ligarEditor('nv', nova.item);
+}
+function limparNova(){ nova = {texto:'', item:null}; const m = document.getElementById('main'); m.dataset.p = ''; desenhar(); }
+async function enviarNova(btn, destino){
+  if (destino === 'postar' && !await confirmarP('Postar agora no canal?', 'A oferta sai no canal na hora, sem passar pela fila.', 'Postar agora')) return;
+  const x = nova.item;
+  const d = {...dadosForm('nv', x), destino, chave: x.chave, link_produto: x.link_produto, cupom_loja: x.cupom_loja, foto_raw: x.foto_raw, bloqueado: x.bloqueado};
+  if (d.foto) { d.foto_raw = d.foto; delete d.foto; }
+  const r = await fazer(btn, 'nova', '', d);
+  if (!r.erro) { nova = {texto:'', item:null}; document.getElementById('main').dataset.p = ''; desenhar(); }
+}
+
+/* -------- stories -------- */
+function stories(){
+  const cards = E.ultimos.map(x => `<div class="sc">${foto(x)}<div class="c">${loja(x.loja)}<div class="nm">${esc(x.nome)}</div>${precoHTML(x)}
+      <button class="btn sm gold" onclick="abrirStory('ultimo','${x.id}')">Gerar story</button></div></div>`).join('');
+  return topo('Stories', 'Story de “prova” das ofertas que já saíram, no padrão preto e dourado. A frase de baixo muda a cada vez.')
+    + `<div class="sgrid"><div class="sc fixo"><div class="ph">${ic('stories',40)}</div><div class="c"><span class="tag">divulgação</span><div class="nm">Story fixo do canal</div><div class="meta">Para chamar gente para o Alpha Promo.</div>
+      <button class="btn sm gold" onclick="abrirStory('fixo','')">Gerar story</button></div></div>${cards}</div>`
+    + (E.ultimos.length ? '' : '<div class="hint" style="margin-top:12px">As ofertas aparecem aqui depois que saem no canal.</div>');
+}
+let storyURL = null;
+async function abrirStory(tipo, id){
+  const m = document.getElementById('modal');
+  m.innerHTML = `<h3>Story</h3><div class="storyimg" id="st-img"><span class="spin" style="width:26px;height:26px;border:3px solid var(--gold);border-right-color:transparent;border-radius:50%;animation:g .7s linear infinite"></span></div>
+    <div class="acts"><button class="btn ghost" onclick="fecharTudo()">Fechar</button><button class="btn" onclick="abrirStory('${tipo}','${id}')">Outra frase</button>
+    <button class="btn" id="st-tg" onclick="fazer(this,'story_telegram','',{tipo:'${tipo}',id:'${id}'})">Mandar no Telegram</button>
+    <a class="btn gold" id="st-dl" download="story_alpha_promo.png">Baixar</a></div>`;
+  document.getElementById('veu').classList.add('on'); m.classList.add('on');
+  try {
+    const r = await fetch(`/painel/story?tipo=${tipo}&id=${encodeURIComponent(id)}&t=${Date.now()}`);
+    if (!r.ok) throw new Error(await r.text());
+    const blob = await r.blob();
+    if (storyURL) URL.revokeObjectURL(storyURL);
+    storyURL = URL.createObjectURL(blob);
+    document.getElementById('st-img').innerHTML = `<img src="${storyURL}" alt="Story">`;
+    document.getElementById('st-dl').href = storyURL;
+  } catch(e) {
+    document.getElementById('st-img').innerHTML = `<div class="hint" style="padding:20px;text-align:center">${esc(e.message || 'Não consegui gerar o story.')}</div>`;
+  }
+}
+
+/* -------- histórico -------- */
+function historico(){
+  const dias = {};
+  E.postados.forEach(p => (dias[p.data.slice(0,10)] = dias[p.data.slice(0,10)] || []).push(p));
+  const hoje = new Date(E.agora);
+  const nomeDia = d => { const dt = new Date(d+'T12:00'); const diff = Math.round((new Date(E.agora.slice(0,10)+'T12:00') - dt)/864e5);
+    return diff === 0 ? 'Hoje' : diff === 1 ? 'Ontem' : dt.toLocaleDateString('pt-BR',{weekday:'long', day:'numeric', month:'short'}); };
+  const semana = [...Array(7)].map((_,i) => { const d = new Date(hoje); d.setDate(d.getDate() - (6-i)); const k = d.toLocaleDateString('sv-SE'); return [k, (dias[k]||[]).length, d]; });
+  const max = Math.max(1, ...semana.map(s => s[1]));
+  const porLoja = {}; semana.forEach(([k]) => (dias[k]||[]).forEach(p => porLoja[p.loja] = (porLoja[p.loja]||0) + 1));
+  return topo('Histórico', 'O que saiu no canal nos últimos 30 dias.')
+    + `<div class="cols"><div class="box"><h2>Últimos 7 dias</h2><div class="semana">${semana.map(([k,n,d]) => `<div><b>${n}</b><i style="height:${n/max*70}%"></i><span>${d.toLocaleDateString('pt-BR',{weekday:'short'}).replace('.','')}</span></div>`).join('')}</div></div>
+      <div class="box"><h2>Por loja (7 dias)</h2>${Object.entries(porLoja).sort((a,b)=>b[1]-a[1]).map(([l,n]) => `<div class="hl" style="padding:8px 0">${loja(l)}<span class="n"></span><b>${n}</b></div>`).join('') || '<p style="color:var(--mut);margin:0">Nada ainda.</p>'}</div></div>`
+    + Object.keys(dias).sort().reverse().map(d => `<div class="dia"><h3>${nomeDia(d)} · ${dias[d].length}</h3><div class="box" style="padding:4px 6px">${dias[d].map(p => `<div class="hl"><span class="h">${p.data.slice(11,16)}</span><span class="n">${esc(p.nome)}</span>${loja(p.loja)}</div>`).join('')}</div></div>`).join('');
+}
+
+/* -------- avisos -------- */
+let tt = null;
+function toast(msg, erro){
+  const t = document.getElementById('toast');
+  t.textContent = msg; t.className = 'toast on' + (erro ? ' erro' : '');
+  clearTimeout(tt); tt = setTimeout(() => t.className = 'toast', erro ? 5000 : 2600);
+}
+function confirmarP(titulo, texto, botao){
+  return new Promise(res => {
+    const m = document.getElementById('modal');
+    m.innerHTML = `<h3>${esc(titulo)}</h3>${texto ? `<p>${esc(texto)}</p>` : '<p></p>'}<div class="acts"><button class="btn ghost" id="cf-n">Cancelar</button><button class="btn gold" id="cf-s">${esc(botao)}</button></div>`;
+    const drawerAberto = document.getElementById('drawer').classList.contains('on');
+    document.getElementById('veu').classList.add('on'); m.classList.add('on');
+    const fim = v => { m.classList.remove('on'); if (!drawerAberto) document.getElementById('veu').classList.remove('on'); res(v); };
+    document.getElementById('cf-n').onclick = () => fim(false);
+    document.getElementById('cf-s').onclick = () => fim(true);
+  });
+}
+async function confirmar(titulo, texto, botao, acao){ if (await confirmarP(titulo, texto, botao)) acao(null); }
+document.addEventListener('keydown', e => { if (e.key === 'Escape') fecharTudo(); });
+
+pagina = location.hash.slice(1) || 'inicio';
+carregar();
+setInterval(() => {
+  if (document.hidden || ED || document.getElementById('modal').classList.contains('on')) return;
+  carregar();
+}, 45000);
+document.addEventListener('visibilitychange', () => { if (!document.hidden && !ED) carregar(); });
+</script>
+</body>
+</html>

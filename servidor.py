@@ -7,6 +7,7 @@ para postar nos horários. Ou seja: o Render cuida da conversa com você, o GitH
 No Render:
   Start command:  python3 servidor.py
   Variáveis:      TELEGRAM_TOKEN, TELEGRAM_CHANNEL, ADMIN_ID, GITHUB_TOKEN, GITHUB_REPO
+                  PAINEL_SENHA (senha do painel em /painel)
                   (e SHOPEE_APP_ID, SHOPEE_SECRET, GEMINI_API_KEY quando tiver)
 """
 
@@ -17,6 +18,7 @@ import time
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
 import bot
+import painel
 
 bot.carregar_env()
 bot.CONFIG = bot.carregar_json(bot.ARQ_CONFIG, {})
@@ -41,6 +43,12 @@ class Atendente(BaseHTTPRequestHandler):
         self.wfile.flush()
 
     def do_GET(self):  # usado pelo Render (e por um "pinger", se você quiser) para ver se está vivo
+        if self.path.startswith("/painel"):
+            try:
+                painel.tratar_get(self)
+            except Exception as e:
+                bot.log(f"Painel: erro em {self.path[:60]}: {e}")
+            return
         if self.path.split("?")[0].rstrip("/") == "/tick":
             if time.time() - _ultimo_tick[0] < INTERVALO_TICK:
                 self._responder(200, "cedo demais, rodada recente")
@@ -55,6 +63,12 @@ class Atendente(BaseHTTPRequestHandler):
         self._responder(200, "")
 
     def do_POST(self):
+        if self.path.startswith("/painel"):
+            try:
+                painel.tratar_post(self)
+            except Exception as e:
+                bot.log(f"Painel: erro em {self.path[:60]}: {e}")
+            return
         if self.path != "/telegram" or self.headers.get("X-Telegram-Bot-Api-Secret-Token") != SEGREDO:
             self._responder(403, "nao")
             return

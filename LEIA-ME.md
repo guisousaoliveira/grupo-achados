@@ -86,3 +86,11 @@ rodarem de 5 em 5 minutos, crie em https://cron-job.org (grátis) um job que abr
 `https://SEU-SERVICO.onrender.com/tick` a cada 5 minutos. Cada abertura mantém o Render acordado e
 pede uma rodada ao GitHub (no máximo uma a cada 4 minutos). O radar fica pausado das `pausa_de`
 às `pausa_ate` horas (config.json, padrão 0h às 7h) e, ao voltar, ignora o que saiu de madrugada.
+
+## Painel (site com senha)
+
+O servidor do Render também abre um painel em `https://<seu-servico>.onrender.com/painel`. Nele dá para ver e reordenar a fila, revisar as ofertas do radar, colar um link e montar a oferta, postar na hora, gerar story e pedir sugestões de título e frase para a IA. Usa a mesma fila do bot.
+
+1. No Render, em **Environment**, crie `PAINEL_SENHA` com a senha que quiser (pode passar para os sócios).
+2. (Opcional) Crie `GEMINI_API_KEY` com uma chave grátis do Google AI Studio para ligar a IA. Sem ela, as sugestões vêm do banco de frases.
+3. Salve e faça o deploy.
