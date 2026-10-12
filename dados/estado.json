@@ -589,25 +589,6 @@
       "garimpado_em": "2026-10-12T18:50-03:00",
       "na_revisao_desde": "2026-10-12T18:50-03:00",
       "msg_id": 248
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0F258T13X",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B0F258T13X?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0F258T13X?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/canon-camera-sem-espelho-eos-r50-v-rf-s14-30-mm-f4-63-e-kit-de-lentes-stm-3109165/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3109165/",
-      "nome": "Canon Câmera sem espelho EOS R50 V RF-S14-30 mm F4-6.3 é kit de",
-      "por": 4999.0,
-      "foto": "AgACAgQAAxkDAAP6as1WMdfMgkc_H6vl0ReSVDdY3LAAAmEPaxuL1W1SyikzwGLQv4sBAAMCAAN4AAM9BA",
-      "foto_origem": "loja",
-      "titulo": "Câmera Canon EOS R50 para gravar com qualidade",
-      "garimpado_em": "2026-10-12T18:50-03:00",
-      "id": 118,
-      "na_revisao_desde": "2026-10-12T19:34-03:00",
-      "msg_id": 254
     }
   ],
   "proximo_id": 119,
@@ -1003,6 +984,26 @@
   "lixeira": [
     {
       "loja": "amazon",
+      "chave": "amazon:B0F258T13X",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0F258T13X?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0F258T13X?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/canon-camera-sem-espelho-eos-r50-v-rf-s14-30-mm-f4-63-e-kit-de-lentes-stm-3109165/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3109165/",
+      "nome": "Canon Câmera sem espelho EOS R50 V RF-S14-30 mm F4-6.3 é kit de",
+      "por": 4999.0,
+      "foto": "AgACAgQAAxkDAAP6as1WMdfMgkc_H6vl0ReSVDdY3LAAAmEPaxuL1W1SyikzwGLQv4sBAAMCAAN4AAM9BA",
+      "foto_origem": "loja",
+      "titulo": "Câmera Canon EOS R50 para gravar com qualidade",
+      "garimpado_em": "2026-10-12T18:50-03:00",
+      "id": 118,
+      "na_revisao_desde": "2026-10-12T19:34-03:00",
+      "removido_em": "2026-10-12T19:34:44-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "amazon",
       "chave": "amazon:B0B4DT2DBJ",
       "origem": "promobit",
       "fonte": "promobit",
@@ -1318,7 +1319,7 @@
       "promobit": {
         "achados": 21,
         "aprovados": 7,
-        "reprovados": 9
+        "reprovados": 10
       },
       "gatunopromos": {
         "achados": 1,
