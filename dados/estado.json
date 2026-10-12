@@ -2,19 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB29164669",
-      "origem": "gatunopromos",
-      "link": "https://meli.la/1HBDqbN",
-      "link_produto": "https://www.mercadolivre.com.br/aparador-barbeador-kemei-km-6558-recarregavel-sem-fio-3-em-1-bivolt-preto/p/MLB29164669",
-      "foto": "AgACAgEAAxkDAANaasxD5zxWchO2UzHVpsN7VBAmIE4AAh0Qaxvw92FGcjkRCZaC3QMBAAMCAAN4AAM9BA",
-      "foto_origem": "canal",
-      "nome": "Aparador Barbeador Kemei Recarregável 3 Em 1",
-      "de": 79.0,
-      "por": 46.79,
-      "frase": "Preço de queima, 41% mais barato."
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B0HJJSKJ2S",
       "origem": "promooeasy",
@@ -80,6 +67,12 @@
       "loja": "mercadolivre",
       "nome": "Bolsa Térmica Mochila Marmita Grande Cooler Impermeável",
       "data": "2026-10-11T23:15-03:00"
+    },
+    {
+      "chave": "mercadolivre:MLB29164669",
+      "loja": "mercadolivre",
+      "nome": "Aparador Barbeador Kemei Recarregável 3 Em 1",
+      "data": "2026-10-11T23:43-03:00"
     }
   ],
   "slots_usados": {
@@ -115,6 +108,13 @@
     ]
   },
   "ultimos": [
+    {
+      "loja": "mercadolivre",
+      "foto": "AgACAgEAAxkDAANaasxD5zxWchO2UzHVpsN7VBAmIE4AAh0Qaxvw92FGcjkRCZaC3QMBAAMCAAN4AAM9BA",
+      "nome": "Aparador Barbeador Kemei Recarregável 3 Em 1",
+      "de": 79.0,
+      "por": 46.79
+    },
     {
       "loja": "mercadolivre",
       "por": 48.93,
