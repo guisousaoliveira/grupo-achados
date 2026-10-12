@@ -2,24 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB4113792113",
-      "origem": "promonocontext",
-      "link": "https://meli.la/347Y3aU",
-      "link_produto": "https://meli.la/347Y3aU",
-      "post_origem": "https://t.me/promonocontext/126017",
-      "link_canal": "https://meli.la/32WpkJK",
-      "foto": "AgACAgQAAxkDAAIBA2rNZDmPMrA4L_5rpQiqEIdrg5T6AAKjEGsbixvdU4xRZgvwu4PgAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Tênis Sandrini Aero Run Academia Caminhada Treino",
-      "de": 149.99,
-      "por": 59.99,
-      "titulo": "Tênis Sandrini com 60% off",
-      "garimpado_em": "2026-10-12T19:50-03:00",
-      "na_revisao_desde": "2026-10-12T19:50-03:00",
-      "aprovado_em": "2026-10-12T19:52-03:00"
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B00Z0UWV3O",
       "origem": "promooeasy",
@@ -36,6 +18,24 @@
       "de": 469.9,
       "pix": true,
       "aprovado_em": "2026-10-12T13:59-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB4113792113",
+      "origem": "promonocontext",
+      "link": "https://meli.la/347Y3aU",
+      "link_produto": "https://meli.la/347Y3aU",
+      "post_origem": "https://t.me/promonocontext/126017",
+      "link_canal": "https://meli.la/32WpkJK",
+      "foto": "AgACAgQAAxkDAAIBA2rNZDmPMrA4L_5rpQiqEIdrg5T6AAKjEGsbixvdU4xRZgvwu4PgAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Tênis Sandrini Aero Run Academia Caminhada Treino",
+      "de": 149.99,
+      "por": 59.99,
+      "titulo": "Tênis Sandrini com 60% off",
+      "garimpado_em": "2026-10-12T19:50-03:00",
+      "na_revisao_desde": "2026-10-12T19:50-03:00",
+      "aprovado_em": "2026-10-12T19:52-03:00"
     },
     {
       "loja": "mercadolivre",
