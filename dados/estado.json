@@ -418,23 +418,6 @@
       "msg_id": 189
     },
     {
-      "loja": "amazon",
-      "chave": "amazon:B0FPDW9PLB",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0FPDW9PLB?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0FPDW9PLB?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/220155",
-      "link_canal": "https://www.amazon.com.br/Monitor-Gamer-TCL-Polegadas-Freesync/dp/B0FPDW9PLB?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAO-as0raFx4yk9KWIWu4NDOIe8V-QMAAuMPaxvlsG1STmgvK_KklFoBAAMCAAN4AAM9BA",
-      "foto_origem": "loja",
-      "nome": "Monitor Gamer, TCL, 25 Polegadas, QD-Mini LED, 300Hz, 1ms (GtG), Freesync, HDR 600 nits, 25G64",
-      "por": 1291.05,
-      "titulo": "Monitor gamer TCL 300Hz menor preço",
-      "id": 70,
-      "garimpado_em": "2026-10-12T15:48-03:00",
-      "msg_id": 190
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB54944960",
       "origem": "lobaopromo",
@@ -701,6 +684,24 @@
   ],
   "lixeira": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B0FPDW9PLB",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0FPDW9PLB?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0FPDW9PLB?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220155",
+      "link_canal": "https://www.amazon.com.br/Monitor-Gamer-TCL-Polegadas-Freesync/dp/B0FPDW9PLB?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAO-as0raFx4yk9KWIWu4NDOIe8V-QMAAuMPaxvlsG1STmgvK_KklFoBAAMCAAN4AAM9BA",
+      "foto_origem": "loja",
+      "nome": "Monitor Gamer, TCL, 25 Polegadas, QD-Mini LED, 300Hz, 1ms (GtG), Freesync, HDR 600 nits, 25G64",
+      "por": 1291.05,
+      "titulo": "Monitor gamer TCL 300Hz menor preço",
+      "id": 70,
+      "garimpado_em": "2026-10-12T15:48-03:00",
+      "removido_em": "2026-10-12T16:26:34-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB68717302",
       "origem": "promooeasy",
@@ -846,7 +847,7 @@
       "promooeasy": {
         "achados": 9,
         "aprovados": 3,
-        "reprovados": 4
+        "reprovados": 5
       },
       "promobit": {
         "achados": 6,
