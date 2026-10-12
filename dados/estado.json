@@ -291,25 +291,6 @@
       "titulo": "Vale cada centavo nesse preço.",
       "id": 45,
       "msg_id": 151
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0HCCTKPGN",
-      "origem": "aquitempechincha",
-      "link": "https://www.amazon.com.br/dp/B0HCCTKPGN?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0HCCTKPGN?tag=alphadominu09-20",
-      "post_origem": "https://t.me/aquitempechincha/281076",
-      "link_canal": "https://aquitempechincha.com.br/",
-      "nome": "Fritadeira Airfryer Digital Série 2000 Xl Na239/00 Preto 127V",
-      "pix": true,
-      "por": 381.0,
-      "foto": "AgACAgQAAxkDAAOhas0FRbMiEK55U9dzXA3O5FfMHfYAAmMPaxt8riRSQP2RPK9S8SYBAAMCAAN4AAM9BA",
-      "foto_origem": "loja",
-      "cupom": "PROMODEHOJE",
-      "titulo": "Menor preço com cupom aplicado hoje",
-      "id": 51,
-      "garimpado_em": "2026-10-12T13:05-03:00",
-      "msg_id": 161
     }
   ],
   "proximo_id": 52,
