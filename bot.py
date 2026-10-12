@@ -1541,8 +1541,15 @@ def rodar_radar(estado, teste=False):
     if r.get("dia") != hoje:
         r["dia"], r["hoje"] = hoje, 0
     limite_dia, limite_rodada = cfg.get("max_por_dia", 10), cfg.get("max_por_rodada", 3)
+    # Limite por hora: espalha as ofertas pelo dia em vez de gastar a cota toda logo de manhã.
+    limite_hora = cfg.get("max_por_hora", 0)
+    hora = agora().strftime("%Y-%m-%dT%H")
+    if r.get("hora") != hora:
+        r["hora"], r["nesta_hora"] = hora, 0
     # "Rodar agora" do painel: roda mesmo de madrugada e deixa o resultado para o painel mostrar.
     forcado = os.environ.get("BOT_RADAR_FORCADO") == "1"
+    if forcado:  # pedido na mão: não segura pelo limite da hora, só pelo do dia
+        limite_hora = 0
     conta = {"em": agora().isoformat(timespec="seconds"), "pedido": os.environ.get("BOT_PEDIDO", ""),
              "forcado": forcado, "canais": len(canais), "lidos": 0, "falhas": [], "posts_novos": 0,
              "do_nicho": 0, "repetidas": 0, "novas": 0, "limite_dia": False}
@@ -1576,8 +1583,10 @@ def rodar_radar(estado, teste=False):
             if not teste and post["id"] <= visto:
                 continue
             conta["posts_novos"] += 1
-            if novas >= limite_rodada or (r["hoje"] >= limite_dia and not teste):
+            cheia_hora = bool(limite_hora) and r["nesta_hora"] >= limite_hora
+            if novas >= limite_rodada or ((r["hoje"] >= limite_dia or cheia_hora) and not teste):
                 conta["limite_dia"] = r["hoje"] >= limite_dia
+                conta["limite_hora"] = cheia_hora
                 conta["limite_rodada"] = novas >= limite_rodada
                 break
             item = oferta_do_post(post, canal)
@@ -1593,6 +1602,7 @@ def rodar_radar(estado, teste=False):
                 log(f"Radar achou em @{canal}: {json.dumps(item, ensure_ascii=False)}")
                 continue
             r["hoje"] += 1
+            r["nesta_hora"] = r.get("nesta_hora", 0) + 1
             r["chaves"] = (r["chaves"] + [item["chave"]])[-400:]
             mandar_para_revisao(estado, item)
         if not teste:

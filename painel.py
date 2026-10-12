@@ -179,6 +179,7 @@ def resumo(estado):
             "canais": len(cfg_radar.get("canais", [])),
             "hoje": r.get("hoje", 0) if r.get("dia") == hoje else 0,
             "max_dia": cfg_radar.get("max_por_dia", 10),
+            "max_hora": cfg_radar.get("max_por_hora", 0),
             "pausado": bot.radar_pausado(cfg_radar),
             "pausa_de": cfg_radar.get("pausa_de"),
             "pausa_ate": cfg_radar.get("pausa_ate"),

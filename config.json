@@ -119,7 +119,8 @@
     ],
     "tag_amazon": "alphadominu09-20",
     "max_por_rodada": 3,
-    "max_por_dia": 20,
+    "max_por_dia": 30,
+    "max_por_hora": 2,
     "pausa_de": 1,
     "pausa_ate": 7,
     "palavras_extra": [

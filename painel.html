@@ -872,6 +872,7 @@ function resultadoRadar(info){
   if (u.novas) frase = `<div class="alert ok"><b>${u.novas} oferta(s) nova(s)</b> foram para Revisar (e para o seu Telegram).</div>`;
   else if (u.lidos === 0) frase = `<div class="alert bad">Não consegui ler nenhum canal agora. Tente de novo em alguns minutos.</div>`;
   else if (!u.posts_novos) frase = `<div class="alert warn">Os canais não postaram nada novo desde a última leitura. Nada para trazer.</div>`;
+  else if (u.limite_hora) frase = `<div class="alert warn">Já chegaram ${E.radar.max_hora} ofertas nesta hora. As próximas entram na hora que vem, para espalhar pelo dia.</div>`;
   else if (u.limite_dia) frase = `<div class="alert warn">Chegou no limite de ${E.radar.max_dia} ofertas por dia. O radar volta amanhã.</div>`;
   else if (!u.do_nicho) frase = `<div class="alert warn">Teve ${u.posts_novos} post(s) novo(s), mas nenhum do nicho (academia, estilo, games, ferramentas…).</div>`;
   else frase = `<div class="alert warn">As ${u.do_nicho} oferta(s) do nicho já tinham aparecido antes (fila, revisão ou já vistas).</div>`;
