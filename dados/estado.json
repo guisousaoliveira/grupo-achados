@@ -2,17 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "amazon",
-      "chave": "amazon:B0HJJSKJ2S",
-      "origem": "promooeasy",
-      "link": "https://link.amazon/B09cDoFfW",
-      "link_produto": "https://www.amazon.com.br/dp/B0HJJSKJ2S?tag=alphadominu09-20",
-      "foto": "AgACAgEAAxkBAANjasxGsdnDlH5hXafUhKO-mAZ5qKoAAh8Qaxvw92FGhUyQm7Bts60BAAMCAAN4AAM9BA",
-      "nome": "Esteira Ergométrica Elétrica Dobrável Bivolt 150kg",
-      "por": 474.0,
-      "frase": "Corre pra garantir!"
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB25929487",
       "origem": "lobaopromo",
@@ -85,6 +74,12 @@
       "loja": "mercadolivre",
       "nome": "Fritadeira Air Fryer 5,5l Widemax Com Interior De Alumínio 1900w Midea",
       "data": "2026-10-11T23:57-03:00"
+    },
+    {
+      "chave": "amazon:B0HJJSKJ2S",
+      "loja": "amazon",
+      "nome": "Esteira Ergométrica Elétrica Dobrável Bivolt 150kg",
+      "data": "2026-10-12T01:29-03:00"
     }
   ],
   "slots_usados": {
@@ -124,6 +119,12 @@
     "pausado": true
   },
   "ultimos": [
+    {
+      "loja": "amazon",
+      "foto": "AgACAgEAAxkBAANjasxGsdnDlH5hXafUhKO-mAZ5qKoAAh8Qaxvw92FGhUyQm7Bts60BAAMCAAN4AAM9BA",
+      "nome": "Esteira Ergométrica Elétrica Dobrável Bivolt 150kg",
+      "por": 474.0
+    },
     {
       "loja": "mercadolivre",
       "por": 261.9,
