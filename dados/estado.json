@@ -3,19 +3,6 @@
   "fila": [
     {
       "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB25929487",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/16vRB5b",
-      "link_produto": "https://www.mercadolivre.com.br/creatina-monohidratada-dark-lab-1kg-100/p/MLB25929487",
-      "foto": "AgACAgEAAxkDAANwasxIlpjnwdu_F9H5YE_WK-WaaxsAAiAQaxvw92FGMW8f5u5FnIMBAAMCAAN4AAM9BA",
-      "foto_origem": "canal",
-      "nome": "Creatina Monohidratada Pura 1kg Dark Lab Unidade Sem sabor",
-      "por": 78.9,
-      "frase": "Pra quem leva o treino a sério.",
-      "de": 159.9
-    },
-    {
-      "loja": "mercadolivre",
       "link": "https://meli.la/2DoKFbN",
       "chave": "mercadolivre:https://meli.la/2DoKFbN",
       "foto": "https://http2.mlstatic.com/D_NQ_NP_627065-MLB109020200579_032026-O.webp",
@@ -143,6 +130,12 @@
       "loja": "amazon",
       "nome": "Esteira Ergométrica Elétrica Dobrável Bivolt 150kg",
       "data": "2026-10-12T01:29-03:00"
+    },
+    {
+      "chave": "mercadolivre:MLB25929487",
+      "loja": "mercadolivre",
+      "nome": "Creatina Monohidratada Pura 1kg Dark Lab Unidade Sem sabor",
+      "data": "2026-10-12T05:43-03:00"
     }
   ],
   "slots_usados": {
@@ -199,6 +192,16 @@
     }
   },
   "ultimos": [
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB25929487",
+      "link": "https://meli.la/16vRB5b",
+      "link_produto": "https://www.mercadolivre.com.br/creatina-monohidratada-dark-lab-1kg-100/p/MLB25929487",
+      "foto": "AgACAgEAAxkDAANwasxIlpjnwdu_F9H5YE_WK-WaaxsAAiAQaxvw92FGMW8f5u5FnIMBAAMCAAN4AAM9BA",
+      "nome": "Creatina Monohidratada Pura 1kg Dark Lab Unidade Sem sabor",
+      "por": 78.9,
+      "de": 159.9
+    },
     {
       "loja": "amazon",
       "foto": "AgACAgEAAxkBAANjasxGsdnDlH5hXafUhKO-mAZ5qKoAAh8Qaxvw92FGhUyQm7Bts60BAAMCAAN4AAM9BA",
