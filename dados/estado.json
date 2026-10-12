@@ -31,6 +31,20 @@
       "por": 19.0,
       "garimpado_em": "2026-10-12T12:55-03:00",
       "aprovado_em": "2026-10-12T13:01-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB67893601",
+      "origem": "promonocontext",
+      "link": "https://meli.la/1rtp73o",
+      "link_produto": "https://www.mercadolivre.com.br/notebook-asus-vivobook-s-14-s5406sa-copilot-pc-intel-core-ultra-7-256-v-16gb-ram-512gb-ssd-windows-11-home-14-oled-mist-blue-qd299w/p/MLB67893601",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_842080-MLA109454435224_042026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Notebook ASUS Vivobook S 14 S5406SA Copilot+ PC Intel Core Ultra 7",
+      "de": 6999.0,
+      "por": 5683.0,
+      "pix": true,
+      "aprovado_em": "2026-10-12T13:02-03:00"
     }
   ],
   "postados": [
@@ -349,21 +363,6 @@
       "titulo": "Vale cada centavo nesse preço.",
       "id": 45,
       "msg_id": 151
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB67893601",
-      "origem": "promonocontext",
-      "link": "https://www.mercadolivre.com.br/notebook-asus-vivobook-s-14-s5406sa-copilot-pc-intel-core-ultra-7-256-v-16gb-ram-512gb-ssd-windows-11-home-14-oled-mist-blue-qd299w/p/MLB67893601?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/notebook-asus-vivobook-s-14-s5406sa-copilot-pc-intel-core-ultra-7-256-v-16gb-ram-512gb-ssd-windows-11-home-14-oled-mist-blue-qd299w/p/MLB67893601",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_842080-MLA109454435224_042026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Notebook ASUS Vivobook S 14 S5406SA Copilot+ PC Intel Core Ultra 7",
-      "de": 6999.0,
-      "por": 5683.0,
-      "titulo": "Achado do dia, aproveita antes de acabar.",
-      "id": 47,
-      "msg_id": 153
     }
   ],
   "proximo_id": 51,
