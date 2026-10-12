@@ -194,6 +194,25 @@
       "parcela_valor": 50.5,
       "pix": true,
       "aprovado_em": "2026-10-12T16:39-03:00"
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0DJW5G283",
+      "origem": "promooeasy",
+      "link": "https://link.amazon/B0hjFrj7v",
+      "link_produto": "https://www.amazon.com.br/dp/B0DJW5G283?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220190",
+      "link_canal": "https://www.amazon.com.br/dp/B0DJW5G283?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAPcas08dD-46pGd_fj70lzPW-jVcu4AAsQPaxvzUVRQ5sQ04d37ms8BAAMCAAN4AAM9BA",
+      "foto_origem": "loja",
+      "nome": "soundcore Q11i da Anker Headphone Bluetooth Over Ear, 60H Fone Gamer Preto",
+      "parcelas": 6,
+      "por": 189.0,
+      "titulo": "Headphone Anker Q11i com 60 horas de bateria",
+      "garimpado_em": "2026-10-12T17:00-03:00",
+      "na_revisao_desde": "2026-10-12T17:00-03:00",
+      "de": 199.0,
+      "aprovado_em": "2026-10-12T17:05-03:00"
     }
   ],
   "postados": [
@@ -436,25 +455,6 @@
       "garimpado_em": "2026-10-12T17:00-03:00",
       "na_revisao_desde": "2026-10-12T17:00-03:00",
       "msg_id": 219
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0DJW5G283",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0DJW5G283?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0DJW5G283?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/220190",
-      "link_canal": "https://www.amazon.com.br/dp/B0DJW5G283?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAPcas08dD-46pGd_fj70lzPW-jVcu4AAsQPaxvzUVRQ5sQ04d37ms8BAAMCAAN4AAM9BA",
-      "foto_origem": "loja",
-      "nome": "soundcore Q11i da Anker Headphone Bluetooth Over Ear, 60H Fone Gamer Preto",
-      "parcelas": 6,
-      "por": 189.0,
-      "titulo": "Headphone Anker Q11i com 60 horas de bateria",
-      "id": 90,
-      "garimpado_em": "2026-10-12T17:00-03:00",
-      "na_revisao_desde": "2026-10-12T17:00-03:00",
-      "msg_id": 220
     }
   ],
   "proximo_id": 91,
@@ -905,7 +905,7 @@
     "2026-10-12": {
       "promooeasy": {
         "achados": 14,
-        "aprovados": 3,
+        "aprovados": 4,
         "reprovados": 9
       },
       "promobit": {
