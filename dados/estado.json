@@ -2,19 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "amazon",
-      "chave": "amazon:B0D84WRDBB",
-      "origem": "lobaopromo",
-      "link": "https://www.amazon.com.br/dp/B0D84WRDBB?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0D84WRDBB?tag=alphadominu09-20",
-      "foto": "https://cdn1.telesco.pe/file/nmvd3MWVhxq7PvJtoQamJDfzcjV7JPx9n33Jm3Zcdo4WV60ttQjNSzkDRWjAYB6a2IX1BWiBbKr621WtwFswYL6fF6uY9W9UxCHv--Wq1mnfk5y4wZ4hahNlGnr_x5S4FU7tqXq1f3qWgPotkAReD4spqTjZ7paiHSF7CzpS8YosDN81N7RyBB8zIiCn_sfD83VLAsEbt46iIqch97GeuT3HU8-desW4hDlXd8tcMaJFC0Gr-colEaO2InyWVdGgTR3gCrrLT5cOztBk-DlqaZqpAvwWJMaINn2MMoFe6BFlm6fW7uedfTC38Pm0kXhTQ8e_Vk38g-jq_k7YNY4d4g.jpg",
-      "nome": "Gillette Mach3 Carbono Carga para Aparelho de Barbear com 8 Unidades",
-      "de": 99.88,
-      "por": 56.42,
-      "prime": true,
-      "frase": "44% off, isso aqui não fica muito tempo assim."
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB24081502",
       "origem": "lobaopromo",
@@ -51,6 +38,12 @@
       "loja": "mercadolivre",
       "nome": "Tênis Flyer Runner Mesh Bdp Puma",
       "data": "2026-10-11T22:25-03:00"
+    },
+    {
+      "chave": "amazon:B0D84WRDBB",
+      "loja": "amazon",
+      "nome": "Gillette Mach3 Carbono Carga para Aparelho de Barbear com 8 Unidades",
+      "data": "2026-10-11T22:39-03:00"
     }
   ],
   "slots_usados": {
@@ -96,6 +89,14 @@
     ]
   },
   "ultimos": [
+    {
+      "loja": "amazon",
+      "foto": "https://cdn1.telesco.pe/file/nmvd3MWVhxq7PvJtoQamJDfzcjV7JPx9n33Jm3Zcdo4WV60ttQjNSzkDRWjAYB6a2IX1BWiBbKr621WtwFswYL6fF6uY9W9UxCHv--Wq1mnfk5y4wZ4hahNlGnr_x5S4FU7tqXq1f3qWgPotkAReD4spqTjZ7paiHSF7CzpS8YosDN81N7RyBB8zIiCn_sfD83VLAsEbt46iIqch97GeuT3HU8-desW4hDlXd8tcMaJFC0Gr-colEaO2InyWVdGgTR3gCrrLT5cOztBk-DlqaZqpAvwWJMaINn2MMoFe6BFlm6fW7uedfTC38Pm0kXhTQ8e_Vk38g-jq_k7YNY4d4g.jpg",
+      "nome": "Gillette Mach3 Carbono Carga para Aparelho de Barbear com 8 Unidades",
+      "de": 99.88,
+      "por": 56.42,
+      "prime": true
+    },
     {
       "loja": "mercadolivre",
       "por": 184.3,
