@@ -3,20 +3,6 @@
   "fila": [
     {
       "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB67893601",
-      "origem": "promonocontext",
-      "link": "https://meli.la/1rtp73o",
-      "link_produto": "https://www.mercadolivre.com.br/notebook-asus-vivobook-s-14-s5406sa-copilot-pc-intel-core-ultra-7-256-v-16gb-ram-512gb-ssd-windows-11-home-14-oled-mist-blue-qd299w/p/MLB67893601",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_842080-MLA109454435224_042026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Notebook ASUS Vivobook S 14 S5406SA Copilot+ PC Intel Core Ultra 7",
-      "de": 6999.0,
-      "por": 5683.0,
-      "pix": true,
-      "aprovado_em": "2026-10-12T13:02-03:00"
-    },
-    {
-      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB79167580",
       "origem": "promonocontext",
       "link": "https://meli.la/1K9W7E7",
@@ -309,6 +295,12 @@
       "loja": "amazon",
       "nome": "Lg Ultragear Monitor Gamer 27\" Ips, 144hz Nativo, 1ms (mbr), Full Hd",
       "data": "2026-10-12T15:14-03:00"
+    },
+    {
+      "chave": "mercadolivre:MLB67893601",
+      "loja": "mercadolivre",
+      "nome": "Notebook ASUS Vivobook S 14 S5406SA Copilot+ PC Intel Core Ultra 7",
+      "data": "2026-10-12T15:39-03:00"
     }
   ],
   "slots_usados": {
@@ -322,7 +314,8 @@
       11,
       12,
       13,
-      14
+      14,
+      15
     ]
   },
   "shopee_buscado_em": "",
@@ -453,6 +446,16 @@
     "promobit_visto": 3108883
   },
   "ultimos": [
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB67893601",
+      "link": "https://meli.la/1rtp73o",
+      "link_produto": "https://www.mercadolivre.com.br/notebook-asus-vivobook-s-14-s5406sa-copilot-pc-intel-core-ultra-7-256-v-16gb-ram-512gb-ssd-windows-11-home-14-oled-mist-blue-qd299w/p/MLB67893601",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_842080-MLA109454435224_042026-O.webp",
+      "nome": "Notebook ASUS Vivobook S 14 S5406SA Copilot+ PC Intel Core Ultra 7",
+      "de": 6999.0,
+      "por": 5683.0
+    },
     {
       "loja": "amazon",
       "chave": "amazon:B0HB7NS9RM",
@@ -588,12 +591,6 @@
       "nome": "Creatina Monohidratada Pura 1kg Dark Lab Unidade Sem sabor",
       "por": 78.9,
       "de": 159.9
-    },
-    {
-      "loja": "amazon",
-      "foto": "AgACAgEAAxkBAANjasxGsdnDlH5hXafUhKO-mAZ5qKoAAh8Qaxvw92FGhUyQm7Bts60BAAMCAAN4AAM9BA",
-      "nome": "Esteira Ergométrica Elétrica Dobrável Bivolt 150kg",
-      "por": 474.0
     }
   ],
   "lixeira": [
