@@ -246,12 +246,18 @@ def telegram(metodo, **params):
     return resp["result"]
 
 
-def responder_admin(texto, botoes=None, responder_a=None):
+def responder_admin(texto, botoes=None, responder_a=None, foto=None):
     """Manda mensagem no seu privado. Devolve a mensagem enviada (para guardar o ID)."""
     admin = segredo("ADMIN_ID")
     if SIMULAR or not admin:
         log(f"(resposta para você) {texto}" + (f"  [botões: {botoes}]" if botoes else ""))
         return {}
+    if foto and len(texto) <= 1024:  # revisão com a foto que vai no post
+        try:
+            return telegram("sendPhoto", chat_id=admin, photo=foto, caption=texto, parse_mode="HTML",
+                            reply_markup=botoes, reply_to_message_id=responder_a)
+        except Exception as e:
+            log(f"Foto da revisão falhou ({e}), mandando só o texto.")
     try:
         return telegram("sendMessage", chat_id=admin, text=texto, parse_mode="HTML",
                         disable_web_page_preview="true", reply_markup=botoes,
@@ -548,6 +554,11 @@ def interpretar_mensagem(texto, foto=None, buscar_pagina=True):
         item["foto"] = foto
 
     tem_preco = False
+    rotulo = r"(nome|t[ií]tulo|pre[cç]o|frase|cupom|prime)\s*[:=]"
+    if any(re.match(rotulo, l, re.I) for l in resto):  # mesmo formato da correção (nome:, preço:, prime:...)
+        aplicar_correcao(item, "\n".join(resto))
+        tem_preco = bool(item.get("por"))
+        resto = []
     for linha in list(resto):
         m = re.match(r"cupom\s*[:=]?\s*(\S+)", linha, re.I)
         if m:
@@ -642,11 +653,13 @@ def mandar_para_revisao(estado, item):
     elif falta:
         texto += (f"\n\n⚠️ Não consegui ler: <b>{', '.join(falta)}</b>. "
                   "Responda esta mensagem com o que falta e o botão ✅ Aprovar aparece.")
-    if not falta and not item.get("foto"):
-        texto += "\n\n📷 Sem foto. Se quiser, responda esta mensagem com um print do produto."
+    if not falta:
+        texto += ("\n\n📷 Foto: ok (é a que aparece aqui)." if item.get("foto") else
+                  "\n\n📷 Sem foto. Se quiser, responda esta mensagem com um print do produto.")
     texto += ("\n\n<i>Para corrigir, responda (arrastar para o lado) esta mensagem com uma ou mais linhas:\n"
               "nome: Creatina Growth 250g\npreço: 119,90 69,90\nfrase: A mais vendida\ncupom: NOITEPRIME10\nprime: sim 189,37 (preço sem Prime)\n(frase: - ou cupom: - para tirar)</i>")
-    msg = responder_admin(texto, botoes=SO_DESCARTAR(item["id"]) if falta else BOTOES_REVISAO(item["id"]))
+    msg = responder_admin(texto, botoes=SO_DESCARTAR(item["id"]) if falta else BOTOES_REVISAO(item["id"]),
+                          foto=item.get("foto"))
     item["msg_id"] = msg.get("message_id") if msg else None
     estado["revisar"].append(item)
 
