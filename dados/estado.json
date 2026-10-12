@@ -46,7 +46,10 @@
       "ler_depois": true,
       "chave": "amazon:https://link.amazon/B023PEkoV",
       "id": 6,
-      "msg_id": 33
+      "msg_id": 33,
+      "nome": "Philips OneBlade Barbeador e Aparador Elétrico: Raspa",
+      "foto": "https://m.media-amazon.com/images/I/71QS7WTTChL._AC_SL1500_.jpg",
+      "tentativas": 1
     }
   ],
   "proximo_id": 7
