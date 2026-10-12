@@ -141,6 +141,22 @@ main{min-width:0;padding:26px 34px 60px;max-width:1180px}
 .tag.warn{color:var(--warn);border-color:rgba(245,165,36,.4);background:var(--warnbg)}
 .tag.bad{color:#ff9a9d;border-color:rgba(242,85,90,.4);background:var(--badbg)}
 .tag.ok{color:var(--ok);border-color:rgba(62,207,142,.35);background:var(--okbg)}
+.ibar{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}
+.ib{height:34px;display:inline-flex;align-items:center;justify-content:center;border-radius:9px;border:1px solid var(--line2);background:var(--card2);color:var(--tx);cursor:pointer;text-decoration:none;transition:.15s}
+.ib:hover{border-color:var(--goldln);color:var(--gold2);background:#1a1a1e}
+.ib.bad{color:#f08a8a}.ib.bad:hover{border-color:#6b2b2b;background:#221314;color:#ff9d9d}
+.ib .mk{width:20px;height:20px}
+.ib.off{opacity:.3;pointer-events:none}
+.of[data-edit]{cursor:pointer}
+.of[data-edit]:hover{border-color:var(--goldln);background:#17171a}
+.of[data-edit]:hover .nm{color:var(--gold2)}
+.atalhos{display:flex;gap:12px;flex-wrap:wrap}
+.atalhos a{display:inline-flex;align-items:center;gap:5px;color:var(--gold2);text-decoration:none;font-size:12.5px}
+.atalhos a:hover{color:var(--gold)}
+.atalhos .mk{width:16px;height:16px}
+.gerar{display:flex;align-items:center;gap:12px;padding:12px 14px;border:1px solid var(--goldln);border-radius:12px;background:rgba(212,175,55,.06);margin-top:8px}
+.gerar p{margin:0;font-size:12.5px;color:var(--mut);flex:1}
+.gerar .mk{width:28px;height:28px;flex:none}
 .of .side-acts{display:flex;flex-direction:column;gap:6px;align-items:stretch;min-width:150px}
 .of .row{display:flex;gap:6px;justify-content:flex-end}
 .vazio-box{text-align:center;padding:46px 20px;color:var(--mut);border:1px dashed var(--line2);border-radius:var(--r)}
@@ -215,6 +231,7 @@ textarea.in{resize:vertical;min-height:64px}
 
 .toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%) translateY(20px);opacity:0;z-index:60;background:#1d1d21;border:1px solid var(--line2);padding:11px 16px;border-radius:12px;box-shadow:0 10px 30px rgba(0,0,0,.4);transition:.2s;max-width:calc(100% - 32px);display:flex;gap:9px;align-items:center}
 .toast.on{opacity:1;transform:translateX(-50%)}
+.toast button{background:none;border:0;color:var(--gold2);font:inherit;font-weight:600;cursor:pointer;padding:0 0 0 6px}
 .toast.erro{border-color:rgba(242,85,90,.5)}
 
 /* nova oferta */
@@ -301,6 +318,10 @@ textarea.in{resize:vertical;min-height:64px}
 
 <script>
 const I = {
+  editar:'<path d="M12 20h9"/><path d="M16.4 3.6a2 2 0 0 1 2.9 2.9L7.5 18.3 3 19.5l1.2-4.5z"/>',
+  lixeira:'<path d="M3 6h18"/><path d="M8 6V4h8v2"/><path d="M19 6l-1 14H6L5 6"/><path d="M10 11v6M14 11v6"/>',
+  lixo:'<path d="M3 6h18"/><path d="M8 6V4h8v2"/><path d="M19 6l-1 14H6L5 6"/><path d="M10 11v6M14 11v6"/>',
+  copiar:'<rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1"/>',
   relogio:'<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',
   inicio:'<path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V21h14V9.5"/>',
   revisar:'<path d="M22 12h-6l-2 3h-4l-2-3H2"/><path d="M5.5 5.1 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.5-6.9A2 2 0 0 0 16.7 4H7.3a2 2 0 0 0-1.8 1.1z"/>',
@@ -316,7 +337,7 @@ const I = {
 };
 const ic = (n, s=17) => `<svg width="${s}" height="${s}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">${I[n]}</svg>`;
 const PAGINAS = [
-  ['inicio','Início'],['revisar','Revisar'],['fila','Fila'],['nova','Nova oferta'],['stories','Stories'],['historico','Histórico'],['links','Links']
+  ['inicio','Início'],['revisar','Revisar'],['fila','Fila'],['nova','Nova oferta'],['stories','Stories'],['historico','Histórico'],['lixeira','Lixeira'],['links','Links']
 ];
 const LOJAS = {amazon:'Amazon', mercadolivre:'Mercado Livre', shopee:'Shopee'};
 let E = null, pagina = 'inicio', nova = {texto:'', res:null, item:null};
@@ -337,7 +358,8 @@ const offDe = x => (x.de && x.por && x.de > x.por) ? Math.round((1 - x.por/x.de)
 const SI = {"amazon": "<path fill=\"currentColor\" d=\"M.045 18.02q.107-.174.348-.022q5.455 3.165 11.87 3.166q4.278-.001 8.447-1.595l.315-.14c.138-.06.234-.1.293-.13c.226-.088.39-.046.525.13c.12.174.09.336-.12.48c-.256.19-.6.41-1.006.654q-1.867 1.113-4.185 1.726a17.6 17.6 0 0 1-10.951-.577a17.9 17.9 0 0 1-5.43-3.35q-.15-.113-.151-.22c0-.047.021-.09.051-.13zm6.565-6.218q0-1.507.743-2.577c.495-.71 1.17-1.25 2.04-1.615c.796-.335 1.756-.575 2.912-.72c.39-.046 1.033-.103 1.92-.174v-.37c0-.93-.105-1.558-.3-1.875c-.302-.43-.78-.65-1.44-.65h-.182c-.48.046-.896.196-1.246.46c-.35.27-.575.63-.675 1.096c-.06.3-.206.465-.435.51l-2.52-.315c-.248-.06-.372-.18-.372-.39c0-.046.007-.09.022-.15q.372-1.935 1.82-2.88c.976-.616 2.1-.975 3.39-1.05h.54c1.65 0 2.957.434 3.888 1.29c.135.15.27.3.405.48c.12.165.224.314.283.45c.075.134.15.33.195.57c.06.254.105.42.135.51c.03.104.062.3.076.615c.01.313.02.493.02.553v5.28c0 .376.06.72.165 1.036q.157.471.315.674l.51.674q.136.204.136.36q0 .181-.18.314c-1.2 1.05-1.86 1.62-1.963 1.71q-.247.203-.63.045a6 6 0 0 1-.526-.496l-.31-.347a9 9 0 0 1-.317-.42l-.3-.435c-.81.886-1.603 1.44-2.4 1.665c-.494.15-1.093.227-1.83.227c-1.11 0-2.04-.343-2.76-1.034c-.72-.69-1.08-1.665-1.08-2.94l-.05-.076zm3.753-.438q-.001.848.425 1.364c.285.34.675.512 1.155.512c.045 0 .106-.007.195-.02c.09-.016.134-.023.166-.023c.614-.16 1.08-.553 1.424-1.178c.165-.28.285-.58.36-.91c.09-.32.12-.59.135-.8c.015-.195.015-.54.015-1.005v-.54c-.84 0-1.484.06-1.92.18c-1.275.36-1.92 1.17-1.92 2.43l-.035-.02zm9.162 7.027c.03-.06.075-.11.132-.17q.544-.365 1.05-.5a8 8 0 0 1 1.612-.24c.14-.012.28 0 .41.03c.65.06 1.05.168 1.172.33c.063.09.099.228.099.39v.15c0 .51-.149 1.11-.424 1.8q-.418 1.034-1.156 1.68q-.11.09-.197.09c-.03 0-.06 0-.09-.012c-.09-.044-.107-.12-.064-.24c.54-1.26.806-2.143.806-2.64c0-.15-.03-.27-.087-.344c-.145-.166-.55-.257-1.224-.257q-.364 0-.87.046c-.363.045-.7.09-1 .135q-.134 0-.18-.044c-.03-.03-.036-.047-.02-.077c0-.017.006-.03.02-.063v-.06z\"/>", "github": "<path fill=\"currentColor\" d=\"M12 .297c-6.63 0-12 5.373-12 12c0 5.303 3.438 9.8 8.205 11.385c.6.113.82-.258.82-.577c0-.285-.01-1.04-.015-2.04c-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729c1.205.084 1.838 1.236 1.838 1.236c1.07 1.835 2.809 1.305 3.495.998c.108-.776.417-1.305.76-1.605c-2.665-.3-5.466-1.332-5.466-5.93c0-1.31.465-2.38 1.235-3.22c-.135-.303-.54-1.523.105-3.176c0 0 1.005-.322 3.3 1.23c.96-.267 1.98-.399 3-.405c1.02.006 2.04.138 3 .405c2.28-1.552 3.285-1.23 3.285-1.23c.645 1.653.24 2.873.12 3.176c.765.84 1.23 1.91 1.23 3.22c0 4.61-2.805 5.625-5.475 5.92c.42.36.81 1.096.81 2.22c0 1.606-.015 2.896-.015 3.286c0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12\"/>", "render": "<path fill=\"currentColor\" d=\"M18.263.007c-3.121-.147-5.744 2.109-6.192 5.082c-.018.138-.045.272-.067.405c-.696 3.703-3.936 6.507-7.827 6.507a7.9 7.9 0 0 1-3.825-.979a.202.202 0 0 0-.302.178V24H12v-8.999c0-1.656 1.338-3 2.987-3h2.988c3.382 0 6.103-2.817 5.97-6.244c-.12-3.084-2.61-5.603-5.682-5.75\"/>"};
 const svgSI = (n, cor) => `<svg viewBox="0 0 24 24" style="color:${cor||'#111'}">${SI[n]}</svg>`;
 const logoImg = n => `<img src="/painel/logo/${n}" alt="">`;
-const marca = l => `<span class="mk ${LOJAS[l] ? '' : 'outra'}">${l === 'amazon' ? svgSI('amazon') : LOJAS[l] ? logoImg(l) : ''}</span>`;
+const marca = l => l === 'tg' ? `<span class="mk">${logoImg('telegram')}</span>`
+  : `<span class="mk ${LOJAS[l] ? '' : 'outra'}">${l === 'amazon' ? svgSI('amazon') : LOJAS[l] ? logoImg(l) : ''}</span>`;
 const loja = l => `<span class="loja">${marca(l)}${esc(LOJAS[l] || 'Outra loja')}</span>`;
 const foto = (x, pos) => x.foto
   ? `<div class="ph">${pos ? `<span class="pos">${pos}</span>` : ''}<img src="${esc(x.foto)}" loading="lazy" alt="" onerror="this.parentNode.classList.add('none');this.src='/painel/logo/leao';this.onerror=null"></div>`
@@ -399,9 +421,11 @@ async function fazer(btn, acao, id, dados, depois){
   let r = {};
   try { r = await api(acao, id, dados); } catch(e) { r = {erro:'Sem conexão com o servidor.'}; }
   if (btn) { btn.disabled = false; btn.innerHTML = antes; }
-  if (r.erro) toast(r.erro, true); else if (r.ok) toast(r.ok);
+  const desfaz = !r.erro && ['rev_descartar', 'fila_remover', 'rev_descartar_tudo'].includes(acao);
+  if (r.erro) toast(r.erro, true); else if (r.ok && !desfaz) toast(r.ok);
   if (!r.erro && depois) depois(r);
   if (!r.erro && acao !== 'ia' && acao !== 'ler_link' && acao !== 'foto') await carregar();
+  if (desfaz) toastDesfazer(r.ok.replace(' Dá para desfazer na Lixeira.', ''), acao === 'rev_descartar_tudo');
   return r;
 }
 
@@ -412,7 +436,7 @@ function desenharNav(){
   const conta = {revisar: E.revisar.length, fila: E.fila.length};
   document.getElementById('nav').innerHTML = PAGINAS.map(([k,t]) =>
     `<a class="${pagina===k?'on':''}" onclick="ir('${k}')">${ic(k)}${t}${conta[k] ? `<span class="badge ${k==='fila'?'mute':''}">${conta[k]}</span>` : ''}</a>`).join('');
-  document.getElementById('tabbar').innerHTML = PAGINAS.filter(p => p[0] !== 'historico').map(([k,t]) =>
+  document.getElementById('tabbar').innerHTML = PAGINAS.filter(p => p[0] !== 'historico' && p[0] !== 'lixeira').map(([k,t]) =>
     `<a class="${pagina===k?'on':''}" onclick="ir('${k}')">${ic(k,20)}${t.replace(' oferta','')}${k==='revisar' && conta[k] ? `<span class="badge">${conta[k]}</span>` : ''}</a>`).join('');
   const r = E.radar;
   document.getElementById('radarbox').innerHTML = `<div class="t"><span class="dot ${r.pausado?'off':''}"></span>Radar ${r.pausado?'pausado':'ligado'}</div>
@@ -425,7 +449,7 @@ function desenhar(){
   const m = document.getElementById('main');
   if (pagina === 'nova' && m.dataset.p === 'nova' && document.getElementById('nova-ed')) return; // não apaga o que você está montando
   m.dataset.p = pagina;
-  m.innerHTML = ({inicio, revisar, fila, nova: novaPag, stories, historico, links}[pagina] || inicio)();
+  m.innerHTML = ({inicio, revisar, fila, nova: novaPag, stories, historico, lixeira, links}[pagina] || inicio)();
   if (pagina === 'nova') ligarNova();
 }
 const topo = (t, s, acts='') => `<div class="top"><div><h1>${t}</h1>${s ? `<p>${s}</p>` : ''}</div><div class="acts">${acts}</div></div>`;
@@ -474,7 +498,9 @@ function inicio(){
 function revisar(){
   const prontas = E.revisar.filter(x => !x.falta.length).length;
   return topo('Revisar', 'Ofertas do radar e links que você mandou, as mais recentes primeiro. Só vai para a fila o que você aprovar.',
-      prontas > 1 ? `<button class="btn gold" onclick="fazer(this,'rev_aprovar_tudo')">Aprovar as ${prontas} completas</button>` : '')
+      `<button class="btn ghost" onclick="ir('lixeira')">${ic('lixeira',16)}Lixeira${E.lixeira.length ? ` (${E.lixeira.length})` : ''}</button>`
+      + (E.revisar.length > 1 ? `<button class="btn bad" onclick="confirmar('Descartar todas as ${E.revisar.length}?', 'Elas vão para a Lixeira, e dá para trazer de volta.', 'Descartar todas', () => fazer(null,'rev_descartar_tudo'))">Descartar todas</button>` : '')
+      + (prontas > 1 ? `<button class="btn gold" onclick="fazer(this,'rev_aprovar_tudo')">Aprovar as ${prontas} completas</button>` : ''))
     + (E.revisar.length ? `<div class="list">${E.revisar.map(cardRevisao).join('')}</div>`
       : `<div class="vazio-box"><b>Nada para revisar</b>Quando o radar achar algo do nicho, aparece aqui (e no seu Telegram).</div>`);
 }
@@ -490,21 +516,36 @@ function cardRevisao(x){
   if (x.foto_origem === 'canal') tags.push('<span class="tag warn">foto do canal</span>');
   if (x.aviso_preco) tags.push('<span class="tag warn">confira o preço</span>');
   const conferir = x.link_produto || x.link;
-  return `<div class="of" ${x.url ? `data-url="${esc(x.url)}"` : ''}>${foto(x)}
+  const nomeLoja = LOJAS[x.loja] || 'loja';
+  return `<div class="of" data-edit="revisar" data-id="${esc(x.id)}" title="Clique para revisar">${foto(x)}
     <div style="min-width:0"><div class="meta">${loja(x.loja)}${tags.join('')}</div>
-      ${x.titulo ? `<div class="tit">${esc(x.titulo)}</div>` : ''}<div class="nm">${esc(x.nome || x.link)}</div>${precoHTML(x)}
-${x.url ? `<div class="abrir" style="margin-top:4px">${ic('link',13)}abrir produto</div>` : ''}</div>
+      ${x.titulo ? `<div class="tit">${esc(x.titulo)}</div>` : ''}<div class="nm">${esc(x.nome || x.link)}</div>${precoHTML(x)}</div>
     <div class="side-acts">
-      <button class="btn gold sm" ${x.falta.length ? 'disabled title="Complete pelo Editar"' : ''} onclick="fazer(this,'rev_aprovar','${x.id}')">Aprovar</button>
-      <div class="row"><button class="btn sm" onclick="editar('revisar','${x.id}')">Editar</button>
-      <a class="btn sm icon" href="${esc(conferir)}" target="_blank" rel="noopener" title="Conferir na loja">${ic('link',15)}</a>
-      <button class="btn sm bad" onclick="fazer(this,'rev_descartar','${x.id}')">Descartar</button></div>
+      <button class="btn gold sm" ${x.falta.length ? 'disabled title="Complete pelo editor"' : ''} onclick="fazer(this,'rev_aprovar','${x.id}')">Aprovar</button>
+      <div class="ibar">
+        <button class="ib" title="Editar" onclick="editar('revisar','${x.id}')">${ic('editar',16)}</button>
+        <a class="ib ${x.post_origem ? '' : 'off'}" ${x.post_origem ? `href="${esc(x.post_origem)}"` : ''} target="_blank" rel="noopener" title="Ver o post original no Telegram">${marca('tg')}</a>
+        <a class="ib ${conferir ? '' : 'off'}" href="${esc(conferir)}" target="_blank" rel="noopener" title="Ver o produto na ${esc(nomeLoja)}">${marca(x.loja)}</a>
+        <button class="ib bad" title="Descartar" onclick="fazer(this,'rev_descartar','${x.id}')">${ic('lixo',16)}</button>
+      </div>
     </div></div>`;
+}
+
+/* -------- lixeira -------- */
+function lixeira(){
+  return topo('Lixeira', 'O que você descartou da revisão ou tirou da fila (as 40 últimas). Restaure para trazer de volta.')
+    + (E.lixeira.length ? `<div class="list">${E.lixeira.map(x => `<div class="of" ${x.url ? `data-url="${esc(x.url)}"` : ''}>${foto(x)}
+      <div style="min-width:0"><div class="meta">${loja(x.loja)}<span>${x.removido_de === 'fila' ? 'tirada da fila' : 'descartada da revisão'} ${quando(x.removido_em)}</span></div>
+        ${x.titulo ? `<div class="tit">${esc(x.titulo)}</div>` : ''}<div class="nm">${esc(x.nome || x.link)}</div>${x.por ? precoHTML(x) : ''}</div>
+      <div class="side-acts"><button class="btn gold sm" onclick="fazer(this,'lixeira_restaurar',${esc(JSON.stringify(x.id))})">Restaurar ${x.removido_de === 'fila' ? 'na fila' : 'em Revisar'}</button></div>
+    </div>`).join('')}</div>`
+      : `<div class="vazio-box"><b>Lixeira vazia</b>O que você descartar ou tirar da fila fica guardado aqui para desfazer.</div>`);
 }
 
 /* -------- fila -------- */
 function fila(){
-  return topo('Fila', 'Sai uma por horário, nesta ordem. Use as setas para mudar a ordem.')
+  return topo('Fila', 'Sai uma por horário, nesta ordem. Use as setas para mudar a ordem.',
+      `<button class="btn ghost" onclick="ir('lixeira')">${ic('lixeira',16)}Lixeira${E.lixeira.length ? ` (${E.lixeira.length})` : ''}</button>`)
     + (E.fila.length ? `<div class="list">${E.fila.map(cardFila).join('')}</div>`
       : `<div class="vazio-box"><b>Fila vazia</b>Aprove ofertas em Revisar ou cole um link em Nova oferta.</div>`);
 }
@@ -555,6 +596,24 @@ function fecharTudo(){
   ED = null;
 }
 
+/* Atalho para gerar o seu link de afiliado: copia o link do produto e abre o gerador da loja. */
+const GERADOR = {
+  shopee: ['Shopee', 'https://affiliate.shopee.com.br/offer/custom_link', 'Cole em "Link personalizado", gere e cole o seu link aqui embaixo.'],
+  mercadolivre: ['Mercado Livre', 'https://www.mercadolivre.com.br/afiliados', 'Gere o link no painel de afiliados e cole aqui embaixo.'],
+};
+function gerarLinkHTML(x){
+  const g = GERADOR[x.loja];
+  if (!g || !(x.precisa_link || x.loja === 'shopee') || !(x.link_produto || x.url)) return '';
+  return `<div class="gerar">${marca(x.loja)}<p><b style="color:var(--tx)">Gerar meu link na ${g[0]}</b><br>O botão copia o link do produto e abre o gerador. ${g[2]}</p>
+    <button class="btn gold sm" onclick="gerarLink('${x.loja}', ${esc(JSON.stringify(x.link_produto || x.url))})">${ic('copiar',15)}Copiar e abrir</button></div>`;
+}
+async function gerarLink(lojaId, url){
+  let ok = true;
+  try { await navigator.clipboard.writeText(url); } catch { ok = false; }
+  window.open(GERADOR[lojaId][1], '_blank', 'noopener');
+  if (ok) toast('Link do produto copiado. Cole no gerador.');
+  else prompt('Copie o link do produto:', url);
+}
 function editorHTML(x, p){
   return `<div class="ed"><div class="f">
     <div id="${p}-alerta"></div>
@@ -570,7 +629,7 @@ function editorHTML(x, p){
       <div class="fl" id="${p}-semprime-w" style="${x.prime?'':'display:none'}"><label>Preço sem Prime</label><input class="in" id="${p}-sem_prime" inputmode="decimal" value="${num(x.sem_prime)}" placeholder="opcional"></div>
     </div>
     <div class="fl"><label>Cupom ${x.cupom_loja && !x.cupom ? `<span>${esc(x.cupom_loja)}</span>` : ''}</label><input class="in" id="${p}-cupom" value="${esc(x.cupom)}" placeholder="opcional"></div>
-    <div class="fl"><label>Seu link de afiliado ${x.link_produto ? `<a href="${esc(x.link_produto)}" target="_blank" rel="noopener" style="color:var(--gold2)">abrir produto</a>` : ''}</label><input class="in" id="${p}-link" value="${esc(x.link)}" placeholder="https://..."></div>
+    <div class="fl"><label>Seu link de afiliado <span class="atalhos">${(x.link_produto || x.url) ? `<a href="${esc(x.link_produto || x.url)}" target="_blank" rel="noopener">${marca(x.loja)}abrir produto</a>` : ''}${x.post_origem ? `<a href="${esc(x.post_origem)}" target="_blank" rel="noopener">${marca('tg')}post original</a>` : ''}</span></label><input class="in" id="${p}-link" value="${esc(x.link)}" placeholder="https://...">${gerarLinkHTML(x)}</div>
     <div class="fl"><label>Foto</label><div class="fotoed"><span id="${p}-fotoph">${foto(x)}</span>
       <div style="display:flex;gap:6px;flex-wrap:wrap"><button class="btn sm" onclick="escolherFoto('${p}')">${ic('foto',15)}Enviar foto</button>
       <button class="btn sm ghost" onclick="colarFotoURL('${p}')">Usar endereço de imagem</button>
@@ -910,6 +969,19 @@ function fecharRadar(){ document.getElementById('modal').classList.remove('on');
 
 /* -------- avisos -------- */
 let tt = null;
+function toastDesfazer(msg, varios){
+  const t = document.getElementById('toast');
+  t.innerHTML = `<span>${esc(msg)}</span>` + (varios
+    ? `<button onclick="ir('lixeira')">Ver na Lixeira</button>`
+    : `<button onclick="desfazerUltimo(this)">Desfazer</button>`);
+  t.className = 'toast on';
+  clearTimeout(tt); tt = setTimeout(() => t.className = 'toast', 7000);
+}
+function desfazerUltimo(btn){
+  const x = E.lixeira && E.lixeira[0];
+  document.getElementById('toast').className = 'toast';
+  if (x) fazer(null, 'lixeira_restaurar', x.id);
+}
 function toast(msg, erro){
   const t = document.getElementById('toast');
   t.textContent = msg; t.className = 'toast on' + (erro ? ' erro' : '');
@@ -929,6 +1001,8 @@ function confirmarP(titulo, texto, botao){
 async function confirmar(titulo, texto, botao, acao){ if (await confirmarP(titulo, texto, botao)) acao(null); }
 document.addEventListener('keydown', e => { if (e.key === 'Escape') fecharTudo(); });
 document.addEventListener('click', e => {
+  const ed = e.target.closest('[data-edit]');
+  if (ed && !e.target.closest('button,a,input,textarea,label,select')) return editar(ed.dataset.edit, ed.dataset.id);
   const c = e.target.closest('[data-url]');
   if (!c || e.target.closest('button,a,input,textarea,label,select')) return;
   window.open(c.dataset.url, '_blank', 'noopener');

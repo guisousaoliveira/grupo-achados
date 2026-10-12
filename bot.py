@@ -889,6 +889,13 @@ def aplicar_correcao(item, texto):
                 item.pop("cupom_loja", None)
 
 
+def pra_lixeira(estado, item, de):
+    """Guarda o que foi descartado ou tirado da fila (os 40 últimos), para dar para desfazer pelo painel."""
+    copia = {k: v for k, v in item.items() if k != "msg_id"}
+    copia["removido_em"], copia["removido_de"] = agora().isoformat(timespec="seconds"), de
+    estado["lixeira"] = ([copia] + estado.get("lixeira", []))[:40]
+
+
 def aprovar(estado, item):
     estado["revisar"] = [x for x in estado["revisar"] if x["id"] != item["id"]]
     if any(x["chave"] == item["chave"] for x in estado["fila"]):
@@ -943,6 +950,7 @@ def botao_validade(estado, acao, ident):
         item.pop("aviso_validade", None)
         return f"✅ Mantida na fila. Se não sair antes, pergunto de novo em {CONFIG.get('validade_horas', 12)} horas."
     estado["fila"] = [x for x in estado["fila"] if x is not item]
+    pra_lixeira(estado, item, "fila")
     return f"🗑️ Removida da fila. Fila: {len(estado['fila'])}."
 
 
@@ -984,6 +992,7 @@ def tratar_botao(estado, cb):
         resultado = f"Ainda falta: {', '.join(falta)}." if falta else aprovar(estado, item)
     else:
         estado["revisar"] = [x for x in estado["revisar"] if x["id"] != item["id"]]
+        pra_lixeira(estado, item, "revisar")
         resultado = "❌ Descartada."
     try:
         telegram("editMessageReplyMarkup", chat_id=msg["chat"]["id"], message_id=msg["message_id"],
@@ -1178,6 +1187,7 @@ def tratar_comando(estado, texto, foto=None):
         try:
             n = int(texto.split()[1])
             tirado = estado["fila"].pop(n - 1)
+            pra_lixeira(estado, tirado, "fila")
             responder_admin(f"Tirei da fila: {html.escape(tirado['nome'])}")
         except (IndexError, ValueError):
             responder_admin("Use assim: /remover 2 (o número que aparece no /fila)")

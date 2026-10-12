@@ -26,7 +26,7 @@ ARQ_HTML = bot.PASTA / "painel.html"
 COOKIE = "painel"
 LOJAS = {"amazon": "Amazon", "mercadolivre": "Mercado Livre", "shopee": "Shopee"}
 CAMPOS = ("nome", "de", "por", "prime", "sem_prime", "cupom", "cupom_loja", "frase", "link", "link_produto",
-          "loja", "origem", "foto_origem", "aprovado_em", "aviso_validade", "ler_depois", "precisa_link", "chave", "aviso_preco", "titulo", "pix", "garimpado_em", "post_origem", "link_canal")
+          "loja", "origem", "foto_origem", "aprovado_em", "aviso_validade", "ler_depois", "precisa_link", "chave", "aviso_preco", "titulo", "pix", "garimpado_em", "post_origem", "link_canal", "removido_em", "removido_de")
 
 _fotos = {}  # cache das fotos do Telegram (file_id -> bytes), para a tela abrir rápido
 
@@ -119,6 +119,10 @@ def url_produto(x):
     return ""
 
 
+def id_lixeira(x):
+    return f"{x.get('chave', '')}@{x.get('removido_em', '')}"
+
+
 def item_json(x, ident):
     d = {k: x.get(k) for k in CAMPOS if x.get(k) not in (None, "", False)}
     d["id"] = ident
@@ -171,6 +175,7 @@ def resumo(estado):
         "fila": fila,
         "revisar": [item_json(x, str(x["id"])) for x in sorted(estado["revisar"], key=lambda x: x["id"], reverse=True)],
         "ultimos": [item_json(x, bot.id_story(x)) for x in estado.get("ultimos", [])],
+        "lixeira": [item_json(x, id_lixeira(x)) for x in estado.get("lixeira", [])],
         "postados": [{**p, "url": url_produto(p)} for p in reversed(estado["postados"][-300:])],
         "canais_radar": [c.strip().replace("https://t.me/", "").replace("@", "").strip("/")
                          for c in cfg_radar.get("canais", [])],
@@ -425,8 +430,9 @@ def acao(corpo):
                 return
             if a == "rev_descartar":
                 estado["revisar"] = [x for x in revisar if x is not em_revisao]
+                bot.pra_lixeira(estado, em_revisao, "revisar")
                 depois.append(lambda m=em_revisao.get("msg_id"): tirar_botoes(m))
-                saida["ok"] = "Descartada."
+                saida["ok"] = "Descartada. Dá para desfazer na Lixeira."
                 return
             aplicar_campos(em_revisao, d)
             if a == "rev_salvar":
@@ -438,6 +444,35 @@ def acao(corpo):
                 return
             depois.append(lambda m=em_revisao.get("msg_id"): tirar_botoes(m))
             saida["ok"] = bot.aprovar(estado, em_revisao).replace("✅ ", "")
+        elif a == "rev_descartar_tudo":
+            for x in revisar:
+                bot.pra_lixeira(estado, x, "revisar")
+                depois.append(lambda m=x.get("msg_id"): tirar_botoes(m))
+            saida["ok"] = f"Descartei {len(revisar)} oferta(s). Dá para desfazer na Lixeira."
+            estado["revisar"] = []
+        elif a == "lixeira_restaurar":
+            lixo = next((x for x in estado.get("lixeira", []) if id_lixeira(x) == ident), None)
+            if not lixo:
+                saida["erro"] = "Esse item não está mais na lixeira."
+                return
+            estado["lixeira"] = [x for x in estado["lixeira"] if x is not lixo]
+            item = {k: v for k, v in lixo.items() if k not in ("removido_em", "removido_de", "id")}
+            if lixo.get("removido_de") == "fila":
+                if any(x["chave"] == item["chave"] for x in fila):
+                    saida["erro"] = "Esse produto já está na fila."
+                    return
+                item["aprovado_em"] = bot.agora().isoformat(timespec="minutes")
+                item.pop("aviso_validade", None)
+                fila.append(item)
+                saida["ok"] = f"Voltou para a fila, posição {len(fila)}."
+            else:
+                if not feito.get("revisao"):  # manda de novo para o Telegram, para dar para responder lá também
+                    bot.mandar_para_revisao(estado, item)
+                    feito["revisao"] = item
+                else:
+                    estado["revisar"].append(feito["revisao"])
+                    estado["proximo_id"] = max(estado["proximo_id"], feito["revisao"]["id"] + 1)
+                saida["ok"] = "Voltou para Revisar."
         elif a == "rev_aprovar_tudo":
             prontos = [x for x in revisar if not bot.faltando(x)]
             for x in prontos:
@@ -453,7 +488,8 @@ def acao(corpo):
                 saida["ok"] = "Salvo."
             elif a == "fila_remover":
                 estado["fila"] = [x for x in fila if x is not na_fila]
-                saida["ok"] = "Removida da fila."
+                bot.pra_lixeira(estado, na_fila, "fila")
+                saida["ok"] = "Removida da fila. Dá para desfazer na Lixeira."
             elif a == "fila_manter":
                 na_fila["aprovado_em"] = bot.agora().isoformat(timespec="minutes")
                 na_fila.pop("aviso_validade", None)
