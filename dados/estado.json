@@ -1,6 +1,17 @@
 {
   "offset_telegram": 217357892,
-  "fila": [],
+  "fila": [
+    {
+      "loja": "mercadolivre",
+      "link": "https://meli.la/2gQcEJF",
+      "por": 48.93,
+      "de": 69.9,
+      "nome": "Bolsa Térmica Mochila Marmita Grande Cooler Impermeável",
+      "foto": "AgACAgQAAxkDAANPasxCZO5yKgXGySWYZISpSps9d-EAAicPaxt2C81RfaoV6Zo9JbQBAAMCAAN4AAM9BA",
+      "chave": "mercadolivre:https://meli.la/2gQcEJF",
+      "frase": "Preço bom assim não dura, corre!"
+    }
+  ],
   "postados": [
     {
       "chave": "mercadolivre:https://meli.la/168a1Y6",
@@ -54,18 +65,6 @@
       "frase": "Achado do dia, aproveita antes de acabar.",
       "id": 1,
       "msg_id": 11
-    },
-    {
-      "loja": "mercadolivre",
-      "link": "https://meli.la/2gQcEJF",
-      "por": 48.93,
-      "de": 69.9,
-      "nome": "Bolsa Térmica Mochila Marmita Grande Cooler Impermeável",
-      "foto": "AgACAgQAAxkDAANPasxCZO5yKgXGySWYZISpSps9d-EAAicPaxt2C81RfaoV6Zo9JbQBAAMCAAN4AAM9BA",
-      "chave": "mercadolivre:https://meli.la/2gQcEJF",
-      "frase": "Preço bom assim não dura, corre!",
-      "id": 15,
-      "msg_id": 79
     }
   ],
   "proximo_id": 16,
