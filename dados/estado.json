@@ -355,24 +355,42 @@
       "titulo": "Achado do dia, aproveita antes de acabar.",
       "id": 47,
       "msg_id": 153
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB76427437",
+      "origem": "xetdaspromocoes",
+      "link": "https://www.mercadolivre.com.br/lanterna-tatica-recarregavel-atualizada-led-visor-digital-zoom-telescopico-abs-3-modos-iluminacao-usb-display-digital-zoom-potente-alta-potencia-commlite/p/MLB76427437?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/lanterna-tatica-recarregavel-atualizada-led-visor-digital-zoom-telescopico-abs-3-modos-iluminacao-usb-display-digital-zoom-potente-alta-potencia-commlite/p/MLB76427437",
+      "post_origem": "https://t.me/xetdaspromocoes/84477",
+      "link_canal": "https://meli.la/2KsVn1P",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_833234-MLA116884183450_092026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Lanterna Tática Recarregável Atualizada Led Visor Digital Zoom",
+      "de": 57.0,
+      "por": 19.0,
+      "titulo": "67% off, isso aqui não fica muito tempo assim.",
+      "id": 50,
+      "garimpado_em": "2026-10-12T12:55-03:00",
+      "msg_id": 160
     }
   ],
-  "proximo_id": 50,
+  "proximo_id": 51,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84475,
+      "xetdaspromocoes": 84477,
       "lobaopromo": 188477,
       "gatunopromos": 124874,
       "pobregram": 41764,
       "urubupromo": 41569,
       "tudonapromo": 101603,
-      "promonocontext": 125893,
+      "promonocontext": 125905,
       "promooeasy": 220089,
       "aquitempechincha": 281072,
-      "infoBRpromos": 67410
+      "infoBRpromos": 67411
     },
     "dia": "2026-10-12",
-    "hoje": 20,
+    "hoje": 21,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -401,22 +419,24 @@
       "amazon:B0HCQYG4NM",
       "amazon:B0B8PGDMWK",
       "mercadolivre:MLB42978348",
-      "mercadolivre:MLB67893601"
+      "mercadolivre:MLB67893601",
+      "mercadolivre:MLB76427437"
     ],
     "ultima": {
-      "em": "2026-10-12T12:50:20-03:00",
+      "em": "2026-10-12T12:55:15-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 10,
       "lidos": 10,
       "falhas": [],
-      "posts_novos": 6,
-      "do_nicho": 0,
-      "repetidas": 0,
-      "novas": 0,
-      "limite_dia": true,
-      "limite_rodada": false
-    }
+      "posts_novos": 15,
+      "do_nicho": 2,
+      "repetidas": 1,
+      "novas": 1,
+      "limite_dia": false
+    },
+    "hora": "2026-10-12T12",
+    "nesta_hora": 1
   },
   "ultimos": [
     {
