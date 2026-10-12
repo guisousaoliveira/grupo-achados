@@ -150,13 +150,13 @@
   "radar": {
     "visto": {
       "xetdaspromocoes": 84418,
-      "lobaopromo": 188391,
+      "lobaopromo": 188392,
       "gatunopromos": 124827,
       "pobregram": 41740,
       "urubupromo": 41551,
       "tudonapromo": 101548,
       "promonocontext": 125768,
-      "promooeasy": 219957,
+      "promooeasy": 219961,
       "aquitempechincha": 280933,
       "infoBRpromos": 67374
     },
@@ -175,7 +175,6 @@
       "shopee:1083800536.58216638809",
       "mercadolivre:MLB54026101"
     ],
-    "pausado": true,
     "ultima": {
       "em": "2026-10-12T05:54:31-03:00",
       "pedido": "9921daeed6",
