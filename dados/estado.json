@@ -515,26 +515,6 @@
   "revisar": [
     {
       "loja": "amazon",
-      "chave": "amazon:B09QL7J9Q8",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B09QL7J9Q8?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B09QL7J9Q8?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/camera-eos-t7-com-lente-ef-s-18-55-3109152/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3109152/",
-      "nome": "CÂMERA EOS T7+ COM LENTE EF-S 18-55",
-      "por": 3003.43,
-      "de": 3599.0,
-      "foto": "AgACAgQAAxkDAAP3as1WJcXqTkVWKOyznE1tPUQfZEkAAncPaxvRXWxSbOj-cFYwvgYBAAMCAAN4AAM9BA",
-      "foto_origem": "loja",
-      "titulo": "Câmera Canon EOS T7 com 17% off",
-      "id": 111,
-      "garimpado_em": "2026-10-12T18:50-03:00",
-      "na_revisao_desde": "2026-10-12T18:50-03:00",
-      "msg_id": 247
-    },
-    {
-      "loja": "amazon",
       "chave": "amazon:B0DT4DHZ6R",
       "origem": "promobit",
       "fonte": "promobit",
@@ -946,6 +926,27 @@
   ],
   "lixeira": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B09QL7J9Q8",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B09QL7J9Q8?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B09QL7J9Q8?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/camera-eos-t7-com-lente-ef-s-18-55-3109152/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3109152/",
+      "nome": "CÂMERA EOS T7+ COM LENTE EF-S 18-55",
+      "por": 3003.43,
+      "de": 3599.0,
+      "foto": "AgACAgQAAxkDAAP3as1WJcXqTkVWKOyznE1tPUQfZEkAAncPaxvRXWxSbOj-cFYwvgYBAAMCAAN4AAM9BA",
+      "foto_origem": "loja",
+      "titulo": "Câmera Canon EOS T7 com 17% off",
+      "id": 111,
+      "garimpado_em": "2026-10-12T18:50-03:00",
+      "na_revisao_desde": "2026-10-12T18:50-03:00",
+      "removido_em": "2026-10-12T19:36:01-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB5088391500",
       "origem": "lobaopromo",
@@ -1323,7 +1324,7 @@
       "promobit": {
         "achados": 21,
         "aprovados": 8,
-        "reprovados": 11
+        "reprovados": 12
       },
       "gatunopromos": {
         "achados": 1,
