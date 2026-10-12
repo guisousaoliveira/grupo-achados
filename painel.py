@@ -188,16 +188,23 @@ def proximos_horarios(estado, n):
     """Quando cada item da fila deve sair, seguindo os horários do config e os já usados hoje."""
     dt = bot.agora()
     horarios = sorted(bot.CONFIG.get("horarios", []))
+    janela = bot.CONFIG.get("janela_minutos", 40)
+    intervalo = timedelta(minutes=bot.CONFIG.get("intervalo_minimo", 25))
+    anterior = bot._ultimo_post(estado, dt)  # o bot espera o intervalo mínimo depois do último post (igual a bot.proximo_post)
     saida = []
     for dia in range(4):
         data = (dt + timedelta(days=dia)).date()
         usados = estado["slots_usados"].get(data.isoformat(), [])
         agenda = bot.agenda_do_dia(data.isoformat())
         for h in horarios:
-            if dia == 0 and (h * 60 + agenda[h] + 40 < dt.hour * 60 + dt.minute or h in usados):
+            quando = dt.replace(hour=h, minute=agenda[h], second=0, microsecond=0) + timedelta(days=dia)
+            if dia == 0 and (quando + timedelta(minutes=janela) < dt or h in usados):
                 continue
+            if anterior:
+                quando = max(quando, anterior + intervalo)
+            anterior = quando
             rotulo = "hoje" if dia == 0 else "amanhã" if dia == 1 else data.strftime("%d/%m")
-            saida.append(f"{rotulo} {h}:{agenda[h]:02d}")
+            saida.append(f"{rotulo} {quando:%H:%M}")
             if len(saida) >= n:
                 return saida
     return saida
