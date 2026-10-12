@@ -65,6 +65,17 @@
       "cupom": "COMPRANOMELI",
       "titulo": "Preço de queima, 79% mais barato.",
       "aprovado_em": "2026-10-12T12:35-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "link": "https://meli.la/2x4uuZ1",
+      "chave": "mercadolivre:https://meli.la/2x4uuZ1",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_859161-MLA99962428017_112025-O.webp",
+      "titulo": "Whey Protein Dark Lab com desconto",
+      "nome": "Whey Isolate Protein Fuse 900g Dark Lab Sabor Chocolate",
+      "de": 129.9,
+      "por": 78.9,
+      "aprovado_em": "2026-10-12T13:34-03:00"
     }
   ],
   "postados": [
