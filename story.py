@@ -2,6 +2,7 @@
 
   story_fixo(canal)            -> PNG do story fixo de divulgação do canal
   story_oferta(item, foto)     -> PNG de "prova": oferta que já saiu no canal
+  story_venda(item, foto)      -> PNG para vender: foto, preço e vagas para os stickers de link (produto e canal)
 
 Precisa do Pillow (pip install pillow). As fontes e o leão ficam em assets/.
 """
@@ -284,4 +285,86 @@ def story_oferta(item, foto=None, canal="", frase=None, cfg=None):
     if por:
         centro(d, y - 10, f"por {reais(por)}", fonte("Playfair-Black.ttf", 104), DOURADO)
     rodape(img, d, canal, frase or random.choice(c["frases"]))
+    return png(img)
+
+
+def topo_frase(d, y, texto, largura=L - 180):
+    """Frase do topo do story de venda: caixa alta espaçada, diminui a fonte até caber (até 2 linhas)."""
+    texto = texto.upper()
+    for tam in (34, 31, 28, 26):
+        f = fonte("Inter-ExtraBold.ttf", tam)
+        esp = max(3, tam // 5)
+        if sum(d.textlength(ch, font=f) for ch in texto) + esp * len(texto) <= largura:
+            centro(d, y, texto, f, DOURADO, espaco=esp)
+            return
+    f = fonte("Inter-ExtraBold.ttf", 28)
+    for i, linha in enumerate(quebrar(d, texto, f, largura - 60, 2)):
+        centro(d, y - 6 + i * 38, linha, f, DOURADO, espaco=3)
+
+
+def vaga_sticker(d, y, w, h, legenda, dica):
+    """Legenda e um espaço tracejado onde você cola o sticker de link do Instagram."""
+    centro(d, y, legenda, fonte("Inter-ExtraBold.ttf", 30), DOURADO, espaco=4)
+    x0, y0, cor = (L - w) / 2, y + 58, (110, 92, 30)
+    for x in range(int(x0 + h / 2), int(x0 + w - h / 2), 26):
+        d.line((x, y0, x + 14, y0), fill=cor, width=3)
+        d.line((x, y0 + h, x + 14, y0 + h), fill=cor, width=3)
+    d.arc((x0, y0, x0 + h, y0 + h), 90, 270, fill=cor, width=3)
+    d.arc((x0 + w - h, y0, x0 + w, y0 + h), 270, 90, fill=cor, width=3)
+    f = fonte("Inter-Regular.ttf", 28)
+    d.text(((L - d.textlength(dica, font=f)) / 2, y0 + h / 2), dica, font=f, fill=(95, 95, 95), anchor="lm")
+    return y0 + h
+
+
+def story_venda(item, foto=None, canal="", frase=None, cfg=None):
+    """Story mais limpo, para vender: a frase sorteada vai no topo e embaixo ficam marcadas as vagas
+    para o sticker de link do produto (seu link de afiliado) e o do canal."""
+    c = config(cfg)
+    img = fundo()
+    d = ImageDraw.Draw(img)
+    lv = leao(76)
+    img.paste(lv, ((L - lv.width) // 2, 150), lv)
+    topo_frase(d, 245, frase or random.choice(c["frases"]))
+
+    cx0, cy0, cx1, cy1 = 120, 320, L - 120, 975
+    d.rounded_rectangle((cx0, cy0, cx1, cy1), radius=44, fill=(255, 255, 255))
+    if foto:
+        try:
+            f_img = Image.open(io.BytesIO(foto)).convert("RGB")
+            f_img.thumbnail((cx1 - cx0 - 90, cy1 - cy0 - 90), Image.LANCZOS)
+            img.paste(f_img, (cx0 + (cx1 - cx0 - f_img.width) // 2, cy0 + (cy1 - cy0 - f_img.height) // 2))
+        except Exception:
+            foto = None
+    if not foto:
+        d.rounded_rectangle((cx0, cy0, cx1, cy1), radius=44, fill=CARTAO, outline=(60, 50, 20), width=2)
+        lv2 = leao(360)
+        img.paste(lv2, ((L - lv2.width) // 2, cy0 + (cy1 - cy0 - lv2.height) // 2), lv2)
+    de, por = item.get("de"), item.get("por")
+    if de and por and de > por and c["mostrar_desconto"]:
+        f = fonte("Inter-ExtraBold.ttf", 50)
+        t = f"-{round((1 - por / de) * 100)}%"
+        w = d.textlength(t, font=f) + 60
+        d.rounded_rectangle((cx1 - w - 24, cy0 + 24, cx1 - 24, cy0 + 110), radius=43, fill=DOURADO)
+        d.text((cx1 - w + 6, cy0 + 67), t, font=f, fill=PRETO, anchor="lm")
+    selo_loja(img, item.get("loja", ""), cx0 + 24, cy0 + 30, 80)
+
+    f_nome = fonte("Inter-SemiBold.ttf", 44)
+    y = 1010
+    for linha in quebrar(d, item.get("nome", ""), f_nome, L - 220, 2):
+        centro(d, y, linha, f_nome, BRANCO)
+        y += 58
+    y += 18
+    if de and por and de > por and c["mostrar_de"]:
+        f_de = fonte("Inter-Regular.ttf", 38)
+        t = f"de {reais(de)}"
+        w = d.textlength(t, font=f_de)
+        x = (L - w) / 2
+        d.text((x, y), t, font=f_de, fill=CINZA)
+        d.line((x + d.textlength("de ", font=f_de), y + 25, x + w, y + 25), fill=CINZA, width=3)
+        y += 52
+    if por:
+        centro(d, y - 8, reais(por), fonte("Playfair-Black.ttf", 112), DOURADO)
+
+    fim = vaga_sticker(d, 1372, 620, 112, "▼  TOQUE PARA COMPRAR  ▼", "cole aqui o link do produto")
+    vaga_sticker(d, fim + 40, 520, 90, "MAIS ACHADOS TODO DIA NO CANAL", "cole aqui o link do canal")
     return png(img)

@@ -1000,7 +1000,7 @@ def tratar_botao(estado, cb):
     except Exception:
         pass  # clique antigo: o Telegram já não aceita resposta, mas a ação vale
     acao, _, ident = (cb.get("data") or "").partition(":")
-    if acao in ("st", "sf"):
+    if acao in ("st", "sf", "sv"):
         botao_story(estado, acao, ident)
         return
     msg = cb.get("message") or {}
@@ -1167,10 +1167,14 @@ def cmd_story(estado, texto):
                         "mande /story de novo.")
         return
     if len(partes) == 1:  # sem número: mostra as 3 últimas postadas para você escolher
-        botoes = [[{"text": f"{i}. {x.get('nome', '')[:40]}", "callback_data": "st:" + id_story(x)}]
-                  for i, x in enumerate(ultimos[:3], 1)]
+        botoes = []
+        for i, x in enumerate(ultimos[:3], 1):
+            botoes.append([{"text": f"🛒 {i}. {x.get('nome', '')[:30]}", "callback_data": "sv:" + id_story(x)},
+                           {"text": "📸 Prova", "callback_data": "st:" + id_story(x)}])
         botoes.append([{"text": "Story fixo do canal", "callback_data": "sf:"}])
-        responder_admin("De qual oferta você quer o story?", {"inline_keyboard": botoes})
+        responder_admin("De qual oferta você quer o story? 🛒 é o modelo para vender (com o link do produto e o "
+                        "do canal); 📸 Prova é o de \"saiu no canal\".",
+                        {"inline_keyboard": botoes})
         return
     try:
         item = ultimos[int(partes[1]) - 1]
@@ -1184,9 +1188,25 @@ def id_story(item):
     return hashlib.md5(item.get("chave", item.get("nome", "")).encode()).hexdigest()[:12]
 
 
-def gerar_story(story, item, canal, cfg=None):
+def gerar_story(story, item, canal, cfg=None, modelo="prova"):
+    if modelo == "venda":
+        enviar_arquivo(story.story_venda(item, baixar_foto(item.get("foto")), canal, cfg=cfg), "story_venda.png",
+                       f"Story para vender: {item.get('nome', '')}.")
+        enviar_links_story(item, canal)
+        return
     enviar_arquivo(story.story_oferta(item, baixar_foto(item.get("foto")), canal, cfg=cfg), "story_oferta.png",
                    f"Story de prova: {item.get('nome', '')}. Coloque o sticker de link do canal embaixo.")
+
+
+def enviar_links_story(item, canal):
+    """Os dois links do story de venda, prontos para copiar com um toque (no Telegram, texto em <code> copia)."""
+    loja = {"amazon": "AMAZON", "mercadolivre": "MERCADO LIVRE", "shopee": "SHOPEE"}.get(item.get("loja"), "LOJA")
+    responder_admin(
+        "No Instagram: sticker de link, cole, e em <b>Personalizar texto do sticker</b> escreva o texto sugerido.\n\n"
+        f"🛒 <b>Link do produto</b> (toque para copiar):\n<code>{html.escape(item.get('link', ''))}</code>\n"
+        f"Texto do sticker: <code>COMPRAR NA {loja}</code>\n\n"
+        f"📢 <b>Link do canal</b>:\n<code>https://t.me/{html.escape(canal)}</code>\n"
+        "Texto do sticker: <code>MAIS ACHADOS AQUI</code>")
 
 
 def botao_story(estado, acao, ident):
@@ -1194,6 +1214,7 @@ def botao_story(estado, acao, ident):
     if acao == "sf":
         cmd_story(estado, "/storyfixo")
         return
+    modelo = "venda" if acao == "sv" else "prova"
     item = next((x for x in estado.get("ultimos", []) if id_story(x) == ident), None)
     if not item:
         responder_admin("Não achei mais essa oferta. Mande /story de novo.")
@@ -1204,7 +1225,7 @@ def botao_story(estado, acao, ident):
         cmd_story(estado, "/story 1")  # mostra o aviso do Pillow
         return
     gerar_story(story, item, CONFIG.get("canal_publico", "").replace("@", "").replace("https://t.me/", ""),
-                estado.get("story_cfg"))
+                estado.get("story_cfg"), modelo)
 
 
 def tratar_comando(estado, texto, foto=None):
