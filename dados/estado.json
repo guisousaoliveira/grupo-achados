@@ -19,20 +19,6 @@
     },
     {
       "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB67893601",
-      "origem": "promonocontext",
-      "link": "https://meli.la/1rtp73o",
-      "link_produto": "https://www.mercadolivre.com.br/notebook-asus-vivobook-s-14-s5406sa-copilot-pc-intel-core-ultra-7-256-v-16gb-ram-512gb-ssd-windows-11-home-14-oled-mist-blue-qd299w/p/MLB67893601",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_842080-MLA109454435224_042026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Notebook ASUS Vivobook S 14 S5406SA Copilot+ PC Intel Core Ultra 7",
-      "de": 6999.0,
-      "por": 5683.0,
-      "pix": true,
-      "aprovado_em": "2026-10-12T13:02-03:00"
-    },
-    {
-      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB5004194280",
       "origem": "promonocontext",
       "link": "https://meli.la/1XZTvgs",
@@ -48,6 +34,20 @@
       "titulo": "Mochila tática com 63% de desconto",
       "garimpado_em": "2026-10-12T13:10-03:00",
       "aprovado_em": "2026-10-12T13:17-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB67893601",
+      "origem": "promonocontext",
+      "link": "https://meli.la/1rtp73o",
+      "link_produto": "https://www.mercadolivre.com.br/notebook-asus-vivobook-s-14-s5406sa-copilot-pc-intel-core-ultra-7-256-v-16gb-ram-512gb-ssd-windows-11-home-14-oled-mist-blue-qd299w/p/MLB67893601",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_842080-MLA109454435224_042026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Notebook ASUS Vivobook S 14 S5406SA Copilot+ PC Intel Core Ultra 7",
+      "de": 6999.0,
+      "por": 5683.0,
+      "pix": true,
+      "aprovado_em": "2026-10-12T13:02-03:00"
     },
     {
       "loja": "mercadolivre",
