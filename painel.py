@@ -103,9 +103,25 @@ def url_foto(foto):
     return "/painel/foto?f=" + urllib.parse.quote(foto)
 
 
+def url_produto(x):
+    """Endereço para abrir o produto ao clicar no card: a página do produto, ou o seu link, ou o que der pela chave."""
+    if x.get("link_produto") or x.get("link"):
+        return x.get("link_produto") or x["link"]
+    loja, _, resto = (x.get("chave") or "").partition(":")
+    if resto.startswith("http"):
+        return resto
+    if loja == "amazon" and re.fullmatch(r"[A-Z0-9]{10}", resto):
+        tag = bot.CONFIG.get("radar", {}).get("tag_amazon", "")
+        return f"https://www.amazon.com.br/dp/{resto}" + (f"?tag={tag}" if tag else "")
+    if loja == "mercadolivre" and resto.startswith("MLB"):
+        return f"https://produto.mercadolivre.com.br/MLB-{resto[3:]}"
+    return ""
+
+
 def item_json(x, ident):
     d = {k: x.get(k) for k in CAMPOS if x.get(k) not in (None, "", False)}
     d["id"] = ident
+    d["url"] = url_produto(x)
     d["foto"] = url_foto(x.get("foto"))
     d["foto_raw"] = x.get("foto") or ""
     d["falta"] = bot.faltando(x)
@@ -151,7 +167,10 @@ def resumo(estado):
         "fila": fila,
         "revisar": [item_json(x, str(x["id"])) for x in estado["revisar"]],
         "ultimos": [item_json(x, bot.id_story(x)) for x in estado.get("ultimos", [])],
-        "postados": list(reversed(estado["postados"][-300:])),
+        "postados": [{**p, "url": url_produto(p)} for p in reversed(estado["postados"][-300:])],
+        "canais_radar": [c.strip().replace("https://t.me/", "").replace("@", "").strip("/")
+                         for c in cfg_radar.get("canais", [])],
+        "tag_amazon": cfg_radar.get("tag_amazon", ""),
         "radar": {
             "canais": len(cfg_radar.get("canais", [])),
             "hoje": r.get("hoje", 0) if r.get("dia") == hoje else 0,

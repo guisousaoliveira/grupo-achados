@@ -913,7 +913,8 @@ def ler_mensagens(estado):
 
 def guardar_ultimo(estado, item):
     """Guarda as últimas ofertas postadas (completas) para o /story."""
-    limpo = {k: v for k, v in item.items() if k in ("nome", "de", "por", "foto", "loja", "cupom", "prime")}
+    limpo = {k: v for k, v in item.items()
+             if k in ("nome", "de", "por", "foto", "loja", "cupom", "prime", "chave", "link", "link_produto")}
     estado["ultimos"] = ([limpo] + estado.get("ultimos", []))[:15]
 
 

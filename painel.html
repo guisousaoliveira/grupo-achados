@@ -95,6 +95,25 @@ main{min-width:0;padding:26px 34px 60px;max-width:1180px}
 .list{display:flex;flex-direction:column;gap:10px}
 .of{display:grid;grid-template-columns:92px 1fr auto;gap:14px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:12px}
 .of:hover{border-color:var(--line2)}
+[data-url]{cursor:pointer}
+.of[data-url]:hover{border-color:var(--goldln);background:#17171a}
+.of[data-url]:hover .nm{color:var(--gold2)}
+.hl[data-url]:hover .n{color:var(--gold2)}
+.abrir{display:inline-flex;align-items:center;gap:4px;color:var(--mut);font-size:12px}
+.of[data-url]:hover .abrir{color:var(--gold2)}
+/* links */
+.lgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:10px}
+.lk{display:flex;align-items:center;gap:12px;padding:12px;border-radius:12px;border:1px solid var(--line);background:#121214;text-decoration:none}
+.lk:hover{border-color:var(--goldln);background:#17171a}
+.lk .sg{width:36px;height:36px;border-radius:10px;display:grid;place-items:center;font-weight:700;font-size:12px;flex:none}
+.lk b{display:block;font-size:13.5px}.lk small{display:block;color:var(--mut);font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.lk div{min-width:0}
+.sg.amazon{background:#ff99001f;color:#ffb347}.sg.mercadolivre{background:#ffe6001a;color:#ffe600}.sg.shopee{background:#ee4d2d22;color:#ff7a5c}
+.sg.tg{background:#2aabee22;color:#5cc3f5}.sg.gh{background:#ffffff14;color:#ddd}.sg.out{background:var(--goldbg);color:var(--gold2)}
+.busca{display:flex;gap:8px;flex-wrap:wrap}.busca .in{flex:1;min-width:200px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chips a{padding:6px 10px;border-radius:99px;border:1px solid var(--line2);text-decoration:none;font-size:13px;color:var(--mut)}
+.chips a:hover{border-color:var(--gold);color:var(--tx)}
 .ph{width:92px;height:92px;border-radius:10px;background:#fff;overflow:hidden;display:grid;place-items:center;position:relative}
 .ph img{max-width:100%;max-height:100%;object-fit:contain}
 .ph.none{background:#1b1b1f;color:var(--mut2)}
@@ -220,7 +239,7 @@ textarea.in{resize:vertical;min-height:64px}
   .mob-top{display:flex;align-items:center;gap:10px;padding:12px 16px;border-bottom:1px solid var(--line);position:sticky;top:0;background:rgba(11,11,12,.92);backdrop-filter:blur(8px);z-index:20}
   .mob-top .logo{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,var(--gold2),#a8842a);display:grid;place-items:center;color:#0b0b0c;font-weight:700}
   .mob-top b{flex:1}
-  .tabbar{display:grid;grid-template-columns:repeat(5,1fr);position:fixed;left:0;right:0;bottom:0;z-index:30;background:rgba(15,15,17,.96);backdrop-filter:blur(10px);border-top:1px solid var(--line);padding:6px 4px calc(6px + env(safe-area-inset-bottom))}
+  .tabbar{display:grid;grid-template-columns:repeat(6,1fr);position:fixed;left:0;right:0;bottom:0;z-index:30;background:rgba(15,15,17,.96);backdrop-filter:blur(10px);border-top:1px solid var(--line);padding:6px 4px calc(6px + env(safe-area-inset-bottom))}
   .tabbar a{display:flex;flex-direction:column;align-items:center;gap:3px;font-size:10.5px;color:var(--mut);text-decoration:none;padding:4px 0;position:relative}
   .tabbar a.on{color:var(--gold2)}
   .tabbar .badge{position:absolute;top:-2px;left:calc(50% + 6px);min-width:17px;height:17px;font-size:10px;padding:0 4px}
@@ -269,11 +288,12 @@ const I = {
   ia:'<path d="M12 3l1.9 4.6L18.5 9.5 13.9 11.4 12 16l-1.9-4.6L5.5 9.5l4.6-1.9z"/><path d="M19 15l.8 2 2 .8-2 .8-.8 2-.8-2-2-.8 2-.8z"/>',
   radar:'<path d="M19.1 4.9A10 10 0 1 1 4.9 19.1"/><path d="M16.2 7.8a6 6 0 1 1-8.4 8.4"/><circle cx="12" cy="12" r="2"/><path d="M12 12 19 5"/>',
   link:'<path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>',
+  links:'<path d="M19 21l-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/>',
   foto:'<rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.1-3.1a2 2 0 0 0-2.8 0L6 21"/>',
 };
 const ic = (n, s=17) => `<svg width="${s}" height="${s}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">${I[n]}</svg>`;
 const PAGINAS = [
-  ['inicio','Início'],['revisar','Revisar'],['fila','Fila'],['nova','Nova oferta'],['stories','Stories'],['historico','Histórico']
+  ['inicio','Início'],['revisar','Revisar'],['fila','Fila'],['nova','Nova oferta'],['stories','Stories'],['historico','Histórico'],['links','Links']
 ];
 const LOJAS = {amazon:'Amazon', mercadolivre:'Mercado Livre', shopee:'Shopee'};
 let E = null, pagina = 'inicio', nova = {texto:'', res:null, item:null};
@@ -371,7 +391,7 @@ function desenhar(){
   const m = document.getElementById('main');
   if (pagina === 'nova' && m.dataset.p === 'nova' && document.getElementById('nova-ed')) return; // não apaga o que você está montando
   m.dataset.p = pagina;
-  m.innerHTML = ({inicio, revisar, fila, nova: novaPag, stories, historico}[pagina] || inicio)();
+  m.innerHTML = ({inicio, revisar, fila, nova: novaPag, stories, historico, links}[pagina] || inicio)();
   if (pagina === 'nova') ligarNova();
 }
 const topo = (t, s, acts='') => `<div class="top"><div><h1>${t}</h1>${s ? `<p>${s}</p>` : ''}</div><div class="acts">${acts}</div></div>`;
@@ -407,10 +427,10 @@ function inicio(){
     <div class="box"><h2>Horários de hoje<span class="r tag">um post por horário, se tiver fila</span></h2><div class="slots">${slots}</div></div>
     <div class="cols">
       <div class="box"><h2>Próximas a sair<a class="r btn sm ghost" onclick="ir('fila')">Ver fila toda</a></h2>
-        ${E.fila.length ? `<div class="list">${E.fila.slice(0,3).map((x,i) => `<div class="hl" style="padding:8px 0">${foto(x)}<div style="min-width:0;flex:1"><div class="nm" style="font-weight:600">${esc(x.nome)}</div><div class="meta">${loja(x.loja)}<span>${esc(x.previsao)}</span>${x.por?`<span>${reais(x.por)}</span>`:''}</div></div></div>`).join('').replaceAll('class="ph', 'style="width:52px;height:52px" class="ph')}</div>` : `<div class="vazio-box" style="padding:26px"><b>Fila vazia</b>Aprove ofertas em Revisar ou cole um link em Nova oferta.</div>`}
+        ${E.fila.length ? `<div class="list">${E.fila.slice(0,3).map((x,i) => `<div class="hl" style="padding:8px 0" ${x.url ? `data-url="${esc(x.url)}"` : ''}>${foto(x)}<div style="min-width:0;flex:1"><div class="nm" style="font-weight:600">${esc(x.nome)}</div><div class="meta">${loja(x.loja)}<span>${esc(x.previsao)}</span>${x.por?`<span>${reais(x.por)}</span>`:''}</div></div></div>`).join('').replaceAll('class="ph', 'style="width:52px;height:52px" class="ph')}</div>` : `<div class="vazio-box" style="padding:26px"><b>Fila vazia</b>Aprove ofertas em Revisar ou cole um link em Nova oferta.</div>`}
       </div>
       <div class="box"><h2>Últimas postadas<a class="r btn sm ghost" onclick="ir('stories')">Gerar story</a></h2>
-        ${E.postados.slice(0,5).map(p => `<div class="hl" style="padding:8px 0"><span class="h" style="width:auto;min-width:44px">${p.data.slice(0,10) === hoje ? '' : p.data.slice(8,10) + '/' + p.data.slice(5,7) + ' '}${p.data.slice(11,16)}</span><span class="n">${esc(p.nome)}</span>${loja(p.loja)}</div>`).join('') || '<p style="color:var(--mut);margin:0">Nada postado ainda.</p>'}
+        ${E.postados.slice(0,5).map(p => `<div class="hl" style="padding:8px 0" ${p.url ? `data-url="${esc(p.url)}"` : ''}><span class="h" style="width:auto;min-width:44px">${p.data.slice(0,10) === hoje ? '' : p.data.slice(8,10) + '/' + p.data.slice(5,7) + ' '}${p.data.slice(11,16)}</span><span class="n">${esc(p.nome)}</span>${loja(p.loja)}</div>`).join('') || '<p style="color:var(--mut);margin:0">Nada postado ainda.</p>'}
       </div>
     </div>`;
 }
@@ -430,10 +450,10 @@ function cardRevisao(x){
   else if (x.falta.length) tags.push(`<span class="tag bad">falta ${esc(x.falta.join(', '))}</span>`);
   if (x.foto_origem === 'canal') tags.push('<span class="tag warn">foto do canal</span>');
   const conferir = x.link_produto || x.link;
-  return `<div class="of">${foto(x)}
+  return `<div class="of" ${x.url ? `data-url="${esc(x.url)}"` : ''}>${foto(x)}
     <div style="min-width:0"><div class="meta">${loja(x.loja)}${tags.join('')}</div>
       <div class="nm">${esc(x.nome || x.link)}</div>${precoHTML(x)}
-      ${x.frase ? `<div class="meta" style="margin-top:4px">“${esc(x.frase)}”</div>` : ''}</div>
+      ${x.frase ? `<div class="meta" style="margin-top:4px">“${esc(x.frase)}”</div>` : ''}${x.url ? `<div class="abrir" style="margin-top:4px">${ic('link',13)}abrir produto</div>` : ''}</div>
     <div class="side-acts">
       <button class="btn gold sm" ${x.falta.length ? 'disabled title="Complete pelo Editar"' : ''} onclick="fazer(this,'rev_aprovar','${x.id}')">Aprovar</button>
       <div class="row"><button class="btn sm" onclick="editar('revisar','${x.id}')">Editar</button>
@@ -450,9 +470,9 @@ function fila(){
 }
 function cardFila(x, i){
   const velha = horasDesde(x.aprovado_em) >= E.validade_horas;
-  return `<div class="of">${foto(x, i+1)}
+  return `<div class="of" ${x.url ? `data-url="${esc(x.url)}"` : ''}>${foto(x, i+1)}
     <div style="min-width:0"><div class="meta">${loja(x.loja)}<span>sai ${esc(x.previsao || 'depois')}</span>${x.aprovado_em ? `<span>aprovada ${quando(x.aprovado_em)}</span>` : ''}${velha ? '<span class="tag warn">confira o preço</span>' : ''}</div>
-      <div class="nm">${esc(x.nome)}</div>${precoHTML(x)}</div>
+      <div class="nm">${esc(x.nome)}</div>${precoHTML(x)}${x.url ? `<div class="abrir" style="margin-top:4px">${ic('link',13)}abrir produto</div>` : ''}</div>
     <div class="side-acts">
       <div class="row">
         <button class="btn sm icon" title="Subir" ${i===0?'disabled':''} onclick="fazer(this,'fila_mover','${x.id}',{para:${i-1}})">↑</button>
@@ -649,7 +669,7 @@ async function enviarNova(btn, destino){
 
 /* -------- stories -------- */
 function stories(){
-  const cards = E.ultimos.map(x => `<div class="sc">${foto(x)}<div class="c">${loja(x.loja)}<div class="nm">${esc(x.nome)}</div>${precoHTML(x)}
+  const cards = E.ultimos.map(x => `<div class="sc"><div ${x.url ? `data-url="${esc(x.url)}" title="Abrir produto"` : ''}>${foto(x)}</div><div class="c">${loja(x.loja)}<div class="nm">${esc(x.nome)}</div>${precoHTML(x)}
       <button class="btn sm gold" onclick="abrirStory('ultimo','${x.id}')">Gerar story</button></div></div>`).join('');
   return topo('Stories', 'Story de “prova” das ofertas que já saíram, no padrão preto e dourado. A frase de baixo muda a cada vez.')
     + `<div class="sgrid"><div class="sc fixo"><div class="ph">${ic('stories',40)}</div><div class="c"><span class="tag">divulgação</span><div class="nm">Story fixo do canal</div><div class="meta">Para chamar gente para o Alpha Promo.</div>
@@ -690,7 +710,58 @@ function historico(){
   return topo('Histórico', 'O que saiu no canal nos últimos 30 dias.')
     + `<div class="cols"><div class="box"><h2>Últimos 7 dias</h2><div class="semana">${semana.map(([k,n,d]) => `<div><b>${n}</b><i style="height:${n/max*70}%"></i><span>${d.toLocaleDateString('pt-BR',{weekday:'short'}).replace('.','')}</span></div>`).join('')}</div></div>
       <div class="box"><h2>Por loja (7 dias)</h2>${Object.entries(porLoja).sort((a,b)=>b[1]-a[1]).map(([l,n]) => `<div class="hl" style="padding:8px 0">${loja(l)}<span class="n"></span><b>${n}</b></div>`).join('') || '<p style="color:var(--mut);margin:0">Nada ainda.</p>'}</div></div>`
-    + Object.keys(dias).sort().reverse().map(d => `<div class="dia"><h3>${nomeDia(d)} · ${dias[d].length}</h3><div class="box" style="padding:4px 6px">${dias[d].map(p => `<div class="hl"><span class="h">${p.data.slice(11,16)}</span><span class="n">${esc(p.nome)}</span>${loja(p.loja)}</div>`).join('')}</div></div>`).join('');
+    + Object.keys(dias).sort().reverse().map(d => `<div class="dia"><h3>${nomeDia(d)} · ${dias[d].length}</h3><div class="box" style="padding:4px 6px">${dias[d].map(p => `<div class="hl" ${p.url ? `data-url="${esc(p.url)}"` : ''}><span class="h">${p.data.slice(11,16)}</span><span class="n">${esc(p.nome)}</span>${loja(p.loja)}</div>`).join('')}</div></div>`).join('');
+}
+
+/* -------- links -------- */
+const LINKS = [
+  ['Painéis de afiliado', [
+    ['amazon','AZ','Amazon Associados','Links, SiteStripe e relatórios','https://associados.amazon.com.br'],
+    ['mercadolivre','ML','Afiliados Mercado Livre','Gerador de links e ganhos','https://www.mercadolivre.com.br/afiliados'],
+    ['shopee','SP','Shopee Afiliados','Links e comissões','https://affiliate.shopee.com.br'],
+    ['shopee','SP','Shopee Open API','AppID e Secret, quando liberar','https://affiliate.shopee.com.br/open_api'],
+  ]],
+  ['Achar ofertas', [
+    ['amazon','AZ','Ofertas do Dia','Amazon','https://www.amazon.com.br/deals'],
+    ['amazon','AZ','Mais vendidos','Amazon, por categoria','https://www.amazon.com.br/gp/bestsellers'],
+    ['amazon','AZ','Em alta','O que mais subiu em vendas','https://www.amazon.com.br/gp/movers-and-shakers'],
+    ['mercadolivre','ML','Ofertas','Mercado Livre','https://www.mercadolivre.com.br/ofertas'],
+    ['mercadolivre','ML','Ofertas relâmpago','Acabam em horas','https://www.mercadolivre.com.br/ofertas?promotion_type=lightning'],
+    ['shopee','SP','Flash sale','Shopee','https://shopee.com.br/flash_sale'],
+    ['out','PL','Pelando','Comunidade de promoções','https://www.pelando.com.br'],
+    ['out','PB','Promobit','Promoções filtradas','https://www.promobit.com.br'],
+  ]],
+  ['Cupons', [
+    ['amazon','AZ','Cupons Amazon','Resgata e já entra no carrinho','https://www.amazon.com.br/cupons'],
+    ['mercadolivre','ML','Cupons Mercado Livre','Entre logado','https://www.mercadolivre.com.br/cupons'],
+    ['shopee','SP','Cupons Shopee','Central de cupons','https://shopee.com.br/m/cupons'],
+    ['out','PL','Cupons no Pelando','Todas as lojas','https://www.pelando.com.br/cupons-de-descontos'],
+  ]],
+  ['Canal e bot', [
+    ['tg','TG','Canal Alpha Promo','t.me/alphadominuspromo','https://t.me/alphadominuspromo'],
+    ['tg','TG','Telegram Web','Telegram no navegador','https://web.telegram.org'],
+    ['tg','TG','BotFather','Configurações do bot','https://t.me/BotFather'],
+    ['gh','GH','Rodadas do bot','GitHub Actions: logs do radar e dos posts','https://github.com/guisousaoliveira/grupo-achados/actions'],
+    ['gh','GH','config.json','Horários, canais e palavras do radar','https://github.com/guisousaoliveira/grupo-achados/blob/main/config.json'],
+    ['out','RD','Render','Servidor do bot e deploy','https://dashboard.render.com'],
+    ['out','CJ','cron-job.org','Tick de 5 em 5 minutos','https://console.cron-job.org/jobs'],
+    ['out','GA','Guia do grupo de achados','Passo a passo e regras','https://claude.ai/code/artifact/33346678-6092-446d-b80a-a2d687ac1000'],
+  ]],
+];
+const lk = ([c, sg, t, d, u]) => `<a class="lk" href="${esc(u)}" target="_blank" rel="noopener"><span class="sg ${c}">${sg}</span><div><b>${esc(t)}</b><small>${esc(d)}</small></div></a>`;
+function links(){
+  return topo('Links', 'Painéis de afiliado e atalhos do Alpha Promo.')
+    + `<div class="box"><h2>Procurar produto nas lojas</h2><div class="busca"><input class="in" id="lk-q" placeholder="Ex.: creatina 1kg, furadeira bosch, air fryer">
+      <button class="btn" onclick="procurar('amazon')">Amazon</button><button class="btn" onclick="procurar('ml')">Mercado Livre</button><button class="btn" onclick="procurar('shopee')">Shopee</button></div>
+      <div class="hint">Achou? Gere o seu link no painel de afiliado e cole em Nova oferta.</div></div>`
+    + LINKS.map(([t, l]) => `<div class="box"><h2>${t}</h2><div class="lgrid">${l.map(lk).join('')}</div></div>`).join('')
+    + `<div class="box"><h2>Canais do radar<span class="r tag">${E.canais_radar.length} canais</span></h2><div class="chips">${E.canais_radar.map(c => `<a href="https://t.me/s/${esc(c)}" target="_blank" rel="noopener">@${esc(c)}</a>`).join('')}</div></div>`;
+}
+function procurar(onde){
+  const q = document.getElementById('lk-q').value.trim();
+  if (!q) return toast('Escreva o que procurar.', true);
+  const e = encodeURIComponent(q);
+  window.open({amazon: `https://www.amazon.com.br/s?k=${e}`, ml: `https://lista.mercadolivre.com.br/${q.replace(/\s+/g,'-')}`, shopee: `https://shopee.com.br/search?keyword=${e}`}[onde], '_blank', 'noopener');
 }
 
 /* -------- avisos -------- */
@@ -713,6 +784,11 @@ function confirmarP(titulo, texto, botao){
 }
 async function confirmar(titulo, texto, botao, acao){ if (await confirmarP(titulo, texto, botao)) acao(null); }
 document.addEventListener('keydown', e => { if (e.key === 'Escape') fecharTudo(); });
+document.addEventListener('click', e => {
+  const c = e.target.closest('[data-url]');
+  if (!c || e.target.closest('button,a,input,textarea,label,select')) return;
+  window.open(c.dataset.url, '_blank', 'noopener');
+});
 
 pagina = location.hash.slice(1) || 'inicio';
 carregar();
