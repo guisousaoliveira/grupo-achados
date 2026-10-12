@@ -493,27 +493,43 @@
       "id": 76,
       "garimpado_em": "2026-10-12T16:10-03:00",
       "msg_id": 198
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0GCZWVSKZ",
+      "origem": "aquitempechincha",
+      "link": "https://www.amazon.com.br/dp/B0GCZWVSKZ?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0GCZWVSKZ?tag=alphadominu09-20",
+      "post_origem": "https://t.me/aquitempechincha/281143",
+      "link_canal": "https://aquitempechincha.com.br/sw6soj0",
+      "nome": "BORA APROVEITAR 20000MAH DE POTÊNCIA  Pra Não Deixar Seu Celular Parar",
+      "pix": true,
+      "por": 92.1,
+      "titulo": "Carregador portátil para não deixar seu celular parar",
+      "id": 78,
+      "garimpado_em": "2026-10-12T16:20-03:00",
+      "msg_id": 202
     }
   ],
-  "proximo_id": 78,
+  "proximo_id": 79,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84503,
-      "lobaopromo": 188516,
-      "gatunopromos": 124901,
+      "xetdaspromocoes": 84504,
+      "lobaopromo": 188518,
+      "gatunopromos": 124904,
       "pobregram": 41777,
       "urubupromo": 41575,
       "tudonapromo": 101623,
-      "promonocontext": 125957,
-      "promooeasy": 220168,
-      "aquitempechincha": 281138,
+      "promonocontext": 125958,
+      "promooeasy": 220170,
+      "aquitempechincha": 281143,
       "infoBRpromos": 67414,
       "boletando": 76612,
       "promotop": 260183,
       "achadosdotb": 11753
     },
     "dia": "2026-10-12",
-    "hoje": 48,
+    "hoje": 49,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -570,27 +586,28 @@
       "mercadolivre:MLB68826578",
       "amazon:B0GZJYHHCX",
       "shopee:873865538.58200280616",
-      "shopee:696238225.20799773548"
+      "shopee:696238225.20799773548",
+      "amazon:B0GCZWVSKZ"
     ],
     "ultima": {
-      "em": "2026-10-12T16:10:18-03:00",
+      "em": "2026-10-12T16:20:19-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 24,
-      "do_nicho": 5,
-      "repetidas": 0,
-      "novas": 5,
+      "posts_novos": 22,
+      "do_nicho": 3,
+      "repetidas": 2,
+      "novas": 1,
       "limite_dia": false,
       "promobit": 0
     },
     "hora": "2026-10-12T16",
-    "nesta_hora": 7,
+    "nesta_hora": 8,
     "promobit_hora": "2026-10-12T16",
     "promobit_nesta_hora": 0,
-    "promobit_visto": 3108939
+    "promobit_visto": 3108952
   },
   "ultimos": [
     {
@@ -847,6 +864,11 @@
       "urubupromo": {
         "achados": 1,
         "aprovados": 1,
+        "reprovados": 0
+      },
+      "aquitempechincha": {
+        "achados": 1,
+        "aprovados": 0,
         "reprovados": 0
       }
     }
