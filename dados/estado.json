@@ -181,6 +181,12 @@
       "loja": "mercadolivre",
       "nome": "Lanterna Tática Recarregável Atualizada Led Visor Digital Zoom",
       "data": "2026-10-12T13:22-03:00"
+    },
+    {
+      "chave": "amazon:https://link.amazon/B053xXD0M",
+      "loja": "amazon",
+      "nome": "soundcore P30i da Anker, ANC Fone de Ouvido Bluetooth 5.4 Sem Fio, TWS",
+      "data": "2026-10-12T13:33-03:00"
     }
   ],
   "slots_usados": {
@@ -267,6 +273,15 @@
     "nesta_hora": 3
   },
   "ultimos": [
+    {
+      "loja": "amazon",
+      "link": "https://link.amazon/B053xXD0M",
+      "chave": "amazon:https://link.amazon/B053xXD0M",
+      "foto": "https://images-na.ssl-images-amazon.com/images/P/B0CRTYZG5C.01.LZZZZZZZ.jpg",
+      "nome": "soundcore P30i da Anker, ANC Fone de Ouvido Bluetooth 5.4 Sem Fio, TWS",
+      "de": 369.0,
+      "por": 186.67
+    },
     {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB76427437",
@@ -384,14 +399,6 @@
       "nome": "Kit 2 Creatina Max Titanium 300g",
       "de": 179.0,
       "por": 78.0
-    },
-    {
-      "loja": "amazon",
-      "foto": "https://cdn1.telesco.pe/file/nmvd3MWVhxq7PvJtoQamJDfzcjV7JPx9n33Jm3Zcdo4WV60ttQjNSzkDRWjAYB6a2IX1BWiBbKr621WtwFswYL6fF6uY9W9UxCHv--Wq1mnfk5y4wZ4hahNlGnr_x5S4FU7tqXq1f3qWgPotkAReD4spqTjZ7paiHSF7CzpS8YosDN81N7RyBB8zIiCn_sfD83VLAsEbt46iIqch97GeuT3HU8-desW4hDlXd8tcMaJFC0Gr-colEaO2InyWVdGgTR3gCrrLT5cOztBk-DlqaZqpAvwWJMaINn2MMoFe6BFlm6fW7uedfTC38Pm0kXhTQ8e_Vk38g-jq_k7YNY4d4g.jpg",
-      "nome": "Gillette Mach3 Carbono Carga para Aparelho de Barbear com 8 Unidades",
-      "de": 99.88,
-      "por": 56.42,
-      "prime": true
     }
   ]
 }
