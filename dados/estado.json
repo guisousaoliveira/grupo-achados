@@ -76,13 +76,28 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [],
-  "proximo_id": 23,
+  "revisar": [
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB25929487",
+      "origem": "lobaopromo",
+      "link": "https://www.mercadolivre.com.br/creatina-monohidratada-dark-lab-1kg-100/p/MLB25929487?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/creatina-monohidratada-dark-lab-1kg-100/p/MLB25929487",
+      "foto": "AgACAgEAAxkDAANwasxIlpjnwdu_F9H5YE_WK-WaaxsAAiAQaxvw92FGMW8f5u5FnIMBAAMCAAN4AAM9BA",
+      "foto_origem": "canal",
+      "nome": "Creatina Monohidratada Pura 1kg Dark Lab Unidade Sem sabor",
+      "por": 78.0,
+      "frase": "Pra quem leva o treino a sério.",
+      "id": 23,
+      "msg_id": 112
+    }
+  ],
+  "proximo_id": 24,
   "radar": {
     "visto": {
       "xetdaspromocoes": 84418,
-      "lobaopromo": 188361,
-      "gatunopromos": 124813,
+      "lobaopromo": 188363,
+      "gatunopromos": 124814,
       "pobregram": 41737,
       "urubupromo": 41551,
       "tudonapromo": 101548,
@@ -92,13 +107,14 @@
       "infoBRpromos": 67366
     },
     "dia": "2026-10-11",
-    "hoje": 5,
+    "hoje": 6,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
       "mercadolivre:MLB4250522675",
       "mercadolivre:MLB29164669",
-      "amazon:B0HJJSKJ2S"
+      "amazon:B0HJJSKJ2S",
+      "mercadolivre:MLB25929487"
     ]
   },
   "ultimos": [
