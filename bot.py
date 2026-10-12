@@ -1416,6 +1416,9 @@ def cmd_foto_teste(links):
         except Exception as e:
             log(f"Falhou: {e}")
             continue
+        if "/ler?" in link:  # resposta do servidor do Render
+            log("resposta: " + pagina[:400])
+            continue
         t = re.search(r"<title[^>]*>(.*?)</title>", pagina, re.S)
         log("title: " + (t.group(1).strip()[:120] if t else "(nenhum)"))
         m = re.search(r'<meta[^>]+property="og:image"[^>]+content="([^"]+)"', pagina)
