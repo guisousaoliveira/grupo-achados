@@ -403,8 +403,8 @@ Com os dados abaixo, escreva {pedido}. Responda só com o texto, numa linha, sem
 Dados:
 """
 PEDIDOS_IA = {
-    "titulo": "UMA chamada curta para o topo do post (até 7 palavras): o produto (nome curto) e o principal atrativo "
-              "que está nos dados, normalmente o desconto. Sem emoji, sem o preço em reais. Se tiver um título atual, "
+    "titulo": "UMA chamada curta para o topo do post (até 8 palavras): o produto (nome curto) e um atrativo, que pode "
+              "ser o benefício/uso do produto ou o desconto que está nos dados. Sem emoji, sem o preço em reais. Se tiver um título atual, "
               "escreva um diferente dele. " + bot.EXEMPLOS_TITULO,
     "nome": "UM nome curto do produto, até 60 caracteres: tipo de produto + marca + o detalhe que importa (tamanho, "
             "capacidade, voltagem, cor). Sem emoji, sem caixa alta, sem preço, sem palavras como oferta",

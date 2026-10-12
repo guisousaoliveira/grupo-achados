@@ -813,12 +813,15 @@ def gerar_frase(item):
 
 # A IA só pode usar o que está nos dados da oferta. Ela inventava "frete grátis", "Prime", "Pix" e
 # "menor preço histórico" em oferta que não tinha nada disso (ex.: Prime em produto do Mercado Livre).
-REGRA_IA = ("Tom sério e objetivo, como uma indicação de compra, nada de exagero de camelô. Use SOMENTE as informações "
-            "listadas nos dados. Não mencione frete, Prime, Pix, cupom, parcelas, brinde ou estoque se isso não estiver "
+REGRA_IA = ("Tom sério e objetivo, como uma indicação de compra, nada de exagero de camelô. Sobre preço e condições, "
+            "use SOMENTE o que está nos dados. Sobre o produto, pode falar do uso ou benefício óbvio dele (para que serve, "
+            "para quem é), sem inventar especificação. Não mencione frete, Prime, Pix, cupom, parcelas, brinde ou estoque se isso não estiver "
             "nos dados. Nunca diga menor preço, preço histórico, nunca visto, mais barato da internet, últimas unidades "
             "ou que vai esgotar (não temos histórico de preço nem estoque).")
-EXEMPLOS_TITULO = ("Exemplos do tom certo: Whey Max Titanium com 37% off | Mochila tática 50L pela metade do preço | "
-                   "Creatina Growth com cupom de desconto | Fone JBL com 25% off no Pix | Air fryer Philips em oferta")
+EXEMPLOS_TITULO = ("Varie entre falar do benefício do produto e do desconto. Exemplos do tom certo: "
+                   "Whey para você bater a proteína do dia | Mochila para carregar tudo que você precisa | "
+                   "Creatina para render mais no treino | Aparador para manter a barba alinhada em casa | "
+                   "Whey Max Titanium com 37% off | Mochila tática 50L pela metade do preço")
 PROIBIDO_IA = re.compile(r"menor\s+pre[cç]o|hist[oó]ric|nunca\s+vist|mais\s+barat[oa]\s+d[ao]|[uú]ltimas\s+unidades|"
                          r"esgot|pre[cç]o\s+m[ií]nimo|m[ií]nimo\s+hist|frete|entrega\s+gr[aá]tis|brinde|lan[cç]amento", re.I)
 
@@ -866,9 +869,9 @@ def gerar_titulo(item):
     chave = segredo("GEMINI_API_KEY")
     if not chave or SIMULAR:
         return ""
-    pedido = ("Escreva UMA chamada curta (até 7 palavras) em português do Brasil para o topo de um post de oferta "
-              "num canal de achados masculino: o produto (nome curto) e o principal atrativo que está nos dados, "
-              "normalmente o desconto. Sem emoji, sem hashtag, sem o preço em reais, sem aspas. " + REGRA_IA + "\n"
+    pedido = ("Escreva UMA chamada curta (até 8 palavras) em português do Brasil para o topo de um post de oferta "
+              "num canal de achados masculino: o produto (nome curto) e um atrativo, que pode ser o benefício/uso do "
+              "produto ou o desconto que está nos dados. Sem emoji, sem hashtag, sem o preço em reais, sem aspas. " + REGRA_IA + "\n"
               + EXEMPLOS_TITULO + "\n\nDados:\n" + dados_ia(item) + "\nChamada:")
     try:
         for _ in range(2):  # se afirmar o que não está nos dados, tenta mais uma vez; senão vai o banco de frases
