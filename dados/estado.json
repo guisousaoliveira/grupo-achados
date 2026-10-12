@@ -627,27 +627,64 @@
       "garimpado_em": "2026-10-12T20:20-03:00",
       "na_revisao_desde": "2026-10-12T20:20-03:00",
       "msg_id": 266
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB25708136",
+      "origem": "lobaopromo",
+      "link": "https://www.mercadolivre.com.br/hugo-boss-jeans-edt-perfume-masculino-125ml/p/MLB25708136?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/hugo-boss-jeans-edt-perfume-masculino-125ml/p/MLB25708136",
+      "post_origem": "https://t.me/lobaopromo/188603",
+      "link_canal": "https://meli.la/1ifv3Je",
+      "foto": "AgACAgQAAxkDAAIBEGrNckajFZM2mJ_kmPNKvmig9QTEAALwuDEbBHMVUgMBUw-t-ewPAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Hugo Boss Jeans Edt Perfume Masculino 125ml",
+      "por": 330.72,
+      "de": 689.0,
+      "titulo": "Hugo Boss Jeans Edt com 52% off",
+      "id": 129,
+      "garimpado_em": "2026-10-12T20:50-03:00",
+      "na_revisao_desde": "2026-10-12T20:50-03:00",
+      "msg_id": 272
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0C34Y8C8L",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0C34Y8C8L?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0C34Y8C8L?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220245",
+      "link_canal": "https://www.amazon.com.br/dp/B0C34Y8C8L?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAIBEWrNck-b4GphV4zvfdM0pdzULEI6AAIcD2sbuR90UnfF7NAYBAOWAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Crucial Ssd interno para jogos P5 Plus 2Tb NVMe NVMe M.2 com dissipador de calor, compatível com PlayStation 5 (Ps5) até",
+      "por": 1693.0,
+      "titulo": "SSD Crucial 2TB com 33% off",
+      "id": 130,
+      "garimpado_em": "2026-10-12T20:50-03:00",
+      "na_revisao_desde": "2026-10-12T20:50-03:00",
+      "msg_id": 273
     }
   ],
-  "proximo_id": 129,
+  "proximo_id": 131,
   "radar": {
     "visto": {
       "xetdaspromocoes": 84504,
-      "lobaopromo": 188600,
-      "gatunopromos": 124972,
+      "lobaopromo": 188603,
+      "gatunopromos": 124974,
       "pobregram": 41784,
       "urubupromo": 41590,
       "tudonapromo": 101633,
       "promonocontext": 126027,
-      "promooeasy": 220243,
-      "aquitempechincha": 281220,
+      "promooeasy": 220245,
+      "aquitempechincha": 281221,
       "infoBRpromos": 67419,
       "boletando": 76622,
       "promotop": 260184,
       "achadosdotb": 11757
     },
     "dia": "2026-10-12",
-    "hoje": 97,
+    "hoje": 99,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -753,27 +790,29 @@
       "mercadolivre:MLB21802395",
       "mercadolivre:MLB7776080994",
       "mercadolivre:MLB19794389",
-      "mercadolivre:MLB2078002740"
+      "mercadolivre:MLB2078002740",
+      "mercadolivre:MLB25708136",
+      "amazon:B0C34Y8C8L"
     ],
     "ultima": {
-      "em": "2026-10-12T20:40:20-03:00",
+      "em": "2026-10-12T20:50:18-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
       "posts_novos": 19,
-      "do_nicho": 1,
+      "do_nicho": 3,
       "repetidas": 1,
-      "novas": 0,
+      "novas": 2,
       "limite_dia": false,
       "promobit": 0
     },
     "hora": "2026-10-12T20",
-    "nesta_hora": 6,
+    "nesta_hora": 8,
     "promobit_hora": "2026-10-12T20",
     "promobit_nesta_hora": 0,
-    "promobit_visto": 3109272
+    "promobit_visto": 3109286
   },
   "ultimos": [
     {
@@ -1538,7 +1577,7 @@
   "garimpo": {
     "2026-10-12": {
       "promooeasy": {
-        "achados": 18,
+        "achados": 19,
         "aprovados": 4,
         "reprovados": 14
       },
@@ -1553,7 +1592,7 @@
         "reprovados": 0
       },
       "lobaopromo": {
-        "achados": 12,
+        "achados": 13,
         "aprovados": 3,
         "reprovados": 7
       },
