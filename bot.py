@@ -329,30 +329,34 @@ def publicar(item):
 # ---------------------------------------------------------------- formato do post
 
 def montar_post(item):
+    """Post do canal em blocos separados por uma linha em branco (no celular fica menos apertado)."""
     def e(t):
         return html.escape(t, quote=False)
-    linhas = [f"🔥 <b>{e(item['nome'])}</b>"]
+    blocos = [f"🔥 <b>{e(item['nome'])}</b>"]
+    preco = []
     de, por = item.get("de"), item.get("por")
     if por and de and de > por:
         off = round((1 - por / de) * 100)
-        linhas.append(f"De <s>{reais(de)}</s> por <b>{reais(por)}</b> ({off}% off)")
+        preco.append(f"De <s>{reais(de)}</s> por <b>{reais(por)}</b> ({off}% off)")
     elif por:
-        linhas.append(f"Por <b>{reais(por)}</b>")
+        preco.append(f"Por <b>{reais(por)}</b>")
     if item.get("prime"):
         extra = f" (sem Prime: {reais(item['sem_prime'])})" if item.get("sem_prime") else ""
-        linhas.append(f"👑 Preço exclusivo para membros Prime{extra}")
+        preco.append(f"👑 Preço exclusivo para membros Prime{extra}")
+    if preco:
+        blocos.append("\n".join(preco))
     if item.get("cupom"):
-        linhas.append(f"🎟️ Cupom: <code>{e(item['cupom'])}</code>")
+        blocos.append(f"🎟️ Cupom: <code>{e(item['cupom'])}</code>")
     elif item.get("cupom_loja"):
-        linhas.append(f"🎟️ {e(item['cupom_loja'])}")
+        blocos.append(f"🎟️ {e(item['cupom_loja'])}")
     if item.get("frase"):
-        linhas.append(f"✅ {e(item['frase'])}")
+        blocos.append(f"✅ {e(item['frase'])}")
     loja = {"amazon": "Amazon", "mercadolivre": "Mercado Livre", "shopee": "Shopee"}.get(item.get("loja"), "")
-    linhas.append(f"🛒 {e(item['link'])}" + (f"  ({loja})" if loja else ""))
+    blocos.append(f"🛒 {e(item['link'])}" + (f"  ({loja})" if loja else ""))
     rodape = CONFIG.get("rodape", "")
     if rodape:
-        linhas += ["", e(rodape)]
-    return "\n".join(linhas)
+        blocos.append(e(rodape))
+    return "\n\n".join(blocos)
 
 
 # ---------------------------------------------------------------- seus links (Amazon / ML / Shopee)
