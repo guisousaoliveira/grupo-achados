@@ -90,24 +90,6 @@
       "aprovado_em": "2026-10-12T13:59-03:00"
     },
     {
-      "loja": "amazon",
-      "chave": "amazon:B08F2XPY3W",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://link.amazon/B0cuDrXPE",
-      "link_produto": "https://www.amazon.com.br/dp/B08F2XPY3W?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/redragon-teclado-mecanico-gamer-kumara-abnt2-led-vermelho-single-color-switch-outemu-blue-unico-k552-2-pt-blue-3108752/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3108752/",
-      "nome": "Redragon Teclado Mecânico Gamer Kumara Abnt2 Led Vermelho Single",
-      "por": 176.46,
-      "de": 279.0,
-      "foto": "AgACAgQAAxkDAAOqas0Ui4N63WgJUImMnPU0TacgffcAAqcPaxtgRm1SL32joMlcYr0BAAMCAAN4AAM9BA",
-      "foto_origem": "loja",
-      "titulo": "Desconto absurdo no teclado mecanico",
-      "garimpado_em": "2026-10-12T14:10-03:00",
-      "aprovado_em": "2026-10-12T14:12-03:00"
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB2843236667",
       "origem": "gatunopromos",
@@ -257,6 +239,12 @@
       "loja": "mercadolivre",
       "nome": "Mochila Tática Grande Resistente 50l Para Viagem Aventura Preto",
       "data": "2026-10-12T14:00-03:00"
+    },
+    {
+      "chave": "amazon:B08F2XPY3W",
+      "loja": "amazon",
+      "nome": "Redragon Teclado Mecânico Gamer Kumara Abnt2 Led Vermelho Single",
+      "data": "2026-10-12T14:13-03:00"
     }
   ],
   "slots_usados": {
@@ -352,6 +340,16 @@
     "promobit_visto": 3108752
   },
   "ultimos": [
+    {
+      "loja": "amazon",
+      "chave": "amazon:B08F2XPY3W",
+      "link": "https://link.amazon/B0cuDrXPE",
+      "link_produto": "https://www.amazon.com.br/dp/B08F2XPY3W?tag=alphadominu09-20",
+      "nome": "Redragon Teclado Mecânico Gamer Kumara Abnt2 Led Vermelho Single",
+      "por": 176.46,
+      "de": 279.0,
+      "foto": "AgACAgQAAxkDAAOqas0Ui4N63WgJUImMnPU0TacgffcAAqcPaxtgRm1SL32joMlcYr0BAAMCAAN4AAM9BA"
+    },
     {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB5004194280",
@@ -477,13 +475,6 @@
       "nome": "Fritadeira Air Fryer 5,5l Widemax Com Interior De Alumínio 1900w Midea",
       "de": 740.0,
       "por": 261.0
-    },
-    {
-      "loja": "mercadolivre",
-      "foto": "AgACAgEAAxkDAANaasxD5zxWchO2UzHVpsN7VBAmIE4AAh0Qaxvw92FGcjkRCZaC3QMBAAMCAAN4AAM9BA",
-      "nome": "Aparador Barbeador Kemei Recarregável 3 Em 1",
-      "de": 79.0,
-      "por": 46.79
     }
   ]
 }
