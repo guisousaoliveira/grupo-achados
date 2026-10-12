@@ -184,29 +184,55 @@ def item_json(x, ident):
     return d
 
 
-def proximos_horarios(estado, n):
-    """Quando cada item da fila deve sair, seguindo os horários do config e os já usados hoje."""
+def previsao_slots(estado, dias=4):
+    """(dia, horário, quando sai) dos horários que ainda vão sair, na ordem. Igual a bot.proximo_post: o minuto
+    sorteado, mas nunca antes do intervalo mínimo depois do post anterior."""
     dt = bot.agora()
-    horarios = sorted(bot.CONFIG.get("horarios", []))
     janela = bot.CONFIG.get("janela_minutos", 40)
     intervalo = timedelta(minutes=bot.CONFIG.get("intervalo_minimo", 25))
-    anterior = bot._ultimo_post(estado, dt)  # o bot espera o intervalo mínimo depois do último post (igual a bot.proximo_post)
-    saida = []
-    for dia in range(4):
+    anterior = bot._ultimo_post(estado, dt)
+    for dia in range(dias):
         data = (dt + timedelta(days=dia)).date()
         usados = estado["slots_usados"].get(data.isoformat(), [])
         agenda = bot.agenda_do_dia(data.isoformat())
-        for h in horarios:
+        for h in sorted(bot.CONFIG.get("horarios", [])):
             quando = dt.replace(hour=h, minute=agenda[h], second=0, microsecond=0) + timedelta(days=dia)
             if dia == 0 and (quando + timedelta(minutes=janela) < dt or h in usados):
                 continue
             if anterior:
                 quando = max(quando, anterior + intervalo)
             anterior = quando
-            rotulo = "hoje" if dia == 0 else "amanhã" if dia == 1 else data.strftime("%d/%m")
-            saida.append(f"{rotulo} {quando:%H:%M}")
-            if len(saida) >= n:
-                return saida
+            yield dia, h, quando
+
+
+def proximos_horarios(estado, n):
+    """Quando cada item da fila deve sair."""
+    saida = []
+    for dia, h, quando in previsao_slots(estado):
+        if len(saida) >= n:
+            break
+        rotulo = "hoje" if dia == 0 else "amanhã" if dia == 1 else quando.strftime("%d/%m")
+        saida.append(f"{rotulo} {quando:%H:%M}")
+    return saida
+
+
+def horarios_hoje(estado, dt):
+    """Hora mostrada em cada horário de hoje: a hora em que saiu (postado) ou a prevista (com o intervalo mínimo)."""
+    hoje = dt.date().isoformat()
+    saida = {h: f"{h:02d}:{m:02d}" for h, m in bot.agenda_do_dia(hoje).items()}
+    posts = [p for p in estado["postados"] if p["data"][:10] == hoje]
+    for p in posts:
+        if p.get("slot") is not None:
+            saida[p["slot"]] = p["data"][11:16]
+    # posts antigos não guardavam o horário: usa o último post que saiu naquela hora do relógio
+    marcados = {p["slot"] for p in posts if p.get("slot") is not None}
+    for h in estado["slots_usados"].get(hoje, []):
+        if h not in marcados:
+            hora = [p["data"][11:16] for p in posts if p.get("slot") is None and int(p["data"][11:13]) == h]
+            if hora:
+                saida[h] = max(hora)
+    for dia, h, quando in previsao_slots(estado, 1):
+        saida[h] = f"{quando:%H:%M}"
     return saida
 
 
@@ -230,6 +256,7 @@ def resumo(estado):
         "hora": dt.hour,
         "horarios": bot.CONFIG.get("horarios", []),
         "agenda_hoje": bot.agenda_do_dia(hoje),
+        "horarios_hoje": horarios_hoje(estado, dt),
         "usados_hoje": estado["slots_usados"].get(hoje, []),
         "validade_horas": bot.CONFIG.get("validade_horas", 12),
         "canal": bot.CONFIG.get("canal_publico", ""),

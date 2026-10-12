@@ -1578,9 +1578,10 @@ def proximo_post(estado, dt):
 def registrar_post(estado, item, slot, dt):
     estado["fila"] = [x for x in estado["fila"] if x["chave"] != item["chave"]]
     guardar_ultimo(estado, item)
+    estado["postados"].append(registro_postado(item, dt))
     if slot != "teste":
         estado["slots_usados"].setdefault(dt.date().isoformat(), []).append(slot)
-    estado["postados"].append(registro_postado(item, dt))
+        estado["postados"][-1]["slot"] = slot  # o painel mostra cada horário com a hora em que saiu de verdade
 
 
 def postar_se_for_hora(estado):
