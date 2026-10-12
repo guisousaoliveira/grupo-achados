@@ -570,25 +570,6 @@
       "garimpado_em": "2026-10-12T20:00-03:00",
       "na_revisao_desde": "2026-10-12T20:00-03:00",
       "msg_id": 260
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB27410652",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/jogo-de-frigideiras-francesas-3-pecas-14-18-24cm-preto-nacional/p/MLB27410652?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/jogo-de-frigideiras-francesas-3-pecas-14-18-24cm-preto-nacional/p/MLB27410652",
-      "post_origem": "https://t.me/lobaopromo/188586",
-      "link_canal": "https://meli.la/2wjGsSD",
-      "foto": "AgACAgQAAxkDAAIBBWrNZpUTYYsMVDR8T6ooF6f1TPBtAAJxDWsbsvzNU2khqlCi1P6JAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Jogo De Frigideiras Francesas 3 Peças 14 18 24cm Preto Nacional",
-      "de": 74.9,
-      "por": 55.9,
-      "titulo": "Jogo de frigideiras com 25% off",
-      "id": 124,
-      "garimpado_em": "2026-10-12T20:00-03:00",
-      "na_revisao_desde": "2026-10-12T20:00-03:00",
-      "msg_id": 261
     }
   ],
   "proximo_id": 125,
@@ -1016,6 +997,26 @@
     }
   ],
   "lixeira": [
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB27410652",
+      "origem": "lobaopromo",
+      "link": "https://www.mercadolivre.com.br/jogo-de-frigideiras-francesas-3-pecas-14-18-24cm-preto-nacional/p/MLB27410652?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/jogo-de-frigideiras-francesas-3-pecas-14-18-24cm-preto-nacional/p/MLB27410652",
+      "post_origem": "https://t.me/lobaopromo/188586",
+      "link_canal": "https://meli.la/2wjGsSD",
+      "foto": "AgACAgQAAxkDAAIBBWrNZpUTYYsMVDR8T6ooF6f1TPBtAAJxDWsbsvzNU2khqlCi1P6JAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Jogo De Frigideiras Francesas 3 Peças 14 18 24cm Preto Nacional",
+      "de": 74.9,
+      "por": 55.9,
+      "titulo": "Jogo de frigideiras com 25% off",
+      "id": 124,
+      "garimpado_em": "2026-10-12T20:00-03:00",
+      "na_revisao_desde": "2026-10-12T20:00-03:00",
+      "removido_em": "2026-10-12T20:07:37-03:00",
+      "removido_de": "revisar"
+    },
     {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB77830419",
@@ -1467,7 +1468,7 @@
       "lobaopromo": {
         "achados": 10,
         "aprovados": 2,
-        "reprovados": 6
+        "reprovados": 7
       },
       "urubupromo": {
         "achados": 1,
