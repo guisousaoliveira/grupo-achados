@@ -761,6 +761,9 @@ def tratar_botao(estado, cb):
     except Exception:
         pass  # clique antigo: o Telegram já não aceita resposta, mas a ação vale
     acao, _, ident = (cb.get("data") or "").partition(":")
+    if acao in ("st", "sf"):
+        botao_story(estado, acao, ident)
+        return
     item = next((x for x in estado["revisar"] if str(x["id"]) == ident), None)
     msg = cb.get("message") or {}
     if not item:
@@ -898,15 +901,48 @@ def cmd_story(estado, texto):
                        "Story fixo do canal. Poste e coloque o sticker de link do canal na parte de baixo.")
         return
     ultimos = estado.get("ultimos", [])
-    try:
-        n = int(partes[1]) if len(partes) > 1 else 1
-        item = ultimos[n - 1]
-    except (IndexError, ValueError):
+    if not ultimos:
         responder_admin("Ainda não tenho oferta postada guardada. Depois que a próxima oferta sair no canal, "
-                        "mande /story de novo." if not ultimos else "Use /story 1 (a última postada), /story 2...")
+                        "mande /story de novo.")
         return
+    if len(partes) == 1:  # sem número: mostra as 3 últimas postadas para você escolher
+        botoes = [[{"text": f"{i}. {x.get('nome', '')[:40]}", "callback_data": "st:" + id_story(x)}]
+                  for i, x in enumerate(ultimos[:3], 1)]
+        botoes.append([{"text": "Story fixo do canal", "callback_data": "sf:"}])
+        responder_admin("De qual oferta você quer o story?", {"inline_keyboard": botoes})
+        return
+    try:
+        item = ultimos[int(partes[1]) - 1]
+    except (IndexError, ValueError):
+        responder_admin(f"Tenho as {len(ultimos)} últimas postadas guardadas. Use /story para escolher, ou /story 2.")
+        return
+    gerar_story(story, item, canal)
+
+
+def id_story(item):
+    return hashlib.md5(item.get("chave", item.get("nome", "")).encode()).hexdigest()[:12]
+
+
+def gerar_story(story, item, canal):
     enviar_arquivo(story.story_oferta(item, baixar_foto(item.get("foto")), canal), "story_oferta.png",
                    f"Story de prova: {item.get('nome', '')}. Coloque o sticker de link do canal embaixo.")
+
+
+def botao_story(estado, acao, ident):
+    """Clique num botão da lista do /story."""
+    if acao == "sf":
+        cmd_story(estado, "/storyfixo")
+        return
+    item = next((x for x in estado.get("ultimos", []) if id_story(x) == ident), None)
+    if not item:
+        responder_admin("Não achei mais essa oferta. Mande /story de novo.")
+        return
+    try:
+        import story
+    except ImportError:
+        cmd_story(estado, "/story 1")  # mostra o aviso do Pillow
+        return
+    gerar_story(story, item, CONFIG.get("canal_publico", "").replace("@", "").replace("https://t.me/", ""))
 
 
 def tratar_comando(estado, texto, foto=None):
@@ -918,7 +954,7 @@ def tratar_comando(estado, texto, foto=None):
             "e uma frase, e isso vale mais que o que eu ler.\n\n"
             "Comandos:\n/fila (ver a fila)\n/remover N (tirar o item N da fila)\n"
             "/postar (posta agora a 1ª da fila; /postar 3 posta a 3ª)\n"
-            "/story (imagem de story da última oferta postada)\n/storyfixo (story de divulgação do canal)\n"
+            "/story (escolher uma das 3 últimas postadas para virar story)\n/storyfixo (story de divulgação do canal)\n"
             "/pendentes (ofertas esperando revisão)\n/aprovartudo (aprova todas as pendentes completas)\n/ajuda")
     elif cmd == "/fila":
         if not estado["fila"]:
