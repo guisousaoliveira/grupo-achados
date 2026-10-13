@@ -1203,24 +1203,6 @@
       "msg_id": 658
     },
     {
-      "loja": "amazon",
-      "chave": "amazon:B0CFPHTMDX",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0CFPHTMDX?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0CFPHTMDX?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/220685",
-      "link_canal": "https://www.amazon.com.br/dp/B0CFPHTMDX?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAICk2rOhxXzGYE5IeaDmY51xk67Tbf4AALhD2sbS-R0UvPt32ZDX1peAQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "nome": "Kindle Paperwhite Signature Edition 32 GB (Geração mais recente) - O Kindle mais rápido já lançado, com luz frontal auto",
-      "por": 959.0,
-      "titulo": "Kindle Paperwhite 32GB com tela autoajustável",
-      "id": 374,
-      "garimpado_em": "2026-10-13T16:31-03:00",
-      "na_revisao_desde": "2026-10-13T16:31-03:00",
-      "msg_id": 659
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB65541449",
       "origem": "gatunopromos",
@@ -2278,6 +2260,25 @@
   "lixeira": [
     {
       "loja": "amazon",
+      "chave": "amazon:B0CFPHTMDX",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0CFPHTMDX?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0CFPHTMDX?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220685",
+      "link_canal": "https://www.amazon.com.br/dp/B0CFPHTMDX?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAICk2rOhxXzGYE5IeaDmY51xk67Tbf4AALhD2sbS-R0UvPt32ZDX1peAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "nome": "Kindle Paperwhite Signature Edition 32 GB (Geração mais recente) - O Kindle mais rápido já lançado, com luz frontal auto",
+      "por": 959.0,
+      "titulo": "Kindle Paperwhite 32GB com tela autoajustável",
+      "id": 374,
+      "garimpado_em": "2026-10-13T16:31-03:00",
+      "na_revisao_desde": "2026-10-13T16:31-03:00",
+      "removido_em": "2026-10-13T17:06:51-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "amazon",
       "chave": "amazon:B07QJD9335",
       "origem": "promobit",
       "fonte": "promobit",
@@ -3072,27 +3073,6 @@
       "na_revisao_desde": "2026-10-13T14:52-03:00",
       "removido_em": "2026-10-13T15:48:20-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0HKTFGRQV",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0HKTFGRQV?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0HKTFGRQV?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/220610",
-      "link_canal": "https://www.amazon.com.br/God-War-LaufeyTM-PlayStation-5/dp/B0HKTFGRQV?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAICYmrOcDVLC5mPUMaJRS94KdJVLJ6cAAIIEGsbRSbdUQABf7sJuVkU1gEAAwIAA3kAAz0E",
-      "foto_origem": "loja",
-      "nome": "God of War Laufey - PS5 + Frete Grátis",
-      "pix": true,
-      "parcelas": 7,
-      "por": 351.91,
-      "titulo": "God of War Ragnarök para PS5 disponível por 351,91.",
-      "id": 329,
-      "garimpado_em": "2026-10-13T14:53-03:00",
-      "na_revisao_desde": "2026-10-13T14:53-03:00",
-      "removido_em": "2026-10-13T15:48:16-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -3167,7 +3147,7 @@
       "promooeasy": {
         "achados": 86,
         "aprovados": 2,
-        "reprovados": 80
+        "reprovados": 81
       },
       "xetdaspromocoes": {
         "achados": 14,
