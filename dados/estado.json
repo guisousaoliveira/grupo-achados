@@ -1274,27 +1274,6 @@
       "garimpado_em": "2026-10-13T11:15-03:00",
       "na_revisao_desde": "2026-10-13T11:15-03:00",
       "msg_id": 492
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B07CTN73L1",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B07CTN73L1?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B07CTN73L1?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/kit-de-pontas-e-brocas-bosch-v-line-41-pcs-3110250/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3110250/",
-      "nome": "Kit De Pontas E Brocas Bosch V-line 41 Pçs",
-      "por": 74.18,
-      "de": 109.9,
-      "cupom": "05CASAETOOLS",
-      "foto": "AgACAgQAAxkDAAIB7WrOPV-I7vDnzXL7YiUmaVEgR59dAAJcD2sbbJJ1Usnw1I5rY1ZLAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "titulo": "Preço bom, vale conferir.",
-      "id": 260,
-      "garimpado_em": "2026-10-13T11:17-03:00",
-      "na_revisao_desde": "2026-10-13T11:17-03:00",
-      "msg_id": 493
     }
   ],
   "proximo_id": 272,
@@ -2128,6 +2107,28 @@
   "lixeira": [
     {
       "loja": "amazon",
+      "chave": "amazon:B07CTN73L1",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B07CTN73L1?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B07CTN73L1?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/kit-de-pontas-e-brocas-bosch-v-line-41-pcs-3110250/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3110250/",
+      "nome": "Kit De Pontas E Brocas Bosch V-line 41 Pçs",
+      "por": 74.18,
+      "de": 109.9,
+      "cupom": "05CASAETOOLS",
+      "foto": "AgACAgQAAxkDAAIB7WrOPV-I7vDnzXL7YiUmaVEgR59dAAJcD2sbbJJ1Usnw1I5rY1ZLAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "titulo": "Preço bom, vale conferir.",
+      "id": 260,
+      "garimpado_em": "2026-10-13T11:17-03:00",
+      "na_revisao_desde": "2026-10-13T11:17-03:00",
+      "removido_em": "2026-10-13T11:45:09-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "amazon",
       "chave": "amazon:B0F7K7B2PD",
       "origem": "promooeasy",
       "link": "https://www.amazon.com.br/dp/B0F7K7B2PD?tag=alphadominu09-20",
@@ -2515,7 +2516,7 @@
       "promobit": {
         "achados": 13,
         "aprovados": 2,
-        "reprovados": 8
+        "reprovados": 9
       },
       "lobaopromo": {
         "achados": 17,
