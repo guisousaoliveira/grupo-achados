@@ -609,25 +609,6 @@
     },
     {
       "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB2078002740",
-      "origem": "promonocontext",
-      "link": "https://www.mercadolivre.com.br/adaptador-de-ngulo-magnetico-a-para-aco-cromado-vanadio-g/p/MLB2078002740?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/adaptador-de-ngulo-magnetico-a-para-aco-cromado-vanadio-g/p/MLB2078002740",
-      "post_origem": "https://t.me/promonocontext/126024",
-      "link_canal": "https://meli.la/2WXcSGz",
-      "foto": "AgACAgQAAxkDAAIBCmrNa0HBvay-Z81j0VXTXSxWq704AAL6D2sbzlPsUYCWdl6Nes7_AQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Jogo De Bits Parafusadeira Aço 50 Peças Magnético Ponteira",
-      "de": 139.0,
-      "por": 48.0,
-      "titulo": "Jogo de bits com 65% off",
-      "id": 128,
-      "garimpado_em": "2026-10-12T20:20-03:00",
-      "na_revisao_desde": "2026-10-12T20:20-03:00",
-      "msg_id": 266
-    },
-    {
-      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB25708136",
       "origem": "lobaopromo",
       "link": "https://www.mercadolivre.com.br/hugo-boss-jeans-edt-perfume-masculino-125ml/p/MLB25708136?matt_word=alphapromo&matt_tool=59136903",
@@ -1194,6 +1175,26 @@
   ],
   "lixeira": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB2078002740",
+      "origem": "promonocontext",
+      "link": "https://www.mercadolivre.com.br/adaptador-de-ngulo-magnetico-a-para-aco-cromado-vanadio-g/p/MLB2078002740?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/adaptador-de-ngulo-magnetico-a-para-aco-cromado-vanadio-g/p/MLB2078002740",
+      "post_origem": "https://t.me/promonocontext/126024",
+      "link_canal": "https://meli.la/2WXcSGz",
+      "foto": "AgACAgQAAxkDAAIBCmrNa0HBvay-Z81j0VXTXSxWq704AAL6D2sbzlPsUYCWdl6Nes7_AQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Jogo De Bits Parafusadeira Aço 50 Peças Magnético Ponteira",
+      "de": 139.0,
+      "por": 48.0,
+      "titulo": "Jogo de bits com 65% off",
+      "id": 128,
+      "garimpado_em": "2026-10-12T20:20-03:00",
+      "na_revisao_desde": "2026-10-12T20:20-03:00",
+      "removido_em": "2026-10-12T21:17:03-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0C34Y8C8L",
       "origem": "promooeasy",
@@ -1703,7 +1704,7 @@
       "promonocontext": {
         "achados": 9,
         "aprovados": 6,
-        "reprovados": 0
+        "reprovados": 1
       },
       "boletando": {
         "achados": 1,
