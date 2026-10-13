@@ -2,25 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "amazon",
-      "chave": "amazon:B0HHL6F5M6",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://link.amazon/B04wH69OL",
-      "link_produto": "https://link.amazon/B04wH69OL",
-      "post_origem": "https://www.promobit.com.br/oferta/cadeado-com-senha-3-digitos-para-mala-mochila-armario-e-academia-preto-3109772/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3109772/",
-      "nome": "Cadeado Com Senha 3 Dígitos Para Mala",
-      "por": 12.9,
-      "de": 29.9,
-      "foto": "AgACAgQAAxkDAAIBc2rOGNCeH4RtxiR54OJ4fv22OAJQAAKhD2sbgt4sUkeQRHiOWNfrAQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "titulo": "Cadeado para proteger sua bagagem",
-      "garimpado_em": "2026-10-13T08:41-03:00",
-      "na_revisao_desde": "2026-10-13T08:41-03:00",
-      "aprovado_em": "2026-10-13T09:19-03:00"
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB23181844",
       "origem": "xetdaspromocoes",
@@ -916,6 +897,15 @@
       "link": "https://meli.la/12BAQV4",
       "link_produto": "https://meli.la/12BAQV4",
       "slot": 18
+    },
+    {
+      "chave": "amazon:B0HHL6F5M6",
+      "loja": "amazon",
+      "nome": "Cadeado Com Senha 3 Dígitos Para Mala",
+      "data": "2026-10-13T19:24-03:00",
+      "link": "https://link.amazon/B04wH69OL",
+      "link_produto": "https://link.amazon/B04wH69OL",
+      "slot": 19
     }
   ],
   "slots_usados": {
@@ -951,7 +941,8 @@
       15,
       16,
       17,
-      18
+      18,
+      19
     ]
   },
   "shopee_buscado_em": "",
@@ -2920,6 +2911,20 @@
   },
   "ultimos": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B0HHL6F5M6",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://link.amazon/B04wH69OL",
+      "link_produto": "https://link.amazon/B04wH69OL",
+      "post_origem": "https://www.promobit.com.br/oferta/cadeado-com-senha-3-digitos-para-mala-mochila-armario-e-academia-preto-3109772/",
+      "nome": "Cadeado Com Senha 3 Dígitos Para Mala",
+      "por": 12.9,
+      "de": 29.9,
+      "foto": "AgACAgQAAxkDAAIBc2rOGNCeH4RtxiR54OJ4fv22OAJQAAKhD2sbgt4sUkeQRHiOWNfrAQADAgADeQADPQQ",
+      "titulo": "Cadeado para proteger sua bagagem"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB17460955",
       "origem": "promotop",
@@ -3456,19 +3461,6 @@
       "por": 68.0,
       "titulo": "Kit Barbarius com 57% off",
       "pix": true
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB7776080994",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/1cKY6BV",
-      "link_produto": "https://meli.la/1cKY6BV",
-      "post_origem": "https://t.me/lobaopromo/188590",
-      "foto": "AgACAgEAAxkDAAIBD2rNcfx_NI-LVoOi9VgqcRVEvlr3AAKSDWsb8PdpRh_entQIEX2QAQADAgADeQADPQQ",
-      "nome": "Tênis Fila Academia Corrida Caminhada Macio Treino Couro Lev",
-      "de": 333.0,
-      "por": 107.39,
-      "titulo": "Tênis Fila para treino e corrida"
     }
   ],
   "lixeira": [
