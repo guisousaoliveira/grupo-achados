@@ -1035,26 +1035,6 @@
       "msg_id": 574
     },
     {
-      "loja": "shopee",
-      "chave": "shopee:344381236.53419040158",
-      "origem": "promooeasy",
-      "link": "https://shopee.com.br/product/344381236/53419040158",
-      "link_produto": "https://shopee.com.br/product/344381236/53419040158",
-      "post_origem": "https://t.me/promooeasy/220568",
-      "link_canal": "https://s.shopee.com.br/3g4QSqakhF?lp=aff",
-      "precisa_link": true,
-      "foto": "AgACAgEAAxkDAAICP2rOWSOeXF9aFtMOtwTaoLTELijGAAJsDWsb7AJxRjXQBmO8m9ULAQADAgADeAADPQQ",
-      "foto_origem": "canal",
-      "nome": "SSD M.2 NVMe 2TB Western Digital WD Green SN350",
-      "por": 1393.71,
-      "cupom": "AQUI",
-      "titulo": "Preço bom assim não dura, corre!",
-      "id": 301,
-      "garimpado_em": "2026-10-13T13:15-03:00",
-      "na_revisao_desde": "2026-10-13T13:15-03:00",
-      "msg_id": 575
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB63033418",
       "origem": "lobaopromo",
@@ -2085,6 +2065,27 @@
   ],
   "lixeira": [
     {
+      "loja": "shopee",
+      "chave": "shopee:344381236.53419040158",
+      "origem": "promooeasy",
+      "link": "https://shopee.com.br/product/344381236/53419040158",
+      "link_produto": "https://shopee.com.br/product/344381236/53419040158",
+      "post_origem": "https://t.me/promooeasy/220568",
+      "link_canal": "https://s.shopee.com.br/3g4QSqakhF?lp=aff",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAICP2rOWSOeXF9aFtMOtwTaoLTELijGAAJsDWsb7AJxRjXQBmO8m9ULAQADAgADeAADPQQ",
+      "foto_origem": "canal",
+      "nome": "SSD M.2 NVMe 2TB Western Digital WD Green SN350",
+      "por": 1393.71,
+      "cupom": "AQUI",
+      "titulo": "Preço bom assim não dura, corre!",
+      "id": 301,
+      "garimpado_em": "2026-10-13T13:15-03:00",
+      "na_revisao_desde": "2026-10-13T13:15-03:00",
+      "removido_em": "2026-10-13T14:31:05-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0894J8SLQ",
       "origem": "promobit",
@@ -2783,7 +2784,7 @@
       "promooeasy": {
         "achados": 61,
         "aprovados": 2,
-        "reprovados": 56
+        "reprovados": 57
       },
       "xetdaspromocoes": {
         "achados": 12,
