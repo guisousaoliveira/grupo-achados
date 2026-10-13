@@ -294,6 +294,25 @@
       "garimpado_em": "2026-10-13T09:02-03:00",
       "na_revisao_desde": "2026-10-13T09:02-03:00",
       "aprovado_em": "2026-10-13T09:14-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB66902915",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/1WBSL27",
+      "link_produto": "https://meli.la/1WBSL27",
+      "post_origem": "https://t.me/lobaopromo/188729",
+      "link_canal": "https://meli.la/2Qm9p6b",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_612792-MLA109103758117_032026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Power Bank Basike 30.000mAh Portátil",
+      "por": 178.75,
+      "de": 271.0,
+      "cupom": "OPAECONOMIZEI",
+      "titulo": "Power Bank Basike com 34% off",
+      "garimpado_em": "2026-10-13T09:01-03:00",
+      "na_revisao_desde": "2026-10-13T09:01-03:00",
+      "aprovado_em": "2026-10-13T09:15-03:00"
     }
   ],
   "postados": [
@@ -1077,26 +1096,6 @@
       "garimpado_em": "2026-10-13T09:00-03:00",
       "na_revisao_desde": "2026-10-13T09:00-03:00",
       "msg_id": 379
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB66902915",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/power-bank-basike-30000mah-portatil-carregamento-rapido-225w-com-cabos-embutidos-e-display-led-para-iphone-e-samsung/p/MLB66902915?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/power-bank-basike-30000mah-portatil-carregamento-rapido-225w-com-cabos-embutidos-e-display-led-para-iphone-e-samsung/p/MLB66902915",
-      "post_origem": "https://t.me/lobaopromo/188729",
-      "link_canal": "https://meli.la/2Qm9p6b",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_612792-MLA109103758117_032026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Power Bank Basike 30.000mAh Portátil",
-      "por": 178.75,
-      "de": 271.0,
-      "cupom": "OPAECONOMIZEI",
-      "titulo": "Power Bank Basike com 34% off",
-      "id": 208,
-      "garimpado_em": "2026-10-13T09:01-03:00",
-      "na_revisao_desde": "2026-10-13T09:01-03:00",
-      "msg_id": 380
     }
   ],
   "proximo_id": 210,
@@ -2006,7 +2005,7 @@
       },
       "lobaopromo": {
         "achados": 8,
-        "aprovados": 4,
+        "aprovados": 5,
         "reprovados": 2
       },
       "promooeasy": {
