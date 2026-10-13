@@ -651,18 +651,37 @@
       "garimpado_em": "2026-10-12T22:05-03:00",
       "na_revisao_desde": "2026-10-12T22:05-03:00",
       "msg_id": 301
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB4689433023",
+      "origem": "promonocontext",
+      "link": "https://produto.mercadolivre.com.br/MLB-4689433023-kit-6-cuecas-boxer-sem-costura-polo-wear-microfibra-_JM?pdp_filters=item_id%3AMLB4689433023&matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-4689433023-kit-6-cuecas-boxer-sem-costura-polo-wear-microfibra-_JM?pdp_filters=item_id%3AMLB4689433023",
+      "post_origem": "https://t.me/promonocontext/126050",
+      "link_canal": "https://meli.la/1YH4GxC",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_811713-MLB111942331663_052026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Kit 6 Cuecas Boxer Sem Costura Polo Wear Microfibra",
+      "de": 150.0,
+      "por": 57.0,
+      "titulo": "Kit 6 cuecas Polo Wear com 62% off",
+      "id": 147,
+      "garimpado_em": "2026-10-12T22:10-03:00",
+      "na_revisao_desde": "2026-10-12T22:10-03:00",
+      "msg_id": 302
     }
   ],
-  "proximo_id": 147,
+  "proximo_id": 148,
   "radar": {
     "visto": {
       "xetdaspromocoes": 84504,
-      "lobaopromo": 188626,
-      "gatunopromos": 124993,
-      "pobregram": 41784,
+      "lobaopromo": 188629,
+      "gatunopromos": 124994,
+      "pobregram": 41785,
       "urubupromo": 41593,
       "tudonapromo": 101633,
-      "promonocontext": 126049,
+      "promonocontext": 126050,
       "promooeasy": 220253,
       "aquitempechincha": 281252,
       "infoBRpromos": 67421,
@@ -671,7 +690,7 @@
       "achadosdotb": 11757
     },
     "dia": "2026-10-12",
-    "hoje": 115,
+    "hoje": 116,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -795,27 +814,28 @@
       "mercadolivre:MLB7275398398",
       "amazon:B0BBJPCMQM",
       "mercadolivre:MLB7023811646",
-      "mercadolivre:MLB76319957"
+      "mercadolivre:MLB76319957",
+      "mercadolivre:MLB4689433023"
     ],
     "ultima": {
-      "em": "2026-10-12T22:05:05-03:00",
+      "em": "2026-10-12T22:10:19-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 13,
-      "do_nicho": 2,
-      "repetidas": 1,
+      "posts_novos": 7,
+      "do_nicho": 1,
+      "repetidas": 0,
       "novas": 1,
       "limite_dia": false,
       "promobit": 0
     },
     "hora": "2026-10-12T22",
-    "nesta_hora": 3,
+    "nesta_hora": 4,
     "promobit_hora": "2026-10-12T22",
     "promobit_nesta_hora": 0,
-    "promobit_visto": 3109360
+    "promobit_visto": 3109361
   },
   "ultimos": [
     {
@@ -1426,7 +1446,7 @@
         "reprovados": 3
       },
       "promonocontext": {
-        "achados": 12,
+        "achados": 13,
         "aprovados": 7,
         "reprovados": 5
       },
