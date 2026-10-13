@@ -284,6 +284,24 @@
       "na_revisao_desde": "2026-10-12T23:50-03:00",
       "de": 39.9,
       "aprovado_em": "2026-10-12T23:59-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB68750945",
+      "origem": "xetdaspromocoes",
+      "link": "https://meli.la/2RgAWa6",
+      "link_produto": "https://meli.la/2RgAWa6",
+      "post_origem": "https://t.me/xetdaspromocoes/84509",
+      "link_canal": "https://meli.la/1XDTcri",
+      "foto": "AgACAgQAAxkDAAIBP2rNnHgaTWEmdwmmR_8FabBuuyZIAAKsDmsbJNGkU4t4AbaY7WQTAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Boné Aba Reta Five Panel Evasecret Water Strapback Impermeavel Preta",
+      "por": 49.44,
+      "titulo": "Boné impermeável",
+      "garimpado_em": "2026-10-12T23:50-03:00",
+      "na_revisao_desde": "2026-10-12T23:50-03:00",
+      "de": 89.9,
+      "aprovado_em": "2026-10-13T00:00-03:00"
     }
   ],
   "postados": [
@@ -669,26 +687,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB68750945",
-      "origem": "xetdaspromocoes",
-      "link": "https://www.mercadolivre.com.br/bone-aba-reta-five-panel-evasecret-water-strapback-impermeavel-preta/p/MLB68750945?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/bone-aba-reta-five-panel-evasecret-water-strapback-impermeavel-preta/p/MLB68750945",
-      "post_origem": "https://t.me/xetdaspromocoes/84509",
-      "link_canal": "https://meli.la/1XDTcri",
-      "foto": "AgACAgQAAxkDAAIBP2rNnHgaTWEmdwmmR_8FabBuuyZIAAKsDmsbJNGkU4t4AbaY7WQTAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Boné Aba Reta Five Panel Evasecret Water Strapback Impermeavel Preta",
-      "por": 49.0,
-      "titulo": "Boné impermeável com 38% off",
-      "id": 160,
-      "garimpado_em": "2026-10-12T23:50-03:00",
-      "na_revisao_desde": "2026-10-12T23:50-03:00",
-      "msg_id": 319
-    }
-  ],
+  "revisar": [],
   "proximo_id": 163,
   "radar": {
     "visto": {
@@ -1792,7 +1791,7 @@
       },
       "xetdaspromocoes": {
         "achados": 2,
-        "aprovados": 1,
+        "aprovados": 2,
         "reprovados": 0
       }
     }
