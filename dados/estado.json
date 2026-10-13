@@ -1789,27 +1789,67 @@
       "garimpado_em": "2026-10-13T18:00-03:00",
       "na_revisao_desde": "2026-10-13T18:00-03:00",
       "msg_id": 703
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0F8W5JWQG",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0F8W5JWQG?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0F8W5JWQG?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220775",
+      "link_canal": "https://www.amazon.com.br/Monitor-Odyssey-%C3%B3culos-165Hz-prata/dp/B0F8W5JWQG?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAICwGrOnlKFPSoNK8DK0V9qq7I6PxRKAALyDmsbyZJ1UlAkutl9CzYDAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "nome": "Monitor Samsung Odyssey 4K IPS 3D Sem Óculos 27 165Hz + Frete Grátis",
+      "parcelas": 10,
+      "por": 7299.9,
+      "titulo": "Monitor Samsung 4K para máxima imersão visual",
+      "id": 417,
+      "garimpado_em": "2026-10-13T18:10-03:00",
+      "na_revisao_desde": "2026-10-13T18:10-03:00",
+      "msg_id": 704
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:1287093777.18199337362",
+      "origem": "promooeasy",
+      "link": "https://shopee.com.br/product/1287093777/18199337362",
+      "link_produto": "https://shopee.com.br/product/1287093777/18199337362",
+      "post_origem": "https://t.me/promooeasy/220777",
+      "link_canal": "https://s.shopee.com.br/20wCnsNsvZ?lp=aff",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAICwWrOnlynrOW-maYKGXsH5UTfPi-HAAITDWsb7AJ5RrfI6QaZRgXtAQADAgADeAADPQQ",
+      "foto_origem": "canal",
+      "nome": "Parafusadeira e Furadeira à Bateria 12V GSR 120-LI com 1 Bateria e Maleta BOSCH Bivolt",
+      "pix": true,
+      "de": 560.45,
+      "por": 315.5,
+      "titulo": "Parafusadeira Bosch 12V com 44% de desconto",
+      "id": 418,
+      "garimpado_em": "2026-10-13T18:10-03:00",
+      "na_revisao_desde": "2026-10-13T18:10-03:00",
+      "msg_id": 705
     }
   ],
-  "proximo_id": 417,
+  "proximo_id": 419,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84678,
-      "lobaopromo": 188988,
-      "gatunopromos": 125145,
+      "xetdaspromocoes": 84682,
+      "lobaopromo": 188989,
+      "gatunopromos": 125147,
       "pobregram": 41843,
       "urubupromo": 41622,
       "tudonapromo": 101755,
-      "promonocontext": 126378,
-      "promooeasy": 220769,
-      "aquitempechincha": 281422,
+      "promonocontext": 126382,
+      "promooeasy": 220778,
+      "aquitempechincha": 281423,
       "infoBRpromos": 67464,
       "boletando": 76673,
       "promotop": 260232,
       "achadosdotb": 11763
     },
     "dia": "2026-10-13",
-    "hoje": 252,
+    "hoje": 254,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -2201,27 +2241,29 @@
       "mercadolivre:MLB32431595",
       "amazon:B0HLMP791T",
       "amazon:B0G1TMXHRZ",
-      "amazon:B0G1TMZ4JS"
+      "amazon:B0G1TMZ4JS",
+      "amazon:B0F8W5JWQG",
+      "shopee:1287093777.18199337362"
     ],
     "ultima": {
-      "em": "2026-10-13T18:00:27-03:00",
+      "em": "2026-10-13T18:10:19-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 15,
-      "do_nicho": 4,
-      "repetidas": 3,
-      "novas": 1,
+      "posts_novos": 36,
+      "do_nicho": 9,
+      "repetidas": 7,
+      "novas": 2,
       "limite_dia": false,
-      "promobit": 1
+      "promobit": 0
     },
     "hora": "2026-10-13T18",
-    "nesta_hora": 0,
+    "nesta_hora": 2,
     "promobit_hora": "2026-10-13T18",
     "promobit_nesta_hora": 1,
-    "promobit_visto": 3111395
+    "promobit_visto": 3111419
   },
   "ultimos": [
     {
@@ -3663,7 +3705,7 @@
         "reprovados": 28
       },
       "promooeasy": {
-        "achados": 95,
+        "achados": 97,
         "aprovados": 2,
         "reprovados": 81
       },
