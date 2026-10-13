@@ -359,6 +359,24 @@
       "na_revisao_desde": "2026-10-13T12:43-03:00",
       "parcela_valor": 6.0,
       "aprovado_em": "2026-10-13T13:06-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB6160179460",
+      "origem": "xetdaspromocoes",
+      "link": "https://meli.la/1DjLFG2",
+      "link_produto": "https://meli.la/1DjLFG2",
+      "post_origem": "https://t.me/xetdaspromocoes/84619",
+      "link_canal": "https://meli.la/2JJTmZy",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_838298-MLB115738787382_092026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Óculos De Sol Hexagonal Masculino Premium Uv400 Flexivel Preto",
+      "por": 79.99,
+      "de": 139.99,
+      "titulo": "Desconto de 43%: é agora ou nunca.",
+      "garimpado_em": "2026-10-13T12:41-03:00",
+      "na_revisao_desde": "2026-10-13T12:41-03:00",
+      "aprovado_em": "2026-10-13T13:07-03:00"
     }
   ],
   "postados": [
@@ -986,26 +1004,6 @@
       "garimpado_em": "2026-10-13T12:18-03:00",
       "na_revisao_desde": "2026-10-13T12:18-03:00",
       "msg_id": 539
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB6160179460",
-      "origem": "xetdaspromocoes",
-      "link": "https://www.mercadolivre.com.br/oculos-de-sol-hexagonal-masculino-premium-uv400-flexivel/up/MLBU3718874543?pdp_filters=item_id%3AMLB6160179460&matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/oculos-de-sol-hexagonal-masculino-premium-uv400-flexivel/up/MLBU3718874543?pdp_filters=item_id%3AMLB6160179460",
-      "post_origem": "https://t.me/xetdaspromocoes/84619",
-      "link_canal": "https://meli.la/2JJTmZy",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_838298-MLB115738787382_092026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Óculos De Sol Hexagonal Masculino Premium Uv400 Flexivel Preto",
-      "por": 79.99,
-      "de": 139.99,
-      "cupom": "FORTUNADEPROMOS",
-      "titulo": "Desconto de 43%: é agora ou nunca.",
-      "id": 284,
-      "garimpado_em": "2026-10-13T12:41-03:00",
-      "na_revisao_desde": "2026-10-13T12:41-03:00",
-      "msg_id": 553
     },
     {
       "loja": "amazon",
@@ -2355,7 +2353,7 @@
       },
       "xetdaspromocoes": {
         "achados": 11,
-        "aprovados": 4,
+        "aprovados": 5,
         "reprovados": 6
       },
       "promotop": {
