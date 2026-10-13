@@ -1008,26 +1008,6 @@
     },
     {
       "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB67826479",
-      "origem": "promotop",
-      "link": "https://www.mercadolivre.com.br/monitor-gamer-acer-nitro-238-200hz-2ms-fhd-hdmi-va-kg241y-x3bip-preto/p/MLB67826479?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/monitor-gamer-acer-nitro-238-200hz-2ms-fhd-hdmi-va-kg241y-x3bip-preto/p/MLB67826479",
-      "post_origem": "https://t.me/promotop/260211",
-      "link_canal": "https://meli.la/33uvxYM",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_660563-MLA109412855062_042026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Monitor Gamer Acer Nitro 23.8 200hz 2ms FHD HDMI VA KG241Y-X3Bip Preto",
-      "por": 617.5,
-      "de": 999.0,
-      "cupom": "MELHORDEHJ",
-      "titulo": "Monitor Gamer Acer com 38% de desconto",
-      "id": 281,
-      "garimpado_em": "2026-10-13T12:19-03:00",
-      "na_revisao_desde": "2026-10-13T12:19-03:00",
-      "msg_id": 541
-    },
-    {
-      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB6160179460",
       "origem": "xetdaspromocoes",
       "link": "https://www.mercadolivre.com.br/oculos-de-sol-hexagonal-masculino-premium-uv400-flexivel/up/MLBU3718874543?pdp_filters=item_id%3AMLB6160179460&matt_word=alphapromo&matt_tool=59136903",
@@ -1933,6 +1913,27 @@
   ],
   "lixeira": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB67826479",
+      "origem": "promotop",
+      "link": "https://www.mercadolivre.com.br/monitor-gamer-acer-nitro-238-200hz-2ms-fhd-hdmi-va-kg241y-x3bip-preto/p/MLB67826479?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/monitor-gamer-acer-nitro-238-200hz-2ms-fhd-hdmi-va-kg241y-x3bip-preto/p/MLB67826479",
+      "post_origem": "https://t.me/promotop/260211",
+      "link_canal": "https://meli.la/33uvxYM",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_660563-MLA109412855062_042026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Monitor Gamer Acer Nitro 23.8 200hz 2ms FHD HDMI VA KG241Y-X3Bip Preto",
+      "por": 617.5,
+      "de": 999.0,
+      "cupom": "MELHORDEHJ",
+      "titulo": "Monitor Gamer Acer com 38% de desconto",
+      "id": 281,
+      "garimpado_em": "2026-10-13T12:19-03:00",
+      "na_revisao_desde": "2026-10-13T12:19-03:00",
+      "removido_em": "2026-10-13T13:06:38-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0H3CN14RK",
       "origem": "promooeasy",
@@ -2359,7 +2360,7 @@
       "promotop": {
         "achados": 5,
         "aprovados": 1,
-        "reprovados": 3
+        "reprovados": 4
       },
       "promonocontext": {
         "achados": 17,
