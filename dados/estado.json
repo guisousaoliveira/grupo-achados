@@ -1509,9 +1509,27 @@
       "garimpado_em": "2026-10-13T15:04-03:00",
       "na_revisao_desde": "2026-10-13T15:04-03:00",
       "msg_id": 617
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0D6BXNRZQ",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0D6BXNRZQ?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0D6BXNRZQ?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220621",
+      "link_canal": "https://www.amazon.com.br/dp/B0D6BXNRZQ?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAICamrOcr2qpmAKqIcwR9bJfS9FZwsPAALvDWsbsC6sUzwkzwZIRg_1AQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "nome": "Sabonete Líquido Glicerina Camomila JOHNSONS Baby, 400ml",
+      "por": 19.42,
+      "titulo": "Sabonete Johnson's de glicerina com desconto",
+      "garimpado_em": "2026-10-13T15:04-03:00",
+      "id": 351,
+      "na_revisao_desde": "2026-10-13T15:47-03:00",
+      "msg_id": 633
     }
   ],
-  "proximo_id": 351,
+  "proximo_id": 352,
   "radar": {
     "visto": {
       "xetdaspromocoes": 84657,
@@ -2430,25 +2448,6 @@
   "lixeira": [
     {
       "loja": "amazon",
-      "chave": "amazon:B0D6BXNRZQ",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0D6BXNRZQ?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0D6BXNRZQ?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/220621",
-      "link_canal": "https://www.amazon.com.br/dp/B0D6BXNRZQ?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAICamrOcr2qpmAKqIcwR9bJfS9FZwsPAALvDWsbsC6sUzwkzwZIRg_1AQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "nome": "Sabonete Líquido Glicerina Camomila JOHNSONS Baby, 400ml",
-      "por": 19.42,
-      "titulo": "Sabonete Johnson's de glicerina com desconto",
-      "id": 337,
-      "garimpado_em": "2026-10-13T15:04-03:00",
-      "na_revisao_desde": "2026-10-13T15:04-03:00",
-      "removido_em": "2026-10-13T15:46:45-03:00",
-      "removido_de": "revisar"
-    },
-    {
-      "loja": "amazon",
       "chave": "amazon:B0GFLDPNGF",
       "origem": "promooeasy",
       "link": "https://www.amazon.com.br/dp/B0GFLDPNGF?tag=alphadominu09-20",
@@ -3307,7 +3306,7 @@
       "promooeasy": {
         "achados": 74,
         "aprovados": 2,
-        "reprovados": 65
+        "reprovados": 64
       },
       "xetdaspromocoes": {
         "achados": 13,
