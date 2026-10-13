@@ -1215,27 +1215,47 @@
       "garimpado_em": "2026-10-13T10:44-03:00",
       "na_revisao_desde": "2026-10-13T10:44-03:00",
       "msg_id": 484
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB4049279695",
+      "origem": "lobaopromo",
+      "link": "https://produto.mercadolivre.com.br/MLB-4049279695-tnis-kappa-park-20-original-unissex-caminhada-academia-_JM?pdp_filters=item_id%3AMLB4049279695&matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-4049279695-tnis-kappa-park-20-original-unissex-caminhada-academia-_JM?pdp_filters=item_id%3AMLB4049279695",
+      "post_origem": "https://t.me/lobaopromo/188800",
+      "link_canal": "https://meli.la/1bGvySN",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_636204-MLB92283366432_092025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Tênis Kappa Park 2.0 Original Unissex Caminhada Academia",
+      "pix": true,
+      "de": 169.99,
+      "por": 88.7,
+      "titulo": "Tênis Kappa Park com 48% off",
+      "id": 257,
+      "garimpado_em": "2026-10-13T10:50-03:00",
+      "na_revisao_desde": "2026-10-13T10:50-03:00",
+      "msg_id": 485
     }
   ],
-  "proximo_id": 257,
+  "proximo_id": 258,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84583,
-      "lobaopromo": 188797,
-      "gatunopromos": 125084,
-      "pobregram": 41815,
-      "urubupromo": 41611,
-      "tudonapromo": 101681,
-      "promonocontext": 126145,
-      "promooeasy": 220465,
-      "aquitempechincha": 281342,
+      "xetdaspromocoes": 84588,
+      "lobaopromo": 188803,
+      "gatunopromos": 125085,
+      "pobregram": 41816,
+      "urubupromo": 41612,
+      "tudonapromo": 101683,
+      "promonocontext": 126150,
+      "promooeasy": 220469,
+      "aquitempechincha": 281344,
       "infoBRpromos": 67444,
-      "boletando": 76651,
-      "promotop": 260201,
+      "boletando": 76652,
+      "promotop": 260202,
       "achadosdotb": 11757
     },
     "dia": "2026-10-13",
-    "hoje": 93,
+    "hoje": 94,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -1468,27 +1488,28 @@
       "amazon:B07KYFQRXD",
       "mercadolivre:MLB4592320910",
       "mercadolivre:MLB58097097",
-      "mercadolivre:MLB78183808"
+      "mercadolivre:MLB78183808",
+      "mercadolivre:MLB4049279695"
     ],
     "ultima": {
-      "em": "2026-10-13T10:40:39-03:00",
+      "em": "2026-10-13T10:50:18-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 37,
-      "do_nicho": 4,
-      "repetidas": 1,
-      "novas": 3,
+      "posts_novos": 42,
+      "do_nicho": 5,
+      "repetidas": 4,
+      "novas": 1,
       "limite_dia": false,
       "promobit": 0
     },
     "hora": "2026-10-13T10",
-    "nesta_hora": 24,
+    "nesta_hora": 25,
     "promobit_hora": "2026-10-13T10",
     "promobit_nesta_hora": 1,
-    "promobit_visto": 3110153
+    "promobit_visto": 3110172
   },
   "ultimos": [
     {
@@ -2216,7 +2237,7 @@
         "reprovados": 8
       },
       "lobaopromo": {
-        "achados": 16,
+        "achados": 17,
         "aprovados": 7,
         "reprovados": 6
       },
