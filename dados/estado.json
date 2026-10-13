@@ -2,25 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB17460955",
-      "origem": "promotop",
-      "link": "https://meli.la/12BAQV4",
-      "link_produto": "https://meli.la/12BAQV4",
-      "post_origem": "https://t.me/promotop/260189",
-      "link_canal": "https://meli.la/1ZYPdCD",
-      "foto": "AgACAgQAAxkDAAIBdmrOGOf6GaUu7sPtv4H-M23Wc5I4AAK0Dmsbd6ikUnzhKEuRjJaCAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Perfume Masculino Emporio Armani Stronger With You Edt 100ml",
-      "pix": true,
-      "por": 344.79,
-      "titulo": "Perfume Emporio Armani Stronger With You 100ml no Pix",
-      "garimpado_em": "2026-10-13T08:41-03:00",
-      "na_revisao_desde": "2026-10-13T08:41-03:00",
-      "de": 719.0,
-      "aprovado_em": "2026-10-13T09:17-03:00"
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B0HHL6F5M6",
       "origem": "promobit",
@@ -926,6 +907,15 @@
       "link": "https://meli.la/1WBSL27",
       "link_produto": "https://meli.la/1WBSL27",
       "slot": 17
+    },
+    {
+      "chave": "mercadolivre:MLB17460955",
+      "loja": "mercadolivre",
+      "nome": "Perfume Masculino Emporio Armani Stronger With You Edt 100ml",
+      "data": "2026-10-13T18:44-03:00",
+      "link": "https://meli.la/12BAQV4",
+      "link_produto": "https://meli.la/12BAQV4",
+      "slot": 18
     }
   ],
   "slots_usados": {
@@ -960,7 +950,8 @@
       14,
       15,
       16,
-      17
+      17,
+      18
     ]
   },
   "shopee_buscado_em": "",
@@ -2505,6 +2496,20 @@
   "ultimos": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB17460955",
+      "origem": "promotop",
+      "link": "https://meli.la/12BAQV4",
+      "link_produto": "https://meli.la/12BAQV4",
+      "post_origem": "https://t.me/promotop/260189",
+      "foto": "AgACAgQAAxkDAAIBdmrOGOf6GaUu7sPtv4H-M23Wc5I4AAK0Dmsbd6ikUnzhKEuRjJaCAQADAgADeAADPQQ",
+      "nome": "Perfume Masculino Emporio Armani Stronger With You Edt 100ml",
+      "pix": true,
+      "por": 344.79,
+      "titulo": "Perfume Emporio Armani Stronger With You 100ml no Pix",
+      "de": 719.0
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB66902915",
       "origem": "lobaopromo",
       "link": "https://meli.la/1WBSL27",
@@ -3039,19 +3044,6 @@
       "de": 333.0,
       "por": 107.39,
       "titulo": "Tênis Fila para treino e corrida"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB49217710",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/1tqC1AP",
-      "link_produto": "https://meli.la/1tqC1AP",
-      "post_origem": "https://t.me/lobaopromo/188585",
-      "foto": "AgACAgEAAxkDAAIBDmrNby012wGfEnflKPGbq2xW70KNAAKRDWsb8PdpRiMmd_5PBlLbAQADAgADeQADPQQ",
-      "nome": "Creatina +Mu em pó sabor Melancia x 500g",
-      "por": 67.0,
-      "titulo": "Creatina para render mais no treino",
-      "de": 124.99
     }
   ],
   "lixeira": [
