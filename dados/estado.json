@@ -1271,27 +1271,45 @@
       "garimpado_em": "2026-10-13T13:53-03:00",
       "na_revisao_desde": "2026-10-13T13:53-03:00",
       "msg_id": 591
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB16268160",
+      "origem": "promonocontext",
+      "link": "https://www.mercadolivre.com.br/controle-xbox-series-xs-series-xs/p/MLB16268160?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/controle-xbox-series-xs-series-xs/p/MLB16268160",
+      "post_origem": "https://t.me/promonocontext/126237",
+      "link_canal": "https://meli.la/1zGYfYp",
+      "foto": "AgACAgQAAxkDAAICUGrOY_BQwVfFdg2vJU7eqfwOi2f6AAIvDGsbr-RkUYE8Pg7FWsNkAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Controle xbox Series X|S Series X|S",
+      "por": 324.0,
+      "titulo": "Controle Xbox Series X|S disponível por R$ 324.",
+      "id": 316,
+      "garimpado_em": "2026-10-13T14:01-03:00",
+      "na_revisao_desde": "2026-10-13T14:01-03:00",
+      "msg_id": 592
     }
   ],
-  "proximo_id": 316,
+  "proximo_id": 317,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84628,
-      "lobaopromo": 188882,
-      "gatunopromos": 125102,
+      "xetdaspromocoes": 84629,
+      "lobaopromo": 188883,
+      "gatunopromos": 125103,
       "pobregram": 41831,
       "urubupromo": 41615,
-      "tudonapromo": 101712,
-      "promonocontext": 126236,
-      "promooeasy": 220581,
-      "aquitempechincha": 281360,
+      "tudonapromo": 101713,
+      "promonocontext": 126238,
+      "promooeasy": 220582,
+      "aquitempechincha": 281364,
       "infoBRpromos": 67454,
-      "boletando": 76660,
-      "promotop": 260216,
+      "boletando": 76661,
+      "promotop": 260217,
       "achadosdotb": 11762
     },
     "dia": "2026-10-13",
-    "hoje": 152,
+    "hoje": 153,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -1583,27 +1601,28 @@
       "mercadolivre:MLB7658024968",
       "amazon:B0C3DMVVVZ",
       "mercadolivre:MLB20870718",
-      "mercadolivre:MLB56254827"
+      "mercadolivre:MLB56254827",
+      "mercadolivre:MLB16268160"
     ],
     "ultima": {
-      "em": "2026-10-13T13:50:19-03:00",
+      "em": "2026-10-13T14:00:29-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 33,
-      "do_nicho": 5,
-      "repetidas": 2,
-      "novas": 3,
+      "posts_novos": 24,
+      "do_nicho": 1,
+      "repetidas": 0,
+      "novas": 1,
       "limite_dia": false,
-      "promobit": 1
+      "promobit": 0
     },
-    "hora": "2026-10-13T13",
-    "nesta_hora": 15,
-    "promobit_hora": "2026-10-13T13",
-    "promobit_nesta_hora": 4,
-    "promobit_visto": 3110632
+    "hora": "2026-10-13T14",
+    "nesta_hora": 1,
+    "promobit_hora": "2026-10-13T14",
+    "promobit_nesta_hora": 0,
+    "promobit_visto": 3110652
   },
   "ultimos": [
     {
@@ -2703,7 +2722,7 @@
         "reprovados": 5
       },
       "promonocontext": {
-        "achados": 20,
+        "achados": 21,
         "aprovados": 3,
         "reprovados": 13
       },
