@@ -984,27 +984,6 @@
       "garimpado_em": "2026-10-13T08:41-03:00",
       "na_revisao_desde": "2026-10-13T08:41-03:00",
       "msg_id": 374
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:898761179.49111136322",
-      "origem": "promooeasy",
-      "link": "https://shopee.com.br/product/898761179/49111136322",
-      "link_produto": "https://shopee.com.br/product/898761179/49111136322",
-      "post_origem": "https://t.me/promooeasy/220368",
-      "link_canal": "https://s.shopee.com.br/1qclykBHfy?lp=aff",
-      "precisa_link": true,
-      "foto": "AgACAgEAAxkDAAIBd2rOGxNDccx5bzxgUFsH3d-wCF5AAAIfDWsb7AJxRlpFwkUJmd8uAQADAgADeAADPQQ",
-      "foto_origem": "canal",
-      "nome": "Caixa de Som Lg Xboom Partybox 250rms Bluetooth 5.1 20H Ipx4 - Xl7t",
-      "pix": true,
-      "cupom_loja": "Resgate o cupom de R$90 aqui:",
-      "por": 1443.0,
-      "titulo": "Caixa de Som LG Xboom com desconto de 90 reais",
-      "id": 203,
-      "garimpado_em": "2026-10-13T08:50-03:00",
-      "na_revisao_desde": "2026-10-13T08:50-03:00",
-      "msg_id": 375
     }
   ],
   "proximo_id": 210,
@@ -1751,6 +1730,28 @@
   "lixeira": [
     {
       "loja": "shopee",
+      "chave": "shopee:898761179.49111136322",
+      "origem": "promooeasy",
+      "link": "https://shopee.com.br/product/898761179/49111136322",
+      "link_produto": "https://shopee.com.br/product/898761179/49111136322",
+      "post_origem": "https://t.me/promooeasy/220368",
+      "link_canal": "https://s.shopee.com.br/1qclykBHfy?lp=aff",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAIBd2rOGxNDccx5bzxgUFsH3d-wCF5AAAIfDWsb7AJxRlpFwkUJmd8uAQADAgADeAADPQQ",
+      "foto_origem": "canal",
+      "nome": "Caixa de Som Lg Xboom Partybox 250rms Bluetooth 5.1 20H Ipx4 - Xl7t",
+      "pix": true,
+      "cupom_loja": "Resgate o cupom de R$90 aqui:",
+      "por": 1443.0,
+      "titulo": "Caixa de Som LG Xboom com desconto de 90 reais",
+      "id": 203,
+      "garimpado_em": "2026-10-13T08:50-03:00",
+      "na_revisao_desde": "2026-10-13T08:50-03:00",
+      "removido_em": "2026-10-13T09:16:29-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "shopee",
       "chave": "shopee:1509845472.43029805037",
       "origem": "promooeasy",
       "link": "https://shopee.com.br/product/1509845472/43029805037",
@@ -2008,7 +2009,7 @@
       "promooeasy": {
         "achados": 27,
         "aprovados": 2,
-        "reprovados": 17
+        "reprovados": 18
       },
       "xetdaspromocoes": {
         "achados": 1,
