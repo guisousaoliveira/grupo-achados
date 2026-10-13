@@ -818,25 +818,6 @@
       "garimpado_em": "2026-10-13T00:20-03:00",
       "na_revisao_desde": "2026-10-13T00:20-03:00",
       "msg_id": 336
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:1343318906.43284754876",
-      "origem": "promooeasy",
-      "link": "https://shopee.com.br/product/1343318906/43284754876",
-      "link_produto": "https://shopee.com.br/product/1343318906/43284754876",
-      "post_origem": "https://t.me/promooeasy/220269",
-      "link_canal": "https://s.shopee.com.br/1Vzv1CTYgN?lp=aff",
-      "precisa_link": true,
-      "foto": "AgACAgEAAxkDAAIBUWrNo5oGomo9K8UM9Lu4VrW2k43jAALcDGsb7AJxRoOiT1IWCu9GAQADAgADeAADPQQ",
-      "foto_origem": "canal",
-      "nome": "Monitor Gamer TCL 25 QD-Mini LED 300Hz 1ms 25G64",
-      "por": 1140.0,
-      "titulo": "Monitor Gamer TCL com 300Hz e 1ms",
-      "id": 171,
-      "garimpado_em": "2026-10-13T00:20-03:00",
-      "na_revisao_desde": "2026-10-13T00:20-03:00",
-      "msg_id": 337
     }
   ],
   "proximo_id": 183,
@@ -1511,6 +1492,26 @@
     }
   ],
   "lixeira": [
+    {
+      "loja": "shopee",
+      "chave": "shopee:1343318906.43284754876",
+      "origem": "promooeasy",
+      "link": "https://shopee.com.br/product/1343318906/43284754876",
+      "link_produto": "https://shopee.com.br/product/1343318906/43284754876",
+      "post_origem": "https://t.me/promooeasy/220269",
+      "link_canal": "https://s.shopee.com.br/1Vzv1CTYgN?lp=aff",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAIBUWrNo5oGomo9K8UM9Lu4VrW2k43jAALcDGsb7AJxRoOiT1IWCu9GAQADAgADeAADPQQ",
+      "foto_origem": "canal",
+      "nome": "Monitor Gamer TCL 25 QD-Mini LED 300Hz 1ms 25G64",
+      "por": 1140.0,
+      "titulo": "Monitor Gamer TCL com 300Hz e 1ms",
+      "id": 171,
+      "garimpado_em": "2026-10-13T00:20-03:00",
+      "na_revisao_desde": "2026-10-13T00:20-03:00",
+      "removido_em": "2026-10-13T00:47:35-03:00",
+      "removido_de": "revisar"
+    },
     {
       "loja": "shopee",
       "chave": "shopee:1083800536.58216641373",
@@ -2208,7 +2209,7 @@
       "promooeasy": {
         "achados": 12,
         "aprovados": 0,
-        "reprovados": 9
+        "reprovados": 10
       }
     }
   },
