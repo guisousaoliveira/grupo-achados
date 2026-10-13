@@ -3,26 +3,6 @@
   "fila": [
     {
       "loja": "amazon",
-      "chave": "amazon:B09YVVH7J1",
-      "origem": "promooeasy",
-      "link": "https://link.amazon/B0iSNI1KA",
-      "link_produto": "https://link.amazon/B0iSNI1KA",
-      "post_origem": "https://t.me/promooeasy/220309",
-      "link_canal": "https://www.amazon.com.br/Mochila-T60-Academia-Nata%C3%A7%C3%A3o-Camping/dp/B09YVVH7J1?tag=promof26-20",
-      "foto": "https://m.media-amazon.com/images/I/61fIYeggosL._AC_SL1200_.jpg",
-      "foto_origem": "loja",
-      "nome": "Mochila Mala T60 Para Academia Natação Camping na Cor Preta",
-      "pix": true,
-      "por": 52.58,
-      "titulo": "Mochila versátil para academia, natação e camping",
-      "garimpado_em": "2026-10-13T07:40-03:00",
-      "na_revisao_desde": "2026-10-13T07:40-03:00",
-      "parcelas": 2,
-      "parcela_valor": 27.68,
-      "aprovado_em": "2026-10-13T08:02-03:00"
-    },
-    {
-      "loja": "amazon",
       "chave": "amazon:B0FPNSXKKJ",
       "origem": "promooeasy",
       "link": "https://link.amazon/B06qjIRwk",
@@ -851,6 +831,15 @@
       "data": "2026-10-13T14:10-03:00",
       "link": "https://meli.la/1NnuF3D",
       "link_produto": "https://meli.la/1NnuF3D"
+    },
+    {
+      "chave": "amazon:B09YVVH7J1",
+      "loja": "amazon",
+      "nome": "Mochila Mala T60 Para Academia Natação Camping na Cor Preta",
+      "data": "2026-10-13T14:30-03:00",
+      "link": "https://link.amazon/B0iSNI1KA",
+      "link_produto": "https://link.amazon/B0iSNI1KA",
+      "slot": 14
     }
   ],
   "slots_usados": {
@@ -881,7 +870,8 @@
       10,
       11,
       12,
-      13
+      13,
+      14
     ]
   },
   "shopee_buscado_em": "",
@@ -1585,6 +1575,21 @@
   },
   "ultimos": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B09YVVH7J1",
+      "origem": "promooeasy",
+      "link": "https://link.amazon/B0iSNI1KA",
+      "link_produto": "https://link.amazon/B0iSNI1KA",
+      "post_origem": "https://t.me/promooeasy/220309",
+      "foto": "https://m.media-amazon.com/images/I/61fIYeggosL._AC_SL1200_.jpg",
+      "nome": "Mochila Mala T60 Para Academia Natação Camping na Cor Preta",
+      "pix": true,
+      "por": 52.58,
+      "titulo": "Mochila versátil para academia, natação e camping",
+      "parcelas": 2,
+      "parcela_valor": 27.68
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB4613727425",
       "origem": "lobaopromo",
@@ -2116,20 +2121,6 @@
       "titulo": "Mochila esportiva para carregar seus itens na academia",
       "parcelas": 2,
       "parcela_valor": 23.74,
-      "pix": true
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB21835256",
-      "origem": "promonocontext",
-      "link": "https://meli.la/2RKjsdt",
-      "link_produto": "https://www.mercadolivre.com.br/maquininha-3-em-1-kemei-km-1910-aparador-pelo-corpo-agua-resistente/p/MLB21835256",
-      "post_origem": "https://t.me/promonocontext/125966",
-      "foto": "AgACAgQAAxkDAAPnas1DcbzBBB-HZDSgXjU5vnimAekAAjINaxuj3XRQYu_3KQABP-NcAQADAgADeAADPQQ",
-      "nome": "Maquininha 3 Em 1 Kemei KM-1910 Aparador Pelo Corpo Água Resistente",
-      "de": 99.9,
-      "por": 51.76,
-      "titulo": "Maquininha Kemei com 48% off",
       "pix": true
     }
   ],
