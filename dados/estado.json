@@ -1451,27 +1451,101 @@
       "garimpado_em": "2026-10-13T17:20-03:00",
       "na_revisao_desde": "2026-10-13T17:20-03:00",
       "msg_id": 685
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB6087974",
+      "origem": "lobaopromo",
+      "link": "https://www.mercadolivre.com.br/proteina-max-titanium-whey-pro-concetrado-em-po-sabor-baunilha-x-1kg/p/MLB6087974?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/proteina-max-titanium-whey-pro-concetrado-em-po-sabor-baunilha-x-1kg/p/MLB6087974",
+      "post_origem": "https://t.me/lobaopromo/188976",
+      "link_canal": "https://meli.la/2bgriKg",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_960337-MLA111724818522_062026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Proteína Max Titanium Whey Pro Concetrado em pó sabor Baunilha x 1kg",
+      "de": 179.0,
+      "por": 99.0,
+      "titulo": "Proteína Max Titanium Whey 1kg sabor baunilha com 45% de desconto.",
+      "id": 399,
+      "garimpado_em": "2026-10-13T17:31-03:00",
+      "na_revisao_desde": "2026-10-13T17:31-03:00",
+      "msg_id": 686
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B076BCQ58V",
+      "origem": "promonocontext",
+      "link": "https://www.amazon.com.br/dp/B076BCQ58V?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B076BCQ58V?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promonocontext/126346",
+      "link_canal": "https://amazn.pro/r/3k8H2n",
+      "foto": "AgACAgQAAxkDAAICr2rOlSbnShJ250630_9wYiO8mFCRAAJKC2sbXKysUlyKYTQ-atemAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Caixa Térmica 34L Mor",
+      "de": 170.0,
+      "por": 81.0,
+      "titulo": "Caixa térmica Mor com 52% de desconto",
+      "id": 400,
+      "garimpado_em": "2026-10-13T17:31-03:00",
+      "na_revisao_desde": "2026-10-13T17:31-03:00",
+      "msg_id": 687
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B07D2FXHM1",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B07D2FXHM1?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B07D2FXHM1?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220724",
+      "link_canal": "https://www.amazon.com.br/dp/B07D2FXHM1?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAICsGrOlTHBNQKAr_ZGTzvX2lbdC5CNAALYDWsbj2gsUg-CfQU_AAEeYgEAAwIAA3gAAz0E",
+      "foto_origem": "loja",
+      "nome": "Granado Refil Sabonete Líquido Bebê, Tradicional, 250ml",
+      "por": 13.9,
+      "titulo": "Sabonete Granado tradicional com 44% de desconto",
+      "id": 401,
+      "garimpado_em": "2026-10-13T17:31-03:00",
+      "na_revisao_desde": "2026-10-13T17:31-03:00",
+      "msg_id": 688
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B08JQNDGKS",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B08JQNDGKS?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B08JQNDGKS?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220725",
+      "link_canal": "https://www.amazon.com.br/dp/B08JQNDGKS?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAICsWrOlTwEcbVNP0XDTm7cHATeR6pMAAL1uTEbObdMU7gEt6DzIhx8AQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Protex Baby Delicate Care Sabonete Líquido Infantil Refil, 180ml",
+      "por": 7.87,
+      "titulo": "Sabonete líquido infantil com formulação delicada",
+      "id": 402,
+      "garimpado_em": "2026-10-13T17:31-03:00",
+      "na_revisao_desde": "2026-10-13T17:31-03:00",
+      "msg_id": 689
     }
   ],
-  "proximo_id": 399,
+  "proximo_id": 403,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84672,
-      "lobaopromo": 188973,
-      "gatunopromos": 125136,
+      "xetdaspromocoes": 84673,
+      "lobaopromo": 188976,
+      "gatunopromos": 125138,
       "pobregram": 41839,
-      "urubupromo": 41620,
-      "tudonapromo": 101747,
-      "promonocontext": 126330,
-      "promooeasy": 220716,
-      "aquitempechincha": 281414,
-      "infoBRpromos": 67462,
-      "boletando": 76672,
+      "urubupromo": 41622,
+      "tudonapromo": 101748,
+      "promonocontext": 126349,
+      "promooeasy": 220732,
+      "aquitempechincha": 281418,
+      "infoBRpromos": 67463,
+      "boletando": 76673,
       "promotop": 260232,
       "achadosdotb": 11763
     },
     "dia": "2026-10-13",
-    "hoje": 234,
+    "hoje": 238,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -1845,27 +1919,31 @@
       "amazon:B0H6Z6WJXD",
       "amazon:B0DKLQT9XR",
       "amazon:B0FCG7D614",
-      "amazon:B0GDVLM2PF"
+      "amazon:B0GDVLM2PF",
+      "mercadolivre:MLB6087974",
+      "amazon:B076BCQ58V",
+      "amazon:B07D2FXHM1",
+      "amazon:B08JQNDGKS"
     ],
     "ultima": {
-      "em": "2026-10-13T17:20:20-03:00",
+      "em": "2026-10-13T17:30:26-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 42,
-      "do_nicho": 5,
-      "repetidas": 4,
-      "novas": 1,
+      "posts_novos": 62,
+      "do_nicho": 9,
+      "repetidas": 5,
+      "novas": 4,
       "limite_dia": false,
-      "promobit": 1
+      "promobit": 0
     },
     "hora": "2026-10-13T17",
-    "nesta_hora": 11,
+    "nesta_hora": 15,
     "promobit_hora": "2026-10-13T17",
     "promobit_nesta_hora": 4,
-    "promobit_visto": 3111265
+    "promobit_visto": 3111291
   },
   "ultimos": [
     {
@@ -3302,12 +3380,12 @@
         "reprovados": 22
       },
       "lobaopromo": {
-        "achados": 47,
+        "achados": 48,
         "aprovados": 11,
         "reprovados": 28
       },
       "promooeasy": {
-        "achados": 89,
+        "achados": 91,
         "aprovados": 2,
         "reprovados": 81
       },
@@ -3322,7 +3400,7 @@
         "reprovados": 5
       },
       "promonocontext": {
-        "achados": 36,
+        "achados": 37,
         "aprovados": 8,
         "reprovados": 23
       },
