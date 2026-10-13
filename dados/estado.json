@@ -713,19 +713,36 @@
       "garimpado_em": "2026-10-12T23:10-03:00",
       "na_revisao_desde": "2026-10-12T23:10-03:00",
       "msg_id": 314
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0CZPSD2SC",
+      "origem": "lobaopromo",
+      "link": "https://www.amazon.com.br/dp/B0CZPSD2SC?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0CZPSD2SC?tag=alphadominu09-20",
+      "post_origem": "https://t.me/lobaopromo/188653",
+      "link_canal": "https://amzlink.to/az0Xk5XvdVliU",
+      "foto": "AgACAgQAAxkDAAIBO2rNlXWTywrQFqu1Jb9aYmlkkBXaAAIEEGsb_7TsUN3Lpm60UkBCAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Stanley Garrafa Térmica Aerolight Transit Cream, 591ml",
+      "titulo": "Garrafa Stanley para manter sua bebida gelada",
+      "id": 158,
+      "garimpado_em": "2026-10-12T23:20-03:00",
+      "na_revisao_desde": "2026-10-12T23:20-03:00",
+      "msg_id": 315
     }
   ],
-  "proximo_id": 158,
+  "proximo_id": 159,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84504,
-      "lobaopromo": 188651,
-      "gatunopromos": 125010,
-      "pobregram": 41786,
+      "xetdaspromocoes": 84506,
+      "lobaopromo": 188654,
+      "gatunopromos": 125013,
+      "pobregram": 41787,
       "urubupromo": 41595,
       "tudonapromo": 101633,
       "promonocontext": 126051,
-      "promooeasy": 220256,
+      "promooeasy": 220257,
       "aquitempechincha": 281252,
       "infoBRpromos": 67421,
       "boletando": 76626,
@@ -733,7 +750,7 @@
       "achadosdotb": 11757
     },
     "dia": "2026-10-12",
-    "hoje": 126,
+    "hoje": 127,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -868,27 +885,28 @@
       "mercadolivre:MLB7389317322",
       "mercadolivre:MLB4992424197",
       "amazon:B0DXR1M87B",
-      "mercadolivre:MLB24117280"
+      "mercadolivre:MLB24117280",
+      "amazon:B0CZPSD2SC"
     ],
     "ultima": {
-      "em": "2026-10-12T23:10:18-03:00",
+      "em": "2026-10-12T23:20:20-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 15,
-      "do_nicho": 7,
-      "repetidas": 2,
-      "novas": 5,
+      "posts_novos": 20,
+      "do_nicho": 2,
+      "repetidas": 1,
+      "novas": 1,
       "limite_dia": false,
-      "promobit": 1
+      "promobit": 0
     },
     "hora": "2026-10-12T23",
-    "nesta_hora": 4,
+    "nesta_hora": 5,
     "promobit_hora": "2026-10-12T23",
     "promobit_nesta_hora": 2,
-    "promobit_visto": 3109447
+    "promobit_visto": 3109460
   },
   "ultimos": [
     {
@@ -1648,7 +1666,7 @@
         "reprovados": 2
       },
       "lobaopromo": {
-        "achados": 21,
+        "achados": 22,
         "aprovados": 8,
         "reprovados": 10
       },
@@ -1684,5 +1702,5 @@
       }
     }
   },
-  "aviso_post": "2026-10-12 22|amazon:B0DB6KW9SQ"
+  "aviso_post": "2026-10-12 23|mercadolivre:MLB22357681"
 }
