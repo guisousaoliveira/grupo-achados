@@ -1567,25 +1567,6 @@
       "garimpado_em": "2026-10-13T15:05-03:00",
       "na_revisao_desde": "2026-10-13T15:05-03:00",
       "msg_id": 620
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B07G7HRHYP",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B07G7HRHYP?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B07G7HRHYP?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/best-whey-907g-8211-sabor-brigadeiro-gourmet-atlhetica-nutrition-3110850/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3110850/",
-      "nome": "Best whey (907g)",
-      "por": 188.32,
-      "foto": "AgACAgQAAxkDAAICbWrOdFJZaZeiNDw-uQhrGA5bCCNqAAJPD2sb97pNUqpQ8nP6_cJ-AQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "titulo": "Investimento no shape que cabe no bolso.",
-      "id": 340,
-      "garimpado_em": "2026-10-13T15:11-03:00",
-      "na_revisao_desde": "2026-10-13T15:11-03:00",
-      "msg_id": 621
     }
   ],
   "proximo_id": 351,
@@ -2506,6 +2487,26 @@
   ],
   "lixeira": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B07G7HRHYP",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B07G7HRHYP?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B07G7HRHYP?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/best-whey-907g-8211-sabor-brigadeiro-gourmet-atlhetica-nutrition-3110850/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3110850/",
+      "nome": "Best whey (907g)",
+      "por": 188.32,
+      "foto": "AgACAgQAAxkDAAICbWrOdFJZaZeiNDw-uQhrGA5bCCNqAAJPD2sb97pNUqpQ8nP6_cJ-AQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "titulo": "Investimento no shape que cabe no bolso.",
+      "id": 340,
+      "garimpado_em": "2026-10-13T15:11-03:00",
+      "na_revisao_desde": "2026-10-13T15:11-03:00",
+      "removido_em": "2026-10-13T15:46:34-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB5997437372",
       "origem": "lobaopromo",
@@ -3290,26 +3291,6 @@
       "na_revisao_desde": "2026-10-13T12:18-03:00",
       "removido_em": "2026-10-13T12:36:31-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:399695524.42683809155",
-      "origem": "promooeasy",
-      "link": "https://shopee.com.br/product/399695524/42683809155",
-      "link_produto": "https://shopee.com.br/product/399695524/42683809155",
-      "post_origem": "https://t.me/promooeasy/220514",
-      "link_canal": "https://s.shopee.com.br/4fwxZSs2Mu?lp=aff",
-      "precisa_link": true,
-      "foto": "AgACAgEAAxkDAAICCWrOSTwr-faAoHhvsxA2tMeoZeI0AAJUDWsb7AJxRg9c8icRamhBAQADAgADeAADPQQ",
-      "foto_origem": "canal",
-      "nome": "Dispenser Sabonete Líquido Natalino de Cerâmica 250ml",
-      "por": 37.0,
-      "titulo": "Dispenser natalino de cerâmica para seu banheiro",
-      "id": 278,
-      "garimpado_em": "2026-10-13T12:18-03:00",
-      "na_revisao_desde": "2026-10-13T12:18-03:00",
-      "removido_em": "2026-10-13T12:36:27-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -3374,7 +3355,7 @@
       "promobit": {
         "achados": 22,
         "aprovados": 3,
-        "reprovados": 14
+        "reprovados": 15
       },
       "lobaopromo": {
         "achados": 35,
