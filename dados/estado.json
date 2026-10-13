@@ -717,26 +717,6 @@
       "msg_id": 329
     },
     {
-      "loja": "shopee",
-      "chave": "shopee:1083800536.58256207862",
-      "origem": "promooeasy",
-      "link": "https://shopee.com.br/product/1083800536/58256207862",
-      "link_produto": "https://shopee.com.br/product/1083800536/58256207862",
-      "post_origem": "https://t.me/promooeasy/220259",
-      "link_canal": "https://s.shopee.com.br/2BFbnfWfYG?lp=aff",
-      "precisa_link": true,
-      "foto": "AgACAgEAAxkDAAIBR2rNnyzGCye1mVGVMDXmEQbCEwYWAALYDGsb7AJxRrqBYEwQUwbHAQADAgADeAADPQQ",
-      "foto_origem": "canal",
-      "nome": "Monitor Gamer 22 AOC 22B35HM23 120Hz 1ms",
-      "cupom_loja": "Resgate o cupom de R$30 OFF aqui:",
-      "por": 408.5,
-      "titulo": "Monitor Gamer AOC 120Hz com desconto",
-      "id": 165,
-      "garimpado_em": "2026-10-13T00:02-03:00",
-      "na_revisao_desde": "2026-10-13T00:02-03:00",
-      "msg_id": 330
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB67711993",
       "origem": "lobaopromo",
@@ -1421,6 +1401,27 @@
   ],
   "lixeira": [
     {
+      "loja": "shopee",
+      "chave": "shopee:1083800536.58256207862",
+      "origem": "promooeasy",
+      "link": "https://shopee.com.br/product/1083800536/58256207862",
+      "link_produto": "https://shopee.com.br/product/1083800536/58256207862",
+      "post_origem": "https://t.me/promooeasy/220259",
+      "link_canal": "https://s.shopee.com.br/2BFbnfWfYG?lp=aff",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAIBR2rNnyzGCye1mVGVMDXmEQbCEwYWAALYDGsb7AJxRrqBYEwQUwbHAQADAgADeAADPQQ",
+      "foto_origem": "canal",
+      "nome": "Monitor Gamer 22 AOC 22B35HM23 120Hz 1ms",
+      "cupom_loja": "Resgate o cupom de R$30 OFF aqui:",
+      "por": 408.5,
+      "titulo": "Monitor Gamer AOC 120Hz com desconto",
+      "id": 165,
+      "garimpado_em": "2026-10-13T00:02-03:00",
+      "na_revisao_desde": "2026-10-13T00:02-03:00",
+      "removido_em": "2026-10-13T00:19:12-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B07N78G8GB",
       "origem": "promobit",
@@ -1916,7 +1917,7 @@
       "promooeasy": {
         "achados": 2,
         "aprovados": 0,
-        "reprovados": 0
+        "reprovados": 1
       }
     }
   },
