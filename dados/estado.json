@@ -333,6 +333,25 @@
       "garimpado_em": "2026-10-13T11:31-03:00",
       "na_revisao_desde": "2026-10-13T11:31-03:00",
       "aprovado_em": "2026-10-13T11:44-03:00"
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0DH9TR6DR",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://link.amazon/B0fV7V2di",
+      "link_produto": "https://link.amazon/B0fV7V2di",
+      "post_origem": "https://www.promobit.com.br/oferta/termolar-garrafa-termica-r-evolution-pressao-100-inox-12l-preta-3110213/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3110213/",
+      "nome": "TERMOLAR Garrafa Térmica R-Evolution Pressão 100% Inox 1,2L Preta",
+      "por": 296.81,
+      "de": 539.9,
+      "foto": "AgACAgQAAxkDAAIB6GrOPB1wBRJOnzTjWV7TLWoF5Z7vAAJXD2sbQGV1UhtWPPK_dV_dAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "titulo": "Desconto de 45%: é agora ou nunca.",
+      "garimpado_em": "2026-10-13T11:15-03:00",
+      "na_revisao_desde": "2026-10-13T11:15-03:00",
+      "aprovado_em": "2026-10-13T11:45-03:00"
     }
   ],
   "postados": [
@@ -1254,26 +1273,6 @@
       "garimpado_em": "2026-10-13T11:01-03:00",
       "na_revisao_desde": "2026-10-13T11:01-03:00",
       "msg_id": 486
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0DH9TR6DR",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B0DH9TR6DR?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0DH9TR6DR?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/termolar-garrafa-termica-r-evolution-pressao-100-inox-12l-preta-3110213/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3110213/",
-      "nome": "TERMOLAR Garrafa Térmica R-Evolution Pressão 100% Inox 1,2L Preta",
-      "por": 296.81,
-      "de": 539.9,
-      "foto": "AgACAgQAAxkDAAIB6GrOPB1wBRJOnzTjWV7TLWoF5Z7vAAJXD2sbQGV1UhtWPPK_dV_dAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "titulo": "Desconto de 45%: é agora ou nunca.",
-      "id": 259,
-      "garimpado_em": "2026-10-13T11:15-03:00",
-      "na_revisao_desde": "2026-10-13T11:15-03:00",
-      "msg_id": 492
     }
   ],
   "proximo_id": 272,
@@ -2515,7 +2514,7 @@
     "2026-10-13": {
       "promobit": {
         "achados": 13,
-        "aprovados": 2,
+        "aprovados": 3,
         "reprovados": 9
       },
       "lobaopromo": {
