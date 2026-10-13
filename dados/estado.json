@@ -1279,24 +1279,6 @@
       "garimpado_em": "2026-10-13T13:42-03:00",
       "na_revisao_desde": "2026-10-13T13:42-03:00",
       "msg_id": 586
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB7658024968",
-      "origem": "promotop",
-      "link": "https://www.mercadolivre.com.br/monitor-gamer-tcl-24--mini-led-full-hd-g54-hdr400-24g54/up/MLBU5231490686?pdp_filters=item_id%3AMLB7658024968&matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/monitor-gamer-tcl-24--mini-led-full-hd-g54-hdr400-24g54/up/MLBU5231490686?pdp_filters=item_id%3AMLB7658024968",
-      "post_origem": "https://t.me/promotop/260215",
-      "link_canal": "https://meli.la/2A8iQdF",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_771581-MLB117300186364_102026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Monitor Gamer Tcl 24 Mini Led Full Hd G54 Hdr400 24g54 Branco 127/220v",
-      "cupom": "MELHORDEHJ",
-      "titulo": "Preço bom assim não dura, corre!",
-      "id": 312,
-      "garimpado_em": "2026-10-13T13:44-03:00",
-      "na_revisao_desde": "2026-10-13T13:44-03:00",
-      "msg_id": 587
     }
   ],
   "proximo_id": 313,
@@ -2176,6 +2158,25 @@
   ],
   "lixeira": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB7658024968",
+      "origem": "promotop",
+      "link": "https://www.mercadolivre.com.br/monitor-gamer-tcl-24--mini-led-full-hd-g54-hdr400-24g54/up/MLBU5231490686?pdp_filters=item_id%3AMLB7658024968&matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/monitor-gamer-tcl-24--mini-led-full-hd-g54-hdr400-24g54/up/MLBU5231490686?pdp_filters=item_id%3AMLB7658024968",
+      "post_origem": "https://t.me/promotop/260215",
+      "link_canal": "https://meli.la/2A8iQdF",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_771581-MLB117300186364_102026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Monitor Gamer Tcl 24 Mini Led Full Hd G54 Hdr400 24g54 Branco 127/220v",
+      "cupom": "MELHORDEHJ",
+      "titulo": "Preço bom assim não dura, corre!",
+      "id": 312,
+      "garimpado_em": "2026-10-13T13:44-03:00",
+      "na_revisao_desde": "2026-10-13T13:44-03:00",
+      "removido_em": "2026-10-13T13:44:40-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0G4MKWQ37",
       "origem": "promooeasy",
@@ -2643,7 +2644,7 @@
       "promotop": {
         "achados": 6,
         "aprovados": 1,
-        "reprovados": 4
+        "reprovados": 5
       },
       "promonocontext": {
         "achados": 20,
