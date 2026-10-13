@@ -856,25 +856,6 @@
       "garimpado_em": "2026-10-13T00:21-03:00",
       "na_revisao_desde": "2026-10-13T00:21-03:00",
       "msg_id": 338
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:627750190.21298279540",
-      "origem": "promooeasy",
-      "link": "https://shopee.com.br/product/627750190/21298279540",
-      "link_produto": "https://shopee.com.br/product/627750190/21298279540",
-      "post_origem": "https://t.me/promooeasy/220271",
-      "link_canal": "https://s.shopee.com.br/1LgUpOZL0a?lp=aff",
-      "precisa_link": true,
-      "foto": "AgACAgEAAxkDAAIBU2rNo6v4rVrr3Z1MC82fJQfWkHW8AALeDGsb7AJxRiD60wK9ZSSBAQADAgADeAADPQQ",
-      "foto_origem": "canal",
-      "nome": "Cadeira Gamer TGT Heron M, Preto, TGT-HRM-BK02",
-      "por": 351.0,
-      "titulo": "Cadeira Gamer TGT Heron M com 40% off",
-      "id": 173,
-      "garimpado_em": "2026-10-13T00:21-03:00",
-      "na_revisao_desde": "2026-10-13T00:21-03:00",
-      "msg_id": 339
     }
   ],
   "proximo_id": 183,
@@ -1551,6 +1532,26 @@
   "lixeira": [
     {
       "loja": "shopee",
+      "chave": "shopee:627750190.21298279540",
+      "origem": "promooeasy",
+      "link": "https://shopee.com.br/product/627750190/21298279540",
+      "link_produto": "https://shopee.com.br/product/627750190/21298279540",
+      "post_origem": "https://t.me/promooeasy/220271",
+      "link_canal": "https://s.shopee.com.br/1LgUpOZL0a?lp=aff",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAIBU2rNo6v4rVrr3Z1MC82fJQfWkHW8AALeDGsb7AJxRiD60wK9ZSSBAQADAgADeAADPQQ",
+      "foto_origem": "canal",
+      "nome": "Cadeira Gamer TGT Heron M, Preto, TGT-HRM-BK02",
+      "por": 351.0,
+      "titulo": "Cadeira Gamer TGT Heron M com 40% off",
+      "id": 173,
+      "garimpado_em": "2026-10-13T00:21-03:00",
+      "na_revisao_desde": "2026-10-13T00:21-03:00",
+      "removido_em": "2026-10-13T00:47:28-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "shopee",
       "chave": "shopee:1317539899.58263919255",
       "origem": "promooeasy",
       "link": "https://shopee.com.br/product/1317539899/58263919255",
@@ -2206,7 +2207,7 @@
       "promooeasy": {
         "achados": 12,
         "aprovados": 0,
-        "reprovados": 7
+        "reprovados": 8
       }
     }
   },
