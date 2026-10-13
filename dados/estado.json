@@ -371,6 +371,24 @@
       "garimpado_em": "2026-10-13T10:50-03:00",
       "na_revisao_desde": "2026-10-13T10:50-03:00",
       "aprovado_em": "2026-10-13T11:46-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB4592320910",
+      "origem": "xetdaspromocoes",
+      "link": "https://meli.la/2hk7fyL",
+      "link_produto": "https://meli.la/2hk7fyL",
+      "post_origem": "https://t.me/xetdaspromocoes/84583",
+      "link_canal": "https://meli.la/2vtQ7Hv",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_626928-MLB82004918446_022025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Kit 4 Camiseta Dry-fit Sandrini Masculina Academia Caminhada",
+      "de": 135.41,
+      "por": 59.99,
+      "titulo": "Preço de queima, 54% mais barato.",
+      "garimpado_em": "2026-10-13T10:42-03:00",
+      "na_revisao_desde": "2026-10-13T10:42-03:00",
+      "aprovado_em": "2026-10-13T11:47-03:00"
     }
   ],
   "postados": [
@@ -1193,25 +1211,6 @@
       "garimpado_em": "2026-10-13T10:36-03:00",
       "na_revisao_desde": "2026-10-13T10:36-03:00",
       "msg_id": 480
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB4592320910",
-      "origem": "xetdaspromocoes",
-      "link": "https://produto.mercadolivre.com.br/MLB-4592320910-kit-4-camiseta-dry-fit-sandrini-masculina-academia-caminhada-_JM?pdp_filters=item_id%3AMLB4592320910&matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-4592320910-kit-4-camiseta-dry-fit-sandrini-masculina-academia-caminhada-_JM?pdp_filters=item_id%3AMLB4592320910",
-      "post_origem": "https://t.me/xetdaspromocoes/84583",
-      "link_canal": "https://meli.la/2vtQ7Hv",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_626928-MLB82004918446_022025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Kit 4 Camiseta Dry-fit Sandrini Masculina Academia Caminhada",
-      "de": 129.0,
-      "por": 59.0,
-      "titulo": "Preço de queima, 54% mais barato.",
-      "id": 254,
-      "garimpado_em": "2026-10-13T10:42-03:00",
-      "na_revisao_desde": "2026-10-13T10:42-03:00",
-      "msg_id": 482
     }
   ],
   "proximo_id": 272,
@@ -2531,7 +2530,7 @@
       },
       "xetdaspromocoes": {
         "achados": 10,
-        "aprovados": 3,
+        "aprovados": 4,
         "reprovados": 2
       },
       "promotop": {
