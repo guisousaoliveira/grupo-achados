@@ -608,47 +608,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "shopee",
-      "chave": "shopee:344381236.48469063578",
-      "origem": "promooeasy",
-      "link": "https://shopee.com.br/product/344381236/48469063578",
-      "link_produto": "https://shopee.com.br/product/344381236/48469063578",
-      "post_origem": "https://t.me/promooeasy/220250",
-      "link_canal": "https://s.shopee.com.br/AAHtAPIfVy?lp=aff",
-      "precisa_link": true,
-      "foto": "AgACAgEAAxkDAAIBI2rNfgEweUW2AsXKnh2yZlYJCoE-AAKXDWsb8PdpRga1q1a6_Ha9AQADAgADeAADPQQ",
-      "foto_origem": "canal",
-      "nome": "De R2.500,00",
-      "de": 2500.0,
-      "por": 737.0,
-      "titulo": "Tênis esportivo com 71% de desconto",
-      "id": 140,
-      "garimpado_em": "2026-10-12T21:40-03:00",
-      "na_revisao_desde": "2026-10-12T21:40-03:00",
-      "msg_id": 291
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:344381236.50469048631",
-      "origem": "promooeasy",
-      "link": "https://shopee.com.br/product/344381236/50469048631",
-      "link_produto": "https://shopee.com.br/product/344381236/50469048631",
-      "post_origem": "https://t.me/promooeasy/220251",
-      "link_canal": "https://s.shopee.com.br/9V2CNFk7uM?lp=aff",
-      "precisa_link": true,
-      "foto": "AgACAgEAAxkDAAIBJGrNfggh4izj17S9Vh0EAURqjzDpAAKYDWsb8PdpRjAPAokD5A87AQADAgADeAADPQQ",
-      "foto_origem": "canal",
-      "nome": "SSD M.2 NVMe 1Tb Western Digital Wd Green Sn350 Velocidade",
-      "por": 778.0,
-      "titulo": "SSD Western Digital 1TB com 66% off",
-      "id": 141,
-      "garimpado_em": "2026-10-12T21:40-03:00",
-      "na_revisao_desde": "2026-10-12T21:40-03:00",
-      "msg_id": 292
-    }
-  ],
+  "revisar": [],
   "proximo_id": 142,
   "radar": {
     "visto": {
@@ -1170,6 +1130,47 @@
   ],
   "lixeira": [
     {
+      "loja": "shopee",
+      "chave": "shopee:344381236.50469048631",
+      "origem": "promooeasy",
+      "link": "https://shopee.com.br/product/344381236/50469048631",
+      "link_produto": "https://shopee.com.br/product/344381236/50469048631",
+      "post_origem": "https://t.me/promooeasy/220251",
+      "link_canal": "https://s.shopee.com.br/9V2CNFk7uM?lp=aff",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAIBJGrNfggh4izj17S9Vh0EAURqjzDpAAKYDWsb8PdpRjAPAokD5A87AQADAgADeAADPQQ",
+      "foto_origem": "canal",
+      "nome": "SSD M.2 NVMe 1Tb Western Digital Wd Green Sn350 Velocidade",
+      "por": 778.0,
+      "titulo": "SSD Western Digital 1TB com 66% off",
+      "id": 141,
+      "garimpado_em": "2026-10-12T21:40-03:00",
+      "na_revisao_desde": "2026-10-12T21:40-03:00",
+      "removido_em": "2026-10-12T21:41:14-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:344381236.48469063578",
+      "origem": "promooeasy",
+      "link": "https://shopee.com.br/product/344381236/48469063578",
+      "link_produto": "https://shopee.com.br/product/344381236/48469063578",
+      "post_origem": "https://t.me/promooeasy/220250",
+      "link_canal": "https://s.shopee.com.br/AAHtAPIfVy?lp=aff",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAIBI2rNfgEweUW2AsXKnh2yZlYJCoE-AAKXDWsb8PdpRga1q1a6_Ha9AQADAgADeAADPQQ",
+      "foto_origem": "canal",
+      "nome": "De R2.500,00",
+      "de": 2500.0,
+      "por": 737.0,
+      "titulo": "Tênis esportivo com 71% de desconto",
+      "id": 140,
+      "garimpado_em": "2026-10-12T21:40-03:00",
+      "na_revisao_desde": "2026-10-12T21:40-03:00",
+      "removido_em": "2026-10-12T21:41:14-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0F84PXR9V",
       "origem": "promooeasy",
@@ -1276,7 +1277,7 @@
       "promooeasy": {
         "achados": 22,
         "aprovados": 4,
-        "reprovados": 16
+        "reprovados": 18
       },
       "promobit": {
         "achados": 23,
