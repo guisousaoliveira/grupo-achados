@@ -315,6 +315,24 @@
       "na_revisao_desde": "2026-10-13T09:37-03:00",
       "de": 239.0,
       "aprovado_em": "2026-10-13T10:02-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB26796581",
+      "origem": "promonocontext",
+      "link": "https://meli.la/2VVeCii",
+      "link_produto": "https://meli.la/2VVeCii",
+      "post_origem": "https://t.me/promonocontext/126172",
+      "link_canal": "https://meli.la/2BQ4GRU",
+      "foto": "AgACAgQAAxkDAAIB8mrOQNGx3nVxjHH055ZaBxy03O3YAAJ1EGsbrZltUAsuDh-0QIvmAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Creatina Dark Lab Premium Pure em pó Sem sabor x 500g",
+      "por": 34.0,
+      "cupom": "OPAECONOMIZEI",
+      "titulo": "Investimento no shape que cabe no bolso.",
+      "garimpado_em": "2026-10-13T11:31-03:00",
+      "na_revisao_desde": "2026-10-13T11:31-03:00",
+      "aprovado_em": "2026-10-13T11:44-03:00"
     }
   ],
   "postados": [
@@ -1354,25 +1372,6 @@
       "garimpado_em": "2026-10-13T11:21-03:00",
       "na_revisao_desde": "2026-10-13T11:21-03:00",
       "msg_id": 497
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB26796581",
-      "origem": "promonocontext",
-      "link": "https://www.mercadolivre.com.br/creatina-dark-lab-premium-pure-em-po-sem-sabor-x-500g/p/MLB26796581?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/creatina-dark-lab-premium-pure-em-po-sem-sabor-x-500g/p/MLB26796581",
-      "post_origem": "https://t.me/promonocontext/126172",
-      "link_canal": "https://meli.la/2BQ4GRU",
-      "foto": "AgACAgQAAxkDAAIB8mrOQNGx3nVxjHH055ZaBxy03O3YAAJ1EGsbrZltUAsuDh-0QIvmAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Creatina Dark Lab Premium Pure em pó Sem sabor x 500g",
-      "por": 34.0,
-      "cupom": "OPAECONOMIZEI",
-      "titulo": "Investimento no shape que cabe no bolso.",
-      "id": 265,
-      "garimpado_em": "2026-10-13T11:31-03:00",
-      "na_revisao_desde": "2026-10-13T11:31-03:00",
-      "msg_id": 498
     }
   ],
   "proximo_id": 272,
@@ -2536,7 +2535,7 @@
       },
       "promonocontext": {
         "achados": 9,
-        "aprovados": 1,
+        "aprovados": 2,
         "reprovados": 3
       },
       "infoBRpromos": {
