@@ -707,23 +707,6 @@
       "garimpado_em": "2026-10-12T23:50-03:00",
       "na_revisao_desde": "2026-10-12T23:50-03:00",
       "msg_id": 320
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0DG97BRCV",
-      "origem": "lobaopromo",
-      "link": "https://www.amazon.com.br/dp/B0DG97BRCV?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0DG97BRCV?tag=alphadominu09-20",
-      "post_origem": "https://t.me/lobaopromo/188665",
-      "link_canal": "https://amzlink.to/az0IcmoATwlr5",
-      "foto": "AgACAgQAAxkDAAIBQWrNnH2G5rrBZyiNd6GGv-zXY_ktAAITEGsbZRhtUnN7YJnWAhGZAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Teclado Mecânico Gamer Redragon Azure RGB Switch",
-      "titulo": "Teclado Mecânico Gamer Redragon RGB com 30% off",
-      "id": 162,
-      "garimpado_em": "2026-10-12T23:50-03:00",
-      "na_revisao_desde": "2026-10-12T23:50-03:00",
-      "msg_id": 321
     }
   ],
   "proximo_id": 163,
@@ -1353,6 +1336,24 @@
   "lixeira": [
     {
       "loja": "amazon",
+      "chave": "amazon:B0DG97BRCV",
+      "origem": "lobaopromo",
+      "link": "https://www.amazon.com.br/dp/B0DG97BRCV?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0DG97BRCV?tag=alphadominu09-20",
+      "post_origem": "https://t.me/lobaopromo/188665",
+      "link_canal": "https://amzlink.to/az0IcmoATwlr5",
+      "foto": "AgACAgQAAxkDAAIBQWrNnH2G5rrBZyiNd6GGv-zXY_ktAAITEGsbZRhtUnN7YJnWAhGZAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Teclado Mecânico Gamer Redragon Azure RGB Switch",
+      "titulo": "Teclado Mecânico Gamer Redragon RGB com 30% off",
+      "id": 162,
+      "garimpado_em": "2026-10-12T23:50-03:00",
+      "na_revisao_desde": "2026-10-12T23:50-03:00",
+      "removido_em": "2026-10-12T23:58:15-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "amazon",
       "chave": "amazon:B0DXR1M87B",
       "origem": "lobaopromo",
       "link": "https://www.amazon.com.br/dp/B0DXR1M87B?tag=alphadominu09-20",
@@ -1756,7 +1757,7 @@
       "lobaopromo": {
         "achados": 23,
         "aprovados": 10,
-        "reprovados": 12
+        "reprovados": 13
       },
       "urubupromo": {
         "achados": 2,
