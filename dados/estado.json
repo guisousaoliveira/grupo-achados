@@ -3,24 +3,6 @@
   "fila": [
     {
       "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB23181844",
-      "origem": "xetdaspromocoes",
-      "link": "https://meli.la/21r5Vav",
-      "link_produto": "https://meli.la/21r5Vav",
-      "post_origem": "https://t.me/xetdaspromocoes/84516",
-      "link_canal": "https://meli.la/1cbx36j",
-      "foto": "AgACAgQAAxkDAAIBbmrOFpfKoPAljckIVEkuf9KDZ6_QAALpDGsbngN1UUG9fqi_1SmbAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Creatina Dark Lab Premium em cápsula Sem sabor de 120 un",
-      "por": 32.9,
-      "titulo": "pra dar aquela força extra",
-      "garimpado_em": "2026-10-13T08:31-03:00",
-      "na_revisao_desde": "2026-10-13T08:31-03:00",
-      "de": 69.31,
-      "aprovado_em": "2026-10-13T09:20-03:00"
-    },
-    {
-      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB46202402",
       "origem": "xetdaspromocoes",
       "link": "https://meli.la/25uErxZ",
@@ -906,6 +888,15 @@
       "link": "https://link.amazon/B04wH69OL",
       "link_produto": "https://link.amazon/B04wH69OL",
       "slot": 19
+    },
+    {
+      "chave": "mercadolivre:MLB23181844",
+      "loja": "mercadolivre",
+      "nome": "Creatina Dark Lab Premium em cápsula Sem sabor de 120 un",
+      "data": "2026-10-13T20:48-03:00",
+      "link": "https://meli.la/21r5Vav",
+      "link_produto": "https://meli.la/21r5Vav",
+      "slot": 20
     }
   ],
   "slots_usados": {
@@ -942,7 +933,8 @@
       16,
       17,
       18,
-      19
+      19,
+      20
     ]
   },
   "shopee_buscado_em": "",
@@ -3299,6 +3291,19 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB23181844",
+      "origem": "xetdaspromocoes",
+      "link": "https://meli.la/21r5Vav",
+      "link_produto": "https://meli.la/21r5Vav",
+      "post_origem": "https://t.me/xetdaspromocoes/84516",
+      "foto": "AgACAgQAAxkDAAIBbmrOFpfKoPAljckIVEkuf9KDZ6_QAALpDGsbngN1UUG9fqi_1SmbAQADAgADeAADPQQ",
+      "nome": "Creatina Dark Lab Premium em cápsula Sem sabor de 120 un",
+      "por": 32.9,
+      "titulo": "pra dar aquela força extra",
+      "de": 69.31
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0HHL6F5M6",
       "origem": "promobit",
@@ -3835,20 +3840,6 @@
       "pix": true,
       "por": 1358.0,
       "foto": "AgACAgEAAxkDAAOvas0XKz2J1j4OBpYTNYmnksaBcX4AAjANaxvw92lGIdn8RtslgxEBAAMCAAN5AAM9BA"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB53342774",
-      "origem": "promonocontext",
-      "link": "https://meli.la/287p9eB",
-      "link_produto": "https://www.mercadolivre.com.br/body-splash-masculino-barbarius-200ml-primacial-perfume-amadeirado/p/MLB53342774",
-      "post_origem": "https://t.me/promonocontext/126005",
-      "foto": "AgACAgQAAxkDAAIBAmrNYeFppfLL-93fUy4V9cqUwrL5AALcDWsbYkAVUi_16nNc14BiAQADAgADeAADPQQ",
-      "nome": "Kit Body Splash Barbarius + Hidratante Desodorante Masculino",
-      "de": 159.0,
-      "por": 68.0,
-      "titulo": "Kit Barbarius com 57% off",
-      "pix": true
     }
   ],
   "lixeira": [
