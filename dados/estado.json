@@ -936,25 +936,6 @@
       "msg_id": 535
     },
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB49197358",
-      "origem": "promooeasy",
-      "link": "https://www.mercadolivre.com.br/smart-tv-tcl-40-polegadas-qled-full-hd-s5k-wifi-bluetooth-google-tv-2-hdmi-hdr10-dolby-audio-40s5k/p/MLB49197358?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/smart-tv-tcl-40-polegadas-qled-full-hd-s5k-wifi-bluetooth-google-tv-2-hdmi-hdr10-dolby-audio-40s5k/p/MLB49197358",
-      "post_origem": "https://t.me/promooeasy/220515",
-      "link_canal": "https://meli.la/1s1XiKM",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_668422-MLA114588144994_082026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Smart Tv Tcl 40 Polegadas Qled Full Hd S5k Wifi Bluetooth Google Tv 2",
-      "de": 1699.0,
-      "por": 1352.85,
-      "titulo": "Smart TV TCL 40 polegadas com 20% off",
-      "id": 279,
-      "garimpado_em": "2026-10-13T12:18-03:00",
-      "na_revisao_desde": "2026-10-13T12:18-03:00",
-      "msg_id": 539
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B0CY2XNW25",
       "origem": "lobaopromo",
@@ -2065,6 +2046,26 @@
   ],
   "lixeira": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB49197358",
+      "origem": "promooeasy",
+      "link": "https://www.mercadolivre.com.br/smart-tv-tcl-40-polegadas-qled-full-hd-s5k-wifi-bluetooth-google-tv-2-hdmi-hdr10-dolby-audio-40s5k/p/MLB49197358?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/smart-tv-tcl-40-polegadas-qled-full-hd-s5k-wifi-bluetooth-google-tv-2-hdmi-hdr10-dolby-audio-40s5k/p/MLB49197358",
+      "post_origem": "https://t.me/promooeasy/220515",
+      "link_canal": "https://meli.la/1s1XiKM",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_668422-MLA114588144994_082026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Smart Tv Tcl 40 Polegadas Qled Full Hd S5k Wifi Bluetooth Google Tv 2",
+      "de": 1699.0,
+      "por": 1352.85,
+      "titulo": "Smart TV TCL 40 polegadas com 20% off",
+      "id": 279,
+      "garimpado_em": "2026-10-13T12:18-03:00",
+      "na_revisao_desde": "2026-10-13T12:18-03:00",
+      "removido_em": "2026-10-13T14:31:08-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:344381236.53419040158",
       "origem": "promooeasy",
@@ -2784,7 +2785,7 @@
       "promooeasy": {
         "achados": 61,
         "aprovados": 2,
-        "reprovados": 57
+        "reprovados": 58
       },
       "xetdaspromocoes": {
         "achados": 12,
