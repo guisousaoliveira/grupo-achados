@@ -1005,27 +1005,6 @@
       "garimpado_em": "2026-10-13T16:00-03:00",
       "na_revisao_desde": "2026-10-13T16:00-03:00",
       "msg_id": 641
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:688161501.19298319441",
-      "origem": "promooeasy",
-      "link": "https://shopee.com.br/product/688161501/19298319441",
-      "link_produto": "https://shopee.com.br/product/688161501/19298319441",
-      "post_origem": "https://t.me/promooeasy/220666",
-      "link_canal": "https://s.shopee.com.br/8AWq087qSY?lp=aff",
-      "precisa_link": true,
-      "foto": "AgACAgEAAxkDAAICg2rOf_8JyeKh74MKDcQKbTbM-QTXAAKNDWsb7AJxRiBfgoCP8AbdAQADAgADeAADPQQ",
-      "foto_origem": "canal",
-      "nome": "Notebook VAIO FE16 AMD Ryzen 5 - 5625U Linux 16GB RAM 512GB SSD",
-      "pix": true,
-      "por": 3339.0,
-      "cupom": "AQUI",
-      "titulo": "Notebook VAIO com 16GB RAM e SSD 512GB",
-      "id": 361,
-      "garimpado_em": "2026-10-13T16:01-03:00",
-      "na_revisao_desde": "2026-10-13T16:01-03:00",
-      "msg_id": 643
     }
   ],
   "proximo_id": 363,
@@ -1959,6 +1938,28 @@
   ],
   "lixeira": [
     {
+      "loja": "shopee",
+      "chave": "shopee:688161501.19298319441",
+      "origem": "promooeasy",
+      "link": "https://shopee.com.br/product/688161501/19298319441",
+      "link_produto": "https://shopee.com.br/product/688161501/19298319441",
+      "post_origem": "https://t.me/promooeasy/220666",
+      "link_canal": "https://s.shopee.com.br/8AWq087qSY?lp=aff",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAICg2rOf_8JyeKh74MKDcQKbTbM-QTXAAKNDWsb7AJxRiBfgoCP8AbdAQADAgADeAADPQQ",
+      "foto_origem": "canal",
+      "nome": "Notebook VAIO FE16 AMD Ryzen 5 - 5625U Linux 16GB RAM 512GB SSD",
+      "pix": true,
+      "por": 3339.0,
+      "cupom": "AQUI",
+      "titulo": "Notebook VAIO com 16GB RAM e SSD 512GB",
+      "id": 361,
+      "garimpado_em": "2026-10-13T16:01-03:00",
+      "na_revisao_desde": "2026-10-13T16:01-03:00",
+      "removido_em": "2026-10-13T16:03:54-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B07BZCHM16",
       "origem": "promooeasy",
@@ -2753,24 +2754,6 @@
       "na_revisao_desde": "2026-10-13T15:11-03:00",
       "removido_em": "2026-10-13T15:46:34-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB5997437372",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/tenis-masculino-grand-court-30-adidas/up/MLBU3645193055?pdp_filters=item_id%3AMLB5997437372&matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/tenis-masculino-grand-court-30-adidas/up/MLBU3645193055?pdp_filters=item_id%3AMLB5997437372",
-      "post_origem": "https://t.me/lobaopromo/188911",
-      "link_canal": "https://meli.la/28gKrND",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_793926-MLB104857365413_012026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Tênis Masculino Grand Court 3.0 adidas Ftwwht/cblack/ftwwht Liso 40 Br",
-      "titulo": "Achado do dia, aproveita antes de acabar.",
-      "id": 341,
-      "garimpado_em": "2026-10-13T15:12-03:00",
-      "na_revisao_desde": "2026-10-13T15:12-03:00",
-      "removido_em": "2026-10-13T15:46:31-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -2845,7 +2828,7 @@
       "promooeasy": {
         "achados": 79,
         "aprovados": 2,
-        "reprovados": 74
+        "reprovados": 75
       },
       "xetdaspromocoes": {
         "achados": 14,
