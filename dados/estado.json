@@ -956,26 +956,107 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [],
-  "proximo_id": 363,
+  "revisar": [
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0FJNTHL39",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0FJNTHL39?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0FJNTHL39?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/monitor-gamer-aoc-agon-cs2-25-310hz-03ms-hdr400-ips-base-ajustavel-cs25g-3111060/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3111060/",
+      "nome": "Monitor Gamer Aoc Agon Cs2 25\" 310hz 0.3ms Hdr400 Ips Base Ajustável",
+      "por": 1172.14,
+      "de": 1699.0,
+      "foto": "AgACAgQAAxkDAAICh2rOgipBy__bBOb1Q9itKv5Y2mDuAALiujEbwfulUuDfaCxRUwgEAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "titulo": "Monitor gamer 310Hz com 31% de desconto",
+      "id": 363,
+      "garimpado_em": "2026-10-13T16:10-03:00",
+      "na_revisao_desde": "2026-10-13T16:10-03:00",
+      "msg_id": 647
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB1026525929",
+      "origem": "lobaopromo",
+      "link": "https://produto.mercadolivre.com.br/MLB-1026525929-kit-10-cuecas-boxer-infantil-mash-meninos-algodo-_JM?pdp_filters=item_id%3AMLB1026525929&matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-1026525929-kit-10-cuecas-boxer-infantil-mash-meninos-algodo-_JM?pdp_filters=item_id%3AMLB1026525929",
+      "post_origem": "https://t.me/lobaopromo/188932",
+      "link_canal": "https://meli.la/22vCXiU",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_957712-MLB78736577824_092024-O.webp",
+      "foto_origem": "loja",
+      "nome": "Kit 10 Cuecas Boxer Infantil Mash Meninos Algodão.",
+      "pix": true,
+      "de": 226.9,
+      "por": 116.47,
+      "titulo": "Kit de cuecas Mash com 49% off",
+      "id": 364,
+      "garimpado_em": "2026-10-13T16:10-03:00",
+      "na_revisao_desde": "2026-10-13T16:10-03:00",
+      "msg_id": 648
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0F6CY514C",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0F6CY514C?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0F6CY514C?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220673",
+      "link_canal": "https://www.amazon.com.br/gp/product/B0F6CY514C?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAICiWrOgj4iFGiLDThaAdg77NuYBBrIAAKmuzEbluOdUyWUqnJsEx7lAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "nome": "Controle Pro Nintendo Switch 2, Preto/Cinza + Frete Grátis",
+      "pix": true,
+      "parcelas": 10,
+      "por": 467.37,
+      "titulo": "Controle Pro Nintendo Switch com 10x sem juros",
+      "id": 365,
+      "garimpado_em": "2026-10-13T16:10-03:00",
+      "na_revisao_desde": "2026-10-13T16:10-03:00",
+      "msg_id": 649
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB66104173",
+      "origem": "promotop",
+      "link": "https://www.mercadolivre.com.br/smart-tv-tcl-65-polegadas-qled-4k-t6c-wifi-bluetooth-google-tv-tela-hva-e-hdr10-65t6c/p/MLB66104173?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/smart-tv-tcl-65-polegadas-qled-4k-t6c-wifi-bluetooth-google-tv-tela-hva-e-hdr10-65t6c/p/MLB66104173",
+      "post_origem": "https://t.me/promotop/260226",
+      "link_canal": "https://meli.la/1wEx62F",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_810221-MLA115949427379_082026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Smart Tv Tcl 65 Polegadas Qled 4k T6c Wifi Bluetooth Google Tv Tela",
+      "pix": true,
+      "por": 3178.79,
+      "cupom": "FULLLANDING",
+      "titulo": "Smart TV TCL 65 polegadas com desconto",
+      "id": 366,
+      "garimpado_em": "2026-10-13T16:11-03:00",
+      "na_revisao_desde": "2026-10-13T16:11-03:00",
+      "msg_id": 650
+    }
+  ],
+  "proximo_id": 367,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84662,
-      "lobaopromo": 188931,
+      "xetdaspromocoes": 84663,
+      "lobaopromo": 188934,
       "gatunopromos": 125122,
       "pobregram": 41836,
       "urubupromo": 41619,
-      "tudonapromo": 101735,
-      "promonocontext": 126284,
-      "promooeasy": 220669,
-      "aquitempechincha": 281404,
+      "tudonapromo": 101737,
+      "promonocontext": 126287,
+      "promooeasy": 220675,
+      "aquitempechincha": 281405,
       "infoBRpromos": 67460,
       "boletando": 76666,
-      "promotop": 260225,
+      "promotop": 260226,
       "achadosdotb": 11762
     },
     "dia": "2026-10-13",
-    "hoje": 198,
+    "hoje": 202,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -1313,27 +1394,31 @@
       "mercadolivre:MLB66895633",
       "mercadolivre:MLB5294552208",
       "shopee:688161501.19298319441",
-      "amazon:B07BZCHM16"
+      "amazon:B07BZCHM16",
+      "amazon:B0FJNTHL39",
+      "mercadolivre:MLB1026525929",
+      "amazon:B0F6CY514C",
+      "mercadolivre:MLB66104173"
     ],
     "ultima": {
-      "em": "2026-10-13T16:00:31-03:00",
+      "em": "2026-10-13T16:10:19-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 35,
-      "do_nicho": 5,
-      "repetidas": 1,
+      "posts_novos": 30,
+      "do_nicho": 6,
+      "repetidas": 2,
       "novas": 4,
       "limite_dia": false,
-      "promobit": 0
+      "promobit": 1
     },
     "hora": "2026-10-13T16",
-    "nesta_hora": 4,
+    "nesta_hora": 7,
     "promobit_hora": "2026-10-13T16",
-    "promobit_nesta_hora": 0,
-    "promobit_visto": 3111044
+    "promobit_nesta_hora": 1,
+    "promobit_visto": 3111064
   },
   "ultimos": [
     {
@@ -2762,17 +2847,17 @@
     },
     "2026-10-13": {
       "promobit": {
-        "achados": 23,
+        "achados": 24,
         "aprovados": 3,
         "reprovados": 20
       },
       "lobaopromo": {
-        "achados": 37,
+        "achados": 38,
         "aprovados": 10,
         "reprovados": 27
       },
       "promooeasy": {
-        "achados": 79,
+        "achados": 80,
         "aprovados": 2,
         "reprovados": 77
       },
@@ -2782,7 +2867,7 @@
         "reprovados": 9
       },
       "promotop": {
-        "achados": 6,
+        "achados": 7,
         "aprovados": 1,
         "reprovados": 5
       },
@@ -2813,5 +2898,5 @@
       }
     }
   },
-  "aviso_post": "2026-10-13 15|amazon:B0FPNSXKKJ"
+  "aviso_post": "2026-10-13 16|mercadolivre:MLB7319767372"
 }
