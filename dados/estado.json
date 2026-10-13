@@ -1261,26 +1261,6 @@
       "msg_id": 603
     },
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB34178711",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/mochila-shammy-20-olympikus/p/MLB34178711?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/mochila-shammy-20-olympikus/p/MLB34178711",
-      "post_origem": "https://t.me/lobaopromo/188896",
-      "link_canal": "https://meli.la/176vfkD",
-      "foto": "AgACAgQAAxkDAAICXGrObUUmePX7G3Pl_3YYHHjxr6UYAAKcDmsbCRlFUXU7uz-7zkbEAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Mochila Shammy 2.0 Olympikus",
-      "pix": true,
-      "de": 139.0,
-      "por": 53.0,
-      "titulo": "Mochila Olympikus Shammy 2.0 com 62% off",
-      "id": 323,
-      "garimpado_em": "2026-10-13T14:41-03:00",
-      "na_revisao_desde": "2026-10-13T14:41-03:00",
-      "msg_id": 604
-    },
-    {
       "loja": "shopee",
       "chave": "shopee:1083800536.58219762982",
       "origem": "promooeasy",
@@ -2219,6 +2199,27 @@
   "lixeira": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB34178711",
+      "origem": "lobaopromo",
+      "link": "https://www.mercadolivre.com.br/mochila-shammy-20-olympikus/p/MLB34178711?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/mochila-shammy-20-olympikus/p/MLB34178711",
+      "post_origem": "https://t.me/lobaopromo/188896",
+      "link_canal": "https://meli.la/176vfkD",
+      "foto": "AgACAgQAAxkDAAICXGrObUUmePX7G3Pl_3YYHHjxr6UYAAKcDmsbCRlFUXU7uz-7zkbEAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Mochila Shammy 2.0 Olympikus",
+      "pix": true,
+      "de": 139.0,
+      "por": 53.0,
+      "titulo": "Mochila Olympikus Shammy 2.0 com 62% off",
+      "id": 323,
+      "garimpado_em": "2026-10-13T14:41-03:00",
+      "na_revisao_desde": "2026-10-13T14:41-03:00",
+      "removido_em": "2026-10-13T15:49:20-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB31541424",
       "origem": "promonocontext",
       "link": "https://www.mercadolivre.com.br/positivo-vision-tab10-t3010-4gb-ram-128gb-ssd-com-capa-teclado-octa-core-5-13mp-bateria-6000mah-tela-101-hd-wifi-ac-e-4g-full-lamination-preto/p/MLB31541424?matt_word=alphapromo&matt_tool=59136903",
@@ -3001,27 +3002,6 @@
       "na_revisao_desde": "2026-10-13T12:21-03:00",
       "removido_em": "2026-10-13T13:06:35-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB35715045",
-      "origem": "promonocontext",
-      "link": "https://www.mercadolivre.com.br/notebook-asus-vivobook-go-15-amd-ryzen-5-7520u-8gb-ram-512gb-ssd-keeposlinux-tela-156-fhd-mixed-black-e1504fa-nj732/p/MLB35715045?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/notebook-asus-vivobook-go-15-amd-ryzen-5-7520u-8gb-ram-512gb-ssd-keeposlinux-tela-156-fhd-mixed-black-e1504fa-nj732/p/MLB35715045",
-      "post_origem": "https://t.me/promonocontext/126215",
-      "link_canal": "https://meli.la/2G85cet",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_737034-MLU75570682760_042024-O.webp",
-      "foto_origem": "loja",
-      "nome": "Notebook ASUS VivoBook Go 15, AMD Ryzen 5 7520U, 8GB RAM, 512GB SSD",
-      "de": 3329.0,
-      "por": 3129.0,
-      "cupom": "MELHORDEHJ",
-      "titulo": "Vale cada centavo nesse preço.",
-      "id": 288,
-      "garimpado_em": "2026-10-13T12:46-03:00",
-      "na_revisao_desde": "2026-10-13T12:46-03:00",
-      "removido_em": "2026-10-13T13:05:55-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -3091,7 +3071,7 @@
       "lobaopromo": {
         "achados": 35,
         "aprovados": 9,
-        "reprovados": 15
+        "reprovados": 16
       },
       "promooeasy": {
         "achados": 74,
