@@ -1323,25 +1323,6 @@
     },
     {
       "loja": "amazon",
-      "chave": "amazon:B0F1C3MRMF",
-      "origem": "promonocontext",
-      "link": "https://www.amazon.com.br/dp/B0F1C3MRMF?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0F1C3MRMF?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promonocontext/126304",
-      "link_canal": "https://link.amazon/B0gmHf9Fn",
-      "foto": "AgACAgQAAxkDAAICm2rOi6XHmtcz912UPoedKAABfWVmcQACYroxGzgfNFFao3pg_nIBBgEAAwIAA3kAAz0E",
-      "foto_origem": "loja",
-      "nome": "Headset Gamer Redragon Zeus Lite Preto P3 H510-LT",
-      "de": 249.0,
-      "por": 149.0,
-      "titulo": "Headset Redragon Zeus Lite com 40% off",
-      "id": 382,
-      "garimpado_em": "2026-10-13T16:51-03:00",
-      "na_revisao_desde": "2026-10-13T16:51-03:00",
-      "msg_id": 667
-    },
-    {
-      "loja": "amazon",
       "chave": "amazon:B0FNCPHMXM",
       "origem": "promobit",
       "fonte": "promobit",
@@ -2338,6 +2319,26 @@
   "lixeira": [
     {
       "loja": "amazon",
+      "chave": "amazon:B0F1C3MRMF",
+      "origem": "promonocontext",
+      "link": "https://www.amazon.com.br/dp/B0F1C3MRMF?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0F1C3MRMF?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promonocontext/126304",
+      "link_canal": "https://link.amazon/B0gmHf9Fn",
+      "foto": "AgACAgQAAxkDAAICm2rOi6XHmtcz912UPoedKAABfWVmcQACYroxGzgfNFFao3pg_nIBBgEAAwIAA3kAAz0E",
+      "foto_origem": "loja",
+      "nome": "Headset Gamer Redragon Zeus Lite Preto P3 H510-LT",
+      "de": 249.0,
+      "por": 149.0,
+      "titulo": "Headset Redragon Zeus Lite com 40% off",
+      "id": 382,
+      "garimpado_em": "2026-10-13T16:51-03:00",
+      "na_revisao_desde": "2026-10-13T16:51-03:00",
+      "removido_em": "2026-10-13T17:05:31-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "amazon",
       "chave": "amazon:B08T68T1T6",
       "origem": "promooeasy",
       "link": "https://www.amazon.com.br/dp/B08T68T1T6?tag=alphadominu09-20",
@@ -3131,26 +3132,6 @@
       "na_revisao_desde": "2026-10-13T14:54-03:00",
       "removido_em": "2026-10-13T15:48:08-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:829012010.58263177026",
-      "origem": "promooeasy",
-      "link": "https://shopee.com.br/product/829012010/58263177026",
-      "link_produto": "https://shopee.com.br/product/829012010/58263177026",
-      "post_origem": "https://t.me/promooeasy/220616",
-      "link_canal": "https://s.shopee.com.br/8fT6WPycAt?lp=aff",
-      "precisa_link": true,
-      "foto": "AgACAgEAAxkDAAICZWrOcG8Urhf3Wsj1RU3TO2xWNclSAAKCDWsb7AJxRgsGCK2aZobNAQADAgADeAADPQQ",
-      "foto_origem": "canal",
-      "nome": "Console PlayStation 5 Slim Edição Digital 825GB - PS5",
-      "por": 3772.0,
-      "titulo": "PlayStation 5 Slim com desconto na Shopee",
-      "id": 332,
-      "garimpado_em": "2026-10-13T14:54-03:00",
-      "na_revisao_desde": "2026-10-13T14:54-03:00",
-      "removido_em": "2026-10-13T15:48:05-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -3240,7 +3221,7 @@
       "promonocontext": {
         "achados": 34,
         "aprovados": 7,
-        "reprovados": 22
+        "reprovados": 23
       },
       "infoBRpromos": {
         "achados": 8,
