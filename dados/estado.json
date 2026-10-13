@@ -261,6 +261,26 @@
       "garimpado_em": "2026-10-13T00:20-03:00",
       "na_revisao_desde": "2026-10-13T00:20-03:00",
       "aprovado_em": "2026-10-13T00:48-03:00"
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B09YVVH7J1",
+      "origem": "promooeasy",
+      "link": "https://link.amazon/B0iSNI1KA",
+      "link_produto": "https://link.amazon/B0iSNI1KA",
+      "post_origem": "https://t.me/promooeasy/220309",
+      "link_canal": "https://www.amazon.com.br/Mochila-T60-Academia-Nata%C3%A7%C3%A3o-Camping/dp/B09YVVH7J1?tag=promof26-20",
+      "foto": "https://m.media-amazon.com/images/I/61fIYeggosL._AC_SL1200_.jpg",
+      "foto_origem": "loja",
+      "nome": "Mochila Mala T60 Para Academia Natação Camping na Cor Preta",
+      "pix": true,
+      "por": 52.58,
+      "titulo": "Mochila versátil para academia, natação e camping",
+      "garimpado_em": "2026-10-13T07:40-03:00",
+      "na_revisao_desde": "2026-10-13T07:40-03:00",
+      "parcelas": 2,
+      "parcela_valor": 27.68,
+      "aprovado_em": "2026-10-13T08:02-03:00"
     }
   ],
   "postados": [
@@ -706,25 +726,6 @@
       "garimpado_em": "2026-10-13T07:40-03:00",
       "na_revisao_desde": "2026-10-13T07:40-03:00",
       "msg_id": 356
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B09YVVH7J1",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B09YVVH7J1?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B09YVVH7J1?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/220309",
-      "link_canal": "https://www.amazon.com.br/Mochila-T60-Academia-Nata%C3%A7%C3%A3o-Camping/dp/B09YVVH7J1?tag=promof26-20",
-      "foto": "AgACAgEAAxkDAAIBZWrOCrw0B3uicyezSZ60-NpggpLnAAIODWsb7AJxRkI_FXEW7wTKAQADAgADeAADPQQ",
-      "foto_origem": "canal",
-      "nome": "Mochila Mala T60 Para Academia Natação Camping na Cor Preta",
-      "pix": true,
-      "por": 52.0,
-      "titulo": "Mochila versátil para academia, natação e camping",
-      "id": 188,
-      "garimpado_em": "2026-10-13T07:40-03:00",
-      "na_revisao_desde": "2026-10-13T07:40-03:00",
-      "msg_id": 357
     },
     {
       "loja": "amazon",
@@ -1605,7 +1606,7 @@
       },
       "promooeasy": {
         "achados": 17,
-        "aprovados": 0,
+        "aprovados": 1,
         "reprovados": 15
       }
     }
