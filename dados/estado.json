@@ -371,24 +371,6 @@
       "garimpado_em": "2026-10-13T10:50-03:00",
       "na_revisao_desde": "2026-10-13T10:50-03:00",
       "aprovado_em": "2026-10-13T11:46-03:00"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB62756066",
-      "origem": "promonocontext",
-      "link": "https://meli.la/1FLC2G4",
-      "link_produto": "https://meli.la/1FLC2G4",
-      "post_origem": "https://t.me/promonocontext/126127",
-      "link_canal": "https://meli.la/1ruJRAP",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_984233-MLA105531058053_012026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Relógio Inteligente Gps Smartwatch Amoled 3atm Sport Gps Caixa Preto",
-      "de": 599.0,
-      "por": 256.0,
-      "cupom": "MELHORDEHJ",
-      "garimpado_em": "2026-10-13T10:21-03:00",
-      "na_revisao_desde": "2026-10-13T10:21-03:00",
-      "aprovado_em": "2026-10-13T11:49-03:00"
     }
   ],
   "postados": [
@@ -880,6 +862,14 @@
       "data": "2026-10-13T11:47-03:00",
       "link": "https://meli.la/2hk7fyL",
       "link_produto": "https://meli.la/2hk7fyL"
+    },
+    {
+      "chave": "mercadolivre:MLB62756066",
+      "loja": "mercadolivre",
+      "nome": "Relógio Inteligente Gps Smartwatch Amoled 3atm Sport Gps Caixa Preto",
+      "data": "2026-10-13T11:50-03:00",
+      "link": "https://meli.la/1FLC2G4",
+      "link_produto": "https://meli.la/1FLC2G4"
     }
   ],
   "slots_usados": {
@@ -1453,6 +1443,19 @@
   "ultimos": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB62756066",
+      "origem": "promonocontext",
+      "link": "https://meli.la/1FLC2G4",
+      "link_produto": "https://meli.la/1FLC2G4",
+      "post_origem": "https://t.me/promonocontext/126127",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_984233-MLA105531058053_012026-O.webp",
+      "nome": "Relógio Inteligente Gps Smartwatch Amoled 3atm Sport Gps Caixa Preto",
+      "de": 599.0,
+      "por": 256.0,
+      "cupom": "MELHORDEHJ"
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB4592320910",
       "origem": "xetdaspromocoes",
       "link": "https://meli.la/2hk7fyL",
@@ -1982,15 +1985,6 @@
       "nome": "Proteína Growth Supplements Basic Whey em pó sabor Chocolate x 1kg",
       "de": 104.9,
       "por": 72.9
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB68826578",
-      "link": "https://meli.la/1gDuRwZ",
-      "link_produto": "https://www.mercadolivre.com.br/creatina-max-titanium-7-belo-em-po-x-300g/p/MLB68826578",
-      "foto": "AgACAgQAAxkDAAPEas0wpX40DN9mrD6RdL2C8NlKZLcAAuQMaxtkEq1TxgEQuQKXzlsBAAMCAAN4AAM9BA",
-      "nome": "Creatina Max Titanium 7 Belo em pó x 300g",
-      "por": 41.54
     }
   ],
   "lixeira": [
