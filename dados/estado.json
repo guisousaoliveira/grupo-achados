@@ -314,6 +314,25 @@
       "na_revisao_desde": "2026-10-13T08:31-03:00",
       "de": 69.31,
       "aprovado_em": "2026-10-13T09:20-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB46202402",
+      "origem": "xetdaspromocoes",
+      "link": "https://meli.la/25uErxZ",
+      "link_produto": "https://meli.la/25uErxZ",
+      "post_origem": "https://t.me/xetdaspromocoes/84541",
+      "link_canal": "https://meli.la/2rMZNs3",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_772291-MLA100008466405_122025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Smartwatch HUAWEI Band 10 Caixa de Polímeros Duráveis Análise do Sono",
+      "pix": true,
+      "de": 659.0,
+      "por": 159.0,
+      "cupom": "MELHORDEHJ",
+      "garimpado_em": "2026-10-13T09:36-03:00",
+      "na_revisao_desde": "2026-10-13T09:36-03:00",
+      "aprovado_em": "2026-10-13T09:58-03:00"
     }
   ],
   "postados": [
@@ -814,27 +833,6 @@
       "garimpado_em": "2026-10-13T09:36-03:00",
       "na_revisao_desde": "2026-10-13T09:36-03:00",
       "msg_id": 415
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB46202402",
-      "origem": "xetdaspromocoes",
-      "link": "https://www.mercadolivre.com.br/smartwatch-huawei-band-10-caixa-de-polimeros-duraveis-analise-do-sono-em-nivel-profissional-assistente-de-bem-estar-emocional-relogio-smartwatch-compativel-com-android-e-ios-preto/p/MLB46202402?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/smartwatch-huawei-band-10-caixa-de-polimeros-duraveis-analise-do-sono-em-nivel-profissional-assistente-de-bem-estar-emocional-relogio-smartwatch-compativel-com-android-e-ios-preto/p/MLB46202402",
-      "post_origem": "https://t.me/xetdaspromocoes/84541",
-      "link_canal": "https://meli.la/2rMZNs3",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_772291-MLA100008466405_122025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Smartwatch HUAWEI Band 10 Caixa de Polímeros Duráveis Análise do Sono",
-      "pix": true,
-      "de": 659.0,
-      "por": 159.0,
-      "cupom": "MELHORDEHJ",
-      "titulo": "Smartwatch HUAWEI Band 10 com análise do sono por R$ 159.",
-      "id": 211,
-      "garimpado_em": "2026-10-13T09:36-03:00",
-      "na_revisao_desde": "2026-10-13T09:36-03:00",
-      "msg_id": 416
     },
     {
       "loja": "mercadolivre",
@@ -2450,7 +2448,7 @@
       },
       "xetdaspromocoes": {
         "achados": 3,
-        "aprovados": 1,
+        "aprovados": 2,
         "reprovados": 0
       },
       "promotop": {
