@@ -1010,24 +1010,6 @@
     },
     {
       "loja": "amazon",
-      "chave": "amazon:B0HFV49RS3",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0HFV49RS3?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0HFV49RS3?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/220653",
-      "link_canal": "https://www.amazon.com.br/dp/B0HFV49RS3?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAICfmrOfepaLaYxwUL49u9a8cCdE6YFAAI0D2sbZe89UusQRSrl1hHdAQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "nome": "Teclado Gamer Mecânico Win60 Pro RGB",
-      "por": 242.24,
-      "titulo": "Teclado gamer mecânico com iluminação RGB",
-      "id": 356,
-      "garimpado_em": "2026-10-13T15:52-03:00",
-      "na_revisao_desde": "2026-10-13T15:52-03:00",
-      "msg_id": 638
-    },
-    {
-      "loja": "amazon",
       "chave": "amazon:B0HCRCQ1F3",
       "origem": "promooeasy",
       "link": "https://www.amazon.com.br/dp/B0HCRCQ1F3?tag=alphadominu09-20",
@@ -2052,6 +2034,25 @@
   ],
   "lixeira": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B0HFV49RS3",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0HFV49RS3?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0HFV49RS3?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220653",
+      "link_canal": "https://www.amazon.com.br/dp/B0HFV49RS3?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAICfmrOfepaLaYxwUL49u9a8cCdE6YFAAI0D2sbZe89UusQRSrl1hHdAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "nome": "Teclado Gamer Mecânico Win60 Pro RGB",
+      "por": 242.24,
+      "titulo": "Teclado gamer mecânico com iluminação RGB",
+      "id": 356,
+      "garimpado_em": "2026-10-13T15:52-03:00",
+      "na_revisao_desde": "2026-10-13T15:52-03:00",
+      "removido_em": "2026-10-13T16:03:13-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB5294552208",
       "origem": "gatunopromos",
@@ -2846,27 +2847,6 @@
       "na_revisao_desde": "2026-10-13T15:21-03:00",
       "removido_em": "2026-10-13T15:43:59-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:419739190.23694205612",
-      "origem": "promooeasy",
-      "link": "https://shopee.com.br/product/419739190/23694205612",
-      "link_produto": "https://shopee.com.br/product/419739190/23694205612",
-      "post_origem": "https://t.me/promooeasy/220638",
-      "link_canal": "https://s.shopee.com.br/9fLdku3UaZ?lp=aff",
-      "precisa_link": true,
-      "foto": "AgACAgEAAxkDAAICdWrOeORVXc1rF6wXm9s-qCBlVOgKAAKLDWsb7AJxRioaVvCn8qO2AQADAgADeAADPQQ",
-      "foto_origem": "canal",
-      "nome": "Conjunto Fitness Feminino Legging + Top Academia Suplex Zero Transparência",
-      "de": 119.8,
-      "por": 59.9,
-      "titulo": "Conjunto fitness com 50% de desconto",
-      "id": 348,
-      "garimpado_em": "2026-10-13T15:30-03:00",
-      "na_revisao_desde": "2026-10-13T15:30-03:00",
-      "removido_em": "2026-10-13T15:43:55-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -2941,7 +2921,7 @@
       "promooeasy": {
         "achados": 79,
         "aprovados": 2,
-        "reprovados": 72
+        "reprovados": 73
       },
       "xetdaspromocoes": {
         "achados": 14,
