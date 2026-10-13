@@ -1167,27 +1167,6 @@
       "msg_id": 468
     },
     {
-      "loja": "shopee",
-      "chave": "shopee:359168917.56108296641",
-      "origem": "promooeasy",
-      "link": "https://shopee.com.br/product/359168917/56108296641",
-      "link_produto": "https://shopee.com.br/product/359168917/56108296641",
-      "post_origem": "https://t.me/promooeasy/220441",
-      "link_canal": "https://s.shopee.com.br/AKbKCXIH1A?lp=aff",
-      "precisa_link": true,
-      "foto": "AgACAgEAAxkDAAIB1WrOMINkGOfpClv1n-BNKAIbKMA5AAIxDWsb7AJxRmsVsxjEfoBQAQADAgADeAADPQQ",
-      "foto_origem": "canal",
-      "nome": "Cafeteira Espresso Mondial Dolce Crema 20 Bar Inox 1200W",
-      "cupom_loja": "Resgate o cupom de R$30 aqui:",
-      "de": 1046.65,
-      "por": 550.16,
-      "titulo": "Cafeteira espresso Mondial com 47% off",
-      "id": 248,
-      "garimpado_em": "2026-10-13T10:22-03:00",
-      "na_revisao_desde": "2026-10-13T10:22-03:00",
-      "msg_id": 469
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB5419600456",
       "origem": "xetdaspromocoes",
@@ -2029,6 +2008,28 @@
   "lixeira": [
     {
       "loja": "shopee",
+      "chave": "shopee:359168917.56108296641",
+      "origem": "promooeasy",
+      "link": "https://shopee.com.br/product/359168917/56108296641",
+      "link_produto": "https://shopee.com.br/product/359168917/56108296641",
+      "post_origem": "https://t.me/promooeasy/220441",
+      "link_canal": "https://s.shopee.com.br/AKbKCXIH1A?lp=aff",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAIB1WrOMINkGOfpClv1n-BNKAIbKMA5AAIxDWsb7AJxRmsVsxjEfoBQAQADAgADeAADPQQ",
+      "foto_origem": "canal",
+      "nome": "Cafeteira Espresso Mondial Dolce Crema 20 Bar Inox 1200W",
+      "cupom_loja": "Resgate o cupom de R$30 aqui:",
+      "de": 1046.65,
+      "por": 550.16,
+      "titulo": "Cafeteira espresso Mondial com 47% off",
+      "id": 248,
+      "garimpado_em": "2026-10-13T10:22-03:00",
+      "na_revisao_desde": "2026-10-13T10:22-03:00",
+      "removido_em": "2026-10-13T10:31:31-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "shopee",
       "chave": "shopee:1470976304.58212496584",
       "origem": "promooeasy",
       "link": "https://shopee.com.br/product/1470976304/58212496584",
@@ -2121,7 +2122,7 @@
       "promooeasy": {
         "achados": 37,
         "aprovados": 2,
-        "reprovados": 29
+        "reprovados": 30
       },
       "xetdaspromocoes": {
         "achados": 8,
