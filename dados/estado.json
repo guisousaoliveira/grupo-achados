@@ -1342,24 +1342,6 @@
     },
     {
       "loja": "amazon",
-      "chave": "amazon:B08T68T1T6",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B08T68T1T6?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B08T68T1T6?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/220692",
-      "link_canal": "https://www.amazon.com.br/Mouse-Gamer-Predator-Redragon-M612/dp/B08T68T1T6?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAICnGrOi64jigUTNilMiEAheth0YGN-AAIFC2sbus2sUJ4M8R2nMh-GAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Mouse Gamer Redragon Predator RGB M612-RGB, Preto",
-      "por": 79.98,
-      "titulo": "Mouse gamer Redragon com iluminação RGB ajustável",
-      "id": 383,
-      "garimpado_em": "2026-10-13T16:51-03:00",
-      "na_revisao_desde": "2026-10-13T16:51-03:00",
-      "msg_id": 668
-    },
-    {
-      "loja": "amazon",
       "chave": "amazon:B0FNCPHMXM",
       "origem": "promobit",
       "fonte": "promobit",
@@ -2355,6 +2337,25 @@
   ],
   "lixeira": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B08T68T1T6",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B08T68T1T6?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B08T68T1T6?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220692",
+      "link_canal": "https://www.amazon.com.br/Mouse-Gamer-Predator-Redragon-M612/dp/B08T68T1T6?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAICnGrOi64jigUTNilMiEAheth0YGN-AAIFC2sbus2sUJ4M8R2nMh-GAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Mouse Gamer Redragon Predator RGB M612-RGB, Preto",
+      "por": 79.98,
+      "titulo": "Mouse gamer Redragon com iluminação RGB ajustável",
+      "id": 383,
+      "garimpado_em": "2026-10-13T16:51-03:00",
+      "na_revisao_desde": "2026-10-13T16:51-03:00",
+      "removido_em": "2026-10-13T17:05:27-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB4536065939",
       "origem": "lobaopromo",
@@ -3150,26 +3151,6 @@
       "na_revisao_desde": "2026-10-13T14:54-03:00",
       "removido_em": "2026-10-13T15:48:05-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0F7JZMVKF",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B0F7JZMVKF?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0F7JZMVKF?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/smart-tv-tcl-55-qd-mini-led-4k-wifi-bluetooth-55c6k-3110810/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3110810/",
-      "nome": "Smart TV TCL 55 QD-Mini LED 4K WiFi Bluetooth 55C6K",
-      "por": 2890.0,
-      "foto": "AgACAgQAAxkDAAICZmrOcd41KunM7t7rWRDClkRZO0o0AAJmuTEbcotkUXHThOlTk9Q8AQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "titulo": "Smart TV TCL 55 para cinema em casa",
-      "id": 333,
-      "garimpado_em": "2026-10-13T15:01-03:00",
-      "na_revisao_desde": "2026-10-13T15:01-03:00",
-      "removido_em": "2026-10-13T15:48:02-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -3244,7 +3225,7 @@
       "promooeasy": {
         "achados": 86,
         "aprovados": 2,
-        "reprovados": 79
+        "reprovados": 80
       },
       "xetdaspromocoes": {
         "achados": 14,
