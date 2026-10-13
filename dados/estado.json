@@ -927,27 +927,6 @@
       "msg_id": 371
     },
     {
-      "loja": "shopee",
-      "chave": "shopee:1083800536.58212232939",
-      "origem": "promooeasy",
-      "link": "https://shopee.com.br/product/1083800536/58212232939",
-      "link_produto": "https://shopee.com.br/product/1083800536/58212232939",
-      "post_origem": "https://t.me/promooeasy/220356",
-      "link_canal": "https://s.shopee.com.br/7VH8if6dLl?lp=aff",
-      "precisa_link": true,
-      "foto": "AgACAgEAAxkDAAIBdGrOGN3OvGOovLhLBEvCBr_2JzuBAAIbDWsb7AJxRpE35LaBSQrQAQADAgADeAADPQQ",
-      "foto_origem": "canal",
-      "nome": "Caixa de Som PartyBox Club 520 Bluetooth com Luzes, Resistente a Respingos, Bivolt, Preta JBL",
-      "pix": true,
-      "por": 3151.0,
-      "cupom": "AQUI",
-      "titulo": "JBL PartyBox Club 120 com 40% off",
-      "id": 200,
-      "garimpado_em": "2026-10-13T08:41-03:00",
-      "na_revisao_desde": "2026-10-13T08:41-03:00",
-      "msg_id": 372
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB17460955",
       "origem": "promotop",
@@ -1711,6 +1690,28 @@
   "lixeira": [
     {
       "loja": "shopee",
+      "chave": "shopee:1083800536.58212232939",
+      "origem": "promooeasy",
+      "link": "https://shopee.com.br/product/1083800536/58212232939",
+      "link_produto": "https://shopee.com.br/product/1083800536/58212232939",
+      "post_origem": "https://t.me/promooeasy/220356",
+      "link_canal": "https://s.shopee.com.br/7VH8if6dLl?lp=aff",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAIBdGrOGN3OvGOovLhLBEvCBr_2JzuBAAIbDWsb7AJxRpE35LaBSQrQAQADAgADeAADPQQ",
+      "foto_origem": "canal",
+      "nome": "Caixa de Som PartyBox Club 520 Bluetooth com Luzes, Resistente a Respingos, Bivolt, Preta JBL",
+      "pix": true,
+      "por": 3151.0,
+      "cupom": "AQUI",
+      "titulo": "JBL PartyBox Club 120 com 40% off",
+      "id": 200,
+      "garimpado_em": "2026-10-13T08:41-03:00",
+      "na_revisao_desde": "2026-10-13T08:41-03:00",
+      "removido_em": "2026-10-13T09:16:40-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "shopee",
       "chave": "shopee:1710829865.58264221949",
       "origem": "promooeasy",
       "link": "https://shopee.com.br/product/1710829865/58264221949",
@@ -2010,7 +2011,7 @@
       "promooeasy": {
         "achados": 27,
         "aprovados": 2,
-        "reprovados": 19
+        "reprovados": 20
       },
       "xetdaspromocoes": {
         "achados": 1,
