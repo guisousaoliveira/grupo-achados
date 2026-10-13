@@ -1005,25 +1005,6 @@
       "garimpado_em": "2026-10-13T08:50-03:00",
       "na_revisao_desde": "2026-10-13T08:50-03:00",
       "msg_id": 375
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:1509845472.43029805037",
-      "origem": "promooeasy",
-      "link": "https://shopee.com.br/product/1509845472/43029805037",
-      "link_produto": "https://shopee.com.br/product/1509845472/43029805037",
-      "post_origem": "https://t.me/promooeasy/220371",
-      "link_canal": "https://s.shopee.com.br/9APMiEnMX8?lp=aff",
-      "precisa_link": true,
-      "foto": "AgACAgEAAxkDAAIBeGrOGxwOqflKAAFZVbU4dZS1Bkb4BwACIA1rG-wCcUYlmlCg3Kh9dAEAAwIAA3gAAz0E",
-      "foto_origem": "canal",
-      "nome": "Caixa de Som Philco PCX22000 2400W Bivolt",
-      "por": 1087.0,
-      "titulo": "Caixa de som Philco com 38% off",
-      "id": 204,
-      "garimpado_em": "2026-10-13T08:50-03:00",
-      "na_revisao_desde": "2026-10-13T08:50-03:00",
-      "msg_id": 376
     }
   ],
   "proximo_id": 210,
@@ -1770,6 +1751,26 @@
   "lixeira": [
     {
       "loja": "shopee",
+      "chave": "shopee:1509845472.43029805037",
+      "origem": "promooeasy",
+      "link": "https://shopee.com.br/product/1509845472/43029805037",
+      "link_produto": "https://shopee.com.br/product/1509845472/43029805037",
+      "post_origem": "https://t.me/promooeasy/220371",
+      "link_canal": "https://s.shopee.com.br/9APMiEnMX8?lp=aff",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAIBeGrOGxwOqflKAAFZVbU4dZS1Bkb4BwACIA1rG-wCcUYlmlCg3Kh9dAEAAwIAA3gAAz0E",
+      "foto_origem": "canal",
+      "nome": "Caixa de Som Philco PCX22000 2400W Bivolt",
+      "por": 1087.0,
+      "titulo": "Caixa de som Philco com 38% off",
+      "id": 204,
+      "garimpado_em": "2026-10-13T08:50-03:00",
+      "na_revisao_desde": "2026-10-13T08:50-03:00",
+      "removido_em": "2026-10-13T09:16:26-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "shopee",
       "chave": "shopee:342086228.45665166927",
       "origem": "promooeasy",
       "link": "https://shopee.com.br/product/342086228/45665166927",
@@ -2007,7 +2008,7 @@
       "promooeasy": {
         "achados": 27,
         "aprovados": 2,
-        "reprovados": 16
+        "reprovados": 17
       },
       "xetdaspromocoes": {
         "achados": 1,
