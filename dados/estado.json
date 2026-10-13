@@ -630,25 +630,6 @@
       "msg_id": 312
     },
     {
-      "loja": "amazon",
-      "chave": "amazon:B0DXR1M87B",
-      "origem": "lobaopromo",
-      "link": "https://www.amazon.com.br/dp/B0DXR1M87B?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0DXR1M87B?tag=alphadominu09-20",
-      "post_origem": "https://t.me/lobaopromo/188651",
-      "link_canal": "https://amzlink.to/az0egltYp0gWo",
-      "foto": "AgACAgQAAxkDAAIBOWrNkxgPB35gq9EBBFE_jQQcTFVNAAKGDmsbJJn0Ui9eBh0FoeBNAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Chiclete Trident X Gamers Acid Berry - Caixa com 6 Unidades",
-      "de": 61.0,
-      "por": 47.69,
-      "titulo": "Trident X Gamers com 22% off",
-      "id": 156,
-      "garimpado_em": "2026-10-12T23:10-03:00",
-      "na_revisao_desde": "2026-10-12T23:10-03:00",
-      "msg_id": 313
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB24117280",
       "origem": "gatunopromos",
@@ -1293,6 +1274,26 @@
   "lixeira": [
     {
       "loja": "amazon",
+      "chave": "amazon:B0DXR1M87B",
+      "origem": "lobaopromo",
+      "link": "https://www.amazon.com.br/dp/B0DXR1M87B?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0DXR1M87B?tag=alphadominu09-20",
+      "post_origem": "https://t.me/lobaopromo/188651",
+      "link_canal": "https://amzlink.to/az0egltYp0gWo",
+      "foto": "AgACAgQAAxkDAAIBOWrNkxgPB35gq9EBBFE_jQQcTFVNAAKGDmsbJJn0Ui9eBh0FoeBNAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Chiclete Trident X Gamers Acid Berry - Caixa com 6 Unidades",
+      "de": 61.0,
+      "por": 47.69,
+      "titulo": "Trident X Gamers com 22% off",
+      "id": 156,
+      "garimpado_em": "2026-10-12T23:10-03:00",
+      "na_revisao_desde": "2026-10-12T23:10-03:00",
+      "removido_em": "2026-10-12T23:24:37-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "amazon",
       "chave": "amazon:B0FBRZ1ZPB",
       "origem": "promobit",
       "fonte": "promobit",
@@ -1676,7 +1677,7 @@
       "lobaopromo": {
         "achados": 22,
         "aprovados": 8,
-        "reprovados": 11
+        "reprovados": 12
       },
       "urubupromo": {
         "achados": 2,
