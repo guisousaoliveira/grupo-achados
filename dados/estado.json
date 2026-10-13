@@ -3,24 +3,6 @@
   "fila": [
     {
       "loja": "amazon",
-      "chave": "amazon:B0BBJPCMQM",
-      "origem": "lobaopromo",
-      "link": "https://link.amazon/B01h76z7S",
-      "link_produto": "https://link.amazon/B01h76z7S",
-      "post_origem": "https://t.me/lobaopromo/188624",
-      "link_canal": "https://amzlink.to/az0skDeERiKdv",
-      "foto": "AgACAgQAAxkDAAIBKWrNgrnzvwiKc7KiBkfbXN6qZKAFAAJ4EGsbLvVsUiJrqvr9nCZHAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Sparta Maleta de ferramentas kit com 165 peças",
-      "de": 165.0,
-      "por": 71.19,
-      "prime": true,
-      "garimpado_em": "2026-10-12T22:00-03:00",
-      "na_revisao_desde": "2026-10-12T22:00-03:00",
-      "aprovado_em": "2026-10-12T22:04-03:00"
-    },
-    {
-      "loja": "amazon",
       "chave": "amazon:B0CZPSD2SC",
       "origem": "lobaopromo",
       "link": "https://link.amazon/B0grXIV5Z",
@@ -837,6 +819,14 @@
       "link": "https://meli.la/2pLLco8",
       "link_produto": "https://meli.la/2pLLco8",
       "slot": 9
+    },
+    {
+      "chave": "amazon:B0BBJPCMQM",
+      "loja": "amazon",
+      "nome": "Sparta Maleta de ferramentas kit com 165 peças",
+      "data": "2026-10-13T10:02-03:00",
+      "link": "https://link.amazon/B01h76z7S",
+      "link_produto": "https://link.amazon/B01h76z7S"
     }
   ],
   "slots_usados": {
@@ -1117,6 +1107,19 @@
     "promobit_visto": 3109971
   },
   "ultimos": [
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0BBJPCMQM",
+      "origem": "lobaopromo",
+      "link": "https://link.amazon/B01h76z7S",
+      "link_produto": "https://link.amazon/B01h76z7S",
+      "post_origem": "https://t.me/lobaopromo/188624",
+      "foto": "AgACAgQAAxkDAAIBKWrNgrnzvwiKc7KiBkfbXN6qZKAFAAJ4EGsbLvVsUiJrqvr9nCZHAQADAgADeAADPQQ",
+      "nome": "Sparta Maleta de ferramentas kit com 165 peças",
+      "de": 165.0,
+      "por": 71.19,
+      "prime": true
+    },
     {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB7275398398",
@@ -1631,17 +1634,6 @@
       "por": 176.46,
       "de": 279.0,
       "foto": "AgACAgQAAxkDAAOqas0Ui4N63WgJUImMnPU0TacgffcAAqcPaxtgRm1SL32joMlcYr0BAAMCAAN4AAM9BA"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB5004194280",
-      "link": "https://meli.la/1XZTvgs",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-5004194280-mochila-tatica-impermeavel-militar-reforcada-grande-50litros-_JM",
-      "foto": "AgACAgQAAxkDAAOjas0GfE9njHOSoJySBZtmG1DAcHsAAiYPaxuAWsVTVkZjuoEbqZQBAAMCAAN4AAM9BA",
-      "nome": "Mochila Tática Grande Resistente 50l Para Viagem Aventura Preto",
-      "de": 189.0,
-      "por": 70.0,
-      "cupom": "MELICOMPRA"
     }
   ],
   "lixeira": [
