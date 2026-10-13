@@ -1432,27 +1432,6 @@
       "msg_id": 502
     },
     {
-      "loja": "shopee",
-      "chave": "shopee:1083800536.58258362801",
-      "origem": "promooeasy",
-      "link": "https://shopee.com.br/product/1083800536/58258362801",
-      "link_produto": "https://shopee.com.br/product/1083800536/58258362801",
-      "post_origem": "https://t.me/promooeasy/220497",
-      "link_canal": "https://s.shopee.com.br/40hGkeTxd1?lp=aff",
-      "precisa_link": true,
-      "foto": "AgACAgEAAxkDAAIB92rOQwtTzGJO3WvFA5MzeE21tqNUAAI9DWsb7AJxRkSMayf4HhsDAQADAgADeAADPQQ",
-      "foto_origem": "canal",
-      "nome": "Fritadeira Air Fryer Oven AFON-12L-FG 12L Digital 2000W Mondial",
-      "cupom_loja": "Resgate o cupom de R$30 aqui:",
-      "de": 504.03,
-      "por": 398.14,
-      "titulo": "Air Fryer Mondial 12L com 21% off",
-      "id": 270,
-      "garimpado_em": "2026-10-13T11:41-03:00",
-      "na_revisao_desde": "2026-10-13T11:41-03:00",
-      "msg_id": 503
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B084KJPHRY",
       "origem": "promooeasy",
@@ -2301,6 +2280,28 @@
   ],
   "lixeira": [
     {
+      "loja": "shopee",
+      "chave": "shopee:1083800536.58258362801",
+      "origem": "promooeasy",
+      "link": "https://shopee.com.br/product/1083800536/58258362801",
+      "link_produto": "https://shopee.com.br/product/1083800536/58258362801",
+      "post_origem": "https://t.me/promooeasy/220497",
+      "link_canal": "https://s.shopee.com.br/40hGkeTxd1?lp=aff",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAIB92rOQwtTzGJO3WvFA5MzeE21tqNUAAI9DWsb7AJxRkSMayf4HhsDAQADAgADeAADPQQ",
+      "foto_origem": "canal",
+      "nome": "Fritadeira Air Fryer Oven AFON-12L-FG 12L Digital 2000W Mondial",
+      "cupom_loja": "Resgate o cupom de R$30 aqui:",
+      "de": 504.03,
+      "por": 398.14,
+      "titulo": "Air Fryer Mondial 12L com 21% off",
+      "id": 270,
+      "garimpado_em": "2026-10-13T11:41-03:00",
+      "na_revisao_desde": "2026-10-13T11:41-03:00",
+      "removido_em": "2026-10-13T11:43:22-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB4465154231",
       "origem": "promonocontext",
@@ -2517,7 +2518,7 @@
       "promooeasy": {
         "achados": 46,
         "aprovados": 2,
-        "reprovados": 32
+        "reprovados": 33
       },
       "xetdaspromocoes": {
         "achados": 10,
