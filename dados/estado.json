@@ -337,25 +337,6 @@
       "garimpado_em": "2026-10-13T16:00-03:00",
       "na_revisao_desde": "2026-10-13T16:00-03:00",
       "aprovado_em": "2026-10-13T16:04-03:00"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB68885400",
-      "origem": "promonocontext",
-      "link": "https://meli.la/2gumX4b",
-      "link_produto": "https://meli.la/2gumX4b",
-      "post_origem": "https://t.me/promonocontext/126282",
-      "link_canal": "https://meli.la/1tqxLb1",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_784610-MLA110156547384_042026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Kit Pré Treino Hórus 7 Belo + Creatina 7 Belo Max Titanium 300g",
-      "de": 199.0,
-      "por": 104.0,
-      "cupom": "FULLLANDING",
-      "titulo": "Kit pré-treino e creatina com 48% off",
-      "garimpado_em": "2026-10-13T15:52-03:00",
-      "na_revisao_desde": "2026-10-13T15:52-03:00",
-      "aprovado_em": "2026-10-13T16:05-03:00"
     }
   ],
   "postados": [
@@ -931,6 +912,14 @@
       "data": "2026-10-13T16:02-03:00",
       "link": "https://meli.la/1DihMDt",
       "link_produto": "https://meli.la/1DihMDt"
+    },
+    {
+      "chave": "mercadolivre:MLB68885400",
+      "loja": "mercadolivre",
+      "nome": "Kit Pré Treino Hórus 7 Belo + Creatina 7 Belo Max Titanium 300g",
+      "data": "2026-10-13T16:05-03:00",
+      "link": "https://meli.la/2gumX4b",
+      "link_produto": "https://meli.la/2gumX4b"
     }
   ],
   "slots_usados": {
@@ -1347,6 +1336,20 @@
     "promobit_visto": 3111044
   },
   "ultimos": [
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB68885400",
+      "origem": "promonocontext",
+      "link": "https://meli.la/2gumX4b",
+      "link_produto": "https://meli.la/2gumX4b",
+      "post_origem": "https://t.me/promonocontext/126282",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_784610-MLA110156547384_042026-O.webp",
+      "nome": "Kit Pré Treino Hórus 7 Belo + Creatina 7 Belo Max Titanium 300g",
+      "de": 199.0,
+      "por": 104.0,
+      "cupom": "FULLLANDING",
+      "titulo": "Kit pré-treino e creatina com 48% off"
+    },
     {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB19506691",
@@ -1881,20 +1884,6 @@
       "titulo": "Cambio para volante Logitech com desconto",
       "de": 469.9,
       "pix": true
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB4176446999",
-      "origem": "promonocontext",
-      "link": "https://meli.la/321qqqb",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-4176446999-relogio-luxo-poedagar-masculino-pulseira-em-couro-funcional-_JM",
-      "post_origem": "https://t.me/promonocontext/125985",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_632932-MLB105966928572_022026-O.webp",
-      "nome": "Relógio Luxo Poedagar Masculino Pulseira Em Couro Funcional",
-      "de": 320.0,
-      "por": 104.0,
-      "titulo": "Relógio masculino Poedagar com 68% off",
-      "obs": "Aplique o Cupom de 10% 📌"
     }
   ],
   "lixeira": [
