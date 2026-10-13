@@ -1375,26 +1375,6 @@
       "msg_id": 498
     },
     {
-      "loja": "shopee",
-      "chave": "shopee:829012010.46816424954",
-      "origem": "promooeasy",
-      "link": "https://shopee.com.br/product/829012010/46816424954",
-      "link_produto": "https://shopee.com.br/product/829012010/46816424954",
-      "post_origem": "https://t.me/promooeasy/220490",
-      "link_canal": "https://s.shopee.com.br/BUYAf6Wd5?lp=aff",
-      "precisa_link": true,
-      "foto": "AgACAgEAAxkDAAIB9GrOQQy5kyJxWl57IG-9i1bOUhPEAAI5DWsb7AJxRqz2Fa1pRElHAQADAgADeAADPQQ",
-      "foto_origem": "canal",
-      "nome": "Reprodutor Remoto PlayStation Portal Edição Limitada 30º do Aniversário Sony - PS5",
-      "por": 1747.0,
-      "cupom": "AQUI",
-      "titulo": "Reprodutor PlayStation Portal com 30% de desconto",
-      "id": 267,
-      "garimpado_em": "2026-10-13T11:32-03:00",
-      "na_revisao_desde": "2026-10-13T11:32-03:00",
-      "msg_id": 500
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B082WGSGLL",
       "origem": "promooeasy",
@@ -2243,6 +2223,27 @@
   ],
   "lixeira": [
     {
+      "loja": "shopee",
+      "chave": "shopee:829012010.46816424954",
+      "origem": "promooeasy",
+      "link": "https://shopee.com.br/product/829012010/46816424954",
+      "link_produto": "https://shopee.com.br/product/829012010/46816424954",
+      "post_origem": "https://t.me/promooeasy/220490",
+      "link_canal": "https://s.shopee.com.br/BUYAf6Wd5?lp=aff",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAIB9GrOQQy5kyJxWl57IG-9i1bOUhPEAAI5DWsb7AJxRqz2Fa1pRElHAQADAgADeAADPQQ",
+      "foto_origem": "canal",
+      "nome": "Reprodutor Remoto PlayStation Portal Edição Limitada 30º do Aniversário Sony - PS5",
+      "por": 1747.0,
+      "cupom": "AQUI",
+      "titulo": "Reprodutor PlayStation Portal com 30% de desconto",
+      "id": 267,
+      "garimpado_em": "2026-10-13T11:32-03:00",
+      "na_revisao_desde": "2026-10-13T11:32-03:00",
+      "removido_em": "2026-10-13T11:43:30-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0FFDF32QK",
       "origem": "promooeasy",
@@ -2520,7 +2521,7 @@
       "promooeasy": {
         "achados": 46,
         "aprovados": 2,
-        "reprovados": 35
+        "reprovados": 36
       },
       "xetdaspromocoes": {
         "achados": 10,
