@@ -281,6 +281,24 @@
       "garimpado_em": "2026-10-13T15:41-03:00",
       "na_revisao_desde": "2026-10-13T15:41-03:00",
       "aprovado_em": "2026-10-13T15:45-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB59802579",
+      "origem": "promonocontext",
+      "link": "https://meli.la/26v3LzP",
+      "link_produto": "https://meli.la/26v3LzP",
+      "post_origem": "https://t.me/promonocontext/126271",
+      "link_canal": "https://meli.la/1gRAFpd",
+      "foto": "AgACAgQAAxkDAAICdGrOeNd1tMg2jCv9UM18M9t-I2_DAAKhC2sbabzEUcBjRz2TXlK6AQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Caixa de Som JBL Grip 16W RMS IP68",
+      "por": 401.0,
+      "titulo": "Caixa de som JBL com resistência à água",
+      "garimpado_em": "2026-10-13T15:30-03:00",
+      "na_revisao_desde": "2026-10-13T15:30-03:00",
+      "de": 559.0,
+      "aprovado_em": "2026-10-13T15:45-03:00"
     }
   ],
   "postados": [
@@ -1644,24 +1662,6 @@
       "garimpado_em": "2026-10-13T15:22-03:00",
       "na_revisao_desde": "2026-10-13T15:22-03:00",
       "msg_id": 627
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB59802579",
-      "origem": "promonocontext",
-      "link": "https://www.mercadolivre.com.br/caixa-de-som-jbl-grip-16w-rms-ip68-preto/p/MLB59802579?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/caixa-de-som-jbl-grip-16w-rms-ip68-preto/p/MLB59802579",
-      "post_origem": "https://t.me/promonocontext/126271",
-      "link_canal": "https://meli.la/1gRAFpd",
-      "foto": "AgACAgQAAxkDAAICdGrOeNd1tMg2jCv9UM18M9t-I2_DAAKhC2sbabzEUcBjRz2TXlK6AQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Caixa de Som JBL Grip 16W RMS IP68",
-      "por": 401.0,
-      "titulo": "Caixa de som JBL com resistência à água",
-      "id": 347,
-      "garimpado_em": "2026-10-13T15:30-03:00",
-      "na_revisao_desde": "2026-10-13T15:30-03:00",
-      "msg_id": 628
     }
   ],
   "proximo_id": 351,
@@ -3394,7 +3394,7 @@
       },
       "promonocontext": {
         "achados": 27,
-        "aprovados": 4,
+        "aprovados": 5,
         "reprovados": 16
       },
       "infoBRpromos": {
