@@ -1433,27 +1433,6 @@
       "garimpado_em": "2026-10-13T17:01-03:00",
       "na_revisao_desde": "2026-10-13T17:01-03:00",
       "msg_id": 672
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:1537142489.58266674286",
-      "origem": "promooeasy",
-      "link": "https://shopee.com.br/product/1537142489/58266674286",
-      "link_produto": "https://shopee.com.br/product/1537142489/58266674286",
-      "post_origem": "https://t.me/promooeasy/220698",
-      "link_canal": "https://s.shopee.com.br/8V9gSg0L32?lp=aff",
-      "precisa_link": true,
-      "foto": "https://cdn1.telesco.pe/file/cqGGCy2fYKm26KmPgPK1XlU0EveEDGCKyMzWcpzETVHzJnGdkt7WJXgZvGX6fG_D-46WehCiXw9IMl1byMP9VVjSbMYjWDPpzmZj7asDVZYGDzVEOqnvPBmLkGigjfvN3GMRcVKLaytb21XvLHm-NYPZaDuWRkrsBzyM3pAv_CtfZJ6qyIFeoJuQNTwwl4r2t0rwFQpfVqsEToo6-RNFD8sUFObxM6OHD1WEDnG5xlwrvQCfET74IFT3o5iJe3ll6p6e9ETt7ErEKqn8Njtf4cME-ExtO7ZNKDHRmEbdrcT0JEqErzcjnqpTocGPjH1QZlF4rf92rhlvJ-n1w53yxw.jpg",
-      "foto_origem": "canal",
-      "nome": "Samsung Smart TV 50 Mini LED 4K M75H + Soundbar Samsung HW-B400F",
-      "pix": true,
-      "por": 2602.0,
-      "cupom": "AQUI",
-      "titulo": "Combo Samsung: Smart TV 50 polegadas Mini LED 4K e Soundbar por 2602.",
-      "id": 388,
-      "garimpado_em": "2026-10-13T17:01-03:00",
-      "na_revisao_desde": "2026-10-13T17:01-03:00",
-      "msg_id": 673
     }
   ],
   "proximo_id": 390,
@@ -2415,6 +2394,28 @@
   "lixeira": [
     {
       "loja": "shopee",
+      "chave": "shopee:1537142489.58266674286",
+      "origem": "promooeasy",
+      "link": "https://shopee.com.br/product/1537142489/58266674286",
+      "link_produto": "https://shopee.com.br/product/1537142489/58266674286",
+      "post_origem": "https://t.me/promooeasy/220698",
+      "link_canal": "https://s.shopee.com.br/8V9gSg0L32?lp=aff",
+      "precisa_link": true,
+      "foto": "https://cdn1.telesco.pe/file/cqGGCy2fYKm26KmPgPK1XlU0EveEDGCKyMzWcpzETVHzJnGdkt7WJXgZvGX6fG_D-46WehCiXw9IMl1byMP9VVjSbMYjWDPpzmZj7asDVZYGDzVEOqnvPBmLkGigjfvN3GMRcVKLaytb21XvLHm-NYPZaDuWRkrsBzyM3pAv_CtfZJ6qyIFeoJuQNTwwl4r2t0rwFQpfVqsEToo6-RNFD8sUFObxM6OHD1WEDnG5xlwrvQCfET74IFT3o5iJe3ll6p6e9ETt7ErEKqn8Njtf4cME-ExtO7ZNKDHRmEbdrcT0JEqErzcjnqpTocGPjH1QZlF4rf92rhlvJ-n1w53yxw.jpg",
+      "foto_origem": "canal",
+      "nome": "Samsung Smart TV 50 Mini LED 4K M75H + Soundbar Samsung HW-B400F",
+      "pix": true,
+      "por": 2602.0,
+      "cupom": "AQUI",
+      "titulo": "Combo Samsung: Smart TV 50 polegadas Mini LED 4K e Soundbar por 2602.",
+      "id": 388,
+      "garimpado_em": "2026-10-13T17:01-03:00",
+      "na_revisao_desde": "2026-10-13T17:01-03:00",
+      "removido_em": "2026-10-13T17:05:10-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "shopee",
       "chave": "shopee:1275178233.22294155579",
       "origem": "promooeasy",
       "link": "https://shopee.com.br/product/1275178233/22294155579",
@@ -3207,26 +3208,6 @@
       "na_revisao_desde": "2026-10-13T15:47-03:00",
       "removido_em": "2026-10-13T15:47:12-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB54549630",
-      "origem": "promonocontext",
-      "link": "https://www.mercadolivre.com.br/basike-caixa-de-som-boombox-plus-80w-8000mah-portatil-bluetooth-53-sem-fio-ipx6-prova-dagua-com-luz-rgb-hifi-tws-bass-forte-amplificada-alto-falante-bombox-tv-festa-casa-soundbox-subwoofer-rad337/p/MLB54549630?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/basike-caixa-de-som-boombox-plus-80w-8000mah-portatil-bluetooth-53-sem-fio-ipx6-prova-dagua-com-luz-rgb-hifi-tws-bass-forte-amplificada-alto-falante-bombox-tv-festa-casa-soundbox-subwoofer-rad337/p/MLB54549630",
-      "post_origem": "https://t.me/promonocontext/126261",
-      "link_canal": "https://meli.la/17nHFN9",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_675598-MLA99455853026_112025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Basike Caixa de Som Boombox Plus 80W 8000Mah Portátil Bluetooth 5.3",
-      "pix": true,
-      "por": 319.0,
-      "titulo": "Caixa de som Basike 80W com bateria de 8000mAh por 319 reais.",
-      "id": 336,
-      "garimpado_em": "2026-10-13T15:04-03:00",
-      "na_revisao_desde": "2026-10-13T15:04-03:00",
-      "removido_em": "2026-10-13T15:47:07-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -3301,7 +3282,7 @@
       "promooeasy": {
         "achados": 86,
         "aprovados": 2,
-        "reprovados": 78
+        "reprovados": 79
       },
       "xetdaspromocoes": {
         "achados": 14,
