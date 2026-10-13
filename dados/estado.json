@@ -3,24 +3,6 @@
   "fila": [
     {
       "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB24117280",
-      "origem": "gatunopromos",
-      "link": "https://meli.la/2Y9mkYv",
-      "link_produto": "https://meli.la/2Y9mkYv",
-      "post_origem": "https://t.me/gatunopromos/125008",
-      "link_canal": "https://meli.la/1ap5Nhb",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_673950-MLA99394598783_112025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Fone De Ouvido Headphone Dapon H02D Bluetooth 5.1 Over-ear 22h Preto",
-      "de": 149.0,
-      "por": 74.9,
-      "titulo": "Headphone Dapon pela metade do preço",
-      "garimpado_em": "2026-10-12T23:10-03:00",
-      "na_revisao_desde": "2026-10-12T23:10-03:00",
-      "aprovado_em": "2026-10-12T23:29-03:00"
-    },
-    {
-      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB37809946",
       "origem": "xetdaspromocoes",
       "link": "https://meli.la/1SaP4jn",
@@ -808,6 +790,14 @@
       "link": "https://meli.la/1ALanGS",
       "link_produto": "https://meli.la/1ALanGS",
       "slot": 11
+    },
+    {
+      "chave": "mercadolivre:MLB24117280",
+      "loja": "mercadolivre",
+      "nome": "Fone De Ouvido Headphone Dapon H02D Bluetooth 5.1 Over-ear 22h Preto",
+      "data": "2026-10-13T11:12-03:00",
+      "link": "https://meli.la/2Y9mkYv",
+      "link_produto": "https://meli.la/2Y9mkYv"
     }
   ],
   "slots_usados": {
@@ -1526,6 +1516,19 @@
   "ultimos": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB24117280",
+      "origem": "gatunopromos",
+      "link": "https://meli.la/2Y9mkYv",
+      "link_produto": "https://meli.la/2Y9mkYv",
+      "post_origem": "https://t.me/gatunopromos/125008",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_673950-MLA99394598783_112025-O.webp",
+      "nome": "Fone De Ouvido Headphone Dapon H02D Bluetooth 5.1 Over-ear 22h Preto",
+      "de": 149.0,
+      "por": 78.9,
+      "titulo": "Headphone Dapon pela metade do preço"
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB4992424197",
       "origem": "lobaopromo",
       "link": "https://meli.la/1ALanGS",
@@ -2048,16 +2051,6 @@
       "nome": "Notebook ASUS Vivobook S 14 S5406SA Copilot+ PC Intel Core Ultra 7",
       "de": 6999.0,
       "por": 5683.0
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0HB7NS9RM",
-      "link": "https://link.amazon/B06BXr4tc",
-      "link_produto": "https://www.amazon.com.br/dp/B0HB7NS9RM?tag=alphadominu09-20",
-      "nome": "Lg Ultragear Monitor Gamer 27\" Ips, 144hz Nativo, 1ms (mbr), Full Hd",
-      "por": 688.8,
-      "de": 849.0,
-      "foto": "AgACAgQAAxkDAAOzas0ikCramEK0vDD2lhyWgBGDYzkAAn0PaxuhKEVS0RODWcdghFIBAAMCAAN4AAM9BA"
     }
   ],
   "lixeira": [
