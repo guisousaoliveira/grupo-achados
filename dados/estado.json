@@ -1295,24 +1295,6 @@
       "garimpado_em": "2026-10-13T11:17-03:00",
       "na_revisao_desde": "2026-10-13T11:17-03:00",
       "msg_id": 493
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0F7K7B2PD",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0F7K7B2PD?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0F7K7B2PD?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/220478",
-      "link_canal": "https://www.amazon.com.br/TCL-Polegadas-Bluetooth-Google-65C6K/dp/B0F7K7B2PD?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAIB7mrOPbjrFTxYsh4v-IGLK6fiMLyvAAIFD2sblc5sUgIXN0aZKwWTAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Smart TV TCL 65 Polegadas QLED Mini LED 4K C6K WiFi Bluetooth Google TV 4 HDMI 144Hz HDR10+ 65C6K",
-      "por": 3879.85,
-      "titulo": "Preço bom assim não dura, corre!",
-      "id": 261,
-      "garimpado_em": "2026-10-13T11:18-03:00",
-      "na_revisao_desde": "2026-10-13T11:18-03:00",
-      "msg_id": 494
     }
   ],
   "proximo_id": 272,
@@ -2146,6 +2128,25 @@
   "lixeira": [
     {
       "loja": "amazon",
+      "chave": "amazon:B0F7K7B2PD",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0F7K7B2PD?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0F7K7B2PD?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220478",
+      "link_canal": "https://www.amazon.com.br/TCL-Polegadas-Bluetooth-Google-65C6K/dp/B0F7K7B2PD?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAIB7mrOPbjrFTxYsh4v-IGLK6fiMLyvAAIFD2sblc5sUgIXN0aZKwWTAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Smart TV TCL 65 Polegadas QLED Mini LED 4K C6K WiFi Bluetooth Google TV 4 HDMI 144Hz HDR10+ 65C6K",
+      "por": 3879.85,
+      "titulo": "Preço bom assim não dura, corre!",
+      "id": 261,
+      "garimpado_em": "2026-10-13T11:18-03:00",
+      "na_revisao_desde": "2026-10-13T11:18-03:00",
+      "removido_em": "2026-10-13T11:44:51-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "amazon",
       "chave": "amazon:B0CQKK5V35",
       "origem": "promooeasy",
       "link": "https://www.amazon.com.br/dp/B0CQKK5V35?tag=alphadominu09-20",
@@ -2524,7 +2525,7 @@
       "promooeasy": {
         "achados": 46,
         "aprovados": 2,
-        "reprovados": 39
+        "reprovados": 40
       },
       "xetdaspromocoes": {
         "achados": 10,
