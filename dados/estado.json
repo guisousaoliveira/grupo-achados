@@ -1032,26 +1032,6 @@
       "msg_id": 456
     },
     {
-      "loja": "shopee",
-      "chave": "shopee:1001075556.45417820614",
-      "origem": "promooeasy",
-      "link": "https://shopee.com.br/product/1001075556/45417820614",
-      "link_produto": "https://shopee.com.br/product/1001075556/45417820614",
-      "post_origem": "https://t.me/promooeasy/220423",
-      "link_canal": "https://s.shopee.com.br/8KqFnouTbH?lp=aff",
-      "precisa_link": true,
-      "foto": "AgACAgEAAxkDAAIBv2rOLD42ep-iHFMyxJ8mwx4WLEAnAAIqDWsb7AJxRnbDb5hElsXkAQADAgADeAADPQQ",
-      "foto_origem": "canal",
-      "nome": "Placa de Vídeo PELADN RTX 5060, 8GB, GDDR7",
-      "por": 2667.08,
-      "cupom": "AQUI",
-      "titulo": "Placa de Vídeo RTX 5060 para rodar jogos pesados",
-      "id": 241,
-      "garimpado_em": "2026-10-13T10:09-03:00",
-      "na_revisao_desde": "2026-10-13T10:09-03:00",
-      "msg_id": 457
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B07G7JWLL1",
       "origem": "promobit",
@@ -2008,6 +1988,27 @@
   "lixeira": [
     {
       "loja": "shopee",
+      "chave": "shopee:1001075556.45417820614",
+      "origem": "promooeasy",
+      "link": "https://shopee.com.br/product/1001075556/45417820614",
+      "link_produto": "https://shopee.com.br/product/1001075556/45417820614",
+      "post_origem": "https://t.me/promooeasy/220423",
+      "link_canal": "https://s.shopee.com.br/8KqFnouTbH?lp=aff",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAIBv2rOLD42ep-iHFMyxJ8mwx4WLEAnAAIqDWsb7AJxRnbDb5hElsXkAQADAgADeAADPQQ",
+      "foto_origem": "canal",
+      "nome": "Placa de Vídeo PELADN RTX 5060, 8GB, GDDR7",
+      "por": 2667.08,
+      "cupom": "AQUI",
+      "titulo": "Placa de Vídeo RTX 5060 para rodar jogos pesados",
+      "id": 241,
+      "garimpado_em": "2026-10-13T10:09-03:00",
+      "na_revisao_desde": "2026-10-13T10:09-03:00",
+      "removido_em": "2026-10-13T10:31:36-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "shopee",
       "chave": "shopee:359168917.56108296641",
       "origem": "promooeasy",
       "link": "https://shopee.com.br/product/359168917/56108296641",
@@ -2122,7 +2123,7 @@
       "promooeasy": {
         "achados": 37,
         "aprovados": 2,
-        "reprovados": 30
+        "reprovados": 31
       },
       "xetdaspromocoes": {
         "achados": 8,
