@@ -1713,19 +1713,75 @@
       "garimpado_em": "2026-10-13T17:50-03:00",
       "na_revisao_desde": "2026-10-13T17:50-03:00",
       "msg_id": 699
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB32431595",
+      "origem": "gatunopromos",
+      "link": "https://www.mercadolivre.com.br/kit-vinho-5-pecas-uny-gift-abridor-saca-rolhas-dosador-aco-inox/p/MLB32431595?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/kit-vinho-5-pecas-uny-gift-abridor-saca-rolhas-dosador-aco-inox/p/MLB32431595",
+      "post_origem": "https://t.me/gatunopromos/125144",
+      "link_canal": "https://www.mercadolivre.com.br/social/gatuna/lists",
+      "foto": "AgACAgQAAxkDAAICvGrOmysMjPtx7TZTDjd7iiMuhQABCAACNA9rGw3FfFLHUGMo0lncOgEAAwIAA20AAz0E",
+      "foto_origem": "loja",
+      "nome": "Minhas listas de recomendações",
+      "de": 90.0,
+      "por": 48.0,
+      "titulo": "Listas de recomendações com 47% de desconto",
+      "id": 413,
+      "garimpado_em": "2026-10-13T17:57-03:00",
+      "na_revisao_desde": "2026-10-13T17:57-03:00",
+      "msg_id": 700
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0HLMP791T",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0HLMP791T?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0HLMP791T?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220766",
+      "link_canal": "https://www.amazon.com.br/dp/B0HLMP791T?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAICvWrOmzX4b35_sLNQgWQ3JNIWtYaEAALCD2sbCEl0Uu34dsB6ziboAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Bundle Horizon Zero Dawn Remastered + Horizon Forbidden West Complete Edition PlayStation 5",
+      "parcelas": 6,
+      "por": 289.0,
+      "titulo": "Jogos Horizon para PlayStation 5 com desconto",
+      "id": 414,
+      "garimpado_em": "2026-10-13T17:57-03:00",
+      "na_revisao_desde": "2026-10-13T17:57-03:00",
+      "msg_id": 701
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0G1TMXHRZ",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0G1TMXHRZ?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0G1TMXHRZ?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220767",
+      "link_canal": "https://www.amazon.com.br/dp/B0G1TMXHRZ?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAICvmrOmzxpVOcbZL5bbWrAO0AbyMWvAAIYEGsbi-h0UgtU-VpJRxv_AQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Bundle Death Stranding 1+2 PlayStation 5",
+      "por": 297.0,
+      "titulo": "Bundle Death Stranding para PlayStation 5 disponível",
+      "id": 415,
+      "garimpado_em": "2026-10-13T17:57-03:00",
+      "na_revisao_desde": "2026-10-13T17:57-03:00",
+      "msg_id": 702
     }
   ],
-  "proximo_id": 413,
+  "proximo_id": 416,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84676,
-      "lobaopromo": 188985,
-      "gatunopromos": 125142,
-      "pobregram": 41842,
+      "xetdaspromocoes": 84677,
+      "lobaopromo": 188988,
+      "gatunopromos": 125144,
+      "pobregram": 41843,
       "urubupromo": 41622,
       "tudonapromo": 101755,
-      "promonocontext": 126373,
-      "promooeasy": 220764,
+      "promonocontext": 126377,
+      "promooeasy": 220767,
       "aquitempechincha": 281422,
       "infoBRpromos": 67464,
       "boletando": 76673,
@@ -1733,7 +1789,7 @@
       "achadosdotb": 11763
     },
     "dia": "2026-10-13",
-    "hoje": 248,
+    "hoje": 251,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -2121,27 +2177,30 @@
       "amazon:B0FPNXM7TF",
       "amazon:B0D4NSS9XV",
       "amazon:B09ZLS7X53",
-      "amazon:B0FKVWSM3N"
+      "amazon:B0FKVWSM3N",
+      "mercadolivre:MLB32431595",
+      "amazon:B0HLMP791T",
+      "amazon:B0G1TMXHRZ"
     ],
     "ultima": {
-      "em": "2026-10-13T17:50:20-03:00",
+      "em": "2026-10-13T17:56:58-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 42,
-      "do_nicho": 8,
-      "repetidas": 7,
-      "novas": 1,
+      "posts_novos": 19,
+      "do_nicho": 5,
+      "repetidas": 2,
+      "novas": 3,
       "limite_dia": false,
-      "promobit": 1
+      "promobit": 0
     },
     "hora": "2026-10-13T17",
-    "nesta_hora": 22,
+    "nesta_hora": 25,
     "promobit_hora": "2026-10-13T17",
     "promobit_nesta_hora": 7,
-    "promobit_visto": 3111354
+    "promobit_visto": 3111376
   },
   "ultimos": [
     {
@@ -3583,7 +3642,7 @@
         "reprovados": 28
       },
       "promooeasy": {
-        "achados": 93,
+        "achados": 95,
         "aprovados": 2,
         "reprovados": 81
       },
@@ -3618,7 +3677,7 @@
         "reprovados": 0
       },
       "gatunopromos": {
-        "achados": 2,
+        "achados": 3,
         "aprovados": 0,
         "reprovados": 1
       }
