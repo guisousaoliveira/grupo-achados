@@ -837,25 +837,6 @@
       "garimpado_em": "2026-10-13T00:20-03:00",
       "na_revisao_desde": "2026-10-13T00:20-03:00",
       "msg_id": 337
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:1083800536.58216641373",
-      "origem": "promooeasy",
-      "link": "https://shopee.com.br/product/1083800536/58216641373",
-      "link_produto": "https://shopee.com.br/product/1083800536/58216641373",
-      "post_origem": "https://t.me/promooeasy/220270",
-      "link_canal": "https://s.shopee.com.br/2qVIc1FGC2?lp=aff",
-      "precisa_link": true,
-      "foto": "AgACAgEAAxkDAAIBUmrNo6PWR27K_uRLW3xV0RbcZeW4AALdDGsb7AJxRoeaYBoFyw9YAQADAgADeAADPQQ",
-      "foto_origem": "canal",
-      "nome": "Smart Tv 75 Polegadas 4K 75P6k Google Tv Hdr10 Processador Aipq Tcl",
-      "por": 3955.0,
-      "titulo": "Smart TV 75 polegadas com 16% off",
-      "id": 172,
-      "garimpado_em": "2026-10-13T00:21-03:00",
-      "na_revisao_desde": "2026-10-13T00:21-03:00",
-      "msg_id": 338
     }
   ],
   "proximo_id": 183,
@@ -1530,6 +1511,26 @@
     }
   ],
   "lixeira": [
+    {
+      "loja": "shopee",
+      "chave": "shopee:1083800536.58216641373",
+      "origem": "promooeasy",
+      "link": "https://shopee.com.br/product/1083800536/58216641373",
+      "link_produto": "https://shopee.com.br/product/1083800536/58216641373",
+      "post_origem": "https://t.me/promooeasy/220270",
+      "link_canal": "https://s.shopee.com.br/2qVIc1FGC2?lp=aff",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAIBUmrNo6PWR27K_uRLW3xV0RbcZeW4AALdDGsb7AJxRoeaYBoFyw9YAQADAgADeAADPQQ",
+      "foto_origem": "canal",
+      "nome": "Smart Tv 75 Polegadas 4K 75P6k Google Tv Hdr10 Processador Aipq Tcl",
+      "por": 3955.0,
+      "titulo": "Smart TV 75 polegadas com 16% off",
+      "id": 172,
+      "garimpado_em": "2026-10-13T00:21-03:00",
+      "na_revisao_desde": "2026-10-13T00:21-03:00",
+      "removido_em": "2026-10-13T00:47:32-03:00",
+      "removido_de": "revisar"
+    },
     {
       "loja": "shopee",
       "chave": "shopee:627750190.21298279540",
@@ -2207,7 +2208,7 @@
       "promooeasy": {
         "achados": 12,
         "aprovados": 0,
-        "reprovados": 8
+        "reprovados": 9
       }
     }
   },
