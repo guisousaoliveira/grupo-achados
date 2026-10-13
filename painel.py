@@ -673,7 +673,7 @@ def postar(estado, item, feito):
 
 # ---------------------------------------------------------------- story
 
-def gerar_story_png(tipo, ident, frase="", modelo="prova", com_item=False):
+def gerar_story_png(tipo, ident, frase="", modelo="prova", com_item=False, encaixe="auto"):
     import story
     estado, _ = bot.carregar_estado()
     cfg = estado.get("story_cfg")
@@ -685,7 +685,8 @@ def gerar_story_png(tipo, ident, frase="", modelo="prova", com_item=False):
     if not item:
         return None, ""
     gerar = story.story_venda if modelo == "venda" else story.story_oferta
-    png = gerar(item, bot.baixar_foto(item.get("foto")), canal, frase=frase.strip()[:60] or None, cfg=cfg)
+    png = gerar(item, bot.baixar_foto(item.get("foto")), canal, frase=frase.strip()[:60] or None, cfg=cfg,
+                encaixe=encaixe if encaixe in ("auto", "branco", "cheio") else "auto")
     nome = "story_venda.png" if modelo == "venda" else "story_oferta.png"
     return (png, nome, item, canal) if com_item else (png, nome)
 
@@ -712,7 +713,8 @@ def story_telegram(d):
         png, nome = gerar_story_png("fixo", "")
         item = None
     else:
-        res = gerar_story_png(d.get("tipo", "ultimo"), str(d.get("id", "")), str(d.get("frase") or ""), modelo, com_item=True)
+        res = gerar_story_png(d.get("tipo", "ultimo"), str(d.get("id", "")), str(d.get("frase") or ""), modelo, com_item=True,
+                              encaixe=str(d.get("encaixe") or "auto"))
         png, nome, item, canal = res if len(res) == 4 else (None, "", None, "")
     if not png:
         return {"erro": "Não achei mais essa oferta."}
@@ -763,7 +765,8 @@ def tratar_get(req):
         responder(req, 200, _fotos[f], "image/jpeg")
     elif caminho == "/painel/story":
         try:
-            png, nome = gerar_story_png(q.get("tipo", "ultimo"), q.get("id", ""), q.get("frase", ""), q.get("modelo", "prova"))
+            png, nome = gerar_story_png(q.get("tipo", "ultimo"), q.get("id", ""), q.get("frase", ""), q.get("modelo", "prova"),
+                                       encaixe=q.get("encaixe", "auto"))
         except ImportError:
             responder(req, 500, "O servidor precisa do Pillow: Build Command = pip install -r requirements.txt", "text/plain")
             return

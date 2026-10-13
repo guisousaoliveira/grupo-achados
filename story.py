@@ -11,7 +11,7 @@ import io
 import random
 from pathlib import Path
 
-from PIL import Image, ImageChops, ImageDraw, ImageFilter, ImageFont
+from PIL import Image, ImageChops, ImageDraw, ImageFilter, ImageFont, ImageOps
 
 PASTA = Path(__file__).resolve().parent / "assets"
 L, A = 1080, 1920
@@ -250,7 +250,38 @@ def encaixar_foto(foto, largura, altura):
     return f_img.resize((max(1, int(f_img.width * escala)), max(1, int(f_img.height * escala))), Image.LANCZOS)
 
 
-def story_oferta(item, foto=None, canal="", frase=None, cfg=None):
+def tem_fundo_proprio(foto):
+    """A foto já tem cenário (não é produto recortado no fundo branco)? Olha a borda da imagem."""
+    f = Image.open(io.BytesIO(foto)).convert("L")
+    f.thumbnail((200, 200))
+    w, h = f.size
+    borda = [f.getpixel((x, y)) for x in range(w) for y in (0, 1, h - 2, h - 1)]
+    borda += [f.getpixel((x, y)) for y in range(h) for x in (0, 1, w - 2, w - 1)]
+    claros = sum(1 for v in borda if v >= 235)
+    return claros / len(borda) < 0.7
+
+
+def foto_cheia(img, foto, caixa, raio):
+    """Foto ocupando o card inteiro (corta o excesso pelo centro), com os cantos arredondados do card."""
+    x0, y0, x1, y1 = caixa
+    f_img = ImageOps.fit(Image.open(io.BytesIO(foto)).convert("RGB"), (x1 - x0, y1 - y0), Image.LANCZOS)
+    mascara = Image.new("L", f_img.size, 0)
+    ImageDraw.Draw(mascara).rounded_rectangle((0, 0, f_img.width - 1, f_img.height - 1), radius=raio, fill=255)
+    img.paste(f_img, (x0, y0), mascara)
+
+
+def usar_cheia(foto, encaixe):
+    if encaixe == "cheio":
+        return True
+    if encaixe == "branco" or not foto:
+        return False
+    try:
+        return tem_fundo_proprio(foto)
+    except Exception:
+        return False
+
+
+def story_oferta(item, foto=None, canal="", frase=None, cfg=None, encaixe="auto"):
     c = config(cfg)
     img = fundo()
     d = ImageDraw.Draw(img)
@@ -265,6 +296,12 @@ def story_oferta(item, foto=None, canal="", frase=None, cfg=None):
         d.rounded_rectangle((cx0, cy0, cx1, cy1), radius=40, fill=CARTAO, outline=(60, 50, 20), width=2)
         lv2 = leao(380)
         img.paste(lv2, ((L - lv2.width) // 2, cy0 + (cy1 - cy0 - lv2.height) // 2), lv2)
+    if foto and usar_cheia(foto, encaixe):
+        try:
+            foto_cheia(img, foto, (cx0, cy0, cx1, cy1), 40)
+            foto = None  # já colou
+        except Exception:
+            pass
     if foto:
         try:
             f_img = encaixar_foto(foto, cx1 - cx0 - 80, cy1 - cy0 - 80)
@@ -329,7 +366,7 @@ def vaga_sticker(d, y, w, h, legenda, dica):
     return y0 + h
 
 
-def story_venda(item, foto=None, canal="", frase=None, cfg=None):
+def story_venda(item, foto=None, canal="", frase=None, cfg=None, encaixe="auto"):
     """Story mais limpo, para vender: a frase sorteada vai no topo e embaixo ficam marcadas as vagas
     para o sticker de link do produto (seu link de afiliado) e o do canal."""
     c = config(cfg)
@@ -341,7 +378,12 @@ def story_venda(item, foto=None, canal="", frase=None, cfg=None):
 
     cx0, cy0, cx1, cy1 = 120, 320, L - 120, 975
     d.rounded_rectangle((cx0, cy0, cx1, cy1), radius=44, fill=(255, 255, 255))
-    if foto:
+    if foto and usar_cheia(foto, encaixe):
+        try:
+            foto_cheia(img, foto, (cx0, cy0, cx1, cy1), 44)
+        except Exception:
+            foto = None
+    elif foto:
         try:
             topo = cy0 + 105  # abaixo do selo da loja e do desconto
             f_img = encaixar_foto(foto, cx1 - cx0 - 90, cy1 - topo - 40)
