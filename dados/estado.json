@@ -3,25 +3,6 @@
   "fila": [
     {
       "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB5737308982",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/2EKRcwN",
-      "link_produto": "https://meli.la/2EKRcwN",
-      "post_origem": "https://t.me/lobaopromo/188682",
-      "link_canal": "https://meli.la/1WYwMaZ",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_785152-MLB115716082758_092026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Chave De Impacto Brushless 600nm 21v Com 2 Baterias Ryoku Verde",
-      "de": 425.0,
-      "por": 215.0,
-      "titulo": "Chave de impacto Ryoku com 49% off",
-      "garimpado_em": "2026-10-13T00:30-03:00",
-      "na_revisao_desde": "2026-10-13T00:30-03:00",
-      "aprovado_em": "2026-10-13T00:47-03:00",
-      "aviso_validade": true
-    },
-    {
-      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB4613727425",
       "origem": "lobaopromo",
       "link": "https://meli.la/1NnuF3D",
@@ -873,6 +854,14 @@
       "link": "https://meli.la/1YPBC11",
       "link_produto": "https://meli.la/1YPBC11",
       "slot": 13
+    },
+    {
+      "chave": "mercadolivre:MLB5737308982",
+      "loja": "mercadolivre",
+      "nome": "Chave De Impacto Brushless 600nm 21v Com 2 Baterias Ryoku Verde",
+      "data": "2026-10-13T13:46-03:00",
+      "link": "https://meli.la/2EKRcwN",
+      "link_produto": "https://meli.la/2EKRcwN"
     }
   ],
   "slots_usados": {
@@ -1556,6 +1545,20 @@
   "ultimos": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB5737308982",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/2EKRcwN",
+      "link_produto": "https://meli.la/2EKRcwN",
+      "post_origem": "https://t.me/lobaopromo/188682",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_785152-MLB115716082758_092026-O.webp",
+      "nome": "Chave De Impacto Brushless 600nm 21v Com 2 Baterias Ryoku Verde",
+      "de": 425.0,
+      "por": 227.03,
+      "titulo": "Chave de impacto",
+      "pix": true
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB2650723879",
       "origem": "lobaopromo",
       "link": "https://meli.la/1YPBC11",
@@ -2084,19 +2087,6 @@
       "nome": "Whey Isolate Protein Fuse 900g Dark Lab Sabor Chocolate",
       "de": 129.9,
       "por": 78.9
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB18425328",
-      "origem": "pobregram",
-      "link": "https://meli.la/1bCa7qk",
-      "link_produto": "https://www.mercadolivre.com.br/mixer-de-mao-200w-compacto-leve-e-ergonomico-mix1001-elgin/p/MLB18425328",
-      "post_origem": "https://t.me/pobregram/41779",
-      "foto": "AgACAgQAAxkDAAPjas1BErL1Tz5JX184PHDm2Ex8JhIAAqQNaxv6okxTMDBC3AMudeEBAAMCAAN4AAM9BA",
-      "nome": "Mixer De Mão 200w Compacto Leve E Ergonômico MIX1001 Elgin",
-      "de": 100.0,
-      "por": 52.9,
-      "titulo": "Mixer Elgin com 47% off"
     }
   ],
   "lixeira": [
