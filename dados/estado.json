@@ -1045,26 +1045,6 @@
       "garimpado_em": "2026-10-13T08:50-03:00",
       "na_revisao_desde": "2026-10-13T08:50-03:00",
       "msg_id": 377
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0H7H2K9Q8",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B0H7H2K9Q8?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0H7H2K9Q8?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/notebook-lenovo-ideapad-slim-3-amd-ryzen-5-7535hs-8gb-amd-radeon-graphics-ssd-512gb-153-wuxga-1920x1200-linux-8-3109805/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3109805/",
-      "nome": "Notebook Lenovo Ideapad Slim 3 Amd Ryzen 5 7535hs 8gb Amd Radeon",
-      "por": 3408.38,
-      "de": 5225.6,
-      "foto": "AgACAgQAAxkDAAIBemrOHW9NxgdN3MfB3PesV7ct_fOKAAImD2sbrVV0UnmX-6W0BHsfAQADAgADbQADPQQ",
-      "foto_origem": "canal",
-      "titulo": "Notebook Lenovo Ideapad Slim 3 com 35% off",
-      "id": 206,
-      "garimpado_em": "2026-10-13T09:00-03:00",
-      "na_revisao_desde": "2026-10-13T09:00-03:00",
-      "msg_id": 378
     }
   ],
   "proximo_id": 210,
@@ -1811,6 +1791,27 @@
   "lixeira": [
     {
       "loja": "amazon",
+      "chave": "amazon:B0H7H2K9Q8",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0H7H2K9Q8?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0H7H2K9Q8?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/notebook-lenovo-ideapad-slim-3-amd-ryzen-5-7535hs-8gb-amd-radeon-graphics-ssd-512gb-153-wuxga-1920x1200-linux-8-3109805/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3109805/",
+      "nome": "Notebook Lenovo Ideapad Slim 3 Amd Ryzen 5 7535hs 8gb Amd Radeon",
+      "por": 3408.38,
+      "de": 5225.6,
+      "foto": "AgACAgQAAxkDAAIBemrOHW9NxgdN3MfB3PesV7ct_fOKAAImD2sbrVV0UnmX-6W0BHsfAQADAgADbQADPQQ",
+      "foto_origem": "canal",
+      "titulo": "Notebook Lenovo Ideapad Slim 3 com 35% off",
+      "id": 206,
+      "garimpado_em": "2026-10-13T09:00-03:00",
+      "na_revisao_desde": "2026-10-13T09:00-03:00",
+      "removido_em": "2026-10-13T09:16:16-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "amazon",
       "chave": "amazon:B0F2RL8M8B",
       "origem": "promobit",
       "fonte": "promobit",
@@ -1995,7 +1996,7 @@
       "promobit": {
         "achados": 8,
         "aprovados": 0,
-        "reprovados": 5
+        "reprovados": 6
       },
       "lobaopromo": {
         "achados": 8,
