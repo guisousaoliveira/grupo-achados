@@ -1509,24 +1509,6 @@
       "garimpado_em": "2026-10-13T15:04-03:00",
       "na_revisao_desde": "2026-10-13T15:04-03:00",
       "msg_id": 617
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0D6BXNRZQ",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0D6BXNRZQ?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0D6BXNRZQ?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/220621",
-      "link_canal": "https://www.amazon.com.br/dp/B0D6BXNRZQ?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAICamrOcr2qpmAKqIcwR9bJfS9FZwsPAALvDWsbsC6sUzwkzwZIRg_1AQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "nome": "Sabonete Líquido Glicerina Camomila JOHNSONS Baby, 400ml",
-      "por": 19.42,
-      "titulo": "Sabonete Johnson's de glicerina com desconto",
-      "id": 337,
-      "garimpado_em": "2026-10-13T15:04-03:00",
-      "na_revisao_desde": "2026-10-13T15:04-03:00",
-      "msg_id": 618
     }
   ],
   "proximo_id": 351,
@@ -2448,6 +2430,25 @@
   "lixeira": [
     {
       "loja": "amazon",
+      "chave": "amazon:B0D6BXNRZQ",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0D6BXNRZQ?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0D6BXNRZQ?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220621",
+      "link_canal": "https://www.amazon.com.br/dp/B0D6BXNRZQ?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAICamrOcr2qpmAKqIcwR9bJfS9FZwsPAALvDWsbsC6sUzwkzwZIRg_1AQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "nome": "Sabonete Líquido Glicerina Camomila JOHNSONS Baby, 400ml",
+      "por": 19.42,
+      "titulo": "Sabonete Johnson's de glicerina com desconto",
+      "id": 337,
+      "garimpado_em": "2026-10-13T15:04-03:00",
+      "na_revisao_desde": "2026-10-13T15:04-03:00",
+      "removido_em": "2026-10-13T15:46:45-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "amazon",
       "chave": "amazon:B0GFLDPNGF",
       "origem": "promooeasy",
       "link": "https://www.amazon.com.br/dp/B0GFLDPNGF?tag=alphadominu09-20",
@@ -3232,25 +3233,6 @@
       "na_revisao_desde": "2026-10-13T12:53-03:00",
       "removido_em": "2026-10-13T13:05:04-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0C3JGG83X",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0C3JGG83X?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0C3JGG83X?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/220565",
-      "link_canal": "https://www.amazon.com.br/dp/B0C3JGG83X?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAICOWrOVfWJKO1_Y4cs8R5cHp29MPc2AAKFD2sbK6x0UnEW8pxaS4h-AQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Sabonete Líquido Granado Calêndula 500ml",
-      "por": 29.99,
-      "titulo": "Boa oportunidade para quem estava esperando.",
-      "id": 297,
-      "garimpado_em": "2026-10-13T13:01-03:00",
-      "na_revisao_desde": "2026-10-13T13:01-03:00",
-      "removido_em": "2026-10-13T13:04:59-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -3325,7 +3307,7 @@
       "promooeasy": {
         "achados": 74,
         "aprovados": 2,
-        "reprovados": 64
+        "reprovados": 65
       },
       "xetdaspromocoes": {
         "achados": 13,
