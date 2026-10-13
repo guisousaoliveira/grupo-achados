@@ -1394,24 +1394,6 @@
       "garimpado_em": "2026-10-13T14:53-03:00",
       "na_revisao_desde": "2026-10-13T14:53-03:00",
       "msg_id": 610
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0BBK1R34Z",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0BBK1R34Z?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0BBK1R34Z?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/220612",
-      "link_canal": "https://www.amazon.com.br/Choco-Wheyfer-Mu-cookies%C2%B4n-cream/dp/B0BBK1R34Z?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAICY2rOcE77VJcYzp_RHeLdhJHrpHaPAAKVD2sbpl50Utz1ziFSJV-MAQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "nome": "+Mu Chocowheyfer Proteico Sabor Cookies - Display com 12 unidades - 300g",
-      "por": 48.0,
-      "titulo": "Chocowheyfer proteico para lanche prático com proteína",
-      "id": 330,
-      "garimpado_em": "2026-10-13T14:54-03:00",
-      "na_revisao_desde": "2026-10-13T14:54-03:00",
-      "msg_id": 611
     }
   ],
   "proximo_id": 352,
@@ -2332,6 +2314,25 @@
   ],
   "lixeira": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B0BBK1R34Z",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0BBK1R34Z?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0BBK1R34Z?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220612",
+      "link_canal": "https://www.amazon.com.br/Choco-Wheyfer-Mu-cookies%C2%B4n-cream/dp/B0BBK1R34Z?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAICY2rOcE77VJcYzp_RHeLdhJHrpHaPAAKVD2sbpl50Utz1ziFSJV-MAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "nome": "+Mu Chocowheyfer Proteico Sabor Cookies - Display com 12 unidades - 300g",
+      "por": 48.0,
+      "titulo": "Chocowheyfer proteico para lanche prático com proteína",
+      "id": 330,
+      "garimpado_em": "2026-10-13T14:54-03:00",
+      "na_revisao_desde": "2026-10-13T14:54-03:00",
+      "removido_em": "2026-10-13T15:48:12-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:1083800536.58266545932",
       "origem": "promooeasy",
@@ -3116,26 +3117,6 @@
       "na_revisao_desde": "2026-10-13T12:40-03:00",
       "removido_em": "2026-10-13T13:05:29-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB41319528",
-      "origem": "promonocontext",
-      "link": "https://www.mercadolivre.com.br/cadeira-gamer-otello-100-preto-e-vermelho-material-do-estofamento-couro-sintetico/p/MLB41319528?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/cadeira-gamer-otello-100-preto-e-vermelho-material-do-estofamento-couro-sintetico/p/MLB41319528",
-      "post_origem": "https://t.me/promonocontext/126213",
-      "link_canal": "https://meli.la/2QzqdHd",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_898741-MLA95531733724_102025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Cadeira Gamer Otello 100 Preto E Vermelho Material Do Estofamento",
-      "de": 416.0,
-      "por": 374.0,
-      "titulo": "Boa oportunidade para quem estava esperando.",
-      "id": 287,
-      "garimpado_em": "2026-10-13T12:45-03:00",
-      "na_revisao_desde": "2026-10-13T12:45-03:00",
-      "removido_em": "2026-10-13T13:05:24-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -3210,7 +3191,7 @@
       "promooeasy": {
         "achados": 74,
         "aprovados": 2,
-        "reprovados": 67
+        "reprovados": 68
       },
       "xetdaspromocoes": {
         "achados": 13,
