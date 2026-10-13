@@ -264,6 +264,23 @@
       "na_revisao_desde": "2026-10-12T21:00-03:00",
       "cupom": "Ative o cupom de 5% 📌",
       "aprovado_em": "2026-10-12T21:05-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB21802395",
+      "origem": "lobaopromo",
+      "link": "https://www.mercadolivre.com.br/mochila-viagem-masculina-40l-grande-impermeavel-reforcada-para-aviao-item-pessoal-suporta-ate-10kg-matein-1159-preto/p/MLB21802395?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/mochila-viagem-masculina-40l-grande-impermeavel-reforcada-para-aviao-item-pessoal-suporta-ate-10kg-matein-1159-preto/p/MLB21802395",
+      "post_origem": "https://t.me/lobaopromo/188589",
+      "link_canal": "https://meli.la/23htVEQ",
+      "foto": "AgACAgEAAxkDAAIBFmrNdp5-dk9MpnvQfMgXAyrWEO16AAKVDWsb8PdpRutW1oeh__mtAQADAgADeQADPQQ",
+      "nome": "Mochila Viagem Masculina 40L Grande Impermeável Reforçada para Avião",
+      "de": 300.0,
+      "por": 72.0,
+      "titulo": "Mochila em promoção",
+      "garimpado_em": "2026-10-12T20:10-03:00",
+      "na_revisao_desde": "2026-10-12T20:10-03:00",
+      "aprovado_em": "2026-10-12T21:10-03:00"
     }
   ],
   "postados": [
@@ -572,25 +589,6 @@
   },
   "shopee_buscado_em": "",
   "revisar": [
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB21802395",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/mochila-viagem-masculina-40l-grande-impermeavel-reforcada-para-aviao-item-pessoal-suporta-ate-10kg-matein-1159-preto/p/MLB21802395?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/mochila-viagem-masculina-40l-grande-impermeavel-reforcada-para-aviao-item-pessoal-suporta-ate-10kg-matein-1159-preto/p/MLB21802395",
-      "post_origem": "https://t.me/lobaopromo/188589",
-      "link_canal": "https://meli.la/23htVEQ",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_910810-MLA116816614939_082026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Mochila Viagem Masculina 40L Grande Impermeável Reforçada para Avião",
-      "de": 300.0,
-      "por": 62.0,
-      "titulo": "Mochila de viagem 40L com 79% off",
-      "id": 125,
-      "garimpado_em": "2026-10-12T20:10-03:00",
-      "na_revisao_desde": "2026-10-12T20:10-03:00",
-      "msg_id": 263
-    },
     {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB19794389",
@@ -1642,7 +1640,7 @@
       },
       "lobaopromo": {
         "achados": 13,
-        "aprovados": 4,
+        "aprovados": 5,
         "reprovados": 7
       },
       "urubupromo": {
