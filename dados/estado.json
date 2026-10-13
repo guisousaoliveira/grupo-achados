@@ -36,7 +36,8 @@
       "titulo": "Kit de camisas térmicas com 27% off",
       "garimpado_em": "2026-10-13T00:40-03:00",
       "na_revisao_desde": "2026-10-13T00:40-03:00",
-      "aprovado_em": "2026-10-13T00:46-03:00"
+      "aprovado_em": "2026-10-13T00:46-03:00",
+      "aviso_validade": true
     },
     {
       "loja": "mercadolivre",
@@ -54,7 +55,8 @@
       "titulo": "Chave de impacto Ryoku com 49% off",
       "garimpado_em": "2026-10-13T00:30-03:00",
       "na_revisao_desde": "2026-10-13T00:30-03:00",
-      "aprovado_em": "2026-10-13T00:47-03:00"
+      "aprovado_em": "2026-10-13T00:47-03:00",
+      "aviso_validade": true
     },
     {
       "loja": "mercadolivre",
@@ -72,7 +74,8 @@
       "titulo": "Esmerilhadeira 220v",
       "garimpado_em": "2026-10-13T00:20-03:00",
       "na_revisao_desde": "2026-10-13T00:20-03:00",
-      "aprovado_em": "2026-10-13T00:48-03:00"
+      "aprovado_em": "2026-10-13T00:48-03:00",
+      "aviso_validade": true
     },
     {
       "loja": "amazon",
@@ -1304,27 +1307,47 @@
       "garimpado_em": "2026-10-13T12:54-03:00",
       "na_revisao_desde": "2026-10-13T12:54-03:00",
       "msg_id": 564
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB6202796446",
+      "origem": "promonocontext",
+      "link": "https://www.mercadolivre.com.br/kit-3-cuecas-calvin-klein-low-rise-trunk/up/MLBU3762721382?pdp_filters=item_id%3AMLB6202796446&matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/kit-3-cuecas-calvin-klein-low-rise-trunk/up/MLBU3762721382?pdp_filters=item_id%3AMLB6202796446",
+      "post_origem": "https://t.me/promonocontext/126225",
+      "link_canal": "https://meli.la/1TTH8Kc",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_681343-MLB118555588201_102026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Kit 3 Cuecas Calvin Klein Low Rise Trunk Bordô Liso G",
+      "cupom_loja": "Use o Cupom: R$ 30 OFF 📌",
+      "por": 149.99,
+      "de": 269.0,
+      "titulo": "Desconto de 44%: é agora ou nunca.",
+      "id": 296,
+      "garimpado_em": "2026-10-13T12:56-03:00",
+      "na_revisao_desde": "2026-10-13T12:56-03:00",
+      "msg_id": 568
     }
   ],
-  "proximo_id": 296,
+  "proximo_id": 297,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84619,
-      "lobaopromo": 188855,
-      "gatunopromos": 125095,
+      "xetdaspromocoes": 84621,
+      "lobaopromo": 188858,
+      "gatunopromos": 125097,
       "pobregram": 41830,
       "urubupromo": 41613,
-      "tudonapromo": 101707,
-      "promonocontext": 126223,
-      "promooeasy": 220557,
+      "tudonapromo": 101708,
+      "promonocontext": 126225,
+      "promooeasy": 220562,
       "aquitempechincha": 281353,
-      "infoBRpromos": 67449,
+      "infoBRpromos": 67450,
       "boletando": 76656,
       "promotop": 260211,
-      "achadosdotb": 11761
+      "achadosdotb": 11762
     },
     "dia": "2026-10-13",
-    "hoje": 132,
+    "hoje": 133,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -1596,27 +1619,28 @@
       "amazon:B0FHQ2PVVB",
       "amazon:B0GD7CFFVT",
       "amazon:B0F3CQG1ZC",
-      "amazon:B095D664HJ"
+      "amazon:B095D664HJ",
+      "mercadolivre:MLB6202796446"
     ],
     "ultima": {
-      "em": "2026-10-13T12:39:31-03:00",
+      "em": "2026-10-13T12:54:38-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 66,
-      "do_nicho": 19,
-      "repetidas": 6,
-      "novas": 13,
+      "posts_novos": 34,
+      "do_nicho": 9,
+      "repetidas": 8,
+      "novas": 1,
       "limite_dia": false,
-      "promobit": 1
+      "promobit": 0
     },
     "hora": "2026-10-13T12",
-    "nesta_hora": 22,
+    "nesta_hora": 23,
     "promobit_hora": "2026-10-13T12",
     "promobit_nesta_hora": 2,
-    "promobit_visto": 3110457
+    "promobit_visto": 3110518
   },
   "ultimos": [
     {
@@ -2317,7 +2341,7 @@
         "reprovados": 3
       },
       "promonocontext": {
-        "achados": 16,
+        "achados": 17,
         "aprovados": 3,
         "reprovados": 7
       },
