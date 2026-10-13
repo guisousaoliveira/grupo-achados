@@ -263,6 +263,24 @@
       "na_revisao_desde": "2026-10-13T12:43-03:00",
       "parcela_valor": 6.0,
       "aprovado_em": "2026-10-13T13:06-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB19739350",
+      "origem": "promonocontext",
+      "link": "https://meli.la/26Cfrvh",
+      "link_produto": "https://meli.la/26Cfrvh",
+      "post_origem": "https://t.me/promonocontext/126275",
+      "link_canal": "https://meli.la/17GYkEh",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_997812-MLA92288090836_092025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Perfume Masculino Natura Essencial Único Deo Parfum 90ml",
+      "por": 179.0,
+      "cupom": "FULLLANDING",
+      "titulo": "Perfume Natura no preço",
+      "garimpado_em": "2026-10-13T15:41-03:00",
+      "na_revisao_desde": "2026-10-13T15:41-03:00",
+      "aprovado_em": "2026-10-13T15:45-03:00"
     }
   ],
   "postados": [
@@ -1644,26 +1662,6 @@
       "garimpado_em": "2026-10-13T15:30-03:00",
       "na_revisao_desde": "2026-10-13T15:30-03:00",
       "msg_id": 628
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB19739350",
-      "origem": "promonocontext",
-      "link": "https://www.mercadolivre.com.br/perfume-masculino-natura-essencial-unico-deo-parfum-90ml/p/MLB19739350?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/perfume-masculino-natura-essencial-unico-deo-parfum-90ml/p/MLB19739350",
-      "post_origem": "https://t.me/promonocontext/126275",
-      "link_canal": "https://meli.la/17GYkEh",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_997812-MLA92288090836_092025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Perfume Masculino Natura Essencial Único Deo Parfum 90ml",
-      "de": 299.0,
-      "por": 161.0,
-      "cupom": "FULLLANDING",
-      "titulo": "Perfume Natura Essencial Único com 46% off",
-      "id": 349,
-      "garimpado_em": "2026-10-13T15:41-03:00",
-      "na_revisao_desde": "2026-10-13T15:41-03:00",
-      "msg_id": 631
     }
   ],
   "proximo_id": 351,
@@ -3396,7 +3394,7 @@
       },
       "promonocontext": {
         "achados": 27,
-        "aprovados": 3,
+        "aprovados": 4,
         "reprovados": 16
       },
       "infoBRpromos": {
