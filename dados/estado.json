@@ -269,6 +269,24 @@
       "garimpado_em": "2026-10-12T23:10-03:00",
       "na_revisao_desde": "2026-10-12T23:10-03:00",
       "aprovado_em": "2026-10-12T23:27-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB24117280",
+      "origem": "gatunopromos",
+      "link": "https://meli.la/2Y9mkYv",
+      "link_produto": "https://meli.la/2Y9mkYv",
+      "post_origem": "https://t.me/gatunopromos/125008",
+      "link_canal": "https://meli.la/1ap5Nhb",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_673950-MLA99394598783_112025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Fone De Ouvido Headphone Dapon H02D Bluetooth 5.1 Over-ear 22h Preto",
+      "de": 149.0,
+      "por": 74.9,
+      "titulo": "Headphone Dapon pela metade do preço",
+      "garimpado_em": "2026-10-12T23:10-03:00",
+      "na_revisao_desde": "2026-10-12T23:10-03:00",
+      "aprovado_em": "2026-10-12T23:29-03:00"
     }
   ],
   "postados": [
@@ -646,28 +664,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB24117280",
-      "origem": "gatunopromos",
-      "link": "https://www.mercadolivre.com.br/fone-de-ouvido-headphone-dapon-h02d-bluetooth-51-over-ear-22h-preto/p/MLB24117280?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/fone-de-ouvido-headphone-dapon-h02d-bluetooth-51-over-ear-22h-preto/p/MLB24117280",
-      "post_origem": "https://t.me/gatunopromos/125008",
-      "link_canal": "https://meli.la/1ap5Nhb",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_673950-MLA99394598783_112025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Fone De Ouvido Headphone Dapon H02D Bluetooth 5.1 Over-ear 22h Preto",
-      "pix": true,
-      "de": 149.0,
-      "por": 68.91,
-      "titulo": "Headphone Dapon com 54% off",
-      "id": 157,
-      "garimpado_em": "2026-10-12T23:10-03:00",
-      "na_revisao_desde": "2026-10-12T23:10-03:00",
-      "msg_id": 314
-    }
-  ],
+  "revisar": [],
   "proximo_id": 159,
   "radar": {
     "visto": {
@@ -1672,7 +1669,7 @@
       },
       "gatunopromos": {
         "achados": 4,
-        "aprovados": 1,
+        "aprovados": 2,
         "reprovados": 2
       },
       "lobaopromo": {
