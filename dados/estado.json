@@ -1188,26 +1188,6 @@
       "msg_id": 469
     },
     {
-      "loja": "shopee",
-      "chave": "shopee:1470976304.58212496584",
-      "origem": "promooeasy",
-      "link": "https://shopee.com.br/product/1470976304/58212496584",
-      "link_produto": "https://shopee.com.br/product/1470976304/58212496584",
-      "post_origem": "https://t.me/promooeasy/220449",
-      "link_canal": "https://s.shopee.com.br/80DPQZnfZc?lp=aff",
-      "precisa_link": true,
-      "foto": "AgACAgEAAxkDAAIB1mrOMMw-N7iybLMbt1Q7gAsBc0mEAAIyDWsb7AJxRgZicT_kVPpDAQADAgADeAADPQQ",
-      "foto_origem": "canal",
-      "nome": "Console Nintendo Switch 2",
-      "por": 3587.08,
-      "cupom": "AQUI",
-      "titulo": "Vale cada centavo nesse preço.",
-      "id": 249,
-      "garimpado_em": "2026-10-13T10:23-03:00",
-      "na_revisao_desde": "2026-10-13T10:23-03:00",
-      "msg_id": 470
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB5419600456",
       "origem": "xetdaspromocoes",
@@ -2046,7 +2026,29 @@
       "foto": "AgACAgQAAxkDAAOqas0Ui4N63WgJUImMnPU0TacgffcAAqcPaxtgRm1SL32joMlcYr0BAAMCAAN4AAM9BA"
     }
   ],
-  "lixeira": [],
+  "lixeira": [
+    {
+      "loja": "shopee",
+      "chave": "shopee:1470976304.58212496584",
+      "origem": "promooeasy",
+      "link": "https://shopee.com.br/product/1470976304/58212496584",
+      "link_produto": "https://shopee.com.br/product/1470976304/58212496584",
+      "post_origem": "https://t.me/promooeasy/220449",
+      "link_canal": "https://s.shopee.com.br/80DPQZnfZc?lp=aff",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAIB1mrOMMw-N7iybLMbt1Q7gAsBc0mEAAIyDWsb7AJxRgZicT_kVPpDAQADAgADeAADPQQ",
+      "foto_origem": "canal",
+      "nome": "Console Nintendo Switch 2",
+      "por": 3587.08,
+      "cupom": "AQUI",
+      "titulo": "Vale cada centavo nesse preço.",
+      "id": 249,
+      "garimpado_em": "2026-10-13T10:23-03:00",
+      "na_revisao_desde": "2026-10-13T10:23-03:00",
+      "removido_em": "2026-10-13T10:31:26-03:00",
+      "removido_de": "revisar"
+    }
+  ],
   "garimpo": {
     "2026-10-12": {
       "promooeasy": {
@@ -2119,7 +2121,7 @@
       "promooeasy": {
         "achados": 37,
         "aprovados": 2,
-        "reprovados": 28
+        "reprovados": 29
       },
       "xetdaspromocoes": {
         "achados": 8,
