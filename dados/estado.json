@@ -826,27 +826,6 @@
       "msg_id": 368
     },
     {
-      "loja": "shopee",
-      "chave": "shopee:344381236.50801661798",
-      "origem": "promooeasy",
-      "link": "https://shopee.com.br/product/344381236/50801661798",
-      "link_produto": "https://shopee.com.br/product/344381236/50801661798",
-      "post_origem": "https://t.me/promooeasy/220350",
-      "link_canal": "https://s.shopee.com.br/6fi1isXjND?lp=aff",
-      "precisa_link": true,
-      "foto": "AgACAgEAAxkDAAIBcWrOFyaDmkfFs7maQwTZHa3gKP96AAIZDWsb7AJxRneqkBfZ9CASAQADAgADeAADPQQ",
-      "foto_origem": "canal",
-      "nome": "Caixa de Som Bluetooth JBL Boombox 4, com Auracast, IP68 Azul Shopee",
-      "pix": true,
-      "por": 2133.0,
-      "cupom": "AQUI",
-      "titulo": "Caixa de Som JBL Boombox 4 com 47% off",
-      "id": 197,
-      "garimpado_em": "2026-10-13T08:33-03:00",
-      "na_revisao_desde": "2026-10-13T08:33-03:00",
-      "msg_id": 369
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B0HKHQMJ4X",
       "origem": "promobit",
@@ -1649,6 +1628,28 @@
   "lixeira": [
     {
       "loja": "shopee",
+      "chave": "shopee:344381236.50801661798",
+      "origem": "promooeasy",
+      "link": "https://shopee.com.br/product/344381236/50801661798",
+      "link_produto": "https://shopee.com.br/product/344381236/50801661798",
+      "post_origem": "https://t.me/promooeasy/220350",
+      "link_canal": "https://s.shopee.com.br/6fi1isXjND?lp=aff",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAIBcWrOFyaDmkfFs7maQwTZHa3gKP96AAIZDWsb7AJxRneqkBfZ9CASAQADAgADeAADPQQ",
+      "foto_origem": "canal",
+      "nome": "Caixa de Som Bluetooth JBL Boombox 4, com Auracast, IP68 Azul Shopee",
+      "pix": true,
+      "por": 2133.0,
+      "cupom": "AQUI",
+      "titulo": "Caixa de Som JBL Boombox 4 com 47% off",
+      "id": 197,
+      "garimpado_em": "2026-10-13T08:33-03:00",
+      "na_revisao_desde": "2026-10-13T08:33-03:00",
+      "removido_em": "2026-10-13T09:17:00-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "shopee",
       "chave": "shopee:1379077822.22598238206",
       "origem": "promooeasy",
       "link": "https://shopee.com.br/product/1379077822/22598238206",
@@ -2013,7 +2014,7 @@
       "promooeasy": {
         "achados": 27,
         "aprovados": 2,
-        "reprovados": 22
+        "reprovados": 23
       },
       "xetdaspromocoes": {
         "achados": 1,
