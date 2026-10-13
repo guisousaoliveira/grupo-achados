@@ -1109,7 +1109,7 @@ function stBuscar(url){
   return stCache[url];
 }
 function stFrase(){ return document.getElementById('st-frase')?.value || ''; }
-async function stMostrar(){
+async function stMostrar(preparar = true){
   const seq = ++stSeq, box = document.getElementById('st-img');
   const url = stURL(stModelo, stEncaixe, stFrase());
   const aviso = setTimeout(() => seq === stSeq && box.classList.add('gerando'), 250);
@@ -1119,7 +1119,7 @@ async function stMostrar(){
     const img = box.querySelector('img');
     if (img) img.src = u; else box.innerHTML = `<img src="${u}" alt="Story">`;
     document.getElementById('st-dl').href = u;
-    stPreparar();
+    if (preparar) stPreparar();
   } catch(e) {
     if (seq === stSeq) box.innerHTML = `<div class="hint" style="padding:20px;text-align:center">${esc(e.message || 'Não consegui gerar o story.')}</div>`;
   } finally { clearTimeout(aviso); if (seq === stSeq) box.classList.remove('gerando'); }
@@ -1131,7 +1131,8 @@ function stPreparar(){  // gera por trás as trocas mais prováveis, para elas a
   urls.push(stURL(stModelo === 'venda' ? 'prova' : 'venda', stEncaixe, f));
   if (!stProx || stProx === f) stProx = stSortear(f);
   if (stProx) urls.unshift(stURL(stModelo, stEncaixe, stProx));
-  urls.reduce((p, u) => p.then(() => stBuscar(u).catch(() => {})), Promise.resolve());  // uma de cada vez, sem sobrecarregar
+  const seq = stSeq;  // se você mexer em algo, para de pré-gerar e atende o seu clique primeiro
+  urls.reduce((p, u) => p.then(() => seq === stSeq && stBuscar(u).catch(() => {})), Promise.resolve());
 }
 function stNovaFrase(){
   const el = document.getElementById('st-frase');
@@ -1139,7 +1140,7 @@ function stNovaFrase(){
   stProx = '';
   stMostrar();
 }
-function stDigitando(){ clearTimeout(stTimer); stTimer = setTimeout(stMostrar, 350); }
+function stDigitando(){ stSeq++; clearTimeout(stTimer); stTimer = setTimeout(() => stMostrar(false), 350); }  // digitando: gera só a versão que está na tela
 function stTrocarEncaixe(k, bt){
   stEncaixe = k;
   bt.parentNode.querySelectorAll('button').forEach(b => b.classList.toggle('on', b === bt));
@@ -1162,7 +1163,7 @@ function abrirStory(tipo, id, frase){
       `<button class="${stEncaixe===k?'on':''}" onclick="stTrocarEncaixe('${k}',this)">${t}</button>`).join('')}</div></div>`;
   const fraseBox = fixo ? '' : `<div class="st-sec"><div class="st-lb">Frase ${venda ? 'do topo' : 'de baixo'}</div>
       <div class="st-frase"><input class="in" id="st-frase" maxlength="40" placeholder="Escreva a frase do story" value="${esc(frase || '')}"
-        oninput="stDigitando()" onkeydown="if(event.key==='Enter'){clearTimeout(stTimer);stMostrar()}">
+        oninput="stDigitando()" onkeydown="if(event.key==='Enter'){clearTimeout(stTimer);stMostrar(false)}">
         <button class="btn icon" title="Sortear outra frase" onclick="stNovaFrase()">${ic('sortear',17)}</button></div></div>`;
   const linkRow = (logo, rot, sub, val, msg) => `<button class="st-link" onclick="copiarTexto(${esc(JSON.stringify(val))}, '${msg}')">${logo}<span class="t"><b>${rot}</b><small>${esc(sub)}</small></span>${ic('copiar',17)}</button>`;
   const rowProd = venda && x ? linkRow(marca(x.loja), 'Link do produto', (x.link || '').replace(/^https?:\/\//, ''), x.link || '', 'Link do produto copiado. Cole no sticker de link.') : '';
