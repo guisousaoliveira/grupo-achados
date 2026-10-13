@@ -822,27 +822,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB4348056327",
-      "origem": "promooeasy",
-      "link": "https://produto.mercadolivre.com.br/MLB-4348056327-kit-10-cueca-boxer-masculina-microfibra-adulto-premium-_JM?pdp_filters=item_id%3AMLB4348056327&matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-4348056327-kit-10-cueca-boxer-masculina-microfibra-adulto-premium-_JM?pdp_filters=item_id%3AMLB4348056327",
-      "post_origem": "https://t.me/promooeasy/220344",
-      "link_canal": "https://meli.la/1n9Gew7",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_655135-MLB100011715022_122025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Kit 10 Cueca Boxer Masculina Microfibra Adulto Premium",
-      "de": 59.99,
-      "por": 42.74,
-      "titulo": "Kit com 10 cuecas com 29% off",
-      "id": 193,
-      "garimpado_em": "2026-10-13T08:22-03:00",
-      "na_revisao_desde": "2026-10-13T08:22-03:00",
-      "msg_id": 365
-    }
-  ],
+  "revisar": [],
   "proximo_id": 210,
   "radar": {
     "visto": {
@@ -1586,6 +1566,26 @@
   ],
   "lixeira": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB4348056327",
+      "origem": "promooeasy",
+      "link": "https://produto.mercadolivre.com.br/MLB-4348056327-kit-10-cueca-boxer-masculina-microfibra-adulto-premium-_JM?pdp_filters=item_id%3AMLB4348056327&matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-4348056327-kit-10-cueca-boxer-masculina-microfibra-adulto-premium-_JM?pdp_filters=item_id%3AMLB4348056327",
+      "post_origem": "https://t.me/promooeasy/220344",
+      "link_canal": "https://meli.la/1n9Gew7",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_655135-MLB100011715022_122025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Kit 10 Cueca Boxer Masculina Microfibra Adulto Premium",
+      "de": 59.99,
+      "por": 42.74,
+      "titulo": "Kit com 10 cuecas com 29% off",
+      "id": 193,
+      "garimpado_em": "2026-10-13T08:22-03:00",
+      "na_revisao_desde": "2026-10-13T08:22-03:00",
+      "removido_em": "2026-10-13T09:21:22-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0GWF58NT2",
       "origem": "promooeasy",
@@ -2014,7 +2014,7 @@
       "promooeasy": {
         "achados": 27,
         "aprovados": 2,
-        "reprovados": 24
+        "reprovados": 25
       },
       "xetdaspromocoes": {
         "achados": 1,
