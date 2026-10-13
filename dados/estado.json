@@ -2,29 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "amazon",
-      "chave": "amazon:B0HBWR14NG",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://link.amazon/B08g8rUPK",
-      "link_produto": "https://www.amazon.com.br/dp/B0HBWR14NG?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/barbeador-eletricobarbeador-eletrico-masculino-profissional-com-3-cabecas-3109210/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3109210/",
-      "nome": "Barbeador Elétrico Masculino Profissional",
-      "por": 69.34,
-      "de": 109.0,
-      "foto": "AgACAgQAAxkDAAIBAAFqzWHZzY2xICmDyDgkeHUE6Z_XQwACyA5rG1oKdVKqwls6VUuF8QEAAwIAA3kAAz0E",
-      "foto_origem": "loja",
-      "titulo": "Barbeador elétrico no preço",
-      "garimpado_em": "2026-10-12T19:40-03:00",
-      "na_revisao_desde": "2026-10-12T19:40-03:00",
-      "parcelas": 2,
-      "parcela_valor": 36.5,
-      "pix": true,
-      "aprovado_em": "2026-10-12T19:45-03:00",
-      "aviso_validade": true
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB4703022818",
       "origem": "promonocontext",
@@ -699,6 +676,14 @@
       "data": "2026-10-13T07:34-03:00",
       "link": "https://link.amazon/B08thAnFy",
       "link_produto": "https://www.amazon.com.br/dp/B0FFTP5WF4?tag=alphadominu09-20"
+    },
+    {
+      "chave": "amazon:B0HBWR14NG",
+      "loja": "amazon",
+      "nome": "Barbeador Elétrico Masculino Profissional",
+      "data": "2026-10-13T08:04-03:00",
+      "link": "https://link.amazon/B08g8rUPK",
+      "link_produto": "https://www.amazon.com.br/dp/B0HBWR14NG?tag=alphadominu09-20"
     }
   ],
   "slots_usados": {
@@ -933,6 +918,23 @@
     "promobit_visto": 3109709
   },
   "ultimos": [
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0HBWR14NG",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://link.amazon/B08g8rUPK",
+      "link_produto": "https://www.amazon.com.br/dp/B0HBWR14NG?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/barbeador-eletricobarbeador-eletrico-masculino-profissional-com-3-cabecas-3109210/",
+      "nome": "Barbeador Elétrico Masculino Profissional",
+      "por": 69.34,
+      "de": 109.0,
+      "foto": "AgACAgQAAxkDAAIBAAFqzWHZzY2xICmDyDgkeHUE6Z_XQwACyA5rG1oKdVKqwls6VUuF8QEAAwIAA3kAAz0E",
+      "titulo": "Barbeador elétrico no preço",
+      "parcelas": 2,
+      "parcela_valor": 36.5,
+      "pix": true
+    },
     {
       "loja": "amazon",
       "chave": "amazon:B0FFTP5WF4",
@@ -1418,16 +1420,6 @@
       "nome": "Camiseta Masculina Academia Trifil Poliamida Dry Fit",
       "de": 116.99,
       "por": 56.99
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:1537142489.58263646145",
-      "link": "https://s.shopee.com.br/6q1Q4Ndupi",
-      "link_produto": "https://shopee.com.br/product/1537142489/58263646145",
-      "foto": "AgACAgEAAxkDAAOEasyNP_u1-E_s2J-D44fOvmHKRB8AAi8Qaxvw92FGi35TtFAgbGQBAAMCAAN4AAM9BA",
-      "nome": "Galaxy A57 5G (256GB) - Cinza + Galaxy Watch8 BT 44mm",
-      "por": 2808.76,
-      "cupom": "🎟️ Resgate o cupom de R$100 no anúncio"
     }
   ],
   "lixeira": [
