@@ -205,25 +205,6 @@
       "aprovado_em": "2026-10-12T19:35-03:00"
     },
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB53342774",
-      "origem": "promonocontext",
-      "link": "https://meli.la/287p9eB",
-      "link_produto": "https://www.mercadolivre.com.br/body-splash-masculino-barbarius-200ml-primacial-perfume-amadeirado/p/MLB53342774",
-      "post_origem": "https://t.me/promonocontext/126005",
-      "link_canal": "https://meli.la/2bJPKJ1",
-      "foto": "AgACAgQAAxkDAAIBAmrNYeFppfLL-93fUy4V9cqUwrL5AALcDWsbYkAVUi_16nNc14BiAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Kit Body Splash Barbarius + Hidratante Desodorante Masculino",
-      "de": 159.0,
-      "por": 68.0,
-      "titulo": "Kit Barbarius com 57% off",
-      "garimpado_em": "2026-10-12T19:40-03:00",
-      "na_revisao_desde": "2026-10-12T19:40-03:00",
-      "pix": true,
-      "aprovado_em": "2026-10-12T19:43-03:00"
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B0HBWR14NG",
       "origem": "promobit",
@@ -601,6 +582,14 @@
       "data": "2026-10-12T21:06-03:00",
       "link": "https://meli.la/1cKY6BV",
       "link_produto": "https://meli.la/1cKY6BV"
+    },
+    {
+      "chave": "mercadolivre:MLB53342774",
+      "loja": "mercadolivre",
+      "nome": "Kit Body Splash Barbarius + Hidratante Desodorante Masculino",
+      "data": "2026-10-12T21:23-03:00",
+      "link": "https://meli.la/287p9eB",
+      "link_produto": "https://www.mercadolivre.com.br/body-splash-masculino-barbarius-200ml-primacial-perfume-amadeirado/p/MLB53342774"
     }
   ],
   "slots_usados": {
@@ -840,6 +829,20 @@
     "promobit_visto": 3109318
   },
   "ultimos": [
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB53342774",
+      "origem": "promonocontext",
+      "link": "https://meli.la/287p9eB",
+      "link_produto": "https://www.mercadolivre.com.br/body-splash-masculino-barbarius-200ml-primacial-perfume-amadeirado/p/MLB53342774",
+      "post_origem": "https://t.me/promonocontext/126005",
+      "foto": "AgACAgQAAxkDAAIBAmrNYeFppfLL-93fUy4V9cqUwrL5AALcDWsbYkAVUi_16nNc14BiAQADAgADeAADPQQ",
+      "nome": "Kit Body Splash Barbarius + Hidratante Desodorante Masculino",
+      "de": 159.0,
+      "por": 68.0,
+      "titulo": "Kit Barbarius com 57% off",
+      "pix": true
+    },
     {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB7776080994",
