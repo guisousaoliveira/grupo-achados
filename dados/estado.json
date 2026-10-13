@@ -681,25 +681,6 @@
       "garimpado_em": "2026-10-12T21:20-03:00",
       "na_revisao_desde": "2026-10-12T21:20-03:00",
       "msg_id": 285
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B09SVPDX3G",
-      "origem": "aquitempechincha",
-      "link": "https://www.amazon.com.br/dp/B09SVPDX3G?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B09SVPDX3G?tag=alphadominu09-20",
-      "post_origem": "https://t.me/aquitempechincha/281238",
-      "link_canal": "https://aquitempechincha.com.br/ednd630",
-      "nome": "Cafeteira Elétrica Electrolux Experience Programável Com Timer 110v (ECM25)",
-      "pix": true,
-      "por": 197.0,
-      "foto": "AgACAgQAAxkDAAIBHmrNeXSBpnkyzBO6vpYqBkM5l4BaAAKCEGsbZAdtUoYUXq_k6AktAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "titulo": "Cafeteira programável para o café pronto ao acordar",
-      "id": 138,
-      "garimpado_em": "2026-10-12T21:21-03:00",
-      "na_revisao_desde": "2026-10-12T21:21-03:00",
-      "msg_id": 286
     }
   ],
   "proximo_id": 139,
@@ -1192,7 +1173,28 @@
       "por": 239.9
     }
   ],
-  "lixeira": [],
+  "lixeira": [
+    {
+      "loja": "amazon",
+      "chave": "amazon:B09SVPDX3G",
+      "origem": "aquitempechincha",
+      "link": "https://www.amazon.com.br/dp/B09SVPDX3G?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B09SVPDX3G?tag=alphadominu09-20",
+      "post_origem": "https://t.me/aquitempechincha/281238",
+      "link_canal": "https://aquitempechincha.com.br/ednd630",
+      "nome": "Cafeteira Elétrica Electrolux Experience Programável Com Timer 110v (ECM25)",
+      "pix": true,
+      "por": 197.0,
+      "foto": "AgACAgQAAxkDAAIBHmrNeXSBpnkyzBO6vpYqBkM5l4BaAAKCEGsbZAdtUoYUXq_k6AktAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "titulo": "Cafeteira programável para o café pronto ao acordar",
+      "id": 138,
+      "garimpado_em": "2026-10-12T21:21-03:00",
+      "na_revisao_desde": "2026-10-12T21:21-03:00",
+      "removido_em": "2026-10-12T21:22:20-03:00",
+      "removido_de": "revisar"
+    }
+  ],
   "garimpo": {
     "2026-10-12": {
       "promooeasy": {
@@ -1223,7 +1225,7 @@
       "aquitempechincha": {
         "achados": 3,
         "aprovados": 0,
-        "reprovados": 2
+        "reprovados": 3
       },
       "infoBRpromos": {
         "achados": 3,
