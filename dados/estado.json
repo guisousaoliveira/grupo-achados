@@ -332,6 +332,24 @@
       "garimpado_em": "2026-10-13T08:41-03:00",
       "na_revisao_desde": "2026-10-13T08:41-03:00",
       "aprovado_em": "2026-10-13T09:19-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB23181844",
+      "origem": "xetdaspromocoes",
+      "link": "https://meli.la/21r5Vav",
+      "link_produto": "https://meli.la/21r5Vav",
+      "post_origem": "https://t.me/xetdaspromocoes/84516",
+      "link_canal": "https://meli.la/1cbx36j",
+      "foto": "AgACAgQAAxkDAAIBbmrOFpfKoPAljckIVEkuf9KDZ6_QAALpDGsbngN1UUG9fqi_1SmbAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Creatina Dark Lab Premium em cápsula Sem sabor de 120 un",
+      "por": 32.9,
+      "titulo": "pra dar aquela força extra",
+      "garimpado_em": "2026-10-13T08:31-03:00",
+      "na_revisao_desde": "2026-10-13T08:31-03:00",
+      "de": 69.31,
+      "aprovado_em": "2026-10-13T09:20-03:00"
     }
   ],
   "postados": [
@@ -824,24 +842,6 @@
       "garimpado_em": "2026-10-13T08:22-03:00",
       "na_revisao_desde": "2026-10-13T08:22-03:00",
       "msg_id": 365
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB23181844",
-      "origem": "xetdaspromocoes",
-      "link": "https://www.mercadolivre.com.br/creatina-dark-lab-premium-em-capsula-sem-sabor-de-120-un/p/MLB23181844?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/creatina-dark-lab-premium-em-capsula-sem-sabor-de-120-un/p/MLB23181844",
-      "post_origem": "https://t.me/xetdaspromocoes/84516",
-      "link_canal": "https://meli.la/1cbx36j",
-      "foto": "AgACAgQAAxkDAAIBbmrOFpfKoPAljckIVEkuf9KDZ6_QAALpDGsbngN1UUG9fqi_1SmbAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Creatina Dark Lab Premium em cápsula Sem sabor de 120 un",
-      "por": 32.0,
-      "titulo": "Pra quem leva o treino a sério.",
-      "id": 194,
-      "garimpado_em": "2026-10-13T08:31-03:00",
-      "na_revisao_desde": "2026-10-13T08:31-03:00",
-      "msg_id": 366
     }
   ],
   "proximo_id": 210,
@@ -2019,7 +2019,7 @@
       },
       "xetdaspromocoes": {
         "achados": 1,
-        "aprovados": 0,
+        "aprovados": 1,
         "reprovados": 0
       },
       "promotop": {
