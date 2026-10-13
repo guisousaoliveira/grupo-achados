@@ -1065,26 +1065,6 @@
       "garimpado_em": "2026-10-13T09:00-03:00",
       "na_revisao_desde": "2026-10-13T09:00-03:00",
       "msg_id": 378
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0F2RL8M8B",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B0F2RL8M8B?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0F2RL8M8B?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/eos-r50v-lente-rf-s-14-30mm-f4-63-is-stm-pz-3109817/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3109817/",
-      "nome": "EOS R50V + LENTE RF-S 14-30MM F4-6.3 IS STM PZ",
-      "por": 4999.0,
-      "de": 9399.0,
-      "foto": "AgACAgQAAxkDAAIBe2rOHXqSjPyxozZC1h2-nA3aeAS3AAKxD2sb4ah0UibuiJWpsqEvAQADAgADbQADPQQ",
-      "foto_origem": "canal",
-      "titulo": "Câmera Canon EOS R50V com 47% off",
-      "id": 207,
-      "garimpado_em": "2026-10-13T09:00-03:00",
-      "na_revisao_desde": "2026-10-13T09:00-03:00",
-      "msg_id": 379
     }
   ],
   "proximo_id": 210,
@@ -1831,6 +1811,27 @@
   "lixeira": [
     {
       "loja": "amazon",
+      "chave": "amazon:B0F2RL8M8B",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0F2RL8M8B?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0F2RL8M8B?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/eos-r50v-lente-rf-s-14-30mm-f4-63-is-stm-pz-3109817/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3109817/",
+      "nome": "EOS R50V + LENTE RF-S 14-30MM F4-6.3 IS STM PZ",
+      "por": 4999.0,
+      "de": 9399.0,
+      "foto": "AgACAgQAAxkDAAIBe2rOHXqSjPyxozZC1h2-nA3aeAS3AAKxD2sb4ah0UibuiJWpsqEvAQADAgADbQADPQQ",
+      "foto_origem": "canal",
+      "titulo": "Câmera Canon EOS R50V com 47% off",
+      "id": 207,
+      "garimpado_em": "2026-10-13T09:00-03:00",
+      "na_revisao_desde": "2026-10-13T09:00-03:00",
+      "removido_em": "2026-10-13T09:16:10-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "amazon",
       "chave": "amazon:B0DYV5765S",
       "origem": "promobit",
       "fonte": "promobit",
@@ -1994,7 +1995,7 @@
       "promobit": {
         "achados": 8,
         "aprovados": 0,
-        "reprovados": 4
+        "reprovados": 5
       },
       "lobaopromo": {
         "achados": 8,
