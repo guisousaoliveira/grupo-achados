@@ -988,25 +988,6 @@
       "msg_id": 539
     },
     {
-      "loja": "amazon",
-      "chave": "amazon:B0G4MKWQ37",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0G4MKWQ37?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0G4MKWQ37?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/220519",
-      "link_canal": "https://www.amazon.com.br/AOC-ACS2410-Soundbar-Sound-Theater/dp/B0G4MKWQ37?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAICD2rOSkK0YEBZJNuY55zi-ZJmNPRJAALwD2sb0xDtUzXxTsWltO74AQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "nome": "Caixa de Som Soundbar 2.0 Canais AOC ACS2410",
-      "pix": true,
-      "por": 317.64,
-      "titulo": "Soundbar AOC com som aprimorado para TV",
-      "id": 280,
-      "garimpado_em": "2026-10-13T12:18-03:00",
-      "na_revisao_desde": "2026-10-13T12:18-03:00",
-      "msg_id": 540
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB6160179460",
       "origem": "xetdaspromocoes",
@@ -1913,6 +1894,26 @@
   ],
   "lixeira": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B0G4MKWQ37",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0G4MKWQ37?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0G4MKWQ37?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220519",
+      "link_canal": "https://www.amazon.com.br/AOC-ACS2410-Soundbar-Sound-Theater/dp/B0G4MKWQ37?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAICD2rOSkK0YEBZJNuY55zi-ZJmNPRJAALwD2sb0xDtUzXxTsWltO74AQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "nome": "Caixa de Som Soundbar 2.0 Canais AOC ACS2410",
+      "pix": true,
+      "por": 317.64,
+      "titulo": "Soundbar AOC com som aprimorado para TV",
+      "id": 280,
+      "garimpado_em": "2026-10-13T12:18-03:00",
+      "na_revisao_desde": "2026-10-13T12:18-03:00",
+      "removido_em": "2026-10-13T13:06:42-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB67826479",
       "origem": "promotop",
@@ -2350,7 +2351,7 @@
       "promooeasy": {
         "achados": 56,
         "aprovados": 2,
-        "reprovados": 52
+        "reprovados": 53
       },
       "xetdaspromocoes": {
         "achados": 11,
