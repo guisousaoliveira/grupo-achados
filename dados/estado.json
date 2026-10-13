@@ -1337,27 +1337,47 @@
       "garimpado_em": "2026-10-13T14:15-03:00",
       "na_revisao_desde": "2026-10-13T14:15-03:00",
       "msg_id": 599
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB51868065",
+      "origem": "xetdaspromocoes",
+      "link": "https://www.mercadolivre.com.br/smartwatch-bazik-prime-s35-ultra-max-47mm-com-bluetooth-e-gps-para-android-e-ios/p/MLB51868065?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/smartwatch-bazik-prime-s35-ultra-max-47mm-com-bluetooth-e-gps-para-android-e-ios/p/MLB51868065",
+      "post_origem": "https://t.me/xetdaspromocoes/84633",
+      "link_canal": "https://meli.la/32SMdzo",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_831425-MLA99902953237_112025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Smartwatch Bazik Prime S35 Ultra Max 47mm",
+      "por": 167.21,
+      "de": 269.7,
+      "cupom": "SAINDOBARRATO",
+      "titulo": "Útil no dia a dia e com desconto.",
+      "id": 320,
+      "garimpado_em": "2026-10-13T14:21-03:00",
+      "na_revisao_desde": "2026-10-13T14:21-03:00",
+      "msg_id": 600
     }
   ],
-  "proximo_id": 320,
+  "proximo_id": 321,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84631,
-      "lobaopromo": 188891,
-      "gatunopromos": 125105,
+      "xetdaspromocoes": 84633,
+      "lobaopromo": 188892,
+      "gatunopromos": 125107,
       "pobregram": 41832,
       "urubupromo": 41615,
-      "tudonapromo": 101716,
-      "promonocontext": 126244,
-      "promooeasy": 220588,
-      "aquitempechincha": 281364,
+      "tudonapromo": 101717,
+      "promonocontext": 126246,
+      "promooeasy": 220591,
+      "aquitempechincha": 281367,
       "infoBRpromos": 67454,
-      "boletando": 76662,
-      "promotop": 260218,
+      "boletando": 76663,
+      "promotop": 260219,
       "achadosdotb": 11762
     },
     "dia": "2026-10-13",
-    "hoje": 156,
+    "hoje": 157,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -1653,27 +1673,28 @@
       "mercadolivre:MLB16268160",
       "mercadolivre:MLB3102506128",
       "mercadolivre:MLB2178289241",
-      "shopee:318625865.58217322336"
+      "shopee:318625865.58217322336",
+      "mercadolivre:MLB51868065"
     ],
     "ultima": {
-      "em": "2026-10-13T14:13:26-03:00",
+      "em": "2026-10-13T14:20:20-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 40,
+      "posts_novos": 28,
       "do_nicho": 4,
-      "repetidas": 1,
-      "novas": 3,
+      "repetidas": 3,
+      "novas": 1,
       "limite_dia": false,
       "promobit": 0
     },
     "hora": "2026-10-13T14",
-    "nesta_hora": 4,
+    "nesta_hora": 5,
     "promobit_hora": "2026-10-13T14",
     "promobit_nesta_hora": 0,
-    "promobit_visto": 3110677
+    "promobit_visto": 3110708
   },
   "ultimos": [
     {
@@ -2766,7 +2787,7 @@
         "reprovados": 55
       },
       "xetdaspromocoes": {
-        "achados": 11,
+        "achados": 12,
         "aprovados": 5,
         "reprovados": 6
       },
@@ -2797,5 +2818,5 @@
       }
     }
   },
-  "aviso_post": "2026-10-13 13|mercadolivre:MLB2650723879"
+  "aviso_post": "2026-10-13 14|amazon:B09YVVH7J1"
 }
