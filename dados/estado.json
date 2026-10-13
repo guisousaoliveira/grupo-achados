@@ -1146,26 +1146,6 @@
       "msg_id": 471
     },
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB75898255",
-      "origem": "promotop",
-      "link": "https://www.mercadolivre.com.br/monitor-samsung-odyssey-g4-27-300hz-1ms-fhd-has-g-sync-freesync-dp-hdmi/p/MLB75898255?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/monitor-samsung-odyssey-g4-27-300hz-1ms-fhd-has-g-sync-freesync-dp-hdmi/p/MLB75898255",
-      "post_origem": "https://t.me/promotop/260200",
-      "link_canal": "https://meli.la/2ZKLYEK",
-      "foto": "AgACAgQAAxkDAAIB2GrOMYTRgmN0liyd7nwCQYfeFYz-AALwDGsbzs2NU-S75caGGFYEAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Monitor Samsung Odyssey G4 27\"",
-      "por": 1599.0,
-      "de": 1699.0,
-      "cupom": "MELHORDEHJ",
-      "titulo": "Preço bom, vale conferir.",
-      "id": 251,
-      "garimpado_em": "2026-10-13T10:26-03:00",
-      "na_revisao_desde": "2026-10-13T10:26-03:00",
-      "msg_id": 472
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B07KYFQRXD",
       "origem": "promooeasy",
@@ -2018,6 +1998,27 @@
   "lixeira": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB75898255",
+      "origem": "promotop",
+      "link": "https://www.mercadolivre.com.br/monitor-samsung-odyssey-g4-27-300hz-1ms-fhd-has-g-sync-freesync-dp-hdmi/p/MLB75898255?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/monitor-samsung-odyssey-g4-27-300hz-1ms-fhd-has-g-sync-freesync-dp-hdmi/p/MLB75898255",
+      "post_origem": "https://t.me/promotop/260200",
+      "link_canal": "https://meli.la/2ZKLYEK",
+      "foto": "AgACAgQAAxkDAAIB2GrOMYTRgmN0liyd7nwCQYfeFYz-AALwDGsbzs2NU-S75caGGFYEAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Monitor Samsung Odyssey G4 27\"",
+      "por": 1599.0,
+      "de": 1699.0,
+      "cupom": "MELHORDEHJ",
+      "titulo": "Preço bom, vale conferir.",
+      "id": 251,
+      "garimpado_em": "2026-10-13T10:26-03:00",
+      "na_revisao_desde": "2026-10-13T10:26-03:00",
+      "removido_em": "2026-10-13T11:48:36-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB77978161",
       "origem": "lobaopromo",
       "link": "https://www.mercadolivre.com.br/samsung-smart-tv-65-miniled-4k-m75h-soundbar-samsung-hw-b400f/p/MLB77978161?matt_word=alphapromo&matt_tool=59136903",
@@ -2530,7 +2531,7 @@
       "promotop": {
         "achados": 4,
         "aprovados": 1,
-        "reprovados": 2
+        "reprovados": 3
       },
       "promonocontext": {
         "achados": 9,
