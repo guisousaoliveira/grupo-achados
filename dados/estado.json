@@ -1155,27 +1155,87 @@
       "garimpado_em": "2026-10-13T10:36-03:00",
       "na_revisao_desde": "2026-10-13T10:36-03:00",
       "msg_id": 480
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB4592320910",
+      "origem": "xetdaspromocoes",
+      "link": "https://produto.mercadolivre.com.br/MLB-4592320910-kit-4-camiseta-dry-fit-sandrini-masculina-academia-caminhada-_JM?pdp_filters=item_id%3AMLB4592320910&matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-4592320910-kit-4-camiseta-dry-fit-sandrini-masculina-academia-caminhada-_JM?pdp_filters=item_id%3AMLB4592320910",
+      "post_origem": "https://t.me/xetdaspromocoes/84583",
+      "link_canal": "https://meli.la/2vtQ7Hv",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_626928-MLB82004918446_022025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Kit 4 Camiseta Dry-fit Sandrini Masculina Academia Caminhada",
+      "de": 129.0,
+      "por": 59.0,
+      "titulo": "Preço de queima, 54% mais barato.",
+      "id": 254,
+      "garimpado_em": "2026-10-13T10:42-03:00",
+      "na_revisao_desde": "2026-10-13T10:42-03:00",
+      "msg_id": 482
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB58097097",
+      "origem": "lobaopromo",
+      "link": "https://www.mercadolivre.com.br/power-bank-baseus-bipow2-pro-fc51-20000mah-225w-carregamento-rapido-cabo-usb-c-integrado-display-digital-carrega-3-dispositivos-protecao-inteligente-preto/p/MLB58097097?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/power-bank-baseus-bipow2-pro-fc51-20000mah-225w-carregamento-rapido-cabo-usb-c-integrado-display-digital-carrega-3-dispositivos-protecao-inteligente-preto/p/MLB58097097",
+      "post_origem": "https://t.me/lobaopromo/188791",
+      "link_canal": "https://meli.la/2pERhGv",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_812206-MLA93073248860_092025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Power Bank Baseus Bipow2 Pro FC51 20000mAh 22,5W Carregamento Rápido",
+      "pix": true,
+      "cupom_loja": "Adicione o cupom de 10% no anúncio",
+      "de": 286.0,
+      "por": 177.0,
+      "titulo": "Útil no dia a dia e com desconto.",
+      "id": 255,
+      "garimpado_em": "2026-10-13T10:43-03:00",
+      "na_revisao_desde": "2026-10-13T10:43-03:00",
+      "msg_id": 483
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB78183808",
+      "origem": "urubupromo",
+      "link": "https://www.mercadolivre.com.br/samsung-smart-tv-65-miniled-4k-m75h-soundbar-samsung-b-series-hw-b450f/p/MLB78183808?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/samsung-smart-tv-65-miniled-4k-m75h-soundbar-samsung-b-series-hw-b450f/p/MLB78183808",
+      "post_origem": "https://t.me/urubupromo/41611",
+      "link_canal": "https://meli.la/2fYb2kN",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_662786-MLA116654158007_082026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Samsung Smart Tv 65 Miniled 4k M75h + Soundbar Samsung B-series",
+      "parcelas": 3,
+      "por": 3849.0,
+      "de": 7899.0,
+      "titulo": "Preço de queima, 51% mais barato.",
+      "id": 256,
+      "garimpado_em": "2026-10-13T10:44-03:00",
+      "na_revisao_desde": "2026-10-13T10:44-03:00",
+      "msg_id": 484
     }
   ],
-  "proximo_id": 254,
+  "proximo_id": 257,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84581,
-      "lobaopromo": 188790,
-      "gatunopromos": 125083,
-      "pobregram": 41811,
-      "urubupromo": 41610,
-      "tudonapromo": 101679,
-      "promonocontext": 126139,
-      "promooeasy": 220458,
-      "aquitempechincha": 281338,
+      "xetdaspromocoes": 84583,
+      "lobaopromo": 188797,
+      "gatunopromos": 125084,
+      "pobregram": 41815,
+      "urubupromo": 41611,
+      "tudonapromo": 101681,
+      "promonocontext": 126145,
+      "promooeasy": 220465,
+      "aquitempechincha": 281342,
       "infoBRpromos": 67444,
-      "boletando": 76650,
+      "boletando": 76651,
       "promotop": 260201,
       "achadosdotb": 11757
     },
     "dia": "2026-10-13",
-    "hoje": 90,
+    "hoje": 93,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -1405,27 +1465,30 @@
       "mercadolivre:MLB5419600456",
       "mercadolivre:MLB75898255",
       "mercadolivre:MLB77978161",
-      "amazon:B07KYFQRXD"
+      "amazon:B07KYFQRXD",
+      "mercadolivre:MLB4592320910",
+      "mercadolivre:MLB58097097",
+      "mercadolivre:MLB78183808"
     ],
     "ultima": {
-      "em": "2026-10-13T10:34:14-03:00",
+      "em": "2026-10-13T10:40:39-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 46,
+      "posts_novos": 37,
       "do_nicho": 4,
-      "repetidas": 2,
-      "novas": 2,
+      "repetidas": 1,
+      "novas": 3,
       "limite_dia": false,
       "promobit": 0
     },
     "hora": "2026-10-13T10",
-    "nesta_hora": 21,
+    "nesta_hora": 24,
     "promobit_hora": "2026-10-13T10",
     "promobit_nesta_hora": 1,
-    "promobit_visto": 3110144
+    "promobit_visto": 3110153
   },
   "ultimos": [
     {
@@ -2153,7 +2216,7 @@
         "reprovados": 8
       },
       "lobaopromo": {
-        "achados": 15,
+        "achados": 16,
         "aprovados": 7,
         "reprovados": 6
       },
@@ -2163,7 +2226,7 @@
         "reprovados": 32
       },
       "xetdaspromocoes": {
-        "achados": 8,
+        "achados": 9,
         "aprovados": 3,
         "reprovados": 1
       },
@@ -2181,6 +2244,11 @@
         "achados": 8,
         "aprovados": 0,
         "reprovados": 8
+      },
+      "urubupromo": {
+        "achados": 1,
+        "aprovados": 0,
+        "reprovados": 0
       }
     }
   },
