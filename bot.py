@@ -1743,6 +1743,15 @@ def produto_do_link(link):
         tag = CONFIG.get("radar", {}).get("tag_amazon", "")
         meu = f"https://www.amazon.com.br/dp/{asin}" + (f"?tag={tag}" if tag else "")
         return {"loja": "amazon", "chave": f"amazon:{asin}", "link_produto": meu, "meu_link": meu}
+    if "/social/" in final and ("mercadoli" in final or "meli.la" in link):
+        achado = produto_principal_vitrine(pagina)
+        if achado:
+            achado["vitrine"] = extrair_da_pagina(pagina, "mercadolivre")
+            cfg = CONFIG.get("radar", {})
+            if cfg.get("ml_matt_word") and cfg.get("ml_matt_tool"):
+                sep = "&" if "?" in achado["link_produto"] else "?"
+                achado["meu_link"] = f"{achado['link_produto']}{sep}matt_word={cfg['ml_matt_word']}&matt_tool={cfg['ml_matt_tool']}"
+            return achado
     for alvo in [final, pagina[:300000]]:
         m = re.search(r"MLB-?(\d{6,})", alvo)
         if m and ("mercadoli" in final or "meli.la" in link):
@@ -1760,6 +1769,29 @@ def produto_do_link(link):
     if m:
         return {"loja": "shopee", "chave": f"shopee:{m.group(1)}.{m.group(2)}",
                 "link_produto": f"https://shopee.com.br/product/{m.group(1)}/{m.group(2)}"}
+    return None
+
+
+def produto_principal_vitrine(pagina):
+    """Na vitrine de afiliado do ML (/social/...), o produto do post é o da foto principal (og:image).
+    A página lista dezenas de outros produtos do perfil: pegar o primeiro link levava para um produto parecido."""
+    img = re.search(r'property="og:image" content="[^"]*?/D_[A-Z_]*?(\d+-MLB\d+)_', pagina)
+    if not img:
+        return None
+    foto = pagina.find('"id":"' + img.group(1))
+    while foto != -1:
+        ini = pagina.rfind('"metadata":{"id":"', 0, foto)
+        card = pagina[ini:foto] if ini != -1 and foto - ini < 4000 else ""
+        item = re.match(r'"metadata":\{"id":"(MLB\d+)"', card)
+        if item:
+            url = re.search(r'"url":"([^"]+)"', card)
+            if url:
+                url = "https://" + url.group(1).encode().decode("unicode_escape").lstrip("/")
+                url = url.split("?")[0].split("#")[0] + f"?pdp_filters=item_id%3A{item.group(1)}"
+            else:
+                url = f"https://produto.mercadolivre.com.br/MLB-{item.group(1)[3:]}"
+            return {"loja": "mercadolivre", "chave": f"mercadolivre:{item.group(1)}", "link_produto": url}
+        foto = pagina.find('"id":"' + img.group(1), foto + 1)
     return None
 
 
