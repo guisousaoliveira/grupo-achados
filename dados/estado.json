@@ -657,24 +657,6 @@
       "msg_id": 272
     },
     {
-      "loja": "amazon",
-      "chave": "amazon:B0C34Y8C8L",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0C34Y8C8L?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0C34Y8C8L?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/220245",
-      "link_canal": "https://www.amazon.com.br/dp/B0C34Y8C8L?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAIBEWrNck-b4GphV4zvfdM0pdzULEI6AAIcD2sbuR90UnfF7NAYBAOWAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Crucial Ssd interno para jogos P5 Plus 2Tb NVMe NVMe M.2 com dissipador de calor, compatível com PlayStation 5 (Ps5) até",
-      "por": 1693.0,
-      "titulo": "SSD Crucial 2TB com 33% off",
-      "id": 130,
-      "garimpado_em": "2026-10-12T20:50-03:00",
-      "na_revisao_desde": "2026-10-12T20:50-03:00",
-      "msg_id": 273
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB77148715",
       "origem": "promonocontext",
@@ -1168,6 +1150,25 @@
   ],
   "lixeira": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B0C34Y8C8L",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0C34Y8C8L?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0C34Y8C8L?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220245",
+      "link_canal": "https://www.amazon.com.br/dp/B0C34Y8C8L?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAIBEWrNck-b4GphV4zvfdM0pdzULEI6AAIcD2sbuR90UnfF7NAYBAOWAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Crucial Ssd interno para jogos P5 Plus 2Tb NVMe NVMe M.2 com dissipador de calor, compatível com PlayStation 5 (Ps5) até",
+      "por": 1693.0,
+      "titulo": "SSD Crucial 2TB com 33% off",
+      "id": 130,
+      "garimpado_em": "2026-10-12T20:50-03:00",
+      "na_revisao_desde": "2026-10-12T20:50-03:00",
+      "removido_em": "2026-10-12T21:06:04-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB27410652",
       "origem": "lobaopromo",
@@ -1623,7 +1624,7 @@
       "promooeasy": {
         "achados": 19,
         "aprovados": 4,
-        "reprovados": 14
+        "reprovados": 15
       },
       "promobit": {
         "achados": 22,
