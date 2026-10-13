@@ -948,25 +948,6 @@
       "msg_id": 372
     },
     {
-      "loja": "shopee",
-      "chave": "shopee:1710829865.58264221949",
-      "origem": "promooeasy",
-      "link": "https://shopee.com.br/product/1710829865/58264221949",
-      "link_produto": "https://shopee.com.br/product/1710829865/58264221949",
-      "post_origem": "https://t.me/promooeasy/220358",
-      "link_canal": "https://s.shopee.com.br/4B0gkY1OEF?lp=aff",
-      "precisa_link": true,
-      "foto": "AgACAgEAAxkDAAIBdWrOGOCIfBI8qA8MH_PnsTQkMf7iAAIcDWsb7AJxRjOk_5IoH1HZAQADAgADeAADPQQ",
-      "foto_origem": "canal",
-      "nome": "Por R981,00",
-      "por": 981.0,
-      "titulo": "Barbeador Philips OneBlade com 33% off",
-      "id": 201,
-      "garimpado_em": "2026-10-13T08:41-03:00",
-      "na_revisao_desde": "2026-10-13T08:41-03:00",
-      "msg_id": 373
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB17460955",
       "origem": "promotop",
@@ -1730,6 +1711,26 @@
   "lixeira": [
     {
       "loja": "shopee",
+      "chave": "shopee:1710829865.58264221949",
+      "origem": "promooeasy",
+      "link": "https://shopee.com.br/product/1710829865/58264221949",
+      "link_produto": "https://shopee.com.br/product/1710829865/58264221949",
+      "post_origem": "https://t.me/promooeasy/220358",
+      "link_canal": "https://s.shopee.com.br/4B0gkY1OEF?lp=aff",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAIBdWrOGOCIfBI8qA8MH_PnsTQkMf7iAAIcDWsb7AJxRjOk_5IoH1HZAQADAgADeAADPQQ",
+      "foto_origem": "canal",
+      "nome": "Por R981,00",
+      "por": 981.0,
+      "titulo": "Barbeador Philips OneBlade com 33% off",
+      "id": 201,
+      "garimpado_em": "2026-10-13T08:41-03:00",
+      "na_revisao_desde": "2026-10-13T08:41-03:00",
+      "removido_em": "2026-10-13T09:16:36-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "shopee",
       "chave": "shopee:898761179.49111136322",
       "origem": "promooeasy",
       "link": "https://shopee.com.br/product/898761179/49111136322",
@@ -2009,7 +2010,7 @@
       "promooeasy": {
         "achados": 27,
         "aprovados": 2,
-        "reprovados": 18
+        "reprovados": 19
       },
       "xetdaspromocoes": {
         "achados": 1,
