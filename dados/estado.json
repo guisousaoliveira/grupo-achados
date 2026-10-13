@@ -1235,27 +1235,46 @@
       "garimpado_em": "2026-10-13T10:50-03:00",
       "na_revisao_desde": "2026-10-13T10:50-03:00",
       "msg_id": 485
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB3800842215",
+      "origem": "xetdaspromocoes",
+      "link": "https://produto.mercadolivre.com.br/MLB-3800842215-camiseta-dry-fit-preta-caveira-unisex-dark-lab-_JM?pdp_filters=item_id%3AMLB3800842215&matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-3800842215-camiseta-dry-fit-preta-caveira-unisex-dark-lab-_JM?pdp_filters=item_id%3AMLB3800842215",
+      "post_origem": "https://t.me/xetdaspromocoes/84592",
+      "link_canal": "https://meli.la/2tC2Kg5",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_706587-MLB115944612831_082026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Camiseta Dry-fit Preta Caveira Unisex Dark Lab",
+      "de": 79.0,
+      "por": 29.0,
+      "titulo": "63% off, isso aqui não fica muito tempo assim.",
+      "id": 258,
+      "garimpado_em": "2026-10-13T11:01-03:00",
+      "na_revisao_desde": "2026-10-13T11:01-03:00",
+      "msg_id": 486
     }
   ],
-  "proximo_id": 258,
+  "proximo_id": 259,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84588,
-      "lobaopromo": 188803,
-      "gatunopromos": 125085,
-      "pobregram": 41816,
+      "xetdaspromocoes": 84594,
+      "lobaopromo": 188808,
+      "gatunopromos": 125087,
+      "pobregram": 41818,
       "urubupromo": 41612,
-      "tudonapromo": 101683,
-      "promonocontext": 126150,
-      "promooeasy": 220469,
+      "tudonapromo": 101686,
+      "promonocontext": 126155,
+      "promooeasy": 220473,
       "aquitempechincha": 281344,
       "infoBRpromos": 67444,
       "boletando": 76652,
-      "promotop": 260202,
+      "promotop": 260203,
       "achadosdotb": 11757
     },
     "dia": "2026-10-13",
-    "hoje": 94,
+    "hoje": 95,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -1489,27 +1508,28 @@
       "mercadolivre:MLB4592320910",
       "mercadolivre:MLB58097097",
       "mercadolivre:MLB78183808",
-      "mercadolivre:MLB4049279695"
+      "mercadolivre:MLB4049279695",
+      "mercadolivre:MLB3800842215"
     ],
     "ultima": {
-      "em": "2026-10-13T10:50:18-03:00",
+      "em": "2026-10-13T11:00:28-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 42,
-      "do_nicho": 5,
-      "repetidas": 4,
+      "posts_novos": 39,
+      "do_nicho": 1,
+      "repetidas": 0,
       "novas": 1,
       "limite_dia": false,
       "promobit": 0
     },
-    "hora": "2026-10-13T10",
-    "nesta_hora": 25,
-    "promobit_hora": "2026-10-13T10",
-    "promobit_nesta_hora": 1,
-    "promobit_visto": 3110172
+    "hora": "2026-10-13T11",
+    "nesta_hora": 1,
+    "promobit_hora": "2026-10-13T11",
+    "promobit_nesta_hora": 0,
+    "promobit_visto": 3110208
   },
   "ultimos": [
     {
@@ -2247,7 +2267,7 @@
         "reprovados": 32
       },
       "xetdaspromocoes": {
-        "achados": 9,
+        "achados": 10,
         "aprovados": 3,
         "reprovados": 1
       },
@@ -2273,5 +2293,5 @@
       }
     }
   },
-  "aviso_post": "2026-10-13 10|amazon:B0CZPSD2SC"
+  "aviso_post": "2026-10-13 11|mercadolivre:MLB4992424197"
 }
