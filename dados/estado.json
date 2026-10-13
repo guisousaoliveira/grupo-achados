@@ -1430,24 +1430,6 @@
       "garimpado_em": "2026-10-13T11:40-03:00",
       "na_revisao_desde": "2026-10-13T11:40-03:00",
       "msg_id": 502
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B084KJPHRY",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B084KJPHRY?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B084KJPHRY?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/220499",
-      "link_canal": "https://www.amazon.com.br/Granado-Glicerina-Tradicional-Refil-Sabonete/dp/B084KJPHRY?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAIB-GrOQw8NXti-mk_Ac01dy1m9hZD5AAJfD2sbyEh0UnuRd9aVTcSsAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Refil Sabonete Líquido Granado Glicerina 300ml",
-      "por": 16.9,
-      "titulo": "Refil Granado Glicerina para limpeza da pele",
-      "id": 271,
-      "garimpado_em": "2026-10-13T11:41-03:00",
-      "na_revisao_desde": "2026-10-13T11:41-03:00",
-      "msg_id": 504
     }
   ],
   "proximo_id": 272,
@@ -2280,6 +2262,25 @@
   ],
   "lixeira": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B084KJPHRY",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B084KJPHRY?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B084KJPHRY?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220499",
+      "link_canal": "https://www.amazon.com.br/Granado-Glicerina-Tradicional-Refil-Sabonete/dp/B084KJPHRY?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAIB-GrOQw8NXti-mk_Ac01dy1m9hZD5AAJfD2sbyEh0UnuRd9aVTcSsAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Refil Sabonete Líquido Granado Glicerina 300ml",
+      "por": 16.9,
+      "titulo": "Refil Granado Glicerina para limpeza da pele",
+      "id": 271,
+      "garimpado_em": "2026-10-13T11:41-03:00",
+      "na_revisao_desde": "2026-10-13T11:41-03:00",
+      "removido_em": "2026-10-13T11:43:23-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:1083800536.58258362801",
       "origem": "promooeasy",
@@ -2518,7 +2519,7 @@
       "promooeasy": {
         "achados": 46,
         "aprovados": 2,
-        "reprovados": 33
+        "reprovados": 34
       },
       "xetdaspromocoes": {
         "achados": 10,
