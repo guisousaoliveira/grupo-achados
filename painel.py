@@ -584,6 +584,7 @@ def acao(corpo):
             else:
                 estado["story_cfg"] = limpar_story_cfg(d)
                 saida["ok"] = "Textos do story salvos."
+            _ST_ESTADO["t"] = 0  # textos novos já valem na próxima prévia
         elif a == "rev_aprovar_tudo":
             prontos = [x for x in revisar if not bot.faltando(x)]
             for x in prontos:
@@ -673,19 +674,45 @@ def postar(estado, item, feito):
 
 # ---------------------------------------------------------------- story
 
+_ST_ESTADO = {"t": 0, "estado": None}
+_ST_FOTOS = {}
+
+
+def estado_story():
+    """Estado guardado por 60s: trocar frase ou foto no painel não relê o GitHub a cada clique."""
+    if time.time() - _ST_ESTADO["t"] > 60 or _ST_ESTADO["estado"] is None:
+        _ST_ESTADO["estado"], _ = bot.carregar_estado()
+        _ST_ESTADO["t"] = time.time()
+    return _ST_ESTADO["estado"]
+
+
+def foto_story(foto):
+    """Foto do produto baixada uma vez só (as prévias do mesmo story reaproveitam)."""
+    if foto not in _ST_FOTOS:
+        if len(_ST_FOTOS) > 20:
+            _ST_FOTOS.pop(next(iter(_ST_FOTOS)))
+        _ST_FOTOS[foto] = bot.baixar_foto(foto)
+    return _ST_FOTOS[foto]
+
+
 def gerar_story_png(tipo, ident, frase="", modelo="prova", com_item=False, encaixe="auto"):
     import story
-    estado, _ = bot.carregar_estado()
+    estado = estado_story()
     cfg = estado.get("story_cfg")
     canal = bot.CONFIG.get("canal_publico", "").replace("@", "").replace("https://t.me/", "")
     if tipo == "fixo":
         return story.story_fixo(canal, cfg), "story_alpha_promo.png"
     lista = estado.get("ultimos", []) if tipo == "ultimo" else estado["fila"]
     item = next((x for x in lista if bot.id_story(x) == ident), None)
+    if not item:  # oferta nova que ainda não estava guardada: relê
+        _ST_ESTADO["t"] = 0
+        estado = estado_story()
+        lista = estado.get("ultimos", []) if tipo == "ultimo" else estado["fila"]
+        item = next((x for x in lista if bot.id_story(x) == ident), None)
     if not item:
         return None, ""
     gerar = story.story_venda if modelo == "venda" else story.story_oferta
-    png = gerar(item, bot.baixar_foto(item.get("foto")), canal, frase=frase.strip()[:60] or None, cfg=cfg,
+    png = gerar(item, foto_story(item.get("foto")), canal, frase=frase.strip()[:60] or None, cfg=cfg,
                 encaixe=encaixe if encaixe in ("auto", "branco", "cheio") else "auto")
     nome = "story_venda.png" if modelo == "venda" else "story_oferta.png"
     return (png, nome, item, canal) if com_item else (png, nome)
