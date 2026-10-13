@@ -973,24 +973,6 @@
       "garimpado_em": "2026-10-13T00:40-03:00",
       "na_revisao_desde": "2026-10-13T00:40-03:00",
       "msg_id": 346
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0HJBGT35C",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0HJBGT35C?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0HJBGT35C?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/220283",
-      "link_canal": "https://www.amazon.com.br/dp/B0HJBGT35C?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAIBW2rNqD_m0yn1chAKHv5nW_KC094UAAL4Dmsb6qS1UUKBmp1Ve_yqAQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "nome": "Canivete Tático 16cm Compacto em Aço Inoxidável Dobrável com Trava de Segurança Cabo Antiderrapante para Camping Trilha ",
-      "por": 9.0,
-      "titulo": "Canivete tático por apenas 9 reais",
-      "id": 181,
-      "garimpado_em": "2026-10-13T00:40-03:00",
-      "na_revisao_desde": "2026-10-13T00:40-03:00",
-      "msg_id": 347
     }
   ],
   "proximo_id": 183,
@@ -1666,6 +1648,25 @@
   ],
   "lixeira": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B0HJBGT35C",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0HJBGT35C?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0HJBGT35C?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220283",
+      "link_canal": "https://www.amazon.com.br/dp/B0HJBGT35C?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAIBW2rNqD_m0yn1chAKHv5nW_KC094UAAL4Dmsb6qS1UUKBmp1Ve_yqAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "nome": "Canivete Tático 16cm Compacto em Aço Inoxidável Dobrável com Trava de Segurança Cabo Antiderrapante para Camping Trilha ",
+      "por": 9.0,
+      "titulo": "Canivete tático por apenas 9 reais",
+      "id": 181,
+      "garimpado_em": "2026-10-13T00:40-03:00",
+      "na_revisao_desde": "2026-10-13T00:40-03:00",
+      "removido_em": "2026-10-13T00:45:06-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:1083800536.58266559162",
       "origem": "promooeasy",
@@ -2202,7 +2203,7 @@
       "promooeasy": {
         "achados": 12,
         "aprovados": 0,
-        "reprovados": 2
+        "reprovados": 3
       }
     }
   },
