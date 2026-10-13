@@ -302,6 +302,24 @@
       "garimpado_em": "2026-10-13T00:30-03:00",
       "na_revisao_desde": "2026-10-13T00:30-03:00",
       "aprovado_em": "2026-10-13T00:47-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB4613727425",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/1NnuF3D",
+      "link_produto": "https://meli.la/1NnuF3D",
+      "post_origem": "https://t.me/lobaopromo/188679",
+      "link_canal": "https://meli.la/1U82Hvs",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_931251-MLB118770940079_102026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Esmerilhadeira Angular Professional 115mm Lixadeira 220v",
+      "de": 199.0,
+      "por": 101.28,
+      "titulo": "Esmerilhadeira 220v",
+      "garimpado_em": "2026-10-13T00:20-03:00",
+      "na_revisao_desde": "2026-10-13T00:20-03:00",
+      "aprovado_em": "2026-10-13T00:48-03:00"
     }
   ],
   "postados": [
@@ -762,25 +780,6 @@
       "garimpado_em": "2026-10-13T00:10-03:00",
       "na_revisao_desde": "2026-10-13T00:10-03:00",
       "msg_id": 331
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB4613727425",
-      "origem": "lobaopromo",
-      "link": "https://produto.mercadolivre.com.br/MLB-4613727425-esmerilhadeira-angular-professional-115mm-lixadeira-220v-_JM?pdp_filters=item_id%3AMLB4613727425&matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-4613727425-esmerilhadeira-angular-professional-115mm-lixadeira-220v-_JM?pdp_filters=item_id%3AMLB4613727425",
-      "post_origem": "https://t.me/lobaopromo/188679",
-      "link_canal": "https://meli.la/1U82Hvs",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_931251-MLB118770940079_102026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Esmerilhadeira Angular Professional 115mm Lixadeira 220v",
-      "de": 199.0,
-      "por": 96.0,
-      "titulo": "Esmerilhadeira 220v com 52% de desconto",
-      "id": 169,
-      "garimpado_em": "2026-10-13T00:20-03:00",
-      "na_revisao_desde": "2026-10-13T00:20-03:00",
-      "msg_id": 335
     }
   ],
   "proximo_id": 183,
@@ -2205,7 +2204,7 @@
       },
       "lobaopromo": {
         "achados": 5,
-        "aprovados": 2,
+        "aprovados": 3,
         "reprovados": 0
       },
       "promooeasy": {
