@@ -632,25 +632,6 @@
     },
     {
       "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB7389317322",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/macaquinho-feminino-fitness-roupa-academia-suplex/up/MLBU4668428539?pdp_filters=item_id%3AMLB7389317322&matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/macaquinho-feminino-fitness-roupa-academia-suplex/up/MLBU4668428539?pdp_filters=item_id%3AMLB7389317322",
-      "post_origem": "https://t.me/lobaopromo/188648",
-      "link_canal": "https://meli.la/2LKmgmX",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_981591-MLB114593630514_082026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Macaquinho Feminino Fitness Roupa Academia Suplex Mescla P",
-      "de": 99.0,
-      "por": 37.0,
-      "titulo": "Macaquinho feminino fitness com 63% off",
-      "id": 154,
-      "garimpado_em": "2026-10-12T23:10-03:00",
-      "na_revisao_desde": "2026-10-12T23:10-03:00",
-      "msg_id": 311
-    },
-    {
-      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB4992424197",
       "origem": "lobaopromo",
       "link": "https://www.mercadolivre.com.br/tenis-masculino-casual-aramis-daily-slip-confortavel-moderno/up/MLBU4588766780?pdp_filters=item_id%3AMLB4992424197&matt_word=alphapromo&matt_tool=59136903",
@@ -1331,6 +1312,26 @@
   ],
   "lixeira": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB7389317322",
+      "origem": "lobaopromo",
+      "link": "https://www.mercadolivre.com.br/macaquinho-feminino-fitness-roupa-academia-suplex/up/MLBU4668428539?pdp_filters=item_id%3AMLB7389317322&matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/macaquinho-feminino-fitness-roupa-academia-suplex/up/MLBU4668428539?pdp_filters=item_id%3AMLB7389317322",
+      "post_origem": "https://t.me/lobaopromo/188648",
+      "link_canal": "https://meli.la/2LKmgmX",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_981591-MLB114593630514_082026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Macaquinho Feminino Fitness Roupa Academia Suplex Mescla P",
+      "de": 99.0,
+      "por": 37.0,
+      "titulo": "Macaquinho feminino fitness com 63% off",
+      "id": 154,
+      "garimpado_em": "2026-10-12T23:10-03:00",
+      "na_revisao_desde": "2026-10-12T23:10-03:00",
+      "removido_em": "2026-10-12T23:24:28-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0CHJXCJTW",
       "origem": "promobit",
@@ -1674,7 +1675,7 @@
       "lobaopromo": {
         "achados": 22,
         "aprovados": 8,
-        "reprovados": 10
+        "reprovados": 11
       },
       "urubupromo": {
         "achados": 2,
