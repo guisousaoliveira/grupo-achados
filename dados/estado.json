@@ -2,23 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "amazon",
-      "chave": "amazon:B0H8JXN6V4",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://link.amazon/B09o3Mr5W",
-      "link_produto": "https://www.amazon.com.br/dp/B0H8JXN6V4?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/bone-unissex-aba-curva-liso-com-regulagem-ajustavel-para-uso-casual-e-esportivo-3108906/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3108906/",
-      "nome": "Boné Unissex Aba Curva Liso com Regulagem Ajustável para Uso Casual e",
-      "por": 24.99,
-      "foto": "AgACAgQAAxkDAAO8as0rX4-BJHZh5h2t-KBccPhH0-0AAg0QaxusG21SVtNp2HGP2i0BAAMCAANtAAM9BA",
-      "foto_origem": "canal",
-      "titulo": "Boné unissex ajustável com menor preço",
-      "garimpado_em": "2026-10-12T15:47-03:00",
-      "aprovado_em": "2026-10-12T15:59-03:00"
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB22357681",
       "origem": "gatunopromos",
@@ -600,6 +583,14 @@
       "link": "https://link.amazon/B0j6FgfxE",
       "link_produto": "https://www.amazon.com.br/dp/B0DB6KW9SQ?tag=alphadominu09-20",
       "slot": 22
+    },
+    {
+      "chave": "amazon:B0H8JXN6V4",
+      "loja": "amazon",
+      "nome": "Boné Unissex Aba Curva Liso com Regulagem Ajustável para Uso Casual e",
+      "data": "2026-10-12T23:09-03:00",
+      "link": "https://link.amazon/B09o3Mr5W",
+      "link_produto": "https://www.amazon.com.br/dp/B0H8JXN6V4?tag=alphadominu09-20"
     }
   ],
   "slots_usados": {
@@ -797,6 +788,19 @@
     "promobit_visto": 3109440
   },
   "ultimos": [
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0H8JXN6V4",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://link.amazon/B09o3Mr5W",
+      "link_produto": "https://www.amazon.com.br/dp/B0H8JXN6V4?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/bone-unissex-aba-curva-liso-com-regulagem-ajustavel-para-uso-casual-e-esportivo-3108906/",
+      "nome": "Boné Unissex Aba Curva Liso com Regulagem Ajustável para Uso Casual e",
+      "por": 24.99,
+      "foto": "AgACAgQAAxkDAAO8as0rX4-BJHZh5h2t-KBccPhH0-0AAg0QaxusG21SVtNp2HGP2i0BAAMCAANtAAM9BA",
+      "titulo": "Boné unissex ajustável com menor preço"
+    },
     {
       "loja": "amazon",
       "chave": "amazon:B0DB6KW9SQ",
