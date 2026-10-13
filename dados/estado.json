@@ -1490,24 +1490,6 @@
       "garimpado_em": "2026-10-13T15:03-03:00",
       "na_revisao_desde": "2026-10-13T15:03-03:00",
       "msg_id": 616
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0D6BXNRZQ",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0D6BXNRZQ?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0D6BXNRZQ?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/220621",
-      "link_canal": "https://www.amazon.com.br/dp/B0D6BXNRZQ?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAICamrOcr2qpmAKqIcwR9bJfS9FZwsPAALvDWsbsC6sUzwkzwZIRg_1AQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "nome": "Sabonete Líquido Glicerina Camomila JOHNSONS Baby, 400ml",
-      "por": 19.42,
-      "titulo": "Sabonete Johnson's de glicerina com desconto",
-      "garimpado_em": "2026-10-13T15:04-03:00",
-      "id": 351,
-      "na_revisao_desde": "2026-10-13T15:47-03:00",
-      "msg_id": 633
     }
   ],
   "proximo_id": 352,
@@ -2428,6 +2410,25 @@
   ],
   "lixeira": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B0D6BXNRZQ",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0D6BXNRZQ?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0D6BXNRZQ?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220621",
+      "link_canal": "https://www.amazon.com.br/dp/B0D6BXNRZQ?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAICamrOcr2qpmAKqIcwR9bJfS9FZwsPAALvDWsbsC6sUzwkzwZIRg_1AQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "nome": "Sabonete Líquido Glicerina Camomila JOHNSONS Baby, 400ml",
+      "por": 19.42,
+      "titulo": "Sabonete Johnson's de glicerina com desconto",
+      "garimpado_em": "2026-10-13T15:04-03:00",
+      "id": 351,
+      "na_revisao_desde": "2026-10-13T15:47-03:00",
+      "removido_em": "2026-10-13T15:47:12-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB54549630",
       "origem": "promonocontext",
@@ -3214,25 +3215,6 @@
       "na_revisao_desde": "2026-10-13T12:52-03:00",
       "removido_em": "2026-10-13T13:05:09-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0F3CQG1ZC",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0F3CQG1ZC?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0F3CQG1ZC?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/220552",
-      "link_canal": "https://www.amazon.com.br/dp/B0F3CQG1ZC?tag=promof26-20",
-      "foto": "AgACAgEAAxkDAAICM2rOU-vfP5i4tGf9xbRbCCEKDiy9AAJpDWsb7AJxRruYTF1twROzAQADAgADeAADPQQ",
-      "foto_origem": "canal",
-      "nome": "Cadeira gamer fofa com orelhas de coelho, com apoio de pés e apoio de cabeça (Rosa)",
-      "por": 284.0,
-      "titulo": "Preço bom assim não dura, corre!",
-      "id": 294,
-      "garimpado_em": "2026-10-13T12:53-03:00",
-      "na_revisao_desde": "2026-10-13T12:53-03:00",
-      "removido_em": "2026-10-13T13:05:04-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -3307,7 +3289,7 @@
       "promooeasy": {
         "achados": 74,
         "aprovados": 2,
-        "reprovados": 64
+        "reprovados": 65
       },
       "xetdaspromocoes": {
         "achados": 13,
