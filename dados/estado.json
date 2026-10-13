@@ -2,26 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB4703022818",
-      "origem": "promonocontext",
-      "link": "https://meli.la/1GX7MuJ",
-      "link_produto": "https://meli.la/1GX7MuJ",
-      "post_origem": "https://t.me/promonocontext/126031",
-      "link_canal": "https://meli.la/2Czi3qA",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_643360-MLB104967538769_012026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Kit 6 Cuecas Boxer Reebok Microfibra Sem Costura Original",
-      "cupom_loja": "Ative o cupom de 5% 📌",
-      "de": 299.0,
-      "por": 64.0,
-      "titulo": "OFERTA!",
-      "garimpado_em": "2026-10-12T21:00-03:00",
-      "na_revisao_desde": "2026-10-12T21:00-03:00",
-      "cupom": "Ative o cupom de 5% 📌",
-      "aprovado_em": "2026-10-12T21:05-03:00"
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B0B2712FTY",
       "origem": "lobaopromo",
@@ -702,6 +682,15 @@
       "data": "2026-10-13T08:04-03:00",
       "link": "https://link.amazon/B08g8rUPK",
       "link_produto": "https://www.amazon.com.br/dp/B0HBWR14NG?tag=alphadominu09-20"
+    },
+    {
+      "chave": "mercadolivre:MLB4703022818",
+      "loja": "mercadolivre",
+      "nome": "Kit 6 Cuecas Boxer Reebok Microfibra Sem Costura Original",
+      "data": "2026-10-13T08:21-03:00",
+      "link": "https://meli.la/1GX7MuJ",
+      "link_produto": "https://meli.la/1GX7MuJ",
+      "slot": 8
     }
   ],
   "slots_usados": {
@@ -725,6 +714,9 @@
       21,
       22,
       23
+    ],
+    "2026-10-13": [
+      8
     ]
   },
   "shopee_buscado_em": "",
@@ -937,6 +929,21 @@
     "promobit_visto": 3109739
   },
   "ultimos": [
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB4703022818",
+      "origem": "promonocontext",
+      "link": "https://meli.la/1GX7MuJ",
+      "link_produto": "https://meli.la/1GX7MuJ",
+      "post_origem": "https://t.me/promonocontext/126031",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_643360-MLB104967538769_012026-O.webp",
+      "nome": "Kit 6 Cuecas Boxer Reebok Microfibra Sem Costura Original",
+      "cupom_loja": "Ative o cupom de 5% 📌",
+      "de": 299.0,
+      "por": 64.0,
+      "titulo": "OFERTA!",
+      "cupom": "Ative o cupom de 5% 📌"
+    },
     {
       "loja": "amazon",
       "chave": "amazon:B0HBWR14NG",
@@ -1430,15 +1437,6 @@
       "nome": "Bicicleta Ergométrica Bike Spinning 6kg Sensação Inércia Fitness",
       "de": 1094.0,
       "por": 458.0
-    },
-    {
-      "loja": "amazon",
-      "link": "https://link.amazon/B05qTBYbL",
-      "chave": "amazon:https://link.amazon/B05qTBYbL",
-      "foto": "AgACAgEAAxkDAAOHasyabvyEah37Pnhy65SFG6guPjsAAjQQaxvw92FG7I2ItIePsQ4BAAMCAAN4AAM9BA",
-      "nome": "Camiseta Masculina Academia Trifil Poliamida Dry Fit",
-      "de": 116.99,
-      "por": 56.99
     }
   ],
   "lixeira": [
