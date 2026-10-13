@@ -1263,24 +1263,6 @@
     },
     {
       "loja": "amazon",
-      "chave": "amazon:B0F3CQG1ZC",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0F3CQG1ZC?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0F3CQG1ZC?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/220552",
-      "link_canal": "https://www.amazon.com.br/dp/B0F3CQG1ZC?tag=promof26-20",
-      "foto": "AgACAgEAAxkDAAICM2rOU-vfP5i4tGf9xbRbCCEKDiy9AAJpDWsb7AJxRruYTF1twROzAQADAgADeAADPQQ",
-      "foto_origem": "canal",
-      "nome": "Cadeira gamer fofa com orelhas de coelho, com apoio de pés e apoio de cabeça (Rosa)",
-      "por": 284.0,
-      "titulo": "Preço bom assim não dura, corre!",
-      "id": 294,
-      "garimpado_em": "2026-10-13T12:53-03:00",
-      "na_revisao_desde": "2026-10-13T12:53-03:00",
-      "msg_id": 563
-    },
-    {
-      "loja": "amazon",
       "chave": "amazon:B095D664HJ",
       "origem": "promooeasy",
       "link": "https://www.amazon.com.br/dp/B095D664HJ?tag=alphadominu09-20",
@@ -2185,6 +2167,25 @@
   "lixeira": [
     {
       "loja": "amazon",
+      "chave": "amazon:B0F3CQG1ZC",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0F3CQG1ZC?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0F3CQG1ZC?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220552",
+      "link_canal": "https://www.amazon.com.br/dp/B0F3CQG1ZC?tag=promof26-20",
+      "foto": "AgACAgEAAxkDAAICM2rOU-vfP5i4tGf9xbRbCCEKDiy9AAJpDWsb7AJxRruYTF1twROzAQADAgADeAADPQQ",
+      "foto_origem": "canal",
+      "nome": "Cadeira gamer fofa com orelhas de coelho, com apoio de pés e apoio de cabeça (Rosa)",
+      "por": 284.0,
+      "titulo": "Preço bom assim não dura, corre!",
+      "id": 294,
+      "garimpado_em": "2026-10-13T12:53-03:00",
+      "na_revisao_desde": "2026-10-13T12:53-03:00",
+      "removido_em": "2026-10-13T13:05:04-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "amazon",
       "chave": "amazon:B0C3JGG83X",
       "origem": "promooeasy",
       "link": "https://www.amazon.com.br/dp/B0C3JGG83X?tag=alphadominu09-20",
@@ -2337,7 +2338,7 @@
       "promooeasy": {
         "achados": 56,
         "aprovados": 2,
-        "reprovados": 47
+        "reprovados": 48
       },
       "xetdaspromocoes": {
         "achados": 11,
