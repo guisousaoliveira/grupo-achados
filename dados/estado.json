@@ -232,6 +232,25 @@
       "garimpado_em": "2026-10-12T22:00-03:00",
       "na_revisao_desde": "2026-10-12T22:00-03:00",
       "aprovado_em": "2026-10-12T22:04-03:00"
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0CZPSD2SC",
+      "origem": "lobaopromo",
+      "link": "https://link.amazon/B0grXIV5Z",
+      "link_produto": "https://link.amazon/B0grXIV5Z",
+      "post_origem": "https://t.me/lobaopromo/188653",
+      "link_canal": "https://amzlink.to/az0Xk5XvdVliU",
+      "foto": "AgACAgQAAxkDAAIBO2rNlXWTywrQFqu1Jb9aYmlkkBXaAAIEEGsb_7TsUN3Lpm60UkBCAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Stanley Garrafa Térmica Aerolight Transit Cream, 591ml",
+      "titulo": "Garrafa Stanley para manter sua bebida gelada",
+      "garimpado_em": "2026-10-12T23:20-03:00",
+      "na_revisao_desde": "2026-10-12T23:20-03:00",
+      "de": 269.0,
+      "por": 165.0,
+      "parcelas": 5,
+      "aprovado_em": "2026-10-12T23:26-03:00"
     }
   ],
   "postados": [
@@ -648,23 +667,6 @@
       "garimpado_em": "2026-10-12T23:10-03:00",
       "na_revisao_desde": "2026-10-12T23:10-03:00",
       "msg_id": 314
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0CZPSD2SC",
-      "origem": "lobaopromo",
-      "link": "https://www.amazon.com.br/dp/B0CZPSD2SC?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0CZPSD2SC?tag=alphadominu09-20",
-      "post_origem": "https://t.me/lobaopromo/188653",
-      "link_canal": "https://amzlink.to/az0Xk5XvdVliU",
-      "foto": "AgACAgQAAxkDAAIBO2rNlXWTywrQFqu1Jb9aYmlkkBXaAAIEEGsb_7TsUN3Lpm60UkBCAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Stanley Garrafa Térmica Aerolight Transit Cream, 591ml",
-      "titulo": "Garrafa Stanley para manter sua bebida gelada",
-      "id": 158,
-      "garimpado_em": "2026-10-12T23:20-03:00",
-      "na_revisao_desde": "2026-10-12T23:20-03:00",
-      "msg_id": 315
     }
   ],
   "proximo_id": 159,
@@ -1676,7 +1678,7 @@
       },
       "lobaopromo": {
         "achados": 22,
-        "aprovados": 8,
+        "aprovados": 9,
         "reprovados": 12
       },
       "urubupromo": {
