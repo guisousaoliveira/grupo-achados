@@ -1151,25 +1151,6 @@
     },
     {
       "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB46003229",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/relogio-casio-mini-vintage-feminino-prata-la670wa-7df-cronometro-calendario-alarme-prateado/p/MLB46003229?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/relogio-casio-mini-vintage-feminino-prata-la670wa-7df-cronometro-calendario-alarme-prateado/p/MLB46003229",
-      "post_origem": "https://t.me/lobaopromo/188866",
-      "link_canal": "https://meli.la/2h6NQRX",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_808758-MLA99368013250_112025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Relógio Casio Mini Vintage Feminino Prata La670wa-7df Cronometro",
-      "de": 220.0,
-      "por": 92.0,
-      "titulo": "Preço de queima, 58% mais barato.",
-      "id": 305,
-      "garimpado_em": "2026-10-13T13:35-03:00",
-      "na_revisao_desde": "2026-10-13T13:35-03:00",
-      "msg_id": 580
-    },
-    {
-      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB3836604070",
       "origem": "lobaopromo",
       "link": "https://produto.mercadolivre.com.br/MLB-3836604070-conjunto-bermuda-feminino-academia-blackout-zero-transparenc-_JM?pdp_filters=item_id%3AMLB3836604070&matt_word=alphapromo&matt_tool=59136903",
@@ -2120,6 +2101,26 @@
   ],
   "lixeira": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB46003229",
+      "origem": "lobaopromo",
+      "link": "https://www.mercadolivre.com.br/relogio-casio-mini-vintage-feminino-prata-la670wa-7df-cronometro-calendario-alarme-prateado/p/MLB46003229?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/relogio-casio-mini-vintage-feminino-prata-la670wa-7df-cronometro-calendario-alarme-prateado/p/MLB46003229",
+      "post_origem": "https://t.me/lobaopromo/188866",
+      "link_canal": "https://meli.la/2h6NQRX",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_808758-MLA99368013250_112025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Relógio Casio Mini Vintage Feminino Prata La670wa-7df Cronometro",
+      "de": 220.0,
+      "por": 92.0,
+      "titulo": "Preço de queima, 58% mais barato.",
+      "id": 305,
+      "garimpado_em": "2026-10-13T13:35-03:00",
+      "na_revisao_desde": "2026-10-13T13:35-03:00",
+      "removido_em": "2026-10-13T13:44:51-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0FWV31KYF",
       "origem": "promooeasy",
@@ -2631,7 +2632,7 @@
       "lobaopromo": {
         "achados": 24,
         "aprovados": 8,
-        "reprovados": 9
+        "reprovados": 10
       },
       "promooeasy": {
         "achados": 60,
