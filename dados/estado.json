@@ -644,15 +644,34 @@
       "garimpado_em": "2026-10-12T22:30-03:00",
       "na_revisao_desde": "2026-10-12T22:30-03:00",
       "msg_id": 304
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B098BX31JL",
+      "origem": "gatunopromos",
+      "link": "https://www.amazon.com.br/dp/B098BX31JL?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B098BX31JL?tag=alphadominu09-20",
+      "post_origem": "https://t.me/gatunopromos/124999",
+      "link_canal": "https://amzn.divulgador.link/Qqw6TcVj",
+      "foto": "AgACAgQAAxkDAAIBMmrNjAzUjylgLNjIIuXp61Ed-KbyAAIzD2sbVRp1UkUM0mhtA6y1AQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Baby Dove Sabonete Líquido De Glicerina Hidratação Relaxante 400mL",
+      "de": 29.58,
+      "por": 15.29,
+      "titulo": "Sabonete líquido Baby Dove com 48% off",
+      "id": 150,
+      "garimpado_em": "2026-10-12T22:40-03:00",
+      "na_revisao_desde": "2026-10-12T22:40-03:00",
+      "msg_id": 306
     }
   ],
-  "proximo_id": 150,
+  "proximo_id": 151,
   "radar": {
     "visto": {
       "xetdaspromocoes": 84504,
-      "lobaopromo": 188633,
-      "gatunopromos": 124998,
-      "pobregram": 41785,
+      "lobaopromo": 188634,
+      "gatunopromos": 125001,
+      "pobregram": 41786,
       "urubupromo": 41594,
       "tudonapromo": 101633,
       "promonocontext": 126051,
@@ -664,7 +683,7 @@
       "achadosdotb": 11757
     },
     "dia": "2026-10-12",
-    "hoje": 118,
+    "hoje": 119,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -791,27 +810,28 @@
       "mercadolivre:MLB76319957",
       "mercadolivre:MLB4689433023",
       "amazon:B0DJ19R8H7",
-      "amazon:B077VNK4CN"
+      "amazon:B077VNK4CN",
+      "amazon:B098BX31JL"
     ],
     "ultima": {
-      "em": "2026-10-12T22:30:23-03:00",
+      "em": "2026-10-12T22:40:18-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 16,
+      "posts_novos": 15,
       "do_nicho": 1,
       "repetidas": 0,
       "novas": 1,
       "limite_dia": false,
-      "promobit": 1
+      "promobit": 0
     },
     "hora": "2026-10-12T22",
-    "nesta_hora": 5,
+    "nesta_hora": 6,
     "promobit_hora": "2026-10-12T22",
     "promobit_nesta_hora": 1,
-    "promobit_visto": 3109384
+    "promobit_visto": 3109398
   },
   "ultimos": [
     {
@@ -1471,7 +1491,7 @@
         "reprovados": 14
       },
       "gatunopromos": {
-        "achados": 2,
+        "achados": 3,
         "aprovados": 1,
         "reprovados": 1
       },
