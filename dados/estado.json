@@ -3,21 +3,6 @@
   "fila": [
     {
       "loja": "amazon",
-      "chave": "amazon:B0HC8MGM1Q",
-      "origem": "aquitempechincha",
-      "link": "https://link.amazon/B09kiC9uZ",
-      "link_produto": "https://www.amazon.com.br/dp/B0HC8MGM1Q?tag=alphadominu09-20",
-      "post_origem": "https://t.me/aquitempechincha/281095",
-      "link_canal": "https://aquitempechincha.com.br/mb8rtr0",
-      "nome": "Smart TV Semp 43 Polegadas LED Full HD S42R Roku 43S42R",
-      "pix": true,
-      "por": 1358.0,
-      "garimpado_em": "2026-10-12T14:20-03:00",
-      "foto": "AgACAgEAAxkDAAOvas0XKz2J1j4OBpYTNYmnksaBcX4AAjANaxvw92lGIdn8RtslgxEBAAMCAAN5AAM9BA",
-      "aprovado_em": "2026-10-12T14:22-03:00"
-    },
-    {
-      "loja": "amazon",
       "chave": "amazon:B0FH6YRCL5",
       "origem": "promobit",
       "fonte": "promobit",
@@ -590,6 +575,15 @@
       "data": "2026-10-12T21:23-03:00",
       "link": "https://meli.la/287p9eB",
       "link_produto": "https://www.mercadolivre.com.br/body-splash-masculino-barbarius-200ml-primacial-perfume-amadeirado/p/MLB53342774"
+    },
+    {
+      "chave": "amazon:B0HC8MGM1Q",
+      "loja": "amazon",
+      "nome": "Smart TV Semp 43 Polegadas LED Full HD S42R Roku 43S42R",
+      "data": "2026-10-12T21:24-03:00",
+      "link": "https://link.amazon/B09kiC9uZ",
+      "link_produto": "https://www.amazon.com.br/dp/B0HC8MGM1Q?tag=alphadominu09-20",
+      "slot": 21
     }
   ],
   "slots_usados": {
@@ -609,7 +603,8 @@
       17,
       18,
       19,
-      20
+      20,
+      21
     ]
   },
   "shopee_buscado_em": "",
@@ -829,6 +824,18 @@
     "promobit_visto": 3109318
   },
   "ultimos": [
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0HC8MGM1Q",
+      "origem": "aquitempechincha",
+      "link": "https://link.amazon/B09kiC9uZ",
+      "link_produto": "https://www.amazon.com.br/dp/B0HC8MGM1Q?tag=alphadominu09-20",
+      "post_origem": "https://t.me/aquitempechincha/281095",
+      "nome": "Smart TV Semp 43 Polegadas LED Full HD S42R Roku 43S42R",
+      "pix": true,
+      "por": 1358.0,
+      "foto": "AgACAgEAAxkDAAOvas0XKz2J1j4OBpYTNYmnksaBcX4AAjANaxvw92lGIdn8RtslgxEBAAMCAAN5AAM9BA"
+    },
     {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB53342774",
