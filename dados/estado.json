@@ -1281,25 +1281,6 @@
     },
     {
       "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB3102506128",
-      "origem": "lobaopromo",
-      "link": "https://produto.mercadolivre.com.br/MLB-3102506128-top-puma-original-feminino-alta-sustentaco-academia-fitness-_JM?pdp_filters=item_id%3AMLB3102506128&matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-3102506128-top-puma-original-feminino-alta-sustentaco-academia-fitness-_JM?pdp_filters=item_id%3AMLB3102506128",
-      "post_origem": "https://t.me/lobaopromo/188884",
-      "link_canal": "https://meli.la/2KoX7xZ",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_899152-MLB113410235826_072026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Top Puma Original Feminino Alta Sustentação Academia Fitness",
-      "de": 138.0,
-      "por": 39.0,
-      "titulo": "72% off, isso aqui não fica muito tempo assim.",
-      "id": 317,
-      "garimpado_em": "2026-10-13T14:14-03:00",
-      "na_revisao_desde": "2026-10-13T14:14-03:00",
-      "msg_id": 597
-    },
-    {
-      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB2178289241",
       "origem": "lobaopromo",
       "link": "https://produto.mercadolivre.com.br/MLB-2178289241-camisa-termica-voker-academia-proteco-solar-uv-dry-fit-_JM?pdp_filters=item_id%3AMLB2178289241&matt_word=alphapromo&matt_tool=59136903",
@@ -2228,6 +2209,26 @@
   ],
   "lixeira": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB3102506128",
+      "origem": "lobaopromo",
+      "link": "https://produto.mercadolivre.com.br/MLB-3102506128-top-puma-original-feminino-alta-sustentaco-academia-fitness-_JM?pdp_filters=item_id%3AMLB3102506128&matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-3102506128-top-puma-original-feminino-alta-sustentaco-academia-fitness-_JM?pdp_filters=item_id%3AMLB3102506128",
+      "post_origem": "https://t.me/lobaopromo/188884",
+      "link_canal": "https://meli.la/2KoX7xZ",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_899152-MLB113410235826_072026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Top Puma Original Feminino Alta Sustentação Academia Fitness",
+      "de": 138.0,
+      "por": 39.0,
+      "titulo": "72% off, isso aqui não fica muito tempo assim.",
+      "id": 317,
+      "garimpado_em": "2026-10-13T14:14-03:00",
+      "na_revisao_desde": "2026-10-13T14:14-03:00",
+      "removido_em": "2026-10-13T14:29:58-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:318625865.58217322336",
       "origem": "promooeasy",
@@ -2780,7 +2781,7 @@
       "lobaopromo": {
         "achados": 28,
         "aprovados": 8,
-        "reprovados": 10
+        "reprovados": 11
       },
       "promooeasy": {
         "achados": 61,
