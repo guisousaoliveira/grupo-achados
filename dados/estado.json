@@ -333,6 +333,25 @@
       "garimpado_em": "2026-10-13T09:36-03:00",
       "na_revisao_desde": "2026-10-13T09:36-03:00",
       "aprovado_em": "2026-10-13T09:58-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB25757804",
+      "origem": "xetdaspromocoes",
+      "link": "https://meli.la/1vmbMZ6",
+      "link_produto": "https://meli.la/1vmbMZ6",
+      "post_origem": "https://t.me/xetdaspromocoes/84546",
+      "link_canal": "https://meli.la/1y3vjAq",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_840594-MLA99966063943_112025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Fone De Ouvido Bluetooth TWS Dapon F25 Touch Sem Fio Com Microfone",
+      "pix": true,
+      "de": 140.0,
+      "por": 66.0,
+      "titulo": "Fone bluetooth com 53% off",
+      "garimpado_em": "2026-10-13T09:37-03:00",
+      "na_revisao_desde": "2026-10-13T09:37-03:00",
+      "aprovado_em": "2026-10-13T09:59-03:00"
     }
   ],
   "postados": [
@@ -833,26 +852,6 @@
       "garimpado_em": "2026-10-13T09:36-03:00",
       "na_revisao_desde": "2026-10-13T09:36-03:00",
       "msg_id": 415
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB25757804",
-      "origem": "xetdaspromocoes",
-      "link": "https://www.mercadolivre.com.br/fone-de-ouvido-bluetooth-tws-dapon-f25-touch-sem-fio-com-microfone-cor-preto/p/MLB25757804?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/fone-de-ouvido-bluetooth-tws-dapon-f25-touch-sem-fio-com-microfone-cor-preto/p/MLB25757804",
-      "post_origem": "https://t.me/xetdaspromocoes/84546",
-      "link_canal": "https://meli.la/1y3vjAq",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_840594-MLA99966063943_112025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Fone De Ouvido Bluetooth TWS Dapon F25 Touch Sem Fio Com Microfone",
-      "pix": true,
-      "de": 140.0,
-      "por": 66.0,
-      "titulo": "Fone bluetooth Dapon F25 com 53% off",
-      "id": 212,
-      "garimpado_em": "2026-10-13T09:37-03:00",
-      "na_revisao_desde": "2026-10-13T09:37-03:00",
-      "msg_id": 417
     },
     {
       "loja": "mercadolivre",
@@ -2448,7 +2447,7 @@
       },
       "xetdaspromocoes": {
         "achados": 3,
-        "aprovados": 2,
+        "aprovados": 3,
         "reprovados": 0
       },
       "promotop": {
