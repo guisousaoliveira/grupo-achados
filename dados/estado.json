@@ -1663,26 +1663,6 @@
       "msg_id": 628
     },
     {
-      "loja": "shopee",
-      "chave": "shopee:419739190.23694205612",
-      "origem": "promooeasy",
-      "link": "https://shopee.com.br/product/419739190/23694205612",
-      "link_produto": "https://shopee.com.br/product/419739190/23694205612",
-      "post_origem": "https://t.me/promooeasy/220638",
-      "link_canal": "https://s.shopee.com.br/9fLdku3UaZ?lp=aff",
-      "precisa_link": true,
-      "foto": "AgACAgEAAxkDAAICdWrOeORVXc1rF6wXm9s-qCBlVOgKAAKLDWsb7AJxRioaVvCn8qO2AQADAgADeAADPQQ",
-      "foto_origem": "canal",
-      "nome": "Conjunto Fitness Feminino Legging + Top Academia Suplex Zero Transparência",
-      "de": 119.8,
-      "por": 59.9,
-      "titulo": "Conjunto fitness com 50% de desconto",
-      "id": 348,
-      "garimpado_em": "2026-10-13T15:30-03:00",
-      "na_revisao_desde": "2026-10-13T15:30-03:00",
-      "msg_id": 629
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB19739350",
       "origem": "promonocontext",
@@ -2621,6 +2601,27 @@
   ],
   "lixeira": [
     {
+      "loja": "shopee",
+      "chave": "shopee:419739190.23694205612",
+      "origem": "promooeasy",
+      "link": "https://shopee.com.br/product/419739190/23694205612",
+      "link_produto": "https://shopee.com.br/product/419739190/23694205612",
+      "post_origem": "https://t.me/promooeasy/220638",
+      "link_canal": "https://s.shopee.com.br/9fLdku3UaZ?lp=aff",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAICdWrOeORVXc1rF6wXm9s-qCBlVOgKAAKLDWsb7AJxRioaVvCn8qO2AQADAgADeAADPQQ",
+      "foto_origem": "canal",
+      "nome": "Conjunto Fitness Feminino Legging + Top Academia Suplex Zero Transparência",
+      "de": 119.8,
+      "por": 59.9,
+      "titulo": "Conjunto fitness com 50% de desconto",
+      "id": 348,
+      "garimpado_em": "2026-10-13T15:30-03:00",
+      "na_revisao_desde": "2026-10-13T15:30-03:00",
+      "removido_em": "2026-10-13T15:43:55-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0H4NLFX1V",
       "origem": "promooeasy",
@@ -3380,7 +3381,7 @@
       "promooeasy": {
         "achados": 74,
         "aprovados": 2,
-        "reprovados": 59
+        "reprovados": 60
       },
       "xetdaspromocoes": {
         "achados": 13,
