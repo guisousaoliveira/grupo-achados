@@ -1450,25 +1450,6 @@
       "garimpado_em": "2026-10-13T14:54-03:00",
       "na_revisao_desde": "2026-10-13T14:54-03:00",
       "msg_id": 613
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0F7JZMVKF",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B0F7JZMVKF?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0F7JZMVKF?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/smart-tv-tcl-55-qd-mini-led-4k-wifi-bluetooth-55c6k-3110810/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3110810/",
-      "nome": "Smart TV TCL 55 QD-Mini LED 4K WiFi Bluetooth 55C6K",
-      "por": 2890.0,
-      "foto": "AgACAgQAAxkDAAICZmrOcd41KunM7t7rWRDClkRZO0o0AAJmuTEbcotkUXHThOlTk9Q8AQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "titulo": "Smart TV TCL 55 para cinema em casa",
-      "id": 333,
-      "garimpado_em": "2026-10-13T15:01-03:00",
-      "na_revisao_desde": "2026-10-13T15:01-03:00",
-      "msg_id": 614
     }
   ],
   "proximo_id": 352,
@@ -2390,6 +2371,26 @@
   "lixeira": [
     {
       "loja": "amazon",
+      "chave": "amazon:B0F7JZMVKF",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0F7JZMVKF?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0F7JZMVKF?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/smart-tv-tcl-55-qd-mini-led-4k-wifi-bluetooth-55c6k-3110810/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3110810/",
+      "nome": "Smart TV TCL 55 QD-Mini LED 4K WiFi Bluetooth 55C6K",
+      "por": 2890.0,
+      "foto": "AgACAgQAAxkDAAICZmrOcd41KunM7t7rWRDClkRZO0o0AAJmuTEbcotkUXHThOlTk9Q8AQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "titulo": "Smart TV TCL 55 para cinema em casa",
+      "id": 333,
+      "garimpado_em": "2026-10-13T15:01-03:00",
+      "na_revisao_desde": "2026-10-13T15:01-03:00",
+      "removido_em": "2026-10-13T15:48:02-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "amazon",
       "chave": "amazon:B0GGTXJD61",
       "origem": "promobit",
       "fonte": "promobit",
@@ -3175,25 +3176,6 @@
       "na_revisao_desde": "2026-10-13T12:50-03:00",
       "removido_em": "2026-10-13T13:05:15-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0FHQ2PVVB",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0FHQ2PVVB?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0FHQ2PVVB?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/220538",
-      "link_canal": "https://www.amazon.com.br/AOC-Membrana-Compat%C3%ADvel-Notebook-Escrit%C3%B3rio/dp/B0FHQ2PVVB?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAICJWrOUGfwEpwFbvbuhTWtWKP2VkULAALlDmsbhAp0Ur3A6VQvvgb2AQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "nome": "AOC GK116 Teclado com fio, Teclado Membrana Gamer RGB, Compatível com PC e Notebook, Jogo E Escritório + Frete Grátis",
-      "por": 93.1,
-      "titulo": "Preço bom, vale conferir.",
-      "id": 292,
-      "garimpado_em": "2026-10-13T12:51-03:00",
-      "na_revisao_desde": "2026-10-13T12:51-03:00",
-      "removido_em": "2026-10-13T13:05:11-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -3258,7 +3240,7 @@
       "promobit": {
         "achados": 22,
         "aprovados": 3,
-        "reprovados": 16
+        "reprovados": 17
       },
       "lobaopromo": {
         "achados": 35,
