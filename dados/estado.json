@@ -1319,26 +1319,6 @@
       "msg_id": 598
     },
     {
-      "loja": "shopee",
-      "chave": "shopee:318625865.58217322336",
-      "origem": "promooeasy",
-      "link": "https://shopee.com.br/product/318625865/58217322336",
-      "link_produto": "https://shopee.com.br/product/318625865/58217322336",
-      "post_origem": "https://t.me/promooeasy/220583",
-      "link_canal": "https://s.shopee.com.br/AAHuG5znhQ?lp=aff",
-      "precisa_link": true,
-      "foto": "AgACAgEAAxkDAAICVGrOZrImlNfR_TRuWhTze1MdfVMEAAJ4DWsb7AJxRmT-m_XXDCTRAQADAgADeAADPQQ",
-      "foto_origem": "canal",
-      "nome": "Placa de Video INNO3D GeForce RTX 5060 Twin X2 8GB por R",
-      "por": 2697.0,
-      "cupom": "AQUI",
-      "titulo": "Placa de vídeo RTX 5060 para jogos em 1080p",
-      "id": 319,
-      "garimpado_em": "2026-10-13T14:15-03:00",
-      "na_revisao_desde": "2026-10-13T14:15-03:00",
-      "msg_id": 599
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB51868065",
       "origem": "xetdaspromocoes",
@@ -2248,6 +2228,27 @@
   ],
   "lixeira": [
     {
+      "loja": "shopee",
+      "chave": "shopee:318625865.58217322336",
+      "origem": "promooeasy",
+      "link": "https://shopee.com.br/product/318625865/58217322336",
+      "link_produto": "https://shopee.com.br/product/318625865/58217322336",
+      "post_origem": "https://t.me/promooeasy/220583",
+      "link_canal": "https://s.shopee.com.br/AAHuG5znhQ?lp=aff",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAICVGrOZrImlNfR_TRuWhTze1MdfVMEAAJ4DWsb7AJxRmT-m_XXDCTRAQADAgADeAADPQQ",
+      "foto_origem": "canal",
+      "nome": "Placa de Video INNO3D GeForce RTX 5060 Twin X2 8GB por R",
+      "por": 2697.0,
+      "cupom": "AQUI",
+      "titulo": "Placa de vídeo RTX 5060 para jogos em 1080p",
+      "id": 319,
+      "garimpado_em": "2026-10-13T14:15-03:00",
+      "na_revisao_desde": "2026-10-13T14:15-03:00",
+      "removido_em": "2026-10-13T14:29:56-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB46003229",
       "origem": "lobaopromo",
@@ -2784,7 +2785,7 @@
       "promooeasy": {
         "achados": 61,
         "aprovados": 2,
-        "reprovados": 55
+        "reprovados": 56
       },
       "xetdaspromocoes": {
         "achados": 12,
