@@ -350,25 +350,6 @@
       "na_revisao_desde": "2026-10-13T08:31-03:00",
       "de": 69.31,
       "aprovado_em": "2026-10-13T09:20-03:00"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB5513844630",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/2GQH2RJ",
-      "link_produto": "https://meli.la/2GQH2RJ",
-      "post_origem": "https://t.me/lobaopromo/188714",
-      "link_canal": "https://meli.la/2vDqDpt",
-      "foto": "AgACAgQAAxkDAAIBa2rOFH1iRx_TcFBeg7_0uXLYbLInAAKPD2sbiyZVUqVc9jNGOI8VAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Camisa Polo Tommy Masculina",
-      "pix": true,
-      "de": 350.0,
-      "por": 148.0,
-      "titulo": "58% off, isso aqui não fica muito tempo assim.",
-      "garimpado_em": "2026-10-13T08:22-03:00",
-      "na_revisao_desde": "2026-10-13T08:22-03:00",
-      "aprovado_em": "2026-10-13T09:21-03:00"
     }
   ],
   "postados": [
@@ -793,6 +774,14 @@
       "data": "2026-10-13T09:15-03:00",
       "link": "https://link.amazon/B0ezvVAjk",
       "link_produto": "https://link.amazon/B0ezvVAjk"
+    },
+    {
+      "chave": "mercadolivre:MLB5513844630",
+      "loja": "mercadolivre",
+      "nome": "Camisa Polo Tommy Masculina",
+      "data": "2026-10-13T09:21-03:00",
+      "link": "https://meli.la/2GQH2RJ",
+      "link_produto": "https://meli.la/2GQH2RJ"
     }
   ],
   "slots_usados": {
@@ -1050,6 +1039,20 @@
     "promobit_visto": 3109817
   },
   "ultimos": [
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB5513844630",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/2GQH2RJ",
+      "link_produto": "https://meli.la/2GQH2RJ",
+      "post_origem": "https://t.me/lobaopromo/188714",
+      "foto": "AgACAgQAAxkDAAIBa2rOFH1iRx_TcFBeg7_0uXLYbLInAAKPD2sbiyZVUqVc9jNGOI8VAQADAgADeAADPQQ",
+      "nome": "Camisa Polo Tommy Masculina",
+      "pix": true,
+      "de": 350.0,
+      "por": 148.0,
+      "titulo": "58% off, isso aqui não fica muito tempo assim."
+    },
     {
       "loja": "amazon",
       "chave": "amazon:B0B2712FTY",
@@ -1552,16 +1555,6 @@
       "nome": "soundcore P30i da Anker, ANC Fone de Ouvido Bluetooth 5.4 Sem Fio, TWS",
       "de": 369.0,
       "por": 186.67
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB76427437",
-      "link": "https://meli.la/1JvU7yJ",
-      "link_produto": "https://www.mercadolivre.com.br/lanterna-tatica-recarregavel-atualizada-led-visor-digital-zoom-telescopico-abs-3-modos-iluminacao-usb-display-digital-zoom-potente-alta-potencia-commlite/p/MLB76427437",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_833234-MLA116884183450_092026-O.webp",
-      "nome": "Lanterna Tática Recarregável Atualizada Led Visor Digital Zoom",
-      "de": 57.0,
-      "por": 19.0
     }
   ],
   "lixeira": [
