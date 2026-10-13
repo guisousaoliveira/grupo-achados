@@ -1546,27 +1546,6 @@
       "garimpado_em": "2026-10-13T15:05-03:00",
       "na_revisao_desde": "2026-10-13T15:05-03:00",
       "msg_id": 619
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:1537142489.23198696529",
-      "origem": "promooeasy",
-      "link": "https://shopee.com.br/product/1537142489/23198696529",
-      "link_produto": "https://shopee.com.br/product/1537142489/23198696529",
-      "post_origem": "https://t.me/promooeasy/220625",
-      "link_canal": "https://s.shopee.com.br/AUukiihTRV?lp=aff",
-      "precisa_link": true,
-      "foto": "AgACAgEAAxkDAAICbGrOcwJNAR4QTu5eUY6mJ-vY0KLcAAKHDWsb7AJxRnZVpwXObnWiAQADAgADeAADPQQ",
-      "foto_origem": "canal",
-      "nome": "Samsung Smart TV 43 FHD F6000F 2025, Xbox Cloud Gaming, Canais Gratuitos",
-      "pix": true,
-      "por": 1242.0,
-      "cupom": "AQUI",
-      "titulo": "Smart TV Samsung 43 FHD com desconto",
-      "id": 339,
-      "garimpado_em": "2026-10-13T15:05-03:00",
-      "na_revisao_desde": "2026-10-13T15:05-03:00",
-      "msg_id": 620
     }
   ],
   "proximo_id": 351,
@@ -2487,6 +2466,28 @@
   ],
   "lixeira": [
     {
+      "loja": "shopee",
+      "chave": "shopee:1537142489.23198696529",
+      "origem": "promooeasy",
+      "link": "https://shopee.com.br/product/1537142489/23198696529",
+      "link_produto": "https://shopee.com.br/product/1537142489/23198696529",
+      "post_origem": "https://t.me/promooeasy/220625",
+      "link_canal": "https://s.shopee.com.br/AUukiihTRV?lp=aff",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAICbGrOcwJNAR4QTu5eUY6mJ-vY0KLcAAKHDWsb7AJxRnZVpwXObnWiAQADAgADeAADPQQ",
+      "foto_origem": "canal",
+      "nome": "Samsung Smart TV 43 FHD F6000F 2025, Xbox Cloud Gaming, Canais Gratuitos",
+      "pix": true,
+      "por": 1242.0,
+      "cupom": "AQUI",
+      "titulo": "Smart TV Samsung 43 FHD com desconto",
+      "id": 339,
+      "garimpado_em": "2026-10-13T15:05-03:00",
+      "na_revisao_desde": "2026-10-13T15:05-03:00",
+      "removido_em": "2026-10-13T15:46:39-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B07G7HRHYP",
       "origem": "promobit",
@@ -3270,27 +3271,6 @@
       "na_revisao_desde": "2026-10-13T12:18-03:00",
       "removido_em": "2026-10-13T12:36:36-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:1384046689.58254621747",
-      "origem": "promooeasy",
-      "link": "https://shopee.com.br/product/1384046689/58254621747",
-      "link_produto": "https://shopee.com.br/product/1384046689/58254621747",
-      "post_origem": "https://t.me/promooeasy/220512",
-      "link_canal": "https://s.shopee.com.br/9pf3ifAqHE?lp=aff",
-      "precisa_link": true,
-      "foto": "AgACAgEAAxkDAAICCGrOSPjrC3eZgktIRvvlOBNOWsUkAAJSDWsb7AJxRrmrzimUw0QDAQADAgADeAADPQQ",
-      "foto_origem": "canal",
-      "nome": "Óculos de sol feminino oval retrô, padrão tartaruga, estilo moderno",
-      "de": 93.96,
-      "por": 24.43,
-      "titulo": "Óculos retrô estilo tartaruga com 74% off",
-      "id": 277,
-      "garimpado_em": "2026-10-13T12:18-03:00",
-      "na_revisao_desde": "2026-10-13T12:18-03:00",
-      "removido_em": "2026-10-13T12:36:31-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -3365,7 +3345,7 @@
       "promooeasy": {
         "achados": 74,
         "aprovados": 2,
-        "reprovados": 62
+        "reprovados": 63
       },
       "xetdaspromocoes": {
         "achados": 13,
