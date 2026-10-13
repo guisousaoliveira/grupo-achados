@@ -265,6 +265,24 @@
       "na_revisao_desde": "2026-10-12T21:50-03:00",
       "pix": true,
       "aprovado_em": "2026-10-12T22:01-03:00"
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0BBJPCMQM",
+      "origem": "lobaopromo",
+      "link": "https://link.amazon/B01h76z7S",
+      "link_produto": "https://link.amazon/B01h76z7S",
+      "post_origem": "https://t.me/lobaopromo/188624",
+      "link_canal": "https://amzlink.to/az0skDeERiKdv",
+      "foto": "AgACAgQAAxkDAAIBKWrNgrnzvwiKc7KiBkfbXN6qZKAFAAJ4EGsbLvVsUiJrqvr9nCZHAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Sparta Maleta de ferramentas kit com 165 peças",
+      "de": 165.0,
+      "por": 71.19,
+      "prime": true,
+      "garimpado_em": "2026-10-12T22:00-03:00",
+      "na_revisao_desde": "2026-10-12T22:00-03:00",
+      "aprovado_em": "2026-10-12T22:04-03:00"
     }
   ],
   "postados": [
@@ -614,28 +632,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0BBJPCMQM",
-      "origem": "lobaopromo",
-      "link": "https://www.amazon.com.br/dp/B0BBJPCMQM?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0BBJPCMQM?tag=alphadominu09-20",
-      "post_origem": "https://t.me/lobaopromo/188624",
-      "link_canal": "https://amzlink.to/az0skDeERiKdv",
-      "foto": "AgACAgQAAxkDAAIBKWrNgrnzvwiKc7KiBkfbXN6qZKAFAAJ4EGsbLvVsUiJrqvr9nCZHAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Sparta Maleta de ferramentas kit com 165 peças",
-      "de": 165.0,
-      "por": 71.19,
-      "prime": true,
-      "titulo": "Maleta de ferramentas com 57% off",
-      "id": 144,
-      "garimpado_em": "2026-10-12T22:00-03:00",
-      "na_revisao_desde": "2026-10-12T22:00-03:00",
-      "msg_id": 297
-    }
-  ],
+  "revisar": [],
   "proximo_id": 146,
   "radar": {
     "visto": {
@@ -1389,7 +1386,7 @@
       },
       "lobaopromo": {
         "achados": 17,
-        "aprovados": 7,
+        "aprovados": 8,
         "reprovados": 9
       },
       "urubupromo": {
