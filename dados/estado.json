@@ -2836,29 +2836,46 @@
       "garimpado_em": "2026-10-13T20:30-03:00",
       "na_revisao_desde": "2026-10-13T20:30-03:00",
       "msg_id": 760
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B09NC6Q9LF",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B09NC6Q9LF?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B09NC6Q9LF?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220889",
+      "link_canal": "https://www.amazon.com.br/dp/B09NC6Q9LF?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAIC-WrOwXnoAuIZXKUE6PRXNO2VB1fDAAJeEGsbPg11Uia-fojgnR2oAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "nome": "Chocowheyfer, Mais Mu, Wafer Proteico Sabor Chocolate Branco, 6g de Proteína, Zero Aç",
+      "por": 49.4,
+      "titulo": "Wafer proteico Mais Mu com 30% de desconto",
+      "id": 472,
+      "garimpado_em": "2026-10-13T20:40-03:00",
+      "na_revisao_desde": "2026-10-13T20:40-03:00",
+      "msg_id": 761
     }
   ],
-  "proximo_id": 472,
+  "proximo_id": 473,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84704,
-      "lobaopromo": 189051,
-      "gatunopromos": 125177,
+      "xetdaspromocoes": 84706,
+      "lobaopromo": 189058,
+      "gatunopromos": 125178,
       "pobregram": 41847,
       "urubupromo": 41629,
-      "tudonapromo": 101772,
-      "promonocontext": 126431,
-      "promooeasy": 220888,
-      "aquitempechincha": 281447,
+      "tudonapromo": 101774,
+      "promonocontext": 126432,
+      "promooeasy": 220893,
+      "aquitempechincha": 281448,
       "infoBRpromos": 67471,
-      "boletando": 76674,
+      "boletando": 76675,
       "promotop": 260233,
       "achadosdotb": 11763
     },
     "dia": "2026-10-13",
-    "hoje": 307,
+    "hoje": 308,
     "chaves": [
-      "amazon:B0H8JXN6V4",
       "amazon:B076QS31ZW",
       "amazon:B0FPDW9PLB",
       "mercadolivre:MLB18725403",
@@ -3257,27 +3274,28 @@
       "mercadolivre:MLB7065514976",
       "amazon:B0BPMQKXQB",
       "amazon:B0DVK166SV",
-      "amazon:B0HHTVYJL6"
+      "amazon:B0HHTVYJL6",
+      "amazon:B09NC6Q9LF"
     ],
     "ultima": {
-      "em": "2026-10-13T20:30:28-03:00",
+      "em": "2026-10-13T20:40:22-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 27,
-      "do_nicho": 5,
-      "repetidas": 2,
-      "novas": 3,
+      "posts_novos": 32,
+      "do_nicho": 2,
+      "repetidas": 1,
+      "novas": 1,
       "limite_dia": false,
       "promobit": 0
     },
     "hora": "2026-10-13T20",
-    "nesta_hora": 4,
+    "nesta_hora": 5,
     "promobit_hora": "2026-10-13T20",
     "promobit_nesta_hora": 4,
-    "promobit_visto": 3111748
+    "promobit_visto": 3111765
   },
   "ultimos": [
     {
@@ -4721,7 +4739,7 @@
         "reprovados": 28
       },
       "promooeasy": {
-        "achados": 115,
+        "achados": 116,
         "aprovados": 2,
         "reprovados": 81
       },
@@ -4762,5 +4780,5 @@
       }
     }
   },
-  "aviso_post": "2026-10-13 19|amazon:B0HHL6F5M6"
+  "aviso_post": "2026-10-13 20|mercadolivre:MLB23181844"
 }
