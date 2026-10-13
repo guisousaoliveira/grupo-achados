@@ -266,6 +266,25 @@
       "garimpado_em": "2026-10-12T21:11-03:00",
       "na_revisao_desde": "2026-10-12T21:11-03:00",
       "aprovado_em": "2026-10-12T21:22-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB7275398398",
+      "origem": "promonocontext",
+      "link": "https://meli.la/2pLLco8",
+      "link_produto": "https://meli.la/2pLLco8",
+      "post_origem": "https://t.me/promonocontext/126044",
+      "link_canal": "https://meli.la/2nmrvkB",
+      "foto": "AgACAgQAAxkDAAIBKGrNgFphFK-UyDbDzNfrINGk2BquAAJWEGsbLQRsUrxcJS5GM6m9AQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Boné New Era 9twent Cáqui Un Liso",
+      "de": 249.0,
+      "por": 123.49,
+      "titulo": "Boné New Era com 51% off",
+      "garimpado_em": "2026-10-12T21:50-03:00",
+      "na_revisao_desde": "2026-10-12T21:50-03:00",
+      "pix": true,
+      "aprovado_em": "2026-10-12T22:01-03:00"
     }
   ],
   "postados": [
@@ -625,25 +644,6 @@
       "garimpado_em": "2026-10-12T21:50-03:00",
       "na_revisao_desde": "2026-10-12T21:50-03:00",
       "msg_id": 295
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB7275398398",
-      "origem": "promonocontext",
-      "link": "https://www.mercadolivre.com.br/bone-new-era-9twent/up/MLBU4461930377?pdp_filters=item_id%3AMLB7275398398&matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/bone-new-era-9twent/up/MLBU4461930377?pdp_filters=item_id%3AMLB7275398398",
-      "post_origem": "https://t.me/promonocontext/126044",
-      "link_canal": "https://meli.la/2nmrvkB",
-      "foto": "AgACAgQAAxkDAAIBKGrNgFphFK-UyDbDzNfrINGk2BquAAJWEGsbLQRsUrxcJS5GM6m9AQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Boné New Era 9twent Cáqui Un Liso",
-      "de": 249.0,
-      "por": 123.0,
-      "titulo": "Boné New Era com 51% off",
-      "id": 143,
-      "garimpado_em": "2026-10-12T21:50-03:00",
-      "na_revisao_desde": "2026-10-12T21:50-03:00",
-      "msg_id": 296
     },
     {
       "loja": "amazon",
@@ -1403,7 +1403,7 @@
       },
       "promonocontext": {
         "achados": 12,
-        "aprovados": 6,
+        "aprovados": 7,
         "reprovados": 4
       },
       "boletando": {
