@@ -2,6 +2,20 @@
   "offset_telegram": 217357892,
   "fila": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB21802395",
+      "origem": "lobaopromo",
+      "link": "https://www.mercadolivre.com.br/mochila-viagem-masculina-40l-grande-impermeavel-reforcada-para-aviao-item-pessoal-suporta-ate-10kg-matein-1159-preto/p/MLB21802395?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/mochila-viagem-masculina-40l-grande-impermeavel-reforcada-para-aviao-item-pessoal-suporta-ate-10kg-matein-1159-preto/p/MLB21802395",
+      "post_origem": "https://t.me/lobaopromo/188589",
+      "foto": "AgACAgEAAxkDAAIBFmrNdp5-dk9MpnvQfMgXAyrWEO16AAKVDWsb8PdpRutW1oeh__mtAQADAgADeQADPQQ",
+      "nome": "Mochila Viagem Masculina 40L Grande Impermeável Reforçada para Avião",
+      "de": 300.0,
+      "por": 72.0,
+      "titulo": "Mochila em promoção",
+      "aprovado_em": "2026-10-12T21:42-03:00"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0FH6YRCL5",
       "origem": "promobit",
