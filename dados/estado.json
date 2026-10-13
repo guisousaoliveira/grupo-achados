@@ -266,6 +266,24 @@
       "na_revisao_desde": "2026-10-12T23:50-03:00",
       "de": 89.9,
       "aprovado_em": "2026-10-13T00:00-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB2650723879",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/1YPBC11",
+      "link_produto": "https://meli.la/1YPBC11",
+      "post_origem": "https://t.me/lobaopromo/188687",
+      "link_canal": "https://meli.la/1eGHYx9",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_625971-MLB85128237971_052025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Kit 3 Camisas Proteção Solar Uv Treino Térmica Academia",
+      "de": 129.0,
+      "por": 93.95,
+      "titulo": "Kit de camisas térmicas com 27% off",
+      "garimpado_em": "2026-10-13T00:40-03:00",
+      "na_revisao_desde": "2026-10-13T00:40-03:00",
+      "aprovado_em": "2026-10-13T00:46-03:00"
     }
   ],
   "postados": [
@@ -935,25 +953,6 @@
       "garimpado_em": "2026-10-13T00:40-03:00",
       "na_revisao_desde": "2026-10-13T00:40-03:00",
       "msg_id": 344
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB2650723879",
-      "origem": "lobaopromo",
-      "link": "https://produto.mercadolivre.com.br/MLB-2650723879-kit-3-camisas-proteco-solar-uv-treino-termica-academia-_JM?pdp_filters=item_id%3AMLB2650723879&matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-2650723879-kit-3-camisas-proteco-solar-uv-treino-termica-academia-_JM?pdp_filters=item_id%3AMLB2650723879",
-      "post_origem": "https://t.me/lobaopromo/188687",
-      "link_canal": "https://meli.la/1eGHYx9",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_625971-MLB85128237971_052025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Kit 3 Camisas Proteção Solar Uv Treino Térmica Academia",
-      "de": 129.0,
-      "por": 83.0,
-      "titulo": "Kit de camisas com 36% off",
-      "id": 179,
-      "garimpado_em": "2026-10-13T00:40-03:00",
-      "na_revisao_desde": "2026-10-13T00:40-03:00",
-      "msg_id": 345
     }
   ],
   "proximo_id": 183,
@@ -2198,7 +2197,7 @@
       },
       "lobaopromo": {
         "achados": 5,
-        "aprovados": 0,
+        "aprovados": 1,
         "reprovados": 0
       },
       "promooeasy": {
