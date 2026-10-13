@@ -1652,27 +1652,65 @@
       "garimpado_em": "2026-10-13T15:22-03:00",
       "na_revisao_desde": "2026-10-13T15:22-03:00",
       "msg_id": 627
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB59802579",
+      "origem": "promonocontext",
+      "link": "https://www.mercadolivre.com.br/caixa-de-som-jbl-grip-16w-rms-ip68-preto/p/MLB59802579?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/caixa-de-som-jbl-grip-16w-rms-ip68-preto/p/MLB59802579",
+      "post_origem": "https://t.me/promonocontext/126271",
+      "link_canal": "https://meli.la/1gRAFpd",
+      "foto": "AgACAgQAAxkDAAICdGrOeNd1tMg2jCv9UM18M9t-I2_DAAKhC2sbabzEUcBjRz2TXlK6AQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Caixa de Som JBL Grip 16W RMS IP68",
+      "por": 401.0,
+      "titulo": "Caixa de som JBL com resistência à água",
+      "id": 347,
+      "garimpado_em": "2026-10-13T15:30-03:00",
+      "na_revisao_desde": "2026-10-13T15:30-03:00",
+      "msg_id": 628
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:419739190.23694205612",
+      "origem": "promooeasy",
+      "link": "https://shopee.com.br/product/419739190/23694205612",
+      "link_produto": "https://shopee.com.br/product/419739190/23694205612",
+      "post_origem": "https://t.me/promooeasy/220638",
+      "link_canal": "https://s.shopee.com.br/9fLdku3UaZ?lp=aff",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAICdWrOeORVXc1rF6wXm9s-qCBlVOgKAAKLDWsb7AJxRioaVvCn8qO2AQADAgADeAADPQQ",
+      "foto_origem": "canal",
+      "nome": "Conjunto Fitness Feminino Legging + Top Academia Suplex Zero Transparência",
+      "de": 119.8,
+      "por": 59.9,
+      "titulo": "Conjunto fitness com 50% de desconto",
+      "id": 348,
+      "garimpado_em": "2026-10-13T15:30-03:00",
+      "na_revisao_desde": "2026-10-13T15:30-03:00",
+      "msg_id": 629
     }
   ],
-  "proximo_id": 347,
+  "proximo_id": 349,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84652,
-      "lobaopromo": 188915,
-      "gatunopromos": 125115,
-      "pobregram": 41834,
-      "urubupromo": 41617,
-      "tudonapromo": 101728,
-      "promonocontext": 126270,
-      "promooeasy": 220637,
-      "aquitempechincha": 281383,
+      "xetdaspromocoes": 84654,
+      "lobaopromo": 188920,
+      "gatunopromos": 125117,
+      "pobregram": 41835,
+      "urubupromo": 41618,
+      "tudonapromo": 101730,
+      "promonocontext": 126272,
+      "promooeasy": 220642,
+      "aquitempechincha": 281389,
       "infoBRpromos": 67459,
-      "boletando": 76664,
-      "promotop": 260222,
+      "boletando": 76665,
+      "promotop": 260224,
       "achadosdotb": 11762
     },
     "dia": "2026-10-13",
-    "hoje": 183,
+    "hoje": 185,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -1995,27 +2033,29 @@
       "mercadolivre:MLB75681377",
       "amazon:B0DJBVL2S5",
       "amazon:B08DRHBKPW",
-      "shopee:1062544851.58217401385"
+      "shopee:1062544851.58217401385",
+      "mercadolivre:MLB59802579",
+      "shopee:419739190.23694205612"
     ],
     "ultima": {
-      "em": "2026-10-13T15:20:20-03:00",
+      "em": "2026-10-13T15:30:24-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 35,
-      "do_nicho": 7,
-      "repetidas": 5,
+      "posts_novos": 39,
+      "do_nicho": 4,
+      "repetidas": 2,
       "novas": 2,
       "limite_dia": false,
       "promobit": 0
     },
     "hora": "2026-10-13T15",
-    "nesta_hora": 11,
+    "nesta_hora": 13,
     "promobit_hora": "2026-10-13T15",
     "promobit_nesta_hora": 3,
-    "promobit_visto": 3110900
+    "promobit_visto": 3110928
   },
   "ultimos": [
     {
@@ -3307,7 +3347,7 @@
         "reprovados": 12
       },
       "promooeasy": {
-        "achados": 72,
+        "achados": 73,
         "aprovados": 2,
         "reprovados": 58
       },
@@ -3322,7 +3362,7 @@
         "reprovados": 5
       },
       "promonocontext": {
-        "achados": 25,
+        "achados": 26,
         "aprovados": 3,
         "reprovados": 16
       },
@@ -3343,5 +3383,5 @@
       }
     }
   },
-  "aviso_post": "2026-10-13 14|amazon:B09YVVH7J1"
+  "aviso_post": "2026-10-13 15|amazon:B0FPNSXKKJ"
 }
