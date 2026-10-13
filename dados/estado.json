@@ -710,26 +710,46 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [],
-  "proximo_id": 190,
+  "revisar": [
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB19506691",
+      "origem": "lobaopromo",
+      "link": "https://www.mercadolivre.com.br/creatina-dark-lab-premium-pure-em-po-sem-sabor-x-300g/p/MLB19506691?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/creatina-dark-lab-premium-pure-em-po-sem-sabor-x-300g/p/MLB19506691",
+      "post_origem": "https://t.me/lobaopromo/188711",
+      "link_canal": "https://meli.la/1Dz8K8s",
+      "foto": "AgACAgQAAxkDAAIBaWrOEeT3HjV31CkLk2Xacy1xNbY8AAK-EGsbDedlUEF9BlqDVO0eAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Creatina Dark Lab Premium Pure em pó Sem sabor x 300g",
+      "de": 78.0,
+      "por": 39.0,
+      "titulo": "Pra quem leva o treino a sério.",
+      "id": 190,
+      "garimpado_em": "2026-10-13T08:11-03:00",
+      "na_revisao_desde": "2026-10-13T08:11-03:00",
+      "msg_id": 361
+    }
+  ],
+  "proximo_id": 191,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84512,
-      "lobaopromo": 188710,
-      "gatunopromos": 125064,
+      "xetdaspromocoes": 84513,
+      "lobaopromo": 188712,
+      "gatunopromos": 125066,
       "pobregram": 41795,
-      "urubupromo": 41597,
+      "urubupromo": 41598,
       "tudonapromo": 101633,
-      "promonocontext": 126053,
-      "promooeasy": 220326,
-      "aquitempechincha": 281266,
+      "promonocontext": 126055,
+      "promooeasy": 220336,
+      "aquitempechincha": 281270,
       "infoBRpromos": 67421,
       "boletando": 76626,
       "promotop": 260187,
       "achadosdotb": 11757
     },
     "dia": "2026-10-13",
-    "hoje": 26,
+    "hoje": 27,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -895,27 +915,28 @@
       "shopee:627750190.58257777632",
       "amazon:B0DYV5765S",
       "amazon:B09YVVH7J1",
-      "amazon:B0FPNSXKKJ"
+      "amazon:B0FPNSXKKJ",
+      "mercadolivre:MLB19506691"
     ],
     "ultima": {
-      "em": "2026-10-13T08:00:28-03:00",
+      "em": "2026-10-13T08:10:20-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 14,
-      "do_nicho": 0,
-      "repetidas": 0,
-      "novas": 0,
+      "posts_novos": 38,
+      "do_nicho": 2,
+      "repetidas": 1,
+      "novas": 1,
       "limite_dia": false,
       "promobit": 0
     },
     "hora": "2026-10-13T08",
-    "nesta_hora": 0,
+    "nesta_hora": 1,
     "promobit_hora": "2026-10-13T08",
     "promobit_nesta_hora": 0,
-    "promobit_visto": 3109709
+    "promobit_visto": 3109739
   },
   "ultimos": [
     {
@@ -1591,7 +1612,7 @@
         "reprovados": 4
       },
       "lobaopromo": {
-        "achados": 5,
+        "achados": 6,
         "aprovados": 3,
         "reprovados": 2
       },
@@ -1602,5 +1623,5 @@
       }
     }
   },
-  "aviso_post": "2026-10-12 23|mercadolivre:MLB22357681"
+  "aviso_post": "2026-10-13 08|mercadolivre:MLB4703022818"
 }
