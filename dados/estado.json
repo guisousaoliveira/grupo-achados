@@ -1254,25 +1254,6 @@
       "garimpado_em": "2026-10-13T10:50-03:00",
       "na_revisao_desde": "2026-10-13T10:50-03:00",
       "msg_id": 485
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB3800842215",
-      "origem": "xetdaspromocoes",
-      "link": "https://produto.mercadolivre.com.br/MLB-3800842215-camiseta-dry-fit-preta-caveira-unisex-dark-lab-_JM?pdp_filters=item_id%3AMLB3800842215&matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-3800842215-camiseta-dry-fit-preta-caveira-unisex-dark-lab-_JM?pdp_filters=item_id%3AMLB3800842215",
-      "post_origem": "https://t.me/xetdaspromocoes/84592",
-      "link_canal": "https://meli.la/2tC2Kg5",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_706587-MLB115944612831_082026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Camiseta Dry-fit Preta Caveira Unisex Dark Lab",
-      "de": 79.0,
-      "por": 29.0,
-      "titulo": "63% off, isso aqui não fica muito tempo assim.",
-      "id": 258,
-      "garimpado_em": "2026-10-13T11:01-03:00",
-      "na_revisao_desde": "2026-10-13T11:01-03:00",
-      "msg_id": 486
     }
   ],
   "proximo_id": 272,
@@ -2105,6 +2086,26 @@
   ],
   "lixeira": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB3800842215",
+      "origem": "xetdaspromocoes",
+      "link": "https://produto.mercadolivre.com.br/MLB-3800842215-camiseta-dry-fit-preta-caveira-unisex-dark-lab-_JM?pdp_filters=item_id%3AMLB3800842215&matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-3800842215-camiseta-dry-fit-preta-caveira-unisex-dark-lab-_JM?pdp_filters=item_id%3AMLB3800842215",
+      "post_origem": "https://t.me/xetdaspromocoes/84592",
+      "link_canal": "https://meli.la/2tC2Kg5",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_706587-MLB115944612831_082026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Camiseta Dry-fit Preta Caveira Unisex Dark Lab",
+      "de": 79.0,
+      "por": 29.0,
+      "titulo": "63% off, isso aqui não fica muito tempo assim.",
+      "id": 258,
+      "garimpado_em": "2026-10-13T11:01-03:00",
+      "na_revisao_desde": "2026-10-13T11:01-03:00",
+      "removido_em": "2026-10-13T11:45:51-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B07CTN73L1",
       "origem": "promobit",
@@ -2530,7 +2531,7 @@
       "xetdaspromocoes": {
         "achados": 10,
         "aprovados": 3,
-        "reprovados": 1
+        "reprovados": 2
       },
       "promotop": {
         "achados": 4,
