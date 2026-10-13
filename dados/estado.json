@@ -954,25 +954,6 @@
       "garimpado_em": "2026-10-13T00:40-03:00",
       "na_revisao_desde": "2026-10-13T00:40-03:00",
       "msg_id": 345
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:1083800536.58216600627",
-      "origem": "promooeasy",
-      "link": "https://shopee.com.br/product/1083800536/58216600627",
-      "link_produto": "https://shopee.com.br/product/1083800536/58216600627",
-      "post_origem": "https://t.me/promooeasy/220281",
-      "link_canal": "https://s.shopee.com.br/3qNpou6zNm?lp=aff",
-      "precisa_link": true,
-      "foto": "AgACAgEAAxkDAAIBWmrNqD4F6APSqi8O3fHE8AeWmKuQAALhDGsb7AJxRnCHPSc8s4GMAQADAgADeAADPQQ",
-      "foto_origem": "canal",
-      "nome": "Smart TV 50 50P7K 4K QLED UHD 60Hz com Sistema Operacional Google TV TCL",
-      "por": 2048.41,
-      "titulo": "Smart TV TCL 50 polegadas com 16% off",
-      "id": 180,
-      "garimpado_em": "2026-10-13T00:40-03:00",
-      "na_revisao_desde": "2026-10-13T00:40-03:00",
-      "msg_id": 346
     }
   ],
   "proximo_id": 183,
@@ -1648,6 +1629,26 @@
   ],
   "lixeira": [
     {
+      "loja": "shopee",
+      "chave": "shopee:1083800536.58216600627",
+      "origem": "promooeasy",
+      "link": "https://shopee.com.br/product/1083800536/58216600627",
+      "link_produto": "https://shopee.com.br/product/1083800536/58216600627",
+      "post_origem": "https://t.me/promooeasy/220281",
+      "link_canal": "https://s.shopee.com.br/3qNpou6zNm?lp=aff",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAIBWmrNqD4F6APSqi8O3fHE8AeWmKuQAALhDGsb7AJxRnCHPSc8s4GMAQADAgADeAADPQQ",
+      "foto_origem": "canal",
+      "nome": "Smart TV 50 50P7K 4K QLED UHD 60Hz com Sistema Operacional Google TV TCL",
+      "por": 2048.41,
+      "titulo": "Smart TV TCL 50 polegadas com 16% off",
+      "id": 180,
+      "garimpado_em": "2026-10-13T00:40-03:00",
+      "na_revisao_desde": "2026-10-13T00:40-03:00",
+      "removido_em": "2026-10-13T00:45:10-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0HJBGT35C",
       "origem": "promooeasy",
@@ -2203,7 +2204,7 @@
       "promooeasy": {
         "achados": 12,
         "aprovados": 0,
-        "reprovados": 3
+        "reprovados": 4
       }
     }
   },
