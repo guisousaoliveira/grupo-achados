@@ -26,6 +26,7 @@ Hoje o pacote `saida\davinci_horizontal` tem cada plano como mp4 já com o zoom 
 Teste importando no DaVinci, ou pelo menos validando o fcpxml, e confirme com ele.
 
 ## Regras de estilo (aprovadas por ele)
+- Áudio que ele manda já foi ouvido por ele: NUNCA diga que vai conferir se a voz leu algo errado. Só corte o que ele apontar.
 - Abertura cinematográfica só no Bloco 1. Estilo Velum: obras em tela cheia com zoom lento, 3 a 5 s por imagem.
 - Texto na tela só nome + data (etiqueta com placa escura), anos gigantes no modo `year`, retratos no modo `framed` com `nome`.
 - Clique de projetor automático quando muda de imagem. Não há clique entre vistas do mesmo quadro (`sem_clique` desliga).
