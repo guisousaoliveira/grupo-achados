@@ -21,7 +21,8 @@
       "parcelas": 2,
       "parcela_valor": 36.5,
       "pix": true,
-      "aprovado_em": "2026-10-12T19:45-03:00"
+      "aprovado_em": "2026-10-12T19:45-03:00",
+      "aviso_validade": true
     },
     {
       "loja": "mercadolivre",
@@ -750,14 +751,14 @@
   "radar": {
     "visto": {
       "xetdaspromocoes": 84512,
-      "lobaopromo": 188707,
-      "gatunopromos": 125060,
+      "lobaopromo": 188709,
+      "gatunopromos": 125062,
       "pobregram": 41795,
-      "urubupromo": 41596,
+      "urubupromo": 41597,
       "tudonapromo": 101633,
       "promonocontext": 126053,
-      "promooeasy": 220314,
-      "aquitempechincha": 281261,
+      "promooeasy": 220319,
+      "aquitempechincha": 281265,
       "infoBRpromos": 67421,
       "boletando": 76626,
       "promotop": 260187,
@@ -933,24 +934,24 @@
       "amazon:B0FPNSXKKJ"
     ],
     "ultima": {
-      "em": "2026-10-13T07:40:20-03:00",
+      "em": "2026-10-13T07:50:20-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 28,
-      "do_nicho": 3,
+      "posts_novos": 25,
+      "do_nicho": 0,
       "repetidas": 0,
-      "novas": 3,
+      "novas": 0,
       "limite_dia": false,
-      "promobit": 1
+      "promobit": 0
     },
     "hora": "2026-10-13T07",
     "nesta_hora": 4,
     "promobit_hora": "2026-10-13T07",
     "promobit_nesta_hora": 1,
-    "promobit_visto": 3109685
+    "promobit_visto": 3109699
   },
   "ultimos": [
     {
