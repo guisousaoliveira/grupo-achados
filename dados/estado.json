@@ -2185,30 +2185,67 @@
       "garimpado_em": "2026-10-13T18:51-03:00",
       "na_revisao_desde": "2026-10-13T18:51-03:00",
       "msg_id": 725
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB37965210",
+      "origem": "xetdaspromocoes",
+      "link": "https://www.mercadolivre.com.br/vittak-barra-fixa-para-porta-ajustavel-de-aco-prateado/p/MLB37965210?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/vittak-barra-fixa-para-porta-ajustavel-de-aco-prateado/p/MLB37965210",
+      "post_origem": "https://t.me/xetdaspromocoes/84692",
+      "link_canal": "https://meli.la/1UfM3nN",
+      "foto": "AgACAgQAAxkDAAIC1mrOqgt6ZGgsrvmTLnm9yXG5xYw2AAIQDmsbhsYtUQ8CclNU0B7DAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Vittak Barra Fixa para Porta Ajustável de Aço Prateado",
+      "pix": true,
+      "por": 39.0,
+      "titulo": "Barra fixa de aço com ajuste para porta",
+      "id": 438,
+      "garimpado_em": "2026-10-13T19:00-03:00",
+      "na_revisao_desde": "2026-10-13T19:00-03:00",
+      "msg_id": 726
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB54026101",
+      "origem": "promonocontext",
+      "link": "https://www.mercadolivre.com.br/carregador-portatil-power-bank-turbo-20000mah-225w-universal-para-iphone-samsung-motorola-xiaomi-com-display-digital-dtimp/p/MLB54026101?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/carregador-portatil-power-bank-turbo-20000mah-225w-universal-para-iphone-samsung-motorola-xiaomi-com-display-digital-dtimp/p/MLB54026101",
+      "post_origem": "https://t.me/promonocontext/126411",
+      "link_canal": "https://meli.la/1smNdjD",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_899751-MLA99504871320_112025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Carregador Portátil Power Bank Turbo 20000mah 22.5w universal para",
+      "de": 299.0,
+      "por": 69.0,
+      "cupom": "CUPOMON",
+      "titulo": "Power bank com 77% de desconto",
+      "id": 439,
+      "garimpado_em": "2026-10-13T19:00-03:00",
+      "na_revisao_desde": "2026-10-13T19:00-03:00",
+      "msg_id": 727
     }
   ],
-  "proximo_id": 438,
+  "proximo_id": 440,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84690,
-      "lobaopromo": 189010,
-      "gatunopromos": 125154,
-      "pobregram": 41843,
+      "xetdaspromocoes": 84693,
+      "lobaopromo": 189017,
+      "gatunopromos": 125156,
+      "pobregram": 41844,
       "urubupromo": 41624,
-      "tudonapromo": 101761,
-      "promonocontext": 126407,
-      "promooeasy": 220816,
+      "tudonapromo": 101764,
+      "promonocontext": 126411,
+      "promooeasy": 220831,
       "aquitempechincha": 281426,
-      "infoBRpromos": 67467,
+      "infoBRpromos": 67468,
       "boletando": 76673,
       "promotop": 260232,
       "achadosdotb": 11763
     },
     "dia": "2026-10-13",
-    "hoje": 273,
+    "hoje": 275,
     "chaves": [
-      "shopee:1083800536.58219483729",
-      "amazon:B078HS3SKS",
       "mercadolivre:MLB52868715",
       "mercadolivre:MLB75755258",
       "amazon:B0C9R59R1X",
@@ -2606,27 +2643,29 @@
       "mercadolivre:MLB79171629",
       "mercadolivre:MLB4887126937",
       "mercadolivre:MLB5067062561",
-      "amazon:B0BF9L5CK8"
+      "amazon:B0BF9L5CK8",
+      "mercadolivre:MLB37965210",
+      "mercadolivre:MLB54026101"
     ],
     "ultima": {
-      "em": "2026-10-13T18:50:20-03:00",
+      "em": "2026-10-13T19:00:30-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 39,
-      "do_nicho": 15,
-      "repetidas": 8,
-      "novas": 7,
+      "posts_novos": 46,
+      "do_nicho": 7,
+      "repetidas": 5,
+      "novas": 2,
       "limite_dia": false,
-      "promobit": 2
+      "promobit": 0
     },
-    "hora": "2026-10-13T18",
-    "nesta_hora": 17,
-    "promobit_hora": "2026-10-13T18",
-    "promobit_nesta_hora": 5,
-    "promobit_visto": 3111542
+    "hora": "2026-10-13T19",
+    "nesta_hora": 2,
+    "promobit_hora": "2026-10-13T19",
+    "promobit_nesta_hora": 0,
+    "promobit_visto": 3111563
   },
   "ultimos": [
     {
@@ -4074,7 +4113,7 @@
         "reprovados": 81
       },
       "xetdaspromocoes": {
-        "achados": 16,
+        "achados": 17,
         "aprovados": 5,
         "reprovados": 9
       },
@@ -4084,7 +4123,7 @@
         "reprovados": 5
       },
       "promonocontext": {
-        "achados": 44,
+        "achados": 45,
         "aprovados": 8,
         "reprovados": 23
       },
