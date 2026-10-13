@@ -2,22 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "shopee",
-      "chave": "shopee:1510737053.22794690094",
-      "origem": "promooeasy",
-      "link": "https://s.shopee.com.br/7faXpIObLd",
-      "link_produto": "https://shopee.com.br/product/1510737053/22794690094",
-      "post_origem": "https://t.me/promooeasy/220160",
-      "link_canal": "https://s.shopee.com.br/50ZmdhlrQR?lp=aff",
-      "foto": "AgACAgEAAxkDAAPAas0uanJJmsNa4S836due4vy8zkkAAjUNaxvw92lGVxnx00CKYm0BAAMCAAN4AAM9BA",
-      "foto_origem": "canal",
-      "nome": "Power Bank 50000mAh Carga Rápida Display Digital 33W66W USB Type-C",
-      "por": 127.3,
-      "titulo": "Power bank gigante com menor preço",
-      "garimpado_em": "2026-10-12T16:01-03:00",
-      "aprovado_em": "2026-10-12T16:09-03:00"
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B0DJW5G283",
       "origem": "promooeasy",
@@ -649,6 +633,14 @@
       "data": "2026-10-13T00:01-03:00",
       "link": "https://link.amazon/B0cBRuCC7",
       "link_produto": "https://www.amazon.com.br/dp/B0DS9H55DQ?tag=alphadominu09-20"
+    },
+    {
+      "chave": "shopee:1510737053.22794690094",
+      "loja": "shopee",
+      "nome": "Power Bank 50000mAh Carga Rápida Display Digital 33W66W USB Type-C",
+      "data": "2026-10-13T00:20-03:00",
+      "link": "https://s.shopee.com.br/7faXpIObLd",
+      "link_produto": "https://shopee.com.br/product/1510737053/22794690094"
     }
   ],
   "slots_usados": {
@@ -960,6 +952,18 @@
     "promobit_visto": 3109513
   },
   "ultimos": [
+    {
+      "loja": "shopee",
+      "chave": "shopee:1510737053.22794690094",
+      "origem": "promooeasy",
+      "link": "https://s.shopee.com.br/7faXpIObLd",
+      "link_produto": "https://shopee.com.br/product/1510737053/22794690094",
+      "post_origem": "https://t.me/promooeasy/220160",
+      "foto": "AgACAgEAAxkDAAPAas0uanJJmsNa4S836due4vy8zkkAAjUNaxvw92lGVxnx00CKYm0BAAMCAAN4AAM9BA",
+      "nome": "Power Bank 50000mAh Carga Rápida Display Digital 33W66W USB Type-C",
+      "por": 127.3,
+      "titulo": "Power bank gigante com menor preço"
+    },
     {
       "loja": "amazon",
       "chave": "amazon:B0DS9H55DQ",
