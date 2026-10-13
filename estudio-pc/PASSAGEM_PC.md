@@ -18,6 +18,13 @@ A partir de agora este vídeo é feito inteiro no PC do Guilherme, sem a nuvem n
 6. `python montar.py projetos\ilha-bN`, leia `saida\conferencia.txt`, corrija os avisos (zoom borrado: imagem maior ou zoom mais aberto; etiqueta curta: tire ou mova) e renderize de novo.
 7. Junte com os blocos anteriores e avise o Guilherme com o caminho do mp4.
 
+## Pedido dele para o pacote do DaVinci (2026-10-13, fazer antes do Bloco 3)
+Hoje o pacote `saida\davinci_horizontal` tem cada plano como mp4 já com o zoom aplicado, e assim ele não consegue refazer o zoom. Mude o montar.py para, em todo render, automaticamente:
+- copiar para dentro do pacote (pasta `imagens\`) cada imagem original usada no vídeo, na resolução cheia;
+- na timeline_davinci.fcpxml, colocar a imagem original como clipe (still) em vez do mp4 do plano, com o movimento de `de` para `ate` como keyframes de Transform (zoom e posição), para ele ajustar no Inspector do DaVinci. Os planos que não são imagem cheia (year, quote, framed com fundo, nome) podem continuar como mp4 ou PNG por cima;
+- manter os textos em PNG, a voz, a música e os efeitos em faixas separadas.
+Teste importando no DaVinci, ou pelo menos validando o fcpxml, e confirme com ele.
+
 ## Regras de estilo (aprovadas por ele)
 - Abertura cinematográfica só no Bloco 1. Estilo Velum: obras em tela cheia com zoom lento, 3 a 5 s por imagem.
 - Texto na tela só nome + data (etiqueta com placa escura), anos gigantes no modo `year`, retratos no modo `framed` com `nome`.
