@@ -321,24 +321,6 @@
     },
     {
       "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB18995412",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/1Syc2hF",
-      "link_produto": "https://meli.la/1Syc2hF",
-      "post_origem": "https://t.me/lobaopromo/188962",
-      "link_canal": "https://meli.la/2EbEhv7",
-      "foto": "AgACAgQAAxkDAAICn2rOjgEOdV7V1ZvT7zxrz2eRkyu2AALSDmsbwNQVUCjwJkt3T3neAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Proteína Black Skull Whey 100% HD em pó sabor Morango x 900g",
-      "por": 86.0,
-      "cupom": "FULLLANDING",
-      "titulo": "Whey Protein Black Skull com 10% off",
-      "garimpado_em": "2026-10-13T17:01-03:00",
-      "na_revisao_desde": "2026-10-13T17:01-03:00",
-      "aprovado_em": "2026-10-13T17:06-03:00"
-    },
-    {
-      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB6284520224",
       "origem": "promonocontext",
       "link": "https://meli.la/2CDzSsQ",
@@ -946,6 +928,14 @@
       "link": "https://meli.la/2scKQiu",
       "link_produto": "https://meli.la/2scKQiu",
       "slot": 16
+    },
+    {
+      "chave": "mercadolivre:MLB18995412",
+      "loja": "mercadolivre",
+      "nome": "Proteína Black Skull Whey 100% HD em pó sabor Morango x 900g",
+      "data": "2026-10-13T17:07-03:00",
+      "link": "https://meli.la/1Syc2hF",
+      "link_produto": "https://meli.la/1Syc2hF"
     }
   ],
   "slots_usados": {
@@ -1709,6 +1699,19 @@
   "ultimos": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB18995412",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/1Syc2hF",
+      "link_produto": "https://meli.la/1Syc2hF",
+      "post_origem": "https://t.me/lobaopromo/188962",
+      "foto": "AgACAgQAAxkDAAICn2rOjgEOdV7V1ZvT7zxrz2eRkyu2AALSDmsbwNQVUCjwJkt3T3neAQADAgADeAADPQQ",
+      "nome": "Proteína Black Skull Whey 100% HD em pó sabor Morango x 900g",
+      "por": 86.0,
+      "cupom": "FULLLANDING",
+      "titulo": "Whey Protein Black Skull com 10% off"
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB7319767372",
       "origem": "promonocontext",
       "link": "https://meli.la/2scKQiu",
@@ -2242,19 +2245,6 @@
       "de": 50.0,
       "por": 39.92,
       "titulo": "Garanta sua regata com desconto"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB4113792113",
-      "origem": "promonocontext",
-      "link": "https://meli.la/347Y3aU",
-      "link_produto": "https://meli.la/347Y3aU",
-      "post_origem": "https://t.me/promonocontext/126017",
-      "foto": "AgACAgQAAxkDAAIBA2rNZDmPMrA4L_5rpQiqEIdrg5T6AAKjEGsbixvdU4xRZgvwu4PgAQADAgADeAADPQQ",
-      "nome": "Tênis Sandrini Aero Run Academia Caminhada Treino",
-      "de": 149.99,
-      "por": 59.99,
-      "titulo": "Tênis Sandrini com 60% off"
     }
   ],
   "lixeira": [
