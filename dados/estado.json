@@ -968,24 +968,6 @@
       "garimpado_em": "2026-10-13T15:52-03:00",
       "na_revisao_desde": "2026-10-13T15:52-03:00",
       "msg_id": 637
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0HCRCQ1F3",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0HCRCQ1F3?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0HCRCQ1F3?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/220655",
-      "link_canal": "https://www.amazon.com.br/Smart-LG-UHD-NANO-65UN85CBPSA-BWZ/dp/B0HCRCQ1F3?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAICf2rOfgfTMr-hZyJUfyuatc1y4YaYAALwDmsbc55MUBJRo7JH5EBJAQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "nome": "Por R3.387,18",
-      "por": 3387.18,
-      "titulo": "Smartphone topo de linha com desconto na Amazon",
-      "id": 357,
-      "garimpado_em": "2026-10-13T15:52-03:00",
-      "na_revisao_desde": "2026-10-13T15:52-03:00",
-      "msg_id": 639
     }
   ],
   "proximo_id": 363,
@@ -1920,6 +1902,25 @@
   "lixeira": [
     {
       "loja": "amazon",
+      "chave": "amazon:B0HCRCQ1F3",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0HCRCQ1F3?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0HCRCQ1F3?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220655",
+      "link_canal": "https://www.amazon.com.br/Smart-LG-UHD-NANO-65UN85CBPSA-BWZ/dp/B0HCRCQ1F3?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAICf2rOfgfTMr-hZyJUfyuatc1y4YaYAALwDmsbc55MUBJRo7JH5EBJAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "nome": "Por R3.387,18",
+      "por": 3387.18,
+      "titulo": "Smartphone topo de linha com desconto na Amazon",
+      "id": 357,
+      "garimpado_em": "2026-10-13T15:52-03:00",
+      "na_revisao_desde": "2026-10-13T15:52-03:00",
+      "removido_em": "2026-10-13T16:04:39-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "amazon",
       "chave": "amazon:B0DGXFNVLD",
       "origem": "promooeasy",
       "link": "https://www.amazon.com.br/dp/B0DGXFNVLD?tag=alphadominu09-20",
@@ -2712,28 +2713,6 @@
       "na_revisao_desde": "2026-10-13T15:05-03:00",
       "removido_em": "2026-10-13T15:46:42-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:1537142489.23198696529",
-      "origem": "promooeasy",
-      "link": "https://shopee.com.br/product/1537142489/23198696529",
-      "link_produto": "https://shopee.com.br/product/1537142489/23198696529",
-      "post_origem": "https://t.me/promooeasy/220625",
-      "link_canal": "https://s.shopee.com.br/AUukiihTRV?lp=aff",
-      "precisa_link": true,
-      "foto": "AgACAgEAAxkDAAICbGrOcwJNAR4QTu5eUY6mJ-vY0KLcAAKHDWsb7AJxRnZVpwXObnWiAQADAgADeAADPQQ",
-      "foto_origem": "canal",
-      "nome": "Samsung Smart TV 43 FHD F6000F 2025, Xbox Cloud Gaming, Canais Gratuitos",
-      "pix": true,
-      "por": 1242.0,
-      "cupom": "AQUI",
-      "titulo": "Smart TV Samsung 43 FHD com desconto",
-      "id": 339,
-      "garimpado_em": "2026-10-13T15:05-03:00",
-      "na_revisao_desde": "2026-10-13T15:05-03:00",
-      "removido_em": "2026-10-13T15:46:39-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -2808,7 +2787,7 @@
       "promooeasy": {
         "achados": 79,
         "aprovados": 2,
-        "reprovados": 76
+        "reprovados": 77
       },
       "xetdaspromocoes": {
         "achados": 14,
