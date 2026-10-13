@@ -1335,19 +1335,38 @@
       "garimpado_em": "2026-10-13T11:20-03:00",
       "na_revisao_desde": "2026-10-13T11:20-03:00",
       "msg_id": 496
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0FR9V7QWR",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0FR9V7QWR?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0FR9V7QWR?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220484",
+      "link_canal": "https://www.amazon.com.br/PowerA-Slim-Nintendo-Switch-Built/dp/B0FR9V7QWR?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAIB8WrOPldkbTL9pnWTWL7wDfweu_yEAALhDmsbdv9FUDzvEYu1oeaRAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "nome": "Case Nintendo Switch 2 Metroid Prime 4 Beyond + Frete Grátis",
+      "parcelas": 6,
+      "por": 152.56,
+      "titulo": "Case Nintendo Switch 2 com 15% off",
+      "id": 264,
+      "garimpado_em": "2026-10-13T11:21-03:00",
+      "na_revisao_desde": "2026-10-13T11:21-03:00",
+      "msg_id": 497
     }
   ],
-  "proximo_id": 264,
+  "proximo_id": 265,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84597,
-      "lobaopromo": 188817,
-      "gatunopromos": 125088,
+      "xetdaspromocoes": 84598,
+      "lobaopromo": 188819,
+      "gatunopromos": 125089,
       "pobregram": 41818,
       "urubupromo": 41613,
       "tudonapromo": 101689,
-      "promonocontext": 126164,
-      "promooeasy": 220483,
+      "promonocontext": 126170,
+      "promooeasy": 220488,
       "aquitempechincha": 281345,
       "infoBRpromos": 67445,
       "boletando": 76653,
@@ -1355,7 +1374,7 @@
       "achadosdotb": 11757
     },
     "dia": "2026-10-13",
-    "hoje": 100,
+    "hoje": 101,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -1595,27 +1614,28 @@
       "amazon:B07CTN73L1",
       "amazon:B0F7K7B2PD",
       "amazon:B0CQKK5V35",
-      "mercadolivre:MLB5150487001"
+      "mercadolivre:MLB5150487001",
+      "amazon:B0FR9V7QWR"
     ],
     "ultima": {
-      "em": "2026-10-13T11:14:37-03:00",
+      "em": "2026-10-13T11:20:30-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 65,
-      "do_nicho": 10,
-      "repetidas": 5,
-      "novas": 5,
+      "posts_novos": 20,
+      "do_nicho": 1,
+      "repetidas": 0,
+      "novas": 1,
       "limite_dia": false,
-      "promobit": 2
+      "promobit": 0
     },
     "hora": "2026-10-13T11",
-    "nesta_hora": 4,
+    "nesta_hora": 5,
     "promobit_hora": "2026-10-13T11",
     "promobit_nesta_hora": 2,
-    "promobit_visto": 3110250
+    "promobit_visto": 3110270
   },
   "ultimos": [
     {
@@ -2354,7 +2374,7 @@
         "reprovados": 6
       },
       "promooeasy": {
-        "achados": 40,
+        "achados": 41,
         "aprovados": 2,
         "reprovados": 32
       },
