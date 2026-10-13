@@ -1027,26 +1027,6 @@
       "msg_id": 541
     },
     {
-      "loja": "amazon",
-      "chave": "amazon:B0H3CN14RK",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0H3CN14RK?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0H3CN14RK?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/220532",
-      "link_canal": "https://www.amazon.com.br/Gamer-Ryzen-5700X-5060-Sincronizados/dp/B0H3CN14RK?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAICHmrOTIKM1vR1e8iHitk0Btgil508AAKnD2sbmeZ8UoZAdU7VjxMYAQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "nome": "AA TECH PC Gamer AMD Ryzen 7 5700X, RTX 5060 8GB, 32GB DDR4, SSD NVMe 1TB, Water Cooler 240mm ARGB, 6 Fans ARGB Sincroni",
-      "pix": true,
-      "parcelas": 12,
-      "por": 8549.9,
-      "titulo": "Preço bom, vale conferir.",
-      "id": 282,
-      "garimpado_em": "2026-10-13T12:21-03:00",
-      "na_revisao_desde": "2026-10-13T12:21-03:00",
-      "msg_id": 542
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB6160179460",
       "origem": "xetdaspromocoes",
@@ -1953,6 +1933,27 @@
   ],
   "lixeira": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B0H3CN14RK",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0H3CN14RK?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0H3CN14RK?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220532",
+      "link_canal": "https://www.amazon.com.br/Gamer-Ryzen-5700X-5060-Sincronizados/dp/B0H3CN14RK?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAICHmrOTIKM1vR1e8iHitk0Btgil508AAKnD2sbmeZ8UoZAdU7VjxMYAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "nome": "AA TECH PC Gamer AMD Ryzen 7 5700X, RTX 5060 8GB, 32GB DDR4, SSD NVMe 1TB, Water Cooler 240mm ARGB, 6 Fans ARGB Sincroni",
+      "pix": true,
+      "parcelas": 12,
+      "por": 8549.9,
+      "titulo": "Preço bom, vale conferir.",
+      "id": 282,
+      "garimpado_em": "2026-10-13T12:21-03:00",
+      "na_revisao_desde": "2026-10-13T12:21-03:00",
+      "removido_em": "2026-10-13T13:06:35-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB35715045",
       "origem": "promonocontext",
@@ -2348,7 +2349,7 @@
       "promooeasy": {
         "achados": 56,
         "aprovados": 2,
-        "reprovados": 51
+        "reprovados": 52
       },
       "xetdaspromocoes": {
         "achados": 11,
