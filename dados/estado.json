@@ -371,6 +371,24 @@
       "garimpado_em": "2026-10-13T10:50-03:00",
       "na_revisao_desde": "2026-10-13T10:50-03:00",
       "aprovado_em": "2026-10-13T11:46-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB62756066",
+      "origem": "promonocontext",
+      "link": "https://meli.la/1FLC2G4",
+      "link_produto": "https://meli.la/1FLC2G4",
+      "post_origem": "https://t.me/promonocontext/126127",
+      "link_canal": "https://meli.la/1ruJRAP",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_984233-MLA105531058053_012026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Relógio Inteligente Gps Smartwatch Amoled 3atm Sport Gps Caixa Preto",
+      "de": 599.0,
+      "por": 256.0,
+      "cupom": "MELHORDEHJ",
+      "garimpado_em": "2026-10-13T10:21-03:00",
+      "na_revisao_desde": "2026-10-13T10:21-03:00",
+      "aprovado_em": "2026-10-13T11:49-03:00"
     }
   ],
   "postados": [
@@ -1104,26 +1122,6 @@
       "garimpado_em": "2026-10-13T10:20-03:00",
       "na_revisao_desde": "2026-10-13T10:20-03:00",
       "msg_id": 466
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB62756066",
-      "origem": "promonocontext",
-      "link": "https://www.mercadolivre.com.br/relogio-inteligente-gps-smartwatch-amoled-3atm-sport-gps-caixa-preto/p/MLB62756066?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/relogio-inteligente-gps-smartwatch-amoled-3atm-sport-gps-caixa-preto/p/MLB62756066",
-      "post_origem": "https://t.me/promonocontext/126127",
-      "link_canal": "https://meli.la/1ruJRAP",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_984233-MLA105531058053_012026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Relógio Inteligente Gps Smartwatch Amoled 3atm Sport Gps Caixa Preto",
-      "de": 599.0,
-      "por": 256.0,
-      "cupom": "MELHORDEHJ",
-      "titulo": "Smartwatch com 57% off",
-      "id": 247,
-      "garimpado_em": "2026-10-13T10:21-03:00",
-      "na_revisao_desde": "2026-10-13T10:21-03:00",
-      "msg_id": 468
     },
     {
       "loja": "mercadolivre",
@@ -2535,7 +2533,7 @@
       },
       "promonocontext": {
         "achados": 9,
-        "aprovados": 2,
+        "aprovados": 3,
         "reprovados": 3
       },
       "infoBRpromos": {
