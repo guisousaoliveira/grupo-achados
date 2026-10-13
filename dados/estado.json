@@ -1107,27 +1107,103 @@
       "garimpado_em": "2026-10-13T16:21-03:00",
       "na_revisao_desde": "2026-10-13T16:21-03:00",
       "msg_id": 655
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB51986596",
+      "origem": "lobaopromo",
+      "link": "https://www.mercadolivre.com.br/barbeador-e-aparador-eletrico-philips-oneblade-com-pente-5-em-1-sem-fio-e-prova-dagua-qp142510/p/MLB51986596?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/barbeador-e-aparador-eletrico-philips-oneblade-com-pente-5-em-1-sem-fio-e-prova-dagua-qp142510/p/MLB51986596",
+      "post_origem": "https://t.me/lobaopromo/188943",
+      "link_canal": "https://meli.la/224jLMN",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_783146-MLA111544883867_052026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Barbeador e Aparador Elétrico Philips OneBlade com Pente 5 em 1, Sem",
+      "de": 213.0,
+      "por": 139.0,
+      "titulo": "OneBlade para aparar e barbear com 35% off",
+      "id": 371,
+      "garimpado_em": "2026-10-13T16:30-03:00",
+      "na_revisao_desde": "2026-10-13T16:30-03:00",
+      "msg_id": 656
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB60834816",
+      "origem": "promonocontext",
+      "link": "https://www.mercadolivre.com.br/kit-cortador-de-unha-portatil-estojo-alicate-manicure-12-pc-desencravador-de-unha-manicure-alicate-lixa-profissional-tesoura-empurrador-de-cuticulas-pinca-portatil-dobravel/p/MLB60834816?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/kit-cortador-de-unha-portatil-estojo-alicate-manicure-12-pc-desencravador-de-unha-manicure-alicate-lixa-profissional-tesoura-empurrador-de-cuticulas-pinca-portatil-dobravel/p/MLB60834816",
+      "post_origem": "https://t.me/promonocontext/126292",
+      "link_canal": "https://meli.la/2eH2HS4",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_968393-MLA114502382030_082026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Kit Cortador De Unha Portátil Estojo Alicate Manicure 12 Pç",
+      "de": 35.0,
+      "por": 21.0,
+      "titulo": "Kit de manicure completo com 40% off",
+      "id": 372,
+      "garimpado_em": "2026-10-13T16:30-03:00",
+      "na_revisao_desde": "2026-10-13T16:30-03:00",
+      "msg_id": 657
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:295736938.57308194758",
+      "origem": "promooeasy",
+      "link": "https://shopee.com.br/product/295736938/57308194758",
+      "link_produto": "https://shopee.com.br/product/295736938/57308194758",
+      "post_origem": "https://t.me/promooeasy/220684",
+      "link_canal": "https://s.shopee.com.br/4fwxrlvWm2?lp=aff",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAICkmrOhw63LsK56YBlEYqtZauqD2YHAAIMDWsb7AJ5Ro5fny6cozcBAQADAgADeAADPQQ",
+      "foto_origem": "canal",
+      "nome": "Relógio Garmin Forerunner 165 AMOLED GPS Integrado Garmin Pay Bluetooth ANT+ Wi-Fi Bateria de até 20 dias",
+      "pix": true,
+      "por": 1650.99,
+      "titulo": "Garmin Forerunner 165 com GPS integrado",
+      "id": 373,
+      "garimpado_em": "2026-10-13T16:31-03:00",
+      "na_revisao_desde": "2026-10-13T16:31-03:00",
+      "msg_id": 658
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0CFPHTMDX",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0CFPHTMDX?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0CFPHTMDX?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220685",
+      "link_canal": "https://www.amazon.com.br/dp/B0CFPHTMDX?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAICk2rOhxXzGYE5IeaDmY51xk67Tbf4AALhD2sbS-R0UvPt32ZDX1peAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "nome": "Kindle Paperwhite Signature Edition 32 GB (Geração mais recente) - O Kindle mais rápido já lançado, com luz frontal auto",
+      "por": 959.0,
+      "titulo": "Kindle Paperwhite 32GB com tela autoajustável",
+      "id": 374,
+      "garimpado_em": "2026-10-13T16:31-03:00",
+      "na_revisao_desde": "2026-10-13T16:31-03:00",
+      "msg_id": 659
     }
   ],
-  "proximo_id": 371,
+  "proximo_id": 375,
   "radar": {
     "visto": {
       "xetdaspromocoes": 84664,
-      "lobaopromo": 188942,
-      "gatunopromos": 125124,
+      "lobaopromo": 188948,
+      "gatunopromos": 125125,
       "pobregram": 41836,
       "urubupromo": 41619,
-      "tudonapromo": 101737,
-      "promonocontext": 126291,
-      "promooeasy": 220682,
-      "aquitempechincha": 281405,
-      "infoBRpromos": 67461,
+      "tudonapromo": 101740,
+      "promonocontext": 126294,
+      "promooeasy": 220686,
+      "aquitempechincha": 281407,
+      "infoBRpromos": 67462,
       "boletando": 76666,
-      "promotop": 260228,
-      "achadosdotb": 11762
+      "promotop": 260230,
+      "achadosdotb": 11763
     },
     "dia": "2026-10-13",
-    "hoje": 206,
+    "hoje": 210,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -1473,27 +1549,31 @@
       "mercadolivre:MLB79566827",
       "shopee:502619181.23198845672",
       "mercadolivre:MLB54934723",
-      "mercadolivre:MLB48468943"
+      "mercadolivre:MLB48468943",
+      "mercadolivre:MLB51986596",
+      "mercadolivre:MLB60834816",
+      "shopee:295736938.57308194758",
+      "amazon:B0CFPHTMDX"
     ],
     "ultima": {
-      "em": "2026-10-13T16:20:23-03:00",
+      "em": "2026-10-13T16:30:23-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 39,
-      "do_nicho": 10,
-      "repetidas": 6,
+      "posts_novos": 37,
+      "do_nicho": 7,
+      "repetidas": 3,
       "novas": 4,
       "limite_dia": false,
       "promobit": 0
     },
     "hora": "2026-10-13T16",
-    "nesta_hora": 11,
+    "nesta_hora": 15,
     "promobit_hora": "2026-10-13T16",
     "promobit_nesta_hora": 1,
-    "promobit_visto": 3111096
+    "promobit_visto": 3111128
   },
   "ultimos": [
     {
@@ -2927,12 +3007,12 @@
         "reprovados": 20
       },
       "lobaopromo": {
-        "achados": 42,
+        "achados": 43,
         "aprovados": 10,
         "reprovados": 27
       },
       "promooeasy": {
-        "achados": 80,
+        "achados": 82,
         "aprovados": 2,
         "reprovados": 77
       },
@@ -2947,7 +3027,7 @@
         "reprovados": 5
       },
       "promonocontext": {
-        "achados": 28,
+        "achados": 29,
         "aprovados": 7,
         "reprovados": 21
       },
