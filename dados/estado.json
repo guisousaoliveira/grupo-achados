@@ -1099,18 +1099,18 @@
   "proximo_id": 302,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84623,
-      "lobaopromo": 188862,
-      "gatunopromos": 125098,
+      "xetdaspromocoes": 84624,
+      "lobaopromo": 188863,
+      "gatunopromos": 125099,
       "pobregram": 41831,
-      "urubupromo": 41614,
-      "tudonapromo": 101709,
+      "urubupromo": 41615,
+      "tudonapromo": 101710,
       "promonocontext": 126228,
-      "promooeasy": 220568,
+      "promooeasy": 220570,
       "aquitempechincha": 281354,
       "infoBRpromos": 67451,
       "boletando": 76657,
-      "promotop": 260212,
+      "promotop": 260213,
       "achadosdotb": 11762
     },
     "dia": "2026-10-13",
@@ -1395,24 +1395,24 @@
       "shopee:344381236.53419040158"
     ],
     "ultima": {
-      "em": "2026-10-13T13:10:20-03:00",
+      "em": "2026-10-13T13:20:21-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 27,
-      "do_nicho": 4,
-      "repetidas": 0,
-      "novas": 4,
+      "posts_novos": 24,
+      "do_nicho": 1,
+      "repetidas": 1,
+      "novas": 0,
       "limite_dia": false,
-      "promobit": 1
+      "promobit": 0
     },
     "hora": "2026-10-13T13",
     "nesta_hora": 4,
     "promobit_hora": "2026-10-13T13",
     "promobit_nesta_hora": 1,
-    "promobit_visto": 3110533
+    "promobit_visto": 3110560
   },
   "ultimos": [
     {
@@ -2452,5 +2452,5 @@
       }
     }
   },
-  "aviso_post": "2026-10-13 11|mercadolivre:MLB4992424197"
+  "aviso_post": "2026-10-13 13|mercadolivre:MLB2650723879"
 }
