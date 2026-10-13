@@ -266,6 +266,24 @@
       "garimpado_em": "2026-10-12T23:10-03:00",
       "na_revisao_desde": "2026-10-12T23:10-03:00",
       "aprovado_em": "2026-10-12T23:29-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB37809946",
+      "origem": "xetdaspromocoes",
+      "link": "https://meli.la/1SaP4jn",
+      "link_produto": "https://meli.la/1SaP4jn",
+      "post_origem": "https://t.me/xetdaspromocoes/84512",
+      "link_canal": "https://meli.la/1E3QtSS",
+      "foto": "AgACAgQAAxkDAAIBQGrNnHrahUpwaiO_zk1KnuWzQ3wbAAIMDGsbAjl9UXaQRYbR9AYWAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Dark Lab coqueteleira 700 l",
+      "por": 19.9,
+      "titulo": "Coqueteleira com desconto",
+      "garimpado_em": "2026-10-12T23:50-03:00",
+      "na_revisao_desde": "2026-10-12T23:50-03:00",
+      "de": 39.9,
+      "aprovado_em": "2026-10-12T23:59-03:00"
     }
   ],
   "postados": [
@@ -669,24 +687,6 @@
       "garimpado_em": "2026-10-12T23:50-03:00",
       "na_revisao_desde": "2026-10-12T23:50-03:00",
       "msg_id": 319
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB37809946",
-      "origem": "xetdaspromocoes",
-      "link": "https://www.mercadolivre.com.br/dark-lab-coqueteleira-700-l/p/MLB37809946?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/dark-lab-coqueteleira-700-l/p/MLB37809946",
-      "post_origem": "https://t.me/xetdaspromocoes/84512",
-      "link_canal": "https://meli.la/1E3QtSS",
-      "foto": "AgACAgQAAxkDAAIBQGrNnHrahUpwaiO_zk1KnuWzQ3wbAAIMDGsbAjl9UXaQRYbR9AYWAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Dark Lab coqueteleira 700 l",
-      "por": 19.0,
-      "titulo": "Coqueteleira Dark Lab com 31% off",
-      "id": 161,
-      "garimpado_em": "2026-10-12T23:50-03:00",
-      "na_revisao_desde": "2026-10-12T23:50-03:00",
-      "msg_id": 320
     }
   ],
   "proximo_id": 163,
@@ -1792,7 +1792,7 @@
       },
       "xetdaspromocoes": {
         "achados": 2,
-        "aprovados": 0,
+        "aprovados": 1,
         "reprovados": 0
       }
     }
