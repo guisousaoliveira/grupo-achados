@@ -1070,24 +1070,6 @@
     },
     {
       "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB4182420507",
-      "origem": "promonocontext",
-      "link": "https://produto.mercadolivre.com.br/MLB-4182420507-calca-legging-leg-flare-zero-transparncia-grossa-academia-_JM?pdp_filters=item_id%3AMLB4182420507&matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-4182420507-calca-legging-leg-flare-zero-transparncia-grossa-academia-_JM?pdp_filters=item_id%3AMLB4182420507",
-      "post_origem": "https://t.me/promonocontext/126124",
-      "link_canal": "https://meli.la/1SPnKdt",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_658388-MLB90869609638_082025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Calça Legging Leg Flare Zero Transparência Grossa Academia",
-      "por": 29.0,
-      "titulo": "Calça legging flare grossa para academia com zero transparência por 29 reais.",
-      "id": 246,
-      "garimpado_em": "2026-10-13T10:21-03:00",
-      "na_revisao_desde": "2026-10-13T10:21-03:00",
-      "msg_id": 467
-    },
-    {
-      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB62756066",
       "origem": "promonocontext",
       "link": "https://www.mercadolivre.com.br/relogio-inteligente-gps-smartwatch-amoled-3atm-sport-gps-caixa-preto/p/MLB62756066?matt_word=alphapromo&matt_tool=59136903",
@@ -1948,6 +1930,25 @@
   "lixeira": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB4182420507",
+      "origem": "promonocontext",
+      "link": "https://produto.mercadolivre.com.br/MLB-4182420507-calca-legging-leg-flare-zero-transparncia-grossa-academia-_JM?pdp_filters=item_id%3AMLB4182420507&matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-4182420507-calca-legging-leg-flare-zero-transparncia-grossa-academia-_JM?pdp_filters=item_id%3AMLB4182420507",
+      "post_origem": "https://t.me/promonocontext/126124",
+      "link_canal": "https://meli.la/1SPnKdt",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_658388-MLB90869609638_082025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Calça Legging Leg Flare Zero Transparência Grossa Academia",
+      "por": 29.0,
+      "titulo": "Calça legging flare grossa para academia com zero transparência por 29 reais.",
+      "id": 246,
+      "garimpado_em": "2026-10-13T10:21-03:00",
+      "na_revisao_desde": "2026-10-13T10:21-03:00",
+      "removido_em": "2026-10-13T10:32:49-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB4024851715",
       "origem": "xetdaspromocoes",
       "link": "https://produto.mercadolivre.com.br/MLB-4024851715-shorts-academia-feminino-modelador-com-bolso-zero-opacidade-_JM?pdp_filters=item_id%3AMLB4024851715&matt_word=alphapromo&matt_tool=59136903",
@@ -2140,7 +2141,7 @@
       "promonocontext": {
         "achados": 7,
         "aprovados": 1,
-        "reprovados": 1
+        "reprovados": 2
       },
       "infoBRpromos": {
         "achados": 8,
