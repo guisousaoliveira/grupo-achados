@@ -1357,27 +1357,144 @@
       "garimpado_em": "2026-10-13T16:51-03:00",
       "na_revisao_desde": "2026-10-13T16:51-03:00",
       "msg_id": 668
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0FNCPHMXM",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0FNCPHMXM?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0FNCPHMXM?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/western-digital-wd-verde-sata-1tb-ate-545-mbs-25-polegadas7-mm-garantia-3y-unidade-de-estado-solido-interna-ssd-wds100t5g0a-00cpt0-3111202/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3111202/",
+      "nome": "Western Digital WD Verde SATA 1TB",
+      "por": 789.0,
+      "foto": "AgACAgQAAxkDAAICnWrOjeySiPfrqnI92jdD8W-F0uC4AAIJD2sbsz8EUoPpAm1Pj3tSAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "titulo": "SSD 1TB para expandir o armazenamento do PC",
+      "id": 384,
+      "garimpado_em": "2026-10-13T17:00-03:00",
+      "na_revisao_desde": "2026-10-13T17:00-03:00",
+      "msg_id": 669
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB4536065939",
+      "origem": "lobaopromo",
+      "link": "https://www.mercadolivre.com.br/chave-de-impacto-kinetx-68vf-brushless-880nm-2-baterias-kit/up/MLBU3841784141?pdp_filters=item_id%3AMLB4536065939&matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/chave-de-impacto-kinetx-68vf-brushless-880nm-2-baterias-kit/up/MLBU3841784141?pdp_filters=item_id%3AMLB4536065939",
+      "post_origem": "https://t.me/lobaopromo/188961",
+      "link_canal": "https://meli.la/1S3qBvz",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_694253-MLB113894567221_062026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Chave De Impacto Kinetx 68vf Brushless 880nm 2 Baterias Kit Azul",
+      "de": 312.0,
+      "por": 178.0,
+      "titulo": "Chave de impacto Kinetx com 43% off",
+      "id": 385,
+      "garimpado_em": "2026-10-13T17:00-03:00",
+      "na_revisao_desde": "2026-10-13T17:00-03:00",
+      "msg_id": 670
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB18995412",
+      "origem": "lobaopromo",
+      "link": "https://www.mercadolivre.com.br/proteina-black-skull-whey-100-hd-em-po-sabor-morango-x-900g/p/MLB18995412?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/proteina-black-skull-whey-100-hd-em-po-sabor-morango-x-900g/p/MLB18995412",
+      "post_origem": "https://t.me/lobaopromo/188962",
+      "link_canal": "https://meli.la/2EbEhv7",
+      "foto": "AgACAgQAAxkDAAICn2rOjgEOdV7V1ZvT7zxrz2eRkyu2AALSDmsbwNQVUCjwJkt3T3neAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Proteína Black Skull Whey 100% HD em pó sabor Morango x 900g",
+      "por": 86.0,
+      "cupom": "FULLLANDING",
+      "titulo": "Whey Protein Black Skull com 10% off",
+      "id": 386,
+      "garimpado_em": "2026-10-13T17:01-03:00",
+      "na_revisao_desde": "2026-10-13T17:01-03:00",
+      "msg_id": 671
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB55740999",
+      "origem": "promonocontext",
+      "link": "https://www.mercadolivre.com.br/relogio-saint-germain-houston-feminino-analogico-marrom-dourado-com-pulseira-de-couro-sintetico/p/MLB55740999?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/relogio-saint-germain-houston-feminino-analogico-marrom-dourado-com-pulseira-de-couro-sintetico/p/MLB55740999",
+      "post_origem": "https://t.me/promonocontext/126310",
+      "link_canal": "https://meli.la/2caQ8ht",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_949379-MLA99872554275_112025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Relógio Saint Germain Houston Feminino Analógico Marrom Dourado Com",
+      "de": 289.0,
+      "por": 97.0,
+      "titulo": "Relógio Saint Germain com 66% de desconto",
+      "id": 387,
+      "garimpado_em": "2026-10-13T17:01-03:00",
+      "na_revisao_desde": "2026-10-13T17:01-03:00",
+      "msg_id": 672
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:1537142489.58266674286",
+      "origem": "promooeasy",
+      "link": "https://shopee.com.br/product/1537142489/58266674286",
+      "link_produto": "https://shopee.com.br/product/1537142489/58266674286",
+      "post_origem": "https://t.me/promooeasy/220698",
+      "link_canal": "https://s.shopee.com.br/8V9gSg0L32?lp=aff",
+      "precisa_link": true,
+      "foto": "https://cdn1.telesco.pe/file/cqGGCy2fYKm26KmPgPK1XlU0EveEDGCKyMzWcpzETVHzJnGdkt7WJXgZvGX6fG_D-46WehCiXw9IMl1byMP9VVjSbMYjWDPpzmZj7asDVZYGDzVEOqnvPBmLkGigjfvN3GMRcVKLaytb21XvLHm-NYPZaDuWRkrsBzyM3pAv_CtfZJ6qyIFeoJuQNTwwl4r2t0rwFQpfVqsEToo6-RNFD8sUFObxM6OHD1WEDnG5xlwrvQCfET74IFT3o5iJe3ll6p6e9ETt7ErEKqn8Njtf4cME-ExtO7ZNKDHRmEbdrcT0JEqErzcjnqpTocGPjH1QZlF4rf92rhlvJ-n1w53yxw.jpg",
+      "foto_origem": "canal",
+      "nome": "Samsung Smart TV 50 Mini LED 4K M75H + Soundbar Samsung HW-B400F",
+      "pix": true,
+      "por": 2602.0,
+      "cupom": "AQUI",
+      "titulo": "Combo Samsung: Smart TV 50 polegadas Mini LED 4K e Soundbar por 2602.",
+      "id": 388,
+      "garimpado_em": "2026-10-13T17:01-03:00",
+      "na_revisao_desde": "2026-10-13T17:01-03:00",
+      "msg_id": 673
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:1275178233.22294155579",
+      "origem": "promooeasy",
+      "link": "https://shopee.com.br/product/1275178233/22294155579",
+      "link_produto": "https://shopee.com.br/product/1275178233/22294155579",
+      "post_origem": "https://t.me/promooeasy/220700",
+      "link_canal": "https://s.shopee.com.br/2LZ37STmp0?lp=aff",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAIComrOjkCJwX9Nc-wZI4h2fMSpscwTAAIQDWsb7AJ5RuQIDw0Cb0MEAQADAgADeAADPQQ",
+      "foto_origem": "canal",
+      "nome": "Kit Banheiro Bambu 6 peças Luxo Conjunto Lavabo Saboneteira Lixeira para Banheiro e Acessorios",
+      "de": 89.72,
+      "por": 69.98,
+      "titulo": "Kit banheiro em bambu com 22% off",
+      "id": 389,
+      "garimpado_em": "2026-10-13T17:02-03:00",
+      "na_revisao_desde": "2026-10-13T17:02-03:00",
+      "msg_id": 674
     }
   ],
-  "proximo_id": 384,
+  "proximo_id": 390,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84667,
-      "lobaopromo": 188955,
-      "gatunopromos": 125130,
-      "pobregram": 41837,
+      "xetdaspromocoes": 84668,
+      "lobaopromo": 188962,
+      "gatunopromos": 125132,
+      "pobregram": 41838,
       "urubupromo": 41619,
       "tudonapromo": 101742,
-      "promonocontext": 126306,
-      "promooeasy": 220695,
-      "aquitempechincha": 281413,
+      "promonocontext": 126310,
+      "promooeasy": 220701,
+      "aquitempechincha": 281414,
       "infoBRpromos": 67462,
-      "boletando": 76668,
-      "promotop": 260231,
+      "boletando": 76671,
+      "promotop": 260232,
       "achadosdotb": 11763
     },
     "dia": "2026-10-13",
-    "hoje": 219,
+    "hoje": 225,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -1736,27 +1853,33 @@
       "mercadolivre:MLB38520699",
       "mercadolivre:MLB6284520224",
       "amazon:B0F1C3MRMF",
-      "amazon:B08T68T1T6"
+      "amazon:B08T68T1T6",
+      "amazon:B0FNCPHMXM",
+      "mercadolivre:MLB4536065939",
+      "mercadolivre:MLB18995412",
+      "mercadolivre:MLB55740999",
+      "shopee:1537142489.58266674286",
+      "shopee:1275178233.22294155579"
     ],
     "ultima": {
-      "em": "2026-10-13T16:50:19-03:00",
+      "em": "2026-10-13T17:00:30-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 35,
-      "do_nicho": 6,
-      "repetidas": 2,
-      "novas": 4,
+      "posts_novos": 37,
+      "do_nicho": 7,
+      "repetidas": 1,
+      "novas": 6,
       "limite_dia": false,
-      "promobit": 0
+      "promobit": 1
     },
-    "hora": "2026-10-13T16",
-    "nesta_hora": 23,
-    "promobit_hora": "2026-10-13T16",
-    "promobit_nesta_hora": 2,
-    "promobit_visto": 3111175
+    "hora": "2026-10-13T17",
+    "nesta_hora": 5,
+    "promobit_hora": "2026-10-13T17",
+    "promobit_nesta_hora": 1,
+    "promobit_visto": 3111208
   },
   "ultimos": [
     {
@@ -3185,17 +3308,17 @@
     },
     "2026-10-13": {
       "promobit": {
-        "achados": 25,
+        "achados": 26,
         "aprovados": 3,
         "reprovados": 20
       },
       "lobaopromo": {
-        "achados": 44,
+        "achados": 46,
         "aprovados": 10,
         "reprovados": 27
       },
       "promooeasy": {
-        "achados": 84,
+        "achados": 86,
         "aprovados": 2,
         "reprovados": 77
       },
@@ -3210,7 +3333,7 @@
         "reprovados": 5
       },
       "promonocontext": {
-        "achados": 33,
+        "achados": 34,
         "aprovados": 7,
         "reprovados": 21
       },
@@ -3236,5 +3359,5 @@
       }
     }
   },
-  "aviso_post": "2026-10-13 16|mercadolivre:MLB7319767372"
+  "aviso_post": "2026-10-13 17|mercadolivre:MLB66902915"
 }
