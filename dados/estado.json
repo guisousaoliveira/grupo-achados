@@ -337,6 +337,25 @@
       "garimpado_em": "2026-10-13T16:00-03:00",
       "na_revisao_desde": "2026-10-13T16:00-03:00",
       "aprovado_em": "2026-10-13T16:04-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB68885400",
+      "origem": "promonocontext",
+      "link": "https://meli.la/2gumX4b",
+      "link_produto": "https://meli.la/2gumX4b",
+      "post_origem": "https://t.me/promonocontext/126282",
+      "link_canal": "https://meli.la/1tqxLb1",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_784610-MLA110156547384_042026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Kit Pré Treino Hórus 7 Belo + Creatina 7 Belo Max Titanium 300g",
+      "de": 199.0,
+      "por": 104.0,
+      "cupom": "FULLLANDING",
+      "titulo": "Kit pré-treino e creatina com 48% off",
+      "garimpado_em": "2026-10-13T15:52-03:00",
+      "na_revisao_desde": "2026-10-13T15:52-03:00",
+      "aprovado_em": "2026-10-13T16:05-03:00"
     }
   ],
   "postados": [
@@ -948,28 +967,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB68885400",
-      "origem": "promonocontext",
-      "link": "https://www.mercadolivre.com.br/kit-pre-treino-horus-7-belo-creatina-7-belo-max-titanium-300g-framboesa-150mg-cafeina-energia-forca-performance/p/MLB68885400?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/kit-pre-treino-horus-7-belo-creatina-7-belo-max-titanium-300g-framboesa-150mg-cafeina-energia-forca-performance/p/MLB68885400",
-      "post_origem": "https://t.me/promonocontext/126282",
-      "link_canal": "https://meli.la/1tqxLb1",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_784610-MLA110156547384_042026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Kit Pré Treino Hórus 7 Belo + Creatina 7 Belo Max Titanium 300g",
-      "de": 199.0,
-      "por": 104.0,
-      "cupom": "FULLLANDING",
-      "titulo": "Kit pré-treino e creatina com 48% off",
-      "id": 355,
-      "garimpado_em": "2026-10-13T15:52-03:00",
-      "na_revisao_desde": "2026-10-13T15:52-03:00",
-      "msg_id": 637
-    }
-  ],
+  "revisar": [],
   "proximo_id": 363,
   "radar": {
     "visto": {
@@ -2801,7 +2799,7 @@
       },
       "promonocontext": {
         "achados": 28,
-        "aprovados": 6,
+        "aprovados": 7,
         "reprovados": 21
       },
       "infoBRpromos": {
