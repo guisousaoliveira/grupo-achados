@@ -275,6 +275,25 @@
       "garimpado_em": "2026-10-13T08:11-03:00",
       "na_revisao_desde": "2026-10-13T08:11-03:00",
       "aprovado_em": "2026-10-13T08:13-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB7319767372",
+      "origem": "promonocontext",
+      "link": "https://meli.la/2scKQiu",
+      "link_produto": "https://meli.la/2scKQiu",
+      "post_origem": "https://t.me/promonocontext/126076",
+      "link_canal": "https://meli.la/22vFVqW",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_813847-MLB114929394738_082026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Camisa Polo Masculina Polo Wear Piquet Listrada Bege Médio M",
+      "pix": true,
+      "de": 139.99,
+      "por": 62.21,
+      "titulo": "Presença começa no detalhe.",
+      "garimpado_em": "2026-10-13T09:02-03:00",
+      "na_revisao_desde": "2026-10-13T09:02-03:00",
+      "aprovado_em": "2026-10-13T09:14-03:00"
     }
   ],
   "postados": [
@@ -1078,26 +1097,6 @@
       "garimpado_em": "2026-10-13T09:01-03:00",
       "na_revisao_desde": "2026-10-13T09:01-03:00",
       "msg_id": 380
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB7319767372",
-      "origem": "promonocontext",
-      "link": "https://www.mercadolivre.com.br/camisa-polo-masculina-polo-wear-piquet-listrada/up/MLBU4573709318?pdp_filters=item_id%3AMLB7319767372&matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/camisa-polo-masculina-polo-wear-piquet-listrada/up/MLBU4573709318?pdp_filters=item_id%3AMLB7319767372",
-      "post_origem": "https://t.me/promonocontext/126076",
-      "link_canal": "https://meli.la/22vFVqW",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_813847-MLB114929394738_082026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Camisa Polo Masculina Polo Wear Piquet Listrada Bege Médio M",
-      "pix": true,
-      "de": 139.0,
-      "por": 62.0,
-      "titulo": "Presença começa no detalhe.",
-      "id": 209,
-      "garimpado_em": "2026-10-13T09:02-03:00",
-      "na_revisao_desde": "2026-10-13T09:02-03:00",
-      "msg_id": 381
     }
   ],
   "proximo_id": 210,
@@ -2027,7 +2026,7 @@
       },
       "promonocontext": {
         "achados": 1,
-        "aprovados": 0,
+        "aprovados": 1,
         "reprovados": 0
       }
     }
