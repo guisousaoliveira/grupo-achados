@@ -247,23 +247,6 @@
     },
     {
       "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB7776080994",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/1cKY6BV",
-      "link_produto": "https://meli.la/1cKY6BV",
-      "post_origem": "https://t.me/lobaopromo/188590",
-      "link_canal": "https://meli.la/1svt6Yx",
-      "foto": "AgACAgEAAxkDAAIBD2rNcfx_NI-LVoOi9VgqcRVEvlr3AAKSDWsb8PdpRh_entQIEX2QAQADAgADeQADPQQ",
-      "nome": "Tênis Fila Academia Corrida Caminhada Macio Treino Couro Lev",
-      "de": 333.0,
-      "por": 107.39,
-      "titulo": "Tênis Fila para treino e corrida",
-      "garimpado_em": "2026-10-12T20:10-03:00",
-      "na_revisao_desde": "2026-10-12T20:10-03:00",
-      "aprovado_em": "2026-10-12T20:51-03:00"
-    },
-    {
-      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB4703022818",
       "origem": "promonocontext",
       "link": "https://meli.la/1GX7MuJ",
@@ -557,6 +540,14 @@
       "data": "2026-10-12T20:51-03:00",
       "link": "https://meli.la/1tqC1AP",
       "link_produto": "https://meli.la/1tqC1AP"
+    },
+    {
+      "chave": "mercadolivre:MLB7776080994",
+      "loja": "mercadolivre",
+      "nome": "Tênis Fila Academia Corrida Caminhada Macio Treino Couro Lev",
+      "data": "2026-10-12T21:06-03:00",
+      "link": "https://meli.la/1cKY6BV",
+      "link_produto": "https://meli.la/1cKY6BV"
     }
   ],
   "slots_usados": {
@@ -828,6 +819,19 @@
     "promobit_visto": 3109291
   },
   "ultimos": [
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB7776080994",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/1cKY6BV",
+      "link_produto": "https://meli.la/1cKY6BV",
+      "post_origem": "https://t.me/lobaopromo/188590",
+      "foto": "AgACAgEAAxkDAAIBD2rNcfx_NI-LVoOi9VgqcRVEvlr3AAKSDWsb8PdpRh_entQIEX2QAQADAgADeQADPQQ",
+      "nome": "Tênis Fila Academia Corrida Caminhada Macio Treino Couro Lev",
+      "de": 333.0,
+      "por": 107.39,
+      "titulo": "Tênis Fila para treino e corrida"
+    },
     {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB49217710",
