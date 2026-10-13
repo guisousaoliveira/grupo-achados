@@ -806,27 +806,6 @@
       "msg_id": 366
     },
     {
-      "loja": "shopee",
-      "chave": "shopee:1379077822.22598238206",
-      "origem": "promooeasy",
-      "link": "https://shopee.com.br/product/1379077822/22598238206",
-      "link_produto": "https://shopee.com.br/product/1379077822/22598238206",
-      "post_origem": "https://t.me/promooeasy/220345",
-      "link_canal": "https://s.shopee.com.br/20wC9nkQ7m?lp=aff",
-      "precisa_link": true,
-      "foto": "https://cdn1.telesco.pe/file/NSrRDdhU4AIA2pXP8JK5ma-wy_QMybzD2BK27FYjVylfdPQzqW2G7sGTnqA1jJe5E6XvvB1lNGe0JvgSdkXDLMKHFF1RyPhOr51sRUsTlMeyLjm7qOUcC4nppV8baQGC46tGFEU3860yxsw3ar2ZEPMKNW2fLMxB8gifZC3VyDgFUYgy2UxP_euTXyLFnBwxKrSXnR0xKcLMpgbd70oTI7pMRjVIm4OQelBYaqLeb6vXwx93UidII2O1-QlE9QtheDm5NKO1f2-RextrJepaBGxS9PAcOiPOeXvi6WsSe8XjWIj3Goj0SWVI7134GUQYtCjE5ozZEMoHOk5Pz3ow8w.jpg",
-      "foto_origem": "canal",
-      "nome": "Bicicleta Ergométrica Compacta e Silenciosa - Bike Spinning para Apartamento, 150kg",
-      "cupom_loja": "Resgate o cupom de R$30 aqui:",
-      "de": 2971.5,
-      "por": 736.86,
-      "titulo": "Desconto de 75%: é agora ou nunca.",
-      "id": 195,
-      "garimpado_em": "2026-10-13T08:32-03:00",
-      "na_revisao_desde": "2026-10-13T08:32-03:00",
-      "msg_id": 367
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B0GWF58NT2",
       "origem": "promooeasy",
@@ -1670,6 +1649,28 @@
   "lixeira": [
     {
       "loja": "shopee",
+      "chave": "shopee:1379077822.22598238206",
+      "origem": "promooeasy",
+      "link": "https://shopee.com.br/product/1379077822/22598238206",
+      "link_produto": "https://shopee.com.br/product/1379077822/22598238206",
+      "post_origem": "https://t.me/promooeasy/220345",
+      "link_canal": "https://s.shopee.com.br/20wC9nkQ7m?lp=aff",
+      "precisa_link": true,
+      "foto": "https://cdn1.telesco.pe/file/NSrRDdhU4AIA2pXP8JK5ma-wy_QMybzD2BK27FYjVylfdPQzqW2G7sGTnqA1jJe5E6XvvB1lNGe0JvgSdkXDLMKHFF1RyPhOr51sRUsTlMeyLjm7qOUcC4nppV8baQGC46tGFEU3860yxsw3ar2ZEPMKNW2fLMxB8gifZC3VyDgFUYgy2UxP_euTXyLFnBwxKrSXnR0xKcLMpgbd70oTI7pMRjVIm4OQelBYaqLeb6vXwx93UidII2O1-QlE9QtheDm5NKO1f2-RextrJepaBGxS9PAcOiPOeXvi6WsSe8XjWIj3Goj0SWVI7134GUQYtCjE5ozZEMoHOk5Pz3ow8w.jpg",
+      "foto_origem": "canal",
+      "nome": "Bicicleta Ergométrica Compacta e Silenciosa - Bike Spinning para Apartamento, 150kg",
+      "cupom_loja": "Resgate o cupom de R$30 aqui:",
+      "de": 2971.5,
+      "por": 736.86,
+      "titulo": "Desconto de 75%: é agora ou nunca.",
+      "id": 195,
+      "garimpado_em": "2026-10-13T08:32-03:00",
+      "na_revisao_desde": "2026-10-13T08:32-03:00",
+      "removido_em": "2026-10-13T09:16:53-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "shopee",
       "chave": "shopee:1487744778.58204778903",
       "origem": "promooeasy",
       "link": "https://shopee.com.br/product/1487744778/58204778903",
@@ -2012,7 +2013,7 @@
       "promooeasy": {
         "achados": 27,
         "aprovados": 2,
-        "reprovados": 21
+        "reprovados": 22
       },
       "xetdaspromocoes": {
         "achados": 1,
