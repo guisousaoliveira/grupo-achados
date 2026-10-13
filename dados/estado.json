@@ -671,18 +671,71 @@
       "garimpado_em": "2026-10-12T23:40-03:00",
       "na_revisao_desde": "2026-10-12T23:40-03:00",
       "msg_id": 318
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB68750945",
+      "origem": "xetdaspromocoes",
+      "link": "https://www.mercadolivre.com.br/bone-aba-reta-five-panel-evasecret-water-strapback-impermeavel-preta/p/MLB68750945?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/bone-aba-reta-five-panel-evasecret-water-strapback-impermeavel-preta/p/MLB68750945",
+      "post_origem": "https://t.me/xetdaspromocoes/84509",
+      "link_canal": "https://meli.la/1XDTcri",
+      "foto": "AgACAgQAAxkDAAIBP2rNnHgaTWEmdwmmR_8FabBuuyZIAAKsDmsbJNGkU4t4AbaY7WQTAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Boné Aba Reta Five Panel Evasecret Water Strapback Impermeavel Preta",
+      "por": 49.0,
+      "titulo": "Boné impermeável com 38% off",
+      "id": 160,
+      "garimpado_em": "2026-10-12T23:50-03:00",
+      "na_revisao_desde": "2026-10-12T23:50-03:00",
+      "msg_id": 319
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB37809946",
+      "origem": "xetdaspromocoes",
+      "link": "https://www.mercadolivre.com.br/dark-lab-coqueteleira-700-l/p/MLB37809946?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/dark-lab-coqueteleira-700-l/p/MLB37809946",
+      "post_origem": "https://t.me/xetdaspromocoes/84512",
+      "link_canal": "https://meli.la/1E3QtSS",
+      "foto": "AgACAgQAAxkDAAIBQGrNnHrahUpwaiO_zk1KnuWzQ3wbAAIMDGsbAjl9UXaQRYbR9AYWAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Dark Lab coqueteleira 700 l",
+      "por": 19.0,
+      "titulo": "Coqueteleira Dark Lab com 31% off",
+      "id": 161,
+      "garimpado_em": "2026-10-12T23:50-03:00",
+      "na_revisao_desde": "2026-10-12T23:50-03:00",
+      "msg_id": 320
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0DG97BRCV",
+      "origem": "lobaopromo",
+      "link": "https://www.amazon.com.br/dp/B0DG97BRCV?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0DG97BRCV?tag=alphadominu09-20",
+      "post_origem": "https://t.me/lobaopromo/188665",
+      "link_canal": "https://amzlink.to/az0IcmoATwlr5",
+      "foto": "AgACAgQAAxkDAAIBQWrNnH2G5rrBZyiNd6GGv-zXY_ktAAITEGsbZRhtUnN7YJnWAhGZAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Teclado Mecânico Gamer Redragon Azure RGB Switch",
+      "titulo": "Teclado Mecânico Gamer Redragon RGB com 30% off",
+      "id": 162,
+      "garimpado_em": "2026-10-12T23:50-03:00",
+      "na_revisao_desde": "2026-10-12T23:50-03:00",
+      "msg_id": 321
     }
   ],
-  "proximo_id": 160,
+  "proximo_id": 163,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84508,
-      "lobaopromo": 188662,
-      "gatunopromos": 125018,
-      "pobregram": 41788,
+      "xetdaspromocoes": 84512,
+      "lobaopromo": 188667,
+      "gatunopromos": 125021,
+      "pobregram": 41789,
       "urubupromo": 41595,
       "tudonapromo": 101633,
-      "promonocontext": 126051,
+      "promonocontext": 126053,
       "promooeasy": 220257,
       "aquitempechincha": 281252,
       "infoBRpromos": 67421,
@@ -691,7 +744,7 @@
       "achadosdotb": 11757
     },
     "dia": "2026-10-12",
-    "hoje": 128,
+    "hoje": 131,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -828,27 +881,30 @@
       "amazon:B0DXR1M87B",
       "mercadolivre:MLB24117280",
       "amazon:B0CZPSD2SC",
-      "amazon:B07N78G8GB"
+      "amazon:B07N78G8GB",
+      "mercadolivre:MLB68750945",
+      "mercadolivre:MLB37809946",
+      "amazon:B0DG97BRCV"
     ],
     "ultima": {
-      "em": "2026-10-12T23:40:18-03:00",
+      "em": "2026-10-12T23:50:21-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 19,
-      "do_nicho": 1,
-      "repetidas": 0,
-      "novas": 1,
+      "posts_novos": 23,
+      "do_nicho": 6,
+      "repetidas": 3,
+      "novas": 3,
       "limite_dia": false,
-      "promobit": 1
+      "promobit": 0
     },
     "hora": "2026-10-12T23",
-    "nesta_hora": 5,
+    "nesta_hora": 8,
     "promobit_hora": "2026-10-12T23",
     "promobit_nesta_hora": 3,
-    "promobit_visto": 3109482
+    "promobit_visto": 3109490
   },
   "ultimos": [
     {
@@ -1698,7 +1754,7 @@
         "reprovados": 2
       },
       "lobaopromo": {
-        "achados": 22,
+        "achados": 23,
         "aprovados": 10,
         "reprovados": 12
       },
@@ -1730,6 +1786,11 @@
       "pobregram": {
         "achados": 1,
         "aprovados": 1,
+        "reprovados": 0
+      },
+      "xetdaspromocoes": {
+        "achados": 2,
+        "aprovados": 0,
         "reprovados": 0
       }
     }
