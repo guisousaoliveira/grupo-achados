@@ -1166,25 +1166,6 @@
       "msg_id": 472
     },
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB77978161",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/samsung-smart-tv-65-miniled-4k-m75h-soundbar-samsung-hw-b400f/p/MLB77978161?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/samsung-smart-tv-65-miniled-4k-m75h-soundbar-samsung-hw-b400f/p/MLB77978161",
-      "post_origem": "https://t.me/lobaopromo/188790",
-      "link_canal": "https://meli.la/2ggeTgF",
-      "foto": "AgACAgQAAxkDAAIB2mrOMsJn9EhlodFK2rl5gM-Zl5RTAAKXD2sb5F1MUmjAHMB0pIFFAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Samsung Smart Tv 65 Miniled 4k M75h + Soundbar Samsung Hw-b400f",
-      "por": 3799.0,
-      "de": 4649.0,
-      "titulo": "Smart TV 65 polegadas com 18% off",
-      "id": 252,
-      "garimpado_em": "2026-10-13T10:34-03:00",
-      "na_revisao_desde": "2026-10-13T10:34-03:00",
-      "msg_id": 479
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B07KYFQRXD",
       "origem": "promooeasy",
@@ -2037,6 +2018,26 @@
   "lixeira": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB77978161",
+      "origem": "lobaopromo",
+      "link": "https://www.mercadolivre.com.br/samsung-smart-tv-65-miniled-4k-m75h-soundbar-samsung-hw-b400f/p/MLB77978161?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/samsung-smart-tv-65-miniled-4k-m75h-soundbar-samsung-hw-b400f/p/MLB77978161",
+      "post_origem": "https://t.me/lobaopromo/188790",
+      "link_canal": "https://meli.la/2ggeTgF",
+      "foto": "AgACAgQAAxkDAAIB2mrOMsJn9EhlodFK2rl5gM-Zl5RTAAKXD2sb5F1MUmjAHMB0pIFFAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Samsung Smart Tv 65 Miniled 4k M75h + Soundbar Samsung Hw-b400f",
+      "por": 3799.0,
+      "de": 4649.0,
+      "titulo": "Smart TV 65 polegadas com 18% off",
+      "id": 252,
+      "garimpado_em": "2026-10-13T10:34-03:00",
+      "na_revisao_desde": "2026-10-13T10:34-03:00",
+      "removido_em": "2026-10-13T11:48:31-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB58097097",
       "origem": "lobaopromo",
       "link": "https://www.mercadolivre.com.br/power-bank-baseus-bipow2-pro-fc51-20000mah-225w-carregamento-rapido-cabo-usb-c-integrado-display-digital-carrega-3-dispositivos-protecao-inteligente-preto/p/MLB58097097?matt_word=alphapromo&matt_tool=59136903",
@@ -2514,7 +2515,7 @@
       "lobaopromo": {
         "achados": 17,
         "aprovados": 8,
-        "reprovados": 7
+        "reprovados": 8
       },
       "promooeasy": {
         "achados": 46,
