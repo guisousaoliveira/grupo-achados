@@ -764,24 +764,6 @@
       "msg_id": 331
     },
     {
-      "loja": "amazon",
-      "chave": "amazon:B0GY1RZM9J",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0GY1RZM9J?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0GY1RZM9J?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/220264",
-      "link_canal": "https://www.amazon.com.br/dp/B0GY1RZM9J?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAIBTGrNoTQ6AzrVLC4iqr8niXUJ8kyCAAIEEGsb_wptUjYHFalBBX8rAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Canivete dobrável Lâmina de aço inoxidável 7Cr13MoV alta dureza Cabo resistente Ferramenta multifuncional para acampamen",
-      "por": 5.0,
-      "titulo": "Canivete dobrável para acampamento com 95% off",
-      "id": 167,
-      "garimpado_em": "2026-10-13T00:10-03:00",
-      "na_revisao_desde": "2026-10-13T00:10-03:00",
-      "msg_id": 332
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB4613727425",
       "origem": "lobaopromo",
@@ -1473,6 +1455,25 @@
     }
   ],
   "lixeira": [
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0GY1RZM9J",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0GY1RZM9J?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0GY1RZM9J?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220264",
+      "link_canal": "https://www.amazon.com.br/dp/B0GY1RZM9J?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAIBTGrNoTQ6AzrVLC4iqr8niXUJ8kyCAAIEEGsb_wptUjYHFalBBX8rAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Canivete dobrável Lâmina de aço inoxidável 7Cr13MoV alta dureza Cabo resistente Ferramenta multifuncional para acampamen",
+      "por": 5.0,
+      "titulo": "Canivete dobrável para acampamento com 95% off",
+      "id": 167,
+      "garimpado_em": "2026-10-13T00:10-03:00",
+      "na_revisao_desde": "2026-10-13T00:10-03:00",
+      "removido_em": "2026-10-13T00:47:44-03:00",
+      "removido_de": "revisar"
+    },
     {
       "loja": "shopee",
       "chave": "shopee:359168917.56611856308",
@@ -2210,7 +2211,7 @@
       "promooeasy": {
         "achados": 12,
         "aprovados": 0,
-        "reprovados": 11
+        "reprovados": 12
       }
     }
   },
