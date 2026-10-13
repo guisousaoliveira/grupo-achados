@@ -1123,26 +1123,6 @@
       "garimpado_em": "2026-10-13T12:48-03:00",
       "na_revisao_desde": "2026-10-13T12:48-03:00",
       "msg_id": 559
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB6202796446",
-      "origem": "promonocontext",
-      "link": "https://www.mercadolivre.com.br/kit-3-cuecas-calvin-klein-low-rise-trunk/up/MLBU3762721382?pdp_filters=item_id%3AMLB6202796446&matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/kit-3-cuecas-calvin-klein-low-rise-trunk/up/MLBU3762721382?pdp_filters=item_id%3AMLB6202796446",
-      "post_origem": "https://t.me/promonocontext/126225",
-      "link_canal": "https://meli.la/1TTH8Kc",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_681343-MLB118555588201_102026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Kit 3 Cuecas Calvin Klein Low Rise Trunk Bordô Liso G",
-      "cupom_loja": "Use o Cupom: R$ 30 OFF 📌",
-      "por": 149.99,
-      "de": 269.0,
-      "titulo": "Desconto de 44%: é agora ou nunca.",
-      "id": 296,
-      "garimpado_em": "2026-10-13T12:56-03:00",
-      "na_revisao_desde": "2026-10-13T12:56-03:00",
-      "msg_id": 568
     }
   ],
   "proximo_id": 298,
@@ -2011,6 +1991,27 @@
   ],
   "lixeira": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB6202796446",
+      "origem": "promonocontext",
+      "link": "https://www.mercadolivre.com.br/kit-3-cuecas-calvin-klein-low-rise-trunk/up/MLBU3762721382?pdp_filters=item_id%3AMLB6202796446&matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/kit-3-cuecas-calvin-klein-low-rise-trunk/up/MLBU3762721382?pdp_filters=item_id%3AMLB6202796446",
+      "post_origem": "https://t.me/promonocontext/126225",
+      "link_canal": "https://meli.la/1TTH8Kc",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_681343-MLB118555588201_102026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Kit 3 Cuecas Calvin Klein Low Rise Trunk Bordô Liso G",
+      "cupom_loja": "Use o Cupom: R$ 30 OFF 📌",
+      "por": 149.99,
+      "de": 269.0,
+      "titulo": "Desconto de 44%: é agora ou nunca.",
+      "id": 296,
+      "garimpado_em": "2026-10-13T12:56-03:00",
+      "na_revisao_desde": "2026-10-13T12:56-03:00",
+      "removido_em": "2026-10-13T13:05:45-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B095D664HJ",
       "origem": "promooeasy",
@@ -2361,7 +2362,7 @@
       "promonocontext": {
         "achados": 17,
         "aprovados": 3,
-        "reprovados": 10
+        "reprovados": 11
       },
       "infoBRpromos": {
         "achados": 8,
