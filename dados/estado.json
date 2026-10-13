@@ -991,25 +991,6 @@
       "garimpado_em": "2026-10-13T00:40-03:00",
       "na_revisao_desde": "2026-10-13T00:40-03:00",
       "msg_id": 347
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:1083800536.58266559162",
-      "origem": "promooeasy",
-      "link": "https://shopee.com.br/product/1083800536/58266559162",
-      "link_produto": "https://shopee.com.br/product/1083800536/58266559162",
-      "post_origem": "https://t.me/promooeasy/220284",
-      "link_canal": "https://s.shopee.com.br/3B8924qhKO?lp=aff",
-      "precisa_link": true,
-      "foto": "AgACAgEAAxkDAAIBXGrNqEdQKTPhKOFmAnZGuBaXOSA5AALiDGsb7AJxRlVu2Hpgxi7oAQADAgADeAADPQQ",
-      "foto_origem": "canal",
-      "nome": "Smart TV 50 4K QLED Vidaa Dolby Vision Hisense",
-      "por": 2092.11,
-      "titulo": "Smart TV 4K Hisense com 54% off",
-      "id": 182,
-      "garimpado_em": "2026-10-13T00:40-03:00",
-      "na_revisao_desde": "2026-10-13T00:40-03:00",
-      "msg_id": 348
     }
   ],
   "proximo_id": 183,
@@ -1686,6 +1667,26 @@
   "lixeira": [
     {
       "loja": "shopee",
+      "chave": "shopee:1083800536.58266559162",
+      "origem": "promooeasy",
+      "link": "https://shopee.com.br/product/1083800536/58266559162",
+      "link_produto": "https://shopee.com.br/product/1083800536/58266559162",
+      "post_origem": "https://t.me/promooeasy/220284",
+      "link_canal": "https://s.shopee.com.br/3B8924qhKO?lp=aff",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAIBXGrNqEdQKTPhKOFmAnZGuBaXOSA5AALiDGsb7AJxRlVu2Hpgxi7oAQADAgADeAADPQQ",
+      "foto_origem": "canal",
+      "nome": "Smart TV 50 4K QLED Vidaa Dolby Vision Hisense",
+      "por": 2092.11,
+      "titulo": "Smart TV 4K Hisense com 54% off",
+      "id": 182,
+      "garimpado_em": "2026-10-13T00:40-03:00",
+      "na_revisao_desde": "2026-10-13T00:40-03:00",
+      "removido_em": "2026-10-13T00:45:01-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "shopee",
       "chave": "shopee:1083800536.58256207862",
       "origem": "promooeasy",
       "link": "https://shopee.com.br/product/1083800536/58256207862",
@@ -2201,7 +2202,7 @@
       "promooeasy": {
         "achados": 12,
         "aprovados": 0,
-        "reprovados": 1
+        "reprovados": 2
       }
     }
   },
