@@ -1026,24 +1026,6 @@
       "garimpado_em": "2026-10-13T16:01-03:00",
       "na_revisao_desde": "2026-10-13T16:01-03:00",
       "msg_id": 643
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B07BZCHM16",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B07BZCHM16?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B07BZCHM16?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/220669",
-      "link_canal": "https://www.amazon.com.br/Borracha-Antiderrapante-Costuradas-Teclado-Objetos/dp/B07BZCHM16?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAIChGrOgAUsECxiZ0svMS5O_ZNDWL56AAISD2sbSMzEUBQwIG2hd1krAQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "nome": "Havit Mouse Pad Grande Gamer MP860, 70 X 30 Cm, Tecido de Malha Fina, Base de Borracha Antiderrapante, Design com Bordas",
-      "por": 29.99,
-      "titulo": "Mouse pad grande Havit com 40% off",
-      "id": 362,
-      "garimpado_em": "2026-10-13T16:01-03:00",
-      "na_revisao_desde": "2026-10-13T16:01-03:00",
-      "msg_id": 644
     }
   ],
   "proximo_id": 363,
@@ -1977,6 +1959,25 @@
   ],
   "lixeira": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B07BZCHM16",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B07BZCHM16?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B07BZCHM16?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220669",
+      "link_canal": "https://www.amazon.com.br/Borracha-Antiderrapante-Costuradas-Teclado-Objetos/dp/B07BZCHM16?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAIChGrOgAUsECxiZ0svMS5O_ZNDWL56AAISD2sbSMzEUBQwIG2hd1krAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "nome": "Havit Mouse Pad Grande Gamer MP860, 70 X 30 Cm, Tecido de Malha Fina, Base de Borracha Antiderrapante, Design com Bordas",
+      "por": 29.99,
+      "titulo": "Mouse pad grande Havit com 40% off",
+      "id": 362,
+      "garimpado_em": "2026-10-13T16:01-03:00",
+      "na_revisao_desde": "2026-10-13T16:01-03:00",
+      "removido_em": "2026-10-13T16:03:50-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB78872569",
       "origem": "lobaopromo",
@@ -2770,27 +2771,6 @@
       "na_revisao_desde": "2026-10-13T15:12-03:00",
       "removido_em": "2026-10-13T15:46:31-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB75681377",
-      "origem": "promonocontext",
-      "link": "https://www.mercadolivre.com.br/smart-tv-pro-lg-55-4k-ultra-hd-ai-55un85c/p/MLB75681377?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/smart-tv-pro-lg-55-4k-ultra-hd-ai-55un85c/p/MLB75681377",
-      "post_origem": "https://t.me/promonocontext/126267",
-      "link_canal": "https://meli.la/1bymNC8",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_646395-MLA116823736237_082026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Smart TV PRO LG 55'' 4K Ultra HD AI 55UN85C",
-      "de": 5000.0,
-      "por": 2522.0,
-      "cupom": "FULLLANDING",
-      "titulo": "Smart TV LG 55 polegadas 4K com 50% de desconto por 2522 reais.",
-      "id": 343,
-      "garimpado_em": "2026-10-13T15:14-03:00",
-      "na_revisao_desde": "2026-10-13T15:14-03:00",
-      "removido_em": "2026-10-13T15:45:39-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -2865,7 +2845,7 @@
       "promooeasy": {
         "achados": 79,
         "aprovados": 2,
-        "reprovados": 73
+        "reprovados": 74
       },
       "xetdaspromocoes": {
         "achados": 14,
