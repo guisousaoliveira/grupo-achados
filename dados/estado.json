@@ -1375,24 +1375,6 @@
       "msg_id": 498
     },
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB4465154231",
-      "origem": "promonocontext",
-      "link": "https://produto.mercadolivre.com.br/MLB-4465154231-top-lupo-loba-fitness-confortavel-otima-sustentaco-academia-_JM?pdp_filters=item_id%3AMLB4465154231&matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-4465154231-top-lupo-loba-fitness-confortavel-otima-sustentaco-academia-_JM?pdp_filters=item_id%3AMLB4465154231",
-      "post_origem": "https://t.me/promonocontext/126173",
-      "link_canal": "https://meli.la/1ZFrUK5",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_965332-MLB98105910433_112025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Top Lupo Loba Fitness Confortável Ótima Sustentação Academia",
-      "por": 39.0,
-      "titulo": "Top Lupo Loba para academia, focado em conforto e alta sustentação.",
-      "id": 266,
-      "garimpado_em": "2026-10-13T11:32-03:00",
-      "na_revisao_desde": "2026-10-13T11:32-03:00",
-      "msg_id": 499
-    },
-    {
       "loja": "shopee",
       "chave": "shopee:829012010.46816424954",
       "origem": "promooeasy",
@@ -2320,6 +2302,25 @@
   "lixeira": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB4465154231",
+      "origem": "promonocontext",
+      "link": "https://produto.mercadolivre.com.br/MLB-4465154231-top-lupo-loba-fitness-confortavel-otima-sustentaco-academia-_JM?pdp_filters=item_id%3AMLB4465154231&matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-4465154231-top-lupo-loba-fitness-confortavel-otima-sustentaco-academia-_JM?pdp_filters=item_id%3AMLB4465154231",
+      "post_origem": "https://t.me/promonocontext/126173",
+      "link_canal": "https://meli.la/1ZFrUK5",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_965332-MLB98105910433_112025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Top Lupo Loba Fitness Confortável Ótima Sustentação Academia",
+      "por": 39.0,
+      "titulo": "Top Lupo Loba para academia, focado em conforto e alta sustentação.",
+      "id": 266,
+      "garimpado_em": "2026-10-13T11:32-03:00",
+      "na_revisao_desde": "2026-10-13T11:32-03:00",
+      "removido_em": "2026-10-13T11:43:20-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB4182420507",
       "origem": "promonocontext",
       "link": "https://produto.mercadolivre.com.br/MLB-4182420507-calca-legging-leg-flare-zero-transparncia-grossa-academia-_JM?pdp_filters=item_id%3AMLB4182420507&matt_word=alphapromo&matt_tool=59136903",
@@ -2531,7 +2532,7 @@
       "promonocontext": {
         "achados": 9,
         "aprovados": 1,
-        "reprovados": 2
+        "reprovados": 3
       },
       "infoBRpromos": {
         "achados": 8,
