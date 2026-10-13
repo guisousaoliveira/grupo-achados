@@ -3,25 +3,6 @@
   "fila": [
     {
       "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB2650723879",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/1YPBC11",
-      "link_produto": "https://meli.la/1YPBC11",
-      "post_origem": "https://t.me/lobaopromo/188687",
-      "link_canal": "https://meli.la/1eGHYx9",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_625971-MLB85128237971_052025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Kit 3 Camisas Proteção Solar Uv Treino Térmica Academia",
-      "de": 129.0,
-      "por": 93.95,
-      "titulo": "Kit de camisas térmicas com 27% off",
-      "garimpado_em": "2026-10-13T00:40-03:00",
-      "na_revisao_desde": "2026-10-13T00:40-03:00",
-      "aprovado_em": "2026-10-13T00:46-03:00",
-      "aviso_validade": true
-    },
-    {
-      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB5737308982",
       "origem": "lobaopromo",
       "link": "https://meli.la/2EKRcwN",
@@ -883,6 +864,15 @@
       "data": "2026-10-13T13:07-03:00",
       "link": "https://meli.la/1DjLFG2",
       "link_produto": "https://meli.la/1DjLFG2"
+    },
+    {
+      "chave": "mercadolivre:MLB2650723879",
+      "loja": "mercadolivre",
+      "nome": "Kit 3 Camisas Proteção Solar Uv Treino Térmica Academia",
+      "data": "2026-10-13T13:30-03:00",
+      "link": "https://meli.la/1YPBC11",
+      "link_produto": "https://meli.la/1YPBC11",
+      "slot": 13
     }
   ],
   "slots_usados": {
@@ -912,7 +902,8 @@
       9,
       10,
       11,
-      12
+      12,
+      13
     ]
   },
   "shopee_buscado_em": "",
@@ -1415,6 +1406,19 @@
     "promobit_visto": 3110560
   },
   "ultimos": [
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB2650723879",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/1YPBC11",
+      "link_produto": "https://meli.la/1YPBC11",
+      "post_origem": "https://t.me/lobaopromo/188687",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_625971-MLB85128237971_052025-O.webp",
+      "nome": "Kit 3 Camisas Proteção Solar Uv Treino Térmica Academia",
+      "de": 129.0,
+      "por": 93.95,
+      "titulo": "Kit de camisas térmicas com 27% off"
+    },
     {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB6160179460",
@@ -1945,18 +1949,6 @@
       "de": 100.0,
       "por": 52.9,
       "titulo": "Mixer Elgin com 47% off"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB75627276",
-      "origem": "gatunopromos",
-      "link": "https://meli.la/2Ez1sVB",
-      "link_produto": "https://www.mercadolivre.com.br/mochila-para-notebook-impermeavel-e-reforcada-com-entrada-usb-25-a-40l-masculina-e-feminina/p/MLB75627276",
-      "foto": "AgACAgQAAxkDAAOQaszE9fFNqDChOVXKu2GsZjUULtIAAoMNaxs62IRThvOsPSKiMHgBAAMCAAN4AAM9BA",
-      "nome": "Mochila para Notebook Impermeável e Reforçada com Entrada USB",
-      "por": 79.19,
-      "de": 369.69,
-      "titulo": "Preço de queima, 79% mais barato."
     }
   ],
   "lixeira": [
