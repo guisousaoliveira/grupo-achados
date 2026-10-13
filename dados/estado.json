@@ -1055,26 +1055,6 @@
       "msg_id": 575
     },
     {
-      "loja": "amazon",
-      "chave": "amazon:B0894J8SLQ",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B0894J8SLQ?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0894J8SLQ?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/acer-nitro-v-15-notebook-gamer-156-amd-ryzen-7-rtx-4050-8gb-linux-3110577/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3110577/",
-      "nome": "Acer Nitro V 15 Notebook Gamer 15.6\" AMD Ryzen 7 RTX 4050 8GB Linux",
-      "por": 4682.65,
-      "cupom": "CARTAO150OFF",
-      "foto": "AgACAgQAAxkDAAICQWrOXQENtCQF8hUPmolmJYoh4F_DAALGD2sburocUbdAXiqCv-_FAQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "titulo": "Achado do dia, aproveita antes de acabar.",
-      "id": 302,
-      "garimpado_em": "2026-10-13T13:32-03:00",
-      "na_revisao_desde": "2026-10-13T13:32-03:00",
-      "msg_id": 577
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB63033418",
       "origem": "lobaopromo",
@@ -2106,6 +2086,27 @@
   "lixeira": [
     {
       "loja": "amazon",
+      "chave": "amazon:B0894J8SLQ",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0894J8SLQ?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0894J8SLQ?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/acer-nitro-v-15-notebook-gamer-156-amd-ryzen-7-rtx-4050-8gb-linux-3110577/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3110577/",
+      "nome": "Acer Nitro V 15 Notebook Gamer 15.6\" AMD Ryzen 7 RTX 4050 8GB Linux",
+      "por": 4682.65,
+      "cupom": "CARTAO150OFF",
+      "foto": "AgACAgQAAxkDAAICQWrOXQENtCQF8hUPmolmJYoh4F_DAALGD2sburocUbdAXiqCv-_FAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "titulo": "Achado do dia, aproveita antes de acabar.",
+      "id": 302,
+      "garimpado_em": "2026-10-13T13:32-03:00",
+      "na_revisao_desde": "2026-10-13T13:32-03:00",
+      "removido_em": "2026-10-13T14:31:03-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "amazon",
       "chave": "amazon:B0FKW184B1",
       "origem": "promobit",
       "fonte": "promobit",
@@ -2772,7 +2773,7 @@
       "promobit": {
         "achados": 19,
         "aprovados": 3,
-        "reprovados": 13
+        "reprovados": 14
       },
       "lobaopromo": {
         "achados": 28,
