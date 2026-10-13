@@ -1212,27 +1212,6 @@
       "garimpado_em": "2026-10-13T10:42-03:00",
       "na_revisao_desde": "2026-10-13T10:42-03:00",
       "msg_id": 482
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB58097097",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/power-bank-baseus-bipow2-pro-fc51-20000mah-225w-carregamento-rapido-cabo-usb-c-integrado-display-digital-carrega-3-dispositivos-protecao-inteligente-preto/p/MLB58097097?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/power-bank-baseus-bipow2-pro-fc51-20000mah-225w-carregamento-rapido-cabo-usb-c-integrado-display-digital-carrega-3-dispositivos-protecao-inteligente-preto/p/MLB58097097",
-      "post_origem": "https://t.me/lobaopromo/188791",
-      "link_canal": "https://meli.la/2pERhGv",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_812206-MLA93073248860_092025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Power Bank Baseus Bipow2 Pro FC51 20000mAh 22,5W Carregamento Rápido",
-      "pix": true,
-      "cupom_loja": "Adicione o cupom de 10% no anúncio",
-      "de": 286.0,
-      "por": 177.0,
-      "titulo": "Útil no dia a dia e com desconto.",
-      "id": 255,
-      "garimpado_em": "2026-10-13T10:43-03:00",
-      "na_revisao_desde": "2026-10-13T10:43-03:00",
-      "msg_id": 483
     }
   ],
   "proximo_id": 272,
@@ -2066,6 +2045,28 @@
   "lixeira": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB58097097",
+      "origem": "lobaopromo",
+      "link": "https://www.mercadolivre.com.br/power-bank-baseus-bipow2-pro-fc51-20000mah-225w-carregamento-rapido-cabo-usb-c-integrado-display-digital-carrega-3-dispositivos-protecao-inteligente-preto/p/MLB58097097?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/power-bank-baseus-bipow2-pro-fc51-20000mah-225w-carregamento-rapido-cabo-usb-c-integrado-display-digital-carrega-3-dispositivos-protecao-inteligente-preto/p/MLB58097097",
+      "post_origem": "https://t.me/lobaopromo/188791",
+      "link_canal": "https://meli.la/2pERhGv",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_812206-MLA93073248860_092025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Power Bank Baseus Bipow2 Pro FC51 20000mAh 22,5W Carregamento Rápido",
+      "pix": true,
+      "cupom_loja": "Adicione o cupom de 10% no anúncio",
+      "de": 286.0,
+      "por": 177.0,
+      "titulo": "Útil no dia a dia e com desconto.",
+      "id": 255,
+      "garimpado_em": "2026-10-13T10:43-03:00",
+      "na_revisao_desde": "2026-10-13T10:43-03:00",
+      "removido_em": "2026-10-13T11:46:59-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB78183808",
       "origem": "urubupromo",
       "link": "https://www.mercadolivre.com.br/samsung-smart-tv-65-miniled-4k-m75h-soundbar-samsung-b-series-hw-b450f/p/MLB78183808?matt_word=alphapromo&matt_tool=59136903",
@@ -2521,7 +2522,7 @@
       "lobaopromo": {
         "achados": 17,
         "aprovados": 8,
-        "reprovados": 6
+        "reprovados": 7
       },
       "promooeasy": {
         "achados": 46,
