@@ -699,26 +699,65 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [],
-  "proximo_id": 185,
+  "revisar": [
+    {
+      "loja": "shopee",
+      "chave": "shopee:344390826.58201622740",
+      "origem": "promooeasy",
+      "link": "https://shopee.com.br/product/344390826/58201622740",
+      "link_produto": "https://shopee.com.br/product/344390826/58201622740",
+      "post_origem": "https://t.me/promooeasy/220301",
+      "link_canal": "https://s.shopee.com.br/4VdX3Y4AJG?lp=aff",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAIBYWrOBhIRXrFFFx2dnIguAb4eSVcjAAIMDWsb7AJxRlVndKxtRtphAQADAgADeAADPQQ",
+      "foto_origem": "canal",
+      "nome": "Nintendo Switch OLED Bundle Mario Bros. Wonder + NSO 3 Meses",
+      "por": 1840.0,
+      "titulo": "Nintendo Switch OLED com 32% de desconto",
+      "id": 185,
+      "garimpado_em": "2026-10-13T07:21-03:00",
+      "na_revisao_desde": "2026-10-13T07:21-03:00",
+      "msg_id": 353
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:627750190.58257777632",
+      "origem": "promooeasy",
+      "link": "https://shopee.com.br/product/627750190/58257777632",
+      "link_produto": "https://shopee.com.br/product/627750190/58257777632",
+      "post_origem": "https://t.me/promooeasy/220302",
+      "link_canal": "https://s.shopee.com.br/7VH8dRN3Fd?lp=aff",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAIBYmrOBh_MZHv0A0-xuSAT0zhetLOAAAINDWsb7AJxRjB_f_TBKdufAQADAgADeAADPQQ",
+      "foto_origem": "canal",
+      "nome": "Placa de Video PowerColor Radeon RX 9060 XT Reaper, 8GB, GDDR6, 128-bit, RX9060XT-8G-A",
+      "por": 2759.0,
+      "titulo": "Placa de vídeo Radeon RX 9060 XT",
+      "id": 186,
+      "garimpado_em": "2026-10-13T07:21-03:00",
+      "na_revisao_desde": "2026-10-13T07:21-03:00",
+      "msg_id": 354
+    }
+  ],
+  "proximo_id": 187,
   "radar": {
     "visto": {
       "xetdaspromocoes": 84512,
-      "lobaopromo": 188702,
-      "gatunopromos": 125055,
+      "lobaopromo": 188703,
+      "gatunopromos": 125056,
       "pobregram": 41795,
       "urubupromo": 41595,
       "tudonapromo": 101633,
       "promonocontext": 126053,
-      "promooeasy": 220300,
-      "aquitempechincha": 281252,
+      "promooeasy": 220302,
+      "aquitempechincha": 281256,
       "infoBRpromos": 67421,
       "boletando": 76626,
       "promotop": 260187,
       "achadosdotb": 11757
     },
     "dia": "2026-10-13",
-    "hoje": 21,
+    "hoje": 23,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -879,27 +918,29 @@
       "amazon:B0HJBGT35C",
       "shopee:1083800536.58266559162",
       "amazon:B09XWJWMS1",
-      "shopee:1343318906.45265648037"
+      "shopee:1343318906.45265648037",
+      "shopee:344390826.58201622740",
+      "shopee:627750190.58257777632"
     ],
     "ultima": {
-      "em": "2026-10-13T07:10:19-03:00",
+      "em": "2026-10-13T07:20:19-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 7,
-      "do_nicho": 1,
-      "repetidas": 1,
-      "novas": 0,
+      "posts_novos": 13,
+      "do_nicho": 2,
+      "repetidas": 0,
+      "novas": 2,
       "limite_dia": false,
       "promobit": 0
     },
     "hora": "2026-10-13T07",
-    "nesta_hora": 0,
+    "nesta_hora": 2,
     "promobit_hora": "2026-10-13T07",
     "promobit_nesta_hora": 0,
-    "promobit_visto": 3109640
+    "promobit_visto": 3109646
   },
   "ultimos": [
     {
@@ -1505,7 +1546,7 @@
         "reprovados": 2
       },
       "promooeasy": {
-        "achados": 13,
+        "achados": 15,
         "aprovados": 0,
         "reprovados": 13
       }
