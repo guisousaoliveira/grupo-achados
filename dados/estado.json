@@ -2,25 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB4613727425",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/1NnuF3D",
-      "link_produto": "https://meli.la/1NnuF3D",
-      "post_origem": "https://t.me/lobaopromo/188679",
-      "link_canal": "https://meli.la/1U82Hvs",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_931251-MLB118770940079_102026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Esmerilhadeira Angular Professional 115mm Lixadeira 220v",
-      "de": 199.0,
-      "por": 101.28,
-      "titulo": "Esmerilhadeira 220v",
-      "garimpado_em": "2026-10-13T00:20-03:00",
-      "na_revisao_desde": "2026-10-13T00:20-03:00",
-      "aprovado_em": "2026-10-13T00:48-03:00",
-      "aviso_validade": true
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B09YVVH7J1",
       "origem": "promooeasy",
@@ -862,6 +843,14 @@
       "data": "2026-10-13T13:46-03:00",
       "link": "https://meli.la/2EKRcwN",
       "link_produto": "https://meli.la/2EKRcwN"
+    },
+    {
+      "chave": "mercadolivre:MLB4613727425",
+      "loja": "mercadolivre",
+      "nome": "Esmerilhadeira Angular Professional 115mm Lixadeira 220v",
+      "data": "2026-10-13T14:10-03:00",
+      "link": "https://meli.la/1NnuF3D",
+      "link_produto": "https://meli.la/1NnuF3D"
     }
   ],
   "slots_usados": {
@@ -1627,6 +1616,19 @@
   "ultimos": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB4613727425",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/1NnuF3D",
+      "link_produto": "https://meli.la/1NnuF3D",
+      "post_origem": "https://t.me/lobaopromo/188679",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_931251-MLB118770940079_102026-O.webp",
+      "nome": "Esmerilhadeira Angular Professional 115mm Lixadeira 220v",
+      "de": 199.0,
+      "por": 101.28,
+      "titulo": "Esmerilhadeira 220v"
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB5737308982",
       "origem": "lobaopromo",
       "link": "https://meli.la/2EKRcwN",
@@ -2159,16 +2161,6 @@
       "por": 51.76,
       "titulo": "Maquininha Kemei com 48% off",
       "pix": true
-    },
-    {
-      "loja": "mercadolivre",
-      "link": "https://meli.la/2x4uuZ1",
-      "chave": "mercadolivre:https://meli.la/2x4uuZ1",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_859161-MLA99962428017_112025-O.webp",
-      "titulo": "Whey Protein Dark Lab com desconto",
-      "nome": "Whey Isolate Protein Fuse 900g Dark Lab Sabor Chocolate",
-      "de": 129.9,
-      "por": 78.9
     }
   ],
   "lixeira": [
