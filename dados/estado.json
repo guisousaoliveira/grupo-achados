@@ -1024,27 +1024,6 @@
       "garimpado_em": "2026-10-13T08:50-03:00",
       "na_revisao_desde": "2026-10-13T08:50-03:00",
       "msg_id": 376
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:342086228.45665166927",
-      "origem": "promooeasy",
-      "link": "https://shopee.com.br/product/342086228/45665166927",
-      "link_produto": "https://shopee.com.br/product/342086228/45665166927",
-      "post_origem": "https://t.me/promooeasy/220375",
-      "link_canal": "https://s.shopee.com.br/7ptz7r8HfO?lp=aff",
-      "precisa_link": true,
-      "foto": "https://cdn1.telesco.pe/file/iihRmFwBI7D9XDNuInDr9QdpDOj8Udu81uVUG0yfKeHwUp-zF7WQ5ywwOb5qkfyGjinVOWEBy8ER56oPSgceSrwX40NcAF1-cD4RpiZHrPtQ8VO_dFYfgafx4by0PU1QOH6tb8In5fY6SjAjbU8-e_4Rxj8TuxXypH860ReGspekYXRQIc0-hgVm2P5zu90w9oWnFV2WpiXhzel9dtOhM34o1CNedR88yToFnubN1o1mnOG_5rJuBMOkz6HhXchyN8gx0v_Vsx_H9H2Gkn2ayigl9dw-IZB5SmpxCy1W2MfVezzTfNHhS0YuBjcqraGguP_z5CpKEmaM8vwpdHFLWQ.jpg",
-      "foto_origem": "canal",
-      "nome": "Fritadeira Elétrica 4L com Cesto de Vidro 1500W AFV-101 Air Fryer Travessa de vidro com Tampa Kian",
-      "cupom_loja": "Resgate o cupom de R$30 aqui:",
-      "de": 598.34,
-      "por": 318.25,
-      "titulo": "Air Fryer Kian com 47% off",
-      "id": 205,
-      "garimpado_em": "2026-10-13T08:50-03:00",
-      "na_revisao_desde": "2026-10-13T08:50-03:00",
-      "msg_id": 377
     }
   ],
   "proximo_id": 210,
@@ -1790,6 +1769,28 @@
   ],
   "lixeira": [
     {
+      "loja": "shopee",
+      "chave": "shopee:342086228.45665166927",
+      "origem": "promooeasy",
+      "link": "https://shopee.com.br/product/342086228/45665166927",
+      "link_produto": "https://shopee.com.br/product/342086228/45665166927",
+      "post_origem": "https://t.me/promooeasy/220375",
+      "link_canal": "https://s.shopee.com.br/7ptz7r8HfO?lp=aff",
+      "precisa_link": true,
+      "foto": "https://cdn1.telesco.pe/file/iihRmFwBI7D9XDNuInDr9QdpDOj8Udu81uVUG0yfKeHwUp-zF7WQ5ywwOb5qkfyGjinVOWEBy8ER56oPSgceSrwX40NcAF1-cD4RpiZHrPtQ8VO_dFYfgafx4by0PU1QOH6tb8In5fY6SjAjbU8-e_4Rxj8TuxXypH860ReGspekYXRQIc0-hgVm2P5zu90w9oWnFV2WpiXhzel9dtOhM34o1CNedR88yToFnubN1o1mnOG_5rJuBMOkz6HhXchyN8gx0v_Vsx_H9H2Gkn2ayigl9dw-IZB5SmpxCy1W2MfVezzTfNHhS0YuBjcqraGguP_z5CpKEmaM8vwpdHFLWQ.jpg",
+      "foto_origem": "canal",
+      "nome": "Fritadeira Elétrica 4L com Cesto de Vidro 1500W AFV-101 Air Fryer Travessa de vidro com Tampa Kian",
+      "cupom_loja": "Resgate o cupom de R$30 aqui:",
+      "de": 598.34,
+      "por": 318.25,
+      "titulo": "Air Fryer Kian com 47% off",
+      "id": 205,
+      "garimpado_em": "2026-10-13T08:50-03:00",
+      "na_revisao_desde": "2026-10-13T08:50-03:00",
+      "removido_em": "2026-10-13T09:16:22-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0H7H2K9Q8",
       "origem": "promobit",
@@ -2006,7 +2007,7 @@
       "promooeasy": {
         "achados": 27,
         "aprovados": 2,
-        "reprovados": 15
+        "reprovados": 16
       },
       "xetdaspromocoes": {
         "achados": 1,
