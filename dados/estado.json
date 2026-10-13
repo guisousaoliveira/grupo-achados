@@ -626,27 +626,103 @@
       "garimpado_em": "2026-10-12T21:11-03:00",
       "na_revisao_desde": "2026-10-12T21:11-03:00",
       "msg_id": 281
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0H6N4P465",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0H6N4P465?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0H6N4P465?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/samsung-smart-tv-70-crystal-uhd-4k-u8000h-262027-vision-ai-companion-modo-estadio-xbox-cloud-gaming-3109318/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3109318/",
+      "nome": "Samsung Smart TV 70\" Crystal UHD 4K U8000H 262027",
+      "por": 3899.0,
+      "de": 5199.0,
+      "foto": "AgACAgQAAxkDAAIBG2rNeVdObYG2ubbWV14pW1XJQtBxAAKsDmsbEuJ1Uvlwa7_7Y37fAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "titulo": "Samsung Smart TV 4K com 25% off",
+      "id": 135,
+      "garimpado_em": "2026-10-12T21:20-03:00",
+      "na_revisao_desde": "2026-10-12T21:20-03:00",
+      "msg_id": 283
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB6002008916",
+      "origem": "urubupromo",
+      "link": "https://produto.mercadolivre.com.br/MLB-6002008916-kit-2-camiseta-masculina-speedo-dry-fit-manga-curta-academia-_JM?pdp_filters=item_id%3AMLB6002008916&matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-6002008916-kit-2-camiseta-masculina-speedo-dry-fit-manga-curta-academia-_JM?pdp_filters=item_id%3AMLB6002008916",
+      "post_origem": "https://t.me/urubupromo/41592",
+      "link_canal": "https://meli.la/2CuNnRt",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_926568-MLB108169076498_032026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Kit 2 Camiseta Masculina Speedo Dry Fit Manga Curta Academia",
+      "por": 66.48,
+      "titulo": "Kit Speedo Dry Fit com desconto de 44%",
+      "id": 136,
+      "garimpado_em": "2026-10-12T21:20-03:00",
+      "na_revisao_desde": "2026-10-12T21:20-03:00",
+      "msg_id": 284
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB4729131437",
+      "origem": "promonocontext",
+      "link": "https://www.mercadolivre.com.br/tenis-masculino-charged-skyline-5-under-armour/up/MLBU4030295425?pdp_filters=item_id%3AMLB4729131437&matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/tenis-masculino-charged-skyline-5-under-armour/up/MLBU4030295425?pdp_filters=item_id%3AMLB4729131437",
+      "post_origem": "https://t.me/promonocontext/126034",
+      "link_canal": "https://meli.la/2FsXe3U",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_909328-MLB111364222050_052026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Tênis Masculino Charged Skyline 5 Under Armour Preto Liso 40 Br",
+      "de": 499.0,
+      "por": 281.0,
+      "titulo": "Tênis Under Armour com 44% off",
+      "id": 137,
+      "garimpado_em": "2026-10-12T21:20-03:00",
+      "na_revisao_desde": "2026-10-12T21:20-03:00",
+      "msg_id": 285
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B09SVPDX3G",
+      "origem": "aquitempechincha",
+      "link": "https://www.amazon.com.br/dp/B09SVPDX3G?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B09SVPDX3G?tag=alphadominu09-20",
+      "post_origem": "https://t.me/aquitempechincha/281238",
+      "link_canal": "https://aquitempechincha.com.br/ednd630",
+      "nome": "Cafeteira Elétrica Electrolux Experience Programável Com Timer 110v (ECM25)",
+      "pix": true,
+      "por": 197.0,
+      "foto": "AgACAgQAAxkDAAIBHmrNeXSBpnkyzBO6vpYqBkM5l4BaAAKCEGsbZAdtUoYUXq_k6AktAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "titulo": "Cafeteira programável para o café pronto ao acordar",
+      "id": 138,
+      "garimpado_em": "2026-10-12T21:21-03:00",
+      "na_revisao_desde": "2026-10-12T21:21-03:00",
+      "msg_id": 286
     }
   ],
-  "proximo_id": 135,
+  "proximo_id": 139,
   "radar": {
     "visto": {
       "xetdaspromocoes": 84504,
-      "lobaopromo": 188610,
-      "gatunopromos": 124979,
+      "lobaopromo": 188613,
+      "gatunopromos": 124981,
       "pobregram": 41784,
-      "urubupromo": 41591,
+      "urubupromo": 41592,
       "tudonapromo": 101633,
-      "promonocontext": 126033,
-      "promooeasy": 220246,
-      "aquitempechincha": 281231,
+      "promonocontext": 126035,
+      "promooeasy": 220248,
+      "aquitempechincha": 281238,
       "infoBRpromos": 67419,
-      "boletando": 76624,
+      "boletando": 76625,
       "promotop": 260184,
       "achadosdotb": 11757
     },
     "dia": "2026-10-12",
-    "hoje": 103,
+    "hoje": 107,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -758,27 +834,31 @@
       "mercadolivre:MLB77148715",
       "mercadolivre:MLB4703022818",
       "amazon:B0955QFBH2",
-      "amazon:B0B2712FTY"
+      "amazon:B0B2712FTY",
+      "amazon:B0H6N4P465",
+      "mercadolivre:MLB6002008916",
+      "mercadolivre:MLB4729131437",
+      "amazon:B09SVPDX3G"
     ],
     "ultima": {
-      "em": "2026-10-12T21:11:17-03:00",
+      "em": "2026-10-12T21:20:20-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 23,
-      "do_nicho": 5,
-      "repetidas": 3,
-      "novas": 2,
+      "posts_novos": 28,
+      "do_nicho": 10,
+      "repetidas": 6,
+      "novas": 4,
       "limite_dia": false,
-      "promobit": 0
+      "promobit": 1
     },
     "hora": "2026-10-12T21",
-    "nesta_hora": 4,
+    "nesta_hora": 7,
     "promobit_hora": "2026-10-12T21",
-    "promobit_nesta_hora": 0,
-    "promobit_visto": 3109296
+    "promobit_nesta_hora": 1,
+    "promobit_visto": 3109318
   },
   "ultimos": [
     {
@@ -1123,7 +1203,7 @@
         "reprovados": 15
       },
       "promobit": {
-        "achados": 22,
+        "achados": 23,
         "aprovados": 9,
         "reprovados": 13
       },
@@ -1138,12 +1218,12 @@
         "reprovados": 8
       },
       "urubupromo": {
-        "achados": 1,
+        "achados": 2,
         "aprovados": 1,
         "reprovados": 0
       },
       "aquitempechincha": {
-        "achados": 2,
+        "achados": 3,
         "aprovados": 0,
         "reprovados": 2
       },
@@ -1153,7 +1233,7 @@
         "reprovados": 3
       },
       "promonocontext": {
-        "achados": 9,
+        "achados": 10,
         "aprovados": 6,
         "reprovados": 3
       },
@@ -1169,5 +1249,5 @@
       }
     }
   },
-  "aviso_post": "2026-10-12 20|mercadolivre:MLB2843236667"
+  "aviso_post": "2026-10-12 21|amazon:B0HC8MGM1Q"
 }
