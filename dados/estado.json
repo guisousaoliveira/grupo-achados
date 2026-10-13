@@ -281,6 +281,25 @@
       "parcelas": 2,
       "parcela_valor": 27.68,
       "aprovado_em": "2026-10-13T08:02-03:00"
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0FPNSXKKJ",
+      "origem": "promooeasy",
+      "link": "https://link.amazon/B06qjIRwk",
+      "link_produto": "https://link.amazon/B06qjIRwk",
+      "post_origem": "https://t.me/promooeasy/220314",
+      "link_canal": "https://www.amazon.com.br/JBL-Caixa-Essential-Bluetooth-Preta/dp/B0FPNSXKKJ?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAIBZmrOCr7zle50pzzVY44g15D8IKJ7AALsD2sbYlL1UyKQTv1xebwMAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "JBL, Caixa de Som, Go Essential 2, Bluetooth, Portátil, À Prova Dágua e Resistente à Poeira, Bateria de até 5h, Auracast",
+      "pix": true,
+      "parcelas": 6,
+      "por": 159.5,
+      "garimpado_em": "2026-10-13T07:41-03:00",
+      "na_revisao_desde": "2026-10-13T07:41-03:00",
+      "parcela_valor": 28.0,
+      "aprovado_em": "2026-10-13T08:04-03:00"
     }
   ],
   "postados": [
@@ -706,28 +725,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0FPNSXKKJ",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0FPNSXKKJ?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0FPNSXKKJ?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/220314",
-      "link_canal": "https://www.amazon.com.br/JBL-Caixa-Essential-Bluetooth-Preta/dp/B0FPNSXKKJ?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAIBZmrOCr7zle50pzzVY44g15D8IKJ7AALsD2sbYlL1UyKQTv1xebwMAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "JBL, Caixa de Som, Go Essential 2, Bluetooth, Portátil, À Prova Dágua e Resistente à Poeira, Bateria de até 5h, Auracast",
-      "pix": true,
-      "parcelas": 6,
-      "por": 159.5,
-      "titulo": "Caixa de som JBL com 31% off",
-      "id": 189,
-      "garimpado_em": "2026-10-13T07:41-03:00",
-      "na_revisao_desde": "2026-10-13T07:41-03:00",
-      "msg_id": 358
-    }
-  ],
+  "revisar": [],
   "proximo_id": 190,
   "radar": {
     "visto": {
@@ -1607,7 +1605,7 @@
       },
       "promooeasy": {
         "achados": 17,
-        "aprovados": 1,
+        "aprovados": 2,
         "reprovados": 15
       }
     }
