@@ -1614,27 +1614,65 @@
       "garimpado_em": "2026-10-13T15:14-03:00",
       "na_revisao_desde": "2026-10-13T15:14-03:00",
       "msg_id": 625
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B08DRHBKPW",
+      "origem": "xetdaspromocoes",
+      "link": "https://www.amazon.com.br/dp/B08DRHBKPW?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B08DRHBKPW?tag=alphadominu09-20",
+      "post_origem": "https://t.me/xetdaspromocoes/84651",
+      "link_canal": "https://link.amazon/B04OhQtpZ",
+      "foto": "AgACAgQAAxkDAAIBjWrOI0md10mBOCw6YzYFz2yrmO5DAAJ1tDEbzhbUU9ZT2hyvXSrIAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "nome": "Kit com 12 +Mu Chocowheyfer Proteico 300g",
+      "titulo": "Achado do dia, aproveita antes de acabar.",
+      "id": 345,
+      "garimpado_em": "2026-10-13T15:21-03:00",
+      "na_revisao_desde": "2026-10-13T15:21-03:00",
+      "msg_id": 626
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:1062544851.58217401385",
+      "origem": "promooeasy",
+      "link": "https://shopee.com.br/product/1062544851/58217401385",
+      "link_produto": "https://shopee.com.br/product/1062544851/58217401385",
+      "post_origem": "https://t.me/promooeasy/220632",
+      "link_canal": "https://s.shopee.com.br/6L5Bm0zpgV?lp=aff",
+      "precisa_link": true,
+      "foto": "https://cdn1.telesco.pe/file/psgLsFkfzJc4dw1bI6_FYVGHJJiLZFiBeFQMw-b4Kb6JJ-UB90hCQOIohkzUcJ-D-xCm_-Zfx6kwP4Vnk-RX0XVFeyCVvXgT7X8R8Gw_PBcStTq5pnm8qCIMuiqr7dUy0dYzCd40mjzZxeyutr4nZ7gwXpP0exEeGXdwa1JyKht_Eo54n2NGQwSi0vDIzn1_45FiCEsl_-6VunvD6A_b20tl9aULcshxB44unzldk4iM92lb7NAlDmL6RZHORBK58T_1MZXDCxFn0aBDv21vnGbGh-QbjyLQcv0YTPdj7gSNfQCO2nvYyVuEvCXZresA8Sg2mcLlg5eX3dxQU2b1QQ.jpg",
+      "foto_origem": "canal",
+      "nome": "Smart TV AIWA 43 Android Full HD Borda Ultrafina HDR10 Dolby Áudio AWS-TV-43-BL-02-A",
+      "cupom_loja": "Resgate o cupom de R$90 aqui:",
+      "de": 1903.57,
+      "por": 1270.6,
+      "titulo": "Smart TV AIWA 43 com 33% off",
+      "id": 346,
+      "garimpado_em": "2026-10-13T15:22-03:00",
+      "na_revisao_desde": "2026-10-13T15:22-03:00",
+      "msg_id": 627
     }
   ],
-  "proximo_id": 345,
+  "proximo_id": 347,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84648,
-      "lobaopromo": 188912,
-      "gatunopromos": 125114,
-      "pobregram": 41833,
+      "xetdaspromocoes": 84652,
+      "lobaopromo": 188915,
+      "gatunopromos": 125115,
+      "pobregram": 41834,
       "urubupromo": 41617,
-      "tudonapromo": 101727,
-      "promonocontext": 126267,
-      "promooeasy": 220631,
-      "aquitempechincha": 281380,
+      "tudonapromo": 101728,
+      "promonocontext": 126270,
+      "promooeasy": 220637,
+      "aquitempechincha": 281383,
       "infoBRpromos": 67459,
       "boletando": 76664,
       "promotop": 260222,
       "achadosdotb": 11762
     },
     "dia": "2026-10-13",
-    "hoje": 181,
+    "hoje": 183,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -1955,27 +1993,29 @@
       "mercadolivre:MLB5997437372",
       "mercadolivre:MLB38611321",
       "mercadolivre:MLB75681377",
-      "amazon:B0DJBVL2S5"
+      "amazon:B0DJBVL2S5",
+      "amazon:B08DRHBKPW",
+      "shopee:1062544851.58217401385"
     ],
     "ultima": {
-      "em": "2026-10-13T15:10:20-03:00",
+      "em": "2026-10-13T15:20:20-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 37,
-      "do_nicho": 5,
-      "repetidas": 0,
-      "novas": 5,
+      "posts_novos": 35,
+      "do_nicho": 7,
+      "repetidas": 5,
+      "novas": 2,
       "limite_dia": false,
-      "promobit": 1
+      "promobit": 0
     },
     "hora": "2026-10-13T15",
-    "nesta_hora": 9,
+    "nesta_hora": 11,
     "promobit_hora": "2026-10-13T15",
     "promobit_nesta_hora": 3,
-    "promobit_visto": 3110868
+    "promobit_visto": 3110900
   },
   "ultimos": [
     {
@@ -3267,12 +3307,12 @@
         "reprovados": 12
       },
       "promooeasy": {
-        "achados": 71,
+        "achados": 72,
         "aprovados": 2,
         "reprovados": 58
       },
       "xetdaspromocoes": {
-        "achados": 12,
+        "achados": 13,
         "aprovados": 5,
         "reprovados": 6
       },
