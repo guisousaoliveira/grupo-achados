@@ -730,25 +730,6 @@
       "garimpado_em": "2026-10-13T00:50-03:00",
       "na_revisao_desde": "2026-10-13T00:50-03:00",
       "msg_id": 350
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:1343318906.45265648037",
-      "origem": "promooeasy",
-      "link": "https://shopee.com.br/product/1343318906/45265648037",
-      "link_produto": "https://shopee.com.br/product/1343318906/45265648037",
-      "post_origem": "https://t.me/promooeasy/220285",
-      "link_canal": "https://s.shopee.com.br/6VOb0PH5Zh?lp=aff",
-      "precisa_link": true,
-      "foto": "AgACAgEAAxkDAAIBX2rNqpaG29RuaggfP7hkzEs3oasAA-MMaxvsAnFGP-eJohQWya8BAAMCAAN4AAM9BA",
-      "foto_origem": "canal",
-      "nome": "Notebook Acer Aspire Go 15 AG15-51P-34KT Intel Core i3-1215U 8GB RAM 256GB SSD Tela 15.6 Windows 11 Home",
-      "por": 3249.35,
-      "titulo": "Notebook Acer Aspire com 20% off",
-      "id": 184,
-      "garimpado_em": "2026-10-13T00:50-03:00",
-      "na_revisao_desde": "2026-10-13T00:50-03:00",
-      "msg_id": 351
     }
   ],
   "proximo_id": 185,
@@ -1439,7 +1420,28 @@
       "por": 239.9
     }
   ],
-  "lixeira": [],
+  "lixeira": [
+    {
+      "loja": "shopee",
+      "chave": "shopee:1343318906.45265648037",
+      "origem": "promooeasy",
+      "link": "https://shopee.com.br/product/1343318906/45265648037",
+      "link_produto": "https://shopee.com.br/product/1343318906/45265648037",
+      "post_origem": "https://t.me/promooeasy/220285",
+      "link_canal": "https://s.shopee.com.br/6VOb0PH5Zh?lp=aff",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAIBX2rNqpaG29RuaggfP7hkzEs3oasAA-MMaxvsAnFGP-eJohQWya8BAAMCAAN4AAM9BA",
+      "foto_origem": "canal",
+      "nome": "Notebook Acer Aspire Go 15 AG15-51P-34KT Intel Core i3-1215U 8GB RAM 256GB SSD Tela 15.6 Windows 11 Home",
+      "por": 3249.35,
+      "titulo": "Notebook Acer Aspire com 20% off",
+      "id": 184,
+      "garimpado_em": "2026-10-13T00:50-03:00",
+      "na_revisao_desde": "2026-10-13T00:50-03:00",
+      "removido_em": "2026-10-13T01:03:10-03:00",
+      "removido_de": "revisar"
+    }
+  ],
   "garimpo": {
     "2026-10-12": {
       "promooeasy": {
@@ -1512,7 +1514,7 @@
       "promooeasy": {
         "achados": 13,
         "aprovados": 0,
-        "reprovados": 12
+        "reprovados": 13
       }
     }
   },
