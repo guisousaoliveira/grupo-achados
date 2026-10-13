@@ -284,6 +284,24 @@
       "garimpado_em": "2026-10-13T00:40-03:00",
       "na_revisao_desde": "2026-10-13T00:40-03:00",
       "aprovado_em": "2026-10-13T00:46-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB5737308982",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/2EKRcwN",
+      "link_produto": "https://meli.la/2EKRcwN",
+      "post_origem": "https://t.me/lobaopromo/188682",
+      "link_canal": "https://meli.la/1WYwMaZ",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_785152-MLB115716082758_092026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Chave De Impacto Brushless 600nm 21v Com 2 Baterias Ryoku Verde",
+      "de": 425.0,
+      "por": 215.0,
+      "titulo": "Chave de impacto Ryoku com 49% off",
+      "garimpado_em": "2026-10-13T00:30-03:00",
+      "na_revisao_desde": "2026-10-13T00:30-03:00",
+      "aprovado_em": "2026-10-13T00:47-03:00"
     }
   ],
   "postados": [
@@ -857,25 +875,6 @@
       "garimpado_em": "2026-10-13T00:21-03:00",
       "na_revisao_desde": "2026-10-13T00:21-03:00",
       "msg_id": 339
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB5737308982",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/chave-de-impacto-brushless-600nm-21v-com-2-baterias-ryoku/up/MLBU3444644894?pdp_filters=item_id%3AMLB5737308982&matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/chave-de-impacto-brushless-600nm-21v-com-2-baterias-ryoku/up/MLBU3444644894?pdp_filters=item_id%3AMLB5737308982",
-      "post_origem": "https://t.me/lobaopromo/188682",
-      "link_canal": "https://meli.la/1WYwMaZ",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_785152-MLB115716082758_092026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Chave De Impacto Brushless 600nm 21v Com 2 Baterias Ryoku Verde",
-      "de": 425.0,
-      "por": 215.0,
-      "titulo": "Chave de impacto Ryoku com 49% off",
-      "id": 174,
-      "garimpado_em": "2026-10-13T00:30-03:00",
-      "na_revisao_desde": "2026-10-13T00:30-03:00",
-      "msg_id": 340
     }
   ],
   "proximo_id": 183,
@@ -2201,7 +2200,7 @@
       },
       "lobaopromo": {
         "achados": 5,
-        "aprovados": 1,
+        "aprovados": 2,
         "reprovados": 0
       },
       "promooeasy": {
