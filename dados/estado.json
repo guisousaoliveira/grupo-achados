@@ -294,6 +294,25 @@
       "garimpado_em": "2026-10-13T09:01-03:00",
       "na_revisao_desde": "2026-10-13T09:01-03:00",
       "aprovado_em": "2026-10-13T09:15-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB17460955",
+      "origem": "promotop",
+      "link": "https://meli.la/12BAQV4",
+      "link_produto": "https://meli.la/12BAQV4",
+      "post_origem": "https://t.me/promotop/260189",
+      "link_canal": "https://meli.la/1ZYPdCD",
+      "foto": "AgACAgQAAxkDAAIBdmrOGOf6GaUu7sPtv4H-M23Wc5I4AAK0Dmsbd6ikUnzhKEuRjJaCAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Perfume Masculino Emporio Armani Stronger With You Edt 100ml",
+      "pix": true,
+      "por": 344.79,
+      "titulo": "Perfume Emporio Armani Stronger With You 100ml no Pix",
+      "garimpado_em": "2026-10-13T08:41-03:00",
+      "na_revisao_desde": "2026-10-13T08:41-03:00",
+      "de": 719.0,
+      "aprovado_em": "2026-10-13T09:17-03:00"
     }
   ],
   "postados": [
@@ -863,25 +882,6 @@
       "garimpado_em": "2026-10-13T08:41-03:00",
       "na_revisao_desde": "2026-10-13T08:41-03:00",
       "msg_id": 371
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB17460955",
-      "origem": "promotop",
-      "link": "https://www.mercadolivre.com.br/perfume-masculino-emporio-armani-stronger-with-you-edt-100ml/p/MLB17460955?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/perfume-masculino-emporio-armani-stronger-with-you-edt-100ml/p/MLB17460955",
-      "post_origem": "https://t.me/promotop/260189",
-      "link_canal": "https://meli.la/1ZYPdCD",
-      "foto": "AgACAgQAAxkDAAIBdmrOGOf6GaUu7sPtv4H-M23Wc5I4AAK0Dmsbd6ikUnzhKEuRjJaCAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Perfume Masculino Emporio Armani Stronger With You Edt 100ml",
-      "pix": true,
-      "por": 344.79,
-      "titulo": "Perfume Emporio Armani Stronger With You 100ml no Pix",
-      "id": 202,
-      "garimpado_em": "2026-10-13T08:41-03:00",
-      "na_revisao_desde": "2026-10-13T08:41-03:00",
-      "msg_id": 374
     }
   ],
   "proximo_id": 210,
@@ -2023,7 +2023,7 @@
       },
       "promotop": {
         "achados": 1,
-        "aprovados": 0,
+        "aprovados": 1,
         "reprovados": 0
       },
       "promonocontext": {
