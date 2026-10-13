@@ -2,25 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "amazon",
-      "chave": "amazon:B0CZPSD2SC",
-      "origem": "lobaopromo",
-      "link": "https://link.amazon/B0grXIV5Z",
-      "link_produto": "https://link.amazon/B0grXIV5Z",
-      "post_origem": "https://t.me/lobaopromo/188653",
-      "link_canal": "https://amzlink.to/az0Xk5XvdVliU",
-      "foto": "AgACAgQAAxkDAAIBO2rNlXWTywrQFqu1Jb9aYmlkkBXaAAIEEGsb_7TsUN3Lpm60UkBCAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Stanley Garrafa Térmica Aerolight Transit Cream, 591ml",
-      "titulo": "Garrafa Stanley para manter sua bebida gelada",
-      "garimpado_em": "2026-10-12T23:20-03:00",
-      "na_revisao_desde": "2026-10-12T23:20-03:00",
-      "de": 269.0,
-      "por": 165.0,
-      "parcelas": 5,
-      "aprovado_em": "2026-10-12T23:26-03:00"
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB4992424197",
       "origem": "lobaopromo",
@@ -827,6 +808,15 @@
       "data": "2026-10-13T10:02-03:00",
       "link": "https://link.amazon/B01h76z7S",
       "link_produto": "https://link.amazon/B01h76z7S"
+    },
+    {
+      "chave": "amazon:B0CZPSD2SC",
+      "loja": "amazon",
+      "nome": "Stanley Garrafa Térmica Aerolight Transit Cream, 591ml",
+      "data": "2026-10-13T10:40-03:00",
+      "link": "https://link.amazon/B0grXIV5Z",
+      "link_produto": "https://link.amazon/B0grXIV5Z",
+      "slot": 10
     }
   ],
   "slots_usados": {
@@ -853,7 +843,8 @@
     ],
     "2026-10-13": [
       8,
-      9
+      9,
+      10
     ]
   },
   "shopee_buscado_em": "",
@@ -1439,6 +1430,20 @@
   "ultimos": [
     {
       "loja": "amazon",
+      "chave": "amazon:B0CZPSD2SC",
+      "origem": "lobaopromo",
+      "link": "https://link.amazon/B0grXIV5Z",
+      "link_produto": "https://link.amazon/B0grXIV5Z",
+      "post_origem": "https://t.me/lobaopromo/188653",
+      "foto": "AgACAgQAAxkDAAIBO2rNlXWTywrQFqu1Jb9aYmlkkBXaAAIEEGsb_7TsUN3Lpm60UkBCAQADAgADeAADPQQ",
+      "nome": "Stanley Garrafa Térmica Aerolight Transit Cream, 591ml",
+      "titulo": "Garrafa Stanley para manter sua bebida gelada",
+      "de": 269.0,
+      "por": 165.0,
+      "parcelas": 5
+    },
+    {
+      "loja": "amazon",
       "chave": "amazon:B0BBJPCMQM",
       "origem": "lobaopromo",
       "link": "https://link.amazon/B01h76z7S",
@@ -1954,16 +1959,6 @@
       "nome": "Air Cooler GamerStorm X Redragon AK400 RD Preto 4 Heatpipes Fan 120 mm",
       "por": 148.0,
       "de": 199.0
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B08F2XPY3W",
-      "link": "https://link.amazon/B0cuDrXPE",
-      "link_produto": "https://www.amazon.com.br/dp/B08F2XPY3W?tag=alphadominu09-20",
-      "nome": "Redragon Teclado Mecânico Gamer Kumara Abnt2 Led Vermelho Single",
-      "por": 176.46,
-      "de": 279.0,
-      "foto": "AgACAgQAAxkDAAOqas0Ui4N63WgJUImMnPU0TacgffcAAqcPaxtgRm1SL32joMlcYr0BAAMCAAN4AAM9BA"
     }
   ],
   "lixeira": [
