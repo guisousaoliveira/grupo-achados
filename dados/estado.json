@@ -1233,26 +1233,6 @@
       "garimpado_em": "2026-10-13T10:43-03:00",
       "na_revisao_desde": "2026-10-13T10:43-03:00",
       "msg_id": 483
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB78183808",
-      "origem": "urubupromo",
-      "link": "https://www.mercadolivre.com.br/samsung-smart-tv-65-miniled-4k-m75h-soundbar-samsung-b-series-hw-b450f/p/MLB78183808?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/samsung-smart-tv-65-miniled-4k-m75h-soundbar-samsung-b-series-hw-b450f/p/MLB78183808",
-      "post_origem": "https://t.me/urubupromo/41611",
-      "link_canal": "https://meli.la/2fYb2kN",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_662786-MLA116654158007_082026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Samsung Smart Tv 65 Miniled 4k M75h + Soundbar Samsung B-series",
-      "parcelas": 3,
-      "por": 3849.0,
-      "de": 7899.0,
-      "titulo": "Preço de queima, 51% mais barato.",
-      "id": 256,
-      "garimpado_em": "2026-10-13T10:44-03:00",
-      "na_revisao_desde": "2026-10-13T10:44-03:00",
-      "msg_id": 484
     }
   ],
   "proximo_id": 272,
@@ -2086,6 +2066,27 @@
   "lixeira": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB78183808",
+      "origem": "urubupromo",
+      "link": "https://www.mercadolivre.com.br/samsung-smart-tv-65-miniled-4k-m75h-soundbar-samsung-b-series-hw-b450f/p/MLB78183808?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/samsung-smart-tv-65-miniled-4k-m75h-soundbar-samsung-b-series-hw-b450f/p/MLB78183808",
+      "post_origem": "https://t.me/urubupromo/41611",
+      "link_canal": "https://meli.la/2fYb2kN",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_662786-MLA116654158007_082026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Samsung Smart Tv 65 Miniled 4k M75h + Soundbar Samsung B-series",
+      "parcelas": 3,
+      "por": 3849.0,
+      "de": 7899.0,
+      "titulo": "Preço de queima, 51% mais barato.",
+      "id": 256,
+      "garimpado_em": "2026-10-13T10:44-03:00",
+      "na_revisao_desde": "2026-10-13T10:44-03:00",
+      "removido_em": "2026-10-13T11:46:55-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB3800842215",
       "origem": "xetdaspromocoes",
       "link": "https://produto.mercadolivre.com.br/MLB-3800842215-camiseta-dry-fit-preta-caveira-unisex-dark-lab-_JM?pdp_filters=item_id%3AMLB3800842215&matt_word=alphapromo&matt_tool=59136903",
@@ -2550,7 +2551,7 @@
       "urubupromo": {
         "achados": 1,
         "aprovados": 0,
-        "reprovados": 0
+        "reprovados": 1
       }
     }
   },
