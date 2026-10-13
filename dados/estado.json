@@ -769,26 +769,6 @@
       "msg_id": 363
     },
     {
-      "loja": "shopee",
-      "chave": "shopee:1487744778.58204778903",
-      "origem": "promooeasy",
-      "link": "https://shopee.com.br/product/1487744778/58204778903",
-      "link_produto": "https://shopee.com.br/product/1487744778/58204778903",
-      "post_origem": "https://t.me/promooeasy/220342",
-      "link_canal": "https://s.shopee.com.br/gQoZ8CkXV?lp=aff",
-      "precisa_link": true,
-      "foto": "AgACAgEAAxkDAAIBbGrOFIoDTRBfo-E99ZDSzqAaD-8kAAIXDWsb7AJxRnLcgTUP93hNAQADAgADeAADPQQ",
-      "foto_origem": "canal",
-      "nome": "Linhaça Dourada Prímula Borragem Vitamina E Ômegas-3-6-9 ÓleoNutri Softgel 500/1000mg 60/120 Cápsulas - Suplemento",
-      "de": 79.31,
-      "por": 28.55,
-      "titulo": "Ômegas 3 6 9 com 64% off",
-      "id": 192,
-      "garimpado_em": "2026-10-13T08:22-03:00",
-      "na_revisao_desde": "2026-10-13T08:22-03:00",
-      "msg_id": 364
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB4348056327",
       "origem": "promooeasy",
@@ -1690,6 +1670,27 @@
   "lixeira": [
     {
       "loja": "shopee",
+      "chave": "shopee:1487744778.58204778903",
+      "origem": "promooeasy",
+      "link": "https://shopee.com.br/product/1487744778/58204778903",
+      "link_produto": "https://shopee.com.br/product/1487744778/58204778903",
+      "post_origem": "https://t.me/promooeasy/220342",
+      "link_canal": "https://s.shopee.com.br/gQoZ8CkXV?lp=aff",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAIBbGrOFIoDTRBfo-E99ZDSzqAaD-8kAAIXDWsb7AJxRnLcgTUP93hNAQADAgADeAADPQQ",
+      "foto_origem": "canal",
+      "nome": "Linhaça Dourada Prímula Borragem Vitamina E Ômegas-3-6-9 ÓleoNutri Softgel 500/1000mg 60/120 Cápsulas - Suplemento",
+      "de": 79.31,
+      "por": 28.55,
+      "titulo": "Ômegas 3 6 9 com 64% off",
+      "id": 192,
+      "garimpado_em": "2026-10-13T08:22-03:00",
+      "na_revisao_desde": "2026-10-13T08:22-03:00",
+      "removido_em": "2026-10-13T09:16:49-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "shopee",
       "chave": "shopee:1083800536.58212232939",
       "origem": "promooeasy",
       "link": "https://shopee.com.br/product/1083800536/58212232939",
@@ -2011,7 +2012,7 @@
       "promooeasy": {
         "achados": 27,
         "aprovados": 2,
-        "reprovados": 20
+        "reprovados": 21
       },
       "xetdaspromocoes": {
         "achados": 1,
