@@ -1586,23 +1586,6 @@
       "garimpado_em": "2026-10-13T15:11-03:00",
       "na_revisao_desde": "2026-10-13T15:11-03:00",
       "msg_id": 621
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB5997437372",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/tenis-masculino-grand-court-30-adidas/up/MLBU3645193055?pdp_filters=item_id%3AMLB5997437372&matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/tenis-masculino-grand-court-30-adidas/up/MLBU3645193055?pdp_filters=item_id%3AMLB5997437372",
-      "post_origem": "https://t.me/lobaopromo/188911",
-      "link_canal": "https://meli.la/28gKrND",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_793926-MLB104857365413_012026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Tênis Masculino Grand Court 3.0 adidas Ftwwht/cblack/ftwwht Liso 40 Br",
-      "titulo": "Achado do dia, aproveita antes de acabar.",
-      "id": 341,
-      "garimpado_em": "2026-10-13T15:12-03:00",
-      "na_revisao_desde": "2026-10-13T15:12-03:00",
-      "msg_id": 622
     }
   ],
   "proximo_id": 351,
@@ -2524,6 +2507,24 @@
   "lixeira": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB5997437372",
+      "origem": "lobaopromo",
+      "link": "https://www.mercadolivre.com.br/tenis-masculino-grand-court-30-adidas/up/MLBU3645193055?pdp_filters=item_id%3AMLB5997437372&matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/tenis-masculino-grand-court-30-adidas/up/MLBU3645193055?pdp_filters=item_id%3AMLB5997437372",
+      "post_origem": "https://t.me/lobaopromo/188911",
+      "link_canal": "https://meli.la/28gKrND",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_793926-MLB104857365413_012026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Tênis Masculino Grand Court 3.0 adidas Ftwwht/cblack/ftwwht Liso 40 Br",
+      "titulo": "Achado do dia, aproveita antes de acabar.",
+      "id": 341,
+      "garimpado_em": "2026-10-13T15:12-03:00",
+      "na_revisao_desde": "2026-10-13T15:12-03:00",
+      "removido_em": "2026-10-13T15:46:31-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB75681377",
       "origem": "promonocontext",
       "link": "https://www.mercadolivre.com.br/smart-tv-pro-lg-55-4k-ultra-hd-ai-55un85c/p/MLB75681377?matt_word=alphapromo&matt_tool=59136903",
@@ -3378,7 +3379,7 @@
       "lobaopromo": {
         "achados": 35,
         "aprovados": 8,
-        "reprovados": 12
+        "reprovados": 13
       },
       "promooeasy": {
         "achados": 74,
