@@ -277,6 +277,24 @@
       "na_revisao_desde": "2026-10-13T07:41-03:00",
       "parcela_valor": 28.0,
       "aprovado_em": "2026-10-13T08:04-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB19506691",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/1DihMDt",
+      "link_produto": "https://meli.la/1DihMDt",
+      "post_origem": "https://t.me/lobaopromo/188711",
+      "link_canal": "https://meli.la/1Dz8K8s",
+      "foto": "AgACAgQAAxkDAAIBaWrOEeT3HjV31CkLk2Xacy1xNbY8AAK-EGsbDedlUEF9BlqDVO0eAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Creatina Dark Lab Premium Pure em pó Sem sabor x 300g",
+      "de": 78.9,
+      "por": 39.9,
+      "titulo": "Pra quem leva o treino a sério.",
+      "garimpado_em": "2026-10-13T08:11-03:00",
+      "na_revisao_desde": "2026-10-13T08:11-03:00",
+      "aprovado_em": "2026-10-13T08:13-03:00"
     }
   ],
   "postados": [
@@ -710,27 +728,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB19506691",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/creatina-dark-lab-premium-pure-em-po-sem-sabor-x-300g/p/MLB19506691?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/creatina-dark-lab-premium-pure-em-po-sem-sabor-x-300g/p/MLB19506691",
-      "post_origem": "https://t.me/lobaopromo/188711",
-      "link_canal": "https://meli.la/1Dz8K8s",
-      "foto": "AgACAgQAAxkDAAIBaWrOEeT3HjV31CkLk2Xacy1xNbY8AAK-EGsbDedlUEF9BlqDVO0eAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Creatina Dark Lab Premium Pure em pó Sem sabor x 300g",
-      "de": 78.0,
-      "por": 39.0,
-      "titulo": "Pra quem leva o treino a sério.",
-      "id": 190,
-      "garimpado_em": "2026-10-13T08:11-03:00",
-      "na_revisao_desde": "2026-10-13T08:11-03:00",
-      "msg_id": 361
-    }
-  ],
+  "revisar": [],
   "proximo_id": 191,
   "radar": {
     "visto": {
@@ -1613,7 +1611,7 @@
       },
       "lobaopromo": {
         "achados": 6,
-        "aprovados": 3,
+        "aprovados": 4,
         "reprovados": 2
       },
       "promooeasy": {
