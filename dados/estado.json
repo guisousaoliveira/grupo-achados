@@ -1183,27 +1183,126 @@
       "garimpado_em": "2026-10-13T16:31-03:00",
       "na_revisao_desde": "2026-10-13T16:31-03:00",
       "msg_id": 659
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B07QJD9335",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B07QJD9335?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B07QJD9335?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/nivea-sabonete-facial-em-gel-aqua-rose-150ml-limpeza-profunda-remove-maquiagem-purifica-e-refresca-agua-de-rosas-organica-todas-as-peles-3111149/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3111149/",
+      "nome": "NIVEA Sabonete Facial em Gel Aqua Rose 150ml",
+      "por": 28.42,
+      "de": 37.7,
+      "foto": "AgACAgQAAxkDAAIClGrOiTigEapGmosC02Ued7vGLVueAAKYujEb88_UUSKIFVvnUB5sAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "titulo": "Sabonete facial Nivea com 25% de desconto",
+      "id": 375,
+      "garimpado_em": "2026-10-13T16:40-03:00",
+      "na_revisao_desde": "2026-10-13T16:40-03:00",
+      "msg_id": 660
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB65541449",
+      "origem": "gatunopromos",
+      "link": "https://www.mercadolivre.com.br/fone-de-ouvido-jbl-tune-530bt-bluetooth-sem-fio-preto-headphone-com-microfone-wireless-estereo-graves-potentes-confortavel/p/MLB65541449?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/fone-de-ouvido-jbl-tune-530bt-bluetooth-sem-fio-preto-headphone-com-microfone-wireless-estereo-graves-potentes-confortavel/p/MLB65541449",
+      "post_origem": "https://t.me/gatunopromos/125128",
+      "link_canal": "https://meli.la/2oy54Yz",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_608030-MLA106478715282_022026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Fone de Ouvido JBL Tune 530BT Bluetooth Sem Fio Preto Headphone com",
+      "pix": true,
+      "de": 299.0,
+      "por": 166.98,
+      "cupom": "FULLLANDING",
+      "titulo": "Fone JBL com 44% de desconto",
+      "id": 376,
+      "garimpado_em": "2026-10-13T16:40-03:00",
+      "na_revisao_desde": "2026-10-13T16:40-03:00",
+      "msg_id": 661
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB65553357",
+      "origem": "promonocontext",
+      "link": "https://www.mercadolivre.com.br/fone-de-ouvido-bluetooth-sem-fio-tune-530-jbl-azul-azul/p/MLB65553357?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/fone-de-ouvido-bluetooth-sem-fio-tune-530-jbl-azul-azul/p/MLB65553357",
+      "post_origem": "https://t.me/promonocontext/126295",
+      "link_canal": "https://meli.la/1TLTGk2",
+      "foto": "AgACAgQAAxkDAAIClmrOiVAkkJzUuJsfrbbDS1kuqR_qAAKzEGsbOvZUUMfw2qakIkqZAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Fone De Ouvido Bluetooth Sem Fio Tune 530 Jbl",
+      "pix": true,
+      "por": 166.0,
+      "cupom": "FULLLANDING",
+      "titulo": "Fone JBL Tune 530 com desconto aplicado",
+      "id": 377,
+      "garimpado_em": "2026-10-13T16:41-03:00",
+      "na_revisao_desde": "2026-10-13T16:41-03:00",
+      "msg_id": 662
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB27290865",
+      "origem": "promonocontext",
+      "link": "https://www.mercadolivre.com.br/creatina-espartanos-em-po-sem-sabor-x-1kg/p/MLB27290865?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/creatina-espartanos-em-po-sem-sabor-x-1kg/p/MLB27290865",
+      "post_origem": "https://t.me/promonocontext/126297",
+      "link_canal": "https://meli.la/2dKrbDu",
+      "foto": "AgACAgQAAxkDAAICl2rOiVa0iRQ7XvT4_Dc_tYOBJS3qAAKvDGsbacSlUcZJj3xVzyacAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Creatina Espartanos em pó Sem sabor x 1kg",
+      "de": 159.0,
+      "por": 48.0,
+      "cupom": "OPAECONOMIZEI",
+      "titulo": "Creatina 1kg com 70% de desconto",
+      "id": 378,
+      "garimpado_em": "2026-10-13T16:41-03:00",
+      "na_revisao_desde": "2026-10-13T16:41-03:00",
+      "msg_id": 663
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0HDD4JG95",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0HDD4JG95?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0HDD4JG95?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220688",
+      "link_canal": "https://www.amazon.com.br/dp/B0HDD4JG95/ref=cm_sw_r_as_gl_apa_gl_i_CTASPR12CS7ABQ8K46WY?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAICmGrOiV3UlO85i9uL9nMQ2nFX3UuzAALTDmsb4LJ9UpEeVTZu5zgeAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Monitor Gamer HQ 32 Ultra Branco Curvo 1ms, 180Hz, Quad HD (QHD) - 2560x1440, AMD FreeSync, HDMI, DP, HQW32C180",
+      "por": 989.1,
+      "titulo": "Monitor gamer curvo Quad HD com 35% off",
+      "id": 379,
+      "garimpado_em": "2026-10-13T16:41-03:00",
+      "na_revisao_desde": "2026-10-13T16:41-03:00",
+      "msg_id": 664
     }
   ],
-  "proximo_id": 375,
+  "proximo_id": 380,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84664,
-      "lobaopromo": 188948,
-      "gatunopromos": 125125,
-      "pobregram": 41836,
+      "xetdaspromocoes": 84666,
+      "lobaopromo": 188953,
+      "gatunopromos": 125128,
+      "pobregram": 41837,
       "urubupromo": 41619,
-      "tudonapromo": 101740,
-      "promonocontext": 126294,
-      "promooeasy": 220686,
-      "aquitempechincha": 281407,
+      "tudonapromo": 101742,
+      "promonocontext": 126299,
+      "promooeasy": 220690,
+      "aquitempechincha": 281408,
       "infoBRpromos": 67462,
-      "boletando": 76666,
+      "boletando": 76668,
       "promotop": 260230,
       "achadosdotb": 11763
     },
     "dia": "2026-10-13",
-    "hoje": 210,
+    "hoje": 215,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -1553,27 +1652,32 @@
       "mercadolivre:MLB51986596",
       "mercadolivre:MLB60834816",
       "shopee:295736938.57308194758",
-      "amazon:B0CFPHTMDX"
+      "amazon:B0CFPHTMDX",
+      "amazon:B07QJD9335",
+      "mercadolivre:MLB65541449",
+      "mercadolivre:MLB65553357",
+      "mercadolivre:MLB27290865",
+      "amazon:B0HDD4JG95"
     ],
     "ultima": {
-      "em": "2026-10-13T16:30:23-03:00",
+      "em": "2026-10-13T16:40:20-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 37,
-      "do_nicho": 7,
-      "repetidas": 3,
-      "novas": 4,
+      "posts_novos": 35,
+      "do_nicho": 6,
+      "repetidas": 1,
+      "novas": 5,
       "limite_dia": false,
-      "promobit": 0
+      "promobit": 1
     },
     "hora": "2026-10-13T16",
-    "nesta_hora": 15,
+    "nesta_hora": 19,
     "promobit_hora": "2026-10-13T16",
-    "promobit_nesta_hora": 1,
-    "promobit_visto": 3111128
+    "promobit_nesta_hora": 2,
+    "promobit_visto": 3111154
   },
   "ultimos": [
     {
@@ -3002,7 +3106,7 @@
     },
     "2026-10-13": {
       "promobit": {
-        "achados": 24,
+        "achados": 25,
         "aprovados": 3,
         "reprovados": 20
       },
@@ -3012,7 +3116,7 @@
         "reprovados": 27
       },
       "promooeasy": {
-        "achados": 82,
+        "achados": 83,
         "aprovados": 2,
         "reprovados": 77
       },
@@ -3027,7 +3131,7 @@
         "reprovados": 5
       },
       "promonocontext": {
-        "achados": 29,
+        "achados": 31,
         "aprovados": 7,
         "reprovados": 21
       },
@@ -3047,7 +3151,7 @@
         "reprovados": 0
       },
       "gatunopromos": {
-        "achados": 1,
+        "achados": 2,
         "aprovados": 0,
         "reprovados": 1
       }
