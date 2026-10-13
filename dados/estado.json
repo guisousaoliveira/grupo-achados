@@ -2,25 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "amazon",
-      "chave": "amazon:B0FPNSXKKJ",
-      "origem": "promooeasy",
-      "link": "https://link.amazon/B06qjIRwk",
-      "link_produto": "https://link.amazon/B06qjIRwk",
-      "post_origem": "https://t.me/promooeasy/220314",
-      "link_canal": "https://www.amazon.com.br/JBL-Caixa-Essential-Bluetooth-Preta/dp/B0FPNSXKKJ?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAIBZmrOCr7zle50pzzVY44g15D8IKJ7AALsD2sbYlL1UyKQTv1xebwMAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "JBL, Caixa de Som, Go Essential 2, Bluetooth, Portátil, À Prova Dágua e Resistente à Poeira, Bateria de até 5h, Auracast",
-      "pix": true,
-      "parcelas": 6,
-      "por": 159.5,
-      "garimpado_em": "2026-10-13T07:41-03:00",
-      "na_revisao_desde": "2026-10-13T07:41-03:00",
-      "parcela_valor": 28.0,
-      "aprovado_em": "2026-10-13T08:04-03:00"
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB19506691",
       "origem": "lobaopromo",
@@ -840,6 +821,15 @@
       "link": "https://link.amazon/B0iSNI1KA",
       "link_produto": "https://link.amazon/B0iSNI1KA",
       "slot": 14
+    },
+    {
+      "chave": "amazon:B0FPNSXKKJ",
+      "loja": "amazon",
+      "nome": "JBL, Caixa de Som, Go Essential 2, Bluetooth, Portátil, À Prova Dágua e Resistente à Poeira, Bateria de até 5h, Auracast",
+      "data": "2026-10-13T15:40-03:00",
+      "link": "https://link.amazon/B06qjIRwk",
+      "link_produto": "https://link.amazon/B06qjIRwk",
+      "slot": 15
     }
   ],
   "slots_usados": {
@@ -871,7 +861,8 @@
       11,
       12,
       13,
-      14
+      14,
+      15
     ]
   },
   "shopee_buscado_em": "",
@@ -2060,6 +2051,20 @@
   "ultimos": [
     {
       "loja": "amazon",
+      "chave": "amazon:B0FPNSXKKJ",
+      "origem": "promooeasy",
+      "link": "https://link.amazon/B06qjIRwk",
+      "link_produto": "https://link.amazon/B06qjIRwk",
+      "post_origem": "https://t.me/promooeasy/220314",
+      "foto": "AgACAgQAAxkDAAIBZmrOCr7zle50pzzVY44g15D8IKJ7AALsD2sbYlL1UyKQTv1xebwMAQADAgADeAADPQQ",
+      "nome": "JBL, Caixa de Som, Go Essential 2, Bluetooth, Portátil, À Prova Dágua e Resistente à Poeira, Bateria de até 5h, Auracast",
+      "pix": true,
+      "parcelas": 6,
+      "por": 159.5,
+      "parcela_valor": 28.0
+    },
+    {
+      "loja": "amazon",
       "chave": "amazon:B09YVVH7J1",
       "origem": "promooeasy",
       "link": "https://link.amazon/B0iSNI1KA",
@@ -2589,22 +2594,6 @@
       "nome": "Smart Tv Philco 50 P50vik 4k Uhd Led Roku Dolby Audio Wi-fi Hdr10",
       "de": 3499.0,
       "por": 2099.0,
-      "pix": true
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0DXFBMYN4",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://link.amazon/B08ri0Zeb",
-      "link_produto": "https://www.amazon.com.br/dp/B0DXFBMYN4?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/mochila-esportiva-com-cordao-separacao-seca-e-humida-mochila-de-grande-capacidade-para-viagens-de-lazer-bolsos-laterais-em-malha-preto-com-lis-3109123/",
-      "nome": "Mochila Esportiva com Cordão",
-      "por": 45.1,
-      "foto": "AgACAgQAAxkDAAPuas1PH6SQ00Mq1wxRuUxIsPPtk9MAAuEPaxuOGm1Smedec3OQAAGSAQADAgADbQADPQQ",
-      "titulo": "Mochila esportiva para carregar seus itens na academia",
-      "parcelas": 2,
-      "parcela_valor": 23.74,
       "pix": true
     }
   ],
