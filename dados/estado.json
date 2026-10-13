@@ -1206,27 +1206,67 @@
       "garimpado_em": "2026-10-13T10:23-03:00",
       "na_revisao_desde": "2026-10-13T10:23-03:00",
       "msg_id": 470
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB5419600456",
+      "origem": "xetdaspromocoes",
+      "link": "https://produto.mercadolivre.com.br/MLB-5419600456-oculos-de-sol-quadrado-blade-original-masculino-tendncia-_JM?pdp_filters=item_id%3AMLB5419600456&matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-5419600456-oculos-de-sol-quadrado-blade-original-masculino-tendncia-_JM?pdp_filters=item_id%3AMLB5419600456",
+      "post_origem": "https://t.me/xetdaspromocoes/84575",
+      "link_canal": "https://meli.la/2DBWU3r",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_839552-MLB111520179912_062026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Óculos De Sol Quadrado Blade Original Masculino Tendência",
+      "de": 113.0,
+      "por": 43.0,
+      "cupom": "MAISCUPONS",
+      "titulo": "Desconto de 62%: é agora ou nunca.",
+      "id": 250,
+      "garimpado_em": "2026-10-13T10:25-03:00",
+      "na_revisao_desde": "2026-10-13T10:25-03:00",
+      "msg_id": 471
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB75898255",
+      "origem": "promotop",
+      "link": "https://www.mercadolivre.com.br/monitor-samsung-odyssey-g4-27-300hz-1ms-fhd-has-g-sync-freesync-dp-hdmi/p/MLB75898255?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/monitor-samsung-odyssey-g4-27-300hz-1ms-fhd-has-g-sync-freesync-dp-hdmi/p/MLB75898255",
+      "post_origem": "https://t.me/promotop/260200",
+      "link_canal": "https://meli.la/2ZKLYEK",
+      "foto": "AgACAgQAAxkDAAIB2GrOMYTRgmN0liyd7nwCQYfeFYz-AALwDGsbzs2NU-S75caGGFYEAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Monitor Samsung Odyssey G4 27\"",
+      "por": 1599.0,
+      "de": 1699.0,
+      "cupom": "MELHORDEHJ",
+      "titulo": "Preço bom, vale conferir.",
+      "id": 251,
+      "garimpado_em": "2026-10-13T10:26-03:00",
+      "na_revisao_desde": "2026-10-13T10:26-03:00",
+      "msg_id": 472
     }
   ],
-  "proximo_id": 250,
+  "proximo_id": 252,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84573,
-      "lobaopromo": 188785,
+      "xetdaspromocoes": 84577,
+      "lobaopromo": 188786,
       "gatunopromos": 125082,
-      "pobregram": 41810,
+      "pobregram": 41811,
       "urubupromo": 41610,
-      "tudonapromo": 101675,
-      "promonocontext": 126133,
+      "tudonapromo": 101676,
+      "promonocontext": 126137,
       "promooeasy": 220454,
       "aquitempechincha": 281328,
       "infoBRpromos": 67443,
       "boletando": 76646,
-      "promotop": 260199,
+      "promotop": 260200,
       "achadosdotb": 11757
     },
     "dia": "2026-10-13",
-    "hoje": 86,
+    "hoje": 88,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -1452,27 +1492,29 @@
       "mercadolivre:MLB4182420507",
       "mercadolivre:MLB62756066",
       "shopee:359168917.56108296641",
-      "shopee:1470976304.58212496584"
+      "shopee:1470976304.58212496584",
+      "mercadolivre:MLB5419600456",
+      "mercadolivre:MLB75898255"
     ],
     "ultima": {
-      "em": "2026-10-13T10:16:04-03:00",
+      "em": "2026-10-13T10:23:52-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 90,
-      "do_nicho": 20,
-      "repetidas": 12,
-      "novas": 8,
+      "posts_novos": 22,
+      "do_nicho": 3,
+      "repetidas": 1,
+      "novas": 2,
       "limite_dia": false,
-      "promobit": 1
+      "promobit": 0
     },
     "hora": "2026-10-13T10",
-    "nesta_hora": 17,
+    "nesta_hora": 19,
     "promobit_hora": "2026-10-13T10",
     "promobit_nesta_hora": 1,
-    "promobit_visto": 3110076
+    "promobit_visto": 3110103
   },
   "ultimos": [
     {
@@ -2080,12 +2122,12 @@
         "reprovados": 28
       },
       "xetdaspromocoes": {
-        "achados": 7,
+        "achados": 8,
         "aprovados": 3,
         "reprovados": 0
       },
       "promotop": {
-        "achados": 2,
+        "achados": 3,
         "aprovados": 1,
         "reprovados": 1
       },
