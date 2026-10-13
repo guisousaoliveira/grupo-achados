@@ -3,24 +3,6 @@
   "fila": [
     {
       "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB19506691",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/1DihMDt",
-      "link_produto": "https://meli.la/1DihMDt",
-      "post_origem": "https://t.me/lobaopromo/188711",
-      "link_canal": "https://meli.la/1Dz8K8s",
-      "foto": "AgACAgQAAxkDAAIBaWrOEeT3HjV31CkLk2Xacy1xNbY8AAK-EGsbDedlUEF9BlqDVO0eAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Creatina Dark Lab Premium Pure em pó Sem sabor x 300g",
-      "de": 78.9,
-      "por": 39.9,
-      "titulo": "Pra quem leva o treino a sério.",
-      "garimpado_em": "2026-10-13T08:11-03:00",
-      "na_revisao_desde": "2026-10-13T08:11-03:00",
-      "aprovado_em": "2026-10-13T08:13-03:00"
-    },
-    {
-      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB7319767372",
       "origem": "promonocontext",
       "link": "https://meli.la/2scKQiu",
@@ -904,6 +886,14 @@
       "link": "https://link.amazon/B06qjIRwk",
       "link_produto": "https://link.amazon/B06qjIRwk",
       "slot": 15
+    },
+    {
+      "chave": "mercadolivre:MLB19506691",
+      "loja": "mercadolivre",
+      "nome": "Creatina Dark Lab Premium Pure em pó Sem sabor x 300g",
+      "data": "2026-10-13T16:02-03:00",
+      "link": "https://meli.la/1DihMDt",
+      "link_produto": "https://meli.la/1DihMDt"
     }
   ],
   "slots_usados": {
@@ -1530,6 +1520,19 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB19506691",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/1DihMDt",
+      "link_produto": "https://meli.la/1DihMDt",
+      "post_origem": "https://t.me/lobaopromo/188711",
+      "foto": "AgACAgQAAxkDAAIBaWrOEeT3HjV31CkLk2Xacy1xNbY8AAK-EGsbDedlUEF9BlqDVO0eAQADAgADeAADPQQ",
+      "nome": "Creatina Dark Lab Premium Pure em pó Sem sabor x 300g",
+      "de": 78.9,
+      "por": 39.9,
+      "titulo": "Pra quem leva o treino a sério."
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0FPNSXKKJ",
       "origem": "promooeasy",
@@ -2064,17 +2067,6 @@
       "por": 104.0,
       "titulo": "Relógio masculino Poedagar com 68% off",
       "obs": "Aplique o Cupom de 10% 📌"
-    },
-    {
-      "loja": "mercadolivre",
-      "link": "https://meli.la/2XEGBAf",
-      "chave": "mercadolivre:https://meli.la/2XEGBAf",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_750412-MLA108743699852_032026-O.webp",
-      "titulo": "Smart TV Philco 4K Roku com desconto",
-      "nome": "Smart Tv Philco 50 P50vik 4k Uhd Led Roku Dolby Audio Wi-fi Hdr10",
-      "de": 3499.0,
-      "por": 2099.0,
-      "pix": true
     }
   ],
   "lixeira": [
