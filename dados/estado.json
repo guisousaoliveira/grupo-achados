@@ -933,25 +933,6 @@
   "revisar": [
     {
       "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB20306137",
-      "origem": "xetdaspromocoes",
-      "link": "https://www.mercadolivre.com.br/mixer-eletrico-portatil-2-em-1-recarregavel-potente-misturador-de-bebidas-e-ovos-3-velocidades-usb-batedor-e-fue-fouet-woosh/p/MLB20306137?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/mixer-eletrico-portatil-2-em-1-recarregavel-potente-misturador-de-bebidas-e-ovos-3-velocidades-usb-batedor-e-fue-fouet-woosh/p/MLB20306137",
-      "post_origem": "https://t.me/xetdaspromocoes/84660",
-      "link_canal": "https://meli.la/1vhAUjn",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_619021-MLA118179806341_092026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Mixer Elétrico Portátil 2 em 1 Recarregável Potente Misturador de",
-      "pix": true,
-      "por": 17.0,
-      "titulo": "Mixer elétrico portátil para facilitar o preparo",
-      "id": 353,
-      "garimpado_em": "2026-10-13T15:51-03:00",
-      "na_revisao_desde": "2026-10-13T15:51-03:00",
-      "msg_id": 635
-    },
-    {
-      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB78872569",
       "origem": "lobaopromo",
       "link": "https://www.mercadolivre.com.br/maquina-maquininha-dragao-acabamento-cortar-cabelo-aparador-barba-pelos-eletrica-sem-fio-recarregavel-crowley/p/MLB78872569?matt_word=alphapromo&matt_tool=59136903",
@@ -2015,6 +1996,26 @@
   ],
   "lixeira": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB20306137",
+      "origem": "xetdaspromocoes",
+      "link": "https://www.mercadolivre.com.br/mixer-eletrico-portatil-2-em-1-recarregavel-potente-misturador-de-bebidas-e-ovos-3-velocidades-usb-batedor-e-fue-fouet-woosh/p/MLB20306137?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/mixer-eletrico-portatil-2-em-1-recarregavel-potente-misturador-de-bebidas-e-ovos-3-velocidades-usb-batedor-e-fue-fouet-woosh/p/MLB20306137",
+      "post_origem": "https://t.me/xetdaspromocoes/84660",
+      "link_canal": "https://meli.la/1vhAUjn",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_619021-MLA118179806341_092026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Mixer Elétrico Portátil 2 em 1 Recarregável Potente Misturador de",
+      "pix": true,
+      "por": 17.0,
+      "titulo": "Mixer elétrico portátil para facilitar o preparo",
+      "id": 353,
+      "garimpado_em": "2026-10-13T15:51-03:00",
+      "na_revisao_desde": "2026-10-13T15:51-03:00",
+      "removido_em": "2026-10-13T16:03:28-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0CPTHKY7W",
       "origem": "promobit",
@@ -2808,28 +2809,6 @@
       "na_revisao_desde": "2026-10-13T15:14-03:00",
       "removido_em": "2026-10-13T15:45:36-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:1062544851.58217401385",
-      "origem": "promooeasy",
-      "link": "https://shopee.com.br/product/1062544851/58217401385",
-      "link_produto": "https://shopee.com.br/product/1062544851/58217401385",
-      "post_origem": "https://t.me/promooeasy/220632",
-      "link_canal": "https://s.shopee.com.br/6L5Bm0zpgV?lp=aff",
-      "precisa_link": true,
-      "foto": "https://cdn1.telesco.pe/file/psgLsFkfzJc4dw1bI6_FYVGHJJiLZFiBeFQMw-b4Kb6JJ-UB90hCQOIohkzUcJ-D-xCm_-Zfx6kwP4Vnk-RX0XVFeyCVvXgT7X8R8Gw_PBcStTq5pnm8qCIMuiqr7dUy0dYzCd40mjzZxeyutr4nZ7gwXpP0exEeGXdwa1JyKht_Eo54n2NGQwSi0vDIzn1_45FiCEsl_-6VunvD6A_b20tl9aULcshxB44unzldk4iM92lb7NAlDmL6RZHORBK58T_1MZXDCxFn0aBDv21vnGbGh-QbjyLQcv0YTPdj7gSNfQCO2nvYyVuEvCXZresA8Sg2mcLlg5eX3dxQU2b1QQ.jpg",
-      "foto_origem": "canal",
-      "nome": "Smart TV AIWA 43 Android Full HD Borda Ultrafina HDR10 Dolby Áudio AWS-TV-43-BL-02-A",
-      "cupom_loja": "Resgate o cupom de R$90 aqui:",
-      "de": 1903.57,
-      "por": 1270.6,
-      "titulo": "Smart TV AIWA 43 com 33% off",
-      "id": 346,
-      "garimpado_em": "2026-10-13T15:22-03:00",
-      "na_revisao_desde": "2026-10-13T15:22-03:00",
-      "removido_em": "2026-10-13T15:45:32-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -2909,7 +2888,7 @@
       "xetdaspromocoes": {
         "achados": 14,
         "aprovados": 5,
-        "reprovados": 8
+        "reprovados": 9
       },
       "promotop": {
         "achados": 6,
