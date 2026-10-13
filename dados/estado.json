@@ -632,18 +632,38 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [],
-  "proximo_id": 146,
+  "revisar": [
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB76319957",
+      "origem": "lobaopromo",
+      "link": "https://www.mercadolivre.com.br/relogio-inteligente-smartwatch-gps-autonomo-chamadas-bluetooth-novante-moda-digital-feminino-masculino-esportivo-preto-ip68-3atm-agua-tela-hd-185-350mah-10dias-android-ios-com-monitoramento-de-saude/p/MLB76319957?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/relogio-inteligente-smartwatch-gps-autonomo-chamadas-bluetooth-novante-moda-digital-feminino-masculino-esportivo-preto-ip68-3atm-agua-tela-hd-185-350mah-10dias-android-ios-com-monitoramento-de-saude/p/MLB76319957",
+      "post_origem": "https://t.me/lobaopromo/188626",
+      "link_canal": "https://meli.la/1uRLzLN",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_690283-MLA115980624440_092026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Relógio Inteligente Smartwatch GPS Autônomo Chamadas Bluetooth",
+      "de": 559.0,
+      "por": 161.0,
+      "titulo": "Smartwatch com GPS e 71% de desconto",
+      "id": 146,
+      "garimpado_em": "2026-10-12T22:05-03:00",
+      "na_revisao_desde": "2026-10-12T22:05-03:00",
+      "msg_id": 301
+    }
+  ],
+  "proximo_id": 147,
   "radar": {
     "visto": {
       "xetdaspromocoes": 84504,
-      "lobaopromo": 188625,
-      "gatunopromos": 124992,
+      "lobaopromo": 188626,
+      "gatunopromos": 124993,
       "pobregram": 41784,
       "urubupromo": 41593,
       "tudonapromo": 101633,
-      "promonocontext": 126048,
-      "promooeasy": 220252,
+      "promonocontext": 126049,
+      "promooeasy": 220253,
       "aquitempechincha": 281252,
       "infoBRpromos": 67421,
       "boletando": 76626,
@@ -651,7 +671,7 @@
       "achadosdotb": 11757
     },
     "dia": "2026-10-12",
-    "hoje": 114,
+    "hoje": 115,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -774,27 +794,28 @@
       "amazon:B075Y72PHZ",
       "mercadolivre:MLB7275398398",
       "amazon:B0BBJPCMQM",
-      "mercadolivre:MLB7023811646"
+      "mercadolivre:MLB7023811646",
+      "mercadolivre:MLB76319957"
     ],
     "ultima": {
-      "em": "2026-10-12T22:00:27-03:00",
+      "em": "2026-10-12T22:05:05-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 16,
-      "do_nicho": 3,
+      "posts_novos": 13,
+      "do_nicho": 2,
       "repetidas": 1,
-      "novas": 2,
+      "novas": 1,
       "limite_dia": false,
       "promobit": 0
     },
     "hora": "2026-10-12T22",
-    "nesta_hora": 2,
+    "nesta_hora": 3,
     "promobit_hora": "2026-10-12T22",
     "promobit_nesta_hora": 0,
-    "promobit_visto": 3109350
+    "promobit_visto": 3109360
   },
   "ultimos": [
     {
@@ -1385,7 +1406,7 @@
         "reprovados": 0
       },
       "lobaopromo": {
-        "achados": 17,
+        "achados": 18,
         "aprovados": 8,
         "reprovados": 9
       },
