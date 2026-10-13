@@ -281,6 +281,25 @@
       "garimpado_em": "2026-10-12T20:10-03:00",
       "na_revisao_desde": "2026-10-12T20:10-03:00",
       "aprovado_em": "2026-10-12T21:10-03:00"
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0B2712FTY",
+      "origem": "lobaopromo",
+      "link": "https://link.amazon/B0ezvVAjk",
+      "link_produto": "https://link.amazon/B0ezvVAjk",
+      "post_origem": "https://t.me/lobaopromo/188609",
+      "link_canal": "https://amzlink.to/az058XKCL7gu2",
+      "foto": "AgACAgQAAxkDAAIBGGrNdvnBBck4k2kGlLlak3ebBBgBAAK5DmsbxzV1UjqEK3jnduRSAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Mouse Sem Fio HP 150",
+      "pix": true,
+      "de": 67.9,
+      "por": 50.73,
+      "prime": true,
+      "garimpado_em": "2026-10-12T21:11-03:00",
+      "na_revisao_desde": "2026-10-12T21:11-03:00",
+      "aprovado_em": "2026-10-12T21:19-03:00"
     }
   ],
   "postados": [
@@ -607,27 +626,6 @@
       "garimpado_em": "2026-10-12T21:11-03:00",
       "na_revisao_desde": "2026-10-12T21:11-03:00",
       "msg_id": 281
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0B2712FTY",
-      "origem": "lobaopromo",
-      "link": "https://www.amazon.com.br/dp/B0B2712FTY?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0B2712FTY?tag=alphadominu09-20",
-      "post_origem": "https://t.me/lobaopromo/188609",
-      "link_canal": "https://amzlink.to/az058XKCL7gu2",
-      "foto": "AgACAgQAAxkDAAIBGGrNdvnBBck4k2kGlLlak3ebBBgBAAK5DmsbxzV1UjqEK3jnduRSAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Mouse Sem Fio HP 150",
-      "pix": true,
-      "de": 79.88,
-      "por": 50.73,
-      "prime": true,
-      "titulo": "Mouse Sem Fio HP 150 com 36% off",
-      "id": 134,
-      "garimpado_em": "2026-10-12T21:11-03:00",
-      "na_revisao_desde": "2026-10-12T21:11-03:00",
-      "msg_id": 282
     }
   ],
   "proximo_id": 135,
@@ -1136,7 +1134,7 @@
       },
       "lobaopromo": {
         "achados": 15,
-        "aprovados": 5,
+        "aprovados": 6,
         "reprovados": 8
       },
       "urubupromo": {
