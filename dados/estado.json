@@ -300,6 +300,23 @@
       "garimpado_em": "2026-10-12T21:11-03:00",
       "na_revisao_desde": "2026-10-12T21:11-03:00",
       "aprovado_em": "2026-10-12T21:19-03:00"
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0955QFBH2",
+      "origem": "lobaopromo",
+      "link": "https://link.amazon/B0gRojdZy",
+      "link_produto": "https://link.amazon/B0gRojdZy",
+      "post_origem": "https://t.me/lobaopromo/188606",
+      "link_canal": "https://amzlink.to/az0Hgi6Zb9CAy",
+      "foto": "AgACAgEAAxkDAAIBIGrNeYHy6vnsSO8KjQNVbGfm5NreAAKWDWsb8PdpRpfTawW4Ky0zAQADAgADeQADPQQ",
+      "nome": "Mondial Cafeteira Elétrica Dolce Arome, 550W, 110V",
+      "de": 139.0,
+      "por": 86.45,
+      "titulo": "Cafeteira Mondial Dolce Arome com 38% off",
+      "garimpado_em": "2026-10-12T21:11-03:00",
+      "na_revisao_desde": "2026-10-12T21:11-03:00",
+      "aprovado_em": "2026-10-12T21:22-03:00"
     }
   ],
   "postados": [
@@ -608,25 +625,6 @@
   },
   "shopee_buscado_em": "",
   "revisar": [
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0955QFBH2",
-      "origem": "lobaopromo",
-      "link": "https://www.amazon.com.br/dp/B0955QFBH2?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0955QFBH2?tag=alphadominu09-20",
-      "post_origem": "https://t.me/lobaopromo/188606",
-      "link_canal": "https://amzlink.to/az0Hgi6Zb9CAy",
-      "foto": "AgACAgQAAxkDAAIBF2rNdvaZl5Ns_CunFJW8TsFWCEKYAAKsEGsbjr_UUNlv6FCOHO2EAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Mondial Cafeteira Elétrica Dolce Arome, 550W, 110V",
-      "de": 139.0,
-      "por": 86.45,
-      "titulo": "Cafeteira Mondial Dolce Arome com 38% off",
-      "id": 133,
-      "garimpado_em": "2026-10-12T21:11-03:00",
-      "na_revisao_desde": "2026-10-12T21:11-03:00",
-      "msg_id": 281
-    },
     {
       "loja": "amazon",
       "chave": "amazon:B0H6N4P465",
@@ -1214,7 +1212,7 @@
       },
       "lobaopromo": {
         "achados": 15,
-        "aprovados": 6,
+        "aprovados": 7,
         "reprovados": 8
       },
       "urubupromo": {
