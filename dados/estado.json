@@ -1412,25 +1412,6 @@
       "garimpado_em": "2026-10-13T14:54-03:00",
       "na_revisao_desde": "2026-10-13T14:54-03:00",
       "msg_id": 611
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:1083800536.58266545932",
-      "origem": "promooeasy",
-      "link": "https://shopee.com.br/product/1083800536/58266545932",
-      "link_produto": "https://shopee.com.br/product/1083800536/58266545932",
-      "post_origem": "https://t.me/promooeasy/220615",
-      "link_canal": "https://s.shopee.com.br/6AllXp3nic?lp=aff",
-      "precisa_link": true,
-      "foto": "AgACAgEAAxkDAAICZGrOcF7tMc7pi1CgvQh2dZxM85ToAAKBDWsb7AJxRjchB0I6VpLWAQADAgADeAADPQQ",
-      "foto_origem": "canal",
-      "nome": "Smart TV 43 polegadas 43S5155 78G Full HD LED Wi-Fi Roku TV Dolby Audio AOC",
-      "por": 1266.0,
-      "titulo": "Smart TV AOC 43 polegadas com desconto",
-      "id": 331,
-      "garimpado_em": "2026-10-13T14:54-03:00",
-      "na_revisao_desde": "2026-10-13T14:54-03:00",
-      "msg_id": 612
     }
   ],
   "proximo_id": 352,
@@ -2352,6 +2333,26 @@
   "lixeira": [
     {
       "loja": "shopee",
+      "chave": "shopee:1083800536.58266545932",
+      "origem": "promooeasy",
+      "link": "https://shopee.com.br/product/1083800536/58266545932",
+      "link_produto": "https://shopee.com.br/product/1083800536/58266545932",
+      "post_origem": "https://t.me/promooeasy/220615",
+      "link_canal": "https://s.shopee.com.br/6AllXp3nic?lp=aff",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAICZGrOcF7tMc7pi1CgvQh2dZxM85ToAAKBDWsb7AJxRjchB0I6VpLWAQADAgADeAADPQQ",
+      "foto_origem": "canal",
+      "nome": "Smart TV 43 polegadas 43S5155 78G Full HD LED Wi-Fi Roku TV Dolby Audio AOC",
+      "por": 1266.0,
+      "titulo": "Smart TV AOC 43 polegadas com desconto",
+      "id": 331,
+      "garimpado_em": "2026-10-13T14:54-03:00",
+      "na_revisao_desde": "2026-10-13T14:54-03:00",
+      "removido_em": "2026-10-13T15:48:08-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "shopee",
       "chave": "shopee:829012010.58263177026",
       "origem": "promooeasy",
       "link": "https://shopee.com.br/product/829012010/58263177026",
@@ -3135,27 +3136,6 @@
       "na_revisao_desde": "2026-10-13T12:45-03:00",
       "removido_em": "2026-10-13T13:05:24-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB64268516",
-      "origem": "promonocontext",
-      "link": "https://www.mercadolivre.com.br/kit-relogio-feminino-condor-com-colar-e-brinco-co2035ncok4k/p/MLB64268516?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/kit-relogio-feminino-condor-com-colar-e-brinco-co2035ncok4k/p/MLB64268516",
-      "post_origem": "https://t.me/promonocontext/126219",
-      "link_canal": "https://meli.la/2s9xcY7",
-      "foto": "AgACAgQAAxkDAAICLmrOUp4vjW99ZVIDt-XfaQLtLLmGAAKGD2sbR8pcUnThcnIsFs93AQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Kit Relógio Feminino Condor Com Colar E Brinco Co2035nco/k4k",
-      "pix": true,
-      "por": 169.0,
-      "cupom": "MELHORDEHJ",
-      "titulo": "Vale cada centavo nesse preço.",
-      "id": 289,
-      "garimpado_em": "2026-10-13T12:47-03:00",
-      "na_revisao_desde": "2026-10-13T12:47-03:00",
-      "removido_em": "2026-10-13T13:05:22-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -3230,7 +3210,7 @@
       "promooeasy": {
         "achados": 74,
         "aprovados": 2,
-        "reprovados": 66
+        "reprovados": 67
       },
       "xetdaspromocoes": {
         "achados": 13,
