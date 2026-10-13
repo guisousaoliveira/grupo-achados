@@ -1492,25 +1492,6 @@
       "msg_id": 616
     },
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB54549630",
-      "origem": "promonocontext",
-      "link": "https://www.mercadolivre.com.br/basike-caixa-de-som-boombox-plus-80w-8000mah-portatil-bluetooth-53-sem-fio-ipx6-prova-dagua-com-luz-rgb-hifi-tws-bass-forte-amplificada-alto-falante-bombox-tv-festa-casa-soundbox-subwoofer-rad337/p/MLB54549630?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/basike-caixa-de-som-boombox-plus-80w-8000mah-portatil-bluetooth-53-sem-fio-ipx6-prova-dagua-com-luz-rgb-hifi-tws-bass-forte-amplificada-alto-falante-bombox-tv-festa-casa-soundbox-subwoofer-rad337/p/MLB54549630",
-      "post_origem": "https://t.me/promonocontext/126261",
-      "link_canal": "https://meli.la/17nHFN9",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_675598-MLA99455853026_112025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Basike Caixa de Som Boombox Plus 80W 8000Mah Portátil Bluetooth 5.3",
-      "pix": true,
-      "por": 319.0,
-      "titulo": "Caixa de som Basike 80W com bateria de 8000mAh por 319 reais.",
-      "id": 336,
-      "garimpado_em": "2026-10-13T15:04-03:00",
-      "na_revisao_desde": "2026-10-13T15:04-03:00",
-      "msg_id": 617
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B0D6BXNRZQ",
       "origem": "promooeasy",
@@ -2447,6 +2428,26 @@
   ],
   "lixeira": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB54549630",
+      "origem": "promonocontext",
+      "link": "https://www.mercadolivre.com.br/basike-caixa-de-som-boombox-plus-80w-8000mah-portatil-bluetooth-53-sem-fio-ipx6-prova-dagua-com-luz-rgb-hifi-tws-bass-forte-amplificada-alto-falante-bombox-tv-festa-casa-soundbox-subwoofer-rad337/p/MLB54549630?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/basike-caixa-de-som-boombox-plus-80w-8000mah-portatil-bluetooth-53-sem-fio-ipx6-prova-dagua-com-luz-rgb-hifi-tws-bass-forte-amplificada-alto-falante-bombox-tv-festa-casa-soundbox-subwoofer-rad337/p/MLB54549630",
+      "post_origem": "https://t.me/promonocontext/126261",
+      "link_canal": "https://meli.la/17nHFN9",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_675598-MLA99455853026_112025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Basike Caixa de Som Boombox Plus 80W 8000Mah Portátil Bluetooth 5.3",
+      "pix": true,
+      "por": 319.0,
+      "titulo": "Caixa de som Basike 80W com bateria de 8000mAh por 319 reais.",
+      "id": 336,
+      "garimpado_em": "2026-10-13T15:04-03:00",
+      "na_revisao_desde": "2026-10-13T15:04-03:00",
+      "removido_em": "2026-10-13T15:47:07-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0GFLDPNGF",
       "origem": "promooeasy",
@@ -3321,7 +3322,7 @@
       "promonocontext": {
         "achados": 27,
         "aprovados": 6,
-        "reprovados": 17
+        "reprovados": 18
       },
       "infoBRpromos": {
         "achados": 8,
