@@ -720,26 +720,86 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [],
-  "proximo_id": 191,
+  "revisar": [
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB5513844630",
+      "origem": "lobaopromo",
+      "link": "https://produto.mercadolivre.com.br/MLB-5513844630-camisa-polo-tommy-masculina-_JM?pdp_filters=item_id%3AMLB5513844630&matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-5513844630-camisa-polo-tommy-masculina-_JM?pdp_filters=item_id%3AMLB5513844630",
+      "post_origem": "https://t.me/lobaopromo/188714",
+      "link_canal": "https://meli.la/2vDqDpt",
+      "foto": "AgACAgQAAxkDAAIBa2rOFH1iRx_TcFBeg7_0uXLYbLInAAKPD2sbiyZVUqVc9jNGOI8VAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Camisa Polo Tommy Masculina",
+      "pix": true,
+      "de": 350.0,
+      "por": 148.0,
+      "titulo": "58% off, isso aqui não fica muito tempo assim.",
+      "id": 191,
+      "garimpado_em": "2026-10-13T08:22-03:00",
+      "na_revisao_desde": "2026-10-13T08:22-03:00",
+      "msg_id": 363
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:1487744778.58204778903",
+      "origem": "promooeasy",
+      "link": "https://shopee.com.br/product/1487744778/58204778903",
+      "link_produto": "https://shopee.com.br/product/1487744778/58204778903",
+      "post_origem": "https://t.me/promooeasy/220342",
+      "link_canal": "https://s.shopee.com.br/gQoZ8CkXV?lp=aff",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAIBbGrOFIoDTRBfo-E99ZDSzqAaD-8kAAIXDWsb7AJxRnLcgTUP93hNAQADAgADeAADPQQ",
+      "foto_origem": "canal",
+      "nome": "Linhaça Dourada Prímula Borragem Vitamina E Ômegas-3-6-9 ÓleoNutri Softgel 500/1000mg 60/120 Cápsulas - Suplemento",
+      "de": 79.31,
+      "por": 28.55,
+      "titulo": "Ômegas 3 6 9 com 64% off",
+      "id": 192,
+      "garimpado_em": "2026-10-13T08:22-03:00",
+      "na_revisao_desde": "2026-10-13T08:22-03:00",
+      "msg_id": 364
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB4348056327",
+      "origem": "promooeasy",
+      "link": "https://produto.mercadolivre.com.br/MLB-4348056327-kit-10-cueca-boxer-masculina-microfibra-adulto-premium-_JM?pdp_filters=item_id%3AMLB4348056327&matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-4348056327-kit-10-cueca-boxer-masculina-microfibra-adulto-premium-_JM?pdp_filters=item_id%3AMLB4348056327",
+      "post_origem": "https://t.me/promooeasy/220344",
+      "link_canal": "https://meli.la/1n9Gew7",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_655135-MLB100011715022_122025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Kit 10 Cueca Boxer Masculina Microfibra Adulto Premium",
+      "de": 59.99,
+      "por": 42.74,
+      "titulo": "Kit com 10 cuecas com 29% off",
+      "id": 193,
+      "garimpado_em": "2026-10-13T08:22-03:00",
+      "na_revisao_desde": "2026-10-13T08:22-03:00",
+      "msg_id": 365
+    }
+  ],
+  "proximo_id": 194,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84513,
-      "lobaopromo": 188712,
-      "gatunopromos": 125066,
-      "pobregram": 41795,
+      "xetdaspromocoes": 84515,
+      "lobaopromo": 188716,
+      "gatunopromos": 125068,
+      "pobregram": 41798,
       "urubupromo": 41598,
-      "tudonapromo": 101633,
-      "promonocontext": 126055,
-      "promooeasy": 220336,
-      "aquitempechincha": 281270,
+      "tudonapromo": 101636,
+      "promonocontext": 126058,
+      "promooeasy": 220344,
+      "aquitempechincha": 281274,
       "infoBRpromos": 67421,
       "boletando": 76626,
       "promotop": 260187,
       "achadosdotb": 11757
     },
     "dia": "2026-10-13",
-    "hoje": 27,
+    "hoje": 30,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -906,27 +966,30 @@
       "amazon:B0DYV5765S",
       "amazon:B09YVVH7J1",
       "amazon:B0FPNSXKKJ",
-      "mercadolivre:MLB19506691"
+      "mercadolivre:MLB19506691",
+      "mercadolivre:MLB5513844630",
+      "shopee:1487744778.58204778903",
+      "mercadolivre:MLB4348056327"
     ],
     "ultima": {
-      "em": "2026-10-13T08:10:20-03:00",
+      "em": "2026-10-13T08:21:26-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 38,
-      "do_nicho": 2,
+      "posts_novos": 39,
+      "do_nicho": 4,
       "repetidas": 1,
-      "novas": 1,
+      "novas": 3,
       "limite_dia": false,
       "promobit": 0
     },
     "hora": "2026-10-13T08",
-    "nesta_hora": 1,
+    "nesta_hora": 4,
     "promobit_hora": "2026-10-13T08",
     "promobit_nesta_hora": 0,
-    "promobit_visto": 3109739
+    "promobit_visto": 3109758
   },
   "ultimos": [
     {
@@ -1608,12 +1671,12 @@
         "reprovados": 4
       },
       "lobaopromo": {
-        "achados": 6,
+        "achados": 7,
         "aprovados": 4,
         "reprovados": 2
       },
       "promooeasy": {
-        "achados": 17,
+        "achados": 19,
         "aprovados": 2,
         "reprovados": 15
       }
