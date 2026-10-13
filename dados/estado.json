@@ -1025,25 +1025,6 @@
       "msg_id": 537
     },
     {
-      "loja": "shopee",
-      "chave": "shopee:399695524.42683809155",
-      "origem": "promooeasy",
-      "link": "https://shopee.com.br/product/399695524/42683809155",
-      "link_produto": "https://shopee.com.br/product/399695524/42683809155",
-      "post_origem": "https://t.me/promooeasy/220514",
-      "link_canal": "https://s.shopee.com.br/4fwxZSs2Mu?lp=aff",
-      "precisa_link": true,
-      "foto": "AgACAgEAAxkDAAICCWrOSTwr-faAoHhvsxA2tMeoZeI0AAJUDWsb7AJxRg9c8icRamhBAQADAgADeAADPQQ",
-      "foto_origem": "canal",
-      "nome": "Dispenser Sabonete Líquido Natalino de Cerâmica 250ml",
-      "por": 37.0,
-      "titulo": "Dispenser natalino de cerâmica para seu banheiro",
-      "id": 278,
-      "garimpado_em": "2026-10-13T12:18-03:00",
-      "na_revisao_desde": "2026-10-13T12:18-03:00",
-      "msg_id": 538
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB49197358",
       "origem": "promooeasy",
@@ -1968,7 +1949,28 @@
       "por": 72.9
     }
   ],
-  "lixeira": [],
+  "lixeira": [
+    {
+      "loja": "shopee",
+      "chave": "shopee:399695524.42683809155",
+      "origem": "promooeasy",
+      "link": "https://shopee.com.br/product/399695524/42683809155",
+      "link_produto": "https://shopee.com.br/product/399695524/42683809155",
+      "post_origem": "https://t.me/promooeasy/220514",
+      "link_canal": "https://s.shopee.com.br/4fwxZSs2Mu?lp=aff",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAICCWrOSTwr-faAoHhvsxA2tMeoZeI0AAJUDWsb7AJxRg9c8icRamhBAQADAgADeAADPQQ",
+      "foto_origem": "canal",
+      "nome": "Dispenser Sabonete Líquido Natalino de Cerâmica 250ml",
+      "por": 37.0,
+      "titulo": "Dispenser natalino de cerâmica para seu banheiro",
+      "id": 278,
+      "garimpado_em": "2026-10-13T12:18-03:00",
+      "na_revisao_desde": "2026-10-13T12:18-03:00",
+      "removido_em": "2026-10-13T12:36:27-03:00",
+      "removido_de": "revisar"
+    }
+  ],
   "garimpo": {
     "2026-10-12": {
       "promooeasy": {
@@ -2041,7 +2043,7 @@
       "promooeasy": {
         "achados": 51,
         "aprovados": 2,
-        "reprovados": 44
+        "reprovados": 45
       },
       "xetdaspromocoes": {
         "achados": 10,
