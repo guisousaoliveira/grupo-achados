@@ -2021,19 +2021,57 @@
       "garimpado_em": "2026-10-13T18:31-03:00",
       "na_revisao_desde": "2026-10-13T18:31-03:00",
       "msg_id": 715
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B08JQMFG5T",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B08JQMFG5T?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B08JQMFG5T?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/sabonete-em-barra-protex-baby-delicate-care-3x85g-3111513/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3111513/",
+      "nome": "Sabonete em Barra Protex Baby Delicate Care 3x85g",
+      "por": 12.85,
+      "foto": "AgACAgQAAxkDAAICzGrOpVQcYqz1bb0GrYx9G5_kWrtFAALjuDEbjt2lU1q9c4EyFdMvAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "titulo": "Sabonete Protex Baby para pele sensível do bebê",
+      "id": 429,
+      "garimpado_em": "2026-10-13T18:40-03:00",
+      "na_revisao_desde": "2026-10-13T18:40-03:00",
+      "msg_id": 716
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0FHWYPYF4",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0FHWYPYF4?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0FHWYPYF4?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220802",
+      "link_canal": "https://www.amazon.com.br/dp/B0FHWYPYF4?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAICzWrOpWU26OzuEScldDfreX7fnHxhAALmDGsbYEaMUyFkDmuFWICQAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Street Fighter 6 Years 1-2 Fighters Edition - PS5 + Frete Grátis",
+      "parcelas": 4,
+      "por": 149.9,
+      "titulo": "Street Fighter 6 Fighters Edition com desconto",
+      "id": 430,
+      "garimpado_em": "2026-10-13T18:40-03:00",
+      "na_revisao_desde": "2026-10-13T18:40-03:00",
+      "msg_id": 717
     }
   ],
-  "proximo_id": 429,
+  "proximo_id": 431,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84685,
-      "lobaopromo": 189002,
-      "gatunopromos": 125150,
+      "xetdaspromocoes": 84686,
+      "lobaopromo": 189005,
+      "gatunopromos": 125152,
       "pobregram": 41843,
       "urubupromo": 41623,
-      "tudonapromo": 101759,
-      "promonocontext": 126395,
-      "promooeasy": 220797,
+      "tudonapromo": 101760,
+      "promonocontext": 126399,
+      "promooeasy": 220808,
       "aquitempechincha": 281426,
       "infoBRpromos": 67467,
       "boletando": 76673,
@@ -2041,10 +2079,8 @@
       "achadosdotb": 11763
     },
     "dia": "2026-10-13",
-    "hoje": 264,
+    "hoje": 266,
     "chaves": [
-      "mercadolivre:MLB29164669",
-      "amazon:B0HJJSKJ2S",
       "mercadolivre:MLB25929487",
       "amazon:B0DPXRVFVB",
       "mercadolivre:MLB50232347",
@@ -2442,27 +2478,29 @@
       "amazon:B09YMX71JZ",
       "shopee:1419592004.18499625419",
       "mercadolivre:MLB3781902941",
-      "shopee:983753255.43606861494"
+      "shopee:983753255.43606861494",
+      "amazon:B08JQMFG5T",
+      "amazon:B0FHWYPYF4"
     ],
     "ultima": {
-      "em": "2026-10-13T18:30:26-03:00",
+      "em": "2026-10-13T18:40:19-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 36,
-      "do_nicho": 11,
-      "repetidas": 5,
-      "novas": 6,
+      "posts_novos": 32,
+      "do_nicho": 8,
+      "repetidas": 6,
+      "novas": 2,
       "limite_dia": false,
-      "promobit": 0
+      "promobit": 1
     },
     "hora": "2026-10-13T18",
-    "nesta_hora": 11,
+    "nesta_hora": 12,
     "promobit_hora": "2026-10-13T18",
-    "promobit_nesta_hora": 2,
-    "promobit_visto": 3111481
+    "promobit_nesta_hora": 3,
+    "promobit_visto": 3111516
   },
   "ultimos": [
     {
@@ -3894,7 +3932,7 @@
     },
     "2026-10-13": {
       "promobit": {
-        "achados": 34,
+        "achados": 35,
         "aprovados": 3,
         "reprovados": 22
       },
@@ -3904,7 +3942,7 @@
         "reprovados": 28
       },
       "promooeasy": {
-        "achados": 102,
+        "achados": 103,
         "aprovados": 2,
         "reprovados": 81
       },
@@ -3945,5 +3983,5 @@
       }
     }
   },
-  "aviso_post": "2026-10-13 17|mercadolivre:MLB66902915"
+  "aviso_post": "2026-10-13 18|mercadolivre:MLB17460955"
 }
