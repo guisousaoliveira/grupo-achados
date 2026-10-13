@@ -629,24 +629,6 @@
   "revisar": [
     {
       "loja": "amazon",
-      "chave": "amazon:B075Y72PHZ",
-      "origem": "lobaopromo",
-      "link": "https://www.amazon.com.br/dp/B075Y72PHZ?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B075Y72PHZ?tag=alphadominu09-20",
-      "post_origem": "https://t.me/lobaopromo/188623",
-      "link_canal": "https://amzlink.to/az0GMOu1Qr1VW",
-      "foto": "AgACAgQAAxkDAAIBJ2rNgFS5k4eQz_Ps5CNq4hVZe3ZVAAIGD2sbFvB0UgXAI2QGOCQdAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Mochila Lenovo Casual B210",
-      "cupom": "LENOVO10",
-      "titulo": "Mochila Lenovo casual para uso diário",
-      "id": 142,
-      "garimpado_em": "2026-10-12T21:50-03:00",
-      "na_revisao_desde": "2026-10-12T21:50-03:00",
-      "msg_id": 295
-    },
-    {
-      "loja": "amazon",
       "chave": "amazon:B0BBJPCMQM",
       "origem": "lobaopromo",
       "link": "https://www.amazon.com.br/dp/B0BBJPCMQM?tag=alphadominu09-20",
@@ -1222,6 +1204,25 @@
   ],
   "lixeira": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B075Y72PHZ",
+      "origem": "lobaopromo",
+      "link": "https://www.amazon.com.br/dp/B075Y72PHZ?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B075Y72PHZ?tag=alphadominu09-20",
+      "post_origem": "https://t.me/lobaopromo/188623",
+      "link_canal": "https://amzlink.to/az0GMOu1Qr1VW",
+      "foto": "AgACAgQAAxkDAAIBJ2rNgFS5k4eQz_Ps5CNq4hVZe3ZVAAIGD2sbFvB0UgXAI2QGOCQdAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Mochila Lenovo Casual B210",
+      "cupom": "LENOVO10",
+      "titulo": "Mochila Lenovo casual para uso diário",
+      "id": 142,
+      "garimpado_em": "2026-10-12T21:50-03:00",
+      "na_revisao_desde": "2026-10-12T21:50-03:00",
+      "removido_em": "2026-10-12T22:01:45-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:344381236.50469048631",
       "origem": "promooeasy",
@@ -1384,7 +1385,7 @@
       "lobaopromo": {
         "achados": 17,
         "aprovados": 7,
-        "reprovados": 8
+        "reprovados": 9
       },
       "urubupromo": {
         "achados": 2,
