@@ -876,25 +876,6 @@
       "garimpado_em": "2026-10-13T00:30-03:00",
       "na_revisao_desde": "2026-10-13T00:30-03:00",
       "msg_id": 340
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:1317539899.58263919255",
-      "origem": "promooeasy",
-      "link": "https://shopee.com.br/product/1317539899/58263919255",
-      "link_produto": "https://shopee.com.br/product/1317539899/58263919255",
-      "post_origem": "https://t.me/promooeasy/220275",
-      "link_canal": "https://s.shopee.com.br/2LZ21M1tx8?lp=aff",
-      "precisa_link": true,
-      "foto": "AgACAgEAAxkDAAIBVWrNpfipGxtV3gYfYg6B-YQsn_LFAALfDGsb7AJxRkqYoGjcaxoMAQADAgADeAADPQQ",
-      "foto_origem": "canal",
-      "nome": "Jogo Grand Theft Auto VI Edição Standard PS5 (PRÉ-VENDA)",
-      "por": 347.0,
-      "titulo": "GTA VI Edição Standard para PS5 em pré-venda",
-      "id": 175,
-      "garimpado_em": "2026-10-13T00:31-03:00",
-      "na_revisao_desde": "2026-10-13T00:31-03:00",
-      "msg_id": 341
     }
   ],
   "proximo_id": 183,
@@ -1571,6 +1552,26 @@
   "lixeira": [
     {
       "loja": "shopee",
+      "chave": "shopee:1317539899.58263919255",
+      "origem": "promooeasy",
+      "link": "https://shopee.com.br/product/1317539899/58263919255",
+      "link_produto": "https://shopee.com.br/product/1317539899/58263919255",
+      "post_origem": "https://t.me/promooeasy/220275",
+      "link_canal": "https://s.shopee.com.br/2LZ21M1tx8?lp=aff",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAIBVWrNpfipGxtV3gYfYg6B-YQsn_LFAALfDGsb7AJxRkqYoGjcaxoMAQADAgADeAADPQQ",
+      "foto_origem": "canal",
+      "nome": "Jogo Grand Theft Auto VI Edição Standard PS5 (PRÉ-VENDA)",
+      "por": 347.0,
+      "titulo": "GTA VI Edição Standard para PS5 em pré-venda",
+      "id": 175,
+      "garimpado_em": "2026-10-13T00:31-03:00",
+      "na_revisao_desde": "2026-10-13T00:31-03:00",
+      "removido_em": "2026-10-13T00:46:27-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "shopee",
       "chave": "shopee:1624177702.52456503130",
       "origem": "promooeasy",
       "link": "https://shopee.com.br/product/1624177702/52456503130",
@@ -2206,7 +2207,7 @@
       "promooeasy": {
         "achados": 12,
         "aprovados": 0,
-        "reprovados": 6
+        "reprovados": 7
       }
     }
   },
