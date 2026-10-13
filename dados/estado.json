@@ -1469,26 +1469,6 @@
       "garimpado_em": "2026-10-13T15:01-03:00",
       "na_revisao_desde": "2026-10-13T15:01-03:00",
       "msg_id": 614
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0GGTXJD61",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B0GGTXJD61?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0GGTXJD61?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/water-cooler-kalkan-iota-v2-360-rgb-360mm-tdp-280w-klk00069-3110823/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3110823/",
-      "nome": "Water Cooler Kalkan Iota V2 360 RGB 360mm TDP 280W KLK00069",
-      "por": 258.0,
-      "de": 288.99,
-      "foto": "AgACAgQAAxkDAAICZ2rOciLh4dJJrRLraXMVGtYToRrxAALiDGsbdZIlUcsQBoW6DLhIAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "titulo": "Achado do dia, aproveita antes de acabar.",
-      "id": 334,
-      "garimpado_em": "2026-10-13T15:02-03:00",
-      "na_revisao_desde": "2026-10-13T15:02-03:00",
-      "msg_id": 615
     }
   ],
   "proximo_id": 352,
@@ -2410,6 +2390,27 @@
   "lixeira": [
     {
       "loja": "amazon",
+      "chave": "amazon:B0GGTXJD61",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0GGTXJD61?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0GGTXJD61?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/water-cooler-kalkan-iota-v2-360-rgb-360mm-tdp-280w-klk00069-3110823/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3110823/",
+      "nome": "Water Cooler Kalkan Iota V2 360 RGB 360mm TDP 280W KLK00069",
+      "por": 258.0,
+      "de": 288.99,
+      "foto": "AgACAgQAAxkDAAICZ2rOciLh4dJJrRLraXMVGtYToRrxAALiDGsbdZIlUcsQBoW6DLhIAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "titulo": "Achado do dia, aproveita antes de acabar.",
+      "id": 334,
+      "garimpado_em": "2026-10-13T15:02-03:00",
+      "na_revisao_desde": "2026-10-13T15:02-03:00",
+      "removido_em": "2026-10-13T15:47:58-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "amazon",
       "chave": "amazon:B0D6BXNRZQ",
       "origem": "promooeasy",
       "link": "https://www.amazon.com.br/dp/B0D6BXNRZQ?tag=alphadominu09-20",
@@ -3193,27 +3194,6 @@
       "na_revisao_desde": "2026-10-13T12:51-03:00",
       "removido_em": "2026-10-13T13:05:11-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0GD7CFFVT",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0GD7CFFVT?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0GD7CFFVT?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/220540",
-      "link_canal": "https://www.amazon.com.br/GameSir-Pro-Controller-Ladestation-Windows/dp/B0GD7CFFVT?tag=promof26-20",
-      "foto": "AgACAgEAAxkDAAICJmrOUKztNMDBzkxiG3PjJfNa48SJAAJlDWsb7AJxRp5kkkcWPegoAQADAgADeAADPQQ",
-      "foto_origem": "canal",
-      "nome": "GameSir G7 Pro Controle Gamer Tri-Mode para Xbox, PC e Android Sem Fio 2.4G/Bluetooth e Com Fio Joystick Hall Effect + T",
-      "pix": true,
-      "parcelas": 10,
-      "por": 512.99,
-      "titulo": "Preço bom assim não dura, corre!",
-      "id": 293,
-      "garimpado_em": "2026-10-13T12:52-03:00",
-      "na_revisao_desde": "2026-10-13T12:52-03:00",
-      "removido_em": "2026-10-13T13:05:09-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -3278,7 +3258,7 @@
       "promobit": {
         "achados": 22,
         "aprovados": 3,
-        "reprovados": 15
+        "reprovados": 16
       },
       "lobaopromo": {
         "achados": 35,
