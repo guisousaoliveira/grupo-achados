@@ -3,25 +3,6 @@
   "fila": [
     {
       "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB68750945",
-      "origem": "xetdaspromocoes",
-      "link": "https://meli.la/2RgAWa6",
-      "link_produto": "https://meli.la/2RgAWa6",
-      "post_origem": "https://t.me/xetdaspromocoes/84509",
-      "link_canal": "https://meli.la/1XDTcri",
-      "foto": "AgACAgQAAxkDAAIBP2rNnHgaTWEmdwmmR_8FabBuuyZIAAKsDmsbJNGkU4t4AbaY7WQTAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Boné Aba Reta Five Panel Evasecret Water Strapback Impermeavel Preta",
-      "por": 49.44,
-      "titulo": "Boné impermeável",
-      "garimpado_em": "2026-10-12T23:50-03:00",
-      "na_revisao_desde": "2026-10-12T23:50-03:00",
-      "de": 89.9,
-      "aprovado_em": "2026-10-13T00:00-03:00",
-      "aviso_validade": true
-    },
-    {
-      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB2650723879",
       "origem": "lobaopromo",
       "link": "https://meli.la/1YPBC11",
@@ -865,6 +846,14 @@
       "link": "https://meli.la/1SaP4jn",
       "link_produto": "https://meli.la/1SaP4jn",
       "slot": 12
+    },
+    {
+      "chave": "mercadolivre:MLB68750945",
+      "loja": "mercadolivre",
+      "nome": "Boné Aba Reta Five Panel Evasecret Water Strapback Impermeavel Preta",
+      "data": "2026-10-13T13:04-03:00",
+      "link": "https://meli.la/2RgAWa6",
+      "link_produto": "https://meli.la/2RgAWa6"
     }
   ],
   "slots_usados": {
@@ -1664,6 +1653,19 @@
   "ultimos": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB68750945",
+      "origem": "xetdaspromocoes",
+      "link": "https://meli.la/2RgAWa6",
+      "link_produto": "https://meli.la/2RgAWa6",
+      "post_origem": "https://t.me/xetdaspromocoes/84509",
+      "foto": "AgACAgQAAxkDAAIBP2rNnHgaTWEmdwmmR_8FabBuuyZIAAKsDmsbJNGkU4t4AbaY7WQTAQADAgADeAADPQQ",
+      "nome": "Boné Aba Reta Five Panel Evasecret Water Strapback Impermeavel Preta",
+      "por": 49.44,
+      "titulo": "Boné impermeável",
+      "de": 89.9
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB37809946",
       "origem": "xetdaspromocoes",
       "link": "https://meli.la/1SaP4jn",
@@ -2196,19 +2198,6 @@
       "parcelas": 6,
       "parcela_valor": 49.96,
       "pix": true
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:873865538.58200280616",
-      "origem": "promooeasy",
-      "link": "https://s.shopee.com.br/5AtCrnfuu9",
-      "link_produto": "https://shopee.com.br/product/873865538/58200280616",
-      "post_origem": "https://t.me/promooeasy/220165",
-      "foto": "AgACAgEAAxkDAAPGas0wsNcSXVVkmUDfuy5oGxAwin8AAjcNaxvw92lGkycG3wXNYbwBAAMCAAN4AAM9BA",
-      "nome": "Relógio Apple Watch Series 11 GPS 42mm 46mm S11",
-      "pix": true,
-      "por": 2134.0,
-      "titulo": "APPLE WATCH COM DESCONTO"
     }
   ],
   "lixeira": [
