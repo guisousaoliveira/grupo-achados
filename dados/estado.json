@@ -3,25 +3,6 @@
   "fila": [
     {
       "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB66902915",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/1WBSL27",
-      "link_produto": "https://meli.la/1WBSL27",
-      "post_origem": "https://t.me/lobaopromo/188729",
-      "link_canal": "https://meli.la/2Qm9p6b",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_612792-MLA109103758117_032026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Power Bank Basike 30.000mAh Portátil",
-      "por": 178.75,
-      "de": 271.0,
-      "cupom": "OPAECONOMIZEI",
-      "titulo": "Power Bank Basike com 34% off",
-      "garimpado_em": "2026-10-13T09:01-03:00",
-      "na_revisao_desde": "2026-10-13T09:01-03:00",
-      "aprovado_em": "2026-10-13T09:15-03:00"
-    },
-    {
-      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB17460955",
       "origem": "promotop",
       "link": "https://meli.la/12BAQV4",
@@ -936,6 +917,15 @@
       "data": "2026-10-13T17:07-03:00",
       "link": "https://meli.la/1Syc2hF",
       "link_produto": "https://meli.la/1Syc2hF"
+    },
+    {
+      "chave": "mercadolivre:MLB66902915",
+      "loja": "mercadolivre",
+      "nome": "Power Bank Basike 30.000mAh Portátil",
+      "data": "2026-10-13T17:10-03:00",
+      "link": "https://meli.la/1WBSL27",
+      "link_produto": "https://meli.la/1WBSL27",
+      "slot": 17
     }
   ],
   "slots_usados": {
@@ -969,7 +959,8 @@
       13,
       14,
       15,
-      16
+      16,
+      17
     ]
   },
   "shopee_buscado_em": "",
@@ -1699,6 +1690,20 @@
   "ultimos": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB66902915",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/1WBSL27",
+      "link_produto": "https://meli.la/1WBSL27",
+      "post_origem": "https://t.me/lobaopromo/188729",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_612792-MLA109103758117_032026-O.webp",
+      "nome": "Power Bank Basike 30.000mAh Portátil",
+      "por": 178.75,
+      "de": 271.0,
+      "cupom": "OPAECONOMIZEI",
+      "titulo": "Power Bank Basike com 34% off"
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB18995412",
       "origem": "lobaopromo",
       "link": "https://meli.la/1Syc2hF",
@@ -2232,19 +2237,6 @@
       "por": 67.0,
       "titulo": "Creatina para render mais no treino",
       "de": 124.99
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB2843236667",
-      "origem": "gatunopromos",
-      "link": "https://meli.la/33xceQY",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-2843236667-regata-academia-basica-_JM",
-      "post_origem": "https://t.me/gatunopromos/124881",
-      "foto": "AgACAgQAAxkDAAOras0Uj4wlmhw13J9s-_-yS_fraD4AAuG7MRsKXq1TlkTBaX_2D_kBAAMCAAN4AAM9BA",
-      "nome": "Regata Academia Básica",
-      "de": 50.0,
-      "por": 39.92,
-      "titulo": "Garanta sua regata com desconto"
     }
   ],
   "lixeira": [
