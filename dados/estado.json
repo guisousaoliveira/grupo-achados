@@ -2466,29 +2466,48 @@
       "garimpado_em": "2026-10-13T19:21-03:00",
       "na_revisao_desde": "2026-10-13T19:21-03:00",
       "msg_id": 740
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:324642050.27894152102",
+      "origem": "promooeasy",
+      "link": "https://shopee.com.br/product/324642050/27894152102",
+      "link_produto": "https://shopee.com.br/product/324642050/27894152102",
+      "post_origem": "https://t.me/promooeasy/220862",
+      "link_canal": "https://s.shopee.com.br/113fhCm5Wg?lp=aff",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAIC5mrOsTLdUlT90EmPvv7LtcHXKLF1AAIfDWsb7AJ5Rny-5N2dF_hqAQADAgADeAADPQQ",
+      "foto_origem": "canal",
+      "nome": "CamisetaTreinando na Força do Ódio Unissex Academia Fitness Casual Confortável Camisa Oversized",
+      "de": 59.8,
+      "por": 29.9,
+      "titulo": "Camiseta oversized com 50% de desconto",
+      "id": 453,
+      "garimpado_em": "2026-10-13T19:31-03:00",
+      "na_revisao_desde": "2026-10-13T19:31-03:00",
+      "msg_id": 742
     }
   ],
-  "proximo_id": 453,
+  "proximo_id": 454,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84695,
-      "lobaopromo": 189025,
-      "gatunopromos": 125161,
+      "xetdaspromocoes": 84698,
+      "lobaopromo": 189027,
+      "gatunopromos": 125163,
       "pobregram": 41845,
-      "urubupromo": 41625,
-      "tudonapromo": 101766,
-      "promonocontext": 126418,
-      "promooeasy": 220860,
+      "urubupromo": 41626,
+      "tudonapromo": 101768,
+      "promonocontext": 126422,
+      "promooeasy": 220869,
       "aquitempechincha": 281435,
-      "infoBRpromos": 67468,
+      "infoBRpromos": 67469,
       "boletando": 76673,
       "promotop": 260233,
       "achadosdotb": 11763
     },
     "dia": "2026-10-13",
-    "hoje": 288,
+    "hoje": 289,
     "chaves": [
-      "mercadolivre:MLB67893601",
       "mercadolivre:MLB76427437",
       "amazon:B0HCCTKPGN",
       "mercadolivre:MLB79167580",
@@ -2887,27 +2906,28 @@
       "amazon:B0FK1DWFXH",
       "amazon:B0FPRGKBL3",
       "shopee:627801196.23197180645",
-      "shopee:337962769.12374861588"
+      "shopee:337962769.12374861588",
+      "shopee:324642050.27894152102"
     ],
     "ultima": {
-      "em": "2026-10-13T19:20:20-03:00",
+      "em": "2026-10-13T19:30:23-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 44,
-      "do_nicho": 11,
-      "repetidas": 3,
-      "novas": 8,
+      "posts_novos": 34,
+      "do_nicho": 8,
+      "repetidas": 7,
+      "novas": 1,
       "limite_dia": false,
-      "promobit": 5
+      "promobit": 0
     },
     "hora": "2026-10-13T19",
-    "nesta_hora": 9,
+    "nesta_hora": 10,
     "promobit_hora": "2026-10-13T19",
     "promobit_nesta_hora": 6,
-    "promobit_visto": 3111625
+    "promobit_visto": 3111641
   },
   "ultimos": [
     {
@@ -4351,7 +4371,7 @@
         "reprovados": 28
       },
       "promooeasy": {
-        "achados": 108,
+        "achados": 109,
         "aprovados": 2,
         "reprovados": 81
       },
