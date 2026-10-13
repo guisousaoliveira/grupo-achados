@@ -1431,27 +1431,47 @@
       "garimpado_em": "2026-10-13T17:12-03:00",
       "na_revisao_desde": "2026-10-13T17:12-03:00",
       "msg_id": 684
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0GDVLM2PF",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0GDVLM2PF?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0GDVLM2PF?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/mala-de-bordo-dermond-pro-super-resistente-cadeado-embutido-e-rodas-silenciosas-removiveis-verde-militar-3111243/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3111243/",
+      "nome": "Mala de Bordo Dermond PRO",
+      "por": 169.95,
+      "de": 299.99,
+      "foto": "AgACAgQAAxkDAAICrWrOko9bB8LN74ZJrpjCaEeUdWLLAAIlD2sbtgF1UsCgbxmp4hFpAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "titulo": "Mala de Bordo Dermond PRO com 43% off",
+      "id": 398,
+      "garimpado_em": "2026-10-13T17:20-03:00",
+      "na_revisao_desde": "2026-10-13T17:20-03:00",
+      "msg_id": 685
     }
   ],
-  "proximo_id": 398,
+  "proximo_id": 399,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84671,
-      "lobaopromo": 188967,
-      "gatunopromos": 125134,
+      "xetdaspromocoes": 84672,
+      "lobaopromo": 188973,
+      "gatunopromos": 125136,
       "pobregram": 41839,
       "urubupromo": 41620,
-      "tudonapromo": 101745,
-      "promonocontext": 126321,
-      "promooeasy": 220710,
+      "tudonapromo": 101747,
+      "promonocontext": 126330,
+      "promooeasy": 220716,
       "aquitempechincha": 281414,
       "infoBRpromos": 67462,
-      "boletando": 76671,
+      "boletando": 76672,
       "promotop": 260232,
       "achadosdotb": 11763
     },
     "dia": "2026-10-13",
-    "hoje": 233,
+    "hoje": 234,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -1824,27 +1844,28 @@
       "mercadolivre:MLB27815942",
       "amazon:B0H6Z6WJXD",
       "amazon:B0DKLQT9XR",
-      "amazon:B0FCG7D614"
+      "amazon:B0FCG7D614",
+      "amazon:B0GDVLM2PF"
     ],
     "ultima": {
-      "em": "2026-10-13T17:10:47-03:00",
+      "em": "2026-10-13T17:20:20-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 46,
-      "do_nicho": 10,
-      "repetidas": 2,
-      "novas": 8,
+      "posts_novos": 42,
+      "do_nicho": 5,
+      "repetidas": 4,
+      "novas": 1,
       "limite_dia": false,
-      "promobit": 2
+      "promobit": 1
     },
     "hora": "2026-10-13T17",
     "nesta_hora": 11,
     "promobit_hora": "2026-10-13T17",
-    "promobit_nesta_hora": 3,
-    "promobit_visto": 3111232
+    "promobit_nesta_hora": 4,
+    "promobit_visto": 3111265
   },
   "ultimos": [
     {
@@ -3276,7 +3297,7 @@
     },
     "2026-10-13": {
       "promobit": {
-        "achados": 28,
+        "achados": 29,
         "aprovados": 3,
         "reprovados": 22
       },
