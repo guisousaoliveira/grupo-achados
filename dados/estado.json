@@ -1282,27 +1282,102 @@
       "garimpado_em": "2026-10-13T16:41-03:00",
       "na_revisao_desde": "2026-10-13T16:41-03:00",
       "msg_id": 664
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB38520699",
+      "origem": "lobaopromo",
+      "link": "https://www.mercadolivre.com.br/caixa-de-som-boombox-plus-aiwa-bbs-01-lbl-200w-bluetooth-30h-ip66-usb-rgb/p/MLB38520699?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/caixa-de-som-boombox-plus-aiwa-bbs-01-lbl-200w-bluetooth-30h-ip66-usb-rgb/p/MLB38520699",
+      "post_origem": "https://t.me/lobaopromo/188955",
+      "link_canal": "https://meli.la/1tdRxeL",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_825005-MLA112458910702_062026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Caixa de Som Boombox Plus AIWA BBS-01-LBL 200W Bluetooth 30H IP66 USB",
+      "por": 1399.0,
+      "de": 2999.0,
+      "titulo": "Caixa de som AIWA com 53% off",
+      "id": 380,
+      "garimpado_em": "2026-10-13T16:50-03:00",
+      "na_revisao_desde": "2026-10-13T16:50-03:00",
+      "msg_id": 665
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB6284520224",
+      "origem": "promonocontext",
+      "link": "https://www.mercadolivre.com.br/bold-creatina-300g/up/MLBU3807327046?pdp_filters=item_id%3AMLB6284520224&matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/bold-creatina-300g/up/MLBU3807327046?pdp_filters=item_id%3AMLB6284520224",
+      "post_origem": "https://t.me/promonocontext/126300",
+      "link_canal": "https://meli.la/1s1YThE",
+      "foto": "AgACAgQAAxkDAAICmmrOi5m29tHCMhAllfhtBu6nkWikAAI-DmsbCawcUipQkXKZErppAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Bold Creatina (300g) Neutro",
+      "por": 59.9,
+      "de": 69.99,
+      "titulo": "Bold Creatina com 14% de desconto",
+      "id": 381,
+      "garimpado_em": "2026-10-13T16:50-03:00",
+      "na_revisao_desde": "2026-10-13T16:50-03:00",
+      "msg_id": 666
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0F1C3MRMF",
+      "origem": "promonocontext",
+      "link": "https://www.amazon.com.br/dp/B0F1C3MRMF?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0F1C3MRMF?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promonocontext/126304",
+      "link_canal": "https://link.amazon/B0gmHf9Fn",
+      "foto": "AgACAgQAAxkDAAICm2rOi6XHmtcz912UPoedKAABfWVmcQACYroxGzgfNFFao3pg_nIBBgEAAwIAA3kAAz0E",
+      "foto_origem": "loja",
+      "nome": "Headset Gamer Redragon Zeus Lite Preto P3 H510-LT",
+      "de": 249.0,
+      "por": 149.0,
+      "titulo": "Headset Redragon Zeus Lite com 40% off",
+      "id": 382,
+      "garimpado_em": "2026-10-13T16:51-03:00",
+      "na_revisao_desde": "2026-10-13T16:51-03:00",
+      "msg_id": 667
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B08T68T1T6",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B08T68T1T6?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B08T68T1T6?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220692",
+      "link_canal": "https://www.amazon.com.br/Mouse-Gamer-Predator-Redragon-M612/dp/B08T68T1T6?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAICnGrOi64jigUTNilMiEAheth0YGN-AAIFC2sbus2sUJ4M8R2nMh-GAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Mouse Gamer Redragon Predator RGB M612-RGB, Preto",
+      "por": 79.98,
+      "titulo": "Mouse gamer Redragon com iluminação RGB ajustável",
+      "id": 383,
+      "garimpado_em": "2026-10-13T16:51-03:00",
+      "na_revisao_desde": "2026-10-13T16:51-03:00",
+      "msg_id": 668
     }
   ],
-  "proximo_id": 380,
+  "proximo_id": 384,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84666,
-      "lobaopromo": 188953,
-      "gatunopromos": 125128,
+      "xetdaspromocoes": 84667,
+      "lobaopromo": 188955,
+      "gatunopromos": 125130,
       "pobregram": 41837,
       "urubupromo": 41619,
       "tudonapromo": 101742,
-      "promonocontext": 126299,
-      "promooeasy": 220690,
-      "aquitempechincha": 281408,
+      "promonocontext": 126306,
+      "promooeasy": 220695,
+      "aquitempechincha": 281413,
       "infoBRpromos": 67462,
       "boletando": 76668,
-      "promotop": 260230,
+      "promotop": 260231,
       "achadosdotb": 11763
     },
     "dia": "2026-10-13",
-    "hoje": 215,
+    "hoje": 219,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -1657,10 +1732,14 @@
       "mercadolivre:MLB65541449",
       "mercadolivre:MLB65553357",
       "mercadolivre:MLB27290865",
-      "amazon:B0HDD4JG95"
+      "amazon:B0HDD4JG95",
+      "mercadolivre:MLB38520699",
+      "mercadolivre:MLB6284520224",
+      "amazon:B0F1C3MRMF",
+      "amazon:B08T68T1T6"
     ],
     "ultima": {
-      "em": "2026-10-13T16:40:20-03:00",
+      "em": "2026-10-13T16:50:19-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
@@ -1668,16 +1747,16 @@
       "falhas": [],
       "posts_novos": 35,
       "do_nicho": 6,
-      "repetidas": 1,
-      "novas": 5,
+      "repetidas": 2,
+      "novas": 4,
       "limite_dia": false,
-      "promobit": 1
+      "promobit": 0
     },
     "hora": "2026-10-13T16",
-    "nesta_hora": 19,
+    "nesta_hora": 23,
     "promobit_hora": "2026-10-13T16",
     "promobit_nesta_hora": 2,
-    "promobit_visto": 3111154
+    "promobit_visto": 3111175
   },
   "ultimos": [
     {
@@ -3111,12 +3190,12 @@
         "reprovados": 20
       },
       "lobaopromo": {
-        "achados": 43,
+        "achados": 44,
         "aprovados": 10,
         "reprovados": 27
       },
       "promooeasy": {
-        "achados": 83,
+        "achados": 84,
         "aprovados": 2,
         "reprovados": 77
       },
@@ -3131,7 +3210,7 @@
         "reprovados": 5
       },
       "promonocontext": {
-        "achados": 31,
+        "achados": 33,
         "aprovados": 7,
         "reprovados": 21
       },
