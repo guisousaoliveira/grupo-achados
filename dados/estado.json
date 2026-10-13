@@ -1603,26 +1603,6 @@
       "garimpado_em": "2026-10-13T15:13-03:00",
       "na_revisao_desde": "2026-10-13T15:13-03:00",
       "msg_id": 623
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB75681377",
-      "origem": "promonocontext",
-      "link": "https://www.mercadolivre.com.br/smart-tv-pro-lg-55-4k-ultra-hd-ai-55un85c/p/MLB75681377?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/smart-tv-pro-lg-55-4k-ultra-hd-ai-55un85c/p/MLB75681377",
-      "post_origem": "https://t.me/promonocontext/126267",
-      "link_canal": "https://meli.la/1bymNC8",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_646395-MLA116823736237_082026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Smart TV PRO LG 55'' 4K Ultra HD AI 55UN85C",
-      "de": 5000.0,
-      "por": 2522.0,
-      "cupom": "FULLLANDING",
-      "titulo": "Smart TV LG 55 polegadas 4K com 50% de desconto por 2522 reais.",
-      "id": 343,
-      "garimpado_em": "2026-10-13T15:14-03:00",
-      "na_revisao_desde": "2026-10-13T15:14-03:00",
-      "msg_id": 624
     }
   ],
   "proximo_id": 351,
@@ -2543,6 +2523,27 @@
   ],
   "lixeira": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB75681377",
+      "origem": "promonocontext",
+      "link": "https://www.mercadolivre.com.br/smart-tv-pro-lg-55-4k-ultra-hd-ai-55un85c/p/MLB75681377?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/smart-tv-pro-lg-55-4k-ultra-hd-ai-55un85c/p/MLB75681377",
+      "post_origem": "https://t.me/promonocontext/126267",
+      "link_canal": "https://meli.la/1bymNC8",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_646395-MLA116823736237_082026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Smart TV PRO LG 55'' 4K Ultra HD AI 55UN85C",
+      "de": 5000.0,
+      "por": 2522.0,
+      "cupom": "FULLLANDING",
+      "titulo": "Smart TV LG 55 polegadas 4K com 50% de desconto por 2522 reais.",
+      "id": 343,
+      "garimpado_em": "2026-10-13T15:14-03:00",
+      "na_revisao_desde": "2026-10-13T15:14-03:00",
+      "removido_em": "2026-10-13T15:45:39-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0DJBVL2S5",
       "origem": "promooeasy",
@@ -3397,7 +3398,7 @@
       "promonocontext": {
         "achados": 27,
         "aprovados": 5,
-        "reprovados": 16
+        "reprovados": 17
       },
       "infoBRpromos": {
         "achados": 8,
