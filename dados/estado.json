@@ -1527,25 +1527,6 @@
       "garimpado_em": "2026-10-13T15:04-03:00",
       "na_revisao_desde": "2026-10-13T15:04-03:00",
       "msg_id": 618
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0GFLDPNGF",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0GFLDPNGF?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0GFLDPNGF?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/220623",
-      "link_canal": "https://www.amazon.com.br/Basike-Bluetooth-Microfone-Integrado-Resistente/dp/B0GFLDPNGF?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAICa2rOcu4N7_08S5L7qWadSVYwgyUHAAK5D2sbK-41ULAwziMUojd3AQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "nome": "Basike Caixa de Som Bluetooth Portátil, 160W RMS (200W Pico)",
-      "pix": true,
-      "por": 450.0,
-      "titulo": "Caixa de som Bluetooth Basike com 160W RMS de potência por 450 reais.",
-      "id": 338,
-      "garimpado_em": "2026-10-13T15:05-03:00",
-      "na_revisao_desde": "2026-10-13T15:05-03:00",
-      "msg_id": 619
     }
   ],
   "proximo_id": 351,
@@ -2466,6 +2447,26 @@
   ],
   "lixeira": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B0GFLDPNGF",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0GFLDPNGF?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0GFLDPNGF?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220623",
+      "link_canal": "https://www.amazon.com.br/Basike-Bluetooth-Microfone-Integrado-Resistente/dp/B0GFLDPNGF?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAICa2rOcu4N7_08S5L7qWadSVYwgyUHAAK5D2sbK-41ULAwziMUojd3AQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "nome": "Basike Caixa de Som Bluetooth Portátil, 160W RMS (200W Pico)",
+      "pix": true,
+      "por": 450.0,
+      "titulo": "Caixa de som Bluetooth Basike com 160W RMS de potência por 450 reais.",
+      "id": 338,
+      "garimpado_em": "2026-10-13T15:05-03:00",
+      "na_revisao_desde": "2026-10-13T15:05-03:00",
+      "removido_em": "2026-10-13T15:46:42-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:1537142489.23198696529",
       "origem": "promooeasy",
@@ -3250,27 +3251,6 @@
       "na_revisao_desde": "2026-10-13T13:01-03:00",
       "removido_em": "2026-10-13T13:04:59-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB53926224",
-      "origem": "promonocontext",
-      "link": "https://www.mercadolivre.com.br/taurina-com-1000mg-por-dose-formula-exclusiva-com-maxima-concentracao-e-absorcao-60-capsulas/p/MLB53926224?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/taurina-com-1000mg-por-dose-formula-exclusiva-com-maxima-concentracao-e-absorcao-60-capsulas/p/MLB53926224",
-      "post_origem": "https://t.me/promonocontext/126201",
-      "link_canal": "https://meli.la/2ovc5qj",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_858535-MLA113497815056_072026-O.webp",
-      "foto_origem": "loja",
-      "nome": "TAURINA com 1000mg por Dose",
-      "de": 90.0,
-      "por": 42.0,
-      "cupom": "VALEAGORA",
-      "titulo": "Taurina 1000mg para foco com 53% off",
-      "id": 276,
-      "garimpado_em": "2026-10-13T12:18-03:00",
-      "na_revisao_desde": "2026-10-13T12:18-03:00",
-      "removido_em": "2026-10-13T12:36:36-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -3345,7 +3325,7 @@
       "promooeasy": {
         "achados": 74,
         "aprovados": 2,
-        "reprovados": 63
+        "reprovados": 64
       },
       "xetdaspromocoes": {
         "achados": 13,
