@@ -1086,26 +1086,6 @@
       "garimpado_em": "2026-10-13T12:43-03:00",
       "na_revisao_desde": "2026-10-13T12:43-03:00",
       "msg_id": 555
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB35715045",
-      "origem": "promonocontext",
-      "link": "https://www.mercadolivre.com.br/notebook-asus-vivobook-go-15-amd-ryzen-5-7520u-8gb-ram-512gb-ssd-keeposlinux-tela-156-fhd-mixed-black-e1504fa-nj732/p/MLB35715045?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/notebook-asus-vivobook-go-15-amd-ryzen-5-7520u-8gb-ram-512gb-ssd-keeposlinux-tela-156-fhd-mixed-black-e1504fa-nj732/p/MLB35715045",
-      "post_origem": "https://t.me/promonocontext/126215",
-      "link_canal": "https://meli.la/2G85cet",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_737034-MLU75570682760_042024-O.webp",
-      "foto_origem": "loja",
-      "nome": "Notebook ASUS VivoBook Go 15, AMD Ryzen 5 7520U, 8GB RAM, 512GB SSD",
-      "de": 3329.0,
-      "por": 3129.0,
-      "cupom": "MELHORDEHJ",
-      "titulo": "Vale cada centavo nesse preço.",
-      "id": 288,
-      "garimpado_em": "2026-10-13T12:46-03:00",
-      "na_revisao_desde": "2026-10-13T12:46-03:00",
-      "msg_id": 557
     }
   ],
   "proximo_id": 298,
@@ -1974,6 +1954,27 @@
   ],
   "lixeira": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB35715045",
+      "origem": "promonocontext",
+      "link": "https://www.mercadolivre.com.br/notebook-asus-vivobook-go-15-amd-ryzen-5-7520u-8gb-ram-512gb-ssd-keeposlinux-tela-156-fhd-mixed-black-e1504fa-nj732/p/MLB35715045?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/notebook-asus-vivobook-go-15-amd-ryzen-5-7520u-8gb-ram-512gb-ssd-keeposlinux-tela-156-fhd-mixed-black-e1504fa-nj732/p/MLB35715045",
+      "post_origem": "https://t.me/promonocontext/126215",
+      "link_canal": "https://meli.la/2G85cet",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_737034-MLU75570682760_042024-O.webp",
+      "foto_origem": "loja",
+      "nome": "Notebook ASUS VivoBook Go 15, AMD Ryzen 5 7520U, 8GB RAM, 512GB SSD",
+      "de": 3329.0,
+      "por": 3129.0,
+      "cupom": "MELHORDEHJ",
+      "titulo": "Vale cada centavo nesse preço.",
+      "id": 288,
+      "garimpado_em": "2026-10-13T12:46-03:00",
+      "na_revisao_desde": "2026-10-13T12:46-03:00",
+      "removido_em": "2026-10-13T13:05:55-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B09JSQPBCS",
       "origem": "promonocontext",
@@ -2363,7 +2364,7 @@
       "promonocontext": {
         "achados": 17,
         "aprovados": 3,
-        "reprovados": 12
+        "reprovados": 13
       },
       "infoBRpromos": {
         "achados": 8,
