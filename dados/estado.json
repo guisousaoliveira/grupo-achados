@@ -359,24 +359,6 @@
       "na_revisao_desde": "2026-10-13T12:43-03:00",
       "parcela_valor": 6.0,
       "aprovado_em": "2026-10-13T13:06-03:00"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB6160179460",
-      "origem": "xetdaspromocoes",
-      "link": "https://meli.la/1DjLFG2",
-      "link_produto": "https://meli.la/1DjLFG2",
-      "post_origem": "https://t.me/xetdaspromocoes/84619",
-      "link_canal": "https://meli.la/2JJTmZy",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_838298-MLB115738787382_092026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Óculos De Sol Hexagonal Masculino Premium Uv400 Flexivel Preto",
-      "por": 79.99,
-      "de": 139.99,
-      "titulo": "Desconto de 43%: é agora ou nunca.",
-      "garimpado_em": "2026-10-13T12:41-03:00",
-      "na_revisao_desde": "2026-10-13T12:41-03:00",
-      "aprovado_em": "2026-10-13T13:07-03:00"
     }
   ],
   "postados": [
@@ -893,6 +875,14 @@
       "data": "2026-10-13T13:04-03:00",
       "link": "https://meli.la/2RgAWa6",
       "link_produto": "https://meli.la/2RgAWa6"
+    },
+    {
+      "chave": "mercadolivre:MLB6160179460",
+      "loja": "mercadolivre",
+      "nome": "Óculos De Sol Hexagonal Masculino Premium Uv400 Flexivel Preto",
+      "data": "2026-10-13T13:07-03:00",
+      "link": "https://meli.la/1DjLFG2",
+      "link_produto": "https://meli.la/1DjLFG2"
     }
   ],
   "slots_usados": {
@@ -1341,6 +1331,18 @@
     "promobit_visto": 3110518
   },
   "ultimos": [
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB6160179460",
+      "origem": "xetdaspromocoes",
+      "link": "https://meli.la/1DjLFG2",
+      "link_produto": "https://meli.la/1DjLFG2",
+      "post_origem": "https://t.me/xetdaspromocoes/84619",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_838298-MLB115738787382_092026-O.webp",
+      "nome": "Óculos De Sol Hexagonal Masculino Premium Uv400 Flexivel Preto",
+      "por": 79.99,
+      "de": 139.99
+    },
     {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB68750945",
@@ -1871,23 +1873,6 @@
       "por": 79.19,
       "de": 369.69,
       "titulo": "Preço de queima, 79% mais barato."
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0FFTRKRCV",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://link.amazon/B0afRUzpC",
-      "link_produto": "https://www.amazon.com.br/dp/B0FFTRKRCV?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/tenis-mizuno-neo-vortex-3108979/",
-      "nome": "Tênis Mizuno Neo Vortex",
-      "por": 282.92,
-      "foto": "AgACAgQAAxkDAAPRas03rMhRRcz8ze_H58nISq5P7UUAAu8Paxt0_G1SoARkwe4_hzEBAAMCAANtAAM9BA",
-      "titulo": "Tênis Mizuno Neo Vortex para corrida",
-      "de": 699.99,
-      "parcelas": 6,
-      "parcela_valor": 49.96,
-      "pix": true
     }
   ],
   "lixeira": [
