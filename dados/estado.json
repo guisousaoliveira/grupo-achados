@@ -3,25 +3,6 @@
   "fila": [
     {
       "loja": "amazon",
-      "chave": "amazon:B0GM1LSHQF",
-      "origem": "lobaopromo",
-      "link": "https://link.amazon/B01NDkKyh",
-      "link_produto": "https://www.amazon.com.br/dp/B0GM1LSHQF?tag=alphadominu09-20",
-      "post_origem": "https://t.me/lobaopromo/188556",
-      "link_canal": "https://amzlink.to/az0EDfkYT39rS",
-      "foto": "AgACAgQAAxkDAAP1as1TyuticvvhWbKjYzBW2Fu-Gb4AAlUQaxspmW1S3Q4h0U_zUl8BAAMCAAN4AAM9BA",
-      "foto_origem": "loja",
-      "nome": "JBL Fone de Ouvido Bluetooth Over-Ear Tune 530BT",
-      "pix": true,
-      "de": 299.0,
-      "por": 168.0,
-      "titulo": "Fone JBL Tune 530BT com 44% off",
-      "garimpado_em": "2026-10-12T18:40-03:00",
-      "na_revisao_desde": "2026-10-12T18:40-03:00",
-      "aprovado_em": "2026-10-12T18:46-03:00"
-    },
-    {
-      "loja": "amazon",
       "chave": "amazon:B0FFTP5WF4",
       "origem": "promobit",
       "fonte": "promobit",
@@ -684,6 +665,14 @@
       "data": "2026-10-13T00:49-03:00",
       "link": "https://link.amazon/B0hjFrj7v",
       "link_produto": "https://www.amazon.com.br/dp/B0DJW5G283?tag=alphadominu09-20"
+    },
+    {
+      "chave": "amazon:B0GM1LSHQF",
+      "loja": "amazon",
+      "nome": "JBL Fone de Ouvido Bluetooth Over-Ear Tune 530BT",
+      "data": "2026-10-13T06:42-03:00",
+      "link": "https://link.amazon/B01NDkKyh",
+      "link_produto": "https://www.amazon.com.br/dp/B0GM1LSHQF?tag=alphadominu09-20"
     }
   ],
   "slots_usados": {
@@ -914,6 +903,20 @@
     "pausado": true
   },
   "ultimos": [
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0GM1LSHQF",
+      "origem": "lobaopromo",
+      "link": "https://link.amazon/B01NDkKyh",
+      "link_produto": "https://www.amazon.com.br/dp/B0GM1LSHQF?tag=alphadominu09-20",
+      "post_origem": "https://t.me/lobaopromo/188556",
+      "foto": "AgACAgQAAxkDAAP1as1TyuticvvhWbKjYzBW2Fu-Gb4AAlUQaxspmW1S3Q4h0U_zUl8BAAMCAAN4AAM9BA",
+      "nome": "JBL Fone de Ouvido Bluetooth Over-Ear Tune 530BT",
+      "pix": true,
+      "de": 299.0,
+      "por": 170.38,
+      "titulo": "Fone JBL Tune 530BT com 44% off"
+    },
     {
       "loja": "amazon",
       "chave": "amazon:B0DJW5G283",
@@ -1388,15 +1391,6 @@
       "nome": "Carregador Portátil Turbo 20.000mAh com Visor LED",
       "de": 299.0,
       "por": 99.0
-    },
-    {
-      "loja": "mercadolivre",
-      "link": "https://meli.la/18y2P8F",
-      "chave": "mercadolivre:https://meli.la/18y2P8F",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_919217-MLB114468760310_082026-O.webp",
-      "nome": "Furadeira Parafusadeira 2 Bateria 21v 10mm + 349 Acessórios",
-      "de": 378.39,
-      "por": 239.9
     }
   ],
   "lixeira": [
