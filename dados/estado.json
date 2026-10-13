@@ -1005,26 +1005,6 @@
       "msg_id": 536
     },
     {
-      "loja": "shopee",
-      "chave": "shopee:1384046689.58254621747",
-      "origem": "promooeasy",
-      "link": "https://shopee.com.br/product/1384046689/58254621747",
-      "link_produto": "https://shopee.com.br/product/1384046689/58254621747",
-      "post_origem": "https://t.me/promooeasy/220512",
-      "link_canal": "https://s.shopee.com.br/9pf3ifAqHE?lp=aff",
-      "precisa_link": true,
-      "foto": "AgACAgEAAxkDAAICCGrOSPjrC3eZgktIRvvlOBNOWsUkAAJSDWsb7AJxRrmrzimUw0QDAQADAgADeAADPQQ",
-      "foto_origem": "canal",
-      "nome": "Óculos de sol feminino oval retrô, padrão tartaruga, estilo moderno",
-      "de": 93.96,
-      "por": 24.43,
-      "titulo": "Óculos retrô estilo tartaruga com 74% off",
-      "id": 277,
-      "garimpado_em": "2026-10-13T12:18-03:00",
-      "na_revisao_desde": "2026-10-13T12:18-03:00",
-      "msg_id": 537
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB49197358",
       "origem": "promooeasy",
@@ -1952,6 +1932,27 @@
   "lixeira": [
     {
       "loja": "shopee",
+      "chave": "shopee:1384046689.58254621747",
+      "origem": "promooeasy",
+      "link": "https://shopee.com.br/product/1384046689/58254621747",
+      "link_produto": "https://shopee.com.br/product/1384046689/58254621747",
+      "post_origem": "https://t.me/promooeasy/220512",
+      "link_canal": "https://s.shopee.com.br/9pf3ifAqHE?lp=aff",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAICCGrOSPjrC3eZgktIRvvlOBNOWsUkAAJSDWsb7AJxRrmrzimUw0QDAQADAgADeAADPQQ",
+      "foto_origem": "canal",
+      "nome": "Óculos de sol feminino oval retrô, padrão tartaruga, estilo moderno",
+      "de": 93.96,
+      "por": 24.43,
+      "titulo": "Óculos retrô estilo tartaruga com 74% off",
+      "id": 277,
+      "garimpado_em": "2026-10-13T12:18-03:00",
+      "na_revisao_desde": "2026-10-13T12:18-03:00",
+      "removido_em": "2026-10-13T12:36:31-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "shopee",
       "chave": "shopee:399695524.42683809155",
       "origem": "promooeasy",
       "link": "https://shopee.com.br/product/399695524/42683809155",
@@ -2043,7 +2044,7 @@
       "promooeasy": {
         "achados": 51,
         "aprovados": 2,
-        "reprovados": 45
+        "reprovados": 46
       },
       "xetdaspromocoes": {
         "achados": 10,
