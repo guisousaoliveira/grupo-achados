@@ -299,6 +299,26 @@
       "na_revisao_desde": "2026-10-13T15:30-03:00",
       "de": 559.0,
       "aprovado_em": "2026-10-13T15:45-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB38611321",
+      "origem": "promonocontext",
+      "link": "https://meli.la/1TgcRa6",
+      "link_produto": "https://meli.la/1TgcRa6",
+      "post_origem": "https://t.me/promonocontext/126265",
+      "link_canal": "https://meli.la/2uri9Ai",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_618929-MLA99520369354_112025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Kit Jogo De Ferramentas 129 Peças Com Jogo De 40 Soquetes Chaves E",
+      "por": 189.52,
+      "aviso_preco": true,
+      "cupom": "FULLLANDING",
+      "titulo": "Kit completo com 129 peças para manutenção residencial e automotiva por 333,00.",
+      "garimpado_em": "2026-10-13T15:13-03:00",
+      "na_revisao_desde": "2026-10-13T15:13-03:00",
+      "de": 333.82,
+      "aprovado_em": "2026-10-13T15:46-03:00"
     }
   ],
   "postados": [
@@ -1583,26 +1603,6 @@
       "garimpado_em": "2026-10-13T15:12-03:00",
       "na_revisao_desde": "2026-10-13T15:12-03:00",
       "msg_id": 622
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB38611321",
-      "origem": "promonocontext",
-      "link": "https://www.mercadolivre.com.br/kit-jogo-de-ferramentas-129-pecas-com-jogo-de-40-soquetes-chaves-e-kit-300-pecas-brocas-e-buchas-the-black-tools/p/MLB38611321?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/kit-jogo-de-ferramentas-129-pecas-com-jogo-de-40-soquetes-chaves-e-kit-300-pecas-brocas-e-buchas-the-black-tools/p/MLB38611321",
-      "post_origem": "https://t.me/promonocontext/126265",
-      "link_canal": "https://meli.la/2uri9Ai",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_618929-MLA99520369354_112025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Kit Jogo De Ferramentas 129 Peças Com Jogo De 40 Soquetes Chaves E",
-      "por": 333.0,
-      "aviso_preco": true,
-      "cupom": "FULLLANDING",
-      "titulo": "Kit completo com 129 peças para manutenção residencial e automotiva por 333,00.",
-      "id": 342,
-      "garimpado_em": "2026-10-13T15:13-03:00",
-      "na_revisao_desde": "2026-10-13T15:13-03:00",
-      "msg_id": 623
     }
   ],
   "proximo_id": 351,
@@ -3397,7 +3397,7 @@
       },
       "promonocontext": {
         "achados": 27,
-        "aprovados": 5,
+        "aprovados": 6,
         "reprovados": 17
       },
       "infoBRpromos": {
