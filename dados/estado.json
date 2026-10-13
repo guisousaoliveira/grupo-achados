@@ -993,27 +993,6 @@
       "msg_id": 454
     },
     {
-      "loja": "shopee",
-      "chave": "shopee:295737745.54311117268",
-      "origem": "promooeasy",
-      "link": "https://shopee.com.br/product/295737745/54311117268",
-      "link_produto": "https://shopee.com.br/product/295737745/54311117268",
-      "post_origem": "https://t.me/promooeasy/220421",
-      "link_canal": "https://s.shopee.com.br/6VObcLhoLn?lp=aff",
-      "precisa_link": true,
-      "foto": "AgACAgEAAxkDAAIBvWrOLC6AVUfj-F_Xn1Wp8ywXLSvXAAIoDWsb7AJxRtNhj2mUEQTRAQADAgADeAADPQQ",
-      "foto_origem": "canal",
-      "nome": "Smart Tv 32 Philco Roku Tv Dolby Áudio Hdr10 P32crb",
-      "cupom_loja": "Resgate o cupom de R$90 aqui:",
-      "de": 1602.12,
-      "por": 904.75,
-      "titulo": "Preço de queima, 44% mais barato.",
-      "id": 239,
-      "garimpado_em": "2026-10-13T10:08-03:00",
-      "na_revisao_desde": "2026-10-13T10:08-03:00",
-      "msg_id": 455
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B0FHHLZZVD",
       "origem": "promooeasy",
@@ -1988,6 +1967,28 @@
   "lixeira": [
     {
       "loja": "shopee",
+      "chave": "shopee:295737745.54311117268",
+      "origem": "promooeasy",
+      "link": "https://shopee.com.br/product/295737745/54311117268",
+      "link_produto": "https://shopee.com.br/product/295737745/54311117268",
+      "post_origem": "https://t.me/promooeasy/220421",
+      "link_canal": "https://s.shopee.com.br/6VObcLhoLn?lp=aff",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAIBvWrOLC6AVUfj-F_Xn1Wp8ywXLSvXAAIoDWsb7AJxRtNhj2mUEQTRAQADAgADeAADPQQ",
+      "foto_origem": "canal",
+      "nome": "Smart Tv 32 Philco Roku Tv Dolby Áudio Hdr10 P32crb",
+      "cupom_loja": "Resgate o cupom de R$90 aqui:",
+      "de": 1602.12,
+      "por": 904.75,
+      "titulo": "Preço de queima, 44% mais barato.",
+      "id": 239,
+      "garimpado_em": "2026-10-13T10:08-03:00",
+      "na_revisao_desde": "2026-10-13T10:08-03:00",
+      "removido_em": "2026-10-13T10:31:40-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "shopee",
       "chave": "shopee:1001075556.45417820614",
       "origem": "promooeasy",
       "link": "https://shopee.com.br/product/1001075556/45417820614",
@@ -2123,7 +2124,7 @@
       "promooeasy": {
         "achados": 37,
         "aprovados": 2,
-        "reprovados": 31
+        "reprovados": 32
       },
       "xetdaspromocoes": {
         "achados": 8,
