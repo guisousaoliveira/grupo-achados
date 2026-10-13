@@ -1379,25 +1379,6 @@
     },
     {
       "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB4536065939",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/chave-de-impacto-kinetx-68vf-brushless-880nm-2-baterias-kit/up/MLBU3841784141?pdp_filters=item_id%3AMLB4536065939&matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/chave-de-impacto-kinetx-68vf-brushless-880nm-2-baterias-kit/up/MLBU3841784141?pdp_filters=item_id%3AMLB4536065939",
-      "post_origem": "https://t.me/lobaopromo/188961",
-      "link_canal": "https://meli.la/1S3qBvz",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_694253-MLB113894567221_062026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Chave De Impacto Kinetx 68vf Brushless 880nm 2 Baterias Kit Azul",
-      "de": 312.0,
-      "por": 178.0,
-      "titulo": "Chave de impacto Kinetx com 43% off",
-      "id": 385,
-      "garimpado_em": "2026-10-13T17:00-03:00",
-      "na_revisao_desde": "2026-10-13T17:00-03:00",
-      "msg_id": 670
-    },
-    {
-      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB18995412",
       "origem": "lobaopromo",
       "link": "https://www.mercadolivre.com.br/proteina-black-skull-whey-100-hd-em-po-sabor-morango-x-900g/p/MLB18995412?matt_word=alphapromo&matt_tool=59136903",
@@ -2375,6 +2356,26 @@
   "lixeira": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB4536065939",
+      "origem": "lobaopromo",
+      "link": "https://www.mercadolivre.com.br/chave-de-impacto-kinetx-68vf-brushless-880nm-2-baterias-kit/up/MLBU3841784141?pdp_filters=item_id%3AMLB4536065939&matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/chave-de-impacto-kinetx-68vf-brushless-880nm-2-baterias-kit/up/MLBU3841784141?pdp_filters=item_id%3AMLB4536065939",
+      "post_origem": "https://t.me/lobaopromo/188961",
+      "link_canal": "https://meli.la/1S3qBvz",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_694253-MLB113894567221_062026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Chave De Impacto Kinetx 68vf Brushless 880nm 2 Baterias Kit Azul",
+      "de": 312.0,
+      "por": 178.0,
+      "titulo": "Chave de impacto Kinetx com 43% off",
+      "id": 385,
+      "garimpado_em": "2026-10-13T17:00-03:00",
+      "na_revisao_desde": "2026-10-13T17:00-03:00",
+      "removido_em": "2026-10-13T17:05:21-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB55740999",
       "origem": "promonocontext",
       "link": "https://www.mercadolivre.com.br/relogio-saint-germain-houston-feminino-analogico-marrom-dourado-com-pulseira-de-couro-sintetico/p/MLB55740999?matt_word=alphapromo&matt_tool=59136903",
@@ -3169,27 +3170,6 @@
       "na_revisao_desde": "2026-10-13T15:01-03:00",
       "removido_em": "2026-10-13T15:48:02-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0GGTXJD61",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B0GGTXJD61?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0GGTXJD61?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/water-cooler-kalkan-iota-v2-360-rgb-360mm-tdp-280w-klk00069-3110823/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3110823/",
-      "nome": "Water Cooler Kalkan Iota V2 360 RGB 360mm TDP 280W KLK00069",
-      "por": 258.0,
-      "de": 288.99,
-      "foto": "AgACAgQAAxkDAAICZ2rOciLh4dJJrRLraXMVGtYToRrxAALiDGsbdZIlUcsQBoW6DLhIAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "titulo": "Achado do dia, aproveita antes de acabar.",
-      "id": 334,
-      "garimpado_em": "2026-10-13T15:02-03:00",
-      "na_revisao_desde": "2026-10-13T15:02-03:00",
-      "removido_em": "2026-10-13T15:47:58-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -3259,7 +3239,7 @@
       "lobaopromo": {
         "achados": 46,
         "aprovados": 10,
-        "reprovados": 27
+        "reprovados": 28
       },
       "promooeasy": {
         "achados": 86,
