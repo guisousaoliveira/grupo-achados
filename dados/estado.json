@@ -370,6 +370,24 @@
       "garimpado_em": "2026-10-13T09:36-03:00",
       "na_revisao_desde": "2026-10-13T09:36-03:00",
       "aprovado_em": "2026-10-13T10:00-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB18725310",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/2gNokP5",
+      "link_produto": "https://meli.la/2gNokP5",
+      "post_origem": "https://t.me/lobaopromo/188753",
+      "link_canal": "https://meli.la/1X7ZNDj",
+      "foto": "AgACAgQAAxkDAAIBfmrOH_KGVMZFPkjDEZMJcnDiMc5VAALAD2sbmuadUGZCsHdpySymAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Creatina Soldiers Nutrition em pó Sem sabor x 1kg",
+      "por": 65.45,
+      "titulo": "Creatina Soldiers 1kg para render nos treinos",
+      "garimpado_em": "2026-10-13T09:37-03:00",
+      "na_revisao_desde": "2026-10-13T09:37-03:00",
+      "de": 239.0,
+      "aprovado_em": "2026-10-13T10:02-03:00"
     }
   ],
   "postados": [
@@ -886,24 +904,6 @@
       "garimpado_em": "2026-10-13T09:37-03:00",
       "na_revisao_desde": "2026-10-13T09:37-03:00",
       "msg_id": 419
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB18725310",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/creatina-soldiers-nutrition-em-po-sem-sabor-x-1kg/p/MLB18725310?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/creatina-soldiers-nutrition-em-po-sem-sabor-x-1kg/p/MLB18725310",
-      "post_origem": "https://t.me/lobaopromo/188753",
-      "link_canal": "https://meli.la/1X7ZNDj",
-      "foto": "AgACAgQAAxkDAAIBfmrOH_KGVMZFPkjDEZMJcnDiMc5VAALAD2sbmuadUGZCsHdpySymAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Creatina Soldiers Nutrition em pó Sem sabor x 1kg",
-      "por": 65.0,
-      "titulo": "Creatina Soldiers 1kg para render nos treinos",
-      "id": 215,
-      "garimpado_em": "2026-10-13T09:37-03:00",
-      "na_revisao_desde": "2026-10-13T09:37-03:00",
-      "msg_id": 420
     },
     {
       "loja": "mercadolivre",
@@ -2434,7 +2434,7 @@
       },
       "lobaopromo": {
         "achados": 13,
-        "aprovados": 6,
+        "aprovados": 7,
         "reprovados": 2
       },
       "promooeasy": {
