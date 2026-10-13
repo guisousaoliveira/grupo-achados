@@ -336,6 +336,24 @@
       "garimpado_em": "2026-10-13T17:01-03:00",
       "na_revisao_desde": "2026-10-13T17:01-03:00",
       "aprovado_em": "2026-10-13T17:06-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB6284520224",
+      "origem": "promonocontext",
+      "link": "https://meli.la/2CDzSsQ",
+      "link_produto": "https://meli.la/2CDzSsQ",
+      "post_origem": "https://t.me/promonocontext/126300",
+      "link_canal": "https://meli.la/1s1YThE",
+      "foto": "AgACAgQAAxkDAAICmmrOi5m29tHCMhAllfhtBu6nkWikAAI-DmsbCawcUipQkXKZErppAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Bold Creatina (300g) Neutro",
+      "por": 59.9,
+      "de": 69.99,
+      "titulo": "Bold Creatina com 14% de desconto",
+      "garimpado_em": "2026-10-13T16:50-03:00",
+      "na_revisao_desde": "2026-10-13T16:50-03:00",
+      "aprovado_em": "2026-10-13T17:06-03:00"
     }
   ],
   "postados": [
@@ -1319,25 +1337,6 @@
       "garimpado_em": "2026-10-13T16:50-03:00",
       "na_revisao_desde": "2026-10-13T16:50-03:00",
       "msg_id": 665
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB6284520224",
-      "origem": "promonocontext",
-      "link": "https://www.mercadolivre.com.br/bold-creatina-300g/up/MLBU3807327046?pdp_filters=item_id%3AMLB6284520224&matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/bold-creatina-300g/up/MLBU3807327046?pdp_filters=item_id%3AMLB6284520224",
-      "post_origem": "https://t.me/promonocontext/126300",
-      "link_canal": "https://meli.la/1s1YThE",
-      "foto": "AgACAgQAAxkDAAICmmrOi5m29tHCMhAllfhtBu6nkWikAAI-DmsbCawcUipQkXKZErppAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Bold Creatina (300g) Neutro",
-      "por": 59.9,
-      "de": 69.99,
-      "titulo": "Bold Creatina com 14% de desconto",
-      "id": 381,
-      "garimpado_em": "2026-10-13T16:50-03:00",
-      "na_revisao_desde": "2026-10-13T16:50-03:00",
-      "msg_id": 666
     }
   ],
   "proximo_id": 390,
@@ -3200,7 +3199,7 @@
       },
       "promonocontext": {
         "achados": 34,
-        "aprovados": 7,
+        "aprovados": 8,
         "reprovados": 23
       },
       "infoBRpromos": {
