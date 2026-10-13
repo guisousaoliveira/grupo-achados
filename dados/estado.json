@@ -1199,27 +1199,46 @@
       "garimpado_em": "2026-10-13T09:43-03:00",
       "na_revisao_desde": "2026-10-13T09:43-03:00",
       "msg_id": 435
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B09WPMTDCN",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B09WPMTDCN?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B09WPMTDCN?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/fritadeira-eletrica-quick-fryer-elgin-4-litros-110v-1350w-3109961/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3109961/",
+      "nome": "Fritadeira Elétrica Quick Fryer Elgin 4 Litros 110V 1.350W",
+      "por": 175.22,
+      "foto": "AgACAgQAAxkDAAIBtGrOJ4Y4uYpWNsR03Bo7w6oHL3uxAAKxsjEbM55VUU5NAgW-LtVoAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "titulo": "Fritadeira Elgin 4L com 27% off",
+      "id": 231,
+      "garimpado_em": "2026-10-13T09:43-03:00",
+      "na_revisao_desde": "2026-10-13T09:43-03:00",
+      "msg_id": 436
     }
   ],
-  "proximo_id": 231,
+  "proximo_id": 232,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84550,
-      "lobaopromo": 188758,
-      "gatunopromos": 125077,
+      "xetdaspromocoes": 84552,
+      "lobaopromo": 188759,
+      "gatunopromos": 125078,
       "pobregram": 41809,
       "urubupromo": 41608,
-      "tudonapromo": 101660,
-      "promonocontext": 126102,
-      "promooeasy": 220414,
-      "aquitempechincha": 281306,
+      "tudonapromo": 101661,
+      "promonocontext": 126105,
+      "promooeasy": 220415,
+      "aquitempechincha": 281308,
       "infoBRpromos": 67438,
       "boletando": 76642,
       "promotop": 260195,
       "achadosdotb": 11757
     },
     "dia": "2026-10-13",
-    "hoje": 67,
+    "hoje": 68,
     "chaves": [
       "amazon:B0D84WRDBB",
       "mercadolivre:MLB24081502",
@@ -1426,27 +1445,28 @@
       "mercadolivre:MLB19713197",
       "mercadolivre:MLB7487387440",
       "mercadolivre:MLB45902515",
-      "mercadolivre:MLB45790666"
+      "mercadolivre:MLB45790666",
+      "amazon:B09WPMTDCN"
     ],
     "ultima": {
-      "em": "2026-10-13T09:35:41-03:00",
+      "em": "2026-10-13T09:43:16-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 185,
-      "do_nicho": 33,
-      "repetidas": 12,
-      "novas": 21,
+      "posts_novos": 24,
+      "do_nicho": 2,
+      "repetidas": 1,
+      "novas": 1,
       "limite_dia": false,
       "promobit": 1
     },
     "hora": "2026-10-13T09",
     "nesta_hora": 22,
     "promobit_hora": "2026-10-13T09",
-    "promobit_nesta_hora": 3,
-    "promobit_visto": 3109926
+    "promobit_nesta_hora": 4,
+    "promobit_visto": 3109965
   },
   "ultimos": [
     {
@@ -2414,7 +2434,7 @@
     },
     "2026-10-13": {
       "promobit": {
-        "achados": 9,
+        "achados": 10,
         "aprovados": 1,
         "reprovados": 7
       },
