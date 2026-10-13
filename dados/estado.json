@@ -895,25 +895,6 @@
       "garimpado_em": "2026-10-13T00:31-03:00",
       "na_revisao_desde": "2026-10-13T00:31-03:00",
       "msg_id": 341
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:1624177702.52456503130",
-      "origem": "promooeasy",
-      "link": "https://shopee.com.br/product/1624177702/52456503130",
-      "link_produto": "https://shopee.com.br/product/1624177702/52456503130",
-      "post_origem": "https://t.me/promooeasy/220276",
-      "link_canal": "https://s.shopee.com.br/8AWoy4x9hA?lp=aff",
-      "precisa_link": true,
-      "foto": "AgACAgEAAxkDAAIBVmrNpf__y9LI_OAB57FDMCzx7oCtAALgDGsb7AJxRkNe9LawM4PyAQADAgADeAADPQQ",
-      "foto_origem": "canal",
-      "nome": "Cadeira Gamer Profissional Escritório Ergonômica Reclinável Confortável Com Rodinha E Apoio Para Pés",
-      "por": 295.0,
-      "titulo": "Cadeira gamer ergonômica com 39% off",
-      "id": 176,
-      "garimpado_em": "2026-10-13T00:31-03:00",
-      "na_revisao_desde": "2026-10-13T00:31-03:00",
-      "msg_id": 342
     }
   ],
   "proximo_id": 183,
@@ -1589,6 +1570,26 @@
   ],
   "lixeira": [
     {
+      "loja": "shopee",
+      "chave": "shopee:1624177702.52456503130",
+      "origem": "promooeasy",
+      "link": "https://shopee.com.br/product/1624177702/52456503130",
+      "link_produto": "https://shopee.com.br/product/1624177702/52456503130",
+      "post_origem": "https://t.me/promooeasy/220276",
+      "link_canal": "https://s.shopee.com.br/8AWoy4x9hA?lp=aff",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAIBVmrNpf__y9LI_OAB57FDMCzx7oCtAALgDGsb7AJxRkNe9LawM4PyAQADAgADeAADPQQ",
+      "foto_origem": "canal",
+      "nome": "Cadeira Gamer Profissional Escritório Ergonômica Reclinável Confortável Com Rodinha E Apoio Para Pés",
+      "por": 295.0,
+      "titulo": "Cadeira gamer ergonômica com 39% off",
+      "id": 176,
+      "garimpado_em": "2026-10-13T00:31-03:00",
+      "na_revisao_desde": "2026-10-13T00:31-03:00",
+      "removido_em": "2026-10-13T00:46:24-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0DYQGQ24J",
       "origem": "promooeasy",
@@ -2205,7 +2206,7 @@
       "promooeasy": {
         "achados": 12,
         "aprovados": 0,
-        "reprovados": 5
+        "reprovados": 6
       }
     }
   },
