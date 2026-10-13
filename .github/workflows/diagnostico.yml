@@ -17,3 +17,7 @@ jobs:
         env:
           LINKS: ${{ inputs.links }}
         run: python3 bot.py foto-teste $LINKS
+      - name: Vitrine do ML (códigos MLB)
+        env:
+          LINKS: ${{ inputs.links }}
+        run: python3 ferramentas_vitrine.py $LINKS
