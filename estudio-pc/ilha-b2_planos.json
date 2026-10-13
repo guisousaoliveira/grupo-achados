@@ -1,0 +1,287 @@
+{
+ "nome": "ilha-b2",
+ "trilha": [
+  {
+   "arquivo": "musica/isle1929.mp3",
+   "inicio": 0,
+   "corte": 86.5
+  }
+ ],
+ "planos": [
+  {
+   "t": 0,
+   "mode": "year",
+   "texto": "1827",
+   "fade_in": 1.0,
+   "sem_clique": true
+  },
+  {
+   "frase": 0,
+   "depois": 2.6,
+   "mode": "framed",
+   "img": "bocklin_foto_1.jpg",
+   "recorte": [
+    0.05,
+    0,
+    0.95,
+    0.75
+   ],
+   "posicao": "direita",
+   "nome": "Arnold Böcklin",
+   "tamanho": 0.78
+  },
+  {
+   "frase": 1,
+   "mode": "full",
+   "img": "campos_elisios.jpg",
+   "de": [
+    0.5,
+    0.5,
+    0.8
+   ],
+   "ate": [
+    0.5,
+    0.5,
+    1
+   ]
+  },
+  {
+   "frase": 2,
+   "mode": "full",
+   "img": "tritao_nereida.jpg",
+   "de": [
+    0.5,
+    0.5,
+    1
+   ],
+   "ate": [
+    0.48,
+    0.46,
+    0.9
+   ]
+  },
+  {
+   "frase": 3,
+   "mode": "full",
+   "img": "campos_elisios.jpg",
+   "de": [
+    0.6,
+    0.62,
+    0.85
+   ],
+   "ate": [
+    0.6,
+    0.64,
+    0.75
+   ]
+  },
+  {
+   "frase": 4,
+   "mode": "full",
+   "img": "bosque_sagrado.jpg",
+   "de": [
+    0.5,
+    0.5,
+    1
+   ],
+   "ate": [
+    0.48,
+    0.55,
+    0.8
+   ],
+   "etiqueta": [
+    "O Bosque Sagrado",
+    "Arnold Böcklin, 1882"
+   ]
+  },
+  {
+   "frase": 5,
+   "mode": "full",
+   "img": "bosque_sagrado.jpg",
+   "de": [
+    0.42,
+    0.58,
+    0.85
+   ],
+   "ate": [
+    0.42,
+    0.58,
+    0.75
+   ]
+  },
+  {
+   "frase": 5,
+   "depois": 5.2,
+   "mode": "full",
+   "img": "toteninsel_met.jpg",
+   "de": [
+    0.5,
+    0.5,
+    1
+   ],
+   "ate": [
+    0.5,
+    0.48,
+    0.85
+   ]
+  },
+  {
+   "frase": 6,
+   "mode": "full",
+   "img": "a_peste.jpg",
+   "de": [
+    0.5,
+    0.35,
+    0.75
+   ],
+   "ate": [
+    0.5,
+    0.3,
+    0.6
+   ],
+   "etiqueta": [
+    "A Peste",
+    "Arnold Böcklin, 1898"
+   ]
+  },
+  {
+   "frase": 7,
+   "mode": "year",
+   "texto": "14"
+  },
+  {
+   "frase": 8,
+   "mode": "year",
+   "texto": "8",
+   "sem_clique": true
+  },
+  {
+   "frase": 9,
+   "mode": "year",
+   "texto": "1872",
+   "img": "autorretrato_morte.jpg"
+  },
+  {
+   "frase": 9,
+   "depois": 1.9,
+   "mode": "framed",
+   "img": "autorretrato_morte.jpg",
+   "etiqueta": [
+    "Autorretrato com a Morte tocando violino",
+    "Arnold Böcklin, 1872"
+   ]
+  },
+  {
+   "frase": 10,
+   "mode": "full",
+   "img": "autorretrato_morte.jpg",
+   "de": [
+    0.35,
+    0.35,
+    0.6
+   ],
+   "ate": [
+    0.6,
+    0.25,
+    0.5
+   ]
+  },
+  {
+   "frase": 11,
+   "mode": "full",
+   "img": "autorretrato_morte.jpg",
+   "de": [
+    0.66,
+    0.22,
+    0.56
+   ],
+   "ate": [
+    0.66,
+    0.22,
+    0.5
+   ]
+  },
+  {
+   "frase": 12,
+   "mode": "full",
+   "img": "autorretrato_morte.jpg",
+   "de": [
+    0.5,
+    0.45,
+    0.6
+   ],
+   "ate": [
+    0.5,
+    0.5,
+    1
+   ]
+  },
+  {
+   "frase": 13,
+   "mode": "full",
+   "img": "toteninsel_basel.jpg",
+   "de": [
+    0.52,
+    0.42,
+    0.45
+   ],
+   "ate": [
+    0.52,
+    0.4,
+    0.35
+   ]
+  },
+  {
+   "frase": 13,
+   "depois": 4.6,
+   "mode": "full",
+   "img": "cemiterio_ingles.jpg",
+   "de": [
+    0.5,
+    0.5,
+    1
+   ],
+   "ate": [
+    0.5,
+    0.48,
+    0.85
+   ]
+  },
+  {
+   "frase": 14,
+   "mode": "full",
+   "img": "cemiterio_ingles.jpg",
+   "de": [
+    0.5,
+    0.45,
+    0.95
+   ],
+   "ate": [
+    0.5,
+    0.43,
+    0.85
+   ],
+   "etiqueta": [
+    "Cemitério Inglês",
+    "Florença"
+   ]
+  },
+  {
+   "frase": 15,
+   "mode": "full",
+   "img": "toteninsel_basel.jpg",
+   "de": [
+    0.5,
+    0.5,
+    1
+   ],
+   "ate": [
+    0.5,
+    0.6,
+    0.7
+   ],
+   "fade_out": 1.5,
+   "depois": 1.0
+  }
+ ]
+}

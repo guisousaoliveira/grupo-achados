@@ -1,0 +1,303 @@
+{
+ "nome": "ilha-b1",
+ "trilha": [
+  {
+   "arquivo": "musica/isle1929.mp3",
+   "inicio": 0,
+   "corte": 1.5
+  }
+ ],
+ "planos": [
+  {
+   "t": 0,
+   "mode": "framed",
+   "img": "toteninsel_basel.jpg",
+   "tamanho": 0.34,
+   "zoom": 0.85,
+   "fade_in": 2.5,
+   "crescer": true
+  },
+  {
+   "frase": 0,
+   "mode": "year",
+   "texto": "1933",
+   "sem_clique": true
+  },
+  {
+   "frase": 0,
+   "depois": 3.6,
+   "mode": "full",
+   "img": "toteninsel_berlin.jpg",
+   "de": [
+    0.5,
+    0.5,
+    1
+   ],
+   "ate": [
+    0.52,
+    0.55,
+    0.8
+   ]
+  },
+  {
+   "frase": 1,
+   "mode": "full",
+   "img": "toteninsel_basel.jpg",
+   "de": [
+    0.55,
+    0.45,
+    0.55
+   ],
+   "ate": [
+    0.55,
+    0.42,
+    0.42
+   ]
+  },
+  {
+   "frase": 1,
+   "depois": 4.3,
+   "mode": "full",
+   "img": "toteninsel_met.jpg",
+   "de": [
+    0.5,
+    0.45,
+    0.7
+   ],
+   "ate": [
+    0.52,
+    0.4,
+    0.55
+   ]
+  },
+  {
+   "frase": 2,
+   "mode": "full",
+   "img": "berghof.jpg",
+   "de": [
+    0.5,
+    0.5,
+    1
+   ],
+   "ate": [
+    0.5,
+    0.5,
+    0.85
+   ],
+   "etiqueta": [
+    "Berghof, Obersalzberg",
+    "Alemanha"
+   ]
+  },
+  {
+   "frase": 2,
+   "depois": 3.2,
+   "mode": "framed",
+   "img": "toteninsel_berlin.jpg",
+   "etiqueta": [
+    "A Ilha dos Mortos (III)",
+    "Arnold Böcklin, 1883"
+   ]
+  },
+  {
+   "frase": 3,
+   "mode": "framed",
+   "img": "hitler.jpg",
+   "recorte": [
+    0,
+    0,
+    1,
+    0.62
+   ],
+   "posicao": "direita",
+   "nome": "Adolf Hitler",
+   "tamanho": 0.78
+  },
+  {
+   "frase": 4,
+   "mode": "full",
+   "img": "toteninsel_basel.jpg",
+   "de": [
+    0.5,
+    0.5,
+    1
+   ],
+   "ate": [
+    0.5,
+    0.52,
+    0.82
+   ],
+   "etiqueta": [
+    "A Ilha dos Mortos (I)",
+    "Arnold Böcklin, 1880"
+   ]
+  },
+  {
+   "frase": 5,
+   "mode": "framed",
+   "img": "lenin.jpg",
+   "recorte": [
+    0.1,
+    0.05,
+    0.9,
+    0.75
+   ],
+   "posicao": "direita",
+   "nome": "Vladimir Lênin",
+   "tamanho": 0.78
+  },
+  {
+   "frase": 6,
+   "mode": "framed",
+   "img": "freud.jpg",
+   "recorte": [
+    0,
+    0,
+    1,
+    0.6
+   ],
+   "posicao": "esquerda",
+   "nome": "Sigmund Freud",
+   "tamanho": 0.78
+  },
+  {
+   "frase": 7,
+   "mode": "framed",
+   "img": "rachmaninoff.jpg",
+   "recorte": [
+    0.15,
+    0,
+    0.85,
+    0.7
+   ],
+   "posicao": "direita",
+   "nome": "Sergei Rachmaninoff",
+   "tamanho": 0.78
+  },
+  {
+   "frase": 8,
+   "mode": "full",
+   "img": "toteninsel_leipzig.jpg",
+   "de": [
+    0.5,
+    0.45,
+    0.9
+   ],
+   "ate": [
+    0.5,
+    0.42,
+    0.76
+   ]
+  },
+  {
+   "frase": 8,
+   "depois": 3.4,
+   "mode": "full",
+   "img": "toteninsel_basel.jpg",
+   "de": [
+    0.45,
+    0.68,
+    0.62
+   ],
+   "ate": [
+    0.44,
+    0.7,
+    0.52
+   ]
+  },
+  {
+   "frase": 9,
+   "mode": "quote",
+   "img": "toteninsel_berlin.jpg",
+   "de": [
+    0.5,
+    0.5,
+    0.9
+   ],
+   "ate": [
+    0.5,
+    0.5,
+    0.8
+   ],
+   "citacao": "Ela estava em todas as casas de Berlim.",
+   "autor_citacao": "Vladimir Nabokov"
+  },
+  {
+   "frase": 10,
+   "mode": "framed",
+   "img": "bocklin_foto_1.jpg",
+   "recorte": [
+    0.05,
+    0,
+    0.95,
+    0.75
+   ],
+   "posicao": "esquerda",
+   "nome": "Arnold Böcklin",
+   "tamanho": 0.78
+  },
+  {
+   "frase": 11,
+   "mode": "full",
+   "img": "toteninsel_met.jpg",
+   "de": [
+    0.42,
+    0.7,
+    0.62
+   ],
+   "ate": [
+    0.42,
+    0.72,
+    0.52
+   ]
+  },
+  {
+   "frase": 12,
+   "mode": "full",
+   "img": "toteninsel_leipzig.jpg",
+   "de": [
+    0.5,
+    0.5,
+    1
+   ],
+   "ate": [
+    0.5,
+    0.5,
+    0.8
+   ],
+   "etiqueta": [
+    "A Ilha dos Mortos (V)",
+    "Arnold Böcklin, 1886"
+   ]
+  },
+  {
+   "frase": 13,
+   "mode": "full",
+   "img": "toteninsel_basel.jpg",
+   "de": [
+    0.5,
+    0.5,
+    0.85
+   ],
+   "ate": [
+    0.5,
+    0.5,
+    1
+   ],
+   "fade_out": 1.2
+  }
+ ],
+ "abertura": 8,
+ "efeitos": [
+  {
+   "arquivo": "sfx/drone.wav",
+   "t": 0,
+   "volume_db": -2
+  },
+  {
+   "arquivo": "sfx/impacto.wav",
+   "t": 8.25,
+   "volume_db": -3
+  }
+ ]
+}
