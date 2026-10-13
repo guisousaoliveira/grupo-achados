@@ -632,27 +632,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB76319957",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/relogio-inteligente-smartwatch-gps-autonomo-chamadas-bluetooth-novante-moda-digital-feminino-masculino-esportivo-preto-ip68-3atm-agua-tela-hd-185-350mah-10dias-android-ios-com-monitoramento-de-saude/p/MLB76319957?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/relogio-inteligente-smartwatch-gps-autonomo-chamadas-bluetooth-novante-moda-digital-feminino-masculino-esportivo-preto-ip68-3atm-agua-tela-hd-185-350mah-10dias-android-ios-com-monitoramento-de-saude/p/MLB76319957",
-      "post_origem": "https://t.me/lobaopromo/188626",
-      "link_canal": "https://meli.la/1uRLzLN",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_690283-MLA115980624440_092026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Relógio Inteligente Smartwatch GPS Autônomo Chamadas Bluetooth",
-      "de": 559.0,
-      "por": 161.0,
-      "titulo": "Smartwatch com GPS e 71% de desconto",
-      "id": 146,
-      "garimpado_em": "2026-10-12T22:05-03:00",
-      "na_revisao_desde": "2026-10-12T22:05-03:00",
-      "msg_id": 301
-    }
-  ],
+  "revisar": [],
   "proximo_id": 148,
   "radar": {
     "visto": {
@@ -1210,6 +1190,26 @@
   "lixeira": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB76319957",
+      "origem": "lobaopromo",
+      "link": "https://www.mercadolivre.com.br/relogio-inteligente-smartwatch-gps-autonomo-chamadas-bluetooth-novante-moda-digital-feminino-masculino-esportivo-preto-ip68-3atm-agua-tela-hd-185-350mah-10dias-android-ios-com-monitoramento-de-saude/p/MLB76319957?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/relogio-inteligente-smartwatch-gps-autonomo-chamadas-bluetooth-novante-moda-digital-feminino-masculino-esportivo-preto-ip68-3atm-agua-tela-hd-185-350mah-10dias-android-ios-com-monitoramento-de-saude/p/MLB76319957",
+      "post_origem": "https://t.me/lobaopromo/188626",
+      "link_canal": "https://meli.la/1uRLzLN",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_690283-MLA115980624440_092026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Relógio Inteligente Smartwatch GPS Autônomo Chamadas Bluetooth",
+      "de": 559.0,
+      "por": 161.0,
+      "titulo": "Smartwatch com GPS e 71% de desconto",
+      "id": 146,
+      "garimpado_em": "2026-10-12T22:05-03:00",
+      "na_revisao_desde": "2026-10-12T22:05-03:00",
+      "removido_em": "2026-10-12T22:14:05-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB4689433023",
       "origem": "promonocontext",
       "link": "https://produto.mercadolivre.com.br/MLB-4689433023-kit-6-cuecas-boxer-sem-costura-polo-wear-microfibra-_JM?pdp_filters=item_id%3AMLB4689433023&matt_word=alphapromo&matt_tool=59136903",
@@ -1429,7 +1429,7 @@
       "lobaopromo": {
         "achados": 18,
         "aprovados": 8,
-        "reprovados": 9
+        "reprovados": 10
       },
       "urubupromo": {
         "achados": 2,
