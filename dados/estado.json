@@ -799,25 +799,6 @@
       "garimpado_em": "2026-10-13T00:20-03:00",
       "na_revisao_desde": "2026-10-13T00:20-03:00",
       "msg_id": 335
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:359168917.56611856308",
-      "origem": "promooeasy",
-      "link": "https://shopee.com.br/product/359168917/56611856308",
-      "link_produto": "https://shopee.com.br/product/359168917/56611856308",
-      "post_origem": "https://t.me/promooeasy/220268",
-      "link_canal": "https://s.shopee.com.br/2qVIbbctUM?lp=aff",
-      "precisa_link": true,
-      "foto": "AgACAgEAAxkDAAIBUGrNo5IjSgt1bhqLuN3V4paCew6LAALbDGsb7AJxRtudgc4IKWdyAQADAgADeAADPQQ",
-      "foto_origem": "canal",
-      "nome": "Smart TV AOC 43 Full HD LED Roku Wi-Fi USB HDMI 43S5155/78G",
-      "por": 1258.56,
-      "titulo": "Smart TV AOC 43 com 33% off",
-      "id": 170,
-      "garimpado_em": "2026-10-13T00:20-03:00",
-      "na_revisao_desde": "2026-10-13T00:20-03:00",
-      "msg_id": 336
     }
   ],
   "proximo_id": 183,
@@ -1492,6 +1473,26 @@
     }
   ],
   "lixeira": [
+    {
+      "loja": "shopee",
+      "chave": "shopee:359168917.56611856308",
+      "origem": "promooeasy",
+      "link": "https://shopee.com.br/product/359168917/56611856308",
+      "link_produto": "https://shopee.com.br/product/359168917/56611856308",
+      "post_origem": "https://t.me/promooeasy/220268",
+      "link_canal": "https://s.shopee.com.br/2qVIbbctUM?lp=aff",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAIBUGrNo5IjSgt1bhqLuN3V4paCew6LAALbDGsb7AJxRtudgc4IKWdyAQADAgADeAADPQQ",
+      "foto_origem": "canal",
+      "nome": "Smart TV AOC 43 Full HD LED Roku Wi-Fi USB HDMI 43S5155/78G",
+      "por": 1258.56,
+      "titulo": "Smart TV AOC 43 com 33% off",
+      "id": 170,
+      "garimpado_em": "2026-10-13T00:20-03:00",
+      "na_revisao_desde": "2026-10-13T00:20-03:00",
+      "removido_em": "2026-10-13T00:47:39-03:00",
+      "removido_de": "revisar"
+    },
     {
       "loja": "shopee",
       "chave": "shopee:1343318906.43284754876",
@@ -2209,7 +2210,7 @@
       "promooeasy": {
         "achados": 12,
         "aprovados": 0,
-        "reprovados": 10
+        "reprovados": 11
       }
     }
   },
