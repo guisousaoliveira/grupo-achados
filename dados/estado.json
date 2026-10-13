@@ -251,6 +251,24 @@
       "por": 165.0,
       "parcelas": 5,
       "aprovado_em": "2026-10-12T23:26-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB4992424197",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/1ALanGS",
+      "link_produto": "https://meli.la/1ALanGS",
+      "post_origem": "https://t.me/lobaopromo/188650",
+      "link_canal": "https://meli.la/1LKjwVu",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_741024-MLB114244636256_082026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Tênis Masculino Casual Aramis Daily Slip Confortável Moderno Bege 41",
+      "de": 339.0,
+      "por": 164.99,
+      "titulo": "Tênis no precinho",
+      "garimpado_em": "2026-10-12T23:10-03:00",
+      "na_revisao_desde": "2026-10-12T23:10-03:00",
+      "aprovado_em": "2026-10-12T23:27-03:00"
     }
   ],
   "postados": [
@@ -629,25 +647,6 @@
   },
   "shopee_buscado_em": "",
   "revisar": [
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB4992424197",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/tenis-masculino-casual-aramis-daily-slip-confortavel-moderno/up/MLBU4588766780?pdp_filters=item_id%3AMLB4992424197&matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/tenis-masculino-casual-aramis-daily-slip-confortavel-moderno/up/MLBU4588766780?pdp_filters=item_id%3AMLB4992424197",
-      "post_origem": "https://t.me/lobaopromo/188650",
-      "link_canal": "https://meli.la/1LKjwVu",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_741024-MLB114244636256_082026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Tênis Masculino Casual Aramis Daily Slip Confortável Moderno Bege 41",
-      "de": 339.0,
-      "por": 154.0,
-      "titulo": "Tênis Aramis com 55% off",
-      "id": 155,
-      "garimpado_em": "2026-10-12T23:10-03:00",
-      "na_revisao_desde": "2026-10-12T23:10-03:00",
-      "msg_id": 312
-    },
     {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB24117280",
@@ -1678,7 +1677,7 @@
       },
       "lobaopromo": {
         "achados": 22,
-        "aprovados": 9,
+        "aprovados": 10,
         "reprovados": 12
       },
       "urubupromo": {
