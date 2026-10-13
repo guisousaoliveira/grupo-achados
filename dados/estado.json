@@ -1128,26 +1128,6 @@
       "msg_id": 579
     },
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB3836604070",
-      "origem": "lobaopromo",
-      "link": "https://produto.mercadolivre.com.br/MLB-3836604070-conjunto-bermuda-feminino-academia-blackout-zero-transparenc-_JM?pdp_filters=item_id%3AMLB3836604070&matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-3836604070-conjunto-bermuda-feminino-academia-blackout-zero-transparenc-_JM?pdp_filters=item_id%3AMLB3836604070",
-      "post_origem": "https://t.me/lobaopromo/188870",
-      "link_canal": "https://meli.la/1tEZ2m5",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_998593-MLB113674522519_062026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Conjunto Bermuda Feminino Academia Blackout Zero Transparenc",
-      "pix": true,
-      "de": 68.9,
-      "por": 32.65,
-      "titulo": "Preço de queima, 53% mais barato.",
-      "id": 306,
-      "garimpado_em": "2026-10-13T13:36-03:00",
-      "na_revisao_desde": "2026-10-13T13:36-03:00",
-      "msg_id": 581
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B0FBGDF8GD",
       "origem": "promooeasy",
@@ -2155,6 +2135,27 @@
   ],
   "lixeira": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB3836604070",
+      "origem": "lobaopromo",
+      "link": "https://produto.mercadolivre.com.br/MLB-3836604070-conjunto-bermuda-feminino-academia-blackout-zero-transparenc-_JM?pdp_filters=item_id%3AMLB3836604070&matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-3836604070-conjunto-bermuda-feminino-academia-blackout-zero-transparenc-_JM?pdp_filters=item_id%3AMLB3836604070",
+      "post_origem": "https://t.me/lobaopromo/188870",
+      "link_canal": "https://meli.la/1tEZ2m5",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_998593-MLB113674522519_062026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Conjunto Bermuda Feminino Academia Blackout Zero Transparenc",
+      "pix": true,
+      "de": 68.9,
+      "por": 32.65,
+      "titulo": "Preço de queima, 53% mais barato.",
+      "id": 306,
+      "garimpado_em": "2026-10-13T13:36-03:00",
+      "na_revisao_desde": "2026-10-13T13:36-03:00",
+      "removido_em": "2026-10-13T14:30:24-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0FPBPDWZQ",
       "origem": "promonocontext",
@@ -2784,7 +2785,7 @@
       "lobaopromo": {
         "achados": 28,
         "aprovados": 8,
-        "reprovados": 11
+        "reprovados": 12
       },
       "promooeasy": {
         "achados": 61,
