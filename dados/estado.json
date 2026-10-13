@@ -1333,26 +1333,6 @@
       "garimpado_em": "2026-10-13T11:19-03:00",
       "na_revisao_desde": "2026-10-13T11:19-03:00",
       "msg_id": 495
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB5150487001",
-      "origem": "promotop",
-      "link": "https://www.mercadolivre.com.br/notebook-hp-200-g2i-core-5-16--graphics-256gb-16gb-w11-home/up/MLBU4972245103?pdp_filters=item_id%3AMLB5150487001&matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/notebook-hp-200-g2i-core-5-16--graphics-256gb-16gb-w11-home/up/MLBU4972245103?pdp_filters=item_id%3AMLB5150487001",
-      "post_origem": "https://t.me/promotop/260205",
-      "link_canal": "https://meli.la/2ePM5ar",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_916141-MLB116272908054_092026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Notebook Hp 200 G2i Core 5 16 Graphics 256gb 16gb W11 Home Prateado",
-      "pix": true,
-      "por": 3293.1,
-      "cupom": "MELHORDEHJ",
-      "titulo": "Notebook HP para trabalhar e estudar com desempenho",
-      "id": 263,
-      "garimpado_em": "2026-10-13T11:20-03:00",
-      "na_revisao_desde": "2026-10-13T11:20-03:00",
-      "msg_id": 496
     }
   ],
   "proximo_id": 272,
@@ -2185,6 +2165,27 @@
   ],
   "lixeira": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB5150487001",
+      "origem": "promotop",
+      "link": "https://www.mercadolivre.com.br/notebook-hp-200-g2i-core-5-16--graphics-256gb-16gb-w11-home/up/MLBU4972245103?pdp_filters=item_id%3AMLB5150487001&matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/notebook-hp-200-g2i-core-5-16--graphics-256gb-16gb-w11-home/up/MLBU4972245103?pdp_filters=item_id%3AMLB5150487001",
+      "post_origem": "https://t.me/promotop/260205",
+      "link_canal": "https://meli.la/2ePM5ar",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_916141-MLB116272908054_092026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Notebook Hp 200 G2i Core 5 16 Graphics 256gb 16gb W11 Home Prateado",
+      "pix": true,
+      "por": 3293.1,
+      "cupom": "MELHORDEHJ",
+      "titulo": "Notebook HP para trabalhar e estudar com desempenho",
+      "id": 263,
+      "garimpado_em": "2026-10-13T11:20-03:00",
+      "na_revisao_desde": "2026-10-13T11:20-03:00",
+      "removido_em": "2026-10-13T11:44:43-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0FR9V7QWR",
       "origem": "promooeasy",
@@ -2532,7 +2533,7 @@
       "promotop": {
         "achados": 4,
         "aprovados": 1,
-        "reprovados": 1
+        "reprovados": 2
       },
       "promonocontext": {
         "achados": 9,
