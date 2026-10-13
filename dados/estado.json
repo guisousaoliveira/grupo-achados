@@ -2,23 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "amazon",
-      "chave": "amazon:B0955QFBH2",
-      "origem": "lobaopromo",
-      "link": "https://link.amazon/B0gRojdZy",
-      "link_produto": "https://link.amazon/B0gRojdZy",
-      "post_origem": "https://t.me/lobaopromo/188606",
-      "link_canal": "https://amzlink.to/az0Hgi6Zb9CAy",
-      "foto": "AgACAgEAAxkDAAIBIGrNeYHy6vnsSO8KjQNVbGfm5NreAAKWDWsb8PdpRpfTawW4Ky0zAQADAgADeQADPQQ",
-      "nome": "Mondial Cafeteira Elétrica Dolce Arome, 550W, 110V",
-      "de": 139.0,
-      "por": 86.45,
-      "titulo": "Cafeteira Mondial Dolce Arome com 38% off",
-      "garimpado_em": "2026-10-12T21:11-03:00",
-      "na_revisao_desde": "2026-10-12T21:11-03:00",
-      "aprovado_em": "2026-10-12T21:22-03:00"
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB7275398398",
       "origem": "promonocontext",
@@ -782,6 +765,14 @@
       "data": "2026-10-13T09:21-03:00",
       "link": "https://meli.la/2GQH2RJ",
       "link_produto": "https://meli.la/2GQH2RJ"
+    },
+    {
+      "chave": "amazon:B0955QFBH2",
+      "loja": "amazon",
+      "nome": "Mondial Cafeteira Elétrica Dolce Arome, 550W, 110V",
+      "data": "2026-10-13T09:29-03:00",
+      "link": "https://link.amazon/B0gRojdZy",
+      "link_produto": "https://link.amazon/B0gRojdZy"
     }
   ],
   "slots_usados": {
@@ -1039,6 +1030,19 @@
     "promobit_visto": 3109817
   },
   "ultimos": [
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0955QFBH2",
+      "origem": "lobaopromo",
+      "link": "https://link.amazon/B0gRojdZy",
+      "link_produto": "https://link.amazon/B0gRojdZy",
+      "post_origem": "https://t.me/lobaopromo/188606",
+      "foto": "AgACAgEAAxkDAAIBIGrNeYHy6vnsSO8KjQNVbGfm5NreAAKWDWsb8PdpRpfTawW4Ky0zAQADAgADeQADPQQ",
+      "nome": "Mondial Cafeteira Elétrica Dolce Arome, 550W, 110V",
+      "de": 139.0,
+      "por": 91.7,
+      "titulo": "pra começar o dia bem"
+    },
     {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB5513844630",
@@ -1546,15 +1550,6 @@
       "nome": "Tênis Nike Run Defy Masculino",
       "de": 349.99,
       "por": 256.49
-    },
-    {
-      "loja": "amazon",
-      "link": "https://link.amazon/B053xXD0M",
-      "chave": "amazon:https://link.amazon/B053xXD0M",
-      "foto": "https://images-na.ssl-images-amazon.com/images/P/B0CRTYZG5C.01.LZZZZZZZ.jpg",
-      "nome": "soundcore P30i da Anker, ANC Fone de Ouvido Bluetooth 5.4 Sem Fio, TWS",
-      "de": 369.0,
-      "por": 186.67
     }
   ],
   "lixeira": [
