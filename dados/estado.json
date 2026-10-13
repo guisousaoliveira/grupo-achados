@@ -608,65 +608,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0H6N4P465",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B0H6N4P465?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0H6N4P465?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/samsung-smart-tv-70-crystal-uhd-4k-u8000h-262027-vision-ai-companion-modo-estadio-xbox-cloud-gaming-3109318/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3109318/",
-      "nome": "Samsung Smart TV 70\" Crystal UHD 4K U8000H 262027",
-      "por": 3899.0,
-      "de": 5199.0,
-      "foto": "AgACAgQAAxkDAAIBG2rNeVdObYG2ubbWV14pW1XJQtBxAAKsDmsbEuJ1Uvlwa7_7Y37fAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "titulo": "Samsung Smart TV 4K com 25% off",
-      "id": 135,
-      "garimpado_em": "2026-10-12T21:20-03:00",
-      "na_revisao_desde": "2026-10-12T21:20-03:00",
-      "msg_id": 283
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB6002008916",
-      "origem": "urubupromo",
-      "link": "https://produto.mercadolivre.com.br/MLB-6002008916-kit-2-camiseta-masculina-speedo-dry-fit-manga-curta-academia-_JM?pdp_filters=item_id%3AMLB6002008916&matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-6002008916-kit-2-camiseta-masculina-speedo-dry-fit-manga-curta-academia-_JM?pdp_filters=item_id%3AMLB6002008916",
-      "post_origem": "https://t.me/urubupromo/41592",
-      "link_canal": "https://meli.la/2CuNnRt",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_926568-MLB108169076498_032026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Kit 2 Camiseta Masculina Speedo Dry Fit Manga Curta Academia",
-      "por": 66.48,
-      "titulo": "Kit Speedo Dry Fit com desconto de 44%",
-      "id": 136,
-      "garimpado_em": "2026-10-12T21:20-03:00",
-      "na_revisao_desde": "2026-10-12T21:20-03:00",
-      "msg_id": 284
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB4729131437",
-      "origem": "promonocontext",
-      "link": "https://www.mercadolivre.com.br/tenis-masculino-charged-skyline-5-under-armour/up/MLBU4030295425?pdp_filters=item_id%3AMLB4729131437&matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/tenis-masculino-charged-skyline-5-under-armour/up/MLBU4030295425?pdp_filters=item_id%3AMLB4729131437",
-      "post_origem": "https://t.me/promonocontext/126034",
-      "link_canal": "https://meli.la/2FsXe3U",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_909328-MLB111364222050_052026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Tênis Masculino Charged Skyline 5 Under Armour Preto Liso 40 Br",
-      "de": 499.0,
-      "por": 281.0,
-      "titulo": "Tênis Under Armour com 44% off",
-      "id": 137,
-      "garimpado_em": "2026-10-12T21:20-03:00",
-      "na_revisao_desde": "2026-10-12T21:20-03:00",
-      "msg_id": 285
-    }
-  ],
+  "revisar": [],
   "proximo_id": 139,
   "radar": {
     "visto": {
@@ -1185,6 +1127,66 @@
   ],
   "lixeira": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB4729131437",
+      "origem": "promonocontext",
+      "link": "https://www.mercadolivre.com.br/tenis-masculino-charged-skyline-5-under-armour/up/MLBU4030295425?pdp_filters=item_id%3AMLB4729131437&matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/tenis-masculino-charged-skyline-5-under-armour/up/MLBU4030295425?pdp_filters=item_id%3AMLB4729131437",
+      "post_origem": "https://t.me/promonocontext/126034",
+      "link_canal": "https://meli.la/2FsXe3U",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_909328-MLB111364222050_052026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Tênis Masculino Charged Skyline 5 Under Armour Preto Liso 40 Br",
+      "de": 499.0,
+      "por": 281.0,
+      "titulo": "Tênis Under Armour com 44% off",
+      "id": 137,
+      "garimpado_em": "2026-10-12T21:20-03:00",
+      "na_revisao_desde": "2026-10-12T21:20-03:00",
+      "removido_em": "2026-10-12T21:24:47-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB6002008916",
+      "origem": "urubupromo",
+      "link": "https://produto.mercadolivre.com.br/MLB-6002008916-kit-2-camiseta-masculina-speedo-dry-fit-manga-curta-academia-_JM?pdp_filters=item_id%3AMLB6002008916&matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-6002008916-kit-2-camiseta-masculina-speedo-dry-fit-manga-curta-academia-_JM?pdp_filters=item_id%3AMLB6002008916",
+      "post_origem": "https://t.me/urubupromo/41592",
+      "link_canal": "https://meli.la/2CuNnRt",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_926568-MLB108169076498_032026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Kit 2 Camiseta Masculina Speedo Dry Fit Manga Curta Academia",
+      "por": 66.48,
+      "titulo": "Kit Speedo Dry Fit com desconto de 44%",
+      "id": 136,
+      "garimpado_em": "2026-10-12T21:20-03:00",
+      "na_revisao_desde": "2026-10-12T21:20-03:00",
+      "removido_em": "2026-10-12T21:24:47-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0H6N4P465",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0H6N4P465?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0H6N4P465?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/samsung-smart-tv-70-crystal-uhd-4k-u8000h-262027-vision-ai-companion-modo-estadio-xbox-cloud-gaming-3109318/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3109318/",
+      "nome": "Samsung Smart TV 70\" Crystal UHD 4K U8000H 262027",
+      "por": 3899.0,
+      "de": 5199.0,
+      "foto": "AgACAgQAAxkDAAIBG2rNeVdObYG2ubbWV14pW1XJQtBxAAKsDmsbEuJ1Uvlwa7_7Y37fAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "titulo": "Samsung Smart TV 4K com 25% off",
+      "id": 135,
+      "garimpado_em": "2026-10-12T21:20-03:00",
+      "na_revisao_desde": "2026-10-12T21:20-03:00",
+      "removido_em": "2026-10-12T21:24:47-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B09SVPDX3G",
       "origem": "aquitempechincha",
@@ -1215,7 +1217,7 @@
       "promobit": {
         "achados": 23,
         "aprovados": 9,
-        "reprovados": 13
+        "reprovados": 14
       },
       "gatunopromos": {
         "achados": 1,
@@ -1230,7 +1232,7 @@
       "urubupromo": {
         "achados": 2,
         "aprovados": 1,
-        "reprovados": 0
+        "reprovados": 1
       },
       "aquitempechincha": {
         "achados": 3,
@@ -1245,7 +1247,7 @@
       "promonocontext": {
         "achados": 10,
         "aprovados": 6,
-        "reprovados": 3
+        "reprovados": 4
       },
       "boletando": {
         "achados": 1,
