@@ -261,6 +261,26 @@
       "garimpado_em": "2026-10-12T20:10-03:00",
       "na_revisao_desde": "2026-10-12T20:10-03:00",
       "aprovado_em": "2026-10-12T20:51-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB4703022818",
+      "origem": "promonocontext",
+      "link": "https://meli.la/1GX7MuJ",
+      "link_produto": "https://meli.la/1GX7MuJ",
+      "post_origem": "https://t.me/promonocontext/126031",
+      "link_canal": "https://meli.la/2Czi3qA",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_643360-MLB104967538769_012026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Kit 6 Cuecas Boxer Reebok Microfibra Sem Costura Original",
+      "cupom_loja": "Ative o cupom de 5% 📌",
+      "de": 299.0,
+      "por": 64.0,
+      "titulo": "OFERTA!",
+      "garimpado_em": "2026-10-12T21:00-03:00",
+      "na_revisao_desde": "2026-10-12T21:00-03:00",
+      "cupom": "Ative o cupom de 5% 📌",
+      "aprovado_em": "2026-10-12T21:05-03:00"
     }
   ],
   "postados": [
@@ -673,26 +693,6 @@
       "garimpado_em": "2026-10-12T21:00-03:00",
       "na_revisao_desde": "2026-10-12T21:00-03:00",
       "msg_id": 275
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB4703022818",
-      "origem": "promonocontext",
-      "link": "https://produto.mercadolivre.com.br/MLB-4703022818-kit-6-cuecas-boxer-reebok-microfibra-sem-costura-original-_JM?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-4703022818-kit-6-cuecas-boxer-reebok-microfibra-sem-costura-original-_JM",
-      "post_origem": "https://t.me/promonocontext/126031",
-      "link_canal": "https://meli.la/2Czi3qA",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_643360-MLB104967538769_012026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Kit 6 Cuecas Boxer Reebok Microfibra Sem Costura Original",
-      "cupom_loja": "Ative o cupom de 5% 📌",
-      "de": 299.0,
-      "por": 64.0,
-      "titulo": "Kit 6 Cuecas Reebok com 79% off",
-      "id": 132,
-      "garimpado_em": "2026-10-12T21:00-03:00",
-      "na_revisao_desde": "2026-10-12T21:00-03:00",
-      "msg_id": 276
     }
   ],
   "proximo_id": 133,
@@ -1657,7 +1657,7 @@
       },
       "promonocontext": {
         "achados": 9,
-        "aprovados": 5,
+        "aprovados": 6,
         "reprovados": 0
       },
       "boletando": {
