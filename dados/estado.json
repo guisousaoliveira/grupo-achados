@@ -3,25 +3,6 @@
   "fila": [
     {
       "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB7319767372",
-      "origem": "promonocontext",
-      "link": "https://meli.la/2scKQiu",
-      "link_produto": "https://meli.la/2scKQiu",
-      "post_origem": "https://t.me/promonocontext/126076",
-      "link_canal": "https://meli.la/22vFVqW",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_813847-MLB114929394738_082026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Camisa Polo Masculina Polo Wear Piquet Listrada Bege Médio M",
-      "pix": true,
-      "de": 139.99,
-      "por": 62.21,
-      "titulo": "Presença começa no detalhe.",
-      "garimpado_em": "2026-10-13T09:02-03:00",
-      "na_revisao_desde": "2026-10-13T09:02-03:00",
-      "aprovado_em": "2026-10-13T09:14-03:00"
-    },
-    {
-      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB66902915",
       "origem": "lobaopromo",
       "link": "https://meli.la/1WBSL27",
@@ -920,6 +901,15 @@
       "data": "2026-10-13T16:05-03:00",
       "link": "https://meli.la/2gumX4b",
       "link_produto": "https://meli.la/2gumX4b"
+    },
+    {
+      "chave": "mercadolivre:MLB7319767372",
+      "loja": "mercadolivre",
+      "nome": "Camisa Polo Masculina Polo Wear Piquet Listrada Bege Médio M",
+      "data": "2026-10-13T16:12-03:00",
+      "link": "https://meli.la/2scKQiu",
+      "link_produto": "https://meli.la/2scKQiu",
+      "slot": 16
     }
   ],
   "slots_usados": {
@@ -952,7 +942,8 @@
       12,
       13,
       14,
-      15
+      15,
+      16
     ]
   },
   "shopee_buscado_em": "",
@@ -1421,6 +1412,20 @@
     "promobit_visto": 3111064
   },
   "ultimos": [
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB7319767372",
+      "origem": "promonocontext",
+      "link": "https://meli.la/2scKQiu",
+      "link_produto": "https://meli.la/2scKQiu",
+      "post_origem": "https://t.me/promonocontext/126076",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_813847-MLB114929394738_082026-O.webp",
+      "nome": "Camisa Polo Masculina Polo Wear Piquet Listrada Bege Médio M",
+      "pix": true,
+      "de": 139.99,
+      "por": 62.21,
+      "titulo": "Presença começa no detalhe."
+    },
     {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB68885400",
@@ -1955,20 +1960,6 @@
       "de": 149.99,
       "por": 59.99,
       "titulo": "Tênis Sandrini com 60% off"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B00Z0UWV3O",
-      "origem": "promooeasy",
-      "link": "https://link.amazon/B0hTKsXtq",
-      "link_produto": "https://www.amazon.com.br/dp/B00Z0UWV3O?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/220105",
-      "foto": "AgACAgQAAxkDAAOpas0RP067Bj9xHK-AirKnM0kGSGAAAisOaxsbPWRSR0odBpHqIwcBAAMCAAN4AAM9BA",
-      "nome": "Câmbio Logitech G Driving Force Compatível com Volantes Logitech G29, G920 e G923",
-      "por": 280.0,
-      "titulo": "Cambio para volante Logitech com desconto",
-      "de": 469.9,
-      "pix": true
     }
   ],
   "lixeira": [
