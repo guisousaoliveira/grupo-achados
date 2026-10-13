@@ -718,25 +718,6 @@
       "garimpado_em": "2026-10-13T07:21-03:00",
       "na_revisao_desde": "2026-10-13T07:21-03:00",
       "msg_id": 353
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:627750190.58257777632",
-      "origem": "promooeasy",
-      "link": "https://shopee.com.br/product/627750190/58257777632",
-      "link_produto": "https://shopee.com.br/product/627750190/58257777632",
-      "post_origem": "https://t.me/promooeasy/220302",
-      "link_canal": "https://s.shopee.com.br/7VH8dRN3Fd?lp=aff",
-      "precisa_link": true,
-      "foto": "AgACAgEAAxkDAAIBYmrOBh_MZHv0A0-xuSAT0zhetLOAAAINDWsb7AJxRjB_f_TBKdufAQADAgADeAADPQQ",
-      "foto_origem": "canal",
-      "nome": "Placa de Video PowerColor Radeon RX 9060 XT Reaper, 8GB, GDDR6, 128-bit, RX9060XT-8G-A",
-      "por": 2759.0,
-      "titulo": "Placa de vídeo Radeon RX 9060 XT",
-      "id": 186,
-      "garimpado_em": "2026-10-13T07:21-03:00",
-      "na_revisao_desde": "2026-10-13T07:21-03:00",
-      "msg_id": 354
     }
   ],
   "proximo_id": 187,
@@ -1435,6 +1416,26 @@
   ],
   "lixeira": [
     {
+      "loja": "shopee",
+      "chave": "shopee:627750190.58257777632",
+      "origem": "promooeasy",
+      "link": "https://shopee.com.br/product/627750190/58257777632",
+      "link_produto": "https://shopee.com.br/product/627750190/58257777632",
+      "post_origem": "https://t.me/promooeasy/220302",
+      "link_canal": "https://s.shopee.com.br/7VH8dRN3Fd?lp=aff",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAIBYmrOBh_MZHv0A0-xuSAT0zhetLOAAAINDWsb7AJxRjB_f_TBKdufAQADAgADeAADPQQ",
+      "foto_origem": "canal",
+      "nome": "Placa de Video PowerColor Radeon RX 9060 XT Reaper, 8GB, GDDR6, 128-bit, RX9060XT-8G-A",
+      "por": 2759.0,
+      "titulo": "Placa de vídeo Radeon RX 9060 XT",
+      "id": 186,
+      "garimpado_em": "2026-10-13T07:21-03:00",
+      "na_revisao_desde": "2026-10-13T07:21-03:00",
+      "removido_em": "2026-10-13T07:34:08-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B09XWJWMS1",
       "origem": "promobit",
@@ -1548,7 +1549,7 @@
       "promooeasy": {
         "achados": 15,
         "aprovados": 0,
-        "reprovados": 13
+        "reprovados": 14
       }
     }
   },
