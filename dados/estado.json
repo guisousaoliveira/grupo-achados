@@ -371,24 +371,6 @@
       "garimpado_em": "2026-10-13T10:50-03:00",
       "na_revisao_desde": "2026-10-13T10:50-03:00",
       "aprovado_em": "2026-10-13T11:46-03:00"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB4592320910",
-      "origem": "xetdaspromocoes",
-      "link": "https://meli.la/2hk7fyL",
-      "link_produto": "https://meli.la/2hk7fyL",
-      "post_origem": "https://t.me/xetdaspromocoes/84583",
-      "link_canal": "https://meli.la/2vtQ7Hv",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_626928-MLB82004918446_022025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Kit 4 Camiseta Dry-fit Sandrini Masculina Academia Caminhada",
-      "de": 135.41,
-      "por": 59.99,
-      "titulo": "Preço de queima, 54% mais barato.",
-      "garimpado_em": "2026-10-13T10:42-03:00",
-      "na_revisao_desde": "2026-10-13T10:42-03:00",
-      "aprovado_em": "2026-10-13T11:47-03:00"
     }
   ],
   "postados": [
@@ -872,6 +854,14 @@
       "data": "2026-10-13T11:12-03:00",
       "link": "https://meli.la/2Y9mkYv",
       "link_produto": "https://meli.la/2Y9mkYv"
+    },
+    {
+      "chave": "mercadolivre:MLB4592320910",
+      "loja": "mercadolivre",
+      "nome": "Kit 4 Camiseta Dry-fit Sandrini Masculina Academia Caminhada",
+      "data": "2026-10-13T11:47-03:00",
+      "link": "https://meli.la/2hk7fyL",
+      "link_produto": "https://meli.la/2hk7fyL"
     }
   ],
   "slots_usados": {
@@ -1504,6 +1494,19 @@
   "ultimos": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB4592320910",
+      "origem": "xetdaspromocoes",
+      "link": "https://meli.la/2hk7fyL",
+      "link_produto": "https://meli.la/2hk7fyL",
+      "post_origem": "https://t.me/xetdaspromocoes/84583",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_626928-MLB82004918446_022025-O.webp",
+      "nome": "Kit 4 Camiseta Dry-fit Sandrini Masculina Academia Caminhada",
+      "de": 135.41,
+      "por": 59.99,
+      "titulo": "Preço de queima, 54% mais barato."
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB24117280",
       "origem": "gatunopromos",
       "link": "https://meli.la/2Y9mkYv",
@@ -2029,16 +2032,6 @@
       "foto": "AgACAgQAAxkDAAPEas0wpX40DN9mrD6RdL2C8NlKZLcAAuQMaxtkEq1TxgEQuQKXzlsBAAMCAAN4AAM9BA",
       "nome": "Creatina Max Titanium 7 Belo em pó x 300g",
       "por": 41.54
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB67893601",
-      "link": "https://meli.la/1rtp73o",
-      "link_produto": "https://www.mercadolivre.com.br/notebook-asus-vivobook-s-14-s5406sa-copilot-pc-intel-core-ultra-7-256-v-16gb-ram-512gb-ssd-windows-11-home-14-oled-mist-blue-qd299w/p/MLB67893601",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_842080-MLA109454435224_042026-O.webp",
-      "nome": "Notebook ASUS Vivobook S 14 S5406SA Copilot+ PC Intel Core Ultra 7",
-      "de": 6999.0,
-      "por": 5683.0
     }
   ],
   "lixeira": [
