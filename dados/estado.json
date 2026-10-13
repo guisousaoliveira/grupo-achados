@@ -352,6 +352,25 @@
       "garimpado_em": "2026-10-13T11:15-03:00",
       "na_revisao_desde": "2026-10-13T11:15-03:00",
       "aprovado_em": "2026-10-13T11:45-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB4049279695",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/27qV9AS",
+      "link_produto": "https://meli.la/27qV9AS",
+      "post_origem": "https://t.me/lobaopromo/188800",
+      "link_canal": "https://meli.la/1bGvySN",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_636204-MLB92283366432_092025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Tênis Kappa Park 2.0 Original Unissex Caminhada Academia",
+      "pix": true,
+      "de": 169.99,
+      "por": 93.76,
+      "titulo": "Tênis na promo",
+      "garimpado_em": "2026-10-13T10:50-03:00",
+      "na_revisao_desde": "2026-10-13T10:50-03:00",
+      "aprovado_em": "2026-10-13T11:46-03:00"
     }
   ],
   "postados": [
@@ -1234,26 +1253,6 @@
       "garimpado_em": "2026-10-13T10:44-03:00",
       "na_revisao_desde": "2026-10-13T10:44-03:00",
       "msg_id": 484
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB4049279695",
-      "origem": "lobaopromo",
-      "link": "https://produto.mercadolivre.com.br/MLB-4049279695-tnis-kappa-park-20-original-unissex-caminhada-academia-_JM?pdp_filters=item_id%3AMLB4049279695&matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-4049279695-tnis-kappa-park-20-original-unissex-caminhada-academia-_JM?pdp_filters=item_id%3AMLB4049279695",
-      "post_origem": "https://t.me/lobaopromo/188800",
-      "link_canal": "https://meli.la/1bGvySN",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_636204-MLB92283366432_092025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Tênis Kappa Park 2.0 Original Unissex Caminhada Academia",
-      "pix": true,
-      "de": 169.99,
-      "por": 88.7,
-      "titulo": "Tênis Kappa Park com 48% off",
-      "id": 257,
-      "garimpado_em": "2026-10-13T10:50-03:00",
-      "na_revisao_desde": "2026-10-13T10:50-03:00",
-      "msg_id": 485
     }
   ],
   "proximo_id": 272,
@@ -2520,7 +2519,7 @@
       },
       "lobaopromo": {
         "achados": 17,
-        "aprovados": 7,
+        "aprovados": 8,
         "reprovados": 6
       },
       "promooeasy": {
