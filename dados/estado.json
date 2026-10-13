@@ -1106,23 +1106,6 @@
       "garimpado_em": "2026-10-13T12:46-03:00",
       "na_revisao_desde": "2026-10-13T12:46-03:00",
       "msg_id": 557
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B09JSQPBCS",
-      "origem": "promonocontext",
-      "link": "https://www.amazon.com.br/dp/B09JSQPBCS?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B09JSQPBCS?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promonocontext/126220",
-      "link_canal": "https://link.amazon/B01tRlR8y",
-      "foto": "AgACAgEAAxkDAAICL2rOUt5L1_j2CXOD89BBo7EFitRTAAJnDWsb7AJxRoafRRpGAmWqAQADAgADeAADPQQ",
-      "foto_origem": "canal",
-      "nome": "R 109 parcelado",
-      "titulo": "Preço bom, vale conferir.",
-      "id": 290,
-      "garimpado_em": "2026-10-13T12:48-03:00",
-      "na_revisao_desde": "2026-10-13T12:48-03:00",
-      "msg_id": 559
     }
   ],
   "proximo_id": 298,
@@ -1991,6 +1974,24 @@
   ],
   "lixeira": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B09JSQPBCS",
+      "origem": "promonocontext",
+      "link": "https://www.amazon.com.br/dp/B09JSQPBCS?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B09JSQPBCS?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promonocontext/126220",
+      "link_canal": "https://link.amazon/B01tRlR8y",
+      "foto": "AgACAgEAAxkDAAICL2rOUt5L1_j2CXOD89BBo7EFitRTAAJnDWsb7AJxRoafRRpGAmWqAQADAgADeAADPQQ",
+      "foto_origem": "canal",
+      "nome": "R 109 parcelado",
+      "titulo": "Preço bom, vale conferir.",
+      "id": 290,
+      "garimpado_em": "2026-10-13T12:48-03:00",
+      "na_revisao_desde": "2026-10-13T12:48-03:00",
+      "removido_em": "2026-10-13T13:05:47-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB6202796446",
       "origem": "promonocontext",
@@ -2362,7 +2363,7 @@
       "promonocontext": {
         "achados": 17,
         "aprovados": 3,
-        "reprovados": 11
+        "reprovados": 12
       },
       "infoBRpromos": {
         "achados": 8,
