@@ -3,25 +3,6 @@
   "fila": [
     {
       "loja": "amazon",
-      "chave": "amazon:B0B2712FTY",
-      "origem": "lobaopromo",
-      "link": "https://link.amazon/B0ezvVAjk",
-      "link_produto": "https://link.amazon/B0ezvVAjk",
-      "post_origem": "https://t.me/lobaopromo/188609",
-      "link_canal": "https://amzlink.to/az058XKCL7gu2",
-      "foto": "AgACAgQAAxkDAAIBGGrNdvnBBck4k2kGlLlak3ebBBgBAAK5DmsbxzV1UjqEK3jnduRSAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Mouse Sem Fio HP 150",
-      "pix": true,
-      "de": 67.9,
-      "por": 50.73,
-      "prime": true,
-      "garimpado_em": "2026-10-12T21:11-03:00",
-      "na_revisao_desde": "2026-10-12T21:11-03:00",
-      "aprovado_em": "2026-10-12T21:19-03:00"
-    },
-    {
-      "loja": "amazon",
       "chave": "amazon:B0955QFBH2",
       "origem": "lobaopromo",
       "link": "https://link.amazon/B0gRojdZy",
@@ -729,6 +710,14 @@
       "link": "https://meli.la/1GX7MuJ",
       "link_produto": "https://meli.la/1GX7MuJ",
       "slot": 8
+    },
+    {
+      "chave": "amazon:B0B2712FTY",
+      "loja": "amazon",
+      "nome": "Mouse Sem Fio HP 150",
+      "data": "2026-10-13T09:15-03:00",
+      "link": "https://link.amazon/B0ezvVAjk",
+      "link_produto": "https://link.amazon/B0ezvVAjk"
     }
   ],
   "slots_usados": {
@@ -1326,6 +1315,20 @@
   },
   "ultimos": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B0B2712FTY",
+      "origem": "lobaopromo",
+      "link": "https://link.amazon/B0ezvVAjk",
+      "link_produto": "https://link.amazon/B0ezvVAjk",
+      "post_origem": "https://t.me/lobaopromo/188609",
+      "foto": "AgACAgQAAxkDAAIBGGrNdvnBBck4k2kGlLlak3ebBBgBAAK5DmsbxzV1UjqEK3jnduRSAQADAgADeAADPQQ",
+      "nome": "Mouse Sem Fio HP 150",
+      "pix": true,
+      "de": 67.9,
+      "por": 50.73,
+      "prime": true
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB4703022818",
       "origem": "promonocontext",
@@ -1823,16 +1826,6 @@
       "nome": "Lanterna Tática Recarregável Atualizada Led Visor Digital Zoom",
       "de": 57.0,
       "por": 19.0
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB42978348",
-      "link": "https://meli.la/2EC8yAy",
-      "link_produto": "https://www.mercadolivre.com.br/bicicleta-ergometrica-bike-spinning-6kg-sensacao-inercia-fitness-preto-e-vermelho-sevenfit-para-cardio/p/MLB42978348",
-      "foto": "AgACAgQAAxkDAAOYaszM_gYn2_4F1H-UfjpPRdZ3RvMAAi4NaxsbFxRTWc5X9yYqCIUBAAMCAAN4AAM9BA",
-      "nome": "Bicicleta Ergométrica Bike Spinning 6kg Sensação Inércia Fitness",
-      "de": 1094.0,
-      "por": 458.0
     }
   ],
   "lixeira": [
