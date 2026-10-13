@@ -1263,24 +1263,6 @@
     },
     {
       "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB16268160",
-      "origem": "promonocontext",
-      "link": "https://www.mercadolivre.com.br/controle-xbox-series-xs-series-xs/p/MLB16268160?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/controle-xbox-series-xs-series-xs/p/MLB16268160",
-      "post_origem": "https://t.me/promonocontext/126237",
-      "link_canal": "https://meli.la/1zGYfYp",
-      "foto": "AgACAgQAAxkDAAICUGrOY_BQwVfFdg2vJU7eqfwOi2f6AAIvDGsbr-RkUYE8Pg7FWsNkAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Controle xbox Series X|S Series X|S",
-      "por": 324.0,
-      "titulo": "Controle Xbox Series X|S disponível por R$ 324.",
-      "id": 316,
-      "garimpado_em": "2026-10-13T14:01-03:00",
-      "na_revisao_desde": "2026-10-13T14:01-03:00",
-      "msg_id": 592
-    },
-    {
-      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB2178289241",
       "origem": "lobaopromo",
       "link": "https://produto.mercadolivre.com.br/MLB-2178289241-camisa-termica-voker-academia-proteco-solar-uv-dry-fit-_JM?pdp_filters=item_id%3AMLB2178289241&matt_word=alphapromo&matt_tool=59136903",
@@ -2210,6 +2192,25 @@
   "lixeira": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB16268160",
+      "origem": "promonocontext",
+      "link": "https://www.mercadolivre.com.br/controle-xbox-series-xs-series-xs/p/MLB16268160?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/controle-xbox-series-xs-series-xs/p/MLB16268160",
+      "post_origem": "https://t.me/promonocontext/126237",
+      "link_canal": "https://meli.la/1zGYfYp",
+      "foto": "AgACAgQAAxkDAAICUGrOY_BQwVfFdg2vJU7eqfwOi2f6AAIvDGsbr-RkUYE8Pg7FWsNkAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Controle xbox Series X|S Series X|S",
+      "por": 324.0,
+      "titulo": "Controle Xbox Series X|S disponível por R$ 324.",
+      "id": 316,
+      "garimpado_em": "2026-10-13T14:01-03:00",
+      "na_revisao_desde": "2026-10-13T14:01-03:00",
+      "removido_em": "2026-10-13T14:30:01-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB3102506128",
       "origem": "lobaopromo",
       "link": "https://produto.mercadolivre.com.br/MLB-3102506128-top-puma-original-feminino-alta-sustentaco-academia-fitness-_JM?pdp_filters=item_id%3AMLB3102506128&matt_word=alphapromo&matt_tool=59136903",
@@ -2801,7 +2802,7 @@
       "promonocontext": {
         "achados": 21,
         "aprovados": 3,
-        "reprovados": 13
+        "reprovados": 14
       },
       "infoBRpromos": {
         "achados": 8,
