@@ -699,27 +699,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "shopee",
-      "chave": "shopee:344390826.58201622740",
-      "origem": "promooeasy",
-      "link": "https://shopee.com.br/product/344390826/58201622740",
-      "link_produto": "https://shopee.com.br/product/344390826/58201622740",
-      "post_origem": "https://t.me/promooeasy/220301",
-      "link_canal": "https://s.shopee.com.br/4VdX3Y4AJG?lp=aff",
-      "precisa_link": true,
-      "foto": "AgACAgEAAxkDAAIBYWrOBhIRXrFFFx2dnIguAb4eSVcjAAIMDWsb7AJxRlVndKxtRtphAQADAgADeAADPQQ",
-      "foto_origem": "canal",
-      "nome": "Nintendo Switch OLED Bundle Mario Bros. Wonder + NSO 3 Meses",
-      "por": 1840.0,
-      "titulo": "Nintendo Switch OLED com 32% de desconto",
-      "id": 185,
-      "garimpado_em": "2026-10-13T07:21-03:00",
-      "na_revisao_desde": "2026-10-13T07:21-03:00",
-      "msg_id": 353
-    }
-  ],
+  "revisar": [],
   "proximo_id": 187,
   "radar": {
     "visto": {
@@ -1417,6 +1397,26 @@
   "lixeira": [
     {
       "loja": "shopee",
+      "chave": "shopee:344390826.58201622740",
+      "origem": "promooeasy",
+      "link": "https://shopee.com.br/product/344390826/58201622740",
+      "link_produto": "https://shopee.com.br/product/344390826/58201622740",
+      "post_origem": "https://t.me/promooeasy/220301",
+      "link_canal": "https://s.shopee.com.br/4VdX3Y4AJG?lp=aff",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAIBYWrOBhIRXrFFFx2dnIguAb4eSVcjAAIMDWsb7AJxRlVndKxtRtphAQADAgADeAADPQQ",
+      "foto_origem": "canal",
+      "nome": "Nintendo Switch OLED Bundle Mario Bros. Wonder + NSO 3 Meses",
+      "por": 1840.0,
+      "titulo": "Nintendo Switch OLED com 32% de desconto",
+      "id": 185,
+      "garimpado_em": "2026-10-13T07:21-03:00",
+      "na_revisao_desde": "2026-10-13T07:21-03:00",
+      "removido_em": "2026-10-13T07:34:11-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "shopee",
       "chave": "shopee:627750190.58257777632",
       "origem": "promooeasy",
       "link": "https://shopee.com.br/product/627750190/58257777632",
@@ -1549,7 +1549,7 @@
       "promooeasy": {
         "achados": 15,
         "aprovados": 0,
-        "reprovados": 14
+        "reprovados": 15
       }
     }
   },
