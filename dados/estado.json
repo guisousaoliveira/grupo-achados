@@ -591,24 +591,6 @@
   "revisar": [
     {
       "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB19794389",
-      "origem": "promonocontext",
-      "link": "https://www.mercadolivre.com.br/creatina-ftw-em-po-sem-sabor-x-300g/p/MLB19794389?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/creatina-ftw-em-po-sem-sabor-x-300g/p/MLB19794389",
-      "post_origem": "https://t.me/promonocontext/126023",
-      "link_canal": "https://meli.la/2sUBgo8",
-      "foto": "AgACAgQAAxkDAAIBCWrNaOqrlk1nwqpio3NZ_-nAelTsAAJXC2sbpxt9UaRoi7b8jrSqAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Creatina FTW em pó Sem sabor x 300g",
-      "por": 25.0,
-      "titulo": "Creatina FTW com 64% off",
-      "id": 127,
-      "garimpado_em": "2026-10-12T20:10-03:00",
-      "na_revisao_desde": "2026-10-12T20:10-03:00",
-      "msg_id": 265
-    },
-    {
-      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB25708136",
       "origem": "lobaopromo",
       "link": "https://www.mercadolivre.com.br/hugo-boss-jeans-edt-perfume-masculino-125ml/p/MLB25708136?matt_word=alphapromo&matt_tool=59136903",
@@ -1176,6 +1158,25 @@
   "lixeira": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB19794389",
+      "origem": "promonocontext",
+      "link": "https://www.mercadolivre.com.br/creatina-ftw-em-po-sem-sabor-x-300g/p/MLB19794389?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/creatina-ftw-em-po-sem-sabor-x-300g/p/MLB19794389",
+      "post_origem": "https://t.me/promonocontext/126023",
+      "link_canal": "https://meli.la/2sUBgo8",
+      "foto": "AgACAgQAAxkDAAIBCWrNaOqrlk1nwqpio3NZ_-nAelTsAAJXC2sbpxt9UaRoi7b8jrSqAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Creatina FTW em pó Sem sabor x 300g",
+      "por": 25.0,
+      "titulo": "Creatina FTW com 64% off",
+      "id": 127,
+      "garimpado_em": "2026-10-12T20:10-03:00",
+      "na_revisao_desde": "2026-10-12T20:10-03:00",
+      "removido_em": "2026-10-12T21:17:06-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB2078002740",
       "origem": "promonocontext",
       "link": "https://www.mercadolivre.com.br/adaptador-de-ngulo-magnetico-a-para-aco-cromado-vanadio-g/p/MLB2078002740?matt_word=alphapromo&matt_tool=59136903",
@@ -1704,7 +1705,7 @@
       "promonocontext": {
         "achados": 9,
         "aprovados": 6,
-        "reprovados": 1
+        "reprovados": 2
       },
       "boletando": {
         "achados": 1,
