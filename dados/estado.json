@@ -1356,24 +1356,6 @@
       "garimpado_em": "2026-10-13T14:51-03:00",
       "na_revisao_desde": "2026-10-13T14:51-03:00",
       "msg_id": 608
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB5330609348",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/suporte-base-vertical-para-playstation-5-ps5-slim-fat-todos/up/MLBU3092993382?pdp_filters=item_id%3AMLB5330609348&matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/suporte-base-vertical-para-playstation-5-ps5-slim-fat-todos/up/MLBU3092993382?pdp_filters=item_id%3AMLB5330609348",
-      "post_origem": "https://t.me/lobaopromo/188900",
-      "link_canal": "https://meli.la/1zqb7bt",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_783743-MLB83051258254_032025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Suporte Base Vertical Para Playstation 5 Ps5 Slim Fat Todos Preto",
-      "por": 19.0,
-      "titulo": "Preço bom, vale conferir.",
-      "id": 328,
-      "garimpado_em": "2026-10-13T14:52-03:00",
-      "na_revisao_desde": "2026-10-13T14:52-03:00",
-      "msg_id": 609
     }
   ],
   "proximo_id": 352,
@@ -2294,6 +2276,25 @@
   ],
   "lixeira": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB5330609348",
+      "origem": "lobaopromo",
+      "link": "https://www.mercadolivre.com.br/suporte-base-vertical-para-playstation-5-ps5-slim-fat-todos/up/MLBU3092993382?pdp_filters=item_id%3AMLB5330609348&matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/suporte-base-vertical-para-playstation-5-ps5-slim-fat-todos/up/MLBU3092993382?pdp_filters=item_id%3AMLB5330609348",
+      "post_origem": "https://t.me/lobaopromo/188900",
+      "link_canal": "https://meli.la/1zqb7bt",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_783743-MLB83051258254_032025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Suporte Base Vertical Para Playstation 5 Ps5 Slim Fat Todos Preto",
+      "por": 19.0,
+      "titulo": "Preço bom, vale conferir.",
+      "id": 328,
+      "garimpado_em": "2026-10-13T14:52-03:00",
+      "na_revisao_desde": "2026-10-13T14:52-03:00",
+      "removido_em": "2026-10-13T15:48:20-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0HKTFGRQV",
       "origem": "promooeasy",
@@ -3076,27 +3077,6 @@
       "na_revisao_desde": "2026-10-13T12:54-03:00",
       "removido_em": "2026-10-13T13:05:43-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0FR6PC1FB",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B0FR6PC1FB?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0FR6PC1FB?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/bundle-nintendo-switch-oled-super-mario-bros-wonder-3-meses-de-assinatura-nintendo-switch-online-3110409/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3110409/",
-      "nome": "Bundle Nintendo Switch OLED + Super Mario Bros Wonder + 3 Meses de",
-      "por": 1952.0,
-      "de": 2699.9,
-      "foto": "AgACAgQAAxkDAAICFGrOS3az5VPXLSl4kpICQed7DKDkAALjDWsbrjF0UjxSZYKcWO9rAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "titulo": "Achado do dia, aproveita antes de acabar.",
-      "id": 272,
-      "garimpado_em": "2026-10-13T12:17-03:00",
-      "na_revisao_desde": "2026-10-13T12:17-03:00",
-      "removido_em": "2026-10-13T13:05:34-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -3166,7 +3146,7 @@
       "lobaopromo": {
         "achados": 35,
         "aprovados": 9,
-        "reprovados": 13
+        "reprovados": 14
       },
       "promooeasy": {
         "achados": 74,
