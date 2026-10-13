@@ -1431,25 +1431,6 @@
       "garimpado_em": "2026-10-13T14:54-03:00",
       "na_revisao_desde": "2026-10-13T14:54-03:00",
       "msg_id": 612
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:829012010.58263177026",
-      "origem": "promooeasy",
-      "link": "https://shopee.com.br/product/829012010/58263177026",
-      "link_produto": "https://shopee.com.br/product/829012010/58263177026",
-      "post_origem": "https://t.me/promooeasy/220616",
-      "link_canal": "https://s.shopee.com.br/8fT6WPycAt?lp=aff",
-      "precisa_link": true,
-      "foto": "AgACAgEAAxkDAAICZWrOcG8Urhf3Wsj1RU3TO2xWNclSAAKCDWsb7AJxRgsGCK2aZobNAQADAgADeAADPQQ",
-      "foto_origem": "canal",
-      "nome": "Console PlayStation 5 Slim Edição Digital 825GB - PS5",
-      "por": 3772.0,
-      "titulo": "PlayStation 5 Slim com desconto na Shopee",
-      "id": 332,
-      "garimpado_em": "2026-10-13T14:54-03:00",
-      "na_revisao_desde": "2026-10-13T14:54-03:00",
-      "msg_id": 613
     }
   ],
   "proximo_id": 352,
@@ -2370,6 +2351,26 @@
   ],
   "lixeira": [
     {
+      "loja": "shopee",
+      "chave": "shopee:829012010.58263177026",
+      "origem": "promooeasy",
+      "link": "https://shopee.com.br/product/829012010/58263177026",
+      "link_produto": "https://shopee.com.br/product/829012010/58263177026",
+      "post_origem": "https://t.me/promooeasy/220616",
+      "link_canal": "https://s.shopee.com.br/8fT6WPycAt?lp=aff",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAICZWrOcG8Urhf3Wsj1RU3TO2xWNclSAAKCDWsb7AJxRgsGCK2aZobNAQADAgADeAADPQQ",
+      "foto_origem": "canal",
+      "nome": "Console PlayStation 5 Slim Edição Digital 825GB - PS5",
+      "por": 3772.0,
+      "titulo": "PlayStation 5 Slim com desconto na Shopee",
+      "id": 332,
+      "garimpado_em": "2026-10-13T14:54-03:00",
+      "na_revisao_desde": "2026-10-13T14:54-03:00",
+      "removido_em": "2026-10-13T15:48:05-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0F7JZMVKF",
       "origem": "promobit",
@@ -3155,27 +3156,6 @@
       "na_revisao_desde": "2026-10-13T12:47-03:00",
       "removido_em": "2026-10-13T13:05:22-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB7191022150",
-      "origem": "promonocontext",
-      "link": "https://www.mercadolivre.com.br/water-cooler-obsid-pro-360-digital-argb-amd-e-intel/up/MLBU4353744520?pdp_filters=item_id%3AMLB7191022150&matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/water-cooler-obsid-pro-360-digital-argb-amd-e-intel/up/MLBU4353744520?pdp_filters=item_id%3AMLB7191022150",
-      "post_origem": "https://t.me/promonocontext/126222",
-      "link_canal": "https://meli.la/1iar1JH",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_906182-MLB114702463289_072026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Water Cooler Obsid Pro 360 Digital Argb Amd E Intel Preto",
-      "de": 499.0,
-      "por": 324.0,
-      "cupom": "MELHORDEHJ",
-      "titulo": "Preço bom, vale conferir.",
-      "id": 291,
-      "garimpado_em": "2026-10-13T12:50-03:00",
-      "na_revisao_desde": "2026-10-13T12:50-03:00",
-      "removido_em": "2026-10-13T13:05:15-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -3250,7 +3230,7 @@
       "promooeasy": {
         "achados": 74,
         "aprovados": 2,
-        "reprovados": 65
+        "reprovados": 66
       },
       "xetdaspromocoes": {
         "achados": 13,
