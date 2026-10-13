@@ -350,6 +350,25 @@
       "na_revisao_desde": "2026-10-13T08:31-03:00",
       "de": 69.31,
       "aprovado_em": "2026-10-13T09:20-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB5513844630",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/2GQH2RJ",
+      "link_produto": "https://meli.la/2GQH2RJ",
+      "post_origem": "https://t.me/lobaopromo/188714",
+      "link_canal": "https://meli.la/2vDqDpt",
+      "foto": "AgACAgQAAxkDAAIBa2rOFH1iRx_TcFBeg7_0uXLYbLInAAKPD2sbiyZVUqVc9jNGOI8VAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Camisa Polo Tommy Masculina",
+      "pix": true,
+      "de": 350.0,
+      "por": 148.0,
+      "titulo": "58% off, isso aqui não fica muito tempo assim.",
+      "garimpado_em": "2026-10-13T08:22-03:00",
+      "na_revisao_desde": "2026-10-13T08:22-03:00",
+      "aprovado_em": "2026-10-13T09:21-03:00"
     }
   ],
   "postados": [
@@ -804,26 +823,6 @@
   },
   "shopee_buscado_em": "",
   "revisar": [
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB5513844630",
-      "origem": "lobaopromo",
-      "link": "https://produto.mercadolivre.com.br/MLB-5513844630-camisa-polo-tommy-masculina-_JM?pdp_filters=item_id%3AMLB5513844630&matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-5513844630-camisa-polo-tommy-masculina-_JM?pdp_filters=item_id%3AMLB5513844630",
-      "post_origem": "https://t.me/lobaopromo/188714",
-      "link_canal": "https://meli.la/2vDqDpt",
-      "foto": "AgACAgQAAxkDAAIBa2rOFH1iRx_TcFBeg7_0uXLYbLInAAKPD2sbiyZVUqVc9jNGOI8VAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Camisa Polo Tommy Masculina",
-      "pix": true,
-      "de": 350.0,
-      "por": 148.0,
-      "titulo": "58% off, isso aqui não fica muito tempo assim.",
-      "id": 191,
-      "garimpado_em": "2026-10-13T08:22-03:00",
-      "na_revisao_desde": "2026-10-13T08:22-03:00",
-      "msg_id": 363
-    },
     {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB4348056327",
@@ -2009,7 +2008,7 @@
       },
       "lobaopromo": {
         "achados": 8,
-        "aprovados": 5,
+        "aprovados": 6,
         "reprovados": 2
       },
       "promooeasy": {
