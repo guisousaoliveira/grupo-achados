@@ -860,25 +860,6 @@
   "revisar": [
     {
       "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB4024851715",
-      "origem": "xetdaspromocoes",
-      "link": "https://produto.mercadolivre.com.br/MLB-4024851715-shorts-academia-feminino-modelador-com-bolso-zero-opacidade-_JM?pdp_filters=item_id%3AMLB4024851715&matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-4024851715-shorts-academia-feminino-modelador-com-bolso-zero-opacidade-_JM?pdp_filters=item_id%3AMLB4024851715",
-      "post_origem": "https://t.me/xetdaspromocoes/84559",
-      "link_canal": "https://meli.la/263fTzr",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_813143-MLB93548889416_102025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Shorts Academia Feminino Modelador Com Bolso Zero Opacidade",
-      "de": 41.0,
-      "por": 27.0,
-      "titulo": "Shorts modelador com 34% off",
-      "id": 232,
-      "garimpado_em": "2026-10-13T10:04-03:00",
-      "na_revisao_desde": "2026-10-13T10:04-03:00",
-      "msg_id": 448
-    },
-    {
-      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB61670563",
       "origem": "lobaopromo",
       "link": "https://www.mercadolivre.com.br/maquina-acabamento-kemei-km-032-barba-cabelo-bivolt/p/MLB61670563?matt_word=alphapromo&matt_tool=59136903",
@@ -1966,6 +1947,26 @@
   ],
   "lixeira": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB4024851715",
+      "origem": "xetdaspromocoes",
+      "link": "https://produto.mercadolivre.com.br/MLB-4024851715-shorts-academia-feminino-modelador-com-bolso-zero-opacidade-_JM?pdp_filters=item_id%3AMLB4024851715&matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-4024851715-shorts-academia-feminino-modelador-com-bolso-zero-opacidade-_JM?pdp_filters=item_id%3AMLB4024851715",
+      "post_origem": "https://t.me/xetdaspromocoes/84559",
+      "link_canal": "https://meli.la/263fTzr",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_813143-MLB93548889416_102025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Shorts Academia Feminino Modelador Com Bolso Zero Opacidade",
+      "de": 41.0,
+      "por": 27.0,
+      "titulo": "Shorts modelador com 34% off",
+      "id": 232,
+      "garimpado_em": "2026-10-13T10:04-03:00",
+      "na_revisao_desde": "2026-10-13T10:04-03:00",
+      "removido_em": "2026-10-13T10:31:47-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:295737745.54311117268",
       "origem": "promooeasy",
@@ -2129,7 +2130,7 @@
       "xetdaspromocoes": {
         "achados": 8,
         "aprovados": 3,
-        "reprovados": 0
+        "reprovados": 1
       },
       "promotop": {
         "achados": 3,
