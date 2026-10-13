@@ -1038,26 +1038,6 @@
     },
     {
       "loja": "amazon",
-      "chave": "amazon:B07G7JWLL1",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B07G7JWLL1?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B07G7JWLL1?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/kit-com-10-saches-athletica-nutrition-go-energy-now-gel-30g-3110072/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3110072/",
-      "nome": "Kit com 10 Sachês Athletica Nutrition GO! Energy Now Gel 30g",
-      "por": 22.0,
-      "de": 25.0,
-      "foto": "AgACAgQAAxkDAAIBz2rOL1hekxS2HiTsSjVJJUFBYoG8AAJ5EGsb3ye9UFDgaDIJGqlhAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "titulo": "Preço bom, vale conferir.",
-      "id": 242,
-      "garimpado_em": "2026-10-13T10:17-03:00",
-      "na_revisao_desde": "2026-10-13T10:17-03:00",
-      "msg_id": 463
-    },
-    {
-      "loja": "amazon",
       "chave": "amazon:B0C2J8XTYY",
       "origem": "xetdaspromocoes",
       "link": "https://www.amazon.com.br/dp/B0C2J8XTYY?tag=alphadominu09-20",
@@ -1989,6 +1969,27 @@
   ],
   "lixeira": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B07G7JWLL1",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B07G7JWLL1?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B07G7JWLL1?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/kit-com-10-saches-athletica-nutrition-go-energy-now-gel-30g-3110072/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3110072/",
+      "nome": "Kit com 10 Sachês Athletica Nutrition GO! Energy Now Gel 30g",
+      "por": 22.0,
+      "de": 25.0,
+      "foto": "AgACAgQAAxkDAAIBz2rOL1hekxS2HiTsSjVJJUFBYoG8AAJ5EGsb3ye9UFDgaDIJGqlhAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "titulo": "Preço bom, vale conferir.",
+      "id": 242,
+      "garimpado_em": "2026-10-13T10:17-03:00",
+      "na_revisao_desde": "2026-10-13T10:17-03:00",
+      "removido_em": "2026-10-13T11:50:38-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB75898255",
       "origem": "promotop",
@@ -2503,7 +2504,7 @@
       "promobit": {
         "achados": 13,
         "aprovados": 3,
-        "reprovados": 9
+        "reprovados": 10
       },
       "lobaopromo": {
         "achados": 17,
