@@ -772,7 +772,8 @@ def gemini(corpo, timeout=30):
             if e.code == 429:
                 # Cota grátis desse modelo acabou (minuto ou dia). Cada modelo tem a sua cota, e os "lite"
                 # têm bem mais: passa para eles em vez de desistir.
-                log(f"IA: cota do {modelo} acabou (429), tentando outro modelo.")
+                qual = "do dia" if "PerDay" in detalhe else "do minuto" if "PerMinute" in detalhe else "?"
+                log(f"IA: cota {qual} do {modelo} acabou (429), tentando outro modelo.")
                 cota = True
                 if modelo in _modelo_ia:
                     _modelo_ia.clear()
