@@ -205,6 +205,26 @@
       "garimpado_em": "2026-10-13T22:50-03:00",
       "na_revisao_desde": "2026-10-13T22:50-03:00",
       "aprovado_em": "2026-10-13T23:32-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB75755258",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/1C3xGJw",
+      "link_produto": "https://meli.la/1C3xGJw",
+      "post_origem": "https://t.me/lobaopromo/189103",
+      "link_canal": "https://meli.la/1m1Xjqv",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_760171-MLA113815933188_072026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Mochila Para Notebook Impermeável com Porta USB e Senha Para Homem",
+      "pix": true,
+      "de": 199.0,
+      "por": 80.4,
+      "cupom": "JOGADOR",
+      "titulo": "Mochila impermeável para notebook",
+      "garimpado_em": "2026-10-13T22:50-03:00",
+      "na_revisao_desde": "2026-10-13T22:50-03:00",
+      "aprovado_em": "2026-10-13T23:33-03:00"
     }
   ],
   "postados": [
@@ -3250,27 +3270,6 @@
       "garimpado_em": "2026-10-13T22:41-03:00",
       "na_revisao_desde": "2026-10-13T22:41-03:00",
       "msg_id": 790
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB75755258",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/mochila-para-notebook-impermeavel-com-porta-usb-e-senha-para-homem/p/MLB75755258?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/mochila-para-notebook-impermeavel-com-porta-usb-e-senha-para-homem/p/MLB75755258",
-      "post_origem": "https://t.me/lobaopromo/189103",
-      "link_canal": "https://meli.la/1m1Xjqv",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_760171-MLA113815933188_072026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Mochila Para Notebook Impermeável com Porta USB e Senha Para Homem",
-      "pix": true,
-      "de": 199.0,
-      "por": 80.4,
-      "cupom": "JOGADOR",
-      "titulo": "Mochila impermeável para notebook com 60% off",
-      "id": 495,
-      "garimpado_em": "2026-10-13T22:50-03:00",
-      "na_revisao_desde": "2026-10-13T22:50-03:00",
-      "msg_id": 791
     }
   ],
   "proximo_id": 498,
@@ -5153,7 +5152,7 @@
       },
       "lobaopromo": {
         "achados": 60,
-        "aprovados": 11,
+        "aprovados": 12,
         "reprovados": 28
       },
       "promooeasy": {
