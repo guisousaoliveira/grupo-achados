@@ -298,6 +298,26 @@
       "titulo": "Whey de chocolate para bater a proteína diária",
       "na_revisao_desde": "2026-10-14T16:40-03:00",
       "aprovado_em": "2026-10-14T18:02-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB30144703",
+      "origem": "promonocontext",
+      "link": "https://meli.la/1vssKpu",
+      "link_produto": "https://meli.la/1vssKpu",
+      "post_origem": "https://t.me/promonocontext/126672",
+      "link_canal": "https://meli.la/175SpSE",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_981459-MLA117136184907_092026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Parafusadeira Furadeira De Impacto The Black Tools Profissional",
+      "por": 159.9,
+      "de": 319.9,
+      "palavra": "parafusadeira",
+      "garimpado_em": "2026-10-14T13:30-03:00",
+      "nota": 62.4,
+      "titulo": "Parafusadeira e furadeira para reparos e perfurações",
+      "na_revisao_desde": "2026-10-14T15:41-03:00",
+      "aprovado_em": "2026-10-14T18:16-03:00"
     }
   ],
   "postados": [
@@ -1481,28 +1501,6 @@
       "id": 543,
       "na_revisao_desde": "2026-10-14T15:41-03:00",
       "msg_id": 884
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB30144703",
-      "origem": "promonocontext",
-      "link": "https://www.mercadolivre.com.br/parafusadeira-furadeira-de-impacto-the-black-tools-profissional-tb-21px-2-baterias-com-maleta-60hz-amarelo/p/MLB30144703?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/parafusadeira-furadeira-de-impacto-the-black-tools-profissional-tb-21px-2-baterias-com-maleta-60hz-amarelo/p/MLB30144703",
-      "post_origem": "https://t.me/promonocontext/126672",
-      "link_canal": "https://meli.la/175SpSE",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_981459-MLA117136184907_092026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Parafusadeira Furadeira De Impacto The Black Tools Profissional",
-      "por": 159.9,
-      "de": 319.9,
-      "cupom": "FULL1410",
-      "palavra": "parafusadeira",
-      "garimpado_em": "2026-10-14T13:30-03:00",
-      "nota": 62.4,
-      "titulo": "Parafusadeira e furadeira para reparos e perfurações",
-      "id": 544,
-      "na_revisao_desde": "2026-10-14T15:41-03:00",
-      "msg_id": 885
     }
   ],
   "proximo_id": 555,
@@ -5615,7 +5613,7 @@
       },
       "promonocontext": {
         "achados": 7,
-        "aprovados": 3,
+        "aprovados": 4,
         "reprovados": 2
       },
       "promooeasy": {
@@ -5809,7 +5807,7 @@
     },
     "parafusadeira": {
       "achados": 6,
-      "aprovados": 0,
+      "aprovados": 1,
       "reprovados": 4
     },
     "perfume masculino": {
