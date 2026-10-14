@@ -318,6 +318,28 @@
       "titulo": "Parafusadeira e furadeira para reparos e perfurações",
       "na_revisao_desde": "2026-10-14T15:41-03:00",
       "aprovado_em": "2026-10-14T18:16-03:00"
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:1746399229.58259501932",
+      "nome": "Suporte de Celular Carro 360º Giratório Universal Multifuncional Ventilacao Ar Condicionado Veicular",
+      "por": 18.99,
+      "de": 39.56,
+      "foto": "AgACAgQAAxkDAAIDdGrPzM43I6pGXS4YF6Fpxuwan-mSAAJvD2sbruo8UeRlngONwSwdAQADAgADeQADPQQ",
+      "link": "https://s.shopee.com.br/5fpWPplALl",
+      "link_produto": "https://shopee.com.br/product/1746399229/58259501932",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.9,
+      "vendas": 810,
+      "palavra": "suporte de celular",
+      "garimpado_em": "2026-10-14T12:51-03:00",
+      "nota": 76.3,
+      "titulo": "Suporte veicular para usar o GPS com segurança",
+      "na_revisao_desde": "2026-10-14T15:41-03:00",
+      "aprovado_em": "2026-10-14T18:18-03:00"
     }
   ],
   "postados": [
@@ -1478,29 +1500,6 @@
       "id": 542,
       "na_revisao_desde": "2026-10-14T15:41-03:00",
       "msg_id": 883
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:1746399229.58259501932",
-      "nome": "Suporte de Celular Carro 360º Giratório Universal Multifuncional Ventilacao Ar Condicionado Veicular",
-      "por": 18.99,
-      "de": 39.56,
-      "foto": "AgACAgQAAxkDAAIDdGrPzM43I6pGXS4YF6Fpxuwan-mSAAJvD2sbruo8UeRlngONwSwdAQADAgADeQADPQQ",
-      "link": "https://s.shopee.com.br/5fpWPplALl",
-      "link_produto": "https://shopee.com.br/product/1746399229/58259501932",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.9,
-      "vendas": 810,
-      "palavra": "suporte de celular",
-      "garimpado_em": "2026-10-14T12:51-03:00",
-      "nota": 76.3,
-      "titulo": "Suporte veicular para usar o GPS com segurança",
-      "id": 543,
-      "na_revisao_desde": "2026-10-14T15:41-03:00",
-      "msg_id": 884
     }
   ],
   "proximo_id": 555,
@@ -5593,7 +5592,7 @@
     "2026-10-14": {
       "shopee": {
         "achados": 34,
-        "aprovados": 14,
+        "aprovados": 15,
         "reprovados": 14
       },
       "lobaopromo": {
@@ -5902,7 +5901,7 @@
     },
     "suporte de celular": {
       "achados": 1,
-      "aprovados": 0,
+      "aprovados": 1,
       "reprovados": 0
     },
     "kit de brocas": {
