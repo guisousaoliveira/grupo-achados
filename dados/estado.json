@@ -1254,27 +1254,6 @@
       "id": 528,
       "na_revisao_desde": "2026-10-14T12:41-03:00",
       "msg_id": 864
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB65993627",
-      "origem": "promonocontext",
-      "link": "https://www.mercadolivre.com.br/oculos-de-sol-quadrado-clubmaster-soho-green-black-da-saint-germain-em-metal-preto/p/MLB65993627?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/oculos-de-sol-quadrado-clubmaster-soho-green-black-da-saint-germain-em-metal-preto/p/MLB65993627",
-      "post_origem": "https://t.me/promonocontext/126540",
-      "link_canal": "https://meli.la/22jDjJy",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_734419-MLA106986505080_022026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Óculos de Sol Quadrado Clubmaster Soho Green Black",
-      "de": 184.0,
-      "por": 66.0,
-      "palavra": "oculos de sol",
-      "garimpado_em": "2026-10-14T10:20-03:00",
-      "nota": 69.6,
-      "titulo": "Óculos de sol com armação quadrada para o rosto",
-      "id": 529,
-      "na_revisao_desde": "2026-10-14T12:41-03:00",
-      "msg_id": 865
     }
   ],
   "proximo_id": 530,
@@ -4559,6 +4538,28 @@
   ],
   "lixeira": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB65993627",
+      "origem": "promonocontext",
+      "link": "https://www.mercadolivre.com.br/oculos-de-sol-quadrado-clubmaster-soho-green-black-da-saint-germain-em-metal-preto/p/MLB65993627?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/oculos-de-sol-quadrado-clubmaster-soho-green-black-da-saint-germain-em-metal-preto/p/MLB65993627",
+      "post_origem": "https://t.me/promonocontext/126540",
+      "link_canal": "https://meli.la/22jDjJy",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_734419-MLA106986505080_022026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Óculos de Sol Quadrado Clubmaster Soho Green Black",
+      "de": 184.0,
+      "por": 66.0,
+      "palavra": "oculos de sol",
+      "garimpado_em": "2026-10-14T10:20-03:00",
+      "nota": 69.6,
+      "titulo": "Óculos de sol com armação quadrada para o rosto",
+      "id": 529,
+      "na_revisao_desde": "2026-10-14T12:41-03:00",
+      "removido_em": "2026-10-14T13:14:03-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:1845647873.58263246550",
       "nome": "Depilador Eletrico Feminino Aparador De Pelos Navalha Dupla Recarregável",
@@ -4933,7 +4934,7 @@
       "promonocontext": {
         "achados": 2,
         "aprovados": 0,
-        "reprovados": 0
+        "reprovados": 1
       }
     }
   },
@@ -5107,7 +5108,7 @@
     "oculos de sol": {
       "achados": 7,
       "aprovados": 2,
-      "reprovados": 4
+      "reprovados": 5
     },
     "oneblade": {
       "achados": 1,
