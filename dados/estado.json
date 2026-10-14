@@ -338,6 +338,28 @@
       "na_revisao_desde": "2026-10-14T09:41-03:00",
       "pix": true,
       "aprovado_em": "2026-10-14T09:43-03:00"
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:1345043704.22497773735",
+      "nome": "ROMANTIC CROWN Mochila Viagem Feminina Masculina Multifuncional Reforçada Impermeável Expansível, Notebook Antifurto USB",
+      "por": 114.0,
+      "de": 499.96,
+      "foto": "AgACAgQAAxkDAAIDPWrPeIWKAT0Gb3Ahif34MFjqv1w5AAKuD2sbUeM8UXGcRVrzCLUsAQADAgADeQADPQQ",
+      "link": "https://s.shopee.com.br/W7Q0XrC9W",
+      "link_produto": "https://shopee.com.br/product/1345043704/22497773735",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 5.0,
+      "vendas": 5242,
+      "palavra": "mochila",
+      "garimpado_em": "2026-10-14T09:01-03:00",
+      "nota": 95.1,
+      "titulo": "Mochila impermeável com compartimento para notebook e USB",
+      "na_revisao_desde": "2026-10-14T09:41-03:00",
+      "aprovado_em": "2026-10-14T09:43-03:00"
     }
   ],
   "postados": [
@@ -1125,31 +1147,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "shopee",
-      "chave": "shopee:1345043704.22497773735",
-      "nome": "ROMANTIC CROWN Mochila Viagem Feminina Masculina Multifuncional Reforçada Impermeável Expansível, Notebook Antifurto USB",
-      "por": 119.99,
-      "de": 499.96,
-      "foto": "AgACAgQAAxkDAAIDPWrPeIWKAT0Gb3Ahif34MFjqv1w5AAKuD2sbUeM8UXGcRVrzCLUsAQADAgADeQADPQQ",
-      "link": "https://s.shopee.com.br/W7Q0XrC9W",
-      "link_produto": "https://shopee.com.br/product/1345043704/22497773735",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 5.0,
-      "vendas": 5242,
-      "palavra": "mochila",
-      "garimpado_em": "2026-10-14T09:01-03:00",
-      "nota": 95.1,
-      "titulo": "Mochila impermeável com compartimento para notebook e USB",
-      "id": 512,
-      "na_revisao_desde": "2026-10-14T09:41-03:00",
-      "msg_id": 829
-    }
-  ],
+  "revisar": [],
   "proximo_id": 515,
   "radar": {
     "visto": {
@@ -10838,7 +10836,7 @@
     "2026-10-14": {
       "shopee": {
         "achados": 14,
-        "aprovados": 9,
+        "aprovados": 10,
         "reprovados": 4
       }
     }
@@ -11007,7 +11005,7 @@
     },
     "mochila": {
       "achados": 7,
-      "aprovados": 2,
+      "aprovados": 3,
       "reprovados": 4
     },
     "oculos de sol": {
