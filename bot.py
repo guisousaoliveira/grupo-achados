@@ -812,7 +812,7 @@ EXEMPLOS_TITULO = ("Fale do produto: o uso, para quem é ou o que ele tem de bom
                    "Whey para você bater a proteína do dia | Mochila que carrega o notebook e a roupa do treino | "
                    "Creatina para render mais no treino | Aparador para manter a barba alinhada em casa | "
                    "Relógio prateado que combina com camisa social | Fone sem fio para treinar sem cabo enroscando | "
-                   "Perfume amadeirado para usar à noite | Garrafa que segura o café quente o dia todo")
+                   "Perfume para usar no trabalho e à noite | Garrafa que segura o café quente o dia todo")
 SEM_DESCONTO = re.compile(r"\d\s*%|\boff\b|descont|promo|\bpre[cç]o|\br\$|metade|barat|oferta|agora ou nunca|\bcorre\b", re.I)
 PROIBIDO_IA = re.compile(r"menor\s+pre[cç]o|hist[oó]ric|nunca\s+vist|mais\s+barat[oa]\s+d[ao]|[uú]ltimas\s+unidades|"
                          r"esgot|pre[cç]o\s+m[ií]nimo|m[ií]nimo\s+hist|frete|entrega\s+gr[aá]tis|brinde|lan[cç]amento", re.I)
