@@ -3,27 +3,6 @@
   "fila": [
     {
       "loja": "shopee",
-      "chave": "shopee:394192376.21897733919",
-      "nome": "Creatina 250g 100% Pura Monohidratada - P&P FIT",
-      "por": 14.9,
-      "de": 124.17,
-      "foto": "AgACAgQAAxkDAAIDJmrO8om5ga5TywOO3ZW4GVmESgABVgAC7bQxG2SsvVOUr0S-6W9DYgEAAwIAA3kAAz0E",
-      "link": "https://s.shopee.com.br/905xXfFQaZ",
-      "link_produto": "https://shopee.com.br/product/394192376/21897733919",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "palavra": "creatina",
-      "garimpado_em": "2026-10-14T00:09-03:00",
-      "nota": 83.8,
-      "titulo": "Creatina P&P FIT 250g com 88% off",
-      "na_revisao_desde": "2026-10-14T00:10-03:00",
-      "aprovado_em": "2026-10-14T00:13-03:00",
-      "aviso_validade": true
-    },
-    {
-      "loja": "shopee",
       "chave": "shopee:787370863.23798509847",
       "nome": "Nível a Laser 3 em 1 com Trena 2,5m, Tripé e Régua – Level Pro 03 Alinhador Horizontal e Vertical",
       "por": 29.9,
@@ -1231,6 +1210,15 @@
       "link": "https://meli.la/1d4dxW9",
       "link_produto": "https://meli.la/1d4dxW9",
       "titulo": "Perfume COM DESCONTO! ÚLTIMAS UNIDADES"
+    },
+    {
+      "chave": "shopee:394192376.21897733919",
+      "loja": "shopee",
+      "nome": "Creatina 250g 100% Pura Monohidratada - P&P FIT",
+      "data": "2026-10-14T13:43-03:00",
+      "link": "https://s.shopee.com.br/905xXfFQaZ",
+      "link_produto": "https://shopee.com.br/product/394192376/21897733919",
+      "titulo": "Creatina P&P FIT 250g com 88% off"
     }
   ],
   "slots_usados": {
@@ -4157,6 +4145,19 @@
   },
   "ultimos": [
     {
+      "loja": "shopee",
+      "chave": "shopee:394192376.21897733919",
+      "nome": "Creatina 250g 100% Pura Monohidratada - P&P FIT",
+      "por": 14.9,
+      "de": 124.17,
+      "foto": "AgACAgQAAxkDAAIDJmrO8om5ga5TywOO3ZW4GVmESgABVgAC7bQxG2SsvVOUr0S-6W9DYgEAAwIAA3kAAz0E",
+      "link": "https://s.shopee.com.br/905xXfFQaZ",
+      "link_produto": "https://shopee.com.br/product/394192376/21897733919",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "titulo": "Creatina P&P FIT 250g com 88% off"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB6139419",
       "origem": "lobaopromo",
@@ -4683,19 +4684,6 @@
       "por": 19.9,
       "titulo": "Coqueteleira com desconto",
       "de": 39.9
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB62756066",
-      "origem": "promonocontext",
-      "link": "https://meli.la/1FLC2G4",
-      "link_produto": "https://meli.la/1FLC2G4",
-      "post_origem": "https://t.me/promonocontext/126127",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_984233-MLA105531058053_012026-O.webp",
-      "nome": "Relógio Inteligente Gps Smartwatch Amoled 3atm Sport Gps Caixa Preto",
-      "de": 599.0,
-      "por": 256.0,
-      "cupom": "MELHORDEHJ"
     }
   ],
   "lixeira": [
