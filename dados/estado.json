@@ -2,25 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB26796581",
-      "origem": "promonocontext",
-      "link": "https://meli.la/2VVeCii",
-      "link_produto": "https://meli.la/2VVeCii",
-      "post_origem": "https://t.me/promonocontext/126172",
-      "link_canal": "https://meli.la/2BQ4GRU",
-      "foto": "AgACAgQAAxkDAAIB8mrOQNGx3nVxjHH055ZaBxy03O3YAAJ1EGsbrZltUAsuDh-0QIvmAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Creatina Dark Lab Premium Pure em pó Sem sabor x 500g",
-      "por": 34.0,
-      "cupom": "OPAECONOMIZEI",
-      "titulo": "Investimento no shape que cabe no bolso.",
-      "garimpado_em": "2026-10-13T11:31-03:00",
-      "na_revisao_desde": "2026-10-13T11:31-03:00",
-      "aprovado_em": "2026-10-13T11:44-03:00",
-      "aviso_validade": true
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B0DH9TR6DR",
       "origem": "promobit",
@@ -1004,6 +985,16 @@
       "data": "2026-10-14T00:13-03:00",
       "link": "https://s.shopee.com.br/113g0y1cSx",
       "link_produto": "https://shopee.com.br/product/322874822/23797686527"
+    },
+    {
+      "chave": "mercadolivre:MLB26796581",
+      "loja": "mercadolivre",
+      "nome": "Creatina Dark Lab Premium Pure em pó Sem sabor x 500g",
+      "data": "2026-10-14T08:32-03:00",
+      "link": "https://meli.la/2VVeCii",
+      "link_produto": "https://meli.la/2VVeCii",
+      "titulo": "Investimento no shape que cabe no bolso.",
+      "slot": 8
     }
   ],
   "slots_usados": {
@@ -1045,6 +1036,9 @@
       21,
       22,
       23
+    ],
+    "2026-10-14": [
+      8
     ]
   },
   "shopee_buscado_em": "",
@@ -6157,6 +6151,19 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB26796581",
+      "origem": "promonocontext",
+      "link": "https://meli.la/2VVeCii",
+      "link_produto": "https://meli.la/2VVeCii",
+      "post_origem": "https://t.me/promonocontext/126172",
+      "foto": "AgACAgQAAxkDAAIB8mrOQNGx3nVxjHH055ZaBxy03O3YAAJ1EGsbrZltUAsuDh-0QIvmAQADAgADeAADPQQ",
+      "nome": "Creatina Dark Lab Premium Pure em pó Sem sabor x 500g",
+      "por": 34.0,
+      "cupom": "OPAECONOMIZEI",
+      "titulo": "Investimento no shape que cabe no bolso."
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:322874822.23797686527",
       "nome": "Relógio Masculino digital wr | 100 % qualidade | entrega rápida",
@@ -6691,22 +6698,6 @@
       "nome": "Power Bank 50000mAh Carga Rápida Display Digital 33W66W USB Type-C",
       "por": 127.3,
       "titulo": "Power bank gigante com menor preço"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0DS9H55DQ",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://link.amazon/B0cBRuCC7",
-      "link_produto": "https://www.amazon.com.br/dp/B0DS9H55DQ?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/relogio-amazfit-gts-4-mini-new-smartwatch-com-alexa-original-175-black-3108968/",
-      "nome": "Relógio Amazfit Gts 4 Mini New Smartwatch Com Alexa Original 1.75",
-      "por": 479.75,
-      "foto": "AgACAgQAAxkDAAPMas01Vi-8ZC7vosebQRRxjNeJuMYAAtEPaxumhWxSUQSIGskYr_oBAAMCAANtAAM9BA",
-      "titulo": "relógio no precinho",
-      "parcelas": 10,
-      "pix": true,
-      "parcela_valor": 50.5
     }
   ],
   "lixeira": [
