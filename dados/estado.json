@@ -1186,29 +1186,6 @@
   "revisar": [
     {
       "loja": "shopee",
-      "chave": "shopee:1142080977.22794275506",
-      "nome": "Kit 100 Forma de airfryer descartavel antiaderente de papel cozinha quadrado fritadeira cozimento",
-      "por": 13.98,
-      "de": 69.9,
-      "foto": "AgACAgQAAxkDAAIDRWrPhoc9rCqLes-iwzDFb4h4Z-5kAAJhDmsbjXV9UH1V4gn6PnJ2AQADAgADeQADPQQ",
-      "link": "https://s.shopee.com.br/2VsUK5UCVT",
-      "link_produto": "https://shopee.com.br/product/1142080977/22794275506",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.7,
-      "vendas": 1946,
-      "palavra": "airfryer",
-      "garimpado_em": "2026-10-14T08:00-03:00",
-      "nota": 93.4,
-      "titulo": "Forma de papel para usar na airfryer sem sujar",
-      "id": 516,
-      "na_revisao_desde": "2026-10-14T10:42-03:00",
-      "msg_id": 842
-    },
-    {
-      "loja": "shopee",
       "chave": "shopee:1512108548.23799008372",
       "nome": "Bicicleta Spinning Ergométrica Exercício Profissional Monitor suporta até 150kg Academia 1.90m",
       "por": 748.78,
@@ -8616,6 +8593,30 @@
   "lixeira": [
     {
       "loja": "shopee",
+      "chave": "shopee:1142080977.22794275506",
+      "nome": "Kit 100 Forma de airfryer descartavel antiaderente de papel cozinha quadrado fritadeira cozimento",
+      "por": 13.98,
+      "de": 69.9,
+      "foto": "AgACAgQAAxkDAAIDRWrPhoc9rCqLes-iwzDFb4h4Z-5kAAJhDmsbjXV9UH1V4gn6PnJ2AQADAgADeQADPQQ",
+      "link": "https://s.shopee.com.br/2VsUK5UCVT",
+      "link_produto": "https://shopee.com.br/product/1142080977/22794275506",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.7,
+      "vendas": 1946,
+      "palavra": "airfryer",
+      "garimpado_em": "2026-10-14T08:00-03:00",
+      "nota": 93.4,
+      "titulo": "Forma de papel para usar na airfryer sem sujar",
+      "id": 516,
+      "na_revisao_desde": "2026-10-14T10:42-03:00",
+      "removido_em": "2026-10-14T11:12:01-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "shopee",
       "chave": "shopee:721218279.25356800051",
       "nome": "80 Estilos Moda Broche Dos Desenhos Animados Bonito Liga Alfinetes Badge Pin Mochila Decoração",
       "por": 2.98,
@@ -8849,7 +8850,7 @@
       "shopee": {
         "achados": 17,
         "aprovados": 10,
-        "reprovados": 4
+        "reprovados": 5
       },
       "lobaopromo": {
         "achados": 2,
@@ -9108,7 +9109,7 @@
     "airfryer": {
       "achados": 1,
       "aprovados": 0,
-      "reprovados": 0
+      "reprovados": 1
     },
     "kit barba": {
       "achados": 1,
