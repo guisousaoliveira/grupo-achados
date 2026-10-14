@@ -1597,29 +1597,6 @@
       "id": 550,
       "na_revisao_desde": "2026-10-14T17:40-03:00",
       "msg_id": 894
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:1609020700.58250382369",
-      "nome": "Bolsa De Armazenamento De Ferramentas De Carro Em Feltro Para O Porta-Malas Do Carro",
-      "por": 30.9,
-      "de": 83.51,
-      "foto": "AgACAgQAAxkDAAIDf2rP6M5_23rheXSck_YpU4mPMk11AAIpDWsbZcRcUkPCetDGdlgdAQADAgADeAADPQQ",
-      "link": "https://s.shopee.com.br/gQqez7hOF",
-      "link_produto": "https://shopee.com.br/product/1609020700/58250382369",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.9,
-      "vendas": 834,
-      "palavra": "ferramenta",
-      "garimpado_em": "2026-10-14T15:50-03:00",
-      "nota": 82.1,
-      "titulo": "Bolsa de feltro para organizar o porta-malas",
-      "id": 551,
-      "na_revisao_desde": "2026-10-14T17:40-03:00",
-      "msg_id": 895
     }
   ],
   "proximo_id": 555,
@@ -5052,6 +5029,30 @@
   ],
   "lixeira": [
     {
+      "loja": "shopee",
+      "chave": "shopee:1609020700.58250382369",
+      "nome": "Bolsa De Armazenamento De Ferramentas De Carro Em Feltro Para O Porta-Malas Do Carro",
+      "por": 30.9,
+      "de": 83.51,
+      "foto": "AgACAgQAAxkDAAIDf2rP6M5_23rheXSck_YpU4mPMk11AAIpDWsbZcRcUkPCetDGdlgdAQADAgADeAADPQQ",
+      "link": "https://s.shopee.com.br/gQqez7hOF",
+      "link_produto": "https://shopee.com.br/product/1609020700/58250382369",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.9,
+      "vendas": 834,
+      "palavra": "ferramenta",
+      "garimpado_em": "2026-10-14T15:50-03:00",
+      "nota": 82.1,
+      "titulo": "Bolsa de feltro para organizar o porta-malas",
+      "id": 551,
+      "na_revisao_desde": "2026-10-14T17:40-03:00",
+      "removido_em": "2026-10-14T17:59:49-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B09SJT773X",
       "origem": "promonocontext",
@@ -5547,7 +5548,7 @@
       "shopee": {
         "achados": 34,
         "aprovados": 14,
-        "reprovados": 11
+        "reprovados": 12
       },
       "lobaopromo": {
         "achados": 5,
@@ -5711,7 +5712,7 @@
     "ferramenta": {
       "achados": 5,
       "aprovados": 2,
-      "reprovados": 2
+      "reprovados": 3
     },
     "fritadeira": {
       "achados": 1,
