@@ -3,25 +3,6 @@
   "fila": [
     {
       "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB59802579",
-      "origem": "promonocontext",
-      "link": "https://meli.la/26v3LzP",
-      "link_produto": "https://meli.la/26v3LzP",
-      "post_origem": "https://t.me/promonocontext/126271",
-      "link_canal": "https://meli.la/1gRAFpd",
-      "foto": "AgACAgQAAxkDAAICdGrOeNd1tMg2jCv9UM18M9t-I2_DAAKhC2sbabzEUcBjRz2TXlK6AQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Caixa de Som JBL Grip 16W RMS IP68",
-      "por": 401.0,
-      "titulo": "Caixa de som JBL com resistência à água",
-      "garimpado_em": "2026-10-13T15:30-03:00",
-      "na_revisao_desde": "2026-10-13T15:30-03:00",
-      "de": 559.0,
-      "aprovado_em": "2026-10-13T15:45-03:00",
-      "aviso_validade": true
-    },
-    {
-      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB38611321",
       "origem": "promonocontext",
       "link": "https://meli.la/1TgcRa6",
@@ -1084,6 +1065,16 @@
       "data": "2026-10-14T09:44-03:00",
       "link": "https://s.shopee.com.br/9fLewjftku",
       "link_produto": "https://shopee.com.br/product/1006365068/22298339652"
+    },
+    {
+      "chave": "mercadolivre:MLB59802579",
+      "loja": "mercadolivre",
+      "nome": "Caixa de Som JBL Grip 16W RMS IP68",
+      "data": "2026-10-14T10:03-03:00",
+      "link": "https://meli.la/26v3LzP",
+      "link_produto": "https://meli.la/26v3LzP",
+      "titulo": "Caixa de som JBL com resistência à água",
+      "slot": 10
     }
   ],
   "slots_usados": {
@@ -1128,7 +1119,8 @@
     ],
     "2026-10-14": [
       8,
-      9
+      9,
+      10
     ]
   },
   "shopee_buscado_em": "",
@@ -9991,6 +9983,19 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB59802579",
+      "origem": "promonocontext",
+      "link": "https://meli.la/26v3LzP",
+      "link_produto": "https://meli.la/26v3LzP",
+      "post_origem": "https://t.me/promonocontext/126271",
+      "foto": "AgACAgQAAxkDAAICdGrOeNd1tMg2jCv9UM18M9t-I2_DAAKhC2sbabzEUcBjRz2TXlK6AQADAgADeAADPQQ",
+      "nome": "Caixa de Som JBL Grip 16W RMS IP68",
+      "por": 401.0,
+      "titulo": "Caixa de som JBL com resistência à água",
+      "de": 559.0
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:1006365068.22298339652",
       "nome": "Bicicleta Bike Ergometrica Spinning Academia Fitness Profissional 120kg",
@@ -10520,21 +10525,6 @@
       "de": 67.9,
       "por": 50.73,
       "prime": true
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB4703022818",
-      "origem": "promonocontext",
-      "link": "https://meli.la/1GX7MuJ",
-      "link_produto": "https://meli.la/1GX7MuJ",
-      "post_origem": "https://t.me/promonocontext/126031",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_643360-MLB104967538769_012026-O.webp",
-      "nome": "Kit 6 Cuecas Boxer Reebok Microfibra Sem Costura Original",
-      "cupom_loja": "Ative o cupom de 5% 📌",
-      "de": 299.0,
-      "por": 64.0,
-      "titulo": "OFERTA!",
-      "cupom": "Ative o cupom de 5% 📌"
     }
   ],
   "lixeira": [
