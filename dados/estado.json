@@ -311,6 +311,28 @@
       "na_revisao_desde": "2026-10-14T10:42-03:00",
       "pix": true,
       "aprovado_em": "2026-10-14T11:12-03:00"
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:1006215031.51250897834",
+      "nome": "Óculos de sol redondos pequenos para homens e mulheres, proteção UV, proteção solar, moda ao ar livre, óculos para",
+      "por": 13.41,
+      "de": 67.05,
+      "foto": "AgACAgQAAxkDAAIDVWrPlI6g_efPJ4HY1bku7GGGbI9IAAL-DWsbc4eMUVauuQ897B4MAQADAgADeAADPQQ",
+      "link": "https://s.shopee.com.br/9zyVK08EO2",
+      "link_produto": "https://shopee.com.br/product/1006215031/51250897834",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.8,
+      "vendas": 2259,
+      "palavra": "oculos de sol",
+      "garimpado_em": "2026-10-14T09:01-03:00",
+      "nota": 92.0,
+      "titulo": "Óculos de sol pequenos com proteção UV para o rosto",
+      "na_revisao_desde": "2026-10-14T11:41-03:00",
+      "aprovado_em": "2026-10-14T12:31-03:00"
     }
   ],
   "postados": [
@@ -1195,29 +1217,6 @@
       "id": 520,
       "na_revisao_desde": "2026-10-14T11:41-03:00",
       "msg_id": 852
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:1006215031.51250897834",
-      "nome": "Óculos de sol redondos pequenos para homens e mulheres, proteção UV, proteção solar, moda ao ar livre, óculos para",
-      "por": 13.41,
-      "de": 67.05,
-      "foto": "AgACAgQAAxkDAAIDVWrPlI6g_efPJ4HY1bku7GGGbI9IAAL-DWsbc4eMUVauuQ897B4MAQADAgADeAADPQQ",
-      "link": "https://s.shopee.com.br/9zyVK08EO2",
-      "link_produto": "https://shopee.com.br/product/1006215031/51250897834",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.8,
-      "vendas": 2259,
-      "palavra": "oculos de sol",
-      "garimpado_em": "2026-10-14T09:01-03:00",
-      "nota": 92.0,
-      "titulo": "Óculos de sol pequenos com proteção UV para o rosto",
-      "id": 521,
-      "na_revisao_desde": "2026-10-14T11:41-03:00",
-      "msg_id": 853
     },
     {
       "loja": "shopee",
@@ -5948,7 +5947,7 @@
     "2026-10-14": {
       "shopee": {
         "achados": 20,
-        "aprovados": 11,
+        "aprovados": 12,
         "reprovados": 5
       },
       "lobaopromo": {
@@ -6137,7 +6136,7 @@
     },
     "oculos de sol": {
       "achados": 6,
-      "aprovados": 1,
+      "aprovados": 2,
       "reprovados": 4
     },
     "oneblade": {
