@@ -1446,7 +1446,7 @@ CONSULTA_SHOPEE_ITEM = """query ($item: Int64, $loja: Int64) {
 }"""
 
 
-LINK_CURTO_SHOPEE = """mutation ($url: String!, $sub: [String]) {
+LINK_CURTO_SHOPEE = """mutation ($url: String!, $sub: [String!]) {
   generateShortLink(input: {originUrl: $url, subIds: $sub}) { shortLink }
 }"""
 
@@ -1504,21 +1504,28 @@ def oferta_shopee(no):
     }
 
 
+def shopee_so_api():
+    """Com a chave da API, a Shopee vem só da busca própria: as dos canais costumavam ser ruins (e o link curto
+    deles às vezes levava a outro produto). config shopee.so_api = false volta a aceitar dos canais."""
+    return bool(segredo("SHOPEE_APP_ID")) and CONFIG.get("shopee", {}).get("so_api", True)
+
+
 def buscar_shopee(estado):
-    """Com a chave da Open API: a cada hora procura na Shopee algumas palavras do garimpo (em rodízio) e põe as
+    """Com a chave da Open API: a cada 15 min (config buscar_cada_minutos) procura na Shopee algumas palavras do garimpo (em rodízio) e põe as
     que passam no filtro (desconto, nota, vendas) na mesma peneira do radar. Já vêm com o seu link de afiliado."""
     regras = CONFIG["shopee"]
     if not regras.get("ativo", True) or os.environ.get("RENDER") or not segredo("SHOPEE_APP_ID"):
         return
-    cfg = CONFIG.get("radar", {})
-    if radar_pausado(cfg):
+    teste = os.environ.get("BOT_PEDIDO") == "shopee-teste"  # pedido na mão: busca agora e manda as 3 melhores para Revisar
+    if radar_pausado(CONFIG.get("radar", {})) and not teste:
         return
     r = estado.setdefault("radar", {"visto": {}, "dia": "", "hoje": 0, "chaves": []})
     ajuste_radar(estado)
-    hora = agora().strftime("%Y-%m-%dT%H")
-    if r.get("shopee_hora") == hora:
+    cada = regras.get("buscar_cada_minutos", 15)
+    ultima = r.get("shopee_em")
+    if not teste and ultima and agora() - datetime.fromisoformat(ultima) < timedelta(minutes=cada - 1):
         return
-    r["shopee_hora"] = hora
+    r["shopee_em"] = agora().isoformat(timespec="minutes")
     palavras = palavras_radar()
     if not palavras:
         return
@@ -1547,6 +1554,14 @@ def buscar_shopee(estado):
             r["chaves"] = (r.get("chaves", []) + [item["chave"]])[-3000:]
             if peneirar(estado, r, item, conta):
                 novas += 1
+    if teste:
+        minhas = sorted([x for x in r["peneira"] if x.get("fonte") == "shopee"], key=lambda x: -x.get("nota", 0))[:3]
+        for item in minhas:
+            r["peneira"].remove(item)
+            r.setdefault("nomes", []).append([nome_tokens(item.get("nome")), agora().isoformat(timespec="minutes")])
+            mandar_para_revisao(estado, item)
+            contar_garimpo(estado, item, "achados")
+        log(f"Teste da Shopee: {len(minhas)} oferta(s) mandadas para Revisar.")
     soltar_peneira(estado, r)
     log(f"Shopee: {novas} oferta(s) na peneira ({', '.join(da_vez)}).")
 
@@ -1892,7 +1907,7 @@ def oferta_do_post(post, canal):
         prod = produto_do_link(link)
         if prod:
             break
-    if not prod:
+    if not prod or (prod["loja"] == "shopee" and shopee_so_api()):
         return None
     item = {"loja": prod["loja"], "chave": prod["chave"], "origem": canal,
             "link": prod.get("meu_link") or prod["link_produto"], "link_produto": prod["link_produto"],
@@ -1990,7 +2005,7 @@ def ler_promobit(paginas):
 
 def oferta_do_promobit(o):
     """Oferta do Promobit no formato do radar. None se não for de Amazon/ML/Shopee ou do nicho."""
-    if o.get("storeDomain") not in LOJAS_PROMOBIT:
+    if o.get("storeDomain") not in LOJAS_PROMOBIT or (o.get("storeDomain") == "shopee.com.br" and shopee_so_api()):
         return None
     texto = " ".join(str(o.get(k) or "") for k in ("offerTitle", "categoryName", "subcategoryName", "suggestionKeywords"))
     if not do_nicho(texto):
