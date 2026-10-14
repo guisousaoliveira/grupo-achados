@@ -56,7 +56,8 @@
       "garimpado_em": "2026-10-13T09:37-03:00",
       "na_revisao_desde": "2026-10-13T09:37-03:00",
       "de": 239.0,
-      "aprovado_em": "2026-10-13T10:02-03:00"
+      "aprovado_em": "2026-10-13T10:02-03:00",
+      "aviso_validade": true
     },
     {
       "loja": "mercadolivre",
@@ -3145,19 +3146,58 @@
       "garimpado_em": "2026-10-13T22:01-03:00",
       "na_revisao_desde": "2026-10-13T22:01-03:00",
       "msg_id": 781
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B087YXFLMZ",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B087YXFLMZ?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B087YXFLMZ?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220930",
+      "link_canal": "https://www.amazon.com.br/dp/B087YXFLMZ?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAIDD2rO1oxt46KOuo3oQwg1PTXx-nSSAAI9DGsb8WW8UjkZll511nSrAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Teclado Mecânico Redragon Dark Avenger RGB Lunar White Switch Vermelho K568W-RGB",
+      "parcelas": 5,
+      "por": 175.0,
+      "titulo": "Teclado mecânico Redragon com 40% de desconto",
+      "id": 489,
+      "garimpado_em": "2026-10-13T22:10-03:00",
+      "na_revisao_desde": "2026-10-13T22:10-03:00",
+      "msg_id": 783
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0HBYMG565",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0HBYMG565?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0HBYMG565?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220931",
+      "link_canal": "https://www.amazon.com.br/Samsung-Crystal-Companion-Gratuitos-Atualiza%C3%A7%C3%A3o/dp/B0HBYMG565?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAICDmrOSgMoY5tI1wYClTHq3FdilnHOAALPD2sb2Y68UQ4J5FpIbhv5AQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Samsung Smart TV 55 Crystal UHD 4K U8000H 26/2027, Vision AI Companion, Modo Estádio, Xbox Cloud Gaming + Frete Grátis",
+      "pix": true,
+      "parcelas": 12,
+      "por": 2722.71,
+      "titulo": "Smart TV 55 Samsung 4K com desconto",
+      "id": 490,
+      "garimpado_em": "2026-10-13T22:10-03:00",
+      "na_revisao_desde": "2026-10-13T22:10-03:00",
+      "msg_id": 784
     }
   ],
-  "proximo_id": 489,
+  "proximo_id": 491,
   "radar": {
     "visto": {
       "xetdaspromocoes": 84707,
-      "lobaopromo": 189086,
-      "gatunopromos": 125189,
-      "pobregram": 41847,
+      "lobaopromo": 189087,
+      "gatunopromos": 125191,
+      "pobregram": 41848,
       "urubupromo": 41632,
       "tudonapromo": 101779,
-      "promonocontext": 126446,
-      "promooeasy": 220927,
+      "promonocontext": 126449,
+      "promooeasy": 220931,
       "aquitempechincha": 281467,
       "infoBRpromos": 67471,
       "boletando": 76675,
@@ -3165,10 +3205,8 @@
       "achadosdotb": 11763
     },
     "dia": "2026-10-13",
-    "hoje": 324,
+    "hoje": 326,
     "chaves": [
-      "amazon:B0HBZXL4CN",
-      "amazon:B0DX88HMJV",
       "shopee:1009975506.40983623796",
       "mercadolivre:MLB5364050300",
       "amazon:B0DP5K22XJ",
@@ -3566,27 +3604,29 @@
       "mercadolivre:MLB23928026",
       "amazon:B0BJJH4L5W",
       "mercadolivre:MLB5806511608",
-      "mercadolivre:MLB7109118660"
+      "mercadolivre:MLB7109118660",
+      "amazon:B087YXFLMZ",
+      "amazon:B0HBYMG565"
     ],
     "ultima": {
-      "em": "2026-10-13T22:00:29-03:00",
+      "em": "2026-10-13T22:10:20-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 25,
-      "do_nicho": 4,
-      "repetidas": 1,
-      "novas": 3,
+      "posts_novos": 17,
+      "do_nicho": 2,
+      "repetidas": 0,
+      "novas": 2,
       "limite_dia": false,
-      "promobit": 1
+      "promobit": 0
     },
     "hora": "2026-10-13T22",
-    "nesta_hora": 2,
+    "nesta_hora": 4,
     "promobit_hora": "2026-10-13T22",
     "promobit_nesta_hora": 1,
-    "promobit_visto": 3111922
+    "promobit_visto": 3111939
   },
   "ultimos": [
     {
@@ -5031,7 +5071,7 @@
         "reprovados": 28
       },
       "promooeasy": {
-        "achados": 121,
+        "achados": 123,
         "aprovados": 2,
         "reprovados": 81
       },
