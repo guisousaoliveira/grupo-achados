@@ -1017,21 +1017,21 @@
   "radar": {
     "visto": {
       "xetdaspromocoes": 84707,
-      "lobaopromo": 189120,
-      "gatunopromos": 125208,
-      "pobregram": 41853,
+      "lobaopromo": 189125,
+      "gatunopromos": 125210,
+      "pobregram": 41855,
       "urubupromo": 41633,
       "tudonapromo": 101779,
       "promonocontext": 126463,
-      "promooeasy": 220948,
+      "promooeasy": 220954,
       "aquitempechincha": 281477,
       "infoBRpromos": 67472,
-      "boletando": 76679,
+      "boletando": 76681,
       "promotop": 260236,
       "achadosdotb": 11763
     },
-    "dia": "2026-10-13",
-    "hoje": 336,
+    "dia": "2026-10-14",
+    "hoje": 1,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -1432,27 +1432,53 @@
       "amazon:B0FQYL3TPT",
       "amazon:B0BMQK718H",
       "amazon:B089B7Z8ZD",
-      "amazon:B0D2JD6P86"
+      "amazon:B0D2JD6P86",
+      "mercadolivre:MLB21693452"
     ],
     "ultima": {
-      "em": "2026-10-13T23:50:22-03:00",
+      "em": "2026-10-14T00:00:27-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 16,
+      "posts_novos": 27,
       "do_nicho": 1,
       "repetidas": 0,
       "novas": 1,
       "limite_dia": false,
-      "promobit": 0
+      "repetidas_nome": 0,
+      "promobit": 0,
+      "soltas": 0,
+      "na_peneira": 1
     },
-    "hora": "2026-10-13T23",
-    "nesta_hora": 3,
-    "promobit_hora": "2026-10-13T23",
-    "promobit_nesta_hora": 1,
-    "promobit_visto": 3112066
+    "hora": "2026-10-14T00",
+    "nesta_hora": 1,
+    "promobit_hora": "2026-10-14T00",
+    "promobit_nesta_hora": 0,
+    "promobit_visto": 3112083,
+    "nomes": [],
+    "peneira": [
+      {
+        "loja": "mercadolivre",
+        "chave": "mercadolivre:MLB21693452",
+        "origem": "lobaopromo",
+        "link": "https://www.mercadolivre.com.br/relogio-casio-masculino-digital-preto-de-resina-w-59-1vq/p/MLB21693452?matt_word=alphapromo&matt_tool=59136903",
+        "link_produto": "https://www.mercadolivre.com.br/relogio-casio-masculino-digital-preto-de-resina-w-59-1vq/p/MLB21693452",
+        "post_origem": "https://t.me/lobaopromo/189123",
+        "link_canal": "https://meli.la/2M7FymT",
+        "foto": "https://http2.mlstatic.com/D_NQ_NP_684326-MLA115755090874_092026-O.webp",
+        "foto_origem": "loja",
+        "nome": "Relógio Casio Masculino Digital Preto de Resina W-59-1VQ",
+        "de": 239.0,
+        "por": 111.0,
+        "palavra": "relogio",
+        "garimpado_em": "2026-10-14T00:00-03:00",
+        "nota": 59.4
+      }
+    ],
+    "soltas_hora": "2026-10-14T00",
+    "soltas": 0
   },
   "ultimos": [
     {
@@ -2128,5 +2154,237 @@
       }
     }
   },
-  "aviso_post": "2026-10-13 23|mercadolivre:MLB18725310"
+  "aviso_post": "2026-10-13 23|mercadolivre:MLB18725310",
+  "garimpo_palavras": {
+    "academia": {
+      "achados": 16,
+      "aprovados": 4,
+      "reprovados": 12
+    },
+    "air fryer": {
+      "achados": 6,
+      "aprovados": 1,
+      "reprovados": 5
+    },
+    "alexa": {
+      "achados": 2,
+      "aprovados": 0,
+      "reprovados": 2
+    },
+    "alicate": {
+      "achados": 3,
+      "aprovados": 0,
+      "reprovados": 3
+    },
+    "aparador": {
+      "achados": 3,
+      "aprovados": 0,
+      "reprovados": 3
+    },
+    "barba": {
+      "achados": 2,
+      "aprovados": 0,
+      "reprovados": 2
+    },
+    "barbeador": {
+      "achados": 4,
+      "aprovados": 0,
+      "reprovados": 4
+    },
+    "barbear": {
+      "achados": 2,
+      "aprovados": 0,
+      "reprovados": 2
+    },
+    "barra fixa": {
+      "achados": 1,
+      "aprovados": 0,
+      "reprovados": 1
+    },
+    "bicicleta ergometrica": {
+      "achados": 1,
+      "aprovados": 0,
+      "reprovados": 1
+    },
+    "bone": {
+      "achados": 2,
+      "aprovados": 0,
+      "reprovados": 2
+    },
+    "cafeteira": {
+      "achados": 3,
+      "aprovados": 0,
+      "reprovados": 3
+    },
+    "caixa de som": {
+      "achados": 17,
+      "aprovados": 2,
+      "reprovados": 15
+    },
+    "caixa termica": {
+      "achados": 1,
+      "aprovados": 0,
+      "reprovados": 1
+    },
+    "camera de seguranca": {
+      "achados": 1,
+      "aprovados": 0,
+      "reprovados": 1
+    },
+    "camisa polo": {
+      "achados": 3,
+      "aprovados": 2,
+      "reprovados": 1
+    },
+    "chave de impacto": {
+      "achados": 1,
+      "aprovados": 0,
+      "reprovados": 1
+    },
+    "chromecast": {
+      "achados": 1,
+      "aprovados": 0,
+      "reprovados": 1
+    },
+    "cooler": {
+      "achados": 5,
+      "aprovados": 0,
+      "reprovados": 5
+    },
+    "coqueteleira": {
+      "achados": 1,
+      "aprovados": 0,
+      "reprovados": 1
+    },
+    "corda de pular": {
+      "achados": 1,
+      "aprovados": 0,
+      "reprovados": 1
+    },
+    "creatina": {
+      "achados": 15,
+      "aprovados": 5,
+      "reprovados": 10
+    },
+    "cueca": {
+      "achados": 7,
+      "aprovados": 0,
+      "reprovados": 7
+    },
+    "echo dot": {
+      "achados": 1,
+      "aprovados": 0,
+      "reprovados": 1
+    },
+    "esmerilhadeira": {
+      "achados": 1,
+      "aprovados": 0,
+      "reprovados": 1
+    },
+    "ferramenta": {
+      "achados": 3,
+      "aprovados": 1,
+      "reprovados": 2
+    },
+    "fritadeira": {
+      "achados": 1,
+      "aprovados": 0,
+      "reprovados": 1
+    },
+    "furadeira": {
+      "achados": 2,
+      "aprovados": 0,
+      "reprovados": 2
+    },
+    "garrafa termica": {
+      "achados": 2,
+      "aprovados": 1,
+      "reprovados": 1
+    },
+    "jbl": {
+      "achados": 2,
+      "aprovados": 0,
+      "reprovados": 2
+    },
+    "kindle": {
+      "achados": 1,
+      "aprovados": 0,
+      "reprovados": 1
+    },
+    "liquidificador portatil": {
+      "achados": 1,
+      "aprovados": 0,
+      "reprovados": 1
+    },
+    "mochila": {
+      "achados": 5,
+      "aprovados": 2,
+      "reprovados": 3
+    },
+    "oculos de sol": {
+      "achados": 5,
+      "aprovados": 1,
+      "reprovados": 4
+    },
+    "oneblade": {
+      "achados": 1,
+      "aprovados": 0,
+      "reprovados": 1
+    },
+    "parafusadeira": {
+      "achados": 3,
+      "aprovados": 0,
+      "reprovados": 3
+    },
+    "perfume masculino": {
+      "achados": 4,
+      "aprovados": 3,
+      "reprovados": 1
+    },
+    "power bank": {
+      "achados": 8,
+      "aprovados": 1,
+      "reprovados": 7
+    },
+    "pre treino": {
+      "achados": 1,
+      "aprovados": 0,
+      "reprovados": 1
+    },
+    "relogio": {
+      "achados": 4,
+      "aprovados": 0,
+      "reprovados": 4
+    },
+    "smart tv": {
+      "achados": 18,
+      "aprovados": 0,
+      "reprovados": 18
+    },
+    "smartwatch": {
+      "achados": 4,
+      "aprovados": 1,
+      "reprovados": 3
+    },
+    "suplemento": {
+      "achados": 4,
+      "aprovados": 0,
+      "reprovados": 4
+    },
+    "tenis masculino": {
+      "achados": 2,
+      "aprovados": 0,
+      "reprovados": 2
+    },
+    "termogenico": {
+      "achados": 1,
+      "aprovados": 0,
+      "reprovados": 1
+    },
+    "whey": {
+      "achados": 7,
+      "aprovados": 1,
+      "reprovados": 6
+    }
+  }
 }
