@@ -2588,25 +2588,6 @@
     },
     {
       "loja": "amazon",
-      "chave": "amazon:B0GJ7GG3YV",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0GJ7GG3YV?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0GJ7GG3YV?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/220871",
-      "link_canal": "https://www.amazon.com.br/dp/B0GJ7GG3YV?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAIC7WrOs5WxAZAfGSvSmQn18VvK88QdAALwDGsb5pwNUlauj5YRDvyUAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Gabinete Gamer Redragon Eternal Preto e Vermelho Sem Fans CA-612BR",
-      "parcelas": 6,
-      "por": 346.0,
-      "titulo": "Gabinete gamer com 6x sem juros na Amazon",
-      "id": 460,
-      "garimpado_em": "2026-10-13T19:41-03:00",
-      "na_revisao_desde": "2026-10-13T19:41-03:00",
-      "msg_id": 749
-    },
-    {
-      "loja": "amazon",
       "chave": "amazon:B0FTT3QV8V",
       "origem": "promobit",
       "fonte": "promobit",
@@ -4028,6 +4009,26 @@
   "lixeira": [
     {
       "loja": "amazon",
+      "chave": "amazon:B0GJ7GG3YV",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0GJ7GG3YV?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0GJ7GG3YV?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220871",
+      "link_canal": "https://www.amazon.com.br/dp/B0GJ7GG3YV?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAIC7WrOs5WxAZAfGSvSmQn18VvK88QdAALwDGsb5pwNUlauj5YRDvyUAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Gabinete Gamer Redragon Eternal Preto e Vermelho Sem Fans CA-612BR",
+      "parcelas": 6,
+      "por": 346.0,
+      "titulo": "Gabinete gamer com 6x sem juros na Amazon",
+      "id": 460,
+      "garimpado_em": "2026-10-13T19:41-03:00",
+      "na_revisao_desde": "2026-10-13T19:41-03:00",
+      "removido_em": "2026-10-13T23:34:50-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "amazon",
       "chave": "amazon:B0D71SHR5B",
       "origem": "promooeasy",
       "link": "https://www.amazon.com.br/dp/B0D71SHR5B?tag=alphadominu09-20",
@@ -4816,25 +4817,6 @@
       "na_revisao_desde": "2026-10-13T13:51-03:00",
       "removido_em": "2026-10-13T15:49:29-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0FBGDF8GD",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0FBGDF8GD?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0FBGDF8GD?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/220573",
-      "link_canal": "https://www.amazon.com.br/dp/B0FBGDF8GD?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAICSWrOXySVUigY51XTTO03H4sKWX1KAAItDGsbeY1kU2Wv9PcHJi5oAQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "nome": "Power Bank Basike 30.000mAh Carregador Portátil com Cabo Azul",
-      "por": 145.33,
-      "titulo": "Tecnologia boa pelo preço certo.",
-      "id": 310,
-      "garimpado_em": "2026-10-13T13:41-03:00",
-      "na_revisao_desde": "2026-10-13T13:41-03:00",
-      "removido_em": "2026-10-13T15:49:29-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -4909,7 +4891,7 @@
       "promooeasy": {
         "achados": 123,
         "aprovados": 2,
-        "reprovados": 87
+        "reprovados": 88
       },
       "xetdaspromocoes": {
         "achados": 19,
