@@ -323,26 +323,6 @@
       "na_revisao_desde": "2026-10-14T19:40-03:00",
       "obs": "Use o progame e poupe e cancele quando quiser!",
       "aprovado_em": "2026-10-14T20:01-03:00"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB80245753",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/2FwSNY7",
-      "link_produto": "https://meli.la/2FwSNY7",
-      "post_origem": "https://t.me/lobaopromo/189551",
-      "link_canal": "https://meli.la/1qQGroK",
-      "foto": "AgACAgQAAxkDAAIDkGrQBPQBDc3ncKvnjF12yVYsjVK6AAJXD2sbu2yFUtcSfoxrzLzSAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Mochila Reforçada E Impermeável Para Viagem Mochila Preto Liso",
-      "de": 269.0,
-      "por": 75.0,
-      "palavra": "mochila",
-      "garimpado_em": "2026-10-14T19:40-03:00",
-      "nota": 86.2,
-      "titulo": "Mochila impermeável reforçada para viagem e rotina",
-      "na_revisao_desde": "2026-10-14T19:40-03:00",
-      "aprovado_em": "2026-10-14T20:02-03:00"
     }
   ],
   "postados": [
@@ -1314,6 +1294,15 @@
       "link": "https://meli.la/2hwoF4P",
       "link_produto": "https://meli.la/2hwoF4P",
       "titulo": "Garrafa térmica na temperatura ideal"
+    },
+    {
+      "chave": "mercadolivre:MLB80245753",
+      "loja": "mercadolivre",
+      "nome": "Mochila Reforçada E Impermeável Para Viagem Mochila Preto Liso",
+      "data": "2026-10-14T20:02-03:00",
+      "link": "https://meli.la/2FwSNY7",
+      "link_produto": "https://meli.la/2FwSNY7",
+      "titulo": "Mochila impermeável reforçada para viagem e rotina"
     }
   ],
   "slots_usados": {
@@ -4397,6 +4386,19 @@
   "ultimos": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB80245753",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/2FwSNY7",
+      "link_produto": "https://meli.la/2FwSNY7",
+      "post_origem": "https://t.me/lobaopromo/189551",
+      "foto": "AgACAgQAAxkDAAIDkGrQBPQBDc3ncKvnjF12yVYsjVK6AAJXD2sbu2yFUtcSfoxrzLzSAQADAgADeAADPQQ",
+      "nome": "Mochila Reforçada E Impermeável Para Viagem Mochila Preto Liso",
+      "de": 269.0,
+      "por": 75.0,
+      "titulo": "Mochila impermeável reforçada para viagem e rotina"
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB68466630",
       "origem": "promonocontext",
       "link": "https://meli.la/2hwoF4P",
@@ -4918,20 +4920,6 @@
       "por": 344.79,
       "titulo": "Perfume Emporio Armani Stronger With You 100ml no Pix",
       "de": 719.0
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB66902915",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/1WBSL27",
-      "link_produto": "https://meli.la/1WBSL27",
-      "post_origem": "https://t.me/lobaopromo/188729",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_612792-MLA109103758117_032026-O.webp",
-      "nome": "Power Bank Basike 30.000mAh Portátil",
-      "por": 178.75,
-      "de": 271.0,
-      "cupom": "OPAECONOMIZEI",
-      "titulo": "Power Bank Basike com 34% off"
     }
   ],
   "lixeira": [
