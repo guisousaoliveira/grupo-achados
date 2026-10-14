@@ -974,26 +974,6 @@
   "shopee_buscado_em": "",
   "revisar": [
     {
-      "loja": "amazon",
-      "chave": "amazon:B0FJNTHL39",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B0FJNTHL39?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0FJNTHL39?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/monitor-gamer-aoc-agon-cs2-25-310hz-03ms-hdr400-ips-base-ajustavel-cs25g-3111060/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3111060/",
-      "nome": "Monitor Gamer Aoc Agon Cs2 25\" 310hz 0.3ms Hdr400 Ips Base Ajustável",
-      "por": 1172.14,
-      "de": 1699.0,
-      "foto": "AgACAgQAAxkDAAICh2rOgipBy__bBOb1Q9itKv5Y2mDuAALiujEbwfulUuDfaCxRUwgEAQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "titulo": "Monitor gamer 310Hz com 31% de desconto",
-      "id": 363,
-      "garimpado_em": "2026-10-13T16:10-03:00",
-      "na_revisao_desde": "2026-10-13T16:10-03:00",
-      "msg_id": 647
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB1026525929",
       "origem": "lobaopromo",
@@ -3536,6 +3516,27 @@
   "lixeira": [
     {
       "loja": "amazon",
+      "chave": "amazon:B0FJNTHL39",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0FJNTHL39?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0FJNTHL39?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/monitor-gamer-aoc-agon-cs2-25-310hz-03ms-hdr400-ips-base-ajustavel-cs25g-3111060/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3111060/",
+      "nome": "Monitor Gamer Aoc Agon Cs2 25\" 310hz 0.3ms Hdr400 Ips Base Ajustável",
+      "por": 1172.14,
+      "de": 1699.0,
+      "foto": "AgACAgQAAxkDAAICh2rOgipBy__bBOb1Q9itKv5Y2mDuAALiujEbwfulUuDfaCxRUwgEAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "titulo": "Monitor gamer 310Hz com 31% de desconto",
+      "id": 363,
+      "garimpado_em": "2026-10-13T16:10-03:00",
+      "na_revisao_desde": "2026-10-13T16:10-03:00",
+      "removido_em": "2026-10-13T23:39:27-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "amazon",
       "chave": "amazon:B0F6CY514C",
       "origem": "promooeasy",
       "link": "https://www.amazon.com.br/dp/B0F6CY514C?tag=alphadominu09-20",
@@ -4320,27 +4321,6 @@
       "na_revisao_desde": "2026-10-13T16:31-03:00",
       "removido_em": "2026-10-13T17:06:51-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B07QJD9335",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B07QJD9335?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B07QJD9335?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/nivea-sabonete-facial-em-gel-aqua-rose-150ml-limpeza-profunda-remove-maquiagem-purifica-e-refresca-agua-de-rosas-organica-todas-as-peles-3111149/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3111149/",
-      "nome": "NIVEA Sabonete Facial em Gel Aqua Rose 150ml",
-      "por": 28.42,
-      "de": 37.7,
-      "foto": "AgACAgQAAxkDAAIClGrOiTigEapGmosC02Ued7vGLVueAAKYujEb88_UUSKIFVvnUB5sAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "titulo": "Sabonete facial Nivea com 25% de desconto",
-      "id": 375,
-      "garimpado_em": "2026-10-13T16:40-03:00",
-      "na_revisao_desde": "2026-10-13T16:40-03:00",
-      "removido_em": "2026-10-13T17:06:49-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -4405,7 +4385,7 @@
       "promobit": {
         "achados": 58,
         "aprovados": 5,
-        "reprovados": 35
+        "reprovados": 36
       },
       "lobaopromo": {
         "achados": 60,
