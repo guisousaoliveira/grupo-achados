@@ -3,25 +3,6 @@
   "fila": [
     {
       "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB46202402",
-      "origem": "xetdaspromocoes",
-      "link": "https://meli.la/25uErxZ",
-      "link_produto": "https://meli.la/25uErxZ",
-      "post_origem": "https://t.me/xetdaspromocoes/84541",
-      "link_canal": "https://meli.la/2rMZNs3",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_772291-MLA100008466405_122025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Smartwatch HUAWEI Band 10 Caixa de Polímeros Duráveis Análise do Sono",
-      "pix": true,
-      "de": 659.0,
-      "por": 159.0,
-      "cupom": "MELHORDEHJ",
-      "garimpado_em": "2026-10-13T09:36-03:00",
-      "na_revisao_desde": "2026-10-13T09:36-03:00",
-      "aprovado_em": "2026-10-13T09:58-03:00"
-    },
-    {
-      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB25757804",
       "origem": "xetdaspromocoes",
       "link": "https://meli.la/1vmbMZ6",
@@ -897,6 +878,15 @@
       "link": "https://meli.la/21r5Vav",
       "link_produto": "https://meli.la/21r5Vav",
       "slot": 20
+    },
+    {
+      "chave": "mercadolivre:MLB46202402",
+      "loja": "mercadolivre",
+      "nome": "Smartwatch HUAWEI Band 10 Caixa de Polímeros Duráveis Análise do Sono",
+      "data": "2026-10-13T21:52-03:00",
+      "link": "https://meli.la/25uErxZ",
+      "link_produto": "https://meli.la/25uErxZ",
+      "slot": 21
     }
   ],
   "slots_usados": {
@@ -934,7 +924,8 @@
       17,
       18,
       19,
-      20
+      20,
+      21
     ]
   },
   "shopee_buscado_em": "",
@@ -3540,6 +3531,20 @@
   "ultimos": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB46202402",
+      "origem": "xetdaspromocoes",
+      "link": "https://meli.la/25uErxZ",
+      "link_produto": "https://meli.la/25uErxZ",
+      "post_origem": "https://t.me/xetdaspromocoes/84541",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_772291-MLA100008466405_122025-O.webp",
+      "nome": "Smartwatch HUAWEI Band 10 Caixa de Polímeros Duráveis Análise do Sono",
+      "pix": true,
+      "de": 659.0,
+      "por": 159.0,
+      "cupom": "MELHORDEHJ"
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB23181844",
       "origem": "xetdaspromocoes",
       "link": "https://meli.la/21r5Vav",
@@ -4076,18 +4081,6 @@
       "de": 300.0,
       "por": 72.0,
       "titulo": "Mochila em promoção"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0HC8MGM1Q",
-      "origem": "aquitempechincha",
-      "link": "https://link.amazon/B09kiC9uZ",
-      "link_produto": "https://www.amazon.com.br/dp/B0HC8MGM1Q?tag=alphadominu09-20",
-      "post_origem": "https://t.me/aquitempechincha/281095",
-      "nome": "Smart TV Semp 43 Polegadas LED Full HD S42R Roku 43S42R",
-      "pix": true,
-      "por": 1358.0,
-      "foto": "AgACAgEAAxkDAAOvas0XKz2J1j4OBpYTNYmnksaBcX4AAjANaxvw92lGIdn8RtslgxEBAAMCAAN5AAM9BA"
     }
   ],
   "lixeira": [
