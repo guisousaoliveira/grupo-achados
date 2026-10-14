@@ -323,6 +323,26 @@
       "na_revisao_desde": "2026-10-14T19:40-03:00",
       "obs": "Use o progame e poupe e cancele quando quiser!",
       "aprovado_em": "2026-10-14T20:01-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB80245753",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/2FwSNY7",
+      "link_produto": "https://meli.la/2FwSNY7",
+      "post_origem": "https://t.me/lobaopromo/189551",
+      "link_canal": "https://meli.la/1qQGroK",
+      "foto": "AgACAgQAAxkDAAIDkGrQBPQBDc3ncKvnjF12yVYsjVK6AAJXD2sbu2yFUtcSfoxrzLzSAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Mochila Reforçada E Impermeável Para Viagem Mochila Preto Liso",
+      "de": 269.0,
+      "por": 75.0,
+      "palavra": "mochila",
+      "garimpado_em": "2026-10-14T19:40-03:00",
+      "nota": 86.2,
+      "titulo": "Mochila impermeável reforçada para viagem e rotina",
+      "na_revisao_desde": "2026-10-14T19:40-03:00",
+      "aprovado_em": "2026-10-14T20:02-03:00"
     }
   ],
   "postados": [
@@ -1352,29 +1372,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB80245753",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/mochila-reforcada-e-impermeavel-para-viagem-mochila-preto-liso/p/MLB80245753?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/mochila-reforcada-e-impermeavel-para-viagem-mochila-preto-liso/p/MLB80245753",
-      "post_origem": "https://t.me/lobaopromo/189551",
-      "link_canal": "https://meli.la/1qQGroK",
-      "foto": "AgACAgQAAxkDAAIDkGrQBPQBDc3ncKvnjF12yVYsjVK6AAJXD2sbu2yFUtcSfoxrzLzSAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Mochila Reforçada E Impermeável Para Viagem Mochila Preto Liso",
-      "de": 269.0,
-      "por": 69.0,
-      "palavra": "mochila",
-      "garimpado_em": "2026-10-14T19:40-03:00",
-      "nota": 86.2,
-      "titulo": "Mochila impermeável reforçada para viagem e rotina",
-      "id": 560,
-      "na_revisao_desde": "2026-10-14T19:40-03:00",
-      "msg_id": 912
-    }
-  ],
+  "revisar": [],
   "proximo_id": 565,
   "radar": {
     "visto": {
@@ -5834,7 +5832,7 @@
       },
       "lobaopromo": {
         "achados": 8,
-        "aprovados": 5,
+        "aprovados": 6,
         "reprovados": 2
       },
       "xetdaspromocoes": {
@@ -6028,7 +6026,7 @@
     },
     "mochila": {
       "achados": 11,
-      "aprovados": 4,
+      "aprovados": 5,
       "reprovados": 5
     },
     "oculos de sol": {
