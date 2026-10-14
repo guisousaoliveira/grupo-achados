@@ -1142,21 +1142,21 @@
   "radar": {
     "visto": {
       "xetdaspromocoes": 84707,
-      "lobaopromo": 189198,
-      "gatunopromos": 125254,
+      "lobaopromo": 189202,
+      "gatunopromos": 125257,
       "pobregram": 41857,
-      "urubupromo": 41636,
+      "urubupromo": 41637,
       "tudonapromo": 101779,
       "promonocontext": 126463,
-      "promooeasy": 221123,
-      "aquitempechincha": 281489,
+      "promooeasy": 221128,
+      "aquitempechincha": 281492,
       "infoBRpromos": 67495,
       "boletando": 76684,
       "promotop": 260238,
       "achadosdotb": 11763
     },
     "dia": "2026-10-14",
-    "hoje": 11,
+    "hoje": 12,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -2152,30 +2152,31 @@
       "shopee:1064487211.22596768935",
       "shopee:1388709282.22798642389",
       "shopee:1083951020.58209107153",
-      "shopee:487505431.18799785582"
+      "shopee:487505431.18799785582",
+      "mercadolivre:MLB25929487"
     ],
     "ultima": {
-      "em": "2026-10-14T08:00:29-03:00",
+      "em": "2026-10-14T08:10:19-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 27,
-      "do_nicho": 1,
-      "repetidas": 0,
+      "posts_novos": 17,
+      "do_nicho": 2,
+      "repetidas": 1,
       "novas": 1,
       "limite_dia": false,
-      "repetidas_nome": 1,
+      "repetidas_nome": 0,
       "promobit": 0,
       "soltas": 0,
-      "na_peneira": 147
+      "na_peneira": 166
     },
     "hora": "2026-10-14T08",
-    "nesta_hora": 1,
+    "nesta_hora": 2,
     "promobit_hora": "2026-10-14T08",
     "promobit_nesta_hora": 0,
-    "promobit_visto": 3112409,
+    "promobit_visto": 3112415,
     "nomes": [
       [
         [
@@ -5393,6 +5394,24 @@
         "palavra": "air fryer",
         "garimpado_em": "2026-10-14T08:01-03:00",
         "nota": 83.1
+      },
+      {
+        "loja": "mercadolivre",
+        "chave": "mercadolivre:MLB25929487",
+        "origem": "lobaopromo",
+        "link": "https://www.mercadolivre.com.br/creatina-monohidratada-dark-lab-1kg-100/p/MLB25929487?matt_word=alphapromo&matt_tool=59136903",
+        "link_produto": "https://www.mercadolivre.com.br/creatina-monohidratada-dark-lab-1kg-100/p/MLB25929487",
+        "post_origem": "https://t.me/lobaopromo/189199",
+        "link_canal": "https://meli.la/2CPNif4",
+        "foto": "https://http2.mlstatic.com/D_NQ_NP_603981-MLA115262802698_082026-O.webp",
+        "foto_origem": "loja",
+        "nome": "Creatina Monohidratada Dark Lab 1kg (100%)",
+        "de": 159.0,
+        "por": 55.23,
+        "cupom": "CUPOMON",
+        "palavra": "creatina",
+        "garimpado_em": "2026-10-14T08:10-03:00",
+        "nota": 82.7
       }
     ],
     "soltas_hora": "2026-10-14T08",
