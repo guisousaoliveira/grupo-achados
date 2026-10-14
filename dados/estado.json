@@ -2,27 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB5169389147",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/2cfTgBD",
-      "link_produto": "https://meli.la/2cfTgBD",
-      "post_origem": "https://t.me/lobaopromo/189247",
-      "link_canal": "https://meli.la/1fb5Sh2",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_995416-MLB116990436955_082026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Kit Barba Óleo Shampoo + Condicionador Balm Pasta Modeladora",
-      "pix": true,
-      "de": 220.0,
-      "por": 64.83,
-      "palavra": "kit barba",
-      "garimpado_em": "2026-10-14T09:30-03:00",
-      "nota": 83.6,
-      "titulo": "Kit completo para cuidar da barba em casa",
-      "na_revisao_desde": "2026-10-14T10:42-03:00",
-      "aprovado_em": "2026-10-14T11:10-03:00"
-    },
-    {
       "loja": "shopee",
       "chave": "shopee:373745451.17609940424",
       "nome": "Jogo De Soquete 46 Peças 1/4 Catraca Chave Allen",
@@ -1197,6 +1176,16 @@
       "link_produto": "https://shopee.com.br/product/472202601/58211536223",
       "titulo": "Garrafa térmica em inox para bebidas quentes",
       "slot": 15
+    },
+    {
+      "chave": "mercadolivre:MLB5169389147",
+      "loja": "mercadolivre",
+      "nome": "Kit Barba Óleo Shampoo + Condicionador Balm Pasta Modeladora",
+      "data": "2026-10-14T16:15-03:00",
+      "link": "https://meli.la/2cfTgBD",
+      "link_produto": "https://meli.la/2cfTgBD",
+      "titulo": "Kit completo para cuidar da barba em casa",
+      "slot": 16
     }
   ],
   "slots_usados": {
@@ -1247,7 +1236,8 @@
       12,
       13,
       14,
-      15
+      15,
+      16
     ]
   },
   "shopee_buscado_em": "",
@@ -4346,6 +4336,20 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB5169389147",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/2cfTgBD",
+      "link_produto": "https://meli.la/2cfTgBD",
+      "post_origem": "https://t.me/lobaopromo/189247",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_995416-MLB116990436955_082026-O.webp",
+      "nome": "Kit Barba Óleo Shampoo + Condicionador Balm Pasta Modeladora",
+      "pix": true,
+      "de": 220.0,
+      "por": 64.83,
+      "titulo": "Kit completo para cuidar da barba em casa"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:472202601.58211536223",
       "nome": "Watersy Garrafa Térmica 17oz/510ml a Vácuo Inox 18/8 Antivazamento Portátil para Café Chá Água",
@@ -4873,18 +4877,6 @@
       "de": 129.0,
       "por": 93.95,
       "titulo": "Kit de camisas térmicas com 27% off"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB6160179460",
-      "origem": "xetdaspromocoes",
-      "link": "https://meli.la/1DjLFG2",
-      "link_produto": "https://meli.la/1DjLFG2",
-      "post_origem": "https://t.me/xetdaspromocoes/84619",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_838298-MLB115738787382_092026-O.webp",
-      "nome": "Óculos De Sol Hexagonal Masculino Premium Uv400 Flexivel Preto",
-      "por": 79.99,
-      "de": 139.99
     }
   ],
   "lixeira": [
