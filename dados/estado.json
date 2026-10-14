@@ -2,26 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB7574441456",
-      "origem": "xetdaspromocoes",
-      "link": "https://meli.la/2CTzyJV",
-      "link_produto": "https://meli.la/2CTzyJV",
-      "post_origem": "https://t.me/xetdaspromocoes/84717",
-      "link_canal": "https://meli.la/2Lx39AX",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_942491-MLB115592450210_092026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Camisa Polo Masculina Piquet Slim Manga Curta Off White Gg",
-      "de": 79.0,
-      "por": 34.0,
-      "palavra": "camisa polo",
-      "garimpado_em": "2026-10-14T09:00-03:00",
-      "nota": 78.4,
-      "titulo": "Camisa polo slim em piquet para o dia a dia",
-      "na_revisao_desde": "2026-10-14T11:41-03:00",
-      "aprovado_em": "2026-10-14T12:31-03:00"
-    },
-    {
       "loja": "shopee",
       "chave": "shopee:1566556194.22099191110",
       "nome": "Garrafa Térmica WATERSY 500ml - 48h Frio! Perfeita para Academia, Futebol e Dia a Dia⚽🏋️",
@@ -1296,6 +1276,15 @@
       "link": "https://meli.la/2gzYBUv",
       "link_produto": "https://meli.la/2gzYBUv",
       "titulo": "Whey NO PRECINHO"
+    },
+    {
+      "chave": "mercadolivre:MLB7574441456",
+      "loja": "mercadolivre",
+      "nome": "Camisa Polo Masculina Piquet Slim Manga Curta Off White Gg",
+      "data": "2026-10-14T18:58-03:00",
+      "link": "https://meli.la/2CTzyJV",
+      "link_produto": "https://meli.la/2CTzyJV",
+      "titulo": "Camisa polo slim em piquet para o dia a dia"
     }
   ],
   "slots_usados": {
@@ -4296,6 +4285,19 @@
   "ultimos": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB7574441456",
+      "origem": "xetdaspromocoes",
+      "link": "https://meli.la/2CTzyJV",
+      "link_produto": "https://meli.la/2CTzyJV",
+      "post_origem": "https://t.me/xetdaspromocoes/84717",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_942491-MLB115592450210_092026-O.webp",
+      "nome": "Camisa Polo Masculina Piquet Slim Manga Curta Off White Gg",
+      "de": 79.0,
+      "por": 34.0,
+      "titulo": "Camisa polo slim em piquet para o dia a dia"
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB18218398",
       "origem": "lobaopromo",
       "link": "https://meli.la/2gzYBUv",
@@ -4819,19 +4821,6 @@
       "por": 104.0,
       "cupom": "FULLLANDING",
       "titulo": "Kit pré-treino e creatina com 48% off"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB19506691",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/1DihMDt",
-      "link_produto": "https://meli.la/1DihMDt",
-      "post_origem": "https://t.me/lobaopromo/188711",
-      "foto": "AgACAgQAAxkDAAIBaWrOEeT3HjV31CkLk2Xacy1xNbY8AAK-EGsbDedlUEF9BlqDVO0eAQADAgADeAADPQQ",
-      "nome": "Creatina Dark Lab Premium Pure em pó Sem sabor x 300g",
-      "de": 78.9,
-      "por": 39.9,
-      "titulo": "Pra quem leva o treino a sério."
     }
   ],
   "lixeira": [
