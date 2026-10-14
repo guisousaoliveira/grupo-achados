@@ -1072,11 +1072,42 @@ def aprovar(estado, item):
     estado["revisar"] = [x for x in estado["revisar"] if x["id"] != item["id"]]
     if any(x["chave"] == item["chave"] for x in estado["fila"]):
         return "Esse link já estava na fila."
-    contar_garimpo(estado, item, "aprovados")
+    if not item.get("aprovado_sozinho"):  # só a sua aprovação ensina o garimpo
+        contar_garimpo(estado, item, "aprovados")
     limpo = {k: v for k, v in item.items() if k not in ("id", "msg_id")}
     limpo["aprovado_em"] = agora().isoformat(timespec="minutes")
     estado["fila"].append(limpo)
     return f"✅ Aprovada. Posição {len(estado['fila'])} na fila."
+
+
+def aprovar_sozinha(estado, item):
+    """Shopee pela API vai direto para a fila (sem Revisar) quando está tudo certo: chamada feita pela IA, desconto
+    entre 20% e 70% (acima disso o "de" costuma ser inflado), nota 4.7+, 100+ vendas, foto e preço.
+    config shopee.aprovar_sozinho = false desliga."""
+    regras = CONFIG.get("shopee", {})
+    if not (item.get("shopee_api") and regras.get("aprovar_sozinho")):
+        return False
+    de, por = item.get("de"), item.get("por")
+    off = round((1 - por / de) * 100) if de and por and de > por else 0
+    if not (regras.get("desconto_minimo", 20) <= off <= regras.get("aprovar_desconto_max", 70)):
+        return False
+    if item.get("avaliacao", 0) < regras.get("nota_minima", 4.7) or item.get("vendas", 0) < regras.get("vendas_minimas", 100):
+        return False
+    if faltando(item) or not item.get("foto") or not item.get("link"):
+        return False
+    if not item.get("titulo"):
+        item["titulo"] = gerar_titulo(item, titulos_recentes(estado))
+    if not item["titulo"]:  # sem chamada da IA: vai para o Revisar (lá ganha a chamada reserva)
+        return False
+    item["id"] = estado["proximo_id"]
+    estado["proximo_id"] += 1
+    item.setdefault("garimpado_em", agora().isoformat(timespec="minutes"))
+    item["aprovado_sozinho"] = True
+    resposta = aprovar(estado, item)
+    log(f"Shopee aprovada sozinha: {item['nome'][:60]} ({off}% off).")
+    responder_admin(f"🤖 Aprovei sozinho (Shopee): <b>{html.escape(item['titulo'])}</b>\n📦 {html.escape(item['nome'])}\n"
+                    f"💰 {reais(por)} ({off}% off)\n{resposta} Para tirar, use o painel (Fila).")
+    return True
 
 
 def postar_agora(estado, item):
@@ -1594,7 +1625,8 @@ def buscar_shopee(estado):
                 continue
             usadas.add(o["chave"])
             item = {k: o[k] for k in ("loja", "chave", "nome", "por", "de", "foto", "link", "link_produto") if o.get(k)}
-            item.update(origem="shopee", fonte="shopee", foto_origem="loja", shopee_api=True)
+            item.update(origem="shopee", fonte="shopee", foto_origem="loja", shopee_api=True,
+                        avaliacao=o["nota"], vendas=o["vendas"])  # "nota" no item é a nota da peneira
             r["chaves"] = (r.get("chaves", []) + [item["chave"]])[-3000:]
             if peneirar(estado, r, item, conta):
                 novas += 1
@@ -2266,8 +2298,9 @@ def soltar_peneira(estado, r, forcado=False):
         if repetida_pelo_nome(estado, r, item):  # entrou parecida em Revisar enquanto esperava
             continue
         r.setdefault("nomes", []).append([nome_tokens(item.get("nome")), agora().isoformat(timespec="minutes")])
-        mandar_para_revisao(estado, item)
         contar_garimpo(estado, item, "achados")
+        if not aprovar_sozinha(estado, item):
+            mandar_para_revisao(estado, item)
         soltas += 1
     r["soltas"] += soltas
     if soltas:

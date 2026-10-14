@@ -62,7 +62,9 @@
     "nao_repetir_dias": 7,
     "palavras_por_hora": 8,
     "buscar_cada_minutos": 15,
-    "so_api": true
+    "so_api": true,
+    "aprovar_sozinho": true,
+    "aprovar_desconto_max": 70
   },
   "ia": {
     "modelo": "gemini-flash-latest",
