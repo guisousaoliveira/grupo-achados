@@ -363,6 +363,26 @@
       "na_revisao_desde": "2026-10-14T13:40-03:00",
       "cupom": "Use o cupom 15% OFF do anúncio",
       "aprovado_em": "2026-10-14T13:42-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB26989230",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/2HUgV4i",
+      "link_produto": "https://meli.la/2HUgV4i",
+      "post_origem": "https://t.me/lobaopromo/189391",
+      "link_canal": "https://meli.la/1UfHcwv",
+      "foto": "AgACAgQAAxkDAAIDaGrPsJbc_yCeM1721foEv2MaUbIQAAKdDmsbTLu9U-H36ZmWWAFBAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Creatina Soldiers Nutrition em pó Sem sabor x 600g",
+      "de": 129.0,
+      "por": 50.0,
+      "palavra": "creatina",
+      "garimpado_em": "2026-10-14T13:40-03:00",
+      "nota": 78.9,
+      "titulo": "Creatina em pó para o seu treino diário",
+      "na_revisao_desde": "2026-10-14T13:40-03:00",
+      "aprovado_em": "2026-10-14T13:43-03:00"
     }
   ],
   "postados": [
@@ -1309,27 +1329,6 @@
       "id": 532,
       "na_revisao_desde": "2026-10-14T13:40-03:00",
       "msg_id": 871
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB26989230",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/creatina-soldiers-nutrition-em-po-sem-sabor-x-600g/p/MLB26989230?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/creatina-soldiers-nutrition-em-po-sem-sabor-x-600g/p/MLB26989230",
-      "post_origem": "https://t.me/lobaopromo/189391",
-      "link_canal": "https://meli.la/1UfHcwv",
-      "foto": "AgACAgQAAxkDAAIDaGrPsJbc_yCeM1721foEv2MaUbIQAAKdDmsbTLu9U-H36ZmWWAFBAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Creatina Soldiers Nutrition em pó Sem sabor x 600g",
-      "de": 129.0,
-      "por": 50.0,
-      "palavra": "creatina",
-      "garimpado_em": "2026-10-14T13:40-03:00",
-      "nota": 78.9,
-      "titulo": "Creatina em pó para o seu treino diário",
-      "id": 533,
-      "na_revisao_desde": "2026-10-14T13:40-03:00",
-      "msg_id": 872
     }
   ],
   "proximo_id": 535,
@@ -5152,7 +5151,7 @@
       },
       "lobaopromo": {
         "achados": 3,
-        "aprovados": 2,
+        "aprovados": 3,
         "reprovados": 0
       },
       "xetdaspromocoes": {
@@ -5281,7 +5280,7 @@
     },
     "creatina": {
       "achados": 19,
-      "aprovados": 8,
+      "aprovados": 9,
       "reprovados": 10
     },
     "cueca": {
