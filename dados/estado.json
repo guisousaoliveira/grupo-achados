@@ -3183,26 +3183,6 @@
       "msg_id": 784
     },
     {
-      "loja": "amazon",
-      "chave": "amazon:B0GYQ3L2FT",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B0GYQ3L2FT?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0GYQ3L2FT?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/smart-tv-tcl-65-polegadas-qd-mini-led-4k-a400m-wifi-bluetooth-google-tv-hdr10-144-hz-vrr-65a400m-3111955/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3111955/",
-      "nome": "Smart TV TCL 65 Polegadas QD-Mini LED 4K A400M WiFi Bluetooth Google",
-      "por": 3504.14,
-      "de": 4799.0,
-      "foto": "AgACAgQAAxkDAAIDEmrO2OCHsoDtBnhGqSaNXeoFAuYEAAKMDWsb-AS0U16YUqhDJbN3AQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "titulo": "Smart TV TCL 65 polegadas com 27% off",
-      "id": 491,
-      "garimpado_em": "2026-10-13T22:20-03:00",
-      "na_revisao_desde": "2026-10-13T22:20-03:00",
-      "msg_id": 786
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB6139419",
       "origem": "lobaopromo",
@@ -4241,6 +4221,27 @@
   "lixeira": [
     {
       "loja": "amazon",
+      "chave": "amazon:B0GYQ3L2FT",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0GYQ3L2FT?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0GYQ3L2FT?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/smart-tv-tcl-65-polegadas-qd-mini-led-4k-a400m-wifi-bluetooth-google-tv-hdr10-144-hz-vrr-65a400m-3111955/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3111955/",
+      "nome": "Smart TV TCL 65 Polegadas QD-Mini LED 4K A400M WiFi Bluetooth Google",
+      "por": 3504.14,
+      "de": 4799.0,
+      "foto": "AgACAgQAAxkDAAIDEmrO2OCHsoDtBnhGqSaNXeoFAuYEAAKMDWsb-AS0U16YUqhDJbN3AQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "titulo": "Smart TV TCL 65 polegadas com 27% off",
+      "id": 491,
+      "garimpado_em": "2026-10-13T22:20-03:00",
+      "na_revisao_desde": "2026-10-13T22:20-03:00",
+      "removido_em": "2026-10-13T23:33:59-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "amazon",
       "chave": "amazon:B0G61P4832",
       "origem": "boletando",
       "link": "https://www.amazon.com.br/dp/B0G61P4832?tag=alphadominu09-20",
@@ -5035,25 +5036,6 @@
       "na_revisao_desde": "2026-10-13T14:41-03:00",
       "removido_em": "2026-10-13T15:49:16-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B07D2FKWBT",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B07D2FKWBT?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B07D2FKWBT?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/220600",
-      "link_canal": "https://www.amazon.com.br/dp/B07D2FKWBT?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAICXmrObZ3PKmpTzoYGb4BObnFmE9QyAAINDmsbG_tlU_-ZecAHBfkSAQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "nome": "Johnsons Baby Sabonete Líquido Recém Nascido, 200ml",
-      "por": 12.17,
-      "titulo": "Preço bom assim não dura, corre!",
-      "id": 325,
-      "garimpado_em": "2026-10-13T14:42-03:00",
-      "na_revisao_desde": "2026-10-13T14:42-03:00",
-      "removido_em": "2026-10-13T15:49:13-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -5118,7 +5100,7 @@
       "promobit": {
         "achados": 58,
         "aprovados": 3,
-        "reprovados": 23
+        "reprovados": 24
       },
       "lobaopromo": {
         "achados": 60,
