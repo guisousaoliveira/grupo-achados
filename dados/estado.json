@@ -1976,25 +1976,6 @@
       "msg_id": 713
     },
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB3781902941",
-      "origem": "promooeasy",
-      "link": "https://produto.mercadolivre.com.br/MLB-3781902941-top-lupo-loba-fitness-confortavel-otima-sustentaco-academia-_JM?pdp_filters=item_id%3AMLB3781902941&matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-3781902941-top-lupo-loba-fitness-confortavel-otima-sustentaco-academia-_JM?pdp_filters=item_id%3AMLB3781902941",
-      "post_origem": "https://t.me/promooeasy/220796",
-      "link_canal": "https://meli.la/1jVxaAF",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_943209-MLB95115260847_102025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Top Lupo Loba Fitness Confortável Ótima Sustentação Academia",
-      "de": 149.98,
-      "por": 39.25,
-      "titulo": "Top Lupo Fitness com 74% de desconto",
-      "id": 427,
-      "garimpado_em": "2026-10-13T18:31-03:00",
-      "na_revisao_desde": "2026-10-13T18:31-03:00",
-      "msg_id": 714
-    },
-    {
       "loja": "shopee",
       "chave": "shopee:983753255.43606861494",
       "origem": "promooeasy",
@@ -3707,6 +3688,26 @@
   ],
   "lixeira": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB3781902941",
+      "origem": "promooeasy",
+      "link": "https://produto.mercadolivre.com.br/MLB-3781902941-top-lupo-loba-fitness-confortavel-otima-sustentaco-academia-_JM?pdp_filters=item_id%3AMLB3781902941&matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-3781902941-top-lupo-loba-fitness-confortavel-otima-sustentaco-academia-_JM?pdp_filters=item_id%3AMLB3781902941",
+      "post_origem": "https://t.me/promooeasy/220796",
+      "link_canal": "https://meli.la/1jVxaAF",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_943209-MLB95115260847_102025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Top Lupo Loba Fitness Confortável Ótima Sustentação Academia",
+      "de": 149.98,
+      "por": 39.25,
+      "titulo": "Top Lupo Fitness com 74% de desconto",
+      "id": 427,
+      "garimpado_em": "2026-10-13T18:31-03:00",
+      "na_revisao_desde": "2026-10-13T18:31-03:00",
+      "removido_em": "2026-10-13T23:37:50-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0FHWYPYF4",
       "origem": "promooeasy",
@@ -4496,25 +4497,6 @@
       "na_revisao_desde": "2026-10-13T15:52-03:00",
       "removido_em": "2026-10-13T16:04:39-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0DGXFNVLD",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0DGXFNVLD?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0DGXFNVLD?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/220658",
-      "link_canal": "https://www.amazon.com.br/dp/B0DGXFNVLD?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAICgGrOfhi6wPDsvSMY4Vp-0ss8_HAGAAKLDGsbT9NkUEtztnlvXnOkAQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "nome": "UGREEN Webcam 2K 30Hz QHD para PC Com Microfone Antirruído",
-      "por": 189.9,
-      "titulo": "Webcam 2K para videochamadas com imagem nítida",
-      "id": 358,
-      "garimpado_em": "2026-10-13T15:53-03:00",
-      "na_revisao_desde": "2026-10-13T15:53-03:00",
-      "removido_em": "2026-10-13T16:04:35-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -4589,7 +4571,7 @@
       "promooeasy": {
         "achados": 123,
         "aprovados": 2,
-        "reprovados": 92
+        "reprovados": 93
       },
       "xetdaspromocoes": {
         "achados": 19,
