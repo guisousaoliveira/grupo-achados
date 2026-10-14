@@ -1,0 +1,21 @@
+name: titulo-teste
+
+# Prévia das chamadas (o título do topo do post): mostra a chamada atual e a que a IA faria agora
+# para as ofertas do Revisar e da fila. Não salva nada.
+on:
+  workflow_dispatch:
+
+jobs:
+  testar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - name: Gerar as chamadas
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          git fetch -q origin main && git checkout origin/main -- dados/estado.json  # ofertas de agora
+          python3 bot.py titulo-teste | tee saida.txt
+          # cada linha vira um aviso no resumo da rodada (dá para ler pela API, sem baixar o log)
+          while IFS= read -r l; do echo "::notice::$l"; done < saida.txt
