@@ -3012,24 +3012,6 @@
     },
     {
       "loja": "amazon",
-      "chave": "amazon:B0HKT8K2BF",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0HKT8K2BF?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0HKT8K2BF?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/220906",
-      "link_canal": "https://www.amazon.com.br/Persona-4-Revival-PlayStation-5/dp/B0HKT8K2BF?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAIDBGrOzVzYf3WPTR7X6_CIuXoobTqDAALODmsbH0DdUSo33lODl4x-AQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "nome": "Jogo Persona 4 Revival, Mídia Fìsica, PS5",
-      "por": 263.91,
-      "titulo": "Jogo Persona 4 para PS5 em mídia física",
-      "id": 482,
-      "garimpado_em": "2026-10-13T21:31-03:00",
-      "na_revisao_desde": "2026-10-13T21:31-03:00",
-      "msg_id": 772
-    },
-    {
-      "loja": "amazon",
       "chave": "amazon:B0FY8K73R9",
       "origem": "promobit",
       "fonte": "promobit",
@@ -4164,6 +4146,25 @@
   "lixeira": [
     {
       "loja": "amazon",
+      "chave": "amazon:B0HKT8K2BF",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0HKT8K2BF?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0HKT8K2BF?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220906",
+      "link_canal": "https://www.amazon.com.br/Persona-4-Revival-PlayStation-5/dp/B0HKT8K2BF?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAIDBGrOzVzYf3WPTR7X6_CIuXoobTqDAALODmsbH0DdUSo33lODl4x-AQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "nome": "Jogo Persona 4 Revival, Mídia Fìsica, PS5",
+      "por": 263.91,
+      "titulo": "Jogo Persona 4 para PS5 em mídia física",
+      "id": 482,
+      "garimpado_em": "2026-10-13T21:31-03:00",
+      "na_revisao_desde": "2026-10-13T21:31-03:00",
+      "removido_em": "2026-10-13T23:34:12-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "amazon",
       "chave": "amazon:B0GV5WHHN2",
       "origem": "promooeasy",
       "link": "https://www.amazon.com.br/dp/B0GV5WHHN2?tag=alphadominu09-20",
@@ -4956,26 +4957,6 @@
       "na_revisao_desde": "2026-10-13T12:18-03:00",
       "removido_em": "2026-10-13T15:49:29-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB4317803385",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/parafusadeira-furadeira-48v-profissional-2-baterias-sem-fio/up/MLBU3584842699?pdp_filters=item_id%3AMLB4317803385&matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/parafusadeira-furadeira-48v-profissional-2-baterias-sem-fio/up/MLBU3584842699?pdp_filters=item_id%3AMLB4317803385",
-      "post_origem": "https://t.me/lobaopromo/188845",
-      "link_canal": "https://meli.la/1269oao",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_951617-MLB110943565198_052026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Parafusadeira Furadeira 48v Profissional 2 Baterias Sem Fio Amarelo",
-      "pix": true,
-      "por": 104.31,
-      "titulo": "Parafusadeira profissional com duas baterias inclusas",
-      "id": 274,
-      "garimpado_em": "2026-10-13T12:17-03:00",
-      "na_revisao_desde": "2026-10-13T12:17-03:00",
-      "removido_em": "2026-10-13T15:49:29-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -5050,7 +5031,7 @@
       "promooeasy": {
         "achados": 123,
         "aprovados": 2,
-        "reprovados": 84
+        "reprovados": 85
       },
       "xetdaspromocoes": {
         "achados": 19,
