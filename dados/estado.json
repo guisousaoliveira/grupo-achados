@@ -225,6 +225,22 @@
       "na_revisao_desde": "2026-10-13T22:41-03:00",
       "pix": true,
       "aprovado_em": "2026-10-13T23:35-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB32431595",
+      "origem": "gatunopromos",
+      "link": "https://meli.la/1UeRK4g",
+      "link_produto": "https://meli.la/1UeRK4g",
+      "post_origem": "https://t.me/gatunopromos/125144",
+      "link_canal": "https://www.mercadolivre.com.br/social/gatuna/lists",
+      "foto": "AgACAgQAAxkDAAICvGrOmysMjPtx7TZTDjd7iiMuhQABCAACNA9rGw3FfFLHUGMo0lncOgEAAwIAA20AAz0E",
+      "foto_origem": "loja",
+      "nome": "Kit Vinho 5 Peças Uny Gift Abridor Saca Rolhas Dosador Aço Inox",
+      "por": 35.7,
+      "garimpado_em": "2026-10-13T17:57-03:00",
+      "na_revisao_desde": "2026-10-13T17:57-03:00",
+      "aprovado_em": "2026-10-13T23:39-03:00"
     }
   ],
   "postados": [
@@ -1705,25 +1721,6 @@
       "garimpado_em": "2026-10-13T17:50-03:00",
       "na_revisao_desde": "2026-10-13T17:50-03:00",
       "msg_id": 699
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB32431595",
-      "origem": "gatunopromos",
-      "link": "https://www.mercadolivre.com.br/kit-vinho-5-pecas-uny-gift-abridor-saca-rolhas-dosador-aco-inox/p/MLB32431595?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/kit-vinho-5-pecas-uny-gift-abridor-saca-rolhas-dosador-aco-inox/p/MLB32431595",
-      "post_origem": "https://t.me/gatunopromos/125144",
-      "link_canal": "https://www.mercadolivre.com.br/social/gatuna/lists",
-      "foto": "AgACAgQAAxkDAAICvGrOmysMjPtx7TZTDjd7iiMuhQABCAACNA9rGw3FfFLHUGMo0lncOgEAAwIAA20AAz0E",
-      "foto_origem": "loja",
-      "nome": "Minhas listas de recomendações",
-      "de": 90.0,
-      "por": 48.0,
-      "titulo": "Listas de recomendações com 47% de desconto",
-      "id": 413,
-      "garimpado_em": "2026-10-13T17:57-03:00",
-      "na_revisao_desde": "2026-10-13T17:57-03:00",
-      "msg_id": 700
     },
     {
       "loja": "shopee",
@@ -4508,7 +4505,7 @@
       },
       "gatunopromos": {
         "achados": 3,
-        "aprovados": 0,
+        "aprovados": 1,
         "reprovados": 1
       },
       "boletando": {
