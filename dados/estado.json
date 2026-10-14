@@ -302,27 +302,6 @@
       "titulo": "Smartwatch esportivo para monitorar suas atividades diárias",
       "na_revisao_desde": "2026-10-14T15:41-03:00",
       "aprovado_em": "2026-10-14T18:18-03:00"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB68466630",
-      "origem": "promonocontext",
-      "link": "https://meli.la/2hwoF4P",
-      "link_produto": "https://meli.la/2hwoF4P",
-      "post_origem": "https://t.me/promonocontext/126808",
-      "link_canal": "https://meli.la/2erPW7y",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_751328-MLA109896098642_042026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Garrafa Térmica 1.2l Bebidas Quentes E Frias Duradoura Preto",
-      "de": 79.0,
-      "por": 37.0,
-      "cupom": "MELIGARANTE",
-      "palavra": "garrafa termica",
-      "garimpado_em": "2026-10-14T18:50-03:00",
-      "nota": 86.0,
-      "titulo": "Garrafa térmica na temperatura ideal",
-      "na_revisao_desde": "2026-10-14T19:41-03:00",
-      "aprovado_em": "2026-10-14T20:00-03:00"
     }
   ],
   "postados": [
@@ -1285,6 +1264,15 @@
       "link_produto": "https://meli.la/22UA4Jg",
       "titulo": "Creatina em pó para o seu treino diário",
       "slot": 19
+    },
+    {
+      "chave": "mercadolivre:MLB68466630",
+      "loja": "mercadolivre",
+      "nome": "Garrafa Térmica 1.2l Bebidas Quentes E Frias Duradoura Preto",
+      "data": "2026-10-14T20:00-03:00",
+      "link": "https://meli.la/2hwoF4P",
+      "link_produto": "https://meli.la/2hwoF4P",
+      "titulo": "Garrafa térmica na temperatura ideal"
     }
   ],
   "slots_usados": {
@@ -4393,6 +4381,20 @@
   "ultimos": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB68466630",
+      "origem": "promonocontext",
+      "link": "https://meli.la/2hwoF4P",
+      "link_produto": "https://meli.la/2hwoF4P",
+      "post_origem": "https://t.me/promonocontext/126808",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_751328-MLA109896098642_042026-O.webp",
+      "nome": "Garrafa Térmica 1.2l Bebidas Quentes E Frias Duradoura Preto",
+      "de": 79.0,
+      "por": 37.0,
+      "cupom": "MELIGARANTE",
+      "titulo": "Garrafa térmica na temperatura ideal"
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB24081502",
       "origem": "promonocontext",
       "link": "https://meli.la/22UA4Jg",
@@ -4914,19 +4916,6 @@
       "de": 271.0,
       "cupom": "OPAECONOMIZEI",
       "titulo": "Power Bank Basike com 34% off"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB18995412",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/1Syc2hF",
-      "link_produto": "https://meli.la/1Syc2hF",
-      "post_origem": "https://t.me/lobaopromo/188962",
-      "foto": "AgACAgQAAxkDAAICn2rOjgEOdV7V1ZvT7zxrz2eRkyu2AALSDmsbwNQVUCjwJkt3T3neAQADAgADeAADPQQ",
-      "nome": "Proteína Black Skull Whey 100% HD em pó sabor Morango x 900g",
-      "por": 86.0,
-      "cupom": "FULLLANDING",
-      "titulo": "Whey Protein Black Skull com 10% off"
     }
   ],
   "lixeira": [
