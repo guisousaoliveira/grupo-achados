@@ -1350,20 +1350,132 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [],
-  "proximo_id": 565,
+  "revisar": [
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB66176437",
+      "origem": "lobaopromo",
+      "link": "https://www.mercadolivre.com.br/mochila-masculina-bolsa-impermeavel-faculdade-executiva-alca-reforcada-preto-liso/p/MLB66176437?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/mochila-masculina-bolsa-impermeavel-faculdade-executiva-alca-reforcada-preto-liso/p/MLB66176437",
+      "post_origem": "https://t.me/lobaopromo/189535",
+      "link_canal": "https://meli.la/2mQ7Tc6",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_892888-MLA107403836976_032026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Mochila Masculina Bolsa Impermeável Faculdade Executiva Alça",
+      "de": 59.0,
+      "por": 27.0,
+      "cupom": "OPAECONOMIZEI",
+      "palavra": "mochila",
+      "garimpado_em": "2026-10-14T19:10-03:00",
+      "nota": 79.1,
+      "titulo": "Modelo executivo impermeável para trabalho e estudos",
+      "id": 565,
+      "na_revisao_desde": "2026-10-14T20:40-03:00",
+      "msg_id": 921
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0FCGBD62W",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0FCGBD62W?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0FCGBD62W?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/corinthians-camisa-polo-retro-kalunga-masculina-preta-m-3114645/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3114645/",
+      "nome": "Corinthians Camisa Polo Retrô Kalunga Masculina Preta M",
+      "por": 89.33,
+      "de": 219.99,
+      "foto": "AgACAgQAAxkDAAIDmmrQEw0aZ2Hrq_g9tPBeaePZi6bJAAJaD2sbnoeEUpMcdGUw6P_5AQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "palavra": "camisa polo",
+      "garimpado_em": "2026-10-14T20:30-03:00",
+      "nota": 77.2,
+      "titulo": "Camisa polo preta para torcer com estilo",
+      "id": 566,
+      "na_revisao_desde": "2026-10-14T20:41-03:00",
+      "msg_id": 922
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:1325772331.23893407082",
+      "nome": "Mini Lanterna Tática Com Led E Zoom Recarregável Usb Lanterna De Mao 535",
+      "por": 12.99,
+      "de": 35.11,
+      "foto": "AgACAgQAAxkDAAIDm2rQEw-clac2c8Vq7EnsE1iMWn9bAALkD2sbv9REUFLLllhhEIPnAQADAgADeQADPQQ",
+      "link": "https://s.shopee.com.br/4B0j8e9y5b",
+      "link_produto": "https://shopee.com.br/product/1325772331/23893407082",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.9,
+      "vendas": 331,
+      "palavra": "lanterna tatica",
+      "garimpado_em": "2026-10-14T20:30-03:00",
+      "nota": 76.7,
+      "titulo": "Lanterna de bolso recarregável para uso diário",
+      "id": 567,
+      "na_revisao_desde": "2026-10-14T20:41-03:00",
+      "msg_id": 923
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB1841927467",
+      "origem": "promonocontext",
+      "link": "https://produto.mercadolivre.com.br/MLB-1841927467-camisa-polo-masculina-ogochi-original-slim-camiseta-_JM?pdp_filters=item_id%3AMLB1841927467&matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-1841927467-camisa-polo-masculina-ogochi-original-slim-camiseta-_JM?pdp_filters=item_id%3AMLB1841927467",
+      "post_origem": "https://t.me/promonocontext/126823",
+      "link_canal": "https://meli.la/221hbPa",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_601114-MLB107054773924_022026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Camisa Polo Masculina Ogochi Original Slim Camiseta",
+      "de": 118.0,
+      "por": 68.0,
+      "cupom": "MELIGARANTE",
+      "palavra": "camisa polo",
+      "garimpado_em": "2026-10-14T19:20-03:00",
+      "nota": 76.5,
+      "titulo": "Camisa polo slim para o dia a dia",
+      "id": 568,
+      "na_revisao_desde": "2026-10-14T20:41-03:00",
+      "msg_id": 924
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0HDFV9XDD",
+      "origem": "lobaopromo",
+      "link": "https://www.amazon.com.br/dp/B0HDFV9XDD?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0HDFV9XDD?tag=alphadominu09-20",
+      "post_origem": "https://t.me/lobaopromo/189569",
+      "link_canal": "https://amzlink.to/az0WFdGs7gGkX",
+      "foto": "AgACAgQAAxkDAAIDnWrQExEM5hYq2hNaqiCtqBWDGYdOAALhDmsb0GPUUZ-GojoTjgH7AQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Creatina 500g Growth Supplements",
+      "pix": true,
+      "de": 75.0,
+      "por": 56.9,
+      "palavra": "creatina",
+      "garimpado_em": "2026-10-14T20:20-03:00",
+      "nota": 59.1,
+      "titulo": "Creatina em pó para o seu treino diário",
+      "id": 569,
+      "na_revisao_desde": "2026-10-14T20:41-03:00",
+      "msg_id": 925
+    }
+  ],
+  "proximo_id": 570,
   "radar": {
     "visto": {
       "xetdaspromocoes": 84890,
-      "lobaopromo": 189578,
-      "gatunopromos": 125416,
+      "lobaopromo": 189579,
+      "gatunopromos": 125417,
       "pobregram": 41908,
       "urubupromo": 41686,
       "tudonapromo": 101920,
-      "promonocontext": 126869,
-      "promooeasy": 221695,
+      "promonocontext": 126877,
+      "promooeasy": 221707,
       "aquitempechincha": 281696,
-      "infoBRpromos": 67584,
+      "infoBRpromos": 67585,
       "boletando": 76741,
       "promotop": 260287,
       "achadosdotb": 11771
@@ -3095,27 +3207,27 @@
       "shopee:1305300039.18497762080"
     ],
     "ultima": {
-      "em": "2026-10-14T20:30:22-03:00",
+      "em": "2026-10-14T20:40:19-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 45,
-      "do_nicho": 6,
+      "posts_novos": 36,
+      "do_nicho": 2,
       "repetidas": 2,
-      "novas": 4,
+      "novas": 0,
       "limite_dia": false,
       "repetidas_nome": 0,
-      "promobit": 2,
-      "soltas": 0,
-      "na_peneira": 31
+      "promobit": 0,
+      "soltas": 5,
+      "na_peneira": 27
     },
     "hora": "2026-10-14T20",
     "nesta_hora": 6,
     "promobit_hora": "2026-10-14T20",
     "promobit_nesta_hora": 4,
-    "promobit_visto": 3114648,
+    "promobit_visto": 3114677,
     "nomes": [
       [
         [
@@ -3889,41 +4001,62 @@
           "220v"
         ],
         "2026-10-14T19:41-03:00"
+      ],
+      [
+        [
+          "mochila",
+          "bolsa",
+          "impermeavel",
+          "faculdade",
+          "executiva",
+          "alca"
+        ],
+        "2026-10-14T20:40-03:00"
+      ],
+      [
+        [
+          "corinthians",
+          "camisa",
+          "polo",
+          "retro",
+          "kalunga"
+        ],
+        "2026-10-14T20:40-03:00"
+      ],
+      [
+        [
+          "mini",
+          "lanterna",
+          "tatica",
+          "led",
+          "zoom",
+          "recarregavel",
+          "usb",
+          "lanterna"
+        ],
+        "2026-10-14T20:41-03:00"
+      ],
+      [
+        [
+          "camisa",
+          "polo",
+          "ogochi",
+          "slim",
+          "camiseta"
+        ],
+        "2026-10-14T20:41-03:00"
+      ],
+      [
+        [
+          "creatina",
+          "500g",
+          "growth",
+          "supplements"
+        ],
+        "2026-10-14T20:41-03:00"
       ]
     ],
     "peneira": [
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB21394740",
-        "origem": "promonocontext",
-        "link": "https://www.mercadolivre.com.br/pre-treino-prohibido-180g-sabor-green-apple-formula-avancada-contendo-creatina-beta-alanina-taurina-l-tirosina-l-alanina-cafeina-arginina-e-palatinose-extra-forte/p/MLB21394740?matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/pre-treino-prohibido-180g-sabor-green-apple-formula-avancada-contendo-creatina-beta-alanina-taurina-l-tirosina-l-alanina-cafeina-arginina-e-palatinose-extra-forte/p/MLB21394740",
-        "post_origem": "https://t.me/promonocontext/126773",
-        "link_canal": "https://meli.la/1wzupXH",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_788808-MLA115975299817_082026-O.webp",
-        "foto_origem": "loja",
-        "nome": "Pré Treino Prohibido 180g Sabor Green Apple",
-        "por": 41.0,
-        "palavra": "pre treino",
-        "garimpado_em": "2026-10-14T17:40-03:00",
-        "nota": 30.7
-      },
-      {
-        "loja": "amazon",
-        "chave": "amazon:B0FQJVM2YD",
-        "origem": "promooeasy",
-        "link": "https://www.amazon.com.br/dp/B0FQJVM2YD?tag=alphadominu09-20",
-        "link_produto": "https://www.amazon.com.br/dp/B0FQJVM2YD?tag=alphadominu09-20",
-        "post_origem": "https://t.me/promooeasy/221560",
-        "link_canal": "https://www.amazon.com.br/dp/B0FQJVM2YD/ref=cm_sw_r_as_gl_apa_gl_i_dl_FHR5EPC98D1GW6Y7B89H?tag=promof26-20",
-        "foto": "https://m.media-amazon.com/images/I/61lh+nNVCQL._AC_SL1500_.jpg",
-        "foto_origem": "loja",
-        "nome": "Bettdow SmartWatch GPS",
-        "por": 276.09,
-        "palavra": "smartwatch",
-        "garimpado_em": "2026-10-14T17:40-03:00",
-        "nota": 24.4
-      },
       {
         "loja": "amazon",
         "chave": "amazon:B0D3J6CQNB",
@@ -4082,24 +4215,6 @@
       },
       {
         "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB66176437",
-        "origem": "lobaopromo",
-        "link": "https://www.mercadolivre.com.br/mochila-masculina-bolsa-impermeavel-faculdade-executiva-alca-reforcada-preto-liso/p/MLB66176437?matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/mochila-masculina-bolsa-impermeavel-faculdade-executiva-alca-reforcada-preto-liso/p/MLB66176437",
-        "post_origem": "https://t.me/lobaopromo/189535",
-        "link_canal": "https://meli.la/2mQ7Tc6",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_892888-MLA107403836976_032026-O.webp",
-        "foto_origem": "loja",
-        "nome": "Mochila Masculina Bolsa Impermeável Faculdade Executiva Alça",
-        "de": 59.0,
-        "por": 27.0,
-        "cupom": "OPAECONOMIZEI",
-        "palavra": "mochila",
-        "garimpado_em": "2026-10-14T19:10-03:00",
-        "nota": 79.1
-      },
-      {
-        "loja": "mercadolivre",
         "chave": "mercadolivre:MLB5114504621",
         "origem": "promonocontext",
         "link": "https://www.mercadolivre.com.br/mochila-masculina-lona-50-litros-viagem-passeio-motoboy-espo/up/MLBU4882042825?pdp_filters=item_id%3AMLB5114504621&matt_word=alphapromo&matt_tool=59136903",
@@ -4132,24 +4247,6 @@
         "palavra": "aparador",
         "garimpado_em": "2026-10-14T19:20-03:00",
         "nota": 53.2
-      },
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB1841927467",
-        "origem": "promonocontext",
-        "link": "https://produto.mercadolivre.com.br/MLB-1841927467-camisa-polo-masculina-ogochi-original-slim-camiseta-_JM?pdp_filters=item_id%3AMLB1841927467&matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://produto.mercadolivre.com.br/MLB-1841927467-camisa-polo-masculina-ogochi-original-slim-camiseta-_JM?pdp_filters=item_id%3AMLB1841927467",
-        "post_origem": "https://t.me/promonocontext/126823",
-        "link_canal": "https://meli.la/221hbPa",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_601114-MLB107054773924_022026-O.webp",
-        "foto_origem": "loja",
-        "nome": "Camisa Polo Masculina Ogochi Original Slim Camiseta",
-        "de": 118.0,
-        "por": 68.0,
-        "cupom": "MELIGARANTE",
-        "palavra": "camisa polo",
-        "garimpado_em": "2026-10-14T19:20-03:00",
-        "nota": 76.5
       },
       {
         "loja": "mercadolivre",
@@ -4349,24 +4446,6 @@
       },
       {
         "loja": "amazon",
-        "chave": "amazon:B0HDFV9XDD",
-        "origem": "lobaopromo",
-        "link": "https://www.amazon.com.br/dp/B0HDFV9XDD?tag=alphadominu09-20",
-        "link_produto": "https://www.amazon.com.br/dp/B0HDFV9XDD?tag=alphadominu09-20",
-        "post_origem": "https://t.me/lobaopromo/189569",
-        "link_canal": "https://amzlink.to/az0WFdGs7gGkX",
-        "foto": "https://m.media-amazon.com/images/I/61N02yJfsrL._AC_SL1200_.jpg",
-        "foto_origem": "loja",
-        "nome": "Creatina 500g Growth Supplements",
-        "pix": true,
-        "de": 75.0,
-        "por": 56.9,
-        "palavra": "creatina",
-        "garimpado_em": "2026-10-14T20:20-03:00",
-        "nota": 59.1
-      },
-      {
-        "loja": "amazon",
         "chave": "amazon:B0H764T51L",
         "origem": "promobit",
         "fonte": "promobit",
@@ -4382,24 +4461,6 @@
         "palavra": "smart tv",
         "garimpado_em": "2026-10-14T20:30-03:00",
         "nota": 26.8
-      },
-      {
-        "loja": "amazon",
-        "chave": "amazon:B0FCGBD62W",
-        "origem": "promobit",
-        "fonte": "promobit",
-        "link": "https://www.amazon.com.br/dp/B0FCGBD62W?tag=alphadominu09-20",
-        "link_produto": "https://www.amazon.com.br/dp/B0FCGBD62W?tag=alphadominu09-20",
-        "post_origem": "https://www.promobit.com.br/oferta/corinthians-camisa-polo-retro-kalunga-masculina-preta-m-3114645/",
-        "link_canal": "https://www.promobit.com.br/Redirect/to/3114645/",
-        "nome": "Corinthians Camisa Polo Retrô Kalunga Masculina Preta M",
-        "por": 89.33,
-        "de": 219.99,
-        "foto": "https://images-na.ssl-images-amazon.com/images/P/B0FCGBD62W.01.LZZZZZZZ.jpg",
-        "foto_origem": "loja",
-        "palavra": "camisa polo",
-        "garimpado_em": "2026-10-14T20:30-03:00",
-        "nota": 77.2
       },
       {
         "loja": "mercadolivre",
@@ -4456,25 +4517,6 @@
       },
       {
         "loja": "shopee",
-        "chave": "shopee:1325772331.23893407082",
-        "nome": "Mini Lanterna Tática Com Led E Zoom Recarregável Usb Lanterna De Mao 535",
-        "por": 12.99,
-        "de": 35.11,
-        "foto": "https://cf.shopee.com.br/file/br-11134207-81z1k-mfe2btly29s0bb",
-        "link": "https://s.shopee.com.br/4B0j8e9y5b",
-        "link_produto": "https://shopee.com.br/product/1325772331/23893407082",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 4.9,
-        "vendas": 331,
-        "palavra": "lanterna tatica",
-        "garimpado_em": "2026-10-14T20:30-03:00",
-        "nota": 76.7
-      },
-      {
-        "loja": "shopee",
         "chave": "shopee:1305300039.18497762080",
         "nome": "Mini Lanterna Tática Militar Longo Alcance T6 LED Recarregável",
         "por": 18.0,
@@ -4494,12 +4536,16 @@
       }
     ],
     "soltas_hora": "2026-10-14T20",
-    "soltas": 0,
+    "soltas": 5,
     "shopee_em": "2026-10-14T20:30-03:00",
     "shopee_indice": 52,
     "soltas_dia_data": "2026-10-14",
-    "soltas_dia": 55,
-    "soltas_loja": {}
+    "soltas_dia": 60,
+    "soltas_loja": {
+      "mercadolivre": 2,
+      "amazon": 2,
+      "shopee": 1
+    }
   },
   "ultimos": [
     {
@@ -5931,12 +5977,12 @@
     },
     "2026-10-14": {
       "shopee": {
-        "achados": 37,
+        "achados": 38,
         "aprovados": 15,
         "reprovados": 20
       },
       "lobaopromo": {
-        "achados": 8,
+        "achados": 10,
         "aprovados": 6,
         "reprovados": 2
       },
@@ -5951,7 +5997,7 @@
         "reprovados": 1
       },
       "promonocontext": {
-        "achados": 10,
+        "achados": 11,
         "aprovados": 6,
         "reprovados": 4
       },
@@ -5961,7 +6007,7 @@
         "reprovados": 2
       },
       "promobit": {
-        "achados": 2,
+        "achados": 3,
         "aprovados": 0,
         "reprovados": 2
       }
@@ -6045,7 +6091,7 @@
       "reprovados": 1
     },
     "camisa polo": {
-      "achados": 4,
+      "achados": 6,
       "aprovados": 3,
       "reprovados": 1
     },
@@ -6075,7 +6121,7 @@
       "reprovados": 1
     },
     "creatina": {
-      "achados": 21,
+      "achados": 22,
       "aprovados": 10,
       "reprovados": 11
     },
@@ -6130,7 +6176,7 @@
       "reprovados": 1
     },
     "mochila": {
-      "achados": 11,
+      "achados": 12,
       "aprovados": 5,
       "reprovados": 5
     },
@@ -6253,6 +6299,11 @@
       "achados": 1,
       "aprovados": 0,
       "reprovados": 1
+    },
+    "lanterna tatica": {
+      "achados": 1,
+      "aprovados": 0,
+      "reprovados": 0
     }
   }
 }
