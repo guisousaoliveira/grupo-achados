@@ -205,6 +205,26 @@
       "garimpado_em": "2026-10-13T22:50-03:00",
       "na_revisao_desde": "2026-10-13T22:50-03:00",
       "aprovado_em": "2026-10-13T23:32-03:00"
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0FFTQV2KP",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://link.amazon/B06Sz66Hz",
+      "link_produto": "https://link.amazon/B06Sz66Hz",
+      "post_origem": "https://www.promobit.com.br/oferta/tenis-mizuno-neo-vortex-3111989/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3111989/",
+      "nome": "Tênis Mizuno Neo Vortex",
+      "por": 270.0,
+      "de": 699.99,
+      "foto": "AgACAgQAAxkDAAIDFmrO3cyYEuQiY9JdAp12zOwzCEyDAAIkEGsb3rvtUF0TlOpBDAEoAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "titulo": "Desconto de 61%: é agora ou nunca.",
+      "garimpado_em": "2026-10-13T22:41-03:00",
+      "na_revisao_desde": "2026-10-13T22:41-03:00",
+      "pix": true,
+      "aprovado_em": "2026-10-13T23:35-03:00"
     }
   ],
   "postados": [
@@ -2988,26 +3008,6 @@
       "garimpado_em": "2026-10-13T22:20-03:00",
       "na_revisao_desde": "2026-10-13T22:20-03:00",
       "msg_id": 787
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0FFTQV2KP",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B0FFTQV2KP?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0FFTQV2KP?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/tenis-mizuno-neo-vortex-3111989/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3111989/",
-      "nome": "Tênis Mizuno Neo Vortex",
-      "por": 270.0,
-      "de": 699.99,
-      "foto": "AgACAgQAAxkDAAIDFmrO3cyYEuQiY9JdAp12zOwzCEyDAAIkEGsb3rvtUF0TlOpBDAEoAQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "titulo": "Desconto de 61%: é agora ou nunca.",
-      "id": 494,
-      "garimpado_em": "2026-10-13T22:41-03:00",
-      "na_revisao_desde": "2026-10-13T22:41-03:00",
-      "msg_id": 790
     }
   ],
   "proximo_id": 498,
@@ -4880,7 +4880,7 @@
     "2026-10-13": {
       "promobit": {
         "achados": 58,
-        "aprovados": 3,
+        "aprovados": 4,
         "reprovados": 27
       },
       "lobaopromo": {
