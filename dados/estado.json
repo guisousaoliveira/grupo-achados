@@ -1642,29 +1642,6 @@
       "id": 552,
       "na_revisao_desde": "2026-10-14T17:40-03:00",
       "msg_id": 896
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB51241395",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/caixa-termica-grande-primeplas-32-lt-com-isolamento-na-tampa-preto/p/MLB51241395?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/caixa-termica-grande-primeplas-32-lt-com-isolamento-na-tampa-preto/p/MLB51241395",
-      "post_origem": "https://t.me/lobaopromo/189466",
-      "link_canal": "https://meli.la/1Gg7typ",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_820968-MLA113674108091_062026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Caixa Termica Grande Primeplas 32 Lt Com Isolamento Na Tampa Preto",
-      "pix": true,
-      "de": 78.0,
-      "por": 45.0,
-      "cupom": "OPAECONOMIZEI",
-      "palavra": "caixa termica",
-      "garimpado_em": "2026-10-14T16:50-03:00",
-      "nota": 60.7,
-      "titulo": "Caixa térmica grande para manter bebidas geladas no churrasc",
-      "id": 553,
-      "na_revisao_desde": "2026-10-14T17:40-03:00",
-      "msg_id": 897
     }
   ],
   "proximo_id": 555,
@@ -5097,6 +5074,30 @@
   ],
   "lixeira": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB51241395",
+      "origem": "lobaopromo",
+      "link": "https://www.mercadolivre.com.br/caixa-termica-grande-primeplas-32-lt-com-isolamento-na-tampa-preto/p/MLB51241395?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/caixa-termica-grande-primeplas-32-lt-com-isolamento-na-tampa-preto/p/MLB51241395",
+      "post_origem": "https://t.me/lobaopromo/189466",
+      "link_canal": "https://meli.la/1Gg7typ",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_820968-MLA113674108091_062026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Caixa Termica Grande Primeplas 32 Lt Com Isolamento Na Tampa Preto",
+      "pix": true,
+      "de": 78.0,
+      "por": 45.0,
+      "cupom": "OPAECONOMIZEI",
+      "palavra": "caixa termica",
+      "garimpado_em": "2026-10-14T16:50-03:00",
+      "nota": 60.7,
+      "titulo": "Caixa térmica grande para manter bebidas geladas no churrasc",
+      "id": 553,
+      "na_revisao_desde": "2026-10-14T17:40-03:00",
+      "removido_em": "2026-10-14T17:59:03-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:681964368.22294984948",
       "nome": "Caixa Térmica Isopor Laminada 8L Para Churrasco Salgados Peixes Delivery Reforçada",
@@ -5550,7 +5551,7 @@
       "lobaopromo": {
         "achados": 5,
         "aprovados": 3,
-        "reprovados": 0
+        "reprovados": 1
       },
       "xetdaspromocoes": {
         "achados": 4,
@@ -5649,7 +5650,7 @@
     "caixa termica": {
       "achados": 3,
       "aprovados": 0,
-      "reprovados": 2
+      "reprovados": 3
     },
     "camera de seguranca": {
       "achados": 1,
