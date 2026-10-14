@@ -3,25 +3,6 @@
   "fila": [
     {
       "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB6284520224",
-      "origem": "promonocontext",
-      "link": "https://meli.la/2CDzSsQ",
-      "link_produto": "https://meli.la/2CDzSsQ",
-      "post_origem": "https://t.me/promonocontext/126300",
-      "link_canal": "https://meli.la/1s1YThE",
-      "foto": "AgACAgQAAxkDAAICmmrOi5m29tHCMhAllfhtBu6nkWikAAI-DmsbCawcUipQkXKZErppAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Bold Creatina (300g) Neutro",
-      "por": 59.9,
-      "de": 69.99,
-      "titulo": "Bold Creatina com 14% de desconto",
-      "garimpado_em": "2026-10-13T16:50-03:00",
-      "na_revisao_desde": "2026-10-13T16:50-03:00",
-      "aprovado_em": "2026-10-13T17:06-03:00",
-      "aviso_validade": true
-    },
-    {
-      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB4788829267",
       "origem": "promonocontext",
       "link": "https://meli.la/1crfbXn",
@@ -1132,6 +1113,15 @@
       "link_produto": "https://meli.la/2DXTYU8",
       "titulo": "Air Fryer Philco 16L com 30% off",
       "slot": 11
+    },
+    {
+      "chave": "mercadolivre:MLB6284520224",
+      "loja": "mercadolivre",
+      "nome": "Bold Creatina (300g) Neutro",
+      "data": "2026-10-14T12:30-03:00",
+      "link": "https://meli.la/2CDzSsQ",
+      "link_produto": "https://meli.la/2CDzSsQ",
+      "titulo": "Bold Creatina com 14% de desconto"
     }
   ],
   "slots_usados": {
@@ -6080,6 +6070,19 @@
   "ultimos": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB6284520224",
+      "origem": "promonocontext",
+      "link": "https://meli.la/2CDzSsQ",
+      "link_produto": "https://meli.la/2CDzSsQ",
+      "post_origem": "https://t.me/promonocontext/126300",
+      "foto": "AgACAgQAAxkDAAICmmrOi5m29tHCMhAllfhtBu6nkWikAAI-DmsbCawcUipQkXKZErppAQADAgADeAADPQQ",
+      "nome": "Bold Creatina (300g) Neutro",
+      "por": 59.9,
+      "de": 69.99,
+      "titulo": "Bold Creatina com 14% de desconto"
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB66895633",
       "origem": "lobaopromo",
       "link": "https://meli.la/2DXTYU8",
@@ -6606,19 +6609,6 @@
       "de": 269.0,
       "por": 165.0,
       "parcelas": 5
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0BBJPCMQM",
-      "origem": "lobaopromo",
-      "link": "https://link.amazon/B01h76z7S",
-      "link_produto": "https://link.amazon/B01h76z7S",
-      "post_origem": "https://t.me/lobaopromo/188624",
-      "foto": "AgACAgQAAxkDAAIBKWrNgrnzvwiKc7KiBkfbXN6qZKAFAAJ4EGsbLvVsUiJrqvr9nCZHAQADAgADeAADPQQ",
-      "nome": "Sparta Maleta de ferramentas kit com 165 peças",
-      "de": 165.0,
-      "por": 71.19,
-      "prime": true
     }
   ],
   "lixeira": [
