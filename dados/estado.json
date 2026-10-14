@@ -282,6 +282,26 @@
       "titulo": "Relógio masculino digital com 87% off",
       "na_revisao_desde": "2026-10-14T00:10-03:00",
       "aprovado_em": "2026-10-14T00:12-03:00"
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:394192376.21897733919",
+      "nome": "Creatina 250g 100% Pura Monohidratada - P&P FIT",
+      "por": 14.9,
+      "de": 124.17,
+      "foto": "AgACAgQAAxkDAAIDJmrO8om5ga5TywOO3ZW4GVmESgABVgAC7bQxG2SsvVOUr0S-6W9DYgEAAwIAA3kAAz0E",
+      "link": "https://s.shopee.com.br/905xXfFQaZ",
+      "link_produto": "https://shopee.com.br/product/394192376/21897733919",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "palavra": "creatina",
+      "garimpado_em": "2026-10-14T00:09-03:00",
+      "nota": 83.8,
+      "titulo": "Creatina P&P FIT 250g com 88% off",
+      "na_revisao_desde": "2026-10-14T00:10-03:00",
+      "aprovado_em": "2026-10-14T00:13-03:00"
     }
   ],
   "postados": [
@@ -1034,27 +1054,6 @@
       "id": 501,
       "na_revisao_desde": "2026-10-14T00:09-03:00",
       "msg_id": 805
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:394192376.21897733919",
-      "nome": "Creatina 250g 100% Pura Monohidratada - P&P FIT",
-      "por": 14.9,
-      "de": 124.17,
-      "foto": "AgACAgQAAxkDAAIDJmrO8om5ga5TywOO3ZW4GVmESgABVgAC7bQxG2SsvVOUr0S-6W9DYgEAAwIAA3kAAz0E",
-      "link": "https://s.shopee.com.br/905xXfFQaZ",
-      "link_produto": "https://shopee.com.br/product/394192376/21897733919",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "palavra": "creatina",
-      "garimpado_em": "2026-10-14T00:09-03:00",
-      "nota": 83.8,
-      "titulo": "Creatina P&P FIT 250g com 88% off",
-      "id": 502,
-      "na_revisao_desde": "2026-10-14T00:10-03:00",
-      "msg_id": 806
     }
   ],
   "proximo_id": 504,
@@ -3431,7 +3430,7 @@
     "2026-10-14": {
       "shopee": {
         "achados": 3,
-        "aprovados": 1,
+        "aprovados": 2,
         "reprovados": 0
       }
     }
@@ -3545,7 +3544,7 @@
     },
     "creatina": {
       "achados": 16,
-      "aprovados": 5,
+      "aprovados": 6,
       "reprovados": 10
     },
     "cueca": {
