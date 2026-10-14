@@ -1371,27 +1371,139 @@
       "id": 539,
       "na_revisao_desde": "2026-10-14T14:40-03:00",
       "msg_id": 880
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:1117805526.23494302256",
+      "nome": "Carregador Turbo 35W iPhone USB C Original Fonte PD Carregador iPhone 15 16 Carregamento rápido",
+      "por": 15.98,
+      "de": 37.16,
+      "foto": "AgACAgQAAxkDAAIDcWrPzMkoEZ8eMmYY98V3AhKvmpSLAAIkD2sbN2qtUg2OXLftM4MyAQADAgADeQADPQQ",
+      "link": "https://s.shopee.com.br/qkGkPygko",
+      "link_produto": "https://shopee.com.br/product/1117805526/23494302256",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.9,
+      "vendas": 2190,
+      "palavra": "carregador turbo",
+      "garimpado_em": "2026-10-14T14:10-03:00",
+      "nota": 76.7,
+      "titulo": "Carregador rápido para repor a bateria do celular",
+      "id": 540,
+      "na_revisao_desde": "2026-10-14T15:41-03:00",
+      "msg_id": 881
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB21030521",
+      "origem": "promonocontext",
+      "link": "https://www.mercadolivre.com.br/power-bank-i2go-plus-10000mah-usb-c-preto/p/MLB21030521?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/power-bank-i2go-plus-10000mah-usb-c-preto/p/MLB21030521",
+      "post_origem": "https://t.me/promonocontext/126707",
+      "link_canal": "https://meli.la/2TeobBP",
+      "foto": "AgACAgQAAxkDAAIDcmrPzMtOiuvhGN3BCWTtgO0wQEXgAAIpC2sb6AF9UUBqOHyF6BApAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Power Bank I2go Plus 10000mAh Usb-c Preto",
+      "de": 150.0,
+      "por": 65.0,
+      "palavra": "power bank",
+      "garimpado_em": "2026-10-14T15:01-03:00",
+      "nota": 63.0,
+      "titulo": "Carregador portátil para manter o celular com carga",
+      "id": 541,
+      "na_revisao_desde": "2026-10-14T15:41-03:00",
+      "msg_id": 882
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0FW5JZM9P",
+      "origem": "xetdaspromocoes",
+      "link": "https://www.amazon.com.br/dp/B0FW5JZM9P?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0FW5JZM9P?tag=alphadominu09-20",
+      "post_origem": "https://t.me/xetdaspromocoes/84821",
+      "link_canal": "https://link.amazon/B0dyPjZ8E",
+      "foto": "AgACAgQAAxkDAAIDc2rPzM3EyFzO0SFJ4OMbyluZKMQdAALqDWsbYKlVUEormN9A5u0ZAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "nome": "Relógio Smartwatch Bettdow FB051 Ai Esportivo Gps 1.28",
+      "pix": true,
+      "de": 199.0,
+      "por": 115.0,
+      "prime": true,
+      "palavra": "smartwatch",
+      "garimpado_em": "2026-10-14T15:00-03:00",
+      "nota": 61.7,
+      "titulo": "Smartwatch esportivo para monitorar suas atividades diárias",
+      "id": 542,
+      "na_revisao_desde": "2026-10-14T15:41-03:00",
+      "msg_id": 883
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:1746399229.58259501932",
+      "nome": "Suporte de Celular Carro 360º Giratório Universal Multifuncional Ventilacao Ar Condicionado Veicular",
+      "por": 18.99,
+      "de": 39.56,
+      "foto": "AgACAgQAAxkDAAIDdGrPzM43I6pGXS4YF6Fpxuwan-mSAAJvD2sbruo8UeRlngONwSwdAQADAgADeQADPQQ",
+      "link": "https://s.shopee.com.br/5fpWPplALl",
+      "link_produto": "https://shopee.com.br/product/1746399229/58259501932",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.9,
+      "vendas": 810,
+      "palavra": "suporte de celular",
+      "garimpado_em": "2026-10-14T12:51-03:00",
+      "nota": 76.3,
+      "titulo": "Suporte veicular para usar o GPS com segurança",
+      "id": 543,
+      "na_revisao_desde": "2026-10-14T15:41-03:00",
+      "msg_id": 884
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB30144703",
+      "origem": "promonocontext",
+      "link": "https://www.mercadolivre.com.br/parafusadeira-furadeira-de-impacto-the-black-tools-profissional-tb-21px-2-baterias-com-maleta-60hz-amarelo/p/MLB30144703?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/parafusadeira-furadeira-de-impacto-the-black-tools-profissional-tb-21px-2-baterias-com-maleta-60hz-amarelo/p/MLB30144703",
+      "post_origem": "https://t.me/promonocontext/126672",
+      "link_canal": "https://meli.la/175SpSE",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_981459-MLA117136184907_092026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Parafusadeira Furadeira De Impacto The Black Tools Profissional",
+      "por": 159.9,
+      "de": 319.9,
+      "cupom": "FULL1410",
+      "palavra": "parafusadeira",
+      "garimpado_em": "2026-10-14T13:30-03:00",
+      "nota": 62.4,
+      "titulo": "Parafusadeira e furadeira para reparos e perfurações",
+      "id": 544,
+      "na_revisao_desde": "2026-10-14T15:41-03:00",
+      "msg_id": 885
     }
   ],
-  "proximo_id": 540,
+  "proximo_id": 545,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84823,
-      "lobaopromo": 189428,
-      "gatunopromos": 125348,
+      "xetdaspromocoes": 84824,
+      "lobaopromo": 189431,
+      "gatunopromos": 125350,
       "pobregram": 41895,
-      "urubupromo": 41668,
-      "tudonapromo": 101879,
-      "promonocontext": 126714,
-      "promooeasy": 221481,
-      "aquitempechincha": 281644,
-      "infoBRpromos": 67555,
-      "boletando": 76719,
-      "promotop": 260279,
+      "urubupromo": 41669,
+      "tudonapromo": 101880,
+      "promonocontext": 126722,
+      "promooeasy": 221492,
+      "aquitempechincha": 281647,
+      "infoBRpromos": 67558,
+      "boletando": 76722,
+      "promotop": 260280,
       "achadosdotb": 11769
     },
     "dia": "2026-10-14",
-    "hoje": 89,
+    "hoje": 92,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -3016,30 +3128,34 @@
       "shopee:1103946075.19899586753",
       "mercadolivre:MLB53671468",
       "mercadolivre:MLB79737810",
-      "mercadolivre:MLB3827700163"
+      "mercadolivre:MLB3827700163",
+      "mercadolivre:MLB4590143835",
+      "mercadolivre:MLB52714724",
+      "mercadolivre:MLB18567054"
     ],
     "ultima": {
-      "em": "2026-10-14T15:30:27-03:00",
+      "em": "2026-10-14T15:40:22-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 44,
-      "do_nicho": 1,
+      "posts_novos": 54,
+      "do_nicho": 4,
       "repetidas": 1,
-      "novas": 0,
+      "novas": 2,
       "limite_dia": false,
       "repetidas_nome": 0,
       "promobit": 0,
-      "soltas": 0,
-      "na_peneira": 36
+      "fora_do_nicho": 1,
+      "soltas": 5,
+      "na_peneira": 32
     },
     "hora": "2026-10-14T15",
-    "nesta_hora": 5,
+    "nesta_hora": 8,
     "promobit_hora": "2026-10-14T15",
     "promobit_nesta_hora": 1,
-    "promobit_visto": 3113735,
+    "promobit_visto": 3113775,
     "nomes": [
       [
         [
@@ -3515,27 +3631,70 @@
           "uv400"
         ],
         "2026-10-14T14:40-03:00"
+      ],
+      [
+        [
+          "carregador",
+          "turbo",
+          "35w",
+          "iphone",
+          "usb",
+          "fonte",
+          "pd",
+          "carregador"
+        ],
+        "2026-10-14T15:41-03:00"
+      ],
+      [
+        [
+          "power",
+          "bank",
+          "i2go",
+          "plus",
+          "10000mah",
+          "usb"
+        ],
+        "2026-10-14T15:41-03:00"
+      ],
+      [
+        [
+          "relogio",
+          "smartwatch",
+          "bettdow",
+          "fb051",
+          "ai",
+          "esportivo",
+          "gps",
+          "28"
+        ],
+        "2026-10-14T15:41-03:00"
+      ],
+      [
+        [
+          "suporte",
+          "celular",
+          "carro",
+          "360",
+          "giratorio",
+          "universal",
+          "multifuncional",
+          "ventilacao"
+        ],
+        "2026-10-14T15:41-03:00"
+      ],
+      [
+        [
+          "parafusadeira",
+          "furadeira",
+          "impacto",
+          "black",
+          "tools",
+          "profissional"
+        ],
+        "2026-10-14T15:41-03:00"
       ]
     ],
     "peneira": [
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB4903101001",
-        "origem": "xetdaspromocoes",
-        "link": "https://produto.mercadolivre.com.br/MLB-4903101001-kit-10-cuecas-boxer-sem-costura-polo-wear-sortido-_JM?pdp_filters=item_id%3AMLB4903101001&matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://produto.mercadolivre.com.br/MLB-4903101001-kit-10-cuecas-boxer-sem-costura-polo-wear-sortido-_JM?pdp_filters=item_id%3AMLB4903101001",
-        "post_origem": "https://t.me/xetdaspromocoes/84792",
-        "link_canal": "https://meli.la/1vYR94G",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_645529-MLB114653565895_072026-O.webp",
-        "foto_origem": "loja",
-        "nome": "Kit 10 Cuecas Boxer Sem Costura Polo Wear Sortido",
-        "por": 179.0,
-        "aviso_preco": true,
-        "cupom": "FULL1410",
-        "palavra": "cueca",
-        "garimpado_em": "2026-10-14T12:40-03:00",
-        "nota": 33.4
-      },
       {
         "loja": "amazon",
         "chave": "amazon:B0HJF8ZTRN",
@@ -3569,25 +3728,6 @@
         "palavra": "carregador turbo",
         "garimpado_em": "2026-10-14T12:50-03:00",
         "nota": 29.2
-      },
-      {
-        "loja": "shopee",
-        "chave": "shopee:1746399229.58259501932",
-        "nome": "Suporte de Celular Carro 360º Giratório Universal Multifuncional Ventilacao Ar Condicionado Veicular",
-        "por": 18.99,
-        "de": 39.56,
-        "foto": "https://cf.shopee.com.br/file/sg-11134201-820lz-mnftce5xxzpea5",
-        "link": "https://s.shopee.com.br/5fpWPplALl",
-        "link_produto": "https://shopee.com.br/product/1746399229/58259501932",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 4.9,
-        "vendas": 810,
-        "palavra": "suporte de celular",
-        "garimpado_em": "2026-10-14T12:51-03:00",
-        "nota": 76.3
       },
       {
         "loja": "mercadolivre",
@@ -3656,24 +3796,6 @@
         "palavra": "multimetro",
         "garimpado_em": "2026-10-14T13:30-03:00",
         "nota": 32.8
-      },
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB30144703",
-        "origem": "promonocontext",
-        "link": "https://www.mercadolivre.com.br/parafusadeira-furadeira-de-impacto-the-black-tools-profissional-tb-21px-2-baterias-com-maleta-60hz-amarelo/p/MLB30144703?matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/parafusadeira-furadeira-de-impacto-the-black-tools-profissional-tb-21px-2-baterias-com-maleta-60hz-amarelo/p/MLB30144703",
-        "post_origem": "https://t.me/promonocontext/126672",
-        "link_canal": "https://meli.la/175SpSE",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_981459-MLA117136184907_092026-O.webp",
-        "foto_origem": "loja",
-        "nome": "Parafusadeira Furadeira De Impacto The Black Tools Profissional",
-        "por": 159.9,
-        "de": 319.9,
-        "cupom": "FULL1410",
-        "palavra": "parafusadeira",
-        "garimpado_em": "2026-10-14T13:30-03:00",
-        "nota": 62.4
       },
       {
         "loja": "mercadolivre",
@@ -3873,25 +3995,6 @@
         "nota": 60.5
       },
       {
-        "loja": "shopee",
-        "chave": "shopee:1117805526.23494302256",
-        "nome": "Carregador Turbo 35W iPhone USB C Original Fonte PD Carregador iPhone 15 16 Carregamento rápido",
-        "por": 15.98,
-        "de": 37.16,
-        "foto": "https://cf.shopee.com.br/file/sg-11134201-7rdye-md5axbdrawmv6a",
-        "link": "https://s.shopee.com.br/qkGkPygko",
-        "link_produto": "https://shopee.com.br/product/1117805526/23494302256",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 4.9,
-        "vendas": 2190,
-        "palavra": "carregador turbo",
-        "garimpado_em": "2026-10-14T14:10-03:00",
-        "nota": 76.7
-      },
-      {
         "loja": "mercadolivre",
         "chave": "mercadolivre:MLB70377228",
         "origem": "promonocontext",
@@ -4049,42 +4152,6 @@
       },
       {
         "loja": "amazon",
-        "chave": "amazon:B0FW5JZM9P",
-        "origem": "xetdaspromocoes",
-        "link": "https://www.amazon.com.br/dp/B0FW5JZM9P?tag=alphadominu09-20",
-        "link_produto": "https://www.amazon.com.br/dp/B0FW5JZM9P?tag=alphadominu09-20",
-        "post_origem": "https://t.me/xetdaspromocoes/84821",
-        "link_canal": "https://link.amazon/B0dyPjZ8E",
-        "foto": "https://m.media-amazon.com/images/I/61fkN95uKfL._AC_SL1500_.jpg",
-        "foto_origem": "loja",
-        "nome": "Relógio Smartwatch Bettdow FB051 Ai Esportivo Gps 1.28",
-        "pix": true,
-        "de": 199.0,
-        "por": 115.0,
-        "prime": true,
-        "palavra": "smartwatch",
-        "garimpado_em": "2026-10-14T15:00-03:00",
-        "nota": 61.7
-      },
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB21030521",
-        "origem": "promonocontext",
-        "link": "https://www.mercadolivre.com.br/power-bank-i2go-plus-10000mah-usb-c-preto/p/MLB21030521?matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/power-bank-i2go-plus-10000mah-usb-c-preto/p/MLB21030521",
-        "post_origem": "https://t.me/promonocontext/126707",
-        "link_canal": "https://meli.la/2TeobBP",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_925922-MLA99475407944_112025-O.webp",
-        "foto_origem": "loja",
-        "nome": "Power Bank I2go Plus 10000mAh Usb-c Preto",
-        "de": 150.0,
-        "por": 65.0,
-        "palavra": "power bank",
-        "garimpado_em": "2026-10-14T15:01-03:00",
-        "nota": 63.0
-      },
-      {
-        "loja": "amazon",
         "chave": "amazon:B0FX56Q22M",
         "origem": "promobit",
         "fonte": "promobit",
@@ -4151,15 +4218,54 @@
         "palavra": "academia",
         "garimpado_em": "2026-10-14T15:20-03:00",
         "nota": 35.3
+      },
+      {
+        "loja": "mercadolivre",
+        "chave": "mercadolivre:MLB52714724",
+        "origem": "promonocontext",
+        "link": "https://www.mercadolivre.com.br/smart-tv-75pug7019-series-7019-led-4k-uhd-75-philips-bivolt/p/MLB52714724?matt_word=alphapromo&matt_tool=59136903",
+        "link_produto": "https://www.mercadolivre.com.br/smart-tv-75pug7019-series-7019-led-4k-uhd-75-philips-bivolt/p/MLB52714724",
+        "post_origem": "https://t.me/promonocontext/126718",
+        "link_canal": "https://meli.la/1YN3Zq1",
+        "foto": "https://http2.mlstatic.com/D_NQ_NP_958206-MLA96072966273_102025-O.webp",
+        "foto_origem": "loja",
+        "nome": "Smart TV 75PUG7019 Séries 7019 LED 4K UHD 75” Philips Bivolt",
+        "por": 3999.0,
+        "cupom": "TELEVISAO1410",
+        "palavra": "smart tv",
+        "garimpado_em": "2026-10-14T15:40-03:00",
+        "nota": 28.0
+      },
+      {
+        "loja": "mercadolivre",
+        "chave": "mercadolivre:MLB18567054",
+        "origem": "promonocontext",
+        "link": "https://www.mercadolivre.com.br/relogio-de-pulso-technos-masculino-2115mys1v-casual-em-aco-inoxidavel-prova-dagua-50-metros-com-calendario/p/MLB18567054?matt_word=alphapromo&matt_tool=59136903",
+        "link_produto": "https://www.mercadolivre.com.br/relogio-de-pulso-technos-masculino-2115mys1v-casual-em-aco-inoxidavel-prova-dagua-50-metros-com-calendario/p/MLB18567054",
+        "post_origem": "https://t.me/promonocontext/126719",
+        "link_canal": "https://meli.la/1xv5JP2",
+        "foto": "https://http2.mlstatic.com/D_NQ_NP_753577-MLA116715552833_082026-O.webp",
+        "foto_origem": "loja",
+        "nome": "Relógio de Pulso Technos Masculino 2115MYS/1V Casual em Aço",
+        "pix": true,
+        "de": 499.0,
+        "por": 269.0,
+        "palavra": "relogio",
+        "garimpado_em": "2026-10-14T15:40-03:00",
+        "nota": 53.9
       }
     ],
     "soltas_hora": "2026-10-14T15",
-    "soltas": 0,
+    "soltas": 5,
     "shopee_em": "2026-10-14T15:30-03:00",
     "shopee_indice": 32,
     "soltas_dia_data": "2026-10-14",
-    "soltas_dia": 30,
-    "soltas_loja": {}
+    "soltas_dia": 35,
+    "soltas_loja": {
+      "shopee": 2,
+      "mercadolivre": 2,
+      "amazon": 1
+    }
   },
   "ultimos": [
     {
@@ -5152,7 +5258,7 @@
     },
     "2026-10-14": {
       "shopee": {
-        "achados": 28,
+        "achados": 30,
         "aprovados": 13,
         "reprovados": 11
       },
@@ -5162,7 +5268,7 @@
         "reprovados": 0
       },
       "xetdaspromocoes": {
-        "achados": 2,
+        "achados": 3,
         "aprovados": 1,
         "reprovados": 0
       },
@@ -5172,7 +5278,7 @@
         "reprovados": 1
       },
       "promonocontext": {
-        "achados": 3,
+        "achados": 5,
         "aprovados": 2,
         "reprovados": 1
       },
@@ -5188,7 +5294,7 @@
       }
     }
   },
-  "aviso_post": "2026-10-14 14|shopee:787370863.23798509847",
+  "aviso_post": "2026-10-14 15|shopee:472202601.58211536223",
   "garimpo_palavras": {
     "academia": {
       "achados": 20,
@@ -5366,7 +5472,7 @@
       "reprovados": 1
     },
     "parafusadeira": {
-      "achados": 4,
+      "achados": 5,
       "aprovados": 0,
       "reprovados": 3
     },
@@ -5376,7 +5482,7 @@
       "reprovados": 1
     },
     "power bank": {
-      "achados": 8,
+      "achados": 9,
       "aprovados": 1,
       "reprovados": 7
     },
@@ -5396,7 +5502,7 @@
       "reprovados": 18
     },
     "smartwatch": {
-      "achados": 4,
+      "achados": 5,
       "aprovados": 1,
       "reprovados": 3
     },
@@ -5456,6 +5562,11 @@
       "reprovados": 0
     },
     "carregador turbo": {
+      "achados": 2,
+      "aprovados": 0,
+      "reprovados": 0
+    },
+    "suporte de celular": {
       "achados": 1,
       "aprovados": 0,
       "reprovados": 0
