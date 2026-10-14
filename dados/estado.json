@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "shopee",
-      "chave": "shopee:979724994.23798014198",
-      "nome": "Jogo de Soquetes de Impacto Longo 1/2 10 Peças  8 A 24mm",
-      "por": 30.98,
-      "de": 206.53,
-      "foto": "AgACAgQAAxkDAAIDM2rPXDU1f52rQSsgaUMQm85NTDKJAAIJEGsbIeg0UPgQ5PpXE8_LAQADAgADeQADPQQ",
-      "link": "https://s.shopee.com.br/5q8wFlhmPW",
-      "link_produto": "https://shopee.com.br/product/979724994/23798014198",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.9,
-      "vendas": 2257,
-      "palavra": "jogo de soquete",
-      "garimpado_em": "2026-10-14T07:25-03:00",
-      "nota": 93.4,
-      "titulo": "Soquetes longos para aperto firme em oficina",
-      "na_revisao_desde": "2026-10-14T07:40-03:00",
-      "aprovado_em": "2026-10-14T09:19-03:00"
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB7574441456",
       "origem": "xetdaspromocoes",
@@ -1235,6 +1213,16 @@
       "link": "https://meli.la/2QZxLVs",
       "link_produto": "https://meli.la/2QZxLVs",
       "titulo": "Mochila para carregar notebook no dia a dia"
+    },
+    {
+      "chave": "shopee:979724994.23798014198",
+      "loja": "shopee",
+      "nome": "Jogo de Soquetes de Impacto Longo 1/2 10 Peças  8 A 24mm",
+      "data": "2026-10-14T18:08-03:00",
+      "link": "https://s.shopee.com.br/5q8wFlhmPW",
+      "link_produto": "https://shopee.com.br/product/979724994/23798014198",
+      "titulo": "Soquetes longos para aperto firme em oficina",
+      "slot": 18
     }
   ],
   "slots_usados": {
@@ -1287,7 +1275,8 @@
       14,
       15,
       16,
-      17
+      17,
+      18
     ]
   },
   "shopee_buscado_em": "",
@@ -4402,6 +4391,19 @@
   },
   "ultimos": [
     {
+      "loja": "shopee",
+      "chave": "shopee:979724994.23798014198",
+      "nome": "Jogo de Soquetes de Impacto Longo 1/2 10 Peças  8 A 24mm",
+      "por": 30.98,
+      "de": 206.53,
+      "foto": "AgACAgQAAxkDAAIDM2rPXDU1f52rQSsgaUMQm85NTDKJAAIJEGsbIeg0UPgQ5PpXE8_LAQADAgADeQADPQQ",
+      "link": "https://s.shopee.com.br/5q8wFlhmPW",
+      "link_produto": "https://shopee.com.br/product/979724994/23798014198",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "titulo": "Soquetes longos para aperto firme em oficina"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB70377228",
       "origem": "promonocontext",
@@ -4927,21 +4929,6 @@
       "parcelas": 6,
       "por": 159.5,
       "parcela_valor": 28.0
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B09YVVH7J1",
-      "origem": "promooeasy",
-      "link": "https://link.amazon/B0iSNI1KA",
-      "link_produto": "https://link.amazon/B0iSNI1KA",
-      "post_origem": "https://t.me/promooeasy/220309",
-      "foto": "https://m.media-amazon.com/images/I/61fIYeggosL._AC_SL1200_.jpg",
-      "nome": "Mochila Mala T60 Para Academia Natação Camping na Cor Preta",
-      "pix": true,
-      "por": 52.58,
-      "titulo": "Mochila versátil para academia, natação e camping",
-      "parcelas": 2,
-      "parcela_valor": 27.68
     }
   ],
   "lixeira": [
