@@ -302,6 +302,26 @@
       "titulo": "Creatina P&P FIT 250g com 88% off",
       "na_revisao_desde": "2026-10-14T00:10-03:00",
       "aprovado_em": "2026-10-14T00:13-03:00"
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:1266325318.21897981294",
+      "nome": "Attracione Men (Perfume Masculino com Feromônios Ativados)",
+      "por": 59.0,
+      "de": 295.0,
+      "foto": "AgACAgQAAxkDAAIDJWrO8oXWu3IS6d1uMARvJQx_K4C4AAIqD2sbz6l0UjwulUo5ISK-AQADAgADeQADPQQ",
+      "link": "https://s.shopee.com.br/6fi2lNkNTw",
+      "link_produto": "https://shopee.com.br/product/1266325318/21897981294",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "palavra": "perfume masculino",
+      "garimpado_em": "2026-10-14T00:09-03:00",
+      "nota": 93.0,
+      "titulo": "Perfume Attracione Men com 80% de desconto",
+      "na_revisao_desde": "2026-10-14T00:09-03:00",
+      "aprovado_em": "2026-10-14T00:13-03:00"
     }
   ],
   "postados": [
@@ -1033,29 +1053,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "shopee",
-      "chave": "shopee:1266325318.21897981294",
-      "nome": "Attracione Men (Perfume Masculino com Feromônios Ativados)",
-      "por": 59.0,
-      "de": 295.0,
-      "foto": "AgACAgQAAxkDAAIDJWrO8oXWu3IS6d1uMARvJQx_K4C4AAIqD2sbz6l0UjwulUo5ISK-AQADAgADeQADPQQ",
-      "link": "https://s.shopee.com.br/6fi2lNkNTw",
-      "link_produto": "https://shopee.com.br/product/1266325318/21897981294",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "palavra": "perfume masculino",
-      "garimpado_em": "2026-10-14T00:09-03:00",
-      "nota": 93.0,
-      "titulo": "Perfume Attracione Men com 80% de desconto",
-      "id": 501,
-      "na_revisao_desde": "2026-10-14T00:09-03:00",
-      "msg_id": 805
-    }
-  ],
+  "revisar": [],
   "proximo_id": 504,
   "radar": {
     "visto": {
@@ -3430,7 +3428,7 @@
     "2026-10-14": {
       "shopee": {
         "achados": 3,
-        "aprovados": 2,
+        "aprovados": 3,
         "reprovados": 0
       }
     }
@@ -3619,7 +3617,7 @@
     },
     "perfume masculino": {
       "achados": 5,
-      "aprovados": 3,
+      "aprovados": 4,
       "reprovados": 1
     },
     "power bank": {
