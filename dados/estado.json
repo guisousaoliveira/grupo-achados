@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "amazon",
-      "chave": "amazon:B0BTYCRJSS",
-      "origem": "pobregram",
-      "link": "https://link.amazon/B06xwECAS",
-      "link_produto": "https://link.amazon/B06xwECAS",
-      "post_origem": "https://t.me/pobregram/41829",
-      "link_canal": "https://link.amazon/B0fKamUFh",
-      "foto": "AgACAgEAAxkDAAICK2rOUbukkBY6HYYxpCuLcbgJNN1XAAJmDWsb7AJxRiomHoY6XA-FAQADAgADeAADPQQ",
-      "foto_origem": "canal",
-      "nome": "soundcore P20i da Anker, Fone de Ouvido Bluetooth 5.3 Sem Fio, 2 Mics IA",
-      "pix": true,
-      "parcelas": 14,
-      "de": 249.0,
-      "por": 138.7,
-      "titulo": "44% off, isso aqui não fica muito tempo assim.",
-      "garimpado_em": "2026-10-13T12:43-03:00",
-      "na_revisao_desde": "2026-10-13T12:43-03:00",
-      "parcela_valor": 6.0,
-      "aprovado_em": "2026-10-13T13:06-03:00",
-      "aviso_validade": true
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB19739350",
       "origem": "promonocontext",
@@ -1079,6 +1057,14 @@
       "data": "2026-10-14T09:08-03:00",
       "link": "https://meli.la/27qV9AS",
       "link_produto": "https://meli.la/27qV9AS"
+    },
+    {
+      "chave": "amazon:B0BTYCRJSS",
+      "loja": "amazon",
+      "nome": "soundcore P20i da Anker, Fone de Ouvido Bluetooth 5.3 Sem Fio, 2 Mics IA",
+      "data": "2026-10-14T09:20-03:00",
+      "link": "https://link.amazon/B06xwECAS",
+      "link_produto": "https://link.amazon/B06xwECAS"
     }
   ],
   "slots_usados": {
@@ -8065,6 +8051,22 @@
   },
   "ultimos": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B0BTYCRJSS",
+      "origem": "pobregram",
+      "link": "https://link.amazon/B06xwECAS",
+      "link_produto": "https://link.amazon/B06xwECAS",
+      "post_origem": "https://t.me/pobregram/41829",
+      "foto": "AgACAgEAAxkDAAICK2rOUbukkBY6HYYxpCuLcbgJNN1XAAJmDWsb7AJxRiomHoY6XA-FAQADAgADeAADPQQ",
+      "nome": "soundcore P20i da Anker, Fone de Ouvido Bluetooth 5.3 Sem Fio, 2 Mics IA",
+      "pix": true,
+      "parcelas": 14,
+      "de": 249.0,
+      "por": 138.7,
+      "titulo": "44% off, isso aqui não fica muito tempo assim.",
+      "parcela_valor": 6.0
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB4049279695",
       "origem": "lobaopromo",
@@ -8600,20 +8602,6 @@
       "parcelas": 6,
       "parcela_valor": 41.65,
       "pix": true
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0GM1LSHQF",
-      "origem": "lobaopromo",
-      "link": "https://link.amazon/B01NDkKyh",
-      "link_produto": "https://www.amazon.com.br/dp/B0GM1LSHQF?tag=alphadominu09-20",
-      "post_origem": "https://t.me/lobaopromo/188556",
-      "foto": "AgACAgQAAxkDAAP1as1TyuticvvhWbKjYzBW2Fu-Gb4AAlUQaxspmW1S3Q4h0U_zUl8BAAMCAAN4AAM9BA",
-      "nome": "JBL Fone de Ouvido Bluetooth Over-Ear Tune 530BT",
-      "pix": true,
-      "de": 299.0,
-      "por": 170.38,
-      "titulo": "Fone JBL Tune 530BT com 44% off"
     }
   ],
   "lixeira": [
