@@ -1346,15 +1346,15 @@
   "proximo_id": 560,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84873,
-      "lobaopromo": 189531,
-      "gatunopromos": 125395,
+      "xetdaspromocoes": 84876,
+      "lobaopromo": 189534,
+      "gatunopromos": 125397,
       "pobregram": 41903,
       "urubupromo": 41683,
-      "tudonapromo": 101911,
-      "promonocontext": 126810,
-      "promooeasy": 221614,
-      "aquitempechincha": 281673,
+      "tudonapromo": 101913,
+      "promonocontext": 126819,
+      "promooeasy": 221619,
+      "aquitempechincha": 281678,
       "infoBRpromos": 67577,
       "boletando": 76734,
       "promotop": 260287,
@@ -3057,27 +3057,27 @@
       "mercadolivre:MLB68466630"
     ],
     "ultima": {
-      "em": "2026-10-14T18:50:23-03:00",
+      "em": "2026-10-14T19:00:28-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 37,
-      "do_nicho": 6,
-      "repetidas": 3,
-      "novas": 2,
+      "posts_novos": 45,
+      "do_nicho": 2,
+      "repetidas": 2,
+      "novas": 0,
       "limite_dia": false,
-      "repetidas_nome": 1,
+      "repetidas_nome": 0,
       "promobit": 0,
       "soltas": 0,
       "na_peneira": 27
     },
-    "hora": "2026-10-14T18",
-    "nesta_hora": 13,
-    "promobit_hora": "2026-10-14T18",
-    "promobit_nesta_hora": 2,
-    "promobit_visto": 3114394,
+    "hora": "2026-10-14T19",
+    "nesta_hora": 0,
+    "promobit_hora": "2026-10-14T19",
+    "promobit_nesta_hora": 0,
+    "promobit_visto": 3114433,
     "nomes": [
       [
         [
@@ -4270,17 +4270,13 @@
         "nota": 86.0
       }
     ],
-    "soltas_hora": "2026-10-14T18",
-    "soltas": 5,
+    "soltas_hora": "2026-10-14T19",
+    "soltas": 0,
     "shopee_em": "2026-10-14T18:50-03:00",
     "shopee_indice": 12,
     "soltas_dia_data": "2026-10-14",
     "soltas_dia": 50,
-    "soltas_loja": {
-      "shopee": 2,
-      "mercadolivre": 2,
-      "amazon": 1
-    }
+    "soltas_loja": {}
   },
   "ultimos": [
     {
