@@ -1306,29 +1306,6 @@
       "id": 531,
       "na_revisao_desde": "2026-10-14T13:40-03:00",
       "msg_id": 870
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:1631506221.22499455225",
-      "nome": "Relógio Feminino Vintage de Couro Marrom, Estilo Minimalista",
-      "por": 20.99,
-      "de": 80.73,
-      "foto": "AgACAgQAAxkDAAIDZ2rPsJR9KUqpT45N4z147H1JRUmwAAI3D2sb6uw0UTkFNr-fHVx_AQADAgADeAADPQQ",
-      "link": "https://s.shopee.com.br/LnzwT1TDm",
-      "link_produto": "https://shopee.com.br/product/1631506221/22499455225",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.7,
-      "vendas": 1083,
-      "palavra": "relogio",
-      "garimpado_em": "2026-10-14T11:00-03:00",
-      "nota": 85.1,
-      "titulo": "Relógio minimalista de couro marrom para uso diário",
-      "id": 532,
-      "na_revisao_desde": "2026-10-14T13:40-03:00",
-      "msg_id": 871
     }
   ],
   "proximo_id": 535,
@@ -4748,6 +4725,30 @@
   "lixeira": [
     {
       "loja": "shopee",
+      "chave": "shopee:1631506221.22499455225",
+      "nome": "Relógio Feminino Vintage de Couro Marrom, Estilo Minimalista",
+      "por": 20.99,
+      "de": 80.73,
+      "foto": "AgACAgQAAxkDAAIDZ2rPsJR9KUqpT45N4z147H1JRUmwAAI3D2sb6uw0UTkFNr-fHVx_AQADAgADeAADPQQ",
+      "link": "https://s.shopee.com.br/LnzwT1TDm",
+      "link_produto": "https://shopee.com.br/product/1631506221/22499455225",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.7,
+      "vendas": 1083,
+      "palavra": "relogio",
+      "garimpado_em": "2026-10-14T11:00-03:00",
+      "nota": 85.1,
+      "titulo": "Relógio minimalista de couro marrom para uso diário",
+      "id": 532,
+      "na_revisao_desde": "2026-10-14T13:40-03:00",
+      "removido_em": "2026-10-14T13:43:11-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "shopee",
       "chave": "shopee:756344105.22998122436",
       "nome": "Suporte de Peito Para Celular e Gopro Peitoral Peito ajustável Câmera Esportivo Moto Bike-envio imediato",
       "por": 21.0,
@@ -5147,7 +5148,7 @@
       "shopee": {
         "achados": 26,
         "aprovados": 13,
-        "reprovados": 9
+        "reprovados": 10
       },
       "lobaopromo": {
         "achados": 3,
@@ -5371,7 +5372,7 @@
     "relogio": {
       "achados": 6,
       "aprovados": 0,
-      "reprovados": 4
+      "reprovados": 5
     },
     "smart tv": {
       "achados": 18,
