@@ -205,26 +205,6 @@
       "garimpado_em": "2026-10-13T22:50-03:00",
       "na_revisao_desde": "2026-10-13T22:50-03:00",
       "aprovado_em": "2026-10-13T23:32-03:00"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB75755258",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/1C3xGJw",
-      "link_produto": "https://meli.la/1C3xGJw",
-      "post_origem": "https://t.me/lobaopromo/189103",
-      "link_canal": "https://meli.la/1m1Xjqv",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_760171-MLA113815933188_072026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Mochila Para Notebook Impermeável com Porta USB e Senha Para Homem",
-      "pix": true,
-      "de": 199.0,
-      "por": 80.4,
-      "cupom": "JOGADOR",
-      "titulo": "Mochila impermeável para notebook",
-      "garimpado_em": "2026-10-13T22:50-03:00",
-      "na_revisao_desde": "2026-10-13T22:50-03:00",
-      "aprovado_em": "2026-10-13T23:33-03:00"
     }
   ],
   "postados": [
@@ -896,6 +876,14 @@
       "link": "https://meli.la/2gNokP5",
       "link_produto": "https://meli.la/2gNokP5",
       "slot": 23
+    },
+    {
+      "chave": "mercadolivre:MLB75755258",
+      "loja": "mercadolivre",
+      "nome": "Mochila Para Notebook Impermeável com Porta USB e Senha Para Homem",
+      "data": "2026-10-13T23:33-03:00",
+      "link": "https://meli.la/1C3xGJw",
+      "link_produto": "https://meli.la/1C3xGJw"
     }
   ],
   "slots_usados": {
@@ -3716,6 +3704,21 @@
   "ultimos": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB75755258",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/1C3xGJw",
+      "link_produto": "https://meli.la/1C3xGJw",
+      "post_origem": "https://t.me/lobaopromo/189103",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_760171-MLA113815933188_072026-O.webp",
+      "nome": "Mochila Para Notebook Impermeável com Porta USB e Senha Para Homem",
+      "pix": true,
+      "de": 199.0,
+      "por": 80.4,
+      "cupom": "JOGADOR",
+      "titulo": "Mochila impermeável para notebook"
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB18725310",
       "origem": "lobaopromo",
       "link": "https://meli.la/2gNokP5",
@@ -4251,19 +4254,6 @@
       "pix": true,
       "de": 78.0,
       "por": 28.0
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0H8JXN6V4",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://link.amazon/B09o3Mr5W",
-      "link_produto": "https://www.amazon.com.br/dp/B0H8JXN6V4?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/bone-unissex-aba-curva-liso-com-regulagem-ajustavel-para-uso-casual-e-esportivo-3108906/",
-      "nome": "Boné Unissex Aba Curva Liso com Regulagem Ajustável para Uso Casual e",
-      "por": 24.99,
-      "foto": "AgACAgQAAxkDAAO8as0rX4-BJHZh5h2t-KBccPhH0-0AAg0QaxusG21SVtNp2HGP2i0BAAMCAANtAAM9BA",
-      "titulo": "Boné unissex ajustável com menor preço"
     }
   ],
   "lixeira": [
