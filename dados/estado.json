@@ -3,25 +3,6 @@
   "fila": [
     {
       "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB19739350",
-      "origem": "promonocontext",
-      "link": "https://meli.la/26Cfrvh",
-      "link_produto": "https://meli.la/26Cfrvh",
-      "post_origem": "https://t.me/promonocontext/126275",
-      "link_canal": "https://meli.la/17GYkEh",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_997812-MLA92288090836_092025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Perfume Masculino Natura Essencial Único Deo Parfum 90ml",
-      "por": 179.0,
-      "cupom": "FULLLANDING",
-      "titulo": "Perfume Natura no preço",
-      "garimpado_em": "2026-10-13T15:41-03:00",
-      "na_revisao_desde": "2026-10-13T15:41-03:00",
-      "aprovado_em": "2026-10-13T15:45-03:00",
-      "aviso_validade": true
-    },
-    {
-      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB59802579",
       "origem": "promonocontext",
       "link": "https://meli.la/26v3LzP",
@@ -1065,6 +1046,14 @@
       "data": "2026-10-14T09:20-03:00",
       "link": "https://link.amazon/B06xwECAS",
       "link_produto": "https://link.amazon/B06xwECAS"
+    },
+    {
+      "chave": "mercadolivre:MLB19739350",
+      "loja": "mercadolivre",
+      "nome": "Perfume Masculino Natura Essencial Único Deo Parfum 90ml",
+      "data": "2026-10-14T09:30-03:00",
+      "link": "https://meli.la/26Cfrvh",
+      "link_produto": "https://meli.la/26Cfrvh"
     }
   ],
   "slots_usados": {
@@ -9135,6 +9124,19 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB19739350",
+      "origem": "promonocontext",
+      "link": "https://meli.la/26Cfrvh",
+      "link_produto": "https://meli.la/26Cfrvh",
+      "post_origem": "https://t.me/promonocontext/126275",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_997812-MLA92288090836_092025-O.webp",
+      "nome": "Perfume Masculino Natura Essencial Único Deo Parfum 90ml",
+      "por": 179.0,
+      "cupom": "FULLLANDING",
+      "titulo": "Perfume Natura no preço"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0BTYCRJSS",
       "origem": "pobregram",
@@ -9668,23 +9670,6 @@
       "titulo": "Barbeador elétrico no preço",
       "parcelas": 2,
       "parcela_valor": 36.5,
-      "pix": true
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0FFTP5WF4",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://link.amazon/B08thAnFy",
-      "link_produto": "https://www.amazon.com.br/dp/B0FFTP5WF4?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/tenis-mizuno-sunrise-cinzabordo-tamanho-38-3109130/",
-      "nome": "Tênis Mizuno Sunrise CinzaBordo Tamanho 38",
-      "por": 237.4,
-      "de": 399.99,
-      "foto": "AgACAgQAAxkDAAPzas1RdqsgTW6PpGFO2mDYW3X6lYgAAicQaxug-WxS-BP06op_ut4BAAMCAANtAAM9BA",
-      "titulo": "Tênis Mizuno Sunrise com 41% off",
-      "parcelas": 6,
-      "parcela_valor": 41.65,
       "pix": true
     }
   ],
