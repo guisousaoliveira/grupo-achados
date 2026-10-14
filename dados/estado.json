@@ -1409,28 +1409,6 @@
       "id": 563,
       "na_revisao_desde": "2026-10-14T19:41-03:00",
       "msg_id": 915
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0GWF58YPT",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B0GWF58YPT?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0GWF58YPT?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/fritadeira-air-fryer-digital-philips-walita-62l-220v-na239-3114149/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3114149/",
-      "nome": "Fritadeira Air Fryer Digital Philips Walita 6,2l 220v Na239",
-      "por": 353.0,
-      "de": 468.26,
-      "foto": "AgACAgQAAxkDAAIDlGrQBQ-J9nyOFGtB6qTaW8H_vQaUAAJAD2sbrEtlUg4HNjuRtps1AQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "palavra": "air fryer",
-      "garimpado_em": "2026-10-14T17:50-03:00",
-      "nota": 41.4,
-      "titulo": "Airfryer grande para preparar refeições da família",
-      "id": 564,
-      "na_revisao_desde": "2026-10-14T19:41-03:00",
-      "msg_id": 916
     }
   ],
   "proximo_id": 565,
@@ -4977,6 +4955,29 @@
   ],
   "lixeira": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B0GWF58YPT",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0GWF58YPT?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0GWF58YPT?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/fritadeira-air-fryer-digital-philips-walita-62l-220v-na239-3114149/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3114149/",
+      "nome": "Fritadeira Air Fryer Digital Philips Walita 6,2l 220v Na239",
+      "por": 353.0,
+      "de": 468.26,
+      "foto": "AgACAgQAAxkDAAIDlGrQBQ-J9nyOFGtB6qTaW8H_vQaUAAJAD2sbrEtlUg4HNjuRtps1AQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "palavra": "air fryer",
+      "garimpado_em": "2026-10-14T17:50-03:00",
+      "nota": 41.4,
+      "titulo": "Airfryer grande para preparar refeições da família",
+      "id": 564,
+      "na_revisao_desde": "2026-10-14T19:41-03:00",
+      "removido_em": "2026-10-14T19:59:29-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:482939517.22399131652",
       "nome": "14/20 Polegadas Caixa de Ferramentas Profissional  - Bolsa de Armazenamento Multiuso para Ferramentas",
@@ -5852,7 +5853,7 @@
       "promobit": {
         "achados": 2,
         "aprovados": 0,
-        "reprovados": 1
+        "reprovados": 2
       }
     }
   },
@@ -5866,7 +5867,7 @@
     "air fryer": {
       "achados": 7,
       "aprovados": 1,
-      "reprovados": 5
+      "reprovados": 6
     },
     "alexa": {
       "achados": 3,
