@@ -300,6 +300,26 @@
       "titulo": "Perfume árabe amadeirado para o uso diário",
       "na_revisao_desde": "2026-10-14T17:40-03:00",
       "aprovado_em": "2026-10-14T18:00-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB6087972",
+      "origem": "xetdaspromocoes",
+      "link": "https://meli.la/2HvEipd",
+      "link_produto": "https://meli.la/2HvEipd",
+      "post_origem": "https://t.me/xetdaspromocoes/84813",
+      "link_canal": "https://meli.la/1tpYAT9",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_811723-MLA116971940367_082026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Proteína Max Titanium Whey Pro Concetrado em pó sabor Chocolate x 1kg",
+      "de": 149.0,
+      "por": 78.0,
+      "palavra": "whey",
+      "garimpado_em": "2026-10-14T14:00-03:00",
+      "nota": 61.5,
+      "titulo": "Whey de chocolate para bater a proteína diária",
+      "na_revisao_desde": "2026-10-14T16:40-03:00",
+      "aprovado_em": "2026-10-14T18:02-03:00"
     }
   ],
   "postados": [
@@ -1494,27 +1514,6 @@
       "id": 544,
       "na_revisao_desde": "2026-10-14T15:41-03:00",
       "msg_id": 885
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB6087972",
-      "origem": "xetdaspromocoes",
-      "link": "https://www.mercadolivre.com.br/proteina-max-titanium-whey-pro-concetrado-em-po-sabor-chocolate-x-1kg/p/MLB6087972?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/proteina-max-titanium-whey-pro-concetrado-em-po-sabor-chocolate-x-1kg/p/MLB6087972",
-      "post_origem": "https://t.me/xetdaspromocoes/84813",
-      "link_canal": "https://meli.la/1tpYAT9",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_811723-MLA116971940367_082026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Proteína Max Titanium Whey Pro Concetrado em pó sabor Chocolate x 1kg",
-      "de": 149.0,
-      "por": 78.0,
-      "palavra": "whey",
-      "garimpado_em": "2026-10-14T14:00-03:00",
-      "nota": 61.5,
-      "titulo": "Whey de chocolate para bater a proteína diária",
-      "id": 546,
-      "na_revisao_desde": "2026-10-14T16:40-03:00",
-      "msg_id": 889
     }
   ],
   "proximo_id": 555,
@@ -5547,7 +5546,7 @@
       },
       "xetdaspromocoes": {
         "achados": 4,
-        "aprovados": 1,
+        "aprovados": 2,
         "reprovados": 0
       },
       "tudonapromo": {
@@ -5801,7 +5800,7 @@
     },
     "whey": {
       "achados": 8,
-      "aprovados": 1,
+      "aprovados": 2,
       "reprovados": 6
     },
     "relogio masculino": {
