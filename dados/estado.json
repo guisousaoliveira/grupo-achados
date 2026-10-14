@@ -1469,22 +1469,22 @@
   "proximo_id": 545,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84832,
-      "lobaopromo": 189447,
-      "gatunopromos": 125360,
+      "xetdaspromocoes": 84835,
+      "lobaopromo": 189450,
+      "gatunopromos": 125362,
       "pobregram": 41895,
-      "urubupromo": 41673,
-      "tudonapromo": 101887,
-      "promonocontext": 126736,
-      "promooeasy": 221507,
-      "aquitempechincha": 281648,
-      "infoBRpromos": 67561,
-      "boletando": 76728,
-      "promotop": 260282,
-      "achadosdotb": 11769
+      "urubupromo": 41674,
+      "tudonapromo": 101890,
+      "promonocontext": 126739,
+      "promooeasy": 221510,
+      "aquitempechincha": 281649,
+      "infoBRpromos": 67562,
+      "boletando": 76729,
+      "promotop": 260283,
+      "achadosdotb": 11771
     },
     "dia": "2026-10-14",
-    "hoje": 94,
+    "hoje": 96,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -3127,30 +3127,33 @@
       "shopee:511507233.15682012392",
       "shopee:1620512848.22794410769",
       "shopee:1167658467.19298318396",
-      "shopee:1538553747.22399024192"
+      "shopee:1538553747.22399024192",
+      "mercadolivre:MLB34062353",
+      "amazon:B09CC39PR1"
     ],
     "ultima": {
-      "em": "2026-10-14T16:10:22-03:00",
+      "em": "2026-10-14T16:20:22-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 30,
-      "do_nicho": 3,
-      "repetidas": 3,
-      "novas": 0,
+      "posts_novos": 37,
+      "do_nicho": 9,
+      "repetidas": 7,
+      "novas": 1,
       "limite_dia": false,
       "repetidas_nome": 0,
       "promobit": 0,
+      "fora_do_nicho": 1,
       "soltas": 0,
-      "na_peneira": 36
+      "na_peneira": 35
     },
     "hora": "2026-10-14T16",
-    "nesta_hora": 0,
+    "nesta_hora": 2,
     "promobit_hora": "2026-10-14T16",
     "promobit_nesta_hora": 0,
-    "promobit_visto": 3113860,
+    "promobit_visto": 3113890,
     "nomes": [
       [
         [
@@ -3690,40 +3693,6 @@
       ]
     ],
     "peneira": [
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB7567354484",
-        "origem": "xetdaspromocoes",
-        "link": "https://www.mercadolivre.com.br/relogio-tommy-hilfiger-th-essentials-masculino-em-couro-pret/up/MLBU5041416543?pdp_filters=item_id%3AMLB7567354484&matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/relogio-tommy-hilfiger-th-essentials-masculino-em-couro-pret/up/MLBU5041416543?pdp_filters=item_id%3AMLB7567354484",
-        "post_origem": "https://t.me/xetdaspromocoes/84804",
-        "link_canal": "https://meli.la/2q3Kj3R",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_770837-MLB115548341546_082026-O.webp",
-        "foto_origem": "loja",
-        "nome": "Relógio Tommy Hilfiger Th Essentials Masculino Em Couro Pret Preto",
-        "por": 544.5,
-        "de": 990.0,
-        "cupom": "AQUITEM",
-        "palavra": "relogio",
-        "garimpado_em": "2026-10-14T13:20-03:00",
-        "nota": 62.1
-      },
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB75081110",
-        "origem": "lobaopromo",
-        "link": "https://www.mercadolivre.com.br/relogio-smartwatch-aurafit-g6-com-5atm-e-gps-verde-militar-verde-militar-sport-verde-militarpreto/p/MLB75081110?matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/relogio-smartwatch-aurafit-g6-com-5atm-e-gps-verde-militar-verde-militar-sport-verde-militarpreto/p/MLB75081110",
-        "post_origem": "https://t.me/lobaopromo/189380",
-        "link_canal": "https://meli.la/1vkLXy1",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_852088-MLA114251303045_072026-O.webp",
-        "foto_origem": "loja",
-        "nome": "Relógio Smartwatch Aurafit G6 Com 5atm E Gps Verde Militar Verde",
-        "cupom": "CUPOMON",
-        "palavra": "smartwatch",
-        "garimpado_em": "2026-10-14T13:20-03:00",
-        "nota": -0.8
-      },
       {
         "loja": "amazon",
         "chave": "amazon:B0CB44VYLH",
@@ -4324,6 +4293,22 @@
         "palavra": "ferramenta",
         "garimpado_em": "2026-10-14T15:50-03:00",
         "nota": 74.9
+      },
+      {
+        "loja": "amazon",
+        "chave": "amazon:B09CC39PR1",
+        "origem": "promooeasy",
+        "link": "https://www.amazon.com.br/dp/B09CC39PR1?tag=alphadominu09-20",
+        "link_produto": "https://www.amazon.com.br/dp/B09CC39PR1?tag=alphadominu09-20",
+        "post_origem": "https://t.me/promooeasy/221508",
+        "link_canal": "https://www.amazon.com.br/dp/B09CC39PR1?tag=promof26-20",
+        "foto": "https://m.media-amazon.com/images/I/41oYLWpphGL._AC_SL1500_.jpg",
+        "foto_origem": "loja",
+        "nome": "Garrafa Térmica de Plástico com Cabo de Madeira Nórdica 1L WOLFF",
+        "por": 40.9,
+        "palavra": "garrafa termica",
+        "garimpado_em": "2026-10-14T16:20-03:00",
+        "nota": 39.7
       }
     ],
     "soltas_hora": "2026-10-14T16",
