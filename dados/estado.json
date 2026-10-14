@@ -1564,27 +1564,140 @@
       "id": 549,
       "na_revisao_desde": "2026-10-14T16:40-03:00",
       "msg_id": 892
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB4470214747",
+      "origem": "lobaopromo",
+      "link": "https://www.mercadolivre.com.br/perfume-masculino-premium-midnight-blue-100ml-original-arabe/up/MLBU3789770770?pdp_filters=item_id%3AMLB4470214747&matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/perfume-masculino-premium-midnight-blue-100ml-original-arabe/up/MLBU3789770770?pdp_filters=item_id%3AMLB4470214747",
+      "post_origem": "https://t.me/lobaopromo/189494",
+      "link_canal": "https://meli.la/2C8MFhA",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_639989-MLB106379373096_022026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Perfume Masculino Premium Midnight Blue 100ml Original Árabe",
+      "pix": true,
+      "de": 249.99,
+      "por": 67.0,
+      "palavra": "perfume masculino",
+      "garimpado_em": "2026-10-14T17:40-03:00",
+      "nota": 93.7,
+      "titulo": "Perfume árabe amadeirado para o uso diário",
+      "id": 550,
+      "na_revisao_desde": "2026-10-14T17:40-03:00",
+      "msg_id": 894
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:1609020700.58250382369",
+      "nome": "Bolsa De Armazenamento De Ferramentas De Carro Em Feltro Para O Porta-Malas Do Carro",
+      "por": 30.9,
+      "de": 83.51,
+      "foto": "AgACAgQAAxkDAAIDf2rP6M5_23rheXSck_YpU4mPMk11AAIpDWsbZcRcUkPCetDGdlgdAQADAgADeAADPQQ",
+      "link": "https://s.shopee.com.br/gQqez7hOF",
+      "link_produto": "https://shopee.com.br/product/1609020700/58250382369",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.9,
+      "vendas": 834,
+      "palavra": "ferramenta",
+      "garimpado_em": "2026-10-14T15:50-03:00",
+      "nota": 82.1,
+      "titulo": "Bolsa de feltro para organizar o porta-malas",
+      "id": 551,
+      "na_revisao_desde": "2026-10-14T17:40-03:00",
+      "msg_id": 895
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B09SJT773X",
+      "origem": "promonocontext",
+      "link": "https://www.amazon.com.br/dp/B09SJT773X?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B09SJT773X?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promonocontext/126759",
+      "link_canal": "https://amazn.pro/r/dqbgPk",
+      "foto": "AgACAgEAAxkDAAIDgGrP6NAsDxCd7Tm29Z2nsC7m2WX8AAIODmsbKhqARtzDhOnJ4rKTAQADAgADeAADPQQ",
+      "foto_origem": "canal",
+      "nome": "Pré Treino Horus Cítrus 300g Max Titanium",
+      "pix": true,
+      "de": 53.0,
+      "por": 15.0,
+      "palavra": "pre treino",
+      "garimpado_em": "2026-10-14T17:00-03:00",
+      "nota": 73.7,
+      "titulo": "Pré treino para aumentar o foco e a energia",
+      "id": 552,
+      "na_revisao_desde": "2026-10-14T17:40-03:00",
+      "msg_id": 896
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB51241395",
+      "origem": "lobaopromo",
+      "link": "https://www.mercadolivre.com.br/caixa-termica-grande-primeplas-32-lt-com-isolamento-na-tampa-preto/p/MLB51241395?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/caixa-termica-grande-primeplas-32-lt-com-isolamento-na-tampa-preto/p/MLB51241395",
+      "post_origem": "https://t.me/lobaopromo/189466",
+      "link_canal": "https://meli.la/1Gg7typ",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_820968-MLA113674108091_062026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Caixa Termica Grande Primeplas 32 Lt Com Isolamento Na Tampa Preto",
+      "pix": true,
+      "de": 78.0,
+      "por": 45.0,
+      "cupom": "OPAECONOMIZEI",
+      "palavra": "caixa termica",
+      "garimpado_em": "2026-10-14T16:50-03:00",
+      "nota": 60.7,
+      "titulo": "Caixa térmica grande para manter bebidas geladas no churrasc",
+      "id": 553,
+      "na_revisao_desde": "2026-10-14T17:40-03:00",
+      "msg_id": 897
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:1121459942.23293571172",
+      "nome": "Bolsa de Ferramentas Profissional 14/20 Polegadas Multiuso Caixa de Ferramentas Maleta Organizadora Tecido Resiste",
+      "por": 36.99,
+      "de": 92.47,
+      "foto": "AgACAgQAAxkDAAIDgmrP6NRkv7ttEf5BHnrnCN5v-mC1AAJKD2sbNocdUYNsFUwXt_iEAQADAgADeQADPQQ",
+      "link": "https://s.shopee.com.br/2VsUqM0ifg",
+      "link_produto": "https://shopee.com.br/product/1121459942/23293571172",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.9,
+      "vendas": 758,
+      "palavra": "ferramenta",
+      "garimpado_em": "2026-10-14T15:50-03:00",
+      "nota": 80.3,
+      "titulo": "Bolsa resistente para organizar ferramentas no trabalho",
+      "id": 554,
+      "na_revisao_desde": "2026-10-14T17:40-03:00",
+      "msg_id": 898
     }
   ],
-  "proximo_id": 550,
+  "proximo_id": 555,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84852,
-      "lobaopromo": 189491,
-      "gatunopromos": 125377,
-      "pobregram": 41899,
+      "xetdaspromocoes": 84856,
+      "lobaopromo": 189494,
+      "gatunopromos": 125379,
+      "pobregram": 41901,
       "urubupromo": 41679,
       "tudonapromo": 101902,
-      "promonocontext": 126770,
-      "promooeasy": 221555,
-      "aquitempechincha": 281663,
+      "promonocontext": 126776,
+      "promooeasy": 221561,
+      "aquitempechincha": 281668,
       "infoBRpromos": 67570,
       "boletando": 76734,
       "promotop": 260287,
       "achadosdotb": 11771
     },
     "dia": "2026-10-14",
-    "hoje": 108,
+    "hoje": 111,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -3257,31 +3370,33 @@
       "amazon:B0B3241KVW",
       "mercadolivre:MLB4206294213",
       "amazon:B0FBGC82BR",
-      "shopee:260477274.58214031254"
+      "shopee:260477274.58214031254",
+      "mercadolivre:MLB4470214747",
+      "mercadolivre:MLB21394740",
+      "amazon:B0FQJVM2YD"
     ],
     "ultima": {
-      "em": "2026-10-14T17:30:24-03:00",
+      "em": "2026-10-14T17:40:18-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 46,
+      "posts_novos": 38,
       "do_nicho": 8,
-      "repetidas": 6,
-      "novas": 1,
+      "repetidas": 5,
+      "novas": 3,
       "limite_dia": false,
       "repetidas_nome": 0,
       "promobit": 0,
-      "fora_do_nicho": 1,
-      "soltas": 0,
-      "na_peneira": 35
+      "soltas": 5,
+      "na_peneira": 33
     },
     "hora": "2026-10-14T17",
-    "nesta_hora": 7,
+    "nesta_hora": 10,
     "promobit_hora": "2026-10-14T17",
     "promobit_nesta_hora": 1,
-    "promobit_visto": 3114130,
+    "promobit_visto": 3114146,
     "nomes": [
       [
         [
@@ -3879,26 +3994,71 @@
           "penalty"
         ],
         "2026-10-14T16:40-03:00"
+      ],
+      [
+        [
+          "perfume",
+          "premium",
+          "midnight",
+          "blue",
+          "100ml",
+          "arabe"
+        ],
+        "2026-10-14T17:40-03:00"
+      ],
+      [
+        [
+          "bolsa",
+          "armazenamento",
+          "ferramentas",
+          "carro",
+          "feltro",
+          "porta",
+          "malas",
+          "carro"
+        ],
+        "2026-10-14T17:40-03:00"
+      ],
+      [
+        [
+          "pre",
+          "treino",
+          "horus",
+          "citrus",
+          "300g",
+          "max",
+          "titanium"
+        ],
+        "2026-10-14T17:40-03:00"
+      ],
+      [
+        [
+          "caixa",
+          "termica",
+          "grande",
+          "primeplas",
+          "32",
+          "lt",
+          "isolamento",
+          "tampa"
+        ],
+        "2026-10-14T17:40-03:00"
+      ],
+      [
+        [
+          "bolsa",
+          "ferramentas",
+          "profissional",
+          "14",
+          "20",
+          "polegadas",
+          "multiuso",
+          "caixa"
+        ],
+        "2026-10-14T17:40-03:00"
       ]
     ],
     "peneira": [
-      {
-        "loja": "amazon",
-        "chave": "amazon:B0HCX6253T",
-        "origem": "promooeasy",
-        "link": "https://www.amazon.com.br/dp/B0HCX6253T?tag=alphadominu09-20",
-        "link_produto": "https://www.amazon.com.br/dp/B0HCX6253T?tag=alphadominu09-20",
-        "post_origem": "https://t.me/promooeasy/221438",
-        "link_canal": "https://www.amazon.com.br/55-Polegadas-Antirreflexo-Processador-Aprimorado/dp/B0HCX6253T?tag=promof26-20",
-        "foto": "https://cdn1.telesco.pe/file/K3-fY-NOgrWFJ6SAxSnrqZUBaLmCu70izyASwF5-m_owFTnGmUn_wLvcPsVY6ZI-eNU4KBf3piXid_yZ1jdhrvGaaj_2JvX7cSL87X6kYBZs6gmg2fvKpiFhwCTpA6PELpPdxVtr0Z2ZTbU1XwYpJG1phyXu9aqHdL9e-n91s29sjLUy6Sz9qBcVlFFmYc9Xt6VxBqXSZJdyw-EwVfgvlwhgFcHY-W689JbqtYeiCVyYmHELCFR1vT7zx6anA2WtOBkqenlO0wmDVjSqmp6FF6ZFzLlTGLnujdbMGE4jv9fBov71pHKGBzduuJE4ep-UtP_49xazM32tBtglEghETQ.jpg",
-        "foto_origem": "canal",
-        "nome": "Toshiba Smart TV MiniLED QLED 4K 55 Polegadas 55M450SS",
-        "por": 2649.0,
-        "cupom": "NEW150",
-        "palavra": "smart tv",
-        "garimpado_em": "2026-10-14T14:37-03:00",
-        "nota": 19.2
-      },
       {
         "loja": "amazon",
         "chave": "amazon:B0FPMDZD8J",
@@ -4142,44 +4302,6 @@
       },
       {
         "loja": "shopee",
-        "chave": "shopee:1609020700.58250382369",
-        "nome": "Bolsa De Armazenamento De Ferramentas De Carro Em Feltro Para O Porta-Malas Do Carro",
-        "por": 30.9,
-        "de": 83.51,
-        "foto": "https://cf.shopee.com.br/file/br-11134207-81z1k-mgq7fxipp7npf6",
-        "link": "https://s.shopee.com.br/gQqez7hOF",
-        "link_produto": "https://shopee.com.br/product/1609020700/58250382369",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 4.9,
-        "vendas": 834,
-        "palavra": "ferramenta",
-        "garimpado_em": "2026-10-14T15:50-03:00",
-        "nota": 82.1
-      },
-      {
-        "loja": "shopee",
-        "chave": "shopee:1121459942.23293571172",
-        "nome": "Bolsa de Ferramentas Profissional 14/20 Polegadas Multiuso Caixa de Ferramentas Maleta Organizadora Tecido Resiste",
-        "por": 36.99,
-        "de": 92.47,
-        "foto": "https://cf.shopee.com.br/file/br-11134207-820lt-msxktvyjjsw4d4",
-        "link": "https://s.shopee.com.br/2VsUqM0ifg",
-        "link_produto": "https://shopee.com.br/product/1121459942/23293571172",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 4.9,
-        "vendas": 758,
-        "palavra": "ferramenta",
-        "garimpado_em": "2026-10-14T15:50-03:00",
-        "nota": 80.3
-      },
-      {
-        "loja": "shopee",
         "chave": "shopee:482939517.22399131652",
         "nome": "14/20 Polegadas Caixa de Ferramentas Profissional  - Bolsa de Armazenamento Multiuso para Ferramentas",
         "por": 35.88,
@@ -4343,25 +4465,6 @@
         "nota": 39.1
       },
       {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB51241395",
-        "origem": "lobaopromo",
-        "link": "https://www.mercadolivre.com.br/caixa-termica-grande-primeplas-32-lt-com-isolamento-na-tampa-preto/p/MLB51241395?matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/caixa-termica-grande-primeplas-32-lt-com-isolamento-na-tampa-preto/p/MLB51241395",
-        "post_origem": "https://t.me/lobaopromo/189466",
-        "link_canal": "https://meli.la/1Gg7typ",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_820968-MLA113674108091_062026-O.webp",
-        "foto_origem": "loja",
-        "nome": "Caixa Termica Grande Primeplas 32 Lt Com Isolamento Na Tampa Preto",
-        "pix": true,
-        "de": 78.0,
-        "por": 45.0,
-        "cupom": "OPAECONOMIZEI",
-        "palavra": "caixa termica",
-        "garimpado_em": "2026-10-14T16:50-03:00",
-        "nota": 60.7
-      },
-      {
         "loja": "shopee",
         "chave": "shopee:811879342.20975432920",
         "nome": "Cafeteira Britânia CP15 Vidro Preto com Inox",
@@ -4396,24 +4499,6 @@
         "palavra": "relogio",
         "garimpado_em": "2026-10-14T17:00-03:00",
         "nota": 22.2
-      },
-      {
-        "loja": "amazon",
-        "chave": "amazon:B09SJT773X",
-        "origem": "promonocontext",
-        "link": "https://www.amazon.com.br/dp/B09SJT773X?tag=alphadominu09-20",
-        "link_produto": "https://www.amazon.com.br/dp/B09SJT773X?tag=alphadominu09-20",
-        "post_origem": "https://t.me/promonocontext/126759",
-        "link_canal": "https://amazn.pro/r/dqbgPk",
-        "foto": "https://cdn1.telesco.pe/file/YzP4L6wji6fP6JSqHY5tqjbf1xc8TVh4WNgsAPZ8hTNEpAPd4JintoyUfya5G2ofUl0sM6xjP8EKWjbd0q-vCobnjxeI5Z57eM_4wvJAKHY1Tc_5WmZG47-Bffzj1GQjr41499PpEE574d4iIYZOLVfA-81JhWXgWau_0RMp1I4iOh7gVDjxAl4OFpLyvZHiBXk6OuVvOssUTaYkkQS2yHjHN20RJMk-uH-IcYab5xMS9Zigfoo2ADfyaQNkhbKWGZlvE1VGYZ_Dk-UHlr4EfxGX8ohrvPkhr8S27hTxHvlMuCJ6VAXFuA6wXbcLYCv74UBuBf0vupSK9aZJTAvCWQ.jpg",
-        "foto_origem": "canal",
-        "nome": "Pré Treino Horus Cítrus 300g Max Titanium",
-        "pix": true,
-        "de": 53.0,
-        "por": 15.0,
-        "palavra": "pre treino",
-        "garimpado_em": "2026-10-14T17:00-03:00",
-        "nota": 73.7
       },
       {
         "loja": "amazon",
@@ -4516,15 +4601,51 @@
         "palavra": "kettlebell",
         "garimpado_em": "2026-10-14T17:30-03:00",
         "nota": 80.3
+      },
+      {
+        "loja": "mercadolivre",
+        "chave": "mercadolivre:MLB21394740",
+        "origem": "promonocontext",
+        "link": "https://www.mercadolivre.com.br/pre-treino-prohibido-180g-sabor-green-apple-formula-avancada-contendo-creatina-beta-alanina-taurina-l-tirosina-l-alanina-cafeina-arginina-e-palatinose-extra-forte/p/MLB21394740?matt_word=alphapromo&matt_tool=59136903",
+        "link_produto": "https://www.mercadolivre.com.br/pre-treino-prohibido-180g-sabor-green-apple-formula-avancada-contendo-creatina-beta-alanina-taurina-l-tirosina-l-alanina-cafeina-arginina-e-palatinose-extra-forte/p/MLB21394740",
+        "post_origem": "https://t.me/promonocontext/126773",
+        "link_canal": "https://meli.la/1wzupXH",
+        "foto": "https://http2.mlstatic.com/D_NQ_NP_788808-MLA115975299817_082026-O.webp",
+        "foto_origem": "loja",
+        "nome": "Pré Treino Prohibido 180g Sabor Green Apple",
+        "por": 41.0,
+        "palavra": "pre treino",
+        "garimpado_em": "2026-10-14T17:40-03:00",
+        "nota": 30.7
+      },
+      {
+        "loja": "amazon",
+        "chave": "amazon:B0FQJVM2YD",
+        "origem": "promooeasy",
+        "link": "https://www.amazon.com.br/dp/B0FQJVM2YD?tag=alphadominu09-20",
+        "link_produto": "https://www.amazon.com.br/dp/B0FQJVM2YD?tag=alphadominu09-20",
+        "post_origem": "https://t.me/promooeasy/221560",
+        "link_canal": "https://www.amazon.com.br/dp/B0FQJVM2YD/ref=cm_sw_r_as_gl_apa_gl_i_dl_FHR5EPC98D1GW6Y7B89H?tag=promof26-20",
+        "foto": "https://m.media-amazon.com/images/I/61lh+nNVCQL._AC_SL1500_.jpg",
+        "foto_origem": "loja",
+        "nome": "Bettdow SmartWatch GPS",
+        "por": 276.09,
+        "palavra": "smartwatch",
+        "garimpado_em": "2026-10-14T17:40-03:00",
+        "nota": 24.4
       }
     ],
     "soltas_hora": "2026-10-14T17",
-    "soltas": 0,
+    "soltas": 5,
     "shopee_em": "2026-10-14T17:30-03:00",
     "shopee_indice": 80,
     "soltas_dia_data": "2026-10-14",
-    "soltas_dia": 40,
-    "soltas_loja": {}
+    "soltas_dia": 45,
+    "soltas_loja": {
+      "mercadolivre": 2,
+      "shopee": 2,
+      "amazon": 1
+    }
   },
   "ultimos": [
     {
@@ -5519,12 +5640,12 @@
     },
     "2026-10-14": {
       "shopee": {
-        "achados": 32,
+        "achados": 34,
         "aprovados": 13,
         "reprovados": 11
       },
       "lobaopromo": {
-        "achados": 3,
+        "achados": 5,
         "aprovados": 3,
         "reprovados": 0
       },
@@ -5539,7 +5660,7 @@
         "reprovados": 1
       },
       "promonocontext": {
-        "achados": 6,
+        "achados": 7,
         "aprovados": 2,
         "reprovados": 1
       },
@@ -5623,7 +5744,7 @@
       "reprovados": 15
     },
     "caixa termica": {
-      "achados": 2,
+      "achados": 3,
       "aprovados": 0,
       "reprovados": 2
     },
@@ -5683,7 +5804,7 @@
       "reprovados": 1
     },
     "ferramenta": {
-      "achados": 3,
+      "achados": 5,
       "aprovados": 1,
       "reprovados": 2
     },
@@ -5738,7 +5859,7 @@
       "reprovados": 3
     },
     "perfume masculino": {
-      "achados": 6,
+      "achados": 7,
       "aprovados": 4,
       "reprovados": 1
     },
@@ -5748,7 +5869,7 @@
       "reprovados": 7
     },
     "pre treino": {
-      "achados": 1,
+      "achados": 2,
       "aprovados": 0,
       "reprovados": 1
     },
