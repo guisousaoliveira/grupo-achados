@@ -2,26 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB24081502",
-      "origem": "promonocontext",
-      "link": "https://meli.la/22UA4Jg",
-      "link_produto": "https://meli.la/22UA4Jg",
-      "post_origem": "https://t.me/promonocontext/126552",
-      "link_canal": "https://meli.la/2mXbYaS",
-      "foto": "AgACAgQAAxkDAAIDYGrPopqb7S3FinwT0kN5fBcUyyo4AALHC2sbegdkUcKP96AHlCJOAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Creatina Max Titanium em pó Sem sabor x 300g 2 un",
-      "de": 180.0,
-      "por": 78.9,
-      "palavra": "creatina",
-      "garimpado_em": "2026-10-14T10:41-03:00",
-      "nota": 71.5,
-      "titulo": "Creatina em pó para o seu treino diário",
-      "na_revisao_desde": "2026-10-14T12:41-03:00",
-      "aprovado_em": "2026-10-14T13:14-03:00"
-    },
-    {
       "loja": "shopee",
       "chave": "shopee:1345043704.22497773735",
       "nome": "ROMANTIC CROWN Mochila Viagem Feminina Masculina Multifuncional Reforçada Impermeável Expansível, Notebook Antifurto USB",
@@ -1274,6 +1254,16 @@
       "link": "https://s.shopee.com.br/40hHbxwpJm",
       "link_produto": "https://shopee.com.br/product/1566556194/22099191110",
       "titulo": "Garrafa térmica que mantém a bebida gelada"
+    },
+    {
+      "chave": "mercadolivre:MLB24081502",
+      "loja": "mercadolivre",
+      "nome": "Creatina Max Titanium em pó Sem sabor x 300g 2 un",
+      "data": "2026-10-14T19:44-03:00",
+      "link": "https://meli.la/22UA4Jg",
+      "link_produto": "https://meli.la/22UA4Jg",
+      "titulo": "Creatina em pó para o seu treino diário",
+      "slot": 19
     }
   ],
   "slots_usados": {
@@ -1327,7 +1317,8 @@
       15,
       16,
       17,
-      18
+      18,
+      19
     ]
   },
   "shopee_buscado_em": "",
@@ -4411,6 +4402,19 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB24081502",
+      "origem": "promonocontext",
+      "link": "https://meli.la/22UA4Jg",
+      "link_produto": "https://meli.la/22UA4Jg",
+      "post_origem": "https://t.me/promonocontext/126552",
+      "foto": "AgACAgQAAxkDAAIDYGrPopqb7S3FinwT0kN5fBcUyyo4AALHC2sbegdkUcKP96AHlCJOAQADAgADeAADPQQ",
+      "nome": "Creatina Max Titanium em pó Sem sabor x 300g 2 un",
+      "de": 180.0,
+      "por": 78.9,
+      "titulo": "Creatina em pó para o seu treino diário"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:1566556194.22099191110",
       "nome": "Garrafa Térmica WATERSY 500ml - 48h Frio! Perfeita para Academia, Futebol e Dia a Dia⚽🏋️",
@@ -4933,20 +4937,6 @@
       "por": 86.0,
       "cupom": "FULLLANDING",
       "titulo": "Whey Protein Black Skull com 10% off"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB7319767372",
-      "origem": "promonocontext",
-      "link": "https://meli.la/2scKQiu",
-      "link_produto": "https://meli.la/2scKQiu",
-      "post_origem": "https://t.me/promonocontext/126076",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_813847-MLB114929394738_082026-O.webp",
-      "nome": "Camisa Polo Masculina Polo Wear Piquet Listrada Bege Médio M",
-      "pix": true,
-      "de": 139.99,
-      "por": 62.21,
-      "titulo": "Presença começa no detalhe."
     }
   ],
   "lixeira": [
