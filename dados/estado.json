@@ -314,6 +314,28 @@
       "titulo": "Kit de ferramentas para reparos rápidos em casa",
       "na_revisao_desde": "2026-10-14T08:40-03:00",
       "aprovado_em": "2026-10-14T09:12-03:00"
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:979724994.23798014198",
+      "nome": "Jogo de Soquetes de Impacto Longo 1/2 10 Peças  8 A 24mm",
+      "por": 30.98,
+      "de": 206.53,
+      "foto": "AgACAgQAAxkDAAIDM2rPXDU1f52rQSsgaUMQm85NTDKJAAIJEGsbIeg0UPgQ5PpXE8_LAQADAgADeQADPQQ",
+      "link": "https://s.shopee.com.br/5q8wFlhmPW",
+      "link_produto": "https://shopee.com.br/product/979724994/23798014198",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.9,
+      "vendas": 2257,
+      "palavra": "jogo de soquete",
+      "garimpado_em": "2026-10-14T07:25-03:00",
+      "nota": 93.4,
+      "titulo": "Soquetes longos para aperto firme em oficina",
+      "na_revisao_desde": "2026-10-14T07:40-03:00",
+      "aprovado_em": "2026-10-14T09:19-03:00"
     }
   ],
   "postados": [
@@ -1106,29 +1128,6 @@
       "id": 504,
       "na_revisao_desde": "2026-10-14T00:41-03:00",
       "msg_id": 809
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:979724994.23798014198",
-      "nome": "Jogo de Soquetes de Impacto Longo 1/2 10 Peças  8 A 24mm",
-      "por": 30.98,
-      "de": 206.53,
-      "foto": "AgACAgQAAxkDAAIDM2rPXDU1f52rQSsgaUMQm85NTDKJAAIJEGsbIeg0UPgQ5PpXE8_LAQADAgADeQADPQQ",
-      "link": "https://s.shopee.com.br/5q8wFlhmPW",
-      "link_produto": "https://shopee.com.br/product/979724994/23798014198",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.9,
-      "vendas": 2257,
-      "palavra": "jogo de soquete",
-      "garimpado_em": "2026-10-14T07:25-03:00",
-      "nota": 93.4,
-      "titulo": "Soquetes longos para aperto firme em oficina",
-      "id": 507,
-      "na_revisao_desde": "2026-10-14T07:40-03:00",
-      "msg_id": 819
     }
   ],
   "proximo_id": 510,
@@ -8782,7 +8781,7 @@
     "2026-10-14": {
       "shopee": {
         "achados": 9,
-        "aprovados": 6,
+        "aprovados": 7,
         "reprovados": 1
       }
     }
@@ -9026,7 +9025,7 @@
     },
     "jogo de soquete": {
       "achados": 2,
-      "aprovados": 1,
+      "aprovados": 2,
       "reprovados": 0
     },
     "trena": {
