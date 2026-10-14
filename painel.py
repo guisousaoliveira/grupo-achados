@@ -696,7 +696,7 @@ def postar(estado, item, feito):
 
 # ---------------------------------------------------------------- story
 
-def gerar_story_png(tipo, ident, frase="", modelo="prova", com_item=False, encaixe="auto"):
+def gerar_story_png(tipo, ident, frase="", modelo="prova", com_item=False, encaixe="auto", link="produto"):
     import story
     estado, _ = bot.carregar_estado()
     cfg = estado.get("story_cfg")
@@ -707,9 +707,10 @@ def gerar_story_png(tipo, ident, frase="", modelo="prova", com_item=False, encai
     item = next((x for x in lista if bot.id_story(x) == ident), None)
     if not item:
         return None, ""
+    extra = {"link": "canal" if link == "canal" else "produto"} if modelo == "venda" else {}
     gerar = story.story_venda if modelo == "venda" else story.story_oferta
     png = gerar(item, bot.baixar_foto(item.get("foto")), canal, frase=frase.strip()[:60] or None, cfg=cfg,
-                encaixe=encaixe if encaixe in ("auto", "branco", "cheio") else "auto")
+                encaixe=encaixe if encaixe in ("auto", "branco", "cheio") else "auto", **extra)
     nome = "story_venda.png" if modelo == "venda" else "story_oferta.png"
     return (png, nome, item, canal) if com_item else (png, nome)
 
@@ -737,13 +738,13 @@ def story_telegram(d):
         item = None
     else:
         res = gerar_story_png(d.get("tipo", "ultimo"), str(d.get("id", "")), str(d.get("frase") or ""), modelo, com_item=True,
-                              encaixe=str(d.get("encaixe") or "auto"))
+                              encaixe=str(d.get("encaixe") or "auto"), link=str(d.get("link") or "produto"))
         png, nome, item, canal = res if len(res) == 4 else (None, "", None, "")
     if not png:
         return {"erro": "Não achei mais essa oferta."}
     bot.enviar_arquivo(png, nome, "Story gerado pelo painel.")
     if item and modelo == "venda":
-        bot.enviar_links_story(item, canal)
+        bot.enviar_links_story(item, canal, "canal" if d.get("link") == "canal" else "produto")
     return {"ok": "Mandei o story no seu privado do Telegram."}
 
 
@@ -789,7 +790,7 @@ def tratar_get(req):
     elif caminho == "/painel/story":
         try:
             png, nome = gerar_story_png(q.get("tipo", "ultimo"), q.get("id", ""), q.get("frase", ""), q.get("modelo", "prova"),
-                                       encaixe=q.get("encaixe", "auto"))
+                                       encaixe=q.get("encaixe", "auto"), link=q.get("link", "produto"))
         except ImportError:
             responder(req, 500, "O servidor precisa do Pillow: Build Command = pip install -r requirements.txt", "text/plain")
             return

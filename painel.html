@@ -1093,7 +1093,7 @@ function stories(){
       <button class="btn sm gold" onclick="abrirStory('fixo','')">Gerar story</button></div></div>${cards}</div>`
     + (E.ultimos.length ? '' : '<div class="hint" style="margin-top:12px">As ofertas aparecem aqui depois que saem no canal.</div>');
 }
-let storyURL = null, stModelo = 'venda', stEncaixe = 'auto';
+let storyURL = null, stModelo = 'venda', stEncaixe = 'auto', stLink = 'produto';
 function selTudo(el){ setTimeout(() => { try { el.setSelectionRange(0, el.value.length); } catch(e) { el.select(); } }, 0); }  // clicou no campo: já seleciona o link todo (PC e celular)
 function copiarCampo(id){ const v = document.getElementById(id).value.trim(); if (v) copiarTexto(v, 'Link copiado'); else toast('O campo está vazio.', true); }
 async function copiarTexto(t, msg){
@@ -1106,8 +1106,10 @@ async function abrirStory(tipo, id, frase){
   const venda = !fixo && stModelo === 'venda';
   const canalURL = E.canal ? `https://t.me/${E.canal.replace('@','')}` : '';
   const fraseAtual = () => document.getElementById('st-frase')?.value || '';
-  const modelos = fixo ? '' : `<div class="st-sec"><div class="st-lb">Modelo</div><div class="seg">${[['venda','🛒','Com link do produto'],['prova','📸','Prova']].map(([k,e,t]) =>
+  const modelos = fixo ? '' : `<div class="st-sec"><div class="st-lb">Modelo</div><div class="seg">${[['venda','🛒','Para vender'],['prova','📸','Prova']].map(([k,e,t]) =>
       `<button class="${stModelo===k?'on':''}" onclick="stModelo='${k}';abrirStory('${tipo}','${id}',document.getElementById('st-frase')?.value||'')"><span>${e}</span>${t}</button>`).join('')}</div></div>`;
+  const linkSel = venda ? `<div class="st-sec"><div class="st-lb">Link do story (o Instagram só deixa um)</div><div class="seg">${[['produto','🛒','Produto'],['canal','📢','Canal']].map(([k,e,t]) =>
+      `<button class="${stLink===k?'on':''}" onclick="stLink='${k}';abrirStory('${tipo}','${id}',document.getElementById('st-frase')?.value||'')"><span>${e}</span>${t}</button>`).join('')}</div></div>` : '';
   const encaixes = fixo ? '' : `<div class="st-sec"><div class="st-lb">Foto do produto</div><div class="seg">${[['auto','Automático'],['branco','Fundo branco'],['cheio','Foto inteira']].map(([k,t]) =>
       `<button class="${stEncaixe===k?'on':''}" onclick="stEncaixe='${k}';abrirStory('${tipo}','${id}',document.getElementById('st-frase')?.value||'')">${t}</button>`).join('')}</div></div>`;
   const fraseBox = fixo ? '' : `<div class="st-sec"><div class="st-lb">Frase ${venda ? 'do topo' : 'de baixo'}</div>
@@ -1116,23 +1118,24 @@ async function abrirStory(tipo, id, frase){
         <button class="btn icon" title="Usar esta frase" onclick="abrirStory('${tipo}','${id}',document.getElementById('st-frase').value)">✓</button>
         <button class="btn icon" title="Sortear outra frase" onclick="abrirStory('${tipo}','${id}')">${ic('sortear',17)}</button></div></div>`;
   const linkRow = (logo, rot, sub, val, msg) => `<button class="st-link" onclick="copiarTexto(${esc(JSON.stringify(val))}, '${msg}')">${logo}<span class="t"><b>${rot}</b><small>${esc(sub)}</small></span>${ic('copiar',17)}</button>`;
-  const rowProd = venda && x ? linkRow(marca(x.loja), 'Link do produto', (x.link || '').replace(/^https?:\/\//, ''), x.link || '', 'Link do produto copiado. Cole no sticker de link.') : '';
-  const rowCanal = canalURL ? linkRow(marca('tg'), 'Link do canal', canalURL.replace('https://', ''), canalURL, 'Link do canal copiado. Cole no sticker de link.') : '';
-  const links = rowProd || rowCanal ? `<div class="st-sec"><div class="st-lb">${rowProd ? 'Links' : 'Link'} para o sticker do Instagram</div>${rowProd}${rowCanal}</div>` : '';
-  const dica = venda ? '<p class="hint" style="margin:0">No Instagram: sticker de link, cole o link e troque o texto do sticker para algo como “COMPRAR NA LOJA”.</p>'
+  const rowProd = venda && stLink === 'produto' && x ? linkRow(marca(x.loja), 'Link do produto', (x.link || '').replace(/^https?:\/\//, ''), x.link || '', 'Link do produto copiado. Cole no sticker de link.') : '';
+  const rowCanal = canalURL && !(venda && stLink === 'produto') ? linkRow(marca('tg'), 'Link do canal', canalURL.replace('https://', ''), canalURL, 'Link do canal copiado. Cole no sticker de link.') : '';
+  const links = rowProd || rowCanal ? `<div class="st-sec"><div class="st-lb">Link para o sticker do Instagram</div>${rowProd}${rowCanal}</div>` : '';
+  const dica = venda && stLink === 'canal' ? '<p class="hint" style="margin:0">No Instagram: sticker de link, cole o link do canal e troque o texto do sticker para algo como “LINK NO CANAL”.</p>'
+    : venda ? '<p class="hint" style="margin:0">No Instagram: sticker de link, cole o link e troque o texto do sticker para algo como “COMPRAR NA LOJA”.</p>'
     : '<p class="hint" style="margin:0">No Instagram: sticker de link na parte de baixo, cole o link do canal.</p>';
   m.classList.add('st');
   m.innerHTML = `<div class="st-hd"><h3>${fixo ? 'Story fixo do canal' : 'Story'}</h3><button class="btn icon sm ghost" onclick="fecharTudo()" aria-label="Fechar">✕</button></div>
     <div class="st-grid">
       <div class="storyimg" id="st-img"><span class="spin" style="width:26px;height:26px;border:3px solid var(--gold);border-right-color:transparent;border-radius:50%;animation:g .7s linear infinite"></span></div>
-      <div class="st-side">${modelos}${encaixes}${fraseBox}${links}${dica}
-        <div class="st-acts"><button class="btn" id="st-tg" onclick="fazer(this,'story_telegram','',{tipo:'${tipo}',id:'${id}',modelo:stModelo,encaixe:stEncaixe,frase:document.getElementById('st-frase')?.value||''})">${marca('tg')}Mandar no Telegram</button>
+      <div class="st-side">${modelos}${linkSel}${encaixes}${fraseBox}${links}${dica}
+        <div class="st-acts"><button class="btn" id="st-tg" onclick="fazer(this,'story_telegram','',{tipo:'${tipo}',id:'${id}',modelo:stModelo,encaixe:stEncaixe,link:stLink,frase:document.getElementById('st-frase')?.value||''})">${marca('tg')}Mandar no Telegram</button>
           <a class="btn gold" id="st-dl" download="${venda ? 'story_venda.png' : 'story_alpha_promo.png'}">${ic('baixar',17)}Baixar</a></div>
       </div>
     </div>`;
   document.getElementById('veu').classList.add('on'); m.classList.add('on');
   try {
-    const r = await fetch(`/painel/story?tipo=${tipo}&modelo=${stModelo}&encaixe=${stEncaixe}&id=${encodeURIComponent(id)}&frase=${encodeURIComponent(frase || '')}&t=${Date.now()}`);
+    const r = await fetch(`/painel/story?tipo=${tipo}&modelo=${stModelo}&encaixe=${stEncaixe}&link=${stLink}&id=${encodeURIComponent(id)}&frase=${encodeURIComponent(frase || '')}&t=${Date.now()}`);
     if (!r.ok) throw new Error(await r.text());
     const blob = await r.blob();
     if (storyURL) URL.revokeObjectURL(storyURL);

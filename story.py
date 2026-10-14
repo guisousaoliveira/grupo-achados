@@ -187,6 +187,20 @@ def rodape(img, d, canal, chamada):
     centro(d, A - FAIXA_STICKER + 40, "▼  toque no link  ▼", fonte("Inter-Regular.ttf", 30), DOURADO_ESCURO)
 
 
+def pilula_canal(img, d, y, canal, altura=78):
+    """Pílula dourada com o ícone do Telegram e t.me/canal (a mesma do story de prova, um pouco menor)."""
+    alvo = f"t.me/{canal}"
+    f = fonte("Inter-ExtraBold.ttf", 40)
+    r = altura // 2 - 12
+    w = d.textlength(alvo, font=f) + 2 * r + 20 + 76
+    x0 = (L - w) / 2
+    d.rounded_rectangle((x0, y, x0 + w, y + altura), radius=altura // 2, fill=DOURADO)
+    tg = logo("telegram", 2 * r)
+    if tg is not None:
+        img.paste(tg, (int(x0 + 38), int(y + altura / 2 - r)), tg)
+    d.text((x0 + 38 + 2 * r + 20, y + altura / 2), alvo, font=f, fill=PRETO, anchor="lm")
+
+
 def png(img):
     saida = io.BytesIO()
     img.save(saida, "PNG", optimize=True)
@@ -366,9 +380,10 @@ def vaga_sticker(d, y, w, h, legenda, dica):
     return y0 + h
 
 
-def story_venda(item, foto=None, canal="", frase=None, cfg=None, encaixe="auto"):
-    """Story mais limpo, para vender: a frase sorteada vai no topo e embaixo ficam marcadas as vagas
-    para o sticker de link do produto (seu link de afiliado) e o do canal."""
+def story_venda(item, foto=None, canal="", frase=None, cfg=None, encaixe="auto", link="produto"):
+    """Story mais limpo, para vender: a frase sorteada vai no topo e embaixo fica a vaga de UM sticker de link
+    (o Instagram só deixa um por story). link="produto": seu link de afiliado, e o canal vai escrito embaixo.
+    link="canal": o link do canal, avisando que o link do produto está lá."""
     c = config(cfg)
     img = fundo()
     d = ImageDraw.Draw(img)
@@ -420,6 +435,13 @@ def story_venda(item, foto=None, canal="", frase=None, cfg=None, encaixe="auto")
     if por:
         centro(d, y - 8, reais(por), fonte("Playfair-Black.ttf", 112), DOURADO)
 
-    fim = vaga_sticker(d, 1372, 620, 112, "▼  TOQUE PARA COMPRAR  ▼", "cole aqui o link do produto")
-    vaga_sticker(d, fim + 40, 520, 90, "MAIS ACHADOS TODO DIA NO CANAL", "cole aqui o link do canal")
+    f_pe = fonte("Inter-Regular.ttf", 32)
+    if link == "canal":
+        fim = vaga_sticker(d, 1400, 640, 120, "▼  LINK DESSE ACHADO NO CANAL  ▼", "cole aqui o link do canal")
+        centro(d, fim + 50, "e mais achados todo dia", f_pe, CINZA)
+    else:
+        fim = vaga_sticker(d, 1378, 640, 108, "▼  TOQUE PARA COMPRAR  ▼", "cole aqui o link do produto")
+        if canal:  # o canal vai na pílula do Telegram (sem clique: o Instagram só deixa um link por story)
+            centro(d, fim + 40, "MAIS ACHADOS TODO DIA NO CANAL", fonte("Inter-ExtraBold.ttf", 26), CINZA, espaco=3)
+            pilula_canal(img, d, fim + 76, canal)
     return png(img)

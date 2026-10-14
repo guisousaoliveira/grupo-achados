@@ -1406,7 +1406,7 @@ def gerar_story(story, item, canal, cfg=None, modelo="prova"):
     if modelo == "venda":
         enviar_arquivo(story.story_venda(item, baixar_foto(item.get("foto")), canal, cfg=cfg), "story_venda.png",
                        f"Story para vender: {item.get('nome', '')}.")
-        enviar_links_story(item, canal)
+        enviar_links_story(item, canal, "produto")
         return
     enviar_arquivo(story.story_oferta(item, baixar_foto(item.get("foto")), canal, cfg=cfg), "story_oferta.png",
                    f"Story de prova: {item.get('nome', '')}. Coloque o sticker de link do canal embaixo.")
