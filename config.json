@@ -64,7 +64,8 @@
     "buscar_cada_minutos": 15,
     "so_api": true,
     "aprovar_sozinho": true,
-    "aprovar_desconto_max": 70
+    "aprovar_desconto_max": 90,
+    "aprovar_fila_max": 16
   },
   "ia": {
     "modelo": "gemini-flash-latest",
@@ -90,7 +91,7 @@
     "max_por_rodada": 0,
     "max_por_dia": 0,
     "max_por_hora": 0,
-    "melhores_por_hora": 2,
+    "melhores_por_hora": 3,
     "peneira_horas": 3,
     "repetido_dias": 7,
     "palavras_bloqueadas": [

@@ -1082,14 +1082,16 @@ def aprovar(estado, item):
 
 def aprovar_sozinha(estado, item):
     """Shopee pela API vai direto para a fila (sem Revisar) quando está tudo certo: chamada feita pela IA, desconto
-    entre 20% e 70% (acima disso o "de" costuma ser inflado), nota 4.7+, 100+ vendas, foto e preço.
+    entre 20% e 90% (config aprovar_desconto_max), nota 4.7+, 100+ vendas, foto e preço.
     config shopee.aprovar_sozinho = false desliga."""
     regras = CONFIG.get("shopee", {})
     if not (item.get("shopee_api") and regras.get("aprovar_sozinho")):
         return False
+    if len(estado["fila"]) >= regras.get("aprovar_fila_max", 16):  # fila já cobre o dia: você escolhe no Revisar
+        return False
     de, por = item.get("de"), item.get("por")
     off = round((1 - por / de) * 100) if de and por and de > por else 0
-    if not (regras.get("desconto_minimo", 20) <= off <= regras.get("aprovar_desconto_max", 70)):
+    if not (regras.get("desconto_minimo", 20) <= off <= regras.get("aprovar_desconto_max", 90)):
         return False
     if item.get("avaliacao", 0) < regras.get("nota_minima", 4.7) or item.get("vendas", 0) < regras.get("vendas_minimas", 100):
         return False
