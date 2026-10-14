@@ -91,7 +91,7 @@
     "max_por_rodada": 0,
     "max_por_dia": 0,
     "max_por_hora": 0,
-    "melhores_por_hora": 3,
+    "melhores_por_hora": 5,
     "peneira_horas": 3,
     "repetido_dias": 7,
     "palavras_bloqueadas": [
@@ -206,7 +206,8 @@
       "smart tv"
     ],
     "ml_matt_word": "alphapromo",
-    "ml_matt_tool": "59136903"
+    "ml_matt_tool": "59136903",
+    "melhores_por_dia": 60
   },
   "canal_publico": "alphadominuspromo",
   "aviso_antes_minutos": 10,

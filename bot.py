@@ -2288,12 +2288,18 @@ def soltar_peneira(estado, r, forcado=False):
     hora = agora().strftime("%Y-%m-%dT%H")
     if r.get("soltas_hora") != hora:
         r["soltas_hora"], r["soltas"] = hora, 0
+    dia = agora().date().isoformat()
+    if r.get("soltas_dia_data") != dia:
+        r["soltas_dia_data"], r["soltas_dia"] = dia, 0
     if por_hora:
         if not forcado and agora().minute < 40:
             return 0
         vagas = por_hora - r["soltas"]
     else:
         vagas = len(peneira)
+    por_dia = cfg.get("melhores_por_dia", 0)  # teto do dia, para não chegar 200 no Revisar
+    if por_dia:
+        vagas = min(vagas, por_dia - r["soltas_dia"])
     soltas = 0
     for item in sorted(peneira, key=lambda x: -x.get("nota", 0))[:max(vagas, 0)]:
         peneira.remove(item)
@@ -2305,6 +2311,7 @@ def soltar_peneira(estado, r, forcado=False):
             mandar_para_revisao(estado, item)
         soltas += 1
     r["soltas"] += soltas
+    r["soltas_dia"] = r.get("soltas_dia", 0) + soltas
     if soltas:
         log(f"Peneira: {soltas} oferta(s) para Revisar; {len(peneira)} esperando.")
     return soltas
