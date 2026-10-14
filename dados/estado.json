@@ -1464,27 +1464,138 @@
       "id": 544,
       "na_revisao_desde": "2026-10-14T15:41-03:00",
       "msg_id": 885
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:1485189181.58251734405",
+      "nome": "Kit 13 Brocas HSS Titânio com Haste Hexagonal 1/4\" Troca Rápida para Furadeira e Parafusadeira Madeira Plástico Alumínio",
+      "por": 19.66,
+      "de": 98.3,
+      "foto": "AgACAgQAAxkDAAIDeGrP2rmxR3dNpq_K1A-Xf618UVgxAAJiD2sbSGwMUv3cd0rHiQK1AQADAgADeQADPQQ",
+      "link": "https://s.shopee.com.br/8V9i28JGea",
+      "link_produto": "https://shopee.com.br/product/1485189181/58251734405",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.7,
+      "vendas": 621,
+      "palavra": "parafusadeira",
+      "garimpado_em": "2026-10-14T16:30-03:00",
+      "nota": 85.1,
+      "titulo": "Brocas de titânio para furadeira e parafusadeira",
+      "id": 545,
+      "na_revisao_desde": "2026-10-14T16:40-03:00",
+      "msg_id": 888
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB6087972",
+      "origem": "xetdaspromocoes",
+      "link": "https://www.mercadolivre.com.br/proteina-max-titanium-whey-pro-concetrado-em-po-sabor-chocolate-x-1kg/p/MLB6087972?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/proteina-max-titanium-whey-pro-concetrado-em-po-sabor-chocolate-x-1kg/p/MLB6087972",
+      "post_origem": "https://t.me/xetdaspromocoes/84813",
+      "link_canal": "https://meli.la/1tpYAT9",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_811723-MLA116971940367_082026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Proteína Max Titanium Whey Pro Concetrado em pó sabor Chocolate x 1kg",
+      "de": 149.0,
+      "por": 78.0,
+      "palavra": "whey",
+      "garimpado_em": "2026-10-14T14:00-03:00",
+      "nota": 61.5,
+      "titulo": "Whey de chocolate para bater a proteína diária",
+      "id": 546,
+      "na_revisao_desde": "2026-10-14T16:40-03:00",
+      "msg_id": 889
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B09B8VGCR8",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B09B8VGCR8?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B09B8VGCR8?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/221437",
+      "link_canal": "https://www.amazon.com.br/Echo-Dot-5%C2%AA-gera%C3%A7%C3%A3o-Cor-Preta/dp/B09B8VGCR8?tag=promof26-20",
+      "foto": "AgACAgEAAxkDAAIDemrP2rysc6DQv5ibi2kMfPqXyy_NAAL8DWsbKhqARmyY2tVDiYIdAQADAgADeAADPQQ",
+      "foto_origem": "canal",
+      "nome": "Echo Dot (Geração mais recente) com Alexa, Som Potente, Wi-Fi e Bluetooth, Preta + Acesso Antecipado à Alexa+",
+      "pix": true,
+      "parcelas": 7,
+      "de": 649.0,
+      "por": 349.0,
+      "palavra": "echo dot",
+      "garimpado_em": "2026-10-14T14:37-03:00",
+      "nota": 49.6,
+      "titulo": "Smart speaker com Alexa para controlar a casa",
+      "id": 547,
+      "na_revisao_desde": "2026-10-14T16:40-03:00",
+      "msg_id": 890
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:377194001.19297690426",
+      "nome": "Kit De Brocas Tungstênio  e Diamantada Para Unhas Gel Acrigel Cutilagem Lixadeira De UNha",
+      "por": 25.9,
+      "de": 80.94,
+      "foto": "AgACAgQAAxkDAAIDe2rP2r3Y3PZZ9hJpNhV0rOyIdYyjAAJ2DWsbUh68U7hbUENeHqLMAQADAgADeQADPQQ",
+      "link": "https://s.shopee.com.br/8AWrdWKXKY",
+      "link_produto": "https://shopee.com.br/product/377194001/19297690426",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.9,
+      "vendas": 789,
+      "palavra": "kit de brocas",
+      "garimpado_em": "2026-10-14T16:30-03:00",
+      "nota": 83.3,
+      "titulo": "Kit de brocas para manutenção de unhas em gel",
+      "id": 548,
+      "na_revisao_desde": "2026-10-14T16:40-03:00",
+      "msg_id": 891
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB70377228",
+      "origem": "promonocontext",
+      "link": "https://www.mercadolivre.com.br/mochila-urbana-15l-penalty/p/MLB70377228?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/mochila-urbana-15l-penalty/p/MLB70377228",
+      "post_origem": "https://t.me/promonocontext/126692",
+      "link_canal": "https://meli.la/1yEte7s",
+      "foto": "AgACAgQAAxkDAAIDfGrP2r4WQst7TXjceb7B1yseUzhPAAKgD2sb0lCEUnT3aR1nxzv4AQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Mochila Urbana 15L Penalty",
+      "de": 119.0,
+      "por": 78.0,
+      "palavra": "mochila",
+      "garimpado_em": "2026-10-14T14:30-03:00",
+      "nota": 58.0,
+      "titulo": "Mochila para carregar notebook no dia a dia",
+      "id": 549,
+      "na_revisao_desde": "2026-10-14T16:40-03:00",
+      "msg_id": 892
     }
   ],
-  "proximo_id": 545,
+  "proximo_id": 550,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84838,
-      "lobaopromo": 189462,
-      "gatunopromos": 125365,
+      "xetdaspromocoes": 84841,
+      "lobaopromo": 189464,
+      "gatunopromos": 125366,
       "pobregram": 41897,
       "urubupromo": 41675,
-      "tudonapromo": 101893,
-      "promonocontext": 126747,
-      "promooeasy": 221517,
-      "aquitempechincha": 281650,
+      "tudonapromo": 101895,
+      "promonocontext": 126754,
+      "promooeasy": 221522,
+      "aquitempechincha": 281651,
       "infoBRpromos": 67563,
-      "boletando": 76732,
-      "promotop": 260284,
+      "boletando": 76733,
+      "promotop": 260285,
       "achadosdotb": 11771
     },
     "dia": "2026-10-14",
-    "hoje": 98,
+    "hoje": 99,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -3143,30 +3254,31 @@
       "shopee:490509561.22497834077",
       "shopee:1173051423.18098130279",
       "shopee:1660170092.58263067526",
-      "shopee:230709939.43670620133"
+      "shopee:230709939.43670620133",
+      "amazon:B0DCK1M2G2"
     ],
     "ultima": {
-      "em": "2026-10-14T16:32:50-03:00",
+      "em": "2026-10-14T16:40:19-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 17,
-      "do_nicho": 0,
-      "repetidas": 0,
-      "novas": 0,
+      "posts_novos": 33,
+      "do_nicho": 5,
+      "repetidas": 4,
+      "novas": 1,
       "limite_dia": false,
       "repetidas_nome": 0,
       "promobit": 0,
-      "soltas": 0,
-      "na_peneira": 38
+      "soltas": 5,
+      "na_peneira": 32
     },
     "hora": "2026-10-14T16",
-    "nesta_hora": 4,
+    "nesta_hora": 5,
     "promobit_hora": "2026-10-14T16",
     "promobit_nesta_hora": 0,
-    "promobit_visto": 3113945,
+    "promobit_visto": 3113970,
     "nomes": [
       [
         [
@@ -3703,41 +3815,70 @@
           "profissional"
         ],
         "2026-10-14T15:41-03:00"
+      ],
+      [
+        [
+          "13",
+          "brocas",
+          "hss",
+          "titanio",
+          "haste",
+          "hexagonal",
+          "troca",
+          "rapida"
+        ],
+        "2026-10-14T16:40-03:00"
+      ],
+      [
+        [
+          "proteina",
+          "max",
+          "titanium",
+          "whey",
+          "pro",
+          "concetrado",
+          "chocolate",
+          "1kg"
+        ],
+        "2026-10-14T16:40-03:00"
+      ],
+      [
+        [
+          "echo",
+          "dot",
+          "geracao",
+          "mais",
+          "recente",
+          "alexa",
+          "som",
+          "potente"
+        ],
+        "2026-10-14T16:40-03:00"
+      ],
+      [
+        [
+          "brocas",
+          "tungstenio",
+          "diamantada",
+          "unhas",
+          "gel",
+          "acrigel",
+          "cutilagem",
+          "lixadeira"
+        ],
+        "2026-10-14T16:40-03:00"
+      ],
+      [
+        [
+          "mochila",
+          "urbana",
+          "15l",
+          "penalty"
+        ],
+        "2026-10-14T16:40-03:00"
       ]
     ],
     "peneira": [
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB63036814",
-        "origem": "lobaopromo",
-        "link": "https://www.mercadolivre.com.br/smart-tv-32-philco-p32vik-roku-led-dolby-audio-hdr-wi-fi-110220v/p/MLB63036814?matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/smart-tv-32-philco-p32vik-roku-led-dolby-audio-hdr-wi-fi-110220v/p/MLB63036814",
-        "post_origem": "https://t.me/lobaopromo/189385",
-        "link_canal": "https://meli.la/2x83zHj",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_904550-MLA100972962937_122025-O.webp",
-        "foto_origem": "loja",
-        "nome": "Smart Tv 32 Philco P32vik Roku Led Dolby Audio Hdr Wi-fi 110/220v",
-        "de": 1499.0,
-        "por": 1031.0,
-        "palavra": "smart tv",
-        "garimpado_em": "2026-10-14T13:40-03:00",
-        "nota": 42.7
-      },
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB28517268",
-        "origem": "lobaopromo",
-        "link": "https://www.mercadolivre.com.br/jogo-kit-de-ferramentas-manuais-chave-catraca-12-8-a-32mm-bcs022-the-black-tools-cor-amarelo/p/MLB28517268?matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/jogo-kit-de-ferramentas-manuais-chave-catraca-12-8-a-32mm-bcs022-the-black-tools-cor-amarelo/p/MLB28517268",
-        "post_origem": "https://t.me/lobaopromo/189392",
-        "link_canal": "https://meli.la/1KcX8Nj",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_680576-MLA113460946830_072026-O.webp",
-        "foto_origem": "loja",
-        "nome": "Jogo Kit de Ferramentas Manuais Chave Catraca 1/2 8 a 32mm BCS022 The",
-        "palavra": "ferramenta",
-        "garimpado_em": "2026-10-14T13:40-03:00",
-        "nota": -4.0
-      },
       {
         "loja": "shopee",
         "chave": "shopee:983645094.52714807667",
@@ -3797,23 +3938,6 @@
       },
       {
         "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB6087972",
-        "origem": "xetdaspromocoes",
-        "link": "https://www.mercadolivre.com.br/proteina-max-titanium-whey-pro-concetrado-em-po-sabor-chocolate-x-1kg/p/MLB6087972?matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/proteina-max-titanium-whey-pro-concetrado-em-po-sabor-chocolate-x-1kg/p/MLB6087972",
-        "post_origem": "https://t.me/xetdaspromocoes/84813",
-        "link_canal": "https://meli.la/1tpYAT9",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_811723-MLA116971940367_082026-O.webp",
-        "foto_origem": "loja",
-        "nome": "Proteína Max Titanium Whey Pro Concetrado em pó sabor Chocolate x 1kg",
-        "de": 149.0,
-        "por": 78.0,
-        "palavra": "whey",
-        "garimpado_em": "2026-10-14T14:00-03:00",
-        "nota": 61.5
-      },
-      {
-        "loja": "mercadolivre",
         "chave": "mercadolivre:MLB66055236",
         "origem": "promooeasy",
         "link": "https://www.mercadolivre.com.br/aparador-de-pelos-supergroom-10-mondial-bivolt-bg-10/p/MLB66055236?matt_word=alphapromo&matt_tool=59136903",
@@ -3865,42 +3989,6 @@
         "palavra": "jbl",
         "garimpado_em": "2026-10-14T14:10-03:00",
         "nota": 60.5
-      },
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB70377228",
-        "origem": "promonocontext",
-        "link": "https://www.mercadolivre.com.br/mochila-urbana-15l-penalty/p/MLB70377228?matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/mochila-urbana-15l-penalty/p/MLB70377228",
-        "post_origem": "https://t.me/promonocontext/126692",
-        "link_canal": "https://meli.la/1yEte7s",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_698194-MLA111304018274_052026-O.webp",
-        "foto_origem": "loja",
-        "nome": "Mochila Urbana 15L Penalty",
-        "de": 119.0,
-        "por": 78.0,
-        "palavra": "mochila",
-        "garimpado_em": "2026-10-14T14:30-03:00",
-        "nota": 58.0
-      },
-      {
-        "loja": "amazon",
-        "chave": "amazon:B09B8VGCR8",
-        "origem": "promooeasy",
-        "link": "https://www.amazon.com.br/dp/B09B8VGCR8?tag=alphadominu09-20",
-        "link_produto": "https://www.amazon.com.br/dp/B09B8VGCR8?tag=alphadominu09-20",
-        "post_origem": "https://t.me/promooeasy/221437",
-        "link_canal": "https://www.amazon.com.br/Echo-Dot-5%C2%AA-gera%C3%A7%C3%A3o-Cor-Preta/dp/B09B8VGCR8?tag=promof26-20",
-        "foto": "https://cdn1.telesco.pe/file/nmeINepVtSG7bQdRmlpP3TeVwrA_jNIpnTm9Y8yu4IdkwzHsiLQxW9ERrFfV5a0p39IejF5fKlZT8EnTcQICRq8oArKQjGVPU-F2GAFnw_l1UqswSRmPFiyKsbJH8U8BJBYMav-_Al0FVDAw-GTyA2C6Pb7-LrsPoANVmr-RXsftd2vhjn6xP4d1-bAokeDCta6WWVlFulTF-jSXQtBe7mIjYNGDPpdwhIMbrE2NMCoVdE_h14IF1W4Ah2XC9LpXOtcBBenidG9oecw6L9iTWaDFIuJniek9xetMwBJRhWqx1YJ48ir7txFW7G64H8s8ZQZR9bmg3znmEkzDIgHZYQ.jpg",
-        "foto_origem": "canal",
-        "nome": "Echo Dot (Geração mais recente) com Alexa, Som Potente, Wi-Fi e Bluetooth, Preta + Acesso Antecipado à Alexa+",
-        "pix": true,
-        "parcelas": 7,
-        "de": 649.0,
-        "por": 349.0,
-        "palavra": "echo dot",
-        "garimpado_em": "2026-10-14T14:37-03:00",
-        "nota": 49.6
       },
       {
         "loja": "amazon",
@@ -4327,44 +4415,6 @@
       },
       {
         "loja": "shopee",
-        "chave": "shopee:1485189181.58251734405",
-        "nome": "Kit 13 Brocas HSS Titânio com Haste Hexagonal 1/4\" Troca Rápida para Furadeira e Parafusadeira Madeira Plástico Alumínio",
-        "por": 19.66,
-        "de": 98.3,
-        "foto": "https://cf.shopee.com.br/file/br-11134207-820ld-msznpeb0cf7r16",
-        "link": "https://s.shopee.com.br/8V9i28JGea",
-        "link_produto": "https://shopee.com.br/product/1485189181/58251734405",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 4.7,
-        "vendas": 621,
-        "palavra": "parafusadeira",
-        "garimpado_em": "2026-10-14T16:30-03:00",
-        "nota": 85.1
-      },
-      {
-        "loja": "shopee",
-        "chave": "shopee:377194001.19297690426",
-        "nome": "Kit De Brocas Tungstênio  e Diamantada Para Unhas Gel Acrigel Cutilagem Lixadeira De UNha",
-        "por": 25.9,
-        "de": 80.94,
-        "foto": "https://cf.shopee.com.br/file/br-11134207-7r98o-m9opzms55csica",
-        "link": "https://s.shopee.com.br/8AWrdWKXKY",
-        "link_produto": "https://shopee.com.br/product/377194001/19297690426",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 4.9,
-        "vendas": 789,
-        "palavra": "kit de brocas",
-        "garimpado_em": "2026-10-14T16:30-03:00",
-        "nota": 83.3
-      },
-      {
-        "loja": "shopee",
         "chave": "shopee:230709939.43670620133",
         "nome": "3 peças Kit de brocas de carboneto de tungstênio para arte de unhas em gel profissional, acabamento cônico de porcelana",
         "por": 17.94,
@@ -4381,15 +4431,37 @@
         "palavra": "kit de brocas",
         "garimpado_em": "2026-10-14T16:30-03:00",
         "nota": 61.7
+      },
+      {
+        "loja": "amazon",
+        "chave": "amazon:B0DCK1M2G2",
+        "origem": "promonocontext",
+        "link": "https://www.amazon.com.br/dp/B0DCK1M2G2?tag=alphadominu09-20",
+        "link_produto": "https://www.amazon.com.br/dp/B0DCK1M2G2?tag=alphadominu09-20",
+        "post_origem": "https://t.me/promonocontext/126750",
+        "link_canal": "https://amazn.pro/r/vuPP3w",
+        "foto": "https://cdn1.telesco.pe/file/Isgrw0sIneUb39AMYRbMroik0065uKjUc8lI0Dn_sSHl1Qr5OFzkShMimIWxCz3JgeRQSE-kr3lk_TIz5z_Z2JooQCzZDneWzuBrktYUzd2wW3TF57KEy4IAAsXxRTP1Ai-afYhlCLdbp-Bg5JXT5C9x6XfPeDNZQzXjFgLDgd5vXHkWwanvWo23NwnGzDFITcDLeFoMPcUC7xYB05UplhNgW175Wmi3-3rsrKqTFBm9y6ncrC_RPP59AjmhKeoX_zkdmmz0vAoZ0WdNeCeSsYlsNLe6EtRB-MfukqFYJLEz4_2z-ZeWzcW1Jj2OcrNEkZZsg8FXf0Nt2uVnWYFmrQ.jpg",
+        "foto_origem": "canal",
+        "nome": "Relógio Bettdow SmartWatch Fb058",
+        "pix": true,
+        "de": 101.0,
+        "por": 91.0,
+        "palavra": "smartwatch",
+        "garimpado_em": "2026-10-14T16:40-03:00",
+        "nota": 39.1
       }
     ],
     "soltas_hora": "2026-10-14T16",
-    "soltas": 0,
+    "soltas": 5,
     "shopee_em": "2026-10-14T16:30-03:00",
     "shopee_indice": 56,
     "soltas_dia_data": "2026-10-14",
-    "soltas_dia": 35,
-    "soltas_loja": {}
+    "soltas_dia": 40,
+    "soltas_loja": {
+      "shopee": 2,
+      "mercadolivre": 2,
+      "amazon": 1
+    }
   },
   "ultimos": [
     {
@@ -5384,7 +5456,7 @@
     },
     "2026-10-14": {
       "shopee": {
-        "achados": 30,
+        "achados": 32,
         "aprovados": 13,
         "reprovados": 11
       },
@@ -5394,7 +5466,7 @@
         "reprovados": 0
       },
       "xetdaspromocoes": {
-        "achados": 3,
+        "achados": 4,
         "aprovados": 1,
         "reprovados": 0
       },
@@ -5404,12 +5476,12 @@
         "reprovados": 1
       },
       "promonocontext": {
-        "achados": 5,
+        "achados": 6,
         "aprovados": 2,
         "reprovados": 1
       },
       "promooeasy": {
-        "achados": 1,
+        "achados": 2,
         "aprovados": 0,
         "reprovados": 0
       },
@@ -5538,7 +5610,7 @@
       "reprovados": 7
     },
     "echo dot": {
-      "achados": 1,
+      "achados": 2,
       "aprovados": 0,
       "reprovados": 1
     },
@@ -5583,7 +5655,7 @@
       "reprovados": 1
     },
     "mochila": {
-      "achados": 9,
+      "achados": 10,
       "aprovados": 3,
       "reprovados": 5
     },
@@ -5598,7 +5670,7 @@
       "reprovados": 1
     },
     "parafusadeira": {
-      "achados": 5,
+      "achados": 6,
       "aprovados": 0,
       "reprovados": 3
     },
@@ -5648,7 +5720,7 @@
       "reprovados": 1
     },
     "whey": {
-      "achados": 7,
+      "achados": 8,
       "aprovados": 1,
       "reprovados": 6
     },
@@ -5693,6 +5765,11 @@
       "reprovados": 0
     },
     "suporte de celular": {
+      "achados": 1,
+      "aprovados": 0,
+      "reprovados": 0
+    },
+    "kit de brocas": {
       "achados": 1,
       "aprovados": 0,
       "reprovados": 0
