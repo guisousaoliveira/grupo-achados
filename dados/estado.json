@@ -302,6 +302,27 @@
       "titulo": "Smartwatch esportivo para monitorar suas atividades diárias",
       "na_revisao_desde": "2026-10-14T15:41-03:00",
       "aprovado_em": "2026-10-14T18:18-03:00"
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0DG42KW7N",
+      "origem": "promonocontext",
+      "link": "https://link.amazon/B0h3P5yvl",
+      "link_produto": "https://link.amazon/B0h3P5yvl",
+      "post_origem": "https://t.me/promonocontext/126788",
+      "link_canal": "https://amazn.pro/r/6MnJb2",
+      "foto": "AgACAgQAAxkDAAIDkWrQBPxcGOp-L8Q7WRqpNcsj-jvKAAIpD2sb3UqFUjNaBSPw8sbRAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Creatina Mu Sem Sabor 500g",
+      "de": 91.0,
+      "por": 65.0,
+      "palavra": "creatina",
+      "garimpado_em": "2026-10-14T18:10-03:00",
+      "nota": 59.8,
+      "titulo": "Creatina sem sabor para o seu treino diário",
+      "na_revisao_desde": "2026-10-14T19:40-03:00",
+      "obs": "Use o progame e poupe e cancele quando quiser!",
+      "aprovado_em": "2026-10-14T20:01-03:00"
     }
   ],
   "postados": [
@@ -1352,27 +1373,6 @@
       "id": 560,
       "na_revisao_desde": "2026-10-14T19:40-03:00",
       "msg_id": 912
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0DG42KW7N",
-      "origem": "promonocontext",
-      "link": "https://www.amazon.com.br/dp/B0DG42KW7N?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0DG42KW7N?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promonocontext/126788",
-      "link_canal": "https://amazn.pro/r/6MnJb2",
-      "foto": "AgACAgQAAxkDAAIDkWrQBPxcGOp-L8Q7WRqpNcsj-jvKAAIpD2sb3UqFUjNaBSPw8sbRAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Creatina Mu Sem Sabor 500g",
-      "de": 91.0,
-      "por": 65.0,
-      "palavra": "creatina",
-      "garimpado_em": "2026-10-14T18:10-03:00",
-      "nota": 59.8,
-      "titulo": "Creatina sem sabor para o seu treino diário",
-      "id": 561,
-      "na_revisao_desde": "2026-10-14T19:40-03:00",
-      "msg_id": 913
     }
   ],
   "proximo_id": 565,
@@ -5849,7 +5849,7 @@
       },
       "promonocontext": {
         "achados": 10,
-        "aprovados": 5,
+        "aprovados": 6,
         "reprovados": 4
       },
       "promooeasy": {
@@ -5973,7 +5973,7 @@
     },
     "creatina": {
       "achados": 21,
-      "aprovados": 9,
+      "aprovados": 10,
       "reprovados": 11
     },
     "cueca": {
