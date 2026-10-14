@@ -3,25 +3,6 @@
   "fila": [
     {
       "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB5933730066",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/2w5iRyp",
-      "link_produto": "https://meli.la/2w5iRyp",
-      "post_origem": "https://t.me/lobaopromo/188903",
-      "link_canal": "https://meli.la/2o3pjHo",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_828161-MLB97789482532_112025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Kit 3 Regata Dry-fit Lisa Masculina Sandrini Academia Casual",
-      "de": 128.91,
-      "por": 54.99,
-      "titulo": "é agora ou nunca.",
-      "garimpado_em": "2026-10-13T15:03-03:00",
-      "na_revisao_desde": "2026-10-13T15:03-03:00",
-      "aprovado_em": "2026-10-13T15:47-03:00",
-      "aviso_validade": true
-    },
-    {
-      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB66895633",
       "origem": "lobaopromo",
       "link": "https://meli.la/2DXTYU8",
@@ -1157,6 +1138,15 @@
       "link": "https://meli.la/1TgcRa6",
       "link_produto": "https://meli.la/1TgcRa6",
       "titulo": "Kit completo com 129 peças"
+    },
+    {
+      "chave": "mercadolivre:MLB5933730066",
+      "loja": "mercadolivre",
+      "nome": "Kit 3 Regata Dry-fit Lisa Masculina Sandrini Academia Casual",
+      "data": "2026-10-14T11:12-03:00",
+      "link": "https://meli.la/2w5iRyp",
+      "link_produto": "https://meli.la/2w5iRyp",
+      "titulo": "é agora ou nunca."
     }
   ],
   "slots_usados": {
@@ -8046,6 +8036,19 @@
   "ultimos": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB5933730066",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/2w5iRyp",
+      "link_produto": "https://meli.la/2w5iRyp",
+      "post_origem": "https://t.me/lobaopromo/188903",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_828161-MLB97789482532_112025-O.webp",
+      "nome": "Kit 3 Regata Dry-fit Lisa Masculina Sandrini Academia Casual",
+      "de": 128.91,
+      "por": 54.99,
+      "titulo": "é agora ou nunca."
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB38611321",
       "origem": "promonocontext",
       "link": "https://meli.la/1TgcRa6",
@@ -8573,20 +8576,6 @@
       "de": 139.0,
       "por": 91.7,
       "titulo": "pra começar o dia bem"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB5513844630",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/2GQH2RJ",
-      "link_produto": "https://meli.la/2GQH2RJ",
-      "post_origem": "https://t.me/lobaopromo/188714",
-      "foto": "AgACAgQAAxkDAAIBa2rOFH1iRx_TcFBeg7_0uXLYbLInAAKPD2sbiyZVUqVc9jNGOI8VAQADAgADeAADPQQ",
-      "nome": "Camisa Polo Tommy Masculina",
-      "pix": true,
-      "de": 350.0,
-      "por": 148.0,
-      "titulo": "58% off, isso aqui não fica muito tempo assim."
     }
   ],
   "lixeira": [
