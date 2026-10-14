@@ -1088,29 +1088,6 @@
     },
     {
       "loja": "shopee",
-      "chave": "shopee:1840627515.58261885368",
-      "nome": "Elástico Extensor de Exercícios Pull Reducer Multi Função Academia Em Casa Uso Profissional",
-      "por": 15.5,
-      "de": 81.58,
-      "foto": "AgACAgQAAxkDAAIDMmrPXDSIFQABBx5fWoGQauxq3ah2AQACwA9rG-C8XVCj2E6UiTvlggEAAwIAA3kAAz0E",
-      "link": "https://s.shopee.com.br/Lnzfz9X1Q",
-      "link_produto": "https://shopee.com.br/product/1840627515/58261885368",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.7,
-      "vendas": 5570,
-      "palavra": "academia",
-      "garimpado_em": "2026-10-14T07:00-03:00",
-      "nota": 93.4,
-      "titulo": "Extensor para treinar o corpo inteiro em casa",
-      "id": 506,
-      "na_revisao_desde": "2026-10-14T07:40-03:00",
-      "msg_id": 818
-    },
-    {
-      "loja": "shopee",
       "chave": "shopee:979724994.23798014198",
       "nome": "Jogo de Soquetes de Impacto Longo 1/2 10 Peças  8 A 24mm",
       "por": 30.98,
@@ -8646,6 +8623,30 @@
   ],
   "lixeira": [
     {
+      "loja": "shopee",
+      "chave": "shopee:1840627515.58261885368",
+      "nome": "Elástico Extensor de Exercícios Pull Reducer Multi Função Academia Em Casa Uso Profissional",
+      "por": 15.5,
+      "de": 81.58,
+      "foto": "AgACAgQAAxkDAAIDMmrPXDSIFQABBx5fWoGQauxq3ah2AQACwA9rG-C8XVCj2E6UiTvlggEAAwIAA3kAAz0E",
+      "link": "https://s.shopee.com.br/Lnzfz9X1Q",
+      "link_produto": "https://shopee.com.br/product/1840627515/58261885368",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.7,
+      "vendas": 5570,
+      "palavra": "academia",
+      "garimpado_em": "2026-10-14T07:00-03:00",
+      "nota": 93.4,
+      "titulo": "Extensor para treinar o corpo inteiro em casa",
+      "id": 506,
+      "na_revisao_desde": "2026-10-14T07:40-03:00",
+      "removido_em": "2026-10-14T09:11:21-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0D2JD6P86",
       "origem": "boletando",
@@ -8784,7 +8785,7 @@
       "shopee": {
         "achados": 9,
         "aprovados": 4,
-        "reprovados": 0
+        "reprovados": 1
       }
     }
   },
@@ -8793,7 +8794,7 @@
     "academia": {
       "achados": 17,
       "aprovados": 4,
-      "reprovados": 12
+      "reprovados": 13
     },
     "air fryer": {
       "achados": 6,
