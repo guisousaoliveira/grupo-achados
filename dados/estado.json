@@ -1062,15 +1062,15 @@
   "radar": {
     "visto": {
       "xetdaspromocoes": 84707,
-      "lobaopromo": 189128,
-      "gatunopromos": 125213,
+      "lobaopromo": 189129,
+      "gatunopromos": 125214,
       "pobregram": 41856,
       "urubupromo": 41633,
       "tudonapromo": 101779,
       "promonocontext": 126463,
-      "promooeasy": 220977,
+      "promooeasy": 220978,
       "aquitempechincha": 281477,
-      "infoBRpromos": 67485,
+      "infoBRpromos": 67486,
       "boletando": 76681,
       "promotop": 260238,
       "achadosdotb": 11763
@@ -1584,21 +1584,21 @@
       "shopee:716297390.20898107038"
     ],
     "ultima": {
-      "em": "2026-10-14T00:08:59-03:00",
-      "pedido": "shopee-teste",
+      "em": "2026-10-14T00:10:19-03:00",
+      "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 45,
-      "do_nicho": 1,
+      "posts_novos": 4,
+      "do_nicho": 0,
       "repetidas": 0,
-      "novas": 1,
+      "novas": 0,
       "limite_dia": false,
       "repetidas_nome": 0,
-      "promobit": 1,
+      "promobit": 0,
       "soltas": 0,
-      "na_peneira": 2
+      "na_peneira": 64
     },
     "hora": "2026-10-14T00",
     "nesta_hora": 1,
