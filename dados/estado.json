@@ -3037,29 +3037,46 @@
       "garimpado_em": "2026-10-13T21:31-03:00",
       "na_revisao_desde": "2026-10-13T21:31-03:00",
       "msg_id": 772
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0GV5WHHN2",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0GV5WHHN2?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0GV5WHHN2?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220912",
+      "link_canal": "https://www.amazon.com.br/Console-Nintendo-Switch-Super-Galaxy/dp/B0GV5WHHN2?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAIDBWrOz4ZePMoO9SGGS640YTFaYe9PAAIPDWsbKTukUm7BCeqLY3BMAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "nome": "Console Nintendo Switch 2 + Jogo Super Mario Galaxy + Super Mario Galaxy 2",
+      "por": 4028.57,
+      "titulo": "Nintendo Switch 2 com dois jogos inclusos",
+      "id": 483,
+      "garimpado_em": "2026-10-13T21:40-03:00",
+      "na_revisao_desde": "2026-10-13T21:40-03:00",
+      "msg_id": 773
     }
   ],
-  "proximo_id": 483,
+  "proximo_id": 484,
   "radar": {
     "visto": {
       "xetdaspromocoes": 84707,
-      "lobaopromo": 189074,
-      "gatunopromos": 125185,
+      "lobaopromo": 189078,
+      "gatunopromos": 125186,
       "pobregram": 41847,
-      "urubupromo": 41630,
+      "urubupromo": 41632,
       "tudonapromo": 101776,
       "promonocontext": 126443,
-      "promooeasy": 220909,
-      "aquitempechincha": 281466,
+      "promooeasy": 220918,
+      "aquitempechincha": 281467,
       "infoBRpromos": 67471,
       "boletando": 76675,
       "promotop": 260234,
       "achadosdotb": 11763
     },
     "dia": "2026-10-13",
-    "hoje": 318,
+    "hoje": 319,
     "chaves": [
-      "amazon:B0DS9H55DQ",
       "amazon:B0CJGNFGPQ",
       "amazon:B0H2BZQDQ8",
       "amazon:B0FH7LY3R4",
@@ -3458,27 +3475,28 @@
       "mercadolivre:MLB6094005",
       "mercadolivre:MLB24076624",
       "amazon:B0D8C7PNLL",
-      "amazon:B0HKT8K2BF"
+      "amazon:B0HKT8K2BF",
+      "amazon:B0GV5WHHN2"
     ],
     "ultima": {
-      "em": "2026-10-13T21:30:22-03:00",
+      "em": "2026-10-13T21:40:18-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
       "posts_novos": 29,
-      "do_nicho": 7,
-      "repetidas": 1,
-      "novas": 6,
+      "do_nicho": 1,
+      "repetidas": 0,
+      "novas": 1,
       "limite_dia": false,
-      "promobit": 1
+      "promobit": 0
     },
     "hora": "2026-10-13T21",
-    "nesta_hora": 8,
+    "nesta_hora": 9,
     "promobit_hora": "2026-10-13T21",
     "promobit_nesta_hora": 1,
-    "promobit_visto": 3111852
+    "promobit_visto": 3111875
   },
   "ultimos": [
     {
@@ -4921,7 +4939,7 @@
         "reprovados": 28
       },
       "promooeasy": {
-        "achados": 118,
+        "achados": 119,
         "aprovados": 2,
         "reprovados": 81
       },
