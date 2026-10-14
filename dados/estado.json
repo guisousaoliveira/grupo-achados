@@ -187,6 +187,24 @@
       "garimpado_em": "2026-10-13T16:50-03:00",
       "na_revisao_desde": "2026-10-13T16:50-03:00",
       "aprovado_em": "2026-10-13T17:06-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB4788829267",
+      "origem": "promonocontext",
+      "link": "https://meli.la/1crfbXn",
+      "link_produto": "https://meli.la/1crfbXn",
+      "post_origem": "https://t.me/promonocontext/126458",
+      "link_canal": "https://meli.la/17kfVDc",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_707498-MLB113399104387_062026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Mochila Mormaii Resistente Casual 21 Litros Básica Azul",
+      "de": 139.0,
+      "por": 78.9,
+      "titulo": "Mochila Mormaii resistente",
+      "garimpado_em": "2026-10-13T22:50-03:00",
+      "na_revisao_desde": "2026-10-13T22:50-03:00",
+      "aprovado_em": "2026-10-13T23:32-03:00"
     }
   ],
   "postados": [
@@ -3253,25 +3271,6 @@
       "garimpado_em": "2026-10-13T22:50-03:00",
       "na_revisao_desde": "2026-10-13T22:50-03:00",
       "msg_id": 791
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB4788829267",
-      "origem": "promonocontext",
-      "link": "https://www.mercadolivre.com.br/mochila-mormaii-resistente-casual-21-litros-basica-azul/up/MLBU4125560704?pdp_filters=item_id%3AMLB4788829267&matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/mochila-mormaii-resistente-casual-21-litros-basica-azul/up/MLBU4125560704?pdp_filters=item_id%3AMLB4788829267",
-      "post_origem": "https://t.me/promonocontext/126458",
-      "link_canal": "https://meli.la/17kfVDc",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_707498-MLB113399104387_062026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Mochila Mormaii Resistente Casual 21 Litros Básica Azul Azul Un",
-      "de": 139.0,
-      "por": 78.0,
-      "titulo": "Mochila Mormaii resistente com 44% de desconto",
-      "id": 496,
-      "garimpado_em": "2026-10-13T22:50-03:00",
-      "na_revisao_desde": "2026-10-13T22:50-03:00",
-      "msg_id": 792
     }
   ],
   "proximo_id": 498,
@@ -5174,7 +5173,7 @@
       },
       "promonocontext": {
         "achados": 51,
-        "aprovados": 8,
+        "aprovados": 9,
         "reprovados": 23
       },
       "infoBRpromos": {
