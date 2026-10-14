@@ -2,26 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB4049279695",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/27qV9AS",
-      "link_produto": "https://meli.la/27qV9AS",
-      "post_origem": "https://t.me/lobaopromo/188800",
-      "link_canal": "https://meli.la/1bGvySN",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_636204-MLB92283366432_092025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Tênis Kappa Park 2.0 Original Unissex Caminhada Academia",
-      "pix": true,
-      "de": 169.99,
-      "por": 93.76,
-      "titulo": "Tênis na promo",
-      "garimpado_em": "2026-10-13T10:50-03:00",
-      "na_revisao_desde": "2026-10-13T10:50-03:00",
-      "aprovado_em": "2026-10-13T11:46-03:00",
-      "aviso_validade": true
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B0BTYCRJSS",
       "origem": "pobregram",
@@ -985,6 +965,14 @@
       "link_produto": "https://link.amazon/B0fV7V2di",
       "titulo": "Desconto de 45%: é agora ou nunca.",
       "slot": 9
+    },
+    {
+      "chave": "mercadolivre:MLB4049279695",
+      "loja": "mercadolivre",
+      "nome": "Tênis Kappa Park 2.0 Original Unissex Caminhada Academia",
+      "data": "2026-10-14T09:08-03:00",
+      "link": "https://meli.la/27qV9AS",
+      "link_produto": "https://meli.la/27qV9AS"
     }
   ],
   "slots_usados": {
@@ -8105,6 +8093,20 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB4049279695",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/27qV9AS",
+      "link_produto": "https://meli.la/27qV9AS",
+      "post_origem": "https://t.me/lobaopromo/188800",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_636204-MLB92283366432_092025-O.webp",
+      "nome": "Tênis Kappa Park 2.0 Original Unissex Caminhada Academia",
+      "pix": true,
+      "de": 169.99,
+      "por": 85.49,
+      "titulo": "Tênis na promo"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0DH9TR6DR",
       "origem": "promobit",
@@ -8640,20 +8642,6 @@
       "de": 299.0,
       "por": 170.38,
       "titulo": "Fone JBL Tune 530BT com 44% off"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0DJW5G283",
-      "origem": "promooeasy",
-      "link": "https://link.amazon/B0hjFrj7v",
-      "link_produto": "https://www.amazon.com.br/dp/B0DJW5G283?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/220190",
-      "foto": "AgACAgQAAxkDAAPcas08dD-46pGd_fj70lzPW-jVcu4AAsQPaxvzUVRQ5sQ04d37ms8BAAMCAAN4AAM9BA",
-      "nome": "soundcore Q11i da Anker Headphone Bluetooth Over Ear, 60H Fone Gamer Preto",
-      "parcelas": 6,
-      "por": 189.0,
-      "titulo": "Headphone Anker Q11i com 60 horas de bateria",
-      "de": 199.0
     }
   ],
   "lixeira": [
