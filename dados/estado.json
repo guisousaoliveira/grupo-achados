@@ -1013,27 +1013,6 @@
       "msg_id": 652
     },
     {
-      "loja": "shopee",
-      "chave": "shopee:502619181.23198845672",
-      "origem": "lobaopromo",
-      "link": "https://shopee.com.br/product/502619181/23198845672",
-      "link_produto": "https://shopee.com.br/product/502619181/23198845672",
-      "post_origem": "https://t.me/lobaopromo/188939",
-      "link_canal": "https://s.shopee.com.br/1B8Ib1dOM?lp=aff",
-      "precisa_link": true,
-      "foto": "AgACAgEAAxkDAAICjWrOhJnzi7cxWW19dFMOyknf6bARAAKPDWsb7AJxRi_KHMSNJ9sDAQADAgADeAADPQQ",
-      "foto_origem": "canal",
-      "nome": "e o preço fica pequenininho",
-      "cupom_loja": "Resgate o cupom de R$10 OFF no anúncio",
-      "de": 99.9,
-      "por": 69.9,
-      "titulo": "Tênis casual com 30% de desconto na Shopee",
-      "id": 368,
-      "garimpado_em": "2026-10-13T16:20-03:00",
-      "na_revisao_desde": "2026-10-13T16:20-03:00",
-      "msg_id": 653
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB54934723",
       "origem": "lobaopromo",
@@ -3495,6 +3474,28 @@
   ],
   "lixeira": [
     {
+      "loja": "shopee",
+      "chave": "shopee:502619181.23198845672",
+      "origem": "lobaopromo",
+      "link": "https://shopee.com.br/product/502619181/23198845672",
+      "link_produto": "https://shopee.com.br/product/502619181/23198845672",
+      "post_origem": "https://t.me/lobaopromo/188939",
+      "link_canal": "https://s.shopee.com.br/1B8Ib1dOM?lp=aff",
+      "precisa_link": true,
+      "foto": "AgACAgEAAxkDAAICjWrOhJnzi7cxWW19dFMOyknf6bARAAKPDWsb7AJxRi_KHMSNJ9sDAQADAgADeAADPQQ",
+      "foto_origem": "canal",
+      "nome": "e o preço fica pequenininho",
+      "cupom_loja": "Resgate o cupom de R$10 OFF no anúncio",
+      "de": 99.9,
+      "por": 69.9,
+      "titulo": "Tênis casual com 30% de desconto na Shopee",
+      "id": 368,
+      "garimpado_em": "2026-10-13T16:20-03:00",
+      "na_revisao_desde": "2026-10-13T16:20-03:00",
+      "removido_em": "2026-10-13T23:39:32-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB66104173",
       "origem": "promotop",
@@ -4282,27 +4283,6 @@
       "na_revisao_desde": "2026-10-13T22:20-03:00",
       "removido_em": "2026-10-13T23:33:55-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0FQYL3TPT",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B0FQYL3TPT?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0FQYL3TPT?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/redragon-controle-gamer-tophis-g821-gamepad-sem-fio-24ghz-usb-c-analogicos-e-gatilhos-hall-effect-compativel-c-pc-e-xbox-preto-3112029/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3112029/",
-      "nome": "Redragon Controle Gamer Tophis G821 Gamepad Sem Fio 2.4GHz USB-C",
-      "por": 155.0,
-      "de": 176.46,
-      "foto": "https://m.media-amazon.com/images/I/71KAVwsrkjL._AC_SL1500_.jpg",
-      "foto_origem": "loja",
-      "titulo": "Controle Redragon Tophis sem fio por 155 reais, oferta com 12% de desconto.",
-      "id": 497,
-      "garimpado_em": "2026-10-13T23:11-03:00",
-      "na_revisao_desde": "2026-10-13T23:11-03:00",
-      "removido_em": "2026-10-13T23:31:52-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -4372,7 +4352,7 @@
       "lobaopromo": {
         "achados": 60,
         "aprovados": 12,
-        "reprovados": 32
+        "reprovados": 33
       },
       "promooeasy": {
         "achados": 123,
