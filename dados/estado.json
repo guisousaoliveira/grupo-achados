@@ -2628,25 +2628,6 @@
     },
     {
       "loja": "amazon",
-      "chave": "amazon:B0D71SHR5B",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0D71SHR5B?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0D71SHR5B?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/220874",
-      "link_canal": "https://www.amazon.com.br/dp/B0D71SHR5B?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAIC72rOtdg5l_fiMuTQw8SlE5bVNiByAAJzEGsbPPb9U3vcyZ-KSRoYAQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "nome": "Dragon Quest I e II HD-2D Remake - Nintendo Switch + Frete Grátis",
-      "parcelas": 6,
-      "por": 264.59,
-      "titulo": "Dragon Quest I e II Remake disponível agora",
-      "id": 462,
-      "garimpado_em": "2026-10-13T19:51-03:00",
-      "na_revisao_desde": "2026-10-13T19:51-03:00",
-      "msg_id": 751
-    },
-    {
-      "loja": "amazon",
       "chave": "amazon:B0H9P44B51",
       "origem": "promooeasy",
       "link": "https://www.amazon.com.br/dp/B0H9P44B51?tag=alphadominu09-20",
@@ -4047,6 +4028,26 @@
   "lixeira": [
     {
       "loja": "amazon",
+      "chave": "amazon:B0D71SHR5B",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0D71SHR5B?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0D71SHR5B?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220874",
+      "link_canal": "https://www.amazon.com.br/dp/B0D71SHR5B?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAIC72rOtdg5l_fiMuTQw8SlE5bVNiByAAJzEGsbPPb9U3vcyZ-KSRoYAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "nome": "Dragon Quest I e II HD-2D Remake - Nintendo Switch + Frete Grátis",
+      "parcelas": 6,
+      "por": 264.59,
+      "titulo": "Dragon Quest I e II Remake disponível agora",
+      "id": 462,
+      "garimpado_em": "2026-10-13T19:51-03:00",
+      "na_revisao_desde": "2026-10-13T19:51-03:00",
+      "removido_em": "2026-10-13T23:34:45-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "amazon",
       "chave": "amazon:B0C626FFG2",
       "origem": "promobit",
       "fonte": "promobit",
@@ -4834,29 +4835,6 @@
       "na_revisao_desde": "2026-10-13T13:41-03:00",
       "removido_em": "2026-10-13T15:49:29-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB63033418",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/power-bank-basike-20000mah-para-notebook-e-celular-com-cabo-usb-c-65w/p/MLB63033418?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/power-bank-basike-20000mah-para-notebook-e-celular-com-cabo-usb-c-65w/p/MLB63033418",
-      "post_origem": "https://t.me/lobaopromo/188865",
-      "link_canal": "https://meli.la/2X8PS4X",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_720399-MLA116701969973_082026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Power Bank Basike 20000mAh para Notebook e Celular com Cabo USB-C 65W",
-      "pix": true,
-      "cupom_loja": "Adicione o cupom OPAECONOMIZEI + cupom de R$ 10 OFF no anúncio",
-      "de": 342.0,
-      "por": 150.58,
-      "cupom": "OPAECONOMIZEI",
-      "titulo": "Útil no dia a dia e com desconto.",
-      "id": 304,
-      "garimpado_em": "2026-10-13T13:34-03:00",
-      "na_revisao_desde": "2026-10-13T13:34-03:00",
-      "removido_em": "2026-10-13T15:49:29-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -4931,7 +4909,7 @@
       "promooeasy": {
         "achados": 123,
         "aprovados": 2,
-        "reprovados": 86
+        "reprovados": 87
       },
       "xetdaspromocoes": {
         "achados": 19,
