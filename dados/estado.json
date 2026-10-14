@@ -340,6 +340,28 @@
       "titulo": "Suporte veicular para usar o GPS com segurança",
       "na_revisao_desde": "2026-10-14T15:41-03:00",
       "aprovado_em": "2026-10-14T18:18-03:00"
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0FW5JZM9P",
+      "origem": "xetdaspromocoes",
+      "link": "https://link.amazon/B09CIZFbZ",
+      "link_produto": "https://link.amazon/B09CIZFbZ",
+      "post_origem": "https://t.me/xetdaspromocoes/84821",
+      "link_canal": "https://link.amazon/B0dyPjZ8E",
+      "foto": "AgACAgQAAxkDAAIDc2rPzM3EyFzO0SFJ4OMbyluZKMQdAALqDWsbYKlVUEormN9A5u0ZAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "nome": "Relógio Smartwatch Bettdow FB051 Ai Esportivo Gps 1.28",
+      "pix": true,
+      "de": 199.0,
+      "por": 115.0,
+      "prime": true,
+      "palavra": "smartwatch",
+      "garimpado_em": "2026-10-14T15:00-03:00",
+      "nota": 61.7,
+      "titulo": "Smartwatch esportivo para monitorar suas atividades diárias",
+      "na_revisao_desde": "2026-10-14T15:41-03:00",
+      "aprovado_em": "2026-10-14T18:18-03:00"
     }
   ],
   "postados": [
@@ -1477,29 +1499,6 @@
       "id": 541,
       "na_revisao_desde": "2026-10-14T15:41-03:00",
       "msg_id": 882
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0FW5JZM9P",
-      "origem": "xetdaspromocoes",
-      "link": "https://www.amazon.com.br/dp/B0FW5JZM9P?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0FW5JZM9P?tag=alphadominu09-20",
-      "post_origem": "https://t.me/xetdaspromocoes/84821",
-      "link_canal": "https://link.amazon/B0dyPjZ8E",
-      "foto": "AgACAgQAAxkDAAIDc2rPzM3EyFzO0SFJ4OMbyluZKMQdAALqDWsbYKlVUEormN9A5u0ZAQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "nome": "Relógio Smartwatch Bettdow FB051 Ai Esportivo Gps 1.28",
-      "pix": true,
-      "de": 199.0,
-      "por": 115.0,
-      "prime": true,
-      "palavra": "smartwatch",
-      "garimpado_em": "2026-10-14T15:00-03:00",
-      "nota": 61.7,
-      "titulo": "Smartwatch esportivo para monitorar suas atividades diárias",
-      "id": 542,
-      "na_revisao_desde": "2026-10-14T15:41-03:00",
-      "msg_id": 883
     }
   ],
   "proximo_id": 555,
@@ -5602,7 +5601,7 @@
       },
       "xetdaspromocoes": {
         "achados": 4,
-        "aprovados": 2,
+        "aprovados": 3,
         "reprovados": 0
       },
       "tudonapromo": {
@@ -5836,7 +5835,7 @@
     },
     "smartwatch": {
       "achados": 5,
-      "aprovados": 1,
+      "aprovados": 2,
       "reprovados": 3
     },
     "suplemento": {
