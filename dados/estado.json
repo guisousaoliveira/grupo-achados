@@ -1479,18 +1479,18 @@
   "proximo_id": 545,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84827,
-      "lobaopromo": 189436,
-      "gatunopromos": 125353,
+      "xetdaspromocoes": 84831,
+      "lobaopromo": 189444,
+      "gatunopromos": 125357,
       "pobregram": 41895,
-      "urubupromo": 41670,
-      "tudonapromo": 101883,
-      "promonocontext": 126727,
-      "promooeasy": 221503,
+      "urubupromo": 41672,
+      "tudonapromo": 101886,
+      "promonocontext": 126733,
+      "promooeasy": 221505,
       "aquitempechincha": 281648,
       "infoBRpromos": 67560,
-      "boletando": 76724,
-      "promotop": 260281,
+      "boletando": 76726,
+      "promotop": 260282,
       "achadosdotb": 11769
     },
     "dia": "2026-10-14",
@@ -3139,27 +3139,27 @@
       "shopee:1167658467.19298318396"
     ],
     "ultima": {
-      "em": "2026-10-14T15:50:26-03:00",
+      "em": "2026-10-14T16:00:29-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 49,
-      "do_nicho": 3,
-      "repetidas": 1,
-      "novas": 2,
+      "posts_novos": 45,
+      "do_nicho": 5,
+      "repetidas": 5,
+      "novas": 0,
       "limite_dia": false,
       "repetidas_nome": 0,
       "promobit": 0,
       "soltas": 0,
-      "na_peneira": 32
+      "na_peneira": 36
     },
-    "hora": "2026-10-14T15",
-    "nesta_hora": 10,
-    "promobit_hora": "2026-10-14T15",
-    "promobit_nesta_hora": 1,
-    "promobit_visto": 3113807,
+    "hora": "2026-10-14T16",
+    "nesta_hora": 0,
+    "promobit_hora": "2026-10-14T16",
+    "promobit_nesta_hora": 0,
+    "promobit_visto": 3113839,
     "nomes": [
       [
         [
@@ -4335,17 +4335,13 @@
         "nota": 74.9
       }
     ],
-    "soltas_hora": "2026-10-14T15",
-    "soltas": 5,
+    "soltas_hora": "2026-10-14T16",
+    "soltas": 0,
     "shopee_em": "2026-10-14T15:50-03:00",
     "shopee_indice": 40,
     "soltas_dia_data": "2026-10-14",
     "soltas_dia": 35,
-    "soltas_loja": {
-      "shopee": 2,
-      "mercadolivre": 2,
-      "amazon": 1
-    }
+    "soltas_loja": {}
   },
   "ultimos": [
     {
