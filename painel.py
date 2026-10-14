@@ -236,6 +236,21 @@ def horarios_hoje(estado, dt):
     return saida
 
 
+def palavras_json(estado):
+    """Palavras do garimpo para o painel: ligada ou não e quanto você aprova do que cada uma traz."""
+    cfg = bot.CONFIG.get("radar", {})
+    aj = estado.get("radar_cfg") or {}
+    stats = bot.stats_palavras(estado)
+    base = [p for ps in bot.CONFIG.get("palavras", {}).values() for p in ps] + cfg.get("palavras_extra", [])
+    fora = {bot.sem_acento(p) for p in aj.get("desligadas", [])}
+    lista = []
+    for p in dict.fromkeys(base + aj.get("novas", [])):
+        st = stats.get(bot.sem_acento(p), {})
+        lista.append({"p": p, "on": bot.sem_acento(p) not in fora, "nova": p in aj.get("novas", []),
+                      "a": st.get("aprovados", 0), "r": st.get("reprovados", 0)})
+    return {"lista": lista, "bloqueadas": aj["bloqueadas"] if "bloqueadas" in aj else cfg.get("palavras_bloqueadas", [])}
+
+
 def resumo(estado):
     cfg_radar = bot.CONFIG.get("radar", {})
     r = estado.get("radar", {})
@@ -280,7 +295,10 @@ def resumo(estado):
             "pausa_ate": cfg_radar.get("pausa_ate"),
             "ultima": r.get("ultima"),
             "rodada": ultima_rodada(),
+            "peneira": len(r.get("peneira", [])),
+            "por_hora": cfg_radar.get("melhores_por_hora", 0),
         },
+        "palavras": palavras_json(estado),
         "ia": bool(bot.segredo("GEMINI_API_KEY")),
     }
 
@@ -577,6 +595,11 @@ def acao(corpo):
                 if not lixo.get("expirou"):
                     bot.contar_garimpo(estado, item, "reprovados", -1)  # desfez o descarte
                 saida["ok"] = "Voltou para Revisar."
+        elif a == "radar_palavras":
+            limpa = lambda v: list(dict.fromkeys(str(x).strip().lower()[:40] for x in (v or []) if str(x).strip()))[:300]
+            estado["radar_cfg"] = {"desligadas": limpa(d.get("desligadas")), "novas": limpa(d.get("novas")),
+                                   "bloqueadas": limpa(d.get("bloqueadas"))}
+            saida["ok"] = "Palavras do garimpo salvas. Valem a partir da próxima rodada do radar."
         elif a == "story_config":
             if d.get("padrao"):
                 estado.pop("story_cfg", None)

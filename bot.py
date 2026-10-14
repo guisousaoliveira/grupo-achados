@@ -1006,6 +1006,9 @@ def contar_garimpo(estado, item, campo, quanto=1):
     g = estado.setdefault("garimpo", {})
     linha = g.setdefault(dia, {}).setdefault(fonte, {"achados": 0, "aprovados": 0, "reprovados": 0})
     linha[campo] = max(0, linha.get(campo, 0) + quanto)
+    if item.get("palavra"):  # aprende quais palavras você aprova (entra na nota da peneira)
+        lp = stats_palavras(estado).setdefault(item["palavra"], {"achados": 0, "aprovados": 0, "reprovados": 0})
+        lp[campo] = max(0, lp.get(campo, 0) + quanto)
     for velho in sorted(g)[:-14]:  # guarda 2 semanas
         del g[velho]
 
@@ -1684,10 +1687,40 @@ def sem_acento(t):
     return "".join(c for c in unicodedata.normalize("NFD", t.lower()) if unicodedata.category(c) != "Mn")
 
 
+def ajuste_radar(estado=None):
+    """Palavras que você liga, desliga ou bloqueia pelo painel (estado['radar_cfg']), por cima do config.json."""
+    global _AJUSTE_RADAR
+    if estado is not None:
+        _AJUSTE_RADAR = estado.get("radar_cfg") or {}
+    return _AJUSTE_RADAR
+
+
+_AJUSTE_RADAR = {}
+
+
 def palavras_radar():
     cfg = CONFIG.get("radar", {})
-    lista = [p for ps in CONFIG.get("palavras", {}).values() for p in ps] + cfg.get("palavras_extra", [])
+    aj = ajuste_radar()
+    lista = [p for ps in CONFIG.get("palavras", {}).values() for p in ps] + cfg.get("palavras_extra", []) + aj.get("novas", [])
+    fora = {sem_acento(p) for p in aj.get("desligadas", [])}
+    return [sem_acento(p) for p in dict.fromkeys(lista) if p.strip() and sem_acento(p) not in fora]
+
+
+def palavras_bloqueadas():
+    """As do painel, se você já mexeu nelas lá; senão as do config.json."""
+    aj = ajuste_radar()
+    lista = aj["bloqueadas"] if "bloqueadas" in aj else CONFIG.get("radar", {}).get("palavras_bloqueadas", [])
     return [sem_acento(p) for p in lista if p.strip()]
+
+
+def _tem_palavra(texto, palavras):
+    """Palavra inteira (aceita plural): 'bone' não casa com 'boneca', 'mochila' casa com 'mochilas'."""
+    t = sem_acento(texto)
+    return any(re.search(r"(?<![a-z0-9])" + re.escape(p) + r"(?:s|es)?(?![a-z0-9])", t) for p in palavras)
+
+
+def do_nicho(texto):
+    return bool(texto) and _tem_palavra(texto, palavras_radar()) and not _tem_palavra(texto, palavras_bloqueadas())
 
 
 def ler_canal(canal):
@@ -1812,7 +1845,7 @@ PRECO_NAO = r"cupom|cashback|frete|resgat|economi|acima de|em compras|parcela|\b
 def oferta_do_post(post, canal):
     """Monta a oferta a partir do post. None se não for do nicho ou não tiver link de loja."""
     texto = post["texto"]
-    if not texto or not any(p in sem_acento(texto) for p in palavras_radar()):
+    if not do_nicho(texto):
         return None
     candidatos = [l for l in post["links"] if l.startswith("http") and "t.me/" not in l]
     # Links de loja (ou encurtador de loja) primeiro; o resto (site do canal, Instagram...) só depois.
@@ -1923,7 +1956,7 @@ def oferta_do_promobit(o):
     if o.get("storeDomain") not in LOJAS_PROMOBIT:
         return None
     texto = " ".join(str(o.get(k) or "") for k in ("offerTitle", "categoryName", "subcategoryName", "suggestionKeywords"))
-    if not any(p in sem_acento(texto) for p in palavras_radar()):
+    if not do_nicho(texto):
         return None
     link = f"https://www.promobit.com.br/Redirect/to/{o['offerId']}/"
     prod = produto_do_link(link)
@@ -2007,12 +2040,143 @@ def radar_promobit(estado, r, cfg, conta, usadas, teste, acordando):
             continue
         r["hoje"] += 1
         r["promobit_nesta_hora"] += 1
-        r["chaves"] = (r["chaves"] + [item["chave"]])[-400:]
-        mandar_para_revisao(estado, item)
-        contar_garimpo(estado, item, "achados")
+        r["chaves"] = (r["chaves"] + [item["chave"]])[-3000:]
+        if not peneirar(estado, r, item, conta):
+            novas -= 1
     if not teste:
         r["promobit_visto"] = ultimo
     return novas
+
+
+# ---------------------------------------------------------------- peneira do garimpo
+# Em vez de mandar tudo o que acha para Revisar, o radar junta as ofertas numa peneira e, uma vez por hora,
+# solta só as melhores (radar.melhores_por_hora). Nota = desconto + quanto você aprova daquela fonte + foto.
+# Também barra o mesmo produto vindo de outro canal ou de outra loja (nome parecido nos últimos dias).
+
+PALAVRAS_VAZIAS = {"de", "da", "do", "das", "dos", "para", "pra", "com", "sem", "e", "o", "a", "os", "as", "em", "no", "na",
+                   "um", "uma", "kit", "novo", "nova", "original", "oferta", "promocao", "the", "and", "for", "with",
+                   "sem", "sabor", "po", "masculino", "masculina", "feminino", "feminina", "preto", "preta", "branco",
+                   "branca", "cor", "unidade", "unidades", "x", "ml", "g"}
+
+
+def nome_tokens(nome):
+    return [t for t in re.findall(r"[a-z0-9]+", sem_acento(nome or "")) if t not in PALAVRAS_VAZIAS and len(t) > 1][:8]
+
+
+def nomes_parecidos(a, b):
+    """Mesmo tipo de produto (1ª palavra), metade ou mais das palavras iguais e, se os dois têm números
+    (tamanho, modelo), pelo menos um número em comum: 'Creatina Growth 1kg' não é 'Creatina Max 300g'."""
+    if not a or not b or a[0] != b[0]:
+        return False
+    sa, sb = set(a), set(b)
+    na, nb = {t for t in sa if any(c.isdigit() for c in t)}, {t for t in sb if any(c.isdigit() for c in t)}
+    if na and nb and not na & nb:
+        return False
+    return len(sa & sb) / len(sa | sb) >= 0.5
+
+
+def palavra_do_item(item):
+    """A palavra do nicho que aparece no nome do produto (a primeira da lista), ou None."""
+    texto = f"{item.get('nome', '')} {item.get('titulo', '')}"
+    return next((p for p in palavras_radar() if _tem_palavra(texto, [p])), None)
+
+
+def _taxa(linha):
+    """Quanto você aprova: começa em 25% e vai se ajustando com as suas aprovações e descartes."""
+    a, r = linha.get("aprovados", 0), linha.get("reprovados", 0)
+    return (a + 1) / (a + r + 4)
+
+
+def stats_palavras(estado):
+    """Aprovados e descartados por palavra do nicho. Começa com o que você fez em 13/10 (arquivo de partida)."""
+    if "garimpo_palavras" not in estado:
+        try:
+            estado["garimpo_palavras"] = json.loads((PASTA / "dados" / "garimpo_palavras_inicio.json").read_text(encoding="utf-8"))
+        except Exception:
+            estado["garimpo_palavras"] = {}
+    return estado["garimpo_palavras"]
+
+
+def nota_oferta(estado, item):
+    """Desconto + quanto você aprova daquela fonte + quanto você aprova daquela palavra + foto e cupom."""
+    de, por = item.get("de"), item.get("por")
+    desconto = min((1 - por / de) * 100, 80) if de and por and de > por else 0
+    fonte = {"aprovados": 0, "reprovados": 0}
+    for dia, fontes in (estado.get("garimpo") or {}).items():
+        for k in fonte:
+            fonte[k] += fontes.get(item.get("origem"), {}).get(k, 0)
+    palavra = stats_palavras(estado).get(item.get("palavra") or "", {})
+    nota = 0.6 * desconto + 40 * _taxa(fonte) + 50 * _taxa(palavra) + (10 if item.get("foto") else 0) + (5 if item.get("cupom") else 0)
+    return round(nota - (40 if not por else 0), 1)
+
+
+def repetida_pelo_nome(estado, r, item):
+    tk = nome_tokens(item.get("nome"))
+    if len(tk) < 2:
+        return False
+    dias = CONFIG.get("radar", {}).get("repetido_dias", 7)
+    corte = (agora() - timedelta(days=dias)).isoformat()
+    r["nomes"] = [n for n in r.get("nomes", []) if n[1] >= corte][-3000:]
+    outros = [n[0] for n in r["nomes"]] + [nome_tokens(x.get("nome")) for x in estado["fila"] + estado["revisar"]]
+    return any(nomes_parecidos(tk, o) for o in outros)
+
+
+def peneirar(estado, r, item, conta):
+    """Põe a oferta na peneira. False se o nome do produto não é do nicho ou se é repetida pelo nome."""
+    if item.get("nome") and CONFIG.get("radar", {}).get("nicho_no_nome", True):
+        # A palavra precisa estar no nome do produto, não só em algum canto do post (rodapé, lista de outras ofertas).
+        item["palavra"] = palavra_do_item(item)
+        if not item["palavra"] or _tem_palavra(item["nome"], palavras_bloqueadas()):
+            conta["fora_do_nicho"] = conta.get("fora_do_nicho", 0) + 1
+            return False
+    if repetida_pelo_nome(estado, r, item):
+        conta["repetidas_nome"] = conta.get("repetidas_nome", 0) + 1
+        return False
+    item["garimpado_em"] = agora().isoformat(timespec="minutes")
+    item["nota"] = nota_oferta(estado, item)
+    peneira = r.setdefault("peneira", [])
+    tk = nome_tokens(item.get("nome"))
+    igual = next((x for x in peneira if nomes_parecidos(tk, nome_tokens(x.get("nome")))), None)
+    if igual:  # o mesmo produto em dois canais: fica a melhor nota
+        conta["repetidas_nome"] = conta.get("repetidas_nome", 0) + 1
+        if igual["nota"] >= item["nota"]:
+            return False
+        peneira.remove(igual)
+    peneira.append(item)
+    if not CONFIG.get("radar", {}).get("melhores_por_hora"):  # 0 = sem peneira: vai direto, como antes
+        soltar_peneira(estado, r, True)
+    return True
+
+
+def soltar_peneira(estado, r, forcado=False):
+    """Uma vez por hora (a partir do minuto 40, para juntar bastante), manda as melhores da peneira para Revisar."""
+    cfg = CONFIG.get("radar", {})
+    peneira = r.setdefault("peneira", [])
+    validade = (agora() - timedelta(hours=cfg.get("peneira_horas", 3))).isoformat()
+    peneira[:] = [x for x in peneira if x.get("garimpado_em", "") >= validade]
+    por_hora = cfg.get("melhores_por_hora", 0)
+    hora = agora().strftime("%Y-%m-%dT%H")
+    if r.get("soltas_hora") != hora:
+        r["soltas_hora"], r["soltas"] = hora, 0
+    if por_hora:
+        if not forcado and agora().minute < 40:
+            return 0
+        vagas = por_hora - r["soltas"]
+    else:
+        vagas = len(peneira)
+    soltas = 0
+    for item in sorted(peneira, key=lambda x: -x.get("nota", 0))[:max(vagas, 0)]:
+        peneira.remove(item)
+        if repetida_pelo_nome(estado, r, item):  # entrou parecida em Revisar enquanto esperava
+            continue
+        r.setdefault("nomes", []).append([nome_tokens(item.get("nome")), agora().isoformat(timespec="minutes")])
+        mandar_para_revisao(estado, item)
+        contar_garimpo(estado, item, "achados")
+        soltas += 1
+    r["soltas"] += soltas
+    if soltas:
+        log(f"Peneira: {soltas} oferta(s) para Revisar; {len(peneira)} esperando.")
+    return soltas
 
 
 def radar_pausado(cfg):
@@ -2030,6 +2194,7 @@ def rodar_radar(estado, teste=False):
     if not canais:
         return
     r = estado.setdefault("radar", {"visto": {}, "dia": "", "hoje": 0, "chaves": []})
+    ajuste_radar(estado)
     hoje = agora().date().isoformat()
     if r.get("dia") != hoje:
         r["dia"], r["hoje"] = hoje, 0
@@ -2055,7 +2220,10 @@ def rodar_radar(estado, teste=False):
         log("Radar: pausado (madrugada).")
         return
     acordando = (False if forcado else r.pop("pausado", False)) and not teste
-    usadas = set(r["chaves"]) | {x["chave"] for x in estado["fila"] + estado["revisar"]}
+    if acordando:
+        r["peneira"] = []  # o que sobrou de ontem pode ter mudado de preço
+    usadas = set(r["chaves"]) | {x["chave"] for x in estado["fila"] + estado["revisar"] + r.get("peneira", [])}
+    conta["repetidas_nome"] = 0
     novas = radar_promobit(estado, r, cfg, conta, usadas, teste, acordando)
     conta["promobit"] = novas
     novas_canais = 0
@@ -2101,12 +2269,16 @@ def rodar_radar(estado, teste=False):
                 continue
             r["hoje"] += 1
             r["nesta_hora"] = r.get("nesta_hora", 0) + 1
-            r["chaves"] = (r["chaves"] + [item["chave"]])[-400:]
-            mandar_para_revisao(estado, item)
-            contar_garimpo(estado, item, "achados")
+            r["chaves"] = (r["chaves"] + [item["chave"]])[-3000:]
+            if not peneirar(estado, r, item, conta):
+                novas -= 1
+                novas_canais -= 1
         if not teste:
             r["visto"][canal] = ultimo
     conta["novas"] = novas
+    if not teste:
+        conta["soltas"] = soltar_peneira(estado, r, forcado)
+        conta["na_peneira"] = len(r.get("peneira", []))
     if not teste and (conta["pedido"] or conta["posts_novos"] or conta["falhas"]):
         r["ultima"] = conta
     log(f"Radar: {novas} oferta(s) nova(s) do nicho." + (" (teste, nada enviado)" if teste else ""))

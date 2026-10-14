@@ -1,0 +1,232 @@
+{
+ "academia": {
+  "achados": 16,
+  "aprovados": 4,
+  "reprovados": 12
+ },
+ "air fryer": {
+  "achados": 6,
+  "aprovados": 1,
+  "reprovados": 5
+ },
+ "alexa": {
+  "achados": 2,
+  "aprovados": 0,
+  "reprovados": 2
+ },
+ "alicate": {
+  "achados": 3,
+  "aprovados": 0,
+  "reprovados": 3
+ },
+ "aparador": {
+  "achados": 3,
+  "aprovados": 0,
+  "reprovados": 3
+ },
+ "barba": {
+  "achados": 2,
+  "aprovados": 0,
+  "reprovados": 2
+ },
+ "barbeador": {
+  "achados": 4,
+  "aprovados": 0,
+  "reprovados": 4
+ },
+ "barbear": {
+  "achados": 2,
+  "aprovados": 0,
+  "reprovados": 2
+ },
+ "barra fixa": {
+  "achados": 1,
+  "aprovados": 0,
+  "reprovados": 1
+ },
+ "bicicleta ergometrica": {
+  "achados": 1,
+  "aprovados": 0,
+  "reprovados": 1
+ },
+ "bone": {
+  "achados": 2,
+  "aprovados": 0,
+  "reprovados": 2
+ },
+ "cafeteira": {
+  "achados": 3,
+  "aprovados": 0,
+  "reprovados": 3
+ },
+ "caixa de som": {
+  "achados": 17,
+  "aprovados": 2,
+  "reprovados": 15
+ },
+ "caixa termica": {
+  "achados": 1,
+  "aprovados": 0,
+  "reprovados": 1
+ },
+ "camera de seguranca": {
+  "achados": 1,
+  "aprovados": 0,
+  "reprovados": 1
+ },
+ "camisa polo": {
+  "achados": 3,
+  "aprovados": 2,
+  "reprovados": 1
+ },
+ "chave de impacto": {
+  "achados": 1,
+  "aprovados": 0,
+  "reprovados": 1
+ },
+ "chromecast": {
+  "achados": 1,
+  "aprovados": 0,
+  "reprovados": 1
+ },
+ "cooler": {
+  "achados": 5,
+  "aprovados": 0,
+  "reprovados": 5
+ },
+ "coqueteleira": {
+  "achados": 1,
+  "aprovados": 0,
+  "reprovados": 1
+ },
+ "corda de pular": {
+  "achados": 1,
+  "aprovados": 0,
+  "reprovados": 1
+ },
+ "creatina": {
+  "achados": 15,
+  "aprovados": 5,
+  "reprovados": 10
+ },
+ "cueca": {
+  "achados": 7,
+  "aprovados": 0,
+  "reprovados": 7
+ },
+ "echo dot": {
+  "achados": 1,
+  "aprovados": 0,
+  "reprovados": 1
+ },
+ "esmerilhadeira": {
+  "achados": 1,
+  "aprovados": 0,
+  "reprovados": 1
+ },
+ "ferramenta": {
+  "achados": 3,
+  "aprovados": 1,
+  "reprovados": 2
+ },
+ "fritadeira": {
+  "achados": 1,
+  "aprovados": 0,
+  "reprovados": 1
+ },
+ "furadeira": {
+  "achados": 2,
+  "aprovados": 0,
+  "reprovados": 2
+ },
+ "garrafa termica": {
+  "achados": 2,
+  "aprovados": 1,
+  "reprovados": 1
+ },
+ "jbl": {
+  "achados": 2,
+  "aprovados": 0,
+  "reprovados": 2
+ },
+ "kindle": {
+  "achados": 1,
+  "aprovados": 0,
+  "reprovados": 1
+ },
+ "liquidificador portatil": {
+  "achados": 1,
+  "aprovados": 0,
+  "reprovados": 1
+ },
+ "mochila": {
+  "achados": 5,
+  "aprovados": 2,
+  "reprovados": 3
+ },
+ "oculos de sol": {
+  "achados": 5,
+  "aprovados": 1,
+  "reprovados": 4
+ },
+ "oneblade": {
+  "achados": 1,
+  "aprovados": 0,
+  "reprovados": 1
+ },
+ "parafusadeira": {
+  "achados": 3,
+  "aprovados": 0,
+  "reprovados": 3
+ },
+ "perfume masculino": {
+  "achados": 4,
+  "aprovados": 3,
+  "reprovados": 1
+ },
+ "power bank": {
+  "achados": 8,
+  "aprovados": 1,
+  "reprovados": 7
+ },
+ "pre treino": {
+  "achados": 1,
+  "aprovados": 0,
+  "reprovados": 1
+ },
+ "relogio": {
+  "achados": 4,
+  "aprovados": 0,
+  "reprovados": 4
+ },
+ "smart tv": {
+  "achados": 18,
+  "aprovados": 0,
+  "reprovados": 18
+ },
+ "smartwatch": {
+  "achados": 4,
+  "aprovados": 1,
+  "reprovados": 3
+ },
+ "suplemento": {
+  "achados": 4,
+  "aprovados": 0,
+  "reprovados": 4
+ },
+ "tenis masculino": {
+  "achados": 2,
+  "aprovados": 0,
+  "reprovados": 2
+ },
+ "termogenico": {
+  "achados": 1,
+  "aprovados": 0,
+  "reprovados": 1
+ },
+ "whey": {
+  "achados": 7,
+  "aprovados": 1,
+  "reprovados": 6
+ }
+}

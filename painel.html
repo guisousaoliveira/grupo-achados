@@ -166,6 +166,17 @@ main{min-width:0;padding:26px 34px 60px;max-width:1180px}
 .chips{display:flex;flex-wrap:wrap;gap:6px}
 .chips a{padding:6px 10px;border-radius:99px;border:1px solid var(--line2);text-decoration:none;font-size:13px;color:var(--mut)}
 .chips a:hover{border-color:var(--gold);color:var(--tx)}
+.pchips{display:flex;flex-wrap:wrap;gap:6px}
+.pchip{display:inline-flex;align-items:center;gap:6px;padding:5px 10px;border-radius:99px;border:1px solid var(--line2);background:none;color:var(--tx);font:inherit;font-size:13px;cursor:pointer}
+.pchip small{font-size:11px;color:var(--mut)}
+.pchip small.bom{color:var(--ok)}
+.pchip small.ruim{color:var(--bad)}
+.pchip.off{opacity:.45;text-decoration:line-through}
+.pchip.blq{border-color:rgba(220,90,90,.45)}
+.pchip:hover{border-color:var(--gold)}
+.padd{display:flex;gap:8px;margin-top:12px}
+.padd .in{flex:1;min-width:0}
+.psalvar{position:sticky;bottom:12px;display:flex;gap:10px;align-items:center;justify-content:flex-end;margin-top:14px}
 .ph{width:92px;height:92px;border-radius:10px;background:#fff;overflow:hidden;display:grid;place-items:center;position:relative}
 .ph img{max-width:100%;max-height:100%;object-fit:contain}
 .ph.none{background:#141416;border:1px solid var(--line)}
@@ -556,7 +567,7 @@ function desenharNav(){
   document.getElementById('mob-badge').innerHTML = conta.revisar ? `<span class="badge">${conta.revisar}</span>` : '';
   const r = E.radar;
   document.getElementById('radarbox').innerHTML = `<div class="t"><span class="dot ${r.pausado?'off':''}"></span>Radar ${r.pausado?'pausado':'ligado'}</div>
-    <p>${r.canais} canais · ${r.hoje}${r.max_dia ? '/' + r.max_dia : ' achadas'} hoje${r.pausa_de!=null ? ` · pausa ${r.pausa_de}h–${r.pausa_ate}h` : ''}${r.rodada ? `<br>Última rodada ${quandoISO(r.rodada.atualizada)}` : ''}</p>
+    <p>${r.canais} canais${r.por_hora ? ` · peneira: ${r.peneira} esperando, ${r.por_hora} melhores por hora` : ` · ${r.hoje} achadas hoje`}${r.pausa_de!=null ? ` · pausa ${r.pausa_de}h–${r.pausa_ate}h` : ''}${r.rodada ? `<br>Última rodada ${quandoISO(r.rodada.atualizada)}` : ''}</p>
     <button class="btn sm" style="width:100%" onclick="rodarRadar()">${ic('radar',15)}Rodar agora</button>`;
 }
 function desenhar(){
@@ -1250,7 +1261,50 @@ function links(){
       <button class="btn" onclick="procurar('amazon')">Amazon</button><button class="btn" onclick="procurar('ml')">Mercado Livre</button><button class="btn" onclick="procurar('shopee')">Shopee</button></div>
       <div class="hint">Achou? Gere o seu link no painel de afiliado e cole em Nova oferta.</div></div>`
     + LINKS.map(([t, l]) => `<div class="box"><h2>${t}</h2><div class="lgrid">${l.map(lk).join('')}</div></div>`).join('')
+    + palavrasBox()
     + `<div class="box"><h2>Canais do radar<span class="r tag">${E.canais_radar.length} canais</span></h2><div class="chips">${E.canais_radar.map(c => `<a href="https://t.me/s/${esc(c)}" target="_blank" rel="noopener">@${esc(c)}</a>`).join('')}</div></div>`;
+}
+
+/* -------- palavras do garimpo: liga/desliga, novas e bloqueadas (salva no estado; vale na próxima rodada) -------- */
+let PAL = null;  // edição em andamento (não some quando o painel atualiza sozinho)
+function palEstado(){
+  if (!PAL || !PAL.mudou) PAL = {lista: E.palavras.lista.map(x => ({...x})), bloqueadas: [...E.palavras.bloqueadas], mudou: false};
+  return PAL;
+}
+function palavrasBox(){
+  const P = palEstado();
+  const ord = [...P.lista].sort((a, b) => (b.a + b.r) - (a.a + a.r) || a.p.localeCompare(b.p));
+  const pct = x => {
+    const t = x.a + x.r;
+    if (!t) return '';
+    const v = Math.round(x.a / t * 100);
+    return `<small class="${t >= 4 && v >= 30 ? 'bom' : t >= 4 && v < 10 ? 'ruim' : ''}" title="${x.a} aprovada(s) de ${t}">${v}% · ${t}</small>`;
+  };
+  return `<div class="box"><h2>Palavras do garimpo<span class="r tag">${P.lista.filter(x => x.on).length} ligadas</span></h2>
+    <p class="hint" style="margin-top:0">O radar só traz produto com uma dessas palavras <b>no nome</b>. Toque para desligar ou ligar. O número é quanto você aprova do que ela trouxe (e quantas trouxe); a peneira usa isso para escolher as melhores.</p>
+    <div class="pchips">${ord.map(x => `<button class="pchip ${x.on ? '' : 'off'}" onclick="palAlternar('${esc(x.p)}')">${esc(x.p)}${pct(x)}</button>`).join('')}</div>
+    <div class="padd"><input class="in" id="pal-nova" placeholder="Nova palavra, ex.: camisa de time" onkeydown="if(event.key==='Enter')palAdd('nova')"><button class="btn" onclick="palAdd('nova')">Adicionar</button></div>
+    <h2 style="margin-top:22px">Palavras bloqueadas<span class="r tag">${P.bloqueadas.length}</span></h2>
+    <p class="hint" style="margin-top:0">Se o nome do produto tiver uma dessas, o radar ignora, mesmo que tenha uma palavra ligada (ex.: <i>fone gamer</i>).</p>
+    <div class="pchips">${P.bloqueadas.map(b => `<button class="pchip blq" onclick="palDesbloquear('${esc(b)}')" title="Tirar do bloqueio">${esc(b)} <small>✕</small></button>`).join('') || '<span class="hint">Nenhuma.</span>'}</div>
+    <div class="padd"><input class="in" id="pal-blq" placeholder="Bloquear palavra, ex.: infantil" onkeydown="if(event.key==='Enter')palAdd('blq')"><button class="btn" onclick="palAdd('blq')">Bloquear</button></div>
+    ${P.mudou ? `<div class="psalvar"><button class="btn ghost" onclick="PAL=null;desenhar()">Desfazer</button><button class="btn gold" onclick="palSalvar(this)">Salvar palavras</button></div>` : ''}</div>`;
+}
+function palAlternar(p){ const x = PAL.lista.find(x => x.p === p); if (x) { x.on = !x.on; PAL.mudou = true; desenhar(); } }
+function palDesbloquear(b){ PAL.bloqueadas = PAL.bloqueadas.filter(x => x !== b); PAL.mudou = true; desenhar(); }
+function palAdd(tipo){
+  const el = document.getElementById(tipo === 'blq' ? 'pal-blq' : 'pal-nova');
+  const v = el.value.trim().toLowerCase();
+  if (!v) return toast('Escreva a palavra.', true);
+  if (tipo === 'blq') { if (!PAL.bloqueadas.includes(v)) PAL.bloqueadas.push(v); }
+  else { const x = PAL.lista.find(x => x.p === v); if (x) x.on = true; else PAL.lista.push({p: v, on: true, nova: true, a: 0, r: 0}); }
+  PAL.mudou = true; desenhar();
+  setTimeout(() => { const e = document.getElementById(tipo === 'blq' ? 'pal-blq' : 'pal-nova'); if (e) e.focus(); }, 0);
+}
+async function palSalvar(btn){
+  const r = await fazer(btn, 'radar_palavras', '', {desligadas: PAL.lista.filter(x => !x.on).map(x => x.p),
+    novas: PAL.lista.filter(x => x.nova && x.on).map(x => x.p), bloqueadas: PAL.bloqueadas});
+  if (!r.erro) { PAL = null; desenhar(); }
 }
 function procurar(onde){
   const q = document.getElementById('lk-q').value.trim();
@@ -1282,20 +1336,22 @@ function desenharRadar(fase, info){
   else corpo = `<p class="hint" style="margin:0">${fase === 'pedido' ? 'Esperando o GitHub começar' : 'O GitHub está lendo os canais'}… ${seg}s. Costuma levar menos de 1 minuto.</p>`;
   const m = document.getElementById('modal');
   m.innerHTML = `<h3>${ic('radar',17)} Rodada do radar</h3><div class="passos">${passos}</div>${corpo}
-    <div class="acts" style="margin-top:16px">${fase === 'pronto' && info.ultima.novas ? `<button class="btn gold" onclick="fecharTudo();ir('revisar')">Ver em Revisar</button>` : ''}<button class="btn ${fase === 'pronto' ? '' : 'ghost'}" onclick="fecharRadar()">Fechar</button></div>`;
+    <div class="acts" style="margin-top:16px">${fase === 'pronto' && (info.ultima.soltas ?? info.ultima.novas) ? `<button class="btn gold" onclick="fecharTudo();ir('revisar')">Ver em Revisar</button>` : ''}<button class="btn ${fase === 'pronto' ? '' : 'ghost'}" onclick="fecharRadar()">Fechar</button></div>`;
 }
 function resultadoRadar(info){
   const u = info.ultima;
   const n = (v, t) => `<div class="num"><b>${v}</b><span>${t}</span></div>`;
   let frase;
-  if (u.novas) frase = `<div class="alert ok"><b>${u.novas} oferta(s) nova(s)</b> foram para Revisar (e para o seu Telegram).</div>`;
+  if (u.soltas) frase = `<div class="alert ok"><b>${u.soltas} oferta(s)</b> foram para Revisar (e para o seu Telegram).${u.na_peneira ? ` Mais ${u.na_peneira} na peneira esperando a próxima hora.` : ''}</div>`;
+  else if (u.novas && u.na_peneira) frase = `<div class="alert ok"><b>${u.novas} oferta(s) nova(s)</b> entraram na peneira. As ${E.radar.por_hora} melhores de cada hora vão para Revisar.</div>`;
   else if (u.lidos === 0) frase = `<div class="alert bad">Não consegui ler nenhum canal agora. Tente de novo em alguns minutos.</div>`;
   else if (!u.posts_novos) frase = `<div class="alert warn">Os canais não postaram nada novo desde a última leitura. Nada para trazer.</div>`;
   else if (u.limite_hora) frase = `<div class="alert warn">Já chegaram ${E.radar.max_hora} ofertas nesta hora. As próximas entram na hora que vem, para espalhar pelo dia.</div>`;
   else if (u.limite_dia) frase = `<div class="alert warn">Chegou no limite de ${E.radar.max_dia} ofertas por dia. O radar volta amanhã.</div>`;
   else if (!u.do_nicho) frase = `<div class="alert warn">Teve ${u.posts_novos} post(s) novo(s), mas nenhum do nicho (academia, estilo, games, ferramentas…).</div>`;
   else frase = `<div class="alert warn">As ${u.do_nicho} oferta(s) do nicho já tinham aparecido antes (fila, revisão ou já vistas).</div>`;
-  return `<div class="nums">${n(`${u.lidos}/${u.canais}`, 'canais lidos')}${n(u.posts_novos, 'posts novos')}${n(u.do_nicho, 'do nicho')}${n(u.novas, 'para revisar')}</div>${frase}`
+  return `<div class="nums">${n(`${u.lidos}/${u.canais}`, 'canais lidos')}${n(u.posts_novos, 'posts novos')}${n(u.do_nicho, 'do nicho')}${n(u.soltas ?? u.novas, 'para revisar')}</div>${frase}`
+    + (u.repetidas_nome || u.fora_do_nicho ? `<p class="hint">${u.repetidas_nome ? `${u.repetidas_nome} repetida(s) pelo nome (outro canal ou loja). ` : ''}${u.fora_do_nicho ? `${u.fora_do_nicho} sem palavra do nicho no nome do produto.` : ''}</p>` : '')
     + (u.falhas && u.falhas.length ? `<p class="hint">Não abriu agora: ${u.falhas.map(c => '@' + esc(c)).join(', ')}</p>` : '');
 }
 async function rodarRadar(){
