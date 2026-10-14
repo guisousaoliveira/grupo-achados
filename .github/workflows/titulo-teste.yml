@@ -18,4 +18,5 @@ jobs:
           git fetch -q origin main && git checkout origin/main -- dados/estado.json  # ofertas de agora
           python3 bot.py titulo-teste | tee saida.txt
           # cada linha vira um aviso no resumo da rodada (dá para ler pela API, sem baixar o log)
-          while IFS= read -r l; do echo "::notice::$l"; done < saida.txt
+          # tudo num aviso só (o GitHub mostra no máximo 10 avisos por passo)
+          echo "::notice::$(sed ':a;N;$!ba;s/%/%25/g;s/\n/%0A/g' saida.txt)"
