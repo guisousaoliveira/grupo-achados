@@ -1763,25 +1763,6 @@
       "msg_id": 702
     },
     {
-      "loja": "amazon",
-      "chave": "amazon:B0F8W5JWQG",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0F8W5JWQG?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0F8W5JWQG?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/220775",
-      "link_canal": "https://www.amazon.com.br/Monitor-Odyssey-%C3%B3culos-165Hz-prata/dp/B0F8W5JWQG?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAICwGrOnlKFPSoNK8DK0V9qq7I6PxRKAALyDmsbyZJ1UlAkutl9CzYDAQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "nome": "Monitor Samsung Odyssey 4K IPS 3D Sem Óculos 27 165Hz + Frete Grátis",
-      "parcelas": 10,
-      "por": 7299.9,
-      "titulo": "Monitor Samsung 4K para máxima imersão visual",
-      "id": 417,
-      "garimpado_em": "2026-10-13T18:10-03:00",
-      "na_revisao_desde": "2026-10-13T18:10-03:00",
-      "msg_id": 704
-    },
-    {
       "loja": "shopee",
       "chave": "shopee:1287093777.18199337362",
       "origem": "promooeasy",
@@ -3651,6 +3632,26 @@
   "lixeira": [
     {
       "loja": "amazon",
+      "chave": "amazon:B0F8W5JWQG",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0F8W5JWQG?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0F8W5JWQG?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220775",
+      "link_canal": "https://www.amazon.com.br/Monitor-Odyssey-%C3%B3culos-165Hz-prata/dp/B0F8W5JWQG?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAICwGrOnlKFPSoNK8DK0V9qq7I6PxRKAALyDmsbyZJ1UlAkutl9CzYDAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "nome": "Monitor Samsung Odyssey 4K IPS 3D Sem Óculos 27 165Hz + Frete Grátis",
+      "parcelas": 10,
+      "por": 7299.9,
+      "titulo": "Monitor Samsung 4K para máxima imersão visual",
+      "id": 417,
+      "garimpado_em": "2026-10-13T18:10-03:00",
+      "na_revisao_desde": "2026-10-13T18:10-03:00",
+      "removido_em": "2026-10-13T23:38:05-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "amazon",
       "chave": "amazon:B0G1TMZ4JS",
       "origem": "promobit",
       "fonte": "promobit",
@@ -4437,28 +4438,6 @@
       "na_revisao_desde": "2026-10-13T17:01-03:00",
       "removido_em": "2026-10-13T17:05:14-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:1537142489.58266674286",
-      "origem": "promooeasy",
-      "link": "https://shopee.com.br/product/1537142489/58266674286",
-      "link_produto": "https://shopee.com.br/product/1537142489/58266674286",
-      "post_origem": "https://t.me/promooeasy/220698",
-      "link_canal": "https://s.shopee.com.br/8V9gSg0L32?lp=aff",
-      "precisa_link": true,
-      "foto": "https://cdn1.telesco.pe/file/cqGGCy2fYKm26KmPgPK1XlU0EveEDGCKyMzWcpzETVHzJnGdkt7WJXgZvGX6fG_D-46WehCiXw9IMl1byMP9VVjSbMYjWDPpzmZj7asDVZYGDzVEOqnvPBmLkGigjfvN3GMRcVKLaytb21XvLHm-NYPZaDuWRkrsBzyM3pAv_CtfZJ6qyIFeoJuQNTwwl4r2t0rwFQpfVqsEToo6-RNFD8sUFObxM6OHD1WEDnG5xlwrvQCfET74IFT3o5iJe3ll6p6e9ETt7ErEKqn8Njtf4cME-ExtO7ZNKDHRmEbdrcT0JEqErzcjnqpTocGPjH1QZlF4rf92rhlvJ-n1w53yxw.jpg",
-      "foto_origem": "canal",
-      "nome": "Samsung Smart TV 50 Mini LED 4K M75H + Soundbar Samsung HW-B400F",
-      "pix": true,
-      "por": 2602.0,
-      "cupom": "AQUI",
-      "titulo": "Combo Samsung: Smart TV 50 polegadas Mini LED 4K e Soundbar por 2602.",
-      "id": 388,
-      "garimpado_em": "2026-10-13T17:01-03:00",
-      "na_revisao_desde": "2026-10-13T17:01-03:00",
-      "removido_em": "2026-10-13T17:05:10-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -4533,7 +4512,7 @@
       "promooeasy": {
         "achados": 123,
         "aprovados": 2,
-        "reprovados": 94
+        "reprovados": 95
       },
       "xetdaspromocoes": {
         "achados": 19,
