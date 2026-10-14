@@ -2694,25 +2694,6 @@
       "msg_id": 756
     },
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB7065514976",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/mochila-de-viagem-com-cadeado-antifurto-expansivel-commuter/up/MLBU4192423220?pdp_filters=item_id%3AMLB7065514976&matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/mochila-de-viagem-com-cadeado-antifurto-expansivel-commuter/up/MLBU4192423220?pdp_filters=item_id%3AMLB7065514976",
-      "post_origem": "https://t.me/lobaopromo/189042",
-      "link_canal": "https://meli.la/2P7reEF",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_825957-MLB112746227874_062026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Mochila De Viagem Com Cadeado Anti-furto Expansível Commuter Preto",
-      "de": 369.0,
-      "por": 84.0,
-      "titulo": "Mochila antifurto com 77% de desconto",
-      "id": 468,
-      "garimpado_em": "2026-10-13T20:10-03:00",
-      "na_revisao_desde": "2026-10-13T20:10-03:00",
-      "msg_id": 757
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B0BPMQKXQB",
       "origem": "lobaopromo",
@@ -3960,6 +3941,26 @@
   "lixeira": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB7065514976",
+      "origem": "lobaopromo",
+      "link": "https://www.mercadolivre.com.br/mochila-de-viagem-com-cadeado-antifurto-expansivel-commuter/up/MLBU4192423220?pdp_filters=item_id%3AMLB7065514976&matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/mochila-de-viagem-com-cadeado-antifurto-expansivel-commuter/up/MLBU4192423220?pdp_filters=item_id%3AMLB7065514976",
+      "post_origem": "https://t.me/lobaopromo/189042",
+      "link_canal": "https://meli.la/2P7reEF",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_825957-MLB112746227874_062026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Mochila De Viagem Com Cadeado Anti-furto Expansível Commuter Preto",
+      "de": 369.0,
+      "por": 84.0,
+      "titulo": "Mochila antifurto com 77% de desconto",
+      "id": 468,
+      "garimpado_em": "2026-10-13T20:10-03:00",
+      "na_revisao_desde": "2026-10-13T20:10-03:00",
+      "removido_em": "2026-10-13T23:36:53-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB18596028",
       "origem": "lobaopromo",
       "link": "https://www.mercadolivre.com.br/camera-de-seguranca-inteligente-intelbras-im3-c-branca/p/MLB18596028?matt_word=alphapromo&matt_tool=59136903",
@@ -4746,28 +4747,6 @@
       "na_revisao_desde": "2026-10-13T14:15-03:00",
       "removido_em": "2026-10-13T15:49:29-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB56254827",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/power-bank-casenn-20000mah-turbo-usb-c-para-iphone-e-samsung/p/MLB56254827?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/power-bank-casenn-20000mah-turbo-usb-c-para-iphone-e-samsung/p/MLB56254827",
-      "post_origem": "https://t.me/lobaopromo/188879",
-      "link_canal": "https://meli.la/1LKXSMC",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_848624-MLA99948374631_112025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Power Bank Casenn 20000mAh Turbo USB-C para iPhone e Samsung",
-      "pix": true,
-      "de": 149.99,
-      "por": 57.7,
-      "cupom": "OPAECONOMIZEI",
-      "titulo": "Desconto de 62%: é agora ou nunca.",
-      "id": 315,
-      "garimpado_em": "2026-10-13T13:53-03:00",
-      "na_revisao_desde": "2026-10-13T13:53-03:00",
-      "removido_em": "2026-10-13T15:49:29-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -4837,7 +4816,7 @@
       "lobaopromo": {
         "achados": 60,
         "aprovados": 12,
-        "reprovados": 31
+        "reprovados": 32
       },
       "promooeasy": {
         "achados": 123,
