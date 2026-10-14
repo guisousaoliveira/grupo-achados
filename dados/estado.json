@@ -340,6 +340,26 @@
       "titulo": "Kit completo para cuidar da barba em casa",
       "na_revisao_desde": "2026-10-14T10:42-03:00",
       "aprovado_em": "2026-10-14T11:10-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB25929487",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/16vRB5b",
+      "link_produto": "https://meli.la/16vRB5b",
+      "post_origem": "https://t.me/lobaopromo/189199",
+      "link_canal": "https://meli.la/2CPNif4",
+      "foto": "AgACAgQAAxkDAAIDSGrPhovBh9l6sk4tuDH1es2qwVaHAAI0EGsb3-ZlUIfq8Oum1Nk-AQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Creatina Monohidratada Dark Lab 1kg (100%)",
+      "de": 159.0,
+      "por": 55.23,
+      "palavra": "creatina",
+      "garimpado_em": "2026-10-14T08:10-03:00",
+      "nota": 82.7,
+      "titulo": "Creatina em pó para o seu treino diário",
+      "na_revisao_desde": "2026-10-14T10:42-03:00",
+      "aprovado_em": "2026-10-14T11:11-03:00"
     }
   ],
   "postados": [
@@ -1209,28 +1229,6 @@
       "id": 517,
       "na_revisao_desde": "2026-10-14T10:42-03:00",
       "msg_id": 843
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB25929487",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/creatina-monohidratada-dark-lab-1kg-100/p/MLB25929487?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/creatina-monohidratada-dark-lab-1kg-100/p/MLB25929487",
-      "post_origem": "https://t.me/lobaopromo/189199",
-      "link_canal": "https://meli.la/2CPNif4",
-      "foto": "AgACAgQAAxkDAAIDSGrPhovBh9l6sk4tuDH1es2qwVaHAAI0EGsb3-ZlUIfq8Oum1Nk-AQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Creatina Monohidratada Dark Lab 1kg (100%)",
-      "de": 159.0,
-      "por": 55.23,
-      "cupom": "CUPOMON",
-      "palavra": "creatina",
-      "garimpado_em": "2026-10-14T08:10-03:00",
-      "nota": 82.7,
-      "titulo": "Creatina em pó para o seu treino diário",
-      "id": 519,
-      "na_revisao_desde": "2026-10-14T10:42-03:00",
-      "msg_id": 845
     }
   ],
   "proximo_id": 520,
@@ -8855,7 +8853,7 @@
       },
       "lobaopromo": {
         "achados": 2,
-        "aprovados": 1,
+        "aprovados": 2,
         "reprovados": 0
       }
     }
@@ -8969,7 +8967,7 @@
     },
     "creatina": {
       "achados": 17,
-      "aprovados": 6,
+      "aprovados": 7,
       "reprovados": 10
     },
     "cueca": {
