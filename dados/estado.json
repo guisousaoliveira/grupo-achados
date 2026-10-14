@@ -2,26 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "shopee",
-      "chave": "shopee:472202601.58211536223",
-      "nome": "Watersy Garrafa Térmica 17oz/510ml a Vácuo Inox 18/8 Antivazamento Portátil para Café Chá Água",
-      "por": 22.99,
-      "de": 88.42,
-      "foto": "AgACAgQAAxkDAAIDKmrO-dJVaOoMAAEOIjMriyVXKSHguAACjQ1rGy681VLGFh3zGv-3AgEAAwIAA3kAAz0E",
-      "link": "https://s.shopee.com.br/7AeJNmkltd",
-      "link_produto": "https://shopee.com.br/product/472202601/58211536223",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "palavra": "garrafa termica",
-      "garimpado_em": "2026-10-14T00:31-03:00",
-      "nota": 93.9,
-      "titulo": "Garrafa térmica em inox para bebidas quentes",
-      "na_revisao_desde": "2026-10-14T00:41-03:00",
-      "aprovado_em": "2026-10-14T09:12-03:00"
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB5169389147",
       "origem": "lobaopromo",
@@ -1207,6 +1187,16 @@
       "link_produto": "https://shopee.com.br/product/787370863/23798509847",
       "titulo": "Nível a laser para alinhar paredes e prateleiras",
       "slot": 14
+    },
+    {
+      "chave": "shopee:472202601.58211536223",
+      "loja": "shopee",
+      "nome": "Watersy Garrafa Térmica 17oz/510ml a Vácuo Inox 18/8 Antivazamento Portátil para Café Chá Água",
+      "data": "2026-10-14T15:44-03:00",
+      "link": "https://s.shopee.com.br/7AeJNmkltd",
+      "link_produto": "https://shopee.com.br/product/472202601/58211536223",
+      "titulo": "Garrafa térmica em inox para bebidas quentes",
+      "slot": 15
     }
   ],
   "slots_usados": {
@@ -1256,7 +1246,8 @@
       11,
       12,
       13,
-      14
+      14,
+      15
     ]
   },
   "shopee_buscado_em": "",
@@ -4270,6 +4261,19 @@
   "ultimos": [
     {
       "loja": "shopee",
+      "chave": "shopee:472202601.58211536223",
+      "nome": "Watersy Garrafa Térmica 17oz/510ml a Vácuo Inox 18/8 Antivazamento Portátil para Café Chá Água",
+      "por": 22.99,
+      "de": 88.42,
+      "foto": "AgACAgQAAxkDAAIDKmrO-dJVaOoMAAEOIjMriyVXKSHguAACjQ1rGy681VLGFh3zGv-3AgEAAwIAA3kAAz0E",
+      "link": "https://s.shopee.com.br/7AeJNmkltd",
+      "link_produto": "https://shopee.com.br/product/472202601/58211536223",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "titulo": "Garrafa térmica em inox para bebidas quentes"
+    },
+    {
+      "loja": "shopee",
       "chave": "shopee:787370863.23798509847",
       "nome": "Nível a Laser 3 em 1 com Trena 2,5m, Tripé e Régua – Level Pro 03 Alinhador Horizontal e Vertical",
       "por": 29.9,
@@ -4795,19 +4799,6 @@
       "nome": "Óculos De Sol Hexagonal Masculino Premium Uv400 Flexivel Preto",
       "por": 79.99,
       "de": 139.99
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB68750945",
-      "origem": "xetdaspromocoes",
-      "link": "https://meli.la/2RgAWa6",
-      "link_produto": "https://meli.la/2RgAWa6",
-      "post_origem": "https://t.me/xetdaspromocoes/84509",
-      "foto": "AgACAgQAAxkDAAIBP2rNnHgaTWEmdwmmR_8FabBuuyZIAAKsDmsbJNGkU4t4AbaY7WQTAQADAgADeAADPQQ",
-      "nome": "Boné Aba Reta Five Panel Evasecret Water Strapback Impermeavel Preta",
-      "por": 49.44,
-      "titulo": "Boné impermeável",
-      "de": 89.9
     }
   ],
   "lixeira": [
