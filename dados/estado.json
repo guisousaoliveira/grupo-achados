@@ -272,6 +272,26 @@
       "titulo": "Nível a laser para alinhar paredes e prateleiras",
       "na_revisao_desde": "2026-10-14T08:40-03:00",
       "aprovado_em": "2026-10-14T09:10-03:00"
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:472202601.58211536223",
+      "nome": "Watersy Garrafa Térmica 17oz/510ml a Vácuo Inox 18/8 Antivazamento Portátil para Café Chá Água",
+      "por": 22.99,
+      "de": 88.42,
+      "foto": "AgACAgQAAxkDAAIDKmrO-dJVaOoMAAEOIjMriyVXKSHguAACjQ1rGy681VLGFh3zGv-3AgEAAwIAA3kAAz0E",
+      "link": "https://s.shopee.com.br/7AeJNmkltd",
+      "link_produto": "https://shopee.com.br/product/472202601/58211536223",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "palavra": "garrafa termica",
+      "garimpado_em": "2026-10-14T00:31-03:00",
+      "nota": 93.9,
+      "titulo": "Garrafa térmica em inox para bebidas quentes",
+      "na_revisao_desde": "2026-10-14T00:41-03:00",
+      "aprovado_em": "2026-10-14T09:12-03:00"
     }
   ],
   "postados": [
@@ -1064,27 +1084,6 @@
       "id": 504,
       "na_revisao_desde": "2026-10-14T00:41-03:00",
       "msg_id": 809
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:472202601.58211536223",
-      "nome": "Watersy Garrafa Térmica 17oz/510ml a Vácuo Inox 18/8 Antivazamento Portátil para Café Chá Água",
-      "por": 22.99,
-      "de": 88.42,
-      "foto": "AgACAgQAAxkDAAIDKmrO-dJVaOoMAAEOIjMriyVXKSHguAACjQ1rGy681VLGFh3zGv-3AgEAAwIAA3kAAz0E",
-      "link": "https://s.shopee.com.br/7AeJNmkltd",
-      "link_produto": "https://shopee.com.br/product/472202601/58211536223",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "palavra": "garrafa termica",
-      "garimpado_em": "2026-10-14T00:31-03:00",
-      "nota": 93.9,
-      "titulo": "Garrafa térmica em inox para bebidas quentes",
-      "id": 505,
-      "na_revisao_desde": "2026-10-14T00:41-03:00",
-      "msg_id": 810
     },
     {
       "loja": "shopee",
@@ -8784,7 +8783,7 @@
     "2026-10-14": {
       "shopee": {
         "achados": 9,
-        "aprovados": 4,
+        "aprovados": 5,
         "reprovados": 1
       }
     }
@@ -8933,7 +8932,7 @@
     },
     "garrafa termica": {
       "achados": 4,
-      "aprovados": 1,
+      "aprovados": 2,
       "reprovados": 1
     },
     "jbl": {
