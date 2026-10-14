@@ -1366,29 +1366,6 @@
       "msg_id": 913
     },
     {
-      "loja": "shopee",
-      "chave": "shopee:811879342.20975432920",
-      "nome": "Cafeteira Britânia CP15 Vidro Preto com Inox",
-      "por": 99.9,
-      "de": 129.74,
-      "foto": "AgACAgQAAxkDAAIDkmrQBQJmR7HugMXBOPcLwwKWDBayAAI5D2sbBH70Udt-T5Nr5Wp5AQADAgADeQADPQQ",
-      "link": "https://s.shopee.com.br/gQqj6akoN",
-      "link_produto": "https://shopee.com.br/product/811879342/20975432920",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.9,
-      "vendas": 797,
-      "palavra": "cafeteira",
-      "garimpado_em": "2026-10-14T16:50-03:00",
-      "nota": 50.9,
-      "titulo": "Cafeteira para preparar café fresco em casa",
-      "id": 562,
-      "na_revisao_desde": "2026-10-14T19:41-03:00",
-      "msg_id": 914
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB68466630",
       "origem": "promonocontext",
@@ -4955,6 +4932,30 @@
   ],
   "lixeira": [
     {
+      "loja": "shopee",
+      "chave": "shopee:811879342.20975432920",
+      "nome": "Cafeteira Britânia CP15 Vidro Preto com Inox",
+      "por": 99.9,
+      "de": 129.74,
+      "foto": "AgACAgQAAxkDAAIDkmrQBQJmR7HugMXBOPcLwwKWDBayAAI5D2sbBH70Udt-T5Nr5Wp5AQADAgADeQADPQQ",
+      "link": "https://s.shopee.com.br/gQqj6akoN",
+      "link_produto": "https://shopee.com.br/product/811879342/20975432920",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.9,
+      "vendas": 797,
+      "palavra": "cafeteira",
+      "garimpado_em": "2026-10-14T16:50-03:00",
+      "nota": 50.9,
+      "titulo": "Cafeteira para preparar café fresco em casa",
+      "id": 562,
+      "na_revisao_desde": "2026-10-14T19:41-03:00",
+      "removido_em": "2026-10-14T19:59:49-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0GWF58YPT",
       "origem": "promobit",
@@ -5823,7 +5824,7 @@
       "shopee": {
         "achados": 37,
         "aprovados": 15,
-        "reprovados": 19
+        "reprovados": 20
       },
       "lobaopromo": {
         "achados": 8,
@@ -5917,7 +5918,7 @@
     "cafeteira": {
       "achados": 4,
       "aprovados": 0,
-      "reprovados": 3
+      "reprovados": 4
     },
     "caixa de som": {
       "achados": 18,
