@@ -1007,23 +1007,6 @@
       "garimpado_em": "2026-10-13T23:41-03:00",
       "na_revisao_desde": "2026-10-13T23:41-03:00",
       "msg_id": 799
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B089B7Z8ZD",
-      "origem": "boletando",
-      "link": "https://www.amazon.com.br/dp/B089B7Z8ZD?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B089B7Z8ZD?tag=alphadominu09-20",
-      "post_origem": "https://t.me/boletando/76678",
-      "link_canal": "https://boletando.com/oferta/269027/",
-      "foto": "AgACAgQAAxkDAAIDHmrO69BWDqr3bCwIQBh2sWSWbbKwAAInDGsb3fQsUf8yIuSbO6CqAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Teclado Mecânico Redragon Dark Avenger Preto Iluminação Rainbow Switch Marrom K568R",
-      "titulo": "Teclado mecânico Redragon com 30% de desconto",
-      "id": 499,
-      "garimpado_em": "2026-10-13T23:41-03:00",
-      "na_revisao_desde": "2026-10-13T23:41-03:00",
-      "msg_id": 800
     }
   ],
   "proximo_id": 500,
@@ -2026,6 +2009,24 @@
   ],
   "lixeira": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B089B7Z8ZD",
+      "origem": "boletando",
+      "link": "https://www.amazon.com.br/dp/B089B7Z8ZD?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B089B7Z8ZD?tag=alphadominu09-20",
+      "post_origem": "https://t.me/boletando/76678",
+      "link_canal": "https://boletando.com/oferta/269027/",
+      "foto": "AgACAgQAAxkDAAIDHmrO69BWDqr3bCwIQBh2sWSWbbKwAAInDGsb3fQsUf8yIuSbO6CqAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Teclado Mecânico Redragon Dark Avenger Preto Iluminação Rainbow Switch Marrom K568R",
+      "titulo": "Teclado mecânico Redragon com 30% de desconto",
+      "id": 499,
+      "garimpado_em": "2026-10-13T23:41-03:00",
+      "na_revisao_desde": "2026-10-13T23:41-03:00",
+      "removido_em": "2026-10-13T23:42:03-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB7109118660",
       "origem": "promooeasy",
@@ -2813,26 +2814,6 @@
       "na_revisao_desde": "2026-10-13T18:30-03:00",
       "removido_em": "2026-10-13T23:41:07-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB5257224607",
-      "origem": "promonocontext",
-      "link": "https://www.mercadolivre.com.br/3x-creatina-monohidratada-pura-500g-dark-lab-unidade/up/MLBU5243767674?pdp_filters=item_id%3AMLB5257224607&matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/3x-creatina-monohidratada-pura-500g-dark-lab-unidade/up/MLBU5243767674?pdp_filters=item_id%3AMLB5257224607",
-      "post_origem": "https://t.me/promonocontext/126389",
-      "link_canal": "https://meli.la/2uyr7Rt",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_989710-MLB117885955947_092026-O.webp",
-      "foto_origem": "loja",
-      "nome": "3x Creatina Monohidratada Pura 500g Dark Lab Unidade",
-      "de": 188.0,
-      "por": 78.0,
-      "titulo": "Kit com três creatinas com 59% off",
-      "id": 422,
-      "garimpado_em": "2026-10-13T18:21-03:00",
-      "na_revisao_desde": "2026-10-13T18:21-03:00",
-      "removido_em": "2026-10-13T23:41:07-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -2947,7 +2928,7 @@
       "boletando": {
         "achados": 3,
         "aprovados": 0,
-        "reprovados": 1
+        "reprovados": 2
       }
     }
   },
