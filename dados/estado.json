@@ -362,6 +362,26 @@
       "titulo": "Smartwatch esportivo para monitorar suas atividades diárias",
       "na_revisao_desde": "2026-10-14T15:41-03:00",
       "aprovado_em": "2026-10-14T18:18-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB18218398",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/2gzYBUv",
+      "link_produto": "https://meli.la/2gzYBUv",
+      "post_origem": "https://t.me/lobaopromo/189500",
+      "link_canal": "https://meli.la/2cnt2ZN",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_764568-MLA99034657020_112025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Proteína Integralmédica Whey 100% Pure em pó sabor Baunilha x 900g",
+      "de": 309.0,
+      "por": 138.0,
+      "palavra": "whey",
+      "garimpado_em": "2026-10-14T18:10-03:00",
+      "nota": 67.9,
+      "titulo": "Whey NO PRECINHO",
+      "na_revisao_desde": "2026-10-14T18:40-03:00",
+      "aprovado_em": "2026-10-14T18:56-03:00"
     }
   ],
   "postados": [
@@ -1499,27 +1519,6 @@
       "id": 555,
       "na_revisao_desde": "2026-10-14T18:40-03:00",
       "msg_id": 904
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB18218398",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/proteina-integralmedica-whey-100-pure-em-po-sabor-baunilha-x-900g/p/MLB18218398?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/proteina-integralmedica-whey-100-pure-em-po-sabor-baunilha-x-900g/p/MLB18218398",
-      "post_origem": "https://t.me/lobaopromo/189500",
-      "link_canal": "https://meli.la/2cnt2ZN",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_764568-MLA99034657020_112025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Proteína Integralmédica Whey 100% Pure em pó sabor Baunilha x 900g",
-      "de": 309.0,
-      "por": 138.0,
-      "palavra": "whey",
-      "garimpado_em": "2026-10-14T18:10-03:00",
-      "nota": 67.9,
-      "titulo": "Whey de baunilha para bater a proteína diária",
-      "id": 556,
-      "na_revisao_desde": "2026-10-14T18:40-03:00",
-      "msg_id": 905
     }
   ],
   "proximo_id": 560,
@@ -5692,7 +5691,7 @@
       },
       "lobaopromo": {
         "achados": 7,
-        "aprovados": 4,
+        "aprovados": 5,
         "reprovados": 2
       },
       "xetdaspromocoes": {
@@ -5951,7 +5950,7 @@
     },
     "whey": {
       "achados": 9,
-      "aprovados": 2,
+      "aprovados": 3,
       "reprovados": 6
     },
     "relogio masculino": {
