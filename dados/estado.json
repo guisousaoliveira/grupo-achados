@@ -319,6 +319,27 @@
       "titulo": "Mochila espaçosa para viagens e rotina diária",
       "aprovado_sozinho": true,
       "aprovado_em": "2026-10-14T10:42-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB5169389147",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/2cfTgBD",
+      "link_produto": "https://meli.la/2cfTgBD",
+      "post_origem": "https://t.me/lobaopromo/189247",
+      "link_canal": "https://meli.la/1fb5Sh2",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_995416-MLB116990436955_082026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Kit Barba Óleo Shampoo + Condicionador Balm Pasta Modeladora",
+      "pix": true,
+      "de": 220.0,
+      "por": 64.83,
+      "palavra": "kit barba",
+      "garimpado_em": "2026-10-14T09:30-03:00",
+      "nota": 83.6,
+      "titulo": "Kit completo para cuidar da barba em casa",
+      "na_revisao_desde": "2026-10-14T10:42-03:00",
+      "aprovado_em": "2026-10-14T11:10-03:00"
     }
   ],
   "postados": [
@@ -1188,29 +1209,6 @@
       "id": 517,
       "na_revisao_desde": "2026-10-14T10:42-03:00",
       "msg_id": 843
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB5169389147",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/kit-barba-oleo-shampoo--condicionador-balm-pasta-modeladora/up/MLBU5044134267?pdp_filters=item_id%3AMLB5169389147&matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/kit-barba-oleo-shampoo--condicionador-balm-pasta-modeladora/up/MLBU5044134267?pdp_filters=item_id%3AMLB5169389147",
-      "post_origem": "https://t.me/lobaopromo/189247",
-      "link_canal": "https://meli.la/1fb5Sh2",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_995416-MLB116990436955_082026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Kit Barba Óleo Shampoo + Condicionador Balm Pasta Modeladora",
-      "pix": true,
-      "de": 220.0,
-      "por": 54.83,
-      "cupom": "CUPOMON",
-      "palavra": "kit barba",
-      "garimpado_em": "2026-10-14T09:30-03:00",
-      "nota": 83.6,
-      "titulo": "Kit completo para cuidar da barba em casa",
-      "id": 518,
-      "na_revisao_desde": "2026-10-14T10:42-03:00",
-      "msg_id": 844
     },
     {
       "loja": "mercadolivre",
@@ -8821,7 +8819,7 @@
       },
       "lobaopromo": {
         "achados": 2,
-        "aprovados": 0,
+        "aprovados": 1,
         "reprovados": 0
       }
     }
@@ -9080,7 +9078,7 @@
     },
     "kit barba": {
       "achados": 1,
-      "aprovados": 0,
+      "aprovados": 1,
       "reprovados": 0
     }
   }
