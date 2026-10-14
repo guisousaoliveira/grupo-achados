@@ -2,26 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB25929487",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/16vRB5b",
-      "link_produto": "https://meli.la/16vRB5b",
-      "post_origem": "https://t.me/lobaopromo/189199",
-      "link_canal": "https://meli.la/2CPNif4",
-      "foto": "AgACAgQAAxkDAAIDSGrPhovBh9l6sk4tuDH1es2qwVaHAAI0EGsb3-ZlUIfq8Oum1Nk-AQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Creatina Monohidratada Dark Lab 1kg (100%)",
-      "de": 159.0,
-      "por": 55.23,
-      "palavra": "creatina",
-      "garimpado_em": "2026-10-14T08:10-03:00",
-      "nota": 82.7,
-      "titulo": "Creatina em pó para o seu treino diário",
-      "na_revisao_desde": "2026-10-14T10:42-03:00",
-      "aprovado_em": "2026-10-14T11:11-03:00"
-    },
-    {
       "loja": "shopee",
       "chave": "shopee:979724994.23798014198",
       "nome": "Jogo de Soquetes de Impacto Longo 1/2 10 Peças  8 A 24mm",
@@ -1174,6 +1154,15 @@
       "link_produto": "https://shopee.com.br/product/373745451/17609940424",
       "titulo": "Kit de ferramentas para reparos rápidos em casa",
       "slot": 17
+    },
+    {
+      "chave": "mercadolivre:MLB25929487",
+      "loja": "mercadolivre",
+      "nome": "Creatina Monohidratada Dark Lab 1kg (100%)",
+      "data": "2026-10-14T17:57-03:00",
+      "link": "https://meli.la/16vRB5b",
+      "link_produto": "https://meli.la/16vRB5b",
+      "titulo": "Creatina em pó para o seu treino diário"
     }
   ],
   "slots_usados": {
@@ -4565,6 +4554,19 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB25929487",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/16vRB5b",
+      "link_produto": "https://meli.la/16vRB5b",
+      "post_origem": "https://t.me/lobaopromo/189199",
+      "foto": "AgACAgQAAxkDAAIDSGrPhovBh9l6sk4tuDH1es2qwVaHAAI0EGsb3-ZlUIfq8Oum1Nk-AQADAgADeAADPQQ",
+      "nome": "Creatina Monohidratada Dark Lab 1kg (100%)",
+      "de": 159.0,
+      "por": 78.9,
+      "titulo": "Creatina em pó para o seu treino diário"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:373745451.17609940424",
       "nome": "Jogo De Soquete 46 Peças 1/4 Catraca Chave Allen",
@@ -5092,20 +5094,6 @@
       "de": 199.0,
       "por": 101.28,
       "titulo": "Esmerilhadeira 220v"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB5737308982",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/2EKRcwN",
-      "link_produto": "https://meli.la/2EKRcwN",
-      "post_origem": "https://t.me/lobaopromo/188682",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_785152-MLB115716082758_092026-O.webp",
-      "nome": "Chave De Impacto Brushless 600nm 21v Com 2 Baterias Ryoku Verde",
-      "de": 425.0,
-      "por": 227.03,
-      "titulo": "Chave de impacto",
-      "pix": true
     }
   ],
   "lixeira": [
