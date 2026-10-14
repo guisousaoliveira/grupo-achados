@@ -1479,17 +1479,17 @@
   "proximo_id": 545,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84831,
-      "lobaopromo": 189444,
-      "gatunopromos": 125357,
+      "xetdaspromocoes": 84832,
+      "lobaopromo": 189447,
+      "gatunopromos": 125360,
       "pobregram": 41895,
-      "urubupromo": 41672,
-      "tudonapromo": 101886,
-      "promonocontext": 126733,
-      "promooeasy": 221505,
+      "urubupromo": 41673,
+      "tudonapromo": 101887,
+      "promonocontext": 126736,
+      "promooeasy": 221507,
       "aquitempechincha": 281648,
-      "infoBRpromos": 67560,
-      "boletando": 76726,
+      "infoBRpromos": 67561,
+      "boletando": 76728,
       "promotop": 260282,
       "achadosdotb": 11769
     },
@@ -3136,18 +3136,19 @@
       "shopee:1382839066.23998934814",
       "shopee:511507233.15682012392",
       "shopee:1620512848.22794410769",
-      "shopee:1167658467.19298318396"
+      "shopee:1167658467.19298318396",
+      "shopee:1538553747.22399024192"
     ],
     "ultima": {
-      "em": "2026-10-14T16:00:29-03:00",
+      "em": "2026-10-14T16:10:22-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 45,
-      "do_nicho": 5,
-      "repetidas": 5,
+      "posts_novos": 30,
+      "do_nicho": 3,
+      "repetidas": 3,
       "novas": 0,
       "limite_dia": false,
       "repetidas_nome": 0,
@@ -3159,7 +3160,7 @@
     "nesta_hora": 0,
     "promobit_hora": "2026-10-14T16",
     "promobit_nesta_hora": 0,
-    "promobit_visto": 3113839,
+    "promobit_visto": 3113860,
     "nomes": [
       [
         [
@@ -4337,8 +4338,8 @@
     ],
     "soltas_hora": "2026-10-14T16",
     "soltas": 0,
-    "shopee_em": "2026-10-14T15:50-03:00",
-    "shopee_indice": 40,
+    "shopee_em": "2026-10-14T16:10-03:00",
+    "shopee_indice": 48,
     "soltas_dia_data": "2026-10-14",
     "soltas_dia": 35,
     "soltas_loja": {}
@@ -5370,7 +5371,7 @@
       }
     }
   },
-  "aviso_post": "2026-10-14 15|shopee:472202601.58211536223",
+  "aviso_post": "2026-10-14 16|mercadolivre:MLB5169389147",
   "garimpo_palavras": {
     "academia": {
       "achados": 20,
