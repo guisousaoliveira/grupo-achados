@@ -2301,7 +2301,9 @@ def soltar_peneira(estado, r, forcado=False):
     if por_dia:
         vagas = min(vagas, por_dia - r["soltas_dia"])
     soltas = 0
-    for item in sorted(peneira, key=lambda x: -x.get("nota", 0))[:max(vagas, 0)]:
+    for item in sorted(peneira, key=lambda x: -x.get("nota", 0)):
+        if soltas >= vagas:
+            break
         peneira.remove(item)
         if repetida_pelo_nome(estado, r, item):  # entrou parecida em Revisar enquanto esperava
             continue
