@@ -302,6 +302,27 @@
       "titulo": "Smartwatch esportivo para monitorar suas atividades diárias",
       "na_revisao_desde": "2026-10-14T15:41-03:00",
       "aprovado_em": "2026-10-14T18:18-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB68466630",
+      "origem": "promonocontext",
+      "link": "https://meli.la/2hwoF4P",
+      "link_produto": "https://meli.la/2hwoF4P",
+      "post_origem": "https://t.me/promonocontext/126808",
+      "link_canal": "https://meli.la/2erPW7y",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_751328-MLA109896098642_042026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Garrafa Térmica 1.2l Bebidas Quentes E Frias Duradoura Preto",
+      "de": 79.0,
+      "por": 37.0,
+      "cupom": "MELIGARANTE",
+      "palavra": "garrafa termica",
+      "garimpado_em": "2026-10-14T18:50-03:00",
+      "nota": 86.0,
+      "titulo": "Garrafa térmica na temperatura ideal",
+      "na_revisao_desde": "2026-10-14T19:41-03:00",
+      "aprovado_em": "2026-10-14T20:00-03:00"
     }
   ],
   "postados": [
@@ -1364,28 +1385,6 @@
       "id": 561,
       "na_revisao_desde": "2026-10-14T19:40-03:00",
       "msg_id": 913
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB68466630",
-      "origem": "promonocontext",
-      "link": "https://www.mercadolivre.com.br/garrafa-termica-12l-bebidas-quentes-e-frias-duradoura-preto/p/MLB68466630?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/garrafa-termica-12l-bebidas-quentes-e-frias-duradoura-preto/p/MLB68466630",
-      "post_origem": "https://t.me/promonocontext/126808",
-      "link_canal": "https://meli.la/2erPW7y",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_751328-MLA109896098642_042026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Garrafa Térmica 1.2l Bebidas Quentes E Frias Duradoura Preto",
-      "de": 79.0,
-      "por": 37.0,
-      "cupom": "MELIGARANTE",
-      "palavra": "garrafa termica",
-      "garimpado_em": "2026-10-14T18:50-03:00",
-      "nota": 86.0,
-      "titulo": "Garrafa térmica preta para manter líquidos na temperatura id",
-      "id": 563,
-      "na_revisao_desde": "2026-10-14T19:41-03:00",
-      "msg_id": 915
     }
   ],
   "proximo_id": 565,
@@ -5843,7 +5842,7 @@
       },
       "promonocontext": {
         "achados": 10,
-        "aprovados": 4,
+        "aprovados": 5,
         "reprovados": 4
       },
       "promooeasy": {
@@ -6002,7 +6001,7 @@
     },
     "garrafa termica": {
       "achados": 6,
-      "aprovados": 4,
+      "aprovados": 5,
       "reprovados": 1
     },
     "jbl": {
