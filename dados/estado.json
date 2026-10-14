@@ -257,6 +257,28 @@
       "titulo": "Relógio digital esportivo à prova d'água",
       "aprovado_sozinho": true,
       "aprovado_em": "2026-10-14T13:40-03:00"
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:1121459942.23293571172",
+      "nome": "Bolsa de Ferramentas Profissional 14/20 Polegadas Multiuso Caixa de Ferramentas Maleta Organizadora Tecido Resiste",
+      "por": 36.99,
+      "de": 92.47,
+      "foto": "AgACAgQAAxkDAAIDgmrP6NRkv7ttEf5BHnrnCN5v-mC1AAJKD2sbNocdUYNsFUwXt_iEAQADAgADeQADPQQ",
+      "link": "https://s.shopee.com.br/2VsUqM0ifg",
+      "link_produto": "https://shopee.com.br/product/1121459942/23293571172",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.9,
+      "vendas": 758,
+      "palavra": "ferramenta",
+      "garimpado_em": "2026-10-14T15:50-03:00",
+      "nota": 80.3,
+      "titulo": "Bolsa resistente para organizar ferramentas no trabalho",
+      "na_revisao_desde": "2026-10-14T17:40-03:00",
+      "aprovado_em": "2026-10-14T17:58-03:00"
     }
   ],
   "postados": [
@@ -1643,29 +1665,6 @@
       "id": 553,
       "na_revisao_desde": "2026-10-14T17:40-03:00",
       "msg_id": 897
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:1121459942.23293571172",
-      "nome": "Bolsa de Ferramentas Profissional 14/20 Polegadas Multiuso Caixa de Ferramentas Maleta Organizadora Tecido Resiste",
-      "por": 36.99,
-      "de": 92.47,
-      "foto": "AgACAgQAAxkDAAIDgmrP6NRkv7ttEf5BHnrnCN5v-mC1AAJKD2sbNocdUYNsFUwXt_iEAQADAgADeQADPQQ",
-      "link": "https://s.shopee.com.br/2VsUqM0ifg",
-      "link_produto": "https://shopee.com.br/product/1121459942/23293571172",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.9,
-      "vendas": 758,
-      "palavra": "ferramenta",
-      "garimpado_em": "2026-10-14T15:50-03:00",
-      "nota": 80.3,
-      "titulo": "Bolsa resistente para organizar ferramentas no trabalho",
-      "id": 554,
-      "na_revisao_desde": "2026-10-14T17:40-03:00",
-      "msg_id": 898
     }
   ],
   "proximo_id": 555,
@@ -5545,7 +5544,7 @@
     "2026-10-14": {
       "shopee": {
         "achados": 34,
-        "aprovados": 13,
+        "aprovados": 14,
         "reprovados": 11
       },
       "lobaopromo": {
@@ -5709,7 +5708,7 @@
     },
     "ferramenta": {
       "achados": 5,
-      "aprovados": 1,
+      "aprovados": 2,
       "reprovados": 2
     },
     "fritadeira": {
