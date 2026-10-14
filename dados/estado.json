@@ -2800,25 +2800,6 @@
       "msg_id": 765
     },
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB52868715",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/fritadeira-eletrica-air-fryer-quad-fry-42-l1400w-preto-elgin/p/MLB52868715?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/fritadeira-eletrica-air-fryer-quad-fry-42-l1400w-preto-elgin/p/MLB52868715",
-      "post_origem": "https://t.me/lobaopromo/189066",
-      "link_canal": "https://meli.la/1Ls8ErK",
-      "foto": "AgACAgQAAxkDAAOMasy82itJUcUO7d9zgjF7WT2q8Z4AAs0LaxsB5m1R4HzighpUZ-UBAAMCAAN4AAM9BA",
-      "foto_origem": "loja",
-      "nome": "Fritadeira Elétrica Air Fryer Quad Fry 4,2 L,1400w Preto Elgin",
-      "de": 299.0,
-      "por": 135.0,
-      "titulo": "Fritadeira Elgin 4,2L com 55% de desconto",
-      "id": 476,
-      "garimpado_em": "2026-10-13T21:09-03:00",
-      "na_revisao_desde": "2026-10-13T21:09-03:00",
-      "msg_id": 766
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B092SPZFYT",
       "origem": "promobit",
@@ -4008,6 +3989,26 @@
   ],
   "lixeira": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB52868715",
+      "origem": "lobaopromo",
+      "link": "https://www.mercadolivre.com.br/fritadeira-eletrica-air-fryer-quad-fry-42-l1400w-preto-elgin/p/MLB52868715?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/fritadeira-eletrica-air-fryer-quad-fry-42-l1400w-preto-elgin/p/MLB52868715",
+      "post_origem": "https://t.me/lobaopromo/189066",
+      "link_canal": "https://meli.la/1Ls8ErK",
+      "foto": "AgACAgQAAxkDAAOMasy82itJUcUO7d9zgjF7WT2q8Z4AAs0LaxsB5m1R4HzighpUZ-UBAAMCAAN4AAM9BA",
+      "foto_origem": "loja",
+      "nome": "Fritadeira Elétrica Air Fryer Quad Fry 4,2 L,1400w Preto Elgin",
+      "de": 299.0,
+      "por": 135.0,
+      "titulo": "Fritadeira Elgin 4,2L com 55% de desconto",
+      "id": 476,
+      "garimpado_em": "2026-10-13T21:09-03:00",
+      "na_revisao_desde": "2026-10-13T21:09-03:00",
+      "removido_em": "2026-10-13T23:35:27-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0GJ7GG3YV",
       "origem": "promooeasy",
@@ -4796,27 +4797,6 @@
       "na_revisao_desde": "2026-10-13T13:52-03:00",
       "removido_em": "2026-10-13T15:49:29-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0C3DMVVVZ",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B0C3DMVVVZ?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0C3DMVVVZ?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/i2go-headphone-bass-300-bluetooth-microfone-integrado-controle-multimidia-ate-10h-de-bateria-tecnologia-dual-connect-entrada-cabo-auxiliar-p2-3110622/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3110622/",
-      "nome": "I2GO, Headphone Bass 300, Bluetooth, Microfone Integrado, Controle",
-      "por": 85.4,
-      "de": 149.9,
-      "foto": "https://m.media-amazon.com/images/I/61lg3DwB7zL._AC_SL1500_.jpg",
-      "foto_origem": "loja",
-      "titulo": "43% off, isso aqui não fica muito tempo assim.",
-      "id": 313,
-      "garimpado_em": "2026-10-13T13:51-03:00",
-      "na_revisao_desde": "2026-10-13T13:51-03:00",
-      "removido_em": "2026-10-13T15:49:29-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -4886,7 +4866,7 @@
       "lobaopromo": {
         "achados": 60,
         "aprovados": 12,
-        "reprovados": 29
+        "reprovados": 30
       },
       "promooeasy": {
         "achados": 123,
