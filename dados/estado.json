@@ -133,26 +133,6 @@
     },
     {
       "loja": "shopee",
-      "chave": "shopee:1266325318.21897981294",
-      "nome": "Attracione Men (Perfume Masculino com Feromônios Ativados)",
-      "por": 59.0,
-      "de": 295.0,
-      "foto": "AgACAgQAAxkDAAIDJWrO8oXWu3IS6d1uMARvJQx_K4C4AAIqD2sbz6l0UjwulUo5ISK-AQADAgADeQADPQQ",
-      "link": "https://s.shopee.com.br/6fi2lNkNTw",
-      "link_produto": "https://shopee.com.br/product/1266325318/21897981294",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "palavra": "perfume masculino",
-      "garimpado_em": "2026-10-14T00:09-03:00",
-      "nota": 93.0,
-      "titulo": "Perfume Attracione Men com 80% de desconto",
-      "na_revisao_desde": "2026-10-14T00:09-03:00",
-      "aprovado_em": "2026-10-14T00:13-03:00"
-    },
-    {
-      "loja": "shopee",
       "chave": "shopee:787370863.23798509847",
       "nome": "Nível a Laser 3 em 1 com Trena 2,5m, Tripé e Régua – Level Pro 03 Alinhador Horizontal e Vertical",
       "por": 29.9,
@@ -1147,6 +1127,15 @@
       "link": "https://meli.la/2w5iRyp",
       "link_produto": "https://meli.la/2w5iRyp",
       "titulo": "é agora ou nunca."
+    },
+    {
+      "chave": "shopee:1266325318.21897981294",
+      "loja": "shopee",
+      "nome": "Attracione Men (Perfume Masculino com Feromônios Ativados)",
+      "data": "2026-10-14T11:16-03:00",
+      "link": "https://s.shopee.com.br/6fi2lNkNTw",
+      "link_produto": "https://shopee.com.br/product/1266325318/21897981294",
+      "titulo": "Perfume Attracione Men com 80% de desconto"
     }
   ],
   "slots_usados": {
@@ -8035,6 +8024,19 @@
   },
   "ultimos": [
     {
+      "loja": "shopee",
+      "chave": "shopee:1266325318.21897981294",
+      "nome": "Attracione Men (Perfume Masculino com Feromônios Ativados)",
+      "por": 59.0,
+      "de": 295.0,
+      "foto": "AgACAgQAAxkDAAIDJWrO8oXWu3IS6d1uMARvJQx_K4C4AAIqD2sbz6l0UjwulUo5ISK-AQADAgADeQADPQQ",
+      "link": "https://s.shopee.com.br/6fi2lNkNTw",
+      "link_produto": "https://shopee.com.br/product/1266325318/21897981294",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "titulo": "Perfume Attracione Men com 80% de desconto"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB5933730066",
       "origem": "lobaopromo",
@@ -8563,19 +8565,6 @@
       "por": 123.49,
       "titulo": "Boné New Era com 51% off",
       "pix": true
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0955QFBH2",
-      "origem": "lobaopromo",
-      "link": "https://link.amazon/B0gRojdZy",
-      "link_produto": "https://link.amazon/B0gRojdZy",
-      "post_origem": "https://t.me/lobaopromo/188606",
-      "foto": "AgACAgEAAxkDAAIBIGrNeYHy6vnsSO8KjQNVbGfm5NreAAKWDWsb8PdpRpfTawW4Ky0zAQADAgADeQADPQQ",
-      "nome": "Mondial Cafeteira Elétrica Dolce Arome, 550W, 110V",
-      "de": 139.0,
-      "por": 91.7,
-      "titulo": "pra começar o dia bem"
     }
   ],
   "lixeira": [
