@@ -2,25 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB4788829267",
-      "origem": "promonocontext",
-      "link": "https://meli.la/1crfbXn",
-      "link_produto": "https://meli.la/1crfbXn",
-      "post_origem": "https://t.me/promonocontext/126458",
-      "link_canal": "https://meli.la/17kfVDc",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_707498-MLB113399104387_062026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Mochila Mormaii Resistente Casual 21 Litros Básica Azul",
-      "de": 139.0,
-      "por": 78.9,
-      "titulo": "Mochila Mormaii resistente",
-      "garimpado_em": "2026-10-13T22:50-03:00",
-      "na_revisao_desde": "2026-10-13T22:50-03:00",
-      "aprovado_em": "2026-10-13T23:32-03:00",
-      "aviso_validade": true
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B0FFTQV2KP",
       "origem": "promobit",
@@ -1164,6 +1145,16 @@
       "link": "https://meli.la/2CDzSsQ",
       "link_produto": "https://meli.la/2CDzSsQ",
       "titulo": "Bold Creatina com 14% de desconto"
+    },
+    {
+      "chave": "mercadolivre:MLB4788829267",
+      "loja": "mercadolivre",
+      "nome": "Mochila Mormaii Resistente Casual 21 Litros Básica Azul",
+      "data": "2026-10-14T12:40-03:00",
+      "link": "https://meli.la/1crfbXn",
+      "link_produto": "https://meli.la/1crfbXn",
+      "titulo": "Mochila Mormaii resistente",
+      "slot": 12
     }
   ],
   "slots_usados": {
@@ -1210,7 +1201,8 @@
       8,
       9,
       10,
-      11
+      11,
+      12
     ]
   },
   "shopee_buscado_em": "",
@@ -5076,6 +5068,19 @@
   "ultimos": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB4788829267",
+      "origem": "promonocontext",
+      "link": "https://meli.la/1crfbXn",
+      "link_produto": "https://meli.la/1crfbXn",
+      "post_origem": "https://t.me/promonocontext/126458",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_707498-MLB113399104387_062026-O.webp",
+      "nome": "Mochila Mormaii Resistente Casual 21 Litros Básica Azul",
+      "de": 139.0,
+      "por": 78.9,
+      "titulo": "Mochila Mormaii resistente"
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB6284520224",
       "origem": "promonocontext",
       "link": "https://meli.la/2CDzSsQ",
@@ -5601,20 +5606,6 @@
       "de": 339.0,
       "por": 164.99,
       "titulo": "Tênis no precinho"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0CZPSD2SC",
-      "origem": "lobaopromo",
-      "link": "https://link.amazon/B0grXIV5Z",
-      "link_produto": "https://link.amazon/B0grXIV5Z",
-      "post_origem": "https://t.me/lobaopromo/188653",
-      "foto": "AgACAgQAAxkDAAIBO2rNlXWTywrQFqu1Jb9aYmlkkBXaAAIEEGsb_7TsUN3Lpm60UkBCAQADAgADeAADPQQ",
-      "nome": "Stanley Garrafa Térmica Aerolight Transit Cream, 591ml",
-      "titulo": "Garrafa Stanley para manter sua bebida gelada",
-      "de": 269.0,
-      "por": 165.0,
-      "parcelas": 5
     }
   ],
   "lixeira": [
