@@ -2074,27 +2074,6 @@
     },
     {
       "loja": "amazon",
-      "chave": "amazon:B0GR11CQ84",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B0GR11CQ84?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0GR11CQ84?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/monitor-samsung-odyssey-oled-g9-49-dqhd-240hz003ms-3111542/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3111542/",
-      "nome": "Monitor Samsung Odyssey OLED G9 49\" DQHD (240Hz0.03ms)",
-      "por": 8349.0,
-      "de": 9499.0,
-      "cupom": "MONITOR200",
-      "foto": "AgACAgQAAxkDAAIC0GrOp67pBn23HNWrqSl_ETiBqfUwAAKiDmsb7PX9UAABf1q-N_yhGgEAAwIAA3gAAz0E",
-      "foto_origem": "loja",
-      "titulo": "Monitor Odyssey G9 com 12% de desconto",
-      "id": 432,
-      "garimpado_em": "2026-10-13T18:50-03:00",
-      "na_revisao_desde": "2026-10-13T18:50-03:00",
-      "msg_id": 720
-    },
-    {
-      "loja": "amazon",
       "chave": "amazon:B07GMCX5S4",
       "origem": "xetdaspromocoes",
       "link": "https://www.amazon.com.br/dp/B07GMCX5S4?tag=alphadominu09-20",
@@ -3747,6 +3726,28 @@
   ],
   "lixeira": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B0GR11CQ84",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0GR11CQ84?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0GR11CQ84?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/monitor-samsung-odyssey-oled-g9-49-dqhd-240hz003ms-3111542/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3111542/",
+      "nome": "Monitor Samsung Odyssey OLED G9 49\" DQHD (240Hz0.03ms)",
+      "por": 8349.0,
+      "de": 9499.0,
+      "cupom": "MONITOR200",
+      "foto": "AgACAgQAAxkDAAIC0GrOp67pBn23HNWrqSl_ETiBqfUwAAKiDmsb7PX9UAABf1q-N_yhGgEAAwIAA3gAAz0E",
+      "foto_origem": "loja",
+      "titulo": "Monitor Odyssey G9 com 12% de desconto",
+      "id": 432,
+      "garimpado_em": "2026-10-13T18:50-03:00",
+      "na_revisao_desde": "2026-10-13T18:50-03:00",
+      "removido_em": "2026-10-13T23:37:43-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB4887126937",
       "origem": "promonocontext",
@@ -4535,25 +4536,6 @@
       "na_revisao_desde": "2026-10-13T16:01-03:00",
       "removido_em": "2026-10-13T16:03:54-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B07BZCHM16",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B07BZCHM16?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B07BZCHM16?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/220669",
-      "link_canal": "https://www.amazon.com.br/Borracha-Antiderrapante-Costuradas-Teclado-Objetos/dp/B07BZCHM16?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAIChGrOgAUsECxiZ0svMS5O_ZNDWL56AAISD2sbSMzEUBQwIG2hd1krAQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "nome": "Havit Mouse Pad Grande Gamer MP860, 70 X 30 Cm, Tecido de Malha Fina, Base de Borracha Antiderrapante, Design com Bordas",
-      "por": 29.99,
-      "titulo": "Mouse pad grande Havit com 40% off",
-      "id": 362,
-      "garimpado_em": "2026-10-13T16:01-03:00",
-      "na_revisao_desde": "2026-10-13T16:01-03:00",
-      "removido_em": "2026-10-13T16:03:50-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -4618,7 +4600,7 @@
       "promobit": {
         "achados": 58,
         "aprovados": 5,
-        "reprovados": 33
+        "reprovados": 34
       },
       "lobaopromo": {
         "achados": 60,
