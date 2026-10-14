@@ -2,26 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB25757804",
-      "origem": "xetdaspromocoes",
-      "link": "https://meli.la/1vmbMZ6",
-      "link_produto": "https://meli.la/1vmbMZ6",
-      "post_origem": "https://t.me/xetdaspromocoes/84546",
-      "link_canal": "https://meli.la/1y3vjAq",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_840594-MLA99966063943_112025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Fone De Ouvido Bluetooth TWS Dapon F25 Touch Sem Fio Com Microfone",
-      "pix": true,
-      "de": 140.0,
-      "por": 66.0,
-      "titulo": "Fone bluetooth com 53% off",
-      "garimpado_em": "2026-10-13T09:37-03:00",
-      "na_revisao_desde": "2026-10-13T09:37-03:00",
-      "aprovado_em": "2026-10-13T09:59-03:00",
-      "aviso_validade": true
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B077BV7M4R",
       "origem": "promobit",
@@ -890,6 +870,14 @@
       "link": "https://meli.la/25uErxZ",
       "link_produto": "https://meli.la/25uErxZ",
       "slot": 21
+    },
+    {
+      "chave": "mercadolivre:MLB25757804",
+      "loja": "mercadolivre",
+      "nome": "Fone De Ouvido Bluetooth TWS Dapon F25 Touch Sem Fio Com Microfone",
+      "data": "2026-10-13T22:19-03:00",
+      "link": "https://meli.la/1vmbMZ6",
+      "link_produto": "https://meli.la/1vmbMZ6"
     }
   ],
   "slots_usados": {
@@ -3631,6 +3619,20 @@
   "ultimos": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB25757804",
+      "origem": "xetdaspromocoes",
+      "link": "https://meli.la/1vmbMZ6",
+      "link_produto": "https://meli.la/1vmbMZ6",
+      "post_origem": "https://t.me/xetdaspromocoes/84546",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_840594-MLA99966063943_112025-O.webp",
+      "nome": "Fone De Ouvido Bluetooth TWS Dapon F25 Touch Sem Fio Com Microfone",
+      "pix": true,
+      "de": 140.0,
+      "por": 66.0,
+      "titulo": "Fone bluetooth com 53% off"
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB46202402",
       "origem": "xetdaspromocoes",
       "link": "https://meli.la/25uErxZ",
@@ -4168,19 +4170,6 @@
       "foto": "AgACAgQAAxkDAAOyas0gQw1b8l4iLf9Zr-Iyq3Kd2nIAAj4PaxsiGGxSLZawaRg-L14BAAMCAANtAAM9BA",
       "titulo": "CUPOM EXCLUSIVO PARA O APP",
       "pix": true
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB21802395",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/2L275Zt",
-      "link_produto": "https://meli.la/2L275Zt",
-      "post_origem": "https://t.me/lobaopromo/188589",
-      "foto": "AgACAgEAAxkDAAIBFmrNdp5-dk9MpnvQfMgXAyrWEO16AAKVDWsb8PdpRutW1oeh__mtAQADAgADeQADPQQ",
-      "nome": "Mochila Viagem Masculina 40L Grande Impermeável Reforçada para Avião",
-      "de": 300.0,
-      "por": 72.0,
-      "titulo": "Mochila em promoção"
     }
   ],
   "lixeira": [
