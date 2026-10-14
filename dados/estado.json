@@ -3,28 +3,6 @@
   "fila": [
     {
       "loja": "shopee",
-      "chave": "shopee:787370863.23798509847",
-      "nome": "Nível a Laser 3 em 1 com Trena 2,5m, Tripé e Régua – Level Pro 03 Alinhador Horizontal e Vertical",
-      "por": 29.9,
-      "de": 149.5,
-      "foto": "AgACAgQAAxkDAAIDNmrPakGUbT0cjwzMB1E2NDri4FEcAAJYuTEbAuoMUJgcUqzPqRfRAQADAgADeAADPQQ",
-      "link": "https://s.shopee.com.br/qkGJeDgTV",
-      "link_produto": "https://shopee.com.br/product/787370863/23798509847",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.8,
-      "vendas": 628,
-      "palavra": "trena",
-      "garimpado_em": "2026-10-14T07:40-03:00",
-      "nota": 93.4,
-      "titulo": "Nível a laser para alinhar paredes e prateleiras",
-      "na_revisao_desde": "2026-10-14T08:40-03:00",
-      "aprovado_em": "2026-10-14T09:10-03:00"
-    },
-    {
-      "loja": "shopee",
       "chave": "shopee:472202601.58211536223",
       "nome": "Watersy Garrafa Térmica 17oz/510ml a Vácuo Inox 18/8 Antivazamento Portátil para Café Chá Água",
       "por": 22.99,
@@ -1219,6 +1197,16 @@
       "link": "https://s.shopee.com.br/905xXfFQaZ",
       "link_produto": "https://shopee.com.br/product/394192376/21897733919",
       "titulo": "Creatina P&P FIT 250g com 88% off"
+    },
+    {
+      "chave": "shopee:787370863.23798509847",
+      "loja": "shopee",
+      "nome": "Nível a Laser 3 em 1 com Trena 2,5m, Tripé e Régua – Level Pro 03 Alinhador Horizontal e Vertical",
+      "data": "2026-10-14T14:13-03:00",
+      "link": "https://s.shopee.com.br/qkGJeDgTV",
+      "link_produto": "https://shopee.com.br/product/787370863/23798509847",
+      "titulo": "Nível a laser para alinhar paredes e prateleiras",
+      "slot": 14
     }
   ],
   "slots_usados": {
@@ -1267,7 +1255,8 @@
       10,
       11,
       12,
-      13
+      13,
+      14
     ]
   },
   "shopee_buscado_em": "",
@@ -4028,6 +4017,19 @@
   "ultimos": [
     {
       "loja": "shopee",
+      "chave": "shopee:787370863.23798509847",
+      "nome": "Nível a Laser 3 em 1 com Trena 2,5m, Tripé e Régua – Level Pro 03 Alinhador Horizontal e Vertical",
+      "por": 29.9,
+      "de": 149.5,
+      "foto": "AgACAgQAAxkDAAIDNmrPakGUbT0cjwzMB1E2NDri4FEcAAJYuTEbAuoMUJgcUqzPqRfRAQADAgADeAADPQQ",
+      "link": "https://s.shopee.com.br/qkGJeDgTV",
+      "link_produto": "https://shopee.com.br/product/787370863/23798509847",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "titulo": "Nível a laser para alinhar paredes e prateleiras"
+    },
+    {
+      "loja": "shopee",
       "chave": "shopee:394192376.21897733919",
       "nome": "Creatina 250g 100% Pura Monohidratada - P&P FIT",
       "por": 14.9,
@@ -4553,19 +4555,6 @@
       "por": 49.44,
       "titulo": "Boné impermeável",
       "de": 89.9
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB37809946",
-      "origem": "xetdaspromocoes",
-      "link": "https://meli.la/1SaP4jn",
-      "link_produto": "https://meli.la/1SaP4jn",
-      "post_origem": "https://t.me/xetdaspromocoes/84512",
-      "foto": "AgACAgQAAxkDAAIBQGrNnHrahUpwaiO_zk1KnuWzQ3wbAAIMDGsbAjl9UXaQRYbR9AYWAQADAgADeAADPQQ",
-      "nome": "Dark Lab coqueteleira 700 l",
-      "por": 19.9,
-      "titulo": "Coqueteleira com desconto",
-      "de": 39.9
     }
   ],
   "lixeira": [
