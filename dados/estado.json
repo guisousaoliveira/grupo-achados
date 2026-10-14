@@ -300,6 +300,26 @@
       "titulo": "Perfume árabe amadeirado para o uso diário",
       "na_revisao_desde": "2026-10-14T17:40-03:00",
       "aprovado_em": "2026-10-14T18:00-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB70377228",
+      "origem": "promonocontext",
+      "link": "https://meli.la/2QZxLVs",
+      "link_produto": "https://meli.la/2QZxLVs",
+      "post_origem": "https://t.me/promonocontext/126692",
+      "link_canal": "https://meli.la/1yEte7s",
+      "foto": "AgACAgQAAxkDAAIDfGrP2r4WQst7TXjceb7B1yseUzhPAAKgD2sb0lCEUnT3aR1nxzv4AQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Mochila Urbana 15L Penalty",
+      "de": 119.0,
+      "por": 78.0,
+      "palavra": "mochila",
+      "garimpado_em": "2026-10-14T14:30-03:00",
+      "nota": 58.0,
+      "titulo": "Mochila para carregar notebook no dia a dia",
+      "na_revisao_desde": "2026-10-14T16:40-03:00",
+      "aprovado_em": "2026-10-14T18:01-03:00"
     }
   ],
   "postados": [
@@ -1575,27 +1595,6 @@
       "id": 548,
       "na_revisao_desde": "2026-10-14T16:40-03:00",
       "msg_id": 891
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB70377228",
-      "origem": "promonocontext",
-      "link": "https://www.mercadolivre.com.br/mochila-urbana-15l-penalty/p/MLB70377228?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/mochila-urbana-15l-penalty/p/MLB70377228",
-      "post_origem": "https://t.me/promonocontext/126692",
-      "link_canal": "https://meli.la/1yEte7s",
-      "foto": "AgACAgQAAxkDAAIDfGrP2r4WQst7TXjceb7B1yseUzhPAAKgD2sb0lCEUnT3aR1nxzv4AQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Mochila Urbana 15L Penalty",
-      "de": 119.0,
-      "por": 78.0,
-      "palavra": "mochila",
-      "garimpado_em": "2026-10-14T14:30-03:00",
-      "nota": 58.0,
-      "titulo": "Mochila para carregar notebook no dia a dia",
-      "id": 549,
-      "na_revisao_desde": "2026-10-14T16:40-03:00",
-      "msg_id": 892
     }
   ],
   "proximo_id": 555,
@@ -5566,7 +5565,7 @@
       },
       "promonocontext": {
         "achados": 7,
-        "aprovados": 2,
+        "aprovados": 3,
         "reprovados": 2
       },
       "promooeasy": {
@@ -5745,7 +5744,7 @@
     },
     "mochila": {
       "achados": 10,
-      "aprovados": 3,
+      "aprovados": 4,
       "reprovados": 5
     },
     "oculos de sol": {
