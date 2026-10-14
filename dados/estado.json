@@ -1210,29 +1210,6 @@
   "revisar": [
     {
       "loja": "shopee",
-      "chave": "shopee:756344105.22998122436",
-      "nome": "Suporte de Peito Para Celular e Gopro Peitoral Peito ajustável Câmera Esportivo Moto Bike-envio imediato",
-      "por": 21.0,
-      "de": 80.77,
-      "foto": "AgACAgQAAxkDAAIDXWrPopftEVr4ufYnWCOFMMdnPL3UAAKBDGsbCBeEU8VAfSVl5wr8AQADAgADeAADPQQ",
-      "link": "https://s.shopee.com.br/3qNs2pt0fB",
-      "link_produto": "https://shopee.com.br/product/756344105/22998122436",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.9,
-      "vendas": 280,
-      "palavra": "gopro",
-      "garimpado_em": "2026-10-14T10:01-03:00",
-      "nota": 91.3,
-      "titulo": "Suporte peitoral para gravar pedaladas e trilhas",
-      "id": 525,
-      "na_revisao_desde": "2026-10-14T12:41-03:00",
-      "msg_id": 861
-    },
-    {
-      "loja": "shopee",
       "chave": "shopee:994175276.22593202844",
       "nome": "Drone E88 Dual Camera 4K Com 1 Bateria WI-FI PRETO NOVO",
       "por": 129.97,
@@ -4537,6 +4514,30 @@
   ],
   "lixeira": [
     {
+      "loja": "shopee",
+      "chave": "shopee:756344105.22998122436",
+      "nome": "Suporte de Peito Para Celular e Gopro Peitoral Peito ajustável Câmera Esportivo Moto Bike-envio imediato",
+      "por": 21.0,
+      "de": 80.77,
+      "foto": "AgACAgQAAxkDAAIDXWrPopftEVr4ufYnWCOFMMdnPL3UAAKBDGsbCBeEU8VAfSVl5wr8AQADAgADeAADPQQ",
+      "link": "https://s.shopee.com.br/3qNs2pt0fB",
+      "link_produto": "https://shopee.com.br/product/756344105/22998122436",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.9,
+      "vendas": 280,
+      "palavra": "gopro",
+      "garimpado_em": "2026-10-14T10:01-03:00",
+      "nota": 91.3,
+      "titulo": "Suporte peitoral para gravar pedaladas e trilhas",
+      "id": 525,
+      "na_revisao_desde": "2026-10-14T12:41-03:00",
+      "removido_em": "2026-10-14T13:14:45-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB65993627",
       "origem": "promonocontext",
@@ -4913,7 +4914,7 @@
       "shopee": {
         "achados": 23,
         "aprovados": 12,
-        "reprovados": 8
+        "reprovados": 9
       },
       "lobaopromo": {
         "achados": 2,
@@ -5197,7 +5198,7 @@
     "gopro": {
       "achados": 1,
       "aprovados": 0,
-      "reprovados": 0
+      "reprovados": 1
     },
     "drone": {
       "achados": 1,
