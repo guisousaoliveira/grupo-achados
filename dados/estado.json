@@ -1254,29 +1254,6 @@
       "msg_id": 862
     },
     {
-      "loja": "shopee",
-      "chave": "shopee:1845647873.58263246550",
-      "nome": "Depilador Eletrico Feminino Aparador De Pelos Navalha Dupla Recarregável",
-      "por": 29.9,
-      "de": 199.33,
-      "foto": "AgACAgQAAxkDAAIDX2rPopn7y89dAAGJgSUvXU0iGJ2n4QACJRBrGwsThFEOms2cYS4WigEAAwIAA3kAAz0E",
-      "link": "https://s.shopee.com.br/5fpWIGPQpL",
-      "link_produto": "https://shopee.com.br/product/1845647873/58263246550",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.7,
-      "vendas": 2559,
-      "palavra": "aparador",
-      "garimpado_em": "2026-10-14T11:00-03:00",
-      "nota": 89.6,
-      "titulo": "Aparador para remover pelos com praticidade no dia a dia",
-      "id": 527,
-      "na_revisao_desde": "2026-10-14T12:41-03:00",
-      "msg_id": 863
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB24081502",
       "origem": "promonocontext",
@@ -4938,6 +4915,30 @@
   ],
   "lixeira": [
     {
+      "loja": "shopee",
+      "chave": "shopee:1845647873.58263246550",
+      "nome": "Depilador Eletrico Feminino Aparador De Pelos Navalha Dupla Recarregável",
+      "por": 29.9,
+      "de": 199.33,
+      "foto": "AgACAgQAAxkDAAIDX2rPopn7y89dAAGJgSUvXU0iGJ2n4QACJRBrGwsThFEOms2cYS4WigEAAwIAA3kAAz0E",
+      "link": "https://s.shopee.com.br/5fpWIGPQpL",
+      "link_produto": "https://shopee.com.br/product/1845647873/58263246550",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.7,
+      "vendas": 2559,
+      "palavra": "aparador",
+      "garimpado_em": "2026-10-14T11:00-03:00",
+      "nota": 89.6,
+      "titulo": "Aparador para remover pelos com praticidade no dia a dia",
+      "id": 527,
+      "na_revisao_desde": "2026-10-14T12:41-03:00",
+      "removido_em": "2026-10-14T13:04:05-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB44814777",
       "origem": "tudonapromo",
@@ -5268,7 +5269,7 @@
       "shopee": {
         "achados": 23,
         "aprovados": 12,
-        "reprovados": 7
+        "reprovados": 8
       },
       "lobaopromo": {
         "achados": 2,
@@ -5317,7 +5318,7 @@
     "aparador": {
       "achados": 4,
       "aprovados": 0,
-      "reprovados": 3
+      "reprovados": 4
     },
     "barba": {
       "achados": 2,
