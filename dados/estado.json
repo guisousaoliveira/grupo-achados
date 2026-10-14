@@ -2131,25 +2131,6 @@
     },
     {
       "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB4887126937",
-      "origem": "promonocontext",
-      "link": "https://www.mercadolivre.com.br/maquina-de-cabelo-e-barba-recarregavel-usbc-profissional/up/MLBU4311706640?pdp_filters=item_id%3AMLB4887126937&matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/maquina-de-cabelo-e-barba-recarregavel-usbc-profissional/up/MLBU4311706640?pdp_filters=item_id%3AMLB4887126937",
-      "post_origem": "https://t.me/promonocontext/126405",
-      "link_canal": "https://meli.la/2Vay9Lr",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_991518-MLB117007411897_092026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Máquina De Cabelo E Barba Recarregável Usb-c Profissional 127/220v",
-      "de": 48.0,
-      "por": 22.0,
-      "titulo": "Máquina de acabamento profissional com 54% off",
-      "id": 435,
-      "garimpado_em": "2026-10-13T18:51-03:00",
-      "na_revisao_desde": "2026-10-13T18:51-03:00",
-      "msg_id": 723
-    },
-    {
-      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB5067062561",
       "origem": "promonocontext",
       "link": "https://www.mercadolivre.com.br/caixa-de-som-bluetooth-portatil-65-3000mah-karaoke-rgb/up/MLBU4722839999?pdp_filters=item_id%3AMLB5067062561&matt_word=alphapromo&matt_tool=59136903",
@@ -3766,6 +3747,26 @@
   ],
   "lixeira": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB4887126937",
+      "origem": "promonocontext",
+      "link": "https://www.mercadolivre.com.br/maquina-de-cabelo-e-barba-recarregavel-usbc-profissional/up/MLBU4311706640?pdp_filters=item_id%3AMLB4887126937&matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/maquina-de-cabelo-e-barba-recarregavel-usbc-profissional/up/MLBU4311706640?pdp_filters=item_id%3AMLB4887126937",
+      "post_origem": "https://t.me/promonocontext/126405",
+      "link_canal": "https://meli.la/2Vay9Lr",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_991518-MLB117007411897_092026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Máquina De Cabelo E Barba Recarregável Usb-c Profissional 127/220v",
+      "de": 48.0,
+      "por": 22.0,
+      "titulo": "Máquina de acabamento profissional com 54% off",
+      "id": 435,
+      "garimpado_em": "2026-10-13T18:51-03:00",
+      "na_revisao_desde": "2026-10-13T18:51-03:00",
+      "removido_em": "2026-10-13T23:37:40-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0BF9L5CK8",
       "origem": "promooeasy",
@@ -4553,26 +4554,6 @@
       "na_revisao_desde": "2026-10-13T16:01-03:00",
       "removido_em": "2026-10-13T16:03:50-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB78872569",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/maquina-maquininha-dragao-acabamento-cortar-cabelo-aparador-barba-pelos-eletrica-sem-fio-recarregavel-crowley/p/MLB78872569?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/maquina-maquininha-dragao-acabamento-cortar-cabelo-aparador-barba-pelos-eletrica-sem-fio-recarregavel-crowley/p/MLB78872569",
-      "post_origem": "https://t.me/lobaopromo/188928",
-      "link_canal": "https://meli.la/2kAVWZa",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_952927-MLA115681613734_092026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Maquina Maquininha Dragao Acabamento Cortar Cabelo Aparador Barba",
-      "pix": true,
-      "por": 19.0,
-      "titulo": "Máquina de acabamento para barba e cabelo",
-      "id": 354,
-      "garimpado_em": "2026-10-13T15:51-03:00",
-      "na_revisao_desde": "2026-10-13T15:51-03:00",
-      "removido_em": "2026-10-13T16:03:30-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -4662,7 +4643,7 @@
       "promonocontext": {
         "achados": 51,
         "aprovados": 9,
-        "reprovados": 23
+        "reprovados": 24
       },
       "infoBRpromos": {
         "achados": 8,
