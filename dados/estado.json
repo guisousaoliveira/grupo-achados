@@ -1564,27 +1564,6 @@
       "id": 558,
       "na_revisao_desde": "2026-10-14T18:41-03:00",
       "msg_id": 907
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB2067885628",
-      "origem": "lobaopromo",
-      "link": "https://produto.mercadolivre.com.br/MLB-2067885628-top-puma-academia-fitness-original-nadador-alta-sustentaco-_JM?pdp_filters=item_id%3AMLB2067885628&matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-2067885628-top-puma-academia-fitness-original-nadador-alta-sustentaco-_JM?pdp_filters=item_id%3AMLB2067885628",
-      "post_origem": "https://t.me/lobaopromo/189522",
-      "link_canal": "https://meli.la/1JJY3VB",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_961178-MLB112153608802_062026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Top Puma Academia Fitness Original Nadador Alta Sustentação",
-      "de": 93.0,
-      "por": 45.0,
-      "palavra": "academia",
-      "garimpado_em": "2026-10-14T18:30-03:00",
-      "nota": 67.7,
-      "titulo": "Top Puma de alta sustentação para treinar",
-      "id": 559,
-      "na_revisao_desde": "2026-10-14T18:41-03:00",
-      "msg_id": 908
     }
   ],
   "proximo_id": 560,
@@ -5070,6 +5049,28 @@
   ],
   "lixeira": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB2067885628",
+      "origem": "lobaopromo",
+      "link": "https://produto.mercadolivre.com.br/MLB-2067885628-top-puma-academia-fitness-original-nadador-alta-sustentaco-_JM?pdp_filters=item_id%3AMLB2067885628&matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-2067885628-top-puma-academia-fitness-original-nadador-alta-sustentaco-_JM?pdp_filters=item_id%3AMLB2067885628",
+      "post_origem": "https://t.me/lobaopromo/189522",
+      "link_canal": "https://meli.la/1JJY3VB",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_961178-MLB112153608802_062026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Top Puma Academia Fitness Original Nadador Alta Sustentação",
+      "de": 93.0,
+      "por": 45.0,
+      "palavra": "academia",
+      "garimpado_em": "2026-10-14T18:30-03:00",
+      "nota": 67.7,
+      "titulo": "Top Puma de alta sustentação para treinar",
+      "id": 559,
+      "na_revisao_desde": "2026-10-14T18:41-03:00",
+      "removido_em": "2026-10-14T18:55:09-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:1229047031.23394735827",
       "nome": "Caixa de Som K12 Bluetooth Portátil com 1 ou 2 Microfones Mini Alto-Falante Karaokê",
@@ -5690,7 +5691,7 @@
       "lobaopromo": {
         "achados": 7,
         "aprovados": 4,
-        "reprovados": 1
+        "reprovados": 2
       },
       "xetdaspromocoes": {
         "achados": 4,
@@ -5724,7 +5725,7 @@
     "academia": {
       "achados": 21,
       "aprovados": 6,
-      "reprovados": 14
+      "reprovados": 15
     },
     "air fryer": {
       "achados": 6,
