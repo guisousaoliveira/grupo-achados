@@ -279,6 +279,27 @@
       "titulo": "Bolsa resistente para organizar ferramentas no trabalho",
       "na_revisao_desde": "2026-10-14T17:40-03:00",
       "aprovado_em": "2026-10-14T17:58-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB4470214747",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/2Vf6qGA",
+      "link_produto": "https://meli.la/2Vf6qGA",
+      "post_origem": "https://t.me/lobaopromo/189494",
+      "link_canal": "https://meli.la/2C8MFhA",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_639989-MLB106379373096_022026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Perfume Masculino Premium Midnight Blue 100ml Original Árabe",
+      "pix": true,
+      "de": 249.99,
+      "por": 77.0,
+      "palavra": "perfume masculino",
+      "garimpado_em": "2026-10-14T17:40-03:00",
+      "nota": 93.7,
+      "titulo": "Perfume árabe amadeirado para o uso diário",
+      "na_revisao_desde": "2026-10-14T17:40-03:00",
+      "aprovado_em": "2026-10-14T18:00-03:00"
     }
   ],
   "postados": [
@@ -1575,28 +1596,6 @@
       "id": 549,
       "na_revisao_desde": "2026-10-14T16:40-03:00",
       "msg_id": 892
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB4470214747",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/perfume-masculino-premium-midnight-blue-100ml-original-arabe/up/MLBU3789770770?pdp_filters=item_id%3AMLB4470214747&matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/perfume-masculino-premium-midnight-blue-100ml-original-arabe/up/MLBU3789770770?pdp_filters=item_id%3AMLB4470214747",
-      "post_origem": "https://t.me/lobaopromo/189494",
-      "link_canal": "https://meli.la/2C8MFhA",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_639989-MLB106379373096_022026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Perfume Masculino Premium Midnight Blue 100ml Original Árabe",
-      "pix": true,
-      "de": 249.99,
-      "por": 67.0,
-      "palavra": "perfume masculino",
-      "garimpado_em": "2026-10-14T17:40-03:00",
-      "nota": 93.7,
-      "titulo": "Perfume árabe amadeirado para o uso diário",
-      "id": 550,
-      "na_revisao_desde": "2026-10-14T17:40-03:00",
-      "msg_id": 894
     }
   ],
   "proximo_id": 555,
@@ -5552,7 +5551,7 @@
       },
       "lobaopromo": {
         "achados": 5,
-        "aprovados": 3,
+        "aprovados": 4,
         "reprovados": 1
       },
       "xetdaspromocoes": {
@@ -5766,7 +5765,7 @@
     },
     "perfume masculino": {
       "achados": 7,
-      "aprovados": 4,
+      "aprovados": 5,
       "reprovados": 1
     },
     "power bank": {
