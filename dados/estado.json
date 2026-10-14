@@ -2,26 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "shopee",
-      "chave": "shopee:1566556194.22099191110",
-      "nome": "Garrafa Térmica WATERSY 500ml - 48h Frio! Perfeita para Academia, Futebol e Dia a Dia⚽🏋️",
-      "por": 28.99,
-      "de": 116.62,
-      "foto": "AgACAgQAAxkDAAIDKWrO-dHzBLwG8yAPVSyg7gxmZZz-AAIhEGsbFqK1UM-Xo04jzR8nAQADAgADeQADPQQ",
-      "link": "https://s.shopee.com.br/40hHbxwpJm",
-      "link_produto": "https://shopee.com.br/product/1566556194/22099191110",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "palavra": "garrafa termica",
-      "garimpado_em": "2026-10-14T00:31-03:00",
-      "nota": 95.1,
-      "titulo": "Garrafa térmica que mantém a bebida gelada",
-      "na_revisao_desde": "2026-10-14T00:41-03:00",
-      "aprovado_em": "2026-10-14T09:20-03:00"
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB24081502",
       "origem": "promonocontext",
@@ -1285,6 +1265,15 @@
       "link": "https://meli.la/2CTzyJV",
       "link_produto": "https://meli.la/2CTzyJV",
       "titulo": "Camisa polo slim em piquet para o dia a dia"
+    },
+    {
+      "chave": "shopee:1566556194.22099191110",
+      "loja": "shopee",
+      "nome": "Garrafa Térmica WATERSY 500ml - 48h Frio! Perfeita para Academia, Futebol e Dia a Dia⚽🏋️",
+      "data": "2026-10-14T19:33-03:00",
+      "link": "https://s.shopee.com.br/40hHbxwpJm",
+      "link_produto": "https://shopee.com.br/product/1566556194/22099191110",
+      "titulo": "Garrafa térmica que mantém a bebida gelada"
     }
   ],
   "slots_usados": {
@@ -4305,6 +4294,19 @@
   },
   "ultimos": [
     {
+      "loja": "shopee",
+      "chave": "shopee:1566556194.22099191110",
+      "nome": "Garrafa Térmica WATERSY 500ml - 48h Frio! Perfeita para Academia, Futebol e Dia a Dia⚽🏋️",
+      "por": 28.99,
+      "de": 116.62,
+      "foto": "AgACAgQAAxkDAAIDKWrO-dHzBLwG8yAPVSyg7gxmZZz-AAIhEGsbFqK1UM-Xo04jzR8nAQADAgADeQADPQQ",
+      "link": "https://s.shopee.com.br/40hHbxwpJm",
+      "link_produto": "https://shopee.com.br/product/1566556194/22099191110",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "titulo": "Garrafa térmica que mantém a bebida gelada"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB7574441456",
       "origem": "xetdaspromocoes",
@@ -4828,20 +4830,6 @@
       "de": 139.99,
       "por": 62.21,
       "titulo": "Presença começa no detalhe."
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB68885400",
-      "origem": "promonocontext",
-      "link": "https://meli.la/2gumX4b",
-      "link_produto": "https://meli.la/2gumX4b",
-      "post_origem": "https://t.me/promonocontext/126282",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_784610-MLA110156547384_042026-O.webp",
-      "nome": "Kit Pré Treino Hórus 7 Belo + Creatina 7 Belo Max Titanium 300g",
-      "de": 199.0,
-      "por": 104.0,
-      "cupom": "FULLLANDING",
-      "titulo": "Kit pré-treino e creatina com 48% off"
     }
   ],
   "lixeira": [
