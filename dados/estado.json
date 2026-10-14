@@ -225,26 +225,6 @@
       "na_revisao_desde": "2026-10-13T22:41-03:00",
       "pix": true,
       "aprovado_em": "2026-10-13T23:35-03:00"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0FCG5ZJDJ",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://link.amazon/B02IZFygP",
-      "link_produto": "https://link.amazon/B02IZFygP",
-      "post_origem": "https://www.promobit.com.br/oferta/camisa-polo-corinthians-retro-masculina-preta-3111782/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3111782/",
-      "nome": "Camisa Polo Corinthians Retrô Masculina Preta",
-      "por": 89.9,
-      "de": 219.99,
-      "foto": "AgACAgQAAxkDAAICrGrOkKVaTrMmvlYN7dvtP-kJtyRVAALJDmsbWZcVUltVIswcdLuJAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "titulo": "Camisa retrô do Corinthians",
-      "garimpado_em": "2026-10-13T20:50-03:00",
-      "na_revisao_desde": "2026-10-13T20:50-03:00",
-      "parcelas": 2,
-      "aprovado_em": "2026-10-13T23:36-03:00"
     }
   ],
   "postados": [
@@ -924,6 +904,14 @@
       "data": "2026-10-13T23:33-03:00",
       "link": "https://meli.la/1C3xGJw",
       "link_produto": "https://meli.la/1C3xGJw"
+    },
+    {
+      "chave": "amazon:B0FCG5ZJDJ",
+      "loja": "amazon",
+      "nome": "Camisa Polo Corinthians Retrô Masculina Preta",
+      "data": "2026-10-13T23:36-03:00",
+      "link": "https://link.amazon/B02IZFygP",
+      "link_produto": "https://link.amazon/B02IZFygP"
     }
   ],
   "slots_usados": {
@@ -3414,6 +3402,21 @@
   },
   "ultimos": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B0FCG5ZJDJ",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://link.amazon/B02IZFygP",
+      "link_produto": "https://link.amazon/B02IZFygP",
+      "post_origem": "https://www.promobit.com.br/oferta/camisa-polo-corinthians-retro-masculina-preta-3111782/",
+      "nome": "Camisa Polo Corinthians Retrô Masculina Preta",
+      "por": 89.9,
+      "de": 219.99,
+      "foto": "AgACAgQAAxkDAAICrGrOkKVaTrMmvlYN7dvtP-kJtyRVAALJDmsbWZcVUltVIswcdLuJAQADAgADeAADPQQ",
+      "titulo": "Camisa retrô do Corinthians",
+      "parcelas": 2
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB75755258",
       "origem": "lobaopromo",
@@ -3952,19 +3955,6 @@
       "parcelas": 8,
       "pix": true,
       "parcela_valor": 23.74
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB22357681",
-      "origem": "gatunopromos",
-      "link": "https://meli.la/31oLFm5",
-      "link_produto": "https://www.mercadolivre.com.br/aparador-de-pelos-kemei-km-6511-nariz-orelhas-sem-fio-preto/p/MLB22357681",
-      "post_origem": "https://t.me/gatunopromos/124892",
-      "foto": "AgACAgQAAxkDAAO4as0k8VJI5KxNjEbUGWRUFhLEwWUAApEPaxurvGRSfwqBK-hyHyoBAAMCAAN4AAM9BA",
-      "nome": "Aparador de Pelos Kemei KM-6511 Nariz Orelhas Sem Fio Preto",
-      "pix": true,
-      "de": 78.0,
-      "por": 28.0
     }
   ],
   "lixeira": [
