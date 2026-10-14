@@ -1620,28 +1620,6 @@
       "id": 551,
       "na_revisao_desde": "2026-10-14T17:40-03:00",
       "msg_id": 895
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B09SJT773X",
-      "origem": "promonocontext",
-      "link": "https://www.amazon.com.br/dp/B09SJT773X?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B09SJT773X?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promonocontext/126759",
-      "link_canal": "https://amazn.pro/r/dqbgPk",
-      "foto": "AgACAgEAAxkDAAIDgGrP6NAsDxCd7Tm29Z2nsC7m2WX8AAIODmsbKhqARtzDhOnJ4rKTAQADAgADeAADPQQ",
-      "foto_origem": "canal",
-      "nome": "Pré Treino Horus Cítrus 300g Max Titanium",
-      "pix": true,
-      "de": 53.0,
-      "por": 15.0,
-      "palavra": "pre treino",
-      "garimpado_em": "2026-10-14T17:00-03:00",
-      "nota": 73.7,
-      "titulo": "Pré treino para aumentar o foco e a energia",
-      "id": 552,
-      "na_revisao_desde": "2026-10-14T17:40-03:00",
-      "msg_id": 896
     }
   ],
   "proximo_id": 555,
@@ -5074,6 +5052,29 @@
   ],
   "lixeira": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B09SJT773X",
+      "origem": "promonocontext",
+      "link": "https://www.amazon.com.br/dp/B09SJT773X?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B09SJT773X?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promonocontext/126759",
+      "link_canal": "https://amazn.pro/r/dqbgPk",
+      "foto": "AgACAgEAAxkDAAIDgGrP6NAsDxCd7Tm29Z2nsC7m2WX8AAIODmsbKhqARtzDhOnJ4rKTAQADAgADeAADPQQ",
+      "foto_origem": "canal",
+      "nome": "Pré Treino Horus Cítrus 300g Max Titanium",
+      "pix": true,
+      "de": 53.0,
+      "por": 15.0,
+      "palavra": "pre treino",
+      "garimpado_em": "2026-10-14T17:00-03:00",
+      "nota": 73.7,
+      "titulo": "Pré treino para aumentar o foco e a energia",
+      "id": 552,
+      "na_revisao_desde": "2026-10-14T17:40-03:00",
+      "removido_em": "2026-10-14T17:59:33-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB51241395",
       "origem": "lobaopromo",
@@ -5566,7 +5567,7 @@
       "promonocontext": {
         "achados": 7,
         "aprovados": 2,
-        "reprovados": 1
+        "reprovados": 2
       },
       "promooeasy": {
         "achados": 2,
@@ -5775,7 +5776,7 @@
     "pre treino": {
       "achados": 2,
       "aprovados": 0,
-      "reprovados": 1
+      "reprovados": 2
     },
     "relogio": {
       "achados": 6,
