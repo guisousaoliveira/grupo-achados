@@ -2035,25 +2035,6 @@
     },
     {
       "loja": "amazon",
-      "chave": "amazon:B0FHWYPYF4",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0FHWYPYF4?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0FHWYPYF4?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/220802",
-      "link_canal": "https://www.amazon.com.br/dp/B0FHWYPYF4?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAICzWrOpWU26OzuEScldDfreX7fnHxhAALmDGsbYEaMUyFkDmuFWICQAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Street Fighter 6 Years 1-2 Fighters Edition - PS5 + Frete Grátis",
-      "parcelas": 4,
-      "por": 149.9,
-      "titulo": "Street Fighter 6 Fighters Edition com desconto",
-      "id": 430,
-      "garimpado_em": "2026-10-13T18:40-03:00",
-      "na_revisao_desde": "2026-10-13T18:40-03:00",
-      "msg_id": 717
-    },
-    {
-      "loja": "amazon",
       "chave": "amazon:B07Z55NZ7G",
       "origem": "promobit",
       "fonte": "promobit",
@@ -3727,6 +3708,26 @@
   "lixeira": [
     {
       "loja": "amazon",
+      "chave": "amazon:B0FHWYPYF4",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0FHWYPYF4?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0FHWYPYF4?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220802",
+      "link_canal": "https://www.amazon.com.br/dp/B0FHWYPYF4?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAICzWrOpWU26OzuEScldDfreX7fnHxhAALmDGsbYEaMUyFkDmuFWICQAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Street Fighter 6 Years 1-2 Fighters Edition - PS5 + Frete Grátis",
+      "parcelas": 4,
+      "por": 149.9,
+      "titulo": "Street Fighter 6 Fighters Edition com desconto",
+      "id": 430,
+      "garimpado_em": "2026-10-13T18:40-03:00",
+      "na_revisao_desde": "2026-10-13T18:40-03:00",
+      "removido_em": "2026-10-13T23:37:46-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "amazon",
       "chave": "amazon:B0GR11CQ84",
       "origem": "promobit",
       "fonte": "promobit",
@@ -4514,28 +4515,6 @@
       "na_revisao_desde": "2026-10-13T15:53-03:00",
       "removido_em": "2026-10-13T16:04:35-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:688161501.19298319441",
-      "origem": "promooeasy",
-      "link": "https://shopee.com.br/product/688161501/19298319441",
-      "link_produto": "https://shopee.com.br/product/688161501/19298319441",
-      "post_origem": "https://t.me/promooeasy/220666",
-      "link_canal": "https://s.shopee.com.br/8AWq087qSY?lp=aff",
-      "precisa_link": true,
-      "foto": "AgACAgEAAxkDAAICg2rOf_8JyeKh74MKDcQKbTbM-QTXAAKNDWsb7AJxRiBfgoCP8AbdAQADAgADeAADPQQ",
-      "foto_origem": "canal",
-      "nome": "Notebook VAIO FE16 AMD Ryzen 5 - 5625U Linux 16GB RAM 512GB SSD",
-      "pix": true,
-      "por": 3339.0,
-      "cupom": "AQUI",
-      "titulo": "Notebook VAIO com 16GB RAM e SSD 512GB",
-      "id": 361,
-      "garimpado_em": "2026-10-13T16:01-03:00",
-      "na_revisao_desde": "2026-10-13T16:01-03:00",
-      "removido_em": "2026-10-13T16:03:54-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -4610,7 +4589,7 @@
       "promooeasy": {
         "achados": 123,
         "aprovados": 2,
-        "reprovados": 91
+        "reprovados": 92
       },
       "xetdaspromocoes": {
         "achados": 19,
