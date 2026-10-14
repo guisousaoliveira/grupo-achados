@@ -1541,29 +1541,6 @@
       "id": 557,
       "na_revisao_desde": "2026-10-14T18:41-03:00",
       "msg_id": 906
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:260477274.58214031254",
-      "nome": "Kettlebell Macio Antiderrapante Diversos Pesos para Treino Funcional, Fitness e Musculação",
-      "por": 59.99,
-      "de": 162.14,
-      "foto": "AgACAgQAAxkDAAIDi2rP9u7-m9QMcwhyF1XQsJV4jKo-AALmDGsbzsw8UyefQZgQT7JuAQADAgADeAADPQQ",
-      "link": "https://s.shopee.com.br/9V2Ej5NGRG",
-      "link_produto": "https://shopee.com.br/product/260477274/58214031254",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 5.0,
-      "vendas": 101,
-      "palavra": "kettlebell",
-      "garimpado_em": "2026-10-14T17:30-03:00",
-      "nota": 80.3,
-      "titulo": "Kettlebell macio para treino funcional e musculação",
-      "id": 558,
-      "na_revisao_desde": "2026-10-14T18:41-03:00",
-      "msg_id": 907
     }
   ],
   "proximo_id": 560,
@@ -5049,6 +5026,30 @@
   ],
   "lixeira": [
     {
+      "loja": "shopee",
+      "chave": "shopee:260477274.58214031254",
+      "nome": "Kettlebell Macio Antiderrapante Diversos Pesos para Treino Funcional, Fitness e Musculação",
+      "por": 59.99,
+      "de": 162.14,
+      "foto": "AgACAgQAAxkDAAIDi2rP9u7-m9QMcwhyF1XQsJV4jKo-AALmDGsbzsw8UyefQZgQT7JuAQADAgADeAADPQQ",
+      "link": "https://s.shopee.com.br/9V2Ej5NGRG",
+      "link_produto": "https://shopee.com.br/product/260477274/58214031254",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 5.0,
+      "vendas": 101,
+      "palavra": "kettlebell",
+      "garimpado_em": "2026-10-14T17:30-03:00",
+      "nota": 80.3,
+      "titulo": "Kettlebell macio para treino funcional e musculação",
+      "id": 558,
+      "na_revisao_desde": "2026-10-14T18:41-03:00",
+      "removido_em": "2026-10-14T18:55:11-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB2067885628",
       "origem": "lobaopromo",
@@ -5686,7 +5687,7 @@
       "shopee": {
         "achados": 36,
         "aprovados": 15,
-        "reprovados": 15
+        "reprovados": 16
       },
       "lobaopromo": {
         "achados": 7,
@@ -6005,7 +6006,7 @@
     "kettlebell": {
       "achados": 1,
       "aprovados": 0,
-      "reprovados": 0
+      "reprovados": 1
     }
   }
 }
