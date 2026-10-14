@@ -292,6 +292,28 @@
       "titulo": "Garrafa térmica em inox para bebidas quentes",
       "na_revisao_desde": "2026-10-14T00:41-03:00",
       "aprovado_em": "2026-10-14T09:12-03:00"
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:373745451.17609940424",
+      "nome": "Jogo De Soquete 46 Peças 1/4 Catraca Chave Allen",
+      "por": 25.99,
+      "de": 324.88,
+      "foto": "AgACAgQAAxkDAAIDNWrPakDuc8_Tv3OVFsShA37eWIfyAAJLC2sbhrBEU1NCu7o9TDIWAQADAgADeQADPQQ",
+      "link": "https://s.shopee.com.br/8fT7cybORp",
+      "link_produto": "https://shopee.com.br/product/373745451/17609940424",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.8,
+      "vendas": 807,
+      "palavra": "jogo de soquete",
+      "garimpado_em": "2026-10-14T07:25-03:00",
+      "nota": 93.4,
+      "titulo": "Kit de ferramentas para reparos rápidos em casa",
+      "na_revisao_desde": "2026-10-14T08:40-03:00",
+      "aprovado_em": "2026-10-14T09:12-03:00"
     }
   ],
   "postados": [
@@ -1107,29 +1129,6 @@
       "id": 507,
       "na_revisao_desde": "2026-10-14T07:40-03:00",
       "msg_id": 819
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:373745451.17609940424",
-      "nome": "Jogo De Soquete 46 Peças 1/4 Catraca Chave Allen",
-      "por": 25.99,
-      "de": 324.88,
-      "foto": "AgACAgQAAxkDAAIDNWrPakDuc8_Tv3OVFsShA37eWIfyAAJLC2sbhrBEU1NCu7o9TDIWAQADAgADeQADPQQ",
-      "link": "https://s.shopee.com.br/8fT7cybORp",
-      "link_produto": "https://shopee.com.br/product/373745451/17609940424",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.8,
-      "vendas": 807,
-      "palavra": "jogo de soquete",
-      "garimpado_em": "2026-10-14T07:25-03:00",
-      "nota": 93.4,
-      "titulo": "Kit de ferramentas para reparos rápidos em casa",
-      "id": 508,
-      "na_revisao_desde": "2026-10-14T08:40-03:00",
-      "msg_id": 821
     }
   ],
   "proximo_id": 510,
@@ -8783,7 +8782,7 @@
     "2026-10-14": {
       "shopee": {
         "achados": 9,
-        "aprovados": 5,
+        "aprovados": 6,
         "reprovados": 1
       }
     }
@@ -9027,7 +9026,7 @@
     },
     "jogo de soquete": {
       "achados": 2,
-      "aprovados": 0,
+      "aprovados": 1,
       "reprovados": 0
     },
     "trena": {
