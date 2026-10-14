@@ -241,6 +241,24 @@
       "garimpado_em": "2026-10-13T17:57-03:00",
       "na_revisao_desde": "2026-10-13T17:57-03:00",
       "aprovado_em": "2026-10-13T23:39-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB6139419",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/1d4dxW9",
+      "link_produto": "https://meli.la/1d4dxW9",
+      "post_origem": "https://t.me/lobaopromo/189091",
+      "link_canal": "https://meli.la/1fA4rfv",
+      "foto": "AgACAgQAAxkDAAIDE2rO2OQup5iaiMN5hE_cDb-oztYIAAIODWsbJSTsU-rt8bqT0BCuAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Perfume Masculino Eau de Toilette Azzaro",
+      "de": 859.0,
+      "por": 399.0,
+      "titulo": "Perfume COM DESCONTO!",
+      "garimpado_em": "2026-10-13T22:20-03:00",
+      "na_revisao_desde": "2026-10-13T22:20-03:00",
+      "aprovado_em": "2026-10-13T23:40-03:00"
     }
   ],
   "postados": [
@@ -2433,25 +2451,6 @@
       "garimpado_em": "2026-10-13T22:01-03:00",
       "na_revisao_desde": "2026-10-13T22:01-03:00",
       "msg_id": 781
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB6139419",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/perfume-masculino-eau-de-toilette-azzaro-azzaro-pour-homme-200-ml/p/MLB6139419?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/perfume-masculino-eau-de-toilette-azzaro-azzaro-pour-homme-200-ml/p/MLB6139419",
-      "post_origem": "https://t.me/lobaopromo/189091",
-      "link_canal": "https://meli.la/1fA4rfv",
-      "foto": "AgACAgQAAxkDAAIDE2rO2OQup5iaiMN5hE_cDb-oztYIAAIODWsbJSTsU-rt8bqT0BCuAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Perfume Masculino Eau de Toilette Azzaro",
-      "de": 859.0,
-      "por": 434.0,
-      "titulo": "Perfume Azzaro com 49% de desconto",
-      "id": 492,
-      "garimpado_em": "2026-10-13T22:20-03:00",
-      "na_revisao_desde": "2026-10-13T22:20-03:00",
-      "msg_id": 787
     }
   ],
   "proximo_id": 498,
@@ -4333,7 +4332,7 @@
       },
       "lobaopromo": {
         "achados": 60,
-        "aprovados": 12,
+        "aprovados": 13,
         "reprovados": 34
       },
       "promooeasy": {
