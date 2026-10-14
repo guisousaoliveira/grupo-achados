@@ -341,6 +341,28 @@
       "titulo": "Relógio digital esportivo à prova d'água",
       "aprovado_sozinho": true,
       "aprovado_em": "2026-10-14T13:40-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB57797847",
+      "origem": "promonocontext",
+      "link": "https://meli.la/2ZXjdGB",
+      "link_produto": "https://meli.la/2ZXjdGB",
+      "post_origem": "https://t.me/promonocontext/126676",
+      "link_canal": "https://meli.la/19E4GeK",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_799653-MLA111923920498_062026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Garrafa Térmica Stanley Aerolight Transit Slim Black 2.0 591ml",
+      "cupom_loja": "Use o cupom 15% OFF do anúncio 📌",
+      "de": 259.0,
+      "por": 140.0,
+      "palavra": "garrafa termica",
+      "garimpado_em": "2026-10-14T13:40-03:00",
+      "nota": 72.9,
+      "titulo": "Garrafa térmica que mantém a bebida gelada o dia todo",
+      "na_revisao_desde": "2026-10-14T13:40-03:00",
+      "cupom": "Use o cupom 15% OFF do anúncio",
+      "aprovado_em": "2026-10-14T13:42-03:00"
     }
   ],
   "postados": [
@@ -1308,28 +1330,6 @@
       "id": 533,
       "na_revisao_desde": "2026-10-14T13:40-03:00",
       "msg_id": 872
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB57797847",
-      "origem": "promonocontext",
-      "link": "https://www.mercadolivre.com.br/garrafa-termica-stanley-aerolight-transit-slim-black-20-591ml/p/MLB57797847?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/garrafa-termica-stanley-aerolight-transit-slim-black-20-591ml/p/MLB57797847",
-      "post_origem": "https://t.me/promonocontext/126676",
-      "link_canal": "https://meli.la/19E4GeK",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_799653-MLA111923920498_062026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Garrafa Térmica Stanley Aerolight Transit Slim Black 2.0 591ml",
-      "cupom_loja": "Use o cupom 15% OFF do anúncio 📌",
-      "de": 259.0,
-      "por": 140.0,
-      "palavra": "garrafa termica",
-      "garimpado_em": "2026-10-14T13:40-03:00",
-      "nota": 72.9,
-      "titulo": "Garrafa térmica que mantém a bebida gelada o dia todo",
-      "id": 534,
-      "na_revisao_desde": "2026-10-14T13:40-03:00",
-      "msg_id": 873
     }
   ],
   "proximo_id": 535,
@@ -5167,7 +5167,7 @@
       },
       "promonocontext": {
         "achados": 3,
-        "aprovados": 1,
+        "aprovados": 2,
         "reprovados": 1
       }
     }
@@ -5316,7 +5316,7 @@
     },
     "garrafa termica": {
       "achados": 5,
-      "aprovados": 3,
+      "aprovados": 4,
       "reprovados": 1
     },
     "jbl": {
