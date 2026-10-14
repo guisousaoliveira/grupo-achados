@@ -1413,29 +1413,6 @@
       "msg_id": 878
     },
     {
-      "loja": "shopee",
-      "chave": "shopee:1229047031.23394735827",
-      "nome": "Caixa de Som K12 Bluetooth Portátil com 1 ou 2 Microfones Mini Alto-Falante Karaokê",
-      "por": 25.99,
-      "de": 99.96,
-      "foto": "AgACAgQAAxkDAAIDb2rPvpsew80jrjLQeg5-eZDh_ZvBAAIED2sbcUc9UvkaUbo4qQ1WAQADAgADeAADPQQ",
-      "link": "https://s.shopee.com.br/4B0iiXhbAq",
-      "link_produto": "https://shopee.com.br/product/1229047031/23394735827",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.8,
-      "vendas": 276,
-      "palavra": "caixa de som",
-      "garimpado_em": "2026-10-14T14:10-03:00",
-      "nota": 81.5,
-      "titulo": "Caixa de som Bluetooth com microfone para karaokê",
-      "id": 538,
-      "na_revisao_desde": "2026-10-14T14:40-03:00",
-      "msg_id": 879
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB7015543662",
       "origem": "xetdaspromocoes",
@@ -5002,6 +4979,30 @@
   "lixeira": [
     {
       "loja": "shopee",
+      "chave": "shopee:1229047031.23394735827",
+      "nome": "Caixa de Som K12 Bluetooth Portátil com 1 ou 2 Microfones Mini Alto-Falante Karaokê",
+      "por": 25.99,
+      "de": 99.96,
+      "foto": "AgACAgQAAxkDAAIDb2rPvpsew80jrjLQeg5-eZDh_ZvBAAIED2sbcUc9UvkaUbo4qQ1WAQADAgADeAADPQQ",
+      "link": "https://s.shopee.com.br/4B0iiXhbAq",
+      "link_produto": "https://shopee.com.br/product/1229047031/23394735827",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.8,
+      "vendas": 276,
+      "palavra": "caixa de som",
+      "garimpado_em": "2026-10-14T14:10-03:00",
+      "nota": 81.5,
+      "titulo": "Caixa de som Bluetooth com microfone para karaokê",
+      "id": 538,
+      "na_revisao_desde": "2026-10-14T14:40-03:00",
+      "removido_em": "2026-10-14T18:19:15-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "shopee",
       "chave": "shopee:1485189181.58251734405",
       "nome": "Kit 13 Brocas HSS Titânio com Haste Hexagonal 1/4\" Troca Rápida para Furadeira e Parafusadeira Madeira Plástico Alumínio",
       "por": 19.66,
@@ -5592,7 +5593,7 @@
       "shopee": {
         "achados": 34,
         "aprovados": 15,
-        "reprovados": 14
+        "reprovados": 15
       },
       "lobaopromo": {
         "achados": 5,
@@ -5691,7 +5692,7 @@
     "caixa de som": {
       "achados": 18,
       "aprovados": 2,
-      "reprovados": 15
+      "reprovados": 16
     },
     "caixa termica": {
       "achados": 3,
