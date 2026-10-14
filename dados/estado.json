@@ -18,7 +18,8 @@
       "titulo": "Fone bluetooth com 53% off",
       "garimpado_em": "2026-10-13T09:37-03:00",
       "na_revisao_desde": "2026-10-13T09:37-03:00",
-      "aprovado_em": "2026-10-13T09:59-03:00"
+      "aprovado_em": "2026-10-13T09:59-03:00",
+      "aviso_validade": true
     },
     {
       "loja": "amazon",
@@ -36,7 +37,8 @@
       "foto_origem": "loja",
       "garimpado_em": "2026-10-13T09:36-03:00",
       "na_revisao_desde": "2026-10-13T09:36-03:00",
-      "aprovado_em": "2026-10-13T10:00-03:00"
+      "aprovado_em": "2026-10-13T10:00-03:00",
+      "aviso_validade": true
     },
     {
       "loja": "mercadolivre",
@@ -3085,19 +3087,77 @@
       "garimpado_em": "2026-10-13T21:50-03:00",
       "na_revisao_desde": "2026-10-13T21:50-03:00",
       "msg_id": 775
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0BJJH4L5W",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0BJJH4L5W?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0BJJH4L5W?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/caixa-amplificada-mondial-cm-150-preto-150w-rms-bivolt-3111914/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3111914/",
+      "nome": "Caixa Amplificada Mondial CM-150",
+      "por": 139.0,
+      "de": 399.9,
+      "foto": "AgACAgQAAxkDAAIDC2rO1DwaYm8NkmBGqfpHSbiQw2l6AAIYsTEbI40lUDcxUhfofo45AQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "titulo": "Caixa amplificada Mondial com 65% off",
+      "id": 486,
+      "garimpado_em": "2026-10-13T22:00-03:00",
+      "na_revisao_desde": "2026-10-13T22:00-03:00",
+      "msg_id": 779
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB5806511608",
+      "origem": "promonocontext",
+      "link": "https://www.mercadolivre.com.br/furadeira-de-impacto-einhell-profissional-madeira-metal-550w/up/MLBU3489443109?pdp_filters=item_id%3AMLB5806511608&matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/furadeira-de-impacto-einhell-profissional-madeira-metal-550w/up/MLBU3489443109?pdp_filters=item_id%3AMLB5806511608",
+      "post_origem": "https://t.me/promonocontext/126446",
+      "link_canal": "https://meli.la/2JMBCeW",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_939087-MLB94798622808_102025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Furadeira De Impacto Einhell Profissional Madeira Metal 550w Vermelho",
+      "de": 174.0,
+      "por": 89.0,
+      "titulo": "Furadeira Einhell com 49% off",
+      "id": 487,
+      "garimpado_em": "2026-10-13T22:01-03:00",
+      "na_revisao_desde": "2026-10-13T22:01-03:00",
+      "msg_id": 780
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB7109118660",
+      "origem": "promooeasy",
+      "link": "https://www.mercadolivre.com.br/kit-4-cuecas-boxer-zorba-masculino-871/up/MLBU4246121772?pdp_filters=item_id%3AMLB7109118660&matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/kit-4-cuecas-boxer-zorba-masculino-871/up/MLBU4246121772?pdp_filters=item_id%3AMLB7109118660",
+      "post_origem": "https://t.me/promooeasy/220924",
+      "link_canal": "https://meli.la/1P1kCs2",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_807671-MLB115340469663_072026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Kit 4 Cuecas Boxer Zorba Masculino 871 Mescla/azul/verde/bordô Liso G",
+      "de": 129.9,
+      "por": 89.99,
+      "titulo": "Kit 4 cuecas boxer Zorba com 31% off",
+      "id": 488,
+      "garimpado_em": "2026-10-13T22:01-03:00",
+      "na_revisao_desde": "2026-10-13T22:01-03:00",
+      "msg_id": 781
     }
   ],
-  "proximo_id": 486,
+  "proximo_id": 489,
   "radar": {
     "visto": {
       "xetdaspromocoes": 84707,
-      "lobaopromo": 189082,
-      "gatunopromos": 125188,
+      "lobaopromo": 189086,
+      "gatunopromos": 125189,
       "pobregram": 41847,
       "urubupromo": 41632,
-      "tudonapromo": 101778,
-      "promonocontext": 126443,
-      "promooeasy": 220923,
+      "tudonapromo": 101779,
+      "promonocontext": 126446,
+      "promooeasy": 220927,
       "aquitempechincha": 281467,
       "infoBRpromos": 67471,
       "boletando": 76675,
@@ -3105,11 +3165,8 @@
       "achadosdotb": 11763
     },
     "dia": "2026-10-13",
-    "hoje": 321,
+    "hoje": 324,
     "chaves": [
-      "amazon:B0FH7LY3R4",
-      "amazon:B0839M5VRD",
-      "amazon:B0FFTRKRCV",
       "amazon:B0HBZXL4CN",
       "amazon:B0DX88HMJV",
       "shopee:1009975506.40983623796",
@@ -3506,27 +3563,30 @@
       "amazon:B0HKT8K2BF",
       "amazon:B0GV5WHHN2",
       "amazon:B0FY8K73R9",
-      "mercadolivre:MLB23928026"
+      "mercadolivre:MLB23928026",
+      "amazon:B0BJJH4L5W",
+      "mercadolivre:MLB5806511608",
+      "mercadolivre:MLB7109118660"
     ],
     "ultima": {
-      "em": "2026-10-13T21:50:18-03:00",
+      "em": "2026-10-13T22:00:29-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 23,
-      "do_nicho": 5,
-      "repetidas": 3,
-      "novas": 2,
+      "posts_novos": 25,
+      "do_nicho": 4,
+      "repetidas": 1,
+      "novas": 3,
       "limite_dia": false,
       "promobit": 1
     },
-    "hora": "2026-10-13T21",
-    "nesta_hora": 10,
-    "promobit_hora": "2026-10-13T21",
-    "promobit_nesta_hora": 2,
-    "promobit_visto": 3111889
+    "hora": "2026-10-13T22",
+    "nesta_hora": 2,
+    "promobit_hora": "2026-10-13T22",
+    "promobit_nesta_hora": 1,
+    "promobit_visto": 3111922
   },
   "ultimos": [
     {
@@ -4961,7 +5021,7 @@
     },
     "2026-10-13": {
       "promobit": {
-        "achados": 54,
+        "achados": 55,
         "aprovados": 3,
         "reprovados": 22
       },
@@ -4971,7 +5031,7 @@
         "reprovados": 28
       },
       "promooeasy": {
-        "achados": 120,
+        "achados": 121,
         "aprovados": 2,
         "reprovados": 81
       },
@@ -4986,7 +5046,7 @@
         "reprovados": 5
       },
       "promonocontext": {
-        "achados": 49,
+        "achados": 50,
         "aprovados": 8,
         "reprovados": 23
       },
