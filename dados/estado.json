@@ -265,26 +265,6 @@
     },
     {
       "loja": "shopee",
-      "chave": "shopee:322874822.23797686527",
-      "nome": "Relógio Masculino digital wr | 100 % qualidade | entrega rápida",
-      "por": 12.99,
-      "de": 99.92,
-      "foto": "AgACAgQAAxkDAAIDJ2rO8o2cVrr-07NChNJksHq4J9zVAAJktjEbo-k9UN-ApJSPsE8-AQADAgADeAADPQQ",
-      "link": "https://s.shopee.com.br/113g0y1cSx",
-      "link_produto": "https://shopee.com.br/product/322874822/23797686527",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "palavra": "relogio masculino",
-      "garimpado_em": "2026-10-14T00:09-03:00",
-      "nota": 80.5,
-      "titulo": "Relógio masculino digital com 87% off",
-      "na_revisao_desde": "2026-10-14T00:10-03:00",
-      "aprovado_em": "2026-10-14T00:12-03:00"
-    },
-    {
-      "loja": "shopee",
       "chave": "shopee:394192376.21897733919",
       "nome": "Creatina 250g 100% Pura Monohidratada - P&P FIT",
       "por": 14.9,
@@ -1009,6 +989,14 @@
       "data": "2026-10-13T23:36-03:00",
       "link": "https://link.amazon/B02IZFygP",
       "link_produto": "https://link.amazon/B02IZFygP"
+    },
+    {
+      "chave": "shopee:322874822.23797686527",
+      "loja": "shopee",
+      "nome": "Relógio Masculino digital wr | 100 % qualidade | entrega rápida",
+      "data": "2026-10-14T00:13-03:00",
+      "link": "https://s.shopee.com.br/113g0y1cSx",
+      "link_produto": "https://shopee.com.br/product/322874822/23797686527"
     }
   ],
   "slots_usados": {
@@ -2734,6 +2722,19 @@
   },
   "ultimos": [
     {
+      "loja": "shopee",
+      "chave": "shopee:322874822.23797686527",
+      "nome": "Relógio Masculino digital wr | 100 % qualidade | entrega rápida",
+      "por": 12.99,
+      "de": 99.92,
+      "foto": "AgACAgQAAxkDAAIDJ2rO8o2cVrr-07NChNJksHq4J9zVAAJktjEbo-k9UN-ApJSPsE8-AQADAgADeAADPQQ",
+      "link": "https://s.shopee.com.br/113g0y1cSx",
+      "link_produto": "https://shopee.com.br/product/322874822/23797686527",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "titulo": "Relógio masculino digital com 87% off"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0FCG5ZJDJ",
       "origem": "promobit",
@@ -3271,22 +3272,6 @@
       "parcelas": 10,
       "pix": true,
       "parcela_valor": 50.5
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB5364050300",
-      "origem": "promonocontext",
-      "link": "https://meli.la/23Es6kZ",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-5364050300-tnis-masculino-olympikus-marte-macio-leve-_JM",
-      "post_origem": "https://t.me/promonocontext/125964",
-      "foto": "AgACAgQAAxkDAAPaas08bxhi-eoZYOVIad8DlMrS9tYAAli6MRvumwVQL5NanykFRKoBAAMCAAN4AAM9BA",
-      "nome": "Tênis Masculino Olympikus Marte Macio Leve",
-      "de": 246.94,
-      "por": 165.21,
-      "titulo": "Tênis Olympikus leve para o dia a dia",
-      "parcelas": 8,
-      "pix": true,
-      "parcela_valor": 23.74
     }
   ],
   "lixeira": [
