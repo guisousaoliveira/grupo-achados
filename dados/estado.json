@@ -1283,31 +1283,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "shopee",
-      "chave": "shopee:681964368.22294984948",
-      "nome": "Caixa Térmica Isopor Laminada 8L Para Churrasco Salgados Peixes Delivery Reforçada",
-      "por": 29.99,
-      "de": 99.97,
-      "foto": "AgACAgQAAxkDAAIDZmrPsJMq80cpQa35shtI3kmlDjk8AAKhDmsbnQbMUinIoU0Yq55eAQADAgADeQADPQQ",
-      "link": "https://s.shopee.com.br/6L5DBgCy3e",
-      "link_produto": "https://shopee.com.br/product/681964368/22294984948",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.8,
-      "vendas": 288,
-      "palavra": "caixa termica",
-      "garimpado_em": "2026-10-14T12:31-03:00",
-      "nota": 86.0,
-      "titulo": "Caixa térmica para manter bebidas e alimentos gelados",
-      "id": 531,
-      "na_revisao_desde": "2026-10-14T13:40-03:00",
-      "msg_id": 870
-    }
-  ],
+  "revisar": [],
   "proximo_id": 535,
   "radar": {
     "visto": {
@@ -4725,6 +4701,30 @@
   "lixeira": [
     {
       "loja": "shopee",
+      "chave": "shopee:681964368.22294984948",
+      "nome": "Caixa Térmica Isopor Laminada 8L Para Churrasco Salgados Peixes Delivery Reforçada",
+      "por": 29.99,
+      "de": 99.97,
+      "foto": "AgACAgQAAxkDAAIDZmrPsJMq80cpQa35shtI3kmlDjk8AAKhDmsbnQbMUinIoU0Yq55eAQADAgADeQADPQQ",
+      "link": "https://s.shopee.com.br/6L5DBgCy3e",
+      "link_produto": "https://shopee.com.br/product/681964368/22294984948",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.8,
+      "vendas": 288,
+      "palavra": "caixa termica",
+      "garimpado_em": "2026-10-14T12:31-03:00",
+      "nota": 86.0,
+      "titulo": "Caixa térmica para manter bebidas e alimentos gelados",
+      "id": 531,
+      "na_revisao_desde": "2026-10-14T13:40-03:00",
+      "removido_em": "2026-10-14T13:43:14-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "shopee",
       "chave": "shopee:1631506221.22499455225",
       "nome": "Relógio Feminino Vintage de Couro Marrom, Estilo Minimalista",
       "por": 20.99,
@@ -5148,7 +5148,7 @@
       "shopee": {
         "achados": 26,
         "aprovados": 13,
-        "reprovados": 10
+        "reprovados": 11
       },
       "lobaopromo": {
         "achados": 3,
@@ -5242,7 +5242,7 @@
     "caixa termica": {
       "achados": 2,
       "aprovados": 0,
-      "reprovados": 1
+      "reprovados": 2
     },
     "camera de seguranca": {
       "achados": 1,
