@@ -1194,29 +1194,6 @@
       "id": 513,
       "na_revisao_desde": "2026-10-14T09:41-03:00",
       "msg_id": 830
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:1321451938.55813290021",
-      "nome": "Extensor Elástico Exercícios Academia Ginástica Tensão Forte Faixa Elástica de Resistência com Corda para Puxar",
-      "por": 17.99,
-      "de": 69.19,
-      "foto": "AgACAgQAAxkDAAIDP2rPeId9d4H-cKdcLwABqCi8XSKovAAChg1rG3A9RFO5xlnlqD15NAEAAwIAA3kAAz0E",
-      "link": "https://s.shopee.com.br/1LgX1Q7MNk",
-      "link_produto": "https://shopee.com.br/product/1321451938/55813290021",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.8,
-      "vendas": 3197,
-      "palavra": "academia",
-      "garimpado_em": "2026-10-14T09:21-03:00",
-      "nota": 94.0,
-      "titulo": "Extensor elástico para exercitar o corpo em casa",
-      "id": 514,
-      "na_revisao_desde": "2026-10-14T09:41-03:00",
-      "msg_id": 831
     }
   ],
   "proximo_id": 515,
@@ -10675,6 +10652,30 @@
   "lixeira": [
     {
       "loja": "shopee",
+      "chave": "shopee:1321451938.55813290021",
+      "nome": "Extensor Elástico Exercícios Academia Ginástica Tensão Forte Faixa Elástica de Resistência com Corda para Puxar",
+      "por": 17.99,
+      "de": 69.19,
+      "foto": "AgACAgQAAxkDAAIDP2rPeId9d4H-cKdcLwABqCi8XSKovAAChg1rG3A9RFO5xlnlqD15NAEAAwIAA3kAAz0E",
+      "link": "https://s.shopee.com.br/1LgX1Q7MNk",
+      "link_produto": "https://shopee.com.br/product/1321451938/55813290021",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.8,
+      "vendas": 3197,
+      "palavra": "academia",
+      "garimpado_em": "2026-10-14T09:21-03:00",
+      "nota": 94.0,
+      "titulo": "Extensor elástico para exercitar o corpo em casa",
+      "id": 514,
+      "na_revisao_desde": "2026-10-14T09:41-03:00",
+      "removido_em": "2026-10-14T09:42:11-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "shopee",
       "chave": "shopee:1840627515.58261885368",
       "nome": "Elástico Extensor de Exercícios Pull Reducer Multi Função Academia Em Casa Uso Profissional",
       "por": 15.5,
@@ -10836,7 +10837,7 @@
       "shopee": {
         "achados": 14,
         "aprovados": 8,
-        "reprovados": 1
+        "reprovados": 2
       }
     }
   },
@@ -10845,7 +10846,7 @@
     "academia": {
       "achados": 19,
       "aprovados": 4,
-      "reprovados": 13
+      "reprovados": 14
     },
     "air fryer": {
       "achados": 6,
