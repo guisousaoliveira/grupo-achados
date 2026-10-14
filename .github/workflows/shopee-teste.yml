@@ -19,4 +19,7 @@ jobs:
           SHOPEE_APP_ID: ${{ secrets.SHOPEE_APP_ID }}
           SHOPEE_SECRET: ${{ secrets.SHOPEE_SECRET }}
           LINKS: ${{ inputs.links }}
-        run: python3 bot.py shopee-teste $LINKS
+        run: |
+          python3 bot.py shopee-teste $LINKS | tee saida.txt
+          # cada linha vira um aviso no resumo da rodada (dá para ler pela API, sem baixar o log)
+          while IFS= read -r l; do echo "::notice::$l"; done < saida.txt
