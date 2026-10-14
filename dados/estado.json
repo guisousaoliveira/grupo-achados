@@ -1377,16 +1377,16 @@
   "radar": {
     "visto": {
       "xetdaspromocoes": 84823,
-      "lobaopromo": 189424,
-      "gatunopromos": 125346,
-      "pobregram": 41893,
-      "urubupromo": 41667,
-      "tudonapromo": 101878,
-      "promonocontext": 126713,
-      "promooeasy": 221473,
-      "aquitempechincha": 281638,
-      "infoBRpromos": 67553,
-      "boletando": 76717,
+      "lobaopromo": 189428,
+      "gatunopromos": 125348,
+      "pobregram": 41895,
+      "urubupromo": 41668,
+      "tudonapromo": 101879,
+      "promonocontext": 126714,
+      "promooeasy": 221481,
+      "aquitempechincha": 281644,
+      "infoBRpromos": 67555,
+      "boletando": 76719,
       "promotop": 260279,
       "achadosdotb": 11769
     },
@@ -3019,27 +3019,27 @@
       "mercadolivre:MLB3827700163"
     ],
     "ultima": {
-      "em": "2026-10-14T15:20:23-03:00",
+      "em": "2026-10-14T15:30:27-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 31,
-      "do_nicho": 5,
-      "repetidas": 2,
-      "novas": 3,
+      "posts_novos": 44,
+      "do_nicho": 1,
+      "repetidas": 1,
+      "novas": 0,
       "limite_dia": false,
       "repetidas_nome": 0,
       "promobit": 0,
       "soltas": 0,
-      "na_peneira": 37
+      "na_peneira": 36
     },
     "hora": "2026-10-14T15",
     "nesta_hora": 5,
     "promobit_hora": "2026-10-14T15",
     "promobit_nesta_hora": 1,
-    "promobit_visto": 3113708,
+    "promobit_visto": 3113735,
     "nomes": [
       [
         [
@@ -3518,25 +3518,6 @@
       ]
     ],
     "peneira": [
-      {
-        "loja": "shopee",
-        "chave": "shopee:683016383.58260660799",
-        "nome": "Churrasqueira Redonda Antiaderente  Para Churrasco , Adequada Fogões Domésticos Ao Ar Livre",
-        "por": 26.9,
-        "de": 59.78,
-        "foto": "https://cf.shopee.com.br/file/sg-11134201-822yd-mo8batzt4ao871",
-        "link": "https://s.shopee.com.br/70KtytfhUE",
-        "link_produto": "https://shopee.com.br/product/683016383/58260660799",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 4.8,
-        "vendas": 727,
-        "palavra": "churrasqueira",
-        "garimpado_em": "2026-10-14T12:30-03:00",
-        "nota": 79.5
-      },
       {
         "loja": "mercadolivre",
         "chave": "mercadolivre:MLB4903101001",
@@ -4174,8 +4155,8 @@
     ],
     "soltas_hora": "2026-10-14T15",
     "soltas": 0,
-    "shopee_em": "2026-10-14T15:10-03:00",
-    "shopee_indice": 24,
+    "shopee_em": "2026-10-14T15:30-03:00",
+    "shopee_indice": 32,
     "soltas_dia_data": "2026-10-14",
     "soltas_dia": 30,
     "soltas_loja": {}
