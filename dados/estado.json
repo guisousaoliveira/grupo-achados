@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "shopee",
-      "chave": "shopee:1345043704.22497773735",
-      "nome": "ROMANTIC CROWN Mochila Viagem Feminina Masculina Multifuncional Reforçada Impermeável Expansível, Notebook Antifurto USB",
-      "por": 114.0,
-      "de": 499.96,
-      "foto": "AgACAgQAAxkDAAIDPWrPeIWKAT0Gb3Ahif34MFjqv1w5AAKuD2sbUeM8UXGcRVrzCLUsAQADAgADeQADPQQ",
-      "link": "https://s.shopee.com.br/W7Q0XrC9W",
-      "link_produto": "https://shopee.com.br/product/1345043704/22497773735",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 5.0,
-      "vendas": 5242,
-      "palavra": "mochila",
-      "garimpado_em": "2026-10-14T09:01-03:00",
-      "nota": 95.1,
-      "titulo": "Mochila impermeável com compartimento para notebook e USB",
-      "na_revisao_desde": "2026-10-14T09:41-03:00",
-      "aprovado_em": "2026-10-14T09:43-03:00"
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB57797847",
       "origem": "promonocontext",
@@ -1303,6 +1281,16 @@
       "link": "https://meli.la/2FwSNY7",
       "link_produto": "https://meli.la/2FwSNY7",
       "titulo": "Mochila impermeável reforçada para viagem e rotina"
+    },
+    {
+      "chave": "shopee:1345043704.22497773735",
+      "loja": "shopee",
+      "nome": "ROMANTIC CROWN Mochila Viagem Feminina Masculina Multifuncional Reforçada Impermeável Expansível, Notebook Antifurto USB",
+      "data": "2026-10-14T20:12-03:00",
+      "link": "https://s.shopee.com.br/W7Q0XrC9W",
+      "link_produto": "https://shopee.com.br/product/1345043704/22497773735",
+      "titulo": "Mochila impermeável com compartimento para notebook e USB",
+      "slot": 20
     }
   ],
   "slots_usados": {
@@ -1357,7 +1345,8 @@
       16,
       17,
       18,
-      19
+      19,
+      20
     ]
   },
   "shopee_buscado_em": "",
@@ -4408,6 +4397,19 @@
   },
   "ultimos": [
     {
+      "loja": "shopee",
+      "chave": "shopee:1345043704.22497773735",
+      "nome": "ROMANTIC CROWN Mochila Viagem Feminina Masculina Multifuncional Reforçada Impermeável Expansível, Notebook Antifurto USB",
+      "por": 114.0,
+      "de": 499.96,
+      "foto": "AgACAgQAAxkDAAIDPWrPeIWKAT0Gb3Ahif34MFjqv1w5AAKuD2sbUeM8UXGcRVrzCLUsAQADAgADeQADPQQ",
+      "link": "https://s.shopee.com.br/W7Q0XrC9W",
+      "link_produto": "https://shopee.com.br/product/1345043704/22497773735",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "titulo": "Mochila impermeável com compartimento para notebook e USB"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB80245753",
       "origem": "lobaopromo",
@@ -4929,20 +4931,6 @@
       "de": 29.9,
       "foto": "AgACAgQAAxkDAAIBc2rOGNCeH4RtxiR54OJ4fv22OAJQAAKhD2sbgt4sUkeQRHiOWNfrAQADAgADeQADPQQ",
       "titulo": "Cadeado para proteger sua bagagem"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB17460955",
-      "origem": "promotop",
-      "link": "https://meli.la/12BAQV4",
-      "link_produto": "https://meli.la/12BAQV4",
-      "post_origem": "https://t.me/promotop/260189",
-      "foto": "AgACAgQAAxkDAAIBdmrOGOf6GaUu7sPtv4H-M23Wc5I4AAK0Dmsbd6ikUnzhKEuRjJaCAQADAgADeAADPQQ",
-      "nome": "Perfume Masculino Emporio Armani Stronger With You Edt 100ml",
-      "pix": true,
-      "por": 344.79,
-      "titulo": "Perfume Emporio Armani Stronger With You 100ml no Pix",
-      "de": 719.0
     }
   ],
   "lixeira": [
