@@ -3,25 +3,6 @@
   "fila": [
     {
       "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB18725310",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/2gNokP5",
-      "link_produto": "https://meli.la/2gNokP5",
-      "post_origem": "https://t.me/lobaopromo/188753",
-      "link_canal": "https://meli.la/1X7ZNDj",
-      "foto": "AgACAgQAAxkDAAIBfmrOH_KGVMZFPkjDEZMJcnDiMc5VAALAD2sbmuadUGZCsHdpySymAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Creatina Soldiers Nutrition em pó Sem sabor x 1kg",
-      "por": 65.45,
-      "titulo": "Creatina Soldiers 1kg para render nos treinos",
-      "garimpado_em": "2026-10-13T09:37-03:00",
-      "na_revisao_desde": "2026-10-13T09:37-03:00",
-      "de": 239.0,
-      "aprovado_em": "2026-10-13T10:02-03:00",
-      "aviso_validade": true
-    },
-    {
-      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB26796581",
       "origem": "promonocontext",
       "link": "https://meli.la/2VVeCii",
@@ -868,6 +849,15 @@
       "link": "https://link.amazon/B0gcKPHJO",
       "link_produto": "https://link.amazon/B0gcKPHJO",
       "slot": 22
+    },
+    {
+      "chave": "mercadolivre:MLB18725310",
+      "loja": "mercadolivre",
+      "nome": "Creatina Soldiers Nutrition em pó Sem sabor x 1kg",
+      "data": "2026-10-13T23:25-03:00",
+      "link": "https://meli.la/2gNokP5",
+      "link_produto": "https://meli.la/2gNokP5",
+      "slot": 23
     }
   ],
   "slots_usados": {
@@ -907,7 +897,8 @@
       19,
       20,
       21,
-      22
+      22,
+      23
     ]
   },
   "shopee_buscado_em": "",
@@ -3746,6 +3737,19 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB18725310",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/2gNokP5",
+      "link_produto": "https://meli.la/2gNokP5",
+      "post_origem": "https://t.me/lobaopromo/188753",
+      "foto": "AgACAgQAAxkDAAIBfmrOH_KGVMZFPkjDEZMJcnDiMc5VAALAD2sbmuadUGZCsHdpySymAQADAgADeAADPQQ",
+      "nome": "Creatina Soldiers Nutrition em pó Sem sabor x 1kg",
+      "por": 65.45,
+      "titulo": "Creatina Soldiers 1kg para render nos treinos",
+      "de": 239.0
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B077BV7M4R",
       "origem": "promobit",
@@ -4282,19 +4286,6 @@
       "por": 24.99,
       "foto": "AgACAgQAAxkDAAO8as0rX4-BJHZh5h2t-KBccPhH0-0AAg0QaxusG21SVtNp2HGP2i0BAAMCAANtAAM9BA",
       "titulo": "Boné unissex ajustável com menor preço"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0DB6KW9SQ",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://link.amazon/B0j6FgfxE",
-      "link_produto": "https://www.amazon.com.br/dp/B0DB6KW9SQ?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/ninja-blast-max-liquidificador-portatil-e-pessoal-twist-amp-go-3108849/",
-      "nome": "Ninja Blast Max - Liquidificador Portátil",
-      "por": 549.7,
-      "de": 699.39,
-      "foto": "AgACAgQAAxkDAAO0as0ik_71Npyl6LuwLEBTOT5S44AAArYPaxve-W1SNnjdoirn__kBAAMCAAN4AAM9BA"
     }
   ],
   "lixeira": [
