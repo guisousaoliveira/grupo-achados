@@ -1265,21 +1265,21 @@
   "radar": {
     "visto": {
       "xetdaspromocoes": 84817,
-      "lobaopromo": 189403,
-      "gatunopromos": 125332,
+      "lobaopromo": 189406,
+      "gatunopromos": 125333,
       "pobregram": 41893,
       "urubupromo": 41665,
       "tudonapromo": 101874,
-      "promonocontext": 126689,
-      "promooeasy": 221418,
+      "promonocontext": 126690,
+      "promooeasy": 221428,
       "aquitempechincha": 281622,
-      "infoBRpromos": 67545,
+      "infoBRpromos": 67547,
       "boletando": 76717,
-      "promotop": 260272,
+      "promotop": 260273,
       "achadosdotb": 11768
     },
     "dia": "2026-10-14",
-    "hoje": 72,
+    "hoje": 73,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -2885,30 +2885,32 @@
       "shopee:1229047031.23394735827",
       "shopee:1006215031.52259002308",
       "shopee:1117805526.23494302256",
-      "shopee:1615213396.50702803532"
+      "shopee:1615213396.50702803532",
+      "amazon:B0DR45KLST"
     ],
     "ultima": {
-      "em": "2026-10-14T14:10:22-03:00",
+      "em": "2026-10-14T14:20:30-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 42,
-      "do_nicho": 0,
-      "repetidas": 0,
+      "posts_novos": 30,
+      "do_nicho": 3,
+      "repetidas": 2,
       "novas": 0,
       "limite_dia": false,
       "repetidas_nome": 0,
+      "fora_do_nicho": 1,
       "promobit": 0,
       "soltas": 0,
-      "na_peneira": 35
+      "na_peneira": 36
     },
     "hora": "2026-10-14T14",
     "nesta_hora": 3,
     "promobit_hora": "2026-10-14T14",
-    "promobit_nesta_hora": 0,
-    "promobit_visto": 3113534,
+    "promobit_nesta_hora": 1,
+    "promobit_visto": 3113568,
     "nomes": [
       [
         [
@@ -3326,43 +3328,6 @@
       ]
     ],
     "peneira": [
-      {
-        "loja": "amazon",
-        "chave": "amazon:B0HKV3F5BJ",
-        "origem": "promobit",
-        "fonte": "promobit",
-        "link": "https://www.amazon.com.br/dp/B0HKV3F5BJ?tag=alphadominu09-20",
-        "link_produto": "https://www.amazon.com.br/dp/B0HKV3F5BJ?tag=alphadominu09-20",
-        "post_origem": "https://www.promobit.com.br/oferta/suporte-veicular-para-celular-com-ventosa-fixacao-no-painel-ou-para-brisa-giro-360-e-bracos-ajustaveis-para-c-3113032/",
-        "link_canal": "https://www.promobit.com.br/Redirect/to/3113032/",
-        "nome": "Suporte Veicular para Celular com Ventosa Fixação no Painel ou",
-        "por": 14.5,
-        "de": 19.6,
-        "foto": "https://i.promobit.com.br/268/325896940317919872524903127542.jpg",
-        "foto_origem": "canal",
-        "palavra": "suporte veicular",
-        "garimpado_em": "2026-10-14T11:20-03:00",
-        "nota": 44.8
-      },
-      {
-        "loja": "shopee",
-        "chave": "shopee:443076516.23292931846",
-        "nome": "Suplemento Magnésio e Inositol 210g Bodyaction",
-        "por": 47.04,
-        "de": 98.0,
-        "foto": "https://cf.shopee.com.br/file/br-11134207-7r98o-m6y6wdrufiw75a",
-        "link": "https://s.shopee.com.br/1B9ZEGnn1",
-        "link_produto": "https://shopee.com.br/product/443076516/23292931846",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 4.9,
-        "vendas": 2059,
-        "palavra": "suplemento",
-        "garimpado_em": "2026-10-14T11:20-03:00",
-        "nota": 71.5
-      },
       {
         "loja": "shopee",
         "chave": "shopee:663461151.58204219339",
