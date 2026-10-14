@@ -333,6 +333,26 @@
       "titulo": "Óculos de sol pequenos com proteção UV para o rosto",
       "na_revisao_desde": "2026-10-14T11:41-03:00",
       "aprovado_em": "2026-10-14T12:31-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB7574441456",
+      "origem": "xetdaspromocoes",
+      "link": "https://meli.la/2CTzyJV",
+      "link_produto": "https://meli.la/2CTzyJV",
+      "post_origem": "https://t.me/xetdaspromocoes/84717",
+      "link_canal": "https://meli.la/2Lx39AX",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_942491-MLB115592450210_092026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Camisa Polo Masculina Piquet Slim Manga Curta Off White Gg",
+      "de": 79.0,
+      "por": 34.0,
+      "palavra": "camisa polo",
+      "garimpado_em": "2026-10-14T09:00-03:00",
+      "nota": 78.4,
+      "titulo": "Camisa polo slim em piquet para o dia a dia",
+      "na_revisao_desde": "2026-10-14T11:41-03:00",
+      "aprovado_em": "2026-10-14T12:31-03:00"
     }
   ],
   "postados": [
@@ -1240,27 +1260,6 @@
       "id": 522,
       "na_revisao_desde": "2026-10-14T11:41-03:00",
       "msg_id": 854
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB7574441456",
-      "origem": "xetdaspromocoes",
-      "link": "https://www.mercadolivre.com.br/camisa-polo-masculina-piquet-slim-manga-curta/up/MLBU5055653207?pdp_filters=item_id%3AMLB7574441456&matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/camisa-polo-masculina-piquet-slim-manga-curta/up/MLBU5055653207?pdp_filters=item_id%3AMLB7574441456",
-      "post_origem": "https://t.me/xetdaspromocoes/84717",
-      "link_canal": "https://meli.la/2Lx39AX",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_942491-MLB115592450210_092026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Camisa Polo Masculina Piquet Slim Manga Curta Off White Gg",
-      "de": 79.0,
-      "por": 34.0,
-      "palavra": "camisa polo",
-      "garimpado_em": "2026-10-14T09:00-03:00",
-      "nota": 78.4,
-      "titulo": "Camisa polo slim em piquet para o dia a dia",
-      "id": 523,
-      "na_revisao_desde": "2026-10-14T11:41-03:00",
-      "msg_id": 855
     },
     {
       "loja": "mercadolivre",
@@ -5957,7 +5956,7 @@
       },
       "xetdaspromocoes": {
         "achados": 1,
-        "aprovados": 0,
+        "aprovados": 1,
         "reprovados": 0
       },
       "tudonapromo": {
@@ -6046,7 +6045,7 @@
     },
     "camisa polo": {
       "achados": 4,
-      "aprovados": 2,
+      "aprovados": 3,
       "reprovados": 1
     },
     "chave de impacto": {
