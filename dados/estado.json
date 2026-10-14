@@ -2345,25 +2345,6 @@
     },
     {
       "loja": "amazon",
-      "chave": "amazon:B0H8B9BG5C",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B0H8B9BG5C?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0H8B9BG5C?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/dragons-dogma-2-dark-arisen-nintendo-switch-2-3111618/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3111618/",
-      "nome": "Dragons Dogma 2: Dark Arisen",
-      "por": 330.06,
-      "foto": "AgACAgQAAxkDAAIC3mrOrs6mCFOu_V9zlg_rYAixvOAvAAJhD2sbdiJ8UpLAe5HbHNeWAQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "titulo": "Dragons Dogma 2 disponível na Amazon",
-      "id": 446,
-      "garimpado_em": "2026-10-13T19:21-03:00",
-      "na_revisao_desde": "2026-10-13T19:21-03:00",
-      "msg_id": 734
-    },
-    {
-      "loja": "amazon",
       "chave": "amazon:B0FPRGKBL3",
       "origem": "promooeasy",
       "link": "https://www.amazon.com.br/dp/B0FPRGKBL3?tag=alphadominu09-20",
@@ -3845,6 +3826,26 @@
   "lixeira": [
     {
       "loja": "amazon",
+      "chave": "amazon:B0H8B9BG5C",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0H8B9BG5C?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0H8B9BG5C?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/dragons-dogma-2-dark-arisen-nintendo-switch-2-3111618/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3111618/",
+      "nome": "Dragons Dogma 2: Dark Arisen",
+      "por": 330.06,
+      "foto": "AgACAgQAAxkDAAIC3mrOrs6mCFOu_V9zlg_rYAixvOAvAAJhD2sbdiJ8UpLAe5HbHNeWAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "titulo": "Dragons Dogma 2 disponível na Amazon",
+      "id": 446,
+      "garimpado_em": "2026-10-13T19:21-03:00",
+      "na_revisao_desde": "2026-10-13T19:21-03:00",
+      "removido_em": "2026-10-13T23:37:17-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "amazon",
       "chave": "amazon:B0CLTZDMG8",
       "origem": "promobit",
       "fonte": "promobit",
@@ -4628,26 +4629,6 @@
       "na_revisao_desde": "2026-10-13T15:52-03:00",
       "removido_em": "2026-10-13T16:03:13-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB5294552208",
-      "origem": "gatunopromos",
-      "link": "https://produto.mercadolivre.com.br/MLB-5294552208-short-academia-empina-levanta-bumbum-push-up-feminino-selene-_JM?pdp_filters=item_id%3AMLB5294552208&matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-5294552208-short-academia-empina-levanta-bumbum-push-up-feminino-selene-_JM?pdp_filters=item_id%3AMLB5294552208",
-      "post_origem": "https://t.me/gatunopromos/125122",
-      "link_canal": "https://meli.la/2ptfvFN",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_690854-MLB114847749587_072026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Short Academia Empina Levanta Bumbum Push Up Feminino Selene",
-      "de": 99.0,
-      "por": 48.0,
-      "titulo": "Short academia Selene com 52% off",
-      "id": 360,
-      "garimpado_em": "2026-10-13T16:01-03:00",
-      "na_revisao_desde": "2026-10-13T16:01-03:00",
-      "removido_em": "2026-10-13T16:03:07-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -4712,7 +4693,7 @@
       "promobit": {
         "achados": 58,
         "aprovados": 5,
-        "reprovados": 31
+        "reprovados": 32
       },
       "lobaopromo": {
         "achados": 60,
