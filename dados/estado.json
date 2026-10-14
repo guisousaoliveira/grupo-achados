@@ -3055,19 +3055,58 @@
       "garimpado_em": "2026-10-13T21:40-03:00",
       "na_revisao_desde": "2026-10-13T21:40-03:00",
       "msg_id": 773
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0FY8K73R9",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0FY8K73R9?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0FY8K73R9?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/resident-evil-generation-pack-nintendo-switch-2-3111888/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3111888/",
+      "nome": "Resident Evil Generation Pack",
+      "por": 489.32,
+      "de": 579.9,
+      "foto": "AgACAgQAAxkDAAIDBmrO0dkw3TNck7olQNw5M82rWZtQAAK0DGsbC1EkU1QK1aqOIisxAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "titulo": "Resident Evil Generation Pack com 16% off",
+      "id": 484,
+      "garimpado_em": "2026-10-13T21:50-03:00",
+      "na_revisao_desde": "2026-10-13T21:50-03:00",
+      "msg_id": 774
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB23928026",
+      "origem": "promooeasy",
+      "link": "https://www.mercadolivre.com.br/suplemento-mega-3-epa-dha-60-capsulas-vitafor/p/MLB23928026?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/suplemento-mega-3-epa-dha-60-capsulas-vitafor/p/MLB23928026",
+      "post_origem": "https://t.me/promooeasy/220921",
+      "link_canal": "https://meli.la/2A3eKtn",
+      "foto": "AgACAgQAAxkDAAIDB2rO0eMv0mBPlBwQpMphv0W_MQ1IAAI1DGsbpJTEURvM3Nyk-ha1AQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Suplemento Ômega 3 Epa Dha 60 Cápsulas Vitafor",
+      "de": 93.0,
+      "por": 58.7,
+      "titulo": "Ômega 3 Vitafor com 37% de desconto",
+      "id": 485,
+      "garimpado_em": "2026-10-13T21:50-03:00",
+      "na_revisao_desde": "2026-10-13T21:50-03:00",
+      "msg_id": 775
     }
   ],
-  "proximo_id": 484,
+  "proximo_id": 486,
   "radar": {
     "visto": {
       "xetdaspromocoes": 84707,
-      "lobaopromo": 189078,
-      "gatunopromos": 125186,
+      "lobaopromo": 189082,
+      "gatunopromos": 125188,
       "pobregram": 41847,
       "urubupromo": 41632,
-      "tudonapromo": 101776,
+      "tudonapromo": 101778,
       "promonocontext": 126443,
-      "promooeasy": 220918,
+      "promooeasy": 220923,
       "aquitempechincha": 281467,
       "infoBRpromos": 67471,
       "boletando": 76675,
@@ -3075,10 +3114,8 @@
       "achadosdotb": 11763
     },
     "dia": "2026-10-13",
-    "hoje": 319,
+    "hoje": 321,
     "chaves": [
-      "amazon:B0CJGNFGPQ",
-      "amazon:B0H2BZQDQ8",
       "amazon:B0FH7LY3R4",
       "amazon:B0839M5VRD",
       "amazon:B0FFTRKRCV",
@@ -3476,27 +3513,29 @@
       "mercadolivre:MLB24076624",
       "amazon:B0D8C7PNLL",
       "amazon:B0HKT8K2BF",
-      "amazon:B0GV5WHHN2"
+      "amazon:B0GV5WHHN2",
+      "amazon:B0FY8K73R9",
+      "mercadolivre:MLB23928026"
     ],
     "ultima": {
-      "em": "2026-10-13T21:40:18-03:00",
+      "em": "2026-10-13T21:50:18-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 29,
-      "do_nicho": 1,
-      "repetidas": 0,
-      "novas": 1,
+      "posts_novos": 23,
+      "do_nicho": 5,
+      "repetidas": 3,
+      "novas": 2,
       "limite_dia": false,
-      "promobit": 0
+      "promobit": 1
     },
     "hora": "2026-10-13T21",
-    "nesta_hora": 9,
+    "nesta_hora": 10,
     "promobit_hora": "2026-10-13T21",
-    "promobit_nesta_hora": 1,
-    "promobit_visto": 3111875
+    "promobit_nesta_hora": 2,
+    "promobit_visto": 3111889
   },
   "ultimos": [
     {
@@ -4929,7 +4968,7 @@
     },
     "2026-10-13": {
       "promobit": {
-        "achados": 53,
+        "achados": 54,
         "aprovados": 3,
         "reprovados": 22
       },
@@ -4939,7 +4978,7 @@
         "reprovados": 28
       },
       "promooeasy": {
-        "achados": 119,
+        "achados": 120,
         "aprovados": 2,
         "reprovados": 81
       },
@@ -4980,5 +5019,5 @@
       }
     }
   },
-  "aviso_post": "2026-10-13 20|mercadolivre:MLB23181844"
+  "aviso_post": "2026-10-13 21|mercadolivre:MLB46202402"
 }
