@@ -1034,26 +1034,6 @@
     },
     {
       "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB48468943",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/headset-gamer-redragon-zeus-lite-preto-drivers-53mm-com-microfone-removivel/p/MLB48468943?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/headset-gamer-redragon-zeus-lite-preto-drivers-53mm-com-microfone-removivel/p/MLB48468943",
-      "post_origem": "https://t.me/lobaopromo/188941",
-      "link_canal": "https://meli.la/2Vxo2FE",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_743438-MLA105468591979_012026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Headset Gamer Redragon Zeus Lite Preto Drivers 53mm com Microfone",
-      "pix": true,
-      "de": 209.0,
-      "por": 159.9,
-      "titulo": "Headset Redragon Zeus com 23% de desconto",
-      "id": 370,
-      "garimpado_em": "2026-10-13T16:21-03:00",
-      "na_revisao_desde": "2026-10-13T16:21-03:00",
-      "msg_id": 655
-    },
-    {
-      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB51986596",
       "origem": "lobaopromo",
       "link": "https://www.mercadolivre.com.br/barbeador-e-aparador-eletrico-philips-oneblade-com-pente-5-em-1-sem-fio-e-prova-dagua-qp142510/p/MLB51986596?matt_word=alphapromo&matt_tool=59136903",
@@ -3474,6 +3454,27 @@
   ],
   "lixeira": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB48468943",
+      "origem": "lobaopromo",
+      "link": "https://www.mercadolivre.com.br/headset-gamer-redragon-zeus-lite-preto-drivers-53mm-com-microfone-removivel/p/MLB48468943?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/headset-gamer-redragon-zeus-lite-preto-drivers-53mm-com-microfone-removivel/p/MLB48468943",
+      "post_origem": "https://t.me/lobaopromo/188941",
+      "link_canal": "https://meli.la/2Vxo2FE",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_743438-MLA105468591979_012026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Headset Gamer Redragon Zeus Lite Preto Drivers 53mm com Microfone",
+      "pix": true,
+      "de": 209.0,
+      "por": 159.9,
+      "titulo": "Headset Redragon Zeus com 23% de desconto",
+      "id": 370,
+      "garimpado_em": "2026-10-13T16:21-03:00",
+      "na_revisao_desde": "2026-10-13T16:21-03:00",
+      "removido_em": "2026-10-13T23:39:36-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:502619181.23198845672",
       "origem": "lobaopromo",
@@ -4264,25 +4265,6 @@
       "na_revisao_desde": "2026-10-13T22:20-03:00",
       "removido_em": "2026-10-13T23:33:59-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0G61P4832",
-      "origem": "boletando",
-      "link": "https://www.amazon.com.br/dp/B0G61P4832?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0G61P4832?tag=alphadominu09-20",
-      "post_origem": "https://t.me/boletando/76676",
-      "link_canal": "https://boletando.com/oferta/269022/",
-      "foto": "AgACAgQAAxkDAAIDFGrO2O7fSRLggp9qEtnjvLVlD_IwAAIlDGsb-Zi1UO0a2onRVW3iAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Notebook Gamer Acer Nitro V15 i5-13420H, 8GB RAM, RTX 4050 6GB, SSD 512GB, 15.6 FHD IPS 165Hz Windows 11  ANV15-52-56PD",
-      "por": 4950.12,
-      "titulo": "Notebook Gamer Acer Nitro V15 com desconto",
-      "id": 493,
-      "garimpado_em": "2026-10-13T22:20-03:00",
-      "na_revisao_desde": "2026-10-13T22:20-03:00",
-      "removido_em": "2026-10-13T23:33:55-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -4352,7 +4334,7 @@
       "lobaopromo": {
         "achados": 60,
         "aprovados": 12,
-        "reprovados": 33
+        "reprovados": 34
       },
       "promooeasy": {
         "achados": 123,
