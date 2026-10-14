@@ -3241,18 +3241,58 @@
       "garimpado_em": "2026-10-13T22:41-03:00",
       "na_revisao_desde": "2026-10-13T22:41-03:00",
       "msg_id": 790
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB75755258",
+      "origem": "lobaopromo",
+      "link": "https://www.mercadolivre.com.br/mochila-para-notebook-impermeavel-com-porta-usb-e-senha-para-homem/p/MLB75755258?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/mochila-para-notebook-impermeavel-com-porta-usb-e-senha-para-homem/p/MLB75755258",
+      "post_origem": "https://t.me/lobaopromo/189103",
+      "link_canal": "https://meli.la/1m1Xjqv",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_760171-MLA113815933188_072026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Mochila Para Notebook Impermeável com Porta USB e Senha Para Homem",
+      "pix": true,
+      "de": 199.0,
+      "por": 80.4,
+      "cupom": "JOGADOR",
+      "titulo": "Mochila impermeável para notebook com 60% off",
+      "id": 495,
+      "garimpado_em": "2026-10-13T22:50-03:00",
+      "na_revisao_desde": "2026-10-13T22:50-03:00",
+      "msg_id": 791
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB4788829267",
+      "origem": "promonocontext",
+      "link": "https://www.mercadolivre.com.br/mochila-mormaii-resistente-casual-21-litros-basica-azul/up/MLBU4125560704?pdp_filters=item_id%3AMLB4788829267&matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/mochila-mormaii-resistente-casual-21-litros-basica-azul/up/MLBU4125560704?pdp_filters=item_id%3AMLB4788829267",
+      "post_origem": "https://t.me/promonocontext/126458",
+      "link_canal": "https://meli.la/17kfVDc",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_707498-MLB113399104387_062026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Mochila Mormaii Resistente Casual 21 Litros Básica Azul Azul Un",
+      "de": 139.0,
+      "por": 78.0,
+      "titulo": "Mochila Mormaii resistente com 44% de desconto",
+      "id": 496,
+      "garimpado_em": "2026-10-13T22:50-03:00",
+      "na_revisao_desde": "2026-10-13T22:50-03:00",
+      "msg_id": 792
     }
   ],
-  "proximo_id": 495,
+  "proximo_id": 497,
   "radar": {
     "visto": {
       "xetdaspromocoes": 84707,
-      "lobaopromo": 189102,
-      "gatunopromos": 125196,
+      "lobaopromo": 189103,
+      "gatunopromos": 125197,
       "pobregram": 41850,
       "urubupromo": 41632,
       "tudonapromo": 101779,
-      "promonocontext": 126457,
+      "promonocontext": 126460,
       "promooeasy": 220944,
       "aquitempechincha": 281467,
       "infoBRpromos": 67472,
@@ -3261,10 +3301,8 @@
       "achadosdotb": 11763
     },
     "dia": "2026-10-13",
-    "hoje": 330,
+    "hoje": 332,
     "chaves": [
-      "mercadolivre:MLB55813838",
-      "amazon:B09729YMPT",
       "amazon:B0FDX5NC1G",
       "mercadolivre:MLB67500776",
       "amazon:B0FHYLZ7W1",
@@ -3662,27 +3700,29 @@
       "amazon:B0GYQ3L2FT",
       "mercadolivre:MLB6139419",
       "amazon:B0G61P4832",
-      "amazon:B0FFTQV2KP"
+      "amazon:B0FFTQV2KP",
+      "mercadolivre:MLB75755258",
+      "mercadolivre:MLB4788829267"
     ],
     "ultima": {
-      "em": "2026-10-13T22:40:19-03:00",
+      "em": "2026-10-13T22:50:18-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 18,
-      "do_nicho": 2,
+      "posts_novos": 7,
+      "do_nicho": 3,
       "repetidas": 1,
-      "novas": 1,
+      "novas": 2,
       "limite_dia": false,
-      "promobit": 1
+      "promobit": 0
     },
     "hora": "2026-10-13T22",
-    "nesta_hora": 6,
+    "nesta_hora": 8,
     "promobit_hora": "2026-10-13T22",
     "promobit_nesta_hora": 3,
-    "promobit_visto": 3111997
+    "promobit_visto": 3111999
   },
   "ultimos": [
     {
@@ -5120,7 +5160,7 @@
         "reprovados": 22
       },
       "lobaopromo": {
-        "achados": 59,
+        "achados": 60,
         "aprovados": 11,
         "reprovados": 28
       },
@@ -5140,7 +5180,7 @@
         "reprovados": 5
       },
       "promonocontext": {
-        "achados": 50,
+        "achados": 51,
         "aprovados": 8,
         "reprovados": 23
       },
