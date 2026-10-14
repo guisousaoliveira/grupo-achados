@@ -207,7 +207,8 @@
     ],
     "ml_matt_word": "alphapromo",
     "ml_matt_tool": "59136903",
-    "melhores_por_dia": 60
+    "melhores_por_dia": 60,
+    "max_por_loja_hora": 3
   },
   "canal_publico": "alphadominuspromo",
   "aviso_antes_minutos": 10,

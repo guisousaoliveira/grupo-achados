@@ -1412,9 +1412,20 @@ def gerar_story(story, item, canal, cfg=None, modelo="prova"):
                    f"Story de prova: {item.get('nome', '')}. Coloque o sticker de link do canal embaixo.")
 
 
-def enviar_links_story(item, canal):
-    """Os dois links do story de venda, prontos para copiar com um toque (no Telegram, texto em <code> copia)."""
+def enviar_links_story(item, canal, link=None):
+    """O link do story de venda, pronto para copiar com um toque (no Telegram, texto em <code> copia).
+    link "produto" ou "canal" (o Instagram só deixa um sticker de link); None manda os dois."""
     loja = {"amazon": "AMAZON", "mercadolivre": "MERCADO LIVRE", "shopee": "SHOPEE"}.get(item.get("loja"), "LOJA")
+    if link == "produto":
+        responder_admin("No Instagram: sticker de link, cole, e em <b>Personalizar texto do sticker</b> escreva o texto sugerido.\n\n"
+                        f"🛒 <b>Link do produto</b> (toque para copiar):\n<code>{html.escape(item.get('link', ''))}</code>\n"
+                        f"Texto do sticker: <code>COMPRAR NA {loja}</code>")
+        return
+    if link == "canal":
+        responder_admin("No Instagram: sticker de link, cole, e em <b>Personalizar texto do sticker</b> escreva o texto sugerido.\n\n"
+                        f"📢 <b>Link do canal</b> (toque para copiar):\n<code>https://t.me/{html.escape(canal)}</code>\n"
+                        "Texto do sticker: <code>LINK NO CANAL</code>")
+        return
     responder_admin(
         "No Instagram: sticker de link, cole, e em <b>Personalizar texto do sticker</b> escreva o texto sugerido.\n\n"
         f"🛒 <b>Link do produto</b> (toque para copiar):\n<code>{html.escape(item.get('link', ''))}</code>\n"
@@ -2287,7 +2298,7 @@ def soltar_peneira(estado, r, forcado=False):
     por_hora = cfg.get("melhores_por_hora", 0)
     hora = agora().strftime("%Y-%m-%dT%H")
     if r.get("soltas_hora") != hora:
-        r["soltas_hora"], r["soltas"] = hora, 0
+        r["soltas_hora"], r["soltas"], r["soltas_loja"] = hora, 0, {}
     dia = agora().date().isoformat()
     if r.get("soltas_dia_data") != dia:
         r["soltas_dia_data"], r["soltas_dia"] = dia, 0
@@ -2301,9 +2312,13 @@ def soltar_peneira(estado, r, forcado=False):
     if por_dia:
         vagas = min(vagas, por_dia - r["soltas_dia"])
     soltas = 0
+    por_loja = cfg.get("max_por_loja_hora", 0)  # equilíbrio entre Amazon, Mercado Livre e Shopee
+    da_loja = r.setdefault("soltas_loja", {})
     for item in sorted(peneira, key=lambda x: -x.get("nota", 0)):
         if soltas >= vagas:
             break
+        if por_loja and da_loja.get(item.get("loja"), 0) >= por_loja:
+            continue  # essa loja já deu o dela nesta hora: fica na peneira
         peneira.remove(item)
         if repetida_pelo_nome(estado, r, item):  # entrou parecida em Revisar enquanto esperava
             continue
@@ -2312,6 +2327,7 @@ def soltar_peneira(estado, r, forcado=False):
         if not aprovar_sozinha(estado, item):
             mandar_para_revisao(estado, item)
         soltas += 1
+        da_loja[item.get("loja")] = da_loja.get(item.get("loja"), 0) + 1
     r["soltas"] += soltas
     r["soltas_dia"] = r.get("soltas_dia", 0) + soltas
     if soltas:
