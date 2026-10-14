@@ -315,6 +315,29 @@
       "titulo": "Garrafa térmica que mantém a bebida gelada",
       "na_revisao_desde": "2026-10-14T00:41-03:00",
       "aprovado_em": "2026-10-14T09:20-03:00"
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:1006365068.22298339652",
+      "nome": "Bicicleta Bike Ergometrica Spinning Academia Fitness Profissional 120kg",
+      "por": 415.0,
+      "de": 1999.96,
+      "foto": "AgACAgQAAxkDAAIDPGrPeIEyxkSZwT0-Aij_Ygb7PtNEAALpujEbZaXtUiSbcTna4_0aAQADAgADeQADPQQ",
+      "link": "https://s.shopee.com.br/9fLewjftku",
+      "link_produto": "https://shopee.com.br/product/1006365068/22298339652",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.9,
+      "vendas": 638,
+      "palavra": "academia",
+      "garimpado_em": "2026-10-14T09:21-03:00",
+      "nota": 95.8,
+      "titulo": "Bicicleta para pedalar em casa e manter o ritmo",
+      "na_revisao_desde": "2026-10-14T09:41-03:00",
+      "pix": true,
+      "aprovado_em": "2026-10-14T09:43-03:00"
     }
   ],
   "postados": [
@@ -1103,29 +1126,6 @@
   },
   "shopee_buscado_em": "",
   "revisar": [
-    {
-      "loja": "shopee",
-      "chave": "shopee:1006365068.22298339652",
-      "nome": "Bicicleta Bike Ergometrica Spinning Academia Fitness Profissional 120kg",
-      "por": 459.99,
-      "de": 1999.96,
-      "foto": "AgACAgQAAxkDAAIDPGrPeIEyxkSZwT0-Aij_Ygb7PtNEAALpujEbZaXtUiSbcTna4_0aAQADAgADeQADPQQ",
-      "link": "https://s.shopee.com.br/9fLewjftku",
-      "link_produto": "https://shopee.com.br/product/1006365068/22298339652",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.9,
-      "vendas": 638,
-      "palavra": "academia",
-      "garimpado_em": "2026-10-14T09:21-03:00",
-      "nota": 95.8,
-      "titulo": "Bicicleta para pedalar em casa e manter o ritmo",
-      "id": 511,
-      "na_revisao_desde": "2026-10-14T09:41-03:00",
-      "msg_id": 828
-    },
     {
       "loja": "shopee",
       "chave": "shopee:1345043704.22497773735",
@@ -10838,7 +10838,7 @@
     "2026-10-14": {
       "shopee": {
         "achados": 14,
-        "aprovados": 8,
+        "aprovados": 9,
         "reprovados": 4
       }
     }
@@ -10847,7 +10847,7 @@
   "garimpo_palavras": {
     "academia": {
       "achados": 19,
-      "aprovados": 4,
+      "aprovados": 5,
       "reprovados": 14
     },
     "air fryer": {
