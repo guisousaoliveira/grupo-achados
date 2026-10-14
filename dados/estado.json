@@ -1549,29 +1549,6 @@
       "id": 546,
       "na_revisao_desde": "2026-10-14T16:40-03:00",
       "msg_id": 889
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B09B8VGCR8",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B09B8VGCR8?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B09B8VGCR8?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/221437",
-      "link_canal": "https://www.amazon.com.br/Echo-Dot-5%C2%AA-gera%C3%A7%C3%A3o-Cor-Preta/dp/B09B8VGCR8?tag=promof26-20",
-      "foto": "AgACAgEAAxkDAAIDemrP2rysc6DQv5ibi2kMfPqXyy_NAAL8DWsbKhqARmyY2tVDiYIdAQADAgADeAADPQQ",
-      "foto_origem": "canal",
-      "nome": "Echo Dot (Geração mais recente) com Alexa, Som Potente, Wi-Fi e Bluetooth, Preta + Acesso Antecipado à Alexa+",
-      "pix": true,
-      "parcelas": 7,
-      "de": 649.0,
-      "por": 349.0,
-      "palavra": "echo dot",
-      "garimpado_em": "2026-10-14T14:37-03:00",
-      "nota": 49.6,
-      "titulo": "Smart speaker com Alexa para controlar a casa",
-      "id": 547,
-      "na_revisao_desde": "2026-10-14T16:40-03:00",
-      "msg_id": 890
     }
   ],
   "proximo_id": 555,
@@ -5004,6 +4981,30 @@
   ],
   "lixeira": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B09B8VGCR8",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B09B8VGCR8?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B09B8VGCR8?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/221437",
+      "link_canal": "https://www.amazon.com.br/Echo-Dot-5%C2%AA-gera%C3%A7%C3%A3o-Cor-Preta/dp/B09B8VGCR8?tag=promof26-20",
+      "foto": "AgACAgEAAxkDAAIDemrP2rysc6DQv5ibi2kMfPqXyy_NAAL8DWsbKhqARmyY2tVDiYIdAQADAgADeAADPQQ",
+      "foto_origem": "canal",
+      "nome": "Echo Dot (Geração mais recente) com Alexa, Som Potente, Wi-Fi e Bluetooth, Preta + Acesso Antecipado à Alexa+",
+      "pix": true,
+      "parcelas": 7,
+      "de": 649.0,
+      "por": 349.0,
+      "palavra": "echo dot",
+      "garimpado_em": "2026-10-14T14:37-03:00",
+      "nota": 49.6,
+      "titulo": "Smart speaker com Alexa para controlar a casa",
+      "id": 547,
+      "na_revisao_desde": "2026-10-14T16:40-03:00",
+      "removido_em": "2026-10-14T18:01:19-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:377194001.19297690426",
       "nome": "Kit De Brocas Tungstênio  e Diamantada Para Unhas Gel Acrigel Cutilagem Lixadeira De UNha",
@@ -5572,7 +5573,7 @@
       "promooeasy": {
         "achados": 2,
         "aprovados": 0,
-        "reprovados": 0
+        "reprovados": 1
       },
       "promobit": {
         "achados": 1,
@@ -5701,7 +5702,7 @@
     "echo dot": {
       "achados": 2,
       "aprovados": 0,
-      "reprovados": 1
+      "reprovados": 2
     },
     "esmerilhadeira": {
       "achados": 1,
