@@ -2,26 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "amazon",
-      "chave": "amazon:B0DH9TR6DR",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://link.amazon/B0fV7V2di",
-      "link_produto": "https://link.amazon/B0fV7V2di",
-      "post_origem": "https://www.promobit.com.br/oferta/termolar-garrafa-termica-r-evolution-pressao-100-inox-12l-preta-3110213/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3110213/",
-      "nome": "TERMOLAR Garrafa Térmica R-Evolution Pressão 100% Inox 1,2L Preta",
-      "por": 296.81,
-      "de": 539.9,
-      "foto": "AgACAgQAAxkDAAIB6GrOPB1wBRJOnzTjWV7TLWoF5Z7vAAJXD2sbQGV1UhtWPPK_dV_dAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "titulo": "Desconto de 45%: é agora ou nunca.",
-      "garimpado_em": "2026-10-13T11:15-03:00",
-      "na_revisao_desde": "2026-10-13T11:15-03:00",
-      "aprovado_em": "2026-10-13T11:45-03:00",
-      "aviso_validade": true
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB4049279695",
       "origem": "lobaopromo",
@@ -995,6 +975,16 @@
       "link_produto": "https://meli.la/2VVeCii",
       "titulo": "Investimento no shape que cabe no bolso.",
       "slot": 8
+    },
+    {
+      "chave": "amazon:B0DH9TR6DR",
+      "loja": "amazon",
+      "nome": "TERMOLAR Garrafa Térmica R-Evolution Pressão 100% Inox 1,2L Preta",
+      "data": "2026-10-14T09:07-03:00",
+      "link": "https://link.amazon/B0fV7V2di",
+      "link_produto": "https://link.amazon/B0fV7V2di",
+      "titulo": "Desconto de 45%: é agora ou nunca.",
+      "slot": 9
     }
   ],
   "slots_usados": {
@@ -1038,7 +1028,8 @@
       23
     ],
     "2026-10-14": [
-      8
+      8,
+      9
     ]
   },
   "shopee_buscado_em": "",
@@ -8114,6 +8105,20 @@
   },
   "ultimos": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B0DH9TR6DR",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://link.amazon/B0fV7V2di",
+      "link_produto": "https://link.amazon/B0fV7V2di",
+      "post_origem": "https://www.promobit.com.br/oferta/termolar-garrafa-termica-r-evolution-pressao-100-inox-12l-preta-3110213/",
+      "nome": "TERMOLAR Garrafa Térmica R-Evolution Pressão 100% Inox 1,2L Preta",
+      "por": 296.81,
+      "de": 539.9,
+      "foto": "AgACAgQAAxkDAAIB6GrOPB1wBRJOnzTjWV7TLWoF5Z7vAAJXD2sbQGV1UhtWPPK_dV_dAQADAgADeAADPQQ",
+      "titulo": "Desconto de 45%: é agora ou nunca."
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB26796581",
       "origem": "promonocontext",
@@ -8649,18 +8654,6 @@
       "por": 189.0,
       "titulo": "Headphone Anker Q11i com 60 horas de bateria",
       "de": 199.0
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:1510737053.22794690094",
-      "origem": "promooeasy",
-      "link": "https://s.shopee.com.br/7faXpIObLd",
-      "link_produto": "https://shopee.com.br/product/1510737053/22794690094",
-      "post_origem": "https://t.me/promooeasy/220160",
-      "foto": "AgACAgEAAxkDAAPAas0uanJJmsNa4S836due4vy8zkkAAjUNaxvw92lGVxnx00CKYm0BAAMCAAN4AAM9BA",
-      "nome": "Power Bank 50000mAh Carga Rápida Display Digital 33W66W USB Type-C",
-      "por": 127.3,
-      "titulo": "Power bank gigante com menor preço"
     }
   ],
   "lixeira": [
