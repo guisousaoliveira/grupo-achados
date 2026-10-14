@@ -1365,22 +1365,22 @@
   "proximo_id": 565,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84885,
-      "lobaopromo": 189560,
-      "gatunopromos": 125409,
+      "xetdaspromocoes": 84886,
+      "lobaopromo": 189561,
+      "gatunopromos": 125411,
       "pobregram": 41907,
       "urubupromo": 41685,
       "tudonapromo": 101916,
-      "promonocontext": 126847,
-      "promooeasy": 221664,
+      "promonocontext": 126857,
+      "promooeasy": 221676,
       "aquitempechincha": 281688,
-      "infoBRpromos": 67579,
-      "boletando": 76740,
+      "infoBRpromos": 67582,
+      "boletando": 76741,
       "promotop": 260287,
       "achadosdotb": 11771
     },
     "dia": "2026-10-14",
-    "hoje": 141,
+    "hoje": 144,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -3088,30 +3088,34 @@
       "amazon:B0DB52X2ZW",
       "amazon:B07FCLBWD9",
       "mercadolivre:MLB2758900183",
-      "mercadolivre:MLB72148336"
+      "mercadolivre:MLB72148336",
+      "amazon:B0BPYQPJZT",
+      "amazon:B09TB998J3",
+      "mercadolivre:MLB4953182315"
     ],
     "ultima": {
-      "em": "2026-10-14T20:01:06-03:00",
+      "em": "2026-10-14T20:10:19-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 26,
-      "do_nicho": 3,
+      "posts_novos": 41,
+      "do_nicho": 4,
       "repetidas": 1,
       "novas": 2,
       "limite_dia": false,
       "repetidas_nome": 0,
-      "promobit": 0,
+      "fora_do_nicho": 1,
+      "promobit": 1,
       "soltas": 0,
-      "na_peneira": 28
+      "na_peneira": 29
     },
     "hora": "2026-10-14T20",
-    "nesta_hora": 2,
+    "nesta_hora": 3,
     "promobit_hora": "2026-10-14T20",
-    "promobit_nesta_hora": 0,
-    "promobit_visto": 3114546,
+    "promobit_nesta_hora": 2,
+    "promobit_visto": 3114567,
     "nomes": [
       [
         [
@@ -3889,22 +3893,6 @@
     ],
     "peneira": [
       {
-        "loja": "amazon",
-        "chave": "amazon:B0FHLGFKS3",
-        "origem": "promooeasy",
-        "link": "https://www.amazon.com.br/dp/B0FHLGFKS3?tag=alphadominu09-20",
-        "link_produto": "https://www.amazon.com.br/dp/B0FHLGFKS3?tag=alphadominu09-20",
-        "post_origem": "https://t.me/promooeasy/221540",
-        "link_canal": "https://www.amazon.com.br/dp/B0FHLGFKS3?tag=promof26-20",
-        "foto": "https://cdn1.telesco.pe/file/T2C24HLolrQapFi8ay3WWVe2olL-JzlQgoGfHL-pkIPkziiG5e4DZBxu-ZsXzPDG2w1-dvv6yAV-06ycoWMZpQdDSwEzCJENvY_2RWsKEzOn-qfynfxkcn8vr5cv2FYUZZAsq4zJZlo8VsUf2QOqgOGP19JvgZDnD0XVFp9a4q48v4xMwMzZnFPu5Jo6c7aFpqn5NtThXIXNwbQE3zmd1CRPyd0QYDFGLBsIt8_5u9enpchYUYShpiaHLyW-XAwNLuP-mR4K2F4V-ecY6T1XeSoIWapZ_JVoCC6uxOmDythugLO1FH4snf0K-CLjKsIgLdRyRv_m5_ShcK5S8Wuftg.jpg",
-        "foto_origem": "canal",
-        "nome": "Creatina Monohidratada Universal Universal Nutrition (400g + Coqueteleira)",
-        "por": 70.0,
-        "palavra": "creatina",
-        "garimpado_em": "2026-10-14T17:10-03:00",
-        "nota": 33.6
-      },
-      {
         "loja": "mercadolivre",
         "chave": "mercadolivre:MLB57062474",
         "origem": "promonocontext",
@@ -4373,12 +4361,47 @@
         "palavra": "power bank",
         "garimpado_em": "2026-10-14T20:01-03:00",
         "nota": 74.5
+      },
+      {
+        "loja": "amazon",
+        "chave": "amazon:B0BPYQPJZT",
+        "origem": "promobit",
+        "fonte": "promobit",
+        "link": "https://www.amazon.com.br/dp/B0BPYQPJZT?tag=alphadominu09-20",
+        "link_produto": "https://www.amazon.com.br/dp/B0BPYQPJZT?tag=alphadominu09-20",
+        "post_origem": "https://www.promobit.com.br/oferta/lyor-forma-quadrada-de-silicone-para-air-fryer-vermelha-20cm-x-7cm-3114560/",
+        "link_canal": "https://www.promobit.com.br/Redirect/to/3114560/",
+        "nome": "LYOR - Forma Quadrada de Silicone para Air Fryer Vermelha 20cm x 7cm",
+        "por": 16.0,
+        "foto": "https://images-na.ssl-images-amazon.com/images/P/B0BPYQPJZT.01.LZZZZZZZ.jpg",
+        "foto_origem": "loja",
+        "palavra": "air fryer",
+        "garimpado_em": "2026-10-14T20:10-03:00",
+        "nota": 25.6
+      },
+      {
+        "loja": "mercadolivre",
+        "chave": "mercadolivre:MLB4953182315",
+        "origem": "xetdaspromocoes",
+        "link": "https://www.mercadolivre.com.br/relogio-de-pulso-masculino-fortuna-old-money-minimalista/up/MLBU4446141289?pdp_filters=item_id%3AMLB4953182315&matt_word=alphapromo&matt_tool=59136903",
+        "link_produto": "https://www.mercadolivre.com.br/relogio-de-pulso-masculino-fortuna-old-money-minimalista/up/MLBU4446141289?pdp_filters=item_id%3AMLB4953182315",
+        "post_origem": "https://t.me/xetdaspromocoes/84886",
+        "link_canal": "https://meli.la/1g3VaLc",
+        "foto": "https://http2.mlstatic.com/D_NQ_NP_848522-MLB113892456626_072026-O.webp",
+        "foto_origem": "loja",
+        "nome": "Relógio De Pulso Masculino Fortuna Old Money Minimalista Preto Cx",
+        "por": 69.99,
+        "de": 199.99,
+        "cupom": "FORTUNAOCULOS",
+        "palavra": "relogio",
+        "garimpado_em": "2026-10-14T20:10-03:00",
+        "nota": 74.7
       }
     ],
     "soltas_hora": "2026-10-14T20",
     "soltas": 0,
-    "shopee_em": "2026-10-14T19:50-03:00",
-    "shopee_indice": 36,
+    "shopee_em": "2026-10-14T20:10-03:00",
+    "shopee_indice": 44,
     "soltas_dia_data": "2026-10-14",
     "soltas_dia": 55,
     "soltas_loja": {}
@@ -5850,7 +5873,7 @@
       }
     }
   },
-  "aviso_post": "2026-10-14 19|mercadolivre:MLB24081502",
+  "aviso_post": "2026-10-14 20|shopee:1345043704.22497773735",
   "garimpo_palavras": {
     "academia": {
       "achados": 21,
