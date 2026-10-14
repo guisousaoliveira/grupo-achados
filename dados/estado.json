@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "shopee",
-      "chave": "shopee:373745451.17609940424",
-      "nome": "Jogo De Soquete 46 Peças 1/4 Catraca Chave Allen",
-      "por": 25.99,
-      "de": 324.88,
-      "foto": "AgACAgQAAxkDAAIDNWrPakDuc8_Tv3OVFsShA37eWIfyAAJLC2sbhrBEU1NCu7o9TDIWAQADAgADeQADPQQ",
-      "link": "https://s.shopee.com.br/8fT7cybORp",
-      "link_produto": "https://shopee.com.br/product/373745451/17609940424",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.8,
-      "vendas": 807,
-      "palavra": "jogo de soquete",
-      "garimpado_em": "2026-10-14T07:25-03:00",
-      "nota": 93.4,
-      "titulo": "Kit de ferramentas para reparos rápidos em casa",
-      "na_revisao_desde": "2026-10-14T08:40-03:00",
-      "aprovado_em": "2026-10-14T09:12-03:00"
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB25929487",
       "origem": "lobaopromo",
@@ -1186,6 +1164,16 @@
       "link_produto": "https://meli.la/2cfTgBD",
       "titulo": "Kit completo para cuidar da barba em casa",
       "slot": 16
+    },
+    {
+      "chave": "shopee:373745451.17609940424",
+      "loja": "shopee",
+      "nome": "Jogo De Soquete 46 Peças 1/4 Catraca Chave Allen",
+      "data": "2026-10-14T17:33-03:00",
+      "link": "https://s.shopee.com.br/8fT7cybORp",
+      "link_produto": "https://shopee.com.br/product/373745451/17609940424",
+      "titulo": "Kit de ferramentas para reparos rápidos em casa",
+      "slot": 17
     }
   ],
   "slots_usados": {
@@ -1237,7 +1225,8 @@
       13,
       14,
       15,
-      16
+      16,
+      17
     ]
   },
   "shopee_buscado_em": "",
@@ -4539,6 +4528,19 @@
   },
   "ultimos": [
     {
+      "loja": "shopee",
+      "chave": "shopee:373745451.17609940424",
+      "nome": "Jogo De Soquete 46 Peças 1/4 Catraca Chave Allen",
+      "por": 25.99,
+      "de": 324.88,
+      "foto": "AgACAgQAAxkDAAIDNWrPakDuc8_Tv3OVFsShA37eWIfyAAJLC2sbhrBEU1NCu7o9TDIWAQADAgADeQADPQQ",
+      "link": "https://s.shopee.com.br/8fT7cybORp",
+      "link_produto": "https://shopee.com.br/product/373745451/17609940424",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "titulo": "Kit de ferramentas para reparos rápidos em casa"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB5169389147",
       "origem": "lobaopromo",
@@ -5067,19 +5069,6 @@
       "por": 227.03,
       "titulo": "Chave de impacto",
       "pix": true
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB2650723879",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/1YPBC11",
-      "link_produto": "https://meli.la/1YPBC11",
-      "post_origem": "https://t.me/lobaopromo/188687",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_625971-MLB85128237971_052025-O.webp",
-      "nome": "Kit 3 Camisas Proteção Solar Uv Treino Térmica Academia",
-      "de": 129.0,
-      "por": 93.95,
-      "titulo": "Kit de camisas térmicas com 27% off"
     }
   ],
   "lixeira": [
