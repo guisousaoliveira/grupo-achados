@@ -793,31 +793,8 @@ def gemini(corpo, timeout=30):
 
 
 def gerar_frase(item):
-    """Frase chamativa para a oferta. Usa IA (Gemini, grátis) se tiver a chave; se não, o banco de frases do config."""
-    off = round((1 - item["por"] / item["de"]) * 100) if item.get("de") and item.get("por") else 0
-    chave = segredo("GEMINI_API_KEY")
-    if chave and not SIMULAR:
-        pedido = (CONFIG.get("ia", {}).get("instrucao", "") + " " + REGRA_IA +
-                  f"\nProduto: {item.get('nome')}\nPreço: {item.get('por')}\nDesconto: {off}%\nFrase:")
-        try:
-            frase = gemini({"contents": [{"parts": [{"text": pedido}]}]}).strip('"')
-            if texto_ia_ok(frase, item):
-                return frase.splitlines()[0][:140]
-        except Exception as e:
-            log(f"IA não respondeu ({e}), usando o banco de frases.")
-    frases = CONFIG.get("frases", {})
-    nome = (item.get("nome") or "").lower()
-    opcoes = []
-    for tema, palavras in CONFIG.get("palavras", {}).items():
-        if any(re.search(rf"\b{re.escape(p)}\b", nome) for p in palavras):
-            opcoes = frases.get(tema, [])
-            break
-    if off >= 40:
-        opcoes = opcoes + frases.get("desconto_alto", [])
-    opcoes = opcoes or frases.get("geral", [])
-    if not opcoes:
-        return ""
-    return random.choice(opcoes).replace("{off}", str(off))
+    """Chamada para a oferta: a IA (Gemini) se tiver a chave e ela responder; se não, a chamada reserva."""
+    return gerar_titulo(item) or titulo_reserva(item)
 
 
 # A IA só pode usar o que está nos dados da oferta. Ela inventava "frete grátis", "Prime", "Pix" e
@@ -827,10 +804,15 @@ REGRA_IA = ("Tom sério e objetivo, como uma indicação de compra, nada de exag
             "para quem é), sem inventar especificação. Não mencione frete, Prime, Pix, cupom, parcelas, brinde ou estoque se isso não estiver "
             "nos dados. Nunca diga menor preço, preço histórico, nunca visto, mais barato da internet, últimas unidades "
             "ou que vai esgotar (não temos histórico de preço nem estoque).")
-EXEMPLOS_TITULO = ("Varie entre falar do benefício do produto e do desconto. Exemplos do tom certo: "
-                   "Whey para você bater a proteína do dia | Mochila para carregar tudo que você precisa | "
+# A chamada não fala de desconto: o post já mostra o "% off" logo abaixo e todo título com "87% off" ficava
+# repetitivo. Ela fala do produto: para que serve, para quem é, o que tem de bom.
+EXEMPLOS_TITULO = ("Fale do produto: o uso, para quem é ou o que ele tem de bom. NÃO fale de desconto, porcentagem, "
+                   "off, promoção nem preço (o post já mostra isso logo abaixo). Exemplos do tom certo: "
+                   "Whey para você bater a proteína do dia | Mochila que carrega o notebook e a roupa do treino | "
                    "Creatina para render mais no treino | Aparador para manter a barba alinhada em casa | "
-                   "Whey Max Titanium com 37% off | Mochila tática 50L pela metade do preço")
+                   "Relógio prateado que combina com camisa social | Fone sem fio para treinar sem cabo enroscando | "
+                   "Perfume amadeirado para usar à noite | Garrafa que segura o café quente o dia todo")
+SEM_DESCONTO = re.compile(r"\d\s*%|\boff\b|descont|promo|\bpre[cç]o|\br\$|metade|barat|oferta|agora ou nunca|\bcorre\b", re.I)
 PROIBIDO_IA = re.compile(r"menor\s+pre[cç]o|hist[oó]ric|nunca\s+vist|mais\s+barat[oa]\s+d[ao]|[uú]ltimas\s+unidades|"
                          r"esgot|pre[cç]o\s+m[ií]nimo|m[ií]nimo\s+hist|frete|entrega\s+gr[aá]tis|brinde|lan[cç]amento", re.I)
 
@@ -873,19 +855,35 @@ def dados_ia(item):
     return "\n".join(linhas)
 
 
-def gerar_titulo(item):
-    """Chamada curta para o topo do post (só com a chave da Gemini; sem ela vai o banco de frases)."""
+def titulo_ok(texto, item=None):
+    """Chamada boa: não afirma o que não está nos dados e não fala de desconto/preço (já está no post)."""
+    return texto_ia_ok(texto, item) and not SEM_DESCONTO.search(texto) and 2 <= len(texto.split()) <= 10
+
+
+def titulos_recentes(estado):
+    """As últimas chamadas usadas, para a IA não repetir o mesmo jeito de começar."""
+    ts = [x.get("titulo") for x in estado.get("postados", [])[-8:]] + \
+         [x.get("titulo") for x in estado.get("fila", []) + estado.get("revisar", [])]
+    return [t for t in ts if t and titulo_ok(t)][-15:]  # as ruins ("87% off") não entram, para não virar exemplo
+
+
+def gerar_titulo(item, recentes=()):
+    """Chamada curta para o topo do post, feita pela IA. "" se a IA não responder (aí vai a chamada reserva)."""
     chave = segredo("GEMINI_API_KEY")
     if not chave or SIMULAR:
         return ""
     pedido = ("Escreva UMA chamada curta (até 8 palavras) em português do Brasil para o topo de um post de oferta "
-              "num canal de achados masculino: o produto (nome curto) e um atrativo, que pode ser o benefício/uso do "
-              "produto ou o desconto que está nos dados. Sem emoji, sem hashtag, sem o preço em reais, sem aspas. " + REGRA_IA + "\n"
-              + EXEMPLOS_TITULO + "\n\nDados:\n" + dados_ia(item) + "\nChamada:")
+              "num canal de achados masculino. Sem emoji, sem hashtag, sem aspas, sem ponto final. " + REGRA_IA + "\n"
+              + EXEMPLOS_TITULO)
+    if recentes:
+        pedido += ("\nChamadas que já usamos (não copie a estrutura nem o começo delas): " + " | ".join(recentes))
+    pedido += "\n\nDados:\n" + dados_ia(item) + "\nChamada:"
+    corpo = {"contents": [{"parts": [{"text": pedido}]}], "generationConfig": {"temperature": 1.0}}
     try:
-        for _ in range(2):  # se afirmar o que não está nos dados, tenta mais uma vez; senão vai o banco de frases
-            titulo = gemini({"contents": [{"parts": [{"text": pedido}]}]}).strip().strip('"').splitlines()[0].rstrip(".")
-            if texto_ia_ok(titulo, item):
+        for _ in range(2):  # se falar de desconto ou afirmar o que não está nos dados, tenta mais uma vez
+            texto = gemini(corpo)
+            titulo = (texto.strip().splitlines() or [""])[0].strip().strip('"“”').rstrip(".")
+            if titulo_ok(titulo, item):
                 return titulo[:60]
         return ""
     except Exception as e:
@@ -893,9 +891,54 @@ def gerar_titulo(item):
         return ""
 
 
+def titulo_reserva(item):
+    """Chamada sem IA: o nome curto do produto + um complemento do tema dele ("Creatina Dark Lab para render mais
+    no treino"). Fica marcada para a IA refazer depois (refazer_titulos)."""
+    nome = re.split(r"\s*[(\[]", nome_curto(item.get("nome") or "", 40))[0]
+    palavras = nome.split()
+    nome = " ".join(palavras[:4]) if len(palavras) > 4 else nome
+    nome = re.sub(r"(\s+(de|da|do|com|para|e|em|eau|pura?|original|\d+%))+$", "", nome, flags=re.I)
+    if not nome:
+        return ""
+    frases = CONFIG.get("complementos", {})
+    texto = (item.get("nome") or "").lower()
+    opcoes = []
+    for tema, ps in CONFIG.get("palavras", {}).items():
+        if any(re.search(rf"\b{re.escape(p)}\b", texto) for p in ps):
+            opcoes = frases.get(tema, [])
+            break
+    opcoes = opcoes or frases.get("geral", [])
+    fim = random.Random(item.get("chave") or nome).choice(opcoes) if opcoes else ""
+    return f"{nome} {fim}".strip()
+
+
+def refazer_titulos(estado, maximo=4):
+    """Ofertas que ficaram com a chamada reserva (a IA estava fora do ar ou sem cota): tenta a IA de novo.
+    Se você já mudou a chamada, não mexe."""
+    feitos = 0
+    for item in estado["revisar"] + estado["fila"]:
+        reserva = item.get("titulo_reserva")
+        if not reserva:
+            continue
+        if item.get("titulo") != reserva:
+            item.pop("titulo_reserva", None)
+            continue
+        if feitos >= maximo:
+            break
+        feitos += 1
+        novo = gerar_titulo(item, titulos_recentes(estado))
+        if not novo:
+            break  # a IA ainda não responde: tenta na próxima rodada
+        item["titulo"] = novo
+        item.pop("titulo_reserva", None)
+        log(f"Chamada refeita pela IA: {novo}")
+
+
 def mandar_para_revisao(estado, item):
     if not (item.get("titulo") or item.get("frase")) and item.get("nome"):
-        item["titulo"] = gerar_titulo(item) or gerar_frase(item)  # sem a chave da Gemini: banco de frases
+        item["titulo"] = gerar_titulo(item, titulos_recentes(estado))
+        if not item["titulo"]:  # IA fora do ar ou sem cota: chamada reserva, e a IA tenta de novo nas próximas rodadas
+            item["titulo"] = item["titulo_reserva"] = titulo_reserva(item)
     item["id"] = estado["proximo_id"]
     estado["proximo_id"] += 1
     item.setdefault("garimpado_em", agora().isoformat(timespec="minutes"))
@@ -1233,7 +1276,7 @@ def guardar_ultimo(estado, item):
 def registro_postado(item, dt):
     """Linha do histórico (o link vai junto para o Histórico do painel abrir o produto certo)."""
     r = {"chave": item["chave"], "loja": item["loja"], "nome": item["nome"], "data": dt.isoformat(timespec="minutes")}
-    for k in ("link", "link_produto"):
+    for k in ("link", "link_produto", "titulo"):
         if item.get(k):
             r[k] = item[k]
     return r
@@ -2348,10 +2391,35 @@ def cmd_shopee_teste(links):
         log(f"  {o['nome'][:60]} · R$ {o['por']} ({o['desconto']}% off, {o['vendas']} vendas) · {o['link']}")
     if nos:
         o = oferta_shopee(nos[0])
-        log(f"Link curto gerado para {o['link_produto']}: {shopee_link_curto(o['link_produto'])}")
+        curto = shopee_link_curto(o['link_produto'])
+        log(f"Link curto gerado para {o['link_produto']}: {curto}")
+        for link in (o["link"], curto):  # para onde o link leva: os parâmetros mostram de quem é a comissão
+            try:
+                req = urllib.request.Request(link, headers={"User-Agent": USER_AGENT})
+                with urllib.request.urlopen(req, timeout=20) as resp:
+                    final = resp.geturl()
+            except urllib.error.HTTPError as e:
+                final = e.geturl()
+            except Exception as e:
+                final = f"erro: {e}"
+            q = urllib.parse.parse_qs(urllib.parse.urlparse(final).query)
+            log(f"{link} abre: {final[:300]}")
+            log(f"  comissão: utm_source={q.get('utm_source')} utm_medium={q.get('utm_medium')} "
+                f"utm_content={q.get('utm_content')} affiliate_id={q.get('affiliate_id')}")
     for link in links:
         prod = produto_do_link(link)
         log(f"{link} -> {json.dumps(prod, ensure_ascii=False)[:400]}")
+
+
+def cmd_titulo_teste():
+    """Prévia (workflow titulo-teste.yml): chamada atual x chamada nova das ofertas do Revisar e da fila. Não salva nada."""
+    estado, _ = carregar_estado()
+    recentes = []
+    for item in (estado["revisar"] + estado["fila"])[:20]:
+        novo = gerar_titulo(item, recentes) or "(IA não respondeu) " + titulo_reserva(item)
+        recentes.append(novo)
+        log(f"{nome_curto(item.get('nome') or '', 45)} :: antes: {item.get('titulo') or item.get('frase')} :: agora: {novo}")
+        log(f"  sem IA ficaria: {titulo_reserva(item)}")
 
 
 def cmd_foto_teste(links):
@@ -2439,6 +2507,10 @@ def ciclo(estado):
     except Exception as e:
         log(f"Erro na Shopee: {e}")
     try:
+        refazer_titulos(estado)
+    except Exception as e:
+        log(f"Erro refazendo chamadas: {e}")
+    try:
         postar_se_for_hora(estado)
     except Exception as e:
         log(f"Erro ao postar: {e}")
@@ -2522,6 +2594,8 @@ def main():
             cmd_foto_teste(args[1:])
         elif cmd == "shopee-teste":
             cmd_shopee_teste(args[1:])
+        elif cmd == "titulo-teste":
+            cmd_titulo_teste()
         else:
             print(__doc__)
     except RuntimeError as e:
