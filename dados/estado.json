@@ -362,26 +362,6 @@
       "titulo": "Smartwatch esportivo para monitorar suas atividades diárias",
       "na_revisao_desde": "2026-10-14T15:41-03:00",
       "aprovado_em": "2026-10-14T18:18-03:00"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB18218398",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/2gzYBUv",
-      "link_produto": "https://meli.la/2gzYBUv",
-      "post_origem": "https://t.me/lobaopromo/189500",
-      "link_canal": "https://meli.la/2cnt2ZN",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_764568-MLA99034657020_112025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Proteína Integralmédica Whey 100% Pure em pó sabor Baunilha x 900g",
-      "de": 309.0,
-      "por": 138.0,
-      "palavra": "whey",
-      "garimpado_em": "2026-10-14T18:10-03:00",
-      "nota": 67.9,
-      "titulo": "Whey NO PRECINHO",
-      "na_revisao_desde": "2026-10-14T18:40-03:00",
-      "aprovado_em": "2026-10-14T18:56-03:00"
     }
   ],
   "postados": [
@@ -1307,6 +1287,15 @@
       "link_produto": "https://shopee.com.br/product/979724994/23798014198",
       "titulo": "Soquetes longos para aperto firme em oficina",
       "slot": 18
+    },
+    {
+      "chave": "mercadolivre:MLB18218398",
+      "loja": "mercadolivre",
+      "nome": "Proteína Integralmédica Whey 100% Pure em pó sabor Baunilha x 900g",
+      "data": "2026-10-14T18:56-03:00",
+      "link": "https://meli.la/2gzYBUv",
+      "link_produto": "https://meli.la/2gzYBUv",
+      "titulo": "Whey NO PRECINHO"
     }
   ],
   "slots_usados": {
@@ -4306,6 +4295,19 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB18218398",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/2gzYBUv",
+      "link_produto": "https://meli.la/2gzYBUv",
+      "post_origem": "https://t.me/lobaopromo/189500",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_764568-MLA99034657020_112025-O.webp",
+      "nome": "Proteína Integralmédica Whey 100% Pure em pó sabor Baunilha x 900g",
+      "de": 309.0,
+      "por": 138.0,
+      "titulo": "Whey NO PRECINHO"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:979724994.23798014198",
       "nome": "Jogo de Soquetes de Impacto Longo 1/2 10 Peças  8 A 24mm",
@@ -4830,20 +4832,6 @@
       "de": 78.9,
       "por": 39.9,
       "titulo": "Pra quem leva o treino a sério."
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0FPNSXKKJ",
-      "origem": "promooeasy",
-      "link": "https://link.amazon/B06qjIRwk",
-      "link_produto": "https://link.amazon/B06qjIRwk",
-      "post_origem": "https://t.me/promooeasy/220314",
-      "foto": "AgACAgQAAxkDAAIBZmrOCr7zle50pzzVY44g15D8IKJ7AALsD2sbYlL1UyKQTv1xebwMAQADAgADeAADPQQ",
-      "nome": "JBL, Caixa de Som, Go Essential 2, Bluetooth, Portátil, À Prova Dágua e Resistente à Poeira, Bateria de até 5h, Auracast",
-      "pix": true,
-      "parcelas": 6,
-      "por": 159.5,
-      "parcela_valor": 28.0
     }
   ],
   "lixeira": [
