@@ -3,23 +3,6 @@
   "fila": [
     {
       "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB32431595",
-      "origem": "gatunopromos",
-      "link": "https://meli.la/1UeRK4g",
-      "link_produto": "https://meli.la/1UeRK4g",
-      "post_origem": "https://t.me/gatunopromos/125144",
-      "link_canal": "https://www.mercadolivre.com.br/social/gatuna/lists",
-      "foto": "AgACAgQAAxkDAAICvGrOmysMjPtx7TZTDjd7iiMuhQABCAACNA9rGw3FfFLHUGMo0lncOgEAAwIAA20AAz0E",
-      "foto_origem": "loja",
-      "nome": "Kit Vinho 5 Peças Uny Gift Abridor Saca Rolhas Dosador Aço Inox",
-      "por": 35.7,
-      "garimpado_em": "2026-10-13T17:57-03:00",
-      "na_revisao_desde": "2026-10-13T17:57-03:00",
-      "aprovado_em": "2026-10-13T23:39-03:00",
-      "aviso_validade": true
-    },
-    {
-      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB6139419",
       "origem": "lobaopromo",
       "link": "https://meli.la/1d4dxW9",
@@ -1144,6 +1127,14 @@
       "link_produto": "https://link.amazon/B06Sz66Hz",
       "titulo": "Desconto de 61%: é agora ou nunca.",
       "slot": 13
+    },
+    {
+      "chave": "mercadolivre:MLB32431595",
+      "loja": "mercadolivre",
+      "nome": "Kit Vinho 5 Peças Uny Gift Abridor Saca Rolhas Dosador Aço Inox",
+      "data": "2026-10-14T13:13-03:00",
+      "link": "https://meli.la/1UeRK4g",
+      "link_produto": "https://meli.la/1UeRK4g"
     }
   ],
   "slots_usados": {
@@ -4025,6 +4016,17 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB32431595",
+      "origem": "gatunopromos",
+      "link": "https://meli.la/1UeRK4g",
+      "link_produto": "https://meli.la/1UeRK4g",
+      "post_origem": "https://t.me/gatunopromos/125144",
+      "foto": "AgACAgQAAxkDAAICvGrOmysMjPtx7TZTDjd7iiMuhQABCAACNA9rGw3FfFLHUGMo0lncOgEAAwIAA20AAz0E",
+      "nome": "Kit Vinho 5 Peças Uny Gift Abridor Saca Rolhas Dosador Aço Inox",
+      "por": 35.7
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0FFTQV2KP",
       "origem": "promobit",
@@ -4553,19 +4555,6 @@
       "de": 135.41,
       "por": 59.99,
       "titulo": "Preço de queima, 54% mais barato."
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB24117280",
-      "origem": "gatunopromos",
-      "link": "https://meli.la/2Y9mkYv",
-      "link_produto": "https://meli.la/2Y9mkYv",
-      "post_origem": "https://t.me/gatunopromos/125008",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_673950-MLA99394598783_112025-O.webp",
-      "nome": "Fone De Ouvido Headphone Dapon H02D Bluetooth 5.1 Over-ear 22h Preto",
-      "de": 149.0,
-      "por": 78.9,
-      "titulo": "Headphone Dapon pela metade do preço"
     }
   ],
   "lixeira": [
