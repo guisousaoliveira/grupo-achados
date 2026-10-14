@@ -1507,29 +1507,6 @@
       "msg_id": 885
     },
     {
-      "loja": "shopee",
-      "chave": "shopee:1485189181.58251734405",
-      "nome": "Kit 13 Brocas HSS Titânio com Haste Hexagonal 1/4\" Troca Rápida para Furadeira e Parafusadeira Madeira Plástico Alumínio",
-      "por": 19.66,
-      "de": 98.3,
-      "foto": "AgACAgQAAxkDAAIDeGrP2rmxR3dNpq_K1A-Xf618UVgxAAJiD2sbSGwMUv3cd0rHiQK1AQADAgADeQADPQQ",
-      "link": "https://s.shopee.com.br/8V9i28JGea",
-      "link_produto": "https://shopee.com.br/product/1485189181/58251734405",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.7,
-      "vendas": 621,
-      "palavra": "parafusadeira",
-      "garimpado_em": "2026-10-14T16:30-03:00",
-      "nota": 85.1,
-      "titulo": "Brocas de titânio para furadeira e parafusadeira",
-      "id": 545,
-      "na_revisao_desde": "2026-10-14T16:40-03:00",
-      "msg_id": 888
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB6087972",
       "origem": "xetdaspromocoes",
@@ -4981,6 +4958,30 @@
   ],
   "lixeira": [
     {
+      "loja": "shopee",
+      "chave": "shopee:1485189181.58251734405",
+      "nome": "Kit 13 Brocas HSS Titânio com Haste Hexagonal 1/4\" Troca Rápida para Furadeira e Parafusadeira Madeira Plástico Alumínio",
+      "por": 19.66,
+      "de": 98.3,
+      "foto": "AgACAgQAAxkDAAIDeGrP2rmxR3dNpq_K1A-Xf618UVgxAAJiD2sbSGwMUv3cd0rHiQK1AQADAgADeQADPQQ",
+      "link": "https://s.shopee.com.br/8V9i28JGea",
+      "link_produto": "https://shopee.com.br/product/1485189181/58251734405",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.7,
+      "vendas": 621,
+      "palavra": "parafusadeira",
+      "garimpado_em": "2026-10-14T16:30-03:00",
+      "nota": 85.1,
+      "titulo": "Brocas de titânio para furadeira e parafusadeira",
+      "id": 545,
+      "na_revisao_desde": "2026-10-14T16:40-03:00",
+      "removido_em": "2026-10-14T18:01:24-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B09B8VGCR8",
       "origem": "promooeasy",
@@ -5548,7 +5549,7 @@
       "shopee": {
         "achados": 34,
         "aprovados": 14,
-        "reprovados": 13
+        "reprovados": 14
       },
       "lobaopromo": {
         "achados": 5,
@@ -5762,7 +5763,7 @@
     "parafusadeira": {
       "achados": 6,
       "aprovados": 0,
-      "reprovados": 3
+      "reprovados": 4
     },
     "perfume masculino": {
       "achados": 7,
