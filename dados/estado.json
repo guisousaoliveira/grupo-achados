@@ -1105,29 +1105,6 @@
   "revisar": [
     {
       "loja": "shopee",
-      "chave": "shopee:721218279.25356800051",
-      "nome": "80 Estilos Moda Broche Dos Desenhos Animados Bonito Liga Alfinetes Badge Pin Mochila Decoração",
-      "por": 2.98,
-      "de": 27.09,
-      "foto": "AgACAgQAAxkDAAIDO2rPeGLNxPwPn9zNHqFt4zn7t5hBAAK3DGsbvjYlUAABl_z2vvP8GgEAAwIAA3gAAz0E",
-      "link": "https://s.shopee.com.br/3g4RmMf8jL",
-      "link_produto": "https://shopee.com.br/product/721218279/25356800051",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.9,
-      "vendas": 3254,
-      "palavra": "mochila",
-      "garimpado_em": "2026-10-14T09:01-03:00",
-      "nota": 97.5,
-      "titulo": "Broches para personalizar sua mochila e suas roupas",
-      "id": 510,
-      "na_revisao_desde": "2026-10-14T09:41-03:00",
-      "msg_id": 827
-    },
-    {
-      "loja": "shopee",
       "chave": "shopee:1006365068.22298339652",
       "nome": "Bicicleta Bike Ergometrica Spinning Academia Fitness Profissional 120kg",
       "por": 459.99,
@@ -10629,6 +10606,30 @@
   "lixeira": [
     {
       "loja": "shopee",
+      "chave": "shopee:721218279.25356800051",
+      "nome": "80 Estilos Moda Broche Dos Desenhos Animados Bonito Liga Alfinetes Badge Pin Mochila Decoração",
+      "por": 2.98,
+      "de": 27.09,
+      "foto": "AgACAgQAAxkDAAIDO2rPeGLNxPwPn9zNHqFt4zn7t5hBAAK3DGsbvjYlUAABl_z2vvP8GgEAAwIAA3gAAz0E",
+      "link": "https://s.shopee.com.br/3g4RmMf8jL",
+      "link_produto": "https://shopee.com.br/product/721218279/25356800051",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.9,
+      "vendas": 3254,
+      "palavra": "mochila",
+      "garimpado_em": "2026-10-14T09:01-03:00",
+      "nota": 97.5,
+      "titulo": "Broches para personalizar sua mochila e suas roupas",
+      "id": 510,
+      "na_revisao_desde": "2026-10-14T09:41-03:00",
+      "removido_em": "2026-10-14T09:42:26-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "shopee",
       "chave": "shopee:959010869.58255817030",
       "nome": "Barra de Apoio Ventosa Banheiro Portátil Forte Suporte Sanitário Para Idosos e Deficientes Segurança Barra Fixa",
       "por": 19.9,
@@ -10838,7 +10839,7 @@
       "shopee": {
         "achados": 14,
         "aprovados": 8,
-        "reprovados": 3
+        "reprovados": 4
       }
     }
   },
@@ -11007,7 +11008,7 @@
     "mochila": {
       "achados": 7,
       "aprovados": 2,
-      "reprovados": 3
+      "reprovados": 4
     },
     "oculos de sol": {
       "achados": 5,
