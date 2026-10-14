@@ -2780,26 +2780,6 @@
       "msg_id": 763
     },
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB18596028",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/camera-de-seguranca-inteligente-intelbras-im3-c-branca/p/MLB18596028?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/camera-de-seguranca-inteligente-intelbras-im3-c-branca/p/MLB18596028",
-      "post_origem": "https://t.me/lobaopromo/189065",
-      "link_canal": "https://meli.la/2xRHm5X",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_798191-MLA99474077760_112025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Câmera de Segurança Inteligente Intelbras iM3 C Branca",
-      "cupom_loja": "Resgate 7% OFF na página do produto.",
-      "de": 215.0,
-      "por": 111.0,
-      "titulo": "Câmera Intelbras iM3 C com 48% off",
-      "id": 475,
-      "garimpado_em": "2026-10-13T21:09-03:00",
-      "na_revisao_desde": "2026-10-13T21:09-03:00",
-      "msg_id": 765
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B092SPZFYT",
       "origem": "promobit",
@@ -3990,6 +3970,27 @@
   "lixeira": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB18596028",
+      "origem": "lobaopromo",
+      "link": "https://www.mercadolivre.com.br/camera-de-seguranca-inteligente-intelbras-im3-c-branca/p/MLB18596028?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/camera-de-seguranca-inteligente-intelbras-im3-c-branca/p/MLB18596028",
+      "post_origem": "https://t.me/lobaopromo/189065",
+      "link_canal": "https://meli.la/2xRHm5X",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_798191-MLA99474077760_112025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Câmera de Segurança Inteligente Intelbras iM3 C Branca",
+      "cupom_loja": "Resgate 7% OFF na página do produto.",
+      "de": 215.0,
+      "por": 111.0,
+      "titulo": "Câmera Intelbras iM3 C com 48% off",
+      "id": 475,
+      "garimpado_em": "2026-10-13T21:09-03:00",
+      "na_revisao_desde": "2026-10-13T21:09-03:00",
+      "removido_em": "2026-10-13T23:35:29-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB52868715",
       "origem": "lobaopromo",
       "link": "https://www.mercadolivre.com.br/fritadeira-eletrica-air-fryer-quad-fry-42-l1400w-preto-elgin/p/MLB52868715?matt_word=alphapromo&matt_tool=59136903",
@@ -4777,26 +4778,6 @@
       "na_revisao_desde": "2026-10-13T13:53-03:00",
       "removido_em": "2026-10-13T15:49:29-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB20870718",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/proteina-new-millen-premium-whey-isolado-isolate-em-po-sabor-morango-x-900g/p/MLB20870718?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/proteina-new-millen-premium-whey-isolado-isolate-em-po-sabor-morango-x-900g/p/MLB20870718",
-      "post_origem": "https://t.me/lobaopromo/188878",
-      "link_canal": "https://meli.la/2z7AHxH",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_667292-MLA112330453655_052026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Proteína New Millen Premium Whey Isolado Isolate em pó sabor Morango",
-      "de": 250.0,
-      "por": 137.0,
-      "titulo": "Desconto de 45%: é agora ou nunca.",
-      "id": 314,
-      "garimpado_em": "2026-10-13T13:52-03:00",
-      "na_revisao_desde": "2026-10-13T13:52-03:00",
-      "removido_em": "2026-10-13T15:49:29-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -4866,7 +4847,7 @@
       "lobaopromo": {
         "achados": 60,
         "aprovados": 12,
-        "reprovados": 30
+        "reprovados": 31
       },
       "promooeasy": {
         "achados": 123,
