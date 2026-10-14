@@ -3,25 +3,6 @@
   "fila": [
     {
       "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB66895633",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/2DXTYU8",
-      "link_produto": "https://meli.la/2DXTYU8",
-      "post_origem": "https://t.me/lobaopromo/188931",
-      "link_canal": "https://meli.la/2kCphu6",
-      "foto": "AgACAgQAAxkDAAICgWrOf-BegkGzmGXJ8dlPcEkG_Z5OAALbDmsbQ5LsU3Fnu6tt9WJqAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Fritadeira Air Fryer Philco 16 Litros Paf16c Preto 220v",
-      "de": 623.0,
-      "por": 439.0,
-      "titulo": "Air Fryer Philco 16L com 30% off",
-      "garimpado_em": "2026-10-13T16:00-03:00",
-      "na_revisao_desde": "2026-10-13T16:00-03:00",
-      "aprovado_em": "2026-10-13T16:04-03:00",
-      "aviso_validade": true
-    },
-    {
-      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB6284520224",
       "origem": "promonocontext",
       "link": "https://meli.la/2CDzSsQ",
@@ -1140,6 +1121,16 @@
       "link": "https://s.shopee.com.br/6fi2lNkNTw",
       "link_produto": "https://shopee.com.br/product/1266325318/21897981294",
       "titulo": "Perfume Attracione Men com 80% de desconto"
+    },
+    {
+      "chave": "mercadolivre:MLB66895633",
+      "loja": "mercadolivre",
+      "nome": "Fritadeira Air Fryer Philco 16 Litros Paf16c Preto 220v",
+      "data": "2026-10-14T11:53-03:00",
+      "link": "https://meli.la/2DXTYU8",
+      "link_produto": "https://meli.la/2DXTYU8",
+      "titulo": "Air Fryer Philco 16L com 30% off",
+      "slot": 11
     }
   ],
   "slots_usados": {
@@ -1185,7 +1176,8 @@
     "2026-10-14": [
       8,
       9,
-      10
+      10,
+      11
     ]
   },
   "shopee_buscado_em": "",
@@ -7283,6 +7275,19 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB66895633",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/2DXTYU8",
+      "link_produto": "https://meli.la/2DXTYU8",
+      "post_origem": "https://t.me/lobaopromo/188931",
+      "foto": "AgACAgQAAxkDAAICgWrOf-BegkGzmGXJ8dlPcEkG_Z5OAALbDmsbQ5LsU3Fnu6tt9WJqAQADAgADeAADPQQ",
+      "nome": "Fritadeira Air Fryer Philco 16 Litros Paf16c Preto 220v",
+      "de": 623.0,
+      "por": 439.0,
+      "titulo": "Air Fryer Philco 16L com 30% off"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:1266325318.21897981294",
       "nome": "Attracione Men (Perfume Masculino com Feromônios Ativados)",
@@ -7810,20 +7815,6 @@
       "de": 165.0,
       "por": 71.19,
       "prime": true
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB7275398398",
-      "origem": "promonocontext",
-      "link": "https://meli.la/2pLLco8",
-      "link_produto": "https://meli.la/2pLLco8",
-      "post_origem": "https://t.me/promonocontext/126044",
-      "foto": "AgACAgQAAxkDAAIBKGrNgFphFK-UyDbDzNfrINGk2BquAAJWEGsbLQRsUrxcJS5GM6m9AQADAgADeAADPQQ",
-      "nome": "Boné New Era 9twent Cáqui Un Liso",
-      "de": 249.0,
-      "por": 123.49,
-      "titulo": "Boné New Era com 51% off",
-      "pix": true
     }
   ],
   "lixeira": [
