@@ -2685,26 +2685,6 @@
     },
     {
       "loja": "amazon",
-      "chave": "amazon:B0H36ZTQJN",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B0H36ZTQJN?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0H36ZTQJN?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/monitor-gamer-gigabyte-25-fhd-200hz-1ms-ips-displayport-e-hdmi-freesync-hdr-120-srgb-alto-falante-embutido-3111692/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3111692/",
-      "nome": "Monitor Gamer Gigabyte 25\" FHD 200Hz 1ms IPS DisplayPort e HDMI",
-      "por": 664.99,
-      "de": 1272.58,
-      "foto": "AgACAgQAAxkDAAIC8mrOuBn9ukO_BRx1ElYmmy0lBlIeAALeD2sbn1R0UphiODVrg5e9AQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "titulo": "Monitor gamer Gigabyte com 48% off",
-      "id": 465,
-      "garimpado_em": "2026-10-13T20:00-03:00",
-      "na_revisao_desde": "2026-10-13T20:00-03:00",
-      "msg_id": 754
-    },
-    {
-      "loja": "amazon",
       "chave": "amazon:B0H9268BXH",
       "origem": "promobit",
       "fonte": "promobit",
@@ -4087,6 +4067,27 @@
   "lixeira": [
     {
       "loja": "amazon",
+      "chave": "amazon:B0H36ZTQJN",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0H36ZTQJN?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0H36ZTQJN?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/monitor-gamer-gigabyte-25-fhd-200hz-1ms-ips-displayport-e-hdmi-freesync-hdr-120-srgb-alto-falante-embutido-3111692/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3111692/",
+      "nome": "Monitor Gamer Gigabyte 25\" FHD 200Hz 1ms IPS DisplayPort e HDMI",
+      "por": 664.99,
+      "de": 1272.58,
+      "foto": "AgACAgQAAxkDAAIC8mrOuBn9ukO_BRx1ElYmmy0lBlIeAALeD2sbn1R0UphiODVrg5e9AQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "titulo": "Monitor gamer Gigabyte com 48% off",
+      "id": 465,
+      "garimpado_em": "2026-10-13T20:00-03:00",
+      "na_revisao_desde": "2026-10-13T20:00-03:00",
+      "removido_em": "2026-10-13T23:34:36-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "amazon",
       "chave": "amazon:B0HHTVYJL6",
       "origem": "promooeasy",
       "link": "https://www.amazon.com.br/dp/B0HHTVYJL6?tag=alphadominu09-20",
@@ -4876,27 +4877,6 @@
       "na_revisao_desde": "2026-10-13T13:14-03:00",
       "removido_em": "2026-10-13T15:49:29-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB5943120120",
-      "origem": "lobaopromo",
-      "link": "https://produto.mercadolivre.com.br/MLB-5943120120-kit-10-cuecas-algodo-polo-wear-sortido-_JM?pdp_filters=item_id%3AMLB5943120120&matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-5943120120-kit-10-cuecas-algodo-polo-wear-sortido-_JM?pdp_filters=item_id%3AMLB5943120120",
-      "post_origem": "https://t.me/lobaopromo/188861",
-      "link_canal": "https://meli.la/1QeZ4Bd",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_970040-MLB100679895148_122025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Kit 10 Cuecas Algodão Polo Wear Sortido",
-      "pix": true,
-      "de": 299.99,
-      "por": 140.39,
-      "titulo": "53% off, isso aqui não fica muito tempo assim.",
-      "id": 299,
-      "garimpado_em": "2026-10-13T13:12-03:00",
-      "na_revisao_desde": "2026-10-13T13:12-03:00",
-      "removido_em": "2026-10-13T15:49:29-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -4961,7 +4941,7 @@
       "promobit": {
         "achados": 58,
         "aprovados": 3,
-        "reprovados": 25
+        "reprovados": 26
       },
       "lobaopromo": {
         "achados": 60,
