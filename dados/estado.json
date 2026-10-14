@@ -3011,26 +3011,6 @@
       "msg_id": 771
     },
     {
-      "loja": "amazon",
-      "chave": "amazon:B0FY8K73R9",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B0FY8K73R9?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0FY8K73R9?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/resident-evil-generation-pack-nintendo-switch-2-3111888/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3111888/",
-      "nome": "Resident Evil Generation Pack",
-      "por": 489.32,
-      "de": 579.9,
-      "foto": "AgACAgQAAxkDAAIDBmrO0dkw3TNck7olQNw5M82rWZtQAAK0DGsbC1EkU1QK1aqOIisxAQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "titulo": "Resident Evil Generation Pack com 16% off",
-      "id": 484,
-      "garimpado_em": "2026-10-13T21:50-03:00",
-      "na_revisao_desde": "2026-10-13T21:50-03:00",
-      "msg_id": 774
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB23928026",
       "origem": "promooeasy",
@@ -4146,6 +4126,27 @@
   "lixeira": [
     {
       "loja": "amazon",
+      "chave": "amazon:B0FY8K73R9",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0FY8K73R9?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0FY8K73R9?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/resident-evil-generation-pack-nintendo-switch-2-3111888/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3111888/",
+      "nome": "Resident Evil Generation Pack",
+      "por": 489.32,
+      "de": 579.9,
+      "foto": "AgACAgQAAxkDAAIDBmrO0dkw3TNck7olQNw5M82rWZtQAAK0DGsbC1EkU1QK1aqOIisxAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "titulo": "Resident Evil Generation Pack com 16% off",
+      "id": 484,
+      "garimpado_em": "2026-10-13T21:50-03:00",
+      "na_revisao_desde": "2026-10-13T21:50-03:00",
+      "removido_em": "2026-10-13T23:34:17-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "amazon",
       "chave": "amazon:B0HKT8K2BF",
       "origem": "promooeasy",
       "link": "https://www.amazon.com.br/dp/B0HKT8K2BF?tag=alphadominu09-20",
@@ -4936,27 +4937,6 @@
       "na_revisao_desde": "2026-10-13T12:42-03:00",
       "removido_em": "2026-10-13T15:49:29-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB54956861",
-      "origem": "promonocontext",
-      "link": "https://www.mercadolivre.com.br/oculos-de-sol-saint-germain-dourado-harbor-aviador-uv400-lente-preto-desenho-espelho/p/MLB54956861?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/oculos-de-sol-saint-germain-dourado-harbor-aviador-uv400-lente-preto-desenho-espelho/p/MLB54956861",
-      "post_origem": "https://t.me/promonocontext/126197",
-      "link_canal": "https://meli.la/2RUXPvD",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_922132-MLA99949515241_112025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Óculos De Sol Saint Germain Dourado Harbor Aviador Uv400 Lente Preto",
-      "de": 183.0,
-      "por": 71.0,
-      "cupom": "SAINTGERMAIN10",
-      "titulo": "Óculos aviador com 61% de desconto",
-      "id": 275,
-      "garimpado_em": "2026-10-13T12:18-03:00",
-      "na_revisao_desde": "2026-10-13T12:18-03:00",
-      "removido_em": "2026-10-13T15:49:29-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -5021,7 +5001,7 @@
       "promobit": {
         "achados": 58,
         "aprovados": 3,
-        "reprovados": 24
+        "reprovados": 25
       },
       "lobaopromo": {
         "achados": 60,
