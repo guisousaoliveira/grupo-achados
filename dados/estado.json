@@ -1171,29 +1171,6 @@
       "id": 512,
       "na_revisao_desde": "2026-10-14T09:41-03:00",
       "msg_id": 829
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:959010869.58255817030",
-      "nome": "Barra de Apoio Ventosa Banheiro Portátil Forte Suporte Sanitário Para Idosos e Deficientes Segurança Barra Fixa",
-      "por": 19.9,
-      "de": 90.45,
-      "foto": "AgACAgQAAxkDAAIDPmrPeIYH0k3EnvloupGulq7JkNUUAAI_Dmsb8sqcU3MMPsG6u6K6AQADAgADeQADPQQ",
-      "link": "https://s.shopee.com.br/4VdYnEqyTV",
-      "link_produto": "https://shopee.com.br/product/959010869/58255817030",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.7,
-      "vendas": 187,
-      "palavra": "barra fixa",
-      "garimpado_em": "2026-10-14T09:21-03:00",
-      "nota": 94.5,
-      "titulo": "Barra para dar segurança no banho de idosos",
-      "id": 513,
-      "na_revisao_desde": "2026-10-14T09:41-03:00",
-      "msg_id": 830
     }
   ],
   "proximo_id": 515,
@@ -10652,6 +10629,30 @@
   "lixeira": [
     {
       "loja": "shopee",
+      "chave": "shopee:959010869.58255817030",
+      "nome": "Barra de Apoio Ventosa Banheiro Portátil Forte Suporte Sanitário Para Idosos e Deficientes Segurança Barra Fixa",
+      "por": 19.9,
+      "de": 90.45,
+      "foto": "AgACAgQAAxkDAAIDPmrPeIYH0k3EnvloupGulq7JkNUUAAI_Dmsb8sqcU3MMPsG6u6K6AQADAgADeQADPQQ",
+      "link": "https://s.shopee.com.br/4VdYnEqyTV",
+      "link_produto": "https://shopee.com.br/product/959010869/58255817030",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.7,
+      "vendas": 187,
+      "palavra": "barra fixa",
+      "garimpado_em": "2026-10-14T09:21-03:00",
+      "nota": 94.5,
+      "titulo": "Barra para dar segurança no banho de idosos",
+      "id": 513,
+      "na_revisao_desde": "2026-10-14T09:41-03:00",
+      "removido_em": "2026-10-14T09:42:21-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "shopee",
       "chave": "shopee:1321451938.55813290021",
       "nome": "Extensor Elástico Exercícios Academia Ginástica Tensão Forte Faixa Elástica de Resistência com Corda para Puxar",
       "por": 17.99,
@@ -10837,7 +10838,7 @@
       "shopee": {
         "achados": 14,
         "aprovados": 8,
-        "reprovados": 2
+        "reprovados": 3
       }
     }
   },
@@ -10886,7 +10887,7 @@
     "barra fixa": {
       "achados": 2,
       "aprovados": 0,
-      "reprovados": 1
+      "reprovados": 2
     },
     "bicicleta ergometrica": {
       "achados": 1,
