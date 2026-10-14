@@ -1,0 +1,22 @@
+name: shopee-teste
+
+on:
+  workflow_dispatch:
+    inputs:
+      links:
+        description: "Links da Shopee para testar (opcional, separados por espaço)"
+        required: false
+        default: ""
+
+jobs:
+  testar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v5
+      - name: Testar a Open API da Shopee
+        env:
+          SHOPEE_APP_ID: ${{ secrets.SHOPEE_APP_ID }}
+          SHOPEE_SECRET: ${{ secrets.SHOPEE_SECRET }}
+          LINKS: ${{ inputs.links }}
+        run: python3 bot.py shopee-teste $LINKS

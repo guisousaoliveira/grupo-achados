@@ -594,7 +594,9 @@ def ler_pagina(link):
         return {"_bloqueado": True}
     achado = extrair_da_pagina(pagina, loja)
     if loja == "shopee":
-        achado.update(shopee_por_link(final))
+        oficial = shopee_por_link(final)
+        oficial.pop("link", None)
+        achado.update(oficial)
     return achado
 
 
@@ -611,7 +613,7 @@ def shopee_por_link(url):
     if not nos:
         return {}
     o = oferta_shopee(nos[0])
-    return {k: o[k] for k in ("nome", "por", "de", "foto") if o.get(k)}
+    return {k: o[k] for k in ("nome", "por", "de", "foto", "link") if o.get(k)}
 
 
 def ler_precos(linha):
@@ -1431,7 +1433,7 @@ def tratar_comando(estado, texto, foto=None):
 CONSULTA_SHOPEE = """query ($palavra: String, $limite: Int) {
   productOfferV2(keyword: $palavra, sortType: 2, page: 1, limit: $limite) {
     nodes { itemId productName price priceMin priceMax priceDiscountRate
-            sales ratingStar imageUrl offerLink shopName }
+            sales ratingStar imageUrl offerLink shopName shopId }
   }
 }"""
 
@@ -1444,6 +1446,23 @@ CONSULTA_SHOPEE_ITEM = """query ($item: Int64, $loja: Int64) {
 }"""
 
 
+LINK_CURTO_SHOPEE = """mutation ($url: String!, $sub: [String]) {
+  generateShortLink(input: {originUrl: $url, subIds: $sub}) { shortLink }
+}"""
+
+
+def shopee_link_curto(url):
+    """Seu link curto de afiliado da Shopee (s.shopee.com.br/...) para qualquer produto. None sem a chave da API."""
+    if not (segredo("SHOPEE_APP_ID") and segredo("SHOPEE_SECRET")):
+        return None
+    try:
+        dados = shopee_consulta(LINK_CURTO_SHOPEE, {"url": url, "sub": ["alphapromo"]}, campo="generateShortLink")
+        return dados.get("shortLink")
+    except Exception as e:
+        log(f"Shopee não gerou o link curto: {e}")
+        return None
+
+
 def shopee_buscar(palavra, limite):
     if not (segredo("SHOPEE_APP_ID") and segredo("SHOPEE_SECRET")):
         exemplos = carregar_json(ARQ_MOCK, {})
@@ -1451,7 +1470,7 @@ def shopee_buscar(palavra, limite):
     return shopee_consulta(CONSULTA_SHOPEE, {"palavra": palavra, "limite": limite})
 
 
-def shopee_consulta(consulta, variaveis):
+def shopee_consulta(consulta, variaveis, campo="productOfferV2"):
     app_id, secret = segredo("SHOPEE_APP_ID"), segredo("SHOPEE_SECRET")
     corpo = json.dumps({"query": consulta, "variables": variaveis}, separators=(",", ":"))
     ts = str(int(time.time()))
@@ -1462,7 +1481,8 @@ def shopee_consulta(consulta, variaveis):
     resp = json.loads(texto)
     if resp.get("errors"):
         raise RuntimeError(f"Shopee respondeu com erro: {resp['errors']}")
-    return resp["data"]["productOfferV2"]["nodes"]
+    dados = resp["data"][campo]
+    return dados["nodes"] if campo == "productOfferV2" else dados
 
 
 def oferta_shopee(no):
@@ -1471,7 +1491,8 @@ def oferta_shopee(no):
     de = round(preco / (1 - desconto / 100), 2) if 0 < desconto < 100 else None
     return {
         "loja": "shopee",
-        "chave": f"shopee:{no.get('itemId')}",
+        "chave": f"shopee:{no.get('shopId')}.{no.get('itemId')}" if no.get("shopId") else f"shopee:{no.get('itemId')}",
+        "link_produto": f"https://shopee.com.br/product/{no.get('shopId')}/{no.get('itemId')}" if no.get("shopId") else "",
         "nome": (no.get("productName") or "").strip()[:120],
         "por": preco or None,
         "de": de,
@@ -1484,45 +1505,50 @@ def oferta_shopee(no):
 
 
 def buscar_shopee(estado):
+    """Com a chave da Open API: a cada hora procura na Shopee algumas palavras do garimpo (em rodízio) e põe as
+    que passam no filtro (desconto, nota, vendas) na mesma peneira do radar. Já vêm com o seu link de afiliado."""
     regras = CONFIG["shopee"]
-    hoje = agora().date().isoformat()
-    if not regras.get("ativo", True):
+    if not regras.get("ativo", True) or os.environ.get("RENDER") or not segredo("SHOPEE_APP_ID"):
         return
-    if not SIMULAR and not segredo("SHOPEE_APP_ID"):
-        return  # sem a chave da API, ofertas de exemplo só aparecem na simulação
-    if estado.get("shopee_buscado_em") == hoje:
+    cfg = CONFIG.get("radar", {})
+    if radar_pausado(cfg):
         return
-    if agora().hour < regras.get("buscar_a_partir_das", 8):
+    r = estado.setdefault("radar", {"visto": {}, "dia": "", "hoje": 0, "chaves": []})
+    ajuste_radar(estado)
+    hora = agora().strftime("%Y-%m-%dT%H")
+    if r.get("shopee_hora") == hora:
         return
-    modo = "API" if segredo("SHOPEE_APP_ID") else "exemplo (sem chave da API ainda)"
-    log(f"Buscando ofertas da Shopee, modo {modo}...")
-
-    limite_dias = agora() - timedelta(days=regras["nao_repetir_dias"])
-    recentes = {p["chave"] for p in estado["postados"] if datetime.fromisoformat(p["data"]) >= limite_dias}
-    na_fila = {x["chave"] for x in estado["fila"]}
-
-    candidatos = {}
-    for palavras in CONFIG["palavras"].values():
-        for palavra in palavras:
-            try:
-                nos = shopee_buscar(palavra, regras.get("resultados_por_palavra", 20))
-            except Exception as e:
-                log(f"Shopee falhou em '{palavra}': {e}")
+    r["shopee_hora"] = hora
+    palavras = palavras_radar()
+    if not palavras:
+        return
+    por_vez = regras.get("palavras_por_hora", 8)
+    ini = r.get("shopee_indice", 0) % len(palavras)
+    da_vez = (palavras + palavras)[ini:ini + por_vez]
+    r["shopee_indice"] = ini + por_vez
+    usadas = set(r.get("chaves", [])) | {x["chave"] for x in estado["fila"] + estado["revisar"] + r.get("peneira", [])}
+    conta, novas = {}, 0
+    for palavra in da_vez:
+        try:
+            nos = shopee_buscar(palavra, regras.get("resultados_por_palavra", 20))
+        except Exception as e:
+            log(f"Shopee falhou em '{palavra}': {e}")
+            continue
+        for no in nos:
+            o = oferta_shopee(no)
+            if not o["link"] or not o["nome"] or o["chave"] in usadas:
                 continue
-            for no in nos:
-                o = oferta_shopee(no)
-                if not o["link"] or not o["nome"] or o["chave"] in recentes or o["chave"] in na_fila:
-                    continue
-                if o["desconto"] < regras["desconto_minimo"] or o["nota"] < regras["nota_minima"] \
-                        or o["vendas"] < regras["vendas_minimas"]:
-                    continue
-                candidatos[o["chave"]] = o
-
-    escolhidos = sorted(candidatos.values(), key=lambda o: (o["desconto"], o["vendas"]), reverse=True)
-    escolhidos = escolhidos[: regras["maximo_por_dia"]]
-    estado["fila"].extend(escolhidos)
-    estado["shopee_buscado_em"] = hoje
-    log(f"Shopee: {len(candidatos)} passaram no filtro, {len(escolhidos)} entraram na fila.")
+            if o["desconto"] < regras["desconto_minimo"] or o["nota"] < regras["nota_minima"] \
+                    or o["vendas"] < regras["vendas_minimas"]:
+                continue
+            usadas.add(o["chave"])
+            item = {k: o[k] for k in ("loja", "chave", "nome", "por", "de", "foto", "link", "link_produto") if o.get(k)}
+            item.update(origem="shopee", fonte="shopee", foto_origem="loja", shopee_api=True)
+            r["chaves"] = (r.get("chaves", []) + [item["chave"]])[-3000:]
+            if peneirar(estado, r, item, conta):
+                novas += 1
+    soltar_peneira(estado, r)
+    log(f"Shopee: {novas} oferta(s) na peneira ({', '.join(da_vez)}).")
 
 
 # ---------------------------------------------------------------- postagem
@@ -1800,8 +1826,17 @@ def produto_do_link(link):
             return achado
     m = re.search(r"i\.(\d+)\.(\d+)", final) or re.search(r"shopee\.com\.br/(?:[^/?]+/)?(\d{5,})/(\d{5,})", final)
     if m:
-        return {"loja": "shopee", "chave": f"shopee:{m.group(1)}.{m.group(2)}",
-                "link_produto": f"https://shopee.com.br/product/{m.group(1)}/{m.group(2)}"}
+        achado = {"loja": "shopee", "chave": f"shopee:{m.group(1)}.{m.group(2)}",
+                  "link_produto": f"https://shopee.com.br/product/{m.group(1)}/{m.group(2)}"}
+        if segredo("SHOPEE_APP_ID"):  # com a API: nome, preço e foto oficiais e o SEU link curto
+            oficial = shopee_por_link(final)
+            if oficial:
+                achado["vitrine"] = oficial
+                achado["shopee_api"] = True
+            meu = oficial.pop("link", None) or shopee_link_curto(achado["link_produto"])
+            if meu:
+                achado["meu_link"] = meu
+        return achado
     return None
 
 
@@ -1910,7 +1945,9 @@ def oferta_do_post(post, canal):
         foto_amz = foto_amazon_por_asin(item["chave"].split(":", 1)[1])
         if foto_amz:
             item["foto"], item["foto_origem"] = foto_amz, "loja"
-    if item["loja"] == "mercadolivre" or not item.get("nome"):
+    if prod.get("shopee_api"):  # produto confirmado pela API da Shopee (o link curto do canal às vezes enganava)
+        item["shopee_api"] = True
+    if item["loja"] == "mercadolivre" or prod.get("shopee_api") or not item.get("nome"):
         if lido.get("nome") and not lido.get("_bloqueado"):
             item["nome"] = lido["nome"]
         if not item.get("por") and lido.get("por"):
@@ -2284,6 +2321,24 @@ def rodar_radar(estado, teste=False):
     log(f"Radar: {novas} oferta(s) nova(s) do nicho." + (" (teste, nada enviado)" if teste else ""))
 
 
+def cmd_shopee_teste(links):
+    """Diagnóstico da Open API da Shopee (workflow shopee-teste.yml): busca, link curto e links que você passar."""
+    if not (segredo("SHOPEE_APP_ID") and segredo("SHOPEE_SECRET")):
+        log("Faltam os secrets SHOPEE_APP_ID e SHOPEE_SECRET no GitHub.")
+        return
+    nos = shopee_consulta(CONSULTA_SHOPEE, {"palavra": "creatina", "limite": 3})
+    log(f"Busca 'creatina': {len(nos)} resultado(s).")
+    for no in nos:
+        o = oferta_shopee(no)
+        log(f"  {o['nome'][:60]} · R$ {o['por']} ({o['desconto']}% off, {o['vendas']} vendas) · {o['link']}")
+    if nos:
+        o = oferta_shopee(nos[0])
+        log(f"Link curto gerado para {o['link_produto']}: {shopee_link_curto(o['link_produto'])}")
+    for link in links:
+        prod = produto_do_link(link)
+        log(f"{link} -> {json.dumps(prod, ensure_ascii=False)[:400]}")
+
+
 def cmd_foto_teste(links):
     """Diagnóstico (workflow diagnostico.yml): o que a loja devolve para este servidor."""
     for link in links:
@@ -2450,6 +2505,8 @@ def main():
             cmd_teste_canal()
         elif cmd == "foto-teste":
             cmd_foto_teste(args[1:])
+        elif cmd == "shopee-teste":
+            cmd_shopee_teste(args[1:])
         else:
             print(__doc__)
     except RuntimeError as e:

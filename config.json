@@ -60,7 +60,7 @@
     "nota_minima": 4.7,
     "vendas_minimas": 100,
     "nao_repetir_dias": 7,
-    "maximo_por_dia": 2
+    "palavras_por_hora": 8
   },
   "frases": {
     "geral": [

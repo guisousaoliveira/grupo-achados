@@ -683,7 +683,7 @@ function garimpoBox(){
   const tot = linhas.reduce((t, [, v]) => ({achados: t.achados + v.achados, aprovados: t.aprovados + v.aprovados, reprovados: t.reprovados + v.reprovados}), {achados:0, aprovados:0, reprovados:0});
   const taxa = v => { const d = v.aprovados + v.reprovados; return d ? Math.round(v.aprovados / d * 100) : null; };
   const barra = v => { const t = taxa(v); return t === null ? '<span class="gm">—</span>' : `<span class="gtx"><i style="width:${t}%"></i></span><b>${t}%</b>`; };
-  const nome = f => f === 'promobit' ? '<span class="mk pb">P</span>Promobit' : `${marca('tg')}@${esc(f)}`;
+  const nome = f => f === 'promobit' ? '<span class="mk pb">P</span>Promobit' : f === 'shopee' ? `${marca('shopee')}Shopee (API)` : `${marca('tg')}@${esc(f)}`;
   const per = [['hoje','Hoje'],['ontem','Ontem'],['7d','7 dias']].map(([k,t]) => `<button class="${garPer===k?'on':''}" onclick="garPer='${k}';desenhar()">${t}</button>`).join('');
   return `<div class="box"><h2>Placar do garimpo<span class="r abas mini">${per}</span></h2>
     ${linhas.length ? `<div class="gtab"><div class="gr gh"><span>Fonte</span><span>Achou</span><span><i class="lg">Aprovou</i><i class="sm">✓</i></span><span><i class="lg">Reprovou</i><i class="sm">✕</i></span><span><i class="lg">Aproveitamento</i><i class="sm">%</i></span></div>
@@ -696,13 +696,13 @@ function garimpoBox(){
 
 /* -------- revisar -------- */
 let revFonte = 'todas';
-const fonteDe = x => x.fonte === 'promobit' ? 'promobit' : (x.origem ? 'telegram' : 'manual');
+const fonteDe = x => x.fonte === 'promobit' ? 'promobit' : x.fonte === 'shopee' ? 'shopee' : (x.origem ? 'telegram' : 'manual');
 function revisar(){
-  const conta = {todas: E.revisar.length, telegram: 0, promobit: 0, manual: 0};
+  const conta = {todas: E.revisar.length, telegram: 0, promobit: 0, shopee: 0, manual: 0};
   E.revisar.forEach(x => conta[fonteDe(x)]++);
   if (revFonte !== 'todas' && !conta[revFonte]) revFonte = 'todas';
   const lista = revFonte === 'todas' ? E.revisar : E.revisar.filter(x => fonteDe(x) === revFonte);
-  const abas = [['todas','Todas'],['telegram','Canais do Telegram'],['promobit','Promobit'],['manual','Seus links']]
+  const abas = [['todas','Todas'],['telegram','Canais do Telegram'],['promobit','Promobit'],['shopee','Shopee'],['manual','Seus links']]
     .filter(([k]) => k === 'todas' || conta[k])
     .map(([k,t]) => `<button class="${revFonte===k?'on':''}" onclick="revFonte='${k}';desenhar()">${t}<span>${conta[k]}</span></button>`).join('');
   const prontas = E.revisar.filter(x => !x.falta.length).length;
@@ -716,9 +716,9 @@ function revisar(){
 function cardRevisao(x){
   // Card enxuto: loja, canal e hora numa linha; nome e preço; no máximo um aviso embaixo.
   const velho = x.garimpado_em && horasDesde(x.garimpado_em) >= 6;
-  const info = [x.fonte === 'promobit' ? 'Promobit' : x.origem ? '@' + esc(x.origem) : 'seu link', x.garimpado_em ? `<span class="${velho ? 'velho' : ''}">${horaDia(x.garimpado_em)}</span>` : ''].filter(Boolean).join(' · ');
+  const info = [x.fonte === 'promobit' ? 'Promobit' : x.fonte === 'shopee' ? 'Shopee (API)' : x.origem ? '@' + esc(x.origem) : 'seu link', x.garimpado_em ? `<span class="${velho ? 'velho' : ''}">${horaDia(x.garimpado_em)}</span>` : ''].filter(Boolean).join(' · ');
   const conferirO = [];
-  if (x.loja === 'shopee' && x.origem) conferirO.push('produto');
+  if (x.loja === 'shopee' && x.origem && !x.shopee_api) conferirO.push('produto');
   if (x.foto_origem === 'canal') conferirO.push('foto');
   if (x.aviso_preco) conferirO.push('preço');
   let aviso = '';
