@@ -1214,77 +1214,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "shopee",
-      "chave": "shopee:476198790.20197497479",
-      "nome": "Mochila Reforçada Casal Feminina Escolar Grande Capacidade Mochila De Coreana Promocao",
-      "por": 38.28,
-      "de": 132.0,
-      "foto": "AgACAgQAAxkDAAIDVGrPlIZYc0VAOcI5lVkyJuztxJznAAKqtzEbG2I8Ubyayb_3ovCSAQADAgADeQADPQQ",
-      "link": "https://s.shopee.com.br/3Vl1a3fm4G",
-      "link_produto": "https://shopee.com.br/product/476198790/20197497479",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.9,
-      "vendas": 3365,
-      "palavra": "mochila",
-      "garimpado_em": "2026-10-14T09:01-03:00",
-      "nota": 92.1,
-      "titulo": "Mochila espaçosa para rotina escolar e dia a dia",
-      "id": 520,
-      "na_revisao_desde": "2026-10-14T11:41-03:00",
-      "msg_id": 852
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:1531826276.22194652188",
-      "nome": "ORIGINAL - Caixa de som com Bluetooth, Led modelo Alexa DE UM APARELHO SUPER BASS",
-      "por": 46.99,
-      "de": 195.79,
-      "foto": "AgACAgQAAxkDAAIDVmrPlJfvsZxB5RGvjNQuVJSdodI3AAItC2sb5F5VUEvup_XCC5WWAQADAgADeQADPQQ",
-      "link": "https://s.shopee.com.br/50ZpPbNVxk",
-      "link_produto": "https://shopee.com.br/product/1531826276/22194652188",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.7,
-      "vendas": 1557,
-      "palavra": "alexa",
-      "garimpado_em": "2026-10-14T09:41-03:00",
-      "nota": 91.6,
-      "titulo": "Caixa de som Bluetooth com LED e graves potentes",
-      "id": 522,
-      "na_revisao_desde": "2026-10-14T11:41-03:00",
-      "msg_id": 854
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB44814777",
-      "origem": "tudonapromo",
-      "link": "https://www.mercadolivre.com.br/relogio-masculino-casual-mo2035lg8r-cor-preto-mormaii/p/MLB44814777?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/relogio-masculino-casual-mo2035lg8r-cor-preto-mormaii/p/MLB44814777",
-      "post_origem": "https://t.me/tudonapromo/101801",
-      "link_canal": "https://meli.la/1vqxSKr",
-      "foto": "AgACAgQAAxkDAAIDWGrPlKL7ESRekrZmQYu4w4YwIlVaAAK1DmsbGL-0UCMuNK7BqwhzAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Relógio Masculino Casual Mo2035LG/8r cor Preto Mormaii",
-      "pix": true,
-      "de": 250.0,
-      "por": 133.0,
-      "cupom": "AQUITEM",
-      "palavra": "relogio masculino",
-      "garimpado_em": "2026-10-14T10:00-03:00",
-      "nota": 73.1,
-      "titulo": "Relógio preto para o dia a dia",
-      "id": 524,
-      "na_revisao_desde": "2026-10-14T11:41-03:00",
-      "msg_id": 856
-    }
-  ],
+  "revisar": [],
   "proximo_id": 525,
   "radar": {
     "visto": {
@@ -5689,6 +5619,78 @@
   ],
   "lixeira": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB44814777",
+      "origem": "tudonapromo",
+      "link": "https://www.mercadolivre.com.br/relogio-masculino-casual-mo2035lg8r-cor-preto-mormaii/p/MLB44814777?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/relogio-masculino-casual-mo2035lg8r-cor-preto-mormaii/p/MLB44814777",
+      "post_origem": "https://t.me/tudonapromo/101801",
+      "link_canal": "https://meli.la/1vqxSKr",
+      "foto": "AgACAgQAAxkDAAIDWGrPlKL7ESRekrZmQYu4w4YwIlVaAAK1DmsbGL-0UCMuNK7BqwhzAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Relógio Masculino Casual Mo2035LG/8r cor Preto Mormaii",
+      "pix": true,
+      "de": 250.0,
+      "por": 133.0,
+      "cupom": "AQUITEM",
+      "palavra": "relogio masculino",
+      "garimpado_em": "2026-10-14T10:00-03:00",
+      "nota": 73.1,
+      "titulo": "Relógio preto para o dia a dia",
+      "id": 524,
+      "na_revisao_desde": "2026-10-14T11:41-03:00",
+      "removido_em": "2026-10-14T12:31:50-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:1531826276.22194652188",
+      "nome": "ORIGINAL - Caixa de som com Bluetooth, Led modelo Alexa DE UM APARELHO SUPER BASS",
+      "por": 46.99,
+      "de": 195.79,
+      "foto": "AgACAgQAAxkDAAIDVmrPlJfvsZxB5RGvjNQuVJSdodI3AAItC2sb5F5VUEvup_XCC5WWAQADAgADeQADPQQ",
+      "link": "https://s.shopee.com.br/50ZpPbNVxk",
+      "link_produto": "https://shopee.com.br/product/1531826276/22194652188",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.7,
+      "vendas": 1557,
+      "palavra": "alexa",
+      "garimpado_em": "2026-10-14T09:41-03:00",
+      "nota": 91.6,
+      "titulo": "Caixa de som Bluetooth com LED e graves potentes",
+      "id": 522,
+      "na_revisao_desde": "2026-10-14T11:41-03:00",
+      "removido_em": "2026-10-14T12:31:50-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:476198790.20197497479",
+      "nome": "Mochila Reforçada Casal Feminina Escolar Grande Capacidade Mochila De Coreana Promocao",
+      "por": 38.28,
+      "de": 132.0,
+      "foto": "AgACAgQAAxkDAAIDVGrPlIZYc0VAOcI5lVkyJuztxJznAAKqtzEbG2I8Ubyayb_3ovCSAQADAgADeQADPQQ",
+      "link": "https://s.shopee.com.br/3Vl1a3fm4G",
+      "link_produto": "https://shopee.com.br/product/476198790/20197497479",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.9,
+      "vendas": 3365,
+      "palavra": "mochila",
+      "garimpado_em": "2026-10-14T09:01-03:00",
+      "nota": 92.1,
+      "titulo": "Mochila espaçosa para rotina escolar e dia a dia",
+      "id": 520,
+      "na_revisao_desde": "2026-10-14T11:41-03:00",
+      "removido_em": "2026-10-14T12:31:50-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:1142080977.22794275506",
       "nome": "Kit 100 Forma de airfryer descartavel antiaderente de papel cozinha quadrado fritadeira cozimento",
@@ -5947,7 +5949,7 @@
       "shopee": {
         "achados": 20,
         "aprovados": 12,
-        "reprovados": 5
+        "reprovados": 7
       },
       "lobaopromo": {
         "achados": 2,
@@ -5962,7 +5964,7 @@
       "tudonapromo": {
         "achados": 1,
         "aprovados": 0,
-        "reprovados": 0
+        "reprovados": 1
       }
     }
   },
@@ -5981,7 +5983,7 @@
     "alexa": {
       "achados": 3,
       "aprovados": 0,
-      "reprovados": 2
+      "reprovados": 3
     },
     "alicate": {
       "achados": 3,
@@ -6131,7 +6133,7 @@
     "mochila": {
       "achados": 9,
       "aprovados": 3,
-      "reprovados": 4
+      "reprovados": 5
     },
     "oculos de sol": {
       "achados": 6,
@@ -6201,7 +6203,7 @@
     "relogio masculino": {
       "achados": 2,
       "aprovados": 1,
-      "reprovados": 0
+      "reprovados": 1
     },
     "jogo de soquete": {
       "achados": 2,
