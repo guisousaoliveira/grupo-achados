@@ -1572,29 +1572,6 @@
       "id": 547,
       "na_revisao_desde": "2026-10-14T16:40-03:00",
       "msg_id": 890
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:377194001.19297690426",
-      "nome": "Kit De Brocas Tungstênio  e Diamantada Para Unhas Gel Acrigel Cutilagem Lixadeira De UNha",
-      "por": 25.9,
-      "de": 80.94,
-      "foto": "AgACAgQAAxkDAAIDe2rP2r3Y3PZZ9hJpNhV0rOyIdYyjAAJ2DWsbUh68U7hbUENeHqLMAQADAgADeQADPQQ",
-      "link": "https://s.shopee.com.br/8AWrdWKXKY",
-      "link_produto": "https://shopee.com.br/product/377194001/19297690426",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.9,
-      "vendas": 789,
-      "palavra": "kit de brocas",
-      "garimpado_em": "2026-10-14T16:30-03:00",
-      "nota": 83.3,
-      "titulo": "Kit de brocas para manutenção de unhas em gel",
-      "id": 548,
-      "na_revisao_desde": "2026-10-14T16:40-03:00",
-      "msg_id": 891
     }
   ],
   "proximo_id": 555,
@@ -5028,6 +5005,30 @@
   "lixeira": [
     {
       "loja": "shopee",
+      "chave": "shopee:377194001.19297690426",
+      "nome": "Kit De Brocas Tungstênio  e Diamantada Para Unhas Gel Acrigel Cutilagem Lixadeira De UNha",
+      "por": 25.9,
+      "de": 80.94,
+      "foto": "AgACAgQAAxkDAAIDe2rP2r3Y3PZZ9hJpNhV0rOyIdYyjAAJ2DWsbUh68U7hbUENeHqLMAQADAgADeQADPQQ",
+      "link": "https://s.shopee.com.br/8AWrdWKXKY",
+      "link_produto": "https://shopee.com.br/product/377194001/19297690426",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.9,
+      "vendas": 789,
+      "palavra": "kit de brocas",
+      "garimpado_em": "2026-10-14T16:30-03:00",
+      "nota": 83.3,
+      "titulo": "Kit de brocas para manutenção de unhas em gel",
+      "id": 548,
+      "na_revisao_desde": "2026-10-14T16:40-03:00",
+      "removido_em": "2026-10-14T18:01:13-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "shopee",
       "chave": "shopee:1609020700.58250382369",
       "nome": "Bolsa De Armazenamento De Ferramentas De Carro Em Feltro Para O Porta-Malas Do Carro",
       "por": 30.9,
@@ -5546,7 +5547,7 @@
       "shopee": {
         "achados": 34,
         "aprovados": 14,
-        "reprovados": 12
+        "reprovados": 13
       },
       "lobaopromo": {
         "achados": 5,
@@ -5860,7 +5861,7 @@
     "kit de brocas": {
       "achados": 1,
       "aprovados": 0,
-      "reprovados": 0
+      "reprovados": 1
     }
   }
 }
