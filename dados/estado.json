@@ -2,25 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB6139419",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/1d4dxW9",
-      "link_produto": "https://meli.la/1d4dxW9",
-      "post_origem": "https://t.me/lobaopromo/189091",
-      "link_canal": "https://meli.la/1fA4rfv",
-      "foto": "AgACAgQAAxkDAAIDE2rO2OQup5iaiMN5hE_cDb-oztYIAAIODWsbJSTsU-rt8bqT0BCuAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Perfume Masculino Eau de Toilette Azzaro",
-      "de": 859.0,
-      "por": 379.0,
-      "titulo": "Perfume COM DESCONTO!",
-      "garimpado_em": "2026-10-13T22:20-03:00",
-      "na_revisao_desde": "2026-10-13T22:20-03:00",
-      "aprovado_em": "2026-10-13T23:40-03:00",
-      "aviso_validade": true
-    },
-    {
       "loja": "shopee",
       "chave": "shopee:394192376.21897733919",
       "nome": "Creatina 250g 100% Pura Monohidratada - P&P FIT",
@@ -1177,6 +1158,15 @@
       "data": "2026-10-14T13:13-03:00",
       "link": "https://meli.la/1UeRK4g",
       "link_produto": "https://meli.la/1UeRK4g"
+    },
+    {
+      "chave": "mercadolivre:MLB6139419",
+      "loja": "mercadolivre",
+      "nome": "Perfume Masculino Eau de Toilette Azzaro",
+      "data": "2026-10-14T13:18-03:00",
+      "link": "https://meli.la/1d4dxW9",
+      "link_produto": "https://meli.la/1d4dxW9",
+      "titulo": "Perfume COM DESCONTO! ÚLTIMAS UNIDADES"
     }
   ],
   "slots_usados": {
@@ -3970,6 +3960,19 @@
   "ultimos": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB6139419",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/1d4dxW9",
+      "link_produto": "https://meli.la/1d4dxW9",
+      "post_origem": "https://t.me/lobaopromo/189091",
+      "foto": "AgACAgQAAxkDAAIDE2rO2OQup5iaiMN5hE_cDb-oztYIAAIODWsbJSTsU-rt8bqT0BCuAQADAgADeAADPQQ",
+      "nome": "Perfume Masculino Eau de Toilette Azzaro",
+      "de": 859.0,
+      "por": 379.0,
+      "titulo": "Perfume COM DESCONTO! ÚLTIMAS UNIDADES"
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB32431595",
       "origem": "gatunopromos",
       "link": "https://meli.la/1UeRK4g",
@@ -4495,19 +4498,6 @@
       "de": 599.0,
       "por": 256.0,
       "cupom": "MELHORDEHJ"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB4592320910",
-      "origem": "xetdaspromocoes",
-      "link": "https://meli.la/2hk7fyL",
-      "link_produto": "https://meli.la/2hk7fyL",
-      "post_origem": "https://t.me/xetdaspromocoes/84583",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_626928-MLB82004918446_022025-O.webp",
-      "nome": "Kit 4 Camiseta Dry-fit Sandrini Masculina Academia Caminhada",
-      "de": 135.41,
-      "por": 59.99,
-      "titulo": "Preço de queima, 54% mais barato."
     }
   ],
   "lixeira": [
