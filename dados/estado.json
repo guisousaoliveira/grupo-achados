@@ -250,6 +250,28 @@
       "titulo": "Perfume Attracione Men com 80% de desconto",
       "na_revisao_desde": "2026-10-14T00:09-03:00",
       "aprovado_em": "2026-10-14T00:13-03:00"
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:787370863.23798509847",
+      "nome": "Nível a Laser 3 em 1 com Trena 2,5m, Tripé e Régua – Level Pro 03 Alinhador Horizontal e Vertical",
+      "por": 29.9,
+      "de": 149.5,
+      "foto": "AgACAgQAAxkDAAIDNmrPakGUbT0cjwzMB1E2NDri4FEcAAJYuTEbAuoMUJgcUqzPqRfRAQADAgADeAADPQQ",
+      "link": "https://s.shopee.com.br/qkGJeDgTV",
+      "link_produto": "https://shopee.com.br/product/787370863/23798509847",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.8,
+      "vendas": 628,
+      "palavra": "trena",
+      "garimpado_em": "2026-10-14T07:40-03:00",
+      "nota": 93.4,
+      "titulo": "Nível a laser para alinhar paredes e prateleiras",
+      "na_revisao_desde": "2026-10-14T08:40-03:00",
+      "aprovado_em": "2026-10-14T09:10-03:00"
     }
   ],
   "postados": [
@@ -1132,29 +1154,6 @@
       "id": 508,
       "na_revisao_desde": "2026-10-14T08:40-03:00",
       "msg_id": 821
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:787370863.23798509847",
-      "nome": "Nível a Laser 3 em 1 com Trena 2,5m, Tripé e Régua – Level Pro 03 Alinhador Horizontal e Vertical",
-      "por": 29.9,
-      "de": 149.5,
-      "foto": "AgACAgQAAxkDAAIDNmrPakGUbT0cjwzMB1E2NDri4FEcAAJYuTEbAuoMUJgcUqzPqRfRAQADAgADeAADPQQ",
-      "link": "https://s.shopee.com.br/qkGJeDgTV",
-      "link_produto": "https://shopee.com.br/product/787370863/23798509847",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.8,
-      "vendas": 628,
-      "palavra": "trena",
-      "garimpado_em": "2026-10-14T07:40-03:00",
-      "nota": 93.4,
-      "titulo": "Nível a laser para alinhar paredes e prateleiras",
-      "id": 509,
-      "na_revisao_desde": "2026-10-14T08:40-03:00",
-      "msg_id": 822
     }
   ],
   "proximo_id": 510,
@@ -8783,7 +8782,7 @@
     "2026-10-14": {
       "shopee": {
         "achados": 9,
-        "aprovados": 3,
+        "aprovados": 4,
         "reprovados": 0
       }
     }
@@ -9032,7 +9031,7 @@
     },
     "trena": {
       "achados": 1,
-      "aprovados": 0,
+      "aprovados": 1,
       "reprovados": 0
     }
   }
