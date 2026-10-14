@@ -300,26 +300,6 @@
       "titulo": "Perfume árabe amadeirado para o uso diário",
       "na_revisao_desde": "2026-10-14T17:40-03:00",
       "aprovado_em": "2026-10-14T18:00-03:00"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB70377228",
-      "origem": "promonocontext",
-      "link": "https://meli.la/2QZxLVs",
-      "link_produto": "https://meli.la/2QZxLVs",
-      "post_origem": "https://t.me/promonocontext/126692",
-      "link_canal": "https://meli.la/1yEte7s",
-      "foto": "AgACAgQAAxkDAAIDfGrP2r4WQst7TXjceb7B1yseUzhPAAKgD2sb0lCEUnT3aR1nxzv4AQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Mochila Urbana 15L Penalty",
-      "de": 119.0,
-      "por": 78.0,
-      "palavra": "mochila",
-      "garimpado_em": "2026-10-14T14:30-03:00",
-      "nota": 58.0,
-      "titulo": "Mochila para carregar notebook no dia a dia",
-      "na_revisao_desde": "2026-10-14T16:40-03:00",
-      "aprovado_em": "2026-10-14T18:01-03:00"
     }
   ],
   "postados": [
@@ -1226,6 +1206,15 @@
       "link": "https://meli.la/16vRB5b",
       "link_produto": "https://meli.la/16vRB5b",
       "titulo": "Creatina em pó para o seu treino diário"
+    },
+    {
+      "chave": "mercadolivre:MLB70377228",
+      "loja": "mercadolivre",
+      "nome": "Mochila Urbana 15L Penalty",
+      "data": "2026-10-14T18:01-03:00",
+      "link": "https://meli.la/2QZxLVs",
+      "link_produto": "https://meli.la/2QZxLVs",
+      "titulo": "Mochila para carregar notebook no dia a dia"
     }
   ],
   "slots_usados": {
@@ -4415,6 +4404,19 @@
   "ultimos": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB70377228",
+      "origem": "promonocontext",
+      "link": "https://meli.la/2QZxLVs",
+      "link_produto": "https://meli.la/2QZxLVs",
+      "post_origem": "https://t.me/promonocontext/126692",
+      "foto": "AgACAgQAAxkDAAIDfGrP2r4WQst7TXjceb7B1yseUzhPAAKgD2sb0lCEUnT3aR1nxzv4AQADAgADeAADPQQ",
+      "nome": "Mochila Urbana 15L Penalty",
+      "de": 119.0,
+      "por": 78.0,
+      "titulo": "Mochila para carregar notebook no dia a dia"
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB25929487",
       "origem": "lobaopromo",
       "link": "https://meli.la/16vRB5b",
@@ -4941,19 +4943,6 @@
       "titulo": "Mochila versátil para academia, natação e camping",
       "parcelas": 2,
       "parcela_valor": 27.68
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB4613727425",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/1NnuF3D",
-      "link_produto": "https://meli.la/1NnuF3D",
-      "post_origem": "https://t.me/lobaopromo/188679",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_931251-MLB118770940079_102026-O.webp",
-      "nome": "Esmerilhadeira Angular Professional 115mm Lixadeira 220v",
-      "de": 199.0,
-      "por": 101.28,
-      "titulo": "Esmerilhadeira 220v"
     }
   ],
   "lixeira": [
