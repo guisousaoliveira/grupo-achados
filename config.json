@@ -64,45 +64,6 @@
     "buscar_cada_minutos": 15,
     "so_api": true
   },
-  "frases": {
-    "geral": [
-      "Preço bom assim não dura, corre!",
-      "Achado do dia, aproveita antes de acabar.",
-      "Vale cada centavo nesse preço.",
-      "Preço bom, vale conferir.",
-      "Boa oportunidade para quem estava esperando."
-    ],
-    "desconto_alto": [
-      "{off}% off, isso aqui não fica muito tempo assim.",
-      "Desconto de {off}%: é agora ou nunca.",
-      "Preço de queima, {off}% mais barato."
-    ],
-    "Academia": [
-      "Pra quem leva o treino a sério.",
-      "Suplemento bom pelo preço justo, aproveita.",
-      "Investimento no shape que cabe no bolso."
-    ],
-    "Estilo": [
-      "Presença começa no detalhe.",
-      "Estilo de homem que se respeita, por menos.",
-      "Sobe o nível do visual sem gastar muito."
-    ],
-    "Cuidados": [
-      "Barba alinhada, presença garantida.",
-      "Cuidado de barbearia em casa, pagando pouco.",
-      "Homem que se cuida chama atenção."
-    ],
-    "Mente e rotina": [
-      "Disciplina se constrói todo dia.",
-      "Invista na mente, o retorno é garantido.",
-      "Rotina forte começa pelas ferramentas certas."
-    ],
-    "Gadgets": [
-      "Tecnologia boa pelo preço certo.",
-      "Útil no dia a dia e com desconto.",
-      "Upgrade que vale a pena nesse preço."
-    ]
-  },
   "ia": {
     "modelo": "gemini-flash-latest",
     "instrucao": "Escreva UMA frase curta (até 12 palavras) em português do Brasil, chamativa e direta, para um post de oferta num canal de achados masculino (academia, estilo, cuidados, gadgets, games, ferramentas, churrasco, carro). Tom confiante, sem exageros falsos, sem emojis, sem hashtags. Sem afirmar menor preço ou histórico de preço."
@@ -245,5 +206,38 @@
     "ml_matt_tool": "59136903"
   },
   "canal_publico": "alphadominuspromo",
-  "aviso_antes_minutos": 10
+  "aviso_antes_minutos": 10,
+  "complementos": {
+    "geral": [
+      "que vale ter em casa",
+      "para facilitar o dia a dia",
+      "que resolve o dia a dia"
+    ],
+    "Academia": [
+      "para render mais no treino",
+      "para fechar a proteína do dia",
+      "para quem treina sério",
+      "para levar pro treino"
+    ],
+    "Estilo": [
+      "para subir o nível do visual",
+      "para completar o visual",
+      "que combina com tudo"
+    ],
+    "Cuidados": [
+      "para manter a barba alinhada",
+      "para se cuidar em casa",
+      "com cuidado de barbearia em casa"
+    ],
+    "Mente e rotina": [
+      "para organizar a rotina",
+      "para a rotina render mais",
+      "para o seu dia a dia"
+    ],
+    "Gadgets": [
+      "para facilitar o dia a dia",
+      "para usar todo dia",
+      "que resolve o dia a dia"
+    ]
+  }
 }
