@@ -3,27 +3,6 @@
   "fila": [
     {
       "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB38611321",
-      "origem": "promonocontext",
-      "link": "https://meli.la/1TgcRa6",
-      "link_produto": "https://meli.la/1TgcRa6",
-      "post_origem": "https://t.me/promonocontext/126265",
-      "link_canal": "https://meli.la/2uri9Ai",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_618929-MLA99520369354_112025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Kit Jogo De Ferramentas 129 Peças Com Jogo De 40 Soquetes Chaves E",
-      "por": 189.52,
-      "aviso_preco": true,
-      "cupom": "FULLLANDING",
-      "titulo": "Kit completo com 129 peças para manutenção residencial e automotiva por 333,00.",
-      "garimpado_em": "2026-10-13T15:13-03:00",
-      "na_revisao_desde": "2026-10-13T15:13-03:00",
-      "de": 333.82,
-      "aprovado_em": "2026-10-13T15:46-03:00",
-      "aviso_validade": true
-    },
-    {
-      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB5933730066",
       "origem": "lobaopromo",
       "link": "https://meli.la/2w5iRyp",
@@ -1075,6 +1054,14 @@
       "link_produto": "https://meli.la/26v3LzP",
       "titulo": "Caixa de som JBL com resistência à água",
       "slot": 10
+    },
+    {
+      "chave": "mercadolivre:MLB38611321",
+      "loja": "mercadolivre",
+      "nome": "Kit Jogo De Ferramentas 129 Peças Com Jogo De 40 Soquetes Chaves E",
+      "data": "2026-10-14T10:33-03:00",
+      "link": "https://meli.la/1TgcRa6",
+      "link_produto": "https://meli.la/1TgcRa6"
     }
   ],
   "slots_usados": {
@@ -9090,6 +9077,20 @@
   "ultimos": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB38611321",
+      "origem": "promonocontext",
+      "link": "https://meli.la/1TgcRa6",
+      "link_produto": "https://meli.la/1TgcRa6",
+      "post_origem": "https://t.me/promonocontext/126265",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_618929-MLA99520369354_112025-O.webp",
+      "nome": "Kit Jogo De Ferramentas 129 Peças Com Jogo De 40 Soquetes Chaves E",
+      "por": 189.52,
+      "cupom": "FULLLANDING",
+      "titulo": "Kit completo com 129 peças para manutenção residencial e automotiva por 333,00.",
+      "de": 333.82
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB59802579",
       "origem": "promonocontext",
       "link": "https://meli.la/26v3LzP",
@@ -9617,20 +9618,6 @@
       "de": 350.0,
       "por": 148.0,
       "titulo": "58% off, isso aqui não fica muito tempo assim."
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0B2712FTY",
-      "origem": "lobaopromo",
-      "link": "https://link.amazon/B0ezvVAjk",
-      "link_produto": "https://link.amazon/B0ezvVAjk",
-      "post_origem": "https://t.me/lobaopromo/188609",
-      "foto": "AgACAgQAAxkDAAIBGGrNdvnBBck4k2kGlLlak3ebBBgBAAK5DmsbxzV1UjqEK3jnduRSAQADAgADeAADPQQ",
-      "nome": "Mouse Sem Fio HP 150",
-      "pix": true,
-      "de": 67.9,
-      "por": 50.73,
-      "prime": true
     }
   ],
   "lixeira": [
