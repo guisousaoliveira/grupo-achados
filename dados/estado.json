@@ -2227,25 +2227,6 @@
       "msg_id": 727
     },
     {
-      "loja": "amazon",
-      "chave": "amazon:B0HFPYNFPB",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B0HFPYNFPB?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0HFPYNFPB?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/caixa-de-som-sem-fio-sony-pulse-elevate-bluetooth-ps5-3111593/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3111593/",
-      "nome": "Caixa de Som Sem Fio Sony PULSE Elevate, Bluetooth",
-      "por": 1487.9,
-      "foto": "AgACAgQAAxkDAAIC2GrOrF1YCOVMIA3iId4x9CtU9RTWAAIIEGsb-cq8UORKe1IYFleXAQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "titulo": "Caixa de som Sony com alta fidelidade sonora",
-      "id": 440,
-      "garimpado_em": "2026-10-13T19:10-03:00",
-      "na_revisao_desde": "2026-10-13T19:10-03:00",
-      "msg_id": 728
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB18723721",
       "origem": "xetdaspromocoes",
@@ -3806,6 +3787,26 @@
   "lixeira": [
     {
       "loja": "amazon",
+      "chave": "amazon:B0HFPYNFPB",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0HFPYNFPB?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0HFPYNFPB?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/caixa-de-som-sem-fio-sony-pulse-elevate-bluetooth-ps5-3111593/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3111593/",
+      "nome": "Caixa de Som Sem Fio Sony PULSE Elevate, Bluetooth",
+      "por": 1487.9,
+      "foto": "AgACAgQAAxkDAAIC2GrOrF1YCOVMIA3iId4x9CtU9RTWAAIIEGsb-cq8UORKe1IYFleXAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "titulo": "Caixa de som Sony com alta fidelidade sonora",
+      "id": 440,
+      "garimpado_em": "2026-10-13T19:10-03:00",
+      "na_revisao_desde": "2026-10-13T19:10-03:00",
+      "removido_em": "2026-10-13T23:37:28-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "amazon",
       "chave": "amazon:B0CB1QS325",
       "origem": "promooeasy",
       "link": "https://www.amazon.com.br/dp/B0CB1QS325?tag=alphadominu09-20",
@@ -4591,26 +4592,6 @@
       "na_revisao_desde": "2026-10-13T15:51-03:00",
       "removido_em": "2026-10-13T16:03:28-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0CPTHKY7W",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B0CPTHKY7W?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0CPTHKY7W?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/santino-frasqueira-de-viagem-marselha-off-white-abs-rigida-organizadora-ctextura-geometrica-multiplas-alcas-espacosa-ideal-para-cosmeticos-3110989/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3110989/",
-      "nome": "Santino Frasqueira de Viagem Marselha Off-White ABS Rígida",
-      "por": 74.95,
-      "foto": "AgACAgQAAxkDAAICemrOfbFQB591XopDBN-UXQ7SK-FZAALBDmsb-MjdUOWtJDOdT0lHAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "titulo": "Preço bom assim não dura, corre!",
-      "id": 352,
-      "garimpado_em": "2026-10-13T15:51-03:00",
-      "na_revisao_desde": "2026-10-13T15:51-03:00",
-      "removido_em": "2026-10-13T16:03:26-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -4675,7 +4656,7 @@
       "promobit": {
         "achados": 58,
         "aprovados": 5,
-        "reprovados": 32
+        "reprovados": 33
       },
       "lobaopromo": {
         "achados": 60,
