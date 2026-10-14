@@ -1041,18 +1041,61 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [],
-  "proximo_id": 504,
+  "revisar": [
+    {
+      "loja": "shopee",
+      "chave": "shopee:1566556194.22099191110",
+      "nome": "Garrafa Térmica WATERSY 500ml - 48h Frio! Perfeita para Academia, Futebol e Dia a Dia⚽🏋️",
+      "por": 27.99,
+      "de": 116.62,
+      "foto": "AgACAgQAAxkDAAIDKWrO-dHzBLwG8yAPVSyg7gxmZZz-AAIhEGsbFqK1UM-Xo04jzR8nAQADAgADeQADPQQ",
+      "link": "https://s.shopee.com.br/40hHbxwpJm",
+      "link_produto": "https://shopee.com.br/product/1566556194/22099191110",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "palavra": "garrafa termica",
+      "garimpado_em": "2026-10-14T00:31-03:00",
+      "nota": 95.1,
+      "titulo": "Garrafa térmica que mantém a bebida gelada",
+      "id": 504,
+      "na_revisao_desde": "2026-10-14T00:41-03:00",
+      "msg_id": 809
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:472202601.58211536223",
+      "nome": "Watersy Garrafa Térmica 17oz/510ml a Vácuo Inox 18/8 Antivazamento Portátil para Café Chá Água",
+      "por": 22.99,
+      "de": 88.42,
+      "foto": "AgACAgQAAxkDAAIDKmrO-dJVaOoMAAEOIjMriyVXKSHguAACjQ1rGy681VLGFh3zGv-3AgEAAwIAA3kAAz0E",
+      "link": "https://s.shopee.com.br/7AeJNmkltd",
+      "link_produto": "https://shopee.com.br/product/472202601/58211536223",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "palavra": "garrafa termica",
+      "garimpado_em": "2026-10-14T00:31-03:00",
+      "nota": 93.9,
+      "titulo": "Garrafa térmica em inox para bebidas quentes",
+      "id": 505,
+      "na_revisao_desde": "2026-10-14T00:41-03:00",
+      "msg_id": 810
+    }
+  ],
+  "proximo_id": 506,
   "radar": {
     "visto": {
       "xetdaspromocoes": 84707,
-      "lobaopromo": 189137,
-      "gatunopromos": 125221,
+      "lobaopromo": 189146,
+      "gatunopromos": 125225,
       "pobregram": 41856,
       "urubupromo": 41633,
       "tudonapromo": 101779,
       "promonocontext": 126463,
-      "promooeasy": 221019,
+      "promooeasy": 221042,
       "aquitempechincha": 281477,
       "infoBRpromos": 67491,
       "boletando": 76682,
@@ -1060,7 +1103,7 @@
       "achadosdotb": 11763
     },
     "dia": "2026-10-14",
-    "hoje": 3,
+    "hoje": 6,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -1659,30 +1702,33 @@
       "shopee:1836615562.58212657626",
       "shopee:1613759296.43667445132",
       "shopee:1350045638.52658057285",
-      "shopee:472202601.58211536223"
+      "shopee:472202601.58211536223",
+      "mercadolivre:MLB66275098",
+      "mercadolivre:MLB1931982151",
+      "mercadolivre:MLB19955269"
     ],
     "ultima": {
-      "em": "2026-10-14T00:30:23-03:00",
+      "em": "2026-10-14T00:40:23-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 38,
-      "do_nicho": 1,
-      "repetidas": 0,
-      "novas": 1,
+      "posts_novos": 45,
+      "do_nicho": 4,
+      "repetidas": 1,
+      "novas": 3,
       "limite_dia": false,
       "repetidas_nome": 0,
-      "promobit": 1,
-      "soltas": 0,
-      "na_peneira": 65
+      "promobit": 0,
+      "soltas": 2,
+      "na_peneira": 128
     },
     "hora": "2026-10-14T00",
-    "nesta_hora": 1,
+    "nesta_hora": 4,
     "promobit_hora": "2026-10-14T00",
     "promobit_nesta_hora": 2,
-    "promobit_visto": 3112126,
+    "promobit_visto": 3112164,
     "nomes": [
       [
         [
@@ -1716,6 +1762,32 @@
           "rapida"
         ],
         "2026-10-14T00:10-03:00"
+      ],
+      [
+        [
+          "garrafa",
+          "termica",
+          "watersy",
+          "500ml",
+          "48h",
+          "frio",
+          "perfeita",
+          "academia"
+        ],
+        "2026-10-14T00:40-03:00"
+      ],
+      [
+        [
+          "watersy",
+          "garrafa",
+          "termica",
+          "17oz",
+          "510ml",
+          "vacuo",
+          "inox",
+          "18"
+        ],
+        "2026-10-14T00:41-03:00"
       ]
     ],
     "peneira": [
@@ -3711,23 +3783,6 @@
       },
       {
         "loja": "shopee",
-        "chave": "shopee:1566556194.22099191110",
-        "nome": "Garrafa Térmica WATERSY 500ml - 48h Frio! Perfeita para Academia, Futebol e Dia a Dia⚽🏋️",
-        "por": 27.99,
-        "de": 116.62,
-        "foto": "https://cf.shopee.com.br/file/br-11134207-820lb-msl12l6zbq4k5a",
-        "link": "https://s.shopee.com.br/40hHbxwpJm",
-        "link_produto": "https://shopee.com.br/product/1566556194/22099191110",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "palavra": "garrafa termica",
-        "garimpado_em": "2026-10-14T00:31-03:00",
-        "nota": 95.1
-      },
-      {
-        "loja": "shopee",
         "chave": "shopee:1754952251.58255822645",
         "nome": "Garrafa Térmica Alça Academia Inox 350ml/600ml/800ml/1000ml",
         "por": 31.99,
@@ -3863,25 +3918,59 @@
         "nota": 85.5
       },
       {
-        "loja": "shopee",
-        "chave": "shopee:472202601.58211536223",
-        "nome": "Watersy Garrafa Térmica 17oz/510ml a Vácuo Inox 18/8 Antivazamento Portátil para Café Chá Água",
-        "por": 22.99,
-        "de": 88.42,
-        "foto": "https://cf.shopee.com.br/file/br-11134207-820lw-morvlwsqwz5s5a",
-        "link": "https://s.shopee.com.br/7AeJNmkltd",
-        "link_produto": "https://shopee.com.br/product/472202601/58211536223",
-        "origem": "shopee",
-        "fonte": "shopee",
+        "loja": "mercadolivre",
+        "chave": "mercadolivre:MLB66275098",
+        "origem": "lobaopromo",
+        "link": "https://www.mercadolivre.com.br/air-fryer-oven-philco-paf15c-15l-220v-preta/p/MLB66275098?matt_word=alphapromo&matt_tool=59136903",
+        "link_produto": "https://www.mercadolivre.com.br/air-fryer-oven-philco-paf15c-15l-220v-preta/p/MLB66275098",
+        "post_origem": "https://t.me/lobaopromo/189138",
+        "link_canal": "https://meli.la/158ZN8M",
+        "foto": "https://http2.mlstatic.com/D_NQ_NP_744614-MLA113587573149_062026-O.webp",
         "foto_origem": "loja",
-        "shopee_api": true,
-        "palavra": "garrafa termica",
-        "garimpado_em": "2026-10-14T00:31-03:00",
-        "nota": 93.9
+        "nome": "Air Fryer Oven Philco PAF15C 15L 220V Preta",
+        "de": 827.0,
+        "por": 533.0,
+        "palavra": "air fryer",
+        "garimpado_em": "2026-10-14T00:40-03:00",
+        "nota": 52.4
+      },
+      {
+        "loja": "mercadolivre",
+        "chave": "mercadolivre:MLB1931982151",
+        "origem": "lobaopromo",
+        "link": "https://produto.mercadolivre.com.br/MLB-1931982151-kit-com-10-cuecas-boxer-algodo-cotton-masculina-adulto-mash-_JM?pdp_filters=item_id%3AMLB1931982151&matt_word=alphapromo&matt_tool=59136903",
+        "link_produto": "https://produto.mercadolivre.com.br/MLB-1931982151-kit-com-10-cuecas-boxer-algodo-cotton-masculina-adulto-mash-_JM?pdp_filters=item_id%3AMLB1931982151",
+        "post_origem": "https://t.me/lobaopromo/189141",
+        "link_canal": "https://meli.la/1wxzg1b",
+        "foto": "https://http2.mlstatic.com/D_NQ_NP_841912-MLB79136618978_092024-O.webp",
+        "foto_origem": "loja",
+        "nome": "Kit Com 10 Cuecas Boxer Algodão Cotton Masculina Adulto Mash",
+        "de": 330.0,
+        "por": 176.0,
+        "palavra": "cueca",
+        "garimpado_em": "2026-10-14T00:40-03:00",
+        "nota": 53.6
+      },
+      {
+        "loja": "mercadolivre",
+        "chave": "mercadolivre:MLB19955269",
+        "origem": "lobaopromo",
+        "link": "https://www.mercadolivre.com.br/smart-tv-aiwa-32-android-hd-borda-ultrafina-hdr10-dolby-audio-aws-tv-32-bl-02-a/p/MLB19955269?matt_word=alphapromo&matt_tool=59136903",
+        "link_produto": "https://www.mercadolivre.com.br/smart-tv-aiwa-32-android-hd-borda-ultrafina-hdr10-dolby-audio-aws-tv-32-bl-02-a/p/MLB19955269",
+        "post_origem": "https://t.me/lobaopromo/189143",
+        "link_canal": "https://meli.la/2nivFgu",
+        "foto": "https://http2.mlstatic.com/D_NQ_NP_690159-MLA99542831560_122025-O.webp",
+        "foto_origem": "loja",
+        "nome": "Smart TV AIWA 32” Android HD Borda Ultrafina HDR10 Dolby Áudio",
+        "de": 1400.0,
+        "por": 998.0,
+        "palavra": "smart tv",
+        "garimpado_em": "2026-10-14T00:40-03:00",
+        "nota": 40.5
       }
     ],
     "soltas_hora": "2026-10-14T00",
-    "soltas": 0,
+    "soltas": 2,
     "shopee_em": "2026-10-14T00:31-03:00",
     "shopee_indice": 16
   },
@@ -4577,7 +4666,7 @@
     },
     "2026-10-14": {
       "shopee": {
-        "achados": 3,
+        "achados": 5,
         "aprovados": 3,
         "reprovados": 0
       }
@@ -4726,7 +4815,7 @@
       "reprovados": 2
     },
     "garrafa termica": {
-      "achados": 2,
+      "achados": 4,
       "aprovados": 1,
       "reprovados": 1
     },
