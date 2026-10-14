@@ -1076,8 +1076,37 @@ def aprovar(estado, item):
         contar_garimpo(estado, item, "aprovados")
     limpo = {k: v for k, v in item.items() if k not in ("id", "msg_id")}
     limpo["aprovado_em"] = agora().isoformat(timespec="minutes")
-    estado["fila"].append(limpo)
-    return f"✅ Aprovada. Posição {len(estado['fila'])} na fila."
+    pos = posicao_na_fila(estado["fila"], limpo.get("loja"))
+    estado["fila"].insert(pos, limpo)
+    return f"✅ Aprovada. Posição {pos + 1} na fila."
+
+
+def posicao_na_fila(fila, loja):
+    """Onde entra uma oferta aprovada: no fim, a não ser que a última seja da mesma loja. Aí entra no último
+    espaço entre duas de outras lojas, para o canal não postar Shopee atrás de Shopee."""
+    if not fila or fila[-1].get("loja") != loja:
+        return len(fila)
+    for i in range(len(fila) - 1, 1, -1):  # nunca na frente da próxima a sair (fila[0])
+        if fila[i - 1].get("loja") != loja and fila[i].get("loja") != loja:
+            return i
+    return len(fila)
+
+
+def intercalar_fila(estado):
+    """Reorganiza a fila alternando as lojas (sem mudar a ordem entre as da mesma loja). A primeira fica."""
+    fila = estado["fila"]
+    if len(fila) < 3:
+        return
+    nova, grupos = [fila[0]], {}
+    for x in fila[1:]:
+        grupos.setdefault(x.get("loja"), []).append(x)
+    while any(grupos.values()):
+        ultima = nova[-1].get("loja")
+        opcoes = [l for l, g in grupos.items() if g and l != ultima] or [l for l, g in grupos.items() if g]
+        loja = max(opcoes, key=lambda l: (len(grupos[l]), -fila.index(grupos[l][0])))
+        nova.append(grupos[loja].pop(0))
+    estado["fila"] = nova
+    log("Fila intercalada: " + " ".join((x.get("loja") or "?")[:2] for x in nova))
 
 
 def aprovar_sozinha(estado, item):
@@ -1088,6 +1117,9 @@ def aprovar_sozinha(estado, item):
     if not (item.get("shopee_api") and regras.get("aprovar_sozinho")):
         return False
     if len(estado["fila"]) >= regras.get("aprovar_fila_max", 16):  # fila já cobre o dia: você escolhe no Revisar
+        return False
+    shopee = sum(1 for x in estado["fila"] if x.get("loja") == "shopee")
+    if shopee >= max(2, len(estado["fila"]) * regras.get("aprovar_fila_parte", 0.5)):  # Shopee já é metade da fila
         return False
     de, por = item.get("de"), item.get("por")
     off = round((1 - por / de) * 100) if de and por and de > por else 0
@@ -2312,27 +2344,45 @@ def soltar_peneira(estado, r, forcado=False):
     if por_dia:
         vagas = min(vagas, por_dia - r["soltas_dia"])
     soltas = 0
-    por_loja = cfg.get("max_por_loja_hora", 0)  # equilíbrio entre Amazon, Mercado Livre e Shopee
     da_loja = r.setdefault("soltas_loja", {})
+    # Rodízio entre as lojas: uma de cada por vez (a melhor de cada), para a Shopee (que vem aos montes pela
+    # API) não ocupar todas as vagas. Cada loja tem um teto por hora (config max_por_loja_hora).
+    por_loja = {}
     for item in sorted(peneira, key=lambda x: -x.get("nota", 0)):
-        if soltas >= vagas:
+        por_loja.setdefault(item.get("loja"), []).append(item)
+    while soltas < vagas:
+        andou = False
+        for loja, itens in list(por_loja.items()):
+            if soltas >= vagas:
+                break
+            while itens and da_loja.get(loja, 0) < teto_loja(cfg, loja):
+                item = itens.pop(0)
+                peneira.remove(item)
+                if repetida_pelo_nome(estado, r, item):  # entrou parecida em Revisar enquanto esperava
+                    continue
+                r.setdefault("nomes", []).append([nome_tokens(item.get("nome")), agora().isoformat(timespec="minutes")])
+                contar_garimpo(estado, item, "achados")
+                if not aprovar_sozinha(estado, item):
+                    mandar_para_revisao(estado, item)
+                soltas += 1
+                da_loja[loja] = da_loja.get(loja, 0) + 1
+                andou = True
+                break
+        if not andou:
             break
-        if por_loja and da_loja.get(item.get("loja"), 0) >= por_loja:
-            continue  # essa loja já deu o dela nesta hora: fica na peneira
-        peneira.remove(item)
-        if repetida_pelo_nome(estado, r, item):  # entrou parecida em Revisar enquanto esperava
-            continue
-        r.setdefault("nomes", []).append([nome_tokens(item.get("nome")), agora().isoformat(timespec="minutes")])
-        contar_garimpo(estado, item, "achados")
-        if not aprovar_sozinha(estado, item):
-            mandar_para_revisao(estado, item)
-        soltas += 1
-        da_loja[item.get("loja")] = da_loja.get(item.get("loja"), 0) + 1
     r["soltas"] += soltas
     r["soltas_dia"] = r.get("soltas_dia", 0) + soltas
     if soltas:
         log(f"Peneira: {soltas} oferta(s) para Revisar; {len(peneira)} esperando.")
     return soltas
+
+
+def teto_loja(cfg, loja):
+    """Máximo de ofertas da loja por hora na peneira. Número (todas iguais) ou {"shopee": 2, "outras": 3}."""
+    t = cfg.get("max_por_loja_hora", 0)
+    if isinstance(t, dict):
+        t = t.get(loja, t.get("outras", 0))
+    return t or 10 ** 6
 
 
 def radar_pausado(cfg):
@@ -2567,6 +2617,8 @@ def ciclo(estado):
         buscar_shopee(estado)
     except Exception as e:
         log(f"Erro na Shopee: {e}")
+    if os.environ.get("BOT_PEDIDO") == "intercalar":
+        intercalar_fila(estado)
     try:
         refazer_titulos(estado)
     except Exception as e:

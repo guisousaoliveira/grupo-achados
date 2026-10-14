@@ -65,7 +65,8 @@
     "so_api": true,
     "aprovar_sozinho": true,
     "aprovar_desconto_max": 90,
-    "aprovar_fila_max": 16
+    "aprovar_fila_max": 16,
+    "aprovar_fila_parte": 0.5
   },
   "ia": {
     "modelo": "gemini-flash-latest",
@@ -208,7 +209,10 @@
     "ml_matt_word": "alphapromo",
     "ml_matt_tool": "59136903",
     "melhores_por_dia": 60,
-    "max_por_loja_hora": 3
+    "max_por_loja_hora": {
+      "shopee": 2,
+      "outras": 3
+    }
   },
   "canal_publico": "alphadominuspromo",
   "aviso_antes_minutos": 10,
