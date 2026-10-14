@@ -2383,25 +2383,6 @@
     },
     {
       "loja": "amazon",
-      "chave": "amazon:B0FK1DWFXH",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B0FK1DWFXH?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0FK1DWFXH?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/frostpunk-2-ice-breaker-playstation-5-3111621/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3111621/",
-      "nome": "Frostpunk 2: Ice Breaker",
-      "por": 183.33,
-      "foto": "AgACAgQAAxkDAAIC4WrOrtjCMJdgIpybPjvX0BrDHo77AAIrDWsbz-AdUnIJkVfNvl_RAQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "titulo": "Frostpunk 2 para gerenciar sua colônia sobrevivente",
-      "id": 449,
-      "garimpado_em": "2026-10-13T19:21-03:00",
-      "na_revisao_desde": "2026-10-13T19:21-03:00",
-      "msg_id": 737
-    },
-    {
-      "loja": "amazon",
       "chave": "amazon:B0FPRGKBL3",
       "origem": "promooeasy",
       "link": "https://www.amazon.com.br/dp/B0FPRGKBL3?tag=alphadominu09-20",
@@ -3883,6 +3864,26 @@
   "lixeira": [
     {
       "loja": "amazon",
+      "chave": "amazon:B0FK1DWFXH",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0FK1DWFXH?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0FK1DWFXH?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/frostpunk-2-ice-breaker-playstation-5-3111621/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3111621/",
+      "nome": "Frostpunk 2: Ice Breaker",
+      "por": 183.33,
+      "foto": "AgACAgQAAxkDAAIC4WrOrtjCMJdgIpybPjvX0BrDHo77AAIrDWsbz-AdUnIJkVfNvl_RAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "titulo": "Frostpunk 2 para gerenciar sua colônia sobrevivente",
+      "id": 449,
+      "garimpado_em": "2026-10-13T19:21-03:00",
+      "na_revisao_desde": "2026-10-13T19:21-03:00",
+      "removido_em": "2026-10-13T23:37:12-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "amazon",
       "chave": "amazon:B0CLTZHVVT",
       "origem": "promobit",
       "fonte": "promobit",
@@ -4666,27 +4667,6 @@
       "na_revisao_desde": "2026-10-13T14:44-03:00",
       "removido_em": "2026-10-13T15:49:29-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB57833381",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/liquidificador-portatil-wap-blender-go-wbg600-700ml-com-4-laminas-em-inox-e-trava-de-seguranca/p/MLB57833381?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/liquidificador-portatil-wap-blender-go-wbg600-700ml-com-4-laminas-em-inox-e-trava-de-seguranca/p/MLB57833381",
-      "post_origem": "https://t.me/lobaopromo/188895",
-      "link_canal": "https://meli.la/2gsjyTY",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_996548-MLA115056591878_082026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Liquidificador Portátil Wap Blender Go Wbg600 700ml Com 4 Lâminas Em",
-      "de": 300.0,
-      "por": 156.0,
-      "cupom": "MELHORDEHJ",
-      "titulo": "Liquidificador portátil Wap com 48% off",
-      "id": 322,
-      "garimpado_em": "2026-10-13T14:40-03:00",
-      "na_revisao_desde": "2026-10-13T14:40-03:00",
-      "removido_em": "2026-10-13T15:49:29-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -4751,7 +4731,7 @@
       "promobit": {
         "achados": 58,
         "aprovados": 5,
-        "reprovados": 29
+        "reprovados": 30
       },
       "lobaopromo": {
         "achados": 60,
