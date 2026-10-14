@@ -3144,25 +3144,6 @@
       "msg_id": 781
     },
     {
-      "loja": "amazon",
-      "chave": "amazon:B087YXFLMZ",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B087YXFLMZ?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B087YXFLMZ?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/220930",
-      "link_canal": "https://www.amazon.com.br/dp/B087YXFLMZ?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAIDD2rO1oxt46KOuo3oQwg1PTXx-nSSAAI9DGsb8WW8UjkZll511nSrAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Teclado Mecânico Redragon Dark Avenger RGB Lunar White Switch Vermelho K568W-RGB",
-      "parcelas": 5,
-      "por": 175.0,
-      "titulo": "Teclado mecânico Redragon com 40% de desconto",
-      "id": 489,
-      "garimpado_em": "2026-10-13T22:10-03:00",
-      "na_revisao_desde": "2026-10-13T22:10-03:00",
-      "msg_id": 783
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB6139419",
       "origem": "lobaopromo",
@@ -4201,6 +4182,26 @@
   "lixeira": [
     {
       "loja": "amazon",
+      "chave": "amazon:B087YXFLMZ",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B087YXFLMZ?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B087YXFLMZ?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220930",
+      "link_canal": "https://www.amazon.com.br/dp/B087YXFLMZ?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAIDD2rO1oxt46KOuo3oQwg1PTXx-nSSAAI9DGsb8WW8UjkZll511nSrAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Teclado Mecânico Redragon Dark Avenger RGB Lunar White Switch Vermelho K568W-RGB",
+      "parcelas": 5,
+      "por": 175.0,
+      "titulo": "Teclado mecânico Redragon com 40% de desconto",
+      "id": 489,
+      "garimpado_em": "2026-10-13T22:10-03:00",
+      "na_revisao_desde": "2026-10-13T22:10-03:00",
+      "removido_em": "2026-10-13T23:34:04-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "amazon",
       "chave": "amazon:B0HBYMG565",
       "origem": "promooeasy",
       "link": "https://www.amazon.com.br/dp/B0HBYMG565?tag=alphadominu09-20",
@@ -4995,27 +4996,6 @@
       "na_revisao_desde": "2026-10-13T12:17-03:00",
       "removido_em": "2026-10-13T15:49:29-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB34178711",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/mochila-shammy-20-olympikus/p/MLB34178711?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/mochila-shammy-20-olympikus/p/MLB34178711",
-      "post_origem": "https://t.me/lobaopromo/188896",
-      "link_canal": "https://meli.la/176vfkD",
-      "foto": "AgACAgQAAxkDAAICXGrObUUmePX7G3Pl_3YYHHjxr6UYAAKcDmsbCRlFUXU7uz-7zkbEAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Mochila Shammy 2.0 Olympikus",
-      "pix": true,
-      "de": 139.0,
-      "por": 53.0,
-      "titulo": "Mochila Olympikus Shammy 2.0 com 62% off",
-      "id": 323,
-      "garimpado_em": "2026-10-13T14:41-03:00",
-      "na_revisao_desde": "2026-10-13T14:41-03:00",
-      "removido_em": "2026-10-13T15:49:20-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -5090,7 +5070,7 @@
       "promooeasy": {
         "achados": 123,
         "aprovados": 2,
-        "reprovados": 82
+        "reprovados": 83
       },
       "xetdaspromocoes": {
         "achados": 19,
