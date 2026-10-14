@@ -2,27 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "amazon",
-      "chave": "amazon:B0FFTQV2KP",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://link.amazon/B06Sz66Hz",
-      "link_produto": "https://link.amazon/B06Sz66Hz",
-      "post_origem": "https://www.promobit.com.br/oferta/tenis-mizuno-neo-vortex-3111989/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3111989/",
-      "nome": "Tênis Mizuno Neo Vortex",
-      "por": 270.0,
-      "de": 699.99,
-      "foto": "AgACAgQAAxkDAAIDFmrO3cyYEuQiY9JdAp12zOwzCEyDAAIkEGsb3rvtUF0TlOpBDAEoAQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "titulo": "Desconto de 61%: é agora ou nunca.",
-      "garimpado_em": "2026-10-13T22:41-03:00",
-      "na_revisao_desde": "2026-10-13T22:41-03:00",
-      "pix": true,
-      "aprovado_em": "2026-10-13T23:35-03:00",
-      "aviso_validade": true
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB32431595",
       "origem": "gatunopromos",
@@ -1155,6 +1134,16 @@
       "link_produto": "https://meli.la/1crfbXn",
       "titulo": "Mochila Mormaii resistente",
       "slot": 12
+    },
+    {
+      "chave": "amazon:B0FFTQV2KP",
+      "loja": "amazon",
+      "nome": "Tênis Mizuno Neo Vortex",
+      "data": "2026-10-14T13:12-03:00",
+      "link": "https://link.amazon/B06Sz66Hz",
+      "link_produto": "https://link.amazon/B06Sz66Hz",
+      "titulo": "Desconto de 61%: é agora ou nunca.",
+      "slot": 13
     }
   ],
   "slots_usados": {
@@ -1202,7 +1191,8 @@
       9,
       10,
       11,
-      12
+      12,
+      13
     ]
   },
   "shopee_buscado_em": "",
@@ -4035,6 +4025,21 @@
   },
   "ultimos": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B0FFTQV2KP",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://link.amazon/B06Sz66Hz",
+      "link_produto": "https://link.amazon/B06Sz66Hz",
+      "post_origem": "https://www.promobit.com.br/oferta/tenis-mizuno-neo-vortex-3111989/",
+      "nome": "Tênis Mizuno Neo Vortex",
+      "por": 270.0,
+      "de": 699.99,
+      "foto": "AgACAgQAAxkDAAIDFmrO3cyYEuQiY9JdAp12zOwzCEyDAAIkEGsb3rvtUF0TlOpBDAEoAQADAgADeQADPQQ",
+      "titulo": "Desconto de 61%: é agora ou nunca.",
+      "pix": true
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB4788829267",
       "origem": "promonocontext",
@@ -4561,19 +4566,6 @@
       "de": 149.0,
       "por": 78.9,
       "titulo": "Headphone Dapon pela metade do preço"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB4992424197",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/1ALanGS",
-      "link_produto": "https://meli.la/1ALanGS",
-      "post_origem": "https://t.me/lobaopromo/188650",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_741024-MLB114244636256_082026-O.webp",
-      "nome": "Tênis Masculino Casual Aramis Daily Slip Confortável Moderno Bege 41",
-      "de": 339.0,
-      "por": 164.99,
-      "titulo": "Tênis no precinho"
     }
   ],
   "lixeira": [
