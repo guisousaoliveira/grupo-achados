@@ -3030,24 +3030,6 @@
     },
     {
       "loja": "amazon",
-      "chave": "amazon:B0GV5WHHN2",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0GV5WHHN2?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0GV5WHHN2?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/220912",
-      "link_canal": "https://www.amazon.com.br/Console-Nintendo-Switch-Super-Galaxy/dp/B0GV5WHHN2?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAIDBWrOz4ZePMoO9SGGS640YTFaYe9PAAIPDWsbKTukUm7BCeqLY3BMAQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "nome": "Console Nintendo Switch 2 + Jogo Super Mario Galaxy + Super Mario Galaxy 2",
-      "por": 4028.57,
-      "titulo": "Nintendo Switch 2 com dois jogos inclusos",
-      "id": 483,
-      "garimpado_em": "2026-10-13T21:40-03:00",
-      "na_revisao_desde": "2026-10-13T21:40-03:00",
-      "msg_id": 773
-    },
-    {
-      "loja": "amazon",
       "chave": "amazon:B0FY8K73R9",
       "origem": "promobit",
       "fonte": "promobit",
@@ -4182,6 +4164,25 @@
   "lixeira": [
     {
       "loja": "amazon",
+      "chave": "amazon:B0GV5WHHN2",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0GV5WHHN2?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0GV5WHHN2?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220912",
+      "link_canal": "https://www.amazon.com.br/Console-Nintendo-Switch-Super-Galaxy/dp/B0GV5WHHN2?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAIDBWrOz4ZePMoO9SGGS640YTFaYe9PAAIPDWsbKTukUm7BCeqLY3BMAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "nome": "Console Nintendo Switch 2 + Jogo Super Mario Galaxy + Super Mario Galaxy 2",
+      "por": 4028.57,
+      "titulo": "Nintendo Switch 2 com dois jogos inclusos",
+      "id": 483,
+      "garimpado_em": "2026-10-13T21:40-03:00",
+      "na_revisao_desde": "2026-10-13T21:40-03:00",
+      "removido_em": "2026-10-13T23:34:08-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "amazon",
       "chave": "amazon:B087YXFLMZ",
       "origem": "promooeasy",
       "link": "https://www.amazon.com.br/dp/B087YXFLMZ?tag=alphadominu09-20",
@@ -4975,27 +4976,6 @@
       "na_revisao_desde": "2026-10-13T12:17-03:00",
       "removido_em": "2026-10-13T15:49:29-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB36943867",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/carregador-portatil-power-bank-inducao-10000-magsafe-com-suporte-dobravel-geonav/p/MLB36943867?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/carregador-portatil-power-bank-inducao-10000-magsafe-com-suporte-dobravel-geonav/p/MLB36943867",
-      "post_origem": "https://t.me/lobaopromo/188838",
-      "link_canal": "https://meli.la/1fQ58jy",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_777329-MLA99560805138_122025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Carregador Portátil Power Bank Indução 10.000 Magsafe com suporte",
-      "pix": true,
-      "por": 131.66,
-      "cupom": "MELHORDEHJ",
-      "titulo": "Power bank por indução com desconto aplicado",
-      "id": 273,
-      "garimpado_em": "2026-10-13T12:17-03:00",
-      "na_revisao_desde": "2026-10-13T12:17-03:00",
-      "removido_em": "2026-10-13T15:49:29-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -5070,7 +5050,7 @@
       "promooeasy": {
         "achados": 123,
         "aprovados": 2,
-        "reprovados": 83
+        "reprovados": 84
       },
       "xetdaspromocoes": {
         "achados": 19,
