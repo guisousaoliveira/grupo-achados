@@ -1938,24 +1938,6 @@
       "msg_id": 711
     },
     {
-      "loja": "amazon",
-      "chave": "amazon:B09YMX71JZ",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B09YMX71JZ?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B09YMX71JZ?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/220792",
-      "link_canal": "https://www.amazon.com.br/dp/B09YMX71JZ?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAICyGrOoxkX88crkhLeCE1nhDLauZ0gAALmszEbEVlFU8Ca6uKS1fpZAQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "nome": "Teclado Mecânico Gamer Redragon Fizz Rainbow Preto Switch Azul",
-      "por": 138.99,
-      "titulo": "Teclado mecânico Redragon para setups compactos",
-      "id": 425,
-      "garimpado_em": "2026-10-13T18:31-03:00",
-      "na_revisao_desde": "2026-10-13T18:31-03:00",
-      "msg_id": 712
-    },
-    {
       "loja": "shopee",
       "chave": "shopee:1419592004.18499625419",
       "origem": "promooeasy",
@@ -3688,6 +3670,25 @@
   ],
   "lixeira": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B09YMX71JZ",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B09YMX71JZ?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B09YMX71JZ?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/220792",
+      "link_canal": "https://www.amazon.com.br/dp/B09YMX71JZ?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAICyGrOoxkX88crkhLeCE1nhDLauZ0gAALmszEbEVlFU8Ca6uKS1fpZAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "nome": "Teclado Mecânico Gamer Redragon Fizz Rainbow Preto Switch Azul",
+      "por": 138.99,
+      "titulo": "Teclado mecânico Redragon para setups compactos",
+      "id": 425,
+      "garimpado_em": "2026-10-13T18:31-03:00",
+      "na_revisao_desde": "2026-10-13T18:31-03:00",
+      "removido_em": "2026-10-13T23:37:53-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB3781902941",
       "origem": "promooeasy",
@@ -4478,25 +4479,6 @@
       "na_revisao_desde": "2026-10-13T17:02-03:00",
       "removido_em": "2026-10-13T17:05:06-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0HCRCQ1F3",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0HCRCQ1F3?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0HCRCQ1F3?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/220655",
-      "link_canal": "https://www.amazon.com.br/Smart-LG-UHD-NANO-65UN85CBPSA-BWZ/dp/B0HCRCQ1F3?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAICf2rOfgfTMr-hZyJUfyuatc1y4YaYAALwDmsbc55MUBJRo7JH5EBJAQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "nome": "Por R3.387,18",
-      "por": 3387.18,
-      "titulo": "Smartphone topo de linha com desconto na Amazon",
-      "id": 357,
-      "garimpado_em": "2026-10-13T15:52-03:00",
-      "na_revisao_desde": "2026-10-13T15:52-03:00",
-      "removido_em": "2026-10-13T16:04:39-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -4571,7 +4553,7 @@
       "promooeasy": {
         "achados": 123,
         "aprovados": 2,
-        "reprovados": 93
+        "reprovados": 94
       },
       "xetdaspromocoes": {
         "achados": 19,
