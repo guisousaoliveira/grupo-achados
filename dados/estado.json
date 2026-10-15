@@ -317,6 +317,28 @@
       "titulo": "Smartwatch com Alexa e chamadas para o pulso",
       "na_revisao_desde": "2026-10-15T14:41-03:00",
       "aprovado_em": "2026-10-15T15:53-03:00"
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:1638805020.58264360363",
+      "nome": "Kit Halteres Ajustáveis 15kg Musculação 6 em 1 Barra Kettlebell Anilhas Academia em Casa Treino",
+      "por": 198.8,
+      "de": 602.42,
+      "foto": "https://cf.shopee.com.br/file/br-11134207-820ld-mr1c0ywi8iys19",
+      "link": "https://s.shopee.com.br/gQrjbtHre",
+      "link_produto": "https://shopee.com.br/product/1638805020/58264360363",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.8,
+      "vendas": 103,
+      "palavra": "halter",
+      "garimpado_em": "2026-10-15T16:20-03:00",
+      "nota": 87.3,
+      "titulo": "Halteres ajustáveis para montar sua academia em casa",
+      "aprovado_sozinho": true,
+      "aprovado_em": "2026-10-15T16:40-03:00"
     }
   ],
   "postados": [
@@ -2032,27 +2054,116 @@
       "id": 612,
       "na_revisao_desde": "2026-10-15T13:41-03:00",
       "msg_id": 995
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB4004443475",
+      "origem": "lobaopromo",
+      "link": "https://produto.mercadolivre.com.br/MLB-4004443475-kit-4-camisetas-masculina-dry-fit-ultra-leve-academia-_JM?pdp_filters=item_id%3AMLB4004443475&matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-4004443475-kit-4-camisetas-masculina-dry-fit-ultra-leve-academia-_JM?pdp_filters=item_id%3AMLB4004443475",
+      "post_origem": "https://t.me/lobaopromo/189948",
+      "link_canal": "https://meli.la/313wppX",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_802075-MLB117817354359_092026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Kit 4 Camisetas Masculina Dry Fit Ultra Leve Academia",
+      "pix": true,
+      "de": 163.0,
+      "por": 66.0,
+      "palavra": "academia",
+      "garimpado_em": "2026-10-15T16:40-03:00",
+      "nota": 73.5,
+      "titulo": "Camisetas dry fit leves para treinar com conforto",
+      "id": 624,
+      "na_revisao_desde": "2026-10-15T16:40-03:00",
+      "msg_id": 1019
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B07793T84W",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B07793T84W?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B07793T84W?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/garrafa-termica-firenze-mini-250ml-branco-invicta-3116875/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3116875/",
+      "nome": "Garrafa Térmica Firenze Mini 250ml Branco Invicta",
+      "por": 19.9,
+      "de": 30.13,
+      "foto": "AgACAgQAAxkDAAID_GrRLFCGvqbNP46PnZ9A4G1Xb7MWAAIxsjEbqJF8UGEXC3ZbnW6iAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "palavra": "garrafa termica",
+      "garimpado_em": "2026-10-15T16:10-03:00",
+      "nota": 68.3,
+      "titulo": "Garrafa térmica pequena para manter o café quente",
+      "id": 625,
+      "na_revisao_desde": "2026-10-15T16:41-03:00",
+      "msg_id": 1020
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:1368787663.23597895251",
+      "nome": "Carregador Portátil Bateria Power Bank 20000mah PN-959",
+      "por": 34.98,
+      "de": 79.5,
+      "foto": "AgACAgQAAxkDAAID_WrRLFGQoSZOiGYWTOaJoe9kYIV1AAIQDWsb_XIVUwOJ1ND5nmR0AQADAgADeQADPQQ",
+      "link": "https://s.shopee.com.br/6L5ErPkQ1l",
+      "link_produto": "https://shopee.com.br/product/1368787663/23597895251",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.7,
+      "vendas": 1673,
+      "palavra": "power bank",
+      "garimpado_em": "2026-10-15T13:41-03:00",
+      "nota": 71.3,
+      "titulo": "Carregador portátil para manter o celular com carga",
+      "id": 626,
+      "na_revisao_desde": "2026-10-15T16:41-03:00",
+      "msg_id": 1021
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB67328410",
+      "origem": "lobaopromo",
+      "link": "https://www.mercadolivre.com.br/wap-af01-airfryer-45l-visor-com-luz-interna-antiaderente-127v/p/MLB67328410?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/wap-af01-airfryer-45l-visor-com-luz-interna-antiaderente-127v/p/MLB67328410",
+      "post_origem": "https://t.me/lobaopromo/189931",
+      "link_canal": "https://meli.la/1mscmoG",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_600633-MLA109658799177_032026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Wap Af01 Airfryer 4,5l Visor Com Luz Interna Antiaderente 127V",
+      "de": 555.0,
+      "por": 288.0,
+      "cupom": "APROVEITA",
+      "palavra": "airfryer",
+      "garimpado_em": "2026-10-15T16:10-03:00",
+      "nota": 68.2,
+      "titulo": "Airfryer para preparar refeições sem usar óleo",
+      "id": 627,
+      "na_revisao_desde": "2026-10-15T16:41-03:00",
+      "msg_id": 1022
     }
   ],
-  "proximo_id": 623,
+  "proximo_id": 628,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 85064,
-      "lobaopromo": 189942,
-      "gatunopromos": 125550,
+      "xetdaspromocoes": 85066,
+      "lobaopromo": 189949,
+      "gatunopromos": 125551,
       "pobregram": 41969,
-      "urubupromo": 41725,
-      "tudonapromo": 102040,
-      "promonocontext": 127195,
-      "promooeasy": 222297,
-      "aquitempechincha": 281932,
+      "urubupromo": 41726,
+      "tudonapromo": 102043,
+      "promonocontext": 127201,
+      "promooeasy": 222305,
+      "aquitempechincha": 281936,
       "infoBRpromos": 67634,
       "boletando": 76791,
       "promotop": 260338,
       "achadosdotb": 11778
     },
     "dia": "2026-10-15",
-    "hoje": 102,
+    "hoje": 104,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -3950,31 +4061,33 @@
       "mercadolivre:MLB4657658761",
       "shopee:1638805020.58264360363",
       "amazon:B08K3GS882",
-      "mercadolivre:MLB6722993416"
+      "mercadolivre:MLB6722993416",
+      "amazon:B01G8LC44O",
+      "mercadolivre:MLB4004443475",
+      "shopee:1442096717.58216133129"
     ],
     "ultima": {
-      "em": "2026-10-15T16:30:25-03:00",
+      "em": "2026-10-15T16:40:21-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 45,
-      "do_nicho": 5,
-      "repetidas": 3,
-      "novas": 1,
+      "posts_novos": 44,
+      "do_nicho": 4,
+      "repetidas": 2,
+      "novas": 2,
       "limite_dia": false,
       "repetidas_nome": 0,
-      "fora_do_nicho": 1,
       "promobit": 0,
-      "soltas": 0,
-      "na_peneira": 21
+      "soltas": 5,
+      "na_peneira": 18
     },
     "hora": "2026-10-15T16",
-    "nesta_hora": 3,
+    "nesta_hora": 5,
     "promobit_hora": "2026-10-15T16",
     "promobit_nesta_hora": 2,
-    "promobit_visto": 3116933,
+    "promobit_visto": 3116961,
     "nomes": [
       [
         [
@@ -5428,28 +5541,70 @@
           "360g"
         ],
         "2026-10-15T15:41-03:00"
+      ],
+      [
+        [
+          "halteres",
+          "ajustaveis",
+          "15kg",
+          "musculacao",
+          "barra",
+          "kettlebell",
+          "anilhas",
+          "academia"
+        ],
+        "2026-10-15T16:40-03:00"
+      ],
+      [
+        [
+          "camisetas",
+          "dry",
+          "fit",
+          "ultra",
+          "leve",
+          "academia"
+        ],
+        "2026-10-15T16:40-03:00"
+      ],
+      [
+        [
+          "garrafa",
+          "termica",
+          "firenze",
+          "mini",
+          "250ml",
+          "invicta"
+        ],
+        "2026-10-15T16:41-03:00"
+      ],
+      [
+        [
+          "carregador",
+          "portatil",
+          "bateria",
+          "power",
+          "bank",
+          "20000mah",
+          "pn",
+          "959"
+        ],
+        "2026-10-15T16:41-03:00"
+      ],
+      [
+        [
+          "wap",
+          "af01",
+          "airfryer",
+          "5l",
+          "visor",
+          "luz",
+          "interna",
+          "antiaderente"
+        ],
+        "2026-10-15T16:41-03:00"
       ]
     ],
     "peneira": [
-      {
-        "loja": "shopee",
-        "chave": "shopee:1368787663.23597895251",
-        "nome": "Carregador Portátil Bateria Power Bank 20000mah PN-959",
-        "por": 34.98,
-        "de": 79.5,
-        "foto": "https://cf.shopee.com.br/file/br-11134201-820lc-mqyd4oflknba85",
-        "link": "https://s.shopee.com.br/6L5ErPkQ1l",
-        "link_produto": "https://shopee.com.br/product/1368787663/23597895251",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 4.7,
-        "vendas": 1673,
-        "palavra": "power bank",
-        "garimpado_em": "2026-10-15T13:41-03:00",
-        "nota": 71.3
-      },
       {
         "loja": "mercadolivre",
         "chave": "mercadolivre:MLB77577171",
@@ -5714,42 +5869,6 @@
         "nota": 56.9
       },
       {
-        "loja": "amazon",
-        "chave": "amazon:B07793T84W",
-        "origem": "promobit",
-        "fonte": "promobit",
-        "link": "https://www.amazon.com.br/dp/B07793T84W?tag=alphadominu09-20",
-        "link_produto": "https://www.amazon.com.br/dp/B07793T84W?tag=alphadominu09-20",
-        "post_origem": "https://www.promobit.com.br/oferta/garrafa-termica-firenze-mini-250ml-branco-invicta-3116875/",
-        "link_canal": "https://www.promobit.com.br/Redirect/to/3116875/",
-        "nome": "Garrafa Térmica Firenze Mini 250ml Branco Invicta",
-        "por": 19.9,
-        "de": 30.13,
-        "foto": "https://m.media-amazon.com/images/I/41Wsaa5t4LL._AC_SL1000_.jpg",
-        "foto_origem": "loja",
-        "palavra": "garrafa termica",
-        "garimpado_em": "2026-10-15T16:10-03:00",
-        "nota": 68.3
-      },
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB67328410",
-        "origem": "lobaopromo",
-        "link": "https://www.mercadolivre.com.br/wap-af01-airfryer-45l-visor-com-luz-interna-antiaderente-127v/p/MLB67328410?matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/wap-af01-airfryer-45l-visor-com-luz-interna-antiaderente-127v/p/MLB67328410",
-        "post_origem": "https://t.me/lobaopromo/189931",
-        "link_canal": "https://meli.la/1mscmoG",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_600633-MLA109658799177_032026-O.webp",
-        "foto_origem": "loja",
-        "nome": "Wap Af01 Airfryer 4,5l Visor Com Luz Interna Antiaderente 127V",
-        "de": 555.0,
-        "por": 288.0,
-        "cupom": "APROVEITA",
-        "palavra": "airfryer",
-        "garimpado_em": "2026-10-15T16:10-03:00",
-        "nota": 68.2
-      },
-      {
         "loja": "mercadolivre",
         "chave": "mercadolivre:MLB4657658761",
         "origem": "promonocontext",
@@ -5767,25 +5886,6 @@
         "nota": 51.8
       },
       {
-        "loja": "shopee",
-        "chave": "shopee:1638805020.58264360363",
-        "nome": "Kit Halteres Ajustáveis 15kg Musculação 6 em 1 Barra Kettlebell Anilhas Academia em Casa Treino",
-        "por": 198.8,
-        "de": 602.42,
-        "foto": "https://cf.shopee.com.br/file/br-11134207-820ld-mr1c0ywi8iys19",
-        "link": "https://s.shopee.com.br/gQrjbtHre",
-        "link_produto": "https://shopee.com.br/product/1638805020/58264360363",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 4.8,
-        "vendas": 103,
-        "palavra": "halter",
-        "garimpado_em": "2026-10-15T16:20-03:00",
-        "nota": 87.3
-      },
-      {
         "loja": "mercadolivre",
         "chave": "mercadolivre:MLB6722993416",
         "origem": "promonocontext",
@@ -5801,15 +5901,54 @@
         "palavra": "tenis masculino",
         "garimpado_em": "2026-10-15T16:30-03:00",
         "nota": 47.5
+      },
+      {
+        "loja": "amazon",
+        "chave": "amazon:B01G8LC44O",
+        "origem": "lobaopromo",
+        "link": "https://www.amazon.com.br/dp/B01G8LC44O?tag=alphadominu09-20",
+        "link_produto": "https://www.amazon.com.br/dp/B01G8LC44O?tag=alphadominu09-20",
+        "post_origem": "https://t.me/lobaopromo/189946",
+        "link_canal": "https://amzlink.to/az0ToDBfu0fvZ",
+        "foto": "https://m.media-amazon.com/images/I/51uQa4bj9tL._AC_SL1500_.jpg",
+        "foto_origem": "loja",
+        "nome": "Óculos de Sol Ray-Ban Aviator Unissex",
+        "por": 126.0,
+        "palavra": "oculos de sol",
+        "garimpado_em": "2026-10-15T16:40-03:00",
+        "nota": 36.9
+      },
+      {
+        "loja": "shopee",
+        "chave": "shopee:1442096717.58216133129",
+        "nome": "Fire TV Stick HD 8GB Wi-Fi 6 Alexa Controle Remoto Por Voz Original",
+        "por": 296.92,
+        "de": 582.2,
+        "foto": "https://cf.shopee.com.br/file/br-11134207-820ln-muc0l0jitvr46a",
+        "link": "https://s.shopee.com.br/1LgYYBjHZX",
+        "link_produto": "https://shopee.com.br/product/1442096717/58216133129",
+        "origem": "shopee",
+        "fonte": "shopee",
+        "foto_origem": "loja",
+        "shopee_api": true,
+        "avaliacao": 5.0,
+        "vendas": 106,
+        "palavra": "alexa",
+        "garimpado_em": "2026-10-15T16:41-03:00",
+        "nota": 63.7
       }
     ],
     "soltas_hora": "2026-10-15T16",
-    "soltas": 0,
-    "shopee_em": "2026-10-15T16:20-03:00",
-    "shopee_indice": 88,
+    "soltas": 5,
+    "shopee_em": "2026-10-15T16:41-03:00",
+    "shopee_indice": 96,
     "soltas_dia_data": "2026-10-15",
-    "soltas_dia": 53,
-    "soltas_loja": {}
+    "soltas_dia": 58,
+    "soltas_loja": {
+      "shopee": 2,
+      "mercadolivre": 2,
+      "amazon": 1
+    }
   },
   "ultimos": [
     {
@@ -6509,17 +6648,17 @@
     },
     "2026-10-15": {
       "shopee": {
-        "achados": 15,
+        "achados": 17,
         "aprovados": 1,
         "reprovados": 1
       },
       "lobaopromo": {
-        "achados": 7,
+        "achados": 9,
         "aprovados": 5,
         "reprovados": 0
       },
       "promobit": {
-        "achados": 8,
+        "achados": 9,
         "aprovados": 4,
         "reprovados": 1
       },
@@ -6548,7 +6687,7 @@
   "aviso_post": "2026-10-15 16|shopee:1101226660.21999087953",
   "garimpo_palavras": {
     "academia": {
-      "achados": 23,
+      "achados": 24,
       "aprovados": 6,
       "reprovados": 16
     },
@@ -6688,7 +6827,7 @@
       "reprovados": 2
     },
     "garrafa termica": {
-      "achados": 8,
+      "achados": 9,
       "aprovados": 6,
       "reprovados": 2
     },
@@ -6733,7 +6872,7 @@
       "reprovados": 2
     },
     "power bank": {
-      "achados": 11,
+      "achados": 12,
       "aprovados": 2,
       "reprovados": 8
     },
@@ -6793,7 +6932,7 @@
       "reprovados": 0
     },
     "airfryer": {
-      "achados": 1,
+      "achados": 2,
       "aprovados": 0,
       "reprovados": 1
     },
@@ -6838,7 +6977,7 @@
       "reprovados": 0
     },
     "halter": {
-      "achados": 1,
+      "achados": 2,
       "aprovados": 1,
       "reprovados": 0
     },
