@@ -1588,22 +1588,22 @@
   "proximo_id": 593,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84949,
-      "lobaopromo": 189789,
-      "gatunopromos": 125497,
-      "pobregram": 41940,
+      "xetdaspromocoes": 84953,
+      "lobaopromo": 189793,
+      "gatunopromos": 125498,
+      "pobregram": 41941,
       "urubupromo": 41706,
-      "tudonapromo": 101974,
-      "promonocontext": 127005,
-      "promooeasy": 222073,
-      "aquitempechincha": 281796,
+      "tudonapromo": 101976,
+      "promonocontext": 127010,
+      "promooeasy": 222077,
+      "aquitempechincha": 281801,
       "infoBRpromos": 67616,
-      "boletando": 76763,
+      "boletando": 76765,
       "promotop": 260306,
       "achadosdotb": 11771
     },
     "dia": "2026-10-15",
-    "hoje": 48,
+    "hoje": 49,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -3421,30 +3421,31 @@
       "shopee:333540705.23697719574",
       "mercadolivre:MLB4589990049",
       "shopee:1351300386.25937949008",
-      "shopee:1783863681.58214839689"
+      "shopee:1783863681.58214839689",
+      "amazon:B0F5X4LL89"
     ],
     "ultima": {
-      "em": "2026-10-15T10:20:21-03:00",
+      "em": "2026-10-15T10:30:24-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 55,
-      "do_nicho": 9,
-      "repetidas": 8,
+      "posts_novos": 42,
+      "do_nicho": 2,
+      "repetidas": 1,
       "novas": 1,
       "limite_dia": false,
       "repetidas_nome": 0,
-      "promobit": 0,
+      "promobit": 1,
       "soltas": 0,
-      "na_peneira": 16
+      "na_peneira": 19
     },
     "hora": "2026-10-15T10",
     "nesta_hora": 2,
     "promobit_hora": "2026-10-15T10",
-    "promobit_nesta_hora": 0,
-    "promobit_visto": 3115765,
+    "promobit_nesta_hora": 1,
+    "promobit_visto": 3115816,
     "nomes": [
       [
         [
@@ -4847,6 +4848,24 @@
         "palavra": "alicate",
         "garimpado_em": "2026-10-15T10:20-03:00",
         "nota": 59.3
+      },
+      {
+        "loja": "amazon",
+        "chave": "amazon:B0F5X4LL89",
+        "origem": "promobit",
+        "fonte": "promobit",
+        "link": "https://www.amazon.com.br/dp/B0F5X4LL89?tag=alphadominu09-20",
+        "link_produto": "https://www.amazon.com.br/dp/B0F5X4LL89?tag=alphadominu09-20",
+        "post_origem": "https://www.promobit.com.br/oferta/samsung-smart-tv-50-crystal-uhd-4k-u8600f-2025-3115770/",
+        "link_canal": "https://www.promobit.com.br/Redirect/to/3115770/",
+        "nome": "Samsung Smart TV 50\" Crystal UHD 4K U8600F 2025",
+        "por": 2127.99,
+        "de": 2599.99,
+        "foto": "https://m.media-amazon.com/images/I/71iGUDQvOYL._AC_SL1500_.jpg",
+        "foto_origem": "loja",
+        "palavra": "smart tv",
+        "garimpado_em": "2026-10-15T10:30-03:00",
+        "nota": 31.6
       }
     ],
     "soltas_hora": "2026-10-15T10",
