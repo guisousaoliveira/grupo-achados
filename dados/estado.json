@@ -1480,12 +1480,12 @@
     "visto": {
       "xetdaspromocoes": 84903,
       "lobaopromo": 189722,
-      "gatunopromos": 125475,
+      "gatunopromos": 125476,
       "pobregram": 41922,
       "urubupromo": 41689,
       "tudonapromo": 101936,
-      "promonocontext": 126921,
-      "promooeasy": 221949,
+      "promonocontext": 126922,
+      "promooeasy": 221964,
       "aquitempechincha": 281746,
       "infoBRpromos": 67597,
       "boletando": 76748,
@@ -3279,27 +3279,27 @@
       "amazon:B0CLYSGWFH"
     ],
     "ultima": {
-      "em": "2026-10-15T07:50:21-03:00",
+      "em": "2026-10-15T08:00:31-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 28,
-      "do_nicho": 3,
-      "repetidas": 1,
-      "novas": 2,
+      "posts_novos": 27,
+      "do_nicho": 0,
+      "repetidas": 0,
+      "novas": 0,
       "limite_dia": false,
       "repetidas_nome": 0,
       "promobit": 0,
       "soltas": 0,
       "na_peneira": 2
     },
-    "hora": "2026-10-15T07",
-    "nesta_hora": 5,
-    "promobit_hora": "2026-10-15T07",
+    "hora": "2026-10-15T08",
+    "nesta_hora": 0,
+    "promobit_hora": "2026-10-15T08",
     "promobit_nesta_hora": 0,
-    "promobit_visto": 3115342,
+    "promobit_visto": 3115353,
     "nomes": [
       [
         [
@@ -4308,15 +4308,13 @@
         "nota": 27.7
       }
     ],
-    "soltas_hora": "2026-10-15T07",
-    "soltas": 3,
-    "shopee_em": "2026-10-15T07:40-03:00",
-    "shopee_indice": 80,
+    "soltas_hora": "2026-10-15T08",
+    "soltas": 0,
+    "shopee_em": "2026-10-15T08:00-03:00",
+    "shopee_indice": 88,
     "soltas_dia_data": "2026-10-15",
     "soltas_dia": 13,
-    "soltas_loja": {
-      "amazon": 3
-    }
+    "soltas_loja": {}
   },
   "ultimos": [
     {
@@ -5887,7 +5885,7 @@
       }
     }
   },
-  "aviso_post": "2026-10-14 23|shopee:1006215031.51250897834",
+  "aviso_post": "2026-10-15 08|amazon:B0DG42KW7N",
   "garimpo_palavras": {
     "academia": {
       "achados": 21,
