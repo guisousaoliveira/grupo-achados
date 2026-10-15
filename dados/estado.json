@@ -2122,27 +2122,6 @@
       "id": 614,
       "na_revisao_desde": "2026-10-15T14:41-03:00",
       "msg_id": 999
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB59536001",
-      "origem": "promonocontext",
-      "link": "https://www.mercadolivre.com.br/kit-relogio-condor-aco-prata-modelo-co2035ntxk4k-feminino/p/MLB59536001?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/kit-relogio-condor-aco-prata-modelo-co2035ntxk4k-feminino/p/MLB59536001",
-      "post_origem": "https://t.me/promonocontext/127102",
-      "link_canal": "https://meli.la/2dBLFqc",
-      "foto": "AgACAgQAAxkDAAID7mrRHjHtCZ92-Lxal1II76Mem7vxAAK5D2sbUBrkUDMAASK5D0yNNwEAAwIAA3gAAz0E",
-      "foto_origem": "loja",
-      "nome": "Kit Relógio Condor Aço Prata Modelo CO2035NTXK4K Feminino",
-      "de": 259.0,
-      "por": 133.0,
-      "palavra": "relogio",
-      "garimpado_em": "2026-10-15T13:08-03:00",
-      "nota": 64.8,
-      "titulo": "Relógio em aço prata para o dia a dia",
-      "id": 619,
-      "na_revisao_desde": "2026-10-15T15:41-03:00",
-      "msg_id": 1011
     }
   ],
   "proximo_id": 623,
@@ -6463,6 +6442,28 @@
   ],
   "lixeira": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB59536001",
+      "origem": "promonocontext",
+      "link": "https://www.mercadolivre.com.br/kit-relogio-condor-aco-prata-modelo-co2035ntxk4k-feminino/p/MLB59536001?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/kit-relogio-condor-aco-prata-modelo-co2035ntxk4k-feminino/p/MLB59536001",
+      "post_origem": "https://t.me/promonocontext/127102",
+      "link_canal": "https://meli.la/2dBLFqc",
+      "foto": "AgACAgQAAxkDAAID7mrRHjHtCZ92-Lxal1II76Mem7vxAAK5D2sbUBrkUDMAASK5D0yNNwEAAwIAA3gAAz0E",
+      "foto_origem": "loja",
+      "nome": "Kit Relógio Condor Aço Prata Modelo CO2035NTXK4K Feminino",
+      "de": 259.0,
+      "por": 133.0,
+      "palavra": "relogio",
+      "garimpado_em": "2026-10-15T13:08-03:00",
+      "nota": 64.8,
+      "titulo": "Relógio em aço prata para o dia a dia",
+      "id": 619,
+      "na_revisao_desde": "2026-10-15T15:41-03:00",
+      "removido_em": "2026-10-15T15:48:05-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0F49G2XBX",
       "origem": "promooeasy",
@@ -7553,7 +7554,7 @@
       "promonocontext": {
         "achados": 5,
         "aprovados": 0,
-        "reprovados": 0
+        "reprovados": 1
       }
     }
   },
@@ -7757,7 +7758,7 @@
     "relogio": {
       "achados": 10,
       "aprovados": 2,
-      "reprovados": 5
+      "reprovados": 6
     },
     "smart tv": {
       "achados": 21,
