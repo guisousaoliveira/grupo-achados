@@ -295,6 +295,25 @@
       "titulo": "Power bank de alta capacidade para carregar o celular",
       "na_revisao_desde": "2026-10-15T09:41-03:00",
       "aprovado_em": "2026-10-15T09:59-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB2818208621",
+      "origem": "xetdaspromocoes",
+      "link": "https://meli.la/1ii92mv",
+      "link_produto": "https://meli.la/1ii92mv",
+      "post_origem": "https://t.me/xetdaspromocoes/84929",
+      "link_canal": "https://meli.la/1krogo4",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_606926-MLB73819020082_012024-O.webp",
+      "foto_origem": "loja",
+      "nome": "Lanterna Tatica Recarregavel Mais Forte Do Mundo Sitio Led Branco",
+      "por": 21.0,
+      "palavra": "lanterna tatica",
+      "garimpado_em": "2026-10-15T09:40-03:00",
+      "nota": 46.0,
+      "titulo": "Lanterna tática recarregável para iluminação de alta potênci",
+      "na_revisao_desde": "2026-10-15T09:41-03:00",
+      "aprovado_em": "2026-10-15T10:24-03:00"
     }
   ],
   "postados": [
@@ -1579,26 +1598,6 @@
       "id": 589,
       "na_revisao_desde": "2026-10-15T09:41-03:00",
       "msg_id": 966
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB2818208621",
-      "origem": "xetdaspromocoes",
-      "link": "https://www.mercadolivre.com.br/lanterna-tatica-recarregavel-mais-forte-do-mundo-sitio-led/up/MLBU794850063?pdp_filters=item_id%3AMLB2818208621&matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/lanterna-tatica-recarregavel-mais-forte-do-mundo-sitio-led/up/MLBU794850063?pdp_filters=item_id%3AMLB2818208621",
-      "post_origem": "https://t.me/xetdaspromocoes/84929",
-      "link_canal": "https://meli.la/1krogo4",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_606926-MLB73819020082_012024-O.webp",
-      "foto_origem": "loja",
-      "nome": "Lanterna Tatica Recarregavel Mais Forte Do Mundo Sitio Led Branco",
-      "por": 21.0,
-      "palavra": "lanterna tatica",
-      "garimpado_em": "2026-10-15T09:40-03:00",
-      "nota": 46.0,
-      "titulo": "Lanterna tática recarregável para iluminação de alta potênci",
-      "id": 591,
-      "na_revisao_desde": "2026-10-15T09:41-03:00",
-      "msg_id": 968
     }
   ],
   "proximo_id": 593,
@@ -6467,7 +6466,7 @@
       },
       "xetdaspromocoes": {
         "achados": 3,
-        "aprovados": 1,
+        "aprovados": 2,
         "reprovados": 0
       },
       "pobregram": {
@@ -6766,7 +6765,7 @@
     },
     "lanterna tatica": {
       "achados": 2,
-      "aprovados": 1,
+      "aprovados": 2,
       "reprovados": 0
     },
     "halter": {
