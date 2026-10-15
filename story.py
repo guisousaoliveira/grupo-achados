@@ -33,7 +33,7 @@ FRASES = [
     "Promoção assim não espera.",
     "No canal chega antes.",
     "Pegou quem estava de olho.",
-    "Achado de verdade é assim.",
+    "Promoção de verdade é assim.",
     "Desconto real, conferido.",
     "Quem chegou cedo levou.",
     "Ofertas assim saem todo dia.",
@@ -45,7 +45,7 @@ FRASES = [
     "Economia de homem esperto.",
     "Entra antes da próxima.",
     "Só quem segue vê a tempo.",
-    "Mais um achado do dia.",
+    "Mais uma promo do dia.",
 ]
 
 # Textos que dá para mudar no painel (aba Stories > Personalizar). Fica guardado em estado["story_cfg"].
@@ -54,10 +54,10 @@ PADRAO = {
     "cabecalho": "SAIU NO ALPHA PROMO",
     "mostrar_desconto": True,
     "mostrar_de": True,
-    "fixo_subtitulo": "ACHADOS PARA O HOMEM QUE SE CUIDA",
+    "fixo_subtitulo": "PROMOÇÕES PARA O HOMEM QUE SE CUIDA",
     "fixo_texto": "Chega de pagar mais caro. Encontramos os melhores preços da internet para você economizar de verdade.",
     "fixo_rotulo": "O QUE VOCÊ VAI ENCONTRAR NO CANAL",
-    "fixo_itens": ["Achados diários: tech, estilo, treino e casa",
+    "fixo_itens": ["Promoções diárias: tech, estilo, treino e casa",
                    "As melhores ofertas da Amazon, Shopee e Mercado Livre",
                    "Cupons e preços conferidos, todo dia"],
     "fixo_chamada": "100% gratuito. Toque para entrar.",
@@ -437,11 +437,11 @@ def story_venda(item, foto=None, canal="", frase=None, cfg=None, encaixe="auto",
 
     f_pe = fonte("Inter-Regular.ttf", 32)
     if link == "canal":
-        fim = vaga_sticker(d, 1400, 640, 120, "▼  LINK DESSE ACHADO NO CANAL  ▼", "cole aqui o link do canal")
-        centro(d, fim + 50, "e mais achados todo dia", f_pe, CINZA)
+        fim = vaga_sticker(d, 1400, 640, 120, "▼  LINK DESSA PROMO NO CANAL  ▼", "cole aqui o link do canal")
+        centro(d, fim + 50, "e mais promoções todo dia", f_pe, CINZA)
     else:
         fim = vaga_sticker(d, 1378, 640, 108, "▼  TOQUE PARA COMPRAR  ▼", "cole aqui o link do produto")
         if canal:  # o canal vai na pílula do Telegram (sem clique: o Instagram só deixa um link por story)
-            centro(d, fim + 40, "MAIS ACHADOS TODO DIA NO CANAL", fonte("Inter-ExtraBold.ttf", 26), CINZA, espaco=3)
+            centro(d, fim + 40, "MAIS PROMOÇÕES TODO DIA NO CANAL", fonte("Inter-ExtraBold.ttf", 26), CINZA, espaco=3)
             pilula_canal(img, d, fim + 76, canal)
     return png(img)

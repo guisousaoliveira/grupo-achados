@@ -447,7 +447,7 @@ def tirar_botoes(msg_id):
 
 # ---------------------------------------------------------------- IA (Gemini)
 
-PEDIDO_IA = """Você escreve ofertas para o Alpha Promo, um canal de achados no Telegram com público masculino
+PEDIDO_IA = """Você escreve ofertas para o Alpha Promo, um canal de promoções no Telegram com público masculino
 de 18 a 35 anos (academia, estilo, cuidados, tecnologia, games, ferramentas, casa, cozinha, churrasco e carro).
 Com os dados abaixo, escreva {pedido}. Responda só com o texto, numa linha, sem aspas.
 {regra}
