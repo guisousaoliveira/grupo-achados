@@ -296,6 +296,27 @@
       "titulo": "Carregador portátil para manter o celular com carga",
       "na_revisao_desde": "2026-10-15T16:41-03:00",
       "aprovado_em": "2026-10-15T18:48-03:00"
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B07793T84W",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://link.amazon/B0gPY28du",
+      "link_produto": "https://link.amazon/B0gPY28du",
+      "post_origem": "https://www.promobit.com.br/oferta/garrafa-termica-firenze-mini-250ml-branco-invicta-3116875/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3116875/",
+      "nome": "Garrafa Térmica Firenze Mini 250ml Branco Invicta",
+      "por": 19.9,
+      "de": 30.13,
+      "foto": "AgACAgQAAxkDAAID_GrRLFCGvqbNP46PnZ9A4G1Xb7MWAAIxsjEbqJF8UGEXC3ZbnW6iAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "palavra": "garrafa termica",
+      "garimpado_em": "2026-10-15T16:10-03:00",
+      "nota": 68.3,
+      "titulo": "Garrafa térmica pequena para manter o café quente",
+      "na_revisao_desde": "2026-10-15T16:41-03:00",
+      "aprovado_em": "2026-10-15T19:15-03:00"
     }
   ],
   "postados": [
@@ -2069,28 +2090,6 @@
       "id": 612,
       "na_revisao_desde": "2026-10-15T13:41-03:00",
       "msg_id": 995
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B07793T84W",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B07793T84W?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B07793T84W?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/garrafa-termica-firenze-mini-250ml-branco-invicta-3116875/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3116875/",
-      "nome": "Garrafa Térmica Firenze Mini 250ml Branco Invicta",
-      "por": 19.9,
-      "de": 30.13,
-      "foto": "AgACAgQAAxkDAAID_GrRLFCGvqbNP46PnZ9A4G1Xb7MWAAIxsjEbqJF8UGEXC3ZbnW6iAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "palavra": "garrafa termica",
-      "garimpado_em": "2026-10-15T16:10-03:00",
-      "nota": 68.3,
-      "titulo": "Garrafa térmica pequena para manter o café quente",
-      "id": 625,
-      "na_revisao_desde": "2026-10-15T16:41-03:00",
-      "msg_id": 1020
     }
   ],
   "proximo_id": 630,
@@ -7011,7 +7010,7 @@
       },
       "promobit": {
         "achados": 9,
-        "aprovados": 4,
+        "aprovados": 5,
         "reprovados": 1
       },
       "promooeasy": {
@@ -7180,7 +7179,7 @@
     },
     "garrafa termica": {
       "achados": 9,
-      "aprovados": 6,
+      "aprovados": 7,
       "reprovados": 2
     },
     "jbl": {
