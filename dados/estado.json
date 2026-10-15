@@ -3,28 +3,6 @@
   "fila": [
     {
       "loja": "shopee",
-      "chave": "shopee:994175276.22593202844",
-      "nome": "Drone E88 Dual Camera 4K Com 1 Bateria WI-FI PRETO NOVO",
-      "por": 129.97,
-      "de": 464.18,
-      "foto": "AgACAgQAAxkDAAIDXmrPophdNp8CjHPrhky-Sctt0XjpAAJ3uTEbGbzdUO7Y5-DA9QYcAQADAgADeAADPQQ",
-      "link": "https://s.shopee.com.br/1qcnf9wDxI",
-      "link_produto": "https://shopee.com.br/product/994175276/22593202844",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.7,
-      "vendas": 3021,
-      "palavra": "drone",
-      "garimpado_em": "2026-10-14T10:01-03:00",
-      "nota": 90.1,
-      "titulo": "Drone com câmera dupla para filmagens aéreas",
-      "na_revisao_desde": "2026-10-14T12:41-03:00",
-      "aprovado_em": "2026-10-14T13:15-03:00"
-    },
-    {
-      "loja": "shopee",
       "chave": "shopee:1392120718.20499592472",
       "nome": "Relógio De Pulso Digital Masculino SPORT Esportivo a Prova d 'Água",
       "por": 12.69,
@@ -1325,6 +1303,15 @@
       "link_produto": "https://shopee.com.br/product/1006215031/51250897834",
       "titulo": "Óculos de sol pequenos com proteção UV para o rosto",
       "slot": 23
+    },
+    {
+      "chave": "shopee:994175276.22593202844",
+      "loja": "shopee",
+      "nome": "Drone E88 Dual Camera 4K Com 1 Bateria WI-FI PRETO NOVO",
+      "data": "2026-10-14T23:50-03:00",
+      "link": "https://s.shopee.com.br/1qcnf9wDxI",
+      "link_produto": "https://shopee.com.br/product/994175276/22593202844",
+      "titulo": "Drone com câmera dupla para filmagens aéreas"
     }
   ],
   "slots_usados": {
@@ -4443,6 +4430,19 @@
   "ultimos": [
     {
       "loja": "shopee",
+      "chave": "shopee:994175276.22593202844",
+      "nome": "Drone E88 Dual Camera 4K Com 1 Bateria WI-FI PRETO NOVO",
+      "por": 129.97,
+      "de": 464.18,
+      "foto": "AgACAgQAAxkDAAIDXmrPophdNp8CjHPrhky-Sctt0XjpAAJ3uTEbGbzdUO7Y5-DA9QYcAQADAgADeAADPQQ",
+      "link": "https://s.shopee.com.br/1qcnf9wDxI",
+      "link_produto": "https://shopee.com.br/product/994175276/22593202844",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "titulo": "Drone com câmera dupla para filmagens aéreas"
+    },
+    {
+      "loja": "shopee",
       "chave": "shopee:1006215031.51250897834",
       "nome": "Óculos de sol redondos pequenos para homens e mulheres, proteção UV, proteção solar, moda ao ar livre, óculos para",
       "por": 13.41,
@@ -4962,21 +4962,6 @@
       "foto": "AgACAgQAAxkDAAICrGrOkKVaTrMmvlYN7dvtP-kJtyRVAALJDmsbWZcVUltVIswcdLuJAQADAgADeAADPQQ",
       "titulo": "Camisa retrô do Corinthians",
       "parcelas": 2
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB75755258",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/1C3xGJw",
-      "link_produto": "https://meli.la/1C3xGJw",
-      "post_origem": "https://t.me/lobaopromo/189103",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_760171-MLA113815933188_072026-O.webp",
-      "nome": "Mochila Para Notebook Impermeável com Porta USB e Senha Para Homem",
-      "pix": true,
-      "de": 199.0,
-      "por": 80.4,
-      "cupom": "JOGADOR",
-      "titulo": "Mochila impermeável para notebook"
     }
   ],
   "lixeira": [
