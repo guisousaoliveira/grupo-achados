@@ -322,6 +322,27 @@
       "titulo": "Creatina em pó para o seu treino diário",
       "na_revisao_desde": "2026-10-14T20:41-03:00",
       "aprovado_em": "2026-10-14T21:16-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB1841927467",
+      "origem": "promonocontext",
+      "link": "https://meli.la/1tiaJWi",
+      "link_produto": "https://meli.la/1tiaJWi",
+      "post_origem": "https://t.me/promonocontext/126823",
+      "link_canal": "https://meli.la/221hbPa",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_601114-MLB107054773924_022026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Camisa Polo Masculina Ogochi Original Slim Camiseta",
+      "de": 118.0,
+      "por": 68.0,
+      "cupom": "MELIGARANTE",
+      "palavra": "camisa polo",
+      "garimpado_em": "2026-10-14T19:20-03:00",
+      "nota": 76.5,
+      "titulo": "Camisa polo slim para o dia a dia",
+      "na_revisao_desde": "2026-10-14T20:41-03:00",
+      "aprovado_em": "2026-10-14T22:20-03:00"
     }
   ],
   "postados": [
@@ -1413,28 +1434,6 @@
       "id": 565,
       "na_revisao_desde": "2026-10-14T20:40-03:00",
       "msg_id": 921
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB1841927467",
-      "origem": "promonocontext",
-      "link": "https://produto.mercadolivre.com.br/MLB-1841927467-camisa-polo-masculina-ogochi-original-slim-camiseta-_JM?pdp_filters=item_id%3AMLB1841927467&matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-1841927467-camisa-polo-masculina-ogochi-original-slim-camiseta-_JM?pdp_filters=item_id%3AMLB1841927467",
-      "post_origem": "https://t.me/promonocontext/126823",
-      "link_canal": "https://meli.la/221hbPa",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_601114-MLB107054773924_022026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Camisa Polo Masculina Ogochi Original Slim Camiseta",
-      "de": 118.0,
-      "por": 68.0,
-      "cupom": "MELIGARANTE",
-      "palavra": "camisa polo",
-      "garimpado_em": "2026-10-14T19:20-03:00",
-      "nota": 76.5,
-      "titulo": "Camisa polo slim para o dia a dia",
-      "id": 568,
-      "na_revisao_desde": "2026-10-14T20:41-03:00",
-      "msg_id": 924
     }
   ],
   "proximo_id": 570,
@@ -6001,7 +6000,7 @@
       },
       "promonocontext": {
         "achados": 11,
-        "aprovados": 6,
+        "aprovados": 7,
         "reprovados": 4
       },
       "promooeasy": {
@@ -6095,7 +6094,7 @@
     },
     "camisa polo": {
       "achados": 6,
-      "aprovados": 4,
+      "aprovados": 5,
       "reprovados": 1
     },
     "chave de impacto": {
