@@ -1441,27 +1441,6 @@
       "msg_id": 935
     },
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB5944713610",
-      "origem": "promonocontext",
-      "link": "https://produto.mercadolivre.com.br/MLB-5944713610-garrafa-termica-emborrachada-600-ml-canudo-premium-_JM?pdp_filters=item_id%3AMLB5944713610&matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-5944713610-garrafa-termica-emborrachada-600-ml-canudo-premium-_JM?pdp_filters=item_id%3AMLB5944713610",
-      "post_origem": "https://t.me/promonocontext/126917",
-      "link_canal": "https://meli.la/2GVzp52",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_867419-MLB117770209713_092026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Garrafa Térmica Emborrachada 600 Ml Canudo Premium",
-      "de": 70.0,
-      "por": 39.0,
-      "palavra": "garrafa termica",
-      "garimpado_em": "2026-10-14T22:40-03:00",
-      "nota": 78.7,
-      "titulo": "Garrafa térmica com canudo para manter a água gelada",
-      "id": 573,
-      "na_revisao_desde": "2026-10-15T00:41-03:00",
-      "msg_id": 936
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B08LP3JV5J",
       "origem": "promobit",
@@ -5088,6 +5067,28 @@
   ],
   "lixeira": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB5944713610",
+      "origem": "promonocontext",
+      "link": "https://produto.mercadolivre.com.br/MLB-5944713610-garrafa-termica-emborrachada-600-ml-canudo-premium-_JM?pdp_filters=item_id%3AMLB5944713610&matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-5944713610-garrafa-termica-emborrachada-600-ml-canudo-premium-_JM?pdp_filters=item_id%3AMLB5944713610",
+      "post_origem": "https://t.me/promonocontext/126917",
+      "link_canal": "https://meli.la/2GVzp52",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_867419-MLB117770209713_092026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Garrafa Térmica Emborrachada 600 Ml Canudo Premium",
+      "de": 70.0,
+      "por": 39.0,
+      "palavra": "garrafa termica",
+      "garimpado_em": "2026-10-14T22:40-03:00",
+      "nota": 78.7,
+      "titulo": "Garrafa térmica com canudo para manter a água gelada",
+      "id": 573,
+      "na_revisao_desde": "2026-10-15T00:41-03:00",
+      "removido_em": "2026-10-15T00:42:59-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:811879342.20975432920",
       "nome": "Cafeteira Britânia CP15 Vidro Preto com Inox",
@@ -6000,7 +6001,7 @@
       "promonocontext": {
         "achados": 12,
         "aprovados": 7,
-        "reprovados": 4
+        "reprovados": 5
       },
       "promooeasy": {
         "achados": 2,
@@ -6166,7 +6167,7 @@
     "garrafa termica": {
       "achados": 7,
       "aprovados": 5,
-      "reprovados": 1
+      "reprovados": 2
     },
     "jbl": {
       "achados": 2,
