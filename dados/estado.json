@@ -361,6 +361,28 @@
       "titulo": "Pré-treino para dar mais energia nos exercícios",
       "na_revisao_desde": "2026-10-15T15:41-03:00",
       "aprovado_em": "2026-10-15T15:47-03:00"
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:995022276.23798435779",
+      "nome": "Grampeador Tapeceiro com Trena 2 Metros + 1000 Grampos e Maleta",
+      "por": 43.96,
+      "de": 118.81,
+      "foto": "AgACAgQAAxkDAAID8GrRHjNd25GAsP54x4M50-FF0C21AAO6MRsnRYRTg2lS249ON3ABAAMCAAN5AAM9BA",
+      "link": "https://s.shopee.com.br/113iZkJtiR",
+      "link_produto": "https://shopee.com.br/product/995022276/23798435779",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.9,
+      "vendas": 420,
+      "palavra": "trena",
+      "garimpado_em": "2026-10-15T14:41-03:00",
+      "nota": 84.8,
+      "titulo": "Grampeador com trena para tapeçaria e pequenos reparos",
+      "na_revisao_desde": "2026-10-15T15:41-03:00",
+      "aprovado_em": "2026-10-15T15:47-03:00"
     }
   ],
   "postados": [
@@ -2141,29 +2163,6 @@
       "id": 620,
       "na_revisao_desde": "2026-10-15T15:41-03:00",
       "msg_id": 1012
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:995022276.23798435779",
-      "nome": "Grampeador Tapeceiro com Trena 2 Metros + 1000 Grampos e Maleta",
-      "por": 43.96,
-      "de": 118.81,
-      "foto": "AgACAgQAAxkDAAID8GrRHjNd25GAsP54x4M50-FF0C21AAO6MRsnRYRTg2lS249ON3ABAAMCAAN5AAM9BA",
-      "link": "https://s.shopee.com.br/113iZkJtiR",
-      "link_produto": "https://shopee.com.br/product/995022276/23798435779",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.9,
-      "vendas": 420,
-      "palavra": "trena",
-      "garimpado_em": "2026-10-15T14:41-03:00",
-      "nota": 84.8,
-      "titulo": "Grampeador com trena para tapeçaria e pequenos reparos",
-      "id": 621,
-      "na_revisao_desde": "2026-10-15T15:41-03:00",
-      "msg_id": 1013
     }
   ],
   "proximo_id": 623,
@@ -7522,7 +7521,7 @@
     "2026-10-15": {
       "shopee": {
         "achados": 15,
-        "aprovados": 0,
+        "aprovados": 1,
         "reprovados": 0
       },
       "lobaopromo": {
@@ -7801,7 +7800,7 @@
     },
     "trena": {
       "achados": 3,
-      "aprovados": 1,
+      "aprovados": 2,
       "reprovados": 0
     },
     "airfryer": {
