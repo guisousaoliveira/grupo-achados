@@ -1471,21 +1471,21 @@
   "radar": {
     "visto": {
       "xetdaspromocoes": 84903,
-      "lobaopromo": 189725,
-      "gatunopromos": 125479,
+      "lobaopromo": 189726,
+      "gatunopromos": 125480,
       "pobregram": 41922,
-      "urubupromo": 41690,
-      "tudonapromo": 101937,
+      "urubupromo": 41691,
+      "tudonapromo": 101938,
       "promonocontext": 126924,
-      "promooeasy": 221980,
-      "aquitempechincha": 281752,
+      "promooeasy": 221985,
+      "aquitempechincha": 281756,
       "infoBRpromos": 67597,
       "boletando": 76748,
       "promotop": 260292,
       "achadosdotb": 11771
     },
     "dia": "2026-10-15",
-    "hoje": 29,
+    "hoje": 30,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -3275,30 +3275,31 @@
       "amazon:B0H36V324W",
       "shopee:297905309.43800091727",
       "shopee:1101261117.22698850420",
-      "shopee:1101226660.21999087953"
+      "shopee:1101226660.21999087953",
+      "amazon:B00LW3RCW8"
     ],
     "ultima": {
-      "em": "2026-10-15T08:20:20-03:00",
+      "em": "2026-10-15T08:30:23-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 26,
-      "do_nicho": 0,
-      "repetidas": 0,
-      "novas": 0,
+      "posts_novos": 29,
+      "do_nicho": 3,
+      "repetidas": 2,
+      "novas": 1,
       "limite_dia": false,
       "repetidas_nome": 0,
-      "promobit": 0,
+      "promobit": 1,
       "soltas": 0,
-      "na_peneira": 6
+      "na_peneira": 9
     },
     "hora": "2026-10-15T08",
     "nesta_hora": 3,
     "promobit_hora": "2026-10-15T08",
-    "promobit_nesta_hora": 1,
-    "promobit_visto": 3115382,
+    "promobit_nesta_hora": 2,
+    "promobit_visto": 3115411,
     "nomes": [
       [
         [
@@ -4409,6 +4410,24 @@
         "palavra": "jbl",
         "garimpado_em": "2026-10-15T08:20-03:00",
         "nota": 52.1
+      },
+      {
+        "loja": "amazon",
+        "chave": "amazon:B00LW3RCW8",
+        "origem": "promobit",
+        "fonte": "promobit",
+        "link": "https://www.amazon.com.br/dp/B00LW3RCW8?tag=alphadominu09-20",
+        "link_produto": "https://www.amazon.com.br/dp/B00LW3RCW8?tag=alphadominu09-20",
+        "post_origem": "https://www.promobit.com.br/oferta/relogio-timex-weekender-masculino-vermelho-40mm-3115396/",
+        "link_canal": "https://www.promobit.com.br/Redirect/to/3115396/",
+        "nome": "Relógio Timex Weekender Masculino Vermelho 40mm",
+        "por": 284.0,
+        "de": 319.53,
+        "foto": "https://images-na.ssl-images-amazon.com/images/P/B00LW3RCW8.01.LZZZZZZZ.jpg",
+        "foto_origem": "loja",
+        "palavra": "relogio",
+        "garimpado_em": "2026-10-15T08:30-03:00",
+        "nota": 30.5
       }
     ],
     "soltas_hora": "2026-10-15T08",
