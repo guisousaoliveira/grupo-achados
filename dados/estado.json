@@ -297,6 +297,28 @@
       "titulo": "Lavadora de alta pressão para limpeza pesada em casa",
       "aprovado_sozinho": true,
       "aprovado_em": "2026-10-15T11:40-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB4770821247",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/1cU5Jk2",
+      "link_produto": "https://meli.la/1cU5Jk2",
+      "post_origem": "https://t.me/lobaopromo/189863",
+      "link_canal": "https://meli.la/26TRhbF",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_624325-MLB113140259889_062026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Chave De Impacto A Bateria 48v Profissional Amarelo 48v",
+      "pix": true,
+      "de": 280.0,
+      "por": 142.0,
+      "cupom": "FULL1510",
+      "palavra": "chave de impacto",
+      "garimpado_em": "2026-10-15T13:00-03:00",
+      "nota": 68.4,
+      "titulo": "Chave de impacto para apertar parafusos pesados na oficina",
+      "na_revisao_desde": "2026-10-15T14:41-03:00",
+      "aprovado_em": "2026-10-15T15:40-03:00"
     }
   ],
   "postados": [
@@ -2049,29 +2071,6 @@
       "id": 615,
       "na_revisao_desde": "2026-10-15T14:41-03:00",
       "msg_id": 1000
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB4770821247",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/chave-de-impacto-a-bateria-48v-profissional/up/MLBU4096820920?pdp_filters=item_id%3AMLB4770821247&matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/chave-de-impacto-a-bateria-48v-profissional/up/MLBU4096820920?pdp_filters=item_id%3AMLB4770821247",
-      "post_origem": "https://t.me/lobaopromo/189863",
-      "link_canal": "https://meli.la/26TRhbF",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_624325-MLB113140259889_062026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Chave De Impacto A Bateria 48v Profissional Amarelo 48v",
-      "pix": true,
-      "de": 280.0,
-      "por": 142.0,
-      "cupom": "FULL1510",
-      "palavra": "chave de impacto",
-      "garimpado_em": "2026-10-15T13:00-03:00",
-      "nota": 68.4,
-      "titulo": "Chave de impacto para apertar parafusos pesados na oficina",
-      "id": 617,
-      "na_revisao_desde": "2026-10-15T14:41-03:00",
-      "msg_id": 1002
     }
   ],
   "proximo_id": 618,
@@ -7493,7 +7492,7 @@
       },
       "lobaopromo": {
         "achados": 7,
-        "aprovados": 3,
+        "aprovados": 4,
         "reprovados": 0
       },
       "promobit": {
@@ -7607,7 +7606,7 @@
     },
     "chave de impacto": {
       "achados": 2,
-      "aprovados": 0,
+      "aprovados": 1,
       "reprovados": 1
     },
     "chromecast": {
