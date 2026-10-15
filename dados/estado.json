@@ -3,27 +3,6 @@
   "fila": [
     {
       "loja": "amazon",
-      "chave": "amazon:B0DG42KW7N",
-      "origem": "promonocontext",
-      "link": "https://link.amazon/B0h3P5yvl",
-      "link_produto": "https://link.amazon/B0h3P5yvl",
-      "post_origem": "https://t.me/promonocontext/126788",
-      "link_canal": "https://amazn.pro/r/6MnJb2",
-      "foto": "AgACAgQAAxkDAAIDkWrQBPxcGOp-L8Q7WRqpNcsj-jvKAAIpD2sb3UqFUjNaBSPw8sbRAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Creatina Mu Sem Sabor 500g",
-      "de": 91.0,
-      "por": 65.0,
-      "palavra": "creatina",
-      "garimpado_em": "2026-10-14T18:10-03:00",
-      "nota": 59.8,
-      "titulo": "Creatina sem sabor para o seu treino diário",
-      "na_revisao_desde": "2026-10-14T19:40-03:00",
-      "obs": "Use o progame e poupe e cancele quando quiser!",
-      "aprovado_em": "2026-10-14T20:01-03:00"
-    },
-    {
-      "loja": "amazon",
       "chave": "amazon:B0FCGBD62W",
       "origem": "promobit",
       "fonte": "promobit",
@@ -1412,6 +1391,16 @@
       "link": "https://link.amazon/B09CIZFbZ",
       "link_produto": "https://link.amazon/B09CIZFbZ",
       "titulo": "Smartwatch esportivo para monitorar suas atividades diárias"
+    },
+    {
+      "chave": "amazon:B0DG42KW7N",
+      "loja": "amazon",
+      "nome": "Creatina Mu Sem Sabor 500g",
+      "data": "2026-10-15T08:09-03:00",
+      "link": "https://link.amazon/B0h3P5yvl",
+      "link_produto": "https://link.amazon/B0h3P5yvl",
+      "titulo": "Creatina sem sabor para o seu treino diário",
+      "slot": 8
     }
   ],
   "slots_usados": {
@@ -1471,6 +1460,9 @@
       21,
       22,
       23
+    ],
+    "2026-10-15": [
+      8
     ]
   },
   "shopee_buscado_em": "",
@@ -4319,6 +4311,20 @@
   "ultimos": [
     {
       "loja": "amazon",
+      "chave": "amazon:B0DG42KW7N",
+      "origem": "promonocontext",
+      "link": "https://link.amazon/B0h3P5yvl",
+      "link_produto": "https://link.amazon/B0h3P5yvl",
+      "post_origem": "https://t.me/promonocontext/126788",
+      "foto": "AgACAgQAAxkDAAIDkWrQBPxcGOp-L8Q7WRqpNcsj-jvKAAIpD2sb3UqFUjNaBSPw8sbRAQADAgADeAADPQQ",
+      "nome": "Creatina Mu Sem Sabor 500g",
+      "de": 91.0,
+      "por": 65.0,
+      "titulo": "Creatina sem sabor para o seu treino diário",
+      "obs": "Use o progame e poupe e cancele quando quiser!"
+    },
+    {
+      "loja": "amazon",
       "chave": "amazon:B0FW5JZM9P",
       "origem": "xetdaspromocoes",
       "link": "https://link.amazon/B09CIZFbZ",
@@ -4832,20 +4838,6 @@
       "por": 401.0,
       "titulo": "Caixa de som JBL com resistência à água",
       "de": 559.0
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:1006365068.22298339652",
-      "nome": "Bicicleta Bike Ergometrica Spinning Academia Fitness Profissional 120kg",
-      "por": 415.0,
-      "de": 1999.96,
-      "foto": "AgACAgQAAxkDAAIDPGrPeIEyxkSZwT0-Aij_Ygb7PtNEAALpujEbZaXtUiSbcTna4_0aAQADAgADeQADPQQ",
-      "link": "https://s.shopee.com.br/9fLewjftku",
-      "link_produto": "https://shopee.com.br/product/1006365068/22298339652",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "titulo": "Bicicleta para pedalar em casa e manter o ritmo",
-      "pix": true
     }
   ],
   "lixeira": [
