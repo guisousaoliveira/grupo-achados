@@ -3,29 +3,6 @@
   "fila": [
     {
       "loja": "amazon",
-      "chave": "amazon:B0FW5JZM9P",
-      "origem": "xetdaspromocoes",
-      "link": "https://link.amazon/B09CIZFbZ",
-      "link_produto": "https://link.amazon/B09CIZFbZ",
-      "post_origem": "https://t.me/xetdaspromocoes/84821",
-      "link_canal": "https://link.amazon/B0dyPjZ8E",
-      "foto": "AgACAgQAAxkDAAIDc2rPzM3EyFzO0SFJ4OMbyluZKMQdAALqDWsbYKlVUEormN9A5u0ZAQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "nome": "Relógio Smartwatch Bettdow FB051 Ai Esportivo Gps 1.28",
-      "pix": true,
-      "de": 199.0,
-      "por": 115.0,
-      "prime": true,
-      "palavra": "smartwatch",
-      "garimpado_em": "2026-10-14T15:00-03:00",
-      "nota": 61.7,
-      "titulo": "Smartwatch esportivo para monitorar suas atividades diárias",
-      "na_revisao_desde": "2026-10-14T15:41-03:00",
-      "aprovado_em": "2026-10-14T18:18-03:00",
-      "aviso_validade": true
-    },
-    {
-      "loja": "amazon",
       "chave": "amazon:B0DG42KW7N",
       "origem": "promonocontext",
       "link": "https://link.amazon/B0h3P5yvl",
@@ -1426,6 +1403,15 @@
       "data": "2026-10-15T07:47-03:00",
       "link": "https://link.amazon/B0eqVuUgV",
       "link_produto": "https://link.amazon/B0eqVuUgV"
+    },
+    {
+      "chave": "amazon:B0FW5JZM9P",
+      "loja": "amazon",
+      "nome": "Relógio Smartwatch Bettdow FB051 Ai Esportivo Gps 1.28",
+      "data": "2026-10-15T07:57-03:00",
+      "link": "https://link.amazon/B09CIZFbZ",
+      "link_produto": "https://link.amazon/B09CIZFbZ",
+      "titulo": "Smartwatch esportivo para monitorar suas atividades diárias"
     }
   ],
   "slots_usados": {
@@ -4335,6 +4321,21 @@
   "ultimos": [
     {
       "loja": "amazon",
+      "chave": "amazon:B0FW5JZM9P",
+      "origem": "xetdaspromocoes",
+      "link": "https://link.amazon/B09CIZFbZ",
+      "link_produto": "https://link.amazon/B09CIZFbZ",
+      "post_origem": "https://t.me/xetdaspromocoes/84821",
+      "foto": "AgACAgQAAxkDAAIDc2rPzM3EyFzO0SFJ4OMbyluZKMQdAALqDWsbYKlVUEormN9A5u0ZAQADAgADeQADPQQ",
+      "nome": "Relógio Smartwatch Bettdow FB051 Ai Esportivo Gps 1.28",
+      "pix": true,
+      "de": 199.0,
+      "por": 115.0,
+      "prime": true,
+      "titulo": "Smartwatch esportivo para monitorar suas atividades diárias"
+    },
+    {
+      "loja": "amazon",
       "chave": "amazon:B0HH4RGVG5",
       "origem": "promooeasy",
       "link": "https://link.amazon/B0eqVuUgV",
@@ -4847,19 +4848,6 @@
       "fonte": "shopee",
       "titulo": "Bicicleta para pedalar em casa e manter o ritmo",
       "pix": true
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB19739350",
-      "origem": "promonocontext",
-      "link": "https://meli.la/26Cfrvh",
-      "link_produto": "https://meli.la/26Cfrvh",
-      "post_origem": "https://t.me/promonocontext/126275",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_997812-MLA92288090836_092025-O.webp",
-      "nome": "Perfume Masculino Natura Essencial Único Deo Parfum 90ml",
-      "por": 179.0,
-      "cupom": "FULLLANDING",
-      "titulo": "Perfume Natura no preço"
     }
   ],
   "lixeira": [
