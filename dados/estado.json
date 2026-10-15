@@ -2,26 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB30144703",
-      "origem": "promonocontext",
-      "link": "https://meli.la/1vssKpu",
-      "link_produto": "https://meli.la/1vssKpu",
-      "post_origem": "https://t.me/promonocontext/126672",
-      "link_canal": "https://meli.la/175SpSE",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_981459-MLA117136184907_092026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Parafusadeira Furadeira De Impacto The Black Tools Profissional",
-      "por": 159.9,
-      "de": 319.9,
-      "palavra": "parafusadeira",
-      "garimpado_em": "2026-10-14T13:30-03:00",
-      "nota": 62.4,
-      "titulo": "Parafusadeira e furadeira para reparos e perfurações",
-      "na_revisao_desde": "2026-10-14T15:41-03:00",
-      "aprovado_em": "2026-10-14T18:16-03:00"
-    },
-    {
       "loja": "shopee",
       "chave": "shopee:1746399229.58259501932",
       "nome": "Suporte de Celular Carro 360º Giratório Universal Multifuncional Ventilacao Ar Condicionado Veicular",
@@ -1421,6 +1401,14 @@
       "link": "https://meli.la/2Vf6qGA",
       "link_produto": "https://meli.la/2Vf6qGA",
       "titulo": "Perfume árabe amadeirado"
+    },
+    {
+      "chave": "mercadolivre:MLB30144703",
+      "loja": "mercadolivre",
+      "nome": "Parafusadeira Furadeira De Impacto The Black Tools Profissional",
+      "data": "2026-10-15T06:41-03:00",
+      "link": "https://meli.la/1vssKpu",
+      "link_produto": "https://meli.la/1vssKpu"
     }
   ],
   "slots_usados": {
@@ -4272,6 +4260,18 @@
   "ultimos": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB30144703",
+      "origem": "promonocontext",
+      "link": "https://meli.la/1vssKpu",
+      "link_produto": "https://meli.la/1vssKpu",
+      "post_origem": "https://t.me/promonocontext/126672",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_981459-MLA117136184907_092026-O.webp",
+      "nome": "Parafusadeira Furadeira De Impacto The Black Tools Profissional",
+      "por": 159.9,
+      "de": 319.9
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB4470214747",
       "origem": "lobaopromo",
       "link": "https://meli.la/2Vf6qGA",
@@ -4789,20 +4789,6 @@
       "de": 169.99,
       "por": 85.49,
       "titulo": "Tênis na promo"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0DH9TR6DR",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://link.amazon/B0fV7V2di",
-      "link_produto": "https://link.amazon/B0fV7V2di",
-      "post_origem": "https://www.promobit.com.br/oferta/termolar-garrafa-termica-r-evolution-pressao-100-inox-12l-preta-3110213/",
-      "nome": "TERMOLAR Garrafa Térmica R-Evolution Pressão 100% Inox 1,2L Preta",
-      "por": 296.81,
-      "de": 539.9,
-      "foto": "AgACAgQAAxkDAAIB6GrOPB1wBRJOnzTjWV7TLWoF5Z7vAAJXD2sbQGV1UhtWPPK_dV_dAQADAgADeAADPQQ",
-      "titulo": "Desconto de 45%: é agora ou nunca."
     }
   ],
   "lixeira": [
