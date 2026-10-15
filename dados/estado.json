@@ -322,6 +322,27 @@
       "titulo": "Creatina em pó para o seu treino diário",
       "na_revisao_desde": "2026-10-14T20:41-03:00",
       "aprovado_em": "2026-10-14T21:16-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB66176437",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/1viX8d9",
+      "link_produto": "https://meli.la/1viX8d9",
+      "post_origem": "https://t.me/lobaopromo/189535",
+      "link_canal": "https://meli.la/2mQ7Tc6",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_892888-MLA107403836976_032026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Mochila Masculina Bolsa Impermeável Faculdade Executiva Alça",
+      "de": 59.0,
+      "por": 27.0,
+      "cupom": "OPAECONOMIZEI",
+      "palavra": "mochila",
+      "garimpado_em": "2026-10-14T19:10-03:00",
+      "nota": 79.1,
+      "titulo": "Modelo executivo impermeável para trabalho e estudos",
+      "na_revisao_desde": "2026-10-14T20:40-03:00",
+      "aprovado_em": "2026-10-14T22:21-03:00"
     }
   ],
   "postados": [
@@ -1400,30 +1421,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB66176437",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/mochila-masculina-bolsa-impermeavel-faculdade-executiva-alca-reforcada-preto-liso/p/MLB66176437?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/mochila-masculina-bolsa-impermeavel-faculdade-executiva-alca-reforcada-preto-liso/p/MLB66176437",
-      "post_origem": "https://t.me/lobaopromo/189535",
-      "link_canal": "https://meli.la/2mQ7Tc6",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_892888-MLA107403836976_032026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Mochila Masculina Bolsa Impermeável Faculdade Executiva Alça",
-      "de": 59.0,
-      "por": 27.0,
-      "cupom": "OPAECONOMIZEI",
-      "palavra": "mochila",
-      "garimpado_em": "2026-10-14T19:10-03:00",
-      "nota": 79.1,
-      "titulo": "Modelo executivo impermeável para trabalho e estudos",
-      "id": 565,
-      "na_revisao_desde": "2026-10-14T20:40-03:00",
-      "msg_id": 921
-    }
-  ],
+  "revisar": [],
   "proximo_id": 570,
   "radar": {
     "visto": {
@@ -5938,7 +5936,7 @@
       },
       "lobaopromo": {
         "achados": 10,
-        "aprovados": 7,
+        "aprovados": 8,
         "reprovados": 2
       },
       "xetdaspromocoes": {
@@ -6132,7 +6130,7 @@
     },
     "mochila": {
       "achados": 12,
-      "aprovados": 5,
+      "aprovados": 6,
       "reprovados": 5
     },
     "oculos de sol": {
