@@ -1441,7 +1441,7 @@
   "radar": {
     "visto": {
       "xetdaspromocoes": 84897,
-      "lobaopromo": 189605,
+      "lobaopromo": 189611,
       "gatunopromos": 125429,
       "pobregram": 41909,
       "urubupromo": 41688,
@@ -1455,7 +1455,7 @@
       "achadosdotb": 11771
     },
     "dia": "2026-10-14",
-    "hoje": 159,
+    "hoje": 160,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -3194,16 +3194,17 @@
       "shopee:967211054.58266207805",
       "amazon:B0HBZB6KPX",
       "mercadolivre:MLB74469055",
-      "mercadolivre:MLB23277147"
+      "mercadolivre:MLB23277147",
+      "mercadolivre:MLB2678327656"
     ],
     "ultima": {
-      "em": "2026-10-14T22:10:20-03:00",
+      "em": "2026-10-14T22:11:43-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 46,
+      "posts_novos": 6,
       "do_nicho": 1,
       "repetidas": 0,
       "novas": 1,
@@ -3211,10 +3212,10 @@
       "repetidas_nome": 0,
       "promobit": 0,
       "soltas": 0,
-      "na_peneira": 27
+      "na_peneira": 28
     },
     "hora": "2026-10-14T22",
-    "nesta_hora": 1,
+    "nesta_hora": 2,
     "promobit_hora": "2026-10-14T22",
     "promobit_nesta_hora": 0,
     "promobit_visto": 3114933,
@@ -4521,6 +4522,23 @@
         "palavra": "oculos de sol",
         "garimpado_em": "2026-10-14T22:10-03:00",
         "nota": 60.8
+      },
+      {
+        "loja": "mercadolivre",
+        "chave": "mercadolivre:MLB2678327656",
+        "origem": "lobaopromo",
+        "link": "https://produto.mercadolivre.com.br/MLB-2678327656-tnis-masculino-leve-esportivo-sapato-confortavel-promoco-_JM?pdp_filters=item_id%3AMLB2678327656&matt_word=alphapromo&matt_tool=59136903",
+        "link_produto": "https://produto.mercadolivre.com.br/MLB-2678327656-tnis-masculino-leve-esportivo-sapato-confortavel-promoco-_JM?pdp_filters=item_id%3AMLB2678327656",
+        "post_origem": "https://t.me/lobaopromo/189608",
+        "link_canal": "https://meli.la/26NyRRX",
+        "foto": "https://http2.mlstatic.com/D_NQ_NP_833803-MLB118685362969_102026-O.webp",
+        "foto_origem": "loja",
+        "nome": "Tênis Masculino Leve Esportivo Sapato Confortável Promoção",
+        "de": 129.0,
+        "por": 67.0,
+        "palavra": "tenis masculino",
+        "garimpado_em": "2026-10-14T22:11-03:00",
+        "nota": 60.1
       }
     ],
     "soltas_hora": "2026-10-14T22",
