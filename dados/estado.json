@@ -297,6 +297,26 @@
       "na_revisao_desde": "2026-10-15T06:34-03:00",
       "parcelas": 12,
       "aprovado_em": "2026-10-15T06:36-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB79915624",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/1bB8SKy",
+      "link_produto": "https://meli.la/1bB8SKy",
+      "post_origem": "https://t.me/lobaopromo/189703",
+      "link_canal": "https://meli.la/22kpmfT",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_636676-MLA116721406480_092026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Kit Ferramentas 46 Peças Jogo Chaves Catraca Soquetes Allen Torx",
+      "de": 54.0,
+      "por": 31.9,
+      "palavra": "ferramenta",
+      "garimpado_em": "2026-10-15T06:33-03:00",
+      "nota": 70.3,
+      "titulo": "Kit de ferramentas para reparos e manutenções caseiras",
+      "na_revisao_desde": "2026-10-15T06:34-03:00",
+      "aprovado_em": "2026-10-15T06:37-03:00"
     }
   ],
   "postados": [
@@ -1485,27 +1505,6 @@
       "id": 576,
       "na_revisao_desde": "2026-10-15T06:34-03:00",
       "msg_id": 941
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB79915624",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/kit-ferramentas-46-pecas-jogo-chaves-catraca-soquetes-allen-torx-fenda-phillips-maleta-completa-manual-mecanico-manutencao-casa-carro-oficina-profissional-ajustes-e-reparos-diversos-montagens-quicko/p/MLB79915624?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/kit-ferramentas-46-pecas-jogo-chaves-catraca-soquetes-allen-torx-fenda-phillips-maleta-completa-manual-mecanico-manutencao-casa-carro-oficina-profissional-ajustes-e-reparos-diversos-montagens-quicko/p/MLB79915624",
-      "post_origem": "https://t.me/lobaopromo/189703",
-      "link_canal": "https://meli.la/22kpmfT",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_636676-MLA116721406480_092026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Kit Ferramentas 46 Peças Jogo Chaves Catraca Soquetes Allen Torx",
-      "de": 54.0,
-      "por": 25.0,
-      "palavra": "ferramenta",
-      "garimpado_em": "2026-10-15T06:33-03:00",
-      "nota": 70.3,
-      "titulo": "Kit de ferramentas para reparos e manutenções caseiras",
-      "id": 577,
-      "na_revisao_desde": "2026-10-15T06:34-03:00",
-      "msg_id": 942
     }
   ],
   "proximo_id": 580,
@@ -5808,7 +5807,7 @@
       },
       "lobaopromo": {
         "achados": 3,
-        "aprovados": 1,
+        "aprovados": 2,
         "reprovados": 0
       },
       "promobit": {
@@ -5947,7 +5946,7 @@
     },
     "ferramenta": {
       "achados": 7,
-      "aprovados": 2,
+      "aprovados": 3,
       "reprovados": 4
     },
     "fritadeira": {
