@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "shopee",
-      "chave": "shopee:1337281722.22298585774",
-      "nome": "Bomba De Ar Auxiliador de Partida De Carro 4 Em 1 Multifuncional Compressor Power Bank CASABEAUTY",
-      "por": 171.0,
-      "de": 234.25,
-      "foto": "https://cf.shopee.com.br/file/br-11134211-7r98o-md26txpugmbl59",
-      "link": "https://s.shopee.com.br/3LRcPbeD0l",
-      "link_produto": "https://shopee.com.br/product/1337281722/22298585774",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.9,
-      "vendas": 1164,
-      "palavra": "power bank",
-      "garimpado_em": "2026-10-15T00:30-03:00",
-      "nota": 50.9,
-      "titulo": "Compressor portátil para calibrar pneus e emergências automo",
-      "aprovado_sozinho": true,
-      "aprovado_em": "2026-10-15T00:41-03:00"
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B08LP3JV5J",
       "origem": "promobit",
@@ -1481,6 +1459,16 @@
       "link": "https://meli.la/1viX8d9",
       "link_produto": "https://meli.la/1viX8d9",
       "titulo": "Modelo executivo impermeável para trabalho e estudos"
+    },
+    {
+      "chave": "shopee:1337281722.22298585774",
+      "loja": "shopee",
+      "nome": "Bomba De Ar Auxiliador de Partida De Carro 4 Em 1 Multifuncional Compressor Power Bank CASABEAUTY",
+      "data": "2026-10-15T10:23-03:00",
+      "link": "https://s.shopee.com.br/3LRcPbeD0l",
+      "link_produto": "https://shopee.com.br/product/1337281722/22298585774",
+      "titulo": "Compressor portátil para calibrar pneus e emergências automo",
+      "slot": 10
     }
   ],
   "slots_usados": {
@@ -1543,7 +1531,8 @@
     ],
     "2026-10-15": [
       8,
-      9
+      9,
+      10
     ]
   },
   "shopee_buscado_em": "",
@@ -4886,6 +4875,19 @@
   },
   "ultimos": [
     {
+      "loja": "shopee",
+      "chave": "shopee:1337281722.22298585774",
+      "nome": "Bomba De Ar Auxiliador de Partida De Carro 4 Em 1 Multifuncional Compressor Power Bank CASABEAUTY",
+      "por": 171.0,
+      "de": 234.25,
+      "foto": "https://cf.shopee.com.br/file/br-11134211-7r98o-md26txpugmbl59",
+      "link": "https://s.shopee.com.br/3LRcPbeD0l",
+      "link_produto": "https://shopee.com.br/product/1337281722/22298585774",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "titulo": "Compressor portátil para calibrar pneus e emergências automo"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB66176437",
       "origem": "lobaopromo",
@@ -5403,19 +5405,6 @@
       "por": 59.9,
       "de": 69.99,
       "titulo": "Bold Creatina com 14% de desconto"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB66895633",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/2DXTYU8",
-      "link_produto": "https://meli.la/2DXTYU8",
-      "post_origem": "https://t.me/lobaopromo/188931",
-      "foto": "AgACAgQAAxkDAAICgWrOf-BegkGzmGXJ8dlPcEkG_Z5OAALbDmsbQ5LsU3Fnu6tt9WJqAQADAgADeAADPQQ",
-      "nome": "Fritadeira Air Fryer Philco 16 Litros Paf16c Preto 220v",
-      "de": 623.0,
-      "por": 439.0,
-      "titulo": "Air Fryer Philco 16L com 30% off"
     }
   ],
   "lixeira": [
