@@ -3,28 +3,6 @@
   "fila": [
     {
       "loja": "shopee",
-      "chave": "shopee:1006215031.51250897834",
-      "nome": "Óculos de sol redondos pequenos para homens e mulheres, proteção UV, proteção solar, moda ao ar livre, óculos para",
-      "por": 13.41,
-      "de": 67.05,
-      "foto": "AgACAgQAAxkDAAIDVWrPlI6g_efPJ4HY1bku7GGGbI9IAAL-DWsbc4eMUVauuQ897B4MAQADAgADeAADPQQ",
-      "link": "https://s.shopee.com.br/9zyVK08EO2",
-      "link_produto": "https://shopee.com.br/product/1006215031/51250897834",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.8,
-      "vendas": 2259,
-      "palavra": "oculos de sol",
-      "garimpado_em": "2026-10-14T09:01-03:00",
-      "nota": 92.0,
-      "titulo": "Óculos de sol pequenos com proteção UV para o rosto",
-      "na_revisao_desde": "2026-10-14T11:41-03:00",
-      "aprovado_em": "2026-10-14T12:31-03:00"
-    },
-    {
-      "loja": "shopee",
       "chave": "shopee:994175276.22593202844",
       "nome": "Drone E88 Dual Camera 4K Com 1 Bateria WI-FI PRETO NOVO",
       "por": 129.97,
@@ -1337,6 +1315,16 @@
       "link": "https://s.shopee.com.br/qkGQVDWg4",
       "link_produto": "https://shopee.com.br/product/1512108548/23799008372",
       "titulo": "Bicicleta ergométrica para treino em casa com monitor"
+    },
+    {
+      "chave": "shopee:1006215031.51250897834",
+      "loja": "shopee",
+      "nome": "Óculos de sol redondos pequenos para homens e mulheres, proteção UV, proteção solar, moda ao ar livre, óculos para",
+      "data": "2026-10-14T23:38-03:00",
+      "link": "https://s.shopee.com.br/9zyVK08EO2",
+      "link_produto": "https://shopee.com.br/product/1006215031/51250897834",
+      "titulo": "Óculos de sol pequenos com proteção UV para o rosto",
+      "slot": 23
     }
   ],
   "slots_usados": {
@@ -1394,7 +1382,8 @@
       19,
       20,
       21,
-      22
+      22,
+      23
     ]
   },
   "shopee_buscado_em": "",
@@ -4435,6 +4424,19 @@
   "ultimos": [
     {
       "loja": "shopee",
+      "chave": "shopee:1006215031.51250897834",
+      "nome": "Óculos de sol redondos pequenos para homens e mulheres, proteção UV, proteção solar, moda ao ar livre, óculos para",
+      "por": 13.41,
+      "de": 67.05,
+      "foto": "AgACAgQAAxkDAAIDVWrPlI6g_efPJ4HY1bku7GGGbI9IAAL-DWsbc4eMUVauuQ897B4MAQADAgADeAADPQQ",
+      "link": "https://s.shopee.com.br/9zyVK08EO2",
+      "link_produto": "https://shopee.com.br/product/1006215031/51250897834",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "titulo": "Óculos de sol pequenos com proteção UV para o rosto"
+    },
+    {
+      "loja": "shopee",
       "chave": "shopee:1512108548.23799008372",
       "nome": "Bicicleta Spinning Ergométrica Exercício Profissional Monitor suporta até 150kg Academia 1.90m",
       "por": 665.88,
@@ -4956,19 +4958,6 @@
       "por": 80.4,
       "cupom": "JOGADOR",
       "titulo": "Mochila impermeável para notebook"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB18725310",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/2gNokP5",
-      "link_produto": "https://meli.la/2gNokP5",
-      "post_origem": "https://t.me/lobaopromo/188753",
-      "foto": "AgACAgQAAxkDAAIBfmrOH_KGVMZFPkjDEZMJcnDiMc5VAALAD2sbmuadUGZCsHdpySymAQADAgADeAADPQQ",
-      "nome": "Creatina Soldiers Nutrition em pó Sem sabor x 1kg",
-      "por": 65.45,
-      "titulo": "Creatina Soldiers 1kg para render nos treinos",
-      "de": 239.0
     }
   ],
   "lixeira": [
