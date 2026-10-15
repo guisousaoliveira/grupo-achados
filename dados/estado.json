@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "shopee",
-      "chave": "shopee:1325772331.23893407082",
-      "nome": "Mini Lanterna Tática Com Led E Zoom Recarregável Usb Lanterna De Mao 535",
-      "por": 12.99,
-      "de": 35.11,
-      "foto": "AgACAgQAAxkDAAIDm2rQEw-clac2c8Vq7EnsE1iMWn9bAALkD2sbv9REUFLLllhhEIPnAQADAgADeQADPQQ",
-      "link": "https://s.shopee.com.br/4B0j8e9y5b",
-      "link_produto": "https://shopee.com.br/product/1325772331/23893407082",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.9,
-      "vendas": 331,
-      "palavra": "lanterna tatica",
-      "garimpado_em": "2026-10-14T20:30-03:00",
-      "nota": 76.7,
-      "titulo": "Lanterna de bolso recarregável",
-      "na_revisao_desde": "2026-10-14T20:41-03:00",
-      "aprovado_em": "2026-10-14T21:16-03:00"
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B0HDFV9XDD",
       "origem": "lobaopromo",
@@ -1474,6 +1452,16 @@
       "link": "https://link.amazon/B01keYSBF",
       "link_produto": "https://link.amazon/B01keYSBF",
       "titulo": "Camisa polo preta para torcer com estilo"
+    },
+    {
+      "chave": "shopee:1325772331.23893407082",
+      "loja": "shopee",
+      "nome": "Mini Lanterna Tática Com Led E Zoom Recarregável Usb Lanterna De Mao 535",
+      "data": "2026-10-15T09:17-03:00",
+      "link": "https://s.shopee.com.br/4B0j8e9y5b",
+      "link_produto": "https://shopee.com.br/product/1325772331/23893407082",
+      "titulo": "Lanterna de bolso recarregável",
+      "slot": 9
     }
   ],
   "slots_usados": {
@@ -1535,7 +1523,8 @@
       23
     ],
     "2026-10-15": [
-      8
+      8,
+      9
     ]
   },
   "shopee_buscado_em": "",
@@ -4670,6 +4659,19 @@
   },
   "ultimos": [
     {
+      "loja": "shopee",
+      "chave": "shopee:1325772331.23893407082",
+      "nome": "Mini Lanterna Tática Com Led E Zoom Recarregável Usb Lanterna De Mao 535",
+      "por": 12.99,
+      "de": 35.11,
+      "foto": "AgACAgQAAxkDAAIDm2rQEw-clac2c8Vq7EnsE1iMWn9bAALkD2sbv9REUFLLllhhEIPnAQADAgADeQADPQQ",
+      "link": "https://s.shopee.com.br/4B0j8e9y5b",
+      "link_produto": "https://shopee.com.br/product/1325772331/23893407082",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "titulo": "Lanterna de bolso recarregável"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0FCGBD62W",
       "origem": "promobit",
@@ -5186,20 +5188,6 @@
       "de": 128.91,
       "por": 54.99,
       "titulo": "é agora ou nunca."
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB38611321",
-      "origem": "promonocontext",
-      "link": "https://meli.la/1TgcRa6",
-      "link_produto": "https://meli.la/1TgcRa6",
-      "post_origem": "https://t.me/promonocontext/126265",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_618929-MLA99520369354_112025-O.webp",
-      "nome": "Kit Jogo De Ferramentas 129 Peças Com Jogo De 40 Soquetes Chaves E",
-      "por": 189.52,
-      "cupom": "FULLLANDING",
-      "titulo": "Kit completo com 129 peças",
-      "de": 333.82
     }
   ],
   "lixeira": [
