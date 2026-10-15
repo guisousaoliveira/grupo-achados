@@ -1459,26 +1459,87 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [],
-  "proximo_id": 580,
+  "revisar": [
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0DXF8MFR2",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0DXF8MFR2?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0DXF8MFR2?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/221927",
+      "link_canal": "https://amazon.com.br/dp/B0DXF8MFR2?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAIDtmrQrbC2yd3NNko7OlWWZ8S2k8IhAAIGEGsbgpXkU4V8X9G6WwjIAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "nome": "Mochila Esportiva com Cordão, Separação seca e húmida, Mochila de grande capacidade para viagens de lazer, Bolsos Latera",
+      "por": 45.1,
+      "palavra": "mochila",
+      "garimpado_em": "2026-10-15T07:30-03:00",
+      "nota": 33.7,
+      "titulo": "Mochila com cordão para academia e viagens leves",
+      "id": 580,
+      "na_revisao_desde": "2026-10-15T07:40-03:00",
+      "msg_id": 950
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0GH6ZT8XG",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0GH6ZT8XG?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0GH6ZT8XG?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/221923",
+      "link_canal": "https://amazon.com.br/dp/B0GH6ZT8XG?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAIDt2rQrbKpPQ6jt-RjLjD3KclVw0BdAAI1D2sbTKcVUTYpRV1k_Zv3AQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "nome": "Kit Cachos e Alisamento Bivolt GOKOCO GD034 Rosa 127V-220V  Ferramenta Multifuncional com 3 Anexos, Controle de Calor NT",
+      "por": 305.98,
+      "palavra": "ferramenta",
+      "garimpado_em": "2026-10-15T07:30-03:00",
+      "nota": 30.0,
+      "titulo": "Modelador multifuncional para modelar os cabelos em casa",
+      "id": 581,
+      "na_revisao_desde": "2026-10-15T07:40-03:00",
+      "msg_id": 951
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0HH4RGVG5",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0HH4RGVG5?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0HH4RGVG5?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/221930",
+      "link_canal": "https://www.amazon.com.br/dp/B0HH4RGVG5?tag=promof26-20",
+      "nome": "Kit Halteres Ajustável 6 em 1 15kg com Barra, Kettlebell e Suporte Flexões",
+      "foto": "AgACAgQAAxkDAAIDuGrQrbSRwhJjhldI9txuGMoGllSwAAJaEGsbGzpkUYd9pJ2A5KP2AQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "cupom": "BR15OFFPROMO",
+      "palavra": "halter",
+      "garimpado_em": "2026-10-15T07:40-03:00",
+      "nota": -10.6,
+      "titulo": "Kit com halteres e kettlebell para treinar em casa",
+      "id": 582,
+      "na_revisao_desde": "2026-10-15T07:40-03:00",
+      "msg_id": 952
+    }
+  ],
+  "proximo_id": 583,
   "radar": {
     "visto": {
       "xetdaspromocoes": 84903,
-      "lobaopromo": 189719,
-      "gatunopromos": 125472,
+      "lobaopromo": 189721,
+      "gatunopromos": 125474,
       "pobregram": 41922,
       "urubupromo": 41689,
       "tudonapromo": 101936,
       "promonocontext": 126921,
-      "promooeasy": 221929,
-      "aquitempechincha": 281740,
+      "promooeasy": 221938,
+      "aquitempechincha": 281741,
       "infoBRpromos": 67597,
       "boletando": 76748,
       "promotop": 260292,
       "achadosdotb": 11771
     },
     "dia": "2026-10-15",
-    "hoje": 22,
+    "hoje": 23,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -3257,30 +3318,32 @@
       "mercadolivre:MLB18725308",
       "amazon:B0F393TXC4",
       "amazon:B0GH6ZT8XG",
-      "amazon:B0DXF8MFR2"
+      "amazon:B0DXF8MFR2",
+      "amazon:B0HH4RGVG5",
+      "shopee:1360835786.46312087879"
     ],
     "ultima": {
-      "em": "2026-10-15T07:30:25-03:00",
+      "em": "2026-10-15T07:40:20-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 32,
-      "do_nicho": 2,
+      "posts_novos": 22,
+      "do_nicho": 1,
       "repetidas": 0,
-      "novas": 2,
+      "novas": 1,
       "limite_dia": false,
       "repetidas_nome": 0,
       "promobit": 0,
-      "soltas": 0,
-      "na_peneira": 2
+      "soltas": 3,
+      "na_peneira": 0
     },
     "hora": "2026-10-15T07",
-    "nesta_hora": 2,
+    "nesta_hora": 3,
     "promobit_hora": "2026-10-15T07",
     "promobit_nesta_hora": 0,
-    "promobit_visto": 3115307,
+    "promobit_visto": 3115323,
     "nomes": [
       [
         [
@@ -4213,49 +4276,56 @@
           "prataazul"
         ],
         "2026-10-15T06:34-03:00"
+      ],
+      [
+        [
+          "mochila",
+          "esportiva",
+          "cordao",
+          "separacao",
+          "seca",
+          "humida",
+          "mochila",
+          "grande"
+        ],
+        "2026-10-15T07:40-03:00"
+      ],
+      [
+        [
+          "cachos",
+          "alisamento",
+          "bivolt",
+          "gokoco",
+          "gd034",
+          "rosa",
+          "127v",
+          "220v"
+        ],
+        "2026-10-15T07:40-03:00"
+      ],
+      [
+        [
+          "halteres",
+          "ajustavel",
+          "15kg",
+          "barra",
+          "kettlebell",
+          "suporte",
+          "flexoes"
+        ],
+        "2026-10-15T07:40-03:00"
       ]
     ],
-    "peneira": [
-      {
-        "loja": "amazon",
-        "chave": "amazon:B0GH6ZT8XG",
-        "origem": "promooeasy",
-        "link": "https://www.amazon.com.br/dp/B0GH6ZT8XG?tag=alphadominu09-20",
-        "link_produto": "https://www.amazon.com.br/dp/B0GH6ZT8XG?tag=alphadominu09-20",
-        "post_origem": "https://t.me/promooeasy/221923",
-        "link_canal": "https://amazon.com.br/dp/B0GH6ZT8XG?tag=promof26-20",
-        "foto": "https://m.media-amazon.com/images/I/71QwIIfRiPL._AC_SL1500_.jpg",
-        "foto_origem": "loja",
-        "nome": "Kit Cachos e Alisamento Bivolt GOKOCO GD034 Rosa 127V-220V  Ferramenta Multifuncional com 3 Anexos, Controle de Calor NT",
-        "por": 305.98,
-        "palavra": "ferramenta",
-        "garimpado_em": "2026-10-15T07:30-03:00",
-        "nota": 30.0
-      },
-      {
-        "loja": "amazon",
-        "chave": "amazon:B0DXF8MFR2",
-        "origem": "promooeasy",
-        "link": "https://www.amazon.com.br/dp/B0DXF8MFR2?tag=alphadominu09-20",
-        "link_produto": "https://www.amazon.com.br/dp/B0DXF8MFR2?tag=alphadominu09-20",
-        "post_origem": "https://t.me/promooeasy/221927",
-        "link_canal": "https://amazon.com.br/dp/B0DXF8MFR2?tag=promof26-20",
-        "foto": "https://m.media-amazon.com/images/I/613DmJ7TUZL._AC_SL1500_.jpg",
-        "foto_origem": "loja",
-        "nome": "Mochila Esportiva com Cordão, Separação seca e húmida, Mochila de grande capacidade para viagens de lazer, Bolsos Latera",
-        "por": 45.1,
-        "palavra": "mochila",
-        "garimpado_em": "2026-10-15T07:30-03:00",
-        "nota": 33.7
-      }
-    ],
+    "peneira": [],
     "soltas_hora": "2026-10-15T07",
-    "soltas": 0,
-    "shopee_em": "2026-10-15T07:20-03:00",
-    "shopee_indice": 72,
+    "soltas": 3,
+    "shopee_em": "2026-10-15T07:40-03:00",
+    "shopee_indice": 80,
     "soltas_dia_data": "2026-10-15",
-    "soltas_dia": 10,
-    "soltas_loja": {}
+    "soltas_dia": 13,
+    "soltas_loja": {
+      "amazon": 3
+    }
   },
   "ultimos": [
     {
@@ -5798,6 +5868,11 @@
         "achados": 2,
         "aprovados": 2,
         "reprovados": 0
+      },
+      "promooeasy": {
+        "achados": 3,
+        "aprovados": 0,
+        "reprovados": 0
       }
     }
   },
@@ -5929,7 +6004,7 @@
       "reprovados": 1
     },
     "ferramenta": {
-      "achados": 7,
+      "achados": 8,
       "aprovados": 3,
       "reprovados": 4
     },
@@ -5964,7 +6039,7 @@
       "reprovados": 1
     },
     "mochila": {
-      "achados": 13,
+      "achados": 14,
       "aprovados": 6,
       "reprovados": 6
     },
@@ -6091,6 +6166,11 @@
     "lanterna tatica": {
       "achados": 1,
       "aprovados": 1,
+      "reprovados": 0
+    },
+    "halter": {
+      "achados": 1,
+      "aprovados": 0,
       "reprovados": 0
     }
   }
