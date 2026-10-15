@@ -2060,17 +2060,17 @@
   "proximo_id": 623,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 85055,
-      "lobaopromo": 189921,
-      "gatunopromos": 125540,
-      "pobregram": 41965,
+      "xetdaspromocoes": 85056,
+      "lobaopromo": 189925,
+      "gatunopromos": 125542,
+      "pobregram": 41967,
       "urubupromo": 41721,
-      "tudonapromo": 102034,
-      "promonocontext": 127175,
-      "promooeasy": 222266,
+      "tudonapromo": 102036,
+      "promonocontext": 127177,
+      "promooeasy": 222273,
       "aquitempechincha": 281923,
-      "infoBRpromos": 67629,
-      "boletando": 76783,
+      "infoBRpromos": 67631,
+      "boletando": 76784,
       "promotop": 260335,
       "achadosdotb": 11778
     },
@@ -3968,27 +3968,27 @@
       "shopee:696313634.18196991700"
     ],
     "ultima": {
-      "em": "2026-10-15T15:40:59-03:00",
+      "em": "2026-10-15T15:50:33-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 48,
-      "do_nicho": 7,
-      "repetidas": 7,
+      "posts_novos": 35,
+      "do_nicho": 2,
+      "repetidas": 2,
       "novas": 0,
       "limite_dia": false,
       "repetidas_nome": 0,
       "promobit": 0,
-      "soltas": 5,
-      "na_peneira": 20
+      "soltas": 0,
+      "na_peneira": 21
     },
     "hora": "2026-10-15T15",
     "nesta_hora": 10,
     "promobit_hora": "2026-10-15T15",
     "promobit_nesta_hora": 0,
-    "promobit_visto": 3116776,
+    "promobit_visto": 3116808,
     "nomes": [
       [
         [
