@@ -2085,16 +2085,16 @@
   "radar": {
     "visto": {
       "xetdaspromocoes": 85087,
-      "lobaopromo": 190032,
-      "gatunopromos": 125594,
+      "lobaopromo": 190036,
+      "gatunopromos": 125596,
       "pobregram": 41974,
       "urubupromo": 41742,
       "tudonapromo": 102054,
-      "promonocontext": 127317,
-      "promooeasy": 222423,
-      "aquitempechincha": 281967,
-      "infoBRpromos": 67651,
-      "boletando": 76802,
+      "promonocontext": 127324,
+      "promooeasy": 222425,
+      "aquitempechincha": 281972,
+      "infoBRpromos": 67653,
+      "boletando": 76803,
       "promotop": 260341,
       "achadosdotb": 11778
     },
@@ -4044,28 +4044,27 @@
       "amazon:B0H5132VJM"
     ],
     "ultima": {
-      "em": "2026-10-15T19:20:20-03:00",
+      "em": "2026-10-15T19:30:23-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 42,
-      "do_nicho": 4,
+      "posts_novos": 34,
+      "do_nicho": 3,
       "repetidas": 3,
       "novas": 0,
       "limite_dia": false,
       "repetidas_nome": 0,
-      "fora_do_nicho": 1,
       "promobit": 0,
       "soltas": 0,
-      "na_peneira": 36
+      "na_peneira": 35
     },
     "hora": "2026-10-15T19",
     "nesta_hora": 2,
     "promobit_hora": "2026-10-15T19",
     "promobit_nesta_hora": 1,
-    "promobit_visto": 3117379,
+    "promobit_visto": 3117407,
     "nomes": [
       [
         [
@@ -5607,23 +5606,6 @@
       ]
     ],
     "peneira": [
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB6722993416",
-        "origem": "promonocontext",
-        "link": "https://www.mercadolivre.com.br/tenis-masculino-e-feminino-jump-hook-adidas/up/MLBU3950211086?pdp_filters=item_id%3AMLB6722993416&matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/tenis-masculino-e-feminino-jump-hook-adidas/up/MLBU3950211086?pdp_filters=item_id%3AMLB6722993416",
-        "post_origem": "https://t.me/promonocontext/127193",
-        "link_canal": "https://meli.la/2Az7gAa",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_942694-MLB110045754888_042026-O.webp",
-        "foto_origem": "loja",
-        "nome": "Tênis Masculino E Feminino Jump Hook adidas Preto Liso 42 Br",
-        "de": 349.0,
-        "por": 248.0,
-        "palavra": "tenis masculino",
-        "garimpado_em": "2026-10-15T16:30-03:00",
-        "nota": 47.5
-      },
       {
         "loja": "amazon",
         "chave": "amazon:B01G8LC44O",
