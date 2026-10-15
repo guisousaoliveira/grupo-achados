@@ -3,25 +3,6 @@
   "fila": [
     {
       "loja": "amazon",
-      "chave": "amazon:B0BHL6FKYY",
-      "origem": "lobaopromo",
-      "link": "https://link.amazon/B0cTnbVAl",
-      "link_produto": "https://link.amazon/B0cTnbVAl",
-      "post_origem": "https://t.me/lobaopromo/189697",
-      "link_canal": "https://amzlink.to/az0mktWMrFM5X",
-      "foto": "AgACAgQAAxkDAAIDr2rQniHzzfWH-0jemzXSuVpGdUKSAAJSDmsbwQc9UNDEvXg1onRNAQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "nome": "Creatina Dux Nutrition 300g",
-      "pix": true,
-      "por": 47.22,
-      "palavra": "creatina",
-      "garimpado_em": "2026-10-15T06:33-03:00",
-      "nota": 46.1,
-      "na_revisao_desde": "2026-10-15T06:34-03:00",
-      "aprovado_em": "2026-10-15T06:35-03:00"
-    },
-    {
-      "loja": "amazon",
       "chave": "amazon:B017SN1OI8",
       "origem": "promobit",
       "fonte": "promobit",
@@ -1538,6 +1519,15 @@
       "link_produto": "https://link.amazon/B03KaPhR1",
       "titulo": "Caixa térmica grande para bebidas e alimentos na praia",
       "slot": 12
+    },
+    {
+      "chave": "amazon:B0BHL6FKYY",
+      "loja": "amazon",
+      "nome": "Creatina Dux Nutrition 300g",
+      "data": "2026-10-15T13:51-03:00",
+      "link": "https://link.amazon/B0cTnbVAl",
+      "link_produto": "https://link.amazon/B0cTnbVAl",
+      "slot": 13
     }
   ],
   "slots_usados": {
@@ -1603,7 +1593,8 @@
       9,
       10,
       11,
-      12
+      12,
+      13
     ]
   },
   "shopee_buscado_em": "",
@@ -5642,6 +5633,18 @@
   "ultimos": [
     {
       "loja": "amazon",
+      "chave": "amazon:B0BHL6FKYY",
+      "origem": "lobaopromo",
+      "link": "https://link.amazon/B0cTnbVAl",
+      "link_produto": "https://link.amazon/B0cTnbVAl",
+      "post_origem": "https://t.me/lobaopromo/189697",
+      "foto": "AgACAgQAAxkDAAIDr2rQniHzzfWH-0jemzXSuVpGdUKSAAJSDmsbwQc9UNDEvXg1onRNAQADAgADeQADPQQ",
+      "nome": "Creatina Dux Nutrition 300g",
+      "pix": true,
+      "por": 47.22
+    },
+    {
+      "loja": "amazon",
       "chave": "amazon:B07LGZM6JC",
       "origem": "promobit",
       "fonte": "promobit",
@@ -6162,17 +6165,6 @@
       "de": 859.0,
       "por": 379.0,
       "titulo": "Perfume COM DESCONTO! ÚLTIMAS UNIDADES"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB32431595",
-      "origem": "gatunopromos",
-      "link": "https://meli.la/1UeRK4g",
-      "link_produto": "https://meli.la/1UeRK4g",
-      "post_origem": "https://t.me/gatunopromos/125144",
-      "foto": "AgACAgQAAxkDAAICvGrOmysMjPtx7TZTDjd7iiMuhQABCAACNA9rGw3FfFLHUGMo0lncOgEAAwIAA20AAz0E",
-      "nome": "Kit Vinho 5 Peças Uny Gift Abridor Saca Rolhas Dosador Aço Inox",
-      "por": 35.7
     }
   ],
   "lixeira": [
