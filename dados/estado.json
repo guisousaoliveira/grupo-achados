@@ -2074,15 +2074,15 @@
   "radar": {
     "visto": {
       "xetdaspromocoes": 85095,
-      "lobaopromo": 190073,
-      "gatunopromos": 125609,
-      "pobregram": 41977,
+      "lobaopromo": 190076,
+      "gatunopromos": 125611,
+      "pobregram": 41979,
       "urubupromo": 41745,
       "tudonapromo": 102064,
-      "promonocontext": 127357,
-      "promooeasy": 222456,
+      "promonocontext": 127359,
+      "promooeasy": 222461,
       "aquitempechincha": 281984,
-      "infoBRpromos": 67657,
+      "infoBRpromos": 67658,
       "boletando": 76807,
       "promotop": 260343,
       "achadosdotb": 11778
@@ -4049,27 +4049,27 @@
       "mercadolivre:MLB7440270620"
     ],
     "ultima": {
-      "em": "2026-10-15T20:40:21-03:00",
+      "em": "2026-10-15T20:50:22-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 39,
-      "do_nicho": 3,
+      "posts_novos": 16,
+      "do_nicho": 2,
       "repetidas": 2,
-      "novas": 1,
+      "novas": 0,
       "limite_dia": false,
       "repetidas_nome": 0,
       "promobit": 0,
       "soltas": 0,
-      "na_peneira": 34
+      "na_peneira": 32
     },
     "hora": "2026-10-15T20",
     "nesta_hora": 1,
     "promobit_hora": "2026-10-15T20",
     "promobit_nesta_hora": 1,
-    "promobit_visto": 3117574,
+    "promobit_visto": 3117583,
     "nomes": [
       [
         [
@@ -5613,41 +5613,6 @@
     "peneira": [
       {
         "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB4435177605",
-        "origem": "promonocontext",
-        "link": "https://www.mercadolivre.com.br/relogio-casio-analogico-digital-gshock-ga0101a1dr--black/up/MLBU3741659783?pdp_filters=item_id%3AMLB4435177605&matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/relogio-casio-analogico-digital-gshock-ga0101a1dr--black/up/MLBU3741659783?pdp_filters=item_id%3AMLB4435177605",
-        "post_origem": "https://t.me/promonocontext/127258",
-        "link_canal": "https://meli.la/2t8HjYo",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_600164-MLB105475855349_012026-O.webp",
-        "foto_origem": "loja",
-        "nome": "Relógio Casio Analógico Digital G-shock Ga-010-1a1dr",
-        "de": 622.0,
-        "por": 404.0,
-        "cupom": "APROVEITA",
-        "palavra": "relogio",
-        "garimpado_em": "2026-10-15T17:50-03:00",
-        "nota": 60.4
-      },
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB7437055552",
-        "origem": "promonocontext",
-        "link": "https://www.mercadolivre.com.br/relogio-casio-digital-f91wm7adfsc--cinza-preto/up/MLBU4782794126?pdp_filters=item_id%3AMLB7437055552&matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/relogio-casio-digital-f91wm7adfsc--cinza-preto/up/MLBU4782794126?pdp_filters=item_id%3AMLB7437055552",
-        "post_origem": "https://t.me/promonocontext/127259",
-        "link_canal": "https://meli.la/18X75xg",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_757524-MLB114926622638_082026-O.webp",
-        "foto_origem": "loja",
-        "nome": "Relógio Casio Digital F-91wm-7adf-sc",
-        "de": 199.0,
-        "por": 140.0,
-        "palavra": "relogio",
-        "garimpado_em": "2026-10-15T17:50-03:00",
-        "nota": 52.1
-      },
-      {
-        "loja": "mercadolivre",
         "chave": "mercadolivre:MLB5301676628",
         "origem": "promonocontext",
         "link": "https://www.mercadolivre.com.br/relogio-casio-gshock-dw5600ue1dr/up/MLBU3038172747?pdp_filters=item_id%3AMLB5301676628&matt_word=alphapromo&matt_tool=59136903",
@@ -6219,8 +6184,8 @@
     ],
     "soltas_hora": "2026-10-15T20",
     "soltas": 0,
-    "shopee_em": "2026-10-15T20:30-03:00",
-    "shopee_indice": 92,
+    "shopee_em": "2026-10-15T20:51-03:00",
+    "shopee_indice": 100,
     "soltas_dia_data": "2026-10-15",
     "soltas_dia": 60,
     "soltas_loja": {}
