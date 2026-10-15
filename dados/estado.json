@@ -2,26 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB18725308",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/2KXnqv7",
-      "link_produto": "https://meli.la/2KXnqv7",
-      "post_origem": "https://t.me/lobaopromo/189711",
-      "link_canal": "https://meli.la/2cPCvJA",
-      "foto": "AgACAgQAAxkDAAIDrGrQnhnzueF5_6XQIOMIN0PDNizkAAJaDmsbmIHtUROoHA1bKL9GAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Creatina Soldiers Nutrition em pó Sem sabor x 500g",
-      "de": 78.0,
-      "por": 44.9,
-      "palavra": "creatina",
-      "garimpado_em": "2026-10-15T06:33-03:00",
-      "nota": 71.6,
-      "titulo": "Creatina para render mais",
-      "na_revisao_desde": "2026-10-15T06:34-03:00",
-      "aprovado_em": "2026-10-15T06:39-03:00"
-    },
-    {
       "loja": "shopee",
       "chave": "shopee:1101226660.21999087953",
       "nome": "Par Alto falante JBL Flex4  6TRFX55 6 polegadas 110w Rms 4 Ohm",
@@ -1609,6 +1589,15 @@
       "link": "https://link.amazon/B0hATRD5e",
       "link_produto": "https://link.amazon/B0hATRD5e",
       "titulo": "TV e soundbar para som e imagem integrados"
+    },
+    {
+      "chave": "mercadolivre:MLB18725308",
+      "loja": "mercadolivre",
+      "nome": "Creatina Soldiers Nutrition em pó Sem sabor x 500g",
+      "data": "2026-10-15T15:54-03:00",
+      "link": "https://meli.la/2KXnqv7",
+      "link_produto": "https://meli.la/2KXnqv7",
+      "titulo": "Creatina para render mais"
     }
   ],
   "slots_usados": {
@@ -5830,6 +5819,19 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB18725308",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/2KXnqv7",
+      "link_produto": "https://meli.la/2KXnqv7",
+      "post_origem": "https://t.me/lobaopromo/189711",
+      "foto": "AgACAgQAAxkDAAIDrGrQnhnzueF5_6XQIOMIN0PDNizkAAJaDmsbmIHtUROoHA1bKL9GAQADAgADeAADPQQ",
+      "nome": "Creatina Soldiers Nutrition em pó Sem sabor x 500g",
+      "de": 78.0,
+      "por": 44.9,
+      "titulo": "Creatina para render mais"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0GVW8464B",
       "origem": "promobit",
@@ -6356,20 +6358,6 @@
       "origem": "shopee",
       "fonte": "shopee",
       "titulo": "Kit de ferramentas para reparos rápidos em casa"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB5169389147",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/2cfTgBD",
-      "link_produto": "https://meli.la/2cfTgBD",
-      "post_origem": "https://t.me/lobaopromo/189247",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_995416-MLB116990436955_082026-O.webp",
-      "nome": "Kit Barba Óleo Shampoo + Condicionador Balm Pasta Modeladora",
-      "pix": true,
-      "de": 220.0,
-      "por": 64.83,
-      "titulo": "Kit completo para cuidar da barba em casa"
     }
   ],
   "lixeira": [],
