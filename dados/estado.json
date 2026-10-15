@@ -2037,22 +2037,22 @@
   "proximo_id": 623,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 85060,
-      "lobaopromo": 189938,
-      "gatunopromos": 125548,
+      "xetdaspromocoes": 85064,
+      "lobaopromo": 189942,
+      "gatunopromos": 125550,
       "pobregram": 41969,
-      "urubupromo": 41723,
-      "tudonapromo": 102039,
-      "promonocontext": 127188,
-      "promooeasy": 222288,
-      "aquitempechincha": 281931,
+      "urubupromo": 41725,
+      "tudonapromo": 102040,
+      "promonocontext": 127195,
+      "promooeasy": 222297,
+      "aquitempechincha": 281932,
       "infoBRpromos": 67634,
       "boletando": 76791,
-      "promotop": 260337,
+      "promotop": 260338,
       "achadosdotb": 11778
     },
     "dia": "2026-10-15",
-    "hoje": 100,
+    "hoje": 102,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -3948,30 +3948,33 @@
       "amazon:B07793T84W",
       "mercadolivre:MLB67328410",
       "mercadolivre:MLB4657658761",
-      "shopee:1638805020.58264360363"
+      "shopee:1638805020.58264360363",
+      "amazon:B08K3GS882",
+      "mercadolivre:MLB6722993416"
     ],
     "ultima": {
-      "em": "2026-10-15T16:20:21-03:00",
+      "em": "2026-10-15T16:30:25-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
       "posts_novos": 45,
-      "do_nicho": 6,
-      "repetidas": 5,
+      "do_nicho": 5,
+      "repetidas": 3,
       "novas": 1,
       "limite_dia": false,
       "repetidas_nome": 0,
+      "fora_do_nicho": 1,
       "promobit": 0,
       "soltas": 0,
-      "na_peneira": 20
+      "na_peneira": 21
     },
     "hora": "2026-10-15T16",
-    "nesta_hora": 2,
+    "nesta_hora": 3,
     "promobit_hora": "2026-10-15T16",
-    "promobit_nesta_hora": 1,
-    "promobit_visto": 3116904,
+    "promobit_nesta_hora": 2,
+    "promobit_visto": 3116933,
     "nomes": [
       [
         [
@@ -5429,24 +5432,6 @@
     ],
     "peneira": [
       {
-        "loja": "amazon",
-        "chave": "amazon:B0H5FWG458",
-        "origem": "promobit",
-        "fonte": "promobit",
-        "link": "https://www.amazon.com.br/dp/B0H5FWG458?tag=alphadominu09-20",
-        "link_produto": "https://www.amazon.com.br/dp/B0H5FWG458?tag=alphadominu09-20",
-        "post_origem": "https://www.promobit.com.br/oferta/smart-tv-lg-qned-mini-led-ai-4k-qned70-85-polegadas-3116394/",
-        "link_canal": "https://www.promobit.com.br/Redirect/to/3116394/",
-        "nome": "Smart TV LG QNED Mini Led AI 4K QNED70 85 polegadas",
-        "por": 7491.46,
-        "de": 8498.98,
-        "foto": "https://m.media-amazon.com/images/I/610h4spIUmL._AC_SL1000_.jpg",
-        "foto_origem": "loja",
-        "palavra": "smart tv",
-        "garimpado_em": "2026-10-15T13:30-03:00",
-        "nota": 27.9
-      },
-      {
         "loja": "shopee",
         "chave": "shopee:1368787663.23597895251",
         "nome": "Carregador Portátil Bateria Power Bank 20000mah PN-959",
@@ -5799,6 +5784,23 @@
         "palavra": "halter",
         "garimpado_em": "2026-10-15T16:20-03:00",
         "nota": 87.3
+      },
+      {
+        "loja": "mercadolivre",
+        "chave": "mercadolivre:MLB6722993416",
+        "origem": "promonocontext",
+        "link": "https://www.mercadolivre.com.br/tenis-masculino-e-feminino-jump-hook-adidas/up/MLBU3950211086?pdp_filters=item_id%3AMLB6722993416&matt_word=alphapromo&matt_tool=59136903",
+        "link_produto": "https://www.mercadolivre.com.br/tenis-masculino-e-feminino-jump-hook-adidas/up/MLBU3950211086?pdp_filters=item_id%3AMLB6722993416",
+        "post_origem": "https://t.me/promonocontext/127193",
+        "link_canal": "https://meli.la/2Az7gAa",
+        "foto": "https://http2.mlstatic.com/D_NQ_NP_942694-MLB110045754888_042026-O.webp",
+        "foto_origem": "loja",
+        "nome": "Tênis Masculino E Feminino Jump Hook adidas Preto Liso 42 Br",
+        "de": 349.0,
+        "por": 248.0,
+        "palavra": "tenis masculino",
+        "garimpado_em": "2026-10-15T16:30-03:00",
+        "nota": 47.5
       }
     ],
     "soltas_hora": "2026-10-15T16",
