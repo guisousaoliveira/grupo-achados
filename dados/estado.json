@@ -1698,22 +1698,22 @@
   "proximo_id": 598,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84964,
-      "lobaopromo": 189815,
-      "gatunopromos": 125504,
-      "pobregram": 41945,
+      "xetdaspromocoes": 84965,
+      "lobaopromo": 189822,
+      "gatunopromos": 125505,
+      "pobregram": 41948,
       "urubupromo": 41711,
-      "tudonapromo": 101984,
-      "promonocontext": 127034,
-      "promooeasy": 222091,
-      "aquitempechincha": 281815,
+      "tudonapromo": 101987,
+      "promonocontext": 127038,
+      "promooeasy": 222103,
+      "aquitempechincha": 281821,
       "infoBRpromos": 67618,
       "boletando": 76765,
       "promotop": 260311,
-      "achadosdotb": 11771
+      "achadosdotb": 11772
     },
     "dia": "2026-10-15",
-    "hoje": 52,
+    "hoje": 54,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -3536,31 +3536,35 @@
       "shopee:333540705.23494070884",
       "mercadolivre:MLB25074971",
       "mercadolivre:MLB4930586574",
-      "mercadolivre:MLB49560548"
+      "mercadolivre:MLB49560548",
+      "mercadolivre:MLB6573655092",
+      "mercadolivre:MLB79749573",
+      "shopee:1392752117.58202673290",
+      "shopee:733998429.22293108649"
     ],
     "ultima": {
-      "em": "2026-10-15T11:10:21-03:00",
+      "em": "2026-10-15T11:20:20-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 40,
-      "do_nicho": 2,
+      "posts_novos": 50,
+      "do_nicho": 3,
       "repetidas": 1,
-      "novas": 0,
+      "novas": 1,
       "limite_dia": false,
       "repetidas_nome": 0,
       "promobit": 0,
       "fora_do_nicho": 1,
       "soltas": 0,
-      "na_peneira": 12
+      "na_peneira": 13
     },
     "hora": "2026-10-15T11",
-    "nesta_hora": 2,
+    "nesta_hora": 4,
     "promobit_hora": "2026-10-15T11",
     "promobit_nesta_hora": 0,
-    "promobit_visto": 3115970,
+    "promobit_visto": 3115993,
     "nomes": [
       [
         [
@@ -4925,12 +4929,30 @@
         "palavra": "academia",
         "garimpado_em": "2026-10-15T11:00-03:00",
         "nota": 41.5
+      },
+      {
+        "loja": "mercadolivre",
+        "chave": "mercadolivre:MLB6573655092",
+        "origem": "lobaopromo",
+        "link": "https://www.mercadolivre.com.br/kit-3-bermuda-masculina-poliester-pra-academia-caminhada/up/MLBU3890173096?pdp_filters=item_id%3AMLB6573655092&matt_word=alphapromo&matt_tool=59136903",
+        "link_produto": "https://www.mercadolivre.com.br/kit-3-bermuda-masculina-poliester-pra-academia-caminhada/up/MLBU3890173096?pdp_filters=item_id%3AMLB6573655092",
+        "post_origem": "https://t.me/lobaopromo/189816",
+        "link_canal": "https://meli.la/2MxGsun",
+        "foto": "https://http2.mlstatic.com/D_NQ_NP_868481-MLB113923447962_072026-O.webp",
+        "foto_origem": "loja",
+        "nome": "Kit 3 Bermuda Masculina Poliéster Pra Academia Caminhada Kit 1 G",
+        "pix": true,
+        "de": 69.99,
+        "por": 42.37,
+        "palavra": "academia",
+        "garimpado_em": "2026-10-15T11:20-03:00",
+        "nota": 61.5
       }
     ],
     "soltas_hora": "2026-10-15T11",
     "soltas": 0,
-    "shopee_em": "2026-10-15T11:00-03:00",
-    "shopee_indice": 60,
+    "shopee_em": "2026-10-15T11:20-03:00",
+    "shopee_indice": 68,
     "soltas_dia_data": "2026-10-15",
     "soltas_dia": 28,
     "soltas_loja": {}
@@ -6540,7 +6562,7 @@
       }
     }
   },
-  "aviso_post": "2026-10-15 10|shopee:1337281722.22298585774",
+  "aviso_post": "2026-10-15 11|amazon:B08LP3JV5J",
   "garimpo_palavras": {
     "academia": {
       "achados": 21,
