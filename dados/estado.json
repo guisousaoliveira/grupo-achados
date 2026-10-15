@@ -1543,22 +1543,22 @@
   "proximo_id": 588,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84917,
-      "lobaopromo": 189737,
-      "gatunopromos": 125484,
-      "pobregram": 41929,
-      "urubupromo": 41693,
-      "tudonapromo": 101945,
-      "promonocontext": 126945,
-      "promooeasy": 222016,
-      "aquitempechincha": 281763,
-      "infoBRpromos": 67597,
-      "boletando": 76749,
-      "promotop": 260293,
+      "xetdaspromocoes": 84921,
+      "lobaopromo": 189744,
+      "gatunopromos": 125485,
+      "pobregram": 41931,
+      "urubupromo": 41695,
+      "tudonapromo": 101950,
+      "promonocontext": 126949,
+      "promooeasy": 222023,
+      "aquitempechincha": 281764,
+      "infoBRpromos": 67605,
+      "boletando": 76750,
+      "promotop": 260294,
       "achadosdotb": 11771
     },
     "dia": "2026-10-15",
-    "hoje": 38,
+    "hoje": 41,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -3359,31 +3359,34 @@
       "mercadolivre:MLB4347478841",
       "amazon:B0HF1LQFDD",
       "shopee:711871061.16426171390",
-      "shopee:295737745.23307273588"
+      "shopee:295737745.23307273588",
+      "amazon:B0F7XDPRRR",
+      "amazon:B0CK2PD4SG",
+      "amazon:B0D5J249HC"
     ],
     "ultima": {
-      "em": "2026-10-15T09:00:30-03:00",
+      "em": "2026-10-15T09:10:20-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 56,
-      "do_nicho": 8,
-      "repetidas": 4,
-      "novas": 3,
+      "posts_novos": 49,
+      "do_nicho": 5,
+      "repetidas": 2,
+      "novas": 2,
       "limite_dia": false,
       "repetidas_nome": 0,
-      "promobit": 0,
       "fora_do_nicho": 1,
+      "promobit": 1,
       "soltas": 0,
-      "na_peneira": 11
+      "na_peneira": 14
     },
     "hora": "2026-10-15T09",
-    "nesta_hora": 4,
+    "nesta_hora": 5,
     "promobit_hora": "2026-10-15T09",
-    "promobit_nesta_hora": 0,
-    "promobit_visto": 3115481,
+    "promobit_nesta_hora": 2,
+    "promobit_visto": 3115494,
     "nomes": [
       [
         [
@@ -4621,6 +4624,40 @@
         "palavra": "aparador",
         "garimpado_em": "2026-10-15T09:01-03:00",
         "nota": 50.1
+      },
+      {
+        "loja": "amazon",
+        "chave": "amazon:B0F7XDPRRR",
+        "origem": "promobit",
+        "fonte": "promobit",
+        "link": "https://www.amazon.com.br/dp/B0F7XDPRRR?tag=alphadominu09-20",
+        "link_produto": "https://www.amazon.com.br/dp/B0F7XDPRRR?tag=alphadominu09-20",
+        "post_origem": "https://www.promobit.com.br/oferta/invicta-relogio-masculino-de-aco-inoxidavel-de-40-mm-3115490/",
+        "link_canal": "https://www.promobit.com.br/Redirect/to/3115490/",
+        "nome": "Invicta Relógio masculino de aço inoxidável de 40 mm",
+        "por": 284.0,
+        "foto": "https://images-na.ssl-images-amazon.com/images/P/B0F7XDPRRR.01.LZZZZZZZ.jpg",
+        "foto_origem": "loja",
+        "palavra": "relogio masculino",
+        "garimpado_em": "2026-10-15T09:10-03:00",
+        "nota": 37.2
+      },
+      {
+        "loja": "amazon",
+        "chave": "amazon:B0D5J249HC",
+        "origem": "promooeasy",
+        "link": "https://www.amazon.com.br/dp/B0D5J249HC?tag=alphadominu09-20",
+        "link_produto": "https://www.amazon.com.br/dp/B0D5J249HC?tag=alphadominu09-20",
+        "post_origem": "https://t.me/promooeasy/222020",
+        "link_canal": "https://www.amazon.com.br/Mu-Whey-Concentrado-Sabor-Pa%C3%A7oquita/dp/B0D5J249HC?tag=promof26-20",
+        "foto": "https://images-na.ssl-images-amazon.com/images/P/B0D5J249HC.01.LZZZZZZZ.jpg",
+        "foto_origem": "loja",
+        "nome": "Whey Concentrado, Mais Mu, Sabor Paçoquita, 20g de proteína - 450g + Frete Grátis",
+        "parcelas": 2,
+        "por": 88.69,
+        "palavra": "whey",
+        "garimpado_em": "2026-10-15T09:10-03:00",
+        "nota": 27.7
       }
     ],
     "soltas_hora": "2026-10-15T09",
@@ -6230,7 +6267,7 @@
       }
     }
   },
-  "aviso_post": "2026-10-15 08|amazon:B0DG42KW7N",
+  "aviso_post": "2026-10-15 09|shopee:1325772331.23893407082",
   "garimpo_palavras": {
     "academia": {
       "achados": 21,
