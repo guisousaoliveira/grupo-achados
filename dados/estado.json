@@ -361,6 +361,28 @@
       "titulo": "Grampeador com trena para tapeçaria e pequenos reparos",
       "na_revisao_desde": "2026-10-15T15:41-03:00",
       "aprovado_em": "2026-10-15T15:47-03:00"
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:341167297.28341456148",
+      "nome": "Camisa Polo Bebe Menino Infantil Estilo Casual de algodão Basico nos tamanhos 2 ao 10 Camisa Social Polo L14",
+      "por": 24.9,
+      "de": 60.73,
+      "foto": "https://cf.shopee.com.br/file/br-11134207-81z1k-mid913rd9zba24",
+      "link": "https://s.shopee.com.br/5q8yF4mXBz",
+      "link_produto": "https://shopee.com.br/product/341167297/28341456148",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.9,
+      "vendas": 1235,
+      "palavra": "camisa polo",
+      "garimpado_em": "2026-10-15T13:20-03:00",
+      "nota": 92.4,
+      "titulo": "Camisa polo infantil de algodão para o dia a dia",
+      "aprovado_sozinho": true,
+      "aprovado_em": "2026-10-15T15:49-03:00"
     }
   ],
   "postados": [
@@ -6396,30 +6418,6 @@
     }
   ],
   "lixeira": [
-    {
-      "loja": "shopee",
-      "chave": "shopee:341167297.28341456148",
-      "nome": "Camisa Polo Bebe Menino Infantil Estilo Casual de algodão Basico nos tamanhos 2 ao 10 Camisa Social Polo L14",
-      "por": 24.9,
-      "de": 60.73,
-      "foto": "https://cf.shopee.com.br/file/br-11134207-81z1k-mid913rd9zba24",
-      "link": "https://s.shopee.com.br/5q8yF4mXBz",
-      "link_produto": "https://shopee.com.br/product/341167297/28341456148",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.9,
-      "vendas": 1235,
-      "palavra": "camisa polo",
-      "garimpado_em": "2026-10-15T13:20-03:00",
-      "nota": 92.4,
-      "titulo": "Camisa polo infantil de algodão para o dia a dia",
-      "aprovado_sozinho": true,
-      "aprovado_em": "2026-10-15T13:41-03:00",
-      "removido_em": "2026-10-15T15:48:47-03:00",
-      "removido_de": "fila"
-    },
     {
       "loja": "shopee",
       "chave": "shopee:866679071.23199528877",
