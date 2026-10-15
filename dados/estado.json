@@ -339,6 +339,26 @@
       "titulo": "Grampeador com trena para tapeçaria e pequenos reparos",
       "na_revisao_desde": "2026-10-15T15:41-03:00",
       "aprovado_em": "2026-10-15T15:47-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB47773451",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/2f5WXFQ",
+      "link_produto": "https://meli.la/2f5WXFQ",
+      "post_origem": "https://t.me/lobaopromo/189877",
+      "link_canal": "https://meli.la/33GvKVn",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_765890-MLA83597837473_042025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Smartwatch Bluetooth Anfei Smartwatch com Alexa e função de chamada",
+      "por": 91.95,
+      "de": 199.9,
+      "palavra": "smartwatch",
+      "garimpado_em": "2026-10-15T13:51-03:00",
+      "nota": 72.9,
+      "titulo": "Smartwatch com Alexa e chamadas para o pulso",
+      "na_revisao_desde": "2026-10-15T14:41-03:00",
+      "aprovado_em": "2026-10-15T15:53-03:00"
     }
   ],
   "postados": [
@@ -2034,27 +2054,6 @@
       "id": 612,
       "na_revisao_desde": "2026-10-15T13:41-03:00",
       "msg_id": 995
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB47773451",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/smartwatch-bluetooth-anfei-smartwatch-com-alexa-e-funcao-de-chamada-de-voz-tela-de-191-polegadas-cor-preta/p/MLB47773451?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/smartwatch-bluetooth-anfei-smartwatch-com-alexa-e-funcao-de-chamada-de-voz-tela-de-191-polegadas-cor-preta/p/MLB47773451",
-      "post_origem": "https://t.me/lobaopromo/189877",
-      "link_canal": "https://meli.la/33GvKVn",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_765890-MLA83597837473_042025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Smartwatch Bluetooth Anfei Smartwatch com Alexa e função de chamada",
-      "por": 91.95,
-      "de": 199.9,
-      "palavra": "smartwatch",
-      "garimpado_em": "2026-10-15T13:51-03:00",
-      "nota": 72.9,
-      "titulo": "Smartwatch com Alexa e chamadas para o pulso",
-      "id": 614,
-      "na_revisao_desde": "2026-10-15T14:41-03:00",
-      "msg_id": 999
     }
   ],
   "proximo_id": 623,
@@ -6534,7 +6533,7 @@
       },
       "lobaopromo": {
         "achados": 7,
-        "aprovados": 4,
+        "aprovados": 5,
         "reprovados": 0
       },
       "promobit": {
@@ -6773,7 +6772,7 @@
     },
     "smartwatch": {
       "achados": 7,
-      "aprovados": 2,
+      "aprovados": 3,
       "reprovados": 3
     },
     "suplemento": {
