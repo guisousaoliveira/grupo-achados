@@ -2,29 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "shopee",
-      "chave": "shopee:1746399229.58259501932",
-      "nome": "Suporte de Celular Carro 360º Giratório Universal Multifuncional Ventilacao Ar Condicionado Veicular",
-      "por": 18.99,
-      "de": 39.56,
-      "foto": "AgACAgQAAxkDAAIDdGrPzM43I6pGXS4YF6Fpxuwan-mSAAJvD2sbruo8UeRlngONwSwdAQADAgADeQADPQQ",
-      "link": "https://s.shopee.com.br/5fpWPplALl",
-      "link_produto": "https://shopee.com.br/product/1746399229/58259501932",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.9,
-      "vendas": 810,
-      "palavra": "suporte de celular",
-      "garimpado_em": "2026-10-14T12:51-03:00",
-      "nota": 76.3,
-      "titulo": "Suporte veicular para usar o GPS com segurança",
-      "na_revisao_desde": "2026-10-14T15:41-03:00",
-      "aprovado_em": "2026-10-14T18:18-03:00",
-      "aviso_validade": true
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B0FW5JZM9P",
       "origem": "xetdaspromocoes",
@@ -1411,6 +1388,15 @@
       "data": "2026-10-15T06:41-03:00",
       "link": "https://meli.la/1vssKpu",
       "link_produto": "https://meli.la/1vssKpu"
+    },
+    {
+      "chave": "shopee:1746399229.58259501932",
+      "loja": "shopee",
+      "nome": "Suporte de Celular Carro 360º Giratório Universal Multifuncional Ventilacao Ar Condicionado Veicular",
+      "data": "2026-10-15T07:19-03:00",
+      "link": "https://s.shopee.com.br/5fpWPplALl",
+      "link_produto": "https://shopee.com.br/product/1746399229/58259501932",
+      "titulo": "Suporte veicular para usar o GPS com segurança"
     }
   ],
   "slots_usados": {
@@ -4238,6 +4224,19 @@
   },
   "ultimos": [
     {
+      "loja": "shopee",
+      "chave": "shopee:1746399229.58259501932",
+      "nome": "Suporte de Celular Carro 360º Giratório Universal Multifuncional Ventilacao Ar Condicionado Veicular",
+      "por": 18.99,
+      "de": 39.56,
+      "foto": "AgACAgQAAxkDAAIDdGrPzM43I6pGXS4YF6Fpxuwan-mSAAJvD2sbruo8UeRlngONwSwdAQADAgADeQADPQQ",
+      "link": "https://s.shopee.com.br/5fpWPplALl",
+      "link_produto": "https://shopee.com.br/product/1746399229/58259501932",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "titulo": "Suporte veicular para usar o GPS com segurança"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB30144703",
       "origem": "promonocontext",
@@ -4754,20 +4753,6 @@
       "por": 138.7,
       "titulo": "44% off, isso aqui não fica muito tempo assim.",
       "parcela_valor": 6.0
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB4049279695",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/27qV9AS",
-      "link_produto": "https://meli.la/27qV9AS",
-      "post_origem": "https://t.me/lobaopromo/188800",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_636204-MLB92283366432_092025-O.webp",
-      "nome": "Tênis Kappa Park 2.0 Original Unissex Caminhada Academia",
-      "pix": true,
-      "de": 169.99,
-      "por": 85.49,
-      "titulo": "Tênis na promo"
     }
   ],
   "lixeira": [
