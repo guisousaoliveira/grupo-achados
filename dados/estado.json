@@ -1398,27 +1398,6 @@
   "shopee_buscado_em": "",
   "revisar": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB75615449",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/mochila-feminina-reforcada-impermeavel-com-capacidade-para-laptop-ideal-para-viagens-diarias-ida-escola-e-deslocamentos-de-trabalho/p/MLB75615449?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/mochila-feminina-reforcada-impermeavel-com-capacidade-para-laptop-ideal-para-viagens-diarias-ida-escola-e-deslocamentos-de-trabalho/p/MLB75615449",
-      "post_origem": "https://t.me/lobaopromo/189624",
-      "link_canal": "https://meli.la/2m9TNT6",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_755204-MLA113564929198_072026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Mochila feminina",
-      "de": 198.0,
-      "por": 69.0,
-      "palavra": "mochila",
-      "garimpado_em": "2026-10-14T22:40-03:00",
-      "nota": 85.6,
-      "titulo": "Mochila feminina prática para a rotina diária",
-      "id": 570,
-      "na_revisao_desde": "2026-10-15T00:41-03:00",
-      "msg_id": 933
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B07LGZM6JC",
       "origem": "promobit",
@@ -5068,6 +5047,28 @@
   "lixeira": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB75615449",
+      "origem": "lobaopromo",
+      "link": "https://www.mercadolivre.com.br/mochila-feminina-reforcada-impermeavel-com-capacidade-para-laptop-ideal-para-viagens-diarias-ida-escola-e-deslocamentos-de-trabalho/p/MLB75615449?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/mochila-feminina-reforcada-impermeavel-com-capacidade-para-laptop-ideal-para-viagens-diarias-ida-escola-e-deslocamentos-de-trabalho/p/MLB75615449",
+      "post_origem": "https://t.me/lobaopromo/189624",
+      "link_canal": "https://meli.la/2m9TNT6",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_755204-MLA113564929198_072026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Mochila feminina",
+      "de": 198.0,
+      "por": 69.0,
+      "palavra": "mochila",
+      "garimpado_em": "2026-10-14T22:40-03:00",
+      "nota": 85.6,
+      "titulo": "Mochila feminina prática para a rotina diária",
+      "id": 570,
+      "na_revisao_desde": "2026-10-15T00:41-03:00",
+      "removido_em": "2026-10-15T00:43:03-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB5944713610",
       "origem": "promonocontext",
       "link": "https://produto.mercadolivre.com.br/MLB-5944713610-garrafa-termica-emborrachada-600-ml-canudo-premium-_JM?pdp_filters=item_id%3AMLB5944713610&matt_word=alphapromo&matt_tool=59136903",
@@ -5986,7 +5987,7 @@
       "lobaopromo": {
         "achados": 11,
         "aprovados": 8,
-        "reprovados": 2
+        "reprovados": 3
       },
       "xetdaspromocoes": {
         "achados": 4,
@@ -6187,7 +6188,7 @@
     "mochila": {
       "achados": 13,
       "aprovados": 6,
-      "reprovados": 5
+      "reprovados": 6
     },
     "oculos de sol": {
       "achados": 8,
