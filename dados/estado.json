@@ -2143,26 +2143,6 @@
       "id": 619,
       "na_revisao_desde": "2026-10-15T15:41-03:00",
       "msg_id": 1011
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0F49G2XBX",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0F49G2XBX?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0F49G2XBX?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/222195",
-      "link_canal": "https://www.amazon.com.br/dp/B0F49G2XBX?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAID72rRHjJfPjM76Oa8e6-SNY-IF-pgAALOD2sbqhmNUvNWJiwxgUyuAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "ZÖiFeR, Sérum, Anti-Idade, Drone Face Up",
-      "por": 85.0,
-      "palavra": "drone",
-      "garimpado_em": "2026-10-15T13:20-03:00",
-      "nota": 32.6,
-      "titulo": "Sérum anti-idade para cuidar da pele masculina",
-      "id": 620,
-      "na_revisao_desde": "2026-10-15T15:41-03:00",
-      "msg_id": 1012
     }
   ],
   "proximo_id": 623,
@@ -6484,6 +6464,27 @@
   "lixeira": [
     {
       "loja": "amazon",
+      "chave": "amazon:B0F49G2XBX",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0F49G2XBX?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0F49G2XBX?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/222195",
+      "link_canal": "https://www.amazon.com.br/dp/B0F49G2XBX?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAID72rRHjJfPjM76Oa8e6-SNY-IF-pgAALOD2sbqhmNUvNWJiwxgUyuAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "ZÖiFeR, Sérum, Anti-Idade, Drone Face Up",
+      "por": 85.0,
+      "palavra": "drone",
+      "garimpado_em": "2026-10-15T13:20-03:00",
+      "nota": 32.6,
+      "titulo": "Sérum anti-idade para cuidar da pele masculina",
+      "id": 620,
+      "na_revisao_desde": "2026-10-15T15:41-03:00",
+      "removido_em": "2026-10-15T15:48:01-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "amazon",
       "chave": "amazon:B09RTQGH4W",
       "origem": "promobit",
       "fonte": "promobit",
@@ -7537,7 +7538,7 @@
       "promooeasy": {
         "achados": 6,
         "aprovados": 3,
-        "reprovados": 1
+        "reprovados": 2
       },
       "xetdaspromocoes": {
         "achados": 7,
@@ -7821,7 +7822,7 @@
     "drone": {
       "achados": 2,
       "aprovados": 1,
-      "reprovados": 0
+      "reprovados": 1
     },
     "carregador turbo": {
       "achados": 2,
