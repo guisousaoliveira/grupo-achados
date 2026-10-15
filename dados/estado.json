@@ -1451,16 +1451,16 @@
   "proximo_id": 570,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84892,
-      "lobaopromo": 189590,
-      "gatunopromos": 125421,
+      "xetdaspromocoes": 84894,
+      "lobaopromo": 189593,
+      "gatunopromos": 125422,
       "pobregram": 41908,
-      "urubupromo": 41687,
+      "urubupromo": 41688,
       "tudonapromo": 101923,
-      "promonocontext": 126894,
-      "promooeasy": 221740,
+      "promonocontext": 126898,
+      "promooeasy": 221751,
       "aquitempechincha": 281709,
-      "infoBRpromos": 67588,
+      "infoBRpromos": 67589,
       "boletando": 76741,
       "promotop": 260287,
       "achadosdotb": 11771
@@ -3201,16 +3201,16 @@
       "shopee:1636720176.22694532907"
     ],
     "ultima": {
-      "em": "2026-10-14T21:10:20-03:00",
+      "em": "2026-10-14T21:20:19-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 39,
-      "do_nicho": 4,
-      "repetidas": 2,
-      "novas": 2,
+      "posts_novos": 36,
+      "do_nicho": 0,
+      "repetidas": 0,
+      "novas": 0,
       "limite_dia": false,
       "repetidas_nome": 0,
       "promobit": 0,
@@ -3221,7 +3221,7 @@
     "nesta_hora": 3,
     "promobit_hora": "2026-10-14T21",
     "promobit_nesta_hora": 0,
-    "promobit_visto": 3114779,
+    "promobit_visto": 3114824,
     "nomes": [
       [
         [
@@ -4051,24 +4051,6 @@
       ]
     ],
     "peneira": [
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB6202848092",
-        "origem": "xetdaspromocoes",
-        "link": "https://www.mercadolivre.com.br/kit-3-cuecas-calvin-klein-low-rise-trunk/up/MLBU3762725166?pdp_filters=item_id%3AMLB6202848092&matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/kit-3-cuecas-calvin-klein-low-rise-trunk/up/MLBU3762725166?pdp_filters=item_id%3AMLB6202848092",
-        "post_origem": "https://t.me/xetdaspromocoes/84866",
-        "link_canal": "https://meli.la/1FkUc2T",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_681343-MLB118555588201_102026-O.webp",
-        "foto_origem": "loja",
-        "nome": "Kit 3 Cuecas Calvin Klein Low Rise Trunk Bordô Liso M",
-        "cupom_loja": "Aplique o Cupom de R$ 30 OFF no Anúncio (logo abaixo do preço) 🎟️",
-        "por": 169.99,
-        "de": 269.0,
-        "palavra": "cueca",
-        "garimpado_em": "2026-10-14T18:20-03:00",
-        "nota": 52.3
-      },
       {
         "loja": "mercadolivre",
         "chave": "mercadolivre:MLB4342585081",
@@ -6073,7 +6055,7 @@
       }
     }
   },
-  "aviso_post": "2026-10-14 20|shopee:1345043704.22497773735",
+  "aviso_post": "2026-10-14 21|shopee:1127030290.23593847901",
   "garimpo_palavras": {
     "academia": {
       "achados": 21,
