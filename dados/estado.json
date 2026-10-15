@@ -339,6 +339,27 @@
       "titulo": "Relógio Timex em couro para o dia a dia",
       "na_revisao_desde": "2026-10-15T08:41-03:00",
       "aprovado_em": "2026-10-15T08:45-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB64095565",
+      "origem": "xetdaspromocoes",
+      "link": "https://meli.la/1XoiniW",
+      "link_produto": "https://meli.la/1XoiniW",
+      "post_origem": "https://t.me/xetdaspromocoes/84904",
+      "link_canal": "https://meli.la/1RMtGds",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_741636-MLA103747547418_012026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Cafeteira Elétrica Electrolux 15 Xícaras ECM10 + Torradeira 8 Níveis",
+      "pix": true,
+      "de": 349.0,
+      "por": 229.0,
+      "palavra": "cafeteira",
+      "garimpado_em": "2026-10-15T08:40-03:00",
+      "nota": 52.1,
+      "titulo": "Cafeteira e torradeira que agilizam suas manhãs",
+      "na_revisao_desde": "2026-10-15T08:41-03:00",
+      "aprovado_em": "2026-10-15T08:46-03:00"
     }
   ],
   "postados": [
@@ -1553,28 +1574,6 @@
       "id": 583,
       "na_revisao_desde": "2026-10-15T08:41-03:00",
       "msg_id": 956
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB64095565",
-      "origem": "xetdaspromocoes",
-      "link": "https://www.mercadolivre.com.br/cafeteira-eletrica-electrolux-15-xicaras-ecm10-torradeira-8-niveis-efficient-ets10-kit-cafe-da-manha-electrolux/p/MLB64095565?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/cafeteira-eletrica-electrolux-15-xicaras-ecm10-torradeira-8-niveis-efficient-ets10-kit-cafe-da-manha-electrolux/p/MLB64095565",
-      "post_origem": "https://t.me/xetdaspromocoes/84904",
-      "link_canal": "https://meli.la/1RMtGds",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_741636-MLA103747547418_012026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Cafeteira Elétrica Electrolux 15 Xícaras ECM10 + Torradeira 8 Níveis",
-      "pix": true,
-      "de": 349.0,
-      "por": 229.0,
-      "palavra": "cafeteira",
-      "garimpado_em": "2026-10-15T08:40-03:00",
-      "nota": 52.1,
-      "titulo": "Cafeteira e torradeira que agilizam suas manhãs",
-      "id": 585,
-      "na_revisao_desde": "2026-10-15T08:41-03:00",
-      "msg_id": 958
     }
   ],
   "proximo_id": 588,
@@ -6164,7 +6163,7 @@
       },
       "xetdaspromocoes": {
         "achados": 1,
-        "aprovados": 0,
+        "aprovados": 1,
         "reprovados": 0
       }
     }
@@ -6228,7 +6227,7 @@
     },
     "cafeteira": {
       "achados": 5,
-      "aprovados": 0,
+      "aprovados": 1,
       "reprovados": 4
     },
     "caixa de som": {
