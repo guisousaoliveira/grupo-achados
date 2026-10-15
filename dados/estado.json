@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "shopee",
-      "chave": "shopee:1121459942.23293571172",
-      "nome": "Bolsa de Ferramentas Profissional 14/20 Polegadas Multiuso Caixa de Ferramentas Maleta Organizadora Tecido Resiste",
-      "por": 36.99,
-      "de": 92.47,
-      "foto": "AgACAgQAAxkDAAIDgmrP6NRkv7ttEf5BHnrnCN5v-mC1AAJKD2sbNocdUYNsFUwXt_iEAQADAgADeQADPQQ",
-      "link": "https://s.shopee.com.br/2VsUqM0ifg",
-      "link_produto": "https://shopee.com.br/product/1121459942/23293571172",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.9,
-      "vendas": 758,
-      "palavra": "ferramenta",
-      "garimpado_em": "2026-10-14T15:50-03:00",
-      "nota": 80.3,
-      "titulo": "Bolsa resistente para organizar ferramentas no trabalho",
-      "na_revisao_desde": "2026-10-14T17:40-03:00",
-      "aprovado_em": "2026-10-14T17:58-03:00"
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB4470214747",
       "origem": "lobaopromo",
@@ -1364,6 +1342,15 @@
       "link": "https://s.shopee.com.br/2BFe7puUVJ",
       "link_produto": "https://shopee.com.br/product/1392120718/20499592472",
       "titulo": "Relógio digital esportivo à prova d'água"
+    },
+    {
+      "chave": "shopee:1121459942.23293571172",
+      "loja": "shopee",
+      "nome": "Bolsa de Ferramentas Profissional 14/20 Polegadas Multiuso Caixa de Ferramentas Maleta Organizadora Tecido Resiste",
+      "data": "2026-10-15T02:10-03:00",
+      "link": "https://s.shopee.com.br/2VsUqM0ifg",
+      "link_produto": "https://shopee.com.br/product/1121459942/23293571172",
+      "titulo": "Bolsa resistente para organizar ferramentas no trabalho"
     }
   ],
   "slots_usados": {
@@ -4498,6 +4485,19 @@
   "ultimos": [
     {
       "loja": "shopee",
+      "chave": "shopee:1121459942.23293571172",
+      "nome": "Bolsa de Ferramentas Profissional 14/20 Polegadas Multiuso Caixa de Ferramentas Maleta Organizadora Tecido Resiste",
+      "por": 36.99,
+      "de": 92.47,
+      "foto": "AgACAgQAAxkDAAIDgmrP6NRkv7ttEf5BHnrnCN5v-mC1AAJKD2sbNocdUYNsFUwXt_iEAQADAgADeQADPQQ",
+      "link": "https://s.shopee.com.br/2VsUqM0ifg",
+      "link_produto": "https://shopee.com.br/product/1121459942/23293571172",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "titulo": "Bolsa resistente para organizar ferramentas no trabalho"
+    },
+    {
+      "loja": "shopee",
       "chave": "shopee:1392120718.20499592472",
       "nome": "Relógio De Pulso Digital Masculino SPORT Esportivo a Prova d 'Água",
       "por": 12.69,
@@ -5015,19 +5015,6 @@
       "por": 34.0,
       "cupom": "OPAECONOMIZEI",
       "titulo": "Investimento no shape que cabe no bolso."
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:322874822.23797686527",
-      "nome": "Relógio Masculino digital wr | 100 % qualidade | entrega rápida",
-      "por": 12.99,
-      "de": 99.92,
-      "foto": "AgACAgQAAxkDAAIDJ2rO8o2cVrr-07NChNJksHq4J9zVAAJktjEbo-k9UN-ApJSPsE8-AQADAgADeAADPQQ",
-      "link": "https://s.shopee.com.br/113g0y1cSx",
-      "link_produto": "https://shopee.com.br/product/322874822/23797686527",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "titulo": "Relógio masculino digital com 87% off"
     }
   ],
   "lixeira": [
