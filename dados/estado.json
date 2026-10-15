@@ -297,6 +297,27 @@
       "titulo": "Creatina para render mais",
       "na_revisao_desde": "2026-10-15T06:34-03:00",
       "aprovado_em": "2026-10-15T06:39-03:00"
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0DXF8MFR2",
+      "origem": "promooeasy",
+      "link": "https://link.amazon/B08XneOZz",
+      "link_produto": "https://link.amazon/B08XneOZz",
+      "post_origem": "https://t.me/promooeasy/221927",
+      "link_canal": "https://amazon.com.br/dp/B0DXF8MFR2?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAIDtmrQrbC2yd3NNko7OlWWZ8S2k8IhAAIGEGsbgpXkU4V8X9G6WwjIAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "nome": "Mochila Esportiva com Cordão, Separação seca e húmida, Mochila de grande capacidade para viagens de lazer, Bolsos Latera",
+      "por": 45.1,
+      "palavra": "mochila",
+      "garimpado_em": "2026-10-15T07:30-03:00",
+      "nota": 33.7,
+      "titulo": "Mochila com cordão para academia e viagens leves",
+      "na_revisao_desde": "2026-10-15T07:40-03:00",
+      "de": 54.99,
+      "pix": true,
+      "aprovado_em": "2026-10-15T07:48-03:00"
     }
   ],
   "postados": [
@@ -1467,28 +1488,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0DXF8MFR2",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0DXF8MFR2?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0DXF8MFR2?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/221927",
-      "link_canal": "https://amazon.com.br/dp/B0DXF8MFR2?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAIDtmrQrbC2yd3NNko7OlWWZ8S2k8IhAAIGEGsbgpXkU4V8X9G6WwjIAQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "nome": "Mochila Esportiva com Cordão, Separação seca e húmida, Mochila de grande capacidade para viagens de lazer, Bolsos Latera",
-      "por": 45.1,
-      "palavra": "mochila",
-      "garimpado_em": "2026-10-15T07:30-03:00",
-      "nota": 33.7,
-      "titulo": "Mochila com cordão para academia e viagens leves",
-      "id": 580,
-      "na_revisao_desde": "2026-10-15T07:40-03:00",
-      "msg_id": 950
-    }
-  ],
+  "revisar": [],
   "proximo_id": 583,
   "radar": {
     "visto": {
@@ -5857,7 +5857,7 @@
       },
       "promooeasy": {
         "achados": 3,
-        "aprovados": 1,
+        "aprovados": 2,
         "reprovados": 1
       }
     }
@@ -6026,7 +6026,7 @@
     },
     "mochila": {
       "achados": 14,
-      "aprovados": 6,
+      "aprovados": 7,
       "reprovados": 6
     },
     "oculos de sol": {
