@@ -317,6 +317,28 @@
       "titulo": "Fragrância fresca ideal para dias de calor",
       "na_revisao_desde": "2026-10-15T17:40-03:00",
       "aprovado_em": "2026-10-15T17:52-03:00"
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:1368787663.23597895251",
+      "nome": "Carregador Portátil Bateria Power Bank 20000mah PN-959",
+      "por": 34.98,
+      "de": 79.5,
+      "foto": "AgACAgQAAxkDAAID_WrRLFGQoSZOiGYWTOaJoe9kYIV1AAIQDWsb_XIVUwOJ1ND5nmR0AQADAgADeQADPQQ",
+      "link": "https://s.shopee.com.br/6L5ErPkQ1l",
+      "link_produto": "https://shopee.com.br/product/1368787663/23597895251",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.7,
+      "vendas": 1673,
+      "palavra": "power bank",
+      "garimpado_em": "2026-10-15T13:41-03:00",
+      "nota": 71.3,
+      "titulo": "Carregador portátil para manter o celular com carga",
+      "na_revisao_desde": "2026-10-15T16:41-03:00",
+      "aprovado_em": "2026-10-15T18:48-03:00"
     }
   ],
   "postados": [
@@ -2094,29 +2116,6 @@
       "id": 625,
       "na_revisao_desde": "2026-10-15T16:41-03:00",
       "msg_id": 1020
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:1368787663.23597895251",
-      "nome": "Carregador Portátil Bateria Power Bank 20000mah PN-959",
-      "por": 34.98,
-      "de": 79.5,
-      "foto": "AgACAgQAAxkDAAID_WrRLFGQoSZOiGYWTOaJoe9kYIV1AAIQDWsb_XIVUwOJ1ND5nmR0AQADAgADeQADPQQ",
-      "link": "https://s.shopee.com.br/6L5ErPkQ1l",
-      "link_produto": "https://shopee.com.br/product/1368787663/23597895251",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.7,
-      "vendas": 1673,
-      "palavra": "power bank",
-      "garimpado_em": "2026-10-15T13:41-03:00",
-      "nota": 71.3,
-      "titulo": "Carregador portátil para manter o celular com carga",
-      "id": 626,
-      "na_revisao_desde": "2026-10-15T16:41-03:00",
-      "msg_id": 1021
     }
   ],
   "proximo_id": 630,
@@ -6993,7 +6992,7 @@
     "2026-10-15": {
       "shopee": {
         "achados": 18,
-        "aprovados": 1,
+        "aprovados": 2,
         "reprovados": 1
       },
       "lobaopromo": {
@@ -7217,7 +7216,7 @@
     },
     "power bank": {
       "achados": 12,
-      "aprovados": 2,
+      "aprovados": 3,
       "reprovados": 8
     },
     "pre treino": {
