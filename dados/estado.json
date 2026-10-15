@@ -297,26 +297,6 @@
       "titulo": "Creatina para render mais",
       "na_revisao_desde": "2026-10-15T06:34-03:00",
       "aprovado_em": "2026-10-15T06:39-03:00"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0HH4RGVG5",
-      "origem": "promooeasy",
-      "link": "https://link.amazon/B0eqVuUgV",
-      "link_produto": "https://link.amazon/B0eqVuUgV",
-      "post_origem": "https://t.me/promooeasy/221930",
-      "link_canal": "https://www.amazon.com.br/dp/B0HH4RGVG5?tag=promof26-20",
-      "nome": "Kit Halteres Ajustável 6 em 1 15kg com Barra, Kettlebell e Suporte Flexões",
-      "foto": "AgACAgQAAxkDAAIDuGrQrbSRwhJjhldI9txuGMoGllSwAAJaEGsbGzpkUYd9pJ2A5KP2AQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "cupom": "BR15OFFPROMO",
-      "palavra": "halter",
-      "garimpado_em": "2026-10-15T07:40-03:00",
-      "nota": -10.6,
-      "na_revisao_desde": "2026-10-15T07:40-03:00",
-      "por": 180.4,
-      "pix": true,
-      "aprovado_em": "2026-10-15T07:47-03:00"
     }
   ],
   "postados": [
@@ -1417,6 +1397,14 @@
       "link": "https://s.shopee.com.br/5fpWPplALl",
       "link_produto": "https://shopee.com.br/product/1746399229/58259501932",
       "titulo": "Suporte veicular para usar o GPS com segurança"
+    },
+    {
+      "chave": "amazon:B0HH4RGVG5",
+      "loja": "amazon",
+      "nome": "Kit Halteres Ajustável 6 em 1 15kg com Barra, Kettlebell e Suporte Flexões",
+      "data": "2026-10-15T07:47-03:00",
+      "link": "https://link.amazon/B0eqVuUgV",
+      "link_produto": "https://link.amazon/B0eqVuUgV"
     }
   ],
   "slots_usados": {
@@ -4309,6 +4297,19 @@
   },
   "ultimos": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B0HH4RGVG5",
+      "origem": "promooeasy",
+      "link": "https://link.amazon/B0eqVuUgV",
+      "link_produto": "https://link.amazon/B0eqVuUgV",
+      "post_origem": "https://t.me/promooeasy/221930",
+      "nome": "Kit Halteres Ajustável 6 em 1 15kg com Barra, Kettlebell e Suporte Flexões",
+      "foto": "AgACAgQAAxkDAAIDuGrQrbSRwhJjhldI9txuGMoGllSwAAJaEGsbGzpkUYd9pJ2A5KP2AQADAgADeQADPQQ",
+      "cupom": "BR15OFFPROMO",
+      "por": 180.4,
+      "pix": true
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:1746399229.58259501932",
       "nome": "Suporte de Celular Carro 360º Giratório Universal Multifuncional Ventilacao Ar Condicionado Veicular",
@@ -4822,22 +4823,6 @@
       "por": 179.0,
       "cupom": "FULLLANDING",
       "titulo": "Perfume Natura no preço"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0BTYCRJSS",
-      "origem": "pobregram",
-      "link": "https://link.amazon/B06xwECAS",
-      "link_produto": "https://link.amazon/B06xwECAS",
-      "post_origem": "https://t.me/pobregram/41829",
-      "foto": "AgACAgEAAxkDAAICK2rOUbukkBY6HYYxpCuLcbgJNN1XAAJmDWsb7AJxRiomHoY6XA-FAQADAgADeAADPQQ",
-      "nome": "soundcore P20i da Anker, Fone de Ouvido Bluetooth 5.3 Sem Fio, 2 Mics IA",
-      "pix": true,
-      "parcelas": 14,
-      "de": 249.0,
-      "por": 138.7,
-      "titulo": "44% off, isso aqui não fica muito tempo assim.",
-      "parcela_valor": 6.0
     }
   ],
   "lixeira": [
