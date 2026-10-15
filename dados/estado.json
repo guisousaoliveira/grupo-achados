@@ -1425,22 +1425,22 @@
   "proximo_id": 570,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84902,
-      "lobaopromo": 189628,
-      "gatunopromos": 125434,
+      "xetdaspromocoes": 84903,
+      "lobaopromo": 189631,
+      "gatunopromos": 125436,
       "pobregram": 41913,
       "urubupromo": 41689,
-      "tudonapromo": 101934,
-      "promonocontext": 126917,
-      "promooeasy": 221821,
-      "aquitempechincha": 281725,
+      "tudonapromo": 101936,
+      "promonocontext": 126919,
+      "promooeasy": 221828,
+      "aquitempechincha": 281734,
       "infoBRpromos": 67591,
-      "boletando": 76742,
-      "promotop": 260289,
+      "boletando": 76743,
+      "promotop": 260290,
       "achadosdotb": 11771
     },
     "dia": "2026-10-14",
-    "hoje": 165,
+    "hoje": 168,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -3185,31 +3185,34 @@
       "mercadolivre:MLB75615449",
       "mercadolivre:MLB3960073270",
       "mercadolivre:MLB5944713610",
-      "amazon:B0DST9BJPF"
+      "amazon:B0DST9BJPF",
+      "amazon:B081VVJ9FW",
+      "amazon:B0CZSMC4QS",
+      "amazon:B07LGZM6JC"
     ],
     "ultima": {
-      "em": "2026-10-14T22:40:19-03:00",
+      "em": "2026-10-14T22:50:19-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 40,
-      "do_nicho": 7,
-      "repetidas": 3,
-      "novas": 3,
+      "posts_novos": 39,
+      "do_nicho": 5,
+      "repetidas": 2,
+      "novas": 2,
       "limite_dia": false,
       "repetidas_nome": 0,
-      "promobit": 0,
       "fora_do_nicho": 1,
+      "promobit": 2,
       "soltas": 0,
-      "na_peneira": 26
+      "na_peneira": 28
     },
     "hora": "2026-10-14T22",
     "nesta_hora": 7,
     "promobit_hora": "2026-10-14T22",
-    "promobit_nesta_hora": 0,
-    "promobit_visto": 3115011,
+    "promobit_nesta_hora": 3,
+    "promobit_visto": 3115038,
     "nomes": [
       [
         [
@@ -4493,12 +4496,48 @@
         "palavra": "garrafa termica",
         "garimpado_em": "2026-10-14T22:40-03:00",
         "nota": 78.7
+      },
+      {
+        "loja": "amazon",
+        "chave": "amazon:B0CZSMC4QS",
+        "origem": "promobit",
+        "fonte": "promobit",
+        "link": "https://www.amazon.com.br/dp/B0CZSMC4QS?tag=alphadominu09-20",
+        "link_produto": "https://www.amazon.com.br/dp/B0CZSMC4QS?tag=alphadominu09-20",
+        "post_origem": "https://www.promobit.com.br/oferta/ricca-aparador-de-pelos-corporal-ready-laminas-duplas-flexiveis-e-hipoalergenicas-pilha-aa-3115023/",
+        "link_canal": "https://www.promobit.com.br/Redirect/to/3115023/",
+        "nome": "Ricca Aparador de Pelos Corporal Ready Lâminas duplas flexíveis e",
+        "por": 62.32,
+        "de": 75.24,
+        "foto": "https://m.media-amazon.com/images/I/41WFz5QEJDL._AC_SL1000_.jpg",
+        "foto_origem": "loja",
+        "palavra": "aparador",
+        "garimpado_em": "2026-10-14T22:50-03:00",
+        "nota": 33.4
+      },
+      {
+        "loja": "amazon",
+        "chave": "amazon:B07LGZM6JC",
+        "origem": "promobit",
+        "fonte": "promobit",
+        "link": "https://www.amazon.com.br/dp/B07LGZM6JC?tag=alphadominu09-20",
+        "link_produto": "https://www.amazon.com.br/dp/B07LGZM6JC?tag=alphadominu09-20",
+        "post_origem": "https://www.promobit.com.br/oferta/mor-caixa-termica-42-litros-azul-3115024/",
+        "link_canal": "https://www.promobit.com.br/Redirect/to/3115024/",
+        "nome": "Mor - Caixa Térmica 42 Litros Azul",
+        "por": 278.04,
+        "de": 489.9,
+        "foto": "https://m.media-amazon.com/images/I/41aamMDec9L._AC_SL1000_.jpg",
+        "foto_origem": "loja",
+        "palavra": "caixa termica",
+        "garimpado_em": "2026-10-14T22:50-03:00",
+        "nota": 50.0
       }
     ],
     "soltas_hora": "2026-10-14T22",
     "soltas": 0,
-    "shopee_em": "2026-10-14T22:30-03:00",
-    "shopee_indice": 100,
+    "shopee_em": "2026-10-14T22:50-03:00",
+    "shopee_indice": 8,
     "soltas_dia_data": "2026-10-14",
     "soltas_dia": 60,
     "soltas_loja": {}
@@ -5970,7 +6009,7 @@
       }
     }
   },
-  "aviso_post": "2026-10-14 21|shopee:1127030290.23593847901",
+  "aviso_post": "2026-10-14 22|mercadolivre:MLB26989230",
   "garimpo_palavras": {
     "academia": {
       "achados": 21,
