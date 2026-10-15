@@ -341,6 +341,30 @@
       "titulo": "Trena de aço carbono para medições em reformas",
       "aprovado_sozinho": true,
       "aprovado_em": "2026-10-15T15:41-03:00"
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0GVW8464B",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://link.amazon/B0hATRD5e",
+      "link_produto": "https://link.amazon/B0hATRD5e",
+      "post_origem": "https://www.promobit.com.br/oferta/samsung-combo-smart-tv-43-qled-full-hd-q5f-soundbar-hw-b400f-3116572/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3116572/",
+      "nome": "Samsung Combo Smart TV 43\" QLED Full HD Q5F + Soundbar HW B400F",
+      "por": 1801.3,
+      "de": 3806.0,
+      "foto": "AgACAgQAAxkDAAID6GrREEDysU4MMTz1X0mIlpYvi25pAALMDmsbkMZdUGYrtL_SmaaKAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "palavra": "smart tv",
+      "garimpado_em": "2026-10-15T14:30-03:00",
+      "nota": 52.4,
+      "titulo": "TV e soundbar para som e imagem integrados",
+      "na_revisao_desde": "2026-10-15T14:41-03:00",
+      "parcelas": 12,
+      "parcela_valor": 158.11,
+      "pix": true,
+      "aprovado_em": "2026-10-15T15:46-03:00"
     }
   ],
   "postados": [
@@ -2071,28 +2095,6 @@
       "id": 614,
       "na_revisao_desde": "2026-10-15T14:41-03:00",
       "msg_id": 999
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0GVW8464B",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B0GVW8464B?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0GVW8464B?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/samsung-combo-smart-tv-43-qled-full-hd-q5f-soundbar-hw-b400f-3116572/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3116572/",
-      "nome": "Samsung Combo Smart TV 43\" QLED Full HD Q5F + Soundbar HW B400F",
-      "por": 1801.3,
-      "de": 3806.0,
-      "foto": "AgACAgQAAxkDAAID6GrREEDysU4MMTz1X0mIlpYvi25pAALMDmsbkMZdUGYrtL_SmaaKAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "palavra": "smart tv",
-      "garimpado_em": "2026-10-15T14:30-03:00",
-      "nota": 52.4,
-      "titulo": "TV e soundbar para som e imagem integrados",
-      "id": 615,
-      "na_revisao_desde": "2026-10-15T14:41-03:00",
-      "msg_id": 1000
     },
     {
       "loja": "mercadolivre",
@@ -7543,7 +7545,7 @@
       },
       "promobit": {
         "achados": 8,
-        "aprovados": 3,
+        "aprovados": 4,
         "reprovados": 1
       },
       "promooeasy": {
@@ -7772,7 +7774,7 @@
     },
     "smart tv": {
       "achados": 21,
-      "aprovados": 0,
+      "aprovados": 1,
       "reprovados": 18
     },
     "smartwatch": {
