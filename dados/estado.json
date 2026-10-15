@@ -1615,22 +1615,22 @@
   "proximo_id": 593,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84936,
-      "lobaopromo": 189766,
-      "gatunopromos": 125490,
-      "pobregram": 41936,
+      "xetdaspromocoes": 84941,
+      "lobaopromo": 189775,
+      "gatunopromos": 125493,
+      "pobregram": 41937,
       "urubupromo": 41704,
-      "tudonapromo": 101961,
-      "promonocontext": 126984,
-      "promooeasy": 222047,
-      "aquitempechincha": 281783,
-      "infoBRpromos": 67612,
-      "boletando": 76758,
-      "promotop": 260301,
+      "tudonapromo": 101966,
+      "promonocontext": 126992,
+      "promooeasy": 222057,
+      "aquitempechincha": 281784,
+      "infoBRpromos": 67613,
+      "boletando": 76759,
+      "promotop": 260303,
       "achadosdotb": 11771
     },
     "dia": "2026-10-15",
-    "hoje": 46,
+    "hoje": 47,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -3439,30 +3439,36 @@
       "mercadolivre:MLB23347882",
       "mercadolivre:MLB2818208621",
       "mercadolivre:MLB40656539",
-      "mercadolivre:MLB18725403"
+      "mercadolivre:MLB18725403",
+      "mercadolivre:MLB66055148",
+      "shopee:424302452.14321139407",
+      "shopee:384064825.58200006241",
+      "shopee:967211054.22594526818",
+      "shopee:424302452.9193946615",
+      "shopee:333540705.23697719574"
     ],
     "ultima": {
-      "em": "2026-10-15T09:50:24-03:00",
+      "em": "2026-10-15T10:00:31-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
       "posts_novos": 61,
-      "do_nicho": 9,
-      "repetidas": 8,
+      "do_nicho": 2,
+      "repetidas": 1,
       "novas": 1,
       "limite_dia": false,
       "repetidas_nome": 0,
       "promobit": 0,
       "soltas": 0,
-      "na_peneira": 14
+      "na_peneira": 15
     },
-    "hora": "2026-10-15T09",
-    "nesta_hora": 10,
-    "promobit_hora": "2026-10-15T09",
-    "promobit_nesta_hora": 2,
-    "promobit_visto": 3115661,
+    "hora": "2026-10-15T10",
+    "nesta_hora": 1,
+    "promobit_hora": "2026-10-15T10",
+    "promobit_nesta_hora": 0,
+    "promobit_visto": 3115696,
     "nomes": [
       [
         [
@@ -4793,19 +4799,32 @@
         "palavra": "whey",
         "garimpado_em": "2026-10-15T09:50-03:00",
         "nota": 39.2
+      },
+      {
+        "loja": "mercadolivre",
+        "chave": "mercadolivre:MLB66055148",
+        "origem": "lobaopromo",
+        "link": "https://www.mercadolivre.com.br/smart-tv-32-philco-roku-tv-dolby-audio-hdr10-p32crb/p/MLB66055148?matt_word=alphapromo&matt_tool=59136903",
+        "link_produto": "https://www.mercadolivre.com.br/smart-tv-32-philco-roku-tv-dolby-audio-hdr10-p32crb/p/MLB66055148",
+        "post_origem": "https://t.me/lobaopromo/189767",
+        "link_canal": "https://meli.la/136JaNm",
+        "foto": "https://http2.mlstatic.com/D_NQ_NP_875689-MLA107805437119_022026-O.webp",
+        "foto_origem": "loja",
+        "nome": "Smart Tv 32 Philco Roku Tv Dolby Áudio Hdr10 P32crb",
+        "de": 1499.0,
+        "por": 979.0,
+        "palavra": "smart tv",
+        "garimpado_em": "2026-10-15T10:00-03:00",
+        "nota": 46.9
       }
     ],
-    "soltas_hora": "2026-10-15T09",
-    "soltas": 5,
-    "shopee_em": "2026-10-15T09:41-03:00",
-    "shopee_indice": 28,
+    "soltas_hora": "2026-10-15T10",
+    "soltas": 0,
+    "shopee_em": "2026-10-15T10:00-03:00",
+    "shopee_indice": 36,
     "soltas_dia_data": "2026-10-15",
     "soltas_dia": 23,
-    "soltas_loja": {
-      "mercadolivre": 2,
-      "amazon": 2,
-      "shopee": 1
-    }
+    "soltas_loja": {}
   },
   "ultimos": [
     {
