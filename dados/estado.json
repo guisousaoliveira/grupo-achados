@@ -341,30 +341,6 @@
       "titulo": "Trena de aço carbono para medições em reformas",
       "aprovado_sozinho": true,
       "aprovado_em": "2026-10-15T15:41-03:00"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0GVW8464B",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://link.amazon/B0hATRD5e",
-      "link_produto": "https://link.amazon/B0hATRD5e",
-      "post_origem": "https://www.promobit.com.br/oferta/samsung-combo-smart-tv-43-qled-full-hd-q5f-soundbar-hw-b400f-3116572/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3116572/",
-      "nome": "Samsung Combo Smart TV 43\" QLED Full HD Q5F + Soundbar HW B400F",
-      "por": 1801.3,
-      "de": 3806.0,
-      "foto": "AgACAgQAAxkDAAID6GrREEDysU4MMTz1X0mIlpYvi25pAALMDmsbkMZdUGYrtL_SmaaKAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "palavra": "smart tv",
-      "garimpado_em": "2026-10-15T14:30-03:00",
-      "nota": 52.4,
-      "titulo": "TV e soundbar para som e imagem integrados",
-      "na_revisao_desde": "2026-10-15T14:41-03:00",
-      "parcelas": 12,
-      "parcela_valor": 158.11,
-      "pix": true,
-      "aprovado_em": "2026-10-15T15:46-03:00"
     }
   ],
   "postados": [
@@ -1606,6 +1582,15 @@
       "link": "https://link.amazon/B0czdyOTy",
       "link_produto": "https://link.amazon/B0czdyOTy",
       "titulo": "Furadeira de impacto potente"
+    },
+    {
+      "chave": "amazon:B0GVW8464B",
+      "loja": "amazon",
+      "nome": "Samsung Combo Smart TV 43\" QLED Full HD Q5F + Soundbar HW B400F",
+      "data": "2026-10-15T15:46-03:00",
+      "link": "https://link.amazon/B0hATRD5e",
+      "link_produto": "https://link.amazon/B0hATRD5e",
+      "titulo": "TV e soundbar para som e imagem integrados"
     }
   ],
   "slots_usados": {
@@ -5958,6 +5943,23 @@
   "ultimos": [
     {
       "loja": "amazon",
+      "chave": "amazon:B0GVW8464B",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://link.amazon/B0hATRD5e",
+      "link_produto": "https://link.amazon/B0hATRD5e",
+      "post_origem": "https://www.promobit.com.br/oferta/samsung-combo-smart-tv-43-qled-full-hd-q5f-soundbar-hw-b400f-3116572/",
+      "nome": "Samsung Combo Smart TV 43\" QLED Full HD Q5F + Soundbar HW B400F",
+      "por": 1801.3,
+      "de": 3806.0,
+      "foto": "AgACAgQAAxkDAAID6GrREEDysU4MMTz1X0mIlpYvi25pAALMDmsbkMZdUGYrtL_SmaaKAQADAgADeAADPQQ",
+      "titulo": "TV e soundbar para som e imagem integrados",
+      "parcelas": 12,
+      "parcela_valor": 158.11,
+      "pix": true
+    },
+    {
+      "loja": "amazon",
       "chave": "amazon:B0F677L8R5",
       "origem": "promobit",
       "fonte": "promobit",
@@ -6480,19 +6482,6 @@
       "de": 220.0,
       "por": 64.83,
       "titulo": "Kit completo para cuidar da barba em casa"
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:472202601.58211536223",
-      "nome": "Watersy Garrafa Térmica 17oz/510ml a Vácuo Inox 18/8 Antivazamento Portátil para Café Chá Água",
-      "por": 22.99,
-      "de": 88.42,
-      "foto": "AgACAgQAAxkDAAIDKmrO-dJVaOoMAAEOIjMriyVXKSHguAACjQ1rGy681VLGFh3zGv-3AgEAAwIAA3kAAz0E",
-      "link": "https://s.shopee.com.br/7AeJNmkltd",
-      "link_produto": "https://shopee.com.br/product/472202601/58211536223",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "titulo": "Garrafa térmica em inox para bebidas quentes"
     }
   ],
   "lixeira": [
