@@ -2110,16 +2110,16 @@
   "radar": {
     "visto": {
       "xetdaspromocoes": 85085,
-      "lobaopromo": 190017,
-      "gatunopromos": 125585,
+      "lobaopromo": 190018,
+      "gatunopromos": 125588,
       "pobregram": 41973,
-      "urubupromo": 41740,
+      "urubupromo": 41741,
       "tudonapromo": 102054,
-      "promonocontext": 127298,
-      "promooeasy": 222407,
-      "aquitempechincha": 281961,
-      "infoBRpromos": 67647,
-      "boletando": 76799,
+      "promonocontext": 127303,
+      "promooeasy": 222409,
+      "aquitempechincha": 281967,
+      "infoBRpromos": 67649,
+      "boletando": 76800,
       "promotop": 260341,
       "achadosdotb": 11778
     },
@@ -4066,27 +4066,27 @@
       "amazon:B0DG32SNZ4"
     ],
     "ultima": {
-      "em": "2026-10-15T18:50:21-03:00",
+      "em": "2026-10-15T19:00:29-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 29,
+      "posts_novos": 34,
       "do_nicho": 3,
-      "repetidas": 2,
-      "novas": 1,
+      "repetidas": 3,
+      "novas": 0,
       "limite_dia": false,
       "repetidas_nome": 0,
       "promobit": 0,
       "soltas": 0,
-      "na_peneira": 36
+      "na_peneira": 35
     },
-    "hora": "2026-10-15T18",
-    "nesta_hora": 13,
-    "promobit_hora": "2026-10-15T18",
+    "hora": "2026-10-15T19",
+    "nesta_hora": 0,
+    "promobit_hora": "2026-10-15T19",
     "promobit_nesta_hora": 0,
-    "promobit_visto": 3117310,
+    "promobit_visto": 3117328,
     "nomes": [
       [
         [
@@ -5629,25 +5629,6 @@
     ],
     "peneira": [
       {
-        "loja": "shopee",
-        "chave": "shopee:1800846939.58211647163",
-        "nome": "Kit 3 Cuecas Boxer MEN Masculina Microfibra. Cueca boxer, Cuecas Com Alta Elasticidade Confortável.",
-        "por": 20.35,
-        "de": 35.09,
-        "foto": "https://cf.shopee.com.br/file/sg-11134201-823pz-motybm1bprt8e8",
-        "link": "https://s.shopee.com.br/6q1Vbtkp21",
-        "link_produto": "https://shopee.com.br/product/1800846939/58211647163",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 4.8,
-        "vendas": 2161,
-        "palavra": "cueca",
-        "garimpado_em": "2026-10-15T16:00-03:00",
-        "nota": 56.9
-      },
-      {
         "loja": "mercadolivre",
         "chave": "mercadolivre:MLB4657658761",
         "origem": "promonocontext",
@@ -6262,10 +6243,10 @@
         "nota": 19.6
       }
     ],
-    "soltas_hora": "2026-10-15T18",
+    "soltas_hora": "2026-10-15T19",
     "soltas": 0,
-    "shopee_em": "2026-10-15T18:40-03:00",
-    "shopee_indice": 44,
+    "shopee_em": "2026-10-15T19:00-03:00",
+    "shopee_indice": 52,
     "soltas_dia_data": "2026-10-15",
     "soltas_dia": 60,
     "soltas_loja": {}
