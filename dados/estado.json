@@ -2,27 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "amazon",
-      "chave": "amazon:B0F677L8R5",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://link.amazon/B0czdyOTy",
-      "link_produto": "https://link.amazon/B0czdyOTy",
-      "post_origem": "https://www.promobit.com.br/oferta/parafusadeira-furadeira-impacto-12-700w-127v-3115247/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3115247/",
-      "nome": "Parafusadeira Furadeira Impacto 12 700W 127V",
-      "por": 114.0,
-      "de": 209.9,
-      "foto": "AgACAgQAAxkDAAIDrWrQnh8UI3YII8dylbjZ3t-gY81JAAJSDmsbqaLNUB7uuVFtNFEHAQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "palavra": "parafusadeira",
-      "garimpado_em": "2026-10-15T06:33-03:00",
-      "nota": 55.0,
-      "titulo": "Furadeira de impacto potente",
-      "na_revisao_desde": "2026-10-15T06:34-03:00",
-      "aprovado_em": "2026-10-15T06:38-03:00"
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB18725308",
       "origem": "lobaopromo",
@@ -1550,6 +1529,15 @@
       "link_produto": "https://meli.la/1bB8SKy",
       "titulo": "Kit de ferramentas para reparos e manutenções caseiras",
       "slot": 15
+    },
+    {
+      "chave": "amazon:B0F677L8R5",
+      "loja": "amazon",
+      "nome": "Parafusadeira Furadeira Impacto 12 700W 127V",
+      "data": "2026-10-15T15:39-03:00",
+      "link": "https://link.amazon/B0czdyOTy",
+      "link_produto": "https://link.amazon/B0czdyOTy",
+      "titulo": "Furadeira de impacto potente"
     }
   ],
   "slots_usados": {
@@ -5922,6 +5910,20 @@
   },
   "ultimos": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B0F677L8R5",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://link.amazon/B0czdyOTy",
+      "link_produto": "https://link.amazon/B0czdyOTy",
+      "post_origem": "https://www.promobit.com.br/oferta/parafusadeira-furadeira-impacto-12-700w-127v-3115247/",
+      "nome": "Parafusadeira Furadeira Impacto 12 700W 127V",
+      "por": 114.0,
+      "de": 209.9,
+      "foto": "AgACAgQAAxkDAAIDrWrQnh8UI3YII8dylbjZ3t-gY81JAAJSDmsbqaLNUB7uuVFtNFEHAQADAgADeQADPQQ",
+      "titulo": "Furadeira de impacto potente"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB79915624",
       "origem": "lobaopromo",
@@ -6444,19 +6446,6 @@
       "origem": "shopee",
       "fonte": "shopee",
       "titulo": "Garrafa térmica em inox para bebidas quentes"
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:787370863.23798509847",
-      "nome": "Nível a Laser 3 em 1 com Trena 2,5m, Tripé e Régua – Level Pro 03 Alinhador Horizontal e Vertical",
-      "por": 29.9,
-      "de": 149.5,
-      "foto": "AgACAgQAAxkDAAIDNmrPakGUbT0cjwzMB1E2NDri4FEcAAJYuTEbAuoMUJgcUqzPqRfRAQADAgADeAADPQQ",
-      "link": "https://s.shopee.com.br/qkGJeDgTV",
-      "link_produto": "https://shopee.com.br/product/787370863/23798509847",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "titulo": "Nível a laser para alinhar paredes e prateleiras"
     }
   ],
   "lixeira": [
