@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "shopee",
-      "chave": "shopee:1127030290.23593847901",
-      "nome": "Mochila Bolsa Viagem Resistente Coreana Masculina Feminina Colorida",
-      "por": 25.99,
-      "de": 99.96,
-      "foto": "https://cf.shopee.com.br/file/sg-11134201-8262f-ml3p8fq62c5g00",
-      "link": "https://s.shopee.com.br/LnzoErpUV",
-      "link_produto": "https://shopee.com.br/product/1127030290/23593847901",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.8,
-      "vendas": 4319,
-      "palavra": "mochila",
-      "garimpado_em": "2026-10-14T09:01-03:00",
-      "nota": 93.9,
-      "titulo": "Mochila espaçosa para viagens e rotina diária",
-      "aprovado_sozinho": true,
-      "aprovado_em": "2026-10-14T10:42-03:00"
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB26989230",
       "origem": "lobaopromo",
@@ -1343,6 +1321,16 @@
       "link": "https://meli.la/2ZXjdGB",
       "link_produto": "https://meli.la/2ZXjdGB",
       "titulo": "Garrafa térmica que mantém a bebida gelada o dia todo"
+    },
+    {
+      "chave": "shopee:1127030290.23593847901",
+      "loja": "shopee",
+      "nome": "Mochila Bolsa Viagem Resistente Coreana Masculina Feminina Colorida",
+      "data": "2026-10-14T21:29-03:00",
+      "link": "https://s.shopee.com.br/LnzoErpUV",
+      "link_produto": "https://shopee.com.br/product/1127030290/23593847901",
+      "titulo": "Mochila espaçosa para viagens e rotina diária",
+      "slot": 21
     }
   ],
   "slots_usados": {
@@ -1398,7 +1386,8 @@
       17,
       18,
       19,
-      20
+      20,
+      21
     ]
   },
   "shopee_buscado_em": "",
@@ -4590,6 +4579,19 @@
   },
   "ultimos": [
     {
+      "loja": "shopee",
+      "chave": "shopee:1127030290.23593847901",
+      "nome": "Mochila Bolsa Viagem Resistente Coreana Masculina Feminina Colorida",
+      "por": 25.99,
+      "de": 99.96,
+      "foto": "https://cf.shopee.com.br/file/sg-11134201-8262f-ml3p8fq62c5g00",
+      "link": "https://s.shopee.com.br/LnzoErpUV",
+      "link_produto": "https://shopee.com.br/product/1127030290/23593847901",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "titulo": "Mochila espaçosa para viagens e rotina diária"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB57797847",
       "origem": "promonocontext",
@@ -5112,19 +5114,6 @@
       "de": 659.0,
       "por": 159.0,
       "cupom": "MELHORDEHJ"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB23181844",
-      "origem": "xetdaspromocoes",
-      "link": "https://meli.la/21r5Vav",
-      "link_produto": "https://meli.la/21r5Vav",
-      "post_origem": "https://t.me/xetdaspromocoes/84516",
-      "foto": "AgACAgQAAxkDAAIBbmrOFpfKoPAljckIVEkuf9KDZ6_QAALpDGsbngN1UUG9fqi_1SmbAQADAgADeAADPQQ",
-      "nome": "Creatina Dark Lab Premium em cápsula Sem sabor de 120 un",
-      "por": 32.9,
-      "titulo": "pra dar aquela força extra",
-      "de": 69.31
     }
   ],
   "lixeira": [
