@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "shopee",
-      "chave": "shopee:1620616375.23194887818",
-      "nome": "Máquina de Cortar Cabelo Profissional Sem Fio Aparador de Barba Recarregável",
-      "por": 19.99,
-      "de": 68.93,
-      "foto": "https://cf.shopee.com.br/file/sg-11134201-8260x-mlnnm5mx651g09",
-      "link": "https://s.shopee.com.br/2VsWGx81Ve",
-      "link_produto": "https://shopee.com.br/product/1620616375/23194887818",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.8,
-      "vendas": 482,
-      "palavra": "aparador de barba",
-      "garimpado_em": "2026-10-15T13:20-03:00",
-      "nota": 82.1,
-      "titulo": "Aparador sem fio para cabelo e barba",
-      "aprovado_sozinho": true,
-      "aprovado_em": "2026-10-15T14:41-03:00"
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB64095565",
       "origem": "xetdaspromocoes",
@@ -1636,6 +1614,16 @@
       "link": "https://meli.la/1wVDqot",
       "link_produto": "https://meli.la/1wVDqot",
       "titulo": "Camisetas dry fit leves para treinar com conforto"
+    },
+    {
+      "chave": "shopee:1620616375.23194887818",
+      "loja": "shopee",
+      "nome": "Máquina de Cortar Cabelo Profissional Sem Fio Aparador de Barba Recarregável",
+      "data": "2026-10-15T18:32-03:00",
+      "link": "https://s.shopee.com.br/2VsWGx81Ve",
+      "link_produto": "https://shopee.com.br/product/1620616375/23194887818",
+      "titulo": "Aparador sem fio para cabelo e barba",
+      "slot": 18
     }
   ],
   "slots_usados": {
@@ -1706,7 +1694,8 @@
       14,
       15,
       16,
-      17
+      17,
+      18
     ]
   },
   "shopee_buscado_em": "",
@@ -6242,6 +6231,19 @@
   },
   "ultimos": [
     {
+      "loja": "shopee",
+      "chave": "shopee:1620616375.23194887818",
+      "nome": "Máquina de Cortar Cabelo Profissional Sem Fio Aparador de Barba Recarregável",
+      "por": 19.99,
+      "de": 68.93,
+      "foto": "https://cf.shopee.com.br/file/sg-11134201-8260x-mlnnm5mx651g09",
+      "link": "https://s.shopee.com.br/2VsWGx81Ve",
+      "link_produto": "https://shopee.com.br/product/1620616375/23194887818",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "titulo": "Aparador sem fio para cabelo e barba"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB4004443475",
       "origem": "lobaopromo",
@@ -6771,19 +6773,6 @@
       "de": 79.0,
       "por": 34.0,
       "titulo": "Camisa polo slim em piquet para o dia a dia"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB18218398",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/2gzYBUv",
-      "link_produto": "https://meli.la/2gzYBUv",
-      "post_origem": "https://t.me/lobaopromo/189500",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_764568-MLA99034657020_112025-O.webp",
-      "nome": "Proteína Integralmédica Whey 100% Pure em pó sabor Baunilha x 900g",
-      "de": 309.0,
-      "por": 138.0,
-      "titulo": "Whey NO PRECINHO"
     }
   ],
   "lixeira": [
