@@ -1379,21 +1379,21 @@
   "radar": {
     "visto": {
       "xetdaspromocoes": 84903,
-      "lobaopromo": 189650,
-      "gatunopromos": 125448,
+      "lobaopromo": 189652,
+      "gatunopromos": 125450,
       "pobregram": 41914,
       "urubupromo": 41689,
       "tudonapromo": 101936,
       "promonocontext": 126921,
-      "promooeasy": 221868,
+      "promooeasy": 221879,
       "aquitempechincha": 281735,
       "infoBRpromos": 67591,
-      "boletando": 76743,
+      "boletando": 76744,
       "promotop": 260290,
       "achadosdotb": 11771
     },
-    "dia": "2026-10-14",
-    "hoje": 176,
+    "dia": "2026-10-15",
+    "hoje": 1,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -3149,30 +3149,31 @@
       "amazon:B0FCG6CYYT",
       "mercadolivre:MLB29164669",
       "amazon:B0GCZWVSKZ",
-      "amazon:B08LP3JV5J"
+      "amazon:B08LP3JV5J",
+      "amazon:B0779M1VCD"
     ],
     "ultima": {
-      "em": "2026-10-14T23:50:20-03:00",
+      "em": "2026-10-15T00:00:26-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 27,
-      "do_nicho": 0,
+      "posts_novos": 20,
+      "do_nicho": 1,
       "repetidas": 0,
-      "novas": 0,
+      "novas": 1,
       "limite_dia": false,
       "repetidas_nome": 0,
       "promobit": 0,
       "soltas": 0,
       "na_peneira": 21
     },
-    "hora": "2026-10-14T23",
-    "nesta_hora": 3,
-    "promobit_hora": "2026-10-14T23",
-    "promobit_nesta_hora": 5,
-    "promobit_visto": 3115122,
+    "hora": "2026-10-15T00",
+    "nesta_hora": 1,
+    "promobit_hora": "2026-10-15T00",
+    "promobit_nesta_hora": 0,
+    "promobit_visto": 3115126,
     "nomes": [
       [
         [
@@ -4003,22 +4004,6 @@
     ],
     "peneira": [
       {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB6777009740",
-        "origem": "promonocontext",
-        "link": "https://www.mercadolivre.com.br/tenis-masculino-cosmo-olympikus/up/MLBU3962008091?pdp_filters=item_id%3AMLB6777009740&matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/tenis-masculino-cosmo-olympikus/up/MLBU3962008091?pdp_filters=item_id%3AMLB6777009740",
-        "post_origem": "https://t.me/promonocontext/126889",
-        "link_canal": "https://meli.la/2fBdssU",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_800159-MLB111584770325_052026-O.webp",
-        "foto_origem": "loja",
-        "nome": "Tênis Masculino Cosmo Olympikus Verde Militar Liso 43 Br",
-        "por": 166.0,
-        "palavra": "tenis masculino",
-        "garimpado_em": "2026-10-14T21:00-03:00",
-        "nota": 30.1
-      },
-      {
         "loja": "amazon",
         "chave": "amazon:B0HBFP4KT8",
         "origem": "promooeasy",
@@ -4364,14 +4349,30 @@
         "palavra": "alicate",
         "garimpado_em": "2026-10-14T23:40-03:00",
         "nota": 44.5
+      },
+      {
+        "loja": "amazon",
+        "chave": "amazon:B0779M1VCD",
+        "origem": "promooeasy",
+        "link": "https://www.amazon.com.br/dp/B0779M1VCD?tag=alphadominu09-20",
+        "link_produto": "https://www.amazon.com.br/dp/B0779M1VCD?tag=alphadominu09-20",
+        "post_origem": "https://t.me/promooeasy/221869",
+        "link_canal": "https://amazon.com.br/dp/B0779M1VCD?tag=promof26-20",
+        "foto": "https://images-na.ssl-images-amazon.com/images/P/B0779M1VCD.01.LZZZZZZZ.jpg",
+        "foto_origem": "loja",
+        "nome": "Garrafa Térmica Air Pot Slim Inox 1,8L Invicta",
+        "por": 71.32,
+        "palavra": "garrafa termica",
+        "garimpado_em": "2026-10-15T00:00-03:00",
+        "nota": 41.9
       }
     ],
-    "soltas_hora": "2026-10-14T23",
+    "soltas_hora": "2026-10-15T00",
     "soltas": 0,
     "shopee_em": "2026-10-14T23:50-03:00",
     "shopee_indice": 32,
-    "soltas_dia_data": "2026-10-14",
-    "soltas_dia": 60,
+    "soltas_dia_data": "2026-10-15",
+    "soltas_dia": 0,
     "soltas_loja": {}
   },
   "ultimos": [
