@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "amazon",
-      "chave": "amazon:B017SN1OI8",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://link.amazon/B0a7lwMEU",
-      "link_produto": "https://link.amazon/B0a7lwMEU",
-      "post_origem": "https://www.promobit.com.br/oferta/relogio-masculino-fossil-grant-cronografo-prataazul-3115249/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3115249/",
-      "nome": "Relógio Masculino Fossil Grant Cronógrafo PrataAzul",
-      "por": 846.83,
-      "de": 944.73,
-      "foto": "AgACAgQAAxkDAAIDsGrQniLAV4yV6511xVyN3mdmbCB6AAJCtDEbXlYMUwm_6b4Tt07mAQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "palavra": "relogio masculino",
-      "garimpado_em": "2026-10-15T06:33-03:00",
-      "nota": 42.9,
-      "titulo": "Relógio em aço com cronógrafo para o dia a dia",
-      "na_revisao_desde": "2026-10-15T06:34-03:00",
-      "parcelas": 12,
-      "aprovado_em": "2026-10-15T06:36-03:00"
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB79915624",
       "origem": "lobaopromo",
@@ -1528,6 +1506,16 @@
       "link": "https://link.amazon/B0cTnbVAl",
       "link_produto": "https://link.amazon/B0cTnbVAl",
       "slot": 13
+    },
+    {
+      "chave": "amazon:B017SN1OI8",
+      "loja": "amazon",
+      "nome": "Relógio Masculino Fossil Grant Cronógrafo PrataAzul",
+      "data": "2026-10-15T14:31-03:00",
+      "link": "https://link.amazon/B0a7lwMEU",
+      "link_produto": "https://link.amazon/B0a7lwMEU",
+      "titulo": "Relógio em aço com cronógrafo para o dia a dia",
+      "slot": 14
     }
   ],
   "slots_usados": {
@@ -1594,7 +1582,8 @@
       10,
       11,
       12,
-      13
+      13,
+      14
     ]
   },
   "shopee_buscado_em": "",
@@ -5730,6 +5719,21 @@
   "ultimos": [
     {
       "loja": "amazon",
+      "chave": "amazon:B017SN1OI8",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://link.amazon/B0a7lwMEU",
+      "link_produto": "https://link.amazon/B0a7lwMEU",
+      "post_origem": "https://www.promobit.com.br/oferta/relogio-masculino-fossil-grant-cronografo-prataazul-3115249/",
+      "nome": "Relógio Masculino Fossil Grant Cronógrafo PrataAzul",
+      "por": 846.83,
+      "de": 944.73,
+      "foto": "AgACAgQAAxkDAAIDsGrQniLAV4yV6511xVyN3mdmbCB6AAJCtDEbXlYMUwm_6b4Tt07mAQADAgADeQADPQQ",
+      "titulo": "Relógio em aço com cronógrafo para o dia a dia",
+      "parcelas": 12
+    },
+    {
+      "loja": "amazon",
       "chave": "amazon:B0BHL6FKYY",
       "origem": "lobaopromo",
       "link": "https://link.amazon/B0cTnbVAl",
@@ -6249,19 +6253,6 @@
       "origem": "shopee",
       "fonte": "shopee",
       "titulo": "Creatina P&P FIT 250g com 88% off"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB6139419",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/1d4dxW9",
-      "link_produto": "https://meli.la/1d4dxW9",
-      "post_origem": "https://t.me/lobaopromo/189091",
-      "foto": "AgACAgQAAxkDAAIDE2rO2OQup5iaiMN5hE_cDb-oztYIAAIODWsbJSTsU-rt8bqT0BCuAQADAgADeAADPQQ",
-      "nome": "Perfume Masculino Eau de Toilette Azzaro",
-      "de": 859.0,
-      "por": 379.0,
-      "titulo": "Perfume COM DESCONTO! ÚLTIMAS UNIDADES"
     }
   ],
   "lixeira": [
