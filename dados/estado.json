@@ -1552,30 +1552,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "amazon",
-      "chave": "amazon:B09RTQGH4W",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B09RTQGH4W?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B09RTQGH4W?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/timex-relogio-masculino-expedition-scout-40-mm-caixa-cinza-mostrador-preto-com-pulseira-de-couro-marrom-ecco-dritan-3115422/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3115422/",
-      "nome": "Timex Relógio masculino Expedition Scout 40 mm caixa cinza mostrador",
-      "por": 288.47,
-      "de": 504.11,
-      "foto": "AgACAgQAAxkDAAIDvGrQu9IdK4eij5eAX1ElWEQu61OYAAJJszEbJihVU0jOdUmXm46gAQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "palavra": "relogio masculino",
-      "garimpado_em": "2026-10-15T08:40-03:00",
-      "nota": 65.3,
-      "titulo": "Timex versátil que combina com qualquer estilo casual",
-      "id": 583,
-      "na_revisao_desde": "2026-10-15T08:41-03:00",
-      "msg_id": 956
-    }
-  ],
+  "revisar": [],
   "proximo_id": 588,
   "radar": {
     "visto": {
@@ -5129,6 +5106,29 @@
   "lixeira": [
     {
       "loja": "amazon",
+      "chave": "amazon:B09RTQGH4W",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B09RTQGH4W?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B09RTQGH4W?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/timex-relogio-masculino-expedition-scout-40-mm-caixa-cinza-mostrador-preto-com-pulseira-de-couro-marrom-ecco-dritan-3115422/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3115422/",
+      "nome": "Timex Relógio masculino Expedition Scout 40 mm caixa cinza mostrador",
+      "por": 288.47,
+      "de": 504.11,
+      "foto": "AgACAgQAAxkDAAIDvGrQu9IdK4eij5eAX1ElWEQu61OYAAJJszEbJihVU0jOdUmXm46gAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "palavra": "relogio masculino",
+      "garimpado_em": "2026-10-15T08:40-03:00",
+      "nota": 65.3,
+      "titulo": "Timex versátil que combina com qualquer estilo casual",
+      "id": 583,
+      "na_revisao_desde": "2026-10-15T08:41-03:00",
+      "removido_em": "2026-10-15T08:46:14-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "amazon",
       "chave": "amazon:B0GH6ZT8XG",
       "origem": "promooeasy",
       "link": "https://www.amazon.com.br/dp/B0GH6ZT8XG?tag=alphadominu09-20",
@@ -6154,7 +6154,7 @@
       "promobit": {
         "achados": 4,
         "aprovados": 3,
-        "reprovados": 0
+        "reprovados": 1
       },
       "promooeasy": {
         "achados": 3,
@@ -6403,7 +6403,7 @@
     "relogio masculino": {
       "achados": 4,
       "aprovados": 2,
-      "reprovados": 1
+      "reprovados": 2
     },
     "jogo de soquete": {
       "achados": 2,
