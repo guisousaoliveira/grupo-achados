@@ -1439,16 +1439,16 @@
   "proximo_id": 570,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84897,
-      "lobaopromo": 189611,
-      "gatunopromos": 125429,
+      "xetdaspromocoes": 84899,
+      "lobaopromo": 189613,
+      "gatunopromos": 125430,
       "pobregram": 41909,
       "urubupromo": 41688,
       "tudonapromo": 101923,
-      "promonocontext": 126909,
-      "promooeasy": 221815,
+      "promonocontext": 126913,
+      "promooeasy": 221819,
       "aquitempechincha": 281719,
-      "infoBRpromos": 67590,
+      "infoBRpromos": 67591,
       "boletando": 76742,
       "promotop": 260287,
       "achadosdotb": 11771
@@ -3197,27 +3197,27 @@
       "mercadolivre:MLB2678327656"
     ],
     "ultima": {
-      "em": "2026-10-14T22:11:43-03:00",
+      "em": "2026-10-14T22:20:18-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 6,
-      "do_nicho": 1,
+      "posts_novos": 25,
+      "do_nicho": 0,
       "repetidas": 0,
-      "novas": 1,
+      "novas": 0,
       "limite_dia": false,
       "repetidas_nome": 0,
       "promobit": 0,
       "soltas": 0,
-      "na_peneira": 28
+      "na_peneira": 26
     },
     "hora": "2026-10-14T22",
     "nesta_hora": 2,
     "promobit_hora": "2026-10-14T22",
     "promobit_nesta_hora": 0,
-    "promobit_visto": 3114933,
+    "promobit_visto": 3114967,
     "nomes": [
       [
         [
@@ -4047,41 +4047,6 @@
       ]
     ],
     "peneira": [
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB5725053318",
-        "origem": "lobaopromo",
-        "link": "https://produto.mercadolivre.com.br/MLB-5725053318-escrivaninha-industrial-90cm-mesa-estudo-aparador-aco-mdf-_JM?pdp_filters=item_id%3AMLB5725053318&matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://produto.mercadolivre.com.br/MLB-5725053318-escrivaninha-industrial-90cm-mesa-estudo-aparador-aco-mdf-_JM?pdp_filters=item_id%3AMLB5725053318",
-        "post_origem": "https://t.me/lobaopromo/189539",
-        "link_canal": "https://meli.la/1pbXTpy",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_821169-MLB92889719857_092025-O.webp",
-        "foto_origem": "loja",
-        "nome": "Escrivaninha Industrial 90cm Mesa Estudo Aparador Aço Mdf",
-        "de": 185.0,
-        "por": 109.0,
-        "palavra": "aparador",
-        "garimpado_em": "2026-10-14T19:20-03:00",
-        "nota": 53.2
-      },
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB25470710",
-        "origem": "promonocontext",
-        "link": "https://www.mercadolivre.com.br/kit-relogio-feminino-analogico-champion-original-prata-cn25118q-prova-dagua-50-metros-colar-e-brincos-presente-perfeito/p/MLB25470710?matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/kit-relogio-feminino-analogico-champion-original-prata-cn25118q-prova-dagua-50-metros-colar-e-brincos-presente-perfeito/p/MLB25470710",
-        "post_origem": "https://t.me/promonocontext/126826",
-        "link_canal": "https://meli.la/1FY9Tm9",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_687308-MLA114902817688_082026-O.webp",
-        "foto_origem": "loja",
-        "nome": "Kit Relógio Feminino Analógico Champion Original Prata CN25118Q Prova",
-        "cupom_loja": "Use o Cupom: Ative 5% OFF na página 📌",
-        "por": 167.0,
-        "cupom": "ATIVE",
-        "palavra": "relogio",
-        "garimpado_em": "2026-10-14T19:20-03:00",
-        "nota": 31.6
-      },
       {
         "loja": "mercadolivre",
         "chave": "mercadolivre:MLB4341104048",
