@@ -2085,13 +2085,13 @@
   "radar": {
     "visto": {
       "xetdaspromocoes": 85095,
-      "lobaopromo": 190060,
-      "gatunopromos": 125605,
-      "pobregram": 41975,
-      "urubupromo": 41744,
-      "tudonapromo": 102060,
-      "promonocontext": 127348,
-      "promooeasy": 222450,
+      "lobaopromo": 190066,
+      "gatunopromos": 125607,
+      "pobregram": 41976,
+      "urubupromo": 41745,
+      "tudonapromo": 102063,
+      "promonocontext": 127353,
+      "promooeasy": 222452,
       "aquitempechincha": 281983,
       "infoBRpromos": 67657,
       "boletando": 76807,
@@ -4059,27 +4059,27 @@
       "amazon:B0BWNN28ZQ"
     ],
     "ultima": {
-      "em": "2026-10-15T20:20:24-03:00",
+      "em": "2026-10-15T20:30:25-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 39,
-      "do_nicho": 6,
-      "repetidas": 5,
-      "novas": 1,
+      "posts_novos": 24,
+      "do_nicho": 2,
+      "repetidas": 2,
+      "novas": 0,
       "limite_dia": false,
       "repetidas_nome": 0,
-      "promobit": 1,
+      "promobit": 0,
       "soltas": 0,
-      "na_peneira": 35
+      "na_peneira": 34
     },
     "hora": "2026-10-15T20",
     "nesta_hora": 0,
     "promobit_hora": "2026-10-15T20",
     "promobit_nesta_hora": 1,
-    "promobit_visto": 3117523,
+    "promobit_visto": 3117543,
     "nomes": [
       [
         [
@@ -5622,24 +5622,6 @@
     ],
     "peneira": [
       {
-        "loja": "amazon",
-        "chave": "amazon:B0DPLHV7Q8",
-        "origem": "promobit",
-        "fonte": "promobit",
-        "link": "https://www.amazon.com.br/dp/B0DPLHV7Q8?tag=alphadominu09-20",
-        "link_produto": "https://www.amazon.com.br/dp/B0DPLHV7Q8?tag=alphadominu09-20",
-        "post_origem": "https://www.promobit.com.br/oferta/fritadeira-air-fryer-digital-25l-pretoinox-3117111/",
-        "link_canal": "https://www.promobit.com.br/Redirect/to/3117111/",
-        "nome": "Fritadeira Air Fryer Digital 25L",
-        "por": 573.0,
-        "de": 899.99,
-        "foto": "https://m.media-amazon.com/images/I/81EG4mRoqrL._AC_SL1500_.jpg",
-        "foto_origem": "loja",
-        "palavra": "air fryer",
-        "garimpado_em": "2026-10-15T17:30-03:00",
-        "nota": 49.7
-      },
-      {
         "loja": "mercadolivre",
         "chave": "mercadolivre:MLB53368949",
         "origem": "promonocontext",
@@ -6248,8 +6230,8 @@
     ],
     "soltas_hora": "2026-10-15T20",
     "soltas": 0,
-    "shopee_em": "2026-10-15T20:10-03:00",
-    "shopee_indice": 84,
+    "shopee_em": "2026-10-15T20:30-03:00",
+    "shopee_indice": 92,
     "soltas_dia_data": "2026-10-15",
     "soltas_dia": 60,
     "soltas_loja": {}
