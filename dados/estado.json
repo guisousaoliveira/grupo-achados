@@ -2,27 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB64095565",
-      "origem": "xetdaspromocoes",
-      "link": "https://meli.la/1XoiniW",
-      "link_produto": "https://meli.la/1XoiniW",
-      "post_origem": "https://t.me/xetdaspromocoes/84904",
-      "link_canal": "https://meli.la/1RMtGds",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_741636-MLA103747547418_012026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Cafeteira Elétrica Electrolux 15 Xícaras ECM10 + Torradeira 8 Níveis",
-      "pix": true,
-      "de": 349.0,
-      "por": 229.0,
-      "palavra": "cafeteira",
-      "garimpado_em": "2026-10-15T08:40-03:00",
-      "nota": 52.1,
-      "titulo": "Cafeteira e torradeira que agilizam suas manhãs",
-      "na_revisao_desde": "2026-10-15T08:41-03:00",
-      "aprovado_em": "2026-10-15T08:46-03:00"
-    },
-    {
       "loja": "shopee",
       "chave": "shopee:295737745.23307273588",
       "nome": "Aparador E Cortador Pelos Cabelo Barba 10 Em 1 Profissional Mondial Bg03",
@@ -1646,6 +1625,15 @@
       "link_produto": "https://shopee.com.br/product/1620616375/23194887818",
       "titulo": "Aparador sem fio para cabelo e barba",
       "slot": 18
+    },
+    {
+      "chave": "mercadolivre:MLB64095565",
+      "loja": "mercadolivre",
+      "nome": "Cafeteira Elétrica Electrolux 15 Xícaras ECM10 + Torradeira 8 Níveis",
+      "data": "2026-10-15T18:49-03:00",
+      "link": "https://meli.la/1XoiniW",
+      "link_produto": "https://meli.la/1XoiniW",
+      "titulo": "Cafeteira e torradeira que agilizam suas manhãs"
     }
   ],
   "slots_usados": {
@@ -6268,6 +6256,20 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB64095565",
+      "origem": "xetdaspromocoes",
+      "link": "https://meli.la/1XoiniW",
+      "link_produto": "https://meli.la/1XoiniW",
+      "post_origem": "https://t.me/xetdaspromocoes/84904",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_741636-MLA103747547418_012026-O.webp",
+      "nome": "Cafeteira Elétrica Electrolux 15 Xícaras ECM10 + Torradeira 8 Níveis",
+      "pix": true,
+      "de": 349.0,
+      "por": 229.0,
+      "titulo": "Cafeteira e torradeira que agilizam suas manhãs"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:1620616375.23194887818",
       "nome": "Máquina de Cortar Cabelo Profissional Sem Fio Aparador de Barba Recarregável",
@@ -6797,19 +6799,6 @@
       "origem": "shopee",
       "fonte": "shopee",
       "titulo": "Garrafa térmica que mantém a bebida gelada"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB7574441456",
-      "origem": "xetdaspromocoes",
-      "link": "https://meli.la/2CTzyJV",
-      "link_produto": "https://meli.la/2CTzyJV",
-      "post_origem": "https://t.me/xetdaspromocoes/84717",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_942491-MLB115592450210_092026-O.webp",
-      "nome": "Camisa Polo Masculina Piquet Slim Manga Curta Off White Gg",
-      "de": 79.0,
-      "por": 34.0,
-      "titulo": "Camisa polo slim em piquet para o dia a dia"
     }
   ],
   "lixeira": [
