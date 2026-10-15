@@ -2141,28 +2141,6 @@
       "id": 626,
       "na_revisao_desde": "2026-10-15T16:41-03:00",
       "msg_id": 1021
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB67328410",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/wap-af01-airfryer-45l-visor-com-luz-interna-antiaderente-127v/p/MLB67328410?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/wap-af01-airfryer-45l-visor-com-luz-interna-antiaderente-127v/p/MLB67328410",
-      "post_origem": "https://t.me/lobaopromo/189931",
-      "link_canal": "https://meli.la/1mscmoG",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_600633-MLA109658799177_032026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Wap Af01 Airfryer 4,5l Visor Com Luz Interna Antiaderente 127V",
-      "de": 555.0,
-      "por": 288.0,
-      "cupom": "APROVEITA",
-      "palavra": "airfryer",
-      "garimpado_em": "2026-10-15T16:10-03:00",
-      "nota": 68.2,
-      "titulo": "Airfryer para preparar refeições sem usar óleo",
-      "id": 627,
-      "na_revisao_desde": "2026-10-15T16:41-03:00",
-      "msg_id": 1022
     }
   ],
   "proximo_id": 630,
@@ -6659,7 +6637,31 @@
       "titulo": "Soquetes longos para aperto firme em oficina"
     }
   ],
-  "lixeira": [],
+  "lixeira": [
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB67328410",
+      "origem": "lobaopromo",
+      "link": "https://www.mercadolivre.com.br/wap-af01-airfryer-45l-visor-com-luz-interna-antiaderente-127v/p/MLB67328410?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/wap-af01-airfryer-45l-visor-com-luz-interna-antiaderente-127v/p/MLB67328410",
+      "post_origem": "https://t.me/lobaopromo/189931",
+      "link_canal": "https://meli.la/1mscmoG",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_600633-MLA109658799177_032026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Wap Af01 Airfryer 4,5l Visor Com Luz Interna Antiaderente 127V",
+      "de": 555.0,
+      "por": 288.0,
+      "cupom": "APROVEITA",
+      "palavra": "airfryer",
+      "garimpado_em": "2026-10-15T16:10-03:00",
+      "nota": 68.2,
+      "titulo": "Airfryer para preparar refeições sem usar óleo",
+      "id": 627,
+      "na_revisao_desde": "2026-10-15T16:41-03:00",
+      "removido_em": "2026-10-15T17:52:30-03:00",
+      "removido_de": "revisar"
+    }
+  ],
   "garimpo": {
     "2026-10-12": {
       "promooeasy": {
@@ -6821,7 +6823,7 @@
       "lobaopromo": {
         "achados": 9,
         "aprovados": 5,
-        "reprovados": 0
+        "reprovados": 1
       },
       "promobit": {
         "achados": 9,
@@ -7100,7 +7102,7 @@
     "airfryer": {
       "achados": 2,
       "aprovados": 0,
-      "reprovados": 1
+      "reprovados": 2
     },
     "kit barba": {
       "achados": 1,
