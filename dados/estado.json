@@ -341,6 +341,26 @@
       "titulo": "Trena de aço carbono para medições em reformas",
       "aprovado_sozinho": true,
       "aprovado_em": "2026-10-15T15:41-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB21362449",
+      "origem": "xetdaspromocoes",
+      "link": "https://meli.la/19BLAXs",
+      "link_produto": "https://meli.la/19BLAXs",
+      "post_origem": "https://t.me/xetdaspromocoes/85039",
+      "link_canal": "https://meli.la/1hy9pqm",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_993254-MLA115688090969_082026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Prohibido Pré Treino 360g",
+      "de": 125.0,
+      "por": 71.88,
+      "palavra": "pre treino",
+      "garimpado_em": "2026-10-15T15:00-03:00",
+      "nota": 64.2,
+      "titulo": "Pré-treino para dar mais energia nos exercícios",
+      "na_revisao_desde": "2026-10-15T15:41-03:00",
+      "aprovado_em": "2026-10-15T15:47-03:00"
     }
   ],
   "postados": [
@@ -2144,28 +2164,6 @@
       "id": 621,
       "na_revisao_desde": "2026-10-15T15:41-03:00",
       "msg_id": 1013
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB21362449",
-      "origem": "xetdaspromocoes",
-      "link": "https://www.mercadolivre.com.br/prohibido-pre-treino-360g-sabor-strawberry-margarita-morango-a-combinacao-perfeita-de-8-ingredientes-que-proporcionam-energia-do-inicio-ao-fim-do-seu-treino/p/MLB21362449?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/prohibido-pre-treino-360g-sabor-strawberry-margarita-morango-a-combinacao-perfeita-de-8-ingredientes-que-proporcionam-energia-do-inicio-ao-fim-do-seu-treino/p/MLB21362449",
-      "post_origem": "https://t.me/xetdaspromocoes/85039",
-      "link_canal": "https://meli.la/1hy9pqm",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_993254-MLA115688090969_082026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Prohibido Pré Treino 360g",
-      "pix": true,
-      "de": 125.0,
-      "por": 66.0,
-      "palavra": "pre treino",
-      "garimpado_em": "2026-10-15T15:00-03:00",
-      "nota": 64.2,
-      "titulo": "Pré-treino para dar mais energia nos exercícios",
-      "id": 622,
-      "na_revisao_desde": "2026-10-15T15:41-03:00",
-      "msg_id": 1014
     }
   ],
   "proximo_id": 623,
@@ -7544,7 +7542,7 @@
       },
       "xetdaspromocoes": {
         "achados": 7,
-        "aprovados": 3,
+        "aprovados": 4,
         "reprovados": 0
       },
       "pobregram": {
@@ -7753,7 +7751,7 @@
     },
     "pre treino": {
       "achados": 3,
-      "aprovados": 0,
+      "aprovados": 1,
       "reprovados": 2
     },
     "relogio": {
