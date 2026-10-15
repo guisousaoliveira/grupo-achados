@@ -317,6 +317,28 @@
       "titulo": "Garrafa térmica pequena para manter o café quente",
       "na_revisao_desde": "2026-10-15T16:41-03:00",
       "aprovado_em": "2026-10-15T19:15-03:00"
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:874482610.58209603177",
+      "nome": "Luva de Academia Musculação Treino Max Grip Protetor de Pegada Antiderrapante 4 Dedos",
+      "por": 14.98,
+      "de": 99.87,
+      "foto": "AgACAgQAAxkDAAID42rRAj3uVLPiSRkjUqozPDVDdGHIAAJrDmsbTLhtUR-MaqOJNQGOAQADAgADeAADPQQ",
+      "link": "https://s.shopee.com.br/5VW7p5ZoKL",
+      "link_produto": "https://shopee.com.br/product/874482610/58209603177",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.8,
+      "vendas": 503,
+      "palavra": "luva de academia",
+      "garimpado_em": "2026-10-15T13:00-03:00",
+      "nota": 87.5,
+      "titulo": "Luva antiderrapante para proteger as mãos no treino",
+      "na_revisao_desde": "2026-10-15T13:41-03:00",
+      "aprovado_em": "2026-10-15T19:24-03:00"
     }
   ],
   "postados": [
@@ -2067,29 +2089,6 @@
       "id": 611,
       "na_revisao_desde": "2026-10-15T13:41-03:00",
       "msg_id": 994
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:874482610.58209603177",
-      "nome": "Luva de Academia Musculação Treino Max Grip Protetor de Pegada Antiderrapante 4 Dedos",
-      "por": 14.98,
-      "de": 99.87,
-      "foto": "AgACAgQAAxkDAAID42rRAj3uVLPiSRkjUqozPDVDdGHIAAJrDmsbTLhtUR-MaqOJNQGOAQADAgADeAADPQQ",
-      "link": "https://s.shopee.com.br/5VW7p5ZoKL",
-      "link_produto": "https://shopee.com.br/product/874482610/58209603177",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.8,
-      "vendas": 503,
-      "palavra": "luva de academia",
-      "garimpado_em": "2026-10-15T13:00-03:00",
-      "nota": 87.5,
-      "titulo": "Luva antiderrapante para proteger as mãos no treino",
-      "id": 612,
-      "na_revisao_desde": "2026-10-15T13:41-03:00",
-      "msg_id": 995
     }
   ],
   "proximo_id": 630,
@@ -6985,7 +6984,7 @@
     "2026-10-15": {
       "shopee": {
         "achados": 18,
-        "aprovados": 2,
+        "aprovados": 3,
         "reprovados": 1
       },
       "lobaopromo": {
@@ -7334,7 +7333,7 @@
     },
     "luva de academia": {
       "achados": 1,
-      "aprovados": 0,
+      "aprovados": 1,
       "reprovados": 0
     },
     "aparador de barba": {
