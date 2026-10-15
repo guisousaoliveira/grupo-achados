@@ -339,27 +339,6 @@
       "titulo": "Fragrância fresca ideal para dias de calor",
       "na_revisao_desde": "2026-10-15T17:40-03:00",
       "aprovado_em": "2026-10-15T17:52-03:00"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB4004443475",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/1wVDqot",
-      "link_produto": "https://meli.la/1wVDqot",
-      "post_origem": "https://t.me/lobaopromo/189948",
-      "link_canal": "https://meli.la/313wppX",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_802075-MLB117817354359_092026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Kit 4 Camisetas Masculina Dry Fit Ultra Leve Academia",
-      "pix": true,
-      "de": 163.0,
-      "por": 66.0,
-      "palavra": "academia",
-      "garimpado_em": "2026-10-15T16:40-03:00",
-      "nota": 73.5,
-      "titulo": "Camisetas dry fit leves para treinar com conforto",
-      "na_revisao_desde": "2026-10-15T16:40-03:00",
-      "aprovado_em": "2026-10-15T17:52-03:00"
     }
   ],
   "postados": [
@@ -1648,6 +1627,15 @@
       "link": "https://link.amazon/B08mwh9Vp",
       "link_produto": "https://link.amazon/B08mwh9Vp",
       "titulo": "Relógio Timex em couro para o dia a dia"
+    },
+    {
+      "chave": "mercadolivre:MLB4004443475",
+      "loja": "mercadolivre",
+      "nome": "Kit 4 Camisetas Masculina Dry Fit Ultra Leve Academia",
+      "data": "2026-10-15T17:53-03:00",
+      "link": "https://meli.la/1wVDqot",
+      "link_produto": "https://meli.la/1wVDqot",
+      "titulo": "Camisetas dry fit leves para treinar com conforto"
     }
   ],
   "slots_usados": {
@@ -6093,6 +6081,20 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB4004443475",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/1wVDqot",
+      "link_produto": "https://meli.la/1wVDqot",
+      "post_origem": "https://t.me/lobaopromo/189948",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_802075-MLB117817354359_092026-O.webp",
+      "nome": "Kit 4 Camisetas Masculina Dry Fit Ultra Leve Academia",
+      "pix": true,
+      "de": 163.0,
+      "por": 66.0,
+      "titulo": "Camisetas dry fit leves para treinar com conforto"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B01JO75X6K",
       "origem": "promobit",
@@ -6621,19 +6623,6 @@
       "de": 309.0,
       "por": 138.0,
       "titulo": "Whey NO PRECINHO"
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:979724994.23798014198",
-      "nome": "Jogo de Soquetes de Impacto Longo 1/2 10 Peças  8 A 24mm",
-      "por": 30.98,
-      "de": 206.53,
-      "foto": "AgACAgQAAxkDAAIDM2rPXDU1f52rQSsgaUMQm85NTDKJAAIJEGsbIeg0UPgQ5PpXE8_LAQADAgADeQADPQQ",
-      "link": "https://s.shopee.com.br/5q8wFlhmPW",
-      "link_produto": "https://shopee.com.br/product/979724994/23798014198",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "titulo": "Soquetes longos para aperto firme em oficina"
     }
   ],
   "lixeira": [
