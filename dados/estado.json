@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "amazon",
-      "chave": "amazon:B0FCGBD62W",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://link.amazon/B01keYSBF",
-      "link_produto": "https://link.amazon/B01keYSBF",
-      "post_origem": "https://www.promobit.com.br/oferta/corinthians-camisa-polo-retro-kalunga-masculina-preta-m-3114645/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3114645/",
-      "nome": "Corinthians Camisa Polo Retrô Kalunga Masculina Preta M",
-      "por": 89.33,
-      "de": 219.99,
-      "foto": "AgACAgQAAxkDAAIDmmrQEw0aZ2Hrq_g9tPBeaePZi6bJAAJaD2sbnoeEUpMcdGUw6P_5AQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "palavra": "camisa polo",
-      "garimpado_em": "2026-10-14T20:30-03:00",
-      "nota": 77.2,
-      "titulo": "Camisa polo preta para torcer com estilo",
-      "na_revisao_desde": "2026-10-14T20:41-03:00",
-      "parcelas": 2,
-      "aprovado_em": "2026-10-14T21:14-03:00"
-    },
-    {
       "loja": "shopee",
       "chave": "shopee:1325772331.23893407082",
       "nome": "Mini Lanterna Tática Com Led E Zoom Recarregável Usb Lanterna De Mao 535",
@@ -1487,6 +1465,15 @@
       "link_produto": "https://link.amazon/B0h3P5yvl",
       "titulo": "Creatina sem sabor para o seu treino diário",
       "slot": 8
+    },
+    {
+      "chave": "amazon:B0FCGBD62W",
+      "loja": "amazon",
+      "nome": "Corinthians Camisa Polo Retrô Kalunga Masculina Preta M",
+      "data": "2026-10-15T08:46-03:00",
+      "link": "https://link.amazon/B01keYSBF",
+      "link_produto": "https://link.amazon/B01keYSBF",
+      "titulo": "Camisa polo preta para torcer com estilo"
     }
   ],
   "slots_usados": {
@@ -4574,6 +4561,21 @@
   "ultimos": [
     {
       "loja": "amazon",
+      "chave": "amazon:B0FCGBD62W",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://link.amazon/B01keYSBF",
+      "link_produto": "https://link.amazon/B01keYSBF",
+      "post_origem": "https://www.promobit.com.br/oferta/corinthians-camisa-polo-retro-kalunga-masculina-preta-m-3114645/",
+      "nome": "Corinthians Camisa Polo Retrô Kalunga Masculina Preta M",
+      "por": 89.33,
+      "de": 219.99,
+      "foto": "AgACAgQAAxkDAAIDmmrQEw0aZ2Hrq_g9tPBeaePZi6bJAAJaD2sbnoeEUpMcdGUw6P_5AQADAgADeAADPQQ",
+      "titulo": "Camisa polo preta para torcer com estilo",
+      "parcelas": 2
+    },
+    {
+      "loja": "amazon",
       "chave": "amazon:B0DG42KW7N",
       "origem": "promonocontext",
       "link": "https://link.amazon/B0h3P5yvl",
@@ -5088,19 +5090,6 @@
       "cupom": "FULLLANDING",
       "titulo": "Kit completo com 129 peças",
       "de": 333.82
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB59802579",
-      "origem": "promonocontext",
-      "link": "https://meli.la/26v3LzP",
-      "link_produto": "https://meli.la/26v3LzP",
-      "post_origem": "https://t.me/promonocontext/126271",
-      "foto": "AgACAgQAAxkDAAICdGrOeNd1tMg2jCv9UM18M9t-I2_DAAKhC2sbabzEUcBjRz2TXlK6AQADAgADeAADPQQ",
-      "nome": "Caixa de Som JBL Grip 16W RMS IP68",
-      "por": 401.0,
-      "titulo": "Caixa de som JBL com resistência à água",
-      "de": 559.0
     }
   ],
   "lixeira": [
