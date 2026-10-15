@@ -277,6 +277,25 @@
       "na_revisao_desde": "2026-10-15T00:41-03:00",
       "prime": true,
       "aprovado_em": "2026-10-15T00:44-03:00"
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0BHL6FKYY",
+      "origem": "lobaopromo",
+      "link": "https://link.amazon/B0cTnbVAl",
+      "link_produto": "https://link.amazon/B0cTnbVAl",
+      "post_origem": "https://t.me/lobaopromo/189697",
+      "link_canal": "https://amzlink.to/az0mktWMrFM5X",
+      "foto": "AgACAgQAAxkDAAIDr2rQniHzzfWH-0jemzXSuVpGdUKSAAJSDmsbwQc9UNDEvXg1onRNAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "nome": "Creatina Dux Nutrition 300g",
+      "pix": true,
+      "por": 47.22,
+      "palavra": "creatina",
+      "garimpado_em": "2026-10-15T06:33-03:00",
+      "nota": 46.1,
+      "na_revisao_desde": "2026-10-15T06:34-03:00",
+      "aprovado_em": "2026-10-15T06:35-03:00"
     }
   ],
   "postados": [
@@ -1477,27 +1496,6 @@
       "id": 577,
       "na_revisao_desde": "2026-10-15T06:34-03:00",
       "msg_id": 942
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0BHL6FKYY",
-      "origem": "lobaopromo",
-      "link": "https://www.amazon.com.br/dp/B0BHL6FKYY?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0BHL6FKYY?tag=alphadominu09-20",
-      "post_origem": "https://t.me/lobaopromo/189697",
-      "link_canal": "https://amzlink.to/az0mktWMrFM5X",
-      "foto": "AgACAgQAAxkDAAIDr2rQniHzzfWH-0jemzXSuVpGdUKSAAJSDmsbwQc9UNDEvXg1onRNAQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "nome": "Creatina Dux Nutrition 300g",
-      "pix": true,
-      "por": 47.22,
-      "palavra": "creatina",
-      "garimpado_em": "2026-10-15T06:33-03:00",
-      "nota": 46.1,
-      "titulo": "Creatina em pó para o seu treino diário",
-      "id": 578,
-      "na_revisao_desde": "2026-10-15T06:34-03:00",
-      "msg_id": 943
     },
     {
       "loja": "amazon",
@@ -5821,7 +5819,7 @@
       },
       "lobaopromo": {
         "achados": 3,
-        "aprovados": 0,
+        "aprovados": 1,
         "reprovados": 0
       },
       "promobit": {
@@ -5940,7 +5938,7 @@
     },
     "creatina": {
       "achados": 24,
-      "aprovados": 11,
+      "aprovados": 12,
       "reprovados": 11
     },
     "cueca": {
