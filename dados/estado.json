@@ -314,6 +314,26 @@
       "titulo": "Lanterna tática recarregável para iluminação de alta potênci",
       "na_revisao_desde": "2026-10-15T09:41-03:00",
       "aprovado_em": "2026-10-15T10:24-03:00"
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0HF1LQFDD",
+      "origem": "promooeasy",
+      "link": "https://link.amazon/B0gpEKydS",
+      "link_produto": "https://link.amazon/B0gpEKydS",
+      "post_origem": "https://t.me/promooeasy/222015",
+      "link_canal": "https://www.amazon.com.br/Stanley-Garrafa-T%C3%A9rmica-Quick-Black/dp/B0HF1LQFDD?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAIDxmrQyemffbltOgnfwH3Bub-yQrNnAAJvD2sbusONUjaDW57VRhggAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Stanley Garrafa Térmica Quick Flip Black 710ml",
+      "de": 269.0,
+      "por": 167.39,
+      "palavra": "garrafa termica",
+      "garimpado_em": "2026-10-15T09:01-03:00",
+      "nota": 62.3,
+      "titulo": "Garrafa térmica Stanley para manter a água gelada",
+      "na_revisao_desde": "2026-10-15T09:41-03:00",
+      "aprovado_em": "2026-10-15T10:26-03:00"
     }
   ],
   "postados": [
@@ -1564,29 +1584,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0HF1LQFDD",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0HF1LQFDD?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0HF1LQFDD?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/222015",
-      "link_canal": "https://www.amazon.com.br/Stanley-Garrafa-T%C3%A9rmica-Quick-Black/dp/B0HF1LQFDD?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAIDxmrQyemffbltOgnfwH3Bub-yQrNnAAJvD2sbusONUjaDW57VRhggAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Stanley Garrafa Térmica Quick Flip Black 710ml",
-      "de": 269.0,
-      "por": 167.39,
-      "palavra": "garrafa termica",
-      "garimpado_em": "2026-10-15T09:01-03:00",
-      "nota": 62.3,
-      "titulo": "Garrafa térmica Stanley para manter a água gelada",
-      "id": 589,
-      "na_revisao_desde": "2026-10-15T09:41-03:00",
-      "msg_id": 966
-    }
-  ],
+  "revisar": [],
   "proximo_id": 593,
   "radar": {
     "visto": {
@@ -6449,7 +6447,7 @@
       },
       "promooeasy": {
         "achados": 4,
-        "aprovados": 2,
+        "aprovados": 3,
         "reprovados": 1
       },
       "xetdaspromocoes": {
@@ -6608,7 +6606,7 @@
     },
     "garrafa termica": {
       "achados": 8,
-      "aprovados": 5,
+      "aprovados": 6,
       "reprovados": 2
     },
     "jbl": {
