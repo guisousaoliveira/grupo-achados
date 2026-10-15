@@ -316,6 +316,27 @@
       "titulo": "Aparador dez em um para cabelo e barba",
       "aprovado_sozinho": true,
       "aprovado_em": "2026-10-15T09:41-03:00"
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0GCZYJNLJ",
+      "origem": "pobregram",
+      "link": "https://link.amazon/B0hLMVKVy",
+      "link_produto": "https://link.amazon/B0hLMVKVy",
+      "post_origem": "https://t.me/pobregram/41929",
+      "link_canal": "https://link.amazon/B03kr3NCj",
+      "foto": "AgACAgEAAxkDAAIDyWrQyfNyGAAB1DkUDYuIPbTWNwjEPQACYQ1rGyoaiEZnYWf5YMmyhQEAAwIAA3gAAz0E",
+      "foto_origem": "canal",
+      "nome": "Power Bank Basike 20000mAh USB-C/ Lightning 22.5W",
+      "pix": true,
+      "de": 106.26,
+      "por": 92.1,
+      "palavra": "power bank",
+      "garimpado_em": "2026-10-15T09:01-03:00",
+      "nota": 42.8,
+      "titulo": "Power bank de alta capacidade para carregar o celular",
+      "na_revisao_desde": "2026-10-15T09:41-03:00",
+      "aprovado_em": "2026-10-15T09:59-03:00"
     }
   ],
   "postados": [
@@ -1600,28 +1621,6 @@
       "id": 591,
       "na_revisao_desde": "2026-10-15T09:41-03:00",
       "msg_id": 968
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0GCZYJNLJ",
-      "origem": "pobregram",
-      "link": "https://www.amazon.com.br/dp/B0GCZYJNLJ?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0GCZYJNLJ?tag=alphadominu09-20",
-      "post_origem": "https://t.me/pobregram/41929",
-      "link_canal": "https://link.amazon/B03kr3NCj",
-      "foto": "AgACAgEAAxkDAAIDyWrQyfNyGAAB1DkUDYuIPbTWNwjEPQACYQ1rGyoaiEZnYWf5YMmyhQEAAwIAA3gAAz0E",
-      "foto_origem": "canal",
-      "nome": "Power Bank Basike 20000mAh USB-C/ Lightning 22.5W",
-      "pix": true,
-      "de": 106.26,
-      "por": 92.1,
-      "palavra": "power bank",
-      "garimpado_em": "2026-10-15T09:01-03:00",
-      "nota": 42.8,
-      "titulo": "Power bank de alta capacidade para carregar o celular",
-      "id": 592,
-      "na_revisao_desde": "2026-10-15T09:41-03:00",
-      "msg_id": 969
     }
   ],
   "proximo_id": 593,
@@ -6418,7 +6417,7 @@
       },
       "pobregram": {
         "achados": 1,
-        "aprovados": 0,
+        "aprovados": 1,
         "reprovados": 0
       }
     }
@@ -6612,7 +6611,7 @@
     },
     "power bank": {
       "achados": 11,
-      "aprovados": 1,
+      "aprovados": 2,
       "reprovados": 8
     },
     "pre treino": {
