@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB57797847",
-      "origem": "promonocontext",
-      "link": "https://meli.la/2ZXjdGB",
-      "link_produto": "https://meli.la/2ZXjdGB",
-      "post_origem": "https://t.me/promonocontext/126676",
-      "link_canal": "https://meli.la/19E4GeK",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_799653-MLA111923920498_062026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Garrafa Térmica Stanley Aerolight Transit Slim Black 2.0 591ml",
-      "cupom_loja": "Use o cupom 15% OFF do anúncio 📌",
-      "de": 259.0,
-      "por": 140.0,
-      "palavra": "garrafa termica",
-      "garimpado_em": "2026-10-14T13:40-03:00",
-      "nota": 72.9,
-      "titulo": "Garrafa térmica que mantém a bebida gelada o dia todo",
-      "na_revisao_desde": "2026-10-14T13:40-03:00",
-      "cupom": "Use o cupom 15% OFF do anúncio",
-      "aprovado_em": "2026-10-14T13:42-03:00"
-    },
-    {
       "loja": "shopee",
       "chave": "shopee:1127030290.23593847901",
       "nome": "Mochila Bolsa Viagem Resistente Coreana Masculina Feminina Colorida",
@@ -1313,6 +1291,15 @@
       "link_produto": "https://shopee.com.br/product/1345043704/22497773735",
       "titulo": "Mochila impermeável com compartimento para notebook e USB",
       "slot": 20
+    },
+    {
+      "chave": "mercadolivre:MLB57797847",
+      "loja": "mercadolivre",
+      "nome": "Garrafa Térmica Stanley Aerolight Transit Slim Black 2.0 591ml",
+      "data": "2026-10-14T21:15-03:00",
+      "link": "https://meli.la/2ZXjdGB",
+      "link_produto": "https://meli.la/2ZXjdGB",
+      "titulo": "Garrafa térmica que mantém a bebida gelada o dia todo"
     }
   ],
   "slots_usados": {
@@ -4623,6 +4610,21 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB57797847",
+      "origem": "promonocontext",
+      "link": "https://meli.la/2ZXjdGB",
+      "link_produto": "https://meli.la/2ZXjdGB",
+      "post_origem": "https://t.me/promonocontext/126676",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_799653-MLA111923920498_062026-O.webp",
+      "nome": "Garrafa Térmica Stanley Aerolight Transit Slim Black 2.0 591ml",
+      "cupom_loja": "Use o cupom 15% OFF do anúncio 📌",
+      "de": 259.0,
+      "por": 165.68,
+      "titulo": "Garrafa térmica que mantém a bebida gelada o dia todo",
+      "cupom": "Use o cupom 15% OFF do anúncio"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:1345043704.22497773735",
       "nome": "ROMANTIC CROWN Mochila Viagem Feminina Masculina Multifuncional Reforçada Impermeável Expansível, Notebook Antifurto USB",
@@ -5143,20 +5145,6 @@
       "por": 32.9,
       "titulo": "pra dar aquela força extra",
       "de": 69.31
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0HHL6F5M6",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://link.amazon/B04wH69OL",
-      "link_produto": "https://link.amazon/B04wH69OL",
-      "post_origem": "https://www.promobit.com.br/oferta/cadeado-com-senha-3-digitos-para-mala-mochila-armario-e-academia-preto-3109772/",
-      "nome": "Cadeado Com Senha 3 Dígitos Para Mala",
-      "por": 12.9,
-      "de": 29.9,
-      "foto": "AgACAgQAAxkDAAIBc2rOGNCeH4RtxiR54OJ4fv22OAJQAAKhD2sbgt4sUkeQRHiOWNfrAQADAgADeQADPQQ",
-      "titulo": "Cadeado para proteger sua bagagem"
     }
   ],
   "lixeira": [
