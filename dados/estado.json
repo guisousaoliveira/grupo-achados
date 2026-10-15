@@ -21,7 +21,8 @@
       "nota": 76.3,
       "titulo": "Suporte veicular para usar o GPS com segurança",
       "na_revisao_desde": "2026-10-14T15:41-03:00",
-      "aprovado_em": "2026-10-14T18:18-03:00"
+      "aprovado_em": "2026-10-14T18:18-03:00",
+      "aviso_validade": true
     },
     {
       "loja": "amazon",
@@ -43,7 +44,8 @@
       "nota": 61.7,
       "titulo": "Smartwatch esportivo para monitorar suas atividades diárias",
       "na_revisao_desde": "2026-10-14T15:41-03:00",
-      "aprovado_em": "2026-10-14T18:18-03:00"
+      "aprovado_em": "2026-10-14T18:18-03:00",
+      "aviso_validade": true
     },
     {
       "loja": "amazon",
@@ -1476,13 +1478,13 @@
   "radar": {
     "visto": {
       "xetdaspromocoes": 84903,
-      "lobaopromo": 189714,
+      "lobaopromo": 189715,
       "gatunopromos": 125468,
       "pobregram": 41922,
       "urubupromo": 41689,
       "tudonapromo": 101936,
       "promonocontext": 126921,
-      "promooeasy": 221918,
+      "promooeasy": 221919,
       "aquitempechincha": 281735,
       "infoBRpromos": 67597,
       "boletando": 76748,
@@ -3287,11 +3289,11 @@
       "soltas": 5,
       "na_peneira": 1
     },
-    "hora": "2026-10-15T06",
-    "nesta_hora": 6,
-    "promobit_hora": "2026-10-15T06",
-    "promobit_nesta_hora": 3,
-    "promobit_visto": 3115265,
+    "hora": "2026-10-15T07",
+    "nesta_hora": 0,
+    "promobit_hora": "2026-10-15T07",
+    "promobit_nesta_hora": 0,
+    "promobit_visto": 3115268,
     "nomes": [
       [
         [
@@ -4226,36 +4228,14 @@
         "2026-10-15T06:34-03:00"
       ]
     ],
-    "peneira": [
-      {
-        "loja": "amazon",
-        "chave": "amazon:B0F393TXC4",
-        "origem": "promooeasy",
-        "link": "https://www.amazon.com.br/dp/B0F393TXC4?tag=alphadominu09-20",
-        "link_produto": "https://www.amazon.com.br/dp/B0F393TXC4?tag=alphadominu09-20",
-        "post_origem": "https://t.me/promooeasy/221915",
-        "link_canal": "https://www.amazon.com.br/dp/B0F393TXC4?tag=promof26-20",
-        "foto": "https://m.media-amazon.com/images/I/71SeJ4VhVqL._AC_SL1500_.jpg",
-        "foto_origem": "loja",
-        "nome": "Aparelho de jantar Trésor em new Bone China 50 peças Branco com relevo e filado dourado",
-        "parcelas": 10,
-        "por": 949.0,
-        "palavra": "bone",
-        "garimpado_em": "2026-10-15T06:34-03:00",
-        "nota": 20.2
-      }
-    ],
-    "soltas_hora": "2026-10-15T06",
-    "soltas": 5,
-    "shopee_em": "2026-10-15T00:50-03:00",
-    "shopee_indice": 56,
+    "peneira": [],
+    "soltas_hora": "2026-10-15T07",
+    "soltas": 0,
+    "shopee_em": "2026-10-15T07:00-03:00",
+    "shopee_indice": 64,
     "soltas_dia_data": "2026-10-15",
     "soltas_dia": 10,
-    "soltas_loja": {
-      "mercadolivre": 2,
-      "amazon": 3
-    },
-    "pausado": true
+    "soltas_loja": {}
   },
   "ultimos": [
     {
