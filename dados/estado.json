@@ -3,28 +3,6 @@
   "fila": [
     {
       "loja": "amazon",
-      "chave": "amazon:B07LGZM6JC",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://link.amazon/B03KaPhR1",
-      "link_produto": "https://link.amazon/B03KaPhR1",
-      "post_origem": "https://www.promobit.com.br/oferta/mor-caixa-termica-42-litros-azul-3115024/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3115024/",
-      "nome": "Mor - Caixa Térmica 42 Litros Azul",
-      "por": 278.04,
-      "de": 489.9,
-      "foto": "AgACAgQAAxkDAAIDp2rQS1VlvBL7Y8RwXoMqzUA7Mcb8AALfDGsbX7rdUoF9slLUdJ36AQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "palavra": "caixa termica",
-      "garimpado_em": "2026-10-14T22:50-03:00",
-      "nota": 50.0,
-      "titulo": "Caixa térmica grande para bebidas e alimentos na praia",
-      "na_revisao_desde": "2026-10-15T00:41-03:00",
-      "prime": true,
-      "aprovado_em": "2026-10-15T00:44-03:00"
-    },
-    {
-      "loja": "amazon",
       "chave": "amazon:B0BHL6FKYY",
       "origem": "lobaopromo",
       "link": "https://link.amazon/B0cTnbVAl",
@@ -1528,6 +1506,16 @@
       "link_produto": "https://link.amazon/B0cyKMdY6",
       "titulo": "Alicate de pressão para fixar peças e cortes",
       "slot": 11
+    },
+    {
+      "chave": "amazon:B07LGZM6JC",
+      "loja": "amazon",
+      "nome": "Mor - Caixa Térmica 42 Litros Azul",
+      "data": "2026-10-15T12:50-03:00",
+      "link": "https://link.amazon/B03KaPhR1",
+      "link_produto": "https://link.amazon/B03KaPhR1",
+      "titulo": "Caixa térmica grande para bebidas e alimentos na praia",
+      "slot": 12
     }
   ],
   "slots_usados": {
@@ -1592,7 +1580,8 @@
       8,
       9,
       10,
-      11
+      11,
+      12
     ]
   },
   "shopee_buscado_em": "",
@@ -5281,6 +5270,21 @@
   "ultimos": [
     {
       "loja": "amazon",
+      "chave": "amazon:B07LGZM6JC",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://link.amazon/B03KaPhR1",
+      "link_produto": "https://link.amazon/B03KaPhR1",
+      "post_origem": "https://www.promobit.com.br/oferta/mor-caixa-termica-42-litros-azul-3115024/",
+      "nome": "Mor - Caixa Térmica 42 Litros Azul",
+      "por": 278.04,
+      "de": 489.9,
+      "foto": "AgACAgQAAxkDAAIDp2rQS1VlvBL7Y8RwXoMqzUA7Mcb8AALfDGsbX7rdUoF9slLUdJ36AQADAgADeAADPQQ",
+      "titulo": "Caixa térmica grande para bebidas e alimentos na praia",
+      "prime": true
+    },
+    {
+      "loja": "amazon",
       "chave": "amazon:B08LP3JV5J",
       "origem": "promobit",
       "fonte": "promobit",
@@ -5797,21 +5801,6 @@
       "foto": "AgACAgQAAxkDAAICvGrOmysMjPtx7TZTDjd7iiMuhQABCAACNA9rGw3FfFLHUGMo0lncOgEAAwIAA20AAz0E",
       "nome": "Kit Vinho 5 Peças Uny Gift Abridor Saca Rolhas Dosador Aço Inox",
       "por": 35.7
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0FFTQV2KP",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://link.amazon/B06Sz66Hz",
-      "link_produto": "https://link.amazon/B06Sz66Hz",
-      "post_origem": "https://www.promobit.com.br/oferta/tenis-mizuno-neo-vortex-3111989/",
-      "nome": "Tênis Mizuno Neo Vortex",
-      "por": 270.0,
-      "de": 699.99,
-      "foto": "AgACAgQAAxkDAAIDFmrO3cyYEuQiY9JdAp12zOwzCEyDAAIkEGsb3rvtUF0TlOpBDAEoAQADAgADeQADPQQ",
-      "titulo": "Desconto de 61%: é agora ou nunca.",
-      "pix": true
     }
   ],
   "lixeira": [
