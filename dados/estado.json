@@ -2,27 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "amazon",
-      "chave": "amazon:B01JO75X6K",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://link.amazon/B08mwh9Vp",
-      "link_produto": "https://link.amazon/B08mwh9Vp",
-      "post_origem": "https://www.promobit.com.br/oferta/relogio-timex-expedition-scout-couro-marrom-3115354/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3115354/",
-      "nome": "Relógio Timex Expedition Scout Couro Marrom",
-      "por": 287.0,
-      "de": 505.75,
-      "foto": "AgACAgQAAxkDAAIDv2rQu_EtJI6Gzf8mXyXUL9Tmqu3DAAKCD2sbdb-FUso_B3InNxciAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "palavra": "relogio",
-      "garimpado_em": "2026-10-15T08:10-03:00",
-      "nota": 49.8,
-      "titulo": "Relógio Timex em couro para o dia a dia",
-      "na_revisao_desde": "2026-10-15T08:41-03:00",
-      "aprovado_em": "2026-10-15T08:45-03:00"
-    },
-    {
       "loja": "shopee",
       "chave": "shopee:1620616375.23194887818",
       "nome": "Máquina de Cortar Cabelo Profissional Sem Fio Aparador de Barba Recarregável",
@@ -1619,6 +1598,15 @@
       "link_produto": "https://link.amazon/B08XneOZz",
       "titulo": "Mochila com cordão para academia e viagens leves",
       "slot": 17
+    },
+    {
+      "chave": "amazon:B01JO75X6K",
+      "loja": "amazon",
+      "nome": "Relógio Timex Expedition Scout Couro Marrom",
+      "data": "2026-10-15T17:51-03:00",
+      "link": "https://link.amazon/B08mwh9Vp",
+      "link_produto": "https://link.amazon/B08mwh9Vp",
+      "titulo": "Relógio Timex em couro para o dia a dia"
     }
   ],
   "slots_usados": {
@@ -6130,6 +6118,20 @@
   "ultimos": [
     {
       "loja": "amazon",
+      "chave": "amazon:B01JO75X6K",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://link.amazon/B08mwh9Vp",
+      "link_produto": "https://link.amazon/B08mwh9Vp",
+      "post_origem": "https://www.promobit.com.br/oferta/relogio-timex-expedition-scout-couro-marrom-3115354/",
+      "nome": "Relógio Timex Expedition Scout Couro Marrom",
+      "por": 287.0,
+      "de": 505.75,
+      "foto": "AgACAgQAAxkDAAIDv2rQu_EtJI6Gzf8mXyXUL9Tmqu3DAAKCD2sbdb-FUso_B3InNxciAQADAgADeAADPQQ",
+      "titulo": "Relógio Timex em couro para o dia a dia"
+    },
+    {
+      "loja": "amazon",
       "chave": "amazon:B0DXF8MFR2",
       "origem": "promooeasy",
       "link": "https://link.amazon/B08XneOZz",
@@ -6656,19 +6658,6 @@
       "origem": "shopee",
       "fonte": "shopee",
       "titulo": "Soquetes longos para aperto firme em oficina"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB70377228",
-      "origem": "promonocontext",
-      "link": "https://meli.la/2QZxLVs",
-      "link_produto": "https://meli.la/2QZxLVs",
-      "post_origem": "https://t.me/promonocontext/126692",
-      "foto": "AgACAgQAAxkDAAIDfGrP2r4WQst7TXjceb7B1yseUzhPAAKgD2sb0lCEUnT3aR1nxzv4AQADAgADeAADPQQ",
-      "nome": "Mochila Urbana 15L Penalty",
-      "de": 119.0,
-      "por": 78.0,
-      "titulo": "Mochila para carregar notebook no dia a dia"
     }
   ],
   "lixeira": [],
