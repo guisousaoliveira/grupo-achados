@@ -1,0 +1,45 @@
+name: mimir
+
+# Resumo de IA às 8h e 16h (Brasília). Quem dispara é o bot-achados (mimir/gatilho.py),
+# porque o agendamento do GitHub atrasa horas neste repositório. Também dá pra rodar na mão.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: mimir
+  cancel-in-progress: false
+
+jobs:
+  resumo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - name: Instalar o Claude Code
+        run: npm install -g @anthropic-ai/claude-code
+      - name: Lembrar o resumo anterior
+        uses: actions/cache/restore@v4
+        with:
+          path: mimir/ultimo.md
+          key: mimir-${{ github.run_id }}
+          restore-keys: mimir-
+      - name: Fazer o resumo e mandar no Telegram
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          ADMIN_ID: ${{ secrets.ADMIN_ID }}
+          MIMIR_TELEGRAM_TOKEN: ${{ secrets.MIMIR_TELEGRAM_TOKEN }}
+          MIMIR_CHAT_ID: ${{ secrets.MIMIR_CHAT_ID }}
+        run: python3 mimir/rodar.py
+      - name: Guardar este resumo
+        if: success()
+        uses: actions/cache/save@v4
+        with:
+          path: mimir/ultimo.md
+          key: mimir-${{ github.run_id }}

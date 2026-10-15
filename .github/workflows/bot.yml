@@ -17,6 +17,7 @@ on:
 
 permissions:
   contents: write
+  actions: write  # para disparar o Mímir (mimir/gatilho.py)
 
 concurrency:
   group: bot-achados
@@ -40,3 +41,9 @@ jobs:
           BOT_RADAR_FORCADO: ${{ inputs.radar_forcado }}
           BOT_PEDIDO: ${{ inputs.pedido }}
         run: python3 bot.py rodar
+      - name: Disparar o Mímir (8h e 16h)
+        if: always()
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 mimir/gatilho.py
