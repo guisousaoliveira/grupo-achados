@@ -3,27 +3,6 @@
   "fila": [
     {
       "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB4470214747",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/2Vf6qGA",
-      "link_produto": "https://meli.la/2Vf6qGA",
-      "post_origem": "https://t.me/lobaopromo/189494",
-      "link_canal": "https://meli.la/2C8MFhA",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_639989-MLB106379373096_022026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Perfume Masculino Premium Midnight Blue 100ml Original Árabe",
-      "pix": true,
-      "de": 249.99,
-      "por": 77.0,
-      "palavra": "perfume masculino",
-      "garimpado_em": "2026-10-14T17:40-03:00",
-      "nota": 93.7,
-      "titulo": "Perfume árabe amadeirado para o uso diário",
-      "na_revisao_desde": "2026-10-14T17:40-03:00",
-      "aprovado_em": "2026-10-14T18:00-03:00"
-    },
-    {
-      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB6087972",
       "origem": "xetdaspromocoes",
       "link": "https://meli.la/2HvEipd",
@@ -1392,6 +1371,15 @@
       "link": "https://s.shopee.com.br/2VsUqM0ifg",
       "link_produto": "https://shopee.com.br/product/1121459942/23293571172",
       "titulo": "Bolsa resistente para organizar ferramentas no trabalho"
+    },
+    {
+      "chave": "mercadolivre:MLB4470214747",
+      "loja": "mercadolivre",
+      "nome": "Perfume Masculino Premium Midnight Blue 100ml Original Árabe",
+      "data": "2026-10-15T06:36-03:00",
+      "link": "https://meli.la/2Vf6qGA",
+      "link_produto": "https://meli.la/2Vf6qGA",
+      "titulo": "Perfume árabe amadeirado"
     }
   ],
   "slots_usados": {
@@ -4307,6 +4295,20 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB4470214747",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/2Vf6qGA",
+      "link_produto": "https://meli.la/2Vf6qGA",
+      "post_origem": "https://t.me/lobaopromo/189494",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_639989-MLB106379373096_022026-O.webp",
+      "nome": "Perfume Masculino Premium Midnight Blue 100ml Original Árabe",
+      "pix": true,
+      "de": 249.99,
+      "por": 77.0,
+      "titulo": "Perfume árabe amadeirado"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:1121459942.23293571172",
       "nome": "Bolsa de Ferramentas Profissional 14/20 Polegadas Multiuso Caixa de Ferramentas Maleta Organizadora Tecido Resiste",
@@ -4825,19 +4827,6 @@
       "de": 539.9,
       "foto": "AgACAgQAAxkDAAIB6GrOPB1wBRJOnzTjWV7TLWoF5Z7vAAJXD2sbQGV1UhtWPPK_dV_dAQADAgADeAADPQQ",
       "titulo": "Desconto de 45%: é agora ou nunca."
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB26796581",
-      "origem": "promonocontext",
-      "link": "https://meli.la/2VVeCii",
-      "link_produto": "https://meli.la/2VVeCii",
-      "post_origem": "https://t.me/promonocontext/126172",
-      "foto": "AgACAgQAAxkDAAIB8mrOQNGx3nVxjHH055ZaBxy03O3YAAJ1EGsbrZltUAsuDh-0QIvmAQADAgADeAADPQQ",
-      "nome": "Creatina Dark Lab Premium Pure em pó Sem sabor x 500g",
-      "por": 34.0,
-      "cupom": "OPAECONOMIZEI",
-      "titulo": "Investimento no shape que cabe no bolso."
     }
   ],
   "lixeira": [
