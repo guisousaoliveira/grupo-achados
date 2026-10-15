@@ -149,6 +149,28 @@
       "aprovado_em": "2026-10-15T08:45-03:00"
     },
     {
+      "loja": "shopee",
+      "chave": "shopee:1620616375.23194887818",
+      "nome": "Máquina de Cortar Cabelo Profissional Sem Fio Aparador de Barba Recarregável",
+      "por": 19.99,
+      "de": 68.93,
+      "foto": "https://cf.shopee.com.br/file/sg-11134201-8260x-mlnnm5mx651g09",
+      "link": "https://s.shopee.com.br/2VsWGx81Ve",
+      "link_produto": "https://shopee.com.br/product/1620616375/23194887818",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.8,
+      "vendas": 482,
+      "palavra": "aparador de barba",
+      "garimpado_em": "2026-10-15T13:20-03:00",
+      "nota": 82.1,
+      "titulo": "Aparador sem fio para cabelo e barba",
+      "aprovado_sozinho": true,
+      "aprovado_em": "2026-10-15T14:41-03:00"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB64095565",
       "origem": "xetdaspromocoes",
@@ -211,6 +233,28 @@
       "titulo": "Power bank de alta capacidade para carregar o celular",
       "na_revisao_desde": "2026-10-15T09:41-03:00",
       "aprovado_em": "2026-10-15T09:59-03:00"
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:1509466431.43809108037",
+      "nome": "Esmerilhadeira Lixadeira Angular 115mm 11000rpm",
+      "por": 109.9,
+      "de": 499.55,
+      "foto": "https://cf.shopee.com.br/file/cn-11134207-820l4-mua3tmipjvnp84",
+      "link": "https://s.shopee.com.br/40hK7onMzY",
+      "link_produto": "https://shopee.com.br/product/1509466431/43809108037",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.7,
+      "vendas": 490,
+      "palavra": "esmerilhadeira",
+      "garimpado_em": "2026-10-15T14:20-03:00",
+      "nota": 83.8,
+      "titulo": "Ferramenta para cortes e desbastes em metal e alvenaria",
+      "aprovado_sozinho": true,
+      "aprovado_em": "2026-10-15T14:40-03:00"
     },
     {
       "loja": "mercadolivre",
@@ -1983,23 +2027,89 @@
       "id": 612,
       "na_revisao_desde": "2026-10-15T13:41-03:00",
       "msg_id": 995
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB47773451",
+      "origem": "lobaopromo",
+      "link": "https://www.mercadolivre.com.br/smartwatch-bluetooth-anfei-smartwatch-com-alexa-e-funcao-de-chamada-de-voz-tela-de-191-polegadas-cor-preta/p/MLB47773451?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/smartwatch-bluetooth-anfei-smartwatch-com-alexa-e-funcao-de-chamada-de-voz-tela-de-191-polegadas-cor-preta/p/MLB47773451",
+      "post_origem": "https://t.me/lobaopromo/189877",
+      "link_canal": "https://meli.la/33GvKVn",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_765890-MLA83597837473_042025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Smartwatch Bluetooth Anfei Smartwatch com Alexa e função de chamada",
+      "por": 91.95,
+      "de": 199.9,
+      "palavra": "smartwatch",
+      "garimpado_em": "2026-10-15T13:51-03:00",
+      "nota": 72.9,
+      "titulo": "Smartwatch com Alexa e chamadas para o pulso",
+      "id": 614,
+      "na_revisao_desde": "2026-10-15T14:41-03:00",
+      "msg_id": 999
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0GVW8464B",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0GVW8464B?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0GVW8464B?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/samsung-combo-smart-tv-43-qled-full-hd-q5f-soundbar-hw-b400f-3116572/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3116572/",
+      "nome": "Samsung Combo Smart TV 43\" QLED Full HD Q5F + Soundbar HW B400F",
+      "por": 1801.3,
+      "de": 3806.0,
+      "foto": "AgACAgQAAxkDAAID6GrREEDysU4MMTz1X0mIlpYvi25pAALMDmsbkMZdUGYrtL_SmaaKAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "palavra": "smart tv",
+      "garimpado_em": "2026-10-15T14:30-03:00",
+      "nota": 52.4,
+      "titulo": "TV e soundbar para som e imagem integrados",
+      "id": 615,
+      "na_revisao_desde": "2026-10-15T14:41-03:00",
+      "msg_id": 1000
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB4770821247",
+      "origem": "lobaopromo",
+      "link": "https://www.mercadolivre.com.br/chave-de-impacto-a-bateria-48v-profissional/up/MLBU4096820920?pdp_filters=item_id%3AMLB4770821247&matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/chave-de-impacto-a-bateria-48v-profissional/up/MLBU4096820920?pdp_filters=item_id%3AMLB4770821247",
+      "post_origem": "https://t.me/lobaopromo/189863",
+      "link_canal": "https://meli.la/26TRhbF",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_624325-MLB113140259889_062026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Chave De Impacto A Bateria 48v Profissional Amarelo 48v",
+      "pix": true,
+      "de": 280.0,
+      "por": 142.0,
+      "cupom": "FULL1510",
+      "palavra": "chave de impacto",
+      "garimpado_em": "2026-10-15T13:00-03:00",
+      "nota": 68.4,
+      "titulo": "Chave de impacto para apertar parafusos pesados na oficina",
+      "id": 617,
+      "na_revisao_desde": "2026-10-15T14:41-03:00",
+      "msg_id": 1002
     }
   ],
-  "proximo_id": 613,
+  "proximo_id": 618,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 85037,
-      "lobaopromo": 189892,
-      "gatunopromos": 125529,
+      "xetdaspromocoes": 85038,
+      "lobaopromo": 189897,
+      "gatunopromos": 125531,
       "pobregram": 41962,
-      "urubupromo": 41717,
-      "tudonapromo": 102021,
-      "promonocontext": 127152,
-      "promooeasy": 222216,
-      "aquitempechincha": 281888,
+      "urubupromo": 41718,
+      "tudonapromo": 102023,
+      "promonocontext": 127155,
+      "promooeasy": 222223,
+      "aquitempechincha": 281891,
       "infoBRpromos": 67627,
-      "boletando": 76776,
-      "promotop": 260327,
+      "boletando": 76779,
+      "promotop": 260328,
       "achadosdotb": 11777
     },
     "dia": "2026-10-15",
@@ -3877,30 +3987,33 @@
       "shopee:328666563.19698975157",
       "shopee:1509466431.43809108037",
       "amazon:B0GVW8464B",
-      "amazon:B0GVVV961D"
+      "amazon:B0GVVV961D",
+      "shopee:1485783605.23493921552",
+      "shopee:995022276.23798435779",
+      "shopee:445163047.22993201309"
     ],
     "ultima": {
-      "em": "2026-10-15T14:30:26-03:00",
+      "em": "2026-10-15T14:40:24-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 32,
+      "posts_novos": 40,
       "do_nicho": 2,
-      "repetidas": 0,
-      "novas": 1,
+      "repetidas": 2,
+      "novas": 0,
       "limite_dia": false,
-      "repetidas_nome": 1,
-      "promobit": 1,
-      "soltas": 0,
-      "na_peneira": 26
+      "repetidas_nome": 0,
+      "promobit": 0,
+      "soltas": 5,
+      "na_peneira": 20
     },
     "hora": "2026-10-15T14",
     "nesta_hora": 2,
     "promobit_hora": "2026-10-15T14",
     "promobit_nesta_hora": 2,
-    "promobit_visto": 3116575,
+    "promobit_visto": 3116604,
     "nomes": [
       [
         [
@@ -5237,26 +5350,69 @@
           "pegada"
         ],
         "2026-10-15T13:41-03:00"
+      ],
+      [
+        [
+          "esmerilhadeira",
+          "lixadeira",
+          "angular",
+          "115mm",
+          "11000rpm"
+        ],
+        "2026-10-15T14:40-03:00"
+      ],
+      [
+        [
+          "smartwatch",
+          "bluetooth",
+          "anfei",
+          "smartwatch",
+          "alexa",
+          "funcao",
+          "chamada"
+        ],
+        "2026-10-15T14:41-03:00"
+      ],
+      [
+        [
+          "samsung",
+          "combo",
+          "smart",
+          "tv",
+          "43",
+          "qled",
+          "full",
+          "hd"
+        ],
+        "2026-10-15T14:41-03:00"
+      ],
+      [
+        [
+          "maquina",
+          "cortar",
+          "cabelo",
+          "profissional",
+          "fio",
+          "aparador",
+          "barba",
+          "recarregavel"
+        ],
+        "2026-10-15T14:41-03:00"
+      ],
+      [
+        [
+          "chave",
+          "impacto",
+          "bateria",
+          "48v",
+          "profissional",
+          "amarelo",
+          "48v"
+        ],
+        "2026-10-15T14:41-03:00"
       ]
     ],
     "peneira": [
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB2813290023",
-        "origem": "tudonapromo",
-        "link": "https://produto.mercadolivre.com.br/MLB-2813290023-kit-3-cuecas-longleg-anti-assadura-masculina-shorts-esportes-_JM?pdp_filters=item_id%3AMLB2813290023&matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://produto.mercadolivre.com.br/MLB-2813290023-kit-3-cuecas-longleg-anti-assadura-masculina-shorts-esportes-_JM?pdp_filters=item_id%3AMLB2813290023",
-        "post_origem": "https://t.me/tudonapromo/101991",
-        "link_canal": "https://meli.la/2cRzroW",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_703305-MLB51670796466_092022-O.webp",
-        "foto_origem": "loja",
-        "nome": "Kit 3 Cuecas Longleg Anti Assadura Masculina Shorts Esportes",
-        "de": 112.0,
-        "por": 54.0,
-        "palavra": "cueca",
-        "garimpado_em": "2026-10-15T11:40-03:00",
-        "nota": 53.6
-      },
       {
         "loja": "mercadolivre",
         "chave": "mercadolivre:MLB51032488",
@@ -5385,25 +5541,6 @@
       },
       {
         "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB4770821247",
-        "origem": "lobaopromo",
-        "link": "https://www.mercadolivre.com.br/chave-de-impacto-a-bateria-48v-profissional/up/MLBU4096820920?pdp_filters=item_id%3AMLB4770821247&matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/chave-de-impacto-a-bateria-48v-profissional/up/MLBU4096820920?pdp_filters=item_id%3AMLB4770821247",
-        "post_origem": "https://t.me/lobaopromo/189863",
-        "link_canal": "https://meli.la/26TRhbF",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_624325-MLB113140259889_062026-O.webp",
-        "foto_origem": "loja",
-        "nome": "Chave De Impacto A Bateria 48v Profissional Amarelo 48v",
-        "pix": true,
-        "de": 280.0,
-        "por": 142.0,
-        "cupom": "FULL1510",
-        "palavra": "chave de impacto",
-        "garimpado_em": "2026-10-15T13:00-03:00",
-        "nota": 68.4
-      },
-      {
-        "loja": "mercadolivre",
         "chave": "mercadolivre:MLB5341784160",
         "origem": "promonocontext",
         "link": "https://produto.mercadolivre.com.br/MLB-5341784160-kit-10-cuecas-mash-masculino-slip-algodo-cotton-original-_JM?pdp_filters=item_id%3AMLB5341784160&matt_word=alphapromo&matt_tool=59136903",
@@ -5508,25 +5645,6 @@
       },
       {
         "loja": "shopee",
-        "chave": "shopee:1620616375.23194887818",
-        "nome": "Máquina de Cortar Cabelo Profissional Sem Fio Aparador de Barba Recarregável",
-        "por": 19.99,
-        "de": 68.93,
-        "foto": "https://cf.shopee.com.br/file/sg-11134201-8260x-mlnnm5mx651g09",
-        "link": "https://s.shopee.com.br/2VsWGx81Ve",
-        "link_produto": "https://shopee.com.br/product/1620616375/23194887818",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 4.8,
-        "vendas": 482,
-        "palavra": "aparador de barba",
-        "garimpado_em": "2026-10-15T13:20-03:00",
-        "nota": 82.1
-      },
-      {
-        "loja": "shopee",
         "chave": "shopee:1334088625.58206833634",
         "nome": "DermaRoller 0.5mm Microagulhamento 540 Agulhas Rolo para Cabelo Barba Cicatrizes Manchas Estética - WYL",
         "por": 12.99,
@@ -5580,23 +5698,6 @@
         "palavra": "power bank",
         "garimpado_em": "2026-10-15T13:41-03:00",
         "nota": 71.3
-      },
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB47773451",
-        "origem": "lobaopromo",
-        "link": "https://www.mercadolivre.com.br/smartwatch-bluetooth-anfei-smartwatch-com-alexa-e-funcao-de-chamada-de-voz-tela-de-191-polegadas-cor-preta/p/MLB47773451?matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/smartwatch-bluetooth-anfei-smartwatch-com-alexa-e-funcao-de-chamada-de-voz-tela-de-191-polegadas-cor-preta/p/MLB47773451",
-        "post_origem": "https://t.me/lobaopromo/189877",
-        "link_canal": "https://meli.la/33GvKVn",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_765890-MLA83597837473_042025-O.webp",
-        "foto_origem": "loja",
-        "nome": "Smartwatch Bluetooth Anfei Smartwatch com Alexa e função de chamada",
-        "por": 91.95,
-        "de": 199.9,
-        "palavra": "smartwatch",
-        "garimpado_em": "2026-10-15T13:51-03:00",
-        "nota": 72.9
       },
       {
         "loja": "mercadolivre",
@@ -5672,49 +5773,73 @@
       },
       {
         "loja": "shopee",
-        "chave": "shopee:1509466431.43809108037",
-        "nome": "Esmerilhadeira Lixadeira Angular 115mm 11000rpm",
-        "por": 109.9,
-        "de": 499.55,
-        "foto": "https://cf.shopee.com.br/file/cn-11134207-820l4-mua3tmipjvnp84",
-        "link": "https://s.shopee.com.br/40hK7onMzY",
-        "link_produto": "https://shopee.com.br/product/1509466431/43809108037",
+        "chave": "shopee:1485783605.23493921552",
+        "nome": "Fita Métrica Fluorescente Aço Carbono 10M/7.5m Autotravante- Trena Precisão c/Trava p/ Construção/Reforma",
+        "por": 29.99,
+        "de": 88.21,
+        "foto": "https://cf.shopee.com.br/file/br-11134207-820lh-mos89g2zrcp22f",
+        "link": "https://s.shopee.com.br/qkINRKX3M",
+        "link_produto": "https://shopee.com.br/product/1485783605/23493921552",
         "origem": "shopee",
         "fonte": "shopee",
         "foto_origem": "loja",
         "shopee_api": true,
-        "avaliacao": 4.7,
-        "vendas": 490,
-        "palavra": "esmerilhadeira",
-        "garimpado_em": "2026-10-15T14:20-03:00",
-        "nota": 83.8
+        "avaliacao": 4.8,
+        "vendas": 319,
+        "palavra": "trena",
+        "garimpado_em": "2026-10-15T14:41-03:00",
+        "nota": 86.6
       },
       {
-        "loja": "amazon",
-        "chave": "amazon:B0GVW8464B",
-        "origem": "promobit",
-        "fonte": "promobit",
-        "link": "https://www.amazon.com.br/dp/B0GVW8464B?tag=alphadominu09-20",
-        "link_produto": "https://www.amazon.com.br/dp/B0GVW8464B?tag=alphadominu09-20",
-        "post_origem": "https://www.promobit.com.br/oferta/samsung-combo-smart-tv-43-qled-full-hd-q5f-soundbar-hw-b400f-3116572/",
-        "link_canal": "https://www.promobit.com.br/Redirect/to/3116572/",
-        "nome": "Samsung Combo Smart TV 43\" QLED Full HD Q5F + Soundbar HW B400F",
-        "por": 1801.3,
-        "de": 3806.0,
-        "foto": "https://m.media-amazon.com/images/I/513sHm9G9XL._AC_SL1000_.jpg",
+        "loja": "shopee",
+        "chave": "shopee:995022276.23798435779",
+        "nome": "Grampeador Tapeceiro com Trena 2 Metros + 1000 Grampos e Maleta",
+        "por": 43.96,
+        "de": 118.81,
+        "foto": "https://cf.shopee.com.br/file/br-11134207-7r98o-m95wmpgr2fqx27",
+        "link": "https://s.shopee.com.br/113iZkJtiR",
+        "link_produto": "https://shopee.com.br/product/995022276/23798435779",
+        "origem": "shopee",
+        "fonte": "shopee",
         "foto_origem": "loja",
-        "palavra": "smart tv",
-        "garimpado_em": "2026-10-15T14:30-03:00",
-        "nota": 52.4
+        "shopee_api": true,
+        "avaliacao": 4.9,
+        "vendas": 420,
+        "palavra": "trena",
+        "garimpado_em": "2026-10-15T14:41-03:00",
+        "nota": 84.8
+      },
+      {
+        "loja": "shopee",
+        "chave": "shopee:445163047.22993201309",
+        "nome": "Lavadora De Alta Pressão LAV 1600, 1.600 lbf/pol² Lavadora Vap Vonder",
+        "por": 334.9,
+        "de": 434.94,
+        "foto": "https://cf.shopee.com.br/file/br-11134207-820lq-mmw5qst3zjeqe2",
+        "link": "https://s.shopee.com.br/20wEp9jQKz",
+        "link_produto": "https://shopee.com.br/product/445163047/22993201309",
+        "origem": "shopee",
+        "fonte": "shopee",
+        "foto_origem": "loja",
+        "shopee_api": true,
+        "avaliacao": 4.9,
+        "vendas": 3769,
+        "palavra": "lavadora de alta pressao",
+        "garimpado_em": "2026-10-15T14:41-03:00",
+        "nota": 53.3
       }
     ],
     "soltas_hora": "2026-10-15T14",
-    "soltas": 0,
-    "shopee_em": "2026-10-15T14:20-03:00",
-    "shopee_indice": 40,
+    "soltas": 5,
+    "shopee_em": "2026-10-15T14:41-03:00",
+    "shopee_indice": 48,
     "soltas_dia_data": "2026-10-15",
-    "soltas_dia": 43,
-    "soltas_loja": {}
+    "soltas_dia": 48,
+    "soltas_loja": {
+      "shopee": 2,
+      "mercadolivre": 2,
+      "amazon": 1
+    }
   },
   "ultimos": [
     {
@@ -7294,17 +7419,17 @@
     },
     "2026-10-15": {
       "shopee": {
-        "achados": 11,
+        "achados": 13,
         "aprovados": 0,
         "reprovados": 0
       },
       "lobaopromo": {
-        "achados": 5,
+        "achados": 7,
         "aprovados": 3,
         "reprovados": 0
       },
       "promobit": {
-        "achados": 7,
+        "achados": 8,
         "aprovados": 3,
         "reprovados": 1
       },
@@ -7413,7 +7538,7 @@
       "reprovados": 1
     },
     "chave de impacto": {
-      "achados": 1,
+      "achados": 2,
       "aprovados": 0,
       "reprovados": 1
     },
@@ -7453,7 +7578,7 @@
       "reprovados": 2
     },
     "esmerilhadeira": {
-      "achados": 1,
+      "achados": 2,
       "aprovados": 0,
       "reprovados": 1
     },
@@ -7533,12 +7658,12 @@
       "reprovados": 5
     },
     "smart tv": {
-      "achados": 20,
+      "achados": 21,
       "aprovados": 0,
       "reprovados": 18
     },
     "smartwatch": {
-      "achados": 6,
+      "achados": 7,
       "aprovados": 2,
       "reprovados": 3
     },
@@ -7643,6 +7768,11 @@
       "reprovados": 0
     },
     "luva de academia": {
+      "achados": 1,
+      "aprovados": 0,
+      "reprovados": 0
+    },
+    "aparador de barba": {
       "achados": 1,
       "aprovados": 0,
       "reprovados": 0
