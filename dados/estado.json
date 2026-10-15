@@ -3,29 +3,6 @@
   "fila": [
     {
       "loja": "shopee",
-      "chave": "shopee:1512108548.23799008372",
-      "nome": "Bicicleta Spinning Ergométrica Exercício Profissional Monitor suporta até 150kg Academia 1.90m",
-      "por": 665.88,
-      "de": 2674.21,
-      "foto": "AgACAgQAAxkDAAIDRmrPhonFBe52kGCYTBNMCQYdJR3gAAJAC2sbXHXUUvm1ieM2e4MYAQADAgADeQADPQQ",
-      "link": "https://s.shopee.com.br/qkGQVDWg4",
-      "link_produto": "https://shopee.com.br/product/1512108548/23799008372",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.8,
-      "vendas": 1638,
-      "palavra": "academia",
-      "garimpado_em": "2026-10-14T09:21-03:00",
-      "nota": 92.8,
-      "titulo": "Bicicleta ergométrica para treino em casa com monitor",
-      "na_revisao_desde": "2026-10-14T10:42-03:00",
-      "pix": true,
-      "aprovado_em": "2026-10-14T11:12-03:00"
-    },
-    {
-      "loja": "shopee",
       "chave": "shopee:1006215031.51250897834",
       "nome": "Óculos de sol redondos pequenos para homens e mulheres, proteção UV, proteção solar, moda ao ar livre, óculos para",
       "por": 13.41,
@@ -1351,6 +1328,15 @@
       "link_produto": "https://meli.la/2HUgV4i",
       "titulo": "Creatina em pó para o seu treino diário",
       "slot": 22
+    },
+    {
+      "chave": "shopee:1512108548.23799008372",
+      "loja": "shopee",
+      "nome": "Bicicleta Spinning Ergométrica Exercício Profissional Monitor suporta até 150kg Academia 1.90m",
+      "data": "2026-10-14T23:10-03:00",
+      "link": "https://s.shopee.com.br/qkGQVDWg4",
+      "link_produto": "https://shopee.com.br/product/1512108548/23799008372",
+      "titulo": "Bicicleta ergométrica para treino em casa com monitor"
     }
   ],
   "slots_usados": {
@@ -4502,6 +4488,20 @@
   },
   "ultimos": [
     {
+      "loja": "shopee",
+      "chave": "shopee:1512108548.23799008372",
+      "nome": "Bicicleta Spinning Ergométrica Exercício Profissional Monitor suporta até 150kg Academia 1.90m",
+      "por": 665.88,
+      "de": 2674.21,
+      "foto": "AgACAgQAAxkDAAIDRmrPhonFBe52kGCYTBNMCQYdJR3gAAJAC2sbXHXUUvm1ieM2e4MYAQADAgADeQADPQQ",
+      "link": "https://s.shopee.com.br/qkGQVDWg4",
+      "link_produto": "https://shopee.com.br/product/1512108548/23799008372",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "titulo": "Bicicleta ergométrica para treino em casa com monitor",
+      "pix": true
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB26989230",
       "origem": "lobaopromo",
@@ -5023,19 +5023,6 @@
       "por": 65.45,
       "titulo": "Creatina Soldiers 1kg para render nos treinos",
       "de": 239.0
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B077BV7M4R",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://link.amazon/B0gcKPHJO",
-      "link_produto": "https://link.amazon/B0gcKPHJO",
-      "post_origem": "https://www.promobit.com.br/oferta/vonder-trena-curta-de-aco-3m-x-125-3109922/",
-      "nome": "Trena Curta de Aço, 3M X 12,5",
-      "por": 9.9,
-      "de": 13.01,
-      "foto": "AgACAgQAAxkDAAIBn2rOJbMVcl1j4HVsq13e_c7cE4zkAAJHD2sbxGh0UghTAAEouGmYowEAAwIAA3gAAz0E"
     }
   ],
   "lixeira": [
