@@ -297,6 +297,26 @@
       "titulo": "Creatina para render mais",
       "na_revisao_desde": "2026-10-15T06:34-03:00",
       "aprovado_em": "2026-10-15T06:39-03:00"
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0HH4RGVG5",
+      "origem": "promooeasy",
+      "link": "https://link.amazon/B0eqVuUgV",
+      "link_produto": "https://link.amazon/B0eqVuUgV",
+      "post_origem": "https://t.me/promooeasy/221930",
+      "link_canal": "https://www.amazon.com.br/dp/B0HH4RGVG5?tag=promof26-20",
+      "nome": "Kit Halteres Ajustável 6 em 1 15kg com Barra, Kettlebell e Suporte Flexões",
+      "foto": "AgACAgQAAxkDAAIDuGrQrbSRwhJjhldI9txuGMoGllSwAAJaEGsbGzpkUYd9pJ2A5KP2AQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "cupom": "BR15OFFPROMO",
+      "palavra": "halter",
+      "garimpado_em": "2026-10-15T07:40-03:00",
+      "nota": -10.6,
+      "na_revisao_desde": "2026-10-15T07:40-03:00",
+      "por": 180.4,
+      "pix": true,
+      "aprovado_em": "2026-10-15T07:47-03:00"
     }
   ],
   "postados": [
@@ -1479,26 +1499,6 @@
       "id": 580,
       "na_revisao_desde": "2026-10-15T07:40-03:00",
       "msg_id": 950
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0HH4RGVG5",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0HH4RGVG5?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0HH4RGVG5?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/221930",
-      "link_canal": "https://www.amazon.com.br/dp/B0HH4RGVG5?tag=promof26-20",
-      "nome": "Kit Halteres Ajustável 6 em 1 15kg com Barra, Kettlebell e Suporte Flexões",
-      "foto": "AgACAgQAAxkDAAIDuGrQrbSRwhJjhldI9txuGMoGllSwAAJaEGsbGzpkUYd9pJ2A5KP2AQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "cupom": "BR15OFFPROMO",
-      "palavra": "halter",
-      "garimpado_em": "2026-10-15T07:40-03:00",
-      "nota": -10.6,
-      "titulo": "Kit com halteres e kettlebell para treinar em casa",
-      "id": 582,
-      "na_revisao_desde": "2026-10-15T07:40-03:00",
-      "msg_id": 952
     }
   ],
   "proximo_id": 583,
@@ -5872,7 +5872,7 @@
       },
       "promooeasy": {
         "achados": 3,
-        "aprovados": 0,
+        "aprovados": 1,
         "reprovados": 1
       }
     }
@@ -6171,7 +6171,7 @@
     },
     "halter": {
       "achados": 1,
-      "aprovados": 0,
+      "aprovados": 1,
       "reprovados": 0
     }
   }
