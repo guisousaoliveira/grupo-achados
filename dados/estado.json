@@ -256,6 +256,28 @@
       "titulo": "Modelo executivo impermeável para trabalho e estudos",
       "na_revisao_desde": "2026-10-14T20:40-03:00",
       "aprovado_em": "2026-10-14T22:21-03:00"
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:1337281722.22298585774",
+      "nome": "Bomba De Ar Auxiliador de Partida De Carro 4 Em 1 Multifuncional Compressor Power Bank CASABEAUTY",
+      "por": 171.0,
+      "de": 234.25,
+      "foto": "https://cf.shopee.com.br/file/br-11134211-7r98o-md26txpugmbl59",
+      "link": "https://s.shopee.com.br/3LRcPbeD0l",
+      "link_produto": "https://shopee.com.br/product/1337281722/22298585774",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.9,
+      "vendas": 1164,
+      "palavra": "power bank",
+      "garimpado_em": "2026-10-15T00:30-03:00",
+      "nota": 50.9,
+      "titulo": "Compressor portátil para calibrar pneus e emergências automo",
+      "aprovado_sozinho": true,
+      "aprovado_em": "2026-10-15T00:41-03:00"
     }
   ],
   "postados": [
@@ -1374,18 +1396,105 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [],
-  "proximo_id": 570,
+  "revisar": [
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB75615449",
+      "origem": "lobaopromo",
+      "link": "https://www.mercadolivre.com.br/mochila-feminina-reforcada-impermeavel-com-capacidade-para-laptop-ideal-para-viagens-diarias-ida-escola-e-deslocamentos-de-trabalho/p/MLB75615449?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/mochila-feminina-reforcada-impermeavel-com-capacidade-para-laptop-ideal-para-viagens-diarias-ida-escola-e-deslocamentos-de-trabalho/p/MLB75615449",
+      "post_origem": "https://t.me/lobaopromo/189624",
+      "link_canal": "https://meli.la/2m9TNT6",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_755204-MLA113564929198_072026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Mochila feminina",
+      "de": 198.0,
+      "por": 69.0,
+      "palavra": "mochila",
+      "garimpado_em": "2026-10-14T22:40-03:00",
+      "nota": 85.6,
+      "titulo": "Mochila feminina prática para a rotina diária",
+      "id": 570,
+      "na_revisao_desde": "2026-10-15T00:41-03:00",
+      "msg_id": 933
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B07LGZM6JC",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B07LGZM6JC?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B07LGZM6JC?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/mor-caixa-termica-42-litros-azul-3115024/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3115024/",
+      "nome": "Mor - Caixa Térmica 42 Litros Azul",
+      "por": 278.04,
+      "de": 489.9,
+      "foto": "AgACAgQAAxkDAAIDp2rQS1VlvBL7Y8RwXoMqzUA7Mcb8AALfDGsbX7rdUoF9slLUdJ36AQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "palavra": "caixa termica",
+      "garimpado_em": "2026-10-14T22:50-03:00",
+      "nota": 50.0,
+      "titulo": "Caixa térmica grande para bebidas e alimentos na praia",
+      "id": 572,
+      "na_revisao_desde": "2026-10-15T00:41-03:00",
+      "msg_id": 935
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB5944713610",
+      "origem": "promonocontext",
+      "link": "https://produto.mercadolivre.com.br/MLB-5944713610-garrafa-termica-emborrachada-600-ml-canudo-premium-_JM?pdp_filters=item_id%3AMLB5944713610&matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-5944713610-garrafa-termica-emborrachada-600-ml-canudo-premium-_JM?pdp_filters=item_id%3AMLB5944713610",
+      "post_origem": "https://t.me/promonocontext/126917",
+      "link_canal": "https://meli.la/2GVzp52",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_867419-MLB117770209713_092026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Garrafa Térmica Emborrachada 600 Ml Canudo Premium",
+      "de": 70.0,
+      "por": 39.0,
+      "palavra": "garrafa termica",
+      "garimpado_em": "2026-10-14T22:40-03:00",
+      "nota": 78.7,
+      "titulo": "Garrafa térmica com canudo para manter a água gelada",
+      "id": 573,
+      "na_revisao_desde": "2026-10-15T00:41-03:00",
+      "msg_id": 936
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B08LP3JV5J",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B08LP3JV5J?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B08LP3JV5J?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/mtx-alicate-de-pressao-10-250-mm-mordente-curvo-ferramenta-profissional-de-alta-resistencia-3115107/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3115107/",
+      "nome": "Mtx Alicate De Pressão 10\" (250 Mm) Mordente Curvo",
+      "por": 18.1,
+      "de": 27.46,
+      "foto": "AgACAgQAAxkDAAIDqWrQS2F14tpXNXlW73KOx0x1N1OZAAINEGsb_tuFUtDKofOJ3AGCAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "palavra": "alicate",
+      "garimpado_em": "2026-10-14T23:40-03:00",
+      "nota": 44.5,
+      "titulo": "Alicate de pressão para fixar peças e cortes",
+      "id": 574,
+      "na_revisao_desde": "2026-10-15T00:41-03:00",
+      "msg_id": 937
+    }
+  ],
+  "proximo_id": 575,
   "radar": {
     "visto": {
       "xetdaspromocoes": 84903,
-      "lobaopromo": 189667,
-      "gatunopromos": 125456,
-      "pobregram": 41916,
+      "lobaopromo": 189678,
+      "gatunopromos": 125458,
+      "pobregram": 41918,
       "urubupromo": 41689,
       "tudonapromo": 101936,
       "promonocontext": 126921,
-      "promooeasy": 221902,
+      "promooeasy": 221907,
       "aquitempechincha": 281735,
       "infoBRpromos": 67597,
       "boletando": 76744,
@@ -3163,27 +3272,27 @@
       "shopee:1337281722.22298585774"
     ],
     "ultima": {
-      "em": "2026-10-15T00:30:24-03:00",
+      "em": "2026-10-15T00:40:20-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 28,
-      "do_nicho": 6,
+      "posts_novos": 31,
+      "do_nicho": 0,
       "repetidas": 0,
-      "novas": 5,
+      "novas": 0,
       "limite_dia": false,
-      "repetidas_nome": 1,
+      "repetidas_nome": 0,
       "promobit": 0,
-      "soltas": 0,
-      "na_peneira": 26
+      "soltas": 5,
+      "na_peneira": 21
     },
     "hora": "2026-10-15T00",
     "nesta_hora": 10,
     "promobit_hora": "2026-10-15T00",
     "promobit_nesta_hora": 0,
-    "promobit_visto": 3115171,
+    "promobit_visto": 3115189,
     "nomes": [
       [
         [
@@ -4010,26 +4119,63 @@
           "supplements"
         ],
         "2026-10-14T20:41-03:00"
+      ],
+      [
+        [
+          "mochila"
+        ],
+        "2026-10-15T00:40-03:00"
+      ],
+      [
+        [
+          "bomba",
+          "ar",
+          "auxiliador",
+          "partida",
+          "carro",
+          "multifuncional",
+          "compressor",
+          "power"
+        ],
+        "2026-10-15T00:41-03:00"
+      ],
+      [
+        [
+          "mor",
+          "caixa",
+          "termica",
+          "42",
+          "litros",
+          "azul"
+        ],
+        "2026-10-15T00:41-03:00"
+      ],
+      [
+        [
+          "garrafa",
+          "termica",
+          "emborrachada",
+          "600",
+          "canudo",
+          "premium"
+        ],
+        "2026-10-15T00:41-03:00"
+      ],
+      [
+        [
+          "mtx",
+          "alicate",
+          "pressao",
+          "10",
+          "250",
+          "mm",
+          "mordente",
+          "curvo"
+        ],
+        "2026-10-15T00:41-03:00"
       ]
     ],
     "peneira": [
-      {
-        "loja": "amazon",
-        "chave": "amazon:B0HBZB6KPX",
-        "origem": "promobit",
-        "fonte": "promobit",
-        "link": "https://www.amazon.com.br/dp/B0HBZB6KPX?tag=alphadominu09-20",
-        "link_produto": "https://www.amazon.com.br/dp/B0HBZB6KPX?tag=alphadominu09-20",
-        "post_origem": "https://www.promobit.com.br/oferta/smart-tv-hisense-65-polegadas-u7esg-hi-qled-mini-led-4k-144hz-3114850/",
-        "link_canal": "https://www.promobit.com.br/Redirect/to/3114850/",
-        "nome": "Smart TV Hisense 65\" Polegadas U7ESG Hi-QLED Mini LED 4K 144Hz",
-        "por": 5149.99,
-        "foto": "https://m.media-amazon.com/images/I/81yinhw7klL._AC_SL1500_.jpg",
-        "foto_origem": "loja",
-        "palavra": "smart tv",
-        "garimpado_em": "2026-10-14T21:40-03:00",
-        "nota": 19.2
-      },
       {
         "loja": "mercadolivre",
         "chave": "mercadolivre:MLB74469055",
@@ -4101,23 +4247,6 @@
       },
       {
         "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB75615449",
-        "origem": "lobaopromo",
-        "link": "https://www.mercadolivre.com.br/mochila-feminina-reforcada-impermeavel-com-capacidade-para-laptop-ideal-para-viagens-diarias-ida-escola-e-deslocamentos-de-trabalho/p/MLB75615449?matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/mochila-feminina-reforcada-impermeavel-com-capacidade-para-laptop-ideal-para-viagens-diarias-ida-escola-e-deslocamentos-de-trabalho/p/MLB75615449",
-        "post_origem": "https://t.me/lobaopromo/189624",
-        "link_canal": "https://meli.la/2m9TNT6",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_755204-MLA113564929198_072026-O.webp",
-        "foto_origem": "loja",
-        "nome": "Mochila feminina",
-        "de": 198.0,
-        "por": 69.0,
-        "palavra": "mochila",
-        "garimpado_em": "2026-10-14T22:40-03:00",
-        "nota": 85.6
-      },
-      {
-        "loja": "mercadolivre",
         "chave": "mercadolivre:MLB3960073270",
         "origem": "lobaopromo",
         "link": "https://produto.mercadolivre.com.br/MLB-3960073270-tnis-branco-academia-caminhada-esportivo-confortavel-barato-_JM?pdp_filters=item_id%3AMLB3960073270&matt_word=alphapromo&matt_tool=59136903",
@@ -4132,23 +4261,6 @@
         "palavra": "academia",
         "garimpado_em": "2026-10-14T22:40-03:00",
         "nota": 66.0
-      },
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB5944713610",
-        "origem": "promonocontext",
-        "link": "https://produto.mercadolivre.com.br/MLB-5944713610-garrafa-termica-emborrachada-600-ml-canudo-premium-_JM?pdp_filters=item_id%3AMLB5944713610&matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://produto.mercadolivre.com.br/MLB-5944713610-garrafa-termica-emborrachada-600-ml-canudo-premium-_JM?pdp_filters=item_id%3AMLB5944713610",
-        "post_origem": "https://t.me/promonocontext/126917",
-        "link_canal": "https://meli.la/2GVzp52",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_867419-MLB117770209713_092026-O.webp",
-        "foto_origem": "loja",
-        "nome": "Garrafa Térmica Emborrachada 600 Ml Canudo Premium",
-        "de": 70.0,
-        "por": 39.0,
-        "palavra": "garrafa termica",
-        "garimpado_em": "2026-10-14T22:40-03:00",
-        "nota": 78.7
       },
       {
         "loja": "amazon",
@@ -4167,24 +4279,6 @@
         "palavra": "aparador",
         "garimpado_em": "2026-10-14T22:50-03:00",
         "nota": 33.4
-      },
-      {
-        "loja": "amazon",
-        "chave": "amazon:B07LGZM6JC",
-        "origem": "promobit",
-        "fonte": "promobit",
-        "link": "https://www.amazon.com.br/dp/B07LGZM6JC?tag=alphadominu09-20",
-        "link_produto": "https://www.amazon.com.br/dp/B07LGZM6JC?tag=alphadominu09-20",
-        "post_origem": "https://www.promobit.com.br/oferta/mor-caixa-termica-42-litros-azul-3115024/",
-        "link_canal": "https://www.promobit.com.br/Redirect/to/3115024/",
-        "nome": "Mor - Caixa Térmica 42 Litros Azul",
-        "por": 278.04,
-        "de": 489.9,
-        "foto": "https://m.media-amazon.com/images/I/41aamMDec9L._AC_SL1000_.jpg",
-        "foto_origem": "loja",
-        "palavra": "caixa termica",
-        "garimpado_em": "2026-10-14T22:50-03:00",
-        "nota": 50.0
       },
       {
         "loja": "amazon",
@@ -4289,24 +4383,6 @@
         "palavra": "power bank",
         "garimpado_em": "2026-10-14T23:30-03:00",
         "nota": 19.5
-      },
-      {
-        "loja": "amazon",
-        "chave": "amazon:B08LP3JV5J",
-        "origem": "promobit",
-        "fonte": "promobit",
-        "link": "https://www.amazon.com.br/dp/B08LP3JV5J?tag=alphadominu09-20",
-        "link_produto": "https://www.amazon.com.br/dp/B08LP3JV5J?tag=alphadominu09-20",
-        "post_origem": "https://www.promobit.com.br/oferta/mtx-alicate-de-pressao-10-250-mm-mordente-curvo-ferramenta-profissional-de-alta-resistencia-3115107/",
-        "link_canal": "https://www.promobit.com.br/Redirect/to/3115107/",
-        "nome": "Mtx Alicate De Pressão 10\" (250 Mm) Mordente Curvo",
-        "por": 18.1,
-        "de": 27.46,
-        "foto": "https://images-na.ssl-images-amazon.com/images/P/B08LP3JV5J.01.LZZZZZZZ.jpg",
-        "foto_origem": "loja",
-        "palavra": "alicate",
-        "garimpado_em": "2026-10-14T23:40-03:00",
-        "nota": 44.5
       },
       {
         "loja": "amazon",
@@ -4459,34 +4535,19 @@
         "palavra": "mochila",
         "garimpado_em": "2026-10-15T00:30-03:00",
         "nota": 51.5
-      },
-      {
-        "loja": "shopee",
-        "chave": "shopee:1337281722.22298585774",
-        "nome": "Bomba De Ar Auxiliador de Partida De Carro 4 Em 1 Multifuncional Compressor Power Bank CASABEAUTY",
-        "por": 171.0,
-        "de": 234.25,
-        "foto": "https://cf.shopee.com.br/file/br-11134211-7r98o-md26txpugmbl59",
-        "link": "https://s.shopee.com.br/3LRcPbeD0l",
-        "link_produto": "https://shopee.com.br/product/1337281722/22298585774",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 4.9,
-        "vendas": 1164,
-        "palavra": "power bank",
-        "garimpado_em": "2026-10-15T00:30-03:00",
-        "nota": 50.9
       }
     ],
     "soltas_hora": "2026-10-15T00",
-    "soltas": 0,
+    "soltas": 5,
     "shopee_em": "2026-10-15T00:30-03:00",
     "shopee_indice": 48,
     "soltas_dia_data": "2026-10-15",
-    "soltas_dia": 0,
-    "soltas_loja": {}
+    "soltas_dia": 5,
+    "soltas_loja": {
+      "mercadolivre": 2,
+      "shopee": 1,
+      "amazon": 2
+    }
   },
   "ultimos": [
     {
@@ -5922,7 +5983,7 @@
         "reprovados": 20
       },
       "lobaopromo": {
-        "achados": 10,
+        "achados": 11,
         "aprovados": 8,
         "reprovados": 2
       },
@@ -5937,7 +5998,7 @@
         "reprovados": 1
       },
       "promonocontext": {
-        "achados": 11,
+        "achados": 12,
         "aprovados": 7,
         "reprovados": 4
       },
@@ -5947,9 +6008,16 @@
         "reprovados": 2
       },
       "promobit": {
-        "achados": 3,
+        "achados": 5,
         "aprovados": 1,
         "reprovados": 2
+      }
+    },
+    "2026-10-15": {
+      "shopee": {
+        "achados": 1,
+        "aprovados": 0,
+        "reprovados": 0
       }
     }
   },
@@ -5971,7 +6039,7 @@
       "reprovados": 3
     },
     "alicate": {
-      "achados": 3,
+      "achados": 4,
       "aprovados": 0,
       "reprovados": 3
     },
@@ -6021,7 +6089,7 @@
       "reprovados": 16
     },
     "caixa termica": {
-      "achados": 3,
+      "achados": 4,
       "aprovados": 0,
       "reprovados": 3
     },
@@ -6096,7 +6164,7 @@
       "reprovados": 2
     },
     "garrafa termica": {
-      "achados": 6,
+      "achados": 7,
       "aprovados": 5,
       "reprovados": 1
     },
@@ -6116,7 +6184,7 @@
       "reprovados": 1
     },
     "mochila": {
-      "achados": 12,
+      "achados": 13,
       "aprovados": 6,
       "reprovados": 5
     },
@@ -6141,7 +6209,7 @@
       "reprovados": 2
     },
     "power bank": {
-      "achados": 9,
+      "achados": 10,
       "aprovados": 1,
       "reprovados": 8
     },
