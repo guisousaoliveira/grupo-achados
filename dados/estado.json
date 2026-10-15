@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "shopee",
-      "chave": "shopee:1101226660.21999087953",
-      "nome": "Par Alto falante JBL Flex4  6TRFX55 6 polegadas 110w Rms 4 Ohm",
-      "por": 143.05,
-      "de": 198.68,
-      "foto": "https://cf.shopee.com.br/file/br-11134207-820lw-mpl7mvwxk4ch4e",
-      "link": "https://s.shopee.com.br/9Kiq4tNYee",
-      "link_produto": "https://shopee.com.br/product/1101226660/21999087953",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.9,
-      "vendas": 232,
-      "palavra": "jbl",
-      "garimpado_em": "2026-10-15T08:20-03:00",
-      "nota": 52.1,
-      "titulo": "Par de alto-falantes JBL para o som do carro",
-      "aprovado_sozinho": true,
-      "aprovado_em": "2026-10-15T08:41-03:00"
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B0DXF8MFR2",
       "origem": "promooeasy",
@@ -1598,6 +1576,16 @@
       "link": "https://meli.la/2KXnqv7",
       "link_produto": "https://meli.la/2KXnqv7",
       "titulo": "Creatina para render mais"
+    },
+    {
+      "chave": "shopee:1101226660.21999087953",
+      "loja": "shopee",
+      "nome": "Par Alto falante JBL Flex4  6TRFX55 6 polegadas 110w Rms 4 Ohm",
+      "data": "2026-10-15T16:24-03:00",
+      "link": "https://s.shopee.com.br/9Kiq4tNYee",
+      "link_produto": "https://shopee.com.br/product/1101226660/21999087953",
+      "titulo": "Par de alto-falantes JBL para o som do carro",
+      "slot": 16
     }
   ],
   "slots_usados": {
@@ -1666,7 +1654,8 @@
       12,
       13,
       14,
-      15
+      15,
+      16
     ]
   },
   "shopee_buscado_em": "",
@@ -5822,6 +5811,19 @@
   },
   "ultimos": [
     {
+      "loja": "shopee",
+      "chave": "shopee:1101226660.21999087953",
+      "nome": "Par Alto falante JBL Flex4  6TRFX55 6 polegadas 110w Rms 4 Ohm",
+      "por": 143.05,
+      "de": 198.68,
+      "foto": "https://cf.shopee.com.br/file/br-11134207-820lw-mpl7mvwxk4ch4e",
+      "link": "https://s.shopee.com.br/9Kiq4tNYee",
+      "link_produto": "https://shopee.com.br/product/1101226660/21999087953",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "titulo": "Par de alto-falantes JBL para o som do carro"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB18725308",
       "origem": "lobaopromo",
@@ -6348,19 +6350,6 @@
       "de": 159.0,
       "por": 78.9,
       "titulo": "Creatina em pó para o seu treino diário"
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:373745451.17609940424",
-      "nome": "Jogo De Soquete 46 Peças 1/4 Catraca Chave Allen",
-      "por": 25.99,
-      "de": 324.88,
-      "foto": "AgACAgQAAxkDAAIDNWrPakDuc8_Tv3OVFsShA37eWIfyAAJLC2sbhrBEU1NCu7o9TDIWAQADAgADeQADPQQ",
-      "link": "https://s.shopee.com.br/8fT7cybORp",
-      "link_produto": "https://shopee.com.br/product/373745451/17609940424",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "titulo": "Kit de ferramentas para reparos rápidos em casa"
     }
   ],
   "lixeira": [],
