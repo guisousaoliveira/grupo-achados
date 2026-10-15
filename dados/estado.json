@@ -2133,22 +2133,22 @@
   "proximo_id": 630,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 85081,
-      "lobaopromo": 190005,
-      "gatunopromos": 125576,
-      "pobregram": 41972,
-      "urubupromo": 41735,
-      "tudonapromo": 102050,
-      "promonocontext": 127281,
-      "promooeasy": 222389,
-      "aquitempechincha": 281957,
-      "infoBRpromos": 67644,
-      "boletando": 76795,
-      "promotop": 260340,
+      "xetdaspromocoes": 85083,
+      "lobaopromo": 190010,
+      "gatunopromos": 125578,
+      "pobregram": 41973,
+      "urubupromo": 41739,
+      "tudonapromo": 102054,
+      "promonocontext": 127287,
+      "promooeasy": 222394,
+      "aquitempechincha": 281958,
+      "infoBRpromos": 67646,
+      "boletando": 76796,
+      "promotop": 260341,
       "achadosdotb": 11778
     },
     "dia": "2026-10-15",
-    "hoje": 130,
+    "hoje": 131,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -4081,30 +4081,31 @@
       "mercadolivre:MLB6226342080",
       "mercadolivre:MLB4907374383",
       "mercadolivre:MLB76467981",
-      "mercadolivre:MLB56727085"
+      "mercadolivre:MLB56727085",
+      "mercadolivre:MLB63247353"
     ],
     "ultima": {
-      "em": "2026-10-15T18:20:20-03:00",
+      "em": "2026-10-15T18:30:24-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 44,
-      "do_nicho": 6,
-      "repetidas": 4,
-      "novas": 2,
+      "posts_novos": 45,
+      "do_nicho": 2,
+      "repetidas": 1,
+      "novas": 1,
       "limite_dia": false,
       "repetidas_nome": 0,
       "promobit": 0,
       "soltas": 0,
-      "na_peneira": 32
+      "na_peneira": 33
     },
     "hora": "2026-10-15T18",
-    "nesta_hora": 7,
+    "nesta_hora": 8,
     "promobit_hora": "2026-10-15T18",
     "promobit_nesta_hora": 0,
-    "promobit_visto": 3117238,
+    "promobit_visto": 3117262,
     "nomes": [
       [
         [
@@ -6212,6 +6213,23 @@
         "palavra": "cafeteira",
         "garimpado_em": "2026-10-15T18:20-03:00",
         "nota": 53.6
+      },
+      {
+        "loja": "mercadolivre",
+        "chave": "mercadolivre:MLB63247353",
+        "origem": "urubupromo",
+        "link": "https://www.mercadolivre.com.br/fritadeira-eletrica-air-fryer-philco-paf12a-barbecue-digital-12l-preta-220v/p/MLB63247353?matt_word=alphapromo&matt_tool=59136903",
+        "link_produto": "https://www.mercadolivre.com.br/fritadeira-eletrica-air-fryer-philco-paf12a-barbecue-digital-12l-preta-220v/p/MLB63247353",
+        "post_origem": "https://t.me/urubupromo/41736",
+        "link_canal": "https://meli.la/2NdJpoq",
+        "foto": "https://http2.mlstatic.com/D_NQ_NP_929367-MLA101187584990_122025-O.webp",
+        "foto_origem": "loja",
+        "nome": "Fritadeira Elétrica Air Fryer Philco PAF12A Barbecue Digital 12L Preta",
+        "por": 539.1,
+        "cupom": "APROVEITA",
+        "palavra": "air fryer",
+        "garimpado_em": "2026-10-15T18:30-03:00",
+        "nota": 35.5
       }
     ],
     "soltas_hora": "2026-10-15T18",
@@ -6983,7 +7001,7 @@
       }
     }
   },
-  "aviso_post": "2026-10-15 17|amazon:B0DXF8MFR2",
+  "aviso_post": "2026-10-15 18|shopee:1620616375.23194887818",
   "garimpo_palavras": {
     "academia": {
       "achados": 24,
