@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "shopee",
-      "chave": "shopee:1509466431.43809108037",
-      "nome": "Esmerilhadeira Lixadeira Angular 115mm 11000rpm",
-      "por": 109.9,
-      "de": 499.55,
-      "foto": "https://cf.shopee.com.br/file/cn-11134207-820l4-mua3tmipjvnp84",
-      "link": "https://s.shopee.com.br/40hK7onMzY",
-      "link_produto": "https://shopee.com.br/product/1509466431/43809108037",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.7,
-      "vendas": 490,
-      "palavra": "esmerilhadeira",
-      "garimpado_em": "2026-10-15T14:20-03:00",
-      "nota": 83.8,
-      "titulo": "Ferramenta para cortes e desbastes em metal e alvenaria",
-      "aprovado_sozinho": true,
-      "aprovado_em": "2026-10-15T14:40-03:00"
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB2818208621",
       "origem": "xetdaspromocoes",
@@ -1653,6 +1631,16 @@
       "link_produto": "https://link.amazon/B0hLMVKVy",
       "titulo": "Power bank de alta capacidade para carregar o celular",
       "slot": 19
+    },
+    {
+      "chave": "shopee:1509466431.43809108037",
+      "loja": "shopee",
+      "nome": "Esmerilhadeira Lixadeira Angular 115mm 11000rpm",
+      "data": "2026-10-15T20:43-03:00",
+      "link": "https://s.shopee.com.br/40hK7onMzY",
+      "link_produto": "https://shopee.com.br/product/1509466431/43809108037",
+      "titulo": "Ferramenta para cortes e desbastes em metal e alvenaria",
+      "slot": 20
     }
   ],
   "slots_usados": {
@@ -1725,7 +1713,8 @@
       16,
       17,
       18,
-      19
+      19,
+      20
     ]
   },
   "shopee_buscado_em": "",
@@ -6238,6 +6227,19 @@
   },
   "ultimos": [
     {
+      "loja": "shopee",
+      "chave": "shopee:1509466431.43809108037",
+      "nome": "Esmerilhadeira Lixadeira Angular 115mm 11000rpm",
+      "por": 109.9,
+      "de": 499.55,
+      "foto": "https://cf.shopee.com.br/file/cn-11134207-820l4-mua3tmipjvnp84",
+      "link": "https://s.shopee.com.br/40hK7onMzY",
+      "link_produto": "https://shopee.com.br/product/1509466431/43809108037",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "titulo": "Ferramenta para cortes e desbastes em metal e alvenaria"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0GCZYJNLJ",
       "origem": "pobregram",
@@ -6768,20 +6770,6 @@
       "de": 269.0,
       "por": 75.0,
       "titulo": "Mochila impermeável reforçada para viagem e rotina"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB68466630",
-      "origem": "promonocontext",
-      "link": "https://meli.la/2hwoF4P",
-      "link_produto": "https://meli.la/2hwoF4P",
-      "post_origem": "https://t.me/promonocontext/126808",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_751328-MLA109896098642_042026-O.webp",
-      "nome": "Garrafa Térmica 1.2l Bebidas Quentes E Frias Duradoura Preto",
-      "de": 79.0,
-      "por": 37.0,
-      "cupom": "MELIGARANTE",
-      "titulo": "Garrafa térmica na temperatura ideal"
     }
   ],
   "lixeira": [
