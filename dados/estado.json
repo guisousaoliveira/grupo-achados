@@ -322,27 +322,6 @@
       "titulo": "Creatina em pó para o seu treino diário",
       "na_revisao_desde": "2026-10-14T20:41-03:00",
       "aprovado_em": "2026-10-14T21:16-03:00"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB1841927467",
-      "origem": "promonocontext",
-      "link": "https://meli.la/1tiaJWi",
-      "link_produto": "https://meli.la/1tiaJWi",
-      "post_origem": "https://t.me/promonocontext/126823",
-      "link_canal": "https://meli.la/221hbPa",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_601114-MLB107054773924_022026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Camisa Polo Masculina Ogochi Original Slim Camiseta",
-      "de": 118.0,
-      "por": 68.0,
-      "cupom": "MELIGARANTE",
-      "palavra": "camisa polo",
-      "garimpado_em": "2026-10-14T19:20-03:00",
-      "nota": 76.5,
-      "titulo": "Camisa polo slim para o dia a dia",
-      "na_revisao_desde": "2026-10-14T20:41-03:00",
-      "aprovado_em": "2026-10-14T22:20-03:00"
     }
   ],
   "postados": [
@@ -1352,6 +1331,15 @@
       "link_produto": "https://shopee.com.br/product/1127030290/23593847901",
       "titulo": "Mochila espaçosa para viagens e rotina diária",
       "slot": 21
+    },
+    {
+      "chave": "mercadolivre:MLB1841927467",
+      "loja": "mercadolivre",
+      "nome": "Camisa Polo Masculina Ogochi Original Slim Camiseta",
+      "data": "2026-10-14T22:20-03:00",
+      "link": "https://meli.la/1tiaJWi",
+      "link_produto": "https://meli.la/1tiaJWi",
+      "titulo": "Camisa polo slim para o dia a dia"
     }
   ],
   "slots_usados": {
@@ -4515,6 +4503,20 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB1841927467",
+      "origem": "promonocontext",
+      "link": "https://meli.la/1tiaJWi",
+      "link_produto": "https://meli.la/1tiaJWi",
+      "post_origem": "https://t.me/promonocontext/126823",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_601114-MLB107054773924_022026-O.webp",
+      "nome": "Camisa Polo Masculina Ogochi Original Slim Camiseta",
+      "de": 118.0,
+      "por": 68.0,
+      "cupom": "MELIGARANTE",
+      "titulo": "Camisa polo slim para o dia a dia"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:1127030290.23593847901",
       "nome": "Mochila Bolsa Viagem Resistente Coreana Masculina Feminina Colorida",
@@ -5036,20 +5038,6 @@
       "de": 140.0,
       "por": 66.0,
       "titulo": "Fone bluetooth com 53% off"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB46202402",
-      "origem": "xetdaspromocoes",
-      "link": "https://meli.la/25uErxZ",
-      "link_produto": "https://meli.la/25uErxZ",
-      "post_origem": "https://t.me/xetdaspromocoes/84541",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_772291-MLA100008466405_122025-O.webp",
-      "nome": "Smartwatch HUAWEI Band 10 Caixa de Polímeros Duráveis Análise do Sono",
-      "pix": true,
-      "de": 659.0,
-      "por": 159.0,
-      "cupom": "MELHORDEHJ"
     }
   ],
   "lixeira": [
