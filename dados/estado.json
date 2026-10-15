@@ -3232,8 +3232,8 @@
       "soltas": 0,
       "na_peneira": 21
     },
-    "hora": "2026-10-15T00",
-    "nesta_hora": 11,
+    "hora": "2026-10-15T01",
+    "nesta_hora": 0,
     "promobit_hora": "2026-10-15T00",
     "promobit_nesta_hora": 0,
     "promobit_visto": 3115205,
@@ -4492,7 +4492,8 @@
       "mercadolivre": 2,
       "shopee": 1,
       "amazon": 2
-    }
+    },
+    "pausado": true
   },
   "ultimos": [
     {
