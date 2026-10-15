@@ -1999,22 +1999,22 @@
   "proximo_id": 613,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 85033,
-      "lobaopromo": 189890,
-      "gatunopromos": 125528,
-      "pobregram": 41961,
+      "xetdaspromocoes": 85037,
+      "lobaopromo": 189892,
+      "gatunopromos": 125529,
+      "pobregram": 41962,
       "urubupromo": 41717,
       "tudonapromo": 102021,
-      "promonocontext": 127149,
-      "promooeasy": 222212,
-      "aquitempechincha": 281887,
+      "promonocontext": 127152,
+      "promooeasy": 222216,
+      "aquitempechincha": 281888,
       "infoBRpromos": 67627,
-      "boletando": 76773,
-      "promotop": 260326,
+      "boletando": 76776,
+      "promotop": 260327,
       "achadosdotb": 11777
     },
     "dia": "2026-10-15",
-    "hoje": 83,
+    "hoje": 85,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -3886,30 +3886,32 @@
       "mercadolivre:MLB66271625",
       "mercadolivre:MLB4470380077",
       "shopee:328666563.19698975157",
-      "shopee:1509466431.43809108037"
+      "shopee:1509466431.43809108037",
+      "amazon:B0GVW8464B",
+      "amazon:B0GVVV961D"
     ],
     "ultima": {
-      "em": "2026-10-15T14:20:19-03:00",
+      "em": "2026-10-15T14:30:26-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 35,
-      "do_nicho": 0,
+      "posts_novos": 32,
+      "do_nicho": 2,
       "repetidas": 0,
-      "novas": 0,
+      "novas": 1,
       "limite_dia": false,
-      "repetidas_nome": 0,
-      "promobit": 0,
+      "repetidas_nome": 1,
+      "promobit": 1,
       "soltas": 0,
-      "na_peneira": 24
+      "na_peneira": 26
     },
     "hora": "2026-10-15T14",
     "nesta_hora": 2,
     "promobit_hora": "2026-10-15T14",
-    "promobit_nesta_hora": 0,
-    "promobit_visto": 3116539,
+    "promobit_nesta_hora": 2,
+    "promobit_visto": 3116575,
     "nomes": [
       [
         [
@@ -5697,6 +5699,24 @@
         "palavra": "esmerilhadeira",
         "garimpado_em": "2026-10-15T14:20-03:00",
         "nota": 83.8
+      },
+      {
+        "loja": "amazon",
+        "chave": "amazon:B0GVW8464B",
+        "origem": "promobit",
+        "fonte": "promobit",
+        "link": "https://www.amazon.com.br/dp/B0GVW8464B?tag=alphadominu09-20",
+        "link_produto": "https://www.amazon.com.br/dp/B0GVW8464B?tag=alphadominu09-20",
+        "post_origem": "https://www.promobit.com.br/oferta/samsung-combo-smart-tv-43-qled-full-hd-q5f-soundbar-hw-b400f-3116572/",
+        "link_canal": "https://www.promobit.com.br/Redirect/to/3116572/",
+        "nome": "Samsung Combo Smart TV 43\" QLED Full HD Q5F + Soundbar HW B400F",
+        "por": 1801.3,
+        "de": 3806.0,
+        "foto": "https://m.media-amazon.com/images/I/513sHm9G9XL._AC_SL1000_.jpg",
+        "foto_origem": "loja",
+        "palavra": "smart tv",
+        "garimpado_em": "2026-10-15T14:30-03:00",
+        "nota": 52.4
       }
     ],
     "soltas_hora": "2026-10-15T14",
@@ -7319,7 +7339,7 @@
       }
     }
   },
-  "aviso_post": "2026-10-15 13|amazon:B0BHL6FKYY",
+  "aviso_post": "2026-10-15 14|amazon:B017SN1OI8",
   "garimpo_palavras": {
     "academia": {
       "achados": 23,
