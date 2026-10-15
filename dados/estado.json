@@ -299,6 +299,28 @@
       "titulo": "Alicate de pressão para fixar peças e cortes",
       "na_revisao_desde": "2026-10-15T00:41-03:00",
       "aprovado_em": "2026-10-15T00:43-03:00"
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B07LGZM6JC",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://link.amazon/B03KaPhR1",
+      "link_produto": "https://link.amazon/B03KaPhR1",
+      "post_origem": "https://www.promobit.com.br/oferta/mor-caixa-termica-42-litros-azul-3115024/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3115024/",
+      "nome": "Mor - Caixa Térmica 42 Litros Azul",
+      "por": 278.04,
+      "de": 489.9,
+      "foto": "AgACAgQAAxkDAAIDp2rQS1VlvBL7Y8RwXoMqzUA7Mcb8AALfDGsbX7rdUoF9slLUdJ36AQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "palavra": "caixa termica",
+      "garimpado_em": "2026-10-14T22:50-03:00",
+      "nota": 50.0,
+      "titulo": "Caixa térmica grande para bebidas e alimentos na praia",
+      "na_revisao_desde": "2026-10-15T00:41-03:00",
+      "prime": true,
+      "aprovado_em": "2026-10-15T00:44-03:00"
     }
   ],
   "postados": [
@@ -1417,30 +1439,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "amazon",
-      "chave": "amazon:B07LGZM6JC",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B07LGZM6JC?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B07LGZM6JC?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/mor-caixa-termica-42-litros-azul-3115024/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3115024/",
-      "nome": "Mor - Caixa Térmica 42 Litros Azul",
-      "por": 278.04,
-      "de": 489.9,
-      "foto": "AgACAgQAAxkDAAIDp2rQS1VlvBL7Y8RwXoMqzUA7Mcb8AALfDGsbX7rdUoF9slLUdJ36AQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "palavra": "caixa termica",
-      "garimpado_em": "2026-10-14T22:50-03:00",
-      "nota": 50.0,
-      "titulo": "Caixa térmica grande para bebidas e alimentos na praia",
-      "id": 572,
-      "na_revisao_desde": "2026-10-15T00:41-03:00",
-      "msg_id": 935
-    }
-  ],
+  "revisar": [],
   "proximo_id": 575,
   "radar": {
     "visto": {
@@ -6010,7 +6009,7 @@
       },
       "promobit": {
         "achados": 5,
-        "aprovados": 2,
+        "aprovados": 3,
         "reprovados": 2
       }
     },
@@ -6091,7 +6090,7 @@
     },
     "caixa termica": {
       "achados": 4,
-      "aprovados": 0,
+      "aprovados": 1,
       "reprovados": 3
     },
     "camera de seguranca": {
