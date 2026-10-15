@@ -2,26 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB66176437",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/1viX8d9",
-      "link_produto": "https://meli.la/1viX8d9",
-      "post_origem": "https://t.me/lobaopromo/189535",
-      "link_canal": "https://meli.la/2mQ7Tc6",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_892888-MLA107403836976_032026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Mochila Masculina Bolsa Impermeável Faculdade Executiva Alça",
-      "de": 59.0,
-      "por": 27.0,
-      "palavra": "mochila",
-      "garimpado_em": "2026-10-14T19:10-03:00",
-      "nota": 79.1,
-      "titulo": "Modelo executivo impermeável para trabalho e estudos",
-      "na_revisao_desde": "2026-10-14T20:40-03:00",
-      "aprovado_em": "2026-10-14T22:21-03:00"
-    },
-    {
       "loja": "shopee",
       "chave": "shopee:1337281722.22298585774",
       "nome": "Bomba De Ar Auxiliador de Partida De Carro 4 Em 1 Multifuncional Compressor Power Bank CASABEAUTY",
@@ -1492,6 +1472,15 @@
       "link": "https://link.amazon/B01qJwrQa",
       "link_produto": "https://link.amazon/B01qJwrQa",
       "titulo": "Creatina em pó para o seu treino diário"
+    },
+    {
+      "chave": "mercadolivre:MLB66176437",
+      "loja": "mercadolivre",
+      "nome": "Mochila Masculina Bolsa Impermeável Faculdade Executiva Alça",
+      "data": "2026-10-15T09:59-03:00",
+      "link": "https://meli.la/1viX8d9",
+      "link_produto": "https://meli.la/1viX8d9",
+      "titulo": "Modelo executivo impermeável para trabalho e estudos"
     }
   ],
   "slots_usados": {
@@ -4820,6 +4809,19 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB66176437",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/1viX8d9",
+      "link_produto": "https://meli.la/1viX8d9",
+      "post_origem": "https://t.me/lobaopromo/189535",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_892888-MLA107403836976_032026-O.webp",
+      "nome": "Mochila Masculina Bolsa Impermeável Faculdade Executiva Alça",
+      "de": 59.0,
+      "por": 27.0,
+      "titulo": "Modelo executivo impermeável para trabalho e estudos"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0HDFV9XDD",
       "origem": "lobaopromo",
@@ -5337,19 +5339,6 @@
       "de": 623.0,
       "por": 439.0,
       "titulo": "Air Fryer Philco 16L com 30% off"
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:1266325318.21897981294",
-      "nome": "Attracione Men (Perfume Masculino com Feromônios Ativados)",
-      "por": 59.0,
-      "de": 295.0,
-      "foto": "AgACAgQAAxkDAAIDJWrO8oXWu3IS6d1uMARvJQx_K4C4AAIqD2sbz6l0UjwulUo5ISK-AQADAgADeQADPQQ",
-      "link": "https://s.shopee.com.br/6fi2lNkNTw",
-      "link_produto": "https://shopee.com.br/product/1266325318/21897981294",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "titulo": "Perfume Attracione Men com 80% de desconto"
     }
   ],
   "lixeira": [
