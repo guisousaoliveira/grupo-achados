@@ -314,6 +314,26 @@
       "titulo": "Lanterna tática recarregável para iluminação de alta potênci",
       "na_revisao_desde": "2026-10-15T09:41-03:00",
       "aprovado_em": "2026-10-15T10:24-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB23347882",
+      "origem": "xetdaspromocoes",
+      "link": "https://meli.la/2D8R1xr",
+      "link_produto": "https://meli.la/2D8R1xr",
+      "post_origem": "https://t.me/xetdaspromocoes/84925",
+      "link_canal": "https://meli.la/1aUMHZq",
+      "foto": "AgACAgEAAxkDAAIDzGrQ1C7HH1gUCV0PJv6L4OXjsVnlAAJmDWsbKhqIRrLfHxOfsPkUAQADAgADeQADPQQ",
+      "nome": "Relógio Prata Masculino Mondiane 32549g0mvne1 Cor da correia Prateado",
+      "de": 398.0,
+      "por": 152.0,
+      "cupom": "APROVEITA",
+      "palavra": "relogio",
+      "garimpado_em": "2026-10-15T09:30-03:00",
+      "nota": 78.1,
+      "titulo": "Relógio prateado para o dia a dia",
+      "na_revisao_desde": "2026-10-15T09:41-03:00",
+      "aprovado_em": "2026-10-15T10:25-03:00"
     }
   ],
   "postados": [
@@ -1556,28 +1576,6 @@
   },
   "shopee_buscado_em": "",
   "revisar": [
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB23347882",
-      "origem": "xetdaspromocoes",
-      "link": "https://www.mercadolivre.com.br/relogio-prata-masculino-mondiane-32549g0mvne1-cor-da-correia-prateado-cor-do-fundo-preto/p/MLB23347882?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/relogio-prata-masculino-mondiane-32549g0mvne1-cor-da-correia-prateado-cor-do-fundo-preto/p/MLB23347882",
-      "post_origem": "https://t.me/xetdaspromocoes/84925",
-      "link_canal": "https://meli.la/1aUMHZq",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_948610-MLA111288765302_052026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Relógio Prata Masculino Mondiane 32549g0mvne1 Cor da correia Prateado",
-      "de": 398.0,
-      "por": 152.0,
-      "cupom": "APROVEITA",
-      "palavra": "relogio",
-      "garimpado_em": "2026-10-15T09:30-03:00",
-      "nota": 78.1,
-      "titulo": "Relógio prateado para o dia a dia",
-      "id": 588,
-      "na_revisao_desde": "2026-10-15T09:41-03:00",
-      "msg_id": 965
-    },
     {
       "loja": "amazon",
       "chave": "amazon:B0HF1LQFDD",
@@ -6466,7 +6464,7 @@
       },
       "xetdaspromocoes": {
         "achados": 3,
-        "aprovados": 2,
+        "aprovados": 3,
         "reprovados": 0
       },
       "pobregram": {
@@ -6675,7 +6673,7 @@
     },
     "relogio": {
       "achados": 8,
-      "aprovados": 1,
+      "aprovados": 2,
       "reprovados": 5
     },
     "smart tv": {
