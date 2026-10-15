@@ -1441,13 +1441,13 @@
   "radar": {
     "visto": {
       "xetdaspromocoes": 84895,
-      "lobaopromo": 189599,
-      "gatunopromos": 125425,
+      "lobaopromo": 189602,
+      "gatunopromos": 125426,
       "pobregram": 41909,
       "urubupromo": 41688,
       "tudonapromo": 101923,
-      "promonocontext": 126904,
-      "promooeasy": 221765,
+      "promonocontext": 126907,
+      "promooeasy": 221767,
       "aquitempechincha": 281713,
       "infoBRpromos": 67589,
       "boletando": 76742,
@@ -1455,7 +1455,7 @@
       "achadosdotb": 11771
     },
     "dia": "2026-10-14",
-    "hoje": 157,
+    "hoje": 158,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -3192,30 +3192,31 @@
       "shopee:1676517357.22094741101",
       "shopee:1363726862.23094373748",
       "shopee:967211054.58266207805",
-      "amazon:B0HBZB6KPX"
+      "amazon:B0HBZB6KPX",
+      "mercadolivre:MLB74469055"
     ],
     "ultima": {
-      "em": "2026-10-14T21:40:19-03:00",
+      "em": "2026-10-14T21:50:19-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 19,
-      "do_nicho": 4,
-      "repetidas": 3,
+      "posts_novos": 20,
+      "do_nicho": 2,
+      "repetidas": 1,
       "novas": 1,
       "limite_dia": false,
       "repetidas_nome": 0,
-      "promobit": 1,
+      "promobit": 0,
       "soltas": 0,
       "na_peneira": 27
     },
     "hora": "2026-10-14T21",
-    "nesta_hora": 4,
+    "nesta_hora": 5,
     "promobit_hora": "2026-10-14T21",
     "promobit_nesta_hora": 1,
-    "promobit_visto": 3114858,
+    "promobit_visto": 3114877,
     "nomes": [
       [
         [
@@ -4047,23 +4048,6 @@
     "peneira": [
       {
         "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB19563882",
-        "origem": "lobaopromo",
-        "link": "https://www.mercadolivre.com.br/relogio-technos-masculino-quartzo-grafite-42mm-aco-resistente-agua/p/MLB19563882?matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/relogio-technos-masculino-quartzo-grafite-42mm-aco-resistente-agua/p/MLB19563882",
-        "post_origem": "https://t.me/lobaopromo/189531",
-        "link_canal": "https://meli.la/2747TbV",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_866220-MLA99995378069_112025-O.webp",
-        "foto_origem": "loja",
-        "nome": "Relógio Technos Masculino Quartzo Grafite 42mm Aço Resistente à Água",
-        "de": 500.0,
-        "por": 336.0,
-        "palavra": "relogio",
-        "garimpado_em": "2026-10-14T18:50-03:00",
-        "nota": 47.4
-      },
-      {
-        "loja": "mercadolivre",
         "chave": "mercadolivre:MLB5114504621",
         "origem": "promonocontext",
         "link": "https://www.mercadolivre.com.br/mochila-masculina-lona-50-litros-viagem-passeio-motoboy-espo/up/MLBU4882042825?pdp_filters=item_id%3AMLB5114504621&matt_word=alphapromo&matt_tool=59136903",
@@ -4520,12 +4504,29 @@
         "palavra": "smart tv",
         "garimpado_em": "2026-10-14T21:40-03:00",
         "nota": 19.2
+      },
+      {
+        "loja": "mercadolivre",
+        "chave": "mercadolivre:MLB74469055",
+        "origem": "promonocontext",
+        "link": "https://www.mercadolivre.com.br/relogio-technos-masculino-analogico-prateado-2115myi1a-prateado/p/MLB74469055?matt_word=alphapromo&matt_tool=59136903",
+        "link_produto": "https://www.mercadolivre.com.br/relogio-technos-masculino-analogico-prateado-2115myi1a-prateado/p/MLB74469055",
+        "post_origem": "https://t.me/promonocontext/126906",
+        "link_canal": "https://meli.la/1KxFW65",
+        "foto": "https://http2.mlstatic.com/D_NQ_NP_623424-MLA112542541530_062026-O.webp",
+        "foto_origem": "loja",
+        "nome": "Relógio Technos Masculino Analógico Prateado 2115myi/1a Prateado",
+        "de": 429.0,
+        "por": 199.0,
+        "palavra": "relogio",
+        "garimpado_em": "2026-10-14T21:50-03:00",
+        "nota": 59.5
       }
     ],
     "soltas_hora": "2026-10-14T21",
     "soltas": 0,
-    "shopee_em": "2026-10-14T21:31-03:00",
-    "shopee_indice": 76,
+    "shopee_em": "2026-10-14T21:50-03:00",
+    "shopee_indice": 84,
     "soltas_dia_data": "2026-10-14",
     "soltas_dia": 60,
     "soltas_loja": {}
