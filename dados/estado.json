@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "amazon",
-      "chave": "amazon:B0HDFV9XDD",
-      "origem": "lobaopromo",
-      "link": "https://link.amazon/B01qJwrQa",
-      "link_produto": "https://link.amazon/B01qJwrQa",
-      "post_origem": "https://t.me/lobaopromo/189569",
-      "link_canal": "https://amzlink.to/az0WFdGs7gGkX",
-      "foto": "AgACAgQAAxkDAAIDnWrQExEM5hYq2hNaqiCtqBWDGYdOAALhDmsb0GPUUZ-GojoTjgH7AQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Creatina 500g Growth Supplements",
-      "pix": true,
-      "de": 75.0,
-      "por": 56.9,
-      "palavra": "creatina",
-      "garimpado_em": "2026-10-14T20:20-03:00",
-      "nota": 59.1,
-      "titulo": "Creatina em pó para o seu treino diário",
-      "na_revisao_desde": "2026-10-14T20:41-03:00",
-      "aprovado_em": "2026-10-14T21:16-03:00",
-      "aviso_validade": true
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB66176437",
       "origem": "lobaopromo",
@@ -1463,6 +1441,15 @@
       "link_produto": "https://shopee.com.br/product/1325772331/23893407082",
       "titulo": "Lanterna de bolso recarregável",
       "slot": 9
+    },
+    {
+      "chave": "amazon:B0HDFV9XDD",
+      "loja": "amazon",
+      "nome": "Creatina 500g Growth Supplements",
+      "data": "2026-10-15T09:25-03:00",
+      "link": "https://link.amazon/B01qJwrQa",
+      "link_produto": "https://link.amazon/B01qJwrQa",
+      "titulo": "Creatina em pó para o seu treino diário"
     }
   ],
   "slots_usados": {
@@ -4678,6 +4665,20 @@
   },
   "ultimos": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B0HDFV9XDD",
+      "origem": "lobaopromo",
+      "link": "https://link.amazon/B01qJwrQa",
+      "link_produto": "https://link.amazon/B01qJwrQa",
+      "post_origem": "https://t.me/lobaopromo/189569",
+      "foto": "AgACAgQAAxkDAAIDnWrQExEM5hYq2hNaqiCtqBWDGYdOAALhDmsb0GPUUZ-GojoTjgH7AQADAgADeAADPQQ",
+      "nome": "Creatina 500g Growth Supplements",
+      "pix": true,
+      "de": 75.0,
+      "por": 56.9,
+      "titulo": "Creatina em pó para o seu treino diário"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:1325772331.23893407082",
       "nome": "Mini Lanterna Tática Com Led E Zoom Recarregável Usb Lanterna De Mao 535",
@@ -5194,19 +5195,6 @@
       "origem": "shopee",
       "fonte": "shopee",
       "titulo": "Perfume Attracione Men com 80% de desconto"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB5933730066",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/2w5iRyp",
-      "link_produto": "https://meli.la/2w5iRyp",
-      "post_origem": "https://t.me/lobaopromo/188903",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_828161-MLB97789482532_112025-O.webp",
-      "nome": "Kit 3 Regata Dry-fit Lisa Masculina Sandrini Academia Casual",
-      "de": 128.91,
-      "por": 54.99,
-      "titulo": "é agora ou nunca."
     }
   ],
   "lixeira": [
