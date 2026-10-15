@@ -2,26 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB26989230",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/2HUgV4i",
-      "link_produto": "https://meli.la/2HUgV4i",
-      "post_origem": "https://t.me/lobaopromo/189391",
-      "link_canal": "https://meli.la/1UfHcwv",
-      "foto": "AgACAgQAAxkDAAIDaGrPsJbc_yCeM1721foEv2MaUbIQAAKdDmsbTLu9U-H36ZmWWAFBAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Creatina Soldiers Nutrition em pó Sem sabor x 600g",
-      "de": 129.0,
-      "por": 50.0,
-      "palavra": "creatina",
-      "garimpado_em": "2026-10-14T13:40-03:00",
-      "nota": 78.9,
-      "titulo": "Creatina em pó para o seu treino diário",
-      "na_revisao_desde": "2026-10-14T13:40-03:00",
-      "aprovado_em": "2026-10-14T13:43-03:00"
-    },
-    {
       "loja": "shopee",
       "chave": "shopee:1512108548.23799008372",
       "nome": "Bicicleta Spinning Ergométrica Exercício Profissional Monitor suporta até 150kg Academia 1.90m",
@@ -1361,6 +1341,16 @@
       "link": "https://meli.la/1tiaJWi",
       "link_produto": "https://meli.la/1tiaJWi",
       "titulo": "Camisa polo slim para o dia a dia"
+    },
+    {
+      "chave": "mercadolivre:MLB26989230",
+      "loja": "mercadolivre",
+      "nome": "Creatina Soldiers Nutrition em pó Sem sabor x 600g",
+      "data": "2026-10-14T22:53-03:00",
+      "link": "https://meli.la/2HUgV4i",
+      "link_produto": "https://meli.la/2HUgV4i",
+      "titulo": "Creatina em pó para o seu treino diário",
+      "slot": 22
     }
   ],
   "slots_usados": {
@@ -1417,7 +1407,8 @@
       18,
       19,
       20,
-      21
+      21,
+      22
     ]
   },
   "shopee_buscado_em": "",
@@ -4545,6 +4536,19 @@
   "ultimos": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB26989230",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/2HUgV4i",
+      "link_produto": "https://meli.la/2HUgV4i",
+      "post_origem": "https://t.me/lobaopromo/189391",
+      "foto": "AgACAgQAAxkDAAIDaGrPsJbc_yCeM1721foEv2MaUbIQAAKdDmsbTLu9U-H36ZmWWAFBAQADAgADeAADPQQ",
+      "nome": "Creatina Soldiers Nutrition em pó Sem sabor x 600g",
+      "de": 129.0,
+      "por": 50.0,
+      "titulo": "Creatina em pó para o seu treino diário"
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB1841927467",
       "origem": "promonocontext",
       "link": "https://meli.la/1tiaJWi",
@@ -5065,20 +5069,6 @@
       "por": 9.9,
       "de": 13.01,
       "foto": "AgACAgQAAxkDAAIBn2rOJbMVcl1j4HVsq13e_c7cE4zkAAJHD2sbxGh0UghTAAEouGmYowEAAwIAA3gAAz0E"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB25757804",
-      "origem": "xetdaspromocoes",
-      "link": "https://meli.la/1vmbMZ6",
-      "link_produto": "https://meli.la/1vmbMZ6",
-      "post_origem": "https://t.me/xetdaspromocoes/84546",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_840594-MLA99966063943_112025-O.webp",
-      "nome": "Fone De Ouvido Bluetooth TWS Dapon F25 Touch Sem Fio Com Microfone",
-      "pix": true,
-      "de": 140.0,
-      "por": 66.0,
-      "titulo": "Fone bluetooth com 53% off"
     }
   ],
   "lixeira": [
