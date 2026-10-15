@@ -1798,18 +1798,18 @@
   "proximo_id": 603,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84984,
-      "lobaopromo": 189832,
-      "gatunopromos": 125509,
+      "xetdaspromocoes": 84992,
+      "lobaopromo": 189836,
+      "gatunopromos": 125510,
       "pobregram": 41951,
       "urubupromo": 41713,
-      "tudonapromo": 101995,
-      "promonocontext": 127061,
-      "promooeasy": 222128,
-      "aquitempechincha": 281841,
+      "tudonapromo": 101998,
+      "promonocontext": 127064,
+      "promooeasy": 222141,
+      "aquitempechincha": 281844,
       "infoBRpromos": 67618,
       "boletando": 76766,
-      "promotop": 260315,
+      "promotop": 260317,
       "achadosdotb": 11773
     },
     "dia": "2026-10-15",
@@ -3650,30 +3650,31 @@
       "shopee:381126578.23098834026",
       "shopee:495151609.58254442135",
       "mercadolivre:MLB51032488",
-      "mercadolivre:MLB4725761016"
+      "mercadolivre:MLB4725761016",
+      "shopee:1147729120.22298339735"
     ],
     "ultima": {
-      "em": "2026-10-15T11:50:22-03:00",
+      "em": "2026-10-15T12:00:31-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 62,
-      "do_nicho": 3,
-      "repetidas": 1,
-      "novas": 2,
+      "posts_novos": 53,
+      "do_nicho": 4,
+      "repetidas": 4,
+      "novas": 0,
       "limite_dia": false,
       "repetidas_nome": 0,
       "promobit": 0,
       "soltas": 0,
-      "na_peneira": 11
+      "na_peneira": 10
     },
-    "hora": "2026-10-15T11",
-    "nesta_hora": 10,
-    "promobit_hora": "2026-10-15T11",
-    "promobit_nesta_hora": 1,
-    "promobit_visto": 3116077,
+    "hora": "2026-10-15T12",
+    "nesta_hora": 0,
+    "promobit_hora": "2026-10-15T12",
+    "promobit_nesta_hora": 0,
+    "promobit_visto": 3116113,
     "nomes": [
       [
         [
@@ -4893,22 +4894,6 @@
     ],
     "peneira": [
       {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB4347478841",
-        "origem": "promonocontext",
-        "link": "https://produto.mercadolivre.com.br/MLB-4347478841-tnis-feminino-para-academia-leve-confortavel-original-o2x-_JM?pdp_filters=item_id%3AMLB4347478841&matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://produto.mercadolivre.com.br/MLB-4347478841-tnis-feminino-para-academia-leve-confortavel-original-o2x-_JM?pdp_filters=item_id%3AMLB4347478841",
-        "post_origem": "https://t.me/promonocontext/126937",
-        "link_canal": "https://meli.la/19zdhuA",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_656009-MLB113146199047_062026-O.webp",
-        "foto_origem": "loja",
-        "nome": "Tênis Feminino Para Academia Leve Confortável Original O2x",
-        "por": 49.0,
-        "palavra": "academia",
-        "garimpado_em": "2026-10-15T09:01-03:00",
-        "nota": 36.0
-      },
-      {
         "loja": "amazon",
         "chave": "amazon:B0D5J249HC",
         "origem": "promooeasy",
@@ -5082,17 +5067,13 @@
         "nota": 57.1
       }
     ],
-    "soltas_hora": "2026-10-15T11",
-    "soltas": 5,
-    "shopee_em": "2026-10-15T11:40-03:00",
-    "shopee_indice": 76,
+    "soltas_hora": "2026-10-15T12",
+    "soltas": 0,
+    "shopee_em": "2026-10-15T12:01-03:00",
+    "shopee_indice": 84,
     "soltas_dia_data": "2026-10-15",
     "soltas_dia": 33,
-    "soltas_loja": {
-      "mercadolivre": 2,
-      "shopee": 1,
-      "amazon": 2
-    }
+    "soltas_loja": {}
   },
   "ultimos": [
     {
