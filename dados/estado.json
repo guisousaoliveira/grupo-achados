@@ -3,28 +3,6 @@
   "fila": [
     {
       "loja": "shopee",
-      "chave": "shopee:1392120718.20499592472",
-      "nome": "Relógio De Pulso Digital Masculino SPORT Esportivo a Prova d 'Água",
-      "por": 12.69,
-      "de": 79.31,
-      "foto": "https://cf.shopee.com.br/file/br-11134207-7r98o-m9iwo74if11e5e",
-      "link": "https://s.shopee.com.br/2BFe7puUVJ",
-      "link_produto": "https://shopee.com.br/product/1392120718/20499592472",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.8,
-      "vendas": 412,
-      "palavra": "relogio",
-      "garimpado_em": "2026-10-14T11:00-03:00",
-      "nota": 88.7,
-      "titulo": "Relógio digital esportivo à prova d'água",
-      "aprovado_sozinho": true,
-      "aprovado_em": "2026-10-14T13:40-03:00"
-    },
-    {
-      "loja": "shopee",
       "chave": "shopee:1121459942.23293571172",
       "nome": "Bolsa de Ferramentas Profissional 14/20 Polegadas Multiuso Caixa de Ferramentas Maleta Organizadora Tecido Resiste",
       "por": 36.99,
@@ -1377,6 +1355,15 @@
       "link": "https://s.shopee.com.br/1qcnf9wDxI",
       "link_produto": "https://shopee.com.br/product/994175276/22593202844",
       "titulo": "Drone com câmera dupla para filmagens aéreas"
+    },
+    {
+      "chave": "shopee:1392120718.20499592472",
+      "loja": "shopee",
+      "nome": "Relógio De Pulso Digital Masculino SPORT Esportivo a Prova d 'Água",
+      "data": "2026-10-15T00:51-03:00",
+      "link": "https://s.shopee.com.br/2BFe7puUVJ",
+      "link_produto": "https://shopee.com.br/product/1392120718/20499592472",
+      "titulo": "Relógio digital esportivo à prova d'água"
     }
   ],
   "slots_usados": {
@@ -4510,6 +4497,19 @@
   "ultimos": [
     {
       "loja": "shopee",
+      "chave": "shopee:1392120718.20499592472",
+      "nome": "Relógio De Pulso Digital Masculino SPORT Esportivo a Prova d 'Água",
+      "por": 12.69,
+      "de": 79.31,
+      "foto": "https://cf.shopee.com.br/file/br-11134207-7r98o-m9iwo74if11e5e",
+      "link": "https://s.shopee.com.br/2BFe7puUVJ",
+      "link_produto": "https://shopee.com.br/product/1392120718/20499592472",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "titulo": "Relógio digital esportivo à prova d'água"
+    },
+    {
+      "loja": "shopee",
       "chave": "shopee:994175276.22593202844",
       "nome": "Drone E88 Dual Camera 4K Com 1 Bateria WI-FI PRETO NOVO",
       "por": 129.97,
@@ -5027,21 +5027,6 @@
       "origem": "shopee",
       "fonte": "shopee",
       "titulo": "Relógio masculino digital com 87% off"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0FCG5ZJDJ",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://link.amazon/B02IZFygP",
-      "link_produto": "https://link.amazon/B02IZFygP",
-      "post_origem": "https://www.promobit.com.br/oferta/camisa-polo-corinthians-retro-masculina-preta-3111782/",
-      "nome": "Camisa Polo Corinthians Retrô Masculina Preta",
-      "por": 89.9,
-      "de": 219.99,
-      "foto": "AgACAgQAAxkDAAICrGrOkKVaTrMmvlYN7dvtP-kJtyRVAALJDmsbWZcVUltVIswcdLuJAQADAgADeAADPQQ",
-      "titulo": "Camisa retrô do Corinthians",
-      "parcelas": 2
     }
   ],
   "lixeira": [
