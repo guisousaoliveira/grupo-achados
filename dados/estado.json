@@ -2048,17 +2048,17 @@
   "proximo_id": 623,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 85056,
-      "lobaopromo": 189925,
-      "gatunopromos": 125542,
+      "xetdaspromocoes": 85058,
+      "lobaopromo": 189927,
+      "gatunopromos": 125544,
       "pobregram": 41967,
-      "urubupromo": 41721,
-      "tudonapromo": 102036,
-      "promonocontext": 127177,
-      "promooeasy": 222273,
+      "urubupromo": 41722,
+      "tudonapromo": 102037,
+      "promonocontext": 127180,
+      "promooeasy": 222276,
       "aquitempechincha": 281923,
-      "infoBRpromos": 67631,
-      "boletando": 76784,
+      "infoBRpromos": 67632,
+      "boletando": 76786,
       "promotop": 260335,
       "achadosdotb": 11778
     },
@@ -3953,30 +3953,32 @@
       "mercadolivre:MLB51649588",
       "mercadolivre:MLB41312679",
       "mercadolivre:MLB47724213",
-      "shopee:696313634.18196991700"
+      "shopee:696313634.18196991700",
+      "shopee:1800846939.58211647163",
+      "shopee:1702440321.58213748625"
     ],
     "ultima": {
-      "em": "2026-10-15T15:50:33-03:00",
+      "em": "2026-10-15T16:00:31-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 35,
-      "do_nicho": 2,
-      "repetidas": 2,
+      "posts_novos": 29,
+      "do_nicho": 0,
+      "repetidas": 0,
       "novas": 0,
       "limite_dia": false,
       "repetidas_nome": 0,
       "promobit": 0,
       "soltas": 0,
-      "na_peneira": 21
+      "na_peneira": 19
     },
-    "hora": "2026-10-15T15",
-    "nesta_hora": 10,
-    "promobit_hora": "2026-10-15T15",
+    "hora": "2026-10-15T16",
+    "nesta_hora": 0,
+    "promobit_hora": "2026-10-15T16",
     "promobit_nesta_hora": 0,
-    "promobit_visto": 3116808,
+    "promobit_visto": 3116835,
     "nomes": [
       [
         [
@@ -5435,41 +5437,6 @@
     "peneira": [
       {
         "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB5341784160",
-        "origem": "promonocontext",
-        "link": "https://produto.mercadolivre.com.br/MLB-5341784160-kit-10-cuecas-mash-masculino-slip-algodo-cotton-original-_JM?pdp_filters=item_id%3AMLB5341784160&matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://produto.mercadolivre.com.br/MLB-5341784160-kit-10-cuecas-mash-masculino-slip-algodo-cotton-original-_JM?pdp_filters=item_id%3AMLB5341784160",
-        "post_origem": "https://t.me/promonocontext/127101",
-        "link_canal": "https://meli.la/1JTtK6Z",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_792371-MLB110173629201_042026-O.webp",
-        "foto_origem": "loja",
-        "nome": "Kit 10 Cuecas Mash Masculino Slip Algodão Cotton Original",
-        "de": 259.0,
-        "por": 109.0,
-        "palavra": "cueca",
-        "garimpado_em": "2026-10-15T13:00-03:00",
-        "nota": 61.3
-      },
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB77168316",
-        "origem": "promooeasy",
-        "link": "https://www.mercadolivre.com.br/smart-tv-tcl-65-polegadas-sqd-mini-led-4k-q7d-pro-wifi-bluetooth-google-tv-hdr10-144-hz-65q7dpro/p/MLB77168316?matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/smart-tv-tcl-65-polegadas-sqd-mini-led-4k-q7d-pro-wifi-bluetooth-google-tv-hdr10-144-hz-65q7dpro/p/MLB77168316",
-        "post_origem": "https://t.me/promooeasy/222185",
-        "link_canal": "https://meli.la/1LNt5uH",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_862388-MLA114687091568_082026-O.webp",
-        "foto_origem": "loja",
-        "nome": "Smart TV TCL 65 Polegadas SQD-Mini LED 4K Q7D Pro WiFi Bluetooth",
-        "pix": true,
-        "de": 6700.0,
-        "por": 5625.0,
-        "palavra": "smart tv",
-        "garimpado_em": "2026-10-15T13:00-03:00",
-        "nota": 24.5
-      },
-      {
-        "loja": "mercadolivre",
         "chave": "mercadolivre:MLB62391404",
         "origem": "lobaopromo",
         "link": "https://www.mercadolivre.com.br/air-fryer-oven-britania-11l-8-funcoes-1800w-painel-digital-baf11a/p/MLB62391404?matt_word=alphapromo&matt_tool=59136903",
@@ -5803,19 +5770,34 @@
         "palavra": "som automotivo",
         "garimpado_em": "2026-10-15T15:41-03:00",
         "nota": 71.3
+      },
+      {
+        "loja": "shopee",
+        "chave": "shopee:1800846939.58211647163",
+        "nome": "Kit 3 Cuecas Boxer MEN Masculina Microfibra. Cueca boxer, Cuecas Com Alta Elasticidade Confortável.",
+        "por": 20.35,
+        "de": 35.09,
+        "foto": "https://cf.shopee.com.br/file/sg-11134201-823pz-motybm1bprt8e8",
+        "link": "https://s.shopee.com.br/6q1Vbtkp21",
+        "link_produto": "https://shopee.com.br/product/1800846939/58211647163",
+        "origem": "shopee",
+        "fonte": "shopee",
+        "foto_origem": "loja",
+        "shopee_api": true,
+        "avaliacao": 4.8,
+        "vendas": 2161,
+        "palavra": "cueca",
+        "garimpado_em": "2026-10-15T16:00-03:00",
+        "nota": 56.9
       }
     ],
-    "soltas_hora": "2026-10-15T15",
-    "soltas": 5,
-    "shopee_em": "2026-10-15T15:41-03:00",
-    "shopee_indice": 72,
+    "soltas_hora": "2026-10-15T16",
+    "soltas": 0,
+    "shopee_em": "2026-10-15T16:00-03:00",
+    "shopee_indice": 80,
     "soltas_dia_data": "2026-10-15",
     "soltas_dia": 53,
-    "soltas_loja": {
-      "shopee": 2,
-      "mercadolivre": 2,
-      "amazon": 1
-    }
+    "soltas_loja": {}
   },
   "ultimos": [
     {
