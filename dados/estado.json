@@ -301,6 +301,28 @@
       "na_revisao_desde": "2026-10-14T20:41-03:00",
       "parcelas": 2,
       "aprovado_em": "2026-10-14T21:14-03:00"
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:1325772331.23893407082",
+      "nome": "Mini Lanterna Tática Com Led E Zoom Recarregável Usb Lanterna De Mao 535",
+      "por": 12.99,
+      "de": 35.11,
+      "foto": "AgACAgQAAxkDAAIDm2rQEw-clac2c8Vq7EnsE1iMWn9bAALkD2sbv9REUFLLllhhEIPnAQADAgADeQADPQQ",
+      "link": "https://s.shopee.com.br/4B0j8e9y5b",
+      "link_produto": "https://shopee.com.br/product/1325772331/23893407082",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.9,
+      "vendas": 331,
+      "palavra": "lanterna tatica",
+      "garimpado_em": "2026-10-14T20:30-03:00",
+      "nota": 76.7,
+      "titulo": "Lanterna de bolso recarregável",
+      "na_revisao_desde": "2026-10-14T20:41-03:00",
+      "aprovado_em": "2026-10-14T21:16-03:00"
     }
   ],
   "postados": [
@@ -1381,29 +1403,6 @@
       "id": 565,
       "na_revisao_desde": "2026-10-14T20:40-03:00",
       "msg_id": 921
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:1325772331.23893407082",
-      "nome": "Mini Lanterna Tática Com Led E Zoom Recarregável Usb Lanterna De Mao 535",
-      "por": 12.99,
-      "de": 35.11,
-      "foto": "AgACAgQAAxkDAAIDm2rQEw-clac2c8Vq7EnsE1iMWn9bAALkD2sbv9REUFLLllhhEIPnAQADAgADeQADPQQ",
-      "link": "https://s.shopee.com.br/4B0j8e9y5b",
-      "link_produto": "https://shopee.com.br/product/1325772331/23893407082",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.9,
-      "vendas": 331,
-      "palavra": "lanterna tatica",
-      "garimpado_em": "2026-10-14T20:30-03:00",
-      "nota": 76.7,
-      "titulo": "Lanterna de bolso recarregável para uso diário",
-      "id": 567,
-      "na_revisao_desde": "2026-10-14T20:41-03:00",
-      "msg_id": 923
     },
     {
       "loja": "mercadolivre",
@@ -6040,7 +6039,7 @@
     "2026-10-14": {
       "shopee": {
         "achados": 38,
-        "aprovados": 15,
+        "aprovados": 16,
         "reprovados": 20
       },
       "lobaopromo": {
@@ -6364,7 +6363,7 @@
     },
     "lanterna tatica": {
       "achados": 1,
-      "aprovados": 0,
+      "aprovados": 1,
       "reprovados": 0
     }
   }
