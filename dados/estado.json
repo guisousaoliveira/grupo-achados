@@ -2149,15 +2149,15 @@
   "radar": {
     "visto": {
       "xetdaspromocoes": 85070,
-      "lobaopromo": 189956,
-      "gatunopromos": 125553,
+      "lobaopromo": 189959,
+      "gatunopromos": 125555,
       "pobregram": 41969,
-      "urubupromo": 41726,
-      "tudonapromo": 102046,
-      "promonocontext": 127206,
-      "promooeasy": 222310,
-      "aquitempechincha": 281936,
-      "infoBRpromos": 67634,
+      "urubupromo": 41727,
+      "tudonapromo": 102047,
+      "promonocontext": 127211,
+      "promooeasy": 222321,
+      "aquitempechincha": 281941,
+      "infoBRpromos": 67635,
       "boletando": 76791,
       "promotop": 260338,
       "achadosdotb": 11778
@@ -4071,21 +4071,21 @@
       "mercadolivre:MLB3275711831"
     ],
     "ultima": {
-      "em": "2026-10-15T16:50:21-03:00",
+      "em": "2026-10-15T16:57:52-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 38,
-      "do_nicho": 5,
-      "repetidas": 1,
-      "novas": 4,
+      "posts_novos": 29,
+      "do_nicho": 0,
+      "repetidas": 0,
+      "novas": 0,
       "limite_dia": false,
       "repetidas_nome": 0,
-      "promobit": 1,
+      "promobit": 0,
       "soltas": 0,
-      "na_peneira": 23
+      "na_peneira": 22
     },
     "hora": "2026-10-15T16",
     "nesta_hora": 8,
@@ -5610,24 +5610,6 @@
     ],
     "peneira": [
       {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB77577171",
-        "origem": "promonocontext",
-        "link": "https://www.mercadolivre.com.br/power-bank-basike-10000mah-preto-carga-rapida-225w-para-iphone-e-samsung-com-cabos-embutidos-e-display/p/MLB77577171?matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/power-bank-basike-10000mah-preto-carga-rapida-225w-para-iphone-e-samsung-com-cabos-embutidos-e-display/p/MLB77577171",
-        "post_origem": "https://t.me/promonocontext/127134",
-        "link_canal": "https://meli.la/18jnkYX",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_706774-MLA116350168799_082026-O.webp",
-        "foto_origem": "loja",
-        "nome": "Power Bank Basike 10000mAh Preto",
-        "de": 112.0,
-        "por": 67.0,
-        "cupom": "OPAECONOMIZEI",
-        "palavra": "power bank",
-        "garimpado_em": "2026-10-15T13:51-03:00",
-        "nota": 61.8
-      },
-      {
         "loja": "shopee",
         "chave": "shopee:1815970334.58211970311",
         "nome": "Tônico Capilar DOM PELO Crescimento Acelerado Cabelo, Barba e Sobrancelhas 120ml",
@@ -6011,8 +5993,8 @@
     ],
     "soltas_hora": "2026-10-15T16",
     "soltas": 5,
-    "shopee_em": "2026-10-15T16:41-03:00",
-    "shopee_indice": 96,
+    "shopee_em": "2026-10-15T16:58-03:00",
+    "shopee_indice": 104,
     "soltas_dia_data": "2026-10-15",
     "soltas_dia": 58,
     "soltas_loja": {
@@ -6755,7 +6737,7 @@
       }
     }
   },
-  "aviso_post": "2026-10-15 16|shopee:1101226660.21999087953",
+  "aviso_post": "2026-10-15 17|amazon:B0DXF8MFR2",
   "garimpo_palavras": {
     "academia": {
       "achados": 24,
