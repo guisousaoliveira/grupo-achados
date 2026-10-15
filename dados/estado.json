@@ -2,26 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB79915624",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/1bB8SKy",
-      "link_produto": "https://meli.la/1bB8SKy",
-      "post_origem": "https://t.me/lobaopromo/189703",
-      "link_canal": "https://meli.la/22kpmfT",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_636676-MLA116721406480_092026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Kit Ferramentas 46 Peças Jogo Chaves Catraca Soquetes Allen Torx",
-      "de": 54.0,
-      "por": 31.9,
-      "palavra": "ferramenta",
-      "garimpado_em": "2026-10-15T06:33-03:00",
-      "nota": 70.3,
-      "titulo": "Kit de ferramentas para reparos e manutenções caseiras",
-      "na_revisao_desde": "2026-10-15T06:34-03:00",
-      "aprovado_em": "2026-10-15T06:37-03:00"
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B0F677L8R5",
       "origem": "promobit",
@@ -1560,6 +1540,16 @@
       "link_produto": "https://link.amazon/B0a7lwMEU",
       "titulo": "Relógio em aço com cronógrafo para o dia a dia",
       "slot": 14
+    },
+    {
+      "chave": "mercadolivre:MLB79915624",
+      "loja": "mercadolivre",
+      "nome": "Kit Ferramentas 46 Peças Jogo Chaves Catraca Soquetes Allen Torx",
+      "data": "2026-10-15T15:30-03:00",
+      "link": "https://meli.la/1bB8SKy",
+      "link_produto": "https://meli.la/1bB8SKy",
+      "titulo": "Kit de ferramentas para reparos e manutenções caseiras",
+      "slot": 15
     }
   ],
   "slots_usados": {
@@ -1627,7 +1617,8 @@
       11,
       12,
       13,
-      14
+      14,
+      15
     ]
   },
   "shopee_buscado_em": "",
@@ -5932,6 +5923,19 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB79915624",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/1bB8SKy",
+      "link_produto": "https://meli.la/1bB8SKy",
+      "post_origem": "https://t.me/lobaopromo/189703",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_636676-MLA116721406480_092026-O.webp",
+      "nome": "Kit Ferramentas 46 Peças Jogo Chaves Catraca Soquetes Allen Torx",
+      "de": 54.0,
+      "por": 31.9,
+      "titulo": "Kit de ferramentas para reparos e manutenções caseiras"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B017SN1OI8",
       "origem": "promobit",
@@ -6454,19 +6458,6 @@
       "origem": "shopee",
       "fonte": "shopee",
       "titulo": "Nível a laser para alinhar paredes e prateleiras"
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:394192376.21897733919",
-      "nome": "Creatina 250g 100% Pura Monohidratada - P&P FIT",
-      "por": 14.9,
-      "de": 124.17,
-      "foto": "AgACAgQAAxkDAAIDJmrO8om5ga5TywOO3ZW4GVmESgABVgAC7bQxG2SsvVOUr0S-6W9DYgEAAwIAA3kAAz0E",
-      "link": "https://s.shopee.com.br/905xXfFQaZ",
-      "link_produto": "https://shopee.com.br/product/394192376/21897733919",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "titulo": "Creatina P&P FIT 250g com 88% off"
     }
   ],
   "lixeira": [
