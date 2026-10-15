@@ -3,26 +3,6 @@
   "fila": [
     {
       "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB6087972",
-      "origem": "xetdaspromocoes",
-      "link": "https://meli.la/2HvEipd",
-      "link_produto": "https://meli.la/2HvEipd",
-      "post_origem": "https://t.me/xetdaspromocoes/84813",
-      "link_canal": "https://meli.la/1tpYAT9",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_811723-MLA116971940367_082026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Proteína Max Titanium Whey Pro Concetrado em pó sabor Chocolate x 1kg",
-      "de": 149.0,
-      "por": 78.0,
-      "palavra": "whey",
-      "garimpado_em": "2026-10-14T14:00-03:00",
-      "nota": 61.5,
-      "titulo": "Whey de chocolate para bater a proteína diária",
-      "na_revisao_desde": "2026-10-14T16:40-03:00",
-      "aprovado_em": "2026-10-14T18:02-03:00"
-    },
-    {
-      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB30144703",
       "origem": "promonocontext",
       "link": "https://meli.la/1vssKpu",
@@ -4826,6 +4806,28 @@
     }
   ],
   "lixeira": [
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB6087972",
+      "origem": "xetdaspromocoes",
+      "link": "https://meli.la/2HvEipd",
+      "link_produto": "https://meli.la/2HvEipd",
+      "post_origem": "https://t.me/xetdaspromocoes/84813",
+      "link_canal": "https://meli.la/1tpYAT9",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_811723-MLA116971940367_082026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Proteína Max Titanium Whey Pro Concetrado em pó sabor Chocolate x 1kg",
+      "de": 149.0,
+      "por": 78.0,
+      "palavra": "whey",
+      "garimpado_em": "2026-10-14T14:00-03:00",
+      "nota": 61.5,
+      "titulo": "Whey de chocolate para bater a proteína diária",
+      "na_revisao_desde": "2026-10-14T16:40-03:00",
+      "aprovado_em": "2026-10-14T18:02-03:00",
+      "removido_em": "2026-10-15T06:40:54-03:00",
+      "removido_de": "fila"
+    },
     {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB75615449",
