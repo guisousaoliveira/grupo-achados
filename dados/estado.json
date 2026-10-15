@@ -319,6 +319,26 @@
       "titulo": "Halteres ajustáveis para montar sua academia em casa",
       "aprovado_sozinho": true,
       "aprovado_em": "2026-10-15T16:40-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB79752041",
+      "origem": "promooeasy",
+      "link": "https://meli.la/2EeNYK3",
+      "link_produto": "https://meli.la/2EeNYK3",
+      "post_origem": "https://t.me/promooeasy/222334",
+      "link_canal": "https://meli.la/1AKNxys",
+      "foto": "AgACAgQAAxkDAAIBf2rOIDaq4wpEaJ3SV8lzjP20zLOFAAJyD2sbKz7MUQssk8t-CJdZAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Perfume Masculino Nautica Voyage Eau de Toilette 100ml",
+      "de": 199.0,
+      "por": 90.69,
+      "palavra": "perfume masculino",
+      "garimpado_em": "2026-10-15T17:10-03:00",
+      "nota": 72.5,
+      "titulo": "Fragrância fresca ideal para dias de calor",
+      "na_revisao_desde": "2026-10-15T17:40-03:00",
+      "aprovado_em": "2026-10-15T17:52-03:00"
     }
   ],
   "postados": [
@@ -2143,27 +2163,6 @@
       "id": 627,
       "na_revisao_desde": "2026-10-15T16:41-03:00",
       "msg_id": 1022
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB79752041",
-      "origem": "promooeasy",
-      "link": "https://www.mercadolivre.com.br/perfume-masculino-nautica-voyage-eau-de-toilette-100ml/p/MLB79752041?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/perfume-masculino-nautica-voyage-eau-de-toilette-100ml/p/MLB79752041",
-      "post_origem": "https://t.me/promooeasy/222334",
-      "link_canal": "https://meli.la/1AKNxys",
-      "foto": "AgACAgQAAxkDAAIBf2rOIDaq4wpEaJ3SV8lzjP20zLOFAAJyD2sbKz7MUQssk8t-CJdZAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Perfume Masculino Nautica Voyage Eau de Toilette 100ml",
-      "de": 199.0,
-      "por": 90.69,
-      "palavra": "perfume masculino",
-      "garimpado_em": "2026-10-15T17:10-03:00",
-      "nota": 72.5,
-      "titulo": "Fragrância fresca ideal para dias de calor",
-      "id": 628,
-      "na_revisao_desde": "2026-10-15T17:40-03:00",
-      "msg_id": 1024
     }
   ],
   "proximo_id": 630,
@@ -6831,7 +6830,7 @@
       },
       "promooeasy": {
         "achados": 7,
-        "aprovados": 3,
+        "aprovados": 4,
         "reprovados": 2
       },
       "xetdaspromocoes": {
@@ -7035,7 +7034,7 @@
     },
     "perfume masculino": {
       "achados": 8,
-      "aprovados": 5,
+      "aprovados": 6,
       "reprovados": 2
     },
     "power bank": {
