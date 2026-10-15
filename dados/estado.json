@@ -301,6 +301,28 @@
       "na_revisao_desde": "2026-10-14T19:40-03:00",
       "obs": "Use o progame e poupe e cancele quando quiser!",
       "aprovado_em": "2026-10-14T20:01-03:00"
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0FCGBD62W",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://link.amazon/B01keYSBF",
+      "link_produto": "https://link.amazon/B01keYSBF",
+      "post_origem": "https://www.promobit.com.br/oferta/corinthians-camisa-polo-retro-kalunga-masculina-preta-m-3114645/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3114645/",
+      "nome": "Corinthians Camisa Polo Retrô Kalunga Masculina Preta M",
+      "por": 89.33,
+      "de": 219.99,
+      "foto": "AgACAgQAAxkDAAIDmmrQEw0aZ2Hrq_g9tPBeaePZi6bJAAJaD2sbnoeEUpMcdGUw6P_5AQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "palavra": "camisa polo",
+      "garimpado_em": "2026-10-14T20:30-03:00",
+      "nota": 77.2,
+      "titulo": "Camisa polo preta para torcer com estilo",
+      "na_revisao_desde": "2026-10-14T20:41-03:00",
+      "parcelas": 2,
+      "aprovado_em": "2026-10-14T21:14-03:00"
     }
   ],
   "postados": [
@@ -1372,28 +1394,6 @@
       "id": 565,
       "na_revisao_desde": "2026-10-14T20:40-03:00",
       "msg_id": 921
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0FCGBD62W",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B0FCGBD62W?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0FCGBD62W?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/corinthians-camisa-polo-retro-kalunga-masculina-preta-m-3114645/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3114645/",
-      "nome": "Corinthians Camisa Polo Retrô Kalunga Masculina Preta M",
-      "por": 89.33,
-      "de": 219.99,
-      "foto": "AgACAgQAAxkDAAIDmmrQEw0aZ2Hrq_g9tPBeaePZi6bJAAJaD2sbnoeEUpMcdGUw6P_5AQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "palavra": "camisa polo",
-      "garimpado_em": "2026-10-14T20:30-03:00",
-      "nota": 77.2,
-      "titulo": "Camisa polo preta para torcer com estilo",
-      "id": 566,
-      "na_revisao_desde": "2026-10-14T20:41-03:00",
-      "msg_id": 922
     },
     {
       "loja": "shopee",
@@ -6082,7 +6082,7 @@
       },
       "promobit": {
         "achados": 3,
-        "aprovados": 0,
+        "aprovados": 1,
         "reprovados": 2
       }
     }
@@ -6166,7 +6166,7 @@
     },
     "camisa polo": {
       "achados": 6,
-      "aprovados": 3,
+      "aprovados": 4,
       "reprovados": 1
     },
     "chave de impacto": {
