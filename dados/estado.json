@@ -255,6 +255,28 @@
       "aprovado_em": "2026-10-15T06:39-03:00"
     },
     {
+      "loja": "shopee",
+      "chave": "shopee:1101226660.21999087953",
+      "nome": "Par Alto falante JBL Flex4  6TRFX55 6 polegadas 110w Rms 4 Ohm",
+      "por": 143.05,
+      "de": 198.68,
+      "foto": "https://cf.shopee.com.br/file/br-11134207-820lw-mpl7mvwxk4ch4e",
+      "link": "https://s.shopee.com.br/9Kiq4tNYee",
+      "link_produto": "https://shopee.com.br/product/1101226660/21999087953",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.9,
+      "vendas": 232,
+      "palavra": "jbl",
+      "garimpado_em": "2026-10-15T08:20-03:00",
+      "nota": 52.1,
+      "titulo": "Par de alto-falantes JBL para o som do carro",
+      "aprovado_sozinho": true,
+      "aprovado_em": "2026-10-15T08:41-03:00"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0DXF8MFR2",
       "origem": "promooeasy",
@@ -274,6 +296,28 @@
       "de": 54.99,
       "pix": true,
       "aprovado_em": "2026-10-15T07:48-03:00"
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:1101261117.22698850420",
+      "nome": "Caixa de Som JBL Amplificada PartyBox Stage 320 240W Preta Bivolt",
+      "por": 2899.0,
+      "de": 5368.52,
+      "foto": "https://cf.shopee.com.br/file/sg-11134201-824gf-mdxp155jpon4f1",
+      "link": "https://s.shopee.com.br/80DSURSdMG",
+      "link_produto": "https://shopee.com.br/product/1101261117/22698850420",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 5.0,
+      "vendas": 200,
+      "palavra": "caixa de som",
+      "garimpado_em": "2026-10-15T08:20-03:00",
+      "nota": 61.4,
+      "titulo": "Som potente para animar festas e churrascos",
+      "aprovado_sozinho": true,
+      "aprovado_em": "2026-10-15T08:41-03:00"
     }
   ],
   "postados": [
@@ -1466,26 +1510,93 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [],
-  "proximo_id": 583,
+  "revisar": [
+    {
+      "loja": "amazon",
+      "chave": "amazon:B09RTQGH4W",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B09RTQGH4W?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B09RTQGH4W?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/timex-relogio-masculino-expedition-scout-40-mm-caixa-cinza-mostrador-preto-com-pulseira-de-couro-marrom-ecco-dritan-3115422/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3115422/",
+      "nome": "Timex Relógio masculino Expedition Scout 40 mm caixa cinza mostrador",
+      "por": 288.47,
+      "de": 504.11,
+      "foto": "AgACAgQAAxkDAAIDvGrQu9IdK4eij5eAX1ElWEQu61OYAAJJszEbJihVU0jOdUmXm46gAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "palavra": "relogio masculino",
+      "garimpado_em": "2026-10-15T08:40-03:00",
+      "nota": 65.3,
+      "titulo": "Timex versátil que combina com qualquer estilo casual",
+      "id": 583,
+      "na_revisao_desde": "2026-10-15T08:41-03:00",
+      "msg_id": 956
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB64095565",
+      "origem": "xetdaspromocoes",
+      "link": "https://www.mercadolivre.com.br/cafeteira-eletrica-electrolux-15-xicaras-ecm10-torradeira-8-niveis-efficient-ets10-kit-cafe-da-manha-electrolux/p/MLB64095565?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/cafeteira-eletrica-electrolux-15-xicaras-ecm10-torradeira-8-niveis-efficient-ets10-kit-cafe-da-manha-electrolux/p/MLB64095565",
+      "post_origem": "https://t.me/xetdaspromocoes/84904",
+      "link_canal": "https://meli.la/1RMtGds",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_741636-MLA103747547418_012026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Cafeteira Elétrica Electrolux 15 Xícaras ECM10 + Torradeira 8 Níveis",
+      "pix": true,
+      "de": 349.0,
+      "por": 229.0,
+      "palavra": "cafeteira",
+      "garimpado_em": "2026-10-15T08:40-03:00",
+      "nota": 52.1,
+      "titulo": "Cafeteira e torradeira que agilizam suas manhãs",
+      "id": 585,
+      "na_revisao_desde": "2026-10-15T08:41-03:00",
+      "msg_id": 958
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B01JO75X6K",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B01JO75X6K?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B01JO75X6K?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/relogio-timex-expedition-scout-couro-marrom-3115354/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3115354/",
+      "nome": "Relógio Timex Expedition Scout Couro Marrom",
+      "por": 287.0,
+      "de": 505.75,
+      "foto": "AgACAgQAAxkDAAIDv2rQu_EtJI6Gzf8mXyXUL9Tmqu3DAAKCD2sbdb-FUso_B3InNxciAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "palavra": "relogio",
+      "garimpado_em": "2026-10-15T08:10-03:00",
+      "nota": 49.8,
+      "titulo": "Relógio Timex em couro para o dia a dia",
+      "id": 586,
+      "na_revisao_desde": "2026-10-15T08:41-03:00",
+      "msg_id": 959
+    }
+  ],
+  "proximo_id": 588,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 84903,
-      "lobaopromo": 189726,
-      "gatunopromos": 125480,
-      "pobregram": 41922,
+      "xetdaspromocoes": 84908,
+      "lobaopromo": 189731,
+      "gatunopromos": 125482,
+      "pobregram": 41924,
       "urubupromo": 41691,
-      "tudonapromo": 101938,
-      "promonocontext": 126924,
-      "promooeasy": 221985,
+      "tudonapromo": 101942,
+      "promonocontext": 126927,
+      "promooeasy": 221993,
       "aquitempechincha": 281756,
       "infoBRpromos": 67597,
-      "boletando": 76748,
+      "boletando": 76749,
       "promotop": 260292,
       "achadosdotb": 11771
     },
     "dia": "2026-10-15",
-    "hoje": 30,
+    "hoje": 34,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -3276,30 +3387,34 @@
       "shopee:297905309.43800091727",
       "shopee:1101261117.22698850420",
       "shopee:1101226660.21999087953",
-      "amazon:B00LW3RCW8"
+      "amazon:B00LW3RCW8",
+      "amazon:B09RTQGH4W",
+      "mercadolivre:MLB64095565",
+      "amazon:B08R93TVRG",
+      "amazon:B0H3Q1RHD7"
     ],
     "ultima": {
-      "em": "2026-10-15T08:30:23-03:00",
+      "em": "2026-10-15T08:40:20-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 29,
-      "do_nicho": 3,
-      "repetidas": 2,
-      "novas": 1,
+      "posts_novos": 40,
+      "do_nicho": 7,
+      "repetidas": 3,
+      "novas": 4,
       "limite_dia": false,
       "repetidas_nome": 0,
       "promobit": 1,
-      "soltas": 0,
-      "na_peneira": 9
+      "soltas": 5,
+      "na_peneira": 8
     },
     "hora": "2026-10-15T08",
-    "nesta_hora": 3,
+    "nesta_hora": 6,
     "promobit_hora": "2026-10-15T08",
-    "promobit_nesta_hora": 2,
-    "promobit_visto": 3115411,
+    "promobit_nesta_hora": 3,
+    "promobit_visto": 3115426,
     "nomes": [
       [
         [
@@ -4270,6 +4385,69 @@
           "flexoes"
         ],
         "2026-10-15T07:40-03:00"
+      ],
+      [
+        [
+          "timex",
+          "relogio",
+          "expedition",
+          "scout",
+          "40",
+          "mm",
+          "caixa",
+          "cinza"
+        ],
+        "2026-10-15T08:40-03:00"
+      ],
+      [
+        [
+          "caixa",
+          "som",
+          "jbl",
+          "amplificada",
+          "partybox",
+          "stage",
+          "320",
+          "240w"
+        ],
+        "2026-10-15T08:41-03:00"
+      ],
+      [
+        [
+          "cafeteira",
+          "eletrica",
+          "electrolux",
+          "15",
+          "xicaras",
+          "ecm10",
+          "torradeira",
+          "niveis"
+        ],
+        "2026-10-15T08:41-03:00"
+      ],
+      [
+        [
+          "relogio",
+          "timex",
+          "expedition",
+          "scout",
+          "couro",
+          "marrom"
+        ],
+        "2026-10-15T08:41-03:00"
+      ],
+      [
+        [
+          "par",
+          "alto",
+          "falante",
+          "jbl",
+          "flex4",
+          "6trfx55",
+          "polegadas",
+          "110w"
+        ],
+        "2026-10-15T08:41-03:00"
       ]
     ],
     "peneira": [
@@ -4306,24 +4484,6 @@
         "palavra": "whey",
         "garimpado_em": "2026-10-15T07:50-03:00",
         "nota": 27.7
-      },
-      {
-        "loja": "amazon",
-        "chave": "amazon:B01JO75X6K",
-        "origem": "promobit",
-        "fonte": "promobit",
-        "link": "https://www.amazon.com.br/dp/B01JO75X6K?tag=alphadominu09-20",
-        "link_produto": "https://www.amazon.com.br/dp/B01JO75X6K?tag=alphadominu09-20",
-        "post_origem": "https://www.promobit.com.br/oferta/relogio-timex-expedition-scout-couro-marrom-3115354/",
-        "link_canal": "https://www.promobit.com.br/Redirect/to/3115354/",
-        "nome": "Relógio Timex Expedition Scout Couro Marrom",
-        "por": 287.0,
-        "de": 505.75,
-        "foto": "https://images-na.ssl-images-amazon.com/images/P/B01JO75X6K.01.LZZZZZZZ.jpg",
-        "foto_origem": "loja",
-        "palavra": "relogio",
-        "garimpado_em": "2026-10-15T08:10-03:00",
-        "nota": 49.8
       },
       {
         "loja": "amazon",
@@ -4374,44 +4534,6 @@
         "nota": 17.9
       },
       {
-        "loja": "shopee",
-        "chave": "shopee:1101261117.22698850420",
-        "nome": "Caixa de Som JBL Amplificada PartyBox Stage 320 240W Preta Bivolt",
-        "por": 2899.0,
-        "de": 5368.52,
-        "foto": "https://cf.shopee.com.br/file/sg-11134201-824gf-mdxp155jpon4f1",
-        "link": "https://s.shopee.com.br/80DSURSdMG",
-        "link_produto": "https://shopee.com.br/product/1101261117/22698850420",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 5.0,
-        "vendas": 200,
-        "palavra": "caixa de som",
-        "garimpado_em": "2026-10-15T08:20-03:00",
-        "nota": 61.4
-      },
-      {
-        "loja": "shopee",
-        "chave": "shopee:1101226660.21999087953",
-        "nome": "Par Alto falante JBL Flex4  6TRFX55 6 polegadas 110w Rms 4 Ohm",
-        "por": 143.05,
-        "de": 198.68,
-        "foto": "https://cf.shopee.com.br/file/br-11134207-820lw-mpl7mvwxk4ch4e",
-        "link": "https://s.shopee.com.br/9Kiq4tNYee",
-        "link_produto": "https://shopee.com.br/product/1101226660/21999087953",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 4.9,
-        "vendas": 232,
-        "palavra": "jbl",
-        "garimpado_em": "2026-10-15T08:20-03:00",
-        "nota": 52.1
-      },
-      {
         "loja": "amazon",
         "chave": "amazon:B00LW3RCW8",
         "origem": "promobit",
@@ -4428,15 +4550,51 @@
         "palavra": "relogio",
         "garimpado_em": "2026-10-15T08:30-03:00",
         "nota": 30.5
+      },
+      {
+        "loja": "amazon",
+        "chave": "amazon:B08R93TVRG",
+        "origem": "promooeasy",
+        "link": "https://www.amazon.com.br/dp/B08R93TVRG?tag=alphadominu09-20",
+        "link_produto": "https://www.amazon.com.br/dp/B08R93TVRG?tag=alphadominu09-20",
+        "post_origem": "https://t.me/promooeasy/221992",
+        "link_canal": "https://www.amazon.com.br/dp/B08R93TVRG/ref=cm_sw_r_as_gl_apa_gl_i_QEAHJDNC5FY0TVP2TDN8?tag=promof26-20",
+        "foto": "https://m.media-amazon.com/images/I/612gXC9waVL._AC_SL1200_.jpg",
+        "foto_origem": "loja",
+        "nome": "Fritadeira Philco Air Fryer Oven 12L PFR2200P - 127V",
+        "por": 419.0,
+        "palavra": "air fryer",
+        "garimpado_em": "2026-10-15T08:40-03:00",
+        "nota": 21.4
+      },
+      {
+        "loja": "amazon",
+        "chave": "amazon:B0H3Q1RHD7",
+        "origem": "boletando",
+        "link": "https://www.amazon.com.br/dp/B0H3Q1RHD7?tag=alphadominu09-20",
+        "link_produto": "https://www.amazon.com.br/dp/B0H3Q1RHD7?tag=alphadominu09-20",
+        "post_origem": "https://t.me/boletando/76749",
+        "link_canal": "https://boletando.com/oferta/269133/",
+        "foto": "https://m.media-amazon.com/images/I/81PghVbGE6L._AC_SL1500_.jpg",
+        "foto_origem": "loja",
+        "nome": "Smart TV TCL Advanced 65 4K QLED T6C  Canais grátis, Processador AiPQ, Tela HVA HDR 10+ HLG, Google TV, Dolby Vision  At",
+        "por": 3197.38,
+        "palavra": "smart tv",
+        "garimpado_em": "2026-10-15T08:40-03:00",
+        "nota": 16.7
       }
     ],
     "soltas_hora": "2026-10-15T08",
-    "soltas": 0,
-    "shopee_em": "2026-10-15T08:20-03:00",
-    "shopee_indice": 96,
+    "soltas": 5,
+    "shopee_em": "2026-10-15T08:41-03:00",
+    "shopee_indice": 104,
     "soltas_dia_data": "2026-10-15",
-    "soltas_dia": 13,
-    "soltas_loja": {}
+    "soltas_dia": 18,
+    "soltas_loja": {
+      "amazon": 2,
+      "shopee": 2,
+      "mercadolivre": 1
+    }
   },
   "ultimos": [
     {
@@ -5986,7 +6144,7 @@
     },
     "2026-10-15": {
       "shopee": {
-        "achados": 1,
+        "achados": 3,
         "aprovados": 0,
         "reprovados": 0
       },
@@ -5996,7 +6154,7 @@
         "reprovados": 0
       },
       "promobit": {
-        "achados": 2,
+        "achados": 4,
         "aprovados": 2,
         "reprovados": 0
       },
@@ -6004,6 +6162,11 @@
         "achados": 3,
         "aprovados": 2,
         "reprovados": 1
+      },
+      "xetdaspromocoes": {
+        "achados": 1,
+        "aprovados": 0,
+        "reprovados": 0
       }
     }
   },
@@ -6065,12 +6228,12 @@
       "reprovados": 2
     },
     "cafeteira": {
-      "achados": 4,
+      "achados": 5,
       "aprovados": 0,
       "reprovados": 4
     },
     "caixa de som": {
-      "achados": 18,
+      "achados": 19,
       "aprovados": 2,
       "reprovados": 16
     },
@@ -6155,7 +6318,7 @@
       "reprovados": 2
     },
     "jbl": {
-      "achados": 2,
+      "achados": 3,
       "aprovados": 0,
       "reprovados": 2
     },
@@ -6205,7 +6368,7 @@
       "reprovados": 2
     },
     "relogio": {
-      "achados": 6,
+      "achados": 7,
       "aprovados": 0,
       "reprovados": 5
     },
@@ -6240,7 +6403,7 @@
       "reprovados": 6
     },
     "relogio masculino": {
-      "achados": 3,
+      "achados": 4,
       "aprovados": 2,
       "reprovados": 1
     },
