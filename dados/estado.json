@@ -314,26 +314,6 @@
       "titulo": "Lanterna tática recarregável para iluminação de alta potênci",
       "na_revisao_desde": "2026-10-15T09:41-03:00",
       "aprovado_em": "2026-10-15T10:24-03:00"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB23347882",
-      "origem": "xetdaspromocoes",
-      "link": "https://meli.la/2D8R1xr",
-      "link_produto": "https://meli.la/2D8R1xr",
-      "post_origem": "https://t.me/xetdaspromocoes/84925",
-      "link_canal": "https://meli.la/1aUMHZq",
-      "foto": "AgACAgEAAxkDAAIDzGrQ1C7HH1gUCV0PJv6L4OXjsVnlAAJmDWsbKhqIRrLfHxOfsPkUAQADAgADeQADPQQ",
-      "nome": "Relógio Prata Masculino Mondiane 32549g0mvne1 Cor da correia Prateado",
-      "de": 398.0,
-      "por": 152.0,
-      "cupom": "APROVEITA",
-      "palavra": "relogio",
-      "garimpado_em": "2026-10-15T09:30-03:00",
-      "nota": 78.1,
-      "titulo": "Relógio prateado para o dia a dia",
-      "na_revisao_desde": "2026-10-15T09:41-03:00",
-      "aprovado_em": "2026-10-15T10:25-03:00"
     }
   ],
   "postados": [
@@ -1508,6 +1488,15 @@
       "link_produto": "https://shopee.com.br/product/1337281722/22298585774",
       "titulo": "Compressor portátil para calibrar pneus e emergências automo",
       "slot": 10
+    },
+    {
+      "chave": "mercadolivre:MLB23347882",
+      "loja": "mercadolivre",
+      "nome": "Relógio Prata Masculino Mondiane 32549g0mvne1 Cor da correia Prateado",
+      "data": "2026-10-15T10:25-03:00",
+      "link": "https://meli.la/2D8R1xr",
+      "link_produto": "https://meli.la/2D8R1xr",
+      "titulo": "Relógio prateado para o dia a dia"
     }
   ],
   "slots_usados": {
@@ -4872,6 +4861,20 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB23347882",
+      "origem": "xetdaspromocoes",
+      "link": "https://meli.la/2D8R1xr",
+      "link_produto": "https://meli.la/2D8R1xr",
+      "post_origem": "https://t.me/xetdaspromocoes/84925",
+      "foto": "AgACAgEAAxkDAAIDzGrQ1C7HH1gUCV0PJv6L4OXjsVnlAAJmDWsbKhqIRrLfHxOfsPkUAQADAgADeQADPQQ",
+      "nome": "Relógio Prata Masculino Mondiane 32549g0mvne1 Cor da correia Prateado",
+      "de": 398.0,
+      "por": 152.0,
+      "cupom": "APROVEITA",
+      "titulo": "Relógio prateado para o dia a dia"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:1337281722.22298585774",
       "nome": "Bomba De Ar Auxiliador de Partida De Carro 4 Em 1 Multifuncional Compressor Power Bank CASABEAUTY",
@@ -5389,19 +5392,6 @@
       "de": 139.0,
       "por": 78.9,
       "titulo": "Mochila Mormaii resistente"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB6284520224",
-      "origem": "promonocontext",
-      "link": "https://meli.la/2CDzSsQ",
-      "link_produto": "https://meli.la/2CDzSsQ",
-      "post_origem": "https://t.me/promonocontext/126300",
-      "foto": "AgACAgQAAxkDAAICmmrOi5m29tHCMhAllfhtBu6nkWikAAI-DmsbCawcUipQkXKZErppAQADAgADeAADPQQ",
-      "nome": "Bold Creatina (300g) Neutro",
-      "por": 59.9,
-      "de": 69.99,
-      "titulo": "Bold Creatina com 14% de desconto"
     }
   ],
   "lixeira": [
