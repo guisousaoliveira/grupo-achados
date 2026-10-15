@@ -1482,26 +1482,6 @@
     },
     {
       "loja": "amazon",
-      "chave": "amazon:B0GH6ZT8XG",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0GH6ZT8XG?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0GH6ZT8XG?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/221923",
-      "link_canal": "https://amazon.com.br/dp/B0GH6ZT8XG?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAIDt2rQrbKpPQ6jt-RjLjD3KclVw0BdAAI1D2sbTKcVUTYpRV1k_Zv3AQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "nome": "Kit Cachos e Alisamento Bivolt GOKOCO GD034 Rosa 127V-220V  Ferramenta Multifuncional com 3 Anexos, Controle de Calor NT",
-      "por": 305.98,
-      "palavra": "ferramenta",
-      "garimpado_em": "2026-10-15T07:30-03:00",
-      "nota": 30.0,
-      "titulo": "Modelador multifuncional para modelar os cabelos em casa",
-      "id": 581,
-      "na_revisao_desde": "2026-10-15T07:40-03:00",
-      "msg_id": 951
-    },
-    {
-      "loja": "amazon",
       "chave": "amazon:B0HH4RGVG5",
       "origem": "promooeasy",
       "link": "https://www.amazon.com.br/dp/B0HH4RGVG5?tag=alphadominu09-20",
@@ -4862,6 +4842,27 @@
   ],
   "lixeira": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B0GH6ZT8XG",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0GH6ZT8XG?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0GH6ZT8XG?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/221923",
+      "link_canal": "https://amazon.com.br/dp/B0GH6ZT8XG?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAIDt2rQrbKpPQ6jt-RjLjD3KclVw0BdAAI1D2sbTKcVUTYpRV1k_Zv3AQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "nome": "Kit Cachos e Alisamento Bivolt GOKOCO GD034 Rosa 127V-220V  Ferramenta Multifuncional com 3 Anexos, Controle de Calor NT",
+      "por": 305.98,
+      "palavra": "ferramenta",
+      "garimpado_em": "2026-10-15T07:30-03:00",
+      "nota": 30.0,
+      "titulo": "Modelador multifuncional para modelar os cabelos em casa",
+      "id": 581,
+      "na_revisao_desde": "2026-10-15T07:40-03:00",
+      "removido_em": "2026-10-15T07:46:31-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB6087972",
       "origem": "xetdaspromocoes",
@@ -5872,7 +5873,7 @@
       "promooeasy": {
         "achados": 3,
         "aprovados": 0,
-        "reprovados": 0
+        "reprovados": 1
       }
     }
   },
@@ -6006,7 +6007,7 @@
     "ferramenta": {
       "achados": 8,
       "aprovados": 3,
-      "reprovados": 4
+      "reprovados": 5
     },
     "fritadeira": {
       "achados": 1,
