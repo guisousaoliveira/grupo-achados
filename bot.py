@@ -2486,7 +2486,7 @@ def radar_promobit(estado, r, cfg, conta, usadas, teste, acordando):
 
 
 # ---------------------------------------------------------------- peneira do garimpo
-# Em vez de mandar tudo o que acha para Revisar, o radar junta as ofertas numa peneira e, uma vez por hora,
+# Em vez de mandar tudo o que acha para Revisar, o radar junta as ofertas numa peneira e, a cada 15 min,
 # solta só as melhores (radar.melhores_por_hora). Nota = desconto + quanto você aprova daquela fonte + foto.
 # Também barra o mesmo produto vindo de outro canal ou de outra loja (nome parecido nos últimos dias).
 
@@ -2586,7 +2586,8 @@ def peneirar(estado, r, item, conta):
 
 
 def soltar_peneira(estado, r, forcado=False):
-    """Uma vez por hora (a partir do minuto 40, para juntar bastante), manda as melhores da peneira para Revisar."""
+    """A cada `soltar_cada_minutos` (15) manda as `melhores_por_vez` (2) melhores da peneira para a IA conferir
+    (fila ou Revisar), até `melhores_por_hora` por hora: chegam espaçadas, não em bloco."""
     cfg = CONFIG.get("radar", {})
     peneira = r.setdefault("peneira", [])
     validade = (agora() - timedelta(hours=cfg.get("peneira_horas", 3))).isoformat()
@@ -2599,9 +2600,14 @@ def soltar_peneira(estado, r, forcado=False):
     if r.get("soltas_dia_data") != dia:
         r["soltas_dia_data"], r["soltas_dia"] = dia, 0
     if por_hora:
-        if not forcado and agora().minute < 40:
+        cada = cfg.get("soltar_cada_minutos", 15)
+        vez = f"{hora}:{agora().minute // cada}"
+        if not forcado and r.get("soltas_vez") == vez:  # já soltou neste pedaço da hora
             return 0
+        r["soltas_vez"] = vez
         vagas = por_hora - r["soltas"]
+        if not forcado:
+            vagas = min(vagas, cfg.get("melhores_por_vez", 2))
     else:
         vagas = len(peneira)
     por_dia = cfg.get("melhores_por_dia", 0)  # teto do dia, para não chegar 200 no Revisar

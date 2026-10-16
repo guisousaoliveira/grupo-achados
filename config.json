@@ -92,7 +92,7 @@
     "max_por_rodada": 0,
     "max_por_dia": 0,
     "max_por_hora": 0,
-    "melhores_por_hora": 6,
+    "melhores_por_hora": 8,
     "peneira_horas": 3,
     "repetido_dias": 7,
     "palavras_bloqueadas": [
@@ -218,7 +218,9 @@
       "desconto_minimo": 10,
       "desconto_max": 80,
       "fila_max": 24
-    }
+    },
+    "melhores_por_vez": 2,
+    "soltar_cada_minutos": 15
   },
   "canal_publico": "alphadominuspromo",
   "aviso_antes_minutos": 10,
