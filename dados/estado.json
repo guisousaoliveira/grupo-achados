@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "shopee",
-      "chave": "shopee:696313634.18196991700",
-      "nome": "Fonte Chaveada 12V 50A 600W Bivolt Com Chave Seletora Para Som Automotivo CFTV LED Automação Alta Potência",
-      "por": 51.95,
-      "de": 110.53,
-      "foto": "https://cf.shopee.com.br/file/sg-11134201-7rcdn-lrhre7sz76xj0e",
-      "link": "https://s.shopee.com.br/6q1VaWoQcf",
-      "link_produto": "https://shopee.com.br/product/696313634/18196991700",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.8,
-      "vendas": 476,
-      "palavra": "som automotivo",
-      "garimpado_em": "2026-10-15T15:41-03:00",
-      "nota": 71.3,
-      "titulo": "Fonte robusta para alimentar seu som automotivo",
-      "aprovado_sozinho": true,
-      "aprovado_em": "2026-10-15T17:41-03:00"
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B0HF1LQFDD",
       "origem": "promooeasy",
@@ -1652,6 +1630,15 @@
       "link_produto": "https://meli.la/1ii92mv",
       "titulo": "Lanterna tática recarregável para iluminação de alta potênci",
       "slot": 21
+    },
+    {
+      "chave": "shopee:696313634.18196991700",
+      "loja": "shopee",
+      "nome": "Fonte Chaveada 12V 50A 600W Bivolt Com Chave Seletora Para Som Automotivo CFTV LED Automação Alta Potência",
+      "data": "2026-10-15T21:30-03:00",
+      "link": "https://s.shopee.com.br/6q1VaWoQcf",
+      "link_produto": "https://shopee.com.br/product/696313634/18196991700",
+      "titulo": "Fonte robusta para alimentar seu som automotivo"
     }
   ],
   "slots_usados": {
@@ -5671,6 +5658,19 @@
   },
   "ultimos": [
     {
+      "loja": "shopee",
+      "chave": "shopee:696313634.18196991700",
+      "nome": "Fonte Chaveada 12V 50A 600W Bivolt Com Chave Seletora Para Som Automotivo CFTV LED Automação Alta Potência",
+      "por": 51.95,
+      "de": 110.53,
+      "foto": "https://cf.shopee.com.br/file/sg-11134201-7rcdn-lrhre7sz76xj0e",
+      "link": "https://s.shopee.com.br/6q1VaWoQcf",
+      "link_produto": "https://shopee.com.br/product/696313634/18196991700",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "titulo": "Fonte robusta para alimentar seu som automotivo"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB2818208621",
       "origem": "xetdaspromocoes",
@@ -6200,19 +6200,6 @@
       "por": 165.68,
       "titulo": "Garrafa térmica que mantém a bebida gelada o dia todo",
       "cupom": "Use o cupom 15% OFF do anúncio"
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:1345043704.22497773735",
-      "nome": "ROMANTIC CROWN Mochila Viagem Feminina Masculina Multifuncional Reforçada Impermeável Expansível, Notebook Antifurto USB",
-      "por": 114.0,
-      "de": 499.96,
-      "foto": "AgACAgQAAxkDAAIDPWrPeIWKAT0Gb3Ahif34MFjqv1w5AAKuD2sbUeM8UXGcRVrzCLUsAQADAgADeQADPQQ",
-      "link": "https://s.shopee.com.br/W7Q0XrC9W",
-      "link_produto": "https://shopee.com.br/product/1345043704/22497773735",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "titulo": "Mochila impermeável com compartimento para notebook e USB"
     }
   ],
   "lixeira": [
