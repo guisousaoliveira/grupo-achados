@@ -3,31 +3,6 @@
   "fila": [
     {
       "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB5226420562",
-      "origem": "xetdaspromocoes",
-      "link": "https://meli.la/2DqDMRn",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-5226420562-oculos-de-sol-uv400-original-acetato-unissex-premium-case-_JM?pdp_filters=item_id%3AMLB5226420562",
-      "post_origem": "https://t.me/xetdaspromocoes/85161",
-      "link_canal": "https://meli.la/15NkEYG",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_952602-MLB117382478348_102026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Óculos De Sol Uv400 Original Acetato Unissex Premium + Case",
-      "cupom_loja": "Aplique o Cupom de R$ 10 OFF no Anúncio 🎟️ (logo abaixo do preço)",
-      "lido_ia": true,
-      "por": 60.0,
-      "de": 159.0,
-      "preco_loja": 67.0,
-      "palavra": "oculos de sol",
-      "garimpado_em": "2026-10-16T11:00-03:00",
-      "nota": 76.2,
-      "motivo_revisao": "o post diz R$ 60,00 e a loja mostra R$ 67,00, e não tem cupom ou Pix que explique a diferença",
-      "titulo": "Proteção solar UV400 com armação em acetato",
-      "na_revisao_desde": "2026-10-16T13:21-03:00",
-      "cupom": "Aplique o Cupom de R$ 10 OFF no Anúncio  (logo abaixo do preço)",
-      "aprovado_em": "2026-10-16T13:22-03:00"
-    },
-    {
-      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB3756911067",
       "origem": "lobaopromo",
       "link": "https://meli.la/1a3S5Zc",
@@ -2101,6 +2076,15 @@
       "link_produto": "https://www.mercadolivre.com.br/relogio-poedagar-suico--masculino-aco-inox-old-money-ccaixa/up/MLBU4370134385?pdp_filters=item_id%3AMLB7218965676",
       "titulo": "Visual old money com acabamento em aço inox",
       "slot": 15.3
+    },
+    {
+      "chave": "mercadolivre:MLB5226420562",
+      "loja": "mercadolivre",
+      "nome": "Óculos De Sol Uv400 Original Acetato Unissex Premium + Case",
+      "data": "2026-10-16T16:01-03:00",
+      "link": "https://meli.la/2DqDMRn",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-5226420562-oculos-de-sol-uv400-original-acetato-unissex-premium-case-_JM?pdp_filters=item_id%3AMLB5226420562",
+      "titulo": "Proteção solar UV400 com armação em acetato"
     }
   ],
   "slots_usados": {
@@ -6739,6 +6723,21 @@
   "ultimos": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB5226420562",
+      "origem": "xetdaspromocoes",
+      "link": "https://meli.la/2DqDMRn",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-5226420562-oculos-de-sol-uv400-original-acetato-unissex-premium-case-_JM?pdp_filters=item_id%3AMLB5226420562",
+      "post_origem": "https://t.me/xetdaspromocoes/85161",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_952602-MLB117382478348_102026-O.webp",
+      "nome": "Óculos De Sol Uv400 Original Acetato Unissex Premium + Case",
+      "cupom_loja": "Aplique o Cupom de R$ 10 OFF no Anúncio 🎟️ (logo abaixo do preço)",
+      "por": 60.0,
+      "de": 159.0,
+      "titulo": "Proteção solar UV400 com armação em acetato",
+      "cupom": "Aplique o Cupom de R$ 10 OFF no Anúncio  (logo abaixo do preço)"
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB7218965676",
       "origem": "promonocontext",
       "link": "https://meli.la/1cHHDPs",
@@ -7257,20 +7256,6 @@
       "origem": "shopee",
       "fonte": "shopee",
       "titulo": "Aparador dez em um para cabelo e barba"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB64095565",
-      "origem": "xetdaspromocoes",
-      "link": "https://meli.la/1XoiniW",
-      "link_produto": "https://meli.la/1XoiniW",
-      "post_origem": "https://t.me/xetdaspromocoes/84904",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_741636-MLA103747547418_012026-O.webp",
-      "nome": "Cafeteira Elétrica Electrolux 15 Xícaras ECM10 + Torradeira 8 Níveis",
-      "pix": true,
-      "de": 349.0,
-      "por": 229.0,
-      "titulo": "Cafeteira e torradeira que agilizam suas manhãs"
     }
   ],
   "lixeira": [
