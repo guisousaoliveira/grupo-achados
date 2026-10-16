@@ -304,6 +304,29 @@
       "titulo": "Camiseta UV para treinar ao ar livre",
       "na_revisao_desde": "2026-10-16T11:36-03:00",
       "aprovado_em": "2026-10-16T11:42-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB68269465",
+      "origem": "promonocontext",
+      "link": "https://meli.la/2DahZyA",
+      "link_produto": "https://www.mercadolivre.com.br/relogio-de-pulso-mondaine-com-corria-de-silicone-cor-preto-fondo-branco-bisel-dourado/p/MLB68269465",
+      "post_origem": "https://t.me/promonocontext/127572",
+      "link_canal": "https://meli.la/2p1mycG",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_796210-MLA117645065731_092026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Relógio De Pulso Mondaine Com Corria De Silicone Cor Preto",
+      "de": 417.0,
+      "por": 150.0,
+      "lido_ia": true,
+      "cupom": "OFFHOJE",
+      "preco_loja": 167.4,
+      "palavra": "relogio",
+      "garimpado_em": "2026-10-16T11:01-03:00",
+      "nota": 83.1,
+      "titulo": "Mondaine com pulseira de silicone para uso diário",
+      "na_revisao_desde": "2026-10-16T11:36-03:00",
+      "aprovado_em": "2026-10-16T11:42-03:00"
     }
   ],
   "postados": [
@@ -1900,30 +1923,6 @@
   },
   "shopee_buscado_em": "",
   "revisar": [
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB68269465",
-      "origem": "promonocontext",
-      "link": "https://meli.la/2DahZyA",
-      "link_produto": "https://www.mercadolivre.com.br/relogio-de-pulso-mondaine-com-corria-de-silicone-cor-preto-fondo-branco-bisel-dourado/p/MLB68269465",
-      "post_origem": "https://t.me/promonocontext/127572",
-      "link_canal": "https://meli.la/2p1mycG",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_796210-MLA117645065731_092026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Relógio De Pulso Mondaine Com Corria De Silicone Cor Preto",
-      "de": 417.0,
-      "por": 150.0,
-      "lido_ia": true,
-      "cupom": "OFFHOJE",
-      "preco_loja": 167.4,
-      "palavra": "relogio",
-      "garimpado_em": "2026-10-16T11:01-03:00",
-      "nota": 83.1,
-      "titulo": "Mondaine com pulseira de silicone para uso diário",
-      "id": 654,
-      "na_revisao_desde": "2026-10-16T11:36-03:00",
-      "msg_id": 1116
-    },
     {
       "loja": "amazon",
       "chave": "amazon:B0DJH2LQ1T",
@@ -7597,7 +7596,7 @@
       },
       "promonocontext": {
         "achados": 5,
-        "aprovados": 3,
+        "aprovados": 4,
         "reprovados": 1
       },
       "lobaopromo": {
@@ -7816,7 +7815,7 @@
     },
     "relogio": {
       "achados": 13,
-      "aprovados": 4,
+      "aprovados": 5,
       "reprovados": 7
     },
     "smart tv": {
