@@ -313,6 +313,29 @@
       "aprovado_em": "2026-10-16T15:20-03:00"
     },
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB54422844",
+      "origem": "promonocontext",
+      "link": "https://meli.la/2CNsvuM",
+      "link_produto": "https://www.mercadolivre.com.br/relogio-masculino-classico-pulseira-prata-correia-prateada-bisel-prateado-fundo-azul-marinho-saint-germain-42mm-elegante-detalhes-bronze/p/MLB54422844",
+      "post_origem": "https://t.me/promonocontext/127688",
+      "link_canal": "https://meli.la/2ipPnNp",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_758835-MLA100010183395_122025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Relógio Masculino Clássico Pulseira Prata Correia Prateada Bisel",
+      "pix": true,
+      "de": 200.0,
+      "por": 92.0,
+      "lido_ia": true,
+      "preco_conferido": true,
+      "palavra": "relogio masculino",
+      "garimpado_em": "2026-10-16T15:30-03:00",
+      "nota": 79.0,
+      "titulo": "Relógio prateado clássico para o dia a dia",
+      "aprovado_sozinho": true,
+      "aprovado_em": "2026-10-16T15:30-03:00"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:408653169.21077382827",
       "nome": "Kit 250 Forro Papel Airfryer Descartável Forma Antiaderente",
@@ -2134,26 +2157,50 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [],
-  "proximo_id": 684,
+  "revisar": [
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0FNXXLVFJ",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0FNXXLVFJ?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0FNXXLVFJ?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/hisense-smart-tv-hd-32-polegadas-32a4nv-3119522/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3119522/",
+      "nome": "Hisense Smart Tv Hd 32\" Polegadas 32a4nv",
+      "por": 829.0,
+      "de": 1149.0,
+      "foto": "AgACAgQAAxkDAAIEjGrSbWI-m249FKI6yf4CsFqSi8cQAALyD2sb8p_kUYehLdzUnfY5AQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "palavra": "smart tv",
+      "garimpado_em": "2026-10-16T15:30-03:00",
+      "nota": 41.6,
+      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
+      "titulo": "Smart TV HD de 32 polegadas para o quarto",
+      "id": 685,
+      "na_revisao_desde": "2026-10-16T15:30-03:00",
+      "msg_id": 1164
+    }
+  ],
+  "proximo_id": 686,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 85219,
-      "lobaopromo": 190416,
-      "gatunopromos": 125732,
+      "xetdaspromocoes": 85221,
+      "lobaopromo": 190421,
+      "gatunopromos": 125734,
       "pobregram": 42018,
-      "urubupromo": 41783,
-      "tudonapromo": 102175,
-      "promonocontext": 127683,
-      "promooeasy": 222953,
-      "aquitempechincha": 282160,
-      "infoBRpromos": 67699,
+      "urubupromo": 41784,
+      "tudonapromo": 102179,
+      "promonocontext": 127688,
+      "promooeasy": 222954,
+      "aquitempechincha": 282165,
+      "infoBRpromos": 67700,
       "boletando": 76836,
       "promotop": 260380,
       "achadosdotb": 11786
     },
     "dia": "2026-10-16",
-    "hoje": 75,
+    "hoje": 78,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -4260,30 +4307,34 @@
       "mercadolivre:MLB5184808828",
       "mercadolivre:MLB69665003",
       "amazon:B0FPRK5P9H",
-      "mercadolivre:MLB4239949261"
+      "mercadolivre:MLB4239949261",
+      "amazon:B0C3WLCP4S",
+      "amazon:B0FNXXLVFJ",
+      "mercadolivre:MLB54422844"
     ],
     "ultima": {
-      "em": "2026-10-16T15:21:18-03:00",
+      "em": "2026-10-16T15:30:23-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 48,
-      "do_nicho": 4,
-      "repetidas": 3,
-      "novas": 1,
+      "posts_novos": 41,
+      "do_nicho": 5,
+      "repetidas": 2,
+      "novas": 2,
       "limite_dia": false,
       "repetidas_nome": 0,
-      "promobit": 0,
+      "fora_do_nicho": 1,
+      "promobit": 1,
       "soltas": 2,
       "na_peneira": 18
     },
     "hora": "2026-10-16T15",
-    "nesta_hora": 6,
+    "nesta_hora": 7,
     "promobit_hora": "2026-10-16T15",
-    "promobit_nesta_hora": 0,
-    "promobit_visto": 3119494,
+    "promobit_nesta_hora": 2,
+    "promobit_visto": 3119530,
     "nomes": [
       [
         [
@@ -6453,161 +6504,33 @@
           "cabelo"
         ],
         "2026-10-16T15:21-03:00"
+      ],
+      [
+        [
+          "relogio",
+          "classico",
+          "pulseira",
+          "prata",
+          "correia",
+          "prateada",
+          "bisel"
+        ],
+        "2026-10-16T15:30-03:00"
+      ],
+      [
+        [
+          "hisense",
+          "smart",
+          "tv",
+          "hd",
+          "32",
+          "polegadas",
+          "32a4nv"
+        ],
+        "2026-10-16T15:30-03:00"
       ]
     ],
     "peneira": [
-      {
-        "loja": "shopee",
-        "chave": "shopee:1252710748.22993048849",
-        "nome": "Forma De airfryer Papel Descartável Redondo Antiaderente Papel",
-        "por": 13.59,
-        "de": 27.73,
-        "foto": "https://cf.shopee.com.br/file/br-11134207-820l9-msc0ajin8w78fb",
-        "link": "https://s.shopee.com.br/8V9kxRNP3L",
-        "link_produto": "https://shopee.com.br/product/1252710748/22993048849",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 4.8,
-        "vendas": 1257,
-        "palavra": "airfryer",
-        "garimpado_em": "2026-10-16T12:31-03:00",
-        "nota": 66.1
-      },
-      {
-        "loja": "shopee",
-        "chave": "shopee:1033887279.22192953576",
-        "nome": "Kit 6 Capas Protetoras de AirFryer de Silicone Diferentes Medidas",
-        "por": 15.99,
-        "de": 24.98,
-        "foto": "https://cf.shopee.com.br/file/br-11134207-7r98o-ltsfyft9wsa1b9",
-        "link": "https://s.shopee.com.br/9APRkfKrhX",
-        "link_produto": "https://shopee.com.br/product/1033887279/22192953576",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 4.7,
-        "vendas": 880,
-        "palavra": "airfryer",
-        "garimpado_em": "2026-10-16T12:31-03:00",
-        "nota": 57.1
-      },
-      {
-        "loja": "shopee",
-        "chave": "shopee:1294737459.19197753511",
-        "nome": "Kit 6 Formas Airfryer Tamanhos Variados Silicone Antiaderente Microondas Lavável com Alça",
-        "por": 16.99,
-        "de": 30.34,
-        "foto": "https://cf.shopee.com.br/file/sg-11134201-7rdye-lxl7ea3p8rbg09",
-        "link": "https://s.shopee.com.br/6fi6m4UNm4",
-        "link_produto": "https://shopee.com.br/product/1294737459/19197753511",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 4.8,
-        "vendas": 1391,
-        "palavra": "airfryer",
-        "garimpado_em": "2026-10-16T12:31-03:00",
-        "nota": 61.9
-      },
-      {
-        "loja": "shopee",
-        "chave": "shopee:400241435.58212612074",
-        "nome": "【OFERTA RELÂMPAGO】Formas Silicone para Air Fryer Antiaderente Reutilizável Forno Microondas",
-        "por": 13.19,
-        "de": 20.61,
-        "foto": "https://cf.shopee.com.br/file/br-11134207-820m4-mtnp253ygow363",
-        "link": "https://s.shopee.com.br/7VHDlbRD5J",
-        "link_produto": "https://shopee.com.br/product/400241435/58212612074",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 4.9,
-        "vendas": 651,
-        "palavra": "air fryer",
-        "garimpado_em": "2026-10-16T12:31-03:00",
-        "nota": 61.2
-      },
-      {
-        "loja": "shopee",
-        "chave": "shopee:924148627.21299854940",
-        "nome": "Fruteira de Cozinha chão 3 Cestos Air Fryer",
-        "por": 134.99,
-        "de": 179.99,
-        "foto": "https://cf.shopee.com.br/file/br-11134207-820lo-mmbpyxj5juvab9",
-        "link": "https://s.shopee.com.br/7pu4ADPwPP",
-        "link_produto": "https://shopee.com.br/product/924148627/21299854940",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 4.9,
-        "vendas": 326,
-        "palavra": "air fryer",
-        "garimpado_em": "2026-10-16T12:31-03:00",
-        "nota": 54.6
-      },
-      {
-        "loja": "shopee",
-        "chave": "shopee:404326574.21299379722",
-        "nome": "Botão Regulador Timer Temperatura Air Fryer Cadence para Vários Modelos",
-        "por": 14.8,
-        "de": 22.09,
-        "foto": "https://cf.shopee.com.br/file/br-11134207-7r98o-m00ftdm5810lc6",
-        "link": "https://s.shopee.com.br/5VW9NvYp8z",
-        "link_produto": "https://shopee.com.br/product/404326574/21299379722",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 4.8,
-        "vendas": 355,
-        "palavra": "air fryer",
-        "garimpado_em": "2026-10-16T12:31-03:00",
-        "nota": 59.4
-      },
-      {
-        "loja": "shopee",
-        "chave": "shopee:1208087934.22992891020",
-        "nome": "Kit Cozinha Infantil Fogão Airfryer Jogo Panelinhas De Brinquedo Cooktop Comidinha Educativo Menina",
-        "por": 39.94,
-        "de": 49.92,
-        "foto": "https://cf.shopee.com.br/file/br-11134207-820l6-mnvectyal98g9b",
-        "link": "https://s.shopee.com.br/5fpZaEYBo2",
-        "link_produto": "https://shopee.com.br/product/1208087934/22992891020",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 4.8,
-        "vendas": 294,
-        "palavra": "airfryer",
-        "garimpado_em": "2026-10-16T12:31-03:00",
-        "nota": 47.5
-      },
-      {
-        "loja": "shopee",
-        "chave": "shopee:464289510.23192940890",
-        "nome": "Cabo Puxador Alça Air Fryer Mondial AF-29 AF-30 AF-31",
-        "por": 51.9,
-        "de": 94.36,
-        "foto": "https://cf.shopee.com.br/file/br-11134207-7r98o-lto7a5y8hf5r7e",
-        "link": "https://s.shopee.com.br/5q8zmXXYT5",
-        "link_produto": "https://shopee.com.br/product/464289510/23192940890",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 4.8,
-        "vendas": 307,
-        "palavra": "air fryer",
-        "garimpado_em": "2026-10-16T12:31-03:00",
-        "nota": 66.6
-      },
       {
         "loja": "mercadolivre",
         "chave": "mercadolivre:MLB46379611",
@@ -6801,16 +6724,17 @@
       }
     ],
     "soltas_hora": "2026-10-16T15",
-    "soltas": 4,
-    "shopee_em": "2026-10-16T15:11-03:00",
-    "shopee_indice": 20,
+    "soltas": 6,
+    "shopee_em": "2026-10-16T15:30-03:00",
+    "shopee_indice": 28,
     "soltas_dia_data": "2026-10-16",
-    "soltas_dia": 52,
+    "soltas_dia": 54,
     "soltas_loja": {
       "shopee": 2,
-      "mercadolivre": 2
+      "mercadolivre": 3,
+      "amazon": 1
     },
-    "soltas_vez": "2026-10-16T15:1"
+    "soltas_vez": "2026-10-16T15:2"
   },
   "ultimos": [
     {
@@ -8270,12 +8194,12 @@
         "reprovados": 1
       },
       "promobit": {
-        "achados": 8,
+        "achados": 9,
         "aprovados": 4,
         "reprovados": 4
       },
       "promonocontext": {
-        "achados": 10,
+        "achados": 11,
         "aprovados": 6,
         "reprovados": 1
       },
@@ -8306,7 +8230,7 @@
       }
     }
   },
-  "aviso_post": "2026-10-16 15:23|mercadolivre:MLB5877188254",
+  "aviso_post": "2026-10-16 15:35|amazon:B0977QVRJS",
   "garimpo_palavras": {
     "academia": {
       "achados": 29,
@@ -8509,7 +8433,7 @@
       "reprovados": 7
     },
     "smart tv": {
-      "achados": 24,
+      "achados": 25,
       "aprovados": 2,
       "reprovados": 22
     },
@@ -8539,7 +8463,7 @@
       "reprovados": 7
     },
     "relogio masculino": {
-      "achados": 7,
+      "achados": 8,
       "aprovados": 4,
       "reprovados": 3
     },
@@ -8670,7 +8594,7 @@
     "2026-10-16": {
       "13": 4,
       "14": 4,
-      "15": 4
+      "15": 5
     }
   }
 }
