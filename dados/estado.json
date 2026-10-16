@@ -254,6 +254,26 @@
       "titulo": "Pré-treino para dar mais energia nos exercícios",
       "na_revisao_desde": "2026-10-16T00:14-03:00",
       "aprovado_em": "2026-10-16T00:26-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB5060820475",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/2ixSjLv",
+      "link_produto": "https://meli.la/2ixSjLv",
+      "post_origem": "https://t.me/lobaopromo/190103",
+      "link_canal": "https://meli.la/2nLFqGx",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_711739-MLB116169518447_082026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Moedor De Café Elétrico Triturador Aço Inox Grãos Temperos 110v",
+      "de": 78.0,
+      "por": 35.98,
+      "palavra": "moedor de cafe",
+      "garimpado_em": "2026-10-15T22:10-03:00",
+      "nota": 75.2,
+      "titulo": "Moedor elétrico para triturar grãos e temperos em casa",
+      "na_revisao_desde": "2026-10-16T00:14-03:00",
+      "aprovado_em": "2026-10-16T00:53-03:00"
     }
   ],
   "postados": [
@@ -1767,27 +1787,6 @@
       "id": 634,
       "na_revisao_desde": "2026-10-16T00:14-03:00",
       "msg_id": 1064
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB5060820475",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/moedor-de-cafe-eletrico-triturador-aco-inox-graos-temperos/up/MLBU4708198873?pdp_filters=item_id%3AMLB5060820475&matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/moedor-de-cafe-eletrico-triturador-aco-inox-graos-temperos/up/MLBU4708198873?pdp_filters=item_id%3AMLB5060820475",
-      "post_origem": "https://t.me/lobaopromo/190103",
-      "link_canal": "https://meli.la/2nLFqGx",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_711739-MLB116169518447_082026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Moedor De Café Elétrico Triturador Aço Inox Grãos Temperos 110v",
-      "de": 78.0,
-      "por": 28.0,
-      "palavra": "moedor de cafe",
-      "garimpado_em": "2026-10-15T22:10-03:00",
-      "nota": 75.2,
-      "titulo": "Moedor elétrico para triturar grãos e temperos em casa",
-      "id": 635,
-      "na_revisao_desde": "2026-10-16T00:14-03:00",
-      "msg_id": 1065
     }
   ],
   "proximo_id": 637,
@@ -6789,7 +6788,7 @@
       },
       "lobaopromo": {
         "achados": 10,
-        "aprovados": 6,
+        "aprovados": 7,
         "reprovados": 3
       },
       "promobit": {
@@ -7148,7 +7147,7 @@
     },
     "moedor de cafe": {
       "achados": 1,
-      "aprovados": 0,
+      "aprovados": 1,
       "reprovados": 0
     }
   }
