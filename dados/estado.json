@@ -2366,173 +2366,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0FZCM9N46",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B0FZCM9N46?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0FZCM9N46?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/kit-com-3-cuecas-boxer-algodao-masculina-usee-brasil-premium-3119635/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3119635/",
-      "nome": "Kit com 3 Cuecas Boxer Algodão Masculina Usee Brasil Premium",
-      "por": 25.17,
-      "foto": "AgACAgQAAxkDAAIEnmrSecxmf18krHg7cH1y15UGkF6CAALwDGsbetxkU457bmRG2qrvAQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "palavra": "cueca",
-      "garimpado_em": "2026-10-16T16:12-03:00",
-      "nota": 27.0,
-      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
-      "titulo": "Cuecas boxer de algodão confortáveis para a rotina",
-      "id": 691,
-      "na_revisao_desde": "2026-10-16T16:23-03:00",
-      "msg_id": 1182
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0FPRK5P9H",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0FPRK5P9H?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0FPRK5P9H?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/222946",
-      "link_canal": "https://www.amazon.com.br/dp/B0FPRK5P9H/ref=cm_sw_r_as_gl_apa_gl_i_dl_588ARJZTXAR4GF6KKFTJ?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAIEoGrSe5zbHn3TlzL-e367sCD8vRflAAJhDGsbvgWUU8G_A_N2l2JDAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Smart TV Semp 55 Polegadas LED HVA 4K S62 WiFi Bluetooth Google TV 3 HDMI HDR10+ Dolby Audio 55S62",
-      "por": 2299.0,
-      "lido_ia": true,
-      "sem_preco_loja": true,
-      "palavra": "smart tv",
-      "garimpado_em": "2026-10-16T15:11-03:00",
-      "nota": 16.8,
-      "motivo_revisao": "a loja não abriu para eu conferir o preço",
-      "titulo": "TV 55 polegadas para ver filmes e jogos",
-      "id": 693,
-      "na_revisao_desde": "2026-10-16T16:31-03:00",
-      "msg_id": 1184
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0BBPM1KCG",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0BBPM1KCG?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0BBPM1KCG?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/223009",
-      "link_canal": "https://www.amazon.com.br/Caixa-T%C3%A9rmica-18-Litros-25108180/dp/B0BBPM1KCG?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAIEomrSgBd2eypUfSa6zAMsEsdNbzZOAALsuTEb1vw1UypilOXdDU2GAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Caixa Térmica Mor 18 litros",
-      "por": 57.5,
-      "lido_ia": true,
-      "sem_preco_loja": true,
-      "palavra": "caixa termica",
-      "garimpado_em": "2026-10-16T16:40-03:00",
-      "nota": 26.0,
-      "motivo_revisao": "a loja não abriu para eu conferir o preço",
-      "titulo": "Caixa térmica para manter bebidas geladas na praia",
-      "id": 694,
-      "na_revisao_desde": "2026-10-16T16:50-03:00",
-      "msg_id": 1186
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB62495595",
-      "origem": "promotop",
-      "link": "https://meli.la/2MHASoX",
-      "link_produto": "https://www.mercadolivre.com.br/fritadeira-airfryer-digital-philips-walita-na23000-negro/p/MLB62495595",
-      "post_origem": "https://t.me/promotop/260378",
-      "link_canal": "https://meli.la/33ndhHa",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_720651-MLA99379792839_112025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Fritadeira Airfryer Digital Philips Walita NA230/00 Negro",
-      "lido_ia": true,
-      "por": 372.6,
-      "cupom": "OFFHOJE",
-      "sem_preco_loja": true,
-      "palavra": "airfryer",
-      "garimpado_em": "2026-10-16T15:01-03:00",
-      "nota": 36.6,
-      "motivo_revisao": "a loja não abriu para eu conferir o preço",
-      "titulo": "Airfryer digital para preparar refeições sem óleo",
-      "id": 698,
-      "na_revisao_desde": "2026-10-16T17:20-03:00",
-      "msg_id": 1190
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB6253978688",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/1dS9z8F",
-      "link_produto": "https://www.mercadolivre.com.br/oculos-de-sol-escuro-masculino-unissex-tendencia-premium/up/MLBU1436019621?pdp_filters=item_id%3AMLB6253978688",
-      "post_origem": "https://t.me/lobaopromo/190482",
-      "link_canal": "https://meli.la/2CzbuJ4",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_654174-MLB116254193630_092026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Óculos De Sol Escuro Masculino Unissex Tendencia Premium Armação",
-      "lido_ia": true,
-      "por": 34.17,
-      "de": 114.0,
-      "cupom": "OPAECONOMIZEI",
-      "pix": true,
-      "sem_preco_loja": true,
-      "palavra": "oculos de sol",
-      "garimpado_em": "2026-10-16T17:30-03:00",
-      "nota": 86.7,
-      "motivo_revisao": "a loja não abriu para eu conferir o preço",
-      "titulo": "Óculos escuro para proteger os olhos da claridade",
-      "id": 699,
-      "na_revisao_desde": "2026-10-16T17:31-03:00",
-      "msg_id": 1191
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0CVCG6S9C",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0CVCG6S9C?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0CVCG6S9C?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/223036",
-      "link_canal": "https://www.amazon.com.br/Smartwatch-Samsung-Galaxy-Display-Prata/dp/B0CVCG6S9C?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAIEqGrSibmr40y0pMSHWgLBb1iXeLD3AAJ_DmsbKP-EUPC5QBeVGjcMAQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "nome": "Smartwatch Samsung Galaxy Fit3 Display 1.6 Prata",
-      "por": 209.95,
-      "lido_ia": true,
-      "sem_preco_loja": true,
-      "palavra": "smartwatch",
-      "garimpado_em": "2026-10-16T17:10-03:00",
-      "nota": 31.3,
-      "motivo_revisao": "a loja não abriu para eu conferir o preço",
-      "titulo": "Monitore treinos e sono com o Galaxy Fit3",
-      "id": 700,
-      "na_revisao_desde": "2026-10-16T17:31-03:00",
-      "msg_id": 1192
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB67166527",
-      "origem": "promooeasy",
-      "link": "https://produto.mercadolivre.com.br/MLB-67166527?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-67166527",
-      "post_origem": "https://t.me/promooeasy/223044",
-      "link_canal": "https://www.mercadolivre.com.br/cafeteira-espresso-latte-electrolux-com-moedor-de-graos-integrado-cafe-em-po-e-sache-saida-de-vapor-independente-aquecimento-de-xicaras-estilo-barista-expert-ecm90-preto-fosco/p/MLB67166527?matt_word=promoeasynv&amp;matt_tool=88963738",
-      "foto": "AgACAgEAAxkDAAIEqWrSjisZpXDnPNsjj10dVw9lQetQAAIYDWsbzxKQRusYWv4ernzaAQADAgADeAADPQQ",
-      "foto_origem": "canal",
-      "nome": "Cafeteira Espresso Latte Electrolux Expert ECM90 Preto Fosco 220V",
-      "de": 3999.0,
-      "por": 3748.0,
-      "lido_ia": true,
-      "sem_preco_loja": true,
-      "palavra": "cafeteira",
-      "garimpado_em": "2026-10-16T17:10-03:00",
-      "nota": 32.2,
-      "motivo_revisao": "a loja não abriu para eu conferir o preço",
-      "titulo": "Cafeteira espresso para preparar cappuccino em casa",
-      "id": 701,
-      "na_revisao_desde": "2026-10-16T17:50-03:00",
-      "msg_id": 1193
-    }
-  ],
+  "revisar": [],
   "proximo_id": 710,
   "radar": {
     "visto": {
@@ -7784,6 +7618,178 @@
   "lixeira": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB67166527",
+      "origem": "promooeasy",
+      "link": "https://produto.mercadolivre.com.br/MLB-67166527?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-67166527",
+      "post_origem": "https://t.me/promooeasy/223044",
+      "link_canal": "https://www.mercadolivre.com.br/cafeteira-espresso-latte-electrolux-com-moedor-de-graos-integrado-cafe-em-po-e-sache-saida-de-vapor-independente-aquecimento-de-xicaras-estilo-barista-expert-ecm90-preto-fosco/p/MLB67166527?matt_word=promoeasynv&amp;matt_tool=88963738",
+      "foto": "AgACAgEAAxkDAAIEqWrSjisZpXDnPNsjj10dVw9lQetQAAIYDWsbzxKQRusYWv4ernzaAQADAgADeAADPQQ",
+      "foto_origem": "canal",
+      "nome": "Cafeteira Espresso Latte Electrolux Expert ECM90 Preto Fosco 220V",
+      "de": 3999.0,
+      "por": 3748.0,
+      "lido_ia": true,
+      "sem_preco_loja": true,
+      "palavra": "cafeteira",
+      "garimpado_em": "2026-10-16T17:10-03:00",
+      "nota": 32.2,
+      "motivo_revisao": "a loja não abriu para eu conferir o preço",
+      "titulo": "Cafeteira espresso para preparar cappuccino em casa",
+      "id": 701,
+      "na_revisao_desde": "2026-10-16T17:50-03:00",
+      "removido_em": "2026-10-16T19:03:11-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0CVCG6S9C",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0CVCG6S9C?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0CVCG6S9C?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/223036",
+      "link_canal": "https://www.amazon.com.br/Smartwatch-Samsung-Galaxy-Display-Prata/dp/B0CVCG6S9C?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAIEqGrSibmr40y0pMSHWgLBb1iXeLD3AAJ_DmsbKP-EUPC5QBeVGjcMAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "nome": "Smartwatch Samsung Galaxy Fit3 Display 1.6 Prata",
+      "por": 209.95,
+      "lido_ia": true,
+      "sem_preco_loja": true,
+      "palavra": "smartwatch",
+      "garimpado_em": "2026-10-16T17:10-03:00",
+      "nota": 31.3,
+      "motivo_revisao": "a loja não abriu para eu conferir o preço",
+      "titulo": "Monitore treinos e sono com o Galaxy Fit3",
+      "id": 700,
+      "na_revisao_desde": "2026-10-16T17:31-03:00",
+      "removido_em": "2026-10-16T19:03:11-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB6253978688",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/1dS9z8F",
+      "link_produto": "https://www.mercadolivre.com.br/oculos-de-sol-escuro-masculino-unissex-tendencia-premium/up/MLBU1436019621?pdp_filters=item_id%3AMLB6253978688",
+      "post_origem": "https://t.me/lobaopromo/190482",
+      "link_canal": "https://meli.la/2CzbuJ4",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_654174-MLB116254193630_092026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Óculos De Sol Escuro Masculino Unissex Tendencia Premium Armação",
+      "lido_ia": true,
+      "por": 34.17,
+      "de": 114.0,
+      "cupom": "OPAECONOMIZEI",
+      "pix": true,
+      "sem_preco_loja": true,
+      "palavra": "oculos de sol",
+      "garimpado_em": "2026-10-16T17:30-03:00",
+      "nota": 86.7,
+      "motivo_revisao": "a loja não abriu para eu conferir o preço",
+      "titulo": "Óculos escuro para proteger os olhos da claridade",
+      "id": 699,
+      "na_revisao_desde": "2026-10-16T17:31-03:00",
+      "removido_em": "2026-10-16T19:03:11-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB62495595",
+      "origem": "promotop",
+      "link": "https://meli.la/2MHASoX",
+      "link_produto": "https://www.mercadolivre.com.br/fritadeira-airfryer-digital-philips-walita-na23000-negro/p/MLB62495595",
+      "post_origem": "https://t.me/promotop/260378",
+      "link_canal": "https://meli.la/33ndhHa",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_720651-MLA99379792839_112025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Fritadeira Airfryer Digital Philips Walita NA230/00 Negro",
+      "lido_ia": true,
+      "por": 372.6,
+      "cupom": "OFFHOJE",
+      "sem_preco_loja": true,
+      "palavra": "airfryer",
+      "garimpado_em": "2026-10-16T15:01-03:00",
+      "nota": 36.6,
+      "motivo_revisao": "a loja não abriu para eu conferir o preço",
+      "titulo": "Airfryer digital para preparar refeições sem óleo",
+      "id": 698,
+      "na_revisao_desde": "2026-10-16T17:20-03:00",
+      "removido_em": "2026-10-16T19:03:11-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0BBPM1KCG",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0BBPM1KCG?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0BBPM1KCG?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/223009",
+      "link_canal": "https://www.amazon.com.br/Caixa-T%C3%A9rmica-18-Litros-25108180/dp/B0BBPM1KCG?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAIEomrSgBd2eypUfSa6zAMsEsdNbzZOAALsuTEb1vw1UypilOXdDU2GAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Caixa Térmica Mor 18 litros",
+      "por": 57.5,
+      "lido_ia": true,
+      "sem_preco_loja": true,
+      "palavra": "caixa termica",
+      "garimpado_em": "2026-10-16T16:40-03:00",
+      "nota": 26.0,
+      "motivo_revisao": "a loja não abriu para eu conferir o preço",
+      "titulo": "Caixa térmica para manter bebidas geladas na praia",
+      "id": 694,
+      "na_revisao_desde": "2026-10-16T16:50-03:00",
+      "removido_em": "2026-10-16T19:03:11-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0FPRK5P9H",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0FPRK5P9H?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0FPRK5P9H?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/222946",
+      "link_canal": "https://www.amazon.com.br/dp/B0FPRK5P9H/ref=cm_sw_r_as_gl_apa_gl_i_dl_588ARJZTXAR4GF6KKFTJ?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAIEoGrSe5zbHn3TlzL-e367sCD8vRflAAJhDGsbvgWUU8G_A_N2l2JDAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Smart TV Semp 55 Polegadas LED HVA 4K S62 WiFi Bluetooth Google TV 3 HDMI HDR10+ Dolby Audio 55S62",
+      "por": 2299.0,
+      "lido_ia": true,
+      "sem_preco_loja": true,
+      "palavra": "smart tv",
+      "garimpado_em": "2026-10-16T15:11-03:00",
+      "nota": 16.8,
+      "motivo_revisao": "a loja não abriu para eu conferir o preço",
+      "titulo": "TV 55 polegadas para ver filmes e jogos",
+      "id": 693,
+      "na_revisao_desde": "2026-10-16T16:31-03:00",
+      "removido_em": "2026-10-16T19:03:11-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0FZCM9N46",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0FZCM9N46?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0FZCM9N46?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/kit-com-3-cuecas-boxer-algodao-masculina-usee-brasil-premium-3119635/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3119635/",
+      "nome": "Kit com 3 Cuecas Boxer Algodão Masculina Usee Brasil Premium",
+      "por": 25.17,
+      "foto": "AgACAgQAAxkDAAIEnmrSecxmf18krHg7cH1y15UGkF6CAALwDGsbetxkU457bmRG2qrvAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "palavra": "cueca",
+      "garimpado_em": "2026-10-16T16:12-03:00",
+      "nota": 27.0,
+      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
+      "titulo": "Cuecas boxer de algodão confortáveis para a rotina",
+      "id": 691,
+      "na_revisao_desde": "2026-10-16T16:23-03:00",
+      "removido_em": "2026-10-16T19:03:11-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB74125007",
       "origem": "promooeasy",
       "link": "https://produto.mercadolivre.com.br/MLB-74125007?matt_word=alphapromo&matt_tool=59136903",
@@ -8729,7 +8735,7 @@
       "promobit": {
         "achados": 10,
         "aprovados": 5,
-        "reprovados": 4
+        "reprovados": 5
       },
       "promonocontext": {
         "achados": 11,
@@ -8739,12 +8745,12 @@
       "lobaopromo": {
         "achados": 12,
         "aprovados": 8,
-        "reprovados": 0
+        "reprovados": 1
       },
       "promooeasy": {
         "achados": 11,
         "aprovados": 4,
-        "reprovados": 2
+        "reprovados": 6
       },
       "boletando": {
         "achados": 2,
@@ -8774,7 +8780,7 @@
       "promotop": {
         "achados": 1,
         "aprovados": 0,
-        "reprovados": 0
+        "reprovados": 1
       }
     }
   },
@@ -8838,7 +8844,7 @@
     "cafeteira": {
       "achados": 7,
       "aprovados": 2,
-      "reprovados": 4
+      "reprovados": 5
     },
     "caixa de som": {
       "achados": 19,
@@ -8848,7 +8854,7 @@
     "caixa termica": {
       "achados": 5,
       "aprovados": 1,
-      "reprovados": 3
+      "reprovados": 4
     },
     "camera de seguranca": {
       "achados": 2,
@@ -8893,7 +8899,7 @@
     "cueca": {
       "achados": 13,
       "aprovados": 1,
-      "reprovados": 9
+      "reprovados": 10
     },
     "echo dot": {
       "achados": 2,
@@ -8948,7 +8954,7 @@
     "oculos de sol": {
       "achados": 11,
       "aprovados": 3,
-      "reprovados": 7
+      "reprovados": 8
     },
     "oneblade": {
       "achados": 2,
@@ -8983,12 +8989,12 @@
     "smart tv": {
       "achados": 29,
       "aprovados": 6,
-      "reprovados": 22
+      "reprovados": 23
     },
     "smartwatch": {
       "achados": 11,
       "aprovados": 4,
-      "reprovados": 6
+      "reprovados": 7
     },
     "suplemento": {
       "achados": 5,
@@ -9028,7 +9034,7 @@
     "airfryer": {
       "achados": 7,
       "aprovados": 1,
-      "reprovados": 2
+      "reprovados": 3
     },
     "kit barba": {
       "achados": 1,
