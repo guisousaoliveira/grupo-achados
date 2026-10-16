@@ -2,26 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB21362449",
-      "origem": "xetdaspromocoes",
-      "link": "https://meli.la/19BLAXs",
-      "link_produto": "https://meli.la/19BLAXs",
-      "post_origem": "https://t.me/xetdaspromocoes/85039",
-      "link_canal": "https://meli.la/1hy9pqm",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_993254-MLA115688090969_082026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Prohibido Pré Treino 360g",
-      "de": 125.0,
-      "por": 71.88,
-      "palavra": "pre treino",
-      "garimpado_em": "2026-10-15T15:00-03:00",
-      "nota": 64.2,
-      "titulo": "Pré-treino para dar mais energia nos exercícios",
-      "na_revisao_desde": "2026-10-15T15:41-03:00",
-      "aprovado_em": "2026-10-15T15:47-03:00"
-    },
-    {
       "loja": "shopee",
       "chave": "shopee:995022276.23798435779",
       "nome": "Grampeador Tapeceiro com Trena 2 Metros + 1000 Grampos e Maleta",
@@ -1610,6 +1590,16 @@
       "link_produto": "https://shopee.com.br/product/1485783605/23493921552",
       "titulo": "Trena de aço carbono para medições em reformas",
       "slot": 22
+    },
+    {
+      "chave": "mercadolivre:MLB21362449",
+      "loja": "mercadolivre",
+      "nome": "Prohibido Pré Treino 360g",
+      "data": "2026-10-15T23:25-03:00",
+      "link": "https://meli.la/19BLAXs",
+      "link_produto": "https://meli.la/19BLAXs",
+      "titulo": "Pré-treino para dar mais energia nos exercícios",
+      "slot": 23
     }
   ],
   "slots_usados": {
@@ -1685,7 +1675,8 @@
       19,
       20,
       21,
-      22
+      22,
+      23
     ]
   },
   "shopee_buscado_em": "",
@@ -5713,6 +5704,19 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB21362449",
+      "origem": "xetdaspromocoes",
+      "link": "https://meli.la/19BLAXs",
+      "link_produto": "https://meli.la/19BLAXs",
+      "post_origem": "https://t.me/xetdaspromocoes/85039",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_993254-MLA115688090969_082026-O.webp",
+      "nome": "Prohibido Pré Treino 360g",
+      "de": 125.0,
+      "por": 71.88,
+      "titulo": "Pré-treino para dar mais energia nos exercícios"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:1485783605.23493921552",
       "nome": "Fita Métrica Fluorescente Aço Carbono 10M/7.5m Autotravante- Trena Precisão c/Trava p/ Construção/Reforma",
@@ -6239,20 +6243,6 @@
       "origem": "shopee",
       "fonte": "shopee",
       "titulo": "Óculos de sol pequenos com proteção UV para o rosto"
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:1512108548.23799008372",
-      "nome": "Bicicleta Spinning Ergométrica Exercício Profissional Monitor suporta até 150kg Academia 1.90m",
-      "por": 665.88,
-      "de": 2674.21,
-      "foto": "AgACAgQAAxkDAAIDRmrPhonFBe52kGCYTBNMCQYdJR3gAAJAC2sbXHXUUvm1ieM2e4MYAQADAgADeQADPQQ",
-      "link": "https://s.shopee.com.br/qkGQVDWg4",
-      "link_produto": "https://shopee.com.br/product/1512108548/23799008372",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "titulo": "Bicicleta ergométrica para treino em casa com monitor",
-      "pix": true
     }
   ],
   "lixeira": [
