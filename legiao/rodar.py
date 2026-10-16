@@ -4,6 +4,7 @@ import json
 import os
 import subprocess
 import sys
+import urllib.error
 import urllib.request
 import uuid
 from datetime import datetime, timedelta, timezone
@@ -25,7 +26,10 @@ gastos = []
 def _tg(metodo, corpo, tipo):
     token = os.environ.get("LEGIAO_TELEGRAM_TOKEN") or os.environ["TELEGRAM_TOKEN"]
     req = urllib.request.Request(f"https://api.telegram.org/bot{token}/{metodo}", corpo, {"Content-Type": tipo})
-    return urllib.request.urlopen(req, timeout=120).read()
+    try:
+        return urllib.request.urlopen(req, timeout=120).read()
+    except urllib.error.HTTPError as erro:
+        raise RuntimeError(f"Telegram recusou ({metodo}): {erro.read().decode(errors='replace')[:300]}") from None
 
 
 def mensagem(texto):
@@ -186,5 +190,12 @@ if __name__ == "__main__":
     try:
         main()
     except Exception as erro:  # avisa no Telegram em vez de falhar calado
-        mensagem(f"⚠️ Legião falhou: {str(erro)[:1500]}" + (f"\n\n{consumo()}" if gastos else ""))
+        aviso = f"⚠️ Legião falhou: {str(erro)[:1500]}" + (f"\n\n{consumo()}" if gastos else "")
+        try:
+            mensagem(aviso)
+        except Exception:  # o bot da Legião não conseguiu falar: avisa pelo bot de promo
+            os.environ.pop("LEGIAO_TELEGRAM_TOKEN", None)
+            CHAT = os.environ.get("ADMIN_ID", "")
+            mensagem(aviso + "\n\n(Mandei pelo bot de promo porque o bot da Legião não conseguiu te mandar mensagem. "
+                             "Confere se você apertou Iniciar nele e se o LEGIAO_CHAT_ID é o seu Id do @userinfobot.)")
         raise
