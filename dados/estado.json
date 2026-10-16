@@ -296,6 +296,28 @@
       "aprovado_em": "2026-10-16T16:13-03:00"
     },
     {
+      "loja": "shopee",
+      "chave": "shopee:1604777172.57757302977",
+      "nome": "Câmera Veicular Full HD 1080p 3 Lentes (Frontal + Interna + Traseira) com Tela LCD | DVR Automotivo com Visão Noturna",
+      "por": 77.98,
+      "de": 199.95,
+      "foto": "https://cf.shopee.com.br/file/sg-11134201-82606-mlx59strsr9c41",
+      "link": "https://s.shopee.com.br/BUcolK1Hw",
+      "link_produto": "https://shopee.com.br/product/1604777172/57757302977",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.9,
+      "vendas": 115,
+      "palavra": "camera veicular",
+      "garimpado_em": "2026-10-16T17:11-03:00",
+      "nota": 76.2,
+      "titulo": "Câmera veicular de três lentes para segurança no trânsito",
+      "aprovado_sozinho": true,
+      "aprovado_em": "2026-10-16T17:20-03:00"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B07DP2S4PC",
       "origem": "pobregram",
@@ -2331,19 +2353,43 @@
       "id": 694,
       "na_revisao_desde": "2026-10-16T16:50-03:00",
       "msg_id": 1186
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB62495595",
+      "origem": "promotop",
+      "link": "https://meli.la/2MHASoX",
+      "link_produto": "https://www.mercadolivre.com.br/fritadeira-airfryer-digital-philips-walita-na23000-negro/p/MLB62495595",
+      "post_origem": "https://t.me/promotop/260378",
+      "link_canal": "https://meli.la/33ndhHa",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_720651-MLA99379792839_112025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Fritadeira Airfryer Digital Philips Walita NA230/00 Negro",
+      "lido_ia": true,
+      "por": 372.6,
+      "cupom": "OFFHOJE",
+      "sem_preco_loja": true,
+      "palavra": "airfryer",
+      "garimpado_em": "2026-10-16T15:01-03:00",
+      "nota": 36.6,
+      "motivo_revisao": "a loja não abriu para eu conferir o preço",
+      "titulo": "Airfryer digital para preparar refeições sem óleo",
+      "id": 698,
+      "na_revisao_desde": "2026-10-16T17:20-03:00",
+      "msg_id": 1190
     }
   ],
-  "proximo_id": 697,
+  "proximo_id": 699,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 85247,
-      "lobaopromo": 190465,
-      "gatunopromos": 125754,
-      "pobregram": 42027,
+      "xetdaspromocoes": 85250,
+      "lobaopromo": 190476,
+      "gatunopromos": 125757,
+      "pobregram": 42029,
       "urubupromo": 41789,
-      "tudonapromo": 102192,
-      "promonocontext": 127730,
-      "promooeasy": 223045,
+      "tudonapromo": 102194,
+      "promonocontext": 127733,
+      "promooeasy": 223051,
       "aquitempechincha": 282201,
       "infoBRpromos": 67711,
       "boletando": 76841,
@@ -2351,7 +2397,7 @@
       "achadosdotb": 11787
     },
     "dia": "2026-10-16",
-    "hoje": 89,
+    "hoje": 90,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -4474,30 +4520,31 @@
       "amazon:B0CVCG6S9C",
       "mercadolivre:MLB61077880",
       "mercadolivre:MLB67166527",
-      "shopee:1604777172.57757302977"
+      "shopee:1604777172.57757302977",
+      "amazon:B0FL4N5RG6"
     ],
     "ultima": {
-      "em": "2026-10-16T17:10:20-03:00",
+      "em": "2026-10-16T17:20:21-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 48,
-      "do_nicho": 6,
-      "repetidas": 3,
-      "novas": 2,
+      "posts_novos": 39,
+      "do_nicho": 7,
+      "repetidas": 6,
+      "novas": 1,
       "limite_dia": false,
-      "repetidas_nome": 1,
+      "repetidas_nome": 0,
       "promobit": 0,
-      "soltas": 0,
+      "soltas": 2,
       "na_peneira": 4
     },
     "hora": "2026-10-16T17",
-    "nesta_hora": 4,
+    "nesta_hora": 5,
     "promobit_hora": "2026-10-16T17",
     "promobit_nesta_hora": 0,
-    "promobit_visto": 3119827,
+    "promobit_visto": 3119846,
     "nomes": [
       [
         [
@@ -6828,28 +6875,35 @@
           "quintal"
         ],
         "2026-10-16T17:00-03:00"
+      ],
+      [
+        [
+          "camera",
+          "veicular",
+          "full",
+          "hd",
+          "1080p",
+          "lentes",
+          "frontal",
+          "interna"
+        ],
+        "2026-10-16T17:20-03:00"
+      ],
+      [
+        [
+          "fritadeira",
+          "airfryer",
+          "digital",
+          "philips",
+          "walita",
+          "na230",
+          "00",
+          "negro"
+        ],
+        "2026-10-16T17:20-03:00"
       ]
     ],
     "peneira": [
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB62495595",
-        "origem": "promotop",
-        "link": "https://www.mercadolivre.com.br/fritadeira-airfryer-digital-philips-walita-na23000-negro/p/MLB62495595?matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/fritadeira-airfryer-digital-philips-walita-na23000-negro/p/MLB62495595",
-        "post_origem": "https://t.me/promotop/260378",
-        "link_canal": "https://meli.la/33ndhHa",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_720651-MLA99379792839_112025-O.webp",
-        "foto_origem": "loja",
-        "nome": "Fritadeira Airfryer Digital Philips Walita NA230/00 Negro",
-        "lido_ia": true,
-        "por": 372.6,
-        "cupom": "OFFHOJE",
-        "sem_preco_loja": true,
-        "palavra": "airfryer",
-        "garimpado_em": "2026-10-16T15:01-03:00",
-        "nota": 36.6
-      },
       {
         "loja": "mercadolivre",
         "chave": "mercadolivre:MLB74143355",
@@ -6906,36 +6960,37 @@
         "nota": 32.2
       },
       {
-        "loja": "shopee",
-        "chave": "shopee:1604777172.57757302977",
-        "nome": "Câmera Veicular Full HD 1080p 3 Lentes (Frontal + Interna + Traseira) com Tela LCD | DVR Automotivo com Visão Noturna",
-        "por": 77.98,
-        "de": 199.95,
-        "foto": "https://cf.shopee.com.br/file/sg-11134201-82606-mlx59strsr9c41",
-        "link": "https://s.shopee.com.br/BUcolK1Hw",
-        "link_produto": "https://shopee.com.br/product/1604777172/57757302977",
-        "origem": "shopee",
-        "fonte": "shopee",
+        "loja": "amazon",
+        "chave": "amazon:B0FL4N5RG6",
+        "origem": "promooeasy",
+        "link": "https://www.amazon.com.br/dp/B0FL4N5RG6?tag=alphadominu09-20",
+        "link_produto": "https://www.amazon.com.br/dp/B0FL4N5RG6?tag=alphadominu09-20",
+        "post_origem": "https://t.me/promooeasy/223051",
+        "link_canal": "https://www.amazon.com.br/dp/B0FL4N5RG6?tag=promof26-20",
+        "foto": "https://m.media-amazon.com/images/I/81bREGVqLPL._AC_SL1500_.jpg",
         "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 4.9,
-        "vendas": 115,
-        "palavra": "camera veicular",
-        "garimpado_em": "2026-10-16T17:11-03:00",
-        "nota": 76.2
+        "nome": "Smart TV Hisense Hi-QLED UHD 4K 75\" 75Q6QV",
+        "parcelas": 12,
+        "por": 4399.99,
+        "lido_ia": true,
+        "preco_conferido": true,
+        "palavra": "smart tv",
+        "garimpado_em": "2026-10-16T17:20-03:00",
+        "nota": 23.1
       }
     ],
     "soltas_hora": "2026-10-16T17",
-    "soltas": 2,
+    "soltas": 4,
     "shopee_em": "2026-10-16T17:11-03:00",
     "shopee_indice": 68,
     "soltas_dia_data": "2026-10-16",
-    "soltas_dia": 65,
+    "soltas_dia": 67,
     "soltas_loja": {
       "amazon": 1,
-      "shopee": 1
+      "shopee": 2,
+      "mercadolivre": 1
     },
-    "soltas_vez": "2026-10-16T17:0"
+    "soltas_vez": "2026-10-16T17:1"
   },
   "ultimos": [
     {
@@ -8392,7 +8447,7 @@
     },
     "2026-10-16": {
       "shopee": {
-        "achados": 16,
+        "achados": 17,
         "aprovados": 0,
         "reprovados": 1
       },
@@ -8437,6 +8492,11 @@
         "reprovados": 0
       },
       "pobregram": {
+        "achados": 1,
+        "aprovados": 0,
+        "reprovados": 0
+      },
+      "promotop": {
         "achados": 1,
         "aprovados": 0,
         "reprovados": 0
@@ -8691,7 +8751,7 @@
       "reprovados": 0
     },
     "airfryer": {
-      "achados": 6,
+      "achados": 7,
       "aprovados": 1,
       "reprovados": 2
     },
@@ -8789,6 +8849,11 @@
       "achados": 1,
       "aprovados": 0,
       "reprovados": 0
+    },
+    "camera veicular": {
+      "achados": 1,
+      "aprovados": 0,
+      "reprovados": 0
     }
   },
   "radar_cfg": {
@@ -8814,7 +8879,7 @@
       "14": 4,
       "15": 5,
       "16": 2,
-      "17": 2
+      "17": 3
     }
   }
 }
