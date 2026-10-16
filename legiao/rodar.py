@@ -16,13 +16,14 @@ BRT = timezone(timedelta(hours=-3))
 CFG = json.loads((AQUI / "config.json").read_text(encoding="utf-8"))
 HISTORICO = AQUI / "historico.json"
 SAIDA = AQUI / "saida"
+CHAT = os.environ.get("LEGIAO_CHAT_ID") or os.environ.get("ADMIN_ID", "")
 gastos = []
 
 
 # ---------- Telegram ----------
 
 def _tg(metodo, corpo, tipo):
-    token = os.environ["TELEGRAM_TOKEN"]
+    token = os.environ.get("LEGIAO_TELEGRAM_TOKEN") or os.environ["TELEGRAM_TOKEN"]
     req = urllib.request.Request(f"https://api.telegram.org/bot{token}/{metodo}", corpo, {"Content-Type": tipo})
     return urllib.request.urlopen(req, timeout=120).read()
 
@@ -36,13 +37,13 @@ def mensagem(texto):
         atual += linha
     partes.append(atual)
     for parte in partes:
-        _tg("sendMessage", json.dumps({"chat_id": os.environ["ADMIN_ID"], "text": parte,
+        _tg("sendMessage", json.dumps({"chat_id": CHAT, "text": parte,
                                        "disable_web_page_preview": True}).encode(), "application/json")
 
 
 def fotos(arquivos, legenda, tipo="photo"):
     limite = "----legiao" + uuid.uuid4().hex
-    campos = {"chat_id": os.environ["ADMIN_ID"],
+    campos = {"chat_id": CHAT,
               "media": json.dumps([{"type": tipo, "media": f"attach://f{i}", **({"caption": legenda} if i == 0 else {})}
                                    for i in range(len(arquivos))])}
     corpo = b""
