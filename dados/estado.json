@@ -2285,24 +2285,47 @@
       "id": 693,
       "na_revisao_desde": "2026-10-16T16:31-03:00",
       "msg_id": 1184
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0BBPM1KCG",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0BBPM1KCG?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0BBPM1KCG?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/223009",
+      "link_canal": "https://www.amazon.com.br/Caixa-T%C3%A9rmica-18-Litros-25108180/dp/B0BBPM1KCG?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAIEomrSgBd2eypUfSa6zAMsEsdNbzZOAALsuTEb1vw1UypilOXdDU2GAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Caixa Térmica Mor 18 litros",
+      "por": 57.5,
+      "lido_ia": true,
+      "sem_preco_loja": true,
+      "palavra": "caixa termica",
+      "garimpado_em": "2026-10-16T16:40-03:00",
+      "nota": 26.0,
+      "motivo_revisao": "a loja não abriu para eu conferir o preço",
+      "titulo": "Caixa térmica para manter bebidas geladas na praia",
+      "id": 694,
+      "na_revisao_desde": "2026-10-16T16:50-03:00",
+      "msg_id": 1186
     }
   ],
-  "proximo_id": 694,
+  "proximo_id": 695,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 85238,
-      "lobaopromo": 190453,
-      "gatunopromos": 125747,
-      "pobregram": 42023,
-      "urubupromo": 41788,
+      "xetdaspromocoes": 85239,
+      "lobaopromo": 190458,
+      "gatunopromos": 125749,
+      "pobregram": 42024,
+      "urubupromo": 41789,
       "tudonapromo": 102189,
-      "promonocontext": 127718,
-      "promooeasy": 223011,
-      "aquitempechincha": 282188,
-      "infoBRpromos": 67706,
+      "promonocontext": 127719,
+      "promooeasy": 223024,
+      "aquitempechincha": 282192,
+      "infoBRpromos": 67708,
       "boletando": 76840,
-      "promotop": 260387,
-      "achadosdotb": 11786
+      "promotop": 260388,
+      "achadosdotb": 11787
     },
     "dia": "2026-10-16",
     "hoje": 85,
@@ -4422,30 +4445,31 @@
       "mercadolivre:MLB29036892",
       "mercadolivre:MLB5449308614",
       "mercadolivre:MLB74143355",
-      "amazon:B0BBPM1KCG"
+      "amazon:B0BBPM1KCG",
+      "shopee:1309397871.23694657658"
     ],
     "ultima": {
-      "em": "2026-10-16T16:40:19-03:00",
+      "em": "2026-10-16T16:50:20-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 37,
-      "do_nicho": 3,
+      "posts_novos": 44,
+      "do_nicho": 2,
       "repetidas": 2,
-      "novas": 1,
+      "novas": 0,
       "limite_dia": false,
       "repetidas_nome": 0,
       "promobit": 0,
-      "soltas": 0,
-      "na_peneira": 3
+      "soltas": 1,
+      "na_peneira": 2
     },
     "hora": "2026-10-16T16",
     "nesta_hora": 4,
     "promobit_hora": "2026-10-16T16",
     "promobit_nesta_hora": 1,
-    "promobit_visto": 3119748,
+    "promobit_visto": 3119773,
     "nomes": [
       [
         [
@@ -6740,6 +6764,16 @@
           "4k"
         ],
         "2026-10-16T16:31-03:00"
+      ],
+      [
+        [
+          "caixa",
+          "termica",
+          "mor",
+          "18",
+          "litros"
+        ],
+        "2026-10-16T16:50-03:00"
       ]
     ],
     "peneira": [
@@ -6781,36 +6815,37 @@
         "nota": 23.1
       },
       {
-        "loja": "amazon",
-        "chave": "amazon:B0BBPM1KCG",
-        "origem": "promooeasy",
-        "link": "https://www.amazon.com.br/dp/B0BBPM1KCG?tag=alphadominu09-20",
-        "link_produto": "https://www.amazon.com.br/dp/B0BBPM1KCG?tag=alphadominu09-20",
-        "post_origem": "https://t.me/promooeasy/223009",
-        "link_canal": "https://www.amazon.com.br/Caixa-T%C3%A9rmica-18-Litros-25108180/dp/B0BBPM1KCG?tag=promof26-20",
-        "foto": "https://m.media-amazon.com/images/I/41icTEgt3EL._AC_SL1000_.jpg",
+        "loja": "shopee",
+        "chave": "shopee:1309397871.23694657658",
+        "nome": "Luminária Espeto Solar 7W LED Verde Jardim Quintal Fachada Bivolt IP65 Placa Solar Iluminação Externa Decorativa",
+        "por": 27.2,
+        "de": 43.17,
+        "foto": "https://cf.shopee.com.br/file/sg-11134201-821cw-mgp0i87eror1d3",
+        "link": "https://s.shopee.com.br/4VdbxhBZPk",
+        "link_produto": "https://shopee.com.br/product/1309397871/23694657658",
+        "origem": "shopee",
+        "fonte": "shopee",
         "foto_origem": "loja",
-        "nome": "Caixa Térmica Mor 18 litros",
-        "por": 57.5,
-        "lido_ia": true,
-        "sem_preco_loja": true,
-        "palavra": "caixa termica",
-        "garimpado_em": "2026-10-16T16:40-03:00",
-        "nota": 26.0
+        "shopee_api": true,
+        "avaliacao": 4.7,
+        "vendas": 391,
+        "palavra": "espeto",
+        "garimpado_em": "2026-10-16T16:50-03:00",
+        "nota": 61.8
       }
     ],
     "soltas_hora": "2026-10-16T16",
-    "soltas": 6,
-    "shopee_em": "2026-10-16T16:31-03:00",
-    "shopee_indice": 52,
+    "soltas": 7,
+    "shopee_em": "2026-10-16T16:50-03:00",
+    "shopee_indice": 60,
     "soltas_dia_data": "2026-10-16",
-    "soltas_dia": 62,
+    "soltas_dia": 63,
     "soltas_loja": {
       "shopee": 1,
       "mercadolivre": 3,
-      "amazon": 2
+      "amazon": 3
     },
-    "soltas_vez": "2026-10-16T16:2"
+    "soltas_vez": "2026-10-16T16:3"
   },
   "ultimos": [
     {
@@ -8287,7 +8322,7 @@
         "reprovados": 0
       },
       "promooeasy": {
-        "achados": 6,
+        "achados": 7,
         "aprovados": 3,
         "reprovados": 1
       },
@@ -8381,7 +8416,7 @@
       "reprovados": 16
     },
     "caixa termica": {
-      "achados": 4,
+      "achados": 5,
       "aprovados": 1,
       "reprovados": 3
     },
