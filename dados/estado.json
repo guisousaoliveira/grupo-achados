@@ -84,7 +84,8 @@
       "nota": 75.6,
       "titulo": "Lavadora de alta pressão para limpeza de quintal e garagem",
       "na_revisao_desde": "2026-10-15T13:41-03:00",
-      "aprovado_em": "2026-10-15T21:30-03:00"
+      "aprovado_em": "2026-10-15T21:30-03:00",
+      "aviso_validade": true
     },
     {
       "loja": "shopee",
@@ -1781,22 +1782,22 @@
   "proximo_id": 646,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 85118,
-      "lobaopromo": 190230,
-      "gatunopromos": 125680,
+      "xetdaspromocoes": 85120,
+      "lobaopromo": 190235,
+      "gatunopromos": 125682,
       "pobregram": 41998,
-      "urubupromo": 41760,
-      "tudonapromo": 102079,
-      "promonocontext": 127440,
-      "promooeasy": 222653,
-      "aquitempechincha": 282029,
+      "urubupromo": 41761,
+      "tudonapromo": 102085,
+      "promonocontext": 127456,
+      "promooeasy": 222655,
+      "aquitempechincha": 282034,
       "infoBRpromos": 67677,
       "boletando": 76814,
-      "promotop": 260349,
+      "promotop": 260350,
       "achadosdotb": 11778
     },
     "dia": "2026-10-16",
-    "hoje": 19,
+    "hoje": 20,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -3815,30 +3816,32 @@
       "mercadolivre:MLB5187281878",
       "shopee:1413444886.18299878611",
       "mercadolivre:MLB5579293332",
-      "mercadolivre:MLB1010954920"
+      "mercadolivre:MLB1010954920",
+      "mercadolivre:MLB4966170717",
+      "shopee:1082128432.20397620033"
     ],
     "ultima": {
-      "em": "2026-10-16T09:21:16-03:00",
+      "em": "2026-10-16T09:30:25-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 47,
-      "do_nicho": 7,
-      "repetidas": 5,
-      "novas": 2,
+      "posts_novos": 53,
+      "do_nicho": 8,
+      "repetidas": 7,
+      "novas": 1,
       "limite_dia": false,
       "repetidas_nome": 0,
       "promobit": 0,
       "soltas": 0,
-      "na_peneira": 2
+      "na_peneira": 3
     },
     "hora": "2026-10-16T09",
-    "nesta_hora": 6,
+    "nesta_hora": 7,
     "promobit_hora": "2026-10-16T09",
     "promobit_nesta_hora": 0,
-    "promobit_visto": 3118256,
+    "promobit_visto": 3118287,
     "nomes": [
       [
         [
@@ -5587,12 +5590,30 @@
         "palavra": "cueca",
         "garimpado_em": "2026-10-16T09:21-03:00",
         "nota": 61.5
+      },
+      {
+        "loja": "mercadolivre",
+        "chave": "mercadolivre:MLB4966170717",
+        "origem": "promonocontext",
+        "link": "https://www.mercadolivre.com.br/camisa-polo-ziper-masculina-slim-fit-tecnologica/up/MLBU4505920354?pdp_filters=item_id%3AMLB4966170717&matt_word=alphapromo&matt_tool=59136903",
+        "link_produto": "https://www.mercadolivre.com.br/camisa-polo-ziper-masculina-slim-fit-tecnologica/up/MLBU4505920354?pdp_filters=item_id%3AMLB4966170717",
+        "post_origem": "https://t.me/promonocontext/127444",
+        "link_canal": "https://meli.la/1FK1s2c",
+        "foto": "https://http2.mlstatic.com/D_NQ_NP_852591-MLB113987167982_072026-O.webp",
+        "foto_origem": "loja",
+        "nome": "Camisa Polo Zíper Masculina Slim Fit Tecnológica Preto Liso P",
+        "por": 59.0,
+        "lido_ia": true,
+        "preco_conferido": true,
+        "palavra": "camisa polo",
+        "garimpado_em": "2026-10-16T09:31-03:00",
+        "nota": 52.1
       }
     ],
     "soltas_hora": "2026-10-16T09",
     "soltas": 3,
-    "shopee_em": "2026-10-16T09:16-03:00",
-    "shopee_indice": 68,
+    "shopee_em": "2026-10-16T09:31-03:00",
+    "shopee_indice": 76,
     "soltas_dia_data": "2026-10-16",
     "soltas_dia": 14,
     "soltas_loja": {
@@ -6822,7 +6843,7 @@
       }
     }
   },
-  "aviso_post": "2026-10-16 08|shopee:1638805020.58264360363",
+  "aviso_post": "2026-10-16 09:33|amazon:B07793T84W",
   "garimpo_palavras": {
     "academia": {
       "achados": 25,
