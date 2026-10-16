@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB5230772384",
-      "origem": "promooeasy",
-      "link": "https://meli.la/2jNUBhg",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-5230772384-6-pares-meias-puma-cano-medio-alto-atoalhada-academia-sport-_JM?pdp_filters=item_id%3AMLB5230772384",
-      "post_origem": "https://t.me/promooeasy/222815",
-      "link_canal": "https://meli.la/1MTStnL",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_720199-MLB116655968171_082026-O.webp",
-      "foto_origem": "loja",
-      "nome": "6 Pares Meias Puma Cano Médio Alto Atoalhada Academia Sport",
-      "de": 149.99,
-      "por": 49.4,
-      "lido_ia": true,
-      "preco_conferido": true,
-      "palavra": "academia",
-      "garimpado_em": "2026-10-16T12:15-03:00",
-      "nota": 69.4,
-      "titulo": "Meias Puma atoalhadas para treinar com conforto",
-      "aprovado_sozinho": true,
-      "aprovado_em": "2026-10-16T13:50-03:00"
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B00YTY4AB8",
       "origem": "promobit",
@@ -2104,6 +2082,16 @@
       "link_produto": "https://produto.mercadolivre.com.br/MLB-3756911067-kit-6-cuecas-boxer-polo-wear-microfibra-sem-costura-original-_JM?pdp_filters=item_id%3AMLB3756911067",
       "titulo": "Kit Polo Wear em microfibra para uso diário",
       "slot": 16
+    },
+    {
+      "chave": "mercadolivre:MLB5230772384",
+      "loja": "mercadolivre",
+      "nome": "6 Pares Meias Puma Cano Médio Alto Atoalhada Academia Sport",
+      "data": "2026-10-16T16:22-03:00",
+      "link": "https://meli.la/2jNUBhg",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-5230772384-6-pares-meias-puma-cano-medio-alto-atoalhada-academia-sport-_JM?pdp_filters=item_id%3AMLB5230772384",
+      "titulo": "Meias Puma atoalhadas para treinar com conforto",
+      "slot": 16.1
     }
   ],
   "slots_usados": {
@@ -2205,7 +2193,8 @@
       15.1,
       15.2,
       15.3,
-      16
+      16,
+      16.1
     ]
   },
   "shopee_buscado_em": "",
@@ -6726,6 +6715,19 @@
   "ultimos": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB5230772384",
+      "origem": "promooeasy",
+      "link": "https://meli.la/2jNUBhg",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-5230772384-6-pares-meias-puma-cano-medio-alto-atoalhada-academia-sport-_JM?pdp_filters=item_id%3AMLB5230772384",
+      "post_origem": "https://t.me/promooeasy/222815",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_720199-MLB116655968171_082026-O.webp",
+      "nome": "6 Pares Meias Puma Cano Médio Alto Atoalhada Academia Sport",
+      "de": 149.99,
+      "por": 49.4,
+      "titulo": "Meias Puma atoalhadas para treinar com conforto"
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB3756911067",
       "origem": "lobaopromo",
       "link": "https://meli.la/1a3S5Zc",
@@ -7246,19 +7248,6 @@
       "nome": "Lanterna Tatica Recarregavel Mais Forte Do Mundo Sitio Led Branco",
       "por": 21.0,
       "titulo": "Lanterna tática recarregável para iluminação de alta potênci"
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:1509466431.43809108037",
-      "nome": "Esmerilhadeira Lixadeira Angular 115mm 11000rpm",
-      "por": 109.9,
-      "de": 499.55,
-      "foto": "https://cf.shopee.com.br/file/cn-11134207-820l4-mua3tmipjvnp84",
-      "link": "https://s.shopee.com.br/40hK7onMzY",
-      "link_produto": "https://shopee.com.br/product/1509466431/43809108037",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "titulo": "Ferramenta para cortes e desbastes em metal e alvenaria"
     }
   ],
   "lixeira": [
