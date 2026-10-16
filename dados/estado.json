@@ -239,6 +239,28 @@
       "titulo": "Visual old money com acabamento em aço inox",
       "na_revisao_desde": "2026-10-16T12:41-03:00",
       "aprovado_em": "2026-10-16T12:43-03:00"
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:340813363.18897971509",
+      "nome": "Kit 2 Forma de Silicone Air Fryer Grande 20CM Assadeira Fritadeira Quadrada Cozinha",
+      "por": 19.99,
+      "de": 58.79,
+      "foto": "https://cf.shopee.com.br/file/br-11134207-7r98o-m1hpzkzwepqp9f",
+      "link": "https://s.shopee.com.br/7fadxuQZkM",
+      "link_produto": "https://shopee.com.br/product/340813363/18897971509",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.7,
+      "vendas": 387,
+      "palavra": "air fryer",
+      "garimpado_em": "2026-10-16T12:31-03:00",
+      "nota": 79.2,
+      "titulo": "Kit de silicone para manter a fritadeira limpa",
+      "aprovado_sozinho": true,
+      "aprovado_em": "2026-10-16T13:21-03:00"
     }
   ],
   "postados": [
@@ -1907,22 +1929,48 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [],
-  "proximo_id": 666,
+  "revisar": [
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB5226420562",
+      "origem": "xetdaspromocoes",
+      "link": "https://meli.la/2DqDMRn",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-5226420562-oculos-de-sol-uv400-original-acetato-unissex-premium-case-_JM?pdp_filters=item_id%3AMLB5226420562",
+      "post_origem": "https://t.me/xetdaspromocoes/85161",
+      "link_canal": "https://meli.la/15NkEYG",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_952602-MLB117382478348_102026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Óculos De Sol Uv400 Original Acetato Unissex Premium + Case",
+      "cupom_loja": "Aplique o Cupom de R$ 10 OFF no Anúncio 🎟️ (logo abaixo do preço)",
+      "lido_ia": true,
+      "por": 60.0,
+      "de": 159.0,
+      "preco_loja": 67.0,
+      "palavra": "oculos de sol",
+      "garimpado_em": "2026-10-16T11:00-03:00",
+      "nota": 76.2,
+      "motivo_revisao": "o post diz R$ 60,00 e a loja mostra R$ 67,00, e não tem cupom ou Pix que explique a diferença",
+      "titulo": "Proteção solar UV400 com armação em acetato",
+      "id": 667,
+      "na_revisao_desde": "2026-10-16T13:21-03:00",
+      "msg_id": 1135
+    }
+  ],
+  "proximo_id": 668,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 85193,
-      "lobaopromo": 190361,
+      "xetdaspromocoes": 85195,
+      "lobaopromo": 190363,
       "gatunopromos": 125720,
-      "pobregram": 42009,
-      "urubupromo": 41774,
-      "tudonapromo": 102149,
-      "promonocontext": 127647,
-      "promooeasy": 222856,
-      "aquitempechincha": 282119,
+      "pobregram": 42010,
+      "urubupromo": 41775,
+      "tudonapromo": 102151,
+      "promonocontext": 127652,
+      "promooeasy": 222864,
+      "aquitempechincha": 282121,
       "infoBRpromos": 67695,
       "boletando": 76832,
-      "promotop": 260368,
+      "promotop": 260369,
       "achadosdotb": 11784
     },
     "dia": "2026-10-16",
@@ -4014,27 +4062,27 @@
       "shopee:1074008902.18099232855"
     ],
     "ultima": {
-      "em": "2026-10-16T13:10:21-03:00",
+      "em": "2026-10-16T13:20:22-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 33,
-      "do_nicho": 5,
-      "repetidas": 5,
+      "posts_novos": 27,
+      "do_nicho": 2,
+      "repetidas": 2,
       "novas": 0,
       "limite_dia": false,
       "repetidas_nome": 0,
       "promobit": 0,
-      "soltas": 0,
-      "na_peneira": 31
+      "soltas": 2,
+      "na_peneira": 30
     },
     "hora": "2026-10-16T13",
     "nesta_hora": 0,
     "promobit_hora": "2026-10-16T13",
     "promobit_nesta_hora": 0,
-    "promobit_visto": 3119098,
+    "promobit_visto": 3119107,
     "nomes": [
       [
         [
@@ -5981,6 +6029,31 @@
           "fan"
         ],
         "2026-10-16T12:42-03:00"
+      ],
+      [
+        [
+          "forma",
+          "silicone",
+          "air",
+          "fryer",
+          "grande",
+          "20cm",
+          "assadeira",
+          "fritadeira"
+        ],
+        "2026-10-16T13:20-03:00"
+      ],
+      [
+        [
+          "oculos",
+          "sol",
+          "uv400",
+          "acetato",
+          "unissex",
+          "premium",
+          "case"
+        ],
+        "2026-10-16T13:21-03:00"
       ]
     ],
     "peneira": [
@@ -6080,26 +6153,6 @@
         "palavra": "whey",
         "garimpado_em": "2026-10-16T10:48-03:00",
         "nota": 53.4
-      },
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB5226420562",
-        "origem": "xetdaspromocoes",
-        "link": "https://produto.mercadolivre.com.br/MLB-5226420562-oculos-de-sol-uv400-original-acetato-unissex-premium-case-_JM?pdp_filters=item_id%3AMLB5226420562&matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://produto.mercadolivre.com.br/MLB-5226420562-oculos-de-sol-uv400-original-acetato-unissex-premium-case-_JM?pdp_filters=item_id%3AMLB5226420562",
-        "post_origem": "https://t.me/xetdaspromocoes/85161",
-        "link_canal": "https://meli.la/15NkEYG",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_952602-MLB117382478348_102026-O.webp",
-        "foto_origem": "loja",
-        "nome": "Óculos De Sol Uv400 Original Acetato Unissex Premium + Case",
-        "cupom_loja": "Aplique o Cupom de R$ 10 OFF no Anúncio 🎟️ (logo abaixo do preço)",
-        "lido_ia": true,
-        "por": 60.0,
-        "de": 159.0,
-        "preco_loja": 67.0,
-        "palavra": "oculos de sol",
-        "garimpado_em": "2026-10-16T11:00-03:00",
-        "nota": 76.2
       },
       {
         "loja": "mercadolivre",
@@ -6403,25 +6456,6 @@
       },
       {
         "loja": "shopee",
-        "chave": "shopee:340813363.18897971509",
-        "nome": "Kit 2 Forma de Silicone Air Fryer Grande 20CM Assadeira Fritadeira Quadrada Cozinha",
-        "por": 19.99,
-        "de": 58.79,
-        "foto": "https://cf.shopee.com.br/file/br-11134207-7r98o-m1hpzkzwepqp9f",
-        "link": "https://s.shopee.com.br/7fadxuQZkM",
-        "link_produto": "https://shopee.com.br/product/340813363/18897971509",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 4.7,
-        "vendas": 387,
-        "palavra": "air fryer",
-        "garimpado_em": "2026-10-16T12:31-03:00",
-        "nota": 79.2
-      },
-      {
-        "loja": "shopee",
         "chave": "shopee:924148627.21299854940",
         "nome": "Fruteira de Cozinha chão 3 Cestos Air Fryer",
         "por": 134.99,
@@ -6591,12 +6625,16 @@
       }
     ],
     "soltas_hora": "2026-10-16T13",
-    "soltas": 0,
+    "soltas": 2,
     "shopee_em": "2026-10-16T13:11-03:00",
     "shopee_indice": 72,
     "soltas_dia_data": "2026-10-16",
-    "soltas_dia": 34,
-    "soltas_loja": {}
+    "soltas_dia": 36,
+    "soltas_loja": {
+      "shopee": 1,
+      "mercadolivre": 1
+    },
+    "soltas_vez": "2026-10-16T13:1"
   },
   "ultimos": [
     {
@@ -7982,7 +8020,7 @@
     },
     "2026-10-16": {
       "shopee": {
-        "achados": 8,
+        "achados": 9,
         "aprovados": 0,
         "reprovados": 1
       },
@@ -8012,7 +8050,7 @@
         "reprovados": 0
       },
       "xetdaspromocoes": {
-        "achados": 1,
+        "achados": 2,
         "aprovados": 1,
         "reprovados": 0
       }
@@ -8026,7 +8064,7 @@
       "reprovados": 18
     },
     "air fryer": {
-      "achados": 8,
+      "achados": 9,
       "aprovados": 2,
       "reprovados": 6
     },
@@ -8186,7 +8224,7 @@
       "reprovados": 7
     },
     "oculos de sol": {
-      "achados": 9,
+      "achados": 10,
       "aprovados": 2,
       "reprovados": 7
     },
@@ -8377,5 +8415,10 @@
       "feminina",
       "feminino"
     ]
+  },
+  "entradas": {
+    "2026-10-16": {
+      "13": 1
+    }
   }
 }
