@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB65063041",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/2KFK2un",
-      "link_produto": "https://www.mercadolivre.com.br/camera-de-seguranca-intelbras-imx-c-com-resolucao-2mp-branco/p/MLB65063041",
-      "post_origem": "https://t.me/lobaopromo/190533",
-      "link_canal": "https://meli.la/2rMDb6b",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_759638-MLA105504310884_012026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Câmera de Segurança Intelbras Imx C com resolução 2MP",
-      "por": 159.0,
-      "lido_ia": true,
-      "preco_conferido": true,
-      "palavra": "camera de seguranca",
-      "garimpado_em": "2026-10-16T19:00-03:00",
-      "nota": 35.6,
-      "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto",
-      "titulo": "Câmera Intelbras para monitorar a casa pelo celular",
-      "na_revisao_desde": "2026-10-16T19:01-03:00",
-      "aprovado_em": "2026-10-16T19:01-03:00"
-    },
-    {
       "loja": "shopee",
       "chave": "shopee:1343438067.58264124937",
       "nome": "Interruptor Inteligente WiFi com Tomada e Painel Touch de Vidro Temperado, Compatível com Alexa e Google",
@@ -2206,6 +2184,19 @@
       "foto": "https://images-na.ssl-images-amazon.com/images/P/B0HCRDWF9C.01.LZZZZZZZ.jpg",
       "secao": "tech",
       "slot": 19.3
+    },
+    {
+      "chave": "mercadolivre:MLB65063041",
+      "loja": "mercadolivre",
+      "nome": "Câmera de Segurança Intelbras Imx C com resolução 2MP",
+      "data": "2026-10-16T20:07-03:00",
+      "link": "https://meli.la/2KFK2un",
+      "link_produto": "https://www.mercadolivre.com.br/camera-de-seguranca-intelbras-imx-c-com-resolucao-2mp-branco/p/MLB65063041",
+      "titulo": "Câmera Intelbras para monitorar a casa pelo celular",
+      "por": 159.0,
+      "conferido": true,
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_759638-MLA105504310884_012026-O.webp",
+      "secao": "tech"
     }
   ],
   "slots_usados": {
@@ -7252,6 +7243,18 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB65063041",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/2KFK2un",
+      "link_produto": "https://www.mercadolivre.com.br/camera-de-seguranca-intelbras-imx-c-com-resolucao-2mp-branco/p/MLB65063041",
+      "post_origem": "https://t.me/lobaopromo/190533",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_759638-MLA105504310884_012026-O.webp",
+      "nome": "Câmera de Segurança Intelbras Imx C com resolução 2MP",
+      "por": 159.0,
+      "titulo": "Câmera Intelbras para monitorar a casa pelo celular"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0HCRDWF9C",
       "origem": "promooeasy",
@@ -7777,19 +7780,6 @@
       "origem": "shopee",
       "fonte": "shopee",
       "titulo": "Luva antiderrapante para proteger as mãos no treino"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB44745787",
-      "origem": "promonocontext",
-      "link": "https://meli.la/1An4KWG",
-      "link_produto": "https://meli.la/1An4KWG",
-      "post_origem": "https://t.me/promonocontext/127087",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_850271-MLA118397071941_092026-O.webp",
-      "nome": "Relógio Masculino Orient Prateado Quartzo Analógico Fundo Preto Prova",
-      "de": 499.0,
-      "por": 275.0,
-      "titulo": "Relógio analógico prateado para uso diário"
     }
   ],
   "lixeira": [
@@ -9375,5 +9365,5 @@
     }
   },
   "aviso_ml": "2026-10-16",
-  "vitrine_marca": "5ad71efc0c62"
+  "vitrine_marca": "284d77bdf704"
 }
