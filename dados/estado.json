@@ -158,6 +158,28 @@
       "aprovado_em": "2026-10-16T16:00-03:00"
     },
     {
+      "loja": "shopee",
+      "chave": "shopee:1768728309.23295161236",
+      "nome": "Barra Fixa Parede Paralela Abdominal Musculação Fitness",
+      "por": 389.99,
+      "de": 499.99,
+      "foto": "https://cf.shopee.com.br/file/sg-11134201-8259q-ms04aostyww81d",
+      "link": "https://s.shopee.com.br/4fx2DQr1p5",
+      "link_produto": "https://shopee.com.br/product/1768728309/23295161236",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 5.0,
+      "vendas": 115,
+      "palavra": "barra fixa",
+      "garimpado_em": "2026-10-16T17:50-03:00",
+      "nota": 48.7,
+      "titulo": "Barra de parede para treinar calistenia em casa",
+      "aprovado_sozinho": true,
+      "aprovado_em": "2026-10-16T18:01-03:00"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0HCRDWF9C",
       "origem": "promooeasy",
@@ -2438,19 +2460,43 @@
       "id": 702,
       "na_revisao_desde": "2026-10-16T17:50-03:00",
       "msg_id": 1194
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB57814615",
+      "origem": "xetdaspromocoes",
+      "link": "https://www.mercadolivre.com.br/churrasqueira-movel-a-carvao-portatil-para-familia-em-aco-inox-com-grelha-de-22-cm/p/MLB57814615?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/churrasqueira-movel-a-carvao-portatil-para-familia-em-aco-inox-com-grelha-de-22-cm/p/MLB57814615",
+      "post_origem": "https://t.me/xetdaspromocoes/85258",
+      "link_canal": "https://meli.la/1uzH8qU",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_603432-MLA100081970191_122025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Churrasqueira Móvel A Carvão Portátil para Família",
+      "cupom_loja": "Aplique o Cupom de R$ 2 OFF no Anúncio 🎟️ (logo abaixo do preço)",
+      "por": 39.0,
+      "lido_ia": true,
+      "preco_conferido": true,
+      "palavra": "churrasqueira",
+      "garimpado_em": "2026-10-16T18:00-03:00",
+      "nota": 41.0,
+      "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto",
+      "titulo": "Churrasqueira móvel para assar carne onde quiser",
+      "id": 704,
+      "na_revisao_desde": "2026-10-16T18:01-03:00",
+      "msg_id": 1198
     }
   ],
-  "proximo_id": 703,
+  "proximo_id": 705,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 85257,
-      "lobaopromo": 190500,
-      "gatunopromos": 125763,
+      "xetdaspromocoes": 85259,
+      "lobaopromo": 190506,
+      "gatunopromos": 125765,
       "pobregram": 42031,
       "urubupromo": 41792,
-      "tudonapromo": 102202,
-      "promonocontext": 127743,
-      "promooeasy": 223070,
+      "tudonapromo": 102203,
+      "promonocontext": 127748,
+      "promooeasy": 223077,
       "aquitempechincha": 282205,
       "infoBRpromos": 67711,
       "boletando": 76845,
@@ -2458,7 +2504,7 @@
       "achadosdotb": 11787
     },
     "dia": "2026-10-16",
-    "hoje": 93,
+    "hoje": 94,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -4586,31 +4632,31 @@
       "amazon:B07VC5CWBP",
       "mercadolivre:MLB6253978688",
       "amazon:B0BGCHZR66",
-      "shopee:1768728309.23295161236"
+      "shopee:1768728309.23295161236",
+      "mercadolivre:MLB57814615"
     ],
     "ultima": {
-      "em": "2026-10-16T17:50:20-03:00",
+      "em": "2026-10-16T18:00:28-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 44,
+      "posts_novos": 33,
       "do_nicho": 7,
       "repetidas": 6,
-      "novas": 0,
+      "novas": 1,
       "limite_dia": false,
       "repetidas_nome": 0,
-      "fora_do_nicho": 1,
       "promobit": 0,
       "soltas": 2,
       "na_peneira": 1
     },
-    "hora": "2026-10-16T17",
-    "nesta_hora": 6,
-    "promobit_hora": "2026-10-16T17",
-    "promobit_nesta_hora": 2,
-    "promobit_visto": 3119922,
+    "hora": "2026-10-16T18",
+    "nesta_hora": 1,
+    "promobit_hora": "2026-10-16T18",
+    "promobit_nesta_hora": 0,
+    "promobit_visto": 3119939,
     "nomes": [
       [
         [
@@ -7016,6 +7062,28 @@
           "75"
         ],
         "2026-10-16T17:50-03:00"
+      ],
+      [
+        [
+          "barra",
+          "fixa",
+          "parede",
+          "paralela",
+          "abdominal",
+          "musculacao",
+          "fitness"
+        ],
+        "2026-10-16T18:00-03:00"
+      ],
+      [
+        [
+          "churrasqueira",
+          "movel",
+          "carvao",
+          "portatil",
+          "familia"
+        ],
+        "2026-10-16T18:01-03:00"
       ]
     ],
     "peneira": [
@@ -7036,39 +7104,19 @@
         "palavra": "smart tv",
         "garimpado_em": "2026-10-16T16:23-03:00",
         "nota": 23.1
-      },
-      {
-        "loja": "shopee",
-        "chave": "shopee:1768728309.23295161236",
-        "nome": "Barra Fixa Parede Paralela Abdominal Musculação Fitness",
-        "por": 389.99,
-        "de": 499.99,
-        "foto": "https://cf.shopee.com.br/file/sg-11134201-8259q-ms04aostyww81d",
-        "link": "https://s.shopee.com.br/4fx2DQr1p5",
-        "link_produto": "https://shopee.com.br/product/1768728309/23295161236",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 5.0,
-        "vendas": 115,
-        "palavra": "barra fixa",
-        "garimpado_em": "2026-10-16T17:50-03:00",
-        "nota": 48.7
       }
     ],
-    "soltas_hora": "2026-10-16T17",
-    "soltas": 8,
+    "soltas_hora": "2026-10-16T18",
+    "soltas": 2,
     "shopee_em": "2026-10-16T17:50-03:00",
     "shopee_indice": 84,
     "soltas_dia_data": "2026-10-16",
-    "soltas_dia": 71,
+    "soltas_dia": 73,
     "soltas_loja": {
-      "amazon": 3,
-      "shopee": 2,
-      "mercadolivre": 3
+      "shopee": 1,
+      "mercadolivre": 1
     },
-    "soltas_vez": "2026-10-16T17:3"
+    "soltas_vez": "2026-10-16T18:0"
   },
   "ultimos": [
     {
@@ -8526,7 +8574,7 @@
     },
     "2026-10-16": {
       "shopee": {
-        "achados": 17,
+        "achados": 18,
         "aprovados": 0,
         "reprovados": 1
       },
@@ -8556,7 +8604,7 @@
         "reprovados": 0
       },
       "xetdaspromocoes": {
-        "achados": 3,
+        "achados": 4,
         "aprovados": 2,
         "reprovados": 0
       },
@@ -8625,7 +8673,7 @@
       "reprovados": 2
     },
     "barra fixa": {
-      "achados": 2,
+      "achados": 3,
       "aprovados": 0,
       "reprovados": 2
     },
@@ -8933,6 +8981,11 @@
       "achados": 1,
       "aprovados": 0,
       "reprovados": 0
+    },
+    "churrasqueira": {
+      "achados": 1,
+      "aprovados": 0,
+      "reprovados": 0
     }
   },
   "radar_cfg": {
@@ -8958,7 +9011,8 @@
       "14": 4,
       "15": 5,
       "16": 2,
-      "17": 3
+      "17": 3,
+      "18": 1
     }
   },
   "aviso_ml": "2026-10-16"
