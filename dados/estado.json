@@ -2,27 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "amazon",
-      "chave": "amazon:B0FLQ54RHB",
-      "origem": "boletando",
-      "link": "https://www.amazon.com.br/dp/B0FLQ54RHB?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0FLQ54RHB?tag=alphadominu09-20",
-      "post_origem": "https://t.me/boletando/76817",
-      "link_canal": "https://boletando.com/oferta/269297/",
-      "foto": "AgACAgQAAxkDAAIEWmrSKxUwjCTcBL_5Wljq0pOsSh4UAAIOC2sbx5zsUAM6nEuA6ypoAQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "nome": "GoPro HERO13 Black Power Bundle – Kit com Câmera de Ação à Prova d’água 10m, 5.3K60, HLG HDR, 27MP, HyperSmooth 6.0, GPS",
-      "por": 2999.0,
-      "lido_ia": true,
-      "palavra": "gopro",
-      "garimpado_em": "2026-10-16T10:47-03:00",
-      "nota": 24.4,
-      "titulo": "GoPro HERO13 para filmar esportes e aventuras",
-      "na_revisao_desde": "2026-10-16T10:48-03:00",
-      "de": 3599.9,
-      "aprovado_em": "2026-10-16T10:49-03:00"
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB7013067090",
       "origem": "promonocontext",
@@ -1923,6 +1902,16 @@
       "link_produto": "https://produto.mercadolivre.com.br/MLB-5579293332-kit-com-3-conjuntos-academia-masculino-dry-fit-shortscamisa-_JM?pdp_filters=item_id%3AMLB5579293332",
       "titulo": "Conjuntos dry fit respiráveis ideais nos treinos diários",
       "slot": 14
+    },
+    {
+      "chave": "amazon:B0FLQ54RHB",
+      "loja": "amazon",
+      "nome": "GoPro HERO13 Black Power Bundle – Kit com Câmera de Ação à Prova d’água 10m, 5.3K60, HLG HDR, 27MP, HyperSmooth 6.0, GPS",
+      "data": "2026-10-16T14:24-03:00",
+      "link": "https://www.amazon.com.br/dp/B0FLQ54RHB?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0FLQ54RHB?tag=alphadominu09-20",
+      "titulo": "GoPro HERO13 para filmar esportes e aventuras",
+      "slot": 14.1
     }
   ],
   "slots_usados": {
@@ -2016,7 +2005,8 @@
       13.1,
       13.2,
       13.3,
-      14
+      14,
+      14.1
     ]
   },
   "shopee_buscado_em": "",
@@ -6687,6 +6677,19 @@
   },
   "ultimos": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B0FLQ54RHB",
+      "origem": "boletando",
+      "link": "https://www.amazon.com.br/dp/B0FLQ54RHB?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0FLQ54RHB?tag=alphadominu09-20",
+      "post_origem": "https://t.me/boletando/76817",
+      "foto": "AgACAgQAAxkDAAIEWmrSKxUwjCTcBL_5Wljq0pOsSh4UAAIOC2sbx5zsUAM6nEuA6ypoAQADAgADeQADPQQ",
+      "nome": "GoPro HERO13 Black Power Bundle – Kit com Câmera de Ação à Prova d’água 10m, 5.3K60, HLG HDR, 27MP, HyperSmooth 6.0, GPS",
+      "por": 2999.0,
+      "titulo": "GoPro HERO13 para filmar esportes e aventuras",
+      "de": 3599.9
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB5579293332",
       "origem": "lobaopromo",
@@ -7210,20 +7213,6 @@
       "parcelas": 12,
       "parcela_valor": 158.11,
       "pix": true
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0F677L8R5",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://link.amazon/B0czdyOTy",
-      "link_produto": "https://link.amazon/B0czdyOTy",
-      "post_origem": "https://www.promobit.com.br/oferta/parafusadeira-furadeira-impacto-12-700w-127v-3115247/",
-      "nome": "Parafusadeira Furadeira Impacto 12 700W 127V",
-      "por": 114.0,
-      "de": 209.9,
-      "foto": "AgACAgQAAxkDAAIDrWrQnh8UI3YII8dylbjZ3t-gY81JAAJSDmsbqaLNUB7uuVFtNFEHAQADAgADeQADPQQ",
-      "titulo": "Furadeira de impacto potente"
     }
   ],
   "lixeira": [
