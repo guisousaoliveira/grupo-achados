@@ -3,29 +3,6 @@
   "fila": [
     {
       "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB7013067090",
-      "origem": "promonocontext",
-      "link": "https://meli.la/2ay1cCW",
-      "link_produto": "https://www.mercadolivre.com.br/tenis-masculino-court-classic-clean-s-puma/up/MLBU4130437583?pdp_filters=item_id%3AMLB7013067090",
-      "post_origem": "https://t.me/promonocontext/127519",
-      "link_canal": "https://meli.la/1nDYCFJ",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_638273-MLB113292867907_062026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Tênis Masculino Court Classic Clean S Puma Preto Liso 37 Br",
-      "de": 379.0,
-      "por": 219.0,
-      "lido_ia": true,
-      "cupom": "161040TODOSITE",
-      "preco_loja": 239.99,
-      "palavra": "tenis masculino",
-      "garimpado_em": "2026-10-16T10:20-03:00",
-      "nota": 61.1,
-      "titulo": "Tênis Puma todo preto fácil de combinar",
-      "na_revisao_desde": "2026-10-16T10:41-03:00",
-      "aprovado_em": "2026-10-16T10:49-03:00"
-    },
-    {
-      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB7245332674",
       "origem": "promonocontext",
       "link": "https://meli.la/2CHk6Te",
@@ -1968,6 +1945,16 @@
       "link": "https://meli.la/2FSaXRh",
       "link_produto": "https://www.mercadolivre.com.br/fritadeira-airfryer-digital-serie-2000-xl-na23900-preto/p/MLB68717302",
       "titulo": "Airfryer espaçosa para agilizar a rotina na cozinha"
+    },
+    {
+      "chave": "mercadolivre:MLB7013067090",
+      "loja": "mercadolivre",
+      "nome": "Tênis Masculino Court Classic Clean S Puma Preto Liso 37 Br",
+      "data": "2026-10-16T14:40-03:00",
+      "link": "https://meli.la/2ay1cCW",
+      "link_produto": "https://www.mercadolivre.com.br/tenis-masculino-court-classic-clean-s-puma/up/MLBU4130437583?pdp_filters=item_id%3AMLB7013067090",
+      "titulo": "Tênis Puma todo preto fácil de combinar",
+      "slot": 14.2
     }
   ],
   "slots_usados": {
@@ -2062,7 +2049,8 @@
       13.2,
       13.3,
       14,
-      14.1
+      14.1,
+      14.2
     ]
   },
   "shopee_buscado_em": "",
@@ -6717,6 +6705,20 @@
   "ultimos": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB7013067090",
+      "origem": "promonocontext",
+      "link": "https://meli.la/2ay1cCW",
+      "link_produto": "https://www.mercadolivre.com.br/tenis-masculino-court-classic-clean-s-puma/up/MLBU4130437583?pdp_filters=item_id%3AMLB7013067090",
+      "post_origem": "https://t.me/promonocontext/127519",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_638273-MLB113292867907_062026-O.webp",
+      "nome": "Tênis Masculino Court Classic Clean S Puma Preto Liso 37 Br",
+      "de": 379.0,
+      "por": 219.0,
+      "cupom": "161040TODOSITE",
+      "titulo": "Tênis Puma todo preto fácil de combinar"
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB68717302",
       "origem": "promonocontext",
       "link": "https://meli.la/2FSaXRh",
@@ -7236,19 +7238,6 @@
       "origem": "shopee",
       "fonte": "shopee",
       "titulo": "Par de alto-falantes JBL para o som do carro"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB18725308",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/2KXnqv7",
-      "link_produto": "https://meli.la/2KXnqv7",
-      "post_origem": "https://t.me/lobaopromo/189711",
-      "foto": "AgACAgQAAxkDAAIDrGrQnhnzueF5_6XQIOMIN0PDNizkAAJaDmsbmIHtUROoHA1bKL9GAQADAgADeAADPQQ",
-      "nome": "Creatina Soldiers Nutrition em pó Sem sabor x 500g",
-      "de": 78.0,
-      "por": 44.9,
-      "titulo": "Creatina para render mais"
     }
   ],
   "lixeira": [
