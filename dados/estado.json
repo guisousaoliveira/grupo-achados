@@ -280,28 +280,6 @@
       "titulo": "Moedor elétrico para triturar grãos e temperos em casa",
       "na_revisao_desde": "2026-10-16T00:14-03:00",
       "aprovado_em": "2026-10-16T00:53-03:00"
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:1339888238.22599042883",
-      "nome": "BASIKE 2026 Carregador Portátil 20000mAh - Carregamento Rápido 22.5W Power Bank Carregador Saída dupla",
-      "por": 199.99,
-      "de": 298.49,
-      "foto": "https://cf.shopee.com.br/file/br-11134207-820m4-mst7bfnhmbd1a8",
-      "link": "https://s.shopee.com.br/2qVNriFDk9",
-      "link_produto": "https://shopee.com.br/product/1339888238/22599042883",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.9,
-      "vendas": 1978,
-      "palavra": "power bank",
-      "garimpado_em": "2026-10-16T07:20-03:00",
-      "nota": 60.6,
-      "titulo": "Power bank com carga rápida para dois aparelhos",
-      "aprovado_sozinho": true,
-      "aprovado_em": "2026-10-16T07:40-03:00"
     }
   ],
   "postados": [
@@ -6051,6 +6029,30 @@
     }
   ],
   "lixeira": [
+    {
+      "loja": "shopee",
+      "chave": "shopee:1339888238.22599042883",
+      "nome": "BASIKE 2026 Carregador Portátil 20000mAh - Carregamento Rápido 22.5W Power Bank Carregador Saída dupla",
+      "por": 199.99,
+      "de": 298.49,
+      "foto": "https://cf.shopee.com.br/file/br-11134207-820m4-mst7bfnhmbd1a8",
+      "link": "https://s.shopee.com.br/2qVNriFDk9",
+      "link_produto": "https://shopee.com.br/product/1339888238/22599042883",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.9,
+      "vendas": 1978,
+      "palavra": "power bank",
+      "garimpado_em": "2026-10-16T07:20-03:00",
+      "nota": 60.6,
+      "titulo": "Power bank com carga rápida para dois aparelhos",
+      "aprovado_sozinho": true,
+      "aprovado_em": "2026-10-16T07:40-03:00",
+      "removido_em": "2026-10-16T08:05:48-03:00",
+      "removido_de": "fila"
+    },
     {
       "loja": "amazon",
       "chave": "amazon:B08L5LZGJL",
