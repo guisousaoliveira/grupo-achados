@@ -1205,7 +1205,8 @@ def aprovar_sozinha(estado, item):
     elif not item.get("lido_ia"):
         return nao("a IA não conseguiu ler o post (fora do ar ou sem cota)")
     elif item.get("sem_preco_loja"):
-        return nao("a loja não abriu para eu conferir o preço")
+        return nao("a página da loja abriu, mas não mostra preço (esgotado ou sem vendedor principal)"
+                   if item.get("loja_abriu") else "a loja não abriu para eu conferir o preço; tento de novo a cada hora")
     elif not item.get("por"):
         return nao("não achei o preço no post")
     else:
@@ -2282,6 +2283,60 @@ def preco_bate(a, b):
     return bool(a and b) and abs(a - b) <= max(1.0, 0.03 * max(a, b))
 
 
+def conferir_preco(item, lido):
+    """Confere o preço do post com o que a loja mostra agora (lido = o que a página devolveu)."""
+    loja_por = None if lido.get("_bloqueado") else lido.get("por")
+    if not loja_por:
+        item["sem_preco_loja"] = True  # a loja não abriu ou não mostrou o preço: não deu para conferir
+        item["loja_abriu"] = bool(lido.get("nome")) and not lido.get("_bloqueado")
+        return
+    item.pop("sem_preco_loja", None)
+    item.pop("loja_abriu", None)
+    if not item.get("por"):
+        return
+    if preco_bate(item["por"], loja_por):
+        item["preco_conferido"] = True
+        item.pop("aviso_preco", None)
+    elif (item.get("cupom") or item.get("pix")) and loja_por * 0.7 <= item["por"] < loja_por:
+        # A página mostra o preço sem o cupom (ou sem o desconto do Pix): até 30% de diferença é o cupom.
+        item["preco_conferido"] = item["preco_cupom"] = True
+        item["preco_sem_cupom"] = loja_por
+        item.pop("aviso_preco", None)
+    else:
+        item["preco_loja"] = loja_por
+
+
+def reconferir_revisar(estado):
+    """A loja às vezes bloqueia o robô só por um tempo: tenta de novo conferir o preço dos itens do Revisar
+    que ficaram sem conferência (até 4 por rodada, cada um no máximo 1 vez por hora). Se bater, aprova sozinho."""
+    feitos = 0
+    for item in list(estado.get("revisar", [])):
+        if (feitos >= 4 or not item.get("sem_preco_loja") or item.get("loja") not in ("amazon", "mercadolivre")
+                or not item.get("lido_ia")):
+            continue
+        ultima = item.get("reconferido_em")
+        if ultima and agora() - datetime.fromisoformat(ultima) < timedelta(hours=1):
+            continue
+        feitos += 1
+        item["reconferido_em"] = agora().isoformat(timespec="minutes")
+        link = item["link"] if item.get("link", "").startswith("https://meli.la/") else item.get("link_produto")
+        try:
+            lido = ler_pagina(link)
+        except Exception:
+            lido = {}
+        conferir_preco(item, lido)
+        if item.get("sem_preco_loja"):
+            continue
+        if lido.get("foto") and item.get("foto_origem") != "loja":
+            item["foto"], item["foto_origem"] = lido["foto"], "loja"
+        log(f"Reconferi {item.get('nome', '')[:50]}: a loja mostra {reais(lido['por'])}.")
+        antigo = item["id"]
+        estado["revisar"] = [x for x in estado["revisar"] if x is not item]
+        if not aprovar_sozinha(estado, item):
+            item["id"] = antigo
+            estado["revisar"].append(item)
+
+
 def oferta_do_post(post, canal, usadas=()):
     """Monta a oferta a partir do post. None se não for do nicho ou não tiver link de loja.
     Produto que já está na fila/Revisar/peneira (`usadas`) volta cru, sem gastar IA nem ler a loja."""
@@ -2381,20 +2436,7 @@ def oferta_do_post(post, canal, usadas=()):
     c = re.search(r"cupom\s*[:\-]?\s*([A-Z0-9]{4,20})\b", texto, re.I)
     if c and not c.group(1).isdigit() and not item.get("cupom"):
         item["cupom"] = c.group(1).upper()
-    loja_por = None if lido.get("_bloqueado") else lido.get("por")
-    if not loja_por:
-        item["sem_preco_loja"] = True  # a loja não abriu ou não mostrou o preço: não deu para conferir
-    if loja_por and item.get("por"):  # confere o preço do post com o que a loja mostra agora
-        if preco_bate(item["por"], loja_por):
-            item["preco_conferido"] = True
-            item.pop("aviso_preco", None)
-        elif (item.get("cupom") or item.get("pix")) and loja_por * 0.7 <= item["por"] < loja_por:
-            # A página mostra o preço sem o cupom (ou sem o desconto do Pix): até 30% de diferença é o cupom.
-            item["preco_conferido"] = item["preco_cupom"] = True
-            item["preco_sem_cupom"] = loja_por
-            item.pop("aviso_preco", None)
-        else:
-            item["preco_loja"] = loja_por
+    conferir_preco(item, lido)
     if not item.get("nome"):  # último recurso: nome pelo endereço do produto
         slug = re.search(r"\.com\.br/([^/?#]+?)(?:/(?:dp|p)/|-_JM|$)", item["link_produto"])
         if slug and not slug.group(1).startswith(("dp", "MLB")):
@@ -2860,11 +2902,6 @@ def cmd_foto_teste(links):
         log("title: " + (t.group(1).strip()[:120] if t else "(nenhum)"))
         m = re.search(r'<meta[^>]+property="og:image"[^>]+content="([^"]+)"', pagina)
         log("og:image: " + (m.group(1) if m else "(nenhum)"))
-        if os.environ.get("DIAG_PRECO"):  # mostra os trechos de preço da página (para ajustar a leitura)
-            tt = re.search(r'<meta[^>]+property="og:title"[^>]+content="([^"]+)"', pagina)
-            log("og:title: " + (tt.group(1) if tt else "(nenhum)"))
-            for mm in list(re.finditer(r'priceToPay|a-price-whole|corePrice|apex_|outOfStock|availability', pagina))[:8]:
-                log("trecho: " + re.sub(r"\s+", " ", pagina[max(0, mm.start() - 300):mm.start() + 300]))
         log("ler_pagina: " + json.dumps(ler_pagina(link), ensure_ascii=False)[:400])
         log("produto_do_link: " + json.dumps(produto_do_link(link), ensure_ascii=False)[:500])
         a = re.search(r"/dp/([A-Z0-9]{10})", link)
@@ -2940,6 +2977,11 @@ def ciclo(estado):
         encurtar_fila_ml(estado)
     except Exception as e:
         log(f"Erro gerando meli.la: {e}")
+    if not os.environ.get("RENDER"):
+        try:
+            reconferir_revisar(estado)
+        except Exception as e:
+            log(f"Erro reconferindo o Revisar: {e}")
     try:
         postar_se_for_hora(estado)
     except Exception as e:
