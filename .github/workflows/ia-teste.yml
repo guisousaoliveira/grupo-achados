@@ -1,0 +1,17 @@
+name: ia-teste
+
+# Compara a leitura dos posts dos canais no modelo das chamadas e no Flash-Lite (mais barato). Não salva nada.
+on:
+  workflow_dispatch:
+
+jobs:
+  testar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - name: Comparar os modelos
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_LEGIAO_KEY: ${{ secrets.GEMINI_LEGIAO_KEY }}
+        run: python3 bot.py ia-teste
