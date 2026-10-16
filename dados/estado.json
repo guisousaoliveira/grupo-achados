@@ -1693,22 +1693,22 @@
   "proximo_id": 632,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 85097,
-      "lobaopromo": 190105,
-      "gatunopromos": 125624,
-      "pobregram": 41982,
-      "urubupromo": 41746,
+      "xetdaspromocoes": 85099,
+      "lobaopromo": 190108,
+      "gatunopromos": 125626,
+      "pobregram": 41983,
+      "urubupromo": 41747,
       "tudonapromo": 102064,
-      "promonocontext": 127375,
-      "promooeasy": 222482,
+      "promonocontext": 127379,
+      "promooeasy": 222483,
       "aquitempechincha": 281996,
-      "infoBRpromos": 67659,
+      "infoBRpromos": 67660,
       "boletando": 76808,
       "promotop": 260343,
       "achadosdotb": 11778
     },
     "dia": "2026-10-15",
-    "hoje": 155,
+    "hoje": 156,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -3684,30 +3684,31 @@
       "amazon:B08L5LZGJL",
       "shopee:1060688258.23593418910",
       "mercadolivre:MLB5060820475",
-      "mercadolivre:MLB23579680"
+      "mercadolivre:MLB23579680",
+      "mercadolivre:MLB39089853"
     ],
     "ultima": {
-      "em": "2026-10-15T22:10:21-03:00",
+      "em": "2026-10-15T22:20:19-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 12,
-      "do_nicho": 3,
-      "repetidas": 1,
-      "novas": 2,
+      "posts_novos": 25,
+      "do_nicho": 6,
+      "repetidas": 5,
+      "novas": 1,
       "limite_dia": false,
       "repetidas_nome": 0,
       "promobit": 0,
       "soltas": 0,
-      "na_peneira": 30
+      "na_peneira": 31
     },
     "hora": "2026-10-15T22",
-    "nesta_hora": 2,
+    "nesta_hora": 3,
     "promobit_hora": "2026-10-15T22",
     "promobit_nesta_hora": 0,
-    "promobit_visto": 3117718,
+    "promobit_visto": 3117735,
     "nomes": [
       [
         [
@@ -5793,12 +5794,28 @@
         "palavra": "fritadeira",
         "garimpado_em": "2026-10-15T22:10-03:00",
         "nota": 64.3
+      },
+      {
+        "loja": "mercadolivre",
+        "chave": "mercadolivre:MLB39089853",
+        "origem": "lobaopromo",
+        "link": "https://www.mercadolivre.com.br/creatina-dark-lab-premium-pure-em-po-sem-sabor-x-600g/p/MLB39089853?matt_word=alphapromo&matt_tool=59136903",
+        "link_produto": "https://www.mercadolivre.com.br/creatina-dark-lab-premium-pure-em-po-sem-sabor-x-600g/p/MLB39089853",
+        "post_origem": "https://t.me/lobaopromo/190106",
+        "link_canal": "https://meli.la/2Rqtaii",
+        "foto": "https://http2.mlstatic.com/D_NQ_NP_696527-MLA114943760844_082026-O.webp",
+        "foto_origem": "loja",
+        "nome": "Creatina Dark Lab Premium Pure em pó Sem sabor x 600g",
+        "por": 39.92,
+        "palavra": "creatina",
+        "garimpado_em": "2026-10-15T22:20-03:00",
+        "nota": 49.2
       }
     ],
     "soltas_hora": "2026-10-15T22",
     "soltas": 0,
-    "shopee_em": "2026-10-15T22:06-03:00",
-    "shopee_indice": 32,
+    "shopee_em": "2026-10-15T22:20-03:00",
+    "shopee_indice": 40,
     "soltas_dia_data": "2026-10-15",
     "soltas_dia": 60,
     "soltas_loja": {}
