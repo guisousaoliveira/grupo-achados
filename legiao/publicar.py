@@ -1,10 +1,12 @@
-"""Íris: lê os botões ✅/❌ que você aperta no bot da Legião e, no horário, posta o carrossel aprovado
+"""Íris: lê os botões ✅/❌ que você aperta no bot da Legião e, no horário, posta o carrossel ou o Reel aprovado
 no Instagram e na Página do Facebook (API oficial da Meta). Roda a cada rodada do bot-achados, sem Claude.
 
-Os posts ficam na branch legiao-posts em posts/AAAA-MM-DD/ (imagens, post.json, status.json)."""
+Os posts ficam na branch legiao-posts em posts/AAAA-MM-DD/ (carrossel) e posts/AAAA-MM-DD-reel/ (Reel),
+cada um com post.json e status.json."""
 import base64
 import json
 import os
+import sys
 import time
 import urllib.error
 import urllib.parse
@@ -106,15 +108,15 @@ def meta(caminho, **params):
                 {"Content-Type": "application/x-www-form-urlencoded"})
 
 
-def esperar_pronto(container):
-    for _ in range(30):
+def esperar_pronto(container, tentativas=30):
+    for _ in range(tentativas):
         r = http(f"{GRAPH}/{container}?fields=status_code&access_token={os.environ['META_PAGE_TOKEN']}")
         if r.get("status_code") in ("FINISHED", None):
             return
         if r.get("status_code") == "ERROR":
             raise RuntimeError(f"O Instagram recusou a mídia {container}.")
         time.sleep(5)
-    raise RuntimeError("O Instagram demorou demais pra processar as imagens.")
+    raise RuntimeError("O Instagram demorou demais pra processar a mídia.")
 
 
 def postar_instagram(urls, legenda):
@@ -138,29 +140,71 @@ def postar_facebook(urls, legenda):
     return meta(f"{pagina}/feed", **params)["id"]
 
 
-def publicar(dia, status, sha):
-    post = ler_post(dia)
-    base = f"https://raw.githubusercontent.com/{REPO}/{BRANCH}/posts/{dia}"
-    urls = [f"{base}/{i + 1:02d}.jpg" for i in range(len(post["slides"]))]
+def enviar_video(url_upload, video):
+    """Upload direto do arquivo (rupload da Meta), sem depender de link público do vídeo."""
+    return http(url_upload, video, {"Authorization": f"OAuth {os.environ['META_PAGE_TOKEN']}", "offset": "0",
+                                    "file_size": str(len(video)), "Content-Type": "application/octet-stream"})
+
+
+def postar_reel_instagram(video, legenda):
+    ig = os.environ["IG_USER_ID"]
+    container = meta(f"{ig}/media", media_type="REELS", upload_type="resumable", caption=legenda, share_to_feed="true")
+    enviar_video(container.get("uri") or f"https://rupload.facebook.com/ig-api-upload/v26.0/{container['id']}", video)
+    esperar_pronto(container["id"], tentativas=60)
+    publicado = meta(f"{ig}/media_publish", creation_id=container["id"])["id"]
+    link = http(f"{GRAPH}/{publicado}?fields=permalink&access_token={os.environ['META_PAGE_TOKEN']}").get("permalink", "")
+    return publicado, link
+
+
+def postar_reel_facebook(video, legenda):
+    pagina = os.environ["META_PAGE_ID"]
+    inicio = meta(f"{pagina}/video_reels", upload_phase="start")
+    enviar_video(inicio["upload_url"], video)
+    meta(f"{pagina}/video_reels", upload_phase="finish", video_id=inicio["video_id"], video_state="PUBLISHED",
+         description=legenda)
+    return inicio["video_id"]
+
+
+def publicar(pasta, status, sha):
+    post = ler_post(pasta)
+    base = f"https://raw.githubusercontent.com/{REPO}/{BRANCH}/posts/{pasta}"
+    reel = status.get("tipo") == "reel"
+    if reel:
+        with urllib.request.urlopen(f"{base}/reel.mp4", timeout=120) as r:
+            midia = r.read()
+        ig, fb, nome = postar_reel_instagram, postar_reel_facebook, "Reel"
+    else:
+        midia = [f"{base}/{i + 1:02d}.jpg" for i in range(len(post["slides"]))]
+        ig, fb, nome = postar_instagram, postar_facebook, "Carrossel"
     status["status"] = "publicando"
-    gravar_status(dia, status, sha)
-    _, sha = ler_status(dia)
+    gravar_status(pasta, status, sha)
+    _, sha = ler_status(pasta)
     linhas = []
     try:
-        ig_id, link = postar_instagram(urls, post["legenda"])
+        ig_id, link = ig(midia, post["legenda"])
         status["instagram"] = ig_id
         linhas.append(f"✅ Instagram: {link or 'postado'}")
     except Exception as erro:
         linhas.append(f"⚠️ Instagram falhou: {str(erro)[:400]}")
     if os.environ.get("META_PAGE_ID"):
         try:
-            status["facebook"] = postar_facebook(urls, post["legenda"])
+            status["facebook"] = fb(midia, post["legenda"])
             linhas.append("✅ Facebook: postado na Página")
         except Exception as erro:
             linhas.append(f"⚠️ Facebook falhou: {str(erro)[:400]}")
     status["status"] = "publicado" if status.get("instagram") or status.get("facebook") else "erro"
-    gravar_status(dia, status, sha)
-    avisar(f"🦁 Carrossel de {dia}: \"{post.get('tema', '')}\"\n\n" + "\n".join(linhas))
+    gravar_status(pasta, status, sha)
+    avisar(f"🦁 {nome} de {status.get('dia', pasta)}: \"{post.get('tema', '')}\"\n\n" + "\n".join(linhas))
+
+
+def checar():
+    """Só confere se o token da Meta enxerga o Instagram e a Página (não posta nada)."""
+    token = os.environ["META_PAGE_TOKEN"]
+    ig = http(f"{GRAPH}/{os.environ['IG_USER_ID']}?fields=username&access_token={token}")
+    print("Instagram OK:", ig.get("username"))
+    if os.environ.get("META_PAGE_ID"):
+        pg = http(f"{GRAPH}/{os.environ['META_PAGE_ID']}?fields=name&access_token={token}")
+        print("Página OK:", pg.get("name"))
 
 
 def main():
@@ -171,13 +215,14 @@ def main():
         return
     agora = datetime.now(BRT)
     for dia in (agora.strftime("%Y-%m-%d"), (agora - timedelta(days=1)).strftime("%Y-%m-%d")):
-        status, sha = ler_status(dia)
-        if not status or status["status"] != "aprovado":
-            continue
-        hora_post = datetime.strptime(dia, "%Y-%m-%d").replace(hour=int(status.get("horario", 18)), tzinfo=BRT)
-        if agora >= hora_post:
-            publicar(dia, status, sha)
+        for pasta in (dia, f"{dia}-reel"):
+            status, sha = ler_status(pasta)
+            if not status or status["status"] != "aprovado":
+                continue
+            hora_post = datetime.strptime(dia, "%Y-%m-%d").replace(hour=int(status.get("horario", 18)), tzinfo=BRT)
+            if agora >= hora_post:
+                publicar(pasta, status, sha)
 
 
 if __name__ == "__main__":
-    main()
+    checar() if "--checar" in sys.argv else main()
