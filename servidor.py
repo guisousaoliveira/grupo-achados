@@ -8,6 +8,7 @@ No Render:
   Start command:  python3 servidor.py
   Variáveis:      TELEGRAM_TOKEN, TELEGRAM_CHANNEL, ADMIN_ID, GITHUB_TOKEN, GITHUB_REPO
                   PAINEL_SENHA (senha do painel em /painel)
+                  LEGIAO_TELEGRAM_TOKEN, LEGIAO_CHAT_ID (botões da Legião na hora)
                   (e SHOPEE_APP_ID, SHOPEE_SECRET, GEMINI_API_KEY quando tiver)
 """
 
@@ -15,6 +16,7 @@ import hashlib
 import json
 import os
 import time
+import urllib.request
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
 import bot
@@ -30,6 +32,8 @@ INTERVALO_TICK = 4 * 60
 _ultimo_tick = [0.0]
 
 SEGREDO = hashlib.sha256(("webhook" + bot.segredo("TELEGRAM_TOKEN")).encode()).hexdigest()[:32]
+# Bot da Legião Alpha: botões ✅/❌ e o motivo da recusa, tratados na hora (legiao/publicar.py)
+SEGREDO_LEGIAO = hashlib.sha256(("legiao" + bot.segredo("LEGIAO_TELEGRAM_TOKEN")).encode()).hexdigest()[:32]
 
 
 class Atendente(BaseHTTPRequestHandler):
@@ -69,6 +73,20 @@ class Atendente(BaseHTTPRequestHandler):
             except Exception as e:
                 bot.log(f"Painel: erro em {self.path[:60]}: {e}")
             return
+        if self.path == "/legiao" and bot.segredo("LEGIAO_TELEGRAM_TOKEN") \
+                and self.headers.get("X-Telegram-Bot-Api-Secret-Token") == SEGREDO_LEGIAO:
+            tamanho = int(self.headers.get("Content-Length") or 0)
+            try:
+                update = json.loads(self.rfile.read(tamanho) or b"{}")
+            except ValueError:
+                update = {}
+            self._responder(200)
+            try:
+                from legiao import publicar
+                publicar.tratar_update(update)
+            except Exception as e:
+                bot.log(f"Legião: erro tratando clique/mensagem: {e}")
+            return
         if self.path != "/telegram" or self.headers.get("X-Telegram-Bot-Api-Secret-Token") != SEGREDO:
             self._responder(403, "nao")
             return
@@ -98,6 +116,18 @@ def ligar_webhook():
     bot.telegram("setWebhook", url=base.rstrip("/") + "/telegram", secret_token=SEGREDO,
                  allowed_updates=["message", "callback_query"])
     bot.log(f"Webhook ligado em {base}/telegram. Agora o bot responde na hora.")
+    token_legiao = bot.segredo("LEGIAO_TELEGRAM_TOKEN")
+    if token_legiao:
+        try:
+            req = urllib.request.Request(
+                f"https://api.telegram.org/bot{token_legiao}/setWebhook",
+                json.dumps({"url": base.rstrip("/") + "/legiao", "secret_token": SEGREDO_LEGIAO,
+                            "allowed_updates": ["message", "callback_query"]}).encode(),
+                {"Content-Type": "application/json"})
+            urllib.request.urlopen(req, timeout=20).close()
+            bot.log("Webhook da Legião ligado: os botões ✅/❌ respondem na hora.")
+        except Exception as e:
+            bot.log(f"Não consegui ligar o webhook da Legião: {e}")
 
 
 if __name__ == "__main__":
