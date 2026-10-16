@@ -47,3 +47,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 mimir/gatilho.py
+      - name: Disparar a Legião Alpha (carrossel do dia)
+        if: always()
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 legiao/gatilho.py

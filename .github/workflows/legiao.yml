@@ -1,0 +1,53 @@
+name: legiao
+
+# Legião Alpha: cria, revisa e desenha o carrossel do dia da Alpha Dominus e manda a prévia no Telegram.
+# Quem dispara é o bot-achados (legiao/gatilho.py, horário em legiao/config.json). Também dá pra rodar na mão.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: legiao
+  cancel-in-progress: false
+
+jobs:
+  carrossel:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - name: Instalar o Claude Code e o Pillow
+        run: |
+          npm install -g @anthropic-ai/claude-code
+          pip install pillow
+      - name: Lembrar os temas já postados
+        uses: actions/cache/restore@v4
+        with:
+          path: legiao/historico.json
+          key: legiao-${{ github.run_id }}
+          restore-keys: legiao-
+      - name: Odin, Bragi, Atena e Hefesto
+        working-directory: legiao
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          ADMIN_ID: ${{ secrets.ADMIN_ID }}
+        run: python3 rodar.py
+      - name: Guardar os temas
+        if: success()
+        uses: actions/cache/save@v4
+        with:
+          path: legiao/historico.json
+          key: legiao-${{ github.run_id }}
+      - name: Guardar o carrossel
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: carrossel
+          path: legiao/saida/
+          if-no-files-found: ignore
