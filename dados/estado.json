@@ -236,6 +236,29 @@
       "titulo": "Cuecas boxer sem costura que não incomodam",
       "na_revisao_desde": "2026-10-16T09:42-03:00",
       "aprovado_em": "2026-10-16T09:43-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB77830516",
+      "origem": "promonocontext",
+      "link": "https://meli.la/2E81dt9",
+      "link_produto": "https://meli.la/2E81dt9",
+      "post_origem": "https://t.me/promonocontext/127475",
+      "link_canal": "https://meli.la/1WxNRZc",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_643754-MLA116489365617_082026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Bicicleta Ergométrica Spinning Com Volante e Display LCD Guidão",
+      "de": 1099.0,
+      "por": 360.0,
+      "lido_ia": true,
+      "cupom": "161040TODOSITE",
+      "preco_loja": 398.99,
+      "palavra": "bicicleta ergometrica",
+      "garimpado_em": "2026-10-16T09:41-03:00",
+      "nota": 77.4,
+      "titulo": "Spinning para manter o cardio em dia",
+      "na_revisao_desde": "2026-10-16T09:42-03:00",
+      "aprovado_em": "2026-10-16T09:44-03:00"
     }
   ],
   "postados": [
@@ -1789,32 +1812,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB77830516",
-      "origem": "promonocontext",
-      "link": "https://www.mercadolivre.com.br/bicicleta-ergometrica-spinning-com-volante-e-display-lcd-guidao-ajustave/p/MLB77830516?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/bicicleta-ergometrica-spinning-com-volante-e-display-lcd-guidao-ajustave/p/MLB77830516",
-      "post_origem": "https://t.me/promonocontext/127475",
-      "link_canal": "https://meli.la/1WxNRZc",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_643754-MLA116489365617_082026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Bicicleta Ergométrica Spinning Com Volante e Display LCD Guidão",
-      "de": 1099.0,
-      "por": 360.0,
-      "lido_ia": true,
-      "cupom": "161040TODOSITE",
-      "preco_loja": 398.99,
-      "palavra": "bicicleta ergometrica",
-      "garimpado_em": "2026-10-16T09:41-03:00",
-      "nota": 77.4,
-      "titulo": "Spinning para manter o cardio em dia",
-      "id": 646,
-      "na_revisao_desde": "2026-10-16T09:42-03:00",
-      "msg_id": 1105
-    }
-  ],
+  "revisar": [],
   "proximo_id": 648,
   "radar": {
     "visto": {
@@ -6909,7 +6907,7 @@
       },
       "promonocontext": {
         "achados": 2,
-        "aprovados": 0,
+        "aprovados": 1,
         "reprovados": 1
       },
       "lobaopromo": {
@@ -6973,7 +6971,7 @@
     },
     "bicicleta ergometrica": {
       "achados": 2,
-      "aprovados": 0,
+      "aprovados": 1,
       "reprovados": 1
     },
     "bone": {
