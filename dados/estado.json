@@ -337,31 +337,6 @@
       "aprovado_em": "2026-10-16T16:00-03:00"
     },
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB69665003",
-      "origem": "promonocontext",
-      "link": "https://meli.la/1aFKrxa",
-      "link_produto": "https://www.mercadolivre.com.br/maquina-de-corte-acabamento-profissional-com-aparador-de-nariz-cabelo-pelo-barbear-maquininha-detalhes-sem-fio-preto-catalogo/p/MLB69665003",
-      "post_origem": "https://t.me/promonocontext/127680",
-      "link_canal": "https://meli.la/1GPwX2T",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_904181-MLA110739785462_052026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Máquina De Corte Acabamento Profissional Com Aparador De Nariz Cabelo",
-      "de": 129.0,
-      "por": 57.0,
-      "lido_ia": true,
-      "cupom": "ATIVE",
-      "preco_conferido": true,
-      "preco_cupom": true,
-      "preco_sem_cupom": 59.35,
-      "palavra": "aparador",
-      "garimpado_em": "2026-10-16T15:11-03:00",
-      "nota": 68.7,
-      "titulo": "Máquina para cabelo e barba com aparador nasal",
-      "aprovado_sozinho": true,
-      "aprovado_em": "2026-10-16T15:22-03:00"
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B0HCRDWF9C",
       "origem": "promooeasy",
@@ -2085,6 +2060,15 @@
       "link": "https://meli.la/2DqDMRn",
       "link_produto": "https://produto.mercadolivre.com.br/MLB-5226420562-oculos-de-sol-uv400-original-acetato-unissex-premium-case-_JM?pdp_filters=item_id%3AMLB5226420562",
       "titulo": "Proteção solar UV400 com armação em acetato"
+    },
+    {
+      "chave": "mercadolivre:MLB69665003",
+      "loja": "mercadolivre",
+      "nome": "Máquina De Corte Acabamento Profissional Com Aparador De Nariz Cabelo",
+      "data": "2026-10-16T16:02-03:00",
+      "link": "https://meli.la/1aFKrxa",
+      "link_produto": "https://www.mercadolivre.com.br/maquina-de-corte-acabamento-profissional-com-aparador-de-nariz-cabelo-pelo-barbear-maquininha-detalhes-sem-fio-preto-catalogo/p/MLB69665003",
+      "titulo": "Máquina para cabelo e barba com aparador nasal"
     }
   ],
   "slots_usados": {
@@ -6723,6 +6707,20 @@
   "ultimos": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB69665003",
+      "origem": "promonocontext",
+      "link": "https://meli.la/1aFKrxa",
+      "link_produto": "https://www.mercadolivre.com.br/maquina-de-corte-acabamento-profissional-com-aparador-de-nariz-cabelo-pelo-barbear-maquininha-detalhes-sem-fio-preto-catalogo/p/MLB69665003",
+      "post_origem": "https://t.me/promonocontext/127680",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_904181-MLA110739785462_052026-O.webp",
+      "nome": "Máquina De Corte Acabamento Profissional Com Aparador De Nariz Cabelo",
+      "de": 129.0,
+      "por": 57.0,
+      "cupom": "ATIVE O CUPOM NA PAGINA",
+      "titulo": "Máquina para cabelo e barba com aparador nasal"
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB5226420562",
       "origem": "xetdaspromocoes",
       "link": "https://meli.la/2DqDMRn",
@@ -7243,19 +7241,6 @@
       "de": 106.26,
       "por": 92.1,
       "titulo": "Power bank de alta capacidade para carregar o celular"
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:295737745.23307273588",
-      "nome": "Aparador E Cortador Pelos Cabelo Barba 10 Em 1 Profissional Mondial Bg03",
-      "por": 125.99,
-      "de": 174.99,
-      "foto": "https://cf.shopee.com.br/file/sg-11134201-22110-3oljmkpw29jv74",
-      "link": "https://s.shopee.com.br/8AWsjXjyR6",
-      "link_produto": "https://shopee.com.br/product/295737745/23307273588",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "titulo": "Aparador dez em um para cabelo e barba"
     }
   ],
   "lixeira": [
