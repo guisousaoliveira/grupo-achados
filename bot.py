@@ -542,7 +542,9 @@ def extrair_da_pagina(pagina, loja):
         # e o preço dele vem num bloco JSON logo depois do nome (os outros blocos são recomendações).
         titulo = meta("og:title")
         if titulo:
-            for pos in [mm.start() for mm in re.finditer(re.escape(json.dumps(titulo, ensure_ascii=False)[1:-1]), pagina)]:
+            no_json = json.dumps(titulo, ensure_ascii=False)[1:-1]
+            formas = {no_json, no_json.replace("/", "\\u002F")}  # a vitrine escreve "/" como \u002F no JSON
+            for pos in [mm.start() for f in formas for mm in re.finditer(re.escape(f), pagina)]:
                 trecho = pagina[pos:pos + 3000]
                 atual = re.search(r'"current_price":\{"value":([\d.]+)', trecho)
                 if atual:
@@ -2861,7 +2863,7 @@ def cmd_foto_teste(links):
         if os.environ.get("DIAG_PRECO"):  # mostra os trechos de preço da página (para ajustar a leitura)
             tt = re.search(r'<meta[^>]+property="og:title"[^>]+content="([^"]+)"', pagina)
             log("og:title: " + (tt.group(1) if tt else "(nenhum)"))
-            for mm in list(re.finditer(r'current_price|price_to_pay|"price":\{|andes-money-amount__fraction', pagina))[:6]:
+            for mm in list(re.finditer(r'priceToPay|a-price-whole|corePrice|apex_|outOfStock|availability', pagina))[:8]:
                 log("trecho: " + re.sub(r"\s+", " ", pagina[max(0, mm.start() - 300):mm.start() + 300]))
         log("ler_pagina: " + json.dumps(ler_pagina(link), ensure_ascii=False)[:400])
         log("produto_do_link: " + json.dumps(produto_do_link(link), ensure_ascii=False)[:500])
