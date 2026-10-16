@@ -151,7 +151,8 @@
       "nota": 87.5,
       "titulo": "Luva antiderrapante para proteger as mãos no treino",
       "na_revisao_desde": "2026-10-15T13:41-03:00",
-      "aprovado_em": "2026-10-15T19:24-03:00"
+      "aprovado_em": "2026-10-15T19:24-03:00",
+      "aviso_validade": true
     },
     {
       "loja": "mercadolivre",
@@ -1762,14 +1763,14 @@
   "radar": {
     "visto": {
       "xetdaspromocoes": 85103,
-      "lobaopromo": 190197,
-      "gatunopromos": 125664,
+      "lobaopromo": 190198,
+      "gatunopromos": 125665,
       "pobregram": 41992,
       "urubupromo": 41750,
       "tudonapromo": 102064,
       "promonocontext": 127387,
       "promooeasy": 222576,
-      "aquitempechincha": 282000,
+      "aquitempechincha": 282005,
       "infoBRpromos": 67665,
       "boletando": 76808,
       "promotop": 260346,
@@ -3776,28 +3777,29 @@
       "shopee:1339888238.22599042883"
     ],
     "ultima": {
-      "em": "2026-10-16T07:20:19-03:00",
+      "em": "2026-10-16T07:30:26-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
-      "lidos": 14,
-      "falhas": [],
-      "posts_novos": 10,
+      "lidos": 13,
+      "falhas": [
+        "boletando"
+      ],
+      "posts_novos": 15,
       "do_nicho": 1,
-      "repetidas": 0,
+      "repetidas": 1,
       "novas": 0,
       "limite_dia": false,
       "repetidas_nome": 0,
-      "fora_do_nicho": 1,
       "promobit": 0,
       "soltas": 0,
-      "na_peneira": 0
+      "na_peneira": 1
     },
     "hora": "2026-10-16T07",
     "nesta_hora": 0,
     "promobit_hora": "2026-10-16T07",
     "promobit_nesta_hora": 1,
-    "promobit_visto": 3118068,
+    "promobit_visto": 3118076,
     "nomes": [
       [
         [
