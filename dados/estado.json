@@ -277,6 +277,26 @@
       "titulo": "Luva antiderrapante para proteger as mãos no treino",
       "na_revisao_desde": "2026-10-15T13:41-03:00",
       "aprovado_em": "2026-10-15T19:24-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB25371983",
+      "origem": "promonocontext",
+      "link": "https://meli.la/2HT6MGa",
+      "link_produto": "https://meli.la/2HT6MGa",
+      "post_origem": "https://t.me/promonocontext/127113",
+      "link_canal": "https://meli.la/1cMkdJ4",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_681126-MLA115545993062_082026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Lavadora de Alta Pressão Kärcher Compacta 1.500 PSI/Libras 1400W",
+      "de": 700.0,
+      "por": 299.0,
+      "palavra": "lavadora de alta pressao",
+      "garimpado_em": "2026-10-15T13:20-03:00",
+      "nota": 75.6,
+      "titulo": "Lavadora de alta pressão para limpeza de quintal e garagem",
+      "na_revisao_desde": "2026-10-15T13:41-03:00",
+      "aprovado_em": "2026-10-15T21:30-03:00"
     }
   ],
   "postados": [
@@ -2038,28 +2058,6 @@
       "id": 610,
       "na_revisao_desde": "2026-10-15T13:41-03:00",
       "msg_id": 993
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB25371983",
-      "origem": "promonocontext",
-      "link": "https://www.mercadolivre.com.br/lavadora-de-alta-pressao-krcher-compacta-1500-psilibras-1400w-300lh-com-aplicador-de-detergente-e-lanca-regulavel-220v/p/MLB25371983?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/lavadora-de-alta-pressao-krcher-compacta-1500-psilibras-1400w-300lh-com-aplicador-de-detergente-e-lanca-regulavel-220v/p/MLB25371983",
-      "post_origem": "https://t.me/promonocontext/127113",
-      "link_canal": "https://meli.la/1cMkdJ4",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_681126-MLA115545993062_082026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Lavadora de Alta Pressão Kärcher Compacta 1.500 PSI/Libras 1400W",
-      "de": 700.0,
-      "por": 279.0,
-      "cupom": "FULL1510",
-      "palavra": "lavadora de alta pressao",
-      "garimpado_em": "2026-10-15T13:20-03:00",
-      "nota": 75.6,
-      "titulo": "Lavadora de alta pressão para limpeza de quintal e garagem",
-      "id": 611,
-      "na_revisao_desde": "2026-10-15T13:41-03:00",
-      "msg_id": 994
     }
   ],
   "proximo_id": 630,
@@ -6756,7 +6754,7 @@
       },
       "promonocontext": {
         "achados": 5,
-        "aprovados": 0,
+        "aprovados": 1,
         "reprovados": 1
       }
     }
@@ -7060,7 +7058,7 @@
     },
     "lavadora de alta pressao": {
       "achados": 2,
-      "aprovados": 0,
+      "aprovados": 1,
       "reprovados": 0
     },
     "tenis de corrida": {
