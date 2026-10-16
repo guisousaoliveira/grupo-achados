@@ -1094,6 +1094,7 @@ def aprovar(estado, item):
     limpo["aprovado_em"] = agora().isoformat(timespec="minutes")
     pos = posicao_na_fila(estado["fila"], limpo.get("loja"))
     estado["fila"].insert(pos, limpo)
+    contar_entrada(estado)
     return f"✅ Aprovada. Posição {pos + 1} na fila."
 
 
@@ -1810,7 +1811,40 @@ def agenda_do_dia(data_iso):
     return agenda
 
 
-def ritmo_minutos(n_fila, dt):
+def contar_entrada(estado, dt=None):
+    """Quantas ofertas entraram na fila em cada hora (últimos 7 dias): o ritmo usa para prever o resto do dia."""
+    dt = dt or agora()
+    ent = estado.setdefault("entradas", {})
+    dia = ent.setdefault(dt.date().isoformat(), {})
+    dia[str(dt.hour)] = dia.get(str(dt.hour), 0) + 1
+    for d in sorted(ent)[:-7]:
+        ent.pop(d)
+
+
+def chegadas_previstas(estado, dt):
+    """Quantas ofertas ainda devem entrar na fila hoje, pela média dos últimos 3 dias depois desta hora.
+    Sem esse histórico ainda, usa quantos posts saíram depois desta hora nos dias anteriores.
+    Conta só uma parte (fator_chegadas), para não esticar demais e sobrar fila se o dia vier fraco."""
+    if not estado:
+        return 0
+    hoje = dt.date().isoformat()
+    ent = {d: v for d, v in estado.get("entradas", {}).items() if d < hoje}
+    dias = sorted(ent)[-3:]
+    if dias:
+        totais = [sum(n for h, n in ent[d].items() if int(h) > dt.hour) for d in dias]
+    else:
+        por_dia = {}
+        for p in estado.get("postados", []):
+            d = p.get("data", "")[:10]
+            if d < hoje and int(p["data"][11:13]) > dt.hour:
+                por_dia[d] = por_dia.get(d, 0) + 1
+        totais = [por_dia[d] for d in sorted(por_dia)[-3:]]
+    if not totais:
+        return 0
+    return sum(totais) / len(totais) * CONFIG.get("ritmo", {}).get("fator_chegadas", 0.6)
+
+
+def ritmo_minutos(n_fila, dt, estado=None):
     """Ritmo automático: de quantos em quantos minutos postar para a fila acabar até o fim do dia.
     Fila grande: posta mais seguido (até `min_minutos`); fila pequena: espaça (até `max_minutos`).
     Nas horas de pico o intervalo encurta um pouco. 0 = ritmo automático desligado (usa só os horários)."""
@@ -1824,15 +1858,15 @@ def ritmo_minutos(n_fila, dt):
     restam = (fim - max(dt, inicio)).total_seconds() / 60
     if n_fila <= 0 or restam <= 0:
         return maior
-    alvo = restam / n_fila
+    alvo = restam / (n_fila + chegadas_previstas(estado, dt))  # conta o que ainda vai chegar hoje
     if max(dt, inicio).hour in cfg.get("pico", []):
         alvo *= cfg.get("fator_pico", 0.75)
     return max(menor, min(maior, alvo))
 
 
-def _espera_ritmo(n_fila, dt):
+def _espera_ritmo(n_fila, dt, estado=None):
     """Quanto esperar depois do último post: o ritmo menos uma folga (os minutos dos horários são sorteados)."""
-    r = ritmo_minutos(n_fila, dt)
+    r = ritmo_minutos(n_fila, dt, estado)
     return timedelta(minutes=max(intervalo_minimo(), r - CONFIG.get("ritmo", {}).get("folga_minutos", 7))) if r else None
 
 
@@ -1862,9 +1896,9 @@ def horario_vencido(estado, dt):
     if ultimo and dt - ultimo < timedelta(minutes=intervalo_minimo()):
         log("Horário chegou, mas o último post foi há pouco. Espero um pouco.")
         return None
-    espera = _espera_ritmo(len(estado["fila"]), dt)
+    espera = _espera_ritmo(len(estado["fila"]), dt, estado)
     if ultimo and espera and dt - ultimo < espera:
-        log(f"Ritmo: {len(estado['fila'])} na fila, um post a cada {ritmo_minutos(len(estado['fila']), dt):.0f} min. "
+        log(f"Ritmo: {len(estado['fila'])} na fila, um post a cada {ritmo_minutos(len(estado['fila']), dt, estado):.0f} min. "
             "Pulo este horário.")
         return None
     return vencidos[0]
@@ -1876,7 +1910,7 @@ def proximo_post(estado, dt):
     usados = estado["slots_usados"].get(hoje, [])
     agenda = agenda_do_dia(hoje)
     ultimo = _ultimo_post(estado, dt)
-    espera = _espera_ritmo(len(estado["fila"]), dt)
+    espera = _espera_ritmo(len(estado["fila"]), dt, estado)
     for s in slots_do_dia():
         quando = dt.replace(hour=int(s), minute=agenda[s], second=0, microsecond=0)
         fim = quando + timedelta(minutes=janela_minutos())

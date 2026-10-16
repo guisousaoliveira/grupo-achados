@@ -204,7 +204,7 @@ def previsao_slots(estado, dias=4):
             if dia == 0 and (fim < dt or h in usados):
                 continue
             if anterior:
-                espera = bot._espera_ritmo(n, max(quando, anterior))
+                espera = bot._espera_ritmo(n, max(quando, anterior), estado)
                 if espera and fim < anterior + espera:
                     continue
                 quando = max(quando, anterior + intervalo, anterior + (espera or timedelta()))
@@ -287,7 +287,7 @@ def resumo(estado):
         "proximo_post": {"quando": prox.isoformat(timespec="minutes"), "id": bot.id_story(estado["fila"][0])} if prox else None,
         "hora": dt.hour,
         "horarios": horarios_do_quadro(estado, hoje),
-        "ritmo_min": round(bot.ritmo_minutos(len(estado["fila"]), dt)),
+        "ritmo_min": round(bot.ritmo_minutos(len(estado["fila"]), dt, estado)),
         "agenda_hoje": bot.agenda_do_dia(hoje),
         "horarios_hoje": horarios_hoje(estado, dt),
         "usados_hoje": estado["slots_usados"].get(hoje, []),
