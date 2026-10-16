@@ -229,18 +229,21 @@ def main():
     (SAIDA / "post.json").write_text(json.dumps({**post, "tipo": "reel", "aprovado": aprovado, "data": base["DATA"],
                                                 "video": video["name"], "musica": musica["name"]},
                                                ensure_ascii=False, indent=1), encoding="utf-8")
-    (SAIDA / "status.json").write_text(json.dumps({"status": "pendente" if aprovado else "recusado", "tipo": "reel", "dia": dia, "pasta": pasta,
+    teste = bool(os.environ.get("TESTE"))  # teste: só manda a prévia, não guarda nem pede aprovação
+    if not teste:
+      (SAIDA / "status.json").write_text(json.dumps({"status": "pendente" if aprovado else "recusado", "tipo": "reel", "dia": dia, "pasta": pasta,
                                                    "horario": R["horario_post"]}), encoding="utf-8")
 
-    enviar_video(arquivo, f"🎬 Legião Alpha – Reel {base['DATA']}\nTema: {post.get('tema', '')}\n"
+    enviar_video(arquivo, ("🧪 TESTE (não vai ser postado)\n" if teste else "") + f"🎬 Legião Alpha – Reel {base['DATA']}\nTema: {post.get('tema', '')}\n"
                           f"Clipe: {video['name']} · Música: {musica['name']}")
     status = "✅ Aprovado pela Atena" if aprovado else "⛔ A Atena REPROVOU (não postar):\n" + "\n".join(f"• {m}" for m in motivos)
     botoes = [{"text": "✅ Aprovar", "callback_data": f"lg:ok:{pasta}"},
-              {"text": "❌ Recusar", "callback_data": f"lg:no:{pasta}"}] if aprovado else None
-    mensagem(f"{status}\n\n📝 Legenda:\n\n{post['legenda']}\n\n{consumo()}\n\n"
-             + (f"Aprova pra postar o Reel no Instagram e no Facebook às {R['horario_post']}h?" if aprovado else
-                "Esse não vai ser postado."), botoes)
-    if aprovado:
+              {"text": "❌ Recusar", "callback_data": f"lg:no:{pasta}"}] if aprovado and not teste else None
+    fim = ("🧪 Era só um teste: não vai ser postado." if teste else
+           f"Aprova pra postar o Reel no Instagram e no Facebook às {R['horario_post']}h?" if aprovado else
+           "Esse não vai ser postado.")
+    mensagem(f"{status}\n\n📝 Legenda:\n\n{post['legenda']}\n\n{consumo()}\n\n{fim}", botoes)
+    if aprovado and not teste:
         historico.append({"data": dia, "tema": post.get("tema", ""), "video": video["name"], "musica": musica["name"]})
         HISTORICO.write_text(json.dumps(historico, ensure_ascii=False, indent=1), encoding="utf-8")
 
