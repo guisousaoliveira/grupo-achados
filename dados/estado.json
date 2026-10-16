@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "shopee",
-      "chave": "shopee:333540705.23494070884",
-      "nome": "Lavadora De Alta Pressão Com Trava De Segurança Ágil 1800 1300psi 1400w Wap",
-      "por": 359.9,
-      "de": 654.36,
-      "foto": "https://cf.shopee.com.br/file/br-11134207-7r98o-matyum7oq3671b",
-      "link": "https://s.shopee.com.br/3LRd5XjwkI",
-      "link_produto": "https://shopee.com.br/product/333540705/23494070884",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.9,
-      "vendas": 793,
-      "palavra": "lavadora de alta pressao",
-      "garimpado_em": "2026-10-15T10:41-03:00",
-      "nota": 66.5,
-      "titulo": "Lavadora de alta pressão para limpeza pesada em casa",
-      "aprovado_sozinho": true,
-      "aprovado_em": "2026-10-15T11:40-03:00"
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB4770821247",
       "origem": "lobaopromo",
@@ -1628,6 +1606,15 @@
       "link": "https://link.amazon/B0gpEKydS",
       "link_produto": "https://link.amazon/B0gpEKydS",
       "titulo": "Garrafa térmica Stanley para manter a água gelada"
+    },
+    {
+      "chave": "shopee:333540705.23494070884",
+      "loja": "shopee",
+      "nome": "Lavadora De Alta Pressão Com Trava De Segurança Ágil 1800 1300psi 1400w Wap",
+      "data": "2026-10-15T22:00-03:00",
+      "link": "https://s.shopee.com.br/3LRd5XjwkI",
+      "link_produto": "https://shopee.com.br/product/333540705/23494070884",
+      "titulo": "Lavadora de alta pressão para limpeza pesada em casa"
     }
   ],
   "slots_usados": {
@@ -5800,6 +5787,19 @@
   },
   "ultimos": [
     {
+      "loja": "shopee",
+      "chave": "shopee:333540705.23494070884",
+      "nome": "Lavadora De Alta Pressão Com Trava De Segurança Ágil 1800 1300psi 1400w Wap",
+      "por": 359.9,
+      "de": 654.36,
+      "foto": "https://cf.shopee.com.br/file/br-11134207-7r98o-matyum7oq3671b",
+      "link": "https://s.shopee.com.br/3LRd5XjwkI",
+      "link_produto": "https://shopee.com.br/product/333540705/23494070884",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "titulo": "Lavadora de alta pressão para limpeza pesada em casa"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0HF1LQFDD",
       "origem": "promooeasy",
@@ -6327,19 +6327,6 @@
       "por": 68.0,
       "cupom": "MELIGARANTE",
       "titulo": "Camisa polo slim para o dia a dia"
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:1127030290.23593847901",
-      "nome": "Mochila Bolsa Viagem Resistente Coreana Masculina Feminina Colorida",
-      "por": 25.99,
-      "de": 99.96,
-      "foto": "https://cf.shopee.com.br/file/sg-11134201-8262f-ml3p8fq62c5g00",
-      "link": "https://s.shopee.com.br/LnzoErpUV",
-      "link_produto": "https://shopee.com.br/product/1127030290/23593847901",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "titulo": "Mochila espaçosa para viagens e rotina diária"
     }
   ],
   "lixeira": [
