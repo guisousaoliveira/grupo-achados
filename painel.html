@@ -877,7 +877,7 @@ function inicio(){
       <div class="stat"><div class="k">${ic('radar',15)}Radar hoje</div><div class="v">${E.radar.hoje}${E.radar.max_dia ? `<span style="font-size:15px;color:var(--mut);font-weight:500"> / ${E.radar.max_dia}</span>` : '<span style="font-size:15px;color:var(--mut);font-weight:500"> achadas</span>'}</div>${E.radar.max_dia ? `<div class="bar"><i style="width:${Math.min(100, E.radar.hoje/E.radar.max_dia*100)}%"></i></div>` : ''}
         <div class="s" style="margin-top:8px;display:flex;align-items:center;justify-content:space-between;gap:8px">${E.radar.pausado ? 'pausado' : 'ligado'}${E.radar.rodada ? ` · ${quandoISO(E.radar.rodada.atualizada)}` : ''}<button class="btn sm" onclick="rodarRadar()">Rodar agora</button></div></div>
     </div>
-    <div class="box"><h2>Quadro de saídas<span class="r tag">${E.horarios.length} posts por dia, se tiver fila</span></h2><div class="quadro">${slots}<button class="qmais" onclick="quadroTudo=!quadroTudo;desenhar()">${quadroTudo ? 'Mostrar só perto de agora' : 'Ver o dia inteiro'}</button></div></div>
+    <div class="box"><h2>Quadro de saídas<span class="r tag">${E.ritmo_min ? `ritmo automático: 1 post a cada ${E.ritmo_min} min` : `${E.horarios.length} posts por dia, se tiver fila`}</span></h2><div class="quadro">${slots}<button class="qmais" onclick="quadroTudo=!quadroTudo;desenhar()">${quadroTudo ? 'Mostrar só perto de agora' : 'Ver o dia inteiro'}</button></div></div>
     ${garimpoBox()}
     <div class="cols">
       <div class="box"><h2>Próximas a sair<a class="r btn sm ghost" onclick="ir('fila')">Ver fila toda</a></h2>
@@ -937,6 +937,11 @@ function revisar(){
       : `<div class="vazio-box"><b>Nada para revisar</b>Quando o radar achar algo do nicho, aparece aqui (e no seu Telegram).</div>`);
 }
 function seloRevisao(x){
+  // Motivo de a IA não ter aprovado sozinha, embaixo do selo.
+  const m = seloRevisao1(x);
+  return m + (x.motivo_revisao ? `<span class="selo-ia av" style="margin-top:6px">🤔 Não aprovei: ${esc(x.motivo_revisao)}</span>` : '');
+}
+function seloRevisao1(x){
   // O que a IA (ou a loja) disse sobre a oferta, num selo só.
   const conferirO = [];
   if (x.loja === 'shopee' && x.origem && !x.shopee_api) conferirO.push('produto');
@@ -945,6 +950,7 @@ function seloRevisao(x){
   if (x.falta.length) return `<span class="selo-ia mal">${ic('link',13)}Falta ${esc(x.falta.join(', '))}</span>`;
   if (x.preco_loja) return `<span class="selo-ia av">${ic('ia',13)}O post diz ${reais(x.por)}, a loja mostra ${reais(x.preco_loja)}</span>`;
   if (x.aviso_preco) return `<span class="selo-ia av">${ic('ia',13)}Confira o preço no post original</span>`;
+  if (x.preco_cupom) return `<span class="selo-ia ok">${ic('ia',13)}Preço com cupom (a loja mostra ${reais(x.preco_sem_cupom)} sem ele)</span>`;
   if (x.preco_conferido) return `<span class="selo-ia ok">${ic('ia',13)}IA conferiu: preço igual na loja</span>`;
   if (x.shopee_api) return `<span class="selo-ia ok">${ic('ia',13)}Confirmado pela API da Shopee</span>`;
   if (conferirO.length) return `<span class="selo-ia av" title="Abra o post original para conferir">Conferir ${conferirO.join(', ')}</span>`;

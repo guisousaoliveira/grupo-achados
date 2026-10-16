@@ -966,8 +966,12 @@ def mandar_para_revisao(estado, item):
     if item.get("preco_loja"):
         texto += (f"\n⚠️ O post diz {reais(item['por'])}, mas a loja mostra {reais(item['preco_loja'])} agora. "
                   f"Se a loja estiver certa, responda <code>preço: {str(item['preco_loja']).replace('.', ',')}</code>")
+    elif item.get("preco_cupom"):
+        texto += f"\n✅ A loja mostra {reais(item['preco_sem_cupom'])} sem o cupom: o preço do post é com o cupom."
     elif item.get("preco_conferido"):
         texto += "\n✅ Preço conferido na loja agora."
+    if item.get("motivo_revisao"):
+        texto += f"\n🤔 Não aprovei sozinho: {html.escape(item['motivo_revisao'])}."
     if item.get("precisa_link"):
         texto += ("\n🔗 Gere o <b>seu</b> link desse produto no painel de afiliado e responda esta mensagem com "
                   "<code>link: https://...</code>")
@@ -1132,41 +1136,70 @@ def aprovar_sozinha(estado, item):
     fila_max = regras.get("aprovar_fila_max", 16)
     de, por = item.get("de"), item.get("por")
     off = round((1 - por / de) * 100) if de and por and de > por else 0
+    item.pop("motivo_revisao", None)
+
+    def nao(motivo):  # fica no item: aparece no Revisar do painel e na mensagem do Telegram
+        item["motivo_revisao"] = motivo
+        return False
+
     if item.get("shopee_api"):
         if not regras.get("aprovar_sozinho"):
-            return False
+            return nao("a aprovação automática da Shopee está desligada")
         shopee = sum(1 for x in estado["fila"] if x.get("loja") == "shopee")
         if shopee >= max(2, len(estado["fila"]) * regras.get("aprovar_fila_parte", 0.5)):  # Shopee já é metade da fila
-            return False
+            return nao("a fila já está com muita Shopee (metade ou mais)")
         if not (regras.get("desconto_minimo", 20) <= off <= regras.get("aprovar_desconto_max", 90)):
-            return False
-        if item.get("avaliacao", 0) < regras.get("nota_minima", 4.7) or item.get("vendas", 0) < regras.get("vendas_minimas", 100):
-            return False
+            return nao(f"desconto de {off}% fora do que eu aprovo sozinho "
+                       f"({regras.get('desconto_minimo', 20)}% a {regras.get('aprovar_desconto_max', 90)}%)")
+        if item.get("avaliacao", 0) < regras.get("nota_minima", 4.7):
+            return nao(f"nota {item.get('avaliacao', 0)} abaixo de {regras.get('nota_minima', 4.7)}")
+        if item.get("vendas", 0) < regras.get("vendas_minimas", 100):
+            return nao(f"só {item.get('vendas', 0)} vendas (mínimo {regras.get('vendas_minimas', 100)})")
         motivo = "Shopee"
     elif item.get("preco_conferido") and item.get("lido_ia"):
         conf = CONFIG.get("radar", {}).get("aprovar_conferidas", {})
         if not conf.get("ligado"):
-            return False
+            return nao("a aprovação automática está desligada")
         fila_max = conf.get("fila_max", fila_max)
+        if not de:
+            return nao("o post não tem o preço \"de\", então não sei o desconto")
         if not (conf.get("desconto_minimo", 10) <= off <= conf.get("desconto_max", 80)):
-            return False
+            return nao(f"desconto de {off}% fora do que eu aprovo sozinho "
+                       f"({conf.get('desconto_minimo', 10)}% a {conf.get('desconto_max', 80)}%)")
         if item.get("foto_origem") != "loja":
-            return False
-        motivo = {"amazon": "Amazon", "mercadolivre": "Mercado Livre"}.get(item.get("loja"), "canal") + ", preço conferido na loja"
+            return nao("não peguei a foto oficial da loja, só a do canal")
+        motivo = {"amazon": "Amazon", "mercadolivre": "Mercado Livre"}.get(item.get("loja"), "canal") + (
+            ", preço com cupom" if item.get("preco_cupom") else ", preço conferido na loja")
+    elif item.get("preco_loja"):
+        return nao(f"o post diz {reais(item['por'])} e a loja mostra {reais(item['preco_loja'])}, "
+                   "e não tem cupom ou Pix que explique a diferença")
+    elif item.get("loja") == "shopee":
+        return nao("Shopee de canal: só aprovo sozinho as que vêm da nossa API")
+    elif not item.get("lido_ia"):
+        return nao("a IA não conseguiu ler o post (fora do ar ou sem cota)")
+    elif item.get("sem_preco_loja"):
+        return nao("a loja não abriu para eu conferir o preço")
+    elif not item.get("por"):
+        return nao("não achei o preço no post")
     else:
-        return False
+        return nao("não consegui conferir o preço na loja")
     if len(estado["fila"]) >= fila_max:  # fila já cobre o dia: você escolhe no Revisar
-        return False
-    if faltando(item) or not item.get("foto") or not item.get("link"):
-        return False
+        return nao(f"a fila já tem {len(estado['fila'])} ofertas (meu limite para aprovar sozinho é {fila_max})")
+    if faltando(item):
+        return nao("falta " + ", ".join(faltando(item)))
+    if not item.get("foto"):
+        return nao("sem foto")
+    if not item.get("link"):
+        return nao("sem link")
     if not item.get("titulo"):
         item["titulo"] = gerar_titulo(item, titulos_recentes(estado))
     if not item["titulo"]:  # sem chamada da IA: vai para o Revisar (lá ganha a chamada reserva)
-        return False
+        return nao("a IA não conseguiu escrever a chamada")
     item["id"] = estado["proximo_id"]
     estado["proximo_id"] += 1
     item.setdefault("garimpado_em", agora().isoformat(timespec="minutes"))
     item["aprovado_sozinho"] = True
+    item.pop("motivo_revisao", None)
     resposta = aprovar(estado, item)
     log(f"Aprovada sozinha ({motivo}): {item['nome'][:60]} ({off}% off).")
     responder_admin(f"🤖 Aprovei sozinho ({motivo}): <b>{html.escape(item['titulo'])}</b>\n📦 {html.escape(item['nome'])}\n"
@@ -1777,6 +1810,32 @@ def agenda_do_dia(data_iso):
     return agenda
 
 
+def ritmo_minutos(n_fila, dt):
+    """Ritmo automático: de quantos em quantos minutos postar para a fila acabar até o fim do dia.
+    Fila grande: posta mais seguido (até `min_minutos`); fila pequena: espaça (até `max_minutos`).
+    Nas horas de pico o intervalo encurta um pouco. 0 = ritmo automático desligado (usa só os horários)."""
+    cfg = CONFIG.get("ritmo", {})
+    if not cfg.get("ligado"):
+        return 0
+    menor, maior = cfg.get("min_minutos", 15), cfg.get("max_minutos", 60)
+    horas = sorted(CONFIG.get("horarios", [])) or [8, 23]
+    inicio = dt.replace(hour=int(horas[0]), minute=0, second=0, microsecond=0)
+    fim = dt.replace(hour=int(horas[-1]), minute=59, second=0, microsecond=0)
+    restam = (fim - max(dt, inicio)).total_seconds() / 60
+    if n_fila <= 0 or restam <= 0:
+        return maior
+    alvo = restam / n_fila
+    if max(dt, inicio).hour in cfg.get("pico", []):
+        alvo *= cfg.get("fator_pico", 0.75)
+    return max(menor, min(maior, alvo))
+
+
+def _espera_ritmo(n_fila, dt):
+    """Quanto esperar depois do último post: o ritmo menos uma folga (os minutos dos horários são sorteados)."""
+    r = ritmo_minutos(n_fila, dt)
+    return timedelta(minutes=max(intervalo_minimo(), r - CONFIG.get("ritmo", {}).get("folga_minutos", 7))) if r else None
+
+
 def _ultimo_post(estado, dt):
     """Último post AGENDADO. O que você posta na mão ("postar agora") não empurra os horários da agenda."""
     agendados = [p for p in estado.get("postados", []) if p.get("slot")]
@@ -1803,6 +1862,11 @@ def horario_vencido(estado, dt):
     if ultimo and dt - ultimo < timedelta(minutes=intervalo_minimo()):
         log("Horário chegou, mas o último post foi há pouco. Espero um pouco.")
         return None
+    espera = _espera_ritmo(len(estado["fila"]), dt)
+    if ultimo and espera and dt - ultimo < espera:
+        log(f"Ritmo: {len(estado['fila'])} na fila, um post a cada {ritmo_minutos(len(estado['fila']), dt):.0f} min. "
+            "Pulo este horário.")
+        return None
     return vencidos[0]
 
 
@@ -1812,12 +1876,16 @@ def proximo_post(estado, dt):
     usados = estado["slots_usados"].get(hoje, [])
     agenda = agenda_do_dia(hoje)
     ultimo = _ultimo_post(estado, dt)
+    espera = _espera_ritmo(len(estado["fila"]), dt)
     for s in slots_do_dia():
         quando = dt.replace(hour=int(s), minute=agenda[s], second=0, microsecond=0)
-        if s in usados or quando + timedelta(minutes=janela_minutos()) < dt:
+        fim = quando + timedelta(minutes=janela_minutos())
+        if s in usados or fim < dt:
             continue
         if ultimo:
-            quando = max(quando, ultimo + timedelta(minutes=intervalo_minimo()))
+            if espera and fim < ultimo + espera:  # o ritmo pula este horário
+                continue
+            quando = max(quando, ultimo + timedelta(minutes=intervalo_minimo()), ultimo + (espera or timedelta()))
         return quando
     return None
 
@@ -2238,20 +2306,27 @@ def oferta_do_post(post, canal):
             item["por"], item["de"] = lido["por"], lido.get("de")
             if not item["de"]:
                 item.pop("de")
+    c = re.search(r"cupom\s*[:\-]?\s*([A-Z0-9]{4,20})\b", texto, re.I)
+    if c and not c.group(1).isdigit() and not item.get("cupom"):
+        item["cupom"] = c.group(1).upper()
     loja_por = None if lido.get("_bloqueado") else lido.get("por")
+    if not loja_por:
+        item["sem_preco_loja"] = True  # a loja não abriu ou não mostrou o preço: não deu para conferir
     if loja_por and item.get("por"):  # confere o preço do post com o que a loja mostra agora
         if preco_bate(item["por"], loja_por):
             item["preco_conferido"] = True
             item.pop("aviso_preco", None)
-        elif not item.get("pix"):  # preço no Pix costuma ser menor que o da página: não é erro
+        elif (item.get("cupom") or item.get("pix")) and loja_por * 0.7 <= item["por"] < loja_por:
+            # A página mostra o preço sem o cupom (ou sem o desconto do Pix): até 30% de diferença é o cupom.
+            item["preco_conferido"] = item["preco_cupom"] = True
+            item["preco_sem_cupom"] = loja_por
+            item.pop("aviso_preco", None)
+        else:
             item["preco_loja"] = loja_por
     if not item.get("nome"):  # último recurso: nome pelo endereço do produto
         slug = re.search(r"\.com\.br/([^/?#]+?)(?:/(?:dp|p)/|-_JM|$)", item["link_produto"])
         if slug and not slug.group(1).startswith(("dp", "MLB")):
             item["nome"] = nome_curto(re.sub(r"^MLB-\d+-", "", slug.group(1)).replace("-", " ").capitalize())
-    c = re.search(r"cupom\s*[:\-]?\s*([A-Z0-9]{4,20})\b", texto, re.I)
-    if c and not c.group(1).isdigit() and not item.get("cupom"):
-        item["cupom"] = c.group(1).upper()
     if re.search(r"prime", texto, re.I) and re.search(r"exclusiv|membro|assinante", texto, re.I):
         item["prime"] = True
     return item
