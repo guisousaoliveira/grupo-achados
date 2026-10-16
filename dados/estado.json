@@ -281,28 +281,6 @@
       "titulo": "Drone DJI com gravação 4K e ActiveTrack",
       "na_revisao_desde": "2026-10-16T10:47-03:00",
       "aprovado_em": "2026-10-16T10:50-03:00"
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:1049231391.50552073819",
-      "nome": "Agenda 2027 Diária Capa Dura Espiral Planner - Diversas Capas 336 Páginas",
-      "por": 22.9,
-      "de": 38.17,
-      "foto": "https://cf.shopee.com.br/file/br-11134207-820lx-mt8b6zd0uwht0c",
-      "link": "https://s.shopee.com.br/8KqKf4hnBG",
-      "link_produto": "https://shopee.com.br/product/1049231391/50552073819",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.9,
-      "vendas": 222,
-      "palavra": "agenda",
-      "garimpado_em": "2026-10-16T11:02-03:00",
-      "nota": 63.6,
-      "titulo": "Planner diário para organizar sua rotina e tarefas",
-      "aprovado_sozinho": true,
-      "aprovado_em": "2026-10-16T11:36-03:00"
     }
   ],
   "postados": [
@@ -6884,6 +6862,30 @@
     }
   ],
   "lixeira": [
+    {
+      "loja": "shopee",
+      "chave": "shopee:1049231391.50552073819",
+      "nome": "Agenda 2027 Diária Capa Dura Espiral Planner - Diversas Capas 336 Páginas",
+      "por": 22.9,
+      "de": 38.17,
+      "foto": "https://cf.shopee.com.br/file/br-11134207-820lx-mt8b6zd0uwht0c",
+      "link": "https://s.shopee.com.br/8KqKf4hnBG",
+      "link_produto": "https://shopee.com.br/product/1049231391/50552073819",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.9,
+      "vendas": 222,
+      "palavra": "agenda",
+      "garimpado_em": "2026-10-16T11:02-03:00",
+      "nota": 63.6,
+      "titulo": "Planner diário para organizar sua rotina e tarefas",
+      "aprovado_sozinho": true,
+      "aprovado_em": "2026-10-16T11:36-03:00",
+      "removido_em": "2026-10-16T11:42:02-03:00",
+      "removido_de": "fila"
+    },
     {
       "loja": "shopee",
       "chave": "shopee:1338475004.22394682865",
