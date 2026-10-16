@@ -227,6 +227,30 @@
       "aprovado_em": "2026-10-16T17:00-03:00"
     },
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB57814615",
+      "origem": "xetdaspromocoes",
+      "link": "https://meli.la/33vp8HX",
+      "link_produto": "https://meli.la/33vp8HX",
+      "post_origem": "https://t.me/xetdaspromocoes/85258",
+      "link_canal": "https://meli.la/1uzH8qU",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_603432-MLA100081970191_122025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Churrasqueira Móvel A Carvão Portátil para Família",
+      "cupom_loja": "Aplique o Cupom de R$ 2 OFF no Anúncio 🎟️ (logo abaixo do preço)",
+      "por": 39.0,
+      "lido_ia": true,
+      "preco_conferido": true,
+      "palavra": "churrasqueira",
+      "garimpado_em": "2026-10-16T18:00-03:00",
+      "nota": 41.0,
+      "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto",
+      "titulo": "Churrasqueira móvel para assar carne onde quiser",
+      "na_revisao_desde": "2026-10-16T18:01-03:00",
+      "cupom": "Aplique o Cupom de R$ 2 OFF no Anúncio (logo abaixo do preço)",
+      "aprovado_em": "2026-10-16T19:01-03:00"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:230709939.42279627399",
       "nome": "Controle remoto compatível com Google TV Chromecast 4K 2020-2024 (com comando de voz)",
@@ -2462,30 +2486,6 @@
       "id": 702,
       "na_revisao_desde": "2026-10-16T17:50-03:00",
       "msg_id": 1194
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB57814615",
-      "origem": "xetdaspromocoes",
-      "link": "https://www.mercadolivre.com.br/churrasqueira-movel-a-carvao-portatil-para-familia-em-aco-inox-com-grelha-de-22-cm/p/MLB57814615?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/churrasqueira-movel-a-carvao-portatil-para-familia-em-aco-inox-com-grelha-de-22-cm/p/MLB57814615",
-      "post_origem": "https://t.me/xetdaspromocoes/85258",
-      "link_canal": "https://meli.la/1uzH8qU",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_603432-MLA100081970191_122025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Churrasqueira Móvel A Carvão Portátil para Família",
-      "cupom_loja": "Aplique o Cupom de R$ 2 OFF no Anúncio 🎟️ (logo abaixo do preço)",
-      "por": 39.0,
-      "lido_ia": true,
-      "preco_conferido": true,
-      "palavra": "churrasqueira",
-      "garimpado_em": "2026-10-16T18:00-03:00",
-      "nota": 41.0,
-      "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto",
-      "titulo": "Churrasqueira móvel para assar carne onde quiser",
-      "id": 704,
-      "na_revisao_desde": "2026-10-16T18:01-03:00",
-      "msg_id": 1198
     },
     {
       "loja": "mercadolivre",
@@ -8758,7 +8758,7 @@
       },
       "xetdaspromocoes": {
         "achados": 4,
-        "aprovados": 2,
+        "aprovados": 3,
         "reprovados": 0
       },
       "aquitempechincha": {
@@ -9137,7 +9137,7 @@
     },
     "churrasqueira": {
       "achados": 1,
-      "aprovados": 0,
+      "aprovados": 1,
       "reprovados": 0
     }
   },
