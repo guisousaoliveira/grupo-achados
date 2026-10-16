@@ -644,7 +644,7 @@ function montarPost(x){
   if (x.obs) b.push(`📌 ${esc(x.obs)}`);
   if (x.cupom) b.push(/\s/.test(x.cupom.trim()) ? `🎟️ ${esc(x.cupom)}` : `🎟️ Cupom: <code>${esc(x.cupom)}</code>`);  // frase da loja sai sem formato de código
   else if (x.cupom_loja) b.push(`🎟️ ${esc(x.cupom_loja)}`);
-  b.push((LOJAS[x.loja] ? `🏪 Loja: <b>${LOJAS[x.loja]}</b><br>` : '') + `👉 <b><a href="${esc(x.link || '')}" target="_blank" style="color:#6ab3f3">CLIQUE AQUI PARA COMPRAR</a></b>`);
+  b.push((LOJAS[x.loja] ? `🏪 Loja: <b>${LOJAS[x.loja]}</b><br>` : '') + `👉 ${esc(x.link || '')}`);
   return b.join('<br><br>');
 }
 
