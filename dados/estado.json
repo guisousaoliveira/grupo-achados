@@ -171,6 +171,26 @@
       "aprovado_em": "2026-10-15T19:15-03:00"
     },
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB44745787",
+      "origem": "promonocontext",
+      "link": "https://meli.la/1An4KWG",
+      "link_produto": "https://meli.la/1An4KWG",
+      "post_origem": "https://t.me/promonocontext/127087",
+      "link_canal": "https://meli.la/2ywQm9R",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_850271-MLA118397071941_092026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Relógio Masculino Orient Prateado Quartzo Analógico Fundo Preto Prova",
+      "de": 499.0,
+      "por": 275.0,
+      "palavra": "relogio masculino",
+      "garimpado_em": "2026-10-15T12:40-03:00",
+      "nota": 76.1,
+      "titulo": "Relógio analógico prateado para uso diário",
+      "na_revisao_desde": "2026-10-15T22:06-03:00",
+      "aprovado_em": "2026-10-15T22:07-03:00"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:874482610.58209603177",
       "nome": "Luva de Academia Musculação Treino Max Grip Protetor de Pegada Antiderrapante 4 Dedos",
@@ -1680,30 +1700,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB44745787",
-      "origem": "promonocontext",
-      "link": "https://www.mercadolivre.com.br/relogio-masculino-orient-prateado-quartzo-analogico-fundo-preto-prova-dagua-100m/p/MLB44745787?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/relogio-masculino-orient-prateado-quartzo-analogico-fundo-preto-prova-dagua-100m/p/MLB44745787",
-      "post_origem": "https://t.me/promonocontext/127087",
-      "link_canal": "https://meli.la/2ywQm9R",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_850271-MLA118397071941_092026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Relógio Masculino Orient Prateado Quartzo Analógico Fundo Preto Prova",
-      "de": 499.0,
-      "por": 247.0,
-      "cupom": "APROVEITA",
-      "palavra": "relogio masculino",
-      "garimpado_em": "2026-10-15T12:40-03:00",
-      "nota": 76.1,
-      "titulo": "Relógio analógico prateado para uso diário",
-      "id": 631,
-      "na_revisao_desde": "2026-10-15T22:06-03:00",
-      "msg_id": 1059
-    }
-  ],
+  "revisar": [],
   "proximo_id": 632,
   "radar": {
     "visto": {
@@ -6845,7 +6842,7 @@
       },
       "promonocontext": {
         "achados": 5,
-        "aprovados": 1,
+        "aprovados": 2,
         "reprovados": 3
       }
     }
@@ -7084,7 +7081,7 @@
     },
     "relogio masculino": {
       "achados": 6,
-      "aprovados": 2,
+      "aprovados": 3,
       "reprovados": 3
     },
     "jogo de soquete": {
