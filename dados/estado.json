@@ -2,27 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB79752041",
-      "origem": "promooeasy",
-      "link": "https://meli.la/2EeNYK3",
-      "link_produto": "https://meli.la/2EeNYK3",
-      "post_origem": "https://t.me/promooeasy/222334",
-      "link_canal": "https://meli.la/1AKNxys",
-      "foto": "AgACAgQAAxkDAAIBf2rOIDaq4wpEaJ3SV8lzjP20zLOFAAJyD2sbKz7MUQssk8t-CJdZAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Perfume Masculino Nautica Voyage Eau de Toilette 100ml",
-      "de": 199.0,
-      "por": 90.69,
-      "palavra": "perfume masculino",
-      "garimpado_em": "2026-10-15T17:10-03:00",
-      "nota": 72.5,
-      "titulo": "Fragrância fresca ideal para dias de calor",
-      "na_revisao_desde": "2026-10-15T17:40-03:00",
-      "aprovado_em": "2026-10-15T17:52-03:00",
-      "aviso_validade": true
-    },
-    {
       "loja": "shopee",
       "chave": "shopee:1368787663.23597895251",
       "nome": "Carregador Portátil Bateria Power Bank 20000mah PN-959",
@@ -1675,6 +1654,15 @@
       "link_produto": "https://shopee.com.br/product/1638805020/58264360363",
       "titulo": "Halteres ajustáveis para montar sua academia em casa",
       "slot": 8
+    },
+    {
+      "chave": "mercadolivre:MLB79752041",
+      "loja": "mercadolivre",
+      "nome": "Perfume Masculino Nautica Voyage Eau de Toilette 100ml",
+      "data": "2026-10-16T08:50-03:00",
+      "link": "https://meli.la/2EeNYK3",
+      "link_produto": "https://meli.la/2EeNYK3",
+      "titulo": "Fragrância fresca ideal para dias de calor"
     }
   ],
   "slots_usados": {
@@ -5589,6 +5577,19 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB79752041",
+      "origem": "promooeasy",
+      "link": "https://meli.la/2EeNYK3",
+      "link_produto": "https://meli.la/2EeNYK3",
+      "post_origem": "https://t.me/promooeasy/222334",
+      "foto": "AgACAgQAAxkDAAIBf2rOIDaq4wpEaJ3SV8lzjP20zLOFAAJyD2sbKz7MUQssk8t-CJdZAQADAgADeAADPQQ",
+      "nome": "Perfume Masculino Nautica Voyage Eau de Toilette 100ml",
+      "de": 199.0,
+      "por": 90.69,
+      "titulo": "Fragrância fresca ideal para dias de calor"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:1638805020.58264360363",
       "nome": "Kit Halteres Ajustáveis 15kg Musculação 6 em 1 Barra Kettlebell Anilhas Academia em Casa Treino",
@@ -6115,19 +6116,6 @@
       "de": 249.99,
       "por": 77.0,
       "titulo": "Perfume árabe amadeirado"
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:1121459942.23293571172",
-      "nome": "Bolsa de Ferramentas Profissional 14/20 Polegadas Multiuso Caixa de Ferramentas Maleta Organizadora Tecido Resiste",
-      "por": 36.99,
-      "de": 92.47,
-      "foto": "AgACAgQAAxkDAAIDgmrP6NRkv7ttEf5BHnrnCN5v-mC1AAJKD2sbNocdUYNsFUwXt_iEAQADAgADeQADPQQ",
-      "link": "https://s.shopee.com.br/2VsUqM0ifg",
-      "link_produto": "https://shopee.com.br/product/1121459942/23293571172",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "titulo": "Bolsa resistente para organizar ferramentas no trabalho"
     }
   ],
   "lixeira": [
