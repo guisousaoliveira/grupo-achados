@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "shopee",
-      "chave": "shopee:400888689.54165736119",
-      "nome": "Suplemento Termogênico Ultra 60 Cápsulas | Cafeína, Taurina, Guaraná e Cromo + Vitaminas C e E",
-      "por": 24.79,
-      "de": 107.78,
-      "foto": "https://cf.shopee.com.br/file/br-11134207-820lm-mrp4zwpkt0jq00",
-      "link": "https://s.shopee.com.br/AAHz21SMRM",
-      "link_produto": "https://shopee.com.br/product/400888689/54165736119",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.9,
-      "vendas": 262,
-      "palavra": "suplemento",
-      "garimpado_em": "2026-10-16T13:51-03:00",
-      "nota": 79.6,
-      "titulo": "Termogênico com cafeína e vitaminas para dar energia no trei",
-      "aprovado_sozinho": true,
-      "aprovado_em": "2026-10-16T15:01-03:00"
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB48812123",
       "origem": "promonocontext",
@@ -2106,6 +2084,16 @@
       "link_produto": "https://www.amazon.com.br/dp/B0GXX1XDWZ?tag=alphadominu09-20",
       "titulo": "Cafeteira elétrica para preparar o café do dia a dia",
       "slot": 17.3
+    },
+    {
+      "chave": "shopee:400888689.54165736119",
+      "loja": "shopee",
+      "nome": "Suplemento Termogênico Ultra 60 Cápsulas | Cafeína, Taurina, Guaraná e Cromo + Vitaminas C e E",
+      "data": "2026-10-16T18:03-03:00",
+      "link": "https://s.shopee.com.br/AAHz21SMRM",
+      "link_produto": "https://shopee.com.br/product/400888689/54165736119",
+      "titulo": "Termogênico com cafeína e vitaminas para dar energia no trei",
+      "slot": 18
     }
   ],
   "slots_usados": {
@@ -2214,7 +2202,8 @@
       17,
       17.1,
       17.2,
-      17.3
+      17.3,
+      18
     ]
   },
   "shopee_buscado_em": "",
@@ -7120,6 +7109,19 @@
   },
   "ultimos": [
     {
+      "loja": "shopee",
+      "chave": "shopee:400888689.54165736119",
+      "nome": "Suplemento Termogênico Ultra 60 Cápsulas | Cafeína, Taurina, Guaraná e Cromo + Vitaminas C e E",
+      "por": 24.79,
+      "de": 107.78,
+      "foto": "https://cf.shopee.com.br/file/br-11134207-820lm-mrp4zwpkt0jq00",
+      "link": "https://s.shopee.com.br/AAHz21SMRM",
+      "link_produto": "https://shopee.com.br/product/400888689/54165736119",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "titulo": "Termogênico com cafeína e vitaminas para dar energia no trei"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0GXX1XDWZ",
       "origem": "promobit",
@@ -7644,19 +7646,6 @@
       "origem": "shopee",
       "fonte": "shopee",
       "titulo": "Grampeador com trena para tapeçaria e pequenos reparos"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB21362449",
-      "origem": "xetdaspromocoes",
-      "link": "https://meli.la/19BLAXs",
-      "link_produto": "https://meli.la/19BLAXs",
-      "post_origem": "https://t.me/xetdaspromocoes/85039",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_993254-MLA115688090969_082026-O.webp",
-      "nome": "Prohibido Pré Treino 360g",
-      "de": 125.0,
-      "por": 71.88,
-      "titulo": "Pré-treino para dar mais energia nos exercícios"
     }
   ],
   "lixeira": [
