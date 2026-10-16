@@ -223,6 +223,29 @@
       "aprovado_em": "2026-10-16T13:51-03:00"
     },
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB68717302",
+      "origem": "promonocontext",
+      "link": "https://meli.la/2FSaXRh",
+      "link_produto": "https://www.mercadolivre.com.br/fritadeira-airfryer-digital-serie-2000-xl-na23900-preto/p/MLB68717302",
+      "post_origem": "https://t.me/promonocontext/127595",
+      "link_canal": "https://meli.la/1j8NkHn",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_623991-MLA110960690165_042026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Fritadeira Airfryer Digital Série 2000 Xl Na239/00 Preto",
+      "de": 629.0,
+      "por": 409.0,
+      "lido_ia": true,
+      "cupom": "OFFHOJE",
+      "palavra": "airfryer",
+      "garimpado_em": "2026-10-16T11:21-03:00",
+      "nota": 57.4,
+      "motivo_revisao": "não consegui conferir o preço na loja",
+      "titulo": "Airfryer espaçosa para agilizar a rotina na cozinha",
+      "na_revisao_desde": "2026-10-16T14:21-03:00",
+      "aprovado_em": "2026-10-16T14:38-03:00"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:1439190466.23898836118",
       "nome": "2/1 PCS Bolsa Mochila De Peito Tiracolo Pochete Bolsa Impermeável Transversal Masculina",
@@ -2036,30 +2059,6 @@
   },
   "shopee_buscado_em": "",
   "revisar": [
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB68717302",
-      "origem": "promonocontext",
-      "link": "https://meli.la/2FSaXRh",
-      "link_produto": "https://www.mercadolivre.com.br/fritadeira-airfryer-digital-serie-2000-xl-na23900-preto/p/MLB68717302",
-      "post_origem": "https://t.me/promonocontext/127595",
-      "link_canal": "https://meli.la/1j8NkHn",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_623991-MLA110960690165_042026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Fritadeira Airfryer Digital Série 2000 Xl Na239/00 Preto",
-      "de": 629.0,
-      "por": 409.0,
-      "lido_ia": true,
-      "cupom": "OFFHOJE",
-      "palavra": "airfryer",
-      "garimpado_em": "2026-10-16T11:21-03:00",
-      "nota": 57.4,
-      "motivo_revisao": "não consegui conferir o preço na loja",
-      "titulo": "Airfryer espaçosa para agilizar a rotina na cozinha",
-      "id": 675,
-      "na_revisao_desde": "2026-10-16T14:21-03:00",
-      "msg_id": 1145
-    },
     {
       "loja": "amazon",
       "chave": "amazon:B0GXX1XDWZ",
@@ -8173,7 +8172,7 @@
       },
       "promonocontext": {
         "achados": 8,
-        "aprovados": 5,
+        "aprovados": 6,
         "reprovados": 1
       },
       "lobaopromo": {
@@ -8447,7 +8446,7 @@
     },
     "airfryer": {
       "achados": 5,
-      "aprovados": 0,
+      "aprovados": 1,
       "reprovados": 2
     },
     "kit barba": {
