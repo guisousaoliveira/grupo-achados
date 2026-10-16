@@ -261,6 +261,31 @@
       "titulo": "Kit de silicone para manter a fritadeira limpa",
       "aprovado_sozinho": true,
       "aprovado_em": "2026-10-16T13:21-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB5226420562",
+      "origem": "xetdaspromocoes",
+      "link": "https://meli.la/2DqDMRn",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-5226420562-oculos-de-sol-uv400-original-acetato-unissex-premium-case-_JM?pdp_filters=item_id%3AMLB5226420562",
+      "post_origem": "https://t.me/xetdaspromocoes/85161",
+      "link_canal": "https://meli.la/15NkEYG",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_952602-MLB117382478348_102026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Óculos De Sol Uv400 Original Acetato Unissex Premium + Case",
+      "cupom_loja": "Aplique o Cupom de R$ 10 OFF no Anúncio 🎟️ (logo abaixo do preço)",
+      "lido_ia": true,
+      "por": 60.0,
+      "de": 159.0,
+      "preco_loja": 67.0,
+      "palavra": "oculos de sol",
+      "garimpado_em": "2026-10-16T11:00-03:00",
+      "nota": 76.2,
+      "motivo_revisao": "o post diz R$ 60,00 e a loja mostra R$ 67,00, e não tem cupom ou Pix que explique a diferença",
+      "titulo": "Proteção solar UV400 com armação em acetato",
+      "na_revisao_desde": "2026-10-16T13:21-03:00",
+      "cupom": "Aplique o Cupom de R$ 10 OFF no Anúncio  (logo abaixo do preço)",
+      "aprovado_em": "2026-10-16T13:22-03:00"
     }
   ],
   "postados": [
@@ -1929,33 +1954,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB5226420562",
-      "origem": "xetdaspromocoes",
-      "link": "https://meli.la/2DqDMRn",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-5226420562-oculos-de-sol-uv400-original-acetato-unissex-premium-case-_JM?pdp_filters=item_id%3AMLB5226420562",
-      "post_origem": "https://t.me/xetdaspromocoes/85161",
-      "link_canal": "https://meli.la/15NkEYG",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_952602-MLB117382478348_102026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Óculos De Sol Uv400 Original Acetato Unissex Premium + Case",
-      "cupom_loja": "Aplique o Cupom de R$ 10 OFF no Anúncio 🎟️ (logo abaixo do preço)",
-      "lido_ia": true,
-      "por": 60.0,
-      "de": 159.0,
-      "preco_loja": 67.0,
-      "palavra": "oculos de sol",
-      "garimpado_em": "2026-10-16T11:00-03:00",
-      "nota": 76.2,
-      "motivo_revisao": "o post diz R$ 60,00 e a loja mostra R$ 67,00, e não tem cupom ou Pix que explique a diferença",
-      "titulo": "Proteção solar UV400 com armação em acetato",
-      "id": 667,
-      "na_revisao_desde": "2026-10-16T13:21-03:00",
-      "msg_id": 1135
-    }
-  ],
+  "revisar": [],
   "proximo_id": 668,
   "radar": {
     "visto": {
@@ -8051,7 +8050,7 @@
       },
       "xetdaspromocoes": {
         "achados": 2,
-        "aprovados": 1,
+        "aprovados": 2,
         "reprovados": 0
       }
     }
@@ -8225,7 +8224,7 @@
     },
     "oculos de sol": {
       "achados": 10,
-      "aprovados": 2,
+      "aprovados": 3,
       "reprovados": 7
     },
     "oneblade": {
