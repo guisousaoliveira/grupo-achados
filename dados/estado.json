@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "shopee",
-      "chave": "shopee:1439190466.23898836118",
-      "nome": "2/1 PCS Bolsa Mochila De Peito Tiracolo Pochete Bolsa Impermeável Transversal Masculina",
-      "por": 13.99,
-      "de": 60.83,
-      "foto": "https://cf.shopee.com.br/file/br-11134207-820l8-mnz0mrbfmyo14d",
-      "link": "https://s.shopee.com.br/1qcr5LJI2b",
-      "link_produto": "https://shopee.com.br/product/1439190466/23898836118",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.8,
-      "vendas": 2362,
-      "palavra": "mochila",
-      "garimpado_em": "2026-10-16T13:31-03:00",
-      "nota": 95.6,
-      "titulo": "Mochila transversal impermeável para carregar o essencial",
-      "aprovado_sozinho": true,
-      "aprovado_em": "2026-10-16T14:01-03:00"
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB32101995",
       "origem": "promonocontext",
@@ -2080,6 +2058,16 @@
       "link_produto": "https://www.amazon.com.br/dp/B00YTY4AB8?tag=alphadominu09-20",
       "titulo": "Timex de couro clássico para o dia a dia",
       "slot": 16.2
+    },
+    {
+      "chave": "shopee:1439190466.23898836118",
+      "loja": "shopee",
+      "nome": "2/1 PCS Bolsa Mochila De Peito Tiracolo Pochete Bolsa Impermeável Transversal Masculina",
+      "data": "2026-10-16T16:55-03:00",
+      "link": "https://s.shopee.com.br/1qcr5LJI2b",
+      "link_produto": "https://shopee.com.br/product/1439190466/23898836118",
+      "titulo": "Mochila transversal impermeável para carregar o essencial",
+      "slot": 16.3
     }
   ],
   "slots_usados": {
@@ -2183,7 +2171,8 @@
       15.3,
       16,
       16.1,
-      16.2
+      16.2,
+      16.3
     ]
   },
   "shopee_buscado_em": "",
@@ -6849,6 +6838,19 @@
   },
   "ultimos": [
     {
+      "loja": "shopee",
+      "chave": "shopee:1439190466.23898836118",
+      "nome": "2/1 PCS Bolsa Mochila De Peito Tiracolo Pochete Bolsa Impermeável Transversal Masculina",
+      "por": 13.99,
+      "de": 60.83,
+      "foto": "https://cf.shopee.com.br/file/br-11134207-820l8-mnz0mrbfmyo14d",
+      "link": "https://s.shopee.com.br/1qcr5LJI2b",
+      "link_produto": "https://shopee.com.br/product/1439190466/23898836118",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "titulo": "Mochila transversal impermeável para carregar o essencial"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B00YTY4AB8",
       "origem": "promobit",
@@ -7372,19 +7374,6 @@
       "de": 269.0,
       "por": 167.39,
       "titulo": "Garrafa térmica Stanley para manter a água gelada"
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:696313634.18196991700",
-      "nome": "Fonte Chaveada 12V 50A 600W Bivolt Com Chave Seletora Para Som Automotivo CFTV LED Automação Alta Potência",
-      "por": 51.95,
-      "de": 110.53,
-      "foto": "https://cf.shopee.com.br/file/sg-11134201-7rcdn-lrhre7sz76xj0e",
-      "link": "https://s.shopee.com.br/6q1VaWoQcf",
-      "link_produto": "https://shopee.com.br/product/696313634/18196991700",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "titulo": "Fonte robusta para alimentar seu som automotivo"
     }
   ],
   "lixeira": [
