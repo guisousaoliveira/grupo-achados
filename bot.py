@@ -365,7 +365,8 @@ def montar_post(item):
     elif item.get("cupom_loja"):
         blocos.append(f"🎟️ {e(item['cupom_loja'])}")
     loja = {"amazon": "Amazon", "mercadolivre": "Mercado Livre", "shopee": "Shopee"}.get(item.get("loja"), "")
-    blocos.append(f"🛒 {e(item['link'])}" + (f"  ({loja})" if loja else ""))
+    # O link vira um texto clicável: o endereço da Amazon e do Mercado Livre é enorme e poluía o post.
+    blocos.append(f'🛒 <a href="{html.escape(item["link"], quote=True)}">Comprar na {loja or "loja"}</a>')
     rodape = CONFIG.get("rodape", "")
     if rodape:
         blocos.append(e(rodape))
