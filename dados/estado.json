@@ -3,28 +3,6 @@
   "fila": [
     {
       "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB3756911067",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/1a3S5Zc",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-3756911067-kit-6-cuecas-boxer-polo-wear-microfibra-sem-costura-original-_JM?pdp_filters=item_id%3AMLB3756911067",
-      "post_origem": "https://t.me/lobaopromo/190324",
-      "link_canal": "https://meli.la/1bETh8n",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_794927-MLB85659268782_062025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Kit 6 Cuecas Boxer Polo Wear Microfibra Sem Costura Original",
-      "de": 200.0,
-      "por": 63.0,
-      "lido_ia": true,
-      "preco_conferido": true,
-      "palavra": "cueca",
-      "garimpado_em": "2026-10-16T11:40-03:00",
-      "nota": 73.4,
-      "titulo": "Kit Polo Wear em microfibra para uso diário",
-      "aprovado_sozinho": true,
-      "aprovado_em": "2026-10-16T13:31-03:00"
-    },
-    {
-      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB5230772384",
       "origem": "promooeasy",
       "link": "https://meli.la/2jNUBhg",
@@ -2069,6 +2047,16 @@
       "link": "https://meli.la/1aFKrxa",
       "link_produto": "https://www.mercadolivre.com.br/maquina-de-corte-acabamento-profissional-com-aparador-de-nariz-cabelo-pelo-barbear-maquininha-detalhes-sem-fio-preto-catalogo/p/MLB69665003",
       "titulo": "Máquina para cabelo e barba com aparador nasal"
+    },
+    {
+      "chave": "mercadolivre:MLB3756911067",
+      "loja": "mercadolivre",
+      "nome": "Kit 6 Cuecas Boxer Polo Wear Microfibra Sem Costura Original",
+      "data": "2026-10-16T16:11-03:00",
+      "link": "https://meli.la/1a3S5Zc",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-3756911067-kit-6-cuecas-boxer-polo-wear-microfibra-sem-costura-original-_JM?pdp_filters=item_id%3AMLB3756911067",
+      "titulo": "Kit Polo Wear em microfibra para uso diário",
+      "slot": 16
     }
   ],
   "slots_usados": {
@@ -2169,7 +2157,8 @@
       15,
       15.1,
       15.2,
-      15.3
+      15.3,
+      16
     ]
   },
   "shopee_buscado_em": "",
@@ -6707,6 +6696,19 @@
   "ultimos": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB3756911067",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/1a3S5Zc",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-3756911067-kit-6-cuecas-boxer-polo-wear-microfibra-sem-costura-original-_JM?pdp_filters=item_id%3AMLB3756911067",
+      "post_origem": "https://t.me/lobaopromo/190324",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_794927-MLB85659268782_062025-O.webp",
+      "nome": "Kit 6 Cuecas Boxer Polo Wear Microfibra Sem Costura Original",
+      "de": 200.0,
+      "por": 63.0,
+      "titulo": "Kit Polo Wear em microfibra para uso diário"
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB69665003",
       "origem": "promonocontext",
       "link": "https://meli.la/1aFKrxa",
@@ -7227,20 +7229,6 @@
       "origem": "shopee",
       "fonte": "shopee",
       "titulo": "Ferramenta para cortes e desbastes em metal e alvenaria"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0GCZYJNLJ",
-      "origem": "pobregram",
-      "link": "https://link.amazon/B0hLMVKVy",
-      "link_produto": "https://link.amazon/B0hLMVKVy",
-      "post_origem": "https://t.me/pobregram/41929",
-      "foto": "AgACAgEAAxkDAAIDyWrQyfNyGAAB1DkUDYuIPbTWNwjEPQACYQ1rGyoaiEZnYWf5YMmyhQEAAwIAA3gAAz0E",
-      "nome": "Power Bank Basike 20000mAh USB-C/ Lightning 22.5W",
-      "pix": true,
-      "de": 106.26,
-      "por": 92.1,
-      "titulo": "Power bank de alta capacidade para carregar o celular"
     }
   ],
   "lixeira": [
