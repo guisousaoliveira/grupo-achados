@@ -3688,13 +3688,13 @@
       "amazon:B08L5LZGJL"
     ],
     "ultima": {
-      "em": "2026-10-15T22:00:27-03:00",
-      "pedido": "",
-      "forcado": false,
+      "em": "2026-10-15T22:01:05-03:00",
+      "pedido": "f9b69c5207",
+      "forcado": true,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 1,
+      "posts_novos": 4,
       "do_nicho": 0,
       "repetidas": 0,
       "novas": 0,
@@ -3708,7 +3708,7 @@
     "nesta_hora": 0,
     "promobit_hora": "2026-10-15T22",
     "promobit_nesta_hora": 0,
-    "promobit_visto": 3117709,
+    "promobit_visto": 3117718,
     "nomes": [
       [
         [
