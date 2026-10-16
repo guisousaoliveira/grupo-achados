@@ -1214,7 +1214,8 @@
       "data": "2026-10-14T21:15-03:00",
       "link": "https://meli.la/2ZXjdGB",
       "link_produto": "https://meli.la/2ZXjdGB",
-      "titulo": "Garrafa térmica que mantém a bebida gelada o dia todo"
+      "titulo": "Garrafa térmica que mantém a bebida gelada o dia todo",
+      "foto_site_ok": true
     },
     {
       "chave": "shopee:1127030290.23593847901",
@@ -1224,7 +1225,8 @@
       "link": "https://s.shopee.com.br/LnzoErpUV",
       "link_produto": "https://shopee.com.br/product/1127030290/23593847901",
       "titulo": "Mochila espaçosa para viagens e rotina diária",
-      "slot": 21
+      "slot": 21,
+      "foto_site_ok": true
     },
     {
       "chave": "mercadolivre:MLB1841927467",
@@ -1233,7 +1235,8 @@
       "data": "2026-10-14T22:20-03:00",
       "link": "https://meli.la/1tiaJWi",
       "link_produto": "https://meli.la/1tiaJWi",
-      "titulo": "Camisa polo slim para o dia a dia"
+      "titulo": "Camisa polo slim para o dia a dia",
+      "foto_site_ok": true
     },
     {
       "chave": "mercadolivre:MLB26989230",
@@ -1243,7 +1246,8 @@
       "link": "https://meli.la/2HUgV4i",
       "link_produto": "https://meli.la/2HUgV4i",
       "titulo": "Creatina em pó para o seu treino diário",
-      "slot": 22
+      "slot": 22,
+      "foto_site_ok": true
     },
     {
       "chave": "shopee:1512108548.23799008372",
@@ -1252,7 +1256,8 @@
       "data": "2026-10-14T23:10-03:00",
       "link": "https://s.shopee.com.br/qkGQVDWg4",
       "link_produto": "https://shopee.com.br/product/1512108548/23799008372",
-      "titulo": "Bicicleta ergométrica para treino em casa com monitor"
+      "titulo": "Bicicleta ergométrica para treino em casa com monitor",
+      "foto_site_ok": true
     },
     {
       "chave": "shopee:1006215031.51250897834",
@@ -1262,7 +1267,8 @@
       "link": "https://s.shopee.com.br/9zyVK08EO2",
       "link_produto": "https://shopee.com.br/product/1006215031/51250897834",
       "titulo": "Óculos de sol pequenos com proteção UV para o rosto",
-      "slot": 23
+      "slot": 23,
+      "foto_site_ok": true
     },
     {
       "chave": "shopee:994175276.22593202844",
@@ -1271,7 +1277,8 @@
       "data": "2026-10-14T23:50-03:00",
       "link": "https://s.shopee.com.br/1qcnf9wDxI",
       "link_produto": "https://shopee.com.br/product/994175276/22593202844",
-      "titulo": "Drone com câmera dupla para filmagens aéreas"
+      "titulo": "Drone com câmera dupla para filmagens aéreas",
+      "foto_site_ok": true
     },
     {
       "chave": "shopee:1392120718.20499592472",
@@ -1280,7 +1287,8 @@
       "data": "2026-10-15T00:51-03:00",
       "link": "https://s.shopee.com.br/2BFe7puUVJ",
       "link_produto": "https://shopee.com.br/product/1392120718/20499592472",
-      "titulo": "Relógio digital esportivo à prova d'água"
+      "titulo": "Relógio digital esportivo à prova d'água",
+      "foto_site_ok": true
     },
     {
       "chave": "shopee:1121459942.23293571172",
@@ -1289,7 +1297,8 @@
       "data": "2026-10-15T02:10-03:00",
       "link": "https://s.shopee.com.br/2VsUqM0ifg",
       "link_produto": "https://shopee.com.br/product/1121459942/23293571172",
-      "titulo": "Bolsa resistente para organizar ferramentas no trabalho"
+      "titulo": "Bolsa resistente para organizar ferramentas no trabalho",
+      "foto_site_ok": true
     },
     {
       "chave": "mercadolivre:MLB4470214747",
@@ -1298,7 +1307,8 @@
       "data": "2026-10-15T06:36-03:00",
       "link": "https://meli.la/2Vf6qGA",
       "link_produto": "https://meli.la/2Vf6qGA",
-      "titulo": "Perfume árabe amadeirado"
+      "titulo": "Perfume árabe amadeirado",
+      "foto_site_ok": true
     },
     {
       "chave": "mercadolivre:MLB30144703",
@@ -1306,7 +1316,8 @@
       "nome": "Parafusadeira Furadeira De Impacto The Black Tools Profissional",
       "data": "2026-10-15T06:41-03:00",
       "link": "https://meli.la/1vssKpu",
-      "link_produto": "https://meli.la/1vssKpu"
+      "link_produto": "https://meli.la/1vssKpu",
+      "foto_site_ok": true
     },
     {
       "chave": "shopee:1746399229.58259501932",
@@ -1315,7 +1326,8 @@
       "data": "2026-10-15T07:19-03:00",
       "link": "https://s.shopee.com.br/5fpWPplALl",
       "link_produto": "https://shopee.com.br/product/1746399229/58259501932",
-      "titulo": "Suporte veicular para usar o GPS com segurança"
+      "titulo": "Suporte veicular para usar o GPS com segurança",
+      "foto_site_ok": true
     },
     {
       "chave": "amazon:B0HH4RGVG5",
@@ -1323,7 +1335,8 @@
       "nome": "Kit Halteres Ajustável 6 em 1 15kg com Barra, Kettlebell e Suporte Flexões",
       "data": "2026-10-15T07:47-03:00",
       "link": "https://link.amazon/B0eqVuUgV",
-      "link_produto": "https://link.amazon/B0eqVuUgV"
+      "link_produto": "https://link.amazon/B0eqVuUgV",
+      "foto_site_ok": true
     },
     {
       "chave": "amazon:B0FW5JZM9P",
@@ -1332,7 +1345,8 @@
       "data": "2026-10-15T07:57-03:00",
       "link": "https://link.amazon/B09CIZFbZ",
       "link_produto": "https://link.amazon/B09CIZFbZ",
-      "titulo": "Smartwatch esportivo para monitorar suas atividades diárias"
+      "titulo": "Smartwatch esportivo para monitorar suas atividades diárias",
+      "foto_site_ok": true
     },
     {
       "chave": "amazon:B0DG42KW7N",
@@ -1342,7 +1356,8 @@
       "link": "https://link.amazon/B0h3P5yvl",
       "link_produto": "https://link.amazon/B0h3P5yvl",
       "titulo": "Creatina sem sabor para o seu treino diário",
-      "slot": 8
+      "slot": 8,
+      "foto_site_ok": true
     },
     {
       "chave": "amazon:B0FCGBD62W",
@@ -1351,7 +1366,8 @@
       "data": "2026-10-15T08:46-03:00",
       "link": "https://link.amazon/B01keYSBF",
       "link_produto": "https://link.amazon/B01keYSBF",
-      "titulo": "Camisa polo preta para torcer com estilo"
+      "titulo": "Camisa polo preta para torcer com estilo",
+      "foto_site_ok": true
     },
     {
       "chave": "shopee:1325772331.23893407082",
@@ -1361,7 +1377,8 @@
       "link": "https://s.shopee.com.br/4B0j8e9y5b",
       "link_produto": "https://shopee.com.br/product/1325772331/23893407082",
       "titulo": "Lanterna de bolso recarregável",
-      "slot": 9
+      "slot": 9,
+      "foto_site_ok": true
     },
     {
       "chave": "amazon:B0HDFV9XDD",
@@ -1370,7 +1387,8 @@
       "data": "2026-10-15T09:25-03:00",
       "link": "https://link.amazon/B01qJwrQa",
       "link_produto": "https://link.amazon/B01qJwrQa",
-      "titulo": "Creatina em pó para o seu treino diário"
+      "titulo": "Creatina em pó para o seu treino diário",
+      "foto_site_ok": true
     },
     {
       "chave": "mercadolivre:MLB66176437",
@@ -1379,7 +1397,8 @@
       "data": "2026-10-15T09:59-03:00",
       "link": "https://meli.la/1viX8d9",
       "link_produto": "https://meli.la/1viX8d9",
-      "titulo": "Modelo executivo impermeável para trabalho e estudos"
+      "titulo": "Modelo executivo impermeável para trabalho e estudos",
+      "foto_site_ok": true
     },
     {
       "chave": "shopee:1337281722.22298585774",
@@ -1389,7 +1408,8 @@
       "link": "https://s.shopee.com.br/3LRcPbeD0l",
       "link_produto": "https://shopee.com.br/product/1337281722/22298585774",
       "titulo": "Compressor portátil para calibrar pneus e emergências automo",
-      "slot": 10
+      "slot": 10,
+      "foto_site_ok": true
     },
     {
       "chave": "mercadolivre:MLB23347882",
@@ -1398,7 +1418,8 @@
       "data": "2026-10-15T10:25-03:00",
       "link": "https://meli.la/2D8R1xr",
       "link_produto": "https://meli.la/2D8R1xr",
-      "titulo": "Relógio prateado para o dia a dia"
+      "titulo": "Relógio prateado para o dia a dia",
+      "foto_site_ok": true
     },
     {
       "chave": "amazon:B08LP3JV5J",
@@ -1408,7 +1429,8 @@
       "link": "https://link.amazon/B0cyKMdY6",
       "link_produto": "https://link.amazon/B0cyKMdY6",
       "titulo": "Alicate de pressão para fixar peças e cortes",
-      "slot": 11
+      "slot": 11,
+      "foto_site_ok": true
     },
     {
       "chave": "amazon:B07LGZM6JC",
@@ -1418,7 +1440,8 @@
       "link": "https://link.amazon/B03KaPhR1",
       "link_produto": "https://link.amazon/B03KaPhR1",
       "titulo": "Caixa térmica grande para bebidas e alimentos na praia",
-      "slot": 12
+      "slot": 12,
+      "foto_site_ok": true
     },
     {
       "chave": "amazon:B0BHL6FKYY",
@@ -1427,7 +1450,8 @@
       "data": "2026-10-15T13:51-03:00",
       "link": "https://link.amazon/B0cTnbVAl",
       "link_produto": "https://link.amazon/B0cTnbVAl",
-      "slot": 13
+      "slot": 13,
+      "foto_site_ok": true
     },
     {
       "chave": "amazon:B017SN1OI8",
@@ -1437,7 +1461,8 @@
       "link": "https://link.amazon/B0a7lwMEU",
       "link_produto": "https://link.amazon/B0a7lwMEU",
       "titulo": "Relógio em aço com cronógrafo para o dia a dia",
-      "slot": 14
+      "slot": 14,
+      "foto_site_ok": true
     },
     {
       "chave": "mercadolivre:MLB79915624",
@@ -1447,7 +1472,8 @@
       "link": "https://meli.la/1bB8SKy",
       "link_produto": "https://meli.la/1bB8SKy",
       "titulo": "Kit de ferramentas para reparos e manutenções caseiras",
-      "slot": 15
+      "slot": 15,
+      "foto_site_ok": true
     },
     {
       "chave": "amazon:B0F677L8R5",
@@ -1456,7 +1482,8 @@
       "data": "2026-10-15T15:39-03:00",
       "link": "https://link.amazon/B0czdyOTy",
       "link_produto": "https://link.amazon/B0czdyOTy",
-      "titulo": "Furadeira de impacto potente"
+      "titulo": "Furadeira de impacto potente",
+      "foto_site_ok": true
     },
     {
       "chave": "amazon:B0GVW8464B",
@@ -1465,7 +1492,8 @@
       "data": "2026-10-15T15:46-03:00",
       "link": "https://link.amazon/B0hATRD5e",
       "link_produto": "https://link.amazon/B0hATRD5e",
-      "titulo": "TV e soundbar para som e imagem integrados"
+      "titulo": "TV e soundbar para som e imagem integrados",
+      "foto_site_ok": true
     },
     {
       "chave": "mercadolivre:MLB18725308",
@@ -1474,7 +1502,8 @@
       "data": "2026-10-15T15:54-03:00",
       "link": "https://meli.la/2KXnqv7",
       "link_produto": "https://meli.la/2KXnqv7",
-      "titulo": "Creatina para render mais"
+      "titulo": "Creatina para render mais",
+      "foto_site_ok": true
     },
     {
       "chave": "shopee:1101226660.21999087953",
@@ -1484,7 +1513,8 @@
       "link": "https://s.shopee.com.br/9Kiq4tNYee",
       "link_produto": "https://shopee.com.br/product/1101226660/21999087953",
       "titulo": "Par de alto-falantes JBL para o som do carro",
-      "slot": 16
+      "slot": 16,
+      "foto_site_ok": true
     },
     {
       "chave": "amazon:B0DXF8MFR2",
@@ -1494,7 +1524,8 @@
       "link": "https://link.amazon/B08XneOZz",
       "link_produto": "https://link.amazon/B08XneOZz",
       "titulo": "Mochila com cordão para academia e viagens leves",
-      "slot": 17
+      "slot": 17,
+      "foto_site_ok": true
     },
     {
       "chave": "amazon:B01JO75X6K",
@@ -1503,7 +1534,8 @@
       "data": "2026-10-15T17:51-03:00",
       "link": "https://link.amazon/B08mwh9Vp",
       "link_produto": "https://link.amazon/B08mwh9Vp",
-      "titulo": "Relógio Timex em couro para o dia a dia"
+      "titulo": "Relógio Timex em couro para o dia a dia",
+      "foto_site_ok": true
     },
     {
       "chave": "mercadolivre:MLB4004443475",
@@ -1512,7 +1544,8 @@
       "data": "2026-10-15T17:53-03:00",
       "link": "https://meli.la/1wVDqot",
       "link_produto": "https://meli.la/1wVDqot",
-      "titulo": "Camisetas dry fit leves para treinar com conforto"
+      "titulo": "Camisetas dry fit leves para treinar com conforto",
+      "foto_site_ok": true
     },
     {
       "chave": "shopee:1620616375.23194887818",
@@ -1522,7 +1555,8 @@
       "link": "https://s.shopee.com.br/2VsWGx81Ve",
       "link_produto": "https://shopee.com.br/product/1620616375/23194887818",
       "titulo": "Aparador sem fio para cabelo e barba",
-      "slot": 18
+      "slot": 18,
+      "foto_site_ok": true
     },
     {
       "chave": "mercadolivre:MLB64095565",
@@ -1531,7 +1565,8 @@
       "data": "2026-10-15T18:49-03:00",
       "link": "https://meli.la/1XoiniW",
       "link_produto": "https://meli.la/1XoiniW",
-      "titulo": "Cafeteira e torradeira que agilizam suas manhãs"
+      "titulo": "Cafeteira e torradeira que agilizam suas manhãs",
+      "foto_site_ok": true
     },
     {
       "chave": "shopee:295737745.23307273588",
@@ -1540,7 +1575,8 @@
       "data": "2026-10-15T19:14-03:00",
       "link": "https://s.shopee.com.br/8AWsjXjyR6",
       "link_produto": "https://shopee.com.br/product/295737745/23307273588",
-      "titulo": "Aparador dez em um para cabelo e barba"
+      "titulo": "Aparador dez em um para cabelo e barba",
+      "foto_site_ok": true
     },
     {
       "chave": "amazon:B0GCZYJNLJ",
@@ -1550,7 +1586,8 @@
       "link": "https://link.amazon/B0hLMVKVy",
       "link_produto": "https://link.amazon/B0hLMVKVy",
       "titulo": "Power bank de alta capacidade para carregar o celular",
-      "slot": 19
+      "slot": 19,
+      "foto_site_ok": true
     },
     {
       "chave": "shopee:1509466431.43809108037",
@@ -1560,7 +1597,8 @@
       "link": "https://s.shopee.com.br/40hK7onMzY",
       "link_produto": "https://shopee.com.br/product/1509466431/43809108037",
       "titulo": "Ferramenta para cortes e desbastes em metal e alvenaria",
-      "slot": 20
+      "slot": 20,
+      "foto_site_ok": true
     },
     {
       "chave": "mercadolivre:MLB2818208621",
@@ -1570,7 +1608,8 @@
       "link": "https://meli.la/1ii92mv",
       "link_produto": "https://meli.la/1ii92mv",
       "titulo": "Lanterna tática recarregável para iluminação de alta potênci",
-      "slot": 21
+      "slot": 21,
+      "foto_site_ok": true
     },
     {
       "chave": "shopee:696313634.18196991700",
@@ -1579,7 +1618,8 @@
       "data": "2026-10-15T21:30-03:00",
       "link": "https://s.shopee.com.br/6q1VaWoQcf",
       "link_produto": "https://shopee.com.br/product/696313634/18196991700",
-      "titulo": "Fonte robusta para alimentar seu som automotivo"
+      "titulo": "Fonte robusta para alimentar seu som automotivo",
+      "foto_site_ok": true
     },
     {
       "chave": "amazon:B0HF1LQFDD",
@@ -1588,7 +1628,8 @@
       "data": "2026-10-15T21:59-03:00",
       "link": "https://link.amazon/B0gpEKydS",
       "link_produto": "https://link.amazon/B0gpEKydS",
-      "titulo": "Garrafa térmica Stanley para manter a água gelada"
+      "titulo": "Garrafa térmica Stanley para manter a água gelada",
+      "foto_site_ok": true
     },
     {
       "chave": "shopee:333540705.23494070884",
@@ -1597,7 +1638,8 @@
       "data": "2026-10-15T22:00-03:00",
       "link": "https://s.shopee.com.br/3LRd5XjwkI",
       "link_produto": "https://shopee.com.br/product/333540705/23494070884",
-      "titulo": "Lavadora de alta pressão para limpeza pesada em casa"
+      "titulo": "Lavadora de alta pressão para limpeza pesada em casa",
+      "foto_site_ok": true
     },
     {
       "chave": "mercadolivre:MLB4770821247",
@@ -1606,7 +1648,8 @@
       "data": "2026-10-15T22:04-03:00",
       "link": "https://meli.la/1cU5Jk2",
       "link_produto": "https://meli.la/1cU5Jk2",
-      "titulo": "Chave de impacto para apertar parafusos pesados na oficina"
+      "titulo": "Chave de impacto para apertar parafusos pesados na oficina",
+      "foto_site_ok": true
     },
     {
       "chave": "shopee:1485783605.23493921552",
@@ -1616,7 +1659,8 @@
       "link": "https://s.shopee.com.br/qkINRKX3M",
       "link_produto": "https://shopee.com.br/product/1485783605/23493921552",
       "titulo": "Trena de aço carbono para medições em reformas",
-      "slot": 22
+      "slot": 22,
+      "foto_site_ok": true
     },
     {
       "chave": "mercadolivre:MLB21362449",
@@ -1626,7 +1670,8 @@
       "link": "https://meli.la/19BLAXs",
       "link_produto": "https://meli.la/19BLAXs",
       "titulo": "Pré-treino para dar mais energia nos exercícios",
-      "slot": 23
+      "slot": 23,
+      "foto_site_ok": true
     },
     {
       "chave": "shopee:995022276.23798435779",
@@ -1635,7 +1680,8 @@
       "data": "2026-10-16T00:54-03:00",
       "link": "https://s.shopee.com.br/113iZkJtiR",
       "link_produto": "https://shopee.com.br/product/995022276/23798435779",
-      "titulo": "Grampeador com trena para tapeçaria e pequenos reparos"
+      "titulo": "Grampeador com trena para tapeçaria e pequenos reparos",
+      "foto_site_ok": true
     },
     {
       "chave": "mercadolivre:MLB47773451",
@@ -1644,7 +1690,8 @@
       "data": "2026-10-16T08:06-03:00",
       "link": "https://meli.la/2f5WXFQ",
       "link_produto": "https://meli.la/2f5WXFQ",
-      "titulo": "Smartwatch com Alexa e chamadas para o pulso"
+      "titulo": "Smartwatch com Alexa e chamadas para o pulso",
+      "foto_site_ok": true
     },
     {
       "chave": "shopee:1638805020.58264360363",
@@ -1654,7 +1701,8 @@
       "link": "https://s.shopee.com.br/gQrjbtHre",
       "link_produto": "https://shopee.com.br/product/1638805020/58264360363",
       "titulo": "Halteres ajustáveis para montar sua academia em casa",
-      "slot": 8
+      "slot": 8,
+      "foto_site_ok": true
     },
     {
       "chave": "mercadolivre:MLB79752041",
@@ -1663,7 +1711,8 @@
       "data": "2026-10-16T08:50-03:00",
       "link": "https://meli.la/2EeNYK3",
       "link_produto": "https://meli.la/2EeNYK3",
-      "titulo": "Fragrância fresca ideal para dias de calor"
+      "titulo": "Fragrância fresca ideal para dias de calor",
+      "foto_site_ok": true
     },
     {
       "chave": "shopee:1368787663.23597895251",
@@ -1673,7 +1722,8 @@
       "link": "https://s.shopee.com.br/6L5ErPkQ1l",
       "link_produto": "https://shopee.com.br/product/1368787663/23597895251",
       "titulo": "Carregador portátil para manter o celular com carga",
-      "slot": 9
+      "slot": 9,
+      "foto_site_ok": true
     },
     {
       "chave": "amazon:B07793T84W",
@@ -1683,7 +1733,8 @@
       "link": "https://link.amazon/B0gPY28du",
       "link_produto": "https://link.amazon/B0gPY28du",
       "titulo": "Garrafa térmica pequena para manter o café quente",
-      "slot": 9.1
+      "slot": 9.1,
+      "foto_site_ok": true
     },
     {
       "chave": "mercadolivre:MLB77830516",
@@ -1692,7 +1743,8 @@
       "data": "2026-10-16T09:45-03:00",
       "link": "https://meli.la/2E81dt9",
       "link_produto": "https://meli.la/2E81dt9",
-      "titulo": "Spinning para manter o cardio em dia"
+      "titulo": "Spinning para manter o cardio em dia",
+      "foto_site_ok": true
     },
     {
       "chave": "mercadolivre:MLB44745787",
@@ -1702,7 +1754,8 @@
       "link": "https://meli.la/1An4KWG",
       "link_produto": "https://meli.la/1An4KWG",
       "titulo": "Relógio analógico prateado para uso diário",
-      "slot": 10
+      "slot": 10,
+      "foto_site_ok": true
     },
     {
       "chave": "shopee:874482610.58209603177",
@@ -1712,7 +1765,8 @@
       "link": "https://s.shopee.com.br/5VW7p5ZoKL",
       "link_produto": "https://shopee.com.br/product/874482610/58209603177",
       "titulo": "Luva antiderrapante para proteger as mãos no treino",
-      "slot": 10.1
+      "slot": 10.1,
+      "foto_site_ok": true
     },
     {
       "chave": "mercadolivre:MLB25371983",
@@ -1722,7 +1776,8 @@
       "link": "https://meli.la/2HT6MGa",
       "link_produto": "https://meli.la/2HT6MGa",
       "titulo": "Lavadora de alta pressão para limpeza de quintal e garagem",
-      "slot": 11
+      "slot": 11,
+      "foto_site_ok": true
     },
     {
       "chave": "mercadolivre:MLB4296855769",
@@ -1731,7 +1786,8 @@
       "data": "2026-10-16T11:42-03:00",
       "link": "https://meli.la/2xAHV4B",
       "link_produto": "https://produto.mercadolivre.com.br/MLB-4296855769-camiseta-dryfit-masculina-academia-treino-proteco-uv-_JM?pdp_filters=item_id%3AMLB4296855769",
-      "titulo": "Camiseta UV para treinar ao ar livre"
+      "titulo": "Camiseta UV para treinar ao ar livre",
+      "foto_site_ok": true
     },
     {
       "chave": "shopee:834213091.58263387989",
@@ -1741,7 +1797,8 @@
       "link": "https://s.shopee.com.br/6VOfbJn6lL",
       "link_produto": "https://shopee.com.br/product/834213091/58263387989",
       "titulo": "Pré-treino para dar mais energia nos exercícios",
-      "slot": 11.1
+      "slot": 11.1,
+      "foto_site_ok": true
     },
     {
       "chave": "mercadolivre:MLB7715359186",
@@ -1751,7 +1808,8 @@
       "link": "https://meli.la/2GThwrL",
       "link_produto": "https://meli.la/2GThwrL",
       "titulo": "Relógio clássico para compor o visual casual masculino",
-      "slot": 12
+      "slot": 12,
+      "foto_site_ok": true
     },
     {
       "chave": "shopee:1346435001.21098276188",
@@ -1761,7 +1819,9 @@
       "link": "https://s.shopee.com.br/7VHCn9jIjd",
       "link_produto": "https://shopee.com.br/product/1346435001/21098276188",
       "titulo": "Pré-treino para dar mais energia nos exercícios",
-      "slot": 12.1
+      "slot": 12.1,
+      "foto": "https://raw.githubusercontent.com/guisousaoliveira/grupo-achados/main/dados/fotos/ef09d0554a.jpg",
+      "foto_site_ok": true
     },
     {
       "chave": "mercadolivre:MLB68269465",
@@ -1770,7 +1830,8 @@
       "data": "2026-10-16T12:43-03:00",
       "link": "https://meli.la/2DahZyA",
       "link_produto": "https://www.mercadolivre.com.br/relogio-de-pulso-mondaine-com-corria-de-silicone-cor-preto-fondo-branco-bisel-dourado/p/MLB68269465",
-      "titulo": "Mondaine com pulseira de silicone para uso diário"
+      "titulo": "Mondaine com pulseira de silicone para uso diário",
+      "foto_site_ok": true
     },
     {
       "chave": "mercadolivre:MLB5060820475",
@@ -1780,7 +1841,8 @@
       "link": "https://meli.la/2ixSjLv",
       "link_produto": "https://meli.la/2ixSjLv",
       "titulo": "Moedor elétrico para triturar grãos e temperos em casa",
-      "slot": 12.2
+      "slot": 12.2,
+      "foto_site_ok": true
     },
     {
       "chave": "amazon:B08R91NTHY",
@@ -1790,7 +1852,9 @@
       "link": "https://www.amazon.com.br/dp/B08R91NTHY?tag=alphadominu09-20",
       "link_produto": "https://www.amazon.com.br/dp/B08R91NTHY?tag=alphadominu09-20",
       "titulo": "Air fryer oven espaçosa para refeições completas",
-      "slot": 13
+      "slot": 13,
+      "foto": "https://raw.githubusercontent.com/guisousaoliveira/grupo-achados/main/dados/fotos/8b7ca91dc9.jpg",
+      "foto_site_ok": true
     },
     {
       "chave": "mercadolivre:MLB3250794241",
@@ -1800,7 +1864,8 @@
       "link": "https://meli.la/2SoTzRd",
       "link_produto": "https://meli.la/2SoTzRd",
       "titulo": "Shorts de malha fria para dormir sem calor",
-      "slot": 13.1
+      "slot": 13.1,
+      "foto_site_ok": true
     },
     {
       "chave": "amazon:B0FPG8KLS8",
@@ -1810,7 +1875,9 @@
       "link": "https://link.amazon/B09GxuZZ1",
       "link_produto": "https://link.amazon/B09GxuZZ1",
       "titulo": "Huawei Watch para treinar semanas sem precisar carregar",
-      "slot": 13.2
+      "slot": 13.2,
+      "foto": "https://raw.githubusercontent.com/guisousaoliveira/grupo-achados/main/dados/fotos/9ca6c75422.jpg",
+      "foto_site_ok": true
     },
     {
       "chave": "mercadolivre:MLB1010954920",
@@ -1820,7 +1887,8 @@
       "link": "https://meli.la/2D8vKNH",
       "link_produto": "https://meli.la/2D8vKNH",
       "titulo": "Cuecas boxer sem costura que não incomodam",
-      "slot": 13.3
+      "slot": 13.3,
+      "foto_site_ok": true
     },
     {
       "chave": "mercadolivre:MLB5579293332",
@@ -1830,7 +1898,8 @@
       "link": "https://meli.la/32zWAwY",
       "link_produto": "https://produto.mercadolivre.com.br/MLB-5579293332-kit-com-3-conjuntos-academia-masculino-dry-fit-shortscamisa-_JM?pdp_filters=item_id%3AMLB5579293332",
       "titulo": "Conjuntos dry fit respiráveis ideais nos treinos diários",
-      "slot": 14
+      "slot": 14,
+      "foto_site_ok": true
     },
     {
       "chave": "amazon:B0FLQ54RHB",
@@ -1840,7 +1909,9 @@
       "link": "https://www.amazon.com.br/dp/B0FLQ54RHB?tag=alphadominu09-20",
       "link_produto": "https://www.amazon.com.br/dp/B0FLQ54RHB?tag=alphadominu09-20",
       "titulo": "GoPro HERO13 para filmar esportes e aventuras",
-      "slot": 14.1
+      "slot": 14.1,
+      "foto": "https://raw.githubusercontent.com/guisousaoliveira/grupo-achados/main/dados/fotos/83394b0029.jpg",
+      "foto_site_ok": true
     },
     {
       "chave": "mercadolivre:MLB68717302",
@@ -1849,7 +1920,8 @@
       "data": "2026-10-16T14:38-03:00",
       "link": "https://meli.la/2FSaXRh",
       "link_produto": "https://www.mercadolivre.com.br/fritadeira-airfryer-digital-serie-2000-xl-na23900-preto/p/MLB68717302",
-      "titulo": "Airfryer espaçosa para agilizar a rotina na cozinha"
+      "titulo": "Airfryer espaçosa para agilizar a rotina na cozinha",
+      "foto_site_ok": true
     },
     {
       "chave": "mercadolivre:MLB7013067090",
@@ -1859,7 +1931,8 @@
       "link": "https://meli.la/2ay1cCW",
       "link_produto": "https://www.mercadolivre.com.br/tenis-masculino-court-classic-clean-s-puma/up/MLBU4130437583?pdp_filters=item_id%3AMLB7013067090",
       "titulo": "Tênis Puma todo preto fácil de combinar",
-      "slot": 14.2
+      "slot": 14.2,
+      "foto_site_ok": true
     },
     {
       "chave": "mercadolivre:MLB7245332674",
@@ -1869,7 +1942,8 @@
       "link": "https://meli.la/2CHk6Te",
       "link_produto": "https://www.mercadolivre.com.br/relogio-technos-masculino-steel-de-pulso-quartz-original/up/MLBU4409376975?pdp_filters=item_id%3AMLB7245332674",
       "titulo": "Technos em aço versátil para qualquer ocasião",
-      "slot": 14.3
+      "slot": 14.3,
+      "foto_site_ok": true
     },
     {
       "chave": "amazon:B0GY9TRH2V",
@@ -1879,7 +1953,9 @@
       "link": "https://www.amazon.com.br/dp/B0GY9TRH2V?tag=alphadominu09-20",
       "link_produto": "https://www.amazon.com.br/dp/B0GY9TRH2V?tag=alphadominu09-20",
       "titulo": "Drone DJI com gravação 4K e ActiveTrack",
-      "slot": 15
+      "slot": 15,
+      "foto": "https://raw.githubusercontent.com/guisousaoliveira/grupo-achados/main/dados/fotos/93a6f5cb6f.jpg",
+      "foto_site_ok": true
     },
     {
       "chave": "mercadolivre:MLB5877188254",
@@ -1889,7 +1965,8 @@
       "link": "https://meli.la/24CYbax",
       "link_produto": "https://produto.mercadolivre.com.br/MLB-5877188254-kit-3-shorts-2-em-1-masculino-de-compresso-corrida-academia-_JM?pdp_filters=item_id%3AMLB5877188254",
       "titulo": "Bermudas com compressão interna para corrida e academia",
-      "slot": 15.1
+      "slot": 15.1,
+      "foto_site_ok": true
     },
     {
       "chave": "amazon:B0977QVRJS",
@@ -1899,7 +1976,9 @@
       "link": "https://www.amazon.com.br/dp/B0977QVRJS?tag=alphadominu09-20",
       "link_produto": "https://www.amazon.com.br/dp/B0977QVRJS?tag=alphadominu09-20",
       "titulo": "Timex com mostrador de fácil leitura no escuro",
-      "slot": 15.2
+      "slot": 15.2,
+      "foto": "https://raw.githubusercontent.com/guisousaoliveira/grupo-achados/main/dados/fotos/c809a804cf.jpg",
+      "foto_site_ok": true
     },
     {
       "chave": "mercadolivre:MLB7218965676",
@@ -1909,7 +1988,8 @@
       "link": "https://meli.la/1cHHDPs",
       "link_produto": "https://www.mercadolivre.com.br/relogio-poedagar-suico--masculino-aco-inox-old-money-ccaixa/up/MLBU4370134385?pdp_filters=item_id%3AMLB7218965676",
       "titulo": "Visual old money com acabamento em aço inox",
-      "slot": 15.3
+      "slot": 15.3,
+      "foto_site_ok": true
     },
     {
       "chave": "mercadolivre:MLB5226420562",
@@ -1918,7 +1998,8 @@
       "data": "2026-10-16T16:01-03:00",
       "link": "https://meli.la/2DqDMRn",
       "link_produto": "https://produto.mercadolivre.com.br/MLB-5226420562-oculos-de-sol-uv400-original-acetato-unissex-premium-case-_JM?pdp_filters=item_id%3AMLB5226420562",
-      "titulo": "Proteção solar UV400 com armação em acetato"
+      "titulo": "Proteção solar UV400 com armação em acetato",
+      "foto_site_ok": true
     },
     {
       "chave": "mercadolivre:MLB69665003",
@@ -1927,7 +2008,8 @@
       "data": "2026-10-16T16:02-03:00",
       "link": "https://meli.la/1aFKrxa",
       "link_produto": "https://www.mercadolivre.com.br/maquina-de-corte-acabamento-profissional-com-aparador-de-nariz-cabelo-pelo-barbear-maquininha-detalhes-sem-fio-preto-catalogo/p/MLB69665003",
-      "titulo": "Máquina para cabelo e barba com aparador nasal"
+      "titulo": "Máquina para cabelo e barba com aparador nasal",
+      "foto_site_ok": true
     },
     {
       "chave": "mercadolivre:MLB3756911067",
@@ -1937,7 +2019,8 @@
       "link": "https://meli.la/1a3S5Zc",
       "link_produto": "https://produto.mercadolivre.com.br/MLB-3756911067-kit-6-cuecas-boxer-polo-wear-microfibra-sem-costura-original-_JM?pdp_filters=item_id%3AMLB3756911067",
       "titulo": "Kit Polo Wear em microfibra para uso diário",
-      "slot": 16
+      "slot": 16,
+      "foto_site_ok": true
     },
     {
       "chave": "mercadolivre:MLB5230772384",
@@ -1947,7 +2030,8 @@
       "link": "https://meli.la/2jNUBhg",
       "link_produto": "https://produto.mercadolivre.com.br/MLB-5230772384-6-pares-meias-puma-cano-medio-alto-atoalhada-academia-sport-_JM?pdp_filters=item_id%3AMLB5230772384",
       "titulo": "Meias Puma atoalhadas para treinar com conforto",
-      "slot": 16.1
+      "slot": 16.1,
+      "foto_site_ok": true
     },
     {
       "chave": "amazon:B00YTY4AB8",
@@ -1957,7 +2041,9 @@
       "link": "https://www.amazon.com.br/dp/B00YTY4AB8?tag=alphadominu09-20",
       "link_produto": "https://www.amazon.com.br/dp/B00YTY4AB8?tag=alphadominu09-20",
       "titulo": "Timex de couro clássico para o dia a dia",
-      "slot": 16.2
+      "slot": 16.2,
+      "foto": "https://raw.githubusercontent.com/guisousaoliveira/grupo-achados/main/dados/fotos/c2179140aa.jpg",
+      "foto_site_ok": true
     },
     {
       "chave": "shopee:1439190466.23898836118",
@@ -1967,7 +2053,8 @@
       "link": "https://s.shopee.com.br/1qcr5LJI2b",
       "link_produto": "https://shopee.com.br/product/1439190466/23898836118",
       "titulo": "Mochila transversal impermeável para carregar o essencial",
-      "slot": 16.3
+      "slot": 16.3,
+      "foto_site_ok": true
     },
     {
       "chave": "mercadolivre:MLB32101995",
@@ -1977,7 +2064,8 @@
       "link": "https://meli.la/1zZY8kg",
       "link_produto": "https://www.mercadolivre.com.br/relogio-digital-despertador-mesa-cabeceira-quarto-idoso-cor-branco-micgeek/p/MLB32101995",
       "titulo": "Relógio digital para ver as horas no quarto",
-      "slot": 17
+      "slot": 17,
+      "foto_site_ok": true
     },
     {
       "chave": "shopee:1725907431.58215881722",
@@ -1987,7 +2075,8 @@
       "link": "https://s.shopee.com.br/8V9l2xPyU4",
       "link_produto": "https://shopee.com.br/product/1725907431/58215881722",
       "titulo": "Bicicleta ergométrica para pedalar em casa com praticidade",
-      "slot": 17.1
+      "slot": 17.1,
+      "foto_site_ok": true
     },
     {
       "chave": "mercadolivre:MLB3409386341",
@@ -1997,7 +2086,8 @@
       "link": "https://meli.la/1hbJzq8",
       "link_produto": "https://www.mercadolivre.com.br/relogio-casio-digital-vintage-prata-unissex-original-barato/up/MLBU1444693825?pdp_filters=item_id%3AMLB3409386341",
       "titulo": "Relógio vintage prata para o dia a dia",
-      "slot": 17.2
+      "slot": 17.2,
+      "foto_site_ok": true
     },
     {
       "chave": "amazon:B0GXX1XDWZ",
@@ -2007,7 +2097,8 @@
       "link": "https://www.amazon.com.br/dp/B0GXX1XDWZ?tag=alphadominu09-20",
       "link_produto": "https://www.amazon.com.br/dp/B0GXX1XDWZ?tag=alphadominu09-20",
       "titulo": "Cafeteira elétrica para preparar o café do dia a dia",
-      "slot": 17.3
+      "slot": 17.3,
+      "foto_site_ok": true
     },
     {
       "chave": "shopee:400888689.54165736119",
@@ -2017,7 +2108,8 @@
       "link": "https://s.shopee.com.br/AAHz21SMRM",
       "link_produto": "https://shopee.com.br/product/400888689/54165736119",
       "titulo": "Termogênico com cafeína e vitaminas para dar energia no trei",
-      "slot": 18
+      "slot": 18,
+      "foto_site_ok": true
     },
     {
       "chave": "mercadolivre:MLB48812123",
@@ -2027,7 +2119,8 @@
       "link": "https://meli.la/2U2VHix",
       "link_produto": "https://www.mercadolivre.com.br/whey-protein-bold-sabor-cookies-cream-900g/p/MLB48812123",
       "titulo": "Whey sabor cookies para bater a proteína diária",
-      "slot": 18.1
+      "slot": 18.1,
+      "foto_site_ok": true
     },
     {
       "chave": "amazon:B0FPBQQ4TN",
@@ -2037,7 +2130,8 @@
       "link": "https://www.amazon.com.br/dp/B0FPBQQ4TN?tag=alphadominu09-20",
       "link_produto": "https://www.amazon.com.br/dp/B0FPBQQ4TN?tag=alphadominu09-20",
       "titulo": "Smart TV 4K com Ambilight para a sala",
-      "slot": 18.2
+      "slot": 18.2,
+      "foto_site_ok": true
     },
     {
       "chave": "mercadolivre:MLB54422844",
@@ -2047,7 +2141,8 @@
       "link": "https://meli.la/2CNsvuM",
       "link_produto": "https://www.mercadolivre.com.br/relogio-masculino-classico-pulseira-prata-correia-prateada-bisel-prateado-fundo-azul-marinho-saint-germain-42mm-elegante-detalhes-bronze/p/MLB54422844",
       "titulo": "Relógio prateado clássico para o dia a dia",
-      "slot": 18.3
+      "slot": 18.3,
+      "foto_site_ok": true
     },
     {
       "chave": "amazon:B0FPBP6G49",
@@ -2057,7 +2152,9 @@
       "link": "https://www.amazon.com.br/dp/B0FPBP6G49?tag=alphadominu09-20",
       "link_produto": "https://www.amazon.com.br/dp/B0FPBP6G49?tag=alphadominu09-20",
       "titulo": "Smart TV 4K com Ambilight para a sala",
-      "slot": 19
+      "slot": 19,
+      "foto": "https://raw.githubusercontent.com/guisousaoliveira/grupo-achados/main/dados/fotos/339ab23d44.jpg",
+      "foto_site_ok": true
     },
     {
       "chave": "amazon:B0FNXXLVFJ",
@@ -2067,7 +2164,9 @@
       "link": "https://www.amazon.com.br/dp/B0FNXXLVFJ?tag=alphadominu09-20",
       "link_produto": "https://www.amazon.com.br/dp/B0FNXXLVFJ?tag=alphadominu09-20",
       "titulo": "Smart TV HD de 32 polegadas para o quarto",
-      "slot": 19.1
+      "slot": 19.1,
+      "foto": "https://raw.githubusercontent.com/guisousaoliveira/grupo-achados/main/dados/fotos/93d7244f09.jpg",
+      "foto_site_ok": true
     },
     {
       "chave": "shopee:1768728309.23295161236",
@@ -2077,7 +2176,8 @@
       "link": "https://s.shopee.com.br/4fx2DQr1p5",
       "link_produto": "https://shopee.com.br/product/1768728309/23295161236",
       "titulo": "Barra de parede para treinar calistenia em casa",
-      "slot": 19.2
+      "slot": 19.2,
+      "foto_site_ok": true
     },
     {
       "chave": "amazon:B0HCRDWF9C",
@@ -2089,9 +2189,10 @@
       "de": 2099.99,
       "por": 1875.0,
       "conferido": true,
-      "foto": "https://images-na.ssl-images-amazon.com/images/P/B0HCRDWF9C.01.LZZZZZZZ.jpg",
+      "foto": "https://raw.githubusercontent.com/guisousaoliveira/grupo-achados/main/dados/fotos/46b7199c24.jpg",
       "secao": "tech",
-      "slot": 19.3
+      "slot": 19.3,
+      "foto_site_ok": true
     },
     {
       "chave": "mercadolivre:MLB65063041",
@@ -2104,7 +2205,8 @@
       "por": 159.0,
       "conferido": true,
       "foto": "https://http2.mlstatic.com/D_NQ_NP_759638-MLA105504310884_012026-O.webp",
-      "secao": "tech"
+      "secao": "tech",
+      "foto_site_ok": true
     },
     {
       "chave": "amazon:B0H8R6S35S",
@@ -2117,8 +2219,9 @@
       "por": 169.0,
       "pix": true,
       "conferido": true,
-      "foto": "https://images-na.ssl-images-amazon.com/images/P/B0H8R6S35S.01.LZZZZZZZ.jpg",
-      "secao": "academia"
+      "foto": "https://raw.githubusercontent.com/guisousaoliveira/grupo-achados/main/dados/fotos/3baab2fc2c.jpg",
+      "secao": "academia",
+      "foto_site_ok": true
     },
     {
       "chave": "shopee:1343438067.58264124937",
@@ -2132,7 +2235,8 @@
       "por": 59.9,
       "foto": "https://cf.shopee.com.br/file/sg-11134201-8259d-mqll8smzcuf6af",
       "secao": "tech",
-      "slot": 20
+      "slot": 20,
+      "foto_site_ok": true
     },
     {
       "chave": "mercadolivre:MLB4239949261",
@@ -2148,7 +2252,8 @@
       "conferido": true,
       "foto": "https://http2.mlstatic.com/D_NQ_NP_877163-MLB108958990473_032026-O.webp",
       "secao": "academia",
-      "slot": 20.1
+      "slot": 20.1,
+      "foto_site_ok": true
     },
     {
       "chave": "shopee:1604777172.57757302977",
@@ -2162,7 +2267,8 @@
       "por": 77.98,
       "foto": "https://cf.shopee.com.br/file/sg-11134201-82606-mlx59strsr9c41",
       "secao": "carro",
-      "slot": 20.2
+      "slot": 20.2,
+      "foto_site_ok": true
     }
   ],
   "slots_usados": {
@@ -2290,22 +2396,22 @@
   "proximo_id": 712,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 85278,
-      "lobaopromo": 190576,
-      "gatunopromos": 125801,
-      "pobregram": 42039,
-      "urubupromo": 41797,
+      "xetdaspromocoes": 85279,
+      "lobaopromo": 190580,
+      "gatunopromos": 125803,
+      "pobregram": 42041,
+      "urubupromo": 41798,
       "tudonapromo": 102221,
-      "promonocontext": 127784,
-      "promooeasy": 223189,
-      "aquitempechincha": 282237,
+      "promonocontext": 127785,
+      "promooeasy": 223198,
+      "aquitempechincha": 282241,
       "infoBRpromos": 67718,
-      "boletando": 76856,
+      "boletando": 76857,
       "promotop": 260393,
       "achadosdotb": 11787
     },
     "dia": "2026-10-16",
-    "hoje": 124,
+    "hoje": 129,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -4468,31 +4574,36 @@
       "amazon:B0C9QSV82F",
       "mercadolivre:MLB48946085",
       "amazon:B000CNKITS",
-      "mercadolivre:MLB6574790574"
+      "mercadolivre:MLB6574790574",
+      "amazon:B0B8PDL7D4",
+      "amazon:B0FJMHMCBZ",
+      "mercadolivre:MLB6907847024",
+      "mercadolivre:MLB58330663",
+      "mercadolivre:MLB64882992"
     ],
     "ultima": {
-      "em": "2026-10-16T20:30:23-03:00",
+      "em": "2026-10-16T20:40:20-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 29,
-      "do_nicho": 6,
+      "posts_novos": 39,
+      "do_nicho": 9,
       "repetidas": 4,
-      "novas": 1,
+      "novas": 4,
       "limite_dia": false,
       "repetidas_nome": 0,
-      "promobit": 1,
       "fora_do_nicho": 1,
+      "promobit": 1,
       "soltas": 0,
-      "na_peneira": 13
+      "na_peneira": 17
     },
     "hora": "2026-10-16T20",
-    "nesta_hora": 4,
+    "nesta_hora": 7,
     "promobit_hora": "2026-10-16T20",
-    "promobit_nesta_hora": 2,
-    "promobit_visto": 3120330,
+    "promobit_nesta_hora": 4,
+    "promobit_visto": 3120349,
     "nomes": [
       [
         [
@@ -7259,6 +7370,81 @@
         "palavra": "perfume masculino",
         "garimpado_em": "2026-10-16T20:30-03:00",
         "nota": 74.4
+      },
+      {
+        "loja": "amazon",
+        "chave": "amazon:B0B8PDL7D4",
+        "origem": "promobit",
+        "fonte": "promobit",
+        "link": "https://www.amazon.com.br/dp/B0B8PDL7D4?tag=alphadominu09-20",
+        "link_produto": "https://www.amazon.com.br/dp/B0B8PDL7D4?tag=alphadominu09-20",
+        "post_origem": "https://www.promobit.com.br/oferta/garrafa-termica-quick-flip-stanley-710ml-3120343/",
+        "link_canal": "https://www.promobit.com.br/Redirect/to/3120343/",
+        "nome": "Garrafa térmica Quick Flip Stanley|710ml",
+        "por": 167.0,
+        "foto": "https://m.media-amazon.com/images/I/41lDoNkNEcL._AC_SL1500_.jpg",
+        "foto_origem": "loja",
+        "palavra": "garrafa termica",
+        "garimpado_em": "2026-10-16T20:40-03:00",
+        "nota": 50.5
+      },
+      {
+        "loja": "mercadolivre",
+        "chave": "mercadolivre:MLB6907847024",
+        "origem": "lobaopromo",
+        "link": "https://www.mercadolivre.com.br/relogio-masculino-couro-aco-inoxidavel-preto-social/up/MLBU4045655127?pdp_filters=item_id%3AMLB6907847024&matt_word=alphapromo&matt_tool=59136903",
+        "link_produto": "https://www.mercadolivre.com.br/relogio-masculino-couro-aco-inoxidavel-preto-social/up/MLBU4045655127?pdp_filters=item_id%3AMLB6907847024",
+        "post_origem": "https://t.me/lobaopromo/190577",
+        "link_canal": "https://meli.la/2jHhjyJ",
+        "foto": "https://http2.mlstatic.com/D_NQ_NP_910571-MLB116279629539_082026-O.webp",
+        "foto_origem": "loja",
+        "nome": "Relogio Masculino Couro Aco Inoxidavel Preto Social Preto Prateado",
+        "de": 82.0,
+        "por": 30.0,
+        "lido_ia": true,
+        "cupom": "CUPOMON",
+        "preco_loja": 54.99,
+        "palavra": "relogio masculino",
+        "garimpado_em": "2026-10-16T20:40-03:00",
+        "nota": 91.8
+      },
+      {
+        "loja": "mercadolivre",
+        "chave": "mercadolivre:MLB58330663",
+        "origem": "promooeasy",
+        "link": "https://www.mercadolivre.com.br/caixa-de-som-bluetooth-portatil-go-essencial-2-jbl-vermelha-vermelho/p/MLB58330663?matt_word=alphapromo&matt_tool=59136903",
+        "link_produto": "https://www.mercadolivre.com.br/caixa-de-som-bluetooth-portatil-go-essencial-2-jbl-vermelha-vermelho/p/MLB58330663",
+        "post_origem": "https://t.me/promooeasy/223195",
+        "link_canal": "https://www.mercadolivre.com.br/caixa-de-som-bluetooth-portatil-go-essencial-2-jbl-vermelha-vermelho/p/MLB58330663?matt_word=promoeasynv&amp;matt_tool=88963738",
+        "foto": "https://cdn1.telesco.pe/file/gbDtuD7NySni7MKB_kVP81u9BsoHPPqjMZMXSJpR8bqK0-oQvoLY2t2C2DwFViJ0iTXBc2k985xcp2iQU-mMMkRy5R9NNF5xfnVo1rSN_oQ4vbzanaqqjg5JoFG9wuyJRPiidS4D_5PNKwpFntGa0sNaI3hU3VY44oHYyxqWBaVWE1PK64ZHmicuBn7x3QHQ7XHeMGG9aSFvCiyXASUlCPAa-iAlrbhNd2YCLo11NA0LfuYOPQbTxYhiEeMAiMxCzGVkq_fg-0t-itEgqWC3Pcv2J11fmK8oKwQtfrXVjJEusc5RX4PXd0F87RR2OUtl8xqfzDkqjuKNuIdd5lxblg.jpg",
+        "foto_origem": "canal",
+        "nome": "Caixa De Som Bluetooth Portátil Go Essencial 2 Jbl Vermelha",
+        "por": 172.0,
+        "lido_ia": true,
+        "sem_preco_loja": true,
+        "loja_abriu": false,
+        "palavra": "caixa de som",
+        "garimpado_em": "2026-10-16T20:40-03:00",
+        "nota": 20.6
+      },
+      {
+        "loja": "mercadolivre",
+        "chave": "mercadolivre:MLB64882992",
+        "origem": "promooeasy",
+        "link": "https://www.mercadolivre.com.br/mochila-back-to-campus-essentials-adidas-preto-black-white/p/MLB64882992?matt_word=alphapromo&matt_tool=59136903",
+        "link_produto": "https://www.mercadolivre.com.br/mochila-back-to-campus-essentials-adidas-preto-black-white/p/MLB64882992",
+        "post_origem": "https://t.me/promooeasy/223197",
+        "link_canal": "https://www.mercadolivre.com.br/mochila-back-to-campus-essentials-adidas-preto-black-white/p/MLB64882992?matt_word=promoeasynv&amp;matt_tool=88963738",
+        "foto": "https://cdn1.telesco.pe/file/C4AYrP2HC-DEulxQix4-vCq6jY9MXsq1GcL89fZlaqcebesaH24QNlc_MBTiHOu1G0ZmzqwYGYmrndYQ1Rrs-ATxWX3ZyjeVyN1cm6a0sCosjnnX58F7d27eLt10wrOxWohr2zVvZamb8Dt1cu08L3NOS8UocQlhmZeSWjLLNfgLa14h3V6FfeJ9J0HeWMKb2B2MZnaM41JzSTdSajFbd-dCGJoXE8hCrZV39R-u2Zyiuyucfmuo1vGO95n-in0Ink67qAtFQPb53BDXBpK-F1hWEvxDosx3iX1VAJyzuCqihzueYzf6jO39IXK_xJAt0Pj4GBDEWRra2TqSjWgfrQ.jpg",
+        "foto_origem": "canal",
+        "nome": "Mochila Back To Campus Essentials adidas Preto / Black / White",
+        "por": 183.0,
+        "lido_ia": true,
+        "sem_preco_loja": true,
+        "loja_abriu": false,
+        "palavra": "mochila",
+        "garimpado_em": "2026-10-16T20:40-03:00",
+        "nota": 36.0
       }
     ],
     "soltas_hora": "2026-10-16T20",
@@ -9393,5 +9579,5 @@
     }
   },
   "aviso_ml": "2026-10-16",
-  "vitrine_marca": "06b874a86f12"
+  "vitrine_marca": "5fde23d80786"
 }
