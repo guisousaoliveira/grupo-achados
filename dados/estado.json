@@ -2,26 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB5060820475",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/2ixSjLv",
-      "link_produto": "https://meli.la/2ixSjLv",
-      "post_origem": "https://t.me/lobaopromo/190103",
-      "link_canal": "https://meli.la/2nLFqGx",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_711739-MLB116169518447_082026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Moedor De Café Elétrico Triturador Aço Inox Grãos Temperos 110v",
-      "de": 78.0,
-      "por": 35.98,
-      "palavra": "moedor de cafe",
-      "garimpado_em": "2026-10-15T22:10-03:00",
-      "nota": 75.2,
-      "titulo": "Moedor elétrico para triturar grãos e temperos em casa",
-      "na_revisao_desde": "2026-10-16T00:14-03:00",
-      "aprovado_em": "2026-10-16T00:53-03:00"
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B08R91NTHY",
       "origem": "lobaopromo",
@@ -1857,6 +1837,16 @@
       "link": "https://meli.la/2DahZyA",
       "link_produto": "https://www.mercadolivre.com.br/relogio-de-pulso-mondaine-com-corria-de-silicone-cor-preto-fondo-branco-bisel-dourado/p/MLB68269465",
       "titulo": "Mondaine com pulseira de silicone para uso diário"
+    },
+    {
+      "chave": "mercadolivre:MLB5060820475",
+      "loja": "mercadolivre",
+      "nome": "Moedor De Café Elétrico Triturador Aço Inox Grãos Temperos 110v",
+      "data": "2026-10-16T12:50-03:00",
+      "link": "https://meli.la/2ixSjLv",
+      "link_produto": "https://meli.la/2ixSjLv",
+      "titulo": "Moedor elétrico para triturar grãos e temperos em casa",
+      "slot": 12.2
     }
   ],
   "slots_usados": {
@@ -1944,7 +1934,8 @@
       11,
       11.1,
       12,
-      12.1
+      12.1,
+      12.2
     ]
   },
   "shopee_buscado_em": "",
@@ -6584,6 +6575,19 @@
   "ultimos": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB5060820475",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/2ixSjLv",
+      "link_produto": "https://meli.la/2ixSjLv",
+      "post_origem": "https://t.me/lobaopromo/190103",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_711739-MLB116169518447_082026-O.webp",
+      "nome": "Moedor De Café Elétrico Triturador Aço Inox Grãos Temperos 110v",
+      "de": 78.0,
+      "por": 35.98,
+      "titulo": "Moedor elétrico para triturar grãos e temperos em casa"
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB68269465",
       "origem": "promonocontext",
       "link": "https://meli.la/2DahZyA",
@@ -7108,20 +7112,6 @@
       "de": 27.46,
       "foto": "AgACAgQAAxkDAAIDqWrQS2F14tpXNXlW73KOx0x1N1OZAAINEGsb_tuFUtDKofOJ3AGCAQADAgADeAADPQQ",
       "titulo": "Alicate de pressão para fixar peças e cortes"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB23347882",
-      "origem": "xetdaspromocoes",
-      "link": "https://meli.la/2D8R1xr",
-      "link_produto": "https://meli.la/2D8R1xr",
-      "post_origem": "https://t.me/xetdaspromocoes/84925",
-      "foto": "AgACAgEAAxkDAAIDzGrQ1C7HH1gUCV0PJv6L4OXjsVnlAAJmDWsbKhqIRrLfHxOfsPkUAQADAgADeQADPQQ",
-      "nome": "Relógio Prata Masculino Mondiane 32549g0mvne1 Cor da correia Prateado",
-      "de": 398.0,
-      "por": 152.0,
-      "cupom": "APROVEITA",
-      "titulo": "Relógio prateado para o dia a dia"
     }
   ],
   "lixeira": [
