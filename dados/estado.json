@@ -2,29 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "shopee",
-      "chave": "shopee:1368787663.23597895251",
-      "nome": "Carregador Portátil Bateria Power Bank 20000mah PN-959",
-      "por": 34.98,
-      "de": 79.5,
-      "foto": "AgACAgQAAxkDAAID_WrRLFGQoSZOiGYWTOaJoe9kYIV1AAIQDWsb_XIVUwOJ1ND5nmR0AQADAgADeQADPQQ",
-      "link": "https://s.shopee.com.br/6L5ErPkQ1l",
-      "link_produto": "https://shopee.com.br/product/1368787663/23597895251",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.7,
-      "vendas": 1673,
-      "palavra": "power bank",
-      "garimpado_em": "2026-10-15T13:41-03:00",
-      "nota": 71.3,
-      "titulo": "Carregador portátil para manter o celular com carga",
-      "na_revisao_desde": "2026-10-15T16:41-03:00",
-      "aprovado_em": "2026-10-15T18:48-03:00",
-      "aviso_validade": true
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B07793T84W",
       "origem": "promobit",
@@ -193,6 +170,28 @@
       "titulo": "Moedor elétrico para triturar grãos e temperos em casa",
       "na_revisao_desde": "2026-10-16T00:14-03:00",
       "aprovado_em": "2026-10-16T00:53-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB3250794241",
+      "origem": "lobaopromo",
+      "link": "https://produto.mercadolivre.com.br/MLB-3250794241-kit-5-short-de-dormir-cueca-samba-canco-malha-fria-pijama-_JM?pdp_filters=item_id%3AMLB3250794241&matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-3250794241-kit-5-short-de-dormir-cueca-samba-canco-malha-fria-pijama-_JM?pdp_filters=item_id%3AMLB3250794241",
+      "post_origem": "https://t.me/lobaopromo/190219",
+      "link_canal": "https://meli.la/2Vmpx4F",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_756141-MLB103947190342_012026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Kit 5 Short De Dormir Cueca Samba Canção Malha Fria Pijama",
+      "de": 78.0,
+      "por": 55.0,
+      "lido_ia": true,
+      "preco_conferido": true,
+      "palavra": "cueca",
+      "garimpado_em": "2026-10-16T09:12-03:00",
+      "nota": 46.0,
+      "titulo": "Shorts de malha fria para dormir sem calor",
+      "aprovado_sozinho": true,
+      "aprovado_em": "2026-10-16T09:16-03:00"
     }
   ],
   "postados": [
@@ -1641,6 +1640,16 @@
       "link": "https://meli.la/2EeNYK3",
       "link_produto": "https://meli.la/2EeNYK3",
       "titulo": "Fragrância fresca ideal para dias de calor"
+    },
+    {
+      "chave": "shopee:1368787663.23597895251",
+      "loja": "shopee",
+      "nome": "Carregador Portátil Bateria Power Bank 20000mah PN-959",
+      "data": "2026-10-16T09:16-03:00",
+      "link": "https://s.shopee.com.br/6L5ErPkQ1l",
+      "link_produto": "https://shopee.com.br/product/1368787663/23597895251",
+      "titulo": "Carregador portátil para manter o celular com carga",
+      "slot": 9
     }
   ],
   "slots_usados": {
@@ -1720,21 +1729,68 @@
       23
     ],
     "2026-10-16": [
-      8
+      8,
+      9
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [],
-  "proximo_id": 643,
+  "revisar": [
+    {
+      "loja": "amazon",
+      "chave": "amazon:B08R91NTHY",
+      "origem": "lobaopromo",
+      "link": "https://www.amazon.com.br/dp/B08R91NTHY?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B08R91NTHY?tag=alphadominu09-20",
+      "post_origem": "https://t.me/lobaopromo/190213",
+      "link_canal": "https://amzlink.to/az0fEHKkruhBv",
+      "foto": "AgACAgQAAxkDAAIETGrSFXDywZPzL9UCrUAn4PQUS87wAAJbDmsbzTedU0x3UnTT_f3mAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Fritadeira Air Fryer Philco Oven 4 em 1 12L",
+      "lido_ia": true,
+      "por": 419.0,
+      "de": 580.9,
+      "palavra": "air fryer",
+      "garimpado_em": "2026-10-16T09:00-03:00",
+      "nota": 50.3,
+      "titulo": "Air fryer oven espaçosa para refeições completas",
+      "id": 643,
+      "na_revisao_desde": "2026-10-16T09:15-03:00",
+      "msg_id": 1100
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0FPG8KLS8",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0FPG8KLS8?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0FPG8KLS8?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/222634",
+      "link_canal": "https://www.amazon.com.br/Smartwatch-HUAWEI-Autonomia-Esportivos-Compat%C3%ADvel/dp/B0FPG8KLS8?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAIETmrSFZNRye3YYsLDIAcGRWjkurzCAAJjDWsbqqesUBSFvG0ZR8C-AQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "nome": "Smartwatch, HUAWEI WATCH GT 6 Pro 46mm, Bateria com Autonomia de Até 21 Dias, Mais de 100 Modos Esportivos, Corrida de T",
+      "pix": true,
+      "parcelas": 12,
+      "por": 1133.84,
+      "lido_ia": true,
+      "palavra": "smartwatch",
+      "garimpado_em": "2026-10-16T09:01-03:00",
+      "nota": 29.5,
+      "titulo": "Huawei Watch para treinar semanas sem precisar carregar",
+      "id": 645,
+      "na_revisao_desde": "2026-10-16T09:16-03:00",
+      "msg_id": 1102
+    }
+  ],
+  "proximo_id": 646,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 85114,
+      "xetdaspromocoes": 85115,
       "lobaopromo": 190224,
-      "gatunopromos": 125678,
+      "gatunopromos": 125679,
       "pobregram": 41998,
       "urubupromo": 41759,
-      "tudonapromo": 102075,
-      "promonocontext": 127428,
+      "tudonapromo": 102076,
+      "promonocontext": 127429,
       "promooeasy": 222650,
       "aquitempechincha": 282027,
       "infoBRpromos": 67674,
@@ -3759,31 +3815,31 @@
       "amazon:B08R91NTHY",
       "amazon:B0FPG8KLS8",
       "mercadolivre:MLB3250794241",
-      "mercadolivre:MLB5187281878"
+      "mercadolivre:MLB5187281878",
+      "shopee:1413444886.18299878611"
     ],
     "ultima": {
-      "em": "2026-10-16T09:12:21-03:00",
-      "pedido": "",
-      "forcado": false,
+      "em": "2026-10-16T09:15:17-03:00",
+      "pedido": "1daf7deec4",
+      "forcado": true,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 84,
-      "do_nicho": 16,
-      "repetidas": 14,
-      "novas": 1,
+      "posts_novos": 7,
+      "do_nicho": 0,
+      "repetidas": 0,
+      "novas": 0,
       "limite_dia": false,
       "repetidas_nome": 0,
       "promobit": 0,
-      "fora_do_nicho": 1,
-      "soltas": 0,
-      "na_peneira": 3
+      "soltas": 3,
+      "na_peneira": 0
     },
     "hora": "2026-10-16T09",
     "nesta_hora": 4,
     "promobit_hora": "2026-10-16T09",
     "promobit_nesta_hora": 0,
-    "promobit_visto": 3118215,
+    "promobit_visto": 3118233,
     "nomes": [
       [
         [
@@ -5455,75 +5511,71 @@
           "chamadas"
         ],
         "2026-10-16T08:41-03:00"
+      ],
+      [
+        [
+          "fritadeira",
+          "air",
+          "fryer",
+          "philco",
+          "oven",
+          "12l"
+        ],
+        "2026-10-16T09:15-03:00"
+      ],
+      [
+        [
+          "short",
+          "dormir",
+          "cueca",
+          "samba",
+          "cancao",
+          "malha",
+          "fria",
+          "pijama"
+        ],
+        "2026-10-16T09:15-03:00"
+      ],
+      [
+        [
+          "smartwatch",
+          "huawei",
+          "watch",
+          "gt",
+          "pro",
+          "46mm",
+          "bateria",
+          "autonomia"
+        ],
+        "2026-10-16T09:16-03:00"
       ]
     ],
-    "peneira": [
-      {
-        "loja": "amazon",
-        "chave": "amazon:B08R91NTHY",
-        "origem": "lobaopromo",
-        "link": "https://www.amazon.com.br/dp/B08R91NTHY?tag=alphadominu09-20",
-        "link_produto": "https://www.amazon.com.br/dp/B08R91NTHY?tag=alphadominu09-20",
-        "post_origem": "https://t.me/lobaopromo/190213",
-        "link_canal": "https://amzlink.to/az0fEHKkruhBv",
-        "foto": "https://m.media-amazon.com/images/I/612gXC9waVL._AC_SL1200_.jpg",
-        "foto_origem": "loja",
-        "nome": "Fritadeira Air Fryer Philco Oven 4 em 1 12L",
-        "lido_ia": true,
-        "por": 419.0,
-        "de": 580.9,
-        "palavra": "air fryer",
-        "garimpado_em": "2026-10-16T09:00-03:00",
-        "nota": 50.3
-      },
-      {
-        "loja": "amazon",
-        "chave": "amazon:B0FPG8KLS8",
-        "origem": "promooeasy",
-        "link": "https://www.amazon.com.br/dp/B0FPG8KLS8?tag=alphadominu09-20",
-        "link_produto": "https://www.amazon.com.br/dp/B0FPG8KLS8?tag=alphadominu09-20",
-        "post_origem": "https://t.me/promooeasy/222634",
-        "link_canal": "https://www.amazon.com.br/Smartwatch-HUAWEI-Autonomia-Esportivos-Compat%C3%ADvel/dp/B0FPG8KLS8?tag=promof26-20",
-        "foto": "https://m.media-amazon.com/images/I/81VtBu5TGzL._AC_SL1500_.jpg",
-        "foto_origem": "loja",
-        "nome": "Smartwatch, HUAWEI WATCH GT 6 Pro 46mm, Bateria com Autonomia de Até 21 Dias, Mais de 100 Modos Esportivos, Corrida de T",
-        "pix": true,
-        "parcelas": 12,
-        "por": 1133.84,
-        "lido_ia": true,
-        "palavra": "smartwatch",
-        "garimpado_em": "2026-10-16T09:01-03:00",
-        "nota": 29.5
-      },
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB3250794241",
-        "origem": "lobaopromo",
-        "link": "https://produto.mercadolivre.com.br/MLB-3250794241-kit-5-short-de-dormir-cueca-samba-canco-malha-fria-pijama-_JM?pdp_filters=item_id%3AMLB3250794241&matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://produto.mercadolivre.com.br/MLB-3250794241-kit-5-short-de-dormir-cueca-samba-canco-malha-fria-pijama-_JM?pdp_filters=item_id%3AMLB3250794241",
-        "post_origem": "https://t.me/lobaopromo/190219",
-        "link_canal": "https://meli.la/2Vmpx4F",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_756141-MLB103947190342_012026-O.webp",
-        "foto_origem": "loja",
-        "nome": "Kit 5 Short De Dormir Cueca Samba Canção Malha Fria Pijama",
-        "de": 78.0,
-        "por": 55.0,
-        "lido_ia": true,
-        "preco_conferido": true,
-        "palavra": "cueca",
-        "garimpado_em": "2026-10-16T09:12-03:00",
-        "nota": 46.0
-      }
-    ],
+    "peneira": [],
     "soltas_hora": "2026-10-16T09",
-    "soltas": 0,
-    "shopee_em": "2026-10-16T09:01-03:00",
-    "shopee_indice": 60,
+    "soltas": 3,
+    "shopee_em": "2026-10-16T09:16-03:00",
+    "shopee_indice": 68,
     "soltas_dia_data": "2026-10-16",
-    "soltas_dia": 11,
-    "soltas_loja": {}
+    "soltas_dia": 14,
+    "soltas_loja": {
+      "amazon": 2,
+      "mercadolivre": 1
+    }
   },
   "ultimos": [
+    {
+      "loja": "shopee",
+      "chave": "shopee:1368787663.23597895251",
+      "nome": "Carregador Portátil Bateria Power Bank 20000mah PN-959",
+      "por": 34.98,
+      "de": 79.5,
+      "foto": "AgACAgQAAxkDAAID_WrRLFGQoSZOiGYWTOaJoe9kYIV1AAIQDWsb_XIVUwOJ1ND5nmR0AQADAgADeQADPQQ",
+      "link": "https://s.shopee.com.br/6L5ErPkQ1l",
+      "link_produto": "https://shopee.com.br/product/1368787663/23597895251",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "titulo": "Carregador portátil para manter o celular com carga"
+    },
     {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB79752041",
@@ -6050,20 +6102,6 @@
       "nome": "Parafusadeira Furadeira De Impacto The Black Tools Profissional",
       "por": 159.9,
       "de": 319.9
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB4470214747",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/2Vf6qGA",
-      "link_produto": "https://meli.la/2Vf6qGA",
-      "post_origem": "https://t.me/lobaopromo/189494",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_639989-MLB106379373096_022026-O.webp",
-      "nome": "Perfume Masculino Premium Midnight Blue 100ml Original Árabe",
-      "pix": true,
-      "de": 249.99,
-      "por": 77.0,
-      "titulo": "Perfume árabe amadeirado"
     }
   ],
   "lixeira": [
@@ -6733,6 +6771,16 @@
         "achados": 1,
         "aprovados": 0,
         "reprovados": 1
+      },
+      "lobaopromo": {
+        "achados": 2,
+        "aprovados": 0,
+        "reprovados": 0
+      },
+      "promooeasy": {
+        "achados": 1,
+        "aprovados": 0,
+        "reprovados": 0
       }
     }
   },
@@ -6744,7 +6792,7 @@
       "reprovados": 18
     },
     "air fryer": {
-      "achados": 7,
+      "achados": 8,
       "aprovados": 1,
       "reprovados": 6
     },
@@ -6849,7 +6897,7 @@
       "reprovados": 11
     },
     "cueca": {
-      "achados": 9,
+      "achados": 10,
       "aprovados": 0,
       "reprovados": 9
     },
@@ -6944,7 +6992,7 @@
       "reprovados": 20
     },
     "smartwatch": {
-      "achados": 8,
+      "achados": 9,
       "aprovados": 3,
       "reprovados": 5
     },
