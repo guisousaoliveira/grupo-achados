@@ -1773,21 +1773,21 @@
   "radar": {
     "visto": {
       "xetdaspromocoes": 85103,
-      "lobaopromo": 190204,
-      "gatunopromos": 125671,
-      "pobregram": 41992,
-      "urubupromo": 41751,
+      "lobaopromo": 190205,
+      "gatunopromos": 125672,
+      "pobregram": 41993,
+      "urubupromo": 41753,
       "tudonapromo": 102064,
-      "promonocontext": 127388,
-      "promooeasy": 222595,
-      "aquitempechincha": 282013,
+      "promonocontext": 127396,
+      "promooeasy": 222600,
+      "aquitempechincha": 282014,
       "infoBRpromos": 67665,
       "boletando": 76808,
       "promotop": 260346,
       "achadosdotb": 11778
     },
     "dia": "2026-10-16",
-    "hoje": 9,
+    "hoje": 10,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -3795,30 +3795,31 @@
       "shopee:1041517511.23193004164",
       "shopee:1052824153.27892568318",
       "shopee:487505431.22394273714",
-      "shopee:1424310457.58253008854"
+      "shopee:1424310457.58253008854",
+      "mercadolivre:MLB3280323716"
     ],
     "ultima": {
-      "em": "2026-10-16T08:10:20-03:00",
+      "em": "2026-10-16T08:20:21-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 25,
-      "do_nicho": 0,
+      "posts_novos": 29,
+      "do_nicho": 1,
       "repetidas": 0,
-      "novas": 0,
+      "novas": 1,
       "limite_dia": false,
       "repetidas_nome": 0,
       "promobit": 0,
       "soltas": 0,
-      "na_peneira": 1
+      "na_peneira": 2
     },
     "hora": "2026-10-16T08",
-    "nesta_hora": 0,
+    "nesta_hora": 1,
     "promobit_hora": "2026-10-16T08",
     "promobit_nesta_hora": 0,
-    "promobit_visto": 3118106,
+    "promobit_visto": 3118117,
     "nomes": [
       [
         [
@@ -5463,12 +5464,28 @@
         "palavra": "academia",
         "garimpado_em": "2026-10-16T08:00-03:00",
         "nota": 59.8
+      },
+      {
+        "loja": "mercadolivre",
+        "chave": "mercadolivre:MLB3280323716",
+        "origem": "promonocontext",
+        "link": "https://produto.mercadolivre.com.br/MLB-3280323716-kit-3-samba-canco-de-liganete-cueca-short-malha-fria-pijama-_JM?pdp_filters=item_id%3AMLB3280323716&matt_word=alphapromo&matt_tool=59136903",
+        "link_produto": "https://produto.mercadolivre.com.br/MLB-3280323716-kit-3-samba-canco-de-liganete-cueca-short-malha-fria-pijama-_JM?pdp_filters=item_id%3AMLB3280323716",
+        "post_origem": "https://t.me/promonocontext/127396",
+        "link_canal": "https://meli.la/2WYvcG7",
+        "foto": "https://http2.mlstatic.com/D_NQ_NP_690915-MLB104484132577_012026-O.webp",
+        "foto_origem": "loja",
+        "nome": "Kit 3 Samba Canção De Liganete Cueca Short Malha Fria Pijama",
+        "por": 34.0,
+        "palavra": "cueca",
+        "garimpado_em": "2026-10-16T08:20-03:00",
+        "nota": 26.4
       }
     ],
     "soltas_hora": "2026-10-16T08",
     "soltas": 0,
-    "shopee_em": "2026-10-16T08:00-03:00",
-    "shopee_indice": 36,
+    "shopee_em": "2026-10-16T08:20-03:00",
+    "shopee_indice": 44,
     "soltas_dia_data": "2026-10-16",
     "soltas_dia": 7,
     "soltas_loja": {}
