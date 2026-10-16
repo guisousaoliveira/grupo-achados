@@ -2100,29 +2100,6 @@
       "id": 678,
       "na_revisao_desde": "2026-10-16T14:50-03:00",
       "msg_id": 1151
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0GJFZNLRR",
-      "origem": "aquitempechincha",
-      "link": "https://www.amazon.com.br/dp/B0GJFZNLRR?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0GJFZNLRR?tag=alphadominu09-20",
-      "post_origem": "https://t.me/aquitempechincha/282144",
-      "link_canal": "https://aquitempechincha.com.br/",
-      "nome": "Smart Tv 50\" 4K Tronos Led Android UHD Tizen Wi-Fi Bluetooth Dolby",
-      "por": 1871.0,
-      "lido_ia": true,
-      "foto": "AgACAgQAAxkDAAIEgGrSZA1YEd5K0P4RdMBxyLOv9wWxAAKcDGsbxvElUffqLrJL_GYvAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "sem_preco_loja": true,
-      "palavra": "smart tv",
-      "garimpado_em": "2026-10-16T14:30-03:00",
-      "nota": 19.6,
-      "motivo_revisao": "a loja não abriu para eu conferir o preço",
-      "titulo": "Smart TV 4K para a sala com Android",
-      "id": 679,
-      "na_revisao_desde": "2026-10-16T14:51-03:00",
-      "msg_id": 1152
     }
   ],
   "proximo_id": 682,
@@ -7337,6 +7314,30 @@
   ],
   "lixeira": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B0GJFZNLRR",
+      "origem": "aquitempechincha",
+      "link": "https://www.amazon.com.br/dp/B0GJFZNLRR?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0GJFZNLRR?tag=alphadominu09-20",
+      "post_origem": "https://t.me/aquitempechincha/282144",
+      "link_canal": "https://aquitempechincha.com.br/",
+      "nome": "Smart Tv 50\" 4K Tronos Led Android UHD Tizen Wi-Fi Bluetooth Dolby",
+      "por": 1871.0,
+      "lido_ia": true,
+      "foto": "AgACAgQAAxkDAAIEgGrSZA1YEd5K0P4RdMBxyLOv9wWxAAKcDGsbxvElUffqLrJL_GYvAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "sem_preco_loja": true,
+      "palavra": "smart tv",
+      "garimpado_em": "2026-10-16T14:30-03:00",
+      "nota": 19.6,
+      "motivo_revisao": "a loja não abriu para eu conferir o preço",
+      "titulo": "Smart TV 4K para a sala com Android",
+      "id": 679,
+      "na_revisao_desde": "2026-10-16T14:51-03:00",
+      "removido_em": "2026-10-16T15:20:03-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:987059980.21198282551",
       "nome": "Forma De Silicone 1 ou 3 peças Para Air Fryer Forno Fritadeira Assadeira Reutilizável Antiaderente Flexível",
@@ -8263,7 +8264,7 @@
       "aquitempechincha": {
         "achados": 1,
         "aprovados": 0,
-        "reprovados": 0
+        "reprovados": 1
       }
     }
   },
@@ -8472,7 +8473,7 @@
     "smart tv": {
       "achados": 24,
       "aprovados": 1,
-      "reprovados": 21
+      "reprovados": 22
     },
     "smartwatch": {
       "achados": 10,
