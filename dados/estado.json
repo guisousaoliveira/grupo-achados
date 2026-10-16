@@ -2,26 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "amazon",
-      "chave": "amazon:B0HF1LQFDD",
-      "origem": "promooeasy",
-      "link": "https://link.amazon/B0gpEKydS",
-      "link_produto": "https://link.amazon/B0gpEKydS",
-      "post_origem": "https://t.me/promooeasy/222015",
-      "link_canal": "https://www.amazon.com.br/Stanley-Garrafa-T%C3%A9rmica-Quick-Black/dp/B0HF1LQFDD?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAIDxmrQyemffbltOgnfwH3Bub-yQrNnAAJvD2sbusONUjaDW57VRhggAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Stanley Garrafa Térmica Quick Flip Black 710ml",
-      "de": 269.0,
-      "por": 167.39,
-      "palavra": "garrafa termica",
-      "garimpado_em": "2026-10-15T09:01-03:00",
-      "nota": 62.3,
-      "titulo": "Garrafa térmica Stanley para manter a água gelada",
-      "na_revisao_desde": "2026-10-15T09:41-03:00",
-      "aprovado_em": "2026-10-15T10:26-03:00"
-    },
-    {
       "loja": "shopee",
       "chave": "shopee:333540705.23494070884",
       "nome": "Lavadora De Alta Pressão Com Trava De Segurança Ágil 1800 1300psi 1400w Wap",
@@ -1639,6 +1619,15 @@
       "link": "https://s.shopee.com.br/6q1VaWoQcf",
       "link_produto": "https://shopee.com.br/product/696313634/18196991700",
       "titulo": "Fonte robusta para alimentar seu som automotivo"
+    },
+    {
+      "chave": "amazon:B0HF1LQFDD",
+      "loja": "amazon",
+      "nome": "Stanley Garrafa Térmica Quick Flip Black 710ml",
+      "data": "2026-10-15T21:59-03:00",
+      "link": "https://link.amazon/B0gpEKydS",
+      "link_produto": "https://link.amazon/B0gpEKydS",
+      "titulo": "Garrafa térmica Stanley para manter a água gelada"
     }
   ],
   "slots_usados": {
@@ -5811,6 +5800,19 @@
   },
   "ultimos": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B0HF1LQFDD",
+      "origem": "promooeasy",
+      "link": "https://link.amazon/B0gpEKydS",
+      "link_produto": "https://link.amazon/B0gpEKydS",
+      "post_origem": "https://t.me/promooeasy/222015",
+      "foto": "AgACAgQAAxkDAAIDxmrQyemffbltOgnfwH3Bub-yQrNnAAJvD2sbusONUjaDW57VRhggAQADAgADeAADPQQ",
+      "nome": "Stanley Garrafa Térmica Quick Flip Black 710ml",
+      "de": 269.0,
+      "por": 167.39,
+      "titulo": "Garrafa térmica Stanley para manter a água gelada"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:696313634.18196991700",
       "nome": "Fonte Chaveada 12V 50A 600W Bivolt Com Chave Seletora Para Som Automotivo CFTV LED Automação Alta Potência",
@@ -6338,21 +6340,6 @@
       "origem": "shopee",
       "fonte": "shopee",
       "titulo": "Mochila espaçosa para viagens e rotina diária"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB57797847",
-      "origem": "promonocontext",
-      "link": "https://meli.la/2ZXjdGB",
-      "link_produto": "https://meli.la/2ZXjdGB",
-      "post_origem": "https://t.me/promonocontext/126676",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_799653-MLA111923920498_062026-O.webp",
-      "nome": "Garrafa Térmica Stanley Aerolight Transit Slim Black 2.0 591ml",
-      "cupom_loja": "Use o cupom 15% OFF do anúncio 📌",
-      "de": 259.0,
-      "por": 165.68,
-      "titulo": "Garrafa térmica que mantém a bebida gelada o dia todo",
-      "cupom": "Use o cupom 15% OFF do anúncio"
     }
   ],
   "lixeira": [
