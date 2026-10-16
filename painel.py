@@ -27,7 +27,7 @@ ARQ_HTML = bot.PASTA / "painel.html"
 COOKIE = "painel"
 LOJAS = {"amazon": "Amazon", "mercadolivre": "Mercado Livre", "shopee": "Shopee"}
 CAMPOS = ("nome", "de", "por", "prime", "sem_prime", "cupom", "cupom_loja", "obs", "frase", "link", "link_produto",
-          "loja", "origem", "foto_origem", "aprovado_em", "aviso_validade", "ler_depois", "precisa_link", "chave", "aviso_preco", "titulo", "pix", "garimpado_em", "post_origem", "link_canal", "removido_em", "removido_de", "expirou", "na_revisao_desde", "fonte", "parcelas", "parcela_valor", "shopee_api", "preco_loja", "preco_conferido", "aprovado_sozinho")
+          "loja", "origem", "foto_origem", "aprovado_em", "aviso_validade", "ler_depois", "precisa_link", "chave", "aviso_preco", "titulo", "pix", "garimpado_em", "post_origem", "link_canal", "removido_em", "removido_de", "expirou", "na_revisao_desde", "fonte", "parcelas", "parcela_valor", "shopee_api", "preco_loja", "preco_conferido", "aprovado_sozinho", "motivo_revisao", "preco_cupom", "preco_sem_cupom")
 
 _fotos = {}  # cache das fotos do Telegram (file_id -> bytes), para a tela abrir rápido
 _estado_cache = {"etag": None, "texto": None}
@@ -193,17 +193,23 @@ def previsao_slots(estado, dias=4):
     janela = bot.janela_minutos()
     intervalo = timedelta(minutes=bot.intervalo_minimo())
     anterior = bot._ultimo_post(estado, dt)
+    n = len(estado["fila"])  # o ritmo automático vai recalculando conforme a fila (simulada) esvazia
     for dia in range(dias):
         data = (dt + timedelta(days=dia)).date()
         usados = estado["slots_usados"].get(data.isoformat(), [])
         agenda = bot.agenda_do_dia(data.isoformat())
         for h in bot.slots_do_dia():
             quando = dt.replace(hour=int(h), minute=agenda[h], second=0, microsecond=0) + timedelta(days=dia)
-            if dia == 0 and (quando + timedelta(minutes=janela) < dt or h in usados):
+            fim = quando + timedelta(minutes=janela)
+            if dia == 0 and (fim < dt or h in usados):
                 continue
             if anterior:
-                quando = max(quando, anterior + intervalo)
+                espera = bot._espera_ritmo(n, max(quando, anterior))
+                if espera and fim < anterior + espera:
+                    continue
+                quando = max(quando, anterior + intervalo, anterior + (espera or timedelta()))
             anterior = quando
+            n = max(0, n - 1)
             yield dia, h, quando
 
 
@@ -216,6 +222,15 @@ def proximos_horarios(estado, n):
         rotulo = "hoje" if dia == 0 else "amanhã" if dia == 1 else quando.strftime("%d/%m")
         saida.append(f"{rotulo} {quando:%H:%M}")
     return saida
+
+
+def horarios_do_quadro(estado, hoje):
+    """Horários de hoje no quadro: os que já saíram e os que o ritmo automático vai usar (os pulados somem)."""
+    if not bot.CONFIG.get("ritmo", {}).get("ligado"):
+        return bot.slots_do_dia()
+    usados = set(estado["slots_usados"].get(hoje, []))
+    futuros = {h for dia, h, _ in previsao_slots(estado, 1)}
+    return [h for h in bot.slots_do_dia() if h in usados or h in futuros]
 
 
 def horarios_hoje(estado, dt):
@@ -271,7 +286,8 @@ def resumo(estado):
         # próximo post automático: o painel mostra o aviso e manda a notificação do navegador uns minutos antes
         "proximo_post": {"quando": prox.isoformat(timespec="minutes"), "id": bot.id_story(estado["fila"][0])} if prox else None,
         "hora": dt.hour,
-        "horarios": bot.slots_do_dia(),
+        "horarios": horarios_do_quadro(estado, hoje),
+        "ritmo_min": round(bot.ritmo_minutos(len(estado["fila"]), dt)),
         "agenda_hoje": bot.agenda_do_dia(hoje),
         "horarios_hoje": horarios_hoje(estado, dt),
         "usados_hoje": estado["slots_usados"].get(hoje, []),

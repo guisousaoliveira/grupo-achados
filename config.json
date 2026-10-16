@@ -255,13 +255,20 @@
       "que resolve o dia a dia"
     ]
   },
-  "posts_por_hora": {
-    "padrao": 2,
-    "12": 3,
-    "13": 3,
-    "19": 3,
-    "20": 3,
-    "21": 3,
-    "22": 3
+  "posts_por_hora": 4,
+  "ritmo": {
+    "ligado": true,
+    "min_minutos": 15,
+    "max_minutos": 60,
+    "pico": [
+      12,
+      13,
+      19,
+      20,
+      21,
+      22
+    ],
+    "fator_pico": 0.75,
+    "folga_minutos": 7
   }
 }
