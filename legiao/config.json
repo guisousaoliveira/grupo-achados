@@ -1,5 +1,7 @@
 {
-  "horarios": [17],
+  "horarios": [
+    15
+  ],
   "modelo": "sonnet",
   "cta": "Comente CARTAS",
   "frames_min": 5,
