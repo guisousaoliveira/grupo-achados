@@ -1685,13 +1685,13 @@
   "radar": {
     "visto": {
       "xetdaspromocoes": 85103,
-      "lobaopromo": 190134,
-      "gatunopromos": 125640,
+      "lobaopromo": 190136,
+      "gatunopromos": 125641,
       "pobregram": 41989,
       "urubupromo": 41748,
       "tudonapromo": 102064,
       "promonocontext": 127387,
-      "promooeasy": 222488,
+      "promooeasy": 222489,
       "aquitempechincha": 281997,
       "infoBRpromos": 67660,
       "boletando": 76808,
@@ -1699,7 +1699,7 @@
       "achadosdotb": 11778
     },
     "dia": "2026-10-15",
-    "hoje": 164,
+    "hoje": 166,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -3684,32 +3684,32 @@
       "amazon:B07L5VS2HJ",
       "mercadolivre:MLB6942334140",
       "mercadolivre:MLB6072991756",
-      "mercadolivre:MLB21836282"
+      "mercadolivre:MLB21836282",
+      "amazon:B0D364W7YK",
+      "mercadolivre:MLB5065468381"
     ],
     "ultima": {
-      "em": "2026-10-15T23:45:09-03:00",
-      "pedido": "7f5622e378",
-      "forcado": true,
+      "em": "2026-10-15T23:50:19-03:00",
+      "pedido": "",
+      "forcado": false,
       "canais": 13,
-      "lidos": 13,
-      "falhas": [
-        "promobit"
-      ],
-      "posts_novos": 2,
-      "do_nicho": 0,
+      "lidos": 14,
+      "falhas": [],
+      "posts_novos": 11,
+      "do_nicho": 2,
       "repetidas": 0,
-      "novas": 0,
+      "novas": 2,
       "limite_dia": false,
       "repetidas_nome": 0,
-      "promobit": 0,
+      "promobit": 1,
       "soltas": 0,
-      "na_peneira": 25
+      "na_peneira": 27
     },
     "hora": "2026-10-15T23",
-    "nesta_hora": 4,
+    "nesta_hora": 5,
     "promobit_hora": "2026-10-15T23",
-    "promobit_nesta_hora": 0,
-    "promobit_visto": 3117874,
+    "promobit_nesta_hora": 1,
+    "promobit_visto": 3117884,
     "nomes": [
       [
         [
@@ -5695,6 +5695,41 @@
         "palavra": "relogio",
         "garimpado_em": "2026-10-15T23:30-03:00",
         "nota": 63.6
+      },
+      {
+        "loja": "amazon",
+        "chave": "amazon:B0D364W7YK",
+        "origem": "promobit",
+        "fonte": "promobit",
+        "link": "https://www.amazon.com.br/dp/B0D364W7YK?tag=alphadominu09-20",
+        "link_produto": "https://www.amazon.com.br/dp/B0D364W7YK?tag=alphadominu09-20",
+        "post_origem": "https://www.promobit.com.br/oferta/caixa-de-som-speaker-philco-extreme-40w-pbs45bt-3117876/",
+        "link_canal": "https://www.promobit.com.br/Redirect/to/3117876/",
+        "nome": "Caixa de Som Speaker Philco Extreme 40W PBS45BT",
+        "por": 160.55,
+        "de": 189.9,
+        "foto": "https://m.media-amazon.com/images/I/61b1bqoBKPL._AC_SL1200_.jpg",
+        "foto_origem": "loja",
+        "palavra": "caixa de som",
+        "garimpado_em": "2026-10-15T23:50-03:00",
+        "nota": 34.9
+      },
+      {
+        "loja": "mercadolivre",
+        "chave": "mercadolivre:MLB5065468381",
+        "origem": "lobaopromo",
+        "link": "https://www.mercadolivre.com.br/aparador-industrial-60cm-hall-de-entrada-sala-decoracao-dr/up/MLBU4717119093?pdp_filters=item_id%3AMLB5065468381&matt_word=alphapromo&matt_tool=59136903",
+        "link_produto": "https://www.mercadolivre.com.br/aparador-industrial-60cm-hall-de-entrada-sala-decoracao-dr/up/MLBU4717119093?pdp_filters=item_id%3AMLB5065468381",
+        "post_origem": "https://t.me/lobaopromo/190135",
+        "link_canal": "https://meli.la/2BhvS4G",
+        "foto": "https://http2.mlstatic.com/D_NQ_NP_781535-MLB116207779221_082026-O.webp",
+        "foto_origem": "loja",
+        "nome": "Aparador Industrial 60cm Hall De Entrada Sala Decoração Dr",
+        "de": 320.0,
+        "por": 164.0,
+        "palavra": "aparador",
+        "garimpado_em": "2026-10-15T23:50-03:00",
+        "nota": 59.7
       }
     ],
     "soltas_hora": "2026-10-15T23",
