@@ -242,6 +242,50 @@
       "na_revisao_desde": "2026-10-16T13:21-03:00",
       "cupom": "Aplique o Cupom de R$ 10 OFF no Anúncio  (logo abaixo do preço)",
       "aprovado_em": "2026-10-16T13:22-03:00"
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:987059980.21198282551",
+      "nome": "Forma De Silicone 1 ou 3 peças Para Air Fryer Forno Fritadeira Assadeira Reutilizável Antiaderente Flexível",
+      "por": 10.8,
+      "de": 25.71,
+      "foto": "https://cf.shopee.com.br/file/sg-11134201-824iu-me96xd96itj808",
+      "link": "https://s.shopee.com.br/1BNADxy7SW",
+      "link_produto": "https://shopee.com.br/product/987059980/21198282551",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.7,
+      "vendas": 651,
+      "palavra": "air fryer",
+      "garimpado_em": "2026-10-16T12:31-03:00",
+      "nota": 74.4,
+      "titulo": "Cozinhe na air fryer sem sujar o cesto",
+      "aprovado_sozinho": true,
+      "aprovado_em": "2026-10-16T13:31-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB3756911067",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/1a3S5Zc",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-3756911067-kit-6-cuecas-boxer-polo-wear-microfibra-sem-costura-original-_JM?pdp_filters=item_id%3AMLB3756911067",
+      "post_origem": "https://t.me/lobaopromo/190324",
+      "link_canal": "https://meli.la/1bETh8n",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_794927-MLB85659268782_062025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Kit 6 Cuecas Boxer Polo Wear Microfibra Sem Costura Original",
+      "de": 200.0,
+      "por": 63.0,
+      "lido_ia": true,
+      "preco_conferido": true,
+      "palavra": "cueca",
+      "garimpado_em": "2026-10-16T11:40-03:00",
+      "nota": 73.4,
+      "titulo": "Kit Polo Wear em microfibra para uso diário",
+      "aprovado_sozinho": true,
+      "aprovado_em": "2026-10-16T13:31-03:00"
     }
   ],
   "postados": [
@@ -1922,25 +1966,25 @@
   },
   "shopee_buscado_em": "",
   "revisar": [],
-  "proximo_id": 668,
+  "proximo_id": 670,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 85195,
-      "lobaopromo": 190363,
-      "gatunopromos": 125720,
+      "xetdaspromocoes": 85197,
+      "lobaopromo": 190367,
+      "gatunopromos": 125721,
       "pobregram": 42010,
-      "urubupromo": 41775,
-      "tudonapromo": 102151,
-      "promonocontext": 127652,
-      "promooeasy": 222864,
-      "aquitempechincha": 282121,
+      "urubupromo": 41777,
+      "tudonapromo": 102152,
+      "promonocontext": 127655,
+      "promooeasy": 222866,
+      "aquitempechincha": 282122,
       "infoBRpromos": 67695,
       "boletando": 76832,
-      "promotop": 260369,
+      "promotop": 260370,
       "achadosdotb": 11784
     },
     "dia": "2026-10-16",
-    "hoje": 59,
+    "hoje": 61,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -4025,30 +4069,35 @@
       "mercadolivre:MLB46379611",
       "shopee:1807254461.58209939065",
       "shopee:1183527021.55905009214",
-      "shopee:1074008902.18099232855"
+      "shopee:1074008902.18099232855",
+      "amazon:B00YTY4AB8",
+      "mercadolivre:MLB4454185354",
+      "shopee:1439190466.23898836118",
+      "shopee:1204063631.58264024769"
     ],
     "ultima": {
-      "em": "2026-10-16T13:20:22-03:00",
+      "em": "2026-10-16T13:30:22-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 27,
-      "do_nicho": 2,
-      "repetidas": 2,
-      "novas": 0,
+      "posts_novos": 28,
+      "do_nicho": 6,
+      "repetidas": 4,
+      "novas": 1,
       "limite_dia": false,
       "repetidas_nome": 0,
-      "promobit": 0,
+      "promobit": 1,
+      "fora_do_nicho": 1,
       "soltas": 2,
-      "na_peneira": 30
+      "na_peneira": 29
     },
     "hora": "2026-10-16T13",
-    "nesta_hora": 0,
+    "nesta_hora": 1,
     "promobit_hora": "2026-10-16T13",
-    "promobit_nesta_hora": 0,
-    "promobit_visto": 3119107,
+    "promobit_nesta_hora": 1,
+    "promobit_visto": 3119162,
     "nomes": [
       [
         [
@@ -6020,6 +6069,30 @@
           "case"
         ],
         "2026-10-16T13:21-03:00"
+      ],
+      [
+        [
+          "forma",
+          "silicone",
+          "ou",
+          "pecas",
+          "air",
+          "fryer",
+          "forno",
+          "fritadeira"
+        ],
+        "2026-10-16T13:30-03:00"
+      ],
+      [
+        [
+          "cuecas",
+          "boxer",
+          "polo",
+          "wear",
+          "microfibra",
+          "costura"
+        ],
+        "2026-10-16T13:31-03:00"
       ]
     ],
     "peneira": [
@@ -6230,25 +6303,6 @@
         "palavra": "barba",
         "garimpado_em": "2026-10-16T11:37-03:00",
         "nota": 57.1
-      },
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB3756911067",
-        "origem": "lobaopromo",
-        "link": "https://produto.mercadolivre.com.br/MLB-3756911067-kit-6-cuecas-boxer-polo-wear-microfibra-sem-costura-original-_JM?pdp_filters=item_id%3AMLB3756911067&matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://produto.mercadolivre.com.br/MLB-3756911067-kit-6-cuecas-boxer-polo-wear-microfibra-sem-costura-original-_JM?pdp_filters=item_id%3AMLB3756911067",
-        "post_origem": "https://t.me/lobaopromo/190324",
-        "link_canal": "https://meli.la/1bETh8n",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_794927-MLB85659268782_062025-O.webp",
-        "foto_origem": "loja",
-        "nome": "Kit 6 Cuecas Boxer Polo Wear Microfibra Sem Costura Original",
-        "de": 200.0,
-        "por": 63.0,
-        "lido_ia": true,
-        "preco_conferido": true,
-        "palavra": "cueca",
-        "garimpado_em": "2026-10-16T11:40-03:00",
-        "nota": 73.4
       },
       {
         "loja": "mercadolivre",
@@ -6497,25 +6551,6 @@
         "nota": 66.6
       },
       {
-        "loja": "shopee",
-        "chave": "shopee:987059980.21198282551",
-        "nome": "Forma De Silicone 1 ou 3 peças Para Air Fryer Forno Fritadeira Assadeira Reutilizável Antiaderente Flexível",
-        "por": 10.8,
-        "de": 25.71,
-        "foto": "https://cf.shopee.com.br/file/sg-11134201-824iu-me96xd96itj808",
-        "link": "https://s.shopee.com.br/1BNADxy7SW",
-        "link_produto": "https://shopee.com.br/product/987059980/21198282551",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 4.7,
-        "vendas": 651,
-        "palavra": "air fryer",
-        "garimpado_em": "2026-10-16T12:31-03:00",
-        "nota": 74.4
-      },
-      {
         "loja": "amazon",
         "chave": "amazon:B0FPBQQ4TN",
         "origem": "promobit",
@@ -6588,19 +6623,56 @@
         "palavra": "som automotivo",
         "garimpado_em": "2026-10-16T13:11-03:00",
         "nota": 63.0
+      },
+      {
+        "loja": "amazon",
+        "chave": "amazon:B00YTY4AB8",
+        "origem": "promobit",
+        "fonte": "promobit",
+        "link": "https://www.amazon.com.br/dp/B00YTY4AB8?tag=alphadominu09-20",
+        "link_produto": "https://www.amazon.com.br/dp/B00YTY4AB8?tag=alphadominu09-20",
+        "post_origem": "https://www.promobit.com.br/oferta/timex-relogio-easy-reader-com-pulseira-de-couro-de-38-mm-3119109/",
+        "link_canal": "https://www.promobit.com.br/Redirect/to/3119109/",
+        "nome": "Timex Relógio Easy Reader Com Pulseira De Couro De 38 Mm",
+        "por": 299.0,
+        "de": 423.12,
+        "foto": "https://m.media-amazon.com/images/I/716l-O3CtuL._AC_SL1500_.jpg",
+        "foto_origem": "loja",
+        "palavra": "relogio",
+        "garimpado_em": "2026-10-16T13:30-03:00",
+        "nota": 56.9
+      },
+      {
+        "loja": "shopee",
+        "chave": "shopee:1439190466.23898836118",
+        "nome": "2/1 PCS Bolsa Mochila De Peito Tiracolo Pochete Bolsa Impermeável Transversal Masculina",
+        "por": 13.99,
+        "de": 60.83,
+        "foto": "https://cf.shopee.com.br/file/br-11134207-820l8-mnz0mrbfmyo14d",
+        "link": "https://s.shopee.com.br/1qcr5LJI2b",
+        "link_produto": "https://shopee.com.br/product/1439190466/23898836118",
+        "origem": "shopee",
+        "fonte": "shopee",
+        "foto_origem": "loja",
+        "shopee_api": true,
+        "avaliacao": 4.8,
+        "vendas": 2362,
+        "palavra": "mochila",
+        "garimpado_em": "2026-10-16T13:31-03:00",
+        "nota": 95.6
       }
     ],
     "soltas_hora": "2026-10-16T13",
-    "soltas": 2,
-    "shopee_em": "2026-10-16T13:11-03:00",
-    "shopee_indice": 72,
+    "soltas": 4,
+    "shopee_em": "2026-10-16T13:31-03:00",
+    "shopee_indice": 80,
     "soltas_dia_data": "2026-10-16",
-    "soltas_dia": 36,
+    "soltas_dia": 38,
     "soltas_loja": {
-      "shopee": 1,
-      "mercadolivre": 1
+      "shopee": 2,
+      "mercadolivre": 2
     },
-    "soltas_vez": "2026-10-16T13:1"
+    "soltas_vez": "2026-10-16T13:2"
   },
   "ultimos": [
     {
@@ -8008,7 +8080,7 @@
     },
     "2026-10-16": {
       "shopee": {
-        "achados": 9,
+        "achados": 10,
         "aprovados": 0,
         "reprovados": 1
       },
@@ -8023,7 +8095,7 @@
         "reprovados": 1
       },
       "lobaopromo": {
-        "achados": 5,
+        "achados": 6,
         "aprovados": 4,
         "reprovados": 0
       },
@@ -8044,7 +8116,7 @@
       }
     }
   },
-  "aviso_post": "2026-10-16 13:09|amazon:B08R91NTHY",
+  "aviso_post": "2026-10-16 13:38|amazon:B0FPG8KLS8",
   "garimpo_palavras": {
     "academia": {
       "achados": 28,
@@ -8052,7 +8124,7 @@
       "reprovados": 18
     },
     "air fryer": {
-      "achados": 9,
+      "achados": 10,
       "aprovados": 2,
       "reprovados": 6
     },
@@ -8157,7 +8229,7 @@
       "reprovados": 11
     },
     "cueca": {
-      "achados": 11,
+      "achados": 12,
       "aprovados": 1,
       "reprovados": 9
     },
@@ -8406,7 +8478,7 @@
   },
   "entradas": {
     "2026-10-16": {
-      "13": 1
+      "13": 3
     }
   }
 }
