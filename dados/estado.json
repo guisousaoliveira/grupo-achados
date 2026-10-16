@@ -264,6 +264,50 @@
       "titulo": "Timex de couro clássico para o dia a dia",
       "na_revisao_desde": "2026-10-16T13:51-03:00",
       "aprovado_em": "2026-10-16T13:51-03:00"
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:1439190466.23898836118",
+      "nome": "2/1 PCS Bolsa Mochila De Peito Tiracolo Pochete Bolsa Impermeável Transversal Masculina",
+      "por": 13.99,
+      "de": 60.83,
+      "foto": "https://cf.shopee.com.br/file/br-11134207-820l8-mnz0mrbfmyo14d",
+      "link": "https://s.shopee.com.br/1qcr5LJI2b",
+      "link_produto": "https://shopee.com.br/product/1439190466/23898836118",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.8,
+      "vendas": 2362,
+      "palavra": "mochila",
+      "garimpado_em": "2026-10-16T13:31-03:00",
+      "nota": 95.6,
+      "titulo": "Mochila transversal impermeável para carregar o essencial",
+      "aprovado_sozinho": true,
+      "aprovado_em": "2026-10-16T14:01-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB32101995",
+      "origem": "promonocontext",
+      "link": "https://meli.la/1zZY8kg",
+      "link_produto": "https://www.mercadolivre.com.br/relogio-digital-despertador-mesa-cabeceira-quarto-idoso-cor-branco-micgeek/p/MLB32101995",
+      "post_origem": "https://t.me/promonocontext/127620",
+      "link_canal": "https://meli.la/1imBX5W",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_785462-MLA110586324994_052026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Relógio Digital Despertador Mesa Cabeceira Quarto Idoso Cor Branco",
+      "de": 40.0,
+      "por": 23.0,
+      "lido_ia": true,
+      "preco_conferido": true,
+      "palavra": "relogio",
+      "garimpado_em": "2026-10-16T12:00-03:00",
+      "nota": 67.6,
+      "titulo": "Relógio digital para ver as horas no quarto",
+      "aprovado_sozinho": true,
+      "aprovado_em": "2026-10-16T14:01-03:00"
     }
   ],
   "postados": [
@@ -1966,19 +2010,19 @@
   },
   "shopee_buscado_em": "",
   "revisar": [],
-  "proximo_id": 672,
+  "proximo_id": 674,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 85198,
-      "lobaopromo": 190371,
-      "gatunopromos": 125723,
+      "xetdaspromocoes": 85202,
+      "lobaopromo": 190376,
+      "gatunopromos": 125724,
       "pobregram": 42011,
-      "urubupromo": 41777,
-      "tudonapromo": 102154,
-      "promonocontext": 127658,
-      "promooeasy": 222876,
-      "aquitempechincha": 282131,
-      "infoBRpromos": 67696,
+      "urubupromo": 41778,
+      "tudonapromo": 102158,
+      "promonocontext": 127660,
+      "promooeasy": 222881,
+      "aquitempechincha": 282135,
+      "infoBRpromos": 67697,
       "boletando": 76832,
       "promotop": 260373,
       "achadosdotb": 11784
@@ -4078,15 +4122,15 @@
       "shopee:400888689.54165736119"
     ],
     "ultima": {
-      "em": "2026-10-16T13:50:20-03:00",
+      "em": "2026-10-16T14:00:28-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 31,
-      "do_nicho": 2,
-      "repetidas": 2,
+      "posts_novos": 38,
+      "do_nicho": 0,
+      "repetidas": 0,
       "novas": 0,
       "limite_dia": false,
       "repetidas_nome": 0,
@@ -4094,11 +4138,11 @@
       "soltas": 2,
       "na_peneira": 23
     },
-    "hora": "2026-10-16T13",
-    "nesta_hora": 1,
-    "promobit_hora": "2026-10-16T13",
-    "promobit_nesta_hora": 1,
-    "promobit_visto": 3119216,
+    "hora": "2026-10-16T14",
+    "nesta_hora": 0,
+    "promobit_hora": "2026-10-16T14",
+    "promobit_nesta_hora": 0,
+    "promobit_visto": 3119251,
     "nomes": [
       [
         [
@@ -6120,6 +6164,31 @@
           "mm"
         ],
         "2026-10-16T13:51-03:00"
+      ],
+      [
+        [
+          "pcs",
+          "bolsa",
+          "mochila",
+          "peito",
+          "tiracolo",
+          "pochete",
+          "bolsa",
+          "impermeavel"
+        ],
+        "2026-10-16T14:00-03:00"
+      ],
+      [
+        [
+          "relogio",
+          "digital",
+          "despertador",
+          "mesa",
+          "cabeceira",
+          "quarto",
+          "idoso"
+        ],
+        "2026-10-16T14:01-03:00"
       ]
     ],
     "peneira": [
@@ -6251,25 +6320,6 @@
         "palavra": "air fryer",
         "garimpado_em": "2026-10-16T11:40-03:00",
         "nota": 35.5
-      },
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB32101995",
-        "origem": "promonocontext",
-        "link": "https://www.mercadolivre.com.br/relogio-digital-despertador-mesa-cabeceira-quarto-idoso-cor-branco-micgeek/p/MLB32101995?matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/relogio-digital-despertador-mesa-cabeceira-quarto-idoso-cor-branco-micgeek/p/MLB32101995",
-        "post_origem": "https://t.me/promonocontext/127620",
-        "link_canal": "https://meli.la/1imBX5W",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_785462-MLA110586324994_052026-O.webp",
-        "foto_origem": "loja",
-        "nome": "Relógio Digital Despertador Mesa Cabeceira Quarto Idoso Cor Branco",
-        "de": 40.0,
-        "por": 23.0,
-        "lido_ia": true,
-        "preco_conferido": true,
-        "palavra": "relogio",
-        "garimpado_em": "2026-10-16T12:00-03:00",
-        "nota": 67.6
       },
       {
         "loja": "shopee",
@@ -6537,25 +6587,6 @@
       },
       {
         "loja": "shopee",
-        "chave": "shopee:1439190466.23898836118",
-        "nome": "2/1 PCS Bolsa Mochila De Peito Tiracolo Pochete Bolsa Impermeável Transversal Masculina",
-        "por": 13.99,
-        "de": 60.83,
-        "foto": "https://cf.shopee.com.br/file/br-11134207-820l8-mnz0mrbfmyo14d",
-        "link": "https://s.shopee.com.br/1qcr5LJI2b",
-        "link_produto": "https://shopee.com.br/product/1439190466/23898836118",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 4.8,
-        "vendas": 2362,
-        "palavra": "mochila",
-        "garimpado_em": "2026-10-16T13:31-03:00",
-        "nota": 95.6
-      },
-      {
-        "loja": "shopee",
         "chave": "shopee:1725907431.58215881722",
         "nome": "Bicicleta Ergométrica para Ginástica em Casa com Monitor Digital Resistente Capacidade de 120kg - V3/2",
         "por": 469.99,
@@ -6593,18 +6624,17 @@
         "nota": 79.6
       }
     ],
-    "soltas_hora": "2026-10-16T13",
-    "soltas": 6,
+    "soltas_hora": "2026-10-16T14",
+    "soltas": 2,
     "shopee_em": "2026-10-16T13:51-03:00",
     "shopee_indice": 88,
     "soltas_dia_data": "2026-10-16",
-    "soltas_dia": 40,
+    "soltas_dia": 42,
     "soltas_loja": {
-      "shopee": 2,
-      "mercadolivre": 3,
-      "amazon": 1
+      "shopee": 1,
+      "mercadolivre": 1
     },
-    "soltas_vez": "2026-10-16T13:3"
+    "soltas_vez": "2026-10-16T14:0"
   },
   "ultimos": [
     {
@@ -8037,7 +8067,7 @@
     },
     "2026-10-16": {
       "shopee": {
-        "achados": 10,
+        "achados": 11,
         "aprovados": 0,
         "reprovados": 1
       },
@@ -8047,7 +8077,7 @@
         "reprovados": 4
       },
       "promonocontext": {
-        "achados": 6,
+        "achados": 7,
         "aprovados": 5,
         "reprovados": 1
       },
@@ -8073,7 +8103,7 @@
       }
     }
   },
-  "aviso_post": "2026-10-16 13:38|amazon:B0FPG8KLS8",
+  "aviso_post": "2026-10-16 14:07|mercadolivre:MLB5579293332",
   "garimpo_palavras": {
     "academia": {
       "achados": 29,
@@ -8236,7 +8266,7 @@
       "reprovados": 1
     },
     "mochila": {
-      "achados": 15,
+      "achados": 16,
       "aprovados": 7,
       "reprovados": 7
     },
@@ -8271,7 +8301,7 @@
       "reprovados": 2
     },
     "relogio": {
-      "achados": 15,
+      "achados": 16,
       "aprovados": 7,
       "reprovados": 7
     },
@@ -8435,7 +8465,8 @@
   },
   "entradas": {
     "2026-10-16": {
-      "13": 4
+      "13": 4,
+      "14": 2
     }
   }
 }
