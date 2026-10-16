@@ -218,6 +218,28 @@
       "aprovado_em": "2026-10-16T10:50-03:00"
     },
     {
+      "loja": "shopee",
+      "chave": "shopee:1555952803.58203850063",
+      "nome": "50/100/150 Folhas De Papel Antiaderente de Airfryer para Frituras Assados Multiuso Sanduíche Fritas",
+      "por": 16.99,
+      "de": 65.35,
+      "foto": "https://cf.shopee.com.br/file/sg-11134201-8262i-mjsoa57d7ri945",
+      "link": "https://s.shopee.com.br/5LCjBcZSTw",
+      "link_produto": "https://shopee.com.br/product/1555952803/58203850063",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.9,
+      "vendas": 292,
+      "palavra": "airfryer",
+      "garimpado_em": "2026-10-16T12:31-03:00",
+      "nota": 79.9,
+      "titulo": "Folhas antiaderentes para facilitar a limpeza da airfryer",
+      "aprovado_sozinho": true,
+      "aprovado_em": "2026-10-16T12:41-03:00"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB68269465",
       "origem": "promonocontext",
@@ -239,6 +261,28 @@
       "titulo": "Mondaine com pulseira de silicone para uso diário",
       "na_revisao_desde": "2026-10-16T11:36-03:00",
       "aprovado_em": "2026-10-16T11:42-03:00"
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:1142080977.58251235467",
+      "nome": "Forma Descartável Quadrada para Airfryer 100 Unidades",
+      "por": 13.99,
+      "de": 69.95,
+      "foto": "https://cf.shopee.com.br/file/br-11134207-81z1k-mhmr1gnvzv9dbd",
+      "link": "https://s.shopee.com.br/8fTB9kMliO",
+      "link_produto": "https://shopee.com.br/product/1142080977/58251235467",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.7,
+      "vendas": 2078,
+      "palavra": "airfryer",
+      "garimpado_em": "2026-10-16T12:31-03:00",
+      "nota": 83.5,
+      "titulo": "Formas descartáveis que evitam sujeira na airfryer",
+      "aprovado_sozinho": true,
+      "aprovado_em": "2026-10-16T12:41-03:00"
     }
   ],
   "postados": [
@@ -1876,26 +1920,116 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [],
-  "proximo_id": 660,
+  "revisar": [
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB7218965676",
+      "origem": "promonocontext",
+      "link": "https://meli.la/1cHHDPs",
+      "link_produto": "https://www.mercadolivre.com.br/relogio-poedagar-suico--masculino-aco-inox-old-money-ccaixa/up/MLBU4370134385?pdp_filters=item_id%3AMLB7218965676",
+      "post_origem": "https://t.me/promonocontext/127634",
+      "link_canal": "https://meli.la/2fjtFRb",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_760581-MLB114915939023_072026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Relógio Poedagar Suiço Masculino Aço Inox Old Money C/caixa Branco",
+      "de": 249.0,
+      "por": 95.0,
+      "lido_ia": true,
+      "palavra": "relogio",
+      "garimpado_em": "2026-10-16T12:40-03:00",
+      "nota": 79.2,
+      "titulo": "Visual old money com acabamento em aço inox",
+      "id": 661,
+      "na_revisao_desde": "2026-10-16T12:41-03:00",
+      "msg_id": 1126
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0977QVRJS",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0977QVRJS?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0977QVRJS?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/relogio-masculino-timex-easy-reader-indiglo-pretoprata-3118825/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3118825/",
+      "nome": "Relógio Masculino Timex Easy Reader Indiglo PretoPrata",
+      "por": 299.0,
+      "foto": "AgACAgQAAxkDAAIEZ2rSRbHpwKplnFzmzL8TPMStJqBeAAIoDmsbC9FFUY-EgnI8Bon3AQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "palavra": "relogio masculino",
+      "garimpado_em": "2026-10-16T12:00-03:00",
+      "nota": 38.4,
+      "titulo": "Timex com mostrador de fácil leitura no escuro",
+      "id": 662,
+      "na_revisao_desde": "2026-10-16T12:41-03:00",
+      "msg_id": 1127
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB5877188254",
+      "origem": "xetdaspromocoes",
+      "link": "https://meli.la/24CYbax",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-5877188254-kit-3-shorts-2-em-1-masculino-de-compresso-corrida-academia-_JM?pdp_filters=item_id%3AMLB5877188254",
+      "post_origem": "https://t.me/xetdaspromocoes/85157",
+      "link_canal": "https://meli.la/2bcTn23",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_949957-MLB115601154336_092026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Kit 3 Shorts 2 Em 1 Masculino De Compressão Corrida Academia",
+      "de": 109.0,
+      "por": 53.0,
+      "lido_ia": true,
+      "cupom": "TUDOEMPROMO",
+      "preco_loja": 71.99,
+      "palavra": "academia",
+      "garimpado_em": "2026-10-16T10:46-03:00",
+      "nota": 78.1,
+      "titulo": "Bermudas com compressão interna para corrida e academia",
+      "id": 664,
+      "na_revisao_desde": "2026-10-16T12:41-03:00",
+      "msg_id": 1129
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0G5RDXV7N",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0G5RDXV7N?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0G5RDXV7N?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/222818",
+      "link_canal": "https://www.amazon.com.br/Cooler-GamerStorm-Redragon-Heatpipes-R-AK400-BKNNMD-AJG/dp/B0G5RDXV7N?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAIEamrSRdFVN7e_Y15KhgdB2xwB6jwdAALMDGsb8y6dUBaQaj68G1iEAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "nome": "Air Cooler GamerStorm X Redragon AK400 RD Preto 4 Heatpipes Fan 120 mm R-AK400-BKNNMD-AJG",
+      "parcelas": 4,
+      "por": 148.0,
+      "lido_ia": true,
+      "palavra": "cooler",
+      "garimpado_em": "2026-10-16T12:20-03:00",
+      "nota": 18.6,
+      "titulo": "Air cooler para manter o processador frio",
+      "id": 665,
+      "na_revisao_desde": "2026-10-16T12:42-03:00",
+      "msg_id": 1130
+    }
+  ],
+  "proximo_id": 666,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 85187,
-      "lobaopromo": 190342,
-      "gatunopromos": 125711,
+      "xetdaspromocoes": 85188,
+      "lobaopromo": 190349,
+      "gatunopromos": 125712,
       "pobregram": 42008,
-      "urubupromo": 41772,
-      "tudonapromo": 102140,
-      "promonocontext": 127633,
-      "promooeasy": 222827,
-      "aquitempechincha": 282108,
+      "urubupromo": 41774,
+      "tudonapromo": 102144,
+      "promonocontext": 127639,
+      "promooeasy": 222832,
+      "aquitempechincha": 282112,
       "infoBRpromos": 67691,
-      "boletando": 76829,
+      "boletando": 76831,
       "promotop": 260368,
       "achadosdotb": 11784
     },
     "dia": "2026-10-16",
-    "hoje": 54,
+    "hoje": 55,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -3972,30 +4106,31 @@
       "shopee:404326574.21299379722",
       "shopee:1208087934.22992891020",
       "shopee:464289510.23192940890",
-      "shopee:987059980.21198282551"
+      "shopee:987059980.21198282551",
+      "mercadolivre:MLB7218965676"
     ],
     "ultima": {
-      "em": "2026-10-16T12:30:24-03:00",
+      "em": "2026-10-16T12:40:20-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 39,
+      "posts_novos": 43,
       "do_nicho": 3,
-      "repetidas": 3,
-      "novas": 0,
+      "repetidas": 2,
+      "novas": 1,
       "limite_dia": false,
       "repetidas_nome": 0,
       "promobit": 0,
-      "soltas": 0,
-      "na_peneira": 24
+      "soltas": 6,
+      "na_peneira": 29
     },
     "hora": "2026-10-16T12",
-    "nesta_hora": 4,
+    "nesta_hora": 5,
     "promobit_hora": "2026-10-16T12",
     "promobit_nesta_hora": 1,
-    "promobit_visto": 3118950,
+    "promobit_visto": 3118968,
     "nomes": [
       [
         [
@@ -5873,44 +6008,78 @@
           "ai"
         ],
         "2026-10-16T11:37-03:00"
+      ],
+      [
+        [
+          "forma",
+          "descartavel",
+          "quadrada",
+          "airfryer",
+          "100"
+        ],
+        "2026-10-16T12:41-03:00"
+      ],
+      [
+        [
+          "relogio",
+          "poedagar",
+          "suico",
+          "aco",
+          "inox",
+          "old",
+          "money",
+          "caixa"
+        ],
+        "2026-10-16T12:41-03:00"
+      ],
+      [
+        [
+          "relogio",
+          "timex",
+          "easy",
+          "reader",
+          "indiglo",
+          "pretoprata"
+        ],
+        "2026-10-16T12:41-03:00"
+      ],
+      [
+        [
+          "50",
+          "100",
+          "150",
+          "folhas",
+          "papel",
+          "antiaderente",
+          "airfryer",
+          "frituras"
+        ],
+        "2026-10-16T12:41-03:00"
+      ],
+      [
+        [
+          "shorts",
+          "compressao",
+          "corrida",
+          "academia"
+        ],
+        "2026-10-16T12:41-03:00"
+      ],
+      [
+        [
+          "air",
+          "cooler",
+          "gamerstorm",
+          "redragon",
+          "ak400",
+          "rd",
+          "heatpipes",
+          "fan"
+        ],
+        "2026-10-16T12:42-03:00"
       ]
     ],
     "peneira": [
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB7650816130",
-        "origem": "promonocontext",
-        "link": "https://www.mercadolivre.com.br/short-tactel-masculino-mauricinho-bermuda-treino-academia/up/MLBU5182673397?pdp_filters=item_id%3AMLB7650816130&matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/short-tactel-masculino-mauricinho-bermuda-treino-academia/up/MLBU5182673397?pdp_filters=item_id%3AMLB7650816130",
-        "post_origem": "https://t.me/promonocontext/127463",
-        "link_canal": "https://meli.la/21ZQ2Kc",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_890691-MLB117749071013_092026-O.webp",
-        "foto_origem": "loja",
-        "nome": "Short Tactel Masculino Mauricinho Bermuda Treino Academia Preto Black",
-        "por": 49.0,
-        "lido_ia": true,
-        "palavra": "academia",
-        "garimpado_em": "2026-10-16T09:41-03:00",
-        "nota": 35.9
-      },
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB3222732842",
-        "origem": "promonocontext",
-        "link": "https://produto.mercadolivre.com.br/MLB-3222732842-kit-2-conjuntos-fitness-feminino-de-academia-alta-qualidade-_JM?pdp_filters=item_id%3AMLB3222732842&matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://produto.mercadolivre.com.br/MLB-3222732842-kit-2-conjuntos-fitness-feminino-de-academia-alta-qualidade-_JM?pdp_filters=item_id%3AMLB3222732842",
-        "post_origem": "https://t.me/promonocontext/127479",
-        "link_canal": "https://meli.la/1Kg3RZ7",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_971504-MLB110118425737_042026-O.webp",
-        "foto_origem": "loja",
-        "nome": "Kit 2 Conjuntos Fitness Feminino De Academia Alta Qualidade",
-        "por": 180.0,
-        "lido_ia": true,
-        "preco_conferido": true,
-        "palavra": "academia",
-        "garimpado_em": "2026-10-16T09:41-03:00",
-        "nota": 35.9
-      },
       {
         "loja": "mercadolivre",
         "chave": "mercadolivre:MLB35612949",
@@ -5948,26 +6117,6 @@
         "palavra": "caixa de som",
         "garimpado_em": "2026-10-16T10:40-03:00",
         "nota": 36.7
-      },
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB5877188254",
-        "origem": "xetdaspromocoes",
-        "link": "https://produto.mercadolivre.com.br/MLB-5877188254-kit-3-shorts-2-em-1-masculino-de-compresso-corrida-academia-_JM?pdp_filters=item_id%3AMLB5877188254&matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://produto.mercadolivre.com.br/MLB-5877188254-kit-3-shorts-2-em-1-masculino-de-compresso-corrida-academia-_JM?pdp_filters=item_id%3AMLB5877188254",
-        "post_origem": "https://t.me/xetdaspromocoes/85157",
-        "link_canal": "https://meli.la/2bcTn23",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_949957-MLB115601154336_092026-O.webp",
-        "foto_origem": "loja",
-        "nome": "Kit 3 Shorts 2 Em 1 Masculino De Compressão Corrida Academia",
-        "de": 109.0,
-        "por": 53.0,
-        "lido_ia": true,
-        "cupom": "TUDOEMPROMO",
-        "preco_loja": 71.99,
-        "palavra": "academia",
-        "garimpado_em": "2026-10-16T10:46-03:00",
-        "nota": 78.1
       },
       {
         "loja": "mercadolivre",
@@ -6216,23 +6365,6 @@
         "nota": 35.5
       },
       {
-        "loja": "amazon",
-        "chave": "amazon:B0977QVRJS",
-        "origem": "promobit",
-        "fonte": "promobit",
-        "link": "https://www.amazon.com.br/dp/B0977QVRJS?tag=alphadominu09-20",
-        "link_produto": "https://www.amazon.com.br/dp/B0977QVRJS?tag=alphadominu09-20",
-        "post_origem": "https://www.promobit.com.br/oferta/relogio-masculino-timex-easy-reader-indiglo-pretoprata-3118825/",
-        "link_canal": "https://www.promobit.com.br/Redirect/to/3118825/",
-        "nome": "Relógio Masculino Timex Easy Reader Indiglo PretoPrata",
-        "por": 299.0,
-        "foto": "https://m.media-amazon.com/images/I/51Hpwdyqo-L._AC_SL1001_.jpg",
-        "foto_origem": "loja",
-        "palavra": "relogio masculino",
-        "garimpado_em": "2026-10-16T12:00-03:00",
-        "nota": 38.4
-      },
-      {
         "loja": "mercadolivre",
         "chave": "mercadolivre:MLB32101995",
         "origem": "promonocontext",
@@ -6290,24 +6422,6 @@
         "nota": 69.4
       },
       {
-        "loja": "amazon",
-        "chave": "amazon:B0G5RDXV7N",
-        "origem": "promooeasy",
-        "link": "https://www.amazon.com.br/dp/B0G5RDXV7N?tag=alphadominu09-20",
-        "link_produto": "https://www.amazon.com.br/dp/B0G5RDXV7N?tag=alphadominu09-20",
-        "post_origem": "https://t.me/promooeasy/222818",
-        "link_canal": "https://www.amazon.com.br/Cooler-GamerStorm-Redragon-Heatpipes-R-AK400-BKNNMD-AJG/dp/B0G5RDXV7N?tag=promof26-20",
-        "foto": "https://m.media-amazon.com/images/I/71mOg2z50mL._AC_SL1500_.jpg",
-        "foto_origem": "loja",
-        "nome": "Air Cooler GamerStorm X Redragon AK400 RD Preto 4 Heatpipes Fan 120 mm R-AK400-BKNNMD-AJG",
-        "parcelas": 4,
-        "por": 148.0,
-        "lido_ia": true,
-        "palavra": "cooler",
-        "garimpado_em": "2026-10-16T12:20-03:00",
-        "nota": 18.6
-      },
-      {
         "loja": "shopee",
         "chave": "shopee:1252710748.22993048849",
         "nome": "Forma De airfryer Papel Descartável Redondo Antiaderente Papel",
@@ -6325,25 +6439,6 @@
         "palavra": "airfryer",
         "garimpado_em": "2026-10-16T12:31-03:00",
         "nota": 66.1
-      },
-      {
-        "loja": "shopee",
-        "chave": "shopee:1142080977.58251235467",
-        "nome": "Forma Descartável Quadrada para Airfryer 100 Unidades",
-        "por": 13.99,
-        "de": 69.95,
-        "foto": "https://cf.shopee.com.br/file/br-11134207-81z1k-mhmr1gnvzv9dbd",
-        "link": "https://s.shopee.com.br/8fTB9kMliO",
-        "link_produto": "https://shopee.com.br/product/1142080977/58251235467",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 4.7,
-        "vendas": 2078,
-        "palavra": "airfryer",
-        "garimpado_em": "2026-10-16T12:31-03:00",
-        "nota": 83.5
       },
       {
         "loja": "shopee",
@@ -6461,25 +6556,6 @@
       },
       {
         "loja": "shopee",
-        "chave": "shopee:1555952803.58203850063",
-        "nome": "50/100/150 Folhas De Papel Antiaderente de Airfryer para Frituras Assados Multiuso Sanduíche Fritas",
-        "por": 16.99,
-        "de": 65.35,
-        "foto": "https://cf.shopee.com.br/file/sg-11134201-8262i-mjsoa57d7ri945",
-        "link": "https://s.shopee.com.br/5LCjBcZSTw",
-        "link_produto": "https://shopee.com.br/product/1555952803/58203850063",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 4.9,
-        "vendas": 292,
-        "palavra": "airfryer",
-        "garimpado_em": "2026-10-16T12:31-03:00",
-        "nota": 79.9
-      },
-      {
-        "loja": "shopee",
         "chave": "shopee:404326574.21299379722",
         "nome": "Botão Regulador Timer Temperatura Air Fryer Cadence para Vários Modelos",
         "por": 14.8,
@@ -6556,12 +6632,16 @@
       }
     ],
     "soltas_hora": "2026-10-16T12",
-    "soltas": 0,
+    "soltas": 6,
     "shopee_em": "2026-10-16T12:30-03:00",
     "shopee_indice": 56,
     "soltas_dia_data": "2026-10-16",
-    "soltas_dia": 28,
-    "soltas_loja": {}
+    "soltas_dia": 34,
+    "soltas_loja": {
+      "shopee": 2,
+      "mercadolivre": 2,
+      "amazon": 2
+    }
   },
   "ultimos": [
     {
@@ -7877,17 +7957,17 @@
     },
     "2026-10-16": {
       "shopee": {
-        "achados": 6,
+        "achados": 8,
         "aprovados": 0,
         "reprovados": 1
       },
       "promobit": {
-        "achados": 4,
+        "achados": 5,
         "aprovados": 0,
         "reprovados": 4
       },
       "promonocontext": {
-        "achados": 5,
+        "achados": 6,
         "aprovados": 4,
         "reprovados": 1
       },
@@ -7897,7 +7977,7 @@
         "reprovados": 0
       },
       "promooeasy": {
-        "achados": 1,
+        "achados": 2,
         "aprovados": 1,
         "reprovados": 0
       },
@@ -7905,13 +7985,18 @@
         "achados": 2,
         "aprovados": 2,
         "reprovados": 0
+      },
+      "xetdaspromocoes": {
+        "achados": 1,
+        "aprovados": 0,
+        "reprovados": 0
       }
     }
   },
-  "aviso_post": "2026-10-16 12:14|mercadolivre:MLB7715359186",
+  "aviso_post": "2026-10-16 12:50|mercadolivre:MLB5060820475",
   "garimpo_palavras": {
     "academia": {
-      "achados": 27,
+      "achados": 28,
       "aprovados": 9,
       "reprovados": 18
     },
@@ -8001,7 +8086,7 @@
       "reprovados": 1
     },
     "cooler": {
-      "achados": 5,
+      "achados": 6,
       "aprovados": 0,
       "reprovados": 5
     },
@@ -8106,7 +8191,7 @@
       "reprovados": 2
     },
     "relogio": {
-      "achados": 13,
+      "achados": 14,
       "aprovados": 5,
       "reprovados": 7
     },
@@ -8141,7 +8226,7 @@
       "reprovados": 7
     },
     "relogio masculino": {
-      "achados": 6,
+      "achados": 7,
       "aprovados": 3,
       "reprovados": 3
     },
@@ -8156,7 +8241,7 @@
       "reprovados": 0
     },
     "airfryer": {
-      "achados": 2,
+      "achados": 4,
       "aprovados": 0,
       "reprovados": 2
     },
