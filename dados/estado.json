@@ -2,27 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB25371983",
-      "origem": "promonocontext",
-      "link": "https://meli.la/2HT6MGa",
-      "link_produto": "https://meli.la/2HT6MGa",
-      "post_origem": "https://t.me/promonocontext/127113",
-      "link_canal": "https://meli.la/1cMkdJ4",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_681126-MLA115545993062_082026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Lavadora de Alta Pressão Kärcher Compacta 1.500 PSI/Libras 1400W",
-      "de": 700.0,
-      "por": 299.0,
-      "palavra": "lavadora de alta pressao",
-      "garimpado_em": "2026-10-15T13:20-03:00",
-      "nota": 75.6,
-      "titulo": "Lavadora de alta pressão para limpeza de quintal e garagem",
-      "na_revisao_desde": "2026-10-15T13:41-03:00",
-      "aprovado_em": "2026-10-15T21:30-03:00",
-      "aviso_validade": true
-    },
-    {
       "loja": "shopee",
       "chave": "shopee:834213091.58263387989",
       "nome": "Pré Treino 300g Sabor Tangerina | GL Suplemento Alimentar em Pó | Beta-Alanina Cafeína Taurina L-Arginina",
@@ -1821,6 +1800,16 @@
       "link_produto": "https://shopee.com.br/product/874482610/58209603177",
       "titulo": "Luva antiderrapante para proteger as mãos no treino",
       "slot": 10.1
+    },
+    {
+      "chave": "mercadolivre:MLB25371983",
+      "loja": "mercadolivre",
+      "nome": "Lavadora de Alta Pressão Kärcher Compacta 1.500 PSI/Libras 1400W",
+      "data": "2026-10-16T11:08-03:00",
+      "link": "https://meli.la/2HT6MGa",
+      "link_produto": "https://meli.la/2HT6MGa",
+      "titulo": "Lavadora de alta pressão para limpeza de quintal e garagem",
+      "slot": 11
     }
   ],
   "slots_usados": {
@@ -1904,7 +1893,8 @@
       9,
       9.1,
       10,
-      10.1
+      10.1,
+      11
     ]
   },
   "shopee_buscado_em": "",
@@ -6100,6 +6090,19 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB25371983",
+      "origem": "promonocontext",
+      "link": "https://meli.la/2HT6MGa",
+      "link_produto": "https://meli.la/2HT6MGa",
+      "post_origem": "https://t.me/promonocontext/127113",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_681126-MLA115545993062_082026-O.webp",
+      "nome": "Lavadora de Alta Pressão Kärcher Compacta 1.500 PSI/Libras 1400W",
+      "de": 700.0,
+      "por": 299.0,
+      "titulo": "Lavadora de alta pressão para limpeza de quintal e garagem"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:874482610.58209603177",
       "nome": "Luva de Academia Musculação Treino Max Grip Protetor de Pegada Antiderrapante 4 Dedos",
@@ -6625,20 +6628,6 @@
       "foto": "AgACAgQAAxkDAAIDmmrQEw0aZ2Hrq_g9tPBeaePZi6bJAAJaD2sbnoeEUpMcdGUw6P_5AQADAgADeAADPQQ",
       "titulo": "Camisa polo preta para torcer com estilo",
       "parcelas": 2
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0DG42KW7N",
-      "origem": "promonocontext",
-      "link": "https://link.amazon/B0h3P5yvl",
-      "link_produto": "https://link.amazon/B0h3P5yvl",
-      "post_origem": "https://t.me/promonocontext/126788",
-      "foto": "AgACAgQAAxkDAAIDkWrQBPxcGOp-L8Q7WRqpNcsj-jvKAAIpD2sb3UqFUjNaBSPw8sbRAQADAgADeAADPQQ",
-      "nome": "Creatina Mu Sem Sabor 500g",
-      "de": 91.0,
-      "por": 65.0,
-      "titulo": "Creatina sem sabor para o seu treino diário",
-      "obs": "Use o progame e poupe e cancele quando quiser!"
     }
   ],
   "lixeira": [
