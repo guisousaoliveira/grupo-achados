@@ -214,6 +214,28 @@
       "titulo": "Huawei Watch para treinar semanas sem precisar carregar",
       "na_revisao_desde": "2026-10-16T09:16-03:00",
       "aprovado_em": "2026-10-16T09:19-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB1010954920",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/2D8vKNH",
+      "link_produto": "https://meli.la/2D8vKNH",
+      "post_origem": "https://t.me/lobaopromo/190229",
+      "link_canal": "https://meli.la/2KMdsxs",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_724774-MLB100762267821_122025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Kit 6 Cuecas Lupo Boxer Box Sem Costura Basic Microfibra",
+      "pix": true,
+      "de": 288.63,
+      "por": 129.99,
+      "lido_ia": true,
+      "palavra": "cueca",
+      "garimpado_em": "2026-10-16T09:21-03:00",
+      "nota": 61.5,
+      "titulo": "Cuecas boxer sem costura que não incomodam",
+      "na_revisao_desde": "2026-10-16T09:42-03:00",
+      "aprovado_em": "2026-10-16T09:43-03:00"
     }
   ],
   "postados": [
@@ -1791,29 +1813,6 @@
       "id": 646,
       "na_revisao_desde": "2026-10-16T09:42-03:00",
       "msg_id": 1105
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB1010954920",
-      "origem": "lobaopromo",
-      "link": "https://produto.mercadolivre.com.br/MLB-1010954920-kit-6-cuecas-lupo-boxer-box-sem-costura-basic-microfibra-_JM?pdp_filters=item_id%3AMLB1010954920&matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-1010954920-kit-6-cuecas-lupo-boxer-box-sem-costura-basic-microfibra-_JM?pdp_filters=item_id%3AMLB1010954920",
-      "post_origem": "https://t.me/lobaopromo/190229",
-      "link_canal": "https://meli.la/2KMdsxs",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_724774-MLB100762267821_122025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Kit 6 Cuecas Lupo Boxer Box Sem Costura Basic Microfibra",
-      "pix": true,
-      "de": 288.63,
-      "por": 129.99,
-      "lido_ia": true,
-      "palavra": "cueca",
-      "garimpado_em": "2026-10-16T09:21-03:00",
-      "nota": 61.5,
-      "titulo": "Cuecas boxer sem costura que não incomodam",
-      "id": 647,
-      "na_revisao_desde": "2026-10-16T09:42-03:00",
-      "msg_id": 1106
     }
   ],
   "proximo_id": 648,
@@ -6915,7 +6914,7 @@
       },
       "lobaopromo": {
         "achados": 3,
-        "aprovados": 1,
+        "aprovados": 2,
         "reprovados": 0
       },
       "promooeasy": {
@@ -7039,7 +7038,7 @@
     },
     "cueca": {
       "achados": 11,
-      "aprovados": 0,
+      "aprovados": 1,
       "reprovados": 9
     },
     "echo dot": {
