@@ -238,6 +238,28 @@
       "titulo": "Thermo Flame Blackskull para acelerar o metabolismo",
       "aprovado_sozinho": true,
       "aprovado_em": "2026-10-16T10:41-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB5579293332",
+      "origem": "lobaopromo",
+      "link": "https://produto.mercadolivre.com.br/MLB-5579293332-kit-com-3-conjuntos-academia-masculino-dry-fit-shortscamisa-_JM?pdp_filters=item_id%3AMLB5579293332&matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-5579293332-kit-com-3-conjuntos-academia-masculino-dry-fit-shortscamisa-_JM?pdp_filters=item_id%3AMLB5579293332",
+      "post_origem": "https://t.me/lobaopromo/190226",
+      "link_canal": "https://meli.la/2KAqmgL",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_726770-MLB110302024394_052026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Kit Com 3 Conjuntos Academia Masculino Dry Fit Shorts+camisa",
+      "pix": true,
+      "de": 156.25,
+      "por": 109.08,
+      "lido_ia": true,
+      "palavra": "academia",
+      "garimpado_em": "2026-10-16T09:21-03:00",
+      "nota": 56.6,
+      "titulo": "Conjuntos dry fit respiráveis ideais nos treinos diários",
+      "na_revisao_desde": "2026-10-16T10:41-03:00",
+      "aprovado_em": "2026-10-16T10:43-03:00"
     }
   ],
   "postados": [
@@ -1859,29 +1881,6 @@
       "id": 650,
       "na_revisao_desde": "2026-10-16T10:41-03:00",
       "msg_id": 1111
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB5579293332",
-      "origem": "lobaopromo",
-      "link": "https://produto.mercadolivre.com.br/MLB-5579293332-kit-com-3-conjuntos-academia-masculino-dry-fit-shortscamisa-_JM?pdp_filters=item_id%3AMLB5579293332&matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-5579293332-kit-com-3-conjuntos-academia-masculino-dry-fit-shortscamisa-_JM?pdp_filters=item_id%3AMLB5579293332",
-      "post_origem": "https://t.me/lobaopromo/190226",
-      "link_canal": "https://meli.la/2KAqmgL",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_726770-MLB110302024394_052026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Kit Com 3 Conjuntos Academia Masculino Dry Fit Shorts+camisa",
-      "pix": true,
-      "de": 156.25,
-      "por": 109.08,
-      "lido_ia": true,
-      "palavra": "academia",
-      "garimpado_em": "2026-10-16T09:21-03:00",
-      "nota": 56.6,
-      "titulo": "Conjuntos dry fit respiráveis ideais nos treinos diários",
-      "id": 651,
-      "na_revisao_desde": "2026-10-16T10:41-03:00",
-      "msg_id": 1112
     }
   ],
   "proximo_id": 652,
@@ -7058,7 +7057,7 @@
       },
       "lobaopromo": {
         "achados": 4,
-        "aprovados": 2,
+        "aprovados": 3,
         "reprovados": 0
       },
       "promooeasy": {
@@ -7072,7 +7071,7 @@
   "garimpo_palavras": {
     "academia": {
       "achados": 26,
-      "aprovados": 7,
+      "aprovados": 8,
       "reprovados": 18
     },
     "air fryer": {
