@@ -2,29 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB54422844",
-      "origem": "promonocontext",
-      "link": "https://meli.la/2CNsvuM",
-      "link_produto": "https://www.mercadolivre.com.br/relogio-masculino-classico-pulseira-prata-correia-prateada-bisel-prateado-fundo-azul-marinho-saint-germain-42mm-elegante-detalhes-bronze/p/MLB54422844",
-      "post_origem": "https://t.me/promonocontext/127688",
-      "link_canal": "https://meli.la/2ipPnNp",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_758835-MLA100010183395_122025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Relógio Masculino Clássico Pulseira Prata Correia Prateada Bisel",
-      "pix": true,
-      "de": 200.0,
-      "por": 92.0,
-      "lido_ia": true,
-      "preco_conferido": true,
-      "palavra": "relogio masculino",
-      "garimpado_em": "2026-10-16T15:30-03:00",
-      "nota": 79.0,
-      "titulo": "Relógio prateado clássico para o dia a dia",
-      "aprovado_sozinho": true,
-      "aprovado_em": "2026-10-16T15:30-03:00"
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B0FPBP6G49",
       "origem": "promooeasy",
@@ -2092,6 +2069,16 @@
       "link_produto": "https://www.amazon.com.br/dp/B0FPBQQ4TN?tag=alphadominu09-20",
       "titulo": "Smart TV 4K com Ambilight para a sala",
       "slot": 18.2
+    },
+    {
+      "chave": "mercadolivre:MLB54422844",
+      "loja": "mercadolivre",
+      "nome": "Relógio Masculino Clássico Pulseira Prata Correia Prateada Bisel",
+      "data": "2026-10-16T18:54-03:00",
+      "link": "https://meli.la/2CNsvuM",
+      "link_produto": "https://www.mercadolivre.com.br/relogio-masculino-classico-pulseira-prata-correia-prateada-bisel-prateado-fundo-azul-marinho-saint-germain-42mm-elegante-detalhes-bronze/p/MLB54422844",
+      "titulo": "Relógio prateado clássico para o dia a dia",
+      "slot": 18.3
     }
   ],
   "slots_usados": {
@@ -2203,7 +2190,8 @@
       17.3,
       18,
       18.1,
-      18.2
+      18.2,
+      18.3
     ]
   },
   "shopee_buscado_em": "",
@@ -7202,6 +7190,20 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB54422844",
+      "origem": "promonocontext",
+      "link": "https://meli.la/2CNsvuM",
+      "link_produto": "https://www.mercadolivre.com.br/relogio-masculino-classico-pulseira-prata-correia-prateada-bisel-prateado-fundo-azul-marinho-saint-germain-42mm-elegante-detalhes-bronze/p/MLB54422844",
+      "post_origem": "https://t.me/promonocontext/127688",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_758835-MLA100010183395_122025-O.webp",
+      "nome": "Relógio Masculino Clássico Pulseira Prata Correia Prateada Bisel",
+      "pix": true,
+      "de": 200.0,
+      "por": 92.0,
+      "titulo": "Relógio prateado clássico para o dia a dia"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0FPBQQ4TN",
       "origem": "promobit",
@@ -7727,19 +7729,6 @@
       "de": 199.0,
       "por": 90.69,
       "titulo": "Fragrância fresca ideal para dias de calor"
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:1638805020.58264360363",
-      "nome": "Kit Halteres Ajustáveis 15kg Musculação 6 em 1 Barra Kettlebell Anilhas Academia em Casa Treino",
-      "por": 198.8,
-      "de": 602.42,
-      "foto": "https://cf.shopee.com.br/file/br-11134207-820ld-mr1c0ywi8iys19",
-      "link": "https://s.shopee.com.br/gQrjbtHre",
-      "link_produto": "https://shopee.com.br/product/1638805020/58264360363",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "titulo": "Halteres ajustáveis para montar sua academia em casa"
     }
   ],
   "lixeira": [
