@@ -247,6 +247,31 @@
       "titulo": "Controle remoto com comando de voz para Chromecast",
       "aprovado_sozinho": true,
       "aprovado_em": "2026-10-16T18:50-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB7192331052",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/1tjDaDq",
+      "link_produto": "https://meli.la/1tjDaDq",
+      "post_origem": "https://t.me/lobaopromo/190509",
+      "link_canal": "https://meli.la/1kzf8pu",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_987578-MLB114712738017_072026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Perfume Masculino Midnight Blue 100ml Importado Original Alta Fixação",
+      "pix": true,
+      "por": 66.65,
+      "lido_ia": true,
+      "aviso_preco": true,
+      "preco_loja": 55.19,
+      "palavra": "perfume masculino",
+      "garimpado_em": "2026-10-16T18:10-03:00",
+      "nota": 54.5,
+      "motivo_revisao": "o post diz R$ 249,99 e a loja mostra R$ 55,19, e não tem cupom ou Pix que explique a diferença",
+      "titulo": "Perfume importado com alta fixação para o dia a dia",
+      "na_revisao_desde": "2026-10-16T18:20-03:00",
+      "de": 239.0,
+      "aprovado_em": "2026-10-16T19:00-03:00"
     }
   ],
   "postados": [
@@ -2461,31 +2486,6 @@
       "id": 704,
       "na_revisao_desde": "2026-10-16T18:01-03:00",
       "msg_id": 1198
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB7192331052",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/perfume-masculino-midnight-blue-100ml-importado-original-alta-fixacao/up/MLBU4333143819?pdp_filters=item_id%3AMLB7192331052&matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/perfume-masculino-midnight-blue-100ml-importado-original-alta-fixacao/up/MLBU4333143819?pdp_filters=item_id%3AMLB7192331052",
-      "post_origem": "https://t.me/lobaopromo/190509",
-      "link_canal": "https://meli.la/1kzf8pu",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_987578-MLB114712738017_072026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Perfume Masculino Midnight Blue 100ml Importado Original Alta Fixação",
-      "pix": true,
-      "por": 249.99,
-      "lido_ia": true,
-      "aviso_preco": true,
-      "preco_loja": 55.19,
-      "palavra": "perfume masculino",
-      "garimpado_em": "2026-10-16T18:10-03:00",
-      "nota": 54.5,
-      "motivo_revisao": "o post diz R$ 249,99 e a loja mostra R$ 55,19, e não tem cupom ou Pix que explique a diferença",
-      "titulo": "Perfume importado com alta fixação para o dia a dia",
-      "id": 705,
-      "na_revisao_desde": "2026-10-16T18:20-03:00",
-      "msg_id": 1199
     }
   ],
   "proximo_id": 708,
@@ -8689,7 +8689,7 @@
       },
       "lobaopromo": {
         "achados": 10,
-        "aprovados": 4,
+        "aprovados": 5,
         "reprovados": 0
       },
       "promooeasy": {
@@ -8913,7 +8913,7 @@
     },
     "perfume masculino": {
       "achados": 9,
-      "aprovados": 6,
+      "aprovados": 7,
       "reprovados": 2
     },
     "power bank": {
