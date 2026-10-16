@@ -2498,31 +2498,6 @@
       "id": 705,
       "na_revisao_desde": "2026-10-16T18:20-03:00",
       "msg_id": 1199
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB74125007",
-      "origem": "promooeasy",
-      "link": "https://produto.mercadolivre.com.br/MLB-74125007?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-74125007",
-      "post_origem": "https://t.me/promooeasy/223078",
-      "link_canal": "https://www.mercadolivre.com.br/whey-protein-soldiers-nutrition-em-po-sabor-morango-x-900g/p/MLB74125007?matt_word=promoeasynv&amp;matt_tool=88963738",
-      "foto": "AgACAgEAAxkDAAIEsGrSlTREzWQHj1mZPdXAIVNZgNTHAAIfDWsbzxKQRr_malm6fW0vAQADAgADeAADPQQ",
-      "foto_origem": "canal",
-      "nome": "Whey protein Soldiers Nutrition em pó sabor Morango 900g",
-      "pix": true,
-      "de": 110.0,
-      "por": 72.0,
-      "lido_ia": true,
-      "sem_preco_loja": true,
-      "palavra": "whey",
-      "garimpado_em": "2026-10-16T18:10-03:00",
-      "nota": 48.5,
-      "motivo_revisao": "a loja não abriu para eu conferir o preço",
-      "titulo": "Whey protein de morango para complementar a dieta",
-      "id": 706,
-      "na_revisao_desde": "2026-10-16T18:20-03:00",
-      "msg_id": 1200
     }
   ],
   "proximo_id": 708,
@@ -7769,6 +7744,32 @@
   ],
   "lixeira": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB74125007",
+      "origem": "promooeasy",
+      "link": "https://produto.mercadolivre.com.br/MLB-74125007?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-74125007",
+      "post_origem": "https://t.me/promooeasy/223078",
+      "link_canal": "https://www.mercadolivre.com.br/whey-protein-soldiers-nutrition-em-po-sabor-morango-x-900g/p/MLB74125007?matt_word=promoeasynv&amp;matt_tool=88963738",
+      "foto": "AgACAgEAAxkDAAIEsGrSlTREzWQHj1mZPdXAIVNZgNTHAAIfDWsbzxKQRr_malm6fW0vAQADAgADeAADPQQ",
+      "foto_origem": "canal",
+      "nome": "Whey protein Soldiers Nutrition em pó sabor Morango 900g",
+      "pix": true,
+      "de": 110.0,
+      "por": 72.0,
+      "lido_ia": true,
+      "sem_preco_loja": true,
+      "palavra": "whey",
+      "garimpado_em": "2026-10-16T18:10-03:00",
+      "nota": 48.5,
+      "motivo_revisao": "a loja não abriu para eu conferir o preço",
+      "titulo": "Whey protein de morango para complementar a dieta",
+      "id": 706,
+      "na_revisao_desde": "2026-10-16T18:20-03:00",
+      "removido_em": "2026-10-16T18:52:18-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0GJFZNLRR",
       "origem": "aquitempechincha",
@@ -8704,7 +8705,7 @@
       "promooeasy": {
         "achados": 11,
         "aprovados": 3,
-        "reprovados": 1
+        "reprovados": 2
       },
       "boletando": {
         "achados": 2,
@@ -8968,7 +8969,7 @@
     "whey": {
       "achados": 12,
       "aprovados": 3,
-      "reprovados": 7
+      "reprovados": 8
     },
     "relogio masculino": {
       "achados": 8,
