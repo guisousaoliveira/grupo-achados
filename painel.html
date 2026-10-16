@@ -529,14 +529,72 @@ body{background:var(--bg)}
   .saida{grid-template-columns:50px minmax(0,1fr) auto;padding:10px 12px;gap:10px}
   .saida .h{font-size:14.5px}
 }
+/* card do canal */
+.canal{display:flex;align-items:center;gap:10px;margin:0 2px 16px;padding:9px 10px;border-radius:8px;border:1px solid var(--line2);background:var(--card2);text-decoration:none;color:var(--tx)}
+.canal:hover{border-color:var(--gold)}
+.canal .av{width:28px;height:28px;border-radius:6px;background:#0b0b0c;display:grid;place-items:center;flex:none;overflow:hidden}
+.canal .av img{height:22px}
+.canal .t{display:flex;flex-direction:column;min-width:0;flex:1}
+.canal small{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--mut)}
+.canal b{font-size:14px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.canal svg{color:var(--mut);flex:none}
+.canal.mini{display:none}
+/* revisar em cards */
+.rgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:12px}
+.of.rc{display:flex;flex-direction:column;padding:0;gap:0;align-items:stretch}
+.rc-tp{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:9px 14px;border-bottom:1px solid var(--line);flex-wrap:wrap}
+.rc-f{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--mut)}
+.rc-f .velho{color:var(--warn)}
+.rc-cp{display:grid;grid-template-columns:76px minmax(0,1fr);gap:12px;padding:12px 14px;flex:1;align-items:start}
+.rc-cp .ph{width:76px;height:76px}
+.rc-bt{display:flex;gap:8px;align-items:center;padding:10px 14px;border-top:1px solid var(--line)}
+.rc-bt .btn.gold{flex:1;height:38px}
+.rc-bt .ib{width:38px;height:38px;flex:none}
+.selo-ia{display:inline-flex;align-items:center;gap:5px;font-size:12.5px;font-weight:500;padding:4px 8px;border-radius:6px;margin-top:8px;line-height:1.3}
+.selo-ia svg{flex:none}
+.selo-ia.ok{background:var(--okbg);color:var(--ok)}
+.selo-ia.av{background:var(--warnbg);color:var(--warn)}
+.selo-ia.mal{background:var(--badbg);color:var(--bad)}
+.conf-bt{width:100%;height:42px;margin-bottom:12px}
+/* fila em linhas */
+.filaq{background:var(--card);box-shadow:var(--sombra)}
+.fl-l{display:grid;grid-template-columns:64px 56px minmax(0,1fr) auto;gap:12px;align-items:center;padding:11px 14px;border-top:1px dashed var(--line);cursor:pointer}
+.fl-l:first-child{border-top:0}
+.fl-l:hover .fl-n > b{color:var(--gold)}
+.fl-h b{display:block;font-family:var(--mono);font-size:16px;font-weight:600}
+.fl-h small{font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--mut)}
+.fl-l .ph{width:56px;height:56px}
+.fl-l .ph .pos{font-size:10px;left:3px;top:3px}
+.fl-n > b{display:block;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.fl-m{display:flex;flex-wrap:wrap;align-items:center;gap:4px 10px;margin-top:3px}
+.fl-m .selo-ia{margin:0;font-size:11.5px;padding:2px 7px}
+.fl-p{font-weight:600;font-size:13.5px}
+.fl-a{display:flex;align-items:center;gap:5px}
+.fl-a .ib{width:32px;height:32px}
+@media (max-width:820px){
+  .mob-top b#mob-t{display:none}
+  .canal.mini{display:flex;margin:0 0 0 auto;padding:4px 8px 4px 4px;gap:7px;background:var(--card2)}
+  .canal.mini .av{width:24px;height:24px}.canal.mini .av img{height:18px}
+  .canal.mini small{display:none}
+  .canal.mini b{font-size:13px}
+  .rgrid{grid-template-columns:minmax(0,1fr)}
+  .fl-l{grid-template-columns:52px 48px minmax(0,1fr);padding:10px 12px;gap:10px}
+  .fl-l .ph{width:48px;height:48px}
+  .fl-h b{font-size:14.5px}
+  .fl-a{grid-column:1/-1;gap:4px}
+  .fl-a .btn.gold{flex:1}
+  .fl-a .ib{width:31px;height:31px}
+  .fl-a .ib.topo{display:none}
+}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 </style>
 </head>
 <body>
-<div class="mob-top"><button class="menu-bt" onclick="abrirMenu()" aria-label="Menu"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg><span id="mob-badge"></span></button><svg class="selo" viewBox="0 0 40 40" aria-hidden="true"><path d="M6 9.5A3.5 3.5 0 0 1 9.5 6H23l11 11a3 3 0 0 1 0 4.2L21.2 34a3 3 0 0 1-4.2 0L6 23z" fill="var(--gold)"/><circle cx="12.5" cy="12.5" r="2.3" fill="var(--side)"/><text x="21.5" y="27" text-anchor="middle" font-family="Newsreader, Georgia, serif" font-style="italic" font-size="17" font-weight="500" fill="var(--side)">M</text></svg><b id="mob-t">Início</b><button class="btn sm ghost" onclick="carregar(true)" aria-label="Atualizar"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-3-6.7L21 8"/><path d="M21 3v5h-5"/></svg></button></div>
+<div class="mob-top"><button class="menu-bt" onclick="abrirMenu()" aria-label="Menu"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg><span id="mob-badge"></span></button><svg class="selo" viewBox="0 0 40 40" aria-hidden="true"><path d="M6 9.5A3.5 3.5 0 0 1 9.5 6H23l11 11a3 3 0 0 1 0 4.2L21.2 34a3 3 0 0 1-4.2 0L6 23z" fill="var(--gold)"/><circle cx="12.5" cy="12.5" r="2.3" fill="var(--side)"/><text x="21.5" y="27" text-anchor="middle" font-family="Newsreader, Georgia, serif" font-style="italic" font-size="17" font-weight="500" fill="var(--side)">M</text></svg><a class="canal mini" id="canal-mob" target="_blank" rel="noopener"></a><b id="mob-t">Início</b><button class="btn sm ghost" onclick="carregar(true)" aria-label="Atualizar"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-3-6.7L21 8"/><path d="M21 3v5h-5"/></svg></button></div>
 <div class="app">
   <aside class="side" id="side">
-    <div class="brand"><svg class="selo" viewBox="0 0 40 40" aria-hidden="true"><path d="M6 9.5A3.5 3.5 0 0 1 9.5 6H23l11 11a3 3 0 0 1 0 4.2L21.2 34a3 3 0 0 1-4.2 0L6 23z" fill="var(--gold)"/><circle cx="12.5" cy="12.5" r="2.3" fill="var(--side)"/><text x="21.5" y="27" text-anchor="middle" font-family="Newsreader, Georgia, serif" font-style="italic" font-size="17" font-weight="500" fill="var(--side)">M</text></svg><div><b>Mascate</b><small>Canal Alpha Promo</small></div></div>
+    <div class="brand"><svg class="selo" viewBox="0 0 40 40" aria-hidden="true"><path d="M6 9.5A3.5 3.5 0 0 1 9.5 6H23l11 11a3 3 0 0 1 0 4.2L21.2 34a3 3 0 0 1-4.2 0L6 23z" fill="var(--gold)"/><circle cx="12.5" cy="12.5" r="2.3" fill="var(--side)"/><text x="21.5" y="27" text-anchor="middle" font-family="Newsreader, Georgia, serif" font-style="italic" font-size="17" font-weight="500" fill="var(--side)">M</text></svg><div><b>Mascate</b><small>Painel</small></div></div>
+    <a class="canal" id="canal" target="_blank" rel="noopener"></a>
     <nav class="nav" id="nav"></nav>
     <div class="fim">
       <div class="radarbox" id="radarbox"></div>
@@ -556,6 +614,7 @@ body{background:var(--bg)}
 
 <script>
 const I = {
+  check:'<path d="m5 12 5 5L20 7"/>',
   cima:'<path d="m18 15-6-6-6 6"/>',
   baixo:'<path d="m6 9 6 6 6-6"/>',
   topo:'<path d="M5 4h14"/><path d="m18 14-6-6-6 6"/><path d="M12 8v12"/>',
@@ -706,6 +765,11 @@ function desenharNav(){
     : k === 'menu' ? `<a class="${noMenu?'on':''}" onclick="abrirMenu()"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>${t}</a>`
     : `<a class="${pagina===k?'on':''}" onclick="ir('${k}')">${ic(k,22)}${t}${conta[k] && k==='revisar' ? `<span class="badge">${conta[k]}</span>` : ''}</a>`).join('');
   desenharTema();
+  const cn = E.canal_nome || 'Alpha Promo', cl = E.canal ? 'https://t.me/' + E.canal : null;
+  ['canal','canal-mob'].forEach(id => { const el = document.getElementById(id); if (!el) return;
+    if (cl) el.href = cl; else el.removeAttribute('href');
+    el.title = 'Abrir o canal no Telegram';
+    el.innerHTML = `<span class="av"><img src="/painel/logo/leao" alt=""></span><span class="t"><small>Canal</small><b>${esc(cn)}</b></span>${ic('link',14)}`; });
   const r = E.radar;
   document.getElementById('radarbox').innerHTML = `<div class="t"><span class="dot ${r.pausado?'off':''}"></span>Radar ${r.pausado?'pausado':'ligado'}</div>
     <p>${r.canais} canais${r.por_hora ? ` · peneira: ${r.peneira} esperando, ${r.por_hora} melhores por hora` : ` · ${r.hoje} achadas hoje`}${r.pausa_de!=null ? ` · pausa ${r.pausa_de}h–${r.pausa_ate}h` : ''}${r.rodada ? `<br>Última rodada ${quandoISO(r.rodada.atualizada)}` : ''}</p>
@@ -864,38 +928,43 @@ function revisar(){
     .filter(([k]) => k === 'todas' || conta[k])
     .map(([k,t]) => `<button class="${revFonte===k?'on':''}" onclick="revFonte='${k}';desenhar()">${t}<span>${conta[k]}</span></button>`).join('');
   const prontas = E.revisar.filter(x => !x.falta.length).length;
+  const nConf = E.revisar.filter(conferida).length;
   return topo('Revisar', 'Ofertas do radar e links que você mandou, as mais recentes primeiro. Só vai para a fila o que você aprovar.',
       `<button class="btn ghost" onclick="ir('lixeira')">${ic('lixeira',16)}Lixeira${E.lixeira.length ? ` (${E.lixeira.length})` : ''}</button>`
       + (E.revisar.length > 1 ? `<button class="btn bad" onclick="confirmar('Descartar todas as ${E.revisar.length}?', 'Elas vão para a Lixeira, e dá para trazer de volta.', 'Descartar todas', () => fazer(null,'rev_descartar_tudo'))">Descartar todas</button>` : '')
       + (prontas > 1 ? `<button class="btn gold" onclick="fazer(this,'rev_aprovar_tudo')">Aprovar as ${prontas} completas</button>` : ''))
-    + (E.revisar.length ? `<div class="abas">${abas}</div><div class="list">${lista.map(cardRevisao).join('')}</div>`
+    + (E.revisar.length ? `<div class="abas">${abas}</div>${nConf ? `<button class="btn gold conf-bt" onclick="fazer(this,'rev_aprovar_conferidas')">${ic('check',16)}Aprovar as ${nConf} conferidas pela IA</button>` : ''}<div class="list rgrid">${lista.map(cardRevisao).join('')}</div>`
       : `<div class="vazio-box"><b>Nada para revisar</b>Quando o radar achar algo do nicho, aparece aqui (e no seu Telegram).</div>`);
 }
-function cardRevisao(x){
-  // Card enxuto: loja, canal e hora numa linha; nome e preço; no máximo um aviso embaixo.
-  const velho = x.garimpado_em && horasDesde(x.garimpado_em) >= 6;
-  const info = [x.fonte === 'promobit' ? 'Promobit' : x.fonte === 'shopee' ? 'Shopee (API)' : x.origem ? '@' + esc(x.origem) : 'seu link', x.garimpado_em ? `<span class="${velho ? 'velho' : ''}">${horaDia(x.garimpado_em)}</span>` : ''].filter(Boolean).join(' · ');
+function seloRevisao(x){
+  // O que a IA (ou a loja) disse sobre a oferta, num selo só.
   const conferirO = [];
   if (x.loja === 'shopee' && x.origem && !x.shopee_api) conferirO.push('produto');
   if (x.foto_origem === 'canal') conferirO.push('foto');
-  if (x.aviso_preco || x.preco_loja) conferirO.push('preço');
-  let aviso = '';
-  if (x.ler_depois) aviso = `<div class="aviso warn">${ic('relogio',13)}A loja bloqueou, vou ler de novo</div>`;
-  else if (x.falta.length) aviso = `<div class="aviso bad">${ic('link',13)}Falta ${esc(x.falta.join(', '))}</div>`;
-  else if (conferirO.length) aviso = `<div class="aviso warn" title="Abra o post original para conferir">Conferir ${conferirO.join(', ')}</div>`;
+  if (x.ler_depois) return `<span class="selo-ia av">${ic('relogio',13)}A loja bloqueou, vou ler de novo</span>`;
+  if (x.falta.length) return `<span class="selo-ia mal">${ic('link',13)}Falta ${esc(x.falta.join(', '))}</span>`;
+  if (x.preco_loja) return `<span class="selo-ia av">${ic('ia',13)}O post diz ${reais(x.por)}, a loja mostra ${reais(x.preco_loja)}</span>`;
+  if (x.aviso_preco) return `<span class="selo-ia av">${ic('ia',13)}Confira o preço no post original</span>`;
+  if (x.preco_conferido) return `<span class="selo-ia ok">${ic('ia',13)}IA conferiu: preço igual na loja</span>`;
+  if (x.shopee_api) return `<span class="selo-ia ok">${ic('ia',13)}Confirmado pela API da Shopee</span>`;
+  if (conferirO.length) return `<span class="selo-ia av" title="Abra o post original para conferir">Conferir ${conferirO.join(', ')}</span>`;
+  return '';
+}
+const conferida = x => !x.falta.length && (x.preco_conferido || x.shopee_api) && !x.preco_loja;
+function cardRevisao(x){
+  const velho = x.garimpado_em && horasDesde(x.garimpado_em) >= 6;
+  const fonte = x.fonte === 'promobit' ? 'Promobit' : x.fonte === 'shopee' ? 'Shopee (API)' : x.origem ? '@' + esc(x.origem) : 'seu link';
   const conferir = x.link_produto || x.link;
   const nomeLoja = LOJAS[x.loja] || 'loja';
-  return `<div class="of" data-edit="revisar" data-id="${esc(x.id)}" title="Clique para revisar">${foto(x)}
-    <div style="min-width:0"><div class="meta enx">${marca(x.loja)}<span>${info}</span></div>
-      <div class="nm">${esc(x.nome || x.link)}</div>${precoHTML(x)}${aviso}</div>
-    <div class="side-acts">
-      <button class="btn gold sm" ${x.falta.length ? 'disabled title="Complete pelo editor"' : ''} onclick="fazer(this,'rev_aprovar','${x.id}')">Aprovar</button>
-      <div class="ibar">
-        <button class="ib" title="Editar" onclick="editar('revisar','${x.id}')">${ic('editar',16)}</button>
-        <a class="ib ${x.post_origem ? '' : 'off'}" ${x.post_origem ? `href="${esc(x.post_origem)}"` : ''} target="_blank" rel="noopener" title="${x.fonte === 'promobit' ? 'Ver a oferta no Promobit' : 'Ver o post original no Telegram'}">${x.fonte === 'promobit' ? '<span class="mk pb">P</span>' : marca('tg')}</a>
-        <a class="ib ${conferir ? '' : 'off'}" href="${esc(conferir)}" target="_blank" rel="noopener" title="Ver o produto na ${esc(nomeLoja)}">${marca(x.loja)}</a>
-        <button class="ib bad" title="Descartar" onclick="fazer(this,'rev_descartar','${x.id}')">${ic('lixo',16)}</button>
-      </div>
+  return `<div class="of rc" data-edit="revisar" data-id="${esc(x.id)}" title="Clique para revisar">
+    <div class="rc-tp">${loja(x.loja)}<span class="rc-f">${fonte}${x.garimpado_em ? ` · <span class="${velho ? 'velho' : ''}">${horaDia(x.garimpado_em)}</span>` : ''}</span></div>
+    <div class="rc-cp">${foto(x)}<div style="min-width:0">${x.titulo ? `<div class="tit">${esc(x.titulo)}</div>` : ''}<div class="nm">${esc(x.nome || x.link)}</div>${precoHTML(x)}${seloRevisao(x)}</div></div>
+    <div class="rc-bt">
+      <button class="btn gold" ${x.falta.length ? 'disabled title="Complete pelo editor"' : ''} onclick="fazer(this,'rev_aprovar','${x.id}')">${ic('check',16)}Aprovar</button>
+      <button class="ib" title="Editar" onclick="editar('revisar','${x.id}')">${ic('editar',16)}</button>
+      <a class="ib ${x.post_origem ? '' : 'off'}" ${x.post_origem ? `href="${esc(x.post_origem)}"` : ''} target="_blank" rel="noopener" title="${x.fonte === 'promobit' ? 'Ver a oferta no Promobit' : 'Ver o post original no Telegram'}">${x.fonte === 'promobit' ? '<span class="mk pb">P</span>' : marca('tg')}</a>
+      <a class="ib ${conferir ? '' : 'off'}" href="${esc(conferir)}" target="_blank" rel="noopener" title="Ver o produto na ${esc(nomeLoja)}">${marca(x.loja)}</a>
+      <button class="ib bad" title="Descartar" onclick="fazer(this,'rev_descartar','${x.id}')">${ic('lixo',16)}</button>
     </div></div>`;
 }
 
@@ -916,26 +985,29 @@ function lixeira(){
 function fila(){
   return topo('Fila', 'Sai uma por horário, nesta ordem. Use as setas para mudar a ordem.',
       `<button class="btn ghost" onclick="ir('lixeira')">${ic('lixeira',16)}Lixeira${E.lixeira.length ? ` (${E.lixeira.length})` : ''}</button>`)
-    + (E.fila.length ? `<div class="list">${E.fila.map(cardFila).join('')}</div>`
+    + (E.fila.length ? `<div class="quadro filaq">${E.fila.map(cardFila).join('')}</div>`
       : `<div class="vazio-box"><b>Fila vazia</b>Aprove ofertas em Revisar ou cole um link em Nova oferta.</div>`);
 }
 function cardFila(x, i){
   const velha = horasDesde(x.aprovado_em) >= E.validade_horas;
   const ultimo = i === E.fila.length - 1;
-  return `<div class="of" data-edit="fila" data-id="${esc(x.id)}" title="Clique para editar">${foto(x, i+1)}
-    <div style="min-width:0"><div class="meta">${loja(x.loja)}<span>sai ${esc(x.previsao || 'depois')}</span>${x.aprovado_em ? `<span>aprovada ${quando(x.aprovado_em)}</span>` : ''}${velha ? '<span class="tag warn">confira o preço</span>' : ''}</div>
-      ${x.titulo ? `<div class="tit">${esc(x.titulo)}</div>` : ''}<div class="nm">${esc(x.nome)}</div>${precoHTML(x)}</div>
-    <div class="side-acts">
-      <div class="row"><button class="btn gold sm" style="flex:1" onclick="confirmar('Postar agora no canal?', '${esc(x.nome).replace(/'/g,'')}', 'Postar agora', b => fazer(b,'fila_postar','${x.id}'))">Postar agora</button>
-        ${velha ? `<button class="btn sm" onclick="fazer(this,'fila_manter','${x.id}')" title="Renovar o prazo">Manter</button>` : ''}</div>
-      <div class="ibar seis">
-        <button class="ib ${i===0?'off':''}" title="Subir" onclick="fazer(this,'fila_mover','${x.id}',{para:${i-1}})">${ic('cima',16)}</button>
-        <button class="ib ${ultimo?'off':''}" title="Descer" onclick="fazer(this,'fila_mover','${x.id}',{para:${i+1}})">${ic('baixo',16)}</button>
-        <button class="ib ${i===0?'off':''}" title="Mandar para o topo (sai primeiro)" onclick="fazer(this,'fila_mover','${x.id}',{para:0})">${ic('topo',16)}</button>
-        <button class="ib" title="Editar" onclick="editar('fila','${x.id}')">${ic('editar',16)}</button>
-        <a class="ib ${x.url ? '' : 'off'}" href="${esc(x.url || '')}" target="_blank" rel="noopener" title="Ver o produto na ${esc(LOJAS[x.loja] || 'loja')}">${marca(x.loja)}</a>
-        <button class="ib bad" title="Tirar da fila" onclick="fazer(this,'fila_remover','${x.id}')">${ic('lixo',16)}</button>
-      </div>
+  const pv = (x.previsao || '').split(' ');
+  const hm = pv.length > 1 ? pv[pv.length - 1] : '', dia = pv.length > 1 ? pv.slice(0, -1).join(' ') : 'depois';
+  return `<div class="fl-l" data-edit="fila" data-id="${esc(x.id)}" title="Clique para editar">
+    <div class="fl-h"><b>${hm || '—'}</b><small>${esc(dia)}</small></div>
+    ${foto(x, i+1)}
+    <div class="fl-n"><b>${esc(x.nome)}</b>
+      <div class="fl-m">${loja(x.loja)}${x.por ? `<span class="fl-p">${reais(x.por)}</span>` : '<span class="tag bad">sem preço</span>'}
+        ${x.aprovado_sozinho ? `<span class="selo-ia ok">${ic('ia',12)}Aprovei sozinho</span>` : ''}${velha ? '<span class="selo-ia av">confira o preço</span>' : ''}</div></div>
+    <div class="fl-a">
+      <button class="btn gold sm" onclick="confirmar('Postar agora no canal?', '${esc(x.nome).replace(/'/g,'')}', 'Postar agora', b => fazer(b,'fila_postar','${x.id}'))">Postar agora</button>
+      ${velha ? `<button class="btn sm" onclick="fazer(this,'fila_manter','${x.id}')" title="Renovar o prazo">Manter</button>` : ''}
+      <button class="ib ${i===0?'off':''}" title="Subir" onclick="fazer(this,'fila_mover','${x.id}',{para:${i-1}})">${ic('cima',16)}</button>
+      <button class="ib ${ultimo?'off':''}" title="Descer" onclick="fazer(this,'fila_mover','${x.id}',{para:${i+1}})">${ic('baixo',16)}</button>
+      <button class="ib topo ${i===0?'off':''}" title="Mandar para o topo (sai primeiro)" onclick="fazer(this,'fila_mover','${x.id}',{para:0})">${ic('topo',16)}</button>
+      <button class="ib" title="Editar" onclick="editar('fila','${x.id}')">${ic('editar',16)}</button>
+      <a class="ib ${x.url ? '' : 'off'}" href="${esc(x.url || '')}" target="_blank" rel="noopener" title="Ver o produto na ${esc(LOJAS[x.loja] || 'loja')}">${marca(x.loja)}</a>
+      <button class="ib bad" title="Tirar da fila" onclick="fazer(this,'fila_remover','${x.id}')">${ic('lixo',16)}</button>
     </div></div>`;
 }
 

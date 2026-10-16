@@ -27,7 +27,7 @@ ARQ_HTML = bot.PASTA / "painel.html"
 COOKIE = "painel"
 LOJAS = {"amazon": "Amazon", "mercadolivre": "Mercado Livre", "shopee": "Shopee"}
 CAMPOS = ("nome", "de", "por", "prime", "sem_prime", "cupom", "cupom_loja", "obs", "frase", "link", "link_produto",
-          "loja", "origem", "foto_origem", "aprovado_em", "aviso_validade", "ler_depois", "precisa_link", "chave", "aviso_preco", "titulo", "pix", "garimpado_em", "post_origem", "link_canal", "removido_em", "removido_de", "expirou", "na_revisao_desde", "fonte", "parcelas", "parcela_valor", "shopee_api", "preco_loja", "preco_conferido")
+          "loja", "origem", "foto_origem", "aprovado_em", "aviso_validade", "ler_depois", "precisa_link", "chave", "aviso_preco", "titulo", "pix", "garimpado_em", "post_origem", "link_canal", "removido_em", "removido_de", "expirou", "na_revisao_desde", "fonte", "parcelas", "parcela_valor", "shopee_api", "preco_loja", "preco_conferido", "aprovado_sozinho")
 
 _fotos = {}  # cache das fotos do Telegram (file_id -> bytes), para a tela abrir rápido
 _estado_cache = {"etag": None, "texto": None}
@@ -277,6 +277,7 @@ def resumo(estado):
         "usados_hoje": estado["slots_usados"].get(hoje, []),
         "validade_horas": bot.CONFIG.get("validade_horas", 12),
         "canal": bot.CONFIG.get("canal_publico", ""),
+        "canal_nome": bot.CONFIG.get("canal_nome", "Alpha Promo"),
         "fila": fila,
         "revisar": [item_json(x, str(x["id"])) for x in sorted(estado["revisar"], key=lambda x: x["id"], reverse=True)],
         "ultimos": [item_json(x, bot.id_story(x)) for x in estado.get("ultimos", [])],
@@ -609,6 +610,13 @@ def acao(corpo):
             else:
                 estado["story_cfg"] = limpar_story_cfg(d)
                 saida["ok"] = "Textos do story salvos."
+        elif a == "rev_aprovar_conferidas":  # só o que a IA conferiu na loja (ou a Shopee confirmou pela API)
+            prontos = [x for x in revisar if not bot.faltando(x) and (x.get("preco_conferido") or x.get("shopee_api"))
+                       and not x.get("preco_loja")]
+            for x in prontos:
+                bot.aprovar(estado, x)
+                depois.append(lambda m=x.get("msg_id"): tirar_botoes(m))
+            saida["ok"] = f"Aprovei {len(prontos)} oferta(s) conferida(s)."
         elif a == "rev_aprovar_tudo":
             prontos = [x for x in revisar if not bot.faltando(x)]
             for x in prontos:
