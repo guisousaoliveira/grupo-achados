@@ -1694,13 +1694,13 @@
   "radar": {
     "visto": {
       "xetdaspromocoes": 85103,
-      "lobaopromo": 190120,
-      "gatunopromos": 125631,
+      "lobaopromo": 190121,
+      "gatunopromos": 125632,
       "pobregram": 41987,
       "urubupromo": 41748,
       "tudonapromo": 102064,
       "promonocontext": 127387,
-      "promooeasy": 222485,
+      "promooeasy": 222486,
       "aquitempechincha": 281997,
       "infoBRpromos": 67660,
       "boletando": 76808,
@@ -1708,7 +1708,7 @@
       "achadosdotb": 11778
     },
     "dia": "2026-10-15",
-    "hoje": 160,
+    "hoje": 161,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -3689,19 +3689,20 @@
       "mercadolivre:MLB20562024",
       "mercadolivre:MLB7685035522",
       "mercadolivre:MLB45167592",
-      "mercadolivre:MLB52052995"
+      "mercadolivre:MLB52052995",
+      "amazon:B07L5VS2HJ"
     ],
     "ultima": {
-      "em": "2026-10-15T23:00:26-03:00",
+      "em": "2026-10-15T23:10:21-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 20,
-      "do_nicho": 3,
-      "repetidas": 3,
-      "novas": 0,
+      "posts_novos": 18,
+      "do_nicho": 2,
+      "repetidas": 1,
+      "novas": 1,
       "limite_dia": false,
       "repetidas_nome": 0,
       "promobit": 0,
@@ -3709,10 +3710,10 @@
       "na_peneira": 24
     },
     "hora": "2026-10-15T23",
-    "nesta_hora": 0,
+    "nesta_hora": 1,
     "promobit_hora": "2026-10-15T23",
     "promobit_nesta_hora": 0,
-    "promobit_visto": 3117824,
+    "promobit_visto": 3117855,
     "nomes": [
       [
         [
@@ -5255,25 +5256,6 @@
     ],
     "peneira": [
       {
-        "loja": "shopee",
-        "chave": "shopee:1584860755.23498724368",
-        "nome": "Extensor Tensão Forte Faixa Elástica 2 Elásticos Exercícios Treino Academia Ginástica",
-        "por": 17.49,
-        "de": 44.85,
-        "foto": "https://cf.shopee.com.br/file/br-11134207-7r98o-ma8wb28hljg683",
-        "link": "https://s.shopee.com.br/7AeLTYm0AR",
-        "link_produto": "https://shopee.com.br/product/1584860755/23498724368",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 4.8,
-        "vendas": 181,
-        "palavra": "academia",
-        "garimpado_em": "2026-10-15T20:10-03:00",
-        "nota": 79.6
-      },
-      {
         "loja": "amazon",
         "chave": "amazon:B0BWNN28ZQ",
         "origem": "promobit",
@@ -5685,6 +5667,22 @@
         "palavra": "air fryer",
         "garimpado_em": "2026-10-15T22:50-03:00",
         "nota": 36.3
+      },
+      {
+        "loja": "amazon",
+        "chave": "amazon:B07L5VS2HJ",
+        "origem": "lobaopromo",
+        "link": "https://www.amazon.com.br/dp/B07L5VS2HJ?tag=alphadominu09-20",
+        "link_produto": "https://www.amazon.com.br/dp/B07L5VS2HJ?tag=alphadominu09-20",
+        "post_origem": "https://t.me/lobaopromo/190121",
+        "link_canal": "https://amzlink.to/az0o7vOaz5RAq",
+        "foto": "https://m.media-amazon.com/images/I/7118cx6ASvL._AC_SL1500_.jpg",
+        "foto_origem": "loja",
+        "nome": "Creatina Hardcore 120 Caps Integralmedica",
+        "por": 31.38,
+        "palavra": "creatina",
+        "garimpado_em": "2026-10-15T23:10-03:00",
+        "nota": 49.2
       }
     ],
     "soltas_hora": "2026-10-15T23",
