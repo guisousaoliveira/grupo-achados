@@ -2074,13 +2074,13 @@
   "radar": {
     "visto": {
       "xetdaspromocoes": 85095,
-      "lobaopromo": 190085,
-      "gatunopromos": 125614,
+      "lobaopromo": 190088,
+      "gatunopromos": 125616,
       "pobregram": 41980,
       "urubupromo": 41745,
       "tudonapromo": 102064,
-      "promonocontext": 127363,
-      "promooeasy": 222471,
+      "promonocontext": 127369,
+      "promooeasy": 222472,
       "aquitempechincha": 281988,
       "infoBRpromos": 67658,
       "boletando": 76807,
@@ -2088,7 +2088,7 @@
       "achadosdotb": 11778
     },
     "dia": "2026-10-15",
-    "hoje": 148,
+    "hoje": 149,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -4047,30 +4047,31 @@
       "shopee:1584860755.23498724368",
       "amazon:B0BWNN28ZQ",
       "mercadolivre:MLB7440270620",
-      "amazon:B0HD1F237X"
+      "amazon:B0HD1F237X",
+      "amazon:B0H4RZPZ3M"
     ],
     "ultima": {
-      "em": "2026-10-15T21:10:20-03:00",
+      "em": "2026-10-15T21:20:21-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 12,
-      "do_nicho": 2,
-      "repetidas": 1,
+      "posts_novos": 25,
+      "do_nicho": 1,
+      "repetidas": 0,
       "novas": 1,
       "limite_dia": false,
       "repetidas_nome": 0,
-      "promobit": 0,
+      "promobit": 1,
       "soltas": 0,
-      "na_peneira": 23
+      "na_peneira": 22
     },
     "hora": "2026-10-15T21",
     "nesta_hora": 1,
     "promobit_hora": "2026-10-15T21",
-    "promobit_nesta_hora": 0,
-    "promobit_visto": 3117618,
+    "promobit_nesta_hora": 1,
+    "promobit_visto": 3117644,
     "nomes": [
       [
         [
@@ -5614,42 +5615,6 @@
     "peneira": [
       {
         "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB76467981",
-        "origem": "lobaopromo",
-        "link": "https://www.mercadolivre.com.br/parafusadeira-furadeira-de-impacto-atverce-sem-fio-com-2-baterias-e-kit-46-pecas/p/MLB76467981?matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/parafusadeira-furadeira-de-impacto-atverce-sem-fio-com-2-baterias-e-kit-46-pecas/p/MLB76467981",
-        "post_origem": "https://t.me/lobaopromo/189998",
-        "link_canal": "https://meli.la/2z45aT2",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_752602-MLA119168643537_102026-O.webp",
-        "foto_origem": "loja",
-        "nome": "Parafusadeira Furadeira de Impacto Atverce",
-        "de": 405.0,
-        "por": 116.0,
-        "palavra": "parafusadeira",
-        "garimpado_em": "2026-10-15T18:20-03:00",
-        "nota": 80.9
-      },
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB56727085",
-        "origem": "promonocontext",
-        "link": "https://www.mercadolivre.com.br/cafeteira-espresso-automatica-dolce-latte-mondial-ccl-01/p/MLB56727085?matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/cafeteira-espresso-automatica-dolce-latte-mondial-ccl-01/p/MLB56727085",
-        "post_origem": "https://t.me/promonocontext/127280",
-        "link_canal": "https://meli.la/22rF5Ja",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_604273-MLA99531166620_122025-O.webp",
-        "foto_origem": "loja",
-        "nome": "Cafeteira Espresso Automática Dolce Latte Mondial Ccl-01",
-        "pix": true,
-        "de": 1110.0,
-        "por": 821.0,
-        "cupom": "APROVEITA",
-        "palavra": "cafeteira",
-        "garimpado_em": "2026-10-15T18:20-03:00",
-        "nota": 53.6
-      },
-      {
-        "loja": "mercadolivre",
         "chave": "mercadolivre:MLB63247353",
         "origem": "urubupromo",
         "link": "https://www.mercadolivre.com.br/fritadeira-eletrica-air-fryer-philco-paf12a-barbecue-digital-12l-preta-220v/p/MLB63247353?matt_word=alphapromo&matt_tool=59136903",
@@ -6016,6 +5981,23 @@
         "palavra": "smart tv",
         "garimpado_em": "2026-10-15T21:10-03:00",
         "nota": 22.2
+      },
+      {
+        "loja": "amazon",
+        "chave": "amazon:B0H4RZPZ3M",
+        "origem": "promobit",
+        "fonte": "promobit",
+        "link": "https://www.amazon.com.br/dp/B0H4RZPZ3M?tag=alphadominu09-20",
+        "link_produto": "https://www.amazon.com.br/dp/B0H4RZPZ3M?tag=alphadominu09-20",
+        "post_origem": "https://www.promobit.com.br/oferta/caixa-termica-cooler-com-alca-paramount-para-transporte-de-bebidas-churrasco-gelo-e-alimentos-ideal-para-praia-camping-pesca-3117622/",
+        "link_canal": "https://www.promobit.com.br/Redirect/to/3117622/",
+        "nome": "Caixa Térmica Cooler com Alça Paramount para Transporte de Bebidas",
+        "por": 49.99,
+        "foto": "https://m.media-amazon.com/images/I/61YE9ooivcL._AC_SL1500_.jpg",
+        "foto_origem": "loja",
+        "palavra": "cooler",
+        "garimpado_em": "2026-10-15T21:20-03:00",
+        "nota": 24.7
       }
     ],
     "soltas_hora": "2026-10-15T21",
@@ -6788,7 +6770,7 @@
       }
     }
   },
-  "aviso_post": "2026-10-15 20|shopee:1509466431.43809108037",
+  "aviso_post": "2026-10-15 21|mercadolivre:MLB2818208621",
   "garimpo_palavras": {
     "academia": {
       "achados": 24,
