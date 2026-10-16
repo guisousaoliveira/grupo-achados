@@ -218,6 +218,29 @@
       "aprovado_em": "2026-10-16T10:50-03:00"
     },
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB5877188254",
+      "origem": "xetdaspromocoes",
+      "link": "https://meli.la/24CYbax",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-5877188254-kit-3-shorts-2-em-1-masculino-de-compresso-corrida-academia-_JM?pdp_filters=item_id%3AMLB5877188254",
+      "post_origem": "https://t.me/xetdaspromocoes/85157",
+      "link_canal": "https://meli.la/2bcTn23",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_949957-MLB115601154336_092026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Kit 3 Shorts 2 Em 1 Masculino De Compressão Corrida Academia",
+      "de": 109.0,
+      "por": 53.0,
+      "lido_ia": true,
+      "cupom": "TUDOEMPROMO",
+      "preco_loja": 71.99,
+      "palavra": "academia",
+      "garimpado_em": "2026-10-16T10:46-03:00",
+      "nota": 78.1,
+      "titulo": "Bermudas com compressão interna para corrida e academia",
+      "na_revisao_desde": "2026-10-16T12:41-03:00",
+      "aprovado_em": "2026-10-16T12:42-03:00"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:1555952803.58203850063",
       "nome": "50/100/150 Folhas De Papel Antiaderente de Airfryer para Frituras Assados Multiuso Sanduíche Fritas",
@@ -1941,30 +1964,6 @@
       "id": 662,
       "na_revisao_desde": "2026-10-16T12:41-03:00",
       "msg_id": 1127
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB5877188254",
-      "origem": "xetdaspromocoes",
-      "link": "https://meli.la/24CYbax",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-5877188254-kit-3-shorts-2-em-1-masculino-de-compresso-corrida-academia-_JM?pdp_filters=item_id%3AMLB5877188254",
-      "post_origem": "https://t.me/xetdaspromocoes/85157",
-      "link_canal": "https://meli.la/2bcTn23",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_949957-MLB115601154336_092026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Kit 3 Shorts 2 Em 1 Masculino De Compressão Corrida Academia",
-      "de": 109.0,
-      "por": 53.0,
-      "lido_ia": true,
-      "cupom": "TUDOEMPROMO",
-      "preco_loja": 71.99,
-      "palavra": "academia",
-      "garimpado_em": "2026-10-16T10:46-03:00",
-      "nota": 78.1,
-      "titulo": "Bermudas com compressão interna para corrida e academia",
-      "id": 664,
-      "na_revisao_desde": "2026-10-16T12:41-03:00",
-      "msg_id": 1129
     }
   ],
   "proximo_id": 666,
@@ -7991,7 +7990,7 @@
       },
       "xetdaspromocoes": {
         "achados": 1,
-        "aprovados": 0,
+        "aprovados": 1,
         "reprovados": 0
       }
     }
@@ -8000,7 +7999,7 @@
   "garimpo_palavras": {
     "academia": {
       "achados": 28,
-      "aprovados": 9,
+      "aprovados": 10,
       "reprovados": 18
     },
     "air fryer": {
