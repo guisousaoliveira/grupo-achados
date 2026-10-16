@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "amazon",
-      "chave": "amazon:B07793T84W",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://link.amazon/B0gPY28du",
-      "link_produto": "https://link.amazon/B0gPY28du",
-      "post_origem": "https://www.promobit.com.br/oferta/garrafa-termica-firenze-mini-250ml-branco-invicta-3116875/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3116875/",
-      "nome": "Garrafa Térmica Firenze Mini 250ml Branco Invicta",
-      "por": 19.9,
-      "de": 30.13,
-      "foto": "AgACAgQAAxkDAAID_GrRLFCGvqbNP46PnZ9A4G1Xb7MWAAIxsjEbqJF8UGEXC3ZbnW6iAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "palavra": "garrafa termica",
-      "garimpado_em": "2026-10-15T16:10-03:00",
-      "nota": 68.3,
-      "titulo": "Garrafa térmica pequena para manter o café quente",
-      "na_revisao_desde": "2026-10-15T16:41-03:00",
-      "aprovado_em": "2026-10-15T19:15-03:00",
-      "aviso_validade": true
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB44745787",
       "origem": "promonocontext",
@@ -1694,6 +1672,16 @@
       "link_produto": "https://shopee.com.br/product/1368787663/23597895251",
       "titulo": "Carregador portátil para manter o celular com carga",
       "slot": 9
+    },
+    {
+      "chave": "amazon:B07793T84W",
+      "loja": "amazon",
+      "nome": "Garrafa Térmica Firenze Mini 250ml Branco Invicta",
+      "data": "2026-10-16T09:33-03:00",
+      "link": "https://link.amazon/B0gPY28du",
+      "link_produto": "https://link.amazon/B0gPY28du",
+      "titulo": "Garrafa térmica pequena para manter o café quente",
+      "slot": 9.1
     }
   ],
   "slots_usados": {
@@ -1774,7 +1762,8 @@
     ],
     "2026-10-16": [
       8,
-      9
+      9,
+      9.1
     ]
   },
   "shopee_buscado_em": "",
@@ -5623,6 +5612,20 @@
   },
   "ultimos": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B07793T84W",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://link.amazon/B0gPY28du",
+      "link_produto": "https://link.amazon/B0gPY28du",
+      "post_origem": "https://www.promobit.com.br/oferta/garrafa-termica-firenze-mini-250ml-branco-invicta-3116875/",
+      "nome": "Garrafa Térmica Firenze Mini 250ml Branco Invicta",
+      "por": 19.9,
+      "de": 30.13,
+      "foto": "AgACAgQAAxkDAAID_GrRLFCGvqbNP46PnZ9A4G1Xb7MWAAIxsjEbqJF8UGEXC3ZbnW6iAQADAgADeAADPQQ",
+      "titulo": "Garrafa térmica pequena para manter o café quente"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:1368787663.23597895251",
       "nome": "Carregador Portátil Bateria Power Bank 20000mah PN-959",
@@ -6149,18 +6152,6 @@
       "origem": "shopee",
       "fonte": "shopee",
       "titulo": "Suporte veicular para usar o GPS com segurança"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB30144703",
-      "origem": "promonocontext",
-      "link": "https://meli.la/1vssKpu",
-      "link_produto": "https://meli.la/1vssKpu",
-      "post_origem": "https://t.me/promonocontext/126672",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_981459-MLA117136184907_092026-O.webp",
-      "nome": "Parafusadeira Furadeira De Impacto The Black Tools Profissional",
-      "por": 159.9,
-      "de": 319.9
     }
   ],
   "lixeira": [
