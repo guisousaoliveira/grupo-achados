@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "amazon",
-      "chave": "amazon:B0HCRDWF9C",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0HCRDWF9C?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0HCRDWF9C?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/222912",
-      "link_canal": "https://www.amazon.com.br/dp/B0HCRDWF9C/ref=cm_sw_r_as_gl_apa_gl_i_dl_QSCFA7QPW7D0SV90XV6G?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAIEj2rSchgghb7rTMUjjNUPNZecbup_AALTD2sbuI6VUu3548OwnrCMAQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "nome": "Toshiba Smart TV QLED FHD 50 Polegadas 50V45SS com Processador HG Inteligência Toshiba AI e Áudio Potente multicanal",
-      "por": 1875.0,
-      "lido_ia": true,
-      "preco_conferido": true,
-      "palavra": "smart tv",
-      "garimpado_em": "2026-10-16T14:50-03:00",
-      "nota": 16.8,
-      "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto",
-      "na_revisao_desde": "2026-10-16T15:51-03:00",
-      "de": 2099.99,
-      "aprovado_em": "2026-10-16T16:00-03:00"
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB65063041",
       "origem": "lobaopromo",
@@ -2191,6 +2169,20 @@
       "link_produto": "https://shopee.com.br/product/1768728309/23295161236",
       "titulo": "Barra de parede para treinar calistenia em casa",
       "slot": 19.2
+    },
+    {
+      "chave": "amazon:B0HCRDWF9C",
+      "loja": "amazon",
+      "nome": "Toshiba Smart TV QLED FHD 50 Polegadas 50V45SS com Processador HG Inteligência Toshiba AI e Áudio Potente multicanal",
+      "data": "2026-10-16T19:47-03:00",
+      "link": "https://www.amazon.com.br/dp/B0HCRDWF9C?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0HCRDWF9C?tag=alphadominu09-20",
+      "de": 2099.99,
+      "por": 1875.0,
+      "conferido": true,
+      "foto": "https://images-na.ssl-images-amazon.com/images/P/B0HCRDWF9C.01.LZZZZZZZ.jpg",
+      "secao": "tech",
+      "slot": 19.3
     }
   ],
   "slots_usados": {
@@ -2306,7 +2298,8 @@
       18.3,
       19,
       19.1,
-      19.2
+      19.2,
+      19.3
     ]
   },
   "shopee_buscado_em": "",
@@ -7138,6 +7131,18 @@
   },
   "ultimos": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B0HCRDWF9C",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0HCRDWF9C?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0HCRDWF9C?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/222912",
+      "foto": "AgACAgQAAxkDAAIEj2rSchgghb7rTMUjjNUPNZecbup_AALTD2sbuI6VUu3548OwnrCMAQADAgADeQADPQQ",
+      "nome": "Toshiba Smart TV QLED FHD 50 Polegadas 50V45SS com Processador HG Inteligência Toshiba AI e Áudio Potente multicanal",
+      "por": 1875.0,
+      "de": 2099.99
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:1768728309.23295161236",
       "nome": "Barra Fixa Parede Paralela Abdominal Musculação Fitness",
@@ -7664,20 +7669,6 @@
       "de": 499.0,
       "por": 275.0,
       "titulo": "Relógio analógico prateado para uso diário"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB77830516",
-      "origem": "promonocontext",
-      "link": "https://meli.la/2E81dt9",
-      "link_produto": "https://meli.la/2E81dt9",
-      "post_origem": "https://t.me/promonocontext/127475",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_643754-MLA116489365617_082026-O.webp",
-      "nome": "Bicicleta Ergométrica Spinning Com Volante e Display LCD Guidão",
-      "de": 1099.0,
-      "por": 360.0,
-      "cupom": "161040TODOSITE",
-      "titulo": "Spinning para manter o cardio em dia"
     }
   ],
   "lixeira": [
@@ -9262,5 +9253,5 @@
     }
   },
   "aviso_ml": "2026-10-16",
-  "vitrine_marca": "97d170e1550e"
+  "vitrine_marca": "5ad71efc0c62"
 }
