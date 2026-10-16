@@ -9,6 +9,7 @@ No Render:
   Variáveis:      TELEGRAM_TOKEN, TELEGRAM_CHANNEL, ADMIN_ID, GITHUB_TOKEN, GITHUB_REPO
                   PAINEL_SENHA (senha do painel em /painel)
                   LEGIAO_TELEGRAM_TOKEN, LEGIAO_CHAT_ID (botões da Legião na hora)
+                  HERMES_TOKEN (Hermes, alertas de promoção no privado)
                   (e SHOPEE_APP_ID, SHOPEE_SECRET, GEMINI_API_KEY quando tiver)
 """
 
@@ -20,6 +21,7 @@ import urllib.request
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
 import bot
+import hermes
 import painel
 
 bot.carregar_env()
@@ -34,6 +36,8 @@ _ultimo_tick = [0.0]
 SEGREDO = hashlib.sha256(("webhook" + bot.segredo("TELEGRAM_TOKEN")).encode()).hexdigest()[:32]
 # Bot da Legião Alpha: botões ✅/❌ e o motivo da recusa, tratados na hora (legiao/publicar.py)
 SEGREDO_LEGIAO = hashlib.sha256(("legiao" + bot.segredo("LEGIAO_TELEGRAM_TOKEN")).encode()).hexdigest()[:32]
+# Hermes (@HermesAlphaPromoBot): alertas de promoção no privado (hermes.py)
+SEGREDO_HERMES = hashlib.sha256(("hermes" + bot.segredo("HERMES_TOKEN")).encode()).hexdigest()[:32]
 
 
 class Atendente(BaseHTTPRequestHandler):
@@ -46,7 +50,16 @@ class Atendente(BaseHTTPRequestHandler):
         self.wfile.write(corpo)
         self.wfile.flush()
 
+    def do_OPTIONS(self):  # a tela do Hermes (no site) pergunta antes de mandar a lista
+        if self.path.split("?")[0] == "/hermes/lista":
+            hermes.tratar_opcoes(self)
+            return
+        self._responder(404, "nao")
+
     def do_GET(self):  # usado pelo Render (e por um "pinger", se você quiser) para ver se está vivo
+        if self.path.split("?")[0] == "/hermes/lista":
+            hermes.tratar_lista(self, "GET")
+            return
         if self.path.startswith("/painel"):
             try:
                 painel.tratar_get(self)
@@ -67,6 +80,22 @@ class Atendente(BaseHTTPRequestHandler):
         self._responder(200, "")
 
     def do_POST(self):
+        if self.path.split("?")[0] == "/hermes/lista":
+            hermes.tratar_lista(self, "POST")
+            return
+        if self.path == "/hermes" and hermes.ligado() \
+                and self.headers.get("X-Telegram-Bot-Api-Secret-Token") == SEGREDO_HERMES:
+            tamanho = int(self.headers.get("Content-Length") or 0)
+            try:
+                update = json.loads(self.rfile.read(tamanho) or b"{}")
+            except ValueError:
+                update = {}
+            self._responder(200)
+            try:
+                hermes.tratar_update(update)
+            except Exception as e:
+                bot.log(f"Hermes: erro tratando mensagem: {e}")
+            return
         if self.path.startswith("/painel"):
             try:
                 painel.tratar_post(self)
@@ -116,6 +145,7 @@ def ligar_webhook():
     bot.telegram("setWebhook", url=base.rstrip("/") + "/telegram", secret_token=SEGREDO,
                  allowed_updates=["message", "callback_query"])
     bot.log(f"Webhook ligado em {base}/telegram. Agora o bot responde na hora.")
+    hermes.configurar(base, SEGREDO_HERMES)
     token_legiao = bot.segredo("LEGIAO_TELEGRAM_TOKEN")
     if token_legiao:
         try:
