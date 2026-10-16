@@ -1922,15 +1922,15 @@
   "radar": {
     "visto": {
       "xetdaspromocoes": 85191,
-      "lobaopromo": 190354,
-      "gatunopromos": 125715,
+      "lobaopromo": 190358,
+      "gatunopromos": 125718,
       "pobregram": 42008,
       "urubupromo": 41774,
-      "tudonapromo": 102146,
-      "promonocontext": 127640,
-      "promooeasy": 222846,
-      "aquitempechincha": 282115,
-      "infoBRpromos": 67692,
+      "tudonapromo": 102148,
+      "promonocontext": 127643,
+      "promooeasy": 222852,
+      "aquitempechincha": 282116,
+      "infoBRpromos": 67694,
       "boletando": 76831,
       "promotop": 260368,
       "achadosdotb": 11784
@@ -4022,28 +4022,27 @@
       "shopee:1807254461.58209939065"
     ],
     "ultima": {
-      "em": "2026-10-16T12:50:35-03:00",
+      "em": "2026-10-16T13:00:29-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 49,
-      "do_nicho": 4,
-      "repetidas": 0,
-      "novas": 2,
+      "posts_novos": 33,
+      "do_nicho": 3,
+      "repetidas": 3,
+      "novas": 0,
       "limite_dia": false,
       "repetidas_nome": 0,
-      "promobit": 1,
-      "fora_do_nicho": 2,
+      "promobit": 0,
       "soltas": 0,
-      "na_peneira": 30
+      "na_peneira": 31
     },
-    "hora": "2026-10-16T12",
-    "nesta_hora": 8,
-    "promobit_hora": "2026-10-16T12",
-    "promobit_nesta_hora": 2,
-    "promobit_visto": 3119009,
+    "hora": "2026-10-16T13",
+    "nesta_hora": 0,
+    "promobit_hora": "2026-10-16T13",
+    "promobit_nesta_hora": 0,
+    "promobit_visto": 3119054,
     "nomes": [
       [
         [
@@ -6580,17 +6579,13 @@
         "nota": 70.7
       }
     ],
-    "soltas_hora": "2026-10-16T12",
-    "soltas": 6,
+    "soltas_hora": "2026-10-16T13",
+    "soltas": 0,
     "shopee_em": "2026-10-16T12:51-03:00",
     "shopee_indice": 64,
     "soltas_dia_data": "2026-10-16",
     "soltas_dia": 34,
-    "soltas_loja": {
-      "shopee": 2,
-      "mercadolivre": 2,
-      "amazon": 2
-    }
+    "soltas_loja": {}
   },
   "ultimos": [
     {
@@ -8013,7 +8008,7 @@
       }
     }
   },
-  "aviso_post": "2026-10-16 12:50|mercadolivre:MLB5060820475",
+  "aviso_post": "2026-10-16 13:09|amazon:B08R91NTHY",
   "garimpo_palavras": {
     "academia": {
       "achados": 28,
