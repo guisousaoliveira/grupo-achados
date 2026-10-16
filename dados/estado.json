@@ -1768,18 +1768,106 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [],
-  "proximo_id": 639,
+  "revisar": [
+    {
+      "loja": "amazon",
+      "chave": "amazon:B07G7RVZ1V",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B07G7RVZ1V?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B07G7RVZ1V?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/integralmedica-barra-de-proteina-whey-protein-crisp-bar-doce-de-coco-snack-proteico-pre-e-pos-treino-displa-3118131/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3118131/",
+      "nome": "Integralmédica - Barra de Proteína Whey Protein Crisp Bar Doce de",
+      "por": 57.5,
+      "de": 125.27,
+      "foto": "AgACAgQAAxkDAAIERmrSDVq2Qw1FmKr-ZiThjeWS9DSDAAK0DGsb2LhMU62gMgraLs-OAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "palavra": "whey",
+      "garimpado_em": "2026-10-16T08:30-03:00",
+      "nota": 66.6,
+      "titulo": "Barra de proteína para consumo pós-treino prático",
+      "id": 639,
+      "na_revisao_desde": "2026-10-16T08:41-03:00",
+      "msg_id": 1094
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:1052824153.27892568318",
+      "nome": "Caneleira de Peso Preta/Rosa Par de 500G,1KG,2KG,3KG,4KG,5KG - Exercício/Crosfit/Academia/Musculação/Fisioterapia/Treino",
+      "por": 22.97,
+      "de": 32.81,
+      "foto": "AgACAgQAAxkDAAIER2rSDXvmtT4xj9MZxTxw242gNK_6AAJMC2sbwY6UUchYmcKijED6AQADAgADbQADPQQ",
+      "link": "https://s.shopee.com.br/9pf8FKPhTh",
+      "link_produto": "https://shopee.com.br/product/1052824153/27892568318",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.8,
+      "vendas": 1244,
+      "palavra": "academia",
+      "garimpado_em": "2026-10-16T08:00-03:00",
+      "nota": 59.8,
+      "titulo": "Caneleira de peso para intensificar seus treinos",
+      "id": 640,
+      "na_revisao_desde": "2026-10-16T08:41-03:00",
+      "msg_id": 1095
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB3280323716",
+      "origem": "promonocontext",
+      "link": "https://produto.mercadolivre.com.br/MLB-3280323716-kit-3-samba-canco-de-liganete-cueca-short-malha-fria-pijama-_JM?pdp_filters=item_id%3AMLB3280323716&matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-3280323716-kit-3-samba-canco-de-liganete-cueca-short-malha-fria-pijama-_JM?pdp_filters=item_id%3AMLB3280323716",
+      "post_origem": "https://t.me/promonocontext/127396",
+      "link_canal": "https://meli.la/2WYvcG7",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_690915-MLB104484132577_012026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Kit 3 Samba Canção De Liganete Cueca Short Malha Fria Pijama",
+      "por": 34.0,
+      "palavra": "cueca",
+      "garimpado_em": "2026-10-16T08:20-03:00",
+      "nota": 26.4,
+      "titulo": "Kit de samba-canção em malha fria para dormir",
+      "id": 641,
+      "na_revisao_desde": "2026-10-16T08:41-03:00",
+      "msg_id": 1096
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0GVFB3TL2",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0GVFB3TL2?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0GVFB3TL2?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/smartwatch-peje-t6-com-chamadas-pulseira-extra-e-100-modos-esportivos-3118124/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3118124/",
+      "nome": "Smartwatch PEJE T6 com Chamadas",
+      "por": 99.25,
+      "de": 121.1,
+      "foto": "AgACAgQAAxkDAAIESWrSDY7gmLgqmYNtPXikp62nAAG2IgACJxBrGyDzLVBWFaqxqVZqhQEAAwIAA3kAAz0E",
+      "foto_origem": "loja",
+      "palavra": "smartwatch",
+      "garimpado_em": "2026-10-16T08:30-03:00",
+      "nota": 47.8,
+      "titulo": "Smartwatch com chamadas para monitorar a rotina diária",
+      "id": 642,
+      "na_revisao_desde": "2026-10-16T08:42-03:00",
+      "msg_id": 1097
+    }
+  ],
+  "proximo_id": 643,
   "radar": {
     "visto": {
       "xetdaspromocoes": 85103,
-      "lobaopromo": 190207,
-      "gatunopromos": 125674,
-      "pobregram": 41993,
+      "lobaopromo": 190209,
+      "gatunopromos": 125675,
+      "pobregram": 41995,
       "urubupromo": 41756,
       "tudonapromo": 102064,
-      "promonocontext": 127405,
-      "promooeasy": 222607,
+      "promonocontext": 127407,
+      "promooeasy": 222614,
       "aquitempechincha": 282017,
       "infoBRpromos": 67665,
       "boletando": 76808,
@@ -3802,28 +3890,27 @@
       "amazon:B07L5V2NN2"
     ],
     "ultima": {
-      "em": "2026-10-16T08:30:25-03:00",
+      "em": "2026-10-16T08:40:20-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 37,
-      "do_nicho": 4,
-      "repetidas": 1,
-      "novas": 2,
+      "posts_novos": 23,
+      "do_nicho": 3,
+      "repetidas": 3,
+      "novas": 0,
       "limite_dia": false,
       "repetidas_nome": 0,
-      "fora_do_nicho": 1,
-      "promobit": 2,
-      "soltas": 0,
-      "na_peneira": 4
+      "promobit": 0,
+      "soltas": 4,
+      "na_peneira": 0
     },
     "hora": "2026-10-16T08",
     "nesta_hora": 1,
     "promobit_hora": "2026-10-16T08",
     "promobit_nesta_hora": 3,
-    "promobit_visto": 3118133,
+    "promobit_visto": 3118146,
     "nomes": [
       [
         [
@@ -5447,88 +5534,68 @@
           "axilas"
         ],
         "2026-10-16T07:41-03:00"
+      ],
+      [
+        [
+          "integralmedica",
+          "barra",
+          "proteina",
+          "whey",
+          "protein",
+          "crisp",
+          "bar",
+          "doce"
+        ],
+        "2026-10-16T08:40-03:00"
+      ],
+      [
+        [
+          "caneleira",
+          "peso",
+          "rosa",
+          "par",
+          "500g",
+          "1kg",
+          "2kg",
+          "3kg"
+        ],
+        "2026-10-16T08:41-03:00"
+      ],
+      [
+        [
+          "samba",
+          "cancao",
+          "liganete",
+          "cueca",
+          "short",
+          "malha",
+          "fria",
+          "pijama"
+        ],
+        "2026-10-16T08:41-03:00"
+      ],
+      [
+        [
+          "smartwatch",
+          "peje",
+          "t6",
+          "chamadas"
+        ],
+        "2026-10-16T08:41-03:00"
       ]
     ],
-    "peneira": [
-      {
-        "loja": "shopee",
-        "chave": "shopee:1052824153.27892568318",
-        "nome": "Caneleira de Peso Preta/Rosa Par de 500G,1KG,2KG,3KG,4KG,5KG - Exercício/Crosfit/Academia/Musculação/Fisioterapia/Treino",
-        "por": 22.97,
-        "de": 32.81,
-        "foto": "https://cf.shopee.com.br/file/br-11134207-81z1k-mfemeicjxd6ta7",
-        "link": "https://s.shopee.com.br/9pf8FKPhTh",
-        "link_produto": "https://shopee.com.br/product/1052824153/27892568318",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 4.8,
-        "vendas": 1244,
-        "palavra": "academia",
-        "garimpado_em": "2026-10-16T08:00-03:00",
-        "nota": 59.8
-      },
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB3280323716",
-        "origem": "promonocontext",
-        "link": "https://produto.mercadolivre.com.br/MLB-3280323716-kit-3-samba-canco-de-liganete-cueca-short-malha-fria-pijama-_JM?pdp_filters=item_id%3AMLB3280323716&matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://produto.mercadolivre.com.br/MLB-3280323716-kit-3-samba-canco-de-liganete-cueca-short-malha-fria-pijama-_JM?pdp_filters=item_id%3AMLB3280323716",
-        "post_origem": "https://t.me/promonocontext/127396",
-        "link_canal": "https://meli.la/2WYvcG7",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_690915-MLB104484132577_012026-O.webp",
-        "foto_origem": "loja",
-        "nome": "Kit 3 Samba Canção De Liganete Cueca Short Malha Fria Pijama",
-        "por": 34.0,
-        "palavra": "cueca",
-        "garimpado_em": "2026-10-16T08:20-03:00",
-        "nota": 26.4
-      },
-      {
-        "loja": "amazon",
-        "chave": "amazon:B0GVFB3TL2",
-        "origem": "promobit",
-        "fonte": "promobit",
-        "link": "https://www.amazon.com.br/dp/B0GVFB3TL2?tag=alphadominu09-20",
-        "link_produto": "https://www.amazon.com.br/dp/B0GVFB3TL2?tag=alphadominu09-20",
-        "post_origem": "https://www.promobit.com.br/oferta/smartwatch-peje-t6-com-chamadas-pulseira-extra-e-100-modos-esportivos-3118124/",
-        "link_canal": "https://www.promobit.com.br/Redirect/to/3118124/",
-        "nome": "Smartwatch PEJE T6 com Chamadas",
-        "por": 99.25,
-        "de": 121.1,
-        "foto": "https://m.media-amazon.com/images/I/61WeErjbsLL._AC_SL1500_.jpg",
-        "foto_origem": "loja",
-        "palavra": "smartwatch",
-        "garimpado_em": "2026-10-16T08:30-03:00",
-        "nota": 47.8
-      },
-      {
-        "loja": "amazon",
-        "chave": "amazon:B07G7RVZ1V",
-        "origem": "promobit",
-        "fonte": "promobit",
-        "link": "https://www.amazon.com.br/dp/B07G7RVZ1V?tag=alphadominu09-20",
-        "link_produto": "https://www.amazon.com.br/dp/B07G7RVZ1V?tag=alphadominu09-20",
-        "post_origem": "https://www.promobit.com.br/oferta/integralmedica-barra-de-proteina-whey-protein-crisp-bar-doce-de-coco-snack-proteico-pre-e-pos-treino-displa-3118131/",
-        "link_canal": "https://www.promobit.com.br/Redirect/to/3118131/",
-        "nome": "Integralmédica - Barra de Proteína Whey Protein Crisp Bar Doce de",
-        "por": 57.5,
-        "de": 125.27,
-        "foto": "https://m.media-amazon.com/images/I/81q70jw529L._AC_SL1500_.jpg",
-        "foto_origem": "loja",
-        "palavra": "whey",
-        "garimpado_em": "2026-10-16T08:30-03:00",
-        "nota": 66.6
-      }
-    ],
+    "peneira": [],
     "soltas_hora": "2026-10-16T08",
-    "soltas": 0,
-    "shopee_em": "2026-10-16T08:20-03:00",
-    "shopee_indice": 44,
+    "soltas": 4,
+    "shopee_em": "2026-10-16T08:42-03:00",
+    "shopee_indice": 52,
     "soltas_dia_data": "2026-10-16",
-    "soltas_dia": 7,
-    "soltas_loja": {}
+    "soltas_dia": 11,
+    "soltas_loja": {
+      "amazon": 2,
+      "shopee": 1,
+      "mercadolivre": 1
+    }
   },
   "ultimos": [
     {
@@ -6612,16 +6679,26 @@
     },
     "2026-10-16": {
       "shopee": {
+        "achados": 3,
+        "aprovados": 0,
+        "reprovados": 0
+      },
+      "promobit": {
         "achados": 2,
+        "aprovados": 0,
+        "reprovados": 0
+      },
+      "promonocontext": {
+        "achados": 1,
         "aprovados": 0,
         "reprovados": 0
       }
     }
   },
-  "aviso_post": "2026-10-15 23|mercadolivre:MLB21362449",
+  "aviso_post": "2026-10-16 08|shopee:1638805020.58264360363",
   "garimpo_palavras": {
     "academia": {
-      "achados": 24,
+      "achados": 25,
       "aprovados": 7,
       "reprovados": 17
     },
@@ -6731,7 +6808,7 @@
       "reprovados": 11
     },
     "cueca": {
-      "achados": 8,
+      "achados": 9,
       "aprovados": 0,
       "reprovados": 8
     },
@@ -6826,7 +6903,7 @@
       "reprovados": 20
     },
     "smartwatch": {
-      "achados": 7,
+      "achados": 8,
       "aprovados": 3,
       "reprovados": 4
     },
@@ -6846,7 +6923,7 @@
       "reprovados": 1
     },
     "whey": {
-      "achados": 9,
+      "achados": 10,
       "aprovados": 3,
       "reprovados": 6
     },
