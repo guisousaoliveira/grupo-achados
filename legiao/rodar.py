@@ -140,18 +140,38 @@ def validar_formato(post):
     return erros
 
 
+def pedido_de_refazer():
+    """Quando você recusa e manda o motivo, a Íris dispara de novo com MOTIVO e PASTA: vira correção obrigatória."""
+    motivo = os.environ.get("MOTIVO", "").strip()
+    if not motivo:
+        return ""
+    anterior = ""
+    try:
+        repo = os.environ.get("GITHUB_REPOSITORY", "guisousaoliveira/grupo-achados")
+        url = f"https://raw.githubusercontent.com/{repo}/legiao-posts/posts/{os.environ.get('PASTA', '')}/post.json"
+        anterior = urllib.request.urlopen(url, timeout=30).read().decode()
+    except Exception as erro:
+        print("não achei a versão recusada:", erro)
+    return ("# Pedido do Guilherme (dono da página)\nEle RECUSOU a versão anterior e disse o que não ficou bom:\n"
+            f"\"{motivo}\"\nFaça uma versão nova que resolva exatamente isso."
+            + (f"\n\nVersão recusada:\n{anterior}" if anterior else ""))
+
+
 def main():
     if not os.environ.get("CLAUDE_CODE_OAUTH_TOKEN"):
         print("Falta o secret CLAUDE_CODE_OAUTH_TOKEN; a Legião não roda.")
         return
     agora = datetime.now(BRT)
     historico = json.loads(HISTORICO.read_text(encoding="utf-8")) if HISTORICO.exists() else []
+    if os.environ.get("MOTIVO"):  # refazendo: o tema recusado de hoje não conta como "já postado"
+        historico = [h for h in historico if h.get("data") != agora.strftime("%Y-%m-%d")]
     temas = "\n".join(f"- {h['tema']}" for h in historico[-60:]) or "- (nenhum ainda)"
     base = {"DATA": agora.strftime("%d/%m/%Y"), "HISTORICO": temas, "CTA": CFG["cta"],
             "NICHO": (AQUI / "nicho.md").read_text(encoding="utf-8"),
             "FRAMES_MIN": CFG["frames_min"], "FRAMES_MAX": CFG["frames_max"]}
 
-    correcoes, post, motivos = "", None, []
+    pedido = pedido_de_refazer()
+    correcoes, post, motivos = pedido, None, []
     for rodada in range(1 + CFG["rodadas_revisao"]):
         post = claude(preencher("bragi.md", CORRECOES=correcoes, **base))
         motivos = validar_formato(post)
@@ -164,7 +184,7 @@ def main():
         print(f"Rodada {rodada + 1}: {'aprovado' if not motivos else motivos}")
         if not motivos:
             break
-        correcoes = ("# Correções obrigatórias\nA versão anterior foi reprovada. Mantenha o que estava bom e corrija:\n"
+        correcoes = pedido + ("\n\n# Correções obrigatórias\nA versão anterior foi reprovada. Mantenha o que estava bom e corrija:\n"
                      + "\n".join(f"- {m}" for m in motivos)
                      + "\n\nVersão anterior:\n" + json.dumps(post, ensure_ascii=False))
 
