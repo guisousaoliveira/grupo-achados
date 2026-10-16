@@ -736,6 +736,22 @@ def chave_ia():
     return segredo("GEMINI_LEGIAO_KEY") or segredo("GEMINI_API_KEY")
 
 
+_gratis_acabou = []  # a cota grátis acabou nesta rodada: vai direto na chave paga
+
+
+def gemini_gratis_primeiro(corpo, modelo_fixo=None):
+    """Tenta a chave grátis (GEMINI_API_KEY) e só usa a paga (a da Legião) quando a cota grátis acabar.
+    Depois que a grátis falha, o resto da rodada vai direto na paga."""
+    gratis, paga = segredo("GEMINI_API_KEY"), segredo("GEMINI_LEGIAO_KEY")
+    if gratis and gratis != paga and not _gratis_acabou:
+        try:
+            return gemini(corpo, modelo_fixo=modelo_fixo, chave=gratis)
+        except Exception as e:
+            _gratis_acabou.append(True)
+            log(f"IA: a chave grátis não respondeu ({e}); uso a paga.")
+    return gemini(corpo, modelo_fixo=modelo_fixo, chave=paga or gratis)
+
+
 def gemini(corpo, timeout=30, modelo_fixo=None, chave=None):
     """Chama a Gemini e devolve o texto da resposta. Se o modelo do config não existir mais (404),
     descobre sozinho um modelo "flash" que a chave tem. Levanta ErroIA com o motivo, se não der.
@@ -896,7 +912,7 @@ def gerar_titulo(item, recentes=()):
     corpo = {"contents": [{"parts": [{"text": pedido}]}], "generationConfig": {"temperature": 1.0}}
     try:
         for _ in range(2):  # se falar de desconto ou afirmar o que não está nos dados, tenta mais uma vez
-            texto = gemini(corpo)
+            texto = gemini_gratis_primeiro(corpo)
             titulo = (texto.strip().splitlines() or [""])[0].strip().strip('"“”').rstrip(".")
             if titulo_ok(titulo, item):
                 return titulo[:60]
@@ -2217,7 +2233,6 @@ def _valor_ia(v):
 
 
 _lidos_ia = {}
-_gratis_acabou = []  # a cota grátis acabou nesta rodada: vai direto na chave paga
 
 
 def ler_post_ia(texto):
@@ -2231,18 +2246,8 @@ def ler_post_ia(texto):
     corpo = {"contents": [{"parts": [{"text": LER_POST + texto[:3000]}]}],
              "generationConfig": {"temperature": 0, "responseMimeType": "application/json"}}
     modelo = CONFIG.get("ia", {}).get("modelo_leitura", "gemini-flash-lite-latest")  # ler post: o mais barato basta
-    gratis, paga = segredo("GEMINI_API_KEY"), segredo("GEMINI_LEGIAO_KEY")
-    resposta = None
-    if gratis and gratis != paga and not _gratis_acabou:
-        # Primeiro a chave grátis (o Flash-Lite tem cota grátis grande); a paga só quando ela acabar.
-        try:
-            resposta = gemini(corpo, modelo_fixo=modelo, chave=gratis)
-        except Exception as e:
-            _gratis_acabou.append(True)  # não insiste nesta rodada
-            log(f"IA grátis não leu o post ({e}); uso a chave paga.")
     try:
-        if resposta is None:
-            resposta = gemini(corpo, modelo_fixo=modelo, chave=paga or gratis)
+        resposta = gemini_gratis_primeiro(corpo, modelo)
         dados = json.loads(re.sub(r"^```(?:json)?|```$", "", resposta.strip()).strip())
     except Exception as e:
         log(f"IA não leu o post ({e}).")
