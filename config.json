@@ -70,7 +70,8 @@
   },
   "ia": {
     "modelo": "gemini-flash-latest",
-    "instrucao": "Escreva UMA frase curta (até 12 palavras) em português do Brasil, chamativa e direta, para um post de oferta num canal de achados masculino (academia, estilo, cuidados, gadgets, games, ferramentas, churrasco, carro). Tom confiante, sem exageros falsos, sem emojis, sem hashtags. Sem afirmar menor preço ou histórico de preço."
+    "instrucao": "Escreva UMA frase curta (até 12 palavras) em português do Brasil, chamativa e direta, para um post de oferta num canal de achados masculino (academia, estilo, cuidados, gadgets, games, ferramentas, churrasco, carro). Tom confiante, sem exageros falsos, sem emojis, sem hashtags. Sem afirmar menor preço ou histórico de preço.",
+    "modelo_leitura": "gemini-flash-lite-latest"
   },
   "radar": {
     "canais": [

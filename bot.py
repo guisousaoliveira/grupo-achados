@@ -709,6 +709,7 @@ class ErroIA(Exception):
 
 
 _modelo_ia = []  # modelo que funcionou (guardado para não procurar de novo)
+USO_IA = {}  # por modelo: [chamadas, tokens de entrada, tokens de saída] nesta rodada (vai para o log)
 
 
 def _modelos_disponiveis(chave, com_lite=False):
@@ -735,14 +736,15 @@ def chave_ia():
     return segredo("GEMINI_LEGIAO_KEY") or segredo("GEMINI_API_KEY")
 
 
-def gemini(corpo, timeout=30):
+def gemini(corpo, timeout=30, modelo_fixo=None):
     """Chama a Gemini e devolve o texto da resposta. Se o modelo do config não existir mais (404),
-    descobre sozinho um modelo "flash" que a chave tem. Levanta ErroIA com o motivo, se não der."""
+    descobre sozinho um modelo "flash" que a chave tem. Levanta ErroIA com o motivo, se não der.
+    modelo_fixo: tenta esse primeiro (ex.: o Flash-Lite, mais barato, para ler post) sem trocar o das chamadas."""
     chave = chave_ia()
     if not chave:
         raise ErroIA("sem a chave GEMINI_API_KEY")
-    candidatos = list(dict.fromkeys(_modelo_ia + [CONFIG.get("ia", {}).get("modelo", "gemini-flash-latest"),
-                                                  "gemini-flash-latest"]))
+    candidatos = list(dict.fromkeys(([modelo_fixo] if modelo_fixo else []) + _modelo_ia
+                                    + [CONFIG.get("ia", {}).get("modelo", "gemini-flash-latest"), "gemini-flash-latest"]))
     procurou = False
     tentou = {}
     usados, refazer = set(), {}
@@ -791,8 +793,14 @@ def gemini(corpo, timeout=30):
                       429: "limite grátis do minuto/dia atingido, tente daqui a pouco"}.get(e.code, f"erro {e.code}")
             log(f"IA: {motivo}. {detalhe[:200]}")
             raise ErroIA(motivo)
-        _modelo_ia[:] = [modelo]
-        partes = json.loads(texto)["candidates"][0]["content"]["parts"]
+        if modelo != modelo_fixo:
+            _modelo_ia[:] = [modelo]
+        resposta = json.loads(texto)
+        uso = resposta.get("usageMetadata", {})
+        USO_IA[modelo] = [a + b for a, b in zip(USO_IA.get(modelo, [0, 0, 0]),
+                                                 [1, uso.get("promptTokenCount", 0),
+                                                  uso.get("candidatesTokenCount", 0) + uso.get("thoughtsTokenCount", 0)])]
+        partes = resposta["candidates"][0]["content"]["parts"]
         return "".join(p.get("text", "") for p in partes).strip()
     if cota:
         raise ErroIA("limite grátis do minuto/dia atingido em todos os modelos, tente daqui a pouco")
@@ -2208,15 +2216,22 @@ def _valor_ia(v):
     return None
 
 
+_lidos_ia = {}
+
+
 def ler_post_ia(texto):
     """A IA lê o post bagunçado do canal e devolve {nome, de, por, cupom, pix, prime} (só o que achou).
     {} se a IA não responder: aí ficam as regras antigas."""
     if not chave_ia() or SIMULAR or not texto:
         return {}
+    chave_txt = hashlib.sha1(texto[:3000].encode()).hexdigest()
+    if chave_txt in _lidos_ia:  # o mesmo post (repostado em outro canal) não paga duas vezes
+        return dict(_lidos_ia[chave_txt])
     corpo = {"contents": [{"parts": [{"text": LER_POST + texto[:3000]}]}],
              "generationConfig": {"temperature": 0, "responseMimeType": "application/json"}}
+    modelo = CONFIG.get("ia", {}).get("modelo_leitura", "gemini-flash-lite-latest")  # ler post: o mais barato basta
     try:
-        dados = json.loads(re.sub(r"^```(?:json)?|```$", "", gemini(corpo).strip()).strip())
+        dados = json.loads(re.sub(r"^```(?:json)?|```$", "", gemini(corpo, modelo_fixo=modelo).strip()).strip())
     except Exception as e:
         log(f"IA não leu o post ({e}).")
         return {}
@@ -2239,6 +2254,7 @@ def ler_post_ia(texto):
     for k in ("pix", "prime"):
         if dados.get(k) is True:
             lido[k] = True
+    _lidos_ia[chave_txt] = dict(lido)
     return lido
 
 
@@ -2247,8 +2263,9 @@ def preco_bate(a, b):
     return bool(a and b) and abs(a - b) <= max(1.0, 0.03 * max(a, b))
 
 
-def oferta_do_post(post, canal):
-    """Monta a oferta a partir do post. None se não for do nicho ou não tiver link de loja."""
+def oferta_do_post(post, canal, usadas=()):
+    """Monta a oferta a partir do post. None se não for do nicho ou não tiver link de loja.
+    Produto que já está na fila/Revisar/peneira (`usadas`) volta cru, sem gastar IA nem ler a loja."""
     texto = post["texto"]
     if not do_nicho(texto):
         return None
@@ -2267,6 +2284,8 @@ def oferta_do_post(post, canal):
     item = {"loja": prod["loja"], "chave": prod["chave"], "origem": canal,
             "link": prod.get("meu_link") or prod["link_produto"], "link_produto": prod["link_produto"],
             "post_origem": f"https://t.me/{canal}/{post['id']}", "link_canal": link}
+    if item["chave"] in usadas:
+        return item
     if not prod.get("meu_link"):
         item["precisa_link"] = True
     if post.get("foto"):  # foto do canal: só fica se não acharmos a oficial da loja
@@ -2730,7 +2749,7 @@ def rodar_radar(estado, teste=False):
                 conta["limite_hora"] = cheia_hora
                 conta["limite_rodada"] = cheia_rodada
                 break
-            item = oferta_do_post(post, canal)
+            item = oferta_do_post(post, canal, usadas)
             if not item:
                 continue
             conta["do_nicho"] += 1
@@ -2915,6 +2934,9 @@ def cmd_rodar():
     log("Fila guardada no " + ("repositório do GitHub." if usar_github() else "arquivo dados/estado.json."))
     com_estado(ciclo)
     esperar_e_postar()
+    if USO_IA:  # para acompanhar o gasto: chamadas e tokens por modelo nesta rodada
+        log("IA nesta rodada: " + "; ".join(f"{m}: {c} chamada(s), {i} tokens entrada, {o} saída"
+                                           for m, (c, i, o) in USO_IA.items()))
 
 
 def cmd_ids():
@@ -3020,6 +3042,35 @@ def encurtar_fila_ml(estado):
         return
 
 
+def cmd_ia_teste():
+    """Compara a leitura dos posts no modelo das chamadas e no Flash-Lite (workflow ia-teste.yml). Não salva nada."""
+    chave = chave_ia()
+    print("Modelos lite da chave:", [m for m in _modelos_disponiveis(chave, com_lite=True) if "lite" in m])
+    lite = CONFIG.get("ia", {}).get("modelo_leitura", "gemini-flash-lite-latest")
+    normal = CONFIG.get("ia", {}).get("modelo", "gemini-flash-latest")
+    feitos = 0
+    for canal in CONFIG.get("radar", {}).get("canais", [])[:6]:
+        canal = canal.strip().replace("https://t.me/", "").replace("@", "").strip("/")
+        try:
+            posts = ler_canal(canal)
+        except Exception as e:
+            print(f"@{canal}: {e}")
+            continue
+        for post in [p for p in posts if do_nicho(p["texto"]) and re.search(r"R\$", p["texto"])][-2:]:
+            print(f"\n--- @{canal}/{post['id']}: {post['texto'][:160]!r}")
+            for modelo in (normal, lite):
+                CONFIG.setdefault("ia", {})["modelo_leitura"] = modelo
+                _lidos_ia.clear()
+                print(f"  {modelo}: {ler_post_ia(post['texto'])}")
+            CONFIG["ia"]["modelo_leitura"] = lite
+            feitos += 1
+            if feitos >= 8:
+                break
+        if feitos >= 8:
+            break
+    print("\nUso:", {m: {"chamadas": c, "entrada": i, "saida": o} for m, (c, i, o) in USO_IA.items()})
+
+
 def cmd_meli_teste(links):
     """Testa o meli.la automático com um produto do ML (do argumento ou o último que passou pelo bot)."""
     if not links:
@@ -3062,6 +3113,8 @@ def main():
             cmd_shopee_teste(args[1:])
         elif cmd == "titulo-teste":
             cmd_titulo_teste()
+        elif cmd == "ia-teste":
+            cmd_ia_teste()
         elif cmd == "meli-teste":
             cmd_meli_teste(args[1:])
         else:
