@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "amazon",
-      "chave": "amazon:B00YTY4AB8",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B00YTY4AB8?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B00YTY4AB8?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/timex-relogio-easy-reader-com-pulseira-de-couro-de-38-mm-3119109/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3119109/",
-      "nome": "Timex Relógio Easy Reader Com Pulseira De Couro De 38 Mm",
-      "por": 299.0,
-      "de": 423.12,
-      "foto": "AgACAgQAAxkDAAIEdGrSVgZSevZaqM-IG8wyb3vyd8jKAALRDmsbBpMdUTquI-r0W7cbAQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "palavra": "relogio",
-      "garimpado_em": "2026-10-16T13:30-03:00",
-      "nota": 56.9,
-      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
-      "titulo": "Timex de couro clássico para o dia a dia",
-      "na_revisao_desde": "2026-10-16T13:51-03:00",
-      "aprovado_em": "2026-10-16T13:51-03:00"
-    },
-    {
       "loja": "shopee",
       "chave": "shopee:1439190466.23898836118",
       "nome": "2/1 PCS Bolsa Mochila De Peito Tiracolo Pochete Bolsa Impermeável Transversal Masculina",
@@ -2092,6 +2070,16 @@
       "link_produto": "https://produto.mercadolivre.com.br/MLB-5230772384-6-pares-meias-puma-cano-medio-alto-atoalhada-academia-sport-_JM?pdp_filters=item_id%3AMLB5230772384",
       "titulo": "Meias Puma atoalhadas para treinar com conforto",
       "slot": 16.1
+    },
+    {
+      "chave": "amazon:B00YTY4AB8",
+      "loja": "amazon",
+      "nome": "Timex Relógio Easy Reader Com Pulseira De Couro De 38 Mm",
+      "data": "2026-10-16T16:36-03:00",
+      "link": "https://www.amazon.com.br/dp/B00YTY4AB8?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B00YTY4AB8?tag=alphadominu09-20",
+      "titulo": "Timex de couro clássico para o dia a dia",
+      "slot": 16.2
     }
   ],
   "slots_usados": {
@@ -2194,7 +2182,8 @@
       15.2,
       15.3,
       16,
-      16.1
+      16.1,
+      16.2
     ]
   },
   "shopee_buscado_em": "",
@@ -6806,6 +6795,20 @@
   },
   "ultimos": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B00YTY4AB8",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B00YTY4AB8?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B00YTY4AB8?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/timex-relogio-easy-reader-com-pulseira-de-couro-de-38-mm-3119109/",
+      "nome": "Timex Relógio Easy Reader Com Pulseira De Couro De 38 Mm",
+      "por": 299.0,
+      "de": 423.12,
+      "foto": "AgACAgQAAxkDAAIEdGrSVgZSevZaqM-IG8wyb3vyd8jKAALRDmsbBpMdUTquI-r0W7cbAQADAgADeQADPQQ",
+      "titulo": "Timex de couro clássico para o dia a dia"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB5230772384",
       "origem": "promooeasy",
@@ -7328,18 +7331,6 @@
       "origem": "shopee",
       "fonte": "shopee",
       "titulo": "Fonte robusta para alimentar seu som automotivo"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB2818208621",
-      "origem": "xetdaspromocoes",
-      "link": "https://meli.la/1ii92mv",
-      "link_produto": "https://meli.la/1ii92mv",
-      "post_origem": "https://t.me/xetdaspromocoes/84929",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_606926-MLB73819020082_012024-O.webp",
-      "nome": "Lanterna Tatica Recarregavel Mais Forte Do Mundo Sitio Led Branco",
-      "por": 21.0,
-      "titulo": "Lanterna tática recarregável para iluminação de alta potênci"
     }
   ],
   "lixeira": [
