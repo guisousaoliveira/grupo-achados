@@ -2,29 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB5877188254",
-      "origem": "xetdaspromocoes",
-      "link": "https://meli.la/24CYbax",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-5877188254-kit-3-shorts-2-em-1-masculino-de-compresso-corrida-academia-_JM?pdp_filters=item_id%3AMLB5877188254",
-      "post_origem": "https://t.me/xetdaspromocoes/85157",
-      "link_canal": "https://meli.la/2bcTn23",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_949957-MLB115601154336_092026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Kit 3 Shorts 2 Em 1 Masculino De Compressão Corrida Academia",
-      "de": 109.0,
-      "por": 53.0,
-      "lido_ia": true,
-      "cupom": "TUDOEMPROMO",
-      "preco_loja": 71.99,
-      "palavra": "academia",
-      "garimpado_em": "2026-10-16T10:46-03:00",
-      "nota": 78.1,
-      "titulo": "Bermudas com compressão interna para corrida e academia",
-      "na_revisao_desde": "2026-10-16T12:41-03:00",
-      "aprovado_em": "2026-10-16T12:42-03:00"
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B0977QVRJS",
       "origem": "promobit",
@@ -2045,6 +2022,16 @@
       "link_produto": "https://www.amazon.com.br/dp/B0GY9TRH2V?tag=alphadominu09-20",
       "titulo": "Drone DJI com gravação 4K e ActiveTrack",
       "slot": 15
+    },
+    {
+      "chave": "mercadolivre:MLB5877188254",
+      "loja": "mercadolivre",
+      "nome": "Kit 3 Shorts 2 Em 1 Masculino De Compressão Corrida Academia",
+      "data": "2026-10-16T15:23-03:00",
+      "link": "https://meli.la/24CYbax",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-5877188254-kit-3-shorts-2-em-1-masculino-de-compresso-corrida-academia-_JM?pdp_filters=item_id%3AMLB5877188254",
+      "titulo": "Bermudas com compressão interna para corrida e academia",
+      "slot": 15.1
     }
   ],
   "slots_usados": {
@@ -2142,7 +2129,8 @@
       14.1,
       14.2,
       14.3,
-      15
+      15,
+      15.1
     ]
   },
   "shopee_buscado_em": "",
@@ -6826,6 +6814,20 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB5877188254",
+      "origem": "xetdaspromocoes",
+      "link": "https://meli.la/24CYbax",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-5877188254-kit-3-shorts-2-em-1-masculino-de-compresso-corrida-academia-_JM?pdp_filters=item_id%3AMLB5877188254",
+      "post_origem": "https://t.me/xetdaspromocoes/85157",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_949957-MLB115601154336_092026-O.webp",
+      "nome": "Kit 3 Shorts 2 Em 1 Masculino De Compressão Corrida Academia",
+      "de": 109.0,
+      "por": 53.0,
+      "cupom": "TUDOEMPROMO",
+      "titulo": "Bermudas com compressão interna para corrida e academia"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0GY9TRH2V",
       "origem": "boletando",
@@ -7346,20 +7348,6 @@
       "de": 163.0,
       "por": 66.0,
       "titulo": "Camisetas dry fit leves para treinar com conforto"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B01JO75X6K",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://link.amazon/B08mwh9Vp",
-      "link_produto": "https://link.amazon/B08mwh9Vp",
-      "post_origem": "https://www.promobit.com.br/oferta/relogio-timex-expedition-scout-couro-marrom-3115354/",
-      "nome": "Relógio Timex Expedition Scout Couro Marrom",
-      "por": 287.0,
-      "de": 505.75,
-      "foto": "AgACAgQAAxkDAAIDv2rQu_EtJI6Gzf8mXyXUL9Tmqu3DAAKCD2sbdb-FUso_B3InNxciAQADAgADeAADPQQ",
-      "titulo": "Relógio Timex em couro para o dia a dia"
     }
   ],
   "lixeira": [
