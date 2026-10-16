@@ -263,6 +263,28 @@
       "aprovado_em": "2026-10-16T10:49-03:00"
     },
     {
+      "loja": "shopee",
+      "chave": "shopee:1338475004.22394682865",
+      "nome": "Bravenza Essence Tônico Capilar Cresce Cabelo Barba Bigode Cavanhaque Preenche Falhas Unissex 9",
+      "por": 19.9,
+      "de": 36.18,
+      "foto": "https://cf.shopee.com.br/file/br-11134207-820l9-mr50bn3hpl39fe",
+      "link": "https://s.shopee.com.br/8pmbFzX1K8",
+      "link_produto": "https://shopee.com.br/product/1338475004/22394682865",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.8,
+      "vendas": 367,
+      "palavra": "barba",
+      "garimpado_em": "2026-10-16T11:02-03:00",
+      "nota": 62.5,
+      "titulo": "Estimula o crescimento e combate falhas na barba",
+      "aprovado_sozinho": true,
+      "aprovado_em": "2026-10-16T11:37-03:00"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0GY9TRH2V",
       "origem": "boletando",
@@ -281,6 +303,28 @@
       "titulo": "Drone DJI com gravação 4K e ActiveTrack",
       "na_revisao_desde": "2026-10-16T10:47-03:00",
       "aprovado_em": "2026-10-16T10:50-03:00"
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:1049231391.50552073819",
+      "nome": "Agenda 2027 Diária Capa Dura Espiral Planner - Diversas Capas 336 Páginas",
+      "por": 22.9,
+      "de": 38.17,
+      "foto": "https://cf.shopee.com.br/file/br-11134207-820lx-mt8b6zd0uwht0c",
+      "link": "https://s.shopee.com.br/8KqKf4hnBG",
+      "link_produto": "https://shopee.com.br/product/1049231391/50552073819",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.9,
+      "vendas": 222,
+      "palavra": "agenda",
+      "garimpado_em": "2026-10-16T11:02-03:00",
+      "nota": 63.6,
+      "titulo": "Planner diário para organizar sua rotina e tarefas",
+      "aprovado_sozinho": true,
+      "aprovado_em": "2026-10-16T11:36-03:00"
     }
   ],
   "postados": [
@@ -1876,26 +1920,119 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [],
-  "proximo_id": 654,
+  "revisar": [
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB68269465",
+      "origem": "promonocontext",
+      "link": "https://meli.la/2DahZyA",
+      "link_produto": "https://www.mercadolivre.com.br/relogio-de-pulso-mondaine-com-corria-de-silicone-cor-preto-fondo-branco-bisel-dourado/p/MLB68269465",
+      "post_origem": "https://t.me/promonocontext/127572",
+      "link_canal": "https://meli.la/2p1mycG",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_796210-MLA117645065731_092026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Relógio De Pulso Mondaine Com Corria De Silicone Cor Preto",
+      "de": 417.0,
+      "por": 150.0,
+      "lido_ia": true,
+      "cupom": "OFFHOJE",
+      "preco_loja": 167.4,
+      "palavra": "relogio",
+      "garimpado_em": "2026-10-16T11:01-03:00",
+      "nota": 83.1,
+      "titulo": "Mondaine com pulseira de silicone para uso diário",
+      "id": 654,
+      "na_revisao_desde": "2026-10-16T11:36-03:00",
+      "msg_id": 1116
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0DJH2LQ1T",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0DJH2LQ1T?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0DJH2LQ1T?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/smartwatch-huawei-watch-d2-monitoramento-da-pressao-arterial-design-leve-e-fino-gerenciamento-completo-de-saude-c-3118750/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3118750/",
+      "nome": "Smartwatch HUAWEI Watch D2 Monitoramento da Pressão Arterial Design",
+      "por": 2270.47,
+      "de": 2999.0,
+      "foto": "AgACAgQAAxkDAAIEXmrSNn_bx8Ts6DwWBl0jkfwFsfBoAALgEGsbI1tsUHjbRq96Pm1iAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "palavra": "smartwatch",
+      "garimpado_em": "2026-10-16T11:35-03:00",
+      "nota": 52.4,
+      "titulo": "Smartwatch Huawei para monitorar sua pressão arterial",
+      "id": 656,
+      "na_revisao_desde": "2026-10-16T11:36-03:00",
+      "msg_id": 1118
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB4296855769",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/2xAHV4B",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-4296855769-camiseta-dryfit-masculina-academia-treino-proteco-uv-_JM?pdp_filters=item_id%3AMLB4296855769",
+      "post_origem": "https://t.me/lobaopromo/190317",
+      "link_canal": "https://meli.la/2mZYvBg",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_681261-MLB97289513052_112025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Camiseta Dryfit Masculina Academia Treino Proteção Uv+",
+      "pix": true,
+      "de": 58.09,
+      "por": 21.34,
+      "lido_ia": true,
+      "cupom": "MELISALVA",
+      "palavra": "academia",
+      "garimpado_em": "2026-10-16T11:30-03:00",
+      "nota": 83.1,
+      "titulo": "Camiseta UV para treinar ao ar livre",
+      "id": 657,
+      "na_revisao_desde": "2026-10-16T11:36-03:00",
+      "msg_id": 1119
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0HCRPPXB1",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0HCRPPXB1?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0HCRPPXB1?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/smart-tv-lg-55-4k-uhd-nano-ai-55un85cbpsabwz-3118723/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3118723/",
+      "nome": "Smart Tv Lg 55\" 4k Uhd Nano Ai 55un85cbpsa.bwz",
+      "por": 2469.05,
+      "de": 2735.79,
+      "foto": "AgACAgQAAxkDAAICf2rOfgfTMr-hZyJUfyuatc1y4YaYAALwDmsbc55MUBJRo7JH5EBJAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "palavra": "smart tv",
+      "garimpado_em": "2026-10-16T11:20-03:00",
+      "nota": 28.4,
+      "titulo": "Resolução 4K em 55 polegadas para sua sala",
+      "id": 659,
+      "na_revisao_desde": "2026-10-16T11:37-03:00",
+      "msg_id": 1121
+    }
+  ],
+  "proximo_id": 660,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 85169,
-      "lobaopromo": 190318,
-      "gatunopromos": 125703,
+      "xetdaspromocoes": 85170,
+      "lobaopromo": 190323,
+      "gatunopromos": 125704,
       "pobregram": 42005,
       "urubupromo": 41770,
-      "tudonapromo": 102126,
-      "promonocontext": 127605,
-      "promooeasy": 222739,
-      "aquitempechincha": 282088,
+      "tudonapromo": 102127,
+      "promonocontext": 127611,
+      "promooeasy": 222747,
+      "aquitempechincha": 282093,
       "infoBRpromos": 67687,
       "boletando": 76825,
       "promotop": 260362,
-      "achadosdotb": 11783
+      "achadosdotb": 11784
     },
     "dia": "2026-10-16",
-    "hoje": 46,
+    "hoje": 47,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -3947,30 +4084,33 @@
       "mercadolivre:MLB3993733857",
       "mercadolivre:MLB68717302",
       "mercadolivre:MLB4296855769",
-      "mercadolivre:MLB5646238628"
+      "mercadolivre:MLB5646238628",
+      "amazon:B0DJH2LQ1T",
+      "shopee:603314742.58017721700",
+      "shopee:405535768.17722205175"
     ],
     "ultima": {
-      "em": "2026-10-16T11:30:26-03:00",
-      "pedido": "",
-      "forcado": false,
+      "em": "2026-10-16T11:35:43-03:00",
+      "pedido": "69a12f21ae",
+      "forcado": true,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 33,
-      "do_nicho": 3,
-      "repetidas": 1,
-      "novas": 2,
+      "posts_novos": 38,
+      "do_nicho": 4,
+      "repetidas": 3,
+      "novas": 1,
       "limite_dia": false,
       "repetidas_nome": 0,
-      "promobit": 0,
-      "soltas": 0,
-      "na_peneira": 20
+      "promobit": 1,
+      "soltas": 6,
+      "na_peneira": 15
     },
     "hora": "2026-10-16T11",
     "nesta_hora": 7,
     "promobit_hora": "2026-10-16T11",
-    "promobit_nesta_hora": 2,
-    "promobit_visto": 3118732,
+    "promobit_nesta_hora": 3,
+    "promobit_visto": 3118755,
     "nomes": [
       [
         [
@@ -5775,6 +5915,79 @@
           "prova"
         ],
         "2026-10-16T10:47-03:00"
+      ],
+      [
+        [
+          "relogio",
+          "pulso",
+          "mondaine",
+          "corria",
+          "silicone"
+        ],
+        "2026-10-16T11:36-03:00"
+      ],
+      [
+        [
+          "agenda",
+          "2027",
+          "diaria",
+          "capa",
+          "dura",
+          "espiral",
+          "planner",
+          "diversas"
+        ],
+        "2026-10-16T11:36-03:00"
+      ],
+      [
+        [
+          "smartwatch",
+          "huawei",
+          "watch",
+          "d2",
+          "monitoramento",
+          "pressao",
+          "arterial",
+          "design"
+        ],
+        "2026-10-16T11:36-03:00"
+      ],
+      [
+        [
+          "camiseta",
+          "dryfit",
+          "academia",
+          "treino",
+          "protecao",
+          "uv"
+        ],
+        "2026-10-16T11:36-03:00"
+      ],
+      [
+        [
+          "bravenza",
+          "essence",
+          "tonico",
+          "capilar",
+          "cresce",
+          "cabelo",
+          "barba",
+          "bigode"
+        ],
+        "2026-10-16T11:36-03:00"
+      ],
+      [
+        [
+          "smart",
+          "tv",
+          "lg",
+          "55",
+          "4k",
+          "uhd",
+          "nano",
+          "ai"
+        ],
+        "2026-10-16T11:37-03:00"
       ]
     ],
     "peneira": [
@@ -6007,82 +6220,6 @@
       },
       {
         "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB68269465",
-        "origem": "promonocontext",
-        "link": "https://www.mercadolivre.com.br/relogio-de-pulso-mondaine-com-corria-de-silicone-cor-preto-fondo-branco-bisel-dourado/p/MLB68269465?matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/relogio-de-pulso-mondaine-com-corria-de-silicone-cor-preto-fondo-branco-bisel-dourado/p/MLB68269465",
-        "post_origem": "https://t.me/promonocontext/127572",
-        "link_canal": "https://meli.la/2p1mycG",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_796210-MLA117645065731_092026-O.webp",
-        "foto_origem": "loja",
-        "nome": "Relógio De Pulso Mondaine Com Corria De Silicone Cor Preto",
-        "de": 417.0,
-        "por": 150.0,
-        "lido_ia": true,
-        "cupom": "OFFHOJE",
-        "preco_loja": 167.4,
-        "palavra": "relogio",
-        "garimpado_em": "2026-10-16T11:01-03:00",
-        "nota": 83.1
-      },
-      {
-        "loja": "shopee",
-        "chave": "shopee:1338475004.22394682865",
-        "nome": "Bravenza Essence Tônico Capilar Cresce Cabelo Barba Bigode Cavanhaque Preenche Falhas Unissex 9",
-        "por": 19.9,
-        "de": 36.18,
-        "foto": "https://cf.shopee.com.br/file/br-11134207-820l9-mr50bn3hpl39fe",
-        "link": "https://s.shopee.com.br/8pmbFzX1K8",
-        "link_produto": "https://shopee.com.br/product/1338475004/22394682865",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 4.8,
-        "vendas": 367,
-        "palavra": "barba",
-        "garimpado_em": "2026-10-16T11:02-03:00",
-        "nota": 62.5
-      },
-      {
-        "loja": "shopee",
-        "chave": "shopee:1049231391.50552073819",
-        "nome": "Agenda 2027 Diária Capa Dura Espiral Planner - Diversas Capas 336 Páginas",
-        "por": 22.9,
-        "de": 38.17,
-        "foto": "https://cf.shopee.com.br/file/br-11134207-820lx-mt8b6zd0uwht0c",
-        "link": "https://s.shopee.com.br/8KqKf4hnBG",
-        "link_produto": "https://shopee.com.br/product/1049231391/50552073819",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 4.9,
-        "vendas": 222,
-        "palavra": "agenda",
-        "garimpado_em": "2026-10-16T11:02-03:00",
-        "nota": 63.6
-      },
-      {
-        "loja": "amazon",
-        "chave": "amazon:B0HCRPPXB1",
-        "origem": "promobit",
-        "fonte": "promobit",
-        "link": "https://www.amazon.com.br/dp/B0HCRPPXB1?tag=alphadominu09-20",
-        "link_produto": "https://www.amazon.com.br/dp/B0HCRPPXB1?tag=alphadominu09-20",
-        "post_origem": "https://www.promobit.com.br/oferta/smart-tv-lg-55-4k-uhd-nano-ai-55un85cbpsabwz-3118723/",
-        "link_canal": "https://www.promobit.com.br/Redirect/to/3118723/",
-        "nome": "Smart Tv Lg 55\" 4k Uhd Nano Ai 55un85cbpsa.bwz",
-        "por": 2469.05,
-        "de": 2735.79,
-        "foto": "https://m.media-amazon.com/images/I/71JvlwEntGL._AC_SL1200_.jpg",
-        "foto_origem": "loja",
-        "palavra": "smart tv",
-        "garimpado_em": "2026-10-16T11:20-03:00",
-        "nota": 28.4
-      },
-      {
-        "loja": "mercadolivre",
         "chave": "mercadolivre:MLB3993733857",
         "origem": "lobaopromo",
         "link": "https://produto.mercadolivre.com.br/MLB-3993733857-kit-4-cuecas-boxer-mash-algodo-box-confortavel-original-_JM?pdp_filters=item_id%3AMLB3993733857&matt_word=alphapromo&matt_tool=59136903",
@@ -6120,26 +6257,6 @@
       },
       {
         "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB4296855769",
-        "origem": "lobaopromo",
-        "link": "https://produto.mercadolivre.com.br/MLB-4296855769-camiseta-dryfit-masculina-academia-treino-proteco-uv-_JM?pdp_filters=item_id%3AMLB4296855769&matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://produto.mercadolivre.com.br/MLB-4296855769-camiseta-dryfit-masculina-academia-treino-proteco-uv-_JM?pdp_filters=item_id%3AMLB4296855769",
-        "post_origem": "https://t.me/lobaopromo/190317",
-        "link_canal": "https://meli.la/2mZYvBg",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_681261-MLB97289513052_112025-O.webp",
-        "foto_origem": "loja",
-        "nome": "Camiseta Dryfit Masculina Academia Treino Proteção Uv+",
-        "pix": true,
-        "de": 58.09,
-        "por": 21.34,
-        "lido_ia": true,
-        "cupom": "MELISALVA",
-        "palavra": "academia",
-        "garimpado_em": "2026-10-16T11:30-03:00",
-        "nota": 83.1
-      },
-      {
-        "loja": "mercadolivre",
         "chave": "mercadolivre:MLB5646238628",
         "origem": "promonocontext",
         "link": "https://produto.mercadolivre.com.br/MLB-5646238628-macaquinho-academia-fitness-de-poliamida-zero-transparncia-_JM?pdp_filters=item_id%3AMLB5646238628&matt_word=alphapromo&matt_tool=59136903",
@@ -6155,15 +6272,57 @@
         "palavra": "academia",
         "garimpado_em": "2026-10-16T11:30-03:00",
         "nota": 38.0
+      },
+      {
+        "loja": "shopee",
+        "chave": "shopee:603314742.58017721700",
+        "nome": "Kit 2 Regata Frente Única Poliamida Costa Nua Premium Halter Forro Duplo",
+        "por": 39.9,
+        "de": 66.5,
+        "foto": "https://cf.shopee.com.br/file/br-11134207-820m6-mszp4lpbdq119c",
+        "link": "https://s.shopee.com.br/3Vl4wb1jo0",
+        "link_produto": "https://shopee.com.br/product/603314742/58017721700",
+        "origem": "shopee",
+        "fonte": "shopee",
+        "foto_origem": "loja",
+        "shopee_api": true,
+        "avaliacao": 4.9,
+        "vendas": 469,
+        "palavra": "halter",
+        "garimpado_em": "2026-10-16T11:37-03:00",
+        "nota": 71.1
+      },
+      {
+        "loja": "shopee",
+        "chave": "shopee:405535768.17722205175",
+        "nome": "Navalha Navalhete Profissional Barbeiro com lâminas Aço Inox Acabamento Barba",
+        "por": 12.99,
+        "de": 20.3,
+        "foto": "https://cf.shopee.com.br/file/61714759e2f22ff82e8b9623ec0acaa9",
+        "link": "https://s.shopee.com.br/6q1WuixqeM",
+        "link_produto": "https://shopee.com.br/product/405535768/17722205175",
+        "origem": "shopee",
+        "fonte": "shopee",
+        "foto_origem": "loja",
+        "shopee_api": true,
+        "avaliacao": 4.8,
+        "vendas": 2072,
+        "palavra": "barba",
+        "garimpado_em": "2026-10-16T11:37-03:00",
+        "nota": 57.1
       }
     ],
     "soltas_hora": "2026-10-16T11",
-    "soltas": 0,
-    "shopee_em": "2026-10-16T11:21-03:00",
-    "shopee_indice": 24,
+    "soltas": 6,
+    "shopee_em": "2026-10-16T11:37-03:00",
+    "shopee_indice": 32,
     "soltas_dia_data": "2026-10-16",
-    "soltas_dia": 22,
-    "soltas_loja": {}
+    "soltas_dia": 28,
+    "soltas_loja": {
+      "mercadolivre": 2,
+      "shopee": 2,
+      "amazon": 2
+    }
   },
   "ultimos": [
     {
@@ -7385,22 +7544,22 @@
     },
     "2026-10-16": {
       "shopee": {
-        "achados": 4,
+        "achados": 6,
         "aprovados": 0,
         "reprovados": 1
       },
       "promobit": {
-        "achados": 2,
+        "achados": 4,
         "aprovados": 0,
         "reprovados": 2
       },
       "promonocontext": {
-        "achados": 4,
+        "achados": 5,
         "aprovados": 3,
         "reprovados": 1
       },
       "lobaopromo": {
-        "achados": 4,
+        "achados": 5,
         "aprovados": 3,
         "reprovados": 0
       },
@@ -7419,7 +7578,7 @@
   "aviso_post": "2026-10-16 11:08|mercadolivre:MLB25371983",
   "garimpo_palavras": {
     "academia": {
-      "achados": 26,
+      "achados": 27,
       "aprovados": 8,
       "reprovados": 18
     },
@@ -7444,7 +7603,7 @@
       "reprovados": 4
     },
     "barba": {
-      "achados": 2,
+      "achados": 3,
       "aprovados": 0,
       "reprovados": 2
     },
@@ -7614,17 +7773,17 @@
       "reprovados": 2
     },
     "relogio": {
-      "achados": 12,
+      "achados": 13,
       "aprovados": 4,
       "reprovados": 7
     },
     "smart tv": {
-      "achados": 21,
+      "achados": 22,
       "aprovados": 1,
       "reprovados": 20
     },
     "smartwatch": {
-      "achados": 9,
+      "achados": 10,
       "aprovados": 4,
       "reprovados": 5
     },
@@ -7749,6 +7908,11 @@
       "reprovados": 0
     },
     "maquina de barbear": {
+      "achados": 1,
+      "aprovados": 0,
+      "reprovados": 0
+    },
+    "agenda": {
       "achados": 1,
       "aprovados": 0,
       "reprovados": 0
