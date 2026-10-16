@@ -2401,19 +2401,67 @@
       "id": 700,
       "na_revisao_desde": "2026-10-16T17:31-03:00",
       "msg_id": 1192
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB67166527",
+      "origem": "promooeasy",
+      "link": "https://produto.mercadolivre.com.br/MLB-67166527?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-67166527",
+      "post_origem": "https://t.me/promooeasy/223044",
+      "link_canal": "https://www.mercadolivre.com.br/cafeteira-espresso-latte-electrolux-com-moedor-de-graos-integrado-cafe-em-po-e-sache-saida-de-vapor-independente-aquecimento-de-xicaras-estilo-barista-expert-ecm90-preto-fosco/p/MLB67166527?matt_word=promoeasynv&amp;matt_tool=88963738",
+      "foto": "AgACAgEAAxkDAAIEqWrSjisZpXDnPNsjj10dVw9lQetQAAIYDWsbzxKQRusYWv4ernzaAQADAgADeAADPQQ",
+      "foto_origem": "canal",
+      "nome": "Cafeteira Espresso Latte Electrolux Expert ECM90 Preto Fosco 220V",
+      "de": 3999.0,
+      "por": 3748.0,
+      "lido_ia": true,
+      "sem_preco_loja": true,
+      "palavra": "cafeteira",
+      "garimpado_em": "2026-10-16T17:10-03:00",
+      "nota": 32.2,
+      "motivo_revisao": "a loja não abriu para eu conferir o preço",
+      "titulo": "Cafeteira espresso para preparar cappuccino em casa",
+      "id": 701,
+      "na_revisao_desde": "2026-10-16T17:50-03:00",
+      "msg_id": 1193
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0FL4N5RG6",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0FL4N5RG6?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0FL4N5RG6?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/223051",
+      "link_canal": "https://www.amazon.com.br/dp/B0FL4N5RG6?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAIEqmrSji5_RobheDbQ9DMMhXQ5rx5NAAKXDmsbmOl8Uj7gURerBYnNAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "nome": "Smart TV Hisense Hi-QLED UHD 4K 75\" 75Q6QV",
+      "parcelas": 12,
+      "por": 4399.99,
+      "lido_ia": true,
+      "preco_conferido": true,
+      "palavra": "smart tv",
+      "garimpado_em": "2026-10-16T17:20-03:00",
+      "nota": 23.1,
+      "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto",
+      "titulo": "Smart TV 75 polegadas 4K para a sala",
+      "id": 702,
+      "na_revisao_desde": "2026-10-16T17:50-03:00",
+      "msg_id": 1194
     }
   ],
-  "proximo_id": 701,
+  "proximo_id": 703,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 85255,
-      "lobaopromo": 190489,
-      "gatunopromos": 125761,
+      "xetdaspromocoes": 85257,
+      "lobaopromo": 190500,
+      "gatunopromos": 125763,
       "pobregram": 42031,
-      "urubupromo": 41791,
-      "tudonapromo": 102196,
-      "promonocontext": 127741,
-      "promooeasy": 223064,
+      "urubupromo": 41792,
+      "tudonapromo": 102202,
+      "promonocontext": 127743,
+      "promooeasy": 223070,
       "aquitempechincha": 282205,
       "infoBRpromos": 67711,
       "boletando": 76845,
@@ -2421,7 +2469,7 @@
       "achadosdotb": 11787
     },
     "dia": "2026-10-16",
-    "hoje": 92,
+    "hoje": 93,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -4547,30 +4595,33 @@
       "shopee:1604777172.57757302977",
       "amazon:B0FL4N5RG6",
       "amazon:B07VC5CWBP",
-      "mercadolivre:MLB6253978688"
+      "mercadolivre:MLB6253978688",
+      "amazon:B0BGCHZR66",
+      "shopee:1768728309.23295161236"
     ],
     "ultima": {
-      "em": "2026-10-16T17:40:20-03:00",
+      "em": "2026-10-16T17:50:20-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 38,
-      "do_nicho": 2,
-      "repetidas": 2,
+      "posts_novos": 44,
+      "do_nicho": 7,
+      "repetidas": 6,
       "novas": 0,
       "limite_dia": false,
       "repetidas_nome": 0,
+      "fora_do_nicho": 1,
       "promobit": 0,
-      "soltas": 0,
-      "na_peneira": 3
+      "soltas": 2,
+      "na_peneira": 1
     },
     "hora": "2026-10-16T17",
     "nesta_hora": 6,
     "promobit_hora": "2026-10-16T17",
-    "promobit_nesta_hora": 1,
-    "promobit_visto": 3119894,
+    "promobit_nesta_hora": 2,
+    "promobit_visto": 3119922,
     "nomes": [
       [
         [
@@ -6950,6 +7001,32 @@
           "prata"
         ],
         "2026-10-16T17:31-03:00"
+      ],
+      [
+        [
+          "cafeteira",
+          "espresso",
+          "latte",
+          "electrolux",
+          "expert",
+          "ecm90",
+          "fosco",
+          "220v"
+        ],
+        "2026-10-16T17:50-03:00"
+      ],
+      [
+        [
+          "smart",
+          "tv",
+          "hisense",
+          "hi",
+          "qled",
+          "uhd",
+          "4k",
+          "75"
+        ],
+        "2026-10-16T17:50-03:00"
       ]
     ],
     "peneira": [
@@ -6972,56 +7049,37 @@
         "nota": 23.1
       },
       {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB67166527",
-        "origem": "promooeasy",
-        "link": "https://produto.mercadolivre.com.br/MLB-67166527?matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://produto.mercadolivre.com.br/MLB-67166527",
-        "post_origem": "https://t.me/promooeasy/223044",
-        "link_canal": "https://www.mercadolivre.com.br/cafeteira-espresso-latte-electrolux-com-moedor-de-graos-integrado-cafe-em-po-e-sache-saida-de-vapor-independente-aquecimento-de-xicaras-estilo-barista-expert-ecm90-preto-fosco/p/MLB67166527?matt_word=promoeasynv&amp;matt_tool=88963738",
-        "foto": "https://cdn1.telesco.pe/file/XsPTMIuMQokHg6UofNCoyTDoeRIph6cwMETib1Ybiu5_pyLi8IbqCl43p4Y7BwHnKg2gPQcFiZHthm1DjRu9ihzbA5fN7ZsoV8RrP_3d18WIw1dS2dHpqSXgFlP0Z8AKp9p7KhEqqyNgo5dUIgY6wmR-GtlRf-hc_bp-B-Y-E_ZvOTUWmOAN4JV6K9HfFOKDzkHwPKRfxQtExEujm7J7mYHKvazlFkDMqga7967DlakR3-1tWLmSwEWNWrocyZgBqcP1Zdz0e92f-Hxwk5X9Xzkt11OcknBhWP4KHWEoXEQGWLkZDHyoXuj2F7GzUJbDiVWZ1hAK4VwD-l39x9InWw.jpg",
-        "foto_origem": "canal",
-        "nome": "Cafeteira Espresso Latte Electrolux Expert ECM90 Preto Fosco 220V",
-        "de": 3999.0,
-        "por": 3748.0,
-        "lido_ia": true,
-        "sem_preco_loja": true,
-        "palavra": "cafeteira",
-        "garimpado_em": "2026-10-16T17:10-03:00",
-        "nota": 32.2
-      },
-      {
-        "loja": "amazon",
-        "chave": "amazon:B0FL4N5RG6",
-        "origem": "promooeasy",
-        "link": "https://www.amazon.com.br/dp/B0FL4N5RG6?tag=alphadominu09-20",
-        "link_produto": "https://www.amazon.com.br/dp/B0FL4N5RG6?tag=alphadominu09-20",
-        "post_origem": "https://t.me/promooeasy/223051",
-        "link_canal": "https://www.amazon.com.br/dp/B0FL4N5RG6?tag=promof26-20",
-        "foto": "https://m.media-amazon.com/images/I/81bREGVqLPL._AC_SL1500_.jpg",
+        "loja": "shopee",
+        "chave": "shopee:1768728309.23295161236",
+        "nome": "Barra Fixa Parede Paralela Abdominal Musculação Fitness",
+        "por": 389.99,
+        "de": 499.99,
+        "foto": "https://cf.shopee.com.br/file/sg-11134201-8259q-ms04aostyww81d",
+        "link": "https://s.shopee.com.br/4fx2DQr1p5",
+        "link_produto": "https://shopee.com.br/product/1768728309/23295161236",
+        "origem": "shopee",
+        "fonte": "shopee",
         "foto_origem": "loja",
-        "nome": "Smart TV Hisense Hi-QLED UHD 4K 75\" 75Q6QV",
-        "parcelas": 12,
-        "por": 4399.99,
-        "lido_ia": true,
-        "preco_conferido": true,
-        "palavra": "smart tv",
-        "garimpado_em": "2026-10-16T17:20-03:00",
-        "nota": 23.1
+        "shopee_api": true,
+        "avaliacao": 5.0,
+        "vendas": 115,
+        "palavra": "barra fixa",
+        "garimpado_em": "2026-10-16T17:50-03:00",
+        "nota": 48.7
       }
     ],
     "soltas_hora": "2026-10-16T17",
-    "soltas": 6,
-    "shopee_em": "2026-10-16T17:31-03:00",
-    "shopee_indice": 76,
+    "soltas": 8,
+    "shopee_em": "2026-10-16T17:50-03:00",
+    "shopee_indice": 84,
     "soltas_dia_data": "2026-10-16",
-    "soltas_dia": 69,
+    "soltas_dia": 71,
     "soltas_loja": {
-      "amazon": 2,
+      "amazon": 3,
       "shopee": 2,
-      "mercadolivre": 2
+      "mercadolivre": 3
     },
-    "soltas_vez": "2026-10-16T17:2"
+    "soltas_vez": "2026-10-16T17:3"
   },
   "ultimos": [
     {
@@ -8498,7 +8556,7 @@
         "reprovados": 0
       },
       "promooeasy": {
-        "achados": 8,
+        "achados": 10,
         "aprovados": 3,
         "reprovados": 1
       },
@@ -8534,7 +8592,7 @@
       }
     }
   },
-  "aviso_post": "2026-10-16 16:36|amazon:B00YTY4AB8",
+  "aviso_post": "2026-10-16 17:52|amazon:B0GXX1XDWZ",
   "garimpo_palavras": {
     "academia": {
       "achados": 30,
@@ -8592,7 +8650,7 @@
       "reprovados": 2
     },
     "cafeteira": {
-      "achados": 6,
+      "achados": 7,
       "aprovados": 2,
       "reprovados": 4
     },
@@ -8737,7 +8795,7 @@
       "reprovados": 7
     },
     "smart tv": {
-      "achados": 28,
+      "achados": 29,
       "aprovados": 5,
       "reprovados": 22
     },
@@ -8912,5 +8970,6 @@
       "16": 2,
       "17": 3
     }
-  }
+  },
+  "aviso_ml": "2026-10-16"
 }
