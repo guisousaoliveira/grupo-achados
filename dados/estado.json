@@ -2,29 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "shopee",
-      "chave": "shopee:874482610.58209603177",
-      "nome": "Luva de Academia Musculação Treino Max Grip Protetor de Pegada Antiderrapante 4 Dedos",
-      "por": 14.98,
-      "de": 99.87,
-      "foto": "AgACAgQAAxkDAAID42rRAj3uVLPiSRkjUqozPDVDdGHIAAJrDmsbTLhtUR-MaqOJNQGOAQADAgADeAADPQQ",
-      "link": "https://s.shopee.com.br/5VW7p5ZoKL",
-      "link_produto": "https://shopee.com.br/product/874482610/58209603177",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.8,
-      "vendas": 503,
-      "palavra": "luva de academia",
-      "garimpado_em": "2026-10-15T13:00-03:00",
-      "nota": 87.5,
-      "titulo": "Luva antiderrapante para proteger as mãos no treino",
-      "na_revisao_desde": "2026-10-15T13:41-03:00",
-      "aprovado_em": "2026-10-15T19:24-03:00",
-      "aviso_validade": true
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB25371983",
       "origem": "promonocontext",
@@ -1747,6 +1724,16 @@
       "link_produto": "https://meli.la/1An4KWG",
       "titulo": "Relógio analógico prateado para uso diário",
       "slot": 10
+    },
+    {
+      "chave": "shopee:874482610.58209603177",
+      "loja": "shopee",
+      "nome": "Luva de Academia Musculação Treino Max Grip Protetor de Pegada Antiderrapante 4 Dedos",
+      "data": "2026-10-16T10:46-03:00",
+      "link": "https://s.shopee.com.br/5VW7p5ZoKL",
+      "link_produto": "https://shopee.com.br/product/874482610/58209603177",
+      "titulo": "Luva antiderrapante para proteger as mãos no treino",
+      "slot": 10.1
     }
   ],
   "slots_usados": {
@@ -1829,7 +1816,8 @@
       8,
       9,
       9.1,
-      10
+      10,
+      10.1
     ]
   },
   "shopee_buscado_em": "",
@@ -5844,6 +5832,19 @@
   },
   "ultimos": [
     {
+      "loja": "shopee",
+      "chave": "shopee:874482610.58209603177",
+      "nome": "Luva de Academia Musculação Treino Max Grip Protetor de Pegada Antiderrapante 4 Dedos",
+      "por": 14.98,
+      "de": 99.87,
+      "foto": "AgACAgQAAxkDAAID42rRAj3uVLPiSRkjUqozPDVDdGHIAAJrDmsbTLhtUR-MaqOJNQGOAQADAgADeAADPQQ",
+      "link": "https://s.shopee.com.br/5VW7p5ZoKL",
+      "link_produto": "https://shopee.com.br/product/874482610/58209603177",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "titulo": "Luva antiderrapante para proteger as mãos no treino"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB44745787",
       "origem": "promonocontext",
@@ -6370,21 +6371,6 @@
       "por": 65.0,
       "titulo": "Creatina sem sabor para o seu treino diário",
       "obs": "Use o progame e poupe e cancele quando quiser!"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0FW5JZM9P",
-      "origem": "xetdaspromocoes",
-      "link": "https://link.amazon/B09CIZFbZ",
-      "link_produto": "https://link.amazon/B09CIZFbZ",
-      "post_origem": "https://t.me/xetdaspromocoes/84821",
-      "foto": "AgACAgQAAxkDAAIDc2rPzM3EyFzO0SFJ4OMbyluZKMQdAALqDWsbYKlVUEormN9A5u0ZAQADAgADeQADPQQ",
-      "nome": "Relógio Smartwatch Bettdow FB051 Ai Esportivo Gps 1.28",
-      "pix": true,
-      "de": 199.0,
-      "por": 115.0,
-      "prime": true,
-      "titulo": "Smartwatch esportivo para monitorar suas atividades diárias"
     }
   ],
   "lixeira": [
