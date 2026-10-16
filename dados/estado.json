@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "shopee",
-      "chave": "shopee:1725907431.58215881722",
-      "nome": "Bicicleta Ergométrica para Ginástica em Casa com Monitor Digital Resistente Capacidade de 120kg - V3/2",
-      "por": 469.99,
-      "de": 1620.66,
-      "foto": "https://cf.shopee.com.br/file/br-11134207-820lf-mrpk6n2okmpxf6",
-      "link": "https://s.shopee.com.br/8V9l2xPyU4",
-      "link_produto": "https://shopee.com.br/product/1725907431/58215881722",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.9,
-      "vendas": 166,
-      "palavra": "bicicleta ergometrica",
-      "garimpado_em": "2026-10-16T13:51-03:00",
-      "nota": 86.4,
-      "titulo": "Bicicleta ergométrica para pedalar em casa com praticidade",
-      "aprovado_sozinho": true,
-      "aprovado_em": "2026-10-16T14:20-03:00"
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB3409386341",
       "origem": "xetdaspromocoes",
@@ -2123,6 +2101,16 @@
       "link_produto": "https://www.mercadolivre.com.br/relogio-digital-despertador-mesa-cabeceira-quarto-idoso-cor-branco-micgeek/p/MLB32101995",
       "titulo": "Relógio digital para ver as horas no quarto",
       "slot": 17
+    },
+    {
+      "chave": "shopee:1725907431.58215881722",
+      "loja": "shopee",
+      "nome": "Bicicleta Ergométrica para Ginástica em Casa com Monitor Digital Resistente Capacidade de 120kg - V3/2",
+      "data": "2026-10-16T17:22-03:00",
+      "link": "https://s.shopee.com.br/8V9l2xPyU4",
+      "link_produto": "https://shopee.com.br/product/1725907431/58215881722",
+      "titulo": "Bicicleta ergométrica para pedalar em casa com praticidade",
+      "slot": 17.1
     }
   ],
   "slots_usados": {
@@ -2228,7 +2216,8 @@
       16.1,
       16.2,
       16.3,
-      17
+      17,
+      17.1
     ]
   },
   "shopee_buscado_em": "",
@@ -6994,6 +6983,19 @@
   },
   "ultimos": [
     {
+      "loja": "shopee",
+      "chave": "shopee:1725907431.58215881722",
+      "nome": "Bicicleta Ergométrica para Ginástica em Casa com Monitor Digital Resistente Capacidade de 120kg - V3/2",
+      "por": 469.99,
+      "de": 1620.66,
+      "foto": "https://cf.shopee.com.br/file/br-11134207-820lf-mrpk6n2okmpxf6",
+      "link": "https://s.shopee.com.br/8V9l2xPyU4",
+      "link_produto": "https://shopee.com.br/product/1725907431/58215881722",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "titulo": "Bicicleta ergométrica para pedalar em casa com praticidade"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB32101995",
       "origem": "promonocontext",
@@ -7517,19 +7519,6 @@
       "de": 280.0,
       "por": 158.0,
       "titulo": "Chave de impacto para apertar parafusos pesados na oficina"
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:333540705.23494070884",
-      "nome": "Lavadora De Alta Pressão Com Trava De Segurança Ágil 1800 1300psi 1400w Wap",
-      "por": 359.9,
-      "de": 654.36,
-      "foto": "https://cf.shopee.com.br/file/br-11134207-7r98o-matyum7oq3671b",
-      "link": "https://s.shopee.com.br/3LRd5XjwkI",
-      "link_produto": "https://shopee.com.br/product/333540705/23494070884",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "titulo": "Lavadora de alta pressão para limpeza pesada em casa"
     }
   ],
   "lixeira": [
