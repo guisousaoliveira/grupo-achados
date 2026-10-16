@@ -90,7 +90,22 @@ def consumo():
         f"{n(soma['cache_read_input_tokens'])} reaproveitados do cache, {n(soma['output_tokens'])} escritos)",
         f"Chamadas ao Claude: {len(gastos)} · tempo: {segundos}s",
         f"Se fosse API paga: ~US$ {custo:.2f}. Na sua assinatura não cobra, só gasta do limite do plano.",
-    ])
+        uso_do_plano(),
+    ]).strip()
+
+
+def uso_do_plano():
+    """Tenta ler a % usada do plano (a mesma do /usage). Endpoint não documentado: se falhar, só some da mensagem."""
+    try:
+        req = urllib.request.Request("https://api.anthropic.com/api/oauth/usage", headers={
+            "Authorization": f"Bearer {os.environ['CLAUDE_CODE_OAUTH_TOKEN']}", "anthropic-beta": "oauth-2025-04-20"})
+        dados = json.loads(urllib.request.urlopen(req, timeout=20).read())
+        sessao, semana = dados.get("five_hour") or {}, dados.get("seven_day") or {}
+        return (f"Plano Claude agora: {sessao.get('utilization', '?')}% da sessão de 5h · "
+                f"{semana.get('utilization', '?')}% da semana")
+    except Exception as erro:
+        print("uso do plano indisponível:", str(erro)[:300])
+        return ""
 
 
 # ---------- Legião ----------
@@ -126,6 +141,7 @@ def main():
     historico = json.loads(HISTORICO.read_text(encoding="utf-8")) if HISTORICO.exists() else []
     temas = "\n".join(f"- {h['tema']}" for h in historico[-60:]) or "- (nenhum ainda)"
     base = {"DATA": agora.strftime("%d/%m/%Y"), "HISTORICO": temas, "CTA": CFG["cta"],
+            "NICHO": (AQUI / "nicho.md").read_text(encoding="utf-8"),
             "FRAMES_MIN": CFG["frames_min"], "FRAMES_MAX": CFG["frames_max"]}
 
     correcoes, post, motivos = "", None, []
