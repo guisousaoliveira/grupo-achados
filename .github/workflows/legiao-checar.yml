@@ -1,0 +1,27 @@
+name: legiao-checar
+
+# Confere se as chaves da Legião funcionam (Meta e Drive), sem postar nem gastar Claude.
+on:
+  workflow_dispatch:
+
+jobs:
+  checar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v5
+      - run: pip install google-auth requests
+      - name: Instagram e Página do Facebook
+        if: always()
+        working-directory: legiao
+        env:
+          META_PAGE_TOKEN: ${{ secrets.META_PAGE_TOKEN }}
+          META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+        run: python3 publicar.py --checar
+      - name: Drive (clipes e músicas do Reel)
+        if: always()
+        working-directory: legiao
+        env:
+          GOOGLE_SA_JSON: ${{ secrets.GOOGLE_SA_JSON }}
+        run: python3 reel.py --checar

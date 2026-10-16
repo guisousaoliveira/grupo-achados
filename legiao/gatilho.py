@@ -1,10 +1,12 @@
-"""Chamado a cada rodada do bot de achados: dispara a Legião Alpha no horário do config.json (Brasília), uma vez por dia."""
+"""Chamado a cada rodada do bot de achados: dispara a Legião Alpha (carrossel e Reel) nos horários do
+config.json (Brasília), uma vez por horário."""
 import json
 import os
 import urllib.request
 from datetime import datetime, timedelta, timezone
 
-HORARIOS = tuple(json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "config.json")))["horarios"])
+CFG = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "config.json")))
+HORARIOS = {"carrossel": tuple(CFG["horarios"]), "reel": tuple(CFG.get("reel", {}).get("horarios", ()))}
 BRT = timezone(timedelta(hours=-3))
 
 
@@ -21,14 +23,15 @@ def api(caminho, dados=None):
 
 def main():
     agora = datetime.now(BRT)
-    if agora.hour not in HORARIOS:  # janela de 1 hora
-        return
-    inicio = agora.replace(minute=0, second=0, microsecond=0).astimezone(timezone.utc)
-    runs = api(f"/actions/workflows/legiao.yml/runs?created=>={inicio.strftime('%Y-%m-%dT%H:%M:%SZ')}")
-    if runs.get("total_count", 0) >= 1:
-        return
-    api("/actions/workflows/legiao.yml/dispatches", {"ref": "main"})
-    print("Legião disparada")
+    for tipo, horas in HORARIOS.items():
+        if agora.hour not in horas:  # janela de 1 hora
+            continue
+        inicio = agora.replace(minute=0, second=0, microsecond=0).astimezone(timezone.utc)
+        runs = api(f"/actions/workflows/legiao.yml/runs?created=>={inicio.strftime('%Y-%m-%dT%H:%M:%SZ')}")
+        if any(r.get("display_title") == f"legiao {tipo}" for r in runs.get("workflow_runs", [])):
+            continue
+        api("/actions/workflows/legiao.yml/dispatches", {"ref": "main", "inputs": {"tipo": tipo}})
+        print("Legião disparada:", tipo)
 
 
 if __name__ == "__main__":

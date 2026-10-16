@@ -1,9 +1,16 @@
 name: legiao
+run-name: legiao ${{ inputs.tipo || 'carrossel' }}
 
-# Legião Alpha: cria, revisa e desenha o carrossel do dia da Alpha Dominus e manda a prévia no Telegram.
-# Quem dispara é o bot-achados (legiao/gatilho.py, horário em legiao/config.json). Também dá pra rodar na mão.
+# Legião Alpha: cria, revisa e monta o carrossel (ou o Reel) do dia da Alpha Dominus e manda a prévia no Telegram.
+# Quem dispara é o bot-achados (legiao/gatilho.py, horários em legiao/config.json). Também dá pra rodar na mão.
 on:
   workflow_dispatch:
+    inputs:
+      tipo:
+        description: carrossel ou reel
+        type: choice
+        options: [carrossel, reel]
+        default: carrossel
 
 permissions:
   contents: write  # guarda o post na branch legiao-posts pra Íris publicar
@@ -13,7 +20,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  carrossel:
+  criar:
     runs-on: ubuntu-latest
     timeout-minutes: 40
     steps:
@@ -21,16 +28,23 @@ jobs:
       - uses: actions/setup-node@v5
         with:
           node-version: 22
-      - name: Instalar o Claude Code e o Pillow
+      - name: Instalar o Claude Code, o Pillow e o acesso ao Drive
         run: |
           npm install -g @anthropic-ai/claude-code
-          pip install pillow
+          pip install pillow google-auth requests
+          command -v ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
       - name: Lembrar os temas já postados
         uses: actions/cache/restore@v4
         with:
           path: legiao/historico.json
           key: legiao-${{ github.run_id }}
           restore-keys: legiao-
+      - name: Lembrar os Reels já postados
+        uses: actions/cache/restore@v4
+        with:
+          path: legiao/historico_reel.json
+          key: legiao-reel-${{ github.run_id }}
+          restore-keys: legiao-reel-
       - name: Odin, Bragi, Atena e Hefesto
         working-directory: legiao
         env:
@@ -39,9 +53,16 @@ jobs:
           ADMIN_ID: ${{ secrets.ADMIN_ID }}
           LEGIAO_TELEGRAM_TOKEN: ${{ secrets.LEGIAO_TELEGRAM_TOKEN }}
           LEGIAO_CHAT_ID: ${{ secrets.LEGIAO_CHAT_ID }}
-        run: python3 rodar.py
+          GOOGLE_SA_JSON: ${{ secrets.GOOGLE_SA_JSON }}
+        run: python3 ${{ (inputs.tipo || 'carrossel') == 'reel' && 'reel.py' || 'rodar.py' }}
+      - name: Guardar os temas dos Reels
+        if: success() && hashFiles('legiao/historico_reel.json') != ''
+        uses: actions/cache/save@v4
+        with:
+          path: legiao/historico_reel.json
+          key: legiao-reel-${{ github.run_id }}
       - name: Guardar os temas
-        if: success()
+        if: success() && hashFiles('legiao/historico.json') != ''
         uses: actions/cache/save@v4
         with:
           path: legiao/historico.json
@@ -49,7 +70,7 @@ jobs:
       - name: Guardar o post pra aprovação (branch legiao-posts)
         if: success() && hashFiles('legiao/saida/status.json') != ''
         run: |
-          dia=$(python3 -c "import json;print(json.load(open('legiao/saida/status.json'))['dia'])")
+          dia=$(python3 -c "import json;s=json.load(open('legiao/saida/status.json'));print(s.get('pasta') or s['dia'])")
           git config user.name "legiao-bot"
           git config user.email "legiao-bot@users.noreply.github.com"
           if git fetch -q origin legiao-posts; then
@@ -58,12 +79,13 @@ jobs:
             git worktree add -q --orphan -b legiao-posts /tmp/posts
           fi
           rm -rf "/tmp/posts/posts/$dia" && mkdir -p "/tmp/posts/posts/$dia"
-          cp legiao/saida/*.jpg legiao/saida/post.json legiao/saida/status.json "/tmp/posts/posts/$dia/"
+          shopt -s nullglob
+          cp legiao/saida/*.jpg legiao/saida/*.mp4 legiao/saida/post.json legiao/saida/status.json "/tmp/posts/posts/$dia/"
           cd /tmp/posts && git add -A && git commit -qm "legião: post $dia" && git push -q origin legiao-posts
       - name: Guardar o carrossel
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: carrossel
+          name: ${{ inputs.tipo || 'carrossel' }}
           path: legiao/saida/
           if-no-files-found: ignore

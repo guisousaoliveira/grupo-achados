@@ -181,7 +181,7 @@ def main():
     fotos(arquivos, f"🦁 Legião Alpha – {base['DATA']}\nTema: {post.get('tema', '')}")
     fotos(arquivos, "Arquivos em qualidade máxima, pra postar", "document")
     dia = agora.strftime("%Y-%m-%d")
-    (SAIDA / "status.json").write_text(json.dumps({"status": "pendente", "tipo": "carrossel", "dia": dia,
+    (SAIDA / "status.json").write_text(json.dumps({"status": "pendente", "tipo": "carrossel", "dia": dia, "pasta": dia,
                                                    "horario": CFG.get("horario_post", 18)}), encoding="utf-8")
     botoes = [{"text": "✅ Aprovar", "callback_data": f"lg:ok:{dia}"},
               {"text": "❌ Recusar", "callback_data": f"lg:no:{dia}"}] if aprovado else None

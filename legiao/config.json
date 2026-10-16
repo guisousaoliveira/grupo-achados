@@ -1,11 +1,22 @@
 {
+ "horarios": [
+  15
+ ],
+ "modelo": "sonnet",
+ "cta": "Comente CARTAS",
+ "frames_min": 5,
+ "frames_max": 7,
+ "rodadas_revisao": 2,
+ "horario_post": 18,
+ "reel": {
   "horarios": [
-    15
+   9
   ],
-  "modelo": "sonnet",
-  "cta": "Comente CARTAS",
-  "frames_min": 5,
-  "frames_max": 7,
-  "rodadas_revisao": 2,
-  "horario_post": 18
+  "horario_post": 12,
+  "pasta_videos_drive": "1ljIsNDogaEy8kLh4GeLjXQqZlnELqfRZ",
+  "pasta_musicas_drive": "1C4R3RmpyRv3i-iVyzXX2ecmAJFUSCsvR",
+  "duracao_video": 5,
+  "duracao_final": 2,
+  "max_caracteres_frase": 110
+ }
 }
