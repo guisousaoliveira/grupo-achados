@@ -288,6 +288,50 @@
       "titulo": "Cafeteira elétrica para preparar o café do dia a dia",
       "na_revisao_desde": "2026-10-16T14:31-03:00",
       "aprovado_em": "2026-10-16T14:38-03:00"
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:400888689.54165736119",
+      "nome": "Suplemento Termogênico Ultra 60 Cápsulas | Cafeína, Taurina, Guaraná e Cromo + Vitaminas C e E",
+      "por": 24.79,
+      "de": 107.78,
+      "foto": "https://cf.shopee.com.br/file/br-11134207-820lm-mrp4zwpkt0jq00",
+      "link": "https://s.shopee.com.br/AAHz21SMRM",
+      "link_produto": "https://shopee.com.br/product/400888689/54165736119",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.9,
+      "vendas": 262,
+      "palavra": "suplemento",
+      "garimpado_em": "2026-10-16T13:51-03:00",
+      "nota": 79.6,
+      "titulo": "Termogênico com cafeína e vitaminas para dar energia no trei",
+      "aprovado_sozinho": true,
+      "aprovado_em": "2026-10-16T15:01-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB48812123",
+      "origem": "promonocontext",
+      "link": "https://meli.la/2U2VHix",
+      "link_produto": "https://www.mercadolivre.com.br/whey-protein-bold-sabor-cookies-cream-900g/p/MLB48812123",
+      "post_origem": "https://t.me/promonocontext/127661",
+      "link_canal": "https://meli.la/1qPW23Q",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_650074-MLA100047343909_122025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Whey Protein Bold Sabor Cookies & Cream 900g",
+      "de": 299.0,
+      "por": 209.0,
+      "lido_ia": true,
+      "preco_conferido": true,
+      "palavra": "whey",
+      "garimpado_em": "2026-10-16T14:11-03:00",
+      "nota": 56.0,
+      "titulo": "Whey sabor cookies para bater a proteína diária",
+      "aprovado_sozinho": true,
+      "aprovado_em": "2026-10-16T15:01-03:00"
     }
   ],
   "postados": [
@@ -2090,25 +2134,25 @@
       "msg_id": 1152
     }
   ],
-  "proximo_id": 680,
+  "proximo_id": 682,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 85211,
-      "lobaopromo": 190401,
-      "gatunopromos": 125729,
+      "xetdaspromocoes": 85214,
+      "lobaopromo": 190405,
+      "gatunopromos": 125731,
       "pobregram": 42016,
       "urubupromo": 41780,
-      "tudonapromo": 102168,
-      "promonocontext": 127674,
-      "promooeasy": 222924,
-      "aquitempechincha": 282151,
-      "infoBRpromos": 67698,
-      "boletando": 76832,
-      "promotop": 260377,
+      "tudonapromo": 102169,
+      "promonocontext": 127677,
+      "promooeasy": 222935,
+      "aquitempechincha": 282152,
+      "infoBRpromos": 67699,
+      "boletando": 76833,
+      "promotop": 260378,
       "achadosdotb": 11786
     },
     "dia": "2026-10-16",
-    "hoje": 69,
+    "hoje": 70,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -4209,30 +4253,31 @@
       "amazon:B0GJFZNLRR",
       "amazon:B0DKFMSMYK",
       "amazon:B0FPBP6G49",
-      "amazon:B0HCRDWF9C"
+      "amazon:B0HCRDWF9C",
+      "mercadolivre:MLB62495595"
     ],
     "ultima": {
-      "em": "2026-10-16T14:50:19-03:00",
+      "em": "2026-10-16T15:00:28-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 47,
-      "do_nicho": 5,
-      "repetidas": 4,
+      "posts_novos": 42,
+      "do_nicho": 2,
+      "repetidas": 1,
       "novas": 1,
       "limite_dia": false,
       "repetidas_nome": 0,
       "promobit": 0,
       "soltas": 2,
-      "na_peneira": 18
+      "na_peneira": 17
     },
-    "hora": "2026-10-16T14",
-    "nesta_hora": 5,
-    "promobit_hora": "2026-10-16T14",
-    "promobit_nesta_hora": 3,
-    "promobit_visto": 3119395,
+    "hora": "2026-10-16T15",
+    "nesta_hora": 1,
+    "promobit_hora": "2026-10-16T15",
+    "promobit_nesta_hora": 0,
+    "promobit_visto": 3119429,
     "nomes": [
       [
         [
@@ -6354,6 +6399,30 @@
           "uhd"
         ],
         "2026-10-16T14:50-03:00"
+      ],
+      [
+        [
+          "suplemento",
+          "termogenico",
+          "ultra",
+          "60",
+          "capsulas",
+          "cafeina",
+          "taurina",
+          "guarana"
+        ],
+        "2026-10-16T15:01-03:00"
+      ],
+      [
+        [
+          "whey",
+          "protein",
+          "bold",
+          "cookies",
+          "cream",
+          "900g"
+        ],
+        "2026-10-16T15:01-03:00"
       ]
     ],
     "peneira": [
@@ -6605,44 +6674,6 @@
       },
       {
         "loja": "shopee",
-        "chave": "shopee:400888689.54165736119",
-        "nome": "Suplemento Termogênico Ultra 60 Cápsulas | Cafeína, Taurina, Guaraná e Cromo + Vitaminas C e E",
-        "por": 24.79,
-        "de": 107.78,
-        "foto": "https://cf.shopee.com.br/file/br-11134207-820lm-mrp4zwpkt0jq00",
-        "link": "https://s.shopee.com.br/AAHz21SMRM",
-        "link_produto": "https://shopee.com.br/product/400888689/54165736119",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 4.9,
-        "vendas": 262,
-        "palavra": "suplemento",
-        "garimpado_em": "2026-10-16T13:51-03:00",
-        "nota": 79.6
-      },
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB48812123",
-        "origem": "promonocontext",
-        "link": "https://www.mercadolivre.com.br/whey-protein-bold-sabor-cookies-cream-900g/p/MLB48812123?matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/whey-protein-bold-sabor-cookies-cream-900g/p/MLB48812123",
-        "post_origem": "https://t.me/promonocontext/127661",
-        "link_canal": "https://meli.la/1qPW23Q",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_650074-MLA100047343909_122025-O.webp",
-        "foto_origem": "loja",
-        "nome": "Whey Protein Bold Sabor Cookies & Cream 900g",
-        "de": 299.0,
-        "por": 209.0,
-        "lido_ia": true,
-        "preco_conferido": true,
-        "palavra": "whey",
-        "garimpado_em": "2026-10-16T14:11-03:00",
-        "nota": 56.0
-      },
-      {
-        "loja": "shopee",
         "chave": "shopee:1343438067.58264124937",
         "nome": "Interruptor Inteligente WiFi com Tomada e Painel Touch de Vidro Temperado, Compatível com Alexa e Google",
         "por": 59.9,
@@ -6695,20 +6726,38 @@
         "palavra": "smart tv",
         "garimpado_em": "2026-10-16T14:50-03:00",
         "nota": 16.8
+      },
+      {
+        "loja": "mercadolivre",
+        "chave": "mercadolivre:MLB62495595",
+        "origem": "promotop",
+        "link": "https://www.mercadolivre.com.br/fritadeira-airfryer-digital-philips-walita-na23000-negro/p/MLB62495595?matt_word=alphapromo&matt_tool=59136903",
+        "link_produto": "https://www.mercadolivre.com.br/fritadeira-airfryer-digital-philips-walita-na23000-negro/p/MLB62495595",
+        "post_origem": "https://t.me/promotop/260378",
+        "link_canal": "https://meli.la/33ndhHa",
+        "foto": "https://http2.mlstatic.com/D_NQ_NP_720651-MLA99379792839_112025-O.webp",
+        "foto_origem": "loja",
+        "nome": "Fritadeira Airfryer Digital Philips Walita NA230/00 Negro",
+        "lido_ia": true,
+        "por": 372.6,
+        "cupom": "OFFHOJE",
+        "sem_preco_loja": true,
+        "palavra": "airfryer",
+        "garimpado_em": "2026-10-16T15:01-03:00",
+        "nota": 36.6
       }
     ],
-    "soltas_hora": "2026-10-16T14",
-    "soltas": 8,
+    "soltas_hora": "2026-10-16T15",
+    "soltas": 2,
     "shopee_em": "2026-10-16T14:51-03:00",
     "shopee_indice": 12,
     "soltas_dia_data": "2026-10-16",
-    "soltas_dia": 48,
+    "soltas_dia": 50,
     "soltas_loja": {
-      "shopee": 2,
-      "mercadolivre": 3,
-      "amazon": 3
+      "shopee": 1,
+      "mercadolivre": 1
     },
-    "soltas_vez": "2026-10-16T14:3"
+    "soltas_vez": "2026-10-16T15:0"
   },
   "ultimos": [
     {
@@ -8141,7 +8190,7 @@
     },
     "2026-10-16": {
       "shopee": {
-        "achados": 12,
+        "achados": 13,
         "aprovados": 0,
         "reprovados": 1
       },
@@ -8151,7 +8200,7 @@
         "reprovados": 4
       },
       "promonocontext": {
-        "achados": 8,
+        "achados": 9,
         "aprovados": 6,
         "reprovados": 1
       },
@@ -8182,7 +8231,7 @@
       }
     }
   },
-  "aviso_post": "2026-10-16 14:54|mercadolivre:MLB7245332674",
+  "aviso_post": "2026-10-16 15:09|amazon:B0GY9TRH2V",
   "garimpo_palavras": {
     "academia": {
       "achados": 29,
@@ -8395,7 +8444,7 @@
       "reprovados": 6
     },
     "suplemento": {
-      "achados": 4,
+      "achados": 5,
       "aprovados": 0,
       "reprovados": 4
     },
@@ -8410,7 +8459,7 @@
       "reprovados": 1
     },
     "whey": {
-      "achados": 10,
+      "achados": 11,
       "aprovados": 3,
       "reprovados": 7
     },
@@ -8545,7 +8594,8 @@
   "entradas": {
     "2026-10-16": {
       "13": 4,
-      "14": 4
+      "14": 4,
+      "15": 2
     }
   }
 }
