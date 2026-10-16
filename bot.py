@@ -2858,6 +2858,11 @@ def cmd_foto_teste(links):
         log("title: " + (t.group(1).strip()[:120] if t else "(nenhum)"))
         m = re.search(r'<meta[^>]+property="og:image"[^>]+content="([^"]+)"', pagina)
         log("og:image: " + (m.group(1) if m else "(nenhum)"))
+        if os.environ.get("DIAG_PRECO"):  # mostra os trechos de preço da página (para ajustar a leitura)
+            tt = re.search(r'<meta[^>]+property="og:title"[^>]+content="([^"]+)"', pagina)
+            log("og:title: " + (tt.group(1) if tt else "(nenhum)"))
+            for mm in list(re.finditer(r'current_price|price_to_pay|"price":\{|andes-money-amount__fraction', pagina))[:6]:
+                log("trecho: " + re.sub(r"\s+", " ", pagina[max(0, mm.start() - 300):mm.start() + 300]))
         log("ler_pagina: " + json.dumps(ler_pagina(link), ensure_ascii=False)[:400])
         log("produto_do_link: " + json.dumps(produto_do_link(link), ensure_ascii=False)[:500])
         a = re.search(r"/dp/([A-Z0-9]{10})", link)
