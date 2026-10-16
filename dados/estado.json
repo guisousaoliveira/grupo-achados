@@ -1891,22 +1891,22 @@
   "proximo_id": 660,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 85181,
+      "xetdaspromocoes": 85183,
       "lobaopromo": 190338,
       "gatunopromos": 125708,
       "pobregram": 42008,
       "urubupromo": 41772,
       "tudonapromo": 102137,
-      "promonocontext": 127627,
-      "promooeasy": 222817,
-      "aquitempechincha": 282104,
+      "promonocontext": 127630,
+      "promooeasy": 222820,
+      "aquitempechincha": 282108,
       "infoBRpromos": 67691,
       "boletando": 76826,
       "promotop": 260368,
       "achadosdotb": 11784
     },
     "dia": "2026-10-16",
-    "hoje": 53,
+    "hoje": 54,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -3968,16 +3968,17 @@
       "mercadolivre:MLB5352343475",
       "mercadolivre:MLB32101995",
       "shopee:1071400199.58268748578",
-      "mercadolivre:MLB5230772384"
+      "mercadolivre:MLB5230772384",
+      "amazon:B0G5RDXV7N"
     ],
     "ultima": {
-      "em": "2026-10-16T12:14:50-03:00",
+      "em": "2026-10-16T12:20:19-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 28,
+      "posts_novos": 25,
       "do_nicho": 1,
       "repetidas": 0,
       "novas": 1,
@@ -3985,13 +3986,13 @@
       "repetidas_nome": 0,
       "promobit": 0,
       "soltas": 0,
-      "na_peneira": 23
+      "na_peneira": 24
     },
     "hora": "2026-10-16T12",
-    "nesta_hora": 3,
+    "nesta_hora": 4,
     "promobit_hora": "2026-10-16T12",
     "promobit_nesta_hora": 1,
-    "promobit_visto": 3118857,
+    "promobit_visto": 3118904,
     "nomes": [
       [
         [
@@ -6302,6 +6303,24 @@
         "palavra": "academia",
         "garimpado_em": "2026-10-16T12:15-03:00",
         "nota": 69.4
+      },
+      {
+        "loja": "amazon",
+        "chave": "amazon:B0G5RDXV7N",
+        "origem": "promooeasy",
+        "link": "https://www.amazon.com.br/dp/B0G5RDXV7N?tag=alphadominu09-20",
+        "link_produto": "https://www.amazon.com.br/dp/B0G5RDXV7N?tag=alphadominu09-20",
+        "post_origem": "https://t.me/promooeasy/222818",
+        "link_canal": "https://www.amazon.com.br/Cooler-GamerStorm-Redragon-Heatpipes-R-AK400-BKNNMD-AJG/dp/B0G5RDXV7N?tag=promof26-20",
+        "foto": "https://m.media-amazon.com/images/I/71mOg2z50mL._AC_SL1500_.jpg",
+        "foto_origem": "loja",
+        "nome": "Air Cooler GamerStorm X Redragon AK400 RD Preto 4 Heatpipes Fan 120 mm R-AK400-BKNNMD-AJG",
+        "parcelas": 4,
+        "por": 148.0,
+        "lido_ia": true,
+        "palavra": "cooler",
+        "garimpado_em": "2026-10-16T12:20-03:00",
+        "nota": 18.6
       }
     ],
     "soltas_hora": "2026-10-16T12",
