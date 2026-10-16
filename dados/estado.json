@@ -2198,26 +2198,76 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [],
-  "proximo_id": 690,
+  "revisar": [
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB54495903",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/2A3ezaY",
+      "link_produto": "https://www.mercadolivre.com.br/fritadeira-air-fryer-oven-electrolux-por-rita-lobo-12l-digital-vermelha-escura-experience-1700w-eaf86/p/MLB54495903",
+      "post_origem": "https://t.me/lobaopromo/190425",
+      "link_canal": "https://meli.la/266JtUu",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_700687-MLA99992929393_112025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Fritadeira Air Fryer Oven Electrolux por Rita Lobo 12L Digital",
+      "pix": true,
+      "por": 427.0,
+      "lido_ia": true,
+      "cupom": "OFFHOJE",
+      "preco_conferido": true,
+      "preco_cupom": true,
+      "preco_sem_cupom": 474.9,
+      "palavra": "air fryer",
+      "garimpado_em": "2026-10-16T15:40-03:00",
+      "nota": 42.9,
+      "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto",
+      "titulo": "Air fryer oven 12L que prepara refeições completas",
+      "id": 690,
+      "na_revisao_desde": "2026-10-16T16:23-03:00",
+      "msg_id": 1181
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0FZCM9N46",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0FZCM9N46?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0FZCM9N46?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/kit-com-3-cuecas-boxer-algodao-masculina-usee-brasil-premium-3119635/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3119635/",
+      "nome": "Kit com 3 Cuecas Boxer Algodão Masculina Usee Brasil Premium",
+      "por": 25.17,
+      "foto": "AgACAgQAAxkDAAIEnmrSecxmf18krHg7cH1y15UGkF6CAALwDGsbetxkU457bmRG2qrvAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "palavra": "cueca",
+      "garimpado_em": "2026-10-16T16:12-03:00",
+      "nota": 27.0,
+      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
+      "titulo": "Cuecas boxer de algodão confortáveis para a rotina",
+      "id": 691,
+      "na_revisao_desde": "2026-10-16T16:23-03:00",
+      "msg_id": 1182
+    }
+  ],
+  "proximo_id": 692,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 85232,
-      "lobaopromo": 190437,
-      "gatunopromos": 125742,
-      "pobregram": 42021,
+      "xetdaspromocoes": 85235,
+      "lobaopromo": 190447,
+      "gatunopromos": 125743,
+      "pobregram": 42022,
       "urubupromo": 41786,
-      "tudonapromo": 102182,
-      "promonocontext": 127706,
-      "promooeasy": 222994,
-      "aquitempechincha": 282180,
-      "infoBRpromos": 67703,
-      "boletando": 76838,
-      "promotop": 260383,
+      "tudonapromo": 102186,
+      "promonocontext": 127709,
+      "promooeasy": 223002,
+      "aquitempechincha": 282182,
+      "infoBRpromos": 67705,
+      "boletando": 76839,
+      "promotop": 260385,
       "achadosdotb": 11786
     },
     "dia": "2026-10-16",
-    "hoje": 82,
+    "hoje": 84,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -4331,30 +4381,33 @@
       "mercadolivre:MLB54495903",
       "amazon:B0H7635R71",
       "amazon:B0FZCM9N46",
-      "mercadolivre:MLB29036892"
+      "mercadolivre:MLB29036892",
+      "mercadolivre:MLB5449308614",
+      "mercadolivre:MLB74143355"
     ],
     "ultima": {
-      "em": "2026-10-16T16:11:55-03:00",
+      "em": "2026-10-16T16:22:38-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 76,
-      "do_nicho": 7,
-      "repetidas": 5,
+      "posts_novos": 50,
+      "do_nicho": 4,
+      "repetidas": 2,
       "novas": 1,
       "limite_dia": false,
-      "repetidas_nome": 1,
-      "promobit": 1,
+      "repetidas_nome": 0,
+      "promobit": 0,
+      "fora_do_nicho": 1,
       "soltas": 2,
-      "na_peneira": 5
+      "na_peneira": 4
     },
     "hora": "2026-10-16T16",
-    "nesta_hora": 1,
+    "nesta_hora": 3,
     "promobit_hora": "2026-10-16T16",
     "promobit_nesta_hora": 1,
-    "promobit_visto": 3119650,
+    "promobit_visto": 3119695,
     "nomes": [
       [
         [
@@ -6599,6 +6652,30 @@
           "futebol"
         ],
         "2026-10-16T16:13-03:00"
+      ],
+      [
+        [
+          "fritadeira",
+          "air",
+          "fryer",
+          "oven",
+          "electrolux",
+          "por",
+          "rita",
+          "lobo"
+        ],
+        "2026-10-16T16:23-03:00"
+      ],
+      [
+        [
+          "cuecas",
+          "boxer",
+          "algodao",
+          "usee",
+          "brasil",
+          "premium"
+        ],
+        "2026-10-16T16:23-03:00"
       ]
     ],
     "peneira": [
@@ -6662,55 +6739,35 @@
       },
       {
         "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB54495903",
-        "origem": "lobaopromo",
-        "link": "https://www.mercadolivre.com.br/fritadeira-air-fryer-oven-electrolux-por-rita-lobo-12l-digital-vermelha-escura-experience-1700w-eaf86/p/MLB54495903?matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/fritadeira-air-fryer-oven-electrolux-por-rita-lobo-12l-digital-vermelha-escura-experience-1700w-eaf86/p/MLB54495903",
-        "post_origem": "https://t.me/lobaopromo/190425",
-        "link_canal": "https://meli.la/266JtUu",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_700687-MLA99992929393_112025-O.webp",
-        "foto_origem": "loja",
-        "nome": "Fritadeira Air Fryer Oven Electrolux por Rita Lobo 12L Digital",
-        "pix": true,
-        "por": 427.0,
+        "chave": "mercadolivre:MLB74143355",
+        "origem": "promooeasy",
+        "link": "https://produto.mercadolivre.com.br/MLB-74143355?matt_word=alphapromo&matt_tool=59136903",
+        "link_produto": "https://produto.mercadolivre.com.br/MLB-74143355",
+        "post_origem": "https://t.me/promooeasy/223001",
+        "link_canal": "https://www.mercadolivre.com.br/smart-tv-4k-55-lg-qned-mini-led-ai-qned70-2026-processador-7-ger9-hdr10-xbox-bluetooth-wi-fi-ai-search-google-gemini-integrados-webos-26-55qned70bsa/p/MLB74143355?matt_word=promoeasynv&amp;matt_tool=88963738",
+        "foto": "https://cdn1.telesco.pe/file/e_-vQCMIdA-IJmEQEZiSffZRvUqeFO18ff_5bv6NViiREHmnHw90wDBEk7UTfRwE8-tQeoW9RthR7ICPdci0AxJ0rNflbWdShP03aaGSg9fKMUFtYidluVpYvxPQ5DEUbNUwchDAQyNxB5qJQRXwM4pCwTInBd6tjhfqg8ObYJFoDqpK1oX_2AgyQHX8nQjcLEukvt59IkPmcDHAI1FIwGtS2WGAUDQt4BRGPjH12cVsRfH0eInOjeDxE3OKT887L4SckEb8hK8OADxL10HPFsBauP7YHU2KiWrBmCpNDQljDDUULjZocIyElVGdZnh5gkV0MoeReKo17uhqP5kG8A.jpg",
+        "foto_origem": "canal",
+        "nome": "Smart TV 4K 55 LG Qned Mini LED Ai Qned70 2026",
+        "por": 2249.0,
         "lido_ia": true,
-        "cupom": "OFFHOJE",
-        "preco_conferido": true,
-        "preco_cupom": true,
-        "preco_sem_cupom": 474.9,
-        "palavra": "air fryer",
-        "garimpado_em": "2026-10-16T15:40-03:00",
-        "nota": 42.9
-      },
-      {
-        "loja": "amazon",
-        "chave": "amazon:B0FZCM9N46",
-        "origem": "promobit",
-        "fonte": "promobit",
-        "link": "https://www.amazon.com.br/dp/B0FZCM9N46?tag=alphadominu09-20",
-        "link_produto": "https://www.amazon.com.br/dp/B0FZCM9N46?tag=alphadominu09-20",
-        "post_origem": "https://www.promobit.com.br/oferta/kit-com-3-cuecas-boxer-algodao-masculina-usee-brasil-premium-3119635/",
-        "link_canal": "https://www.promobit.com.br/Redirect/to/3119635/",
-        "nome": "Kit com 3 Cuecas Boxer Algodão Masculina Usee Brasil Premium",
-        "por": 25.17,
-        "foto": "https://m.media-amazon.com/images/I/61JwOv9pbrL._AC_SL1500_.jpg",
-        "foto_origem": "loja",
-        "palavra": "cueca",
-        "garimpado_em": "2026-10-16T16:12-03:00",
-        "nota": 27.0
+        "sem_preco_loja": true,
+        "palavra": "smart tv",
+        "garimpado_em": "2026-10-16T16:23-03:00",
+        "nota": 23.1
       }
     ],
     "soltas_hora": "2026-10-16T16",
-    "soltas": 2,
+    "soltas": 4,
     "shopee_em": "2026-10-16T16:13-03:00",
     "shopee_indice": 44,
     "soltas_dia_data": "2026-10-16",
-    "soltas_dia": 58,
+    "soltas_dia": 60,
     "soltas_loja": {
       "shopee": 1,
-      "mercadolivre": 1
+      "mercadolivre": 2,
+      "amazon": 1
     },
-    "soltas_vez": "2026-10-16T16:0"
+    "soltas_vez": "2026-10-16T16:1"
   },
   "ultimos": [
     {
@@ -8170,7 +8227,7 @@
         "reprovados": 1
       },
       "promobit": {
-        "achados": 9,
+        "achados": 10,
         "aprovados": 5,
         "reprovados": 4
       },
@@ -8180,7 +8237,7 @@
         "reprovados": 1
       },
       "lobaopromo": {
-        "achados": 7,
+        "achados": 8,
         "aprovados": 4,
         "reprovados": 0
       },
@@ -8214,7 +8271,7 @@
       "reprovados": 18
     },
     "air fryer": {
-      "achados": 10,
+      "achados": 11,
       "aprovados": 2,
       "reprovados": 6
     },
@@ -8319,7 +8376,7 @@
       "reprovados": 11
     },
     "cueca": {
-      "achados": 12,
+      "achados": 13,
       "aprovados": 1,
       "reprovados": 9
     },
