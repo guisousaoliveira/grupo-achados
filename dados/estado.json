@@ -2366,27 +2366,76 @@
       "id": 698,
       "na_revisao_desde": "2026-10-16T17:20-03:00",
       "msg_id": 1190
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB6253978688",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/1dS9z8F",
+      "link_produto": "https://www.mercadolivre.com.br/oculos-de-sol-escuro-masculino-unissex-tendencia-premium/up/MLBU1436019621?pdp_filters=item_id%3AMLB6253978688",
+      "post_origem": "https://t.me/lobaopromo/190482",
+      "link_canal": "https://meli.la/2CzbuJ4",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_654174-MLB116254193630_092026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Óculos De Sol Escuro Masculino Unissex Tendencia Premium Armação",
+      "lido_ia": true,
+      "por": 34.17,
+      "de": 114.0,
+      "cupom": "OPAECONOMIZEI",
+      "pix": true,
+      "sem_preco_loja": true,
+      "palavra": "oculos de sol",
+      "garimpado_em": "2026-10-16T17:30-03:00",
+      "nota": 86.7,
+      "motivo_revisao": "a loja não abriu para eu conferir o preço",
+      "titulo": "Óculos escuro para proteger os olhos da claridade",
+      "id": 699,
+      "na_revisao_desde": "2026-10-16T17:31-03:00",
+      "msg_id": 1191
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0CVCG6S9C",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0CVCG6S9C?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0CVCG6S9C?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/223036",
+      "link_canal": "https://www.amazon.com.br/Smartwatch-Samsung-Galaxy-Display-Prata/dp/B0CVCG6S9C?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAIEqGrSibmr40y0pMSHWgLBb1iXeLD3AAJ_DmsbKP-EUPC5QBeVGjcMAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "nome": "Smartwatch Samsung Galaxy Fit3 Display 1.6 Prata",
+      "por": 209.95,
+      "lido_ia": true,
+      "sem_preco_loja": true,
+      "palavra": "smartwatch",
+      "garimpado_em": "2026-10-16T17:10-03:00",
+      "nota": 31.3,
+      "motivo_revisao": "a loja não abriu para eu conferir o preço",
+      "titulo": "Monitore treinos e sono com o Galaxy Fit3",
+      "id": 700,
+      "na_revisao_desde": "2026-10-16T17:31-03:00",
+      "msg_id": 1192
     }
   ],
-  "proximo_id": 699,
+  "proximo_id": 701,
   "radar": {
     "visto": {
       "xetdaspromocoes": 85250,
-      "lobaopromo": 190476,
-      "gatunopromos": 125757,
+      "lobaopromo": 190482,
+      "gatunopromos": 125760,
       "pobregram": 42029,
-      "urubupromo": 41789,
-      "tudonapromo": 102194,
-      "promonocontext": 127733,
-      "promooeasy": 223051,
-      "aquitempechincha": 282201,
+      "urubupromo": 41790,
+      "tudonapromo": 102195,
+      "promonocontext": 127735,
+      "promooeasy": 223060,
+      "aquitempechincha": 282205,
       "infoBRpromos": 67711,
-      "boletando": 76841,
+      "boletando": 76844,
       "promotop": 260391,
       "achadosdotb": 11787
     },
     "dia": "2026-10-16",
-    "hoje": 90,
+    "hoje": 92,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -4510,30 +4559,33 @@
       "mercadolivre:MLB61077880",
       "mercadolivre:MLB67166527",
       "shopee:1604777172.57757302977",
-      "amazon:B0FL4N5RG6"
+      "amazon:B0FL4N5RG6",
+      "amazon:B07VC5CWBP",
+      "mercadolivre:MLB6253978688"
     ],
     "ultima": {
-      "em": "2026-10-16T17:20:21-03:00",
+      "em": "2026-10-16T17:30:22-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 39,
-      "do_nicho": 7,
-      "repetidas": 6,
+      "posts_novos": 40,
+      "do_nicho": 3,
+      "repetidas": 1,
       "novas": 1,
       "limite_dia": false,
       "repetidas_nome": 0,
+      "fora_do_nicho": 1,
       "promobit": 0,
       "soltas": 2,
-      "na_peneira": 4
+      "na_peneira": 3
     },
     "hora": "2026-10-16T17",
-    "nesta_hora": 5,
+    "nesta_hora": 6,
     "promobit_hora": "2026-10-16T17",
-    "promobit_nesta_hora": 0,
-    "promobit_visto": 3119846,
+    "promobit_nesta_hora": 1,
+    "promobit_visto": 3119865,
     "nomes": [
       [
         [
@@ -6890,6 +6942,29 @@
           "negro"
         ],
         "2026-10-16T17:20-03:00"
+      ],
+      [
+        [
+          "oculos",
+          "sol",
+          "escuro",
+          "unissex",
+          "tendencia",
+          "premium",
+          "armacao"
+        ],
+        "2026-10-16T17:30-03:00"
+      ],
+      [
+        [
+          "smartwatch",
+          "samsung",
+          "galaxy",
+          "fit3",
+          "display",
+          "prata"
+        ],
+        "2026-10-16T17:31-03:00"
       ]
     ],
     "peneira": [
@@ -6910,24 +6985,6 @@
         "palavra": "smart tv",
         "garimpado_em": "2026-10-16T16:23-03:00",
         "nota": 23.1
-      },
-      {
-        "loja": "amazon",
-        "chave": "amazon:B0CVCG6S9C",
-        "origem": "promooeasy",
-        "link": "https://www.amazon.com.br/dp/B0CVCG6S9C?tag=alphadominu09-20",
-        "link_produto": "https://www.amazon.com.br/dp/B0CVCG6S9C?tag=alphadominu09-20",
-        "post_origem": "https://t.me/promooeasy/223036",
-        "link_canal": "https://www.amazon.com.br/Smartwatch-Samsung-Galaxy-Display-Prata/dp/B0CVCG6S9C?tag=promof26-20",
-        "foto": "https://m.media-amazon.com/images/I/51It6ch5f7L._AC_SL1500_.jpg",
-        "foto_origem": "loja",
-        "nome": "Smartwatch Samsung Galaxy Fit3 Display 1.6 Prata",
-        "por": 209.95,
-        "lido_ia": true,
-        "sem_preco_loja": true,
-        "palavra": "smartwatch",
-        "garimpado_em": "2026-10-16T17:10-03:00",
-        "nota": 31.3
       },
       {
         "loja": "mercadolivre",
@@ -6969,17 +7026,17 @@
       }
     ],
     "soltas_hora": "2026-10-16T17",
-    "soltas": 4,
-    "shopee_em": "2026-10-16T17:11-03:00",
-    "shopee_indice": 68,
+    "soltas": 6,
+    "shopee_em": "2026-10-16T17:31-03:00",
+    "shopee_indice": 76,
     "soltas_dia_data": "2026-10-16",
-    "soltas_dia": 67,
+    "soltas_dia": 69,
     "soltas_loja": {
-      "amazon": 1,
+      "amazon": 2,
       "shopee": 2,
-      "mercadolivre": 1
+      "mercadolivre": 2
     },
-    "soltas_vez": "2026-10-16T17:1"
+    "soltas_vez": "2026-10-16T17:2"
   },
   "ultimos": [
     {
@@ -8451,12 +8508,12 @@
         "reprovados": 1
       },
       "lobaopromo": {
-        "achados": 8,
+        "achados": 9,
         "aprovados": 4,
         "reprovados": 0
       },
       "promooeasy": {
-        "achados": 7,
+        "achados": 8,
         "aprovados": 3,
         "reprovados": 1
       },
@@ -8660,7 +8717,7 @@
       "reprovados": 7
     },
     "oculos de sol": {
-      "achados": 10,
+      "achados": 11,
       "aprovados": 3,
       "reprovados": 7
     },
@@ -8700,7 +8757,7 @@
       "reprovados": 22
     },
     "smartwatch": {
-      "achados": 10,
+      "achados": 11,
       "aprovados": 4,
       "reprovados": 6
     },
