@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB3250794241",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/2SoTzRd",
-      "link_produto": "https://meli.la/2SoTzRd",
-      "post_origem": "https://t.me/lobaopromo/190219",
-      "link_canal": "https://meli.la/2Vmpx4F",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_756141-MLB103947190342_012026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Kit 5 Short De Dormir Cueca Samba Canção Malha Fria Pijama",
-      "de": 78.0,
-      "por": 55.0,
-      "lido_ia": true,
-      "preco_conferido": true,
-      "palavra": "cueca",
-      "garimpado_em": "2026-10-16T09:12-03:00",
-      "nota": 46.0,
-      "titulo": "Shorts de malha fria para dormir sem calor",
-      "aprovado_sozinho": true,
-      "aprovado_em": "2026-10-16T09:16-03:00"
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B0FPG8KLS8",
       "origem": "promooeasy",
@@ -1839,6 +1817,16 @@
       "link_produto": "https://www.amazon.com.br/dp/B08R91NTHY?tag=alphadominu09-20",
       "titulo": "Air fryer oven espaçosa para refeições completas",
       "slot": 13
+    },
+    {
+      "chave": "mercadolivre:MLB3250794241",
+      "loja": "mercadolivre",
+      "nome": "Kit 5 Short De Dormir Cueca Samba Canção Malha Fria Pijama",
+      "data": "2026-10-16T13:27-03:00",
+      "link": "https://meli.la/2SoTzRd",
+      "link_produto": "https://meli.la/2SoTzRd",
+      "titulo": "Shorts de malha fria para dormir sem calor",
+      "slot": 13.1
     }
   ],
   "slots_usados": {
@@ -1928,7 +1916,8 @@
       12,
       12.1,
       12.2,
-      13
+      13,
+      13.1
     ]
   },
   "shopee_buscado_em": "",
@@ -6615,6 +6604,19 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB3250794241",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/2SoTzRd",
+      "link_produto": "https://meli.la/2SoTzRd",
+      "post_origem": "https://t.me/lobaopromo/190219",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_756141-MLB103947190342_012026-O.webp",
+      "nome": "Kit 5 Short De Dormir Cueca Samba Canção Malha Fria Pijama",
+      "de": 78.0,
+      "por": 55.0,
+      "titulo": "Shorts de malha fria para dormir sem calor"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B08R91NTHY",
       "origem": "lobaopromo",
@@ -7137,21 +7139,6 @@
       "nome": "Creatina Dux Nutrition 300g",
       "pix": true,
       "por": 47.22
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B07LGZM6JC",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://link.amazon/B03KaPhR1",
-      "link_produto": "https://link.amazon/B03KaPhR1",
-      "post_origem": "https://www.promobit.com.br/oferta/mor-caixa-termica-42-litros-azul-3115024/",
-      "nome": "Mor - Caixa Térmica 42 Litros Azul",
-      "por": 278.04,
-      "de": 489.9,
-      "foto": "AgACAgQAAxkDAAIDp2rQS1VlvBL7Y8RwXoMqzUA7Mcb8AALfDGsbX7rdUoF9slLUdJ36AQADAgADeAADPQQ",
-      "titulo": "Caixa térmica grande para bebidas e alimentos na praia",
-      "prime": true
     }
   ],
   "lixeira": [
