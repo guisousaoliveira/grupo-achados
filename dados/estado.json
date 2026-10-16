@@ -304,6 +304,27 @@
       "titulo": "Timex com mostrador de fácil leitura no escuro",
       "na_revisao_desde": "2026-10-16T12:41-03:00",
       "aprovado_em": "2026-10-16T12:43-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB7218965676",
+      "origem": "promonocontext",
+      "link": "https://meli.la/1cHHDPs",
+      "link_produto": "https://www.mercadolivre.com.br/relogio-poedagar-suico--masculino-aco-inox-old-money-ccaixa/up/MLBU4370134385?pdp_filters=item_id%3AMLB7218965676",
+      "post_origem": "https://t.me/promonocontext/127634",
+      "link_canal": "https://meli.la/2fjtFRb",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_760581-MLB114915939023_072026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Relógio Poedagar Suiço Masculino Aço Inox Old Money C/caixa Branco",
+      "de": 249.0,
+      "por": 95.0,
+      "lido_ia": true,
+      "palavra": "relogio",
+      "garimpado_em": "2026-10-16T12:40-03:00",
+      "nota": 79.2,
+      "titulo": "Visual old money com acabamento em aço inox",
+      "na_revisao_desde": "2026-10-16T12:41-03:00",
+      "aprovado_em": "2026-10-16T12:43-03:00"
     }
   ],
   "postados": [
@@ -1941,30 +1962,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB7218965676",
-      "origem": "promonocontext",
-      "link": "https://meli.la/1cHHDPs",
-      "link_produto": "https://www.mercadolivre.com.br/relogio-poedagar-suico--masculino-aco-inox-old-money-ccaixa/up/MLBU4370134385?pdp_filters=item_id%3AMLB7218965676",
-      "post_origem": "https://t.me/promonocontext/127634",
-      "link_canal": "https://meli.la/2fjtFRb",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_760581-MLB114915939023_072026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Relógio Poedagar Suiço Masculino Aço Inox Old Money C/caixa Branco",
-      "de": 249.0,
-      "por": 95.0,
-      "lido_ia": true,
-      "palavra": "relogio",
-      "garimpado_em": "2026-10-16T12:40-03:00",
-      "nota": 79.2,
-      "titulo": "Visual old money com acabamento em aço inox",
-      "id": 661,
-      "na_revisao_desde": "2026-10-16T12:41-03:00",
-      "msg_id": 1126
-    }
-  ],
+  "revisar": [],
   "proximo_id": 666,
   "radar": {
     "visto": {
@@ -7969,7 +7967,7 @@
       },
       "promonocontext": {
         "achados": 6,
-        "aprovados": 4,
+        "aprovados": 5,
         "reprovados": 1
       },
       "lobaopromo": {
@@ -8193,7 +8191,7 @@
     },
     "relogio": {
       "achados": 14,
-      "aprovados": 5,
+      "aprovados": 6,
       "reprovados": 7
     },
     "smart tv": {
