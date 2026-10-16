@@ -3032,22 +3032,43 @@ def meli_la(url):
     return (curto, "") if curto.startswith("https://meli.la/") else ("", f"resposta sem link: {str(dados)[:300]}")
 
 
+def _alvos_ml(item):
+    """Formas do link do produto pra tentar no gerador do ML (ele recusa alguns formatos, ex.: MLB-123 sem o nome)."""
+    link = item.get("link") or ""
+    base = item.get("link_produto") or link.split("?")[0]
+    alvos = [base]
+    m = re.search(r"produto\.mercadolivre\.com\.br/(MLB-?\d+)/?$", base)
+    if m:
+        alvos.append(f"https://produto.mercadolivre.com.br/{m.group(1)}-_JM")
+    alvos.append(link)
+    return [a for i, a in enumerate(alvos) if a and a not in alvos[:i]]
+
+
 def encurtar_fila_ml(estado):
     """Troca o link longo do Mercado Livre da fila e do Revisar pelo meli.la com a sua etiqueta (se ML_COOKIES estiver salvo).
-    Se o login do ML expirar, o post sai com o link longo mesmo e você recebe um aviso por dia."""
+    Se o ML recusar o formato de um link, só aquele item fica com o link longo; se o login expirar, todos ficam
+    e você recebe um aviso por dia."""
     if not segredo("ML_COOKIES"):
         return
     feitos = 0
     for item in estado["fila"] + estado.get("revisar", []):  # a fila primeiro (sai antes)
         link = item.get("link") or ""
-        if item.get("loja") != "mercadolivre" or link.startswith("https://meli.la/") or feitos >= 8:
+        if (item.get("loja") != "mercadolivre" or link.startswith("https://meli.la/") or item.get("ml_sem_curto")
+                or feitos >= 8):
             continue
         feitos += 1
-        alvo = item.get("link_produto") or link.split("?")[0]
-        curto, erro = meli_la(alvo)
+        erro = ""
+        for alvo in _alvos_ml(item):
+            curto, erro = meli_la(alvo)
+            if curto or "URL Invalid" not in erro:
+                break
         if curto:
             item["link"] = curto
             log(f"meli.la gerado para {item.get('nome', alvo)[:50]}: {curto}")
+            continue
+        if "URL Invalid" in erro:
+            item["ml_sem_curto"] = True  # o ML não aceita esse link; não fica tentando de novo
+            log(f"O ML não aceitou o link de {item.get('nome', '')[:50]} pro meli.la; fica o link longo.")
             continue
         log(f"Não gerei o meli.la ({erro}); fica o link longo.")
         hoje = agora().date().isoformat()
@@ -3096,11 +3117,13 @@ def cmd_meli_teste(links):
             if item.get("loja") == "mercadolivre" and "produto.mercadolivre" in (item.get("link_produto") or ""):
                 links = [item["link_produto"]]
                 break
-    for link in links[:3]:
+    falhou = False
+    for link in links[:6]:
         curto, erro = meli_la(link)
         print(f"{link[:90]}\n  -> {curto or 'ERRO ' + erro}")
-        if not curto:
-            sys.exit(1)
+        falhou = falhou or not curto
+    if falhou:
+        sys.exit(1)
 
 
 def main():
