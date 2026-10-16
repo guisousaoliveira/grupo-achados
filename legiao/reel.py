@@ -184,7 +184,7 @@ def main():
     usados = list(historico)  # clipes e músicas já usados (inclusive o do post recusado)
     if os.environ.get("MOTIVO"):  # refazendo: o tema recusado de hoje não conta como "já postado"
         historico = [h for h in historico if h.get("data") != agora.strftime("%Y-%m-%d")]
-    temas = "\n".join(f"- {h['tema']}" for h in historico[-60:]) or "- (nenhum ainda)"
+    temas = "\n".join(f"- {t}" for t in rodar.temas_postados(historico, reel=True)[-60:]) or "- (nenhum ainda)"
     base = {"DATA": agora.strftime("%d/%m/%Y"), "HISTORICO": temas, "CTA": CFG["cta"],
             "NICHO": (AQUI / "nicho.md").read_text(encoding="utf-8"), "MAX_FRASE": R["max_caracteres_frase"]}
 
