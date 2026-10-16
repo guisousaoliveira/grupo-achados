@@ -1,0 +1,21 @@
+name: meli-teste
+
+# Testa se o bot consegue gerar o link curto meli.la sozinho (com o login do ML guardado em ML_COOKIES).
+on:
+  workflow_dispatch:
+    inputs:
+      link:
+        description: "Link de um produto do Mercado Livre (opcional)"
+        required: false
+
+jobs:
+  testar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v5
+      - name: Gerar meli.la
+        env:
+          ML_COOKIES: ${{ secrets.ML_COOKIES }}
+          LINK: ${{ inputs.link }}
+        run: python3 bot.py meli-teste $LINK
