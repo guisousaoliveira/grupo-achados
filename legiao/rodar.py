@@ -1,5 +1,6 @@
 """Legião Alpha: Odin escolhe o tema, Bragi escreve, Atena revisa, Hefesto desenha o carrossel
 e a prévia vai pro Telegram. Tudo com o Claude Code na assinatura (CLAUDE_CODE_OAUTH_TOKEN)."""
+import base64
 import json
 import os
 import subprocess
@@ -157,6 +158,35 @@ def pedido_de_refazer():
             + (f"\n\nVersão recusada:\n{anterior}" if anterior else ""))
 
 
+def temas_postados(historico, reel=False):
+    """Temas que contam como "já postados": só os que você aprovou (ou que já saíram).
+    Os posts ficam na branch legiao-posts; entradas antigas do histórico sem pasta lá continuam valendo."""
+    repo = os.environ.get("GITHUB_REPOSITORY", "guisousaoliveira/grupo-achados")
+    cab = {"Accept": "application/vnd.github+json"}
+    if os.environ.get("GITHUB_TOKEN"):
+        cab["Authorization"] = f"Bearer {os.environ['GITHUB_TOKEN']}"
+
+    def api(caminho):
+        req = urllib.request.Request(f"https://api.github.com/repos/{repo}/contents/{caminho}?ref=legiao-posts", headers=cab)
+        return json.loads(urllib.request.urlopen(req, timeout=30).read())
+
+    try:
+        pastas = [p["name"] for p in api("posts") if p["type"] == "dir" and p["name"].endswith("-reel") == reel]
+    except Exception as erro:
+        print("não consegui ler os posts da branch:", str(erro)[:200])
+        return [h["tema"] for h in historico]
+    dias = {p[:10] for p in pastas}
+    temas = [h["tema"] for h in historico if h.get("data") not in dias]
+    for pasta in sorted(pastas)[-60:]:
+        try:
+            status = json.loads(base64.b64decode(api(f"posts/{pasta}/status.json")["content"]))
+            if status.get("status") in ("aprovado", "publicando", "publicado"):
+                temas.append(json.loads(base64.b64decode(api(f"posts/{pasta}/post.json")["content"])).get("tema", ""))
+        except Exception as erro:
+            print(f"pulei {pasta}:", str(erro)[:200])
+    return [t for t in temas if t]
+
+
 def main():
     if not os.environ.get("CLAUDE_CODE_OAUTH_TOKEN"):
         print("Falta o secret CLAUDE_CODE_OAUTH_TOKEN; a Legião não roda.")
@@ -165,7 +195,7 @@ def main():
     historico = json.loads(HISTORICO.read_text(encoding="utf-8")) if HISTORICO.exists() else []
     if os.environ.get("MOTIVO"):  # refazendo: o tema recusado de hoje não conta como "já postado"
         historico = [h for h in historico if h.get("data") != agora.strftime("%Y-%m-%d")]
-    temas = "\n".join(f"- {h['tema']}" for h in historico[-60:]) or "- (nenhum ainda)"
+    temas = "\n".join(f"- {t}" for t in temas_postados(historico)[-60:]) or "- (nenhum ainda)"
     base = {"DATA": agora.strftime("%d/%m/%Y"), "HISTORICO": temas, "CTA": CFG["cta"],
             "NICHO": (AQUI / "nicho.md").read_text(encoding="utf-8"),
             "FRAMES_MIN": CFG["frames_min"], "FRAMES_MAX": CFG["frames_max"]}

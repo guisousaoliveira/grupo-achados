@@ -63,6 +63,7 @@ jobs:
           LEGIAO_CHAT_ID: ${{ secrets.LEGIAO_CHAT_ID }}
           GOOGLE_SA_JSON: ${{ secrets.GOOGLE_SA_JSON }}
           MOTIVO: ${{ inputs.motivo }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PASTA: ${{ inputs.pasta }}
         run: python3 ${{ (inputs.tipo || 'carrossel') == 'reel' && 'reel.py' || 'rodar.py' }}
       - name: Guardar os temas dos Reels
