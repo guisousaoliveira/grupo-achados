@@ -172,6 +172,27 @@
       "aprovado_em": "2026-10-16T00:53-03:00"
     },
     {
+      "loja": "amazon",
+      "chave": "amazon:B08R91NTHY",
+      "origem": "lobaopromo",
+      "link": "https://www.amazon.com.br/dp/B08R91NTHY?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B08R91NTHY?tag=alphadominu09-20",
+      "post_origem": "https://t.me/lobaopromo/190213",
+      "link_canal": "https://amzlink.to/az0fEHKkruhBv",
+      "foto": "AgACAgQAAxkDAAIETGrSFXDywZPzL9UCrUAn4PQUS87wAAJbDmsbzTedU0x3UnTT_f3mAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Fritadeira Air Fryer Philco Oven 4 em 1 12L",
+      "lido_ia": true,
+      "por": 419.0,
+      "de": 580.9,
+      "palavra": "air fryer",
+      "garimpado_em": "2026-10-16T09:00-03:00",
+      "nota": 50.3,
+      "titulo": "Air fryer oven espaçosa para refeições completas",
+      "na_revisao_desde": "2026-10-16T09:15-03:00",
+      "aprovado_em": "2026-10-16T09:20-03:00"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB3250794241",
       "origem": "lobaopromo",
@@ -1756,30 +1777,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "amazon",
-      "chave": "amazon:B08R91NTHY",
-      "origem": "lobaopromo",
-      "link": "https://www.amazon.com.br/dp/B08R91NTHY?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B08R91NTHY?tag=alphadominu09-20",
-      "post_origem": "https://t.me/lobaopromo/190213",
-      "link_canal": "https://amzlink.to/az0fEHKkruhBv",
-      "foto": "AgACAgQAAxkDAAIETGrSFXDywZPzL9UCrUAn4PQUS87wAAJbDmsbzTedU0x3UnTT_f3mAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Fritadeira Air Fryer Philco Oven 4 em 1 12L",
-      "lido_ia": true,
-      "por": 419.0,
-      "de": 580.9,
-      "palavra": "air fryer",
-      "garimpado_em": "2026-10-16T09:00-03:00",
-      "nota": 50.3,
-      "titulo": "Air fryer oven espaçosa para refeições completas",
-      "id": 643,
-      "na_revisao_desde": "2026-10-16T09:15-03:00",
-      "msg_id": 1100
-    }
-  ],
+  "revisar": [],
   "proximo_id": 646,
   "radar": {
     "visto": {
@@ -6773,7 +6771,7 @@
       },
       "lobaopromo": {
         "achados": 2,
-        "aprovados": 0,
+        "aprovados": 1,
         "reprovados": 0
       },
       "promooeasy": {
@@ -6792,7 +6790,7 @@
     },
     "air fryer": {
       "achados": 8,
-      "aprovados": 1,
+      "aprovados": 2,
       "reprovados": 6
     },
     "alexa": {
