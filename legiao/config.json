@@ -19,5 +19,8 @@
   "duracao_final": 2,
   "max_caracteres_frase": 110,
   "escurecer": 0.45
- }
+ },
+ "modelo_gemini": "gemini-flash-latest",
+ "preco_gemini_entrada": 0.75,
+ "preco_gemini_saida": 3.75
 }

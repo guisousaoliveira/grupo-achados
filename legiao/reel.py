@@ -174,8 +174,8 @@ def checar():
 
 
 def main():
-    if not os.environ.get("CLAUDE_CODE_OAUTH_TOKEN"):
-        print("Falta o secret CLAUDE_CODE_OAUTH_TOKEN; a Legião não roda.")
+    if not (os.environ.get("GEMINI_LEGIAO_KEY") or os.environ.get("CLAUDE_CODE_OAUTH_TOKEN")):
+        print("Falta o secret GEMINI_LEGIAO_KEY (ou CLAUDE_CODE_OAUTH_TOKEN); a Legião não roda.")
         return
     if not os.environ.get("GOOGLE_SA_JSON"):
         raise RuntimeError("Falta o secret GOOGLE_SA_JSON (conta de serviço do Google) pra pegar os clipes do Drive.")
