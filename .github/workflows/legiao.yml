@@ -19,6 +19,10 @@ on:
         description: post recusado que vai ser refeito
         required: false
         default: ""
+      teste:
+        description: "1 = só manda a prévia, sem guardar nem pedir aprovação"
+        required: false
+        default: ""
 
 permissions:
   contents: write  # guarda o post na branch legiao-posts pra Íris publicar
@@ -66,6 +70,7 @@ jobs:
           MOTIVO: ${{ inputs.motivo }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PASTA: ${{ inputs.pasta }}
+          TESTE: ${{ inputs.teste }}
         run: python3 ${{ (inputs.tipo || 'carrossel') == 'reel' && 'reel.py' || 'rodar.py' }}
       - name: Guardar os temas dos Reels
         if: success() && hashFiles('legiao/historico_reel.json') != ''
