@@ -281,6 +281,29 @@
       "titulo": "Drone DJI com gravação 4K e ActiveTrack",
       "na_revisao_desde": "2026-10-16T10:47-03:00",
       "aprovado_em": "2026-10-16T10:50-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB4296855769",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/2xAHV4B",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-4296855769-camiseta-dryfit-masculina-academia-treino-proteco-uv-_JM?pdp_filters=item_id%3AMLB4296855769",
+      "post_origem": "https://t.me/lobaopromo/190317",
+      "link_canal": "https://meli.la/2mZYvBg",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_681261-MLB97289513052_112025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Camiseta Dryfit Masculina Academia Treino Proteção Uv+",
+      "pix": true,
+      "de": 58.09,
+      "por": 21.34,
+      "lido_ia": true,
+      "cupom": "MELISALVA",
+      "palavra": "academia",
+      "garimpado_em": "2026-10-16T11:30-03:00",
+      "nota": 83.1,
+      "titulo": "Camiseta UV para treinar ao ar livre",
+      "na_revisao_desde": "2026-10-16T11:36-03:00",
+      "aprovado_em": "2026-10-16T11:42-03:00"
     }
   ],
   "postados": [
@@ -1922,30 +1945,6 @@
       "id": 656,
       "na_revisao_desde": "2026-10-16T11:36-03:00",
       "msg_id": 1118
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB4296855769",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/2xAHV4B",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-4296855769-camiseta-dryfit-masculina-academia-treino-proteco-uv-_JM?pdp_filters=item_id%3AMLB4296855769",
-      "post_origem": "https://t.me/lobaopromo/190317",
-      "link_canal": "https://meli.la/2mZYvBg",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_681261-MLB97289513052_112025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Camiseta Dryfit Masculina Academia Treino Proteção Uv+",
-      "pix": true,
-      "de": 58.09,
-      "por": 21.34,
-      "lido_ia": true,
-      "cupom": "MELISALVA",
-      "palavra": "academia",
-      "garimpado_em": "2026-10-16T11:30-03:00",
-      "nota": 83.1,
-      "titulo": "Camiseta UV para treinar ao ar livre",
-      "id": 657,
-      "na_revisao_desde": "2026-10-16T11:36-03:00",
-      "msg_id": 1119
     },
     {
       "loja": "amazon",
@@ -7603,7 +7602,7 @@
       },
       "lobaopromo": {
         "achados": 5,
-        "aprovados": 3,
+        "aprovados": 4,
         "reprovados": 0
       },
       "promooeasy": {
@@ -7622,7 +7621,7 @@
   "garimpo_palavras": {
     "academia": {
       "achados": 27,
-      "aprovados": 8,
+      "aprovados": 9,
       "reprovados": 18
     },
     "air fryer": {
