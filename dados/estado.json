@@ -1902,17 +1902,17 @@
   "radar": {
     "visto": {
       "xetdaspromocoes": 85178,
-      "lobaopromo": 190335,
-      "gatunopromos": 125706,
+      "lobaopromo": 190337,
+      "gatunopromos": 125707,
       "pobregram": 42007,
       "urubupromo": 41772,
-      "tudonapromo": 102134,
-      "promonocontext": 127623,
-      "promooeasy": 222805,
-      "aquitempechincha": 282100,
-      "infoBRpromos": 67690,
+      "tudonapromo": 102137,
+      "promonocontext": 127624,
+      "promooeasy": 222811,
+      "aquitempechincha": 282102,
+      "infoBRpromos": 67691,
       "boletando": 76826,
-      "promotop": 260364,
+      "promotop": 260368,
       "achadosdotb": 11784
     },
     "dia": "2026-10-16",
@@ -3976,22 +3976,23 @@
       "mercadolivre:MLB52911444",
       "amazon:B0977QVRJS",
       "mercadolivre:MLB5352343475",
-      "mercadolivre:MLB32101995"
+      "mercadolivre:MLB32101995",
+      "shopee:1071400199.58268748578"
     ],
     "ultima": {
-      "em": "2026-10-16T12:00:29-03:00",
+      "em": "2026-10-16T12:07:03-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 61,
-      "do_nicho": 4,
-      "repetidas": 1,
-      "novas": 2,
+      "posts_novos": 22,
+      "do_nicho": 2,
+      "repetidas": 2,
+      "novas": 0,
       "limite_dia": false,
-      "repetidas_nome": 1,
-      "promobit": 1,
+      "repetidas_nome": 0,
+      "promobit": 0,
       "soltas": 0,
       "na_peneira": 21
     },
@@ -3999,7 +4000,7 @@
     "nesta_hora": 2,
     "promobit_hora": "2026-10-16T12",
     "promobit_nesta_hora": 1,
-    "promobit_visto": 3118826,
+    "promobit_visto": 3118828,
     "nomes": [
       [
         [
@@ -6272,12 +6273,31 @@
         "palavra": "relogio",
         "garimpado_em": "2026-10-16T12:00-03:00",
         "nota": 67.6
+      },
+      {
+        "loja": "shopee",
+        "chave": "shopee:1071400199.58268748578",
+        "nome": "Conector De Bomba Insuflável Para Compressor De Ar De Pneus De Carro Adaptador De Válvula Reparo De Mangueiras",
+        "por": 16.9,
+        "de": 28.64,
+        "foto": "https://cf.shopee.com.br/file/br-11134207-820m8-mu51fnj5eqrmb2",
+        "link": "https://s.shopee.com.br/3Vl4yeC23j",
+        "link_produto": "https://shopee.com.br/product/1071400199/58268748578",
+        "origem": "shopee",
+        "fonte": "shopee",
+        "foto_origem": "loja",
+        "shopee_api": true,
+        "avaliacao": 4.8,
+        "vendas": 774,
+        "palavra": "compressor de ar",
+        "garimpado_em": "2026-10-16T12:07-03:00",
+        "nota": 64.2
       }
     ],
     "soltas_hora": "2026-10-16T12",
     "soltas": 0,
-    "shopee_em": "2026-10-16T11:51-03:00",
-    "shopee_indice": 40,
+    "shopee_em": "2026-10-16T12:07-03:00",
+    "shopee_indice": 48,
     "soltas_dia_data": "2026-10-16",
     "soltas_dia": 28,
     "soltas_loja": {}
@@ -7627,7 +7647,7 @@
       }
     }
   },
-  "aviso_post": "2026-10-16 11:08|mercadolivre:MLB25371983",
+  "aviso_post": "2026-10-16 12:14|mercadolivre:MLB7715359186",
   "garimpo_palavras": {
     "academia": {
       "achados": 27,
