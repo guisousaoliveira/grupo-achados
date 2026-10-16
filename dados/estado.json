@@ -2310,33 +2310,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB74143355",
-      "origem": "promooeasy",
-      "link": "https://meli.la/1yv9tSC",
-      "link_produto": "https://www.mercadolivre.com.br/smart-tv-4k-55-lg-qned-mini-led-ai-qned70-2026-processador-7-ger9-hdr10-xbox-bluetooth-wi-fi-ai-search-google-gemini-integrados-webos-26-55qned70bsa/p/MLB74143355",
-      "post_origem": "https://t.me/promooeasy/223001",
-      "link_canal": "https://www.mercadolivre.com.br/smart-tv-4k-55-lg-qned-mini-led-ai-qned70-2026-processador-7-ger9-hdr10-xbox-bluetooth-wi-fi-ai-search-google-gemini-integrados-webos-26-55qned70bsa/p/MLB74143355?matt_word=promoeasynv&amp;matt_tool=88963738",
-      "foto": "AgACAgEAAxkDAAIEuGrSozhqDK6qsW9VJKD8-wShjlf6AAItDWsbzxKQRoNVtzitUvdnAQADAgADeAADPQQ",
-      "foto_origem": "canal",
-      "nome": "Smart TV 4K 55 LG Qned Mini LED Ai Qned70 2026",
-      "por": 2249.0,
-      "lido_ia": true,
-      "sem_preco_loja": true,
-      "palavra": "smart tv",
-      "garimpado_em": "2026-10-16T16:23-03:00",
-      "nota": 23.1,
-      "motivo_revisao": "a loja não abriu para eu conferir o preço; tento de novo a cada hora",
-      "titulo": "Smart TV 4K para imagem detalhada na sala",
-      "id": 710,
-      "na_revisao_desde": "2026-10-16T19:20-03:00",
-      "msg_id": 1208,
-      "reconferido_em": "2026-10-16T19:20-03:00",
-      "loja_abriu": false
-    }
-  ],
+  "revisar": [],
   "proximo_id": 711,
   "radar": {
     "visto": {
@@ -7627,6 +7601,32 @@
   ],
   "lixeira": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB74143355",
+      "origem": "promooeasy",
+      "link": "https://meli.la/1yv9tSC",
+      "link_produto": "https://www.mercadolivre.com.br/smart-tv-4k-55-lg-qned-mini-led-ai-qned70-2026-processador-7-ger9-hdr10-xbox-bluetooth-wi-fi-ai-search-google-gemini-integrados-webos-26-55qned70bsa/p/MLB74143355",
+      "post_origem": "https://t.me/promooeasy/223001",
+      "link_canal": "https://www.mercadolivre.com.br/smart-tv-4k-55-lg-qned-mini-led-ai-qned70-2026-processador-7-ger9-hdr10-xbox-bluetooth-wi-fi-ai-search-google-gemini-integrados-webos-26-55qned70bsa/p/MLB74143355?matt_word=promoeasynv&amp;matt_tool=88963738",
+      "foto": "AgACAgEAAxkDAAIEuGrSozhqDK6qsW9VJKD8-wShjlf6AAItDWsbzxKQRoNVtzitUvdnAQADAgADeAADPQQ",
+      "foto_origem": "canal",
+      "nome": "Smart TV 4K 55 LG Qned Mini LED Ai Qned70 2026",
+      "por": 2249.0,
+      "lido_ia": true,
+      "sem_preco_loja": true,
+      "palavra": "smart tv",
+      "garimpado_em": "2026-10-16T16:23-03:00",
+      "nota": 23.1,
+      "motivo_revisao": "a loja não abriu para eu conferir o preço; tento de novo a cada hora",
+      "titulo": "Smart TV 4K para imagem detalhada na sala",
+      "id": 710,
+      "na_revisao_desde": "2026-10-16T19:20-03:00",
+      "reconferido_em": "2026-10-16T19:20-03:00",
+      "loja_abriu": false,
+      "removido_em": "2026-10-16T19:35:04-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:408653169.21077382827",
       "nome": "Kit 250 Forro Papel Airfryer Descartável Forma Antiaderente",
@@ -8546,29 +8546,6 @@
       "na_revisao_desde": "2026-10-15T10:40-03:00",
       "removido_em": "2026-10-15T21:30:19-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB67328410",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/wap-af01-airfryer-45l-visor-com-luz-interna-antiaderente-127v/p/MLB67328410?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/wap-af01-airfryer-45l-visor-com-luz-interna-antiaderente-127v/p/MLB67328410",
-      "post_origem": "https://t.me/lobaopromo/189931",
-      "link_canal": "https://meli.la/1mscmoG",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_600633-MLA109658799177_032026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Wap Af01 Airfryer 4,5l Visor Com Luz Interna Antiaderente 127V",
-      "de": 555.0,
-      "por": 288.0,
-      "cupom": "APROVEITA",
-      "palavra": "airfryer",
-      "garimpado_em": "2026-10-15T16:10-03:00",
-      "nota": 68.2,
-      "titulo": "Airfryer para preparar refeições sem usar óleo",
-      "id": 627,
-      "na_revisao_desde": "2026-10-15T16:41-03:00",
-      "removido_em": "2026-10-15T17:52:30-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -8784,7 +8761,7 @@
       "promooeasy": {
         "achados": 12,
         "aprovados": 4,
-        "reprovados": 6
+        "reprovados": 7
       },
       "boletando": {
         "achados": 2,
@@ -9023,7 +9000,7 @@
     "smart tv": {
       "achados": 30,
       "aprovados": 6,
-      "reprovados": 23
+      "reprovados": 24
     },
     "smartwatch": {
       "achados": 11,
