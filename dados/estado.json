@@ -2,26 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "amazon",
-      "chave": "amazon:B0GY9TRH2V",
-      "origem": "boletando",
-      "link": "https://www.amazon.com.br/dp/B0GY9TRH2V?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0GY9TRH2V?tag=alphadominu09-20",
-      "post_origem": "https://t.me/boletando/76818",
-      "link_canal": "https://boletando.com/oferta/269298/",
-      "foto": "AgACAgQAAxkDAAIEWWrSKwpBQ4FmwHnKL0toN6ks_kGKAALtDWsbq81cUhSL6LtQ2HAvAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Drone DJI Lito 1 Standard (Sem tela) Fotos 8K, Grava HDR 4K/60 FPS, Bateria 36 min, Até 15km, Vários modos, ActiveTrack,",
-      "lido_ia": true,
-      "por": 2729.0,
-      "palavra": "drone",
-      "garimpado_em": "2026-10-16T10:47-03:00",
-      "nota": 31.1,
-      "titulo": "Drone DJI com gravação 4K e ActiveTrack",
-      "na_revisao_desde": "2026-10-16T10:47-03:00",
-      "aprovado_em": "2026-10-16T10:50-03:00"
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB5877188254",
       "origem": "xetdaspromocoes",
@@ -1986,6 +1966,16 @@
       "link_produto": "https://www.mercadolivre.com.br/relogio-technos-masculino-steel-de-pulso-quartz-original/up/MLBU4409376975?pdp_filters=item_id%3AMLB7245332674",
       "titulo": "Technos em aço versátil para qualquer ocasião",
       "slot": 14.3
+    },
+    {
+      "chave": "amazon:B0GY9TRH2V",
+      "loja": "amazon",
+      "nome": "Drone DJI Lito 1 Standard (Sem tela) Fotos 8K, Grava HDR 4K/60 FPS, Bateria 36 min, Até 15km, Vários modos, ActiveTrack,",
+      "data": "2026-10-16T15:10-03:00",
+      "link": "https://www.amazon.com.br/dp/B0GY9TRH2V?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0GY9TRH2V?tag=alphadominu09-20",
+      "titulo": "Drone DJI com gravação 4K e ActiveTrack",
+      "slot": 15
     }
   ],
   "slots_usados": {
@@ -2082,7 +2072,8 @@
       14,
       14.1,
       14.2,
-      14.3
+      14.3,
+      15
     ]
   },
   "shopee_buscado_em": "",
@@ -6761,6 +6752,18 @@
   },
   "ultimos": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B0GY9TRH2V",
+      "origem": "boletando",
+      "link": "https://www.amazon.com.br/dp/B0GY9TRH2V?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0GY9TRH2V?tag=alphadominu09-20",
+      "post_origem": "https://t.me/boletando/76818",
+      "foto": "AgACAgQAAxkDAAIEWWrSKwpBQ4FmwHnKL0toN6ks_kGKAALtDWsbq81cUhSL6LtQ2HAvAQADAgADeAADPQQ",
+      "nome": "Drone DJI Lito 1 Standard (Sem tela) Fotos 8K, Grava HDR 4K/60 FPS, Bateria 36 min, Até 15km, Vários modos, ActiveTrack,",
+      "por": 2729.0,
+      "titulo": "Drone DJI com gravação 4K e ActiveTrack"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB7245332674",
       "origem": "promonocontext",
@@ -7283,20 +7286,6 @@
       "de": 505.75,
       "foto": "AgACAgQAAxkDAAIDv2rQu_EtJI6Gzf8mXyXUL9Tmqu3DAAKCD2sbdb-FUso_B3InNxciAQADAgADeAADPQQ",
       "titulo": "Relógio Timex em couro para o dia a dia"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0DXF8MFR2",
-      "origem": "promooeasy",
-      "link": "https://link.amazon/B08XneOZz",
-      "link_produto": "https://link.amazon/B08XneOZz",
-      "post_origem": "https://t.me/promooeasy/221927",
-      "foto": "AgACAgQAAxkDAAIDtmrQrbC2yd3NNko7OlWWZ8S2k8IhAAIGEGsbgpXkU4V8X9G6WwjIAQADAgADeQADPQQ",
-      "nome": "Mochila Esportiva com Cordão, Separação seca e húmida, Mochila de grande capacidade para viagens de lazer, Bolsos Latera",
-      "por": 45.1,
-      "titulo": "Mochila com cordão para academia e viagens leves",
-      "de": 54.99,
-      "pix": true
     }
   ],
   "lixeira": [
