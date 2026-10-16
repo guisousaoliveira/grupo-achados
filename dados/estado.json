@@ -1793,26 +1793,6 @@
       "msg_id": 1095
     },
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB3280323716",
-      "origem": "promonocontext",
-      "link": "https://produto.mercadolivre.com.br/MLB-3280323716-kit-3-samba-canco-de-liganete-cueca-short-malha-fria-pijama-_JM?pdp_filters=item_id%3AMLB3280323716&matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-3280323716-kit-3-samba-canco-de-liganete-cueca-short-malha-fria-pijama-_JM?pdp_filters=item_id%3AMLB3280323716",
-      "post_origem": "https://t.me/promonocontext/127396",
-      "link_canal": "https://meli.la/2WYvcG7",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_690915-MLB104484132577_012026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Kit 3 Samba Canção De Liganete Cueca Short Malha Fria Pijama",
-      "por": 34.0,
-      "palavra": "cueca",
-      "garimpado_em": "2026-10-16T08:20-03:00",
-      "nota": 26.4,
-      "titulo": "Kit de samba-canção em malha fria para dormir",
-      "id": 641,
-      "na_revisao_desde": "2026-10-16T08:41-03:00",
-      "msg_id": 1096
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B0GVFB3TL2",
       "origem": "promobit",
@@ -6120,6 +6100,27 @@
   ],
   "lixeira": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB3280323716",
+      "origem": "promonocontext",
+      "link": "https://produto.mercadolivre.com.br/MLB-3280323716-kit-3-samba-canco-de-liganete-cueca-short-malha-fria-pijama-_JM?pdp_filters=item_id%3AMLB3280323716&matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-3280323716-kit-3-samba-canco-de-liganete-cueca-short-malha-fria-pijama-_JM?pdp_filters=item_id%3AMLB3280323716",
+      "post_origem": "https://t.me/promonocontext/127396",
+      "link_canal": "https://meli.la/2WYvcG7",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_690915-MLB104484132577_012026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Kit 3 Samba Canção De Liganete Cueca Short Malha Fria Pijama",
+      "por": 34.0,
+      "palavra": "cueca",
+      "garimpado_em": "2026-10-16T08:20-03:00",
+      "nota": 26.4,
+      "titulo": "Kit de samba-canção em malha fria para dormir",
+      "id": 641,
+      "na_revisao_desde": "2026-10-16T08:41-03:00",
+      "removido_em": "2026-10-16T08:51:12-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:1339888238.22599042883",
       "nome": "BASIKE 2026 Carregador Portátil 20000mAh - Carregamento Rápido 22.5W Power Bank Carregador Saída dupla",
@@ -6669,7 +6670,7 @@
       "promonocontext": {
         "achados": 1,
         "aprovados": 0,
-        "reprovados": 0
+        "reprovados": 1
       }
     }
   },
@@ -6788,7 +6789,7 @@
     "cueca": {
       "achados": 9,
       "aprovados": 0,
-      "reprovados": 8
+      "reprovados": 9
     },
     "echo dot": {
       "achados": 2,
