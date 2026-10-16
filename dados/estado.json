@@ -340,6 +340,28 @@
       "titulo": "Máquina para cabelo e barba com aparador nasal",
       "aprovado_sozinho": true,
       "aprovado_em": "2026-10-16T15:22-03:00"
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0HCRDWF9C",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0HCRDWF9C?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0HCRDWF9C?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/222912",
+      "link_canal": "https://www.amazon.com.br/dp/B0HCRDWF9C/ref=cm_sw_r_as_gl_apa_gl_i_dl_QSCFA7QPW7D0SV90XV6G?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAIEj2rSchgghb7rTMUjjNUPNZecbup_AALTD2sbuI6VUu3548OwnrCMAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "nome": "Toshiba Smart TV QLED FHD 50 Polegadas 50V45SS com Processador HG Inteligência Toshiba AI e Áudio Potente multicanal",
+      "por": 1875.0,
+      "lido_ia": true,
+      "preco_conferido": true,
+      "palavra": "smart tv",
+      "garimpado_em": "2026-10-16T14:50-03:00",
+      "nota": 16.8,
+      "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto",
+      "na_revisao_desde": "2026-10-16T15:51-03:00",
+      "de": 2099.99,
+      "aprovado_em": "2026-10-16T16:00-03:00"
     }
   ],
   "postados": [
@@ -2184,29 +2206,6 @@
       "id": 686,
       "na_revisao_desde": "2026-10-16T15:50-03:00",
       "msg_id": 1166
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0HCRDWF9C",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0HCRDWF9C?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0HCRDWF9C?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/222912",
-      "link_canal": "https://www.amazon.com.br/dp/B0HCRDWF9C/ref=cm_sw_r_as_gl_apa_gl_i_dl_QSCFA7QPW7D0SV90XV6G?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAIEj2rSchgghb7rTMUjjNUPNZecbup_AALTD2sbuI6VUu3548OwnrCMAQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "nome": "Toshiba Smart TV QLED FHD 50 Polegadas 50V45SS com Processador HG Inteligência Toshiba AI e Áudio Potente multicanal",
-      "por": 1875.0,
-      "lido_ia": true,
-      "preco_conferido": true,
-      "palavra": "smart tv",
-      "garimpado_em": "2026-10-16T14:50-03:00",
-      "nota": 16.8,
-      "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto",
-      "titulo": "Smart TV QLED para ver filmes na sala",
-      "id": 687,
-      "na_revisao_desde": "2026-10-16T15:51-03:00",
-      "msg_id": 1167
     }
   ],
   "proximo_id": 688,
@@ -8212,7 +8211,7 @@
       },
       "promooeasy": {
         "achados": 5,
-        "aprovados": 1,
+        "aprovados": 2,
         "reprovados": 1
       },
       "boletando": {
@@ -8436,7 +8435,7 @@
     },
     "smart tv": {
       "achados": 27,
-      "aprovados": 2,
+      "aprovados": 3,
       "reprovados": 22
     },
     "smartwatch": {
