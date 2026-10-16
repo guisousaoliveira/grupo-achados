@@ -211,6 +211,27 @@
       "titulo": "Pré-treino para dar mais energia nos exercícios",
       "aprovado_sozinho": true,
       "aprovado_em": "2026-10-16T00:14-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB7715359186",
+      "origem": "xetdaspromocoes",
+      "link": "https://meli.la/2GThwrL",
+      "link_produto": "https://meli.la/2GThwrL",
+      "post_origem": "https://t.me/xetdaspromocoes/85096",
+      "link_canal": "https://meli.la/1BjAX6m",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_750066-MLB118247275335_092026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Relógio De Pulso Masculino Minimalista Old Money Fortuna Marrom Cx",
+      "de": 199.0,
+      "por": 69.0,
+      "cupom": "FORTUNAOCULOS",
+      "palavra": "relogio",
+      "garimpado_em": "2026-10-15T21:40-03:00",
+      "nota": 82.4,
+      "titulo": "Relógio clássico para compor o visual casual masculino",
+      "na_revisao_desde": "2026-10-16T00:13-03:00",
+      "aprovado_em": "2026-10-16T00:25-03:00"
     }
   ],
   "postados": [
@@ -1703,28 +1724,6 @@
   },
   "shopee_buscado_em": "",
   "revisar": [
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB7715359186",
-      "origem": "xetdaspromocoes",
-      "link": "https://www.mercadolivre.com.br/relogio-de-pulso-masculino-minimalista-old-money-fortuna/up/MLBU5332535084?pdp_filters=item_id%3AMLB7715359186&matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/relogio-de-pulso-masculino-minimalista-old-money-fortuna/up/MLBU5332535084?pdp_filters=item_id%3AMLB7715359186",
-      "post_origem": "https://t.me/xetdaspromocoes/85096",
-      "link_canal": "https://meli.la/1BjAX6m",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_750066-MLB118247275335_092026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Relógio De Pulso Masculino Minimalista Old Money Fortuna Marrom Cx",
-      "de": 199.0,
-      "por": 69.0,
-      "cupom": "FORTUNAOCULOS",
-      "palavra": "relogio",
-      "garimpado_em": "2026-10-15T21:40-03:00",
-      "nota": 82.4,
-      "titulo": "Relógio clássico para compor o visual casual masculino",
-      "id": 632,
-      "na_revisao_desde": "2026-10-16T00:13-03:00",
-      "msg_id": 1062
-    },
     {
       "loja": "shopee",
       "chave": "shopee:1346435001.21098276188",
@@ -6808,7 +6807,7 @@
       },
       "xetdaspromocoes": {
         "achados": 8,
-        "aprovados": 4,
+        "aprovados": 5,
         "reprovados": 3
       },
       "pobregram": {
@@ -7022,7 +7021,7 @@
     },
     "relogio": {
       "achados": 11,
-      "aprovados": 2,
+      "aprovados": 3,
       "reprovados": 7
     },
     "smart tv": {
