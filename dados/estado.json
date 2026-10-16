@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "shopee",
-      "chave": "shopee:1604777172.57757302977",
-      "nome": "Câmera Veicular Full HD 1080p 3 Lentes (Frontal + Interna + Traseira) com Tela LCD | DVR Automotivo com Visão Noturna",
-      "por": 77.98,
-      "de": 199.95,
-      "foto": "https://cf.shopee.com.br/file/sg-11134201-82606-mlx59strsr9c41",
-      "link": "https://s.shopee.com.br/BUcolK1Hw",
-      "link_produto": "https://shopee.com.br/product/1604777172/57757302977",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.9,
-      "vendas": 115,
-      "palavra": "camera veicular",
-      "garimpado_em": "2026-10-16T17:11-03:00",
-      "nota": 76.2,
-      "titulo": "Câmera veicular de três lentes para segurança no trânsito",
-      "aprovado_sozinho": true,
-      "aprovado_em": "2026-10-16T17:20-03:00"
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB57821770",
       "origem": "urubupromo",
@@ -2171,6 +2149,20 @@
       "foto": "https://http2.mlstatic.com/D_NQ_NP_877163-MLB108958990473_032026-O.webp",
       "secao": "academia",
       "slot": 20.1
+    },
+    {
+      "chave": "shopee:1604777172.57757302977",
+      "loja": "shopee",
+      "nome": "Câmera Veicular Full HD 1080p 3 Lentes (Frontal + Interna + Traseira) com Tela LCD | DVR Automotivo com Visão Noturna",
+      "data": "2026-10-16T20:37-03:00",
+      "link": "https://s.shopee.com.br/BUcolK1Hw",
+      "link_produto": "https://shopee.com.br/product/1604777172/57757302977",
+      "titulo": "Câmera veicular de três lentes para segurança no trânsito",
+      "de": 199.95,
+      "por": 77.98,
+      "foto": "https://cf.shopee.com.br/file/sg-11134201-82606-mlx59strsr9c41",
+      "secao": "carro",
+      "slot": 20.2
     }
   ],
   "slots_usados": {
@@ -2289,7 +2281,8 @@
       19.2,
       19.3,
       20,
-      20.1
+      20.1,
+      20.2
     ]
   },
   "shopee_buscado_em": "",
@@ -7279,6 +7272,19 @@
   },
   "ultimos": [
     {
+      "loja": "shopee",
+      "chave": "shopee:1604777172.57757302977",
+      "nome": "Câmera Veicular Full HD 1080p 3 Lentes (Frontal + Interna + Traseira) com Tela LCD | DVR Automotivo com Visão Noturna",
+      "por": 77.98,
+      "de": 199.95,
+      "foto": "https://cf.shopee.com.br/file/sg-11134201-82606-mlx59strsr9c41",
+      "link": "https://s.shopee.com.br/BUcolK1Hw",
+      "link_produto": "https://shopee.com.br/product/1604777172/57757302977",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "titulo": "Câmera veicular de três lentes para segurança no trânsito"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB4239949261",
       "origem": "lobaopromo",
@@ -7802,19 +7808,6 @@
       "por": 69.0,
       "cupom": "FORTUNAOCULOS",
       "titulo": "Relógio clássico para compor o visual casual masculino"
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:834213091.58263387989",
-      "nome": "Pré Treino 300g Sabor Tangerina | GL Suplemento Alimentar em Pó | Beta-Alanina Cafeína Taurina L-Arginina",
-      "por": 34.99,
-      "de": 89.72,
-      "foto": "https://cf.shopee.com.br/file/br-11134207-820m0-mtckn7obygoy4b",
-      "link": "https://s.shopee.com.br/6VOfbJn6lL",
-      "link_produto": "https://shopee.com.br/product/834213091/58263387989",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "titulo": "Pré-treino para dar mais energia nos exercícios"
     }
   ],
   "lixeira": [
@@ -9400,5 +9393,5 @@
     }
   },
   "aviso_ml": "2026-10-16",
-  "vitrine_marca": "cd42bda3282e"
+  "vitrine_marca": "06b874a86f12"
 }
