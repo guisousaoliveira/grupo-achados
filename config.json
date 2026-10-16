@@ -259,7 +259,7 @@
   "ritmo": {
     "ligado": true,
     "min_minutos": 15,
-    "max_minutos": 60,
+    "max_minutos": 90,
     "pico": [
       12,
       13,
@@ -269,6 +269,7 @@
       22
     ],
     "fator_pico": 0.75,
-    "folga_minutos": 7
+    "folga_minutos": 7,
+    "fator_chegadas": 0.6
   }
 }
