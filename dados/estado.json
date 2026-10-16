@@ -2171,23 +2171,69 @@
       "id": 685,
       "na_revisao_desde": "2026-10-16T15:30-03:00",
       "msg_id": 1164
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0FPBP6G49",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0FPBP6G49?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0FPBP6G49?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/222905",
+      "link_canal": "https://www.amazon.com.br/dp/B0FPBP6G49/ref=cm_sw_r_as_gl_apa_gl_i_dl_XC1YEGVR2JYP1D1K4235?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAIEjmrSchHJDV70I-xxwgMOKwuhzUUUAAJQDWsbiTq0Uf_ueE50COGLAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "nome": "PHILIPS, Smart TV, Ambilight THE ONE 65\" 4K 144 Hz, Titan OS, 65PUG8929/78, P5, DTS Play-Fi, Freesync, Dolby Vision e At",
+      "por": 3898.0,
+      "lido_ia": true,
+      "sem_preco_loja": true,
+      "palavra": "smart tv",
+      "garimpado_em": "2026-10-16T14:40-03:00",
+      "nota": 16.8,
+      "motivo_revisao": "a loja não abriu para eu conferir o preço",
+      "titulo": "Smart TV 4K com Ambilight para a sala",
+      "id": 686,
+      "na_revisao_desde": "2026-10-16T15:50-03:00",
+      "msg_id": 1166
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0HCRDWF9C",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0HCRDWF9C?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0HCRDWF9C?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/222912",
+      "link_canal": "https://www.amazon.com.br/dp/B0HCRDWF9C/ref=cm_sw_r_as_gl_apa_gl_i_dl_QSCFA7QPW7D0SV90XV6G?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAIEj2rSchgghb7rTMUjjNUPNZecbup_AALTD2sbuI6VUu3548OwnrCMAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "nome": "Toshiba Smart TV QLED FHD 50 Polegadas 50V45SS com Processador HG Inteligência Toshiba AI e Áudio Potente multicanal",
+      "por": 1875.0,
+      "lido_ia": true,
+      "preco_conferido": true,
+      "palavra": "smart tv",
+      "garimpado_em": "2026-10-16T14:50-03:00",
+      "nota": 16.8,
+      "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto",
+      "titulo": "Smart TV QLED para ver filmes na sala",
+      "id": 687,
+      "na_revisao_desde": "2026-10-16T15:51-03:00",
+      "msg_id": 1167
     }
   ],
-  "proximo_id": 686,
+  "proximo_id": 688,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 85223,
-      "lobaopromo": 190426,
-      "gatunopromos": 125735,
+      "xetdaspromocoes": 85225,
+      "lobaopromo": 190428,
+      "gatunopromos": 125738,
       "pobregram": 42019,
-      "urubupromo": 41784,
+      "urubupromo": 41785,
       "tudonapromo": 102181,
-      "promonocontext": 127690,
-      "promooeasy": 222959,
-      "aquitempechincha": 282166,
-      "infoBRpromos": 67701,
+      "promonocontext": 127693,
+      "promooeasy": 222969,
+      "aquitempechincha": 282170,
+      "infoBRpromos": 67702,
       "boletando": 76838,
-      "promotop": 260381,
+      "promotop": 260382,
       "achadosdotb": 11786
     },
     "dia": "2026-10-16",
@@ -4306,27 +4352,27 @@
       "amazon:B0H7635R71"
     ],
     "ultima": {
-      "em": "2026-10-16T15:40:18-03:00",
+      "em": "2026-10-16T15:50:21-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 27,
-      "do_nicho": 7,
-      "repetidas": 5,
-      "novas": 1,
+      "posts_novos": 47,
+      "do_nicho": 4,
+      "repetidas": 4,
+      "novas": 0,
       "limite_dia": false,
-      "repetidas_nome": 1,
+      "repetidas_nome": 0,
       "promobit": 0,
-      "soltas": 0,
-      "na_peneira": 11
+      "soltas": 2,
+      "na_peneira": 9
     },
     "hora": "2026-10-16T15",
     "nesta_hora": 9,
     "promobit_hora": "2026-10-16T15",
     "promobit_nesta_hora": 2,
-    "promobit_visto": 3119549,
+    "promobit_visto": 3119598,
     "nomes": [
       [
         [
@@ -6520,46 +6566,35 @@
           "32a4nv"
         ],
         "2026-10-16T15:30-03:00"
+      ],
+      [
+        [
+          "philips",
+          "smart",
+          "tv",
+          "ambilight",
+          "one",
+          "65",
+          "4k",
+          "144"
+        ],
+        "2026-10-16T15:50-03:00"
+      ],
+      [
+        [
+          "toshiba",
+          "smart",
+          "tv",
+          "qled",
+          "fhd",
+          "50",
+          "polegadas",
+          "50v45ss"
+        ],
+        "2026-10-16T15:50-03:00"
       ]
     ],
     "peneira": [
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB46379611",
-        "origem": "promooeasy",
-        "link": "https://www.mercadolivre.com.br/relogio-technos-masculino-racer-dourado-2315law1x/p/MLB46379611?matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/relogio-technos-masculino-racer-dourado-2315law1x/p/MLB46379611",
-        "post_origem": "https://t.me/promooeasy/222835",
-        "link_canal": "https://meli.la/2cuqonC",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_661832-MLA116378710782_092026-O.webp",
-        "foto_origem": "loja",
-        "nome": "Relógio Technos Masculino Racer Dourado",
-        "por": 214.53,
-        "lido_ia": true,
-        "cupom": "OFFHOJE",
-        "palavra": "relogio",
-        "garimpado_em": "2026-10-16T12:51-03:00",
-        "nota": 38.6
-      },
-      {
-        "loja": "shopee",
-        "chave": "shopee:1807254461.58209939065",
-        "nome": "Mini Liquidificador Portátil Shake 6 Laminas + Cabo USB-SE3095",
-        "por": 21.99,
-        "de": 49.98,
-        "foto": "https://cf.shopee.com.br/file/br-11134207-820m9-mnos8p7e5ukk09",
-        "link": "https://s.shopee.com.br/1BCrDOwvG",
-        "link_produto": "https://shopee.com.br/product/1807254461/58209939065",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 4.7,
-        "vendas": 248,
-        "palavra": "liquidificador portatil",
-        "garimpado_em": "2026-10-16T12:51-03:00",
-        "nota": 70.7
-      },
       {
         "loja": "shopee",
         "chave": "shopee:1183527021.55905009214",
@@ -6597,42 +6632,6 @@
         "palavra": "alexa",
         "garimpado_em": "2026-10-16T14:11-03:00",
         "nota": 61.9
-      },
-      {
-        "loja": "amazon",
-        "chave": "amazon:B0FPBP6G49",
-        "origem": "promooeasy",
-        "link": "https://www.amazon.com.br/dp/B0FPBP6G49?tag=alphadominu09-20",
-        "link_produto": "https://www.amazon.com.br/dp/B0FPBP6G49?tag=alphadominu09-20",
-        "post_origem": "https://t.me/promooeasy/222905",
-        "link_canal": "https://www.amazon.com.br/dp/B0FPBP6G49/ref=cm_sw_r_as_gl_apa_gl_i_dl_XC1YEGVR2JYP1D1K4235?tag=promof26-20",
-        "foto": "https://m.media-amazon.com/images/I/71F+cUtLJGL._AC_SL1500_.jpg",
-        "foto_origem": "loja",
-        "nome": "PHILIPS, Smart TV, Ambilight THE ONE 65\" 4K 144 Hz, Titan OS, 65PUG8929/78, P5, DTS Play-Fi, Freesync, Dolby Vision e At",
-        "por": 3898.0,
-        "lido_ia": true,
-        "sem_preco_loja": true,
-        "palavra": "smart tv",
-        "garimpado_em": "2026-10-16T14:40-03:00",
-        "nota": 16.8
-      },
-      {
-        "loja": "amazon",
-        "chave": "amazon:B0HCRDWF9C",
-        "origem": "promooeasy",
-        "link": "https://www.amazon.com.br/dp/B0HCRDWF9C?tag=alphadominu09-20",
-        "link_produto": "https://www.amazon.com.br/dp/B0HCRDWF9C?tag=alphadominu09-20",
-        "post_origem": "https://t.me/promooeasy/222912",
-        "link_canal": "https://www.amazon.com.br/dp/B0HCRDWF9C/ref=cm_sw_r_as_gl_apa_gl_i_dl_QSCFA7QPW7D0SV90XV6G?tag=promof26-20",
-        "foto": "https://m.media-amazon.com/images/I/81xWZT8E1pL._AC_SL1500_.jpg",
-        "foto_origem": "loja",
-        "nome": "Toshiba Smart TV QLED FHD 50 Polegadas 50V45SS com Processador HG Inteligência Toshiba AI e Áudio Potente multicanal",
-        "por": 1875.0,
-        "lido_ia": true,
-        "preco_conferido": true,
-        "palavra": "smart tv",
-        "garimpado_em": "2026-10-16T14:50-03:00",
-        "nota": 16.8
       },
       {
         "loja": "mercadolivre",
@@ -6738,17 +6737,17 @@
       }
     ],
     "soltas_hora": "2026-10-16T15",
-    "soltas": 6,
-    "shopee_em": "2026-10-16T15:30-03:00",
-    "shopee_indice": 28,
+    "soltas": 8,
+    "shopee_em": "2026-10-16T15:51-03:00",
+    "shopee_indice": 36,
     "soltas_dia_data": "2026-10-16",
-    "soltas_dia": 54,
+    "soltas_dia": 56,
     "soltas_loja": {
       "shopee": 2,
       "mercadolivre": 3,
-      "amazon": 1
+      "amazon": 3
     },
-    "soltas_vez": "2026-10-16T15:2"
+    "soltas_vez": "2026-10-16T15:3"
   },
   "ultimos": [
     {
@@ -8222,7 +8221,7 @@
         "reprovados": 0
       },
       "promooeasy": {
-        "achados": 3,
+        "achados": 5,
         "aprovados": 1,
         "reprovados": 1
       },
@@ -8243,7 +8242,7 @@
       }
     }
   },
-  "aviso_post": "2026-10-16 15:35|amazon:B0977QVRJS",
+  "aviso_post": "2026-10-16 15:55|mercadolivre:MLB7218965676",
   "garimpo_palavras": {
     "academia": {
       "achados": 29,
@@ -8446,7 +8445,7 @@
       "reprovados": 7
     },
     "smart tv": {
-      "achados": 25,
+      "achados": 27,
       "aprovados": 2,
       "reprovados": 22
     },
