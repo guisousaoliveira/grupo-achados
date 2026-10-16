@@ -2,31 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB3409386341",
-      "origem": "xetdaspromocoes",
-      "link": "https://meli.la/1hbJzq8",
-      "link_produto": "https://www.mercadolivre.com.br/relogio-casio-digital-vintage-prata-unissex-original-barato/up/MLBU1444693825?pdp_filters=item_id%3AMLB3409386341",
-      "post_origem": "https://t.me/xetdaspromocoes/85207",
-      "link_canal": "https://meli.la/2t2GcAT",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_981501-MLB115302231556_082026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Relógio Casio Digital Vintage Prata Unissex Original Barato Prata",
-      "de": 499.0,
-      "por": 155.0,
-      "lido_ia": true,
-      "cupom": "OFFHOJE",
-      "preco_conferido": true,
-      "preco_cupom": true,
-      "preco_sem_cupom": 172.5,
-      "palavra": "relogio",
-      "garimpado_em": "2026-10-16T14:30-03:00",
-      "nota": 97.0,
-      "titulo": "Relógio vintage prata para o dia a dia",
-      "aprovado_sozinho": true,
-      "aprovado_em": "2026-10-16T14:31-03:00"
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B0GXX1XDWZ",
       "origem": "promobit",
@@ -2111,6 +2086,16 @@
       "link_produto": "https://shopee.com.br/product/1725907431/58215881722",
       "titulo": "Bicicleta ergométrica para pedalar em casa com praticidade",
       "slot": 17.1
+    },
+    {
+      "chave": "mercadolivre:MLB3409386341",
+      "loja": "mercadolivre",
+      "nome": "Relógio Casio Digital Vintage Prata Unissex Original Barato Prata",
+      "data": "2026-10-16T17:32-03:00",
+      "link": "https://meli.la/1hbJzq8",
+      "link_produto": "https://www.mercadolivre.com.br/relogio-casio-digital-vintage-prata-unissex-original-barato/up/MLBU1444693825?pdp_filters=item_id%3AMLB3409386341",
+      "titulo": "Relógio vintage prata para o dia a dia",
+      "slot": 17.2
     }
   ],
   "slots_usados": {
@@ -2217,7 +2202,8 @@
       16.2,
       16.3,
       17,
-      17.1
+      17.1,
+      17.2
     ]
   },
   "shopee_buscado_em": "",
@@ -7040,6 +7026,20 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB3409386341",
+      "origem": "xetdaspromocoes",
+      "link": "https://meli.la/1hbJzq8",
+      "link_produto": "https://www.mercadolivre.com.br/relogio-casio-digital-vintage-prata-unissex-original-barato/up/MLBU1444693825?pdp_filters=item_id%3AMLB3409386341",
+      "post_origem": "https://t.me/xetdaspromocoes/85207",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_981501-MLB115302231556_082026-O.webp",
+      "nome": "Relógio Casio Digital Vintage Prata Unissex Original Barato Prata",
+      "de": 499.0,
+      "por": 155.0,
+      "cupom": "OFFHOJE",
+      "titulo": "Relógio vintage prata para o dia a dia"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:1725907431.58215881722",
       "nome": "Bicicleta Ergométrica para Ginástica em Casa com Monitor Digital Resistente Capacidade de 120kg - V3/2",
@@ -7562,20 +7562,6 @@
       "origem": "shopee",
       "fonte": "shopee",
       "titulo": "Trena de aço carbono para medições em reformas"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB4770821247",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/1cU5Jk2",
-      "link_produto": "https://meli.la/1cU5Jk2",
-      "post_origem": "https://t.me/lobaopromo/189863",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_624325-MLB113140259889_062026-O.webp",
-      "nome": "Chave De Impacto A Bateria 48v Profissional Amarelo 48v",
-      "pix": true,
-      "de": 280.0,
-      "por": 158.0,
-      "titulo": "Chave de impacto para apertar parafusos pesados na oficina"
     }
   ],
   "lixeira": [
