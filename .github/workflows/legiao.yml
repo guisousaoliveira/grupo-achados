@@ -11,6 +11,14 @@ on:
         type: choice
         options: [carrossel, reel]
         default: carrossel
+      motivo:
+        description: motivo da recusa (a Íris preenche quando você recusa e explica)
+        required: false
+        default: ""
+      pasta:
+        description: post recusado que vai ser refeito
+        required: false
+        default: ""
 
 permissions:
   contents: write  # guarda o post na branch legiao-posts pra Íris publicar
@@ -54,6 +62,8 @@ jobs:
           LEGIAO_TELEGRAM_TOKEN: ${{ secrets.LEGIAO_TELEGRAM_TOKEN }}
           LEGIAO_CHAT_ID: ${{ secrets.LEGIAO_CHAT_ID }}
           GOOGLE_SA_JSON: ${{ secrets.GOOGLE_SA_JSON }}
+          MOTIVO: ${{ inputs.motivo }}
+          PASTA: ${{ inputs.pasta }}
         run: python3 ${{ (inputs.tipo || 'carrossel') == 'reel' && 'reel.py' || 'rodar.py' }}
       - name: Guardar os temas dos Reels
         if: success() && hashFiles('legiao/historico_reel.json') != ''

@@ -17,6 +17,7 @@
   "pasta_musicas_drive": "1C4R3RmpyRv3i-iVyzXX2ecmAJFUSCsvR",
   "duracao_video": 5,
   "duracao_final": 2,
-  "max_caracteres_frase": 110
+  "max_caracteres_frase": 110,
+  "escurecer": 0.45
  }
 }

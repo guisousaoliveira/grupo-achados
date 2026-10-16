@@ -74,20 +74,63 @@ def avisar(texto):
     tg("sendMessage", {"chat_id": CHAT, "text": texto, "disable_web_page_preview": True})
 
 
+def refazer(pasta, status, sha, motivo):
+    """Manda a Legião fazer de novo esse post, levando em conta o motivo da recusa."""
+    status["aguardando_motivo"] = False
+    gravar_status(pasta, status, sha)
+    http(f"https://api.github.com/repos/{REPO}/actions/workflows/legiao.yml/dispatches",
+         {"ref": "main", "inputs": {"tipo": status.get("tipo", "carrossel"), "motivo": motivo[:900], "pasta": pasta}},
+         cabecalhos=GH)
+
+
+def ler_motivo(texto):
+    """Sua mensagem depois de um ❌ vira o motivo, e a Legião refaz o post."""
+    hoje = datetime.now(BRT)
+    candidatos = []
+    for dia in (hoje.strftime("%Y-%m-%d"), (hoje - timedelta(days=1)).strftime("%Y-%m-%d")):
+        for pasta in (dia, f"{dia}-reel"):
+            status, sha = ler_status(pasta)
+            if status and status.get("aguardando_motivo"):
+                candidatos.append((status.get("recusado_em", ""), pasta, status, sha))
+    if not candidatos:
+        return
+    _, pasta, status, sha = max(candidatos)
+    nome = "Reel" if status.get("tipo") == "reel" else "carrossel"
+    if texto.strip().lower().rstrip(".!").startswith(("não refaz", "nao refaz", "não precisa", "nao precisa")):
+        status["aguardando_motivo"] = False
+        gravar_status(pasta, status, sha)
+        avisar(f"Ok, sem {nome} hoje.")
+        return
+    refazer(pasta, status, sha, texto)
+    avisar(f"🔁 Entendi. Refazendo o {nome} com base nisso; a nova versão chega aqui em alguns minutos.")
+
+
 def ler_botoes():
-    """Processa os cliques em ✅/❌ e confirma pro Telegram que já foram lidos."""
-    updates = tg("getUpdates", {"timeout": 0, "allowed_updates": ["callback_query"]}).get("result", [])
+    """Processa os cliques em ✅/❌ (e o motivo depois de um ❌) e confirma pro Telegram que já foram lidos."""
+    updates = tg("getUpdates", {"timeout": 0, "allowed_updates": ["callback_query", "message"]}).get("result", [])
     for u in updates:
+        msg = u.get("message") or {}
+        if msg.get("text") and str(msg.get("from", {}).get("id")) == str(CHAT) and not msg["text"].startswith("/"):
+            ler_motivo(msg["text"])
+            continue
         cb = u.get("callback_query")
         if not cb or not str(cb.get("data", "")).startswith("lg:") or str(cb["from"]["id"]) != str(CHAT):
             continue
         _, acao, dia = cb["data"].split(":", 2)
+        if acao == "x":
+            tg("answerCallbackQuery", {"callback_query_id": cb["id"]})
+            continue
         status, sha = ler_status(dia)
         if not status:
             tg("answerCallbackQuery", {"callback_query_id": cb["id"], "text": "Não achei esse post."})
             continue
+        pediu_motivo = False
         if status["status"] in ("pendente", "aprovado", "recusado"):
+            pediu_motivo = acao == "no" and status["status"] != "recusado"
             status["status"] = "aprovado" if acao == "ok" else "recusado"
+            status["aguardando_motivo"] = pediu_motivo
+            if pediu_motivo:
+                status["recusado_em"] = datetime.now(BRT).isoformat()
             gravar_status(dia, status, sha)
         resposta = {"aprovado": f"✅ Aprovado! Posto às {status.get('horario', 18)}h.",
                     "recusado": "❌ Recusado, não vou postar."}.get(status["status"], "Esse já foi postado.")
@@ -96,6 +139,9 @@ def ler_botoes():
         if msg:
             tg("editMessageReplyMarkup", {"chat_id": msg["chat"]["id"], "message_id": msg["message_id"],
                                           "reply_markup": {"inline_keyboard": [[{"text": resposta, "callback_data": "lg:x:-"}]]}})
+        if pediu_motivo:
+            avisar("❌ O que não ficou bom? Me manda em uma mensagem (ex.: \"tema fraco\", \"frase muito longa\", "
+                   "\"clipe não combina\") que eu refaço. Se não quiser outro, manda \"não refaz\".")
     if updates:
         tg("getUpdates", {"offset": updates[-1]["update_id"] + 1, "timeout": 0})
 
