@@ -2,26 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB44745787",
-      "origem": "promonocontext",
-      "link": "https://meli.la/1An4KWG",
-      "link_produto": "https://meli.la/1An4KWG",
-      "post_origem": "https://t.me/promonocontext/127087",
-      "link_canal": "https://meli.la/2ywQm9R",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_850271-MLA118397071941_092026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Relógio Masculino Orient Prateado Quartzo Analógico Fundo Preto Prova",
-      "de": 499.0,
-      "por": 275.0,
-      "palavra": "relogio masculino",
-      "garimpado_em": "2026-10-15T12:40-03:00",
-      "nota": 76.1,
-      "titulo": "Relógio analógico prateado para uso diário",
-      "na_revisao_desde": "2026-10-15T22:06-03:00",
-      "aprovado_em": "2026-10-15T22:07-03:00"
-    },
-    {
       "loja": "shopee",
       "chave": "shopee:874482610.58209603177",
       "nome": "Luva de Academia Musculação Treino Max Grip Protetor de Pegada Antiderrapante 4 Dedos",
@@ -1713,6 +1693,16 @@
       "link": "https://meli.la/2E81dt9",
       "link_produto": "https://meli.la/2E81dt9",
       "titulo": "Spinning para manter o cardio em dia"
+    },
+    {
+      "chave": "mercadolivre:MLB44745787",
+      "loja": "mercadolivre",
+      "nome": "Relógio Masculino Orient Prateado Quartzo Analógico Fundo Preto Prova",
+      "data": "2026-10-16T10:06-03:00",
+      "link": "https://meli.la/1An4KWG",
+      "link_produto": "https://meli.la/1An4KWG",
+      "titulo": "Relógio analógico prateado para uso diário",
+      "slot": 10
     }
   ],
   "slots_usados": {
@@ -1794,7 +1784,8 @@
     "2026-10-16": [
       8,
       9,
-      9.1
+      9.1,
+      10
     ]
   },
   "shopee_buscado_em": "",
@@ -5704,6 +5695,19 @@
   "ultimos": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB44745787",
+      "origem": "promonocontext",
+      "link": "https://meli.la/1An4KWG",
+      "link_produto": "https://meli.la/1An4KWG",
+      "post_origem": "https://t.me/promonocontext/127087",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_850271-MLA118397071941_092026-O.webp",
+      "nome": "Relógio Masculino Orient Prateado Quartzo Analógico Fundo Preto Prova",
+      "de": 499.0,
+      "por": 275.0,
+      "titulo": "Relógio analógico prateado para uso diário"
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB77830516",
       "origem": "promonocontext",
       "link": "https://meli.la/2E81dt9",
@@ -6231,19 +6235,6 @@
       "por": 115.0,
       "prime": true,
       "titulo": "Smartwatch esportivo para monitorar suas atividades diárias"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0HH4RGVG5",
-      "origem": "promooeasy",
-      "link": "https://link.amazon/B0eqVuUgV",
-      "link_produto": "https://link.amazon/B0eqVuUgV",
-      "post_origem": "https://t.me/promooeasy/221930",
-      "nome": "Kit Halteres Ajustável 6 em 1 15kg com Barra, Kettlebell e Suporte Flexões",
-      "foto": "AgACAgQAAxkDAAIDuGrQrbSRwhJjhldI9txuGMoGllSwAAJaEGsbGzpkUYd9pJ2A5KP2AQADAgADeQADPQQ",
-      "cupom": "BR15OFFPROMO",
-      "por": 180.4,
-      "pix": true
     }
   ],
   "lixeira": [
