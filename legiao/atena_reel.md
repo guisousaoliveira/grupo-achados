@@ -7,7 +7,7 @@ Revise o Reel abaixo (a "frase" aparece na tela sobre um clipe, a "legenda" vai 
 2. Fato inventado: estudo, estatística, porcentagem, pesquisa, ou ideia atribuída a um autor que não é dele.
 3. Frase fraca: sem gancho, genérica, ou que não promete o que a legenda entrega. Legenda sem passo a passo prático em tópicos "•".
 4. Português errado ou frase confusa.
-5. Legenda sem "{CTA}".
+5. Legenda que termina cortada ou solta; sem chamada de ação pro curso com uma das palavras-chave ({CTA}); ou sem a linha do canal de promoções no link da bio. A palavra "achados" é proibida.
 6. Tema repetido destes já postados: {HISTORICO}
 
 Seja exigente, mas não reprove por gosto pessoal: só reprove por um problema concreto, e diga exatamente o que mudar.
