@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "amazon",
-      "chave": "amazon:B0FPBQQ4TN",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B0FPBQQ4TN?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0FPBQQ4TN?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/philips-smart-tv-ambilight-55-4k-titan-os-55pug810078-comando-de-voz-hdr10-dolby-atmos-vrrallm-bluetooth-3118977/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3118977/",
-      "nome": "PHILIPS, Smart TV Ambilight 55\" 4K, Titan OS, 55PUG810078, Comando de",
-      "por": 2423.88,
-      "de": 3199.0,
-      "foto": "https://m.media-amazon.com/images/I/61HN+7ldJnL._AC_SL1500_.jpg",
-      "foto_origem": "loja",
-      "palavra": "smart tv",
-      "garimpado_em": "2026-10-16T12:50-03:00",
-      "nota": 37.1,
-      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
-      "titulo": "Smart TV 4K com Ambilight para a sala",
-      "na_revisao_desde": "2026-10-16T14:50-03:00",
-      "aprovado_em": "2026-10-16T15:20-03:00"
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB54422844",
       "origem": "promonocontext",
@@ -2082,6 +2060,16 @@
       "link_produto": "https://www.mercadolivre.com.br/whey-protein-bold-sabor-cookies-cream-900g/p/MLB48812123",
       "titulo": "Whey sabor cookies para bater a proteína diária",
       "slot": 18.1
+    },
+    {
+      "chave": "amazon:B0FPBQQ4TN",
+      "loja": "amazon",
+      "nome": "PHILIPS, Smart TV Ambilight 55\" 4K, Titan OS, 55PUG810078, Comando de",
+      "data": "2026-10-16T18:33-03:00",
+      "link": "https://www.amazon.com.br/dp/B0FPBQQ4TN?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0FPBQQ4TN?tag=alphadominu09-20",
+      "titulo": "Smart TV 4K com Ambilight para a sala",
+      "slot": 18.2
     }
   ],
   "slots_usados": {
@@ -2192,7 +2180,8 @@
       17.2,
       17.3,
       18,
-      18.1
+      18.1,
+      18.2
     ]
   },
   "shopee_buscado_em": "",
@@ -7220,6 +7209,20 @@
   },
   "ultimos": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B0FPBQQ4TN",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0FPBQQ4TN?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0FPBQQ4TN?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/philips-smart-tv-ambilight-55-4k-titan-os-55pug810078-comando-de-voz-hdr10-dolby-atmos-vrrallm-bluetooth-3118977/",
+      "nome": "PHILIPS, Smart TV Ambilight 55\" 4K, Titan OS, 55PUG810078, Comando de",
+      "por": 2423.88,
+      "de": 3199.0,
+      "foto": "https://m.media-amazon.com/images/I/61HN+7ldJnL._AC_SL1500_.jpg",
+      "titulo": "Smart TV 4K com Ambilight para a sala"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB48812123",
       "origem": "promonocontext",
@@ -7744,19 +7747,6 @@
       "origem": "shopee",
       "fonte": "shopee",
       "titulo": "Halteres ajustáveis para montar sua academia em casa"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB47773451",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/2f5WXFQ",
-      "link_produto": "https://meli.la/2f5WXFQ",
-      "post_origem": "https://t.me/lobaopromo/189877",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_765890-MLA83597837473_042025-O.webp",
-      "nome": "Smartwatch Bluetooth Anfei Smartwatch com Alexa e função de chamada",
-      "por": 91.95,
-      "de": 199.9,
-      "titulo": "Smartwatch com Alexa e chamadas para o pulso"
     }
   ],
   "lixeira": [
