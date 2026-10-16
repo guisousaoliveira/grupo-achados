@@ -2,31 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB57821770",
-      "origem": "urubupromo",
-      "link": "https://meli.la/199ssBp",
-      "link_produto": "https://www.mercadolivre.com.br/air-fryer-oven-16l-wap-multi-comb-digital-wafc16-painel-touch-220v/p/MLB57821770",
-      "post_origem": "https://t.me/urubupromo/41782",
-      "link_canal": "https://meli.la/1NZpfew",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_831624-MLA93384203743_092025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Air fryer Oven 16L Wap Multi-Comb Digital WAFC16 Painel Touch 220V",
-      "por": 431.32,
-      "lido_ia": true,
-      "cupom": "OFFHOJE",
-      "preco_conferido": true,
-      "preco_cupom": true,
-      "preco_sem_cupom": 479.24,
-      "palavra": "air fryer",
-      "garimpado_em": "2026-10-16T15:10-03:00",
-      "nota": 38.9,
-      "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto",
-      "titulo": "Fritadeira oven espaçosa para assar porções grandes",
-      "na_revisao_desde": "2026-10-16T16:31-03:00",
-      "aprovado_em": "2026-10-16T19:01-03:00"
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B07DP2S4PC",
       "origem": "pobregram",
@@ -2269,6 +2244,22 @@
       "secao": "carro",
       "slot": 20.2,
       "foto_site_ok": true
+    },
+    {
+      "chave": "mercadolivre:MLB57821770",
+      "loja": "mercadolivre",
+      "nome": "Air fryer Oven 16L Wap Multi-Comb Digital WAFC16 Painel Touch 220V",
+      "data": "2026-10-16T20:53-03:00",
+      "link": "https://meli.la/199ssBp",
+      "link_produto": "https://www.mercadolivre.com.br/air-fryer-oven-16l-wap-multi-comb-digital-wafc16-painel-touch-220v/p/MLB57821770",
+      "titulo": "Fritadeira oven espaçosa para assar porções grandes",
+      "por": 431.32,
+      "cupom": "OFFHOJE",
+      "conferido": true,
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_831624-MLA93384203743_092025-O.webp",
+      "secao": "casa",
+      "slot": 20.3,
+      "foto_site_ok": true
     }
   ],
   "slots_usados": {
@@ -2388,7 +2379,8 @@
       19.3,
       20,
       20.1,
-      20.2
+      20.2,
+      20.3
     ]
   },
   "shopee_buscado_em": "",
@@ -7477,6 +7469,19 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB57821770",
+      "origem": "urubupromo",
+      "link": "https://meli.la/199ssBp",
+      "link_produto": "https://www.mercadolivre.com.br/air-fryer-oven-16l-wap-multi-comb-digital-wafc16-painel-touch-220v/p/MLB57821770",
+      "post_origem": "https://t.me/urubupromo/41782",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_831624-MLA93384203743_092025-O.webp",
+      "nome": "Air fryer Oven 16L Wap Multi-Comb Digital WAFC16 Painel Touch 220V",
+      "por": 431.32,
+      "cupom": "OFFHOJE",
+      "titulo": "Fritadeira oven espaçosa para assar porções grandes"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:1604777172.57757302977",
       "nome": "Câmera Veicular Full HD 1080p 3 Lentes (Frontal + Interna + Traseira) com Tela LCD | DVR Automotivo com Visão Noturna",
@@ -7999,20 +8004,6 @@
       "origem": "shopee",
       "fonte": "shopee",
       "titulo": "Pré-treino para dar mais energia nos exercícios"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB7715359186",
-      "origem": "xetdaspromocoes",
-      "link": "https://meli.la/2GThwrL",
-      "link_produto": "https://meli.la/2GThwrL",
-      "post_origem": "https://t.me/xetdaspromocoes/85096",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_750066-MLB118247275335_092026-O.webp",
-      "nome": "Relógio De Pulso Masculino Minimalista Old Money Fortuna Marrom Cx",
-      "de": 199.0,
-      "por": 69.0,
-      "cupom": "FORTUNAOCULOS",
-      "titulo": "Relógio clássico para compor o visual casual masculino"
     }
   ],
   "lixeira": [
@@ -9598,5 +9589,5 @@
     }
   },
   "aviso_ml": "2026-10-16",
-  "vitrine_marca": "5fde23d80786"
+  "vitrine_marca": "1b25adb0d159"
 }
