@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "shopee",
-      "chave": "shopee:1485783605.23493921552",
-      "nome": "Fita Métrica Fluorescente Aço Carbono 10M/7.5m Autotravante- Trena Precisão c/Trava p/ Construção/Reforma",
-      "por": 29.99,
-      "de": 88.21,
-      "foto": "https://cf.shopee.com.br/file/br-11134207-820lh-mos89g2zrcp22f",
-      "link": "https://s.shopee.com.br/qkINRKX3M",
-      "link_produto": "https://shopee.com.br/product/1485783605/23493921552",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.8,
-      "vendas": 319,
-      "palavra": "trena",
-      "garimpado_em": "2026-10-15T14:41-03:00",
-      "nota": 86.6,
-      "titulo": "Trena de aço carbono para medições em reformas",
-      "aprovado_sozinho": true,
-      "aprovado_em": "2026-10-15T15:41-03:00"
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB21362449",
       "origem": "xetdaspromocoes",
@@ -1622,6 +1600,16 @@
       "link": "https://meli.la/1cU5Jk2",
       "link_produto": "https://meli.la/1cU5Jk2",
       "titulo": "Chave de impacto para apertar parafusos pesados na oficina"
+    },
+    {
+      "chave": "shopee:1485783605.23493921552",
+      "loja": "shopee",
+      "nome": "Fita Métrica Fluorescente Aço Carbono 10M/7.5m Autotravante- Trena Precisão c/Trava p/ Construção/Reforma",
+      "data": "2026-10-15T22:19-03:00",
+      "link": "https://s.shopee.com.br/qkINRKX3M",
+      "link_produto": "https://shopee.com.br/product/1485783605/23493921552",
+      "titulo": "Trena de aço carbono para medições em reformas",
+      "slot": 22
     }
   ],
   "slots_usados": {
@@ -1696,7 +1684,8 @@
       18,
       19,
       20,
-      21
+      21,
+      22
     ]
   },
   "shopee_buscado_em": "",
@@ -5816,6 +5805,19 @@
   },
   "ultimos": [
     {
+      "loja": "shopee",
+      "chave": "shopee:1485783605.23493921552",
+      "nome": "Fita Métrica Fluorescente Aço Carbono 10M/7.5m Autotravante- Trena Precisão c/Trava p/ Construção/Reforma",
+      "por": 29.99,
+      "de": 88.21,
+      "foto": "https://cf.shopee.com.br/file/br-11134207-820lh-mos89g2zrcp22f",
+      "link": "https://s.shopee.com.br/qkINRKX3M",
+      "link_produto": "https://shopee.com.br/product/1485783605/23493921552",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "titulo": "Trena de aço carbono para medições em reformas"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB4770821247",
       "origem": "lobaopromo",
@@ -6343,19 +6345,6 @@
       "fonte": "shopee",
       "titulo": "Bicicleta ergométrica para treino em casa com monitor",
       "pix": true
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB26989230",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/2HUgV4i",
-      "link_produto": "https://meli.la/2HUgV4i",
-      "post_origem": "https://t.me/lobaopromo/189391",
-      "foto": "AgACAgQAAxkDAAIDaGrPsJbc_yCeM1721foEv2MaUbIQAAKdDmsbTLu9U-H36ZmWWAFBAQADAgADeAADPQQ",
-      "nome": "Creatina Soldiers Nutrition em pó Sem sabor x 600g",
-      "de": 129.0,
-      "por": 50.0,
-      "titulo": "Creatina em pó para o seu treino diário"
     }
   ],
   "lixeira": [
