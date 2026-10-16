@@ -2,27 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB47773451",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/2f5WXFQ",
-      "link_produto": "https://meli.la/2f5WXFQ",
-      "post_origem": "https://t.me/lobaopromo/189877",
-      "link_canal": "https://meli.la/33GvKVn",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_765890-MLA83597837473_042025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Smartwatch Bluetooth Anfei Smartwatch com Alexa e função de chamada",
-      "por": 91.95,
-      "de": 199.9,
-      "palavra": "smartwatch",
-      "garimpado_em": "2026-10-15T13:51-03:00",
-      "nota": 72.9,
-      "titulo": "Smartwatch com Alexa e chamadas para o pulso",
-      "na_revisao_desde": "2026-10-15T14:41-03:00",
-      "aprovado_em": "2026-10-15T15:53-03:00",
-      "aviso_validade": true
-    },
-    {
       "loja": "shopee",
       "chave": "shopee:1638805020.58264360363",
       "nome": "Kit Halteres Ajustáveis 15kg Musculação 6 em 1 Barra Kettlebell Anilhas Academia em Casa Treino",
@@ -1700,6 +1679,15 @@
       "link": "https://s.shopee.com.br/113iZkJtiR",
       "link_produto": "https://shopee.com.br/product/995022276/23798435779",
       "titulo": "Grampeador com trena para tapeçaria e pequenos reparos"
+    },
+    {
+      "chave": "mercadolivre:MLB47773451",
+      "loja": "mercadolivre",
+      "nome": "Smartwatch Bluetooth Anfei Smartwatch com Alexa e função de chamada",
+      "data": "2026-10-16T08:06-03:00",
+      "link": "https://meli.la/2f5WXFQ",
+      "link_produto": "https://meli.la/2f5WXFQ",
+      "titulo": "Smartwatch com Alexa e chamadas para o pulso"
     }
   ],
   "slots_usados": {
@@ -5487,6 +5475,19 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB47773451",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/2f5WXFQ",
+      "link_produto": "https://meli.la/2f5WXFQ",
+      "post_origem": "https://t.me/lobaopromo/189877",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_765890-MLA83597837473_042025-O.webp",
+      "nome": "Smartwatch Bluetooth Anfei Smartwatch com Alexa e função de chamada",
+      "por": 91.95,
+      "de": 199.9,
+      "titulo": "Smartwatch com Alexa e chamadas para o pulso"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:995022276.23798435779",
       "nome": "Grampeador Tapeceiro com Trena 2 Metros + 1000 Grampos e Maleta",
@@ -6013,19 +6014,6 @@
       "origem": "shopee",
       "fonte": "shopee",
       "titulo": "Relógio digital esportivo à prova d'água"
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:994175276.22593202844",
-      "nome": "Drone E88 Dual Camera 4K Com 1 Bateria WI-FI PRETO NOVO",
-      "por": 129.97,
-      "de": 464.18,
-      "foto": "AgACAgQAAxkDAAIDXmrPophdNp8CjHPrhky-Sctt0XjpAAJ3uTEbGbzdUO7Y5-DA9QYcAQADAgADeAADPQQ",
-      "link": "https://s.shopee.com.br/1qcnf9wDxI",
-      "link_produto": "https://shopee.com.br/product/994175276/22593202844",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "titulo": "Drone com câmera dupla para filmagens aéreas"
     }
   ],
   "lixeira": [
