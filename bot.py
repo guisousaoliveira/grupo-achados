@@ -736,11 +736,11 @@ def chave_ia():
     return segredo("GEMINI_LEGIAO_KEY") or segredo("GEMINI_API_KEY")
 
 
-def gemini(corpo, timeout=30, modelo_fixo=None):
+def gemini(corpo, timeout=30, modelo_fixo=None, chave=None):
     """Chama a Gemini e devolve o texto da resposta. Se o modelo do config não existir mais (404),
     descobre sozinho um modelo "flash" que a chave tem. Levanta ErroIA com o motivo, se não der.
     modelo_fixo: tenta esse primeiro (ex.: o Flash-Lite, mais barato, para ler post) sem trocar o das chamadas."""
-    chave = chave_ia()
+    chave = chave or chave_ia()
     if not chave:
         raise ErroIA("sem a chave GEMINI_API_KEY")
     candidatos = list(dict.fromkeys(([modelo_fixo] if modelo_fixo else []) + _modelo_ia
@@ -2217,6 +2217,7 @@ def _valor_ia(v):
 
 
 _lidos_ia = {}
+_gratis_acabou = []  # a cota grátis acabou nesta rodada: vai direto na chave paga
 
 
 def ler_post_ia(texto):
@@ -2230,8 +2231,19 @@ def ler_post_ia(texto):
     corpo = {"contents": [{"parts": [{"text": LER_POST + texto[:3000]}]}],
              "generationConfig": {"temperature": 0, "responseMimeType": "application/json"}}
     modelo = CONFIG.get("ia", {}).get("modelo_leitura", "gemini-flash-lite-latest")  # ler post: o mais barato basta
+    gratis, paga = segredo("GEMINI_API_KEY"), segredo("GEMINI_LEGIAO_KEY")
+    resposta = None
+    if gratis and gratis != paga and not _gratis_acabou:
+        # Primeiro a chave grátis (o Flash-Lite tem cota grátis grande); a paga só quando ela acabar.
+        try:
+            resposta = gemini(corpo, modelo_fixo=modelo, chave=gratis)
+        except Exception as e:
+            _gratis_acabou.append(True)  # não insiste nesta rodada
+            log(f"IA grátis não leu o post ({e}); uso a chave paga.")
     try:
-        dados = json.loads(re.sub(r"^```(?:json)?|```$", "", gemini(corpo, modelo_fixo=modelo).strip()).strip())
+        if resposta is None:
+            resposta = gemini(corpo, modelo_fixo=modelo, chave=paga or gratis)
+        dados = json.loads(re.sub(r"^```(?:json)?|```$", "", resposta.strip()).strip())
     except Exception as e:
         log(f"IA não leu o post ({e}).")
         return {}
