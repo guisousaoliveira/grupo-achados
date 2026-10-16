@@ -3,27 +3,6 @@
   "fila": [
     {
       "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB7218965676",
-      "origem": "promonocontext",
-      "link": "https://meli.la/1cHHDPs",
-      "link_produto": "https://www.mercadolivre.com.br/relogio-poedagar-suico--masculino-aco-inox-old-money-ccaixa/up/MLBU4370134385?pdp_filters=item_id%3AMLB7218965676",
-      "post_origem": "https://t.me/promonocontext/127634",
-      "link_canal": "https://meli.la/2fjtFRb",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_760581-MLB114915939023_072026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Relógio Poedagar Suiço Masculino Aço Inox Old Money C/caixa Branco",
-      "de": 249.0,
-      "por": 95.0,
-      "lido_ia": true,
-      "palavra": "relogio",
-      "garimpado_em": "2026-10-16T12:40-03:00",
-      "nota": 79.2,
-      "titulo": "Visual old money com acabamento em aço inox",
-      "na_revisao_desde": "2026-10-16T12:41-03:00",
-      "aprovado_em": "2026-10-16T12:43-03:00"
-    },
-    {
-      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB5226420562",
       "origem": "xetdaspromocoes",
       "link": "https://meli.la/2DqDMRn",
@@ -2045,6 +2024,16 @@
       "link_produto": "https://www.amazon.com.br/dp/B0977QVRJS?tag=alphadominu09-20",
       "titulo": "Timex com mostrador de fácil leitura no escuro",
       "slot": 15.2
+    },
+    {
+      "chave": "mercadolivre:MLB7218965676",
+      "loja": "mercadolivre",
+      "nome": "Relógio Poedagar Suiço Masculino Aço Inox Old Money C/caixa Branco",
+      "data": "2026-10-16T15:55-03:00",
+      "link": "https://meli.la/1cHHDPs",
+      "link_produto": "https://www.mercadolivre.com.br/relogio-poedagar-suico--masculino-aco-inox-old-money-ccaixa/up/MLBU4370134385?pdp_filters=item_id%3AMLB7218965676",
+      "titulo": "Visual old money com acabamento em aço inox",
+      "slot": 15.3
     }
   ],
   "slots_usados": {
@@ -2144,7 +2133,8 @@
       14.3,
       15,
       15.1,
-      15.2
+      15.2,
+      15.3
     ]
   },
   "shopee_buscado_em": "",
@@ -6751,6 +6741,19 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB7218965676",
+      "origem": "promonocontext",
+      "link": "https://meli.la/1cHHDPs",
+      "link_produto": "https://www.mercadolivre.com.br/relogio-poedagar-suico--masculino-aco-inox-old-money-ccaixa/up/MLBU4370134385?pdp_filters=item_id%3AMLB7218965676",
+      "post_origem": "https://t.me/promonocontext/127634",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_760581-MLB114915939023_072026-O.webp",
+      "nome": "Relógio Poedagar Suiço Masculino Aço Inox Old Money C/caixa Branco",
+      "de": 249.0,
+      "por": 95.0,
+      "titulo": "Visual old money com acabamento em aço inox"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0977QVRJS",
       "origem": "promobit",
@@ -7271,19 +7274,6 @@
       "de": 349.0,
       "por": 229.0,
       "titulo": "Cafeteira e torradeira que agilizam suas manhãs"
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:1620616375.23194887818",
-      "nome": "Máquina de Cortar Cabelo Profissional Sem Fio Aparador de Barba Recarregável",
-      "por": 19.99,
-      "de": 68.93,
-      "foto": "https://cf.shopee.com.br/file/sg-11134201-8260x-mlnnm5mx651g09",
-      "link": "https://s.shopee.com.br/2VsWGx81Ve",
-      "link_produto": "https://shopee.com.br/product/1620616375/23194887818",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "titulo": "Aparador sem fio para cabelo e barba"
     }
   ],
   "lixeira": [
