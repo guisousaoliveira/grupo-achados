@@ -1925,28 +1925,6 @@
   "revisar": [
     {
       "loja": "amazon",
-      "chave": "amazon:B0DJH2LQ1T",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B0DJH2LQ1T?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0DJH2LQ1T?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/smartwatch-huawei-watch-d2-monitoramento-da-pressao-arterial-design-leve-e-fino-gerenciamento-completo-de-saude-c-3118750/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3118750/",
-      "nome": "Smartwatch HUAWEI Watch D2 Monitoramento da Pressão Arterial Design",
-      "por": 2270.47,
-      "de": 2999.0,
-      "foto": "AgACAgQAAxkDAAIEXmrSNn_bx8Ts6DwWBl0jkfwFsfBoAALgEGsbI1tsUHjbRq96Pm1iAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "palavra": "smartwatch",
-      "garimpado_em": "2026-10-16T11:35-03:00",
-      "nota": 52.4,
-      "titulo": "Smartwatch Huawei para monitorar sua pressão arterial",
-      "id": 656,
-      "na_revisao_desde": "2026-10-16T11:36-03:00",
-      "msg_id": 1118
-    },
-    {
-      "loja": "amazon",
       "chave": "amazon:B0HCRPPXB1",
       "origem": "promobit",
       "fonte": "promobit",
@@ -6861,6 +6839,29 @@
   ],
   "lixeira": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B0DJH2LQ1T",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0DJH2LQ1T?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0DJH2LQ1T?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/smartwatch-huawei-watch-d2-monitoramento-da-pressao-arterial-design-leve-e-fino-gerenciamento-completo-de-saude-c-3118750/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3118750/",
+      "nome": "Smartwatch HUAWEI Watch D2 Monitoramento da Pressão Arterial Design",
+      "por": 2270.47,
+      "de": 2999.0,
+      "foto": "AgACAgQAAxkDAAIEXmrSNn_bx8Ts6DwWBl0jkfwFsfBoAALgEGsbI1tsUHjbRq96Pm1iAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "palavra": "smartwatch",
+      "garimpado_em": "2026-10-16T11:35-03:00",
+      "nota": 52.4,
+      "titulo": "Smartwatch Huawei para monitorar sua pressão arterial",
+      "id": 656,
+      "na_revisao_desde": "2026-10-16T11:36-03:00",
+      "removido_em": "2026-10-16T11:42:37-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:1049231391.50552073819",
       "nome": "Agenda 2027 Diária Capa Dura Espiral Planner - Diversas Capas 336 Páginas",
@@ -7592,7 +7593,7 @@
       "promobit": {
         "achados": 4,
         "aprovados": 0,
-        "reprovados": 2
+        "reprovados": 3
       },
       "promonocontext": {
         "achados": 5,
@@ -7826,7 +7827,7 @@
     "smartwatch": {
       "achados": 10,
       "aprovados": 4,
-      "reprovados": 5
+      "reprovados": 6
     },
     "suplemento": {
       "achados": 4,
