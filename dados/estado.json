@@ -285,29 +285,6 @@
       "titulo": "Airfryer oven 11L para assar refeições completas",
       "na_revisao_desde": "2026-10-16T19:01-03:00",
       "aprovado_em": "2026-10-16T19:01-03:00"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0H8R6S35S",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0H8R6S35S?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0H8R6S35S?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/223164",
-      "link_canal": "https://www.amazon.com.br/Halteres-Ajust%C3%A1veis-Anilhas-Kettlebell-Flex%C3%A3o/dp/B0H8R6S35S?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAIEumrSqkZQVteNZOY605zZOCxo_RnSAAI7D2sb2Ts1UbKDgKs_gRAGAQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "nome": "Halteres Ajustáveis Kit 6 em 1 até 10 kg com Barra Longa",
-      "pix": true,
-      "por": 169.0,
-      "lido_ia": true,
-      "preco_conferido": true,
-      "palavra": "halter",
-      "garimpado_em": "2026-10-16T19:40-03:00",
-      "nota": 33.6,
-      "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto",
-      "titulo": "Kit de halteres ajustáveis para treinar em casa",
-      "na_revisao_desde": "2026-10-16T19:50-03:00",
-      "aprovado_em": "2026-10-16T19:58-03:00"
     }
   ],
   "postados": [
@@ -2197,6 +2174,20 @@
       "conferido": true,
       "foto": "https://http2.mlstatic.com/D_NQ_NP_759638-MLA105504310884_012026-O.webp",
       "secao": "tech"
+    },
+    {
+      "chave": "amazon:B0H8R6S35S",
+      "loja": "amazon",
+      "nome": "Halteres Ajustáveis Kit 6 em 1 até 10 kg com Barra Longa",
+      "data": "2026-10-16T20:07-03:00",
+      "link": "https://www.amazon.com.br/dp/B0H8R6S35S?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0H8R6S35S?tag=alphadominu09-20",
+      "titulo": "Kit de halteres ajustáveis para treinar em casa",
+      "por": 169.0,
+      "pix": true,
+      "conferido": true,
+      "foto": "https://images-na.ssl-images-amazon.com/images/P/B0H8R6S35S.01.LZZZZZZZ.jpg",
+      "secao": "academia"
     }
   ],
   "slots_usados": {
@@ -7243,6 +7234,19 @@
   },
   "ultimos": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B0H8R6S35S",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0H8R6S35S?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0H8R6S35S?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/223164",
+      "foto": "AgACAgQAAxkDAAIEumrSqkZQVteNZOY605zZOCxo_RnSAAI7D2sb2Ts1UbKDgKs_gRAGAQADAgADeQADPQQ",
+      "nome": "Halteres Ajustáveis Kit 6 em 1 até 10 kg com Barra Longa",
+      "pix": true,
+      "por": 169.0,
+      "titulo": "Kit de halteres ajustáveis para treinar em casa"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB65063041",
       "origem": "lobaopromo",
@@ -7767,19 +7771,6 @@
       "de": 700.0,
       "por": 299.0,
       "titulo": "Lavadora de alta pressão para limpeza de quintal e garagem"
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:874482610.58209603177",
-      "nome": "Luva de Academia Musculação Treino Max Grip Protetor de Pegada Antiderrapante 4 Dedos",
-      "por": 14.98,
-      "de": 99.87,
-      "foto": "AgACAgQAAxkDAAID42rRAj3uVLPiSRkjUqozPDVDdGHIAAJrDmsbTLhtUR-MaqOJNQGOAQADAgADeAADPQQ",
-      "link": "https://s.shopee.com.br/5VW7p5ZoKL",
-      "link_produto": "https://shopee.com.br/product/874482610/58209603177",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "titulo": "Luva antiderrapante para proteger as mãos no treino"
     }
   ],
   "lixeira": [
@@ -9365,5 +9356,5 @@
     }
   },
   "aviso_ml": "2026-10-16",
-  "vitrine_marca": "284d77bdf704"
+  "vitrine_marca": "2e32c8e9da12"
 }
