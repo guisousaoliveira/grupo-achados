@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB48812123",
-      "origem": "promonocontext",
-      "link": "https://meli.la/2U2VHix",
-      "link_produto": "https://www.mercadolivre.com.br/whey-protein-bold-sabor-cookies-cream-900g/p/MLB48812123",
-      "post_origem": "https://t.me/promonocontext/127661",
-      "link_canal": "https://meli.la/1qPW23Q",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_650074-MLA100047343909_122025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Whey Protein Bold Sabor Cookies & Cream 900g",
-      "de": 299.0,
-      "por": 209.0,
-      "lido_ia": true,
-      "preco_conferido": true,
-      "palavra": "whey",
-      "garimpado_em": "2026-10-16T14:11-03:00",
-      "nota": 56.0,
-      "titulo": "Whey sabor cookies para bater a proteína diária",
-      "aprovado_sozinho": true,
-      "aprovado_em": "2026-10-16T15:01-03:00"
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B0FPBQQ4TN",
       "origem": "promobit",
@@ -2094,6 +2072,16 @@
       "link_produto": "https://shopee.com.br/product/400888689/54165736119",
       "titulo": "Termogênico com cafeína e vitaminas para dar energia no trei",
       "slot": 18
+    },
+    {
+      "chave": "mercadolivre:MLB48812123",
+      "loja": "mercadolivre",
+      "nome": "Whey Protein Bold Sabor Cookies & Cream 900g",
+      "data": "2026-10-16T18:21-03:00",
+      "link": "https://meli.la/2U2VHix",
+      "link_produto": "https://www.mercadolivre.com.br/whey-protein-bold-sabor-cookies-cream-900g/p/MLB48812123",
+      "titulo": "Whey sabor cookies para bater a proteína diária",
+      "slot": 18.1
     }
   ],
   "slots_usados": {
@@ -2203,7 +2191,8 @@
       17.1,
       17.2,
       17.3,
-      18
+      18,
+      18.1
     ]
   },
   "shopee_buscado_em": "",
@@ -7209,6 +7198,19 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB48812123",
+      "origem": "promonocontext",
+      "link": "https://meli.la/2U2VHix",
+      "link_produto": "https://www.mercadolivre.com.br/whey-protein-bold-sabor-cookies-cream-900g/p/MLB48812123",
+      "post_origem": "https://t.me/promonocontext/127661",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_650074-MLA100047343909_122025-O.webp",
+      "nome": "Whey Protein Bold Sabor Cookies & Cream 900g",
+      "de": 299.0,
+      "por": 209.0,
+      "titulo": "Whey sabor cookies para bater a proteína diária"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:400888689.54165736119",
       "nome": "Suplemento Termogênico Ultra 60 Cápsulas | Cafeína, Taurina, Guaraná e Cromo + Vitaminas C e E",
@@ -7733,19 +7735,6 @@
       "por": 91.95,
       "de": 199.9,
       "titulo": "Smartwatch com Alexa e chamadas para o pulso"
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:995022276.23798435779",
-      "nome": "Grampeador Tapeceiro com Trena 2 Metros + 1000 Grampos e Maleta",
-      "por": 43.96,
-      "de": 118.81,
-      "foto": "AgACAgQAAxkDAAID8GrRHjNd25GAsP54x4M50-FF0C21AAO6MRsnRYRTg2lS249ON3ABAAMCAAN5AAM9BA",
-      "link": "https://s.shopee.com.br/113iZkJtiR",
-      "link_produto": "https://shopee.com.br/product/995022276/23798435779",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "titulo": "Grampeador com trena para tapeçaria e pequenos reparos"
     }
   ],
   "lixeira": [
