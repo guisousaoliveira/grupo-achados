@@ -105,6 +105,15 @@ def ler_motivo(texto):
     avisar(f"🔁 Entendi. Refazendo o {nome} com base nisso; a nova versão chega aqui em alguns minutos.")
 
 
+def gerar_carrossel_do_dia(dia):
+    """Aprovou o Reel: já gera o carrossel do dia (se ainda não foi gerado), sem esperar as 15h."""
+    if ler_status(dia)[0]:
+        return
+    http(f"https://api.github.com/repos/{REPO}/actions/workflows/legiao.yml/dispatches",
+         {"ref": "main", "inputs": {"tipo": "carrossel"}}, cabecalhos=GH)
+    avisar("🦁 Já estou fazendo o carrossel de hoje; chega aqui em alguns minutos pra você aprovar.")
+
+
 def ler_botoes():
     """Processa os cliques em ✅/❌ (e o motivo depois de um ❌) e confirma pro Telegram que já foram lidos."""
     updates = tg("getUpdates", {"timeout": 0, "allowed_updates": ["callback_query", "message"]}).get("result", [])
@@ -132,13 +141,16 @@ def ler_botoes():
             if pediu_motivo:
                 status["recusado_em"] = datetime.now(BRT).isoformat()
             gravar_status(dia, status, sha)
-        resposta = {"aprovado": f"✅ Aprovado! Posto às {status.get('horario', 18)}h.",
+        ja_passou = datetime.now(BRT).hour >= int(status.get("horario", 18)) or status.get("dia", "") < datetime.now(BRT).strftime("%Y-%m-%d")
+        resposta = {"aprovado": "✅ Aprovado! Posto em instantes." if ja_passou else f"✅ Aprovado! Posto às {status.get('horario', 18)}h.",
                     "recusado": "❌ Recusado, não vou postar."}.get(status["status"], "Esse já foi postado.")
         tg("answerCallbackQuery", {"callback_query_id": cb["id"], "text": resposta})
         msg = cb.get("message") or {}
         if msg:
             tg("editMessageReplyMarkup", {"chat_id": msg["chat"]["id"], "message_id": msg["message_id"],
                                           "reply_markup": {"inline_keyboard": [[{"text": resposta, "callback_data": "lg:x:-"}]]}})
+        if acao == "ok" and status.get("tipo") == "reel" and status["status"] == "aprovado":
+            gerar_carrossel_do_dia(status.get("dia", dia[:10]))
         if pediu_motivo:
             avisar("❌ O que não ficou bom? Me manda em uma mensagem (ex.: \"tema fraco\", \"frase muito longa\", "
                    "\"clipe não combina\") que eu refaço. Se não quiser outro, manda \"não refaz\".")
