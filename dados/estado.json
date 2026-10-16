@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB5579293332",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/32zWAwY",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-5579293332-kit-com-3-conjuntos-academia-masculino-dry-fit-shortscamisa-_JM?pdp_filters=item_id%3AMLB5579293332",
-      "post_origem": "https://t.me/lobaopromo/190226",
-      "link_canal": "https://meli.la/2KAqmgL",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_726770-MLB110302024394_052026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Kit Com 3 Conjuntos Academia Masculino Dry Fit Shorts+camisa",
-      "pix": true,
-      "de": 156.25,
-      "por": 109.08,
-      "lido_ia": true,
-      "palavra": "academia",
-      "garimpado_em": "2026-10-16T09:21-03:00",
-      "nota": 56.6,
-      "titulo": "Conjuntos dry fit respiráveis ideais nos treinos diários",
-      "na_revisao_desde": "2026-10-16T10:41-03:00",
-      "aprovado_em": "2026-10-16T10:43-03:00"
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B0FLQ54RHB",
       "origem": "boletando",
@@ -1913,6 +1891,16 @@
       "link_produto": "https://meli.la/2D8vKNH",
       "titulo": "Cuecas boxer sem costura que não incomodam",
       "slot": 13.3
+    },
+    {
+      "chave": "mercadolivre:MLB5579293332",
+      "loja": "mercadolivre",
+      "nome": "Kit Com 3 Conjuntos Academia Masculino Dry Fit Shorts+camisa",
+      "data": "2026-10-16T14:08-03:00",
+      "link": "https://meli.la/32zWAwY",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-5579293332-kit-com-3-conjuntos-academia-masculino-dry-fit-shortscamisa-_JM?pdp_filters=item_id%3AMLB5579293332",
+      "titulo": "Conjuntos dry fit respiráveis ideais nos treinos diários",
+      "slot": 14
     }
   ],
   "slots_usados": {
@@ -2005,7 +1993,8 @@
       13,
       13.1,
       13.2,
-      13.3
+      13.3,
+      14
     ]
   },
   "shopee_buscado_em": "",
@@ -6639,6 +6628,20 @@
   "ultimos": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB5579293332",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/32zWAwY",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-5579293332-kit-com-3-conjuntos-academia-masculino-dry-fit-shortscamisa-_JM?pdp_filters=item_id%3AMLB5579293332",
+      "post_origem": "https://t.me/lobaopromo/190226",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_726770-MLB110302024394_052026-O.webp",
+      "nome": "Kit Com 3 Conjuntos Academia Masculino Dry Fit Shorts+camisa",
+      "pix": true,
+      "de": 156.25,
+      "por": 109.08,
+      "titulo": "Conjuntos dry fit respiráveis ideais nos treinos diários"
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB1010954920",
       "origem": "lobaopromo",
       "link": "https://meli.la/2D8vKNH",
@@ -7161,19 +7164,6 @@
       "de": 209.9,
       "foto": "AgACAgQAAxkDAAIDrWrQnh8UI3YII8dylbjZ3t-gY81JAAJSDmsbqaLNUB7uuVFtNFEHAQADAgADeQADPQQ",
       "titulo": "Furadeira de impacto potente"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB79915624",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/1bB8SKy",
-      "link_produto": "https://meli.la/1bB8SKy",
-      "post_origem": "https://t.me/lobaopromo/189703",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_636676-MLA116721406480_092026-O.webp",
-      "nome": "Kit Ferramentas 46 Peças Jogo Chaves Catraca Soquetes Allen Torx",
-      "de": 54.0,
-      "por": 31.9,
-      "titulo": "Kit de ferramentas para reparos e manutenções caseiras"
     }
   ],
   "lixeira": [
