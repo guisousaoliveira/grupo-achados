@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB4770821247",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/1cU5Jk2",
-      "link_produto": "https://meli.la/1cU5Jk2",
-      "post_origem": "https://t.me/lobaopromo/189863",
-      "link_canal": "https://meli.la/26TRhbF",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_624325-MLB113140259889_062026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Chave De Impacto A Bateria 48v Profissional Amarelo 48v",
-      "pix": true,
-      "de": 280.0,
-      "por": 142.0,
-      "cupom": "FULL1510",
-      "palavra": "chave de impacto",
-      "garimpado_em": "2026-10-15T13:00-03:00",
-      "nota": 68.4,
-      "titulo": "Chave de impacto para apertar parafusos pesados na oficina",
-      "na_revisao_desde": "2026-10-15T14:41-03:00",
-      "aprovado_em": "2026-10-15T15:40-03:00"
-    },
-    {
       "loja": "shopee",
       "chave": "shopee:1485783605.23493921552",
       "nome": "Fita Métrica Fluorescente Aço Carbono 10M/7.5m Autotravante- Trena Precisão c/Trava p/ Construção/Reforma",
@@ -1615,6 +1593,15 @@
       "link": "https://s.shopee.com.br/3LRd5XjwkI",
       "link_produto": "https://shopee.com.br/product/333540705/23494070884",
       "titulo": "Lavadora de alta pressão para limpeza pesada em casa"
+    },
+    {
+      "chave": "mercadolivre:MLB4770821247",
+      "loja": "mercadolivre",
+      "nome": "Chave De Impacto A Bateria 48v Profissional Amarelo 48v",
+      "data": "2026-10-15T22:04-03:00",
+      "link": "https://meli.la/1cU5Jk2",
+      "link_produto": "https://meli.la/1cU5Jk2",
+      "titulo": "Chave de impacto para apertar parafusos pesados na oficina"
     }
   ],
   "slots_usados": {
@@ -5787,6 +5774,20 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB4770821247",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/1cU5Jk2",
+      "link_produto": "https://meli.la/1cU5Jk2",
+      "post_origem": "https://t.me/lobaopromo/189863",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_624325-MLB113140259889_062026-O.webp",
+      "nome": "Chave De Impacto A Bateria 48v Profissional Amarelo 48v",
+      "pix": true,
+      "de": 280.0,
+      "por": 158.0,
+      "titulo": "Chave de impacto para apertar parafusos pesados na oficina"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:333540705.23494070884",
       "nome": "Lavadora De Alta Pressão Com Trava De Segurança Ágil 1800 1300psi 1400w Wap",
@@ -6313,20 +6314,6 @@
       "de": 129.0,
       "por": 50.0,
       "titulo": "Creatina em pó para o seu treino diário"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB1841927467",
-      "origem": "promonocontext",
-      "link": "https://meli.la/1tiaJWi",
-      "link_produto": "https://meli.la/1tiaJWi",
-      "post_origem": "https://t.me/promonocontext/126823",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_601114-MLB107054773924_022026-O.webp",
-      "nome": "Camisa Polo Masculina Ogochi Original Slim Camiseta",
-      "de": 118.0,
-      "por": 68.0,
-      "cupom": "MELIGARANTE",
-      "titulo": "Camisa polo slim para o dia a dia"
     }
   ],
   "lixeira": [
