@@ -37,6 +37,7 @@ jobs:
           SHOPEE_APP_ID: ${{ secrets.SHOPEE_APP_ID }}
           SHOPEE_SECRET: ${{ secrets.SHOPEE_SECRET }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_LEGIAO_KEY: ${{ secrets.GEMINI_LEGIAO_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BOT_RADAR_FORCADO: ${{ inputs.radar_forcado }}
           BOT_PEDIDO: ${{ inputs.pedido }}

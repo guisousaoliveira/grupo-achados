@@ -729,10 +729,15 @@ def _modelos_disponiveis(chave, com_lite=False):
     return sorted(bons, key=versao, reverse=True)
 
 
+def chave_ia():
+    """A chave paga (a mesma da Legião, sem a cota grátis que acabava todo dia) se existir; senão a grátis."""
+    return segredo("GEMINI_LEGIAO_KEY") or segredo("GEMINI_API_KEY")
+
+
 def gemini(corpo, timeout=30):
     """Chama a Gemini e devolve o texto da resposta. Se o modelo do config não existir mais (404),
     descobre sozinho um modelo "flash" que a chave tem. Levanta ErroIA com o motivo, se não der."""
-    chave = segredo("GEMINI_API_KEY")
+    chave = chave_ia()
     if not chave:
         raise ErroIA("sem a chave GEMINI_API_KEY")
     candidatos = list(dict.fromkeys(_modelo_ia + [CONFIG.get("ia", {}).get("modelo", "gemini-flash-latest"),
@@ -870,7 +875,7 @@ def titulos_recentes(estado):
 
 def gerar_titulo(item, recentes=()):
     """Chamada curta para o topo do post, feita pela IA. "" se a IA não responder (aí vai a chamada reserva)."""
-    chave = segredo("GEMINI_API_KEY")
+    chave = chave_ia()
     if not chave or SIMULAR:
         return ""
     pedido = ("Escreva UMA chamada curta (até 8 palavras) em português do Brasil para o topo de um post de oferta "
@@ -957,6 +962,11 @@ def mandar_para_revisao(estado, item):
         texto += f"\n\n📡 Achei no {canal}. Confira o preço antes de aprovar: {html.escape(item.get('link_produto', ''))}"
     if item.get("aviso_preco"):
         texto += "\n⚠️ O post do canal tinha dois preços muito diferentes. Usei o maior: confira o preço na loja."
+    if item.get("preco_loja"):
+        texto += (f"\n⚠️ O post diz {reais(item['por'])}, mas a loja mostra {reais(item['preco_loja'])} agora. "
+                  f"Se a loja estiver certa, responda <code>preço: {str(item['preco_loja']).replace('.', ',')}</code>")
+    elif item.get("preco_conferido"):
+        texto += "\n✅ Preço conferido na loja agora."
     if item.get("precisa_link"):
         texto += ("\n🔗 Gere o <b>seu</b> link desse produto no painel de afiliado e responda esta mensagem com "
                   "<code>link: https://...</code>")
@@ -998,6 +1008,7 @@ def aplicar_correcao(item, texto):
             item["de"], item["por"] = de, por
             if not de:
                 item.pop("de", None)
+            item.pop("preco_loja", None)  # você corrigiu: o aviso "a loja mostra outro preço" sai
         elif campo == "de":
             item["de"] = _preco(valor)
         elif campo == "por":
@@ -1110,22 +1121,40 @@ def intercalar_fila(estado):
 
 
 def aprovar_sozinha(estado, item):
-    """Shopee pela API vai direto para a fila (sem Revisar) quando está tudo certo: chamada feita pela IA, desconto
-    entre 20% e 90% (config aprovar_desconto_max), nota 4.7+, 100+ vendas, foto e preço.
-    config shopee.aprovar_sozinho = false desliga."""
+    """Vai direto para a fila (sem Revisar) quando está tudo certo:
+    - Shopee pela API: desconto entre 20% e 90% (config aprovar_desconto_max), nota 4.7+, 100+ vendas.
+      config shopee.aprovar_sozinho = false desliga.
+    - Amazon e Mercado Livre dos canais: a IA leu o post e o preço bateu com o que a loja mostra agora,
+      foto oficial da loja e o seu link. config radar.aprovar_conferidas.ligado = false desliga.
+    Nos dois casos precisa da chamada feita pela IA, e para quando a fila já cobre o dia."""
     regras = CONFIG.get("shopee", {})
-    if not (item.get("shopee_api") and regras.get("aprovar_sozinho")):
-        return False
-    if len(estado["fila"]) >= regras.get("aprovar_fila_max", 16):  # fila já cobre o dia: você escolhe no Revisar
-        return False
-    shopee = sum(1 for x in estado["fila"] if x.get("loja") == "shopee")
-    if shopee >= max(2, len(estado["fila"]) * regras.get("aprovar_fila_parte", 0.5)):  # Shopee já é metade da fila
-        return False
+    fila_max = regras.get("aprovar_fila_max", 16)
     de, por = item.get("de"), item.get("por")
     off = round((1 - por / de) * 100) if de and por and de > por else 0
-    if not (regras.get("desconto_minimo", 20) <= off <= regras.get("aprovar_desconto_max", 90)):
+    if item.get("shopee_api"):
+        if not regras.get("aprovar_sozinho"):
+            return False
+        shopee = sum(1 for x in estado["fila"] if x.get("loja") == "shopee")
+        if shopee >= max(2, len(estado["fila"]) * regras.get("aprovar_fila_parte", 0.5)):  # Shopee já é metade da fila
+            return False
+        if not (regras.get("desconto_minimo", 20) <= off <= regras.get("aprovar_desconto_max", 90)):
+            return False
+        if item.get("avaliacao", 0) < regras.get("nota_minima", 4.7) or item.get("vendas", 0) < regras.get("vendas_minimas", 100):
+            return False
+        motivo = "Shopee"
+    elif item.get("preco_conferido") and item.get("lido_ia"):
+        conf = CONFIG.get("radar", {}).get("aprovar_conferidas", {})
+        if not conf.get("ligado"):
+            return False
+        fila_max = conf.get("fila_max", fila_max)
+        if not (conf.get("desconto_minimo", 10) <= off <= conf.get("desconto_max", 80)):
+            return False
+        if item.get("foto_origem") != "loja":
+            return False
+        motivo = {"amazon": "Amazon", "mercadolivre": "Mercado Livre"}.get(item.get("loja"), "canal") + ", preço conferido na loja"
+    else:
         return False
-    if item.get("avaliacao", 0) < regras.get("nota_minima", 4.7) or item.get("vendas", 0) < regras.get("vendas_minimas", 100):
+    if len(estado["fila"]) >= fila_max:  # fila já cobre o dia: você escolhe no Revisar
         return False
     if faltando(item) or not item.get("foto") or not item.get("link"):
         return False
@@ -1138,8 +1167,8 @@ def aprovar_sozinha(estado, item):
     item.setdefault("garimpado_em", agora().isoformat(timespec="minutes"))
     item["aprovado_sozinho"] = True
     resposta = aprovar(estado, item)
-    log(f"Shopee aprovada sozinha: {item['nome'][:60]} ({off}% off).")
-    responder_admin(f"🤖 Aprovei sozinho (Shopee): <b>{html.escape(item['titulo'])}</b>\n📦 {html.escape(item['nome'])}\n"
+    log(f"Aprovada sozinha ({motivo}): {item['nome'][:60]} ({off}% off).")
+    responder_admin(f"🤖 Aprovei sozinho ({motivo}): <b>{html.escape(item['titulo'])}</b>\n📦 {html.escape(item['nome'])}\n"
                     f"💰 {reais(por)} ({off}% off)\n{resposta} Para tirar, use o painel (Fila).")
     return True
 
@@ -2013,6 +2042,69 @@ def foto_amazon_por_asin(asin):
 PRECO_NAO = r"cupom|cashback|frete|resgat|economi|acima de|em compras|parcela|\b\d{1,2}\s*x\b|\bsem juros|moedas|pontos"
 
 
+LER_POST = ("Abaixo está o texto de um post de oferta de um canal de promoções do Telegram. Cada canal escreve de um "
+            "jeito: às vezes o preço vem na primeira linha, o nome do produto lá embaixo, uma chamada engraçada no topo. "
+            "Ache os dados do produto principal (o do link) e devolva SÓ um JSON com estas chaves:\n"
+            '"nome": o nome do produto como estaria na loja (marca, modelo, tamanho), sem emoji, sem a chamada do canal, sem preço;\n'
+            '"de": o preço antigo (riscado, "de R$"), número ou null;\n'
+            '"por": o preço que a pessoa paga agora na loja, sem contar cupom, número ou null;\n'
+            '"cupom": o código do cupom (só o código, ex. ALPHA10) ou null;\n'
+            '"pix": true só se o post disser que esse preço é no Pix;\n'
+            '"prime": true só se o post disser que o preço é exclusivo para membros Prime.\n'
+            "Use SOMENTE o que está no texto, nunca invente. Valores de cupom, cashback, frete e parcela não são o preço. "
+            "Números em reais como 1299.90 (ponto para centavos).\n\nPost:\n")
+
+
+def _valor_ia(v):
+    if isinstance(v, (int, float)) and not isinstance(v, bool):
+        return float(v)
+    if isinstance(v, str) and re.search(r"\d", v):
+        try:
+            return numero_br(re.search(r"\d[\d.,]*", v).group(0).rstrip(".,"))
+        except ValueError:
+            return None
+    return None
+
+
+def ler_post_ia(texto):
+    """A IA lê o post bagunçado do canal e devolve {nome, de, por, cupom, pix, prime} (só o que achou).
+    {} se a IA não responder: aí ficam as regras antigas."""
+    if not chave_ia() or SIMULAR or not texto:
+        return {}
+    corpo = {"contents": [{"parts": [{"text": LER_POST + texto[:3000]}]}],
+             "generationConfig": {"temperature": 0, "responseMimeType": "application/json"}}
+    try:
+        dados = json.loads(re.sub(r"^```(?:json)?|```$", "", gemini(corpo).strip()).strip())
+    except Exception as e:
+        log(f"IA não leu o post ({e}).")
+        return {}
+    if isinstance(dados, list):
+        dados = dados[0] if dados and isinstance(dados[0], dict) else {}
+    if not isinstance(dados, dict):
+        return {}
+    lido = {}
+    nome = re.sub(r"\s+", " ", str(dados.get("nome") or "")).strip(" -–:.")
+    if len(nome) >= 6 and not re.search(r"r\$|http", nome, re.I):
+        lido["nome"] = nome[:120]
+    de, por = _valor_ia(dados.get("de")), _valor_ia(dados.get("por"))
+    if por and por >= 5:
+        lido["por"] = por
+        if de and de > por:
+            lido["de"] = de
+    cupom = str(dados.get("cupom") or "").strip().upper()
+    if re.fullmatch(r"[A-Z0-9_-]{4,20}", cupom) and not cupom.isdigit() and cupom in texto.upper():
+        lido["cupom"] = cupom
+    for k in ("pix", "prime"):
+        if dados.get(k) is True:
+            lido[k] = True
+    return lido
+
+
+def preco_bate(a, b):
+    """Dois preços iguais (diferença de até 3% ou R$ 1, arredondamento e centavos)."""
+    return bool(a and b) and abs(a - b) <= max(1.0, 0.03 * max(a, b))
+
+
 def oferta_do_post(post, canal):
     """Monta a oferta a partir do post. None se não for do nicho ou não tiver link de loja."""
     texto = post["texto"]
@@ -2065,6 +2157,22 @@ def oferta_do_post(post, canal):
             item["de"], item["por"] = max(valores[:2]), min(valores[:2])
         else:
             item["por"] = valores[0]
+    ia = ler_post_ia(texto)  # a IA entende post fora de ordem; as regras acima ficam de reserva
+    if ia:
+        item["lido_ia"] = True
+        if ia.get("nome"):
+            item["nome"] = ia["nome"]
+        if ia.get("por"):
+            item["por"] = ia["por"]
+            if ia.get("de"):
+                item["de"] = ia["de"]
+            else:
+                item.pop("de", None)
+        if ia.get("cupom"):
+            item["cupom"] = ia["cupom"]
+        for k in ("pix", "prime"):
+            if ia.get(k):
+                item[k] = True
     if item.get("de") and item.get("por") and item["por"] < item["de"] * 0.2:  # mais de 80% off: quase sempre leitura errada
         item["por"] = item.pop("de")
         item["aviso_preco"] = True
@@ -2090,12 +2198,19 @@ def oferta_do_post(post, canal):
             item["por"], item["de"] = lido["por"], lido.get("de")
             if not item["de"]:
                 item.pop("de")
+    loja_por = None if lido.get("_bloqueado") else lido.get("por")
+    if loja_por and item.get("por"):  # confere o preço do post com o que a loja mostra agora
+        if preco_bate(item["por"], loja_por):
+            item["preco_conferido"] = True
+            item.pop("aviso_preco", None)
+        elif not item.get("pix"):  # preço no Pix costuma ser menor que o da página: não é erro
+            item["preco_loja"] = loja_por
     if not item.get("nome"):  # último recurso: nome pelo endereço do produto
         slug = re.search(r"\.com\.br/([^/?#]+?)(?:/(?:dp|p)/|-_JM|$)", item["link_produto"])
         if slug and not slug.group(1).startswith(("dp", "MLB")):
             item["nome"] = nome_curto(re.sub(r"^MLB-\d+-", "", slug.group(1)).replace("-", " ").capitalize())
     c = re.search(r"cupom\s*[:\-]?\s*([A-Z0-9]{4,20})\b", texto, re.I)
-    if c and not c.group(1).isdigit():
+    if c and not c.group(1).isdigit() and not item.get("cupom"):
         item["cupom"] = c.group(1).upper()
     if re.search(r"prime", texto, re.I) and re.search(r"exclusiv|membro|assinante", texto, re.I):
         item["prime"] = True

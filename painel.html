@@ -720,7 +720,7 @@ function cardRevisao(x){
   const conferirO = [];
   if (x.loja === 'shopee' && x.origem && !x.shopee_api) conferirO.push('produto');
   if (x.foto_origem === 'canal') conferirO.push('foto');
-  if (x.aviso_preco) conferirO.push('preço');
+  if (x.aviso_preco || x.preco_loja) conferirO.push('preço');
   let aviso = '';
   if (x.ler_depois) aviso = `<div class="aviso warn">${ic('relogio',13)}A loja bloqueou, vou ler de novo</div>`;
   else if (x.falta.length) aviso = `<div class="aviso bad">${ic('link',13)}Falta ${esc(x.falta.join(', '))}</div>`;
