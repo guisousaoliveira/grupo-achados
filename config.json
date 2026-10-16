@@ -65,7 +65,7 @@
     "so_api": true,
     "aprovar_sozinho": true,
     "aprovar_desconto_max": 90,
-    "aprovar_fila_max": 16,
+    "aprovar_fila_max": 24,
     "aprovar_fila_parte": 0.5
   },
   "ia": {
@@ -92,7 +92,7 @@
     "max_por_rodada": 0,
     "max_por_dia": 0,
     "max_por_hora": 0,
-    "melhores_por_hora": 5,
+    "melhores_por_hora": 6,
     "peneira_horas": 3,
     "repetido_dias": 7,
     "palavras_bloqueadas": [
@@ -208,7 +208,7 @@
     ],
     "ml_matt_word": "alphapromo",
     "ml_matt_tool": "59136903",
-    "melhores_por_dia": 60,
+    "melhores_por_dia": 80,
     "max_por_loja_hora": {
       "shopee": 2,
       "outras": 3
@@ -217,7 +217,7 @@
       "ligado": true,
       "desconto_minimo": 10,
       "desconto_max": 80,
-      "fila_max": 16
+      "fila_max": 24
     }
   },
   "canal_publico": "alphadominuspromo",
@@ -254,5 +254,14 @@
       "para usar todo dia",
       "que resolve o dia a dia"
     ]
+  },
+  "posts_por_hora": {
+    "padrao": 2,
+    "12": 3,
+    "13": 3,
+    "19": 3,
+    "20": 3,
+    "21": 3,
+    "22": 3
   }
 }

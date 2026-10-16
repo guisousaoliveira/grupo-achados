@@ -1232,7 +1232,9 @@ def avisar_antes_de_postar(estado):
     if not prox or not 0 <= (prox - dt).total_seconds() <= antes * 60:
         return
     item = estado["fila"][0]
-    marca = f"{prox:%Y-%m-%d %H}|{item['chave']}"
+    if item.get("preco_conferido") or item.get("shopee_api"):  # preço já conferido na loja/API: não precisa de você
+        return
+    marca = f"{prox:%Y-%m-%d %H:%M}|{item['chave']}"
     if estado.get("aviso_post") == marca:
         return
     ident = id_story(item)
@@ -1718,22 +1720,59 @@ def buscar_shopee(estado):
 
 # ---------------------------------------------------------------- postagem
 
+def posts_por_hora(hora=None):
+    """Quantos posts naquela hora (1 a 9). config posts_por_hora: um número (todas as horas iguais) ou
+    {"padrao": 2, "12": 3, "20": 3} (hora de pico com mais). Sem hora: o maior de todos."""
+    cfg = CONFIG.get("posts_por_hora", 1)
+    if hora is None:
+        return max([posts_por_hora(h) for h in CONFIG.get("horarios", [])] or [1])
+    if isinstance(cfg, dict):
+        cfg = cfg.get(str(hora), cfg.get("padrao", 1))
+    try:
+        return max(1, min(9, int(cfg)))
+    except (TypeError, ValueError):
+        return 1
+
+
+def slots_do_dia():
+    """Os horários de postagem do dia. Com 1 post por hora são as horas (8, 9, ...); com 3, cada hora vira
+    três: 8, 8.1, 8.2 (o número antes do ponto é sempre a hora)."""
+    return [h if k == 0 else round(h + k / 10, 1)
+            for h in sorted(CONFIG.get("horarios", [])) for k in range(posts_por_hora(h))]
+
+
+def intervalo_minimo():
+    n = posts_por_hora()
+    base = CONFIG.get("intervalo_minimo", 25)
+    return base if n == 1 else min(base, 60 // n - 5)
+
+
+def janela_minutos():
+    return min(CONFIG.get("janela_minutos", 40), 60 // posts_por_hora())
+
+
 def agenda_do_dia(data_iso):
     """Minuto em que cada horário posta naquele dia: {15: 37, 16: 12, ...}. É sorteado, mas sempre igual para
     o mesmo dia (o painel mostra a mesma previsão que o bot usa), com pelo menos `intervalo_minimo` minutos
-    entre um post e o próximo. Fica com cara de gente postando, não de robô às 15:00, 16:00..."""
-    horarios = sorted(CONFIG.get("horarios", []))
+    entre um post e o próximo. Fica com cara de gente postando, não de robô às 15:00, 16:00...
+    Com mais de um post por hora, cada um sorteia o minuto dentro do seu pedaço da hora."""
+    slots = slots_do_dia()
     if not CONFIG.get("minutos_aleatorios", True):
-        return {h: 0 for h in horarios}
+        return {s: round((s - int(s)) * 10) * (60 // posts_por_hora(int(s))) for s in slots}
     rnd = random.Random(f"agenda-{data_iso}")
-    intervalo = CONFIG.get("intervalo_minimo", 25)
+    intervalo = intervalo_minimo()
     agenda, anterior = {}, None
-    for h in horarios:
-        menor = 2
-        if anterior is not None and anterior[0] == h - 1:
-            menor = max(menor, anterior[1] + intervalo - 60)
-        agenda[h] = rnd.randint(min(menor, 55), 55)
-        anterior = (h, agenda[h])
+    for s in slots:
+        h, k = int(s), round((s - int(s)) * 10)
+        pedaco = 60 // posts_por_hora(h)
+        base = h * 60
+        menor = base + k * pedaco + 2
+        maior = base + min((k + 1) * pedaco - 3, 55)
+        if anterior is not None:
+            menor = max(menor, anterior + intervalo)
+        minuto = rnd.randint(min(menor, maior), maior)
+        agenda[s] = minuto - base
+        anterior = minuto
     return agenda
 
 
@@ -1754,13 +1793,13 @@ def horario_vencido(estado, dt):
     usados = estado["slots_usados"].get(hoje, [])
     agenda = agenda_do_dia(hoje)
     agora_min = dt.hour * 60 + dt.minute
-    janela = CONFIG.get("janela_minutos", 40)
-    vencidos = [h for h in CONFIG["horarios"]
-                if 0 <= agora_min - (h * 60 + agenda[h]) <= janela and h not in usados]
+    janela = janela_minutos()
+    vencidos = [s for s in slots_do_dia()
+                if 0 <= agora_min - (int(s) * 60 + agenda[s]) <= janela and s not in usados]
     if not vencidos:
         return None
     ultimo = _ultimo_post(estado, dt)
-    if ultimo and dt - ultimo < timedelta(minutes=CONFIG.get("intervalo_minimo", 25)):
+    if ultimo and dt - ultimo < timedelta(minutes=intervalo_minimo()):
         log("Horário chegou, mas o último post foi há pouco. Espero um pouco.")
         return None
     return vencidos[0]
@@ -1772,12 +1811,12 @@ def proximo_post(estado, dt):
     usados = estado["slots_usados"].get(hoje, [])
     agenda = agenda_do_dia(hoje)
     ultimo = _ultimo_post(estado, dt)
-    for h in sorted(CONFIG["horarios"]):
-        quando = dt.replace(hour=h, minute=agenda[h], second=0, microsecond=0)
-        if h in usados or quando + timedelta(minutes=CONFIG.get("janela_minutos", 40)) < dt:
+    for s in slots_do_dia():
+        quando = dt.replace(hour=int(s), minute=agenda[s], second=0, microsecond=0)
+        if s in usados or quando + timedelta(minutes=janela_minutos()) < dt:
             continue
         if ultimo:
-            quando = max(quando, ultimo + timedelta(minutes=CONFIG.get("intervalo_minimo", 25)))
+            quando = max(quando, ultimo + timedelta(minutes=intervalo_minimo()))
         return quando
     return None
 

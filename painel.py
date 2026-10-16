@@ -188,15 +188,15 @@ def previsao_slots(estado, dias=4):
     """(dia, horário, quando sai) dos horários que ainda vão sair, na ordem. Igual a bot.proximo_post: o minuto
     sorteado, mas nunca antes do intervalo mínimo depois do post anterior."""
     dt = bot.agora()
-    janela = bot.CONFIG.get("janela_minutos", 40)
-    intervalo = timedelta(minutes=bot.CONFIG.get("intervalo_minimo", 25))
+    janela = bot.janela_minutos()
+    intervalo = timedelta(minutes=bot.intervalo_minimo())
     anterior = bot._ultimo_post(estado, dt)
     for dia in range(dias):
         data = (dt + timedelta(days=dia)).date()
         usados = estado["slots_usados"].get(data.isoformat(), [])
         agenda = bot.agenda_do_dia(data.isoformat())
-        for h in sorted(bot.CONFIG.get("horarios", [])):
-            quando = dt.replace(hour=h, minute=agenda[h], second=0, microsecond=0) + timedelta(days=dia)
+        for h in bot.slots_do_dia():
+            quando = dt.replace(hour=int(h), minute=agenda[h], second=0, microsecond=0) + timedelta(days=dia)
             if dia == 0 and (quando + timedelta(minutes=janela) < dt or h in usados):
                 continue
             if anterior:
@@ -219,7 +219,7 @@ def proximos_horarios(estado, n):
 def horarios_hoje(estado, dt):
     """Hora mostrada em cada horário de hoje: a hora em que saiu (postado) ou a prevista (com o intervalo mínimo)."""
     hoje = dt.date().isoformat()
-    saida = {h: f"{h:02d}:{m:02d}" for h, m in bot.agenda_do_dia(hoje).items()}
+    saida = {h: f"{int(h):02d}:{m:02d}" for h, m in bot.agenda_do_dia(hoje).items()}
     posts = [p for p in estado["postados"] if p["data"][:10] == hoje]
     for p in posts:
         if p.get("slot") is not None:
@@ -269,7 +269,7 @@ def resumo(estado):
         # próximo post automático: o painel mostra o aviso e manda a notificação do navegador uns minutos antes
         "proximo_post": {"quando": prox.isoformat(timespec="minutes"), "id": bot.id_story(estado["fila"][0])} if prox else None,
         "hora": dt.hour,
-        "horarios": bot.CONFIG.get("horarios", []),
+        "horarios": bot.slots_do_dia(),
         "agenda_hoje": bot.agenda_do_dia(hoje),
         "horarios_hoje": horarios_hoje(estado, dt),
         "usados_hoje": estado["slots_usados"].get(hoje, []),

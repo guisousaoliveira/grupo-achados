@@ -632,16 +632,16 @@ function inicio(){
   const hoje = E.agora.slice(0,10);
   const postHoje = E.postados.filter(p => p.data.slice(0,10) === hoje);
   const vencidas = E.fila.filter(x => horasDesde(x.aprovado_em) >= E.validade_horas);
-  const proxHoras = E.horarios.filter(h => h >= hora && !E.usados_hoje.includes(h)).length;
+  const proxHoras = E.horarios.filter(h => Math.floor(h) >= hora && !E.usados_hoje.includes(h)).length;
   const slots = E.horarios.map(h => {
     const feito = E.usados_hoje.includes(h);
     const p = postHoje.find(p => p.slot === h);
     let cls = '', sub = '';
     if (feito) { cls = 'feito'; sub = 'postado'; }
-    else if (h === hora) { cls = 'agora'; sub = E.fila.length ? 'agora' : 'fila vazia'; }
-    else if (h < hora) { cls = 'vazio'; sub = 'sem post'; }
-    else { sub = E.fila.length > (E.horarios.filter(x => x >= hora && x < h && !E.usados_hoje.includes(x)).length) ? 'previsto' : 'livre'; }
-    const hm = (E.horarios_hoje || {})[h] || `${h}:${String((E.agenda_hoje || {})[h] || 0).padStart(2,'0')}`;
+    else if (Math.floor(h) === hora) { cls = 'agora'; sub = E.fila.length ? 'agora' : 'fila vazia'; }
+    else if (Math.floor(h) < hora) { cls = 'vazio'; sub = 'sem post'; }
+    else { sub = E.fila.length > (E.horarios.filter(x => Math.floor(x) >= hora && x < h && !E.usados_hoje.includes(x)).length) ? 'previsto' : 'livre'; }
+    const hm = (E.horarios_hoje || {})[h] || `${Math.floor(h)}:${String((E.agenda_hoje || {})[h] || 0).padStart(2,'0')}`;
     return `<div class="slot ${cls}" title="${esc(p ? p.nome : '')}"><b>${hm}</b><span>${sub}</span></div>`;
   }).join('');
   return topo(`${ola}`, `Resumo do Alpha Promo agora, ${new Date(E.agora).toLocaleDateString('pt-BR',{weekday:'long', day:'numeric', month:'long'})}.`,
@@ -655,7 +655,7 @@ function inicio(){
       <div class="stat"><div class="k">${ic('radar',15)}Radar hoje</div><div class="v">${E.radar.hoje}${E.radar.max_dia ? `<span style="font-size:15px;color:var(--mut);font-weight:500"> / ${E.radar.max_dia}</span>` : '<span style="font-size:15px;color:var(--mut);font-weight:500"> achadas</span>'}</div>${E.radar.max_dia ? `<div class="bar"><i style="width:${Math.min(100, E.radar.hoje/E.radar.max_dia*100)}%"></i></div>` : ''}
         <div class="s" style="margin-top:8px;display:flex;align-items:center;justify-content:space-between;gap:8px">${E.radar.pausado ? 'pausado' : 'ligado'}${E.radar.rodada ? ` · ${quandoISO(E.radar.rodada.atualizada)}` : ''}<button class="btn sm" onclick="rodarRadar()">Rodar agora</button></div></div>
     </div>
-    <div class="box"><h2>Horários de hoje<span class="r tag">um post por horário, se tiver fila</span></h2><div class="slots">${slots}</div></div>
+    <div class="box"><h2>Horários de hoje<span class="r tag">${E.horarios.length} posts por dia, se tiver fila</span></h2><div class="slots">${slots}</div></div>
     ${garimpoBox()}
     <div class="cols">
       <div class="box"><h2>Próximas a sair<a class="r btn sm ghost" onclick="ir('fila')">Ver fila toda</a></h2>
