@@ -7317,5 +7317,22 @@
       "aprovados": 0,
       "reprovados": 0
     }
+  },
+  "radar_cfg": {
+    "desligadas": [],
+    "novas": [],
+    "bloqueadas": [
+      "gamer",
+      "rgb",
+      "playstation",
+      "ps5",
+      "ps4",
+      "xbox",
+      "nintendo",
+      "videogame",
+      "video game",
+      "feminina",
+      "feminino"
+    ]
   }
 }
