@@ -2,29 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "shopee",
-      "chave": "shopee:1638805020.58264360363",
-      "nome": "Kit Halteres Ajustáveis 15kg Musculação 6 em 1 Barra Kettlebell Anilhas Academia em Casa Treino",
-      "por": 198.8,
-      "de": 602.42,
-      "foto": "https://cf.shopee.com.br/file/br-11134207-820ld-mr1c0ywi8iys19",
-      "link": "https://s.shopee.com.br/gQrjbtHre",
-      "link_produto": "https://shopee.com.br/product/1638805020/58264360363",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.8,
-      "vendas": 103,
-      "palavra": "halter",
-      "garimpado_em": "2026-10-15T16:20-03:00",
-      "nota": 87.3,
-      "titulo": "Halteres ajustáveis para montar sua academia em casa",
-      "aprovado_sozinho": true,
-      "aprovado_em": "2026-10-15T16:40-03:00",
-      "aviso_validade": true
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB79752041",
       "origem": "promooeasy",
@@ -1688,6 +1665,16 @@
       "link": "https://meli.la/2f5WXFQ",
       "link_produto": "https://meli.la/2f5WXFQ",
       "titulo": "Smartwatch com Alexa e chamadas para o pulso"
+    },
+    {
+      "chave": "shopee:1638805020.58264360363",
+      "loja": "shopee",
+      "nome": "Kit Halteres Ajustáveis 15kg Musculação 6 em 1 Barra Kettlebell Anilhas Academia em Casa Treino",
+      "data": "2026-10-16T08:43-03:00",
+      "link": "https://s.shopee.com.br/gQrjbtHre",
+      "link_produto": "https://shopee.com.br/product/1638805020/58264360363",
+      "titulo": "Halteres ajustáveis para montar sua academia em casa",
+      "slot": 8
     }
   ],
   "slots_usados": {
@@ -1765,6 +1752,9 @@
       21,
       22,
       23
+    ],
+    "2026-10-16": [
+      8
     ]
   },
   "shopee_buscado_em": "",
@@ -5599,6 +5589,19 @@
   },
   "ultimos": [
     {
+      "loja": "shopee",
+      "chave": "shopee:1638805020.58264360363",
+      "nome": "Kit Halteres Ajustáveis 15kg Musculação 6 em 1 Barra Kettlebell Anilhas Academia em Casa Treino",
+      "por": 198.8,
+      "de": 602.42,
+      "foto": "https://cf.shopee.com.br/file/br-11134207-820ld-mr1c0ywi8iys19",
+      "link": "https://s.shopee.com.br/gQrjbtHre",
+      "link_produto": "https://shopee.com.br/product/1638805020/58264360363",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "titulo": "Halteres ajustáveis para montar sua academia em casa"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB47773451",
       "origem": "lobaopromo",
@@ -6125,19 +6128,6 @@
       "origem": "shopee",
       "fonte": "shopee",
       "titulo": "Bolsa resistente para organizar ferramentas no trabalho"
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:1392120718.20499592472",
-      "nome": "Relógio De Pulso Digital Masculino SPORT Esportivo a Prova d 'Água",
-      "por": 12.69,
-      "de": 79.31,
-      "foto": "https://cf.shopee.com.br/file/br-11134207-7r98o-m9iwo74if11e5e",
-      "link": "https://s.shopee.com.br/2BFe7puUVJ",
-      "link_produto": "https://shopee.com.br/product/1392120718/20499592472",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "titulo": "Relógio digital esportivo à prova d'água"
     }
   ],
   "lixeira": [
