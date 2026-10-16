@@ -261,28 +261,6 @@
       "titulo": "Mondaine com pulseira de silicone para uso diário",
       "na_revisao_desde": "2026-10-16T11:36-03:00",
       "aprovado_em": "2026-10-16T11:42-03:00"
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:1142080977.58251235467",
-      "nome": "Forma Descartável Quadrada para Airfryer 100 Unidades",
-      "por": 13.99,
-      "de": 69.95,
-      "foto": "https://cf.shopee.com.br/file/br-11134207-81z1k-mhmr1gnvzv9dbd",
-      "link": "https://s.shopee.com.br/8fTB9kMliO",
-      "link_produto": "https://shopee.com.br/product/1142080977/58251235467",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.7,
-      "vendas": 2078,
-      "palavra": "airfryer",
-      "garimpado_em": "2026-10-16T12:31-03:00",
-      "nota": 83.5,
-      "titulo": "Formas descartáveis que evitam sujeira na airfryer",
-      "aprovado_sozinho": true,
-      "aprovado_em": "2026-10-16T12:41-03:00"
     }
   ],
   "postados": [
@@ -7186,6 +7164,30 @@
     }
   ],
   "lixeira": [
+    {
+      "loja": "shopee",
+      "chave": "shopee:1142080977.58251235467",
+      "nome": "Forma Descartável Quadrada para Airfryer 100 Unidades",
+      "por": 13.99,
+      "de": 69.95,
+      "foto": "https://cf.shopee.com.br/file/br-11134207-81z1k-mhmr1gnvzv9dbd",
+      "link": "https://s.shopee.com.br/8fTB9kMliO",
+      "link_produto": "https://shopee.com.br/product/1142080977/58251235467",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.7,
+      "vendas": 2078,
+      "palavra": "airfryer",
+      "garimpado_em": "2026-10-16T12:31-03:00",
+      "nota": 83.5,
+      "titulo": "Formas descartáveis que evitam sujeira na airfryer",
+      "aprovado_sozinho": true,
+      "aprovado_em": "2026-10-16T12:41-03:00",
+      "removido_em": "2026-10-16T12:42:28-03:00",
+      "removido_de": "fila"
+    },
     {
       "loja": "amazon",
       "chave": "amazon:B0HCRPPXB1",
