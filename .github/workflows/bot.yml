@@ -53,3 +53,15 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 legiao/gatilho.py
+      - name: Íris (aprovação e postagem da Legião no Instagram/Facebook)
+        if: always()
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ADMIN_ID: ${{ secrets.ADMIN_ID }}
+          LEGIAO_TELEGRAM_TOKEN: ${{ secrets.LEGIAO_TELEGRAM_TOKEN }}
+          LEGIAO_CHAT_ID: ${{ secrets.LEGIAO_CHAT_ID }}
+          META_PAGE_TOKEN: ${{ secrets.META_PAGE_TOKEN }}
+          META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+        run: python3 legiao/publicar.py
