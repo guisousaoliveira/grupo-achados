@@ -232,6 +232,28 @@
       "titulo": "Relógio clássico para compor o visual casual masculino",
       "na_revisao_desde": "2026-10-16T00:13-03:00",
       "aprovado_em": "2026-10-16T00:25-03:00"
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:1346435001.21098276188",
+      "nome": "Pré Treino Bope Sabor 150g - Black Skull",
+      "por": 32.9,
+      "de": 99.7,
+      "foto": "AgACAgQAAxkDAAIEJ2rRlpOjMSs-I9jUpZWAbzgIw3X2AALaDGsb3UPMUwI3nVU_xshkAQADAgADeQADPQQ",
+      "link": "https://s.shopee.com.br/7VHCn9jIjd",
+      "link_produto": "https://shopee.com.br/product/1346435001/21098276188",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.9,
+      "vendas": 350,
+      "palavra": "pre treino",
+      "garimpado_em": "2026-10-15T21:50-03:00",
+      "nota": 81.5,
+      "titulo": "Pré-treino para dar mais energia nos exercícios",
+      "na_revisao_desde": "2026-10-16T00:14-03:00",
+      "aprovado_em": "2026-10-16T00:26-03:00"
     }
   ],
   "postados": [
@@ -1724,29 +1746,6 @@
   },
   "shopee_buscado_em": "",
   "revisar": [
-    {
-      "loja": "shopee",
-      "chave": "shopee:1346435001.21098276188",
-      "nome": "Pré Treino Bope Sabor 150g - Black Skull",
-      "por": 32.9,
-      "de": 99.7,
-      "foto": "AgACAgQAAxkDAAIEJ2rRlpOjMSs-I9jUpZWAbzgIw3X2AALaDGsb3UPMUwI3nVU_xshkAQADAgADeQADPQQ",
-      "link": "https://s.shopee.com.br/7VHCn9jIjd",
-      "link_produto": "https://shopee.com.br/product/1346435001/21098276188",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.9,
-      "vendas": 350,
-      "palavra": "pre treino",
-      "garimpado_em": "2026-10-15T21:50-03:00",
-      "nota": 81.5,
-      "titulo": "Pré-treino para dar mais energia nos exercícios",
-      "id": 633,
-      "na_revisao_desde": "2026-10-16T00:14-03:00",
-      "msg_id": 1063
-    },
     {
       "loja": "amazon",
       "chave": "amazon:B08L5LZGJL",
@@ -6787,7 +6786,7 @@
     "2026-10-15": {
       "shopee": {
         "achados": 20,
-        "aprovados": 3,
+        "aprovados": 4,
         "reprovados": 4
       },
       "lobaopromo": {
@@ -7016,7 +7015,7 @@
     },
     "pre treino": {
       "achados": 5,
-      "aprovados": 1,
+      "aprovados": 2,
       "reprovados": 2
     },
     "relogio": {
