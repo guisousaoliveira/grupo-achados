@@ -3,28 +3,6 @@
   "fila": [
     {
       "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB1010954920",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/2D8vKNH",
-      "link_produto": "https://meli.la/2D8vKNH",
-      "post_origem": "https://t.me/lobaopromo/190229",
-      "link_canal": "https://meli.la/2KMdsxs",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_724774-MLB100762267821_122025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Kit 6 Cuecas Lupo Boxer Box Sem Costura Basic Microfibra",
-      "pix": true,
-      "de": 288.63,
-      "por": 129.99,
-      "lido_ia": true,
-      "palavra": "cueca",
-      "garimpado_em": "2026-10-16T09:21-03:00",
-      "nota": 61.5,
-      "titulo": "Cuecas boxer sem costura que não incomodam",
-      "na_revisao_desde": "2026-10-16T09:42-03:00",
-      "aprovado_em": "2026-10-16T09:43-03:00"
-    },
-    {
-      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB5579293332",
       "origem": "lobaopromo",
       "link": "https://meli.la/32zWAwY",
@@ -242,6 +220,28 @@
       "titulo": "Kit Polo Wear em microfibra para uso diário",
       "aprovado_sozinho": true,
       "aprovado_em": "2026-10-16T13:31-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB5230772384",
+      "origem": "promooeasy",
+      "link": "https://meli.la/2jNUBhg",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-5230772384-6-pares-meias-puma-cano-medio-alto-atoalhada-academia-sport-_JM?pdp_filters=item_id%3AMLB5230772384",
+      "post_origem": "https://t.me/promooeasy/222815",
+      "link_canal": "https://meli.la/1MTStnL",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_720199-MLB116655968171_082026-O.webp",
+      "foto_origem": "loja",
+      "nome": "6 Pares Meias Puma Cano Médio Alto Atoalhada Academia Sport",
+      "de": 149.99,
+      "por": 49.4,
+      "lido_ia": true,
+      "preco_conferido": true,
+      "palavra": "academia",
+      "garimpado_em": "2026-10-16T12:15-03:00",
+      "nota": 69.4,
+      "titulo": "Meias Puma atoalhadas para treinar com conforto",
+      "aprovado_sozinho": true,
+      "aprovado_em": "2026-10-16T13:50-03:00"
     }
   ],
   "postados": [
@@ -1837,6 +1837,16 @@
       "link_produto": "https://link.amazon/B09GxuZZ1",
       "titulo": "Huawei Watch para treinar semanas sem precisar carregar",
       "slot": 13.2
+    },
+    {
+      "chave": "mercadolivre:MLB1010954920",
+      "loja": "mercadolivre",
+      "nome": "Kit 6 Cuecas Lupo Boxer Box Sem Costura Basic Microfibra",
+      "data": "2026-10-16T13:51-03:00",
+      "link": "https://meli.la/2D8vKNH",
+      "link_produto": "https://meli.la/2D8vKNH",
+      "titulo": "Cuecas boxer sem costura que não incomodam",
+      "slot": 13.3
     }
   ],
   "slots_usados": {
@@ -1928,26 +1938,51 @@
       12.2,
       13,
       13.1,
-      13.2
+      13.2,
+      13.3
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [],
-  "proximo_id": 670,
+  "revisar": [
+    {
+      "loja": "amazon",
+      "chave": "amazon:B00YTY4AB8",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B00YTY4AB8?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B00YTY4AB8?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/timex-relogio-easy-reader-com-pulseira-de-couro-de-38-mm-3119109/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3119109/",
+      "nome": "Timex Relógio Easy Reader Com Pulseira De Couro De 38 Mm",
+      "por": 299.0,
+      "de": 423.12,
+      "foto": "AgACAgQAAxkDAAIEdGrSVgZSevZaqM-IG8wyb3vyd8jKAALRDmsbBpMdUTquI-r0W7cbAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "palavra": "relogio",
+      "garimpado_em": "2026-10-16T13:30-03:00",
+      "nota": 56.9,
+      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
+      "titulo": "Timex de couro clássico para o dia a dia",
+      "id": 671,
+      "na_revisao_desde": "2026-10-16T13:51-03:00",
+      "msg_id": 1140
+    }
+  ],
+  "proximo_id": 672,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 85197,
-      "lobaopromo": 190369,
-      "gatunopromos": 125722,
-      "pobregram": 42010,
+      "xetdaspromocoes": 85198,
+      "lobaopromo": 190371,
+      "gatunopromos": 125723,
+      "pobregram": 42011,
       "urubupromo": 41777,
       "tudonapromo": 102154,
-      "promonocontext": 127656,
-      "promooeasy": 222868,
-      "aquitempechincha": 282126,
+      "promonocontext": 127658,
+      "promooeasy": 222876,
+      "aquitempechincha": 282131,
       "infoBRpromos": 67696,
       "boletando": 76832,
-      "promotop": 260371,
+      "promotop": 260373,
       "achadosdotb": 11784
     },
     "dia": "2026-10-16",
@@ -4040,30 +4075,32 @@
       "amazon:B00YTY4AB8",
       "mercadolivre:MLB4454185354",
       "shopee:1439190466.23898836118",
-      "shopee:1204063631.58264024769"
+      "shopee:1204063631.58264024769",
+      "shopee:1725907431.58215881722",
+      "shopee:400888689.54165736119"
     ],
     "ultima": {
-      "em": "2026-10-16T13:40:20-03:00",
+      "em": "2026-10-16T13:50:20-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 26,
-      "do_nicho": 0,
-      "repetidas": 0,
+      "posts_novos": 31,
+      "do_nicho": 2,
+      "repetidas": 2,
       "novas": 0,
       "limite_dia": false,
       "repetidas_nome": 0,
       "promobit": 0,
-      "soltas": 0,
-      "na_peneira": 29
+      "soltas": 2,
+      "na_peneira": 23
     },
     "hora": "2026-10-16T13",
     "nesta_hora": 1,
     "promobit_hora": "2026-10-16T13",
     "promobit_nesta_hora": 1,
-    "promobit_visto": 3119199,
+    "promobit_visto": 3119216,
     "nomes": [
       [
         [
@@ -6059,87 +6096,35 @@
           "costura"
         ],
         "2026-10-16T13:31-03:00"
+      ],
+      [
+        [
+          "pares",
+          "meias",
+          "puma",
+          "cano",
+          "medio",
+          "alto",
+          "atoalhada",
+          "academia"
+        ],
+        "2026-10-16T13:50-03:00"
+      ],
+      [
+        [
+          "timex",
+          "relogio",
+          "easy",
+          "reader",
+          "pulseira",
+          "couro",
+          "38",
+          "mm"
+        ],
+        "2026-10-16T13:51-03:00"
       ]
     ],
     "peneira": [
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB18115557",
-        "origem": "promonocontext",
-        "link": "https://www.mercadolivre.com.br/relogio-de-pulso-casio-youth-w-218h-1av/p/MLB18115557?matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/relogio-de-pulso-casio-youth-w-218h-1av/p/MLB18115557",
-        "post_origem": "https://t.me/promonocontext/127547",
-        "link_canal": "https://meli.la/1LeNRgg",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_734707-MLA114937003722_082026-O.webp",
-        "foto_origem": "loja",
-        "nome": "Relógio De Pulso Casio Youth W-218H-1AV",
-        "de": 229.0,
-        "por": 132.0,
-        "lido_ia": true,
-        "cupom": "OFFHOJE",
-        "preco_loja": 142.5,
-        "palavra": "relogio",
-        "garimpado_em": "2026-10-16T10:46-03:00",
-        "nota": 67.1
-      },
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB46439669",
-        "origem": "promonocontext",
-        "link": "https://www.mercadolivre.com.br/caixa-de-som-aiwa-boombox-plus-200w-bivolt-aws-bbs-01-b/p/MLB46439669?matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/caixa-de-som-aiwa-boombox-plus-200w-bivolt-aws-bbs-01-b/p/MLB46439669",
-        "post_origem": "https://t.me/promonocontext/127549",
-        "link_canal": "https://meli.la/17KrMpP",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_853211-MLA89578985576_082025-O.webp",
-        "foto_origem": "loja",
-        "nome": "Caixa de Som AIWA Boombox Plus 200W Bivolt AWS-BBS-01-B",
-        "de": 2500.0,
-        "por": 1139.0,
-        "lido_ia": true,
-        "cupom": "100TODOSITE1610",
-        "preco_loja": 1234.0,
-        "palavra": "caixa de som",
-        "garimpado_em": "2026-10-16T10:47-03:00",
-        "nota": 66.9
-      },
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB3779386055",
-        "origem": "promonocontext",
-        "link": "https://produto.mercadolivre.com.br/MLB-3779386055-kit-10-cueca-boxer-lupo-algodo-cotton-conforto-original-box-_JM?pdp_filters=item_id%3AMLB3779386055&matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://produto.mercadolivre.com.br/MLB-3779386055-kit-10-cueca-boxer-lupo-algodo-cotton-conforto-original-box-_JM?pdp_filters=item_id%3AMLB3779386055",
-        "post_origem": "https://t.me/promonocontext/127554",
-        "link_canal": "https://meli.la/2YogW6H",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_797327-MLB117362213183_092026-O.webp",
-        "foto_origem": "loja",
-        "nome": "Kit 10 Cueca Boxer Lupo Algodão Cotton Conforto Original Box",
-        "de": 500.0,
-        "por": 149.0,
-        "lido_ia": true,
-        "preco_conferido": true,
-        "palavra": "cueca",
-        "garimpado_em": "2026-10-16T10:47-03:00",
-        "nota": 71.7
-      },
-      {
-        "loja": "shopee",
-        "chave": "shopee:1876581966.56316805805",
-        "nome": "Basic Whey 1kg Growth Supplements",
-        "por": 59.9,
-        "de": 74.88,
-        "foto": "https://cf.shopee.com.br/file/sg-11134201-8258u-msdjdvggg74760",
-        "link": "https://s.shopee.com.br/7KxnSEJuul",
-        "link_produto": "https://shopee.com.br/product/1876581966/56316805805",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 4.9,
-        "vendas": 2148,
-        "palavra": "whey",
-        "garimpado_em": "2026-10-16T10:48-03:00",
-        "nota": 53.4
-      },
       {
         "loja": "mercadolivre",
         "chave": "mercadolivre:MLB63367305",
@@ -6306,25 +6291,6 @@
         "palavra": "compressor de ar",
         "garimpado_em": "2026-10-16T12:07-03:00",
         "nota": 64.2
-      },
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB5230772384",
-        "origem": "promooeasy",
-        "link": "https://produto.mercadolivre.com.br/MLB-5230772384-6-pares-meias-puma-cano-medio-alto-atoalhada-academia-sport-_JM?pdp_filters=item_id%3AMLB5230772384&matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://produto.mercadolivre.com.br/MLB-5230772384-6-pares-meias-puma-cano-medio-alto-atoalhada-academia-sport-_JM?pdp_filters=item_id%3AMLB5230772384",
-        "post_origem": "https://t.me/promooeasy/222815",
-        "link_canal": "https://meli.la/1MTStnL",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_720199-MLB116655968171_082026-O.webp",
-        "foto_origem": "loja",
-        "nome": "6 Pares Meias Puma Cano Médio Alto Atoalhada Academia Sport",
-        "de": 149.99,
-        "por": 49.4,
-        "lido_ia": true,
-        "preco_conferido": true,
-        "palavra": "academia",
-        "garimpado_em": "2026-10-16T12:15-03:00",
-        "nota": 69.4
       },
       {
         "loja": "shopee",
@@ -6572,24 +6538,6 @@
         "nota": 63.0
       },
       {
-        "loja": "amazon",
-        "chave": "amazon:B00YTY4AB8",
-        "origem": "promobit",
-        "fonte": "promobit",
-        "link": "https://www.amazon.com.br/dp/B00YTY4AB8?tag=alphadominu09-20",
-        "link_produto": "https://www.amazon.com.br/dp/B00YTY4AB8?tag=alphadominu09-20",
-        "post_origem": "https://www.promobit.com.br/oferta/timex-relogio-easy-reader-com-pulseira-de-couro-de-38-mm-3119109/",
-        "link_canal": "https://www.promobit.com.br/Redirect/to/3119109/",
-        "nome": "Timex Relógio Easy Reader Com Pulseira De Couro De 38 Mm",
-        "por": 299.0,
-        "de": 423.12,
-        "foto": "https://m.media-amazon.com/images/I/716l-O3CtuL._AC_SL1500_.jpg",
-        "foto_origem": "loja",
-        "palavra": "relogio",
-        "garimpado_em": "2026-10-16T13:30-03:00",
-        "nota": 56.9
-      },
-      {
         "loja": "shopee",
         "chave": "shopee:1439190466.23898836118",
         "nome": "2/1 PCS Bolsa Mochila De Peito Tiracolo Pochete Bolsa Impermeável Transversal Masculina",
@@ -6607,21 +6555,74 @@
         "palavra": "mochila",
         "garimpado_em": "2026-10-16T13:31-03:00",
         "nota": 95.6
+      },
+      {
+        "loja": "shopee",
+        "chave": "shopee:1725907431.58215881722",
+        "nome": "Bicicleta Ergométrica para Ginástica em Casa com Monitor Digital Resistente Capacidade de 120kg - V3/2",
+        "por": 469.99,
+        "de": 1620.66,
+        "foto": "https://cf.shopee.com.br/file/br-11134207-820lf-mrpk6n2okmpxf6",
+        "link": "https://s.shopee.com.br/8V9l2xPyU4",
+        "link_produto": "https://shopee.com.br/product/1725907431/58215881722",
+        "origem": "shopee",
+        "fonte": "shopee",
+        "foto_origem": "loja",
+        "shopee_api": true,
+        "avaliacao": 4.9,
+        "vendas": 166,
+        "palavra": "bicicleta ergometrica",
+        "garimpado_em": "2026-10-16T13:51-03:00",
+        "nota": 86.4
+      },
+      {
+        "loja": "shopee",
+        "chave": "shopee:400888689.54165736119",
+        "nome": "Suplemento Termogênico Ultra 60 Cápsulas | Cafeína, Taurina, Guaraná e Cromo + Vitaminas C e E",
+        "por": 24.79,
+        "de": 107.78,
+        "foto": "https://cf.shopee.com.br/file/br-11134207-820lm-mrp4zwpkt0jq00",
+        "link": "https://s.shopee.com.br/AAHz21SMRM",
+        "link_produto": "https://shopee.com.br/product/400888689/54165736119",
+        "origem": "shopee",
+        "fonte": "shopee",
+        "foto_origem": "loja",
+        "shopee_api": true,
+        "avaliacao": 4.9,
+        "vendas": 262,
+        "palavra": "suplemento",
+        "garimpado_em": "2026-10-16T13:51-03:00",
+        "nota": 79.6
       }
     ],
     "soltas_hora": "2026-10-16T13",
-    "soltas": 4,
-    "shopee_em": "2026-10-16T13:31-03:00",
-    "shopee_indice": 80,
+    "soltas": 6,
+    "shopee_em": "2026-10-16T13:51-03:00",
+    "shopee_indice": 88,
     "soltas_dia_data": "2026-10-16",
-    "soltas_dia": 38,
+    "soltas_dia": 40,
     "soltas_loja": {
       "shopee": 2,
-      "mercadolivre": 2
+      "mercadolivre": 3,
+      "amazon": 1
     },
-    "soltas_vez": "2026-10-16T13:2"
+    "soltas_vez": "2026-10-16T13:3"
   },
   "ultimos": [
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB1010954920",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/2D8vKNH",
+      "link_produto": "https://meli.la/2D8vKNH",
+      "post_origem": "https://t.me/lobaopromo/190229",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_724774-MLB100762267821_122025-O.webp",
+      "nome": "Kit 6 Cuecas Lupo Boxer Box Sem Costura Basic Microfibra",
+      "pix": true,
+      "de": 288.63,
+      "por": 129.99,
+      "titulo": "Cuecas boxer sem costura que não incomodam"
+    },
     {
       "loja": "amazon",
       "chave": "amazon:B0FPG8KLS8",
@@ -7145,21 +7146,6 @@
       "de": 54.0,
       "por": 31.9,
       "titulo": "Kit de ferramentas para reparos e manutenções caseiras"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B017SN1OI8",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://link.amazon/B0a7lwMEU",
-      "link_produto": "https://link.amazon/B0a7lwMEU",
-      "post_origem": "https://www.promobit.com.br/oferta/relogio-masculino-fossil-grant-cronografo-prataazul-3115249/",
-      "nome": "Relógio Masculino Fossil Grant Cronógrafo PrataAzul",
-      "por": 846.83,
-      "de": 944.73,
-      "foto": "AgACAgQAAxkDAAIDsGrQniLAV4yV6511xVyN3mdmbCB6AAJCtDEbXlYMUwm_6b4Tt07mAQADAgADeQADPQQ",
-      "titulo": "Relógio em aço com cronógrafo para o dia a dia",
-      "parcelas": 12
     }
   ],
   "lixeira": [
@@ -8058,7 +8044,7 @@
         "reprovados": 1
       },
       "promobit": {
-        "achados": 5,
+        "achados": 6,
         "aprovados": 1,
         "reprovados": 4
       },
@@ -8073,7 +8059,7 @@
         "reprovados": 0
       },
       "promooeasy": {
-        "achados": 2,
+        "achados": 3,
         "aprovados": 1,
         "reprovados": 1
       },
@@ -8092,7 +8078,7 @@
   "aviso_post": "2026-10-16 13:38|amazon:B0FPG8KLS8",
   "garimpo_palavras": {
     "academia": {
-      "achados": 28,
+      "achados": 29,
       "aprovados": 10,
       "reprovados": 18
     },
@@ -8287,7 +8273,7 @@
       "reprovados": 2
     },
     "relogio": {
-      "achados": 14,
+      "achados": 15,
       "aprovados": 6,
       "reprovados": 7
     },
@@ -8451,7 +8437,7 @@
   },
   "entradas": {
     "2026-10-16": {
-      "13": 3
+      "13": 4
     }
   }
 }
