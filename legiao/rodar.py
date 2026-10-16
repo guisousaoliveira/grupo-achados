@@ -1,5 +1,6 @@
 """Legião Alpha: Odin escolhe o tema, Bragi escreve, Atena revisa, Hefesto desenha o carrossel
-e a prévia vai pro Telegram. Tudo com o Claude Code na assinatura (CLAUDE_CODE_OAUTH_TOKEN)."""
+e a prévia vai pro Telegram. A IA é o Gemini (GEMINI_LEGIAO_KEY, pago pelo crédito mensal do Google AI Pro);
+sem essa chave, usa o Claude Code na assinatura (CLAUDE_CODE_OAUTH_TOKEN)."""
 import base64
 import json
 import os
@@ -65,7 +66,46 @@ def fotos(arquivos, legenda, tipo="photo"):
 
 # ---------- Claude ----------
 
+def gemini(prompt):
+    """Gemini pela API (crédito do Google AI Pro). Devolve o JSON pedido no prompt."""
+    import time
+    modelo = CFG.get("modelo_gemini", "gemini-flash-latest")
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{modelo}:generateContent"
+    corpo = json.dumps({"contents": [{"role": "user", "parts": [{"text": prompt}]}],
+                        "generationConfig": {"responseMimeType": "application/json", "temperature": 0.9}}).encode()
+    inicio = time.time()
+    for tentativa in range(3):
+        req = urllib.request.Request(url, corpo, {"Content-Type": "application/json",
+                                                  "x-goog-api-key": os.environ["GEMINI_LEGIAO_KEY"]})
+        try:
+            dados = json.loads(urllib.request.urlopen(req, timeout=300).read())
+            break
+        except urllib.error.HTTPError as erro:
+            texto = erro.read().decode(errors="replace")[:500]
+            if erro.code in (429, 500, 503) and tentativa < 2:
+                time.sleep(20 * (tentativa + 1))
+                continue
+            raise RuntimeError(f"Gemini recusou ({erro.code}): {texto}") from None
+    uso = dados.get("usageMetadata") or {}
+    entrada = uso.get("promptTokenCount", 0)
+    saida = uso.get("candidatesTokenCount", 0) + uso.get("thoughtsTokenCount", 0)
+    gastos.append({"usage": {"input_tokens": entrada, "output_tokens": saida},
+                   "total_cost_usd": entrada / 1e6 * CFG.get("preco_gemini_entrada", 0.75)
+                   + saida / 1e6 * CFG.get("preco_gemini_saida", 3.75),
+                   "duration_ms": (time.time() - inicio) * 1000})
+    try:
+        texto = "".join(p.get("text", "") for p in dados["candidates"][0]["content"]["parts"]).strip()
+    except (KeyError, IndexError):
+        raise RuntimeError("O Gemini não devolveu texto: " + json.dumps(dados)[:500])
+    inicio, fim = texto.find("{"), texto.rfind("}")
+    if inicio < 0 or fim < 0:
+        raise RuntimeError("O Gemini não devolveu JSON: " + texto[:500])
+    return json.loads(texto[inicio:fim + 1])
+
+
 def claude(prompt):
+    if os.environ.get("GEMINI_LEGIAO_KEY"):
+        return gemini(prompt)
     cmd = ["claude", "-p", prompt, "--output-format", "json", "--model", CFG.get("modelo", "sonnet"), "--max-turns", "3"]
     proc = subprocess.run(cmd, capture_output=True, text=True, timeout=10 * 60)
     try:
@@ -92,6 +132,13 @@ def consumo():
     total = sum(soma.values())
     custo = sum(g.get("total_cost_usd") or 0 for g in gastos)
     segundos = round(sum(g.get("duration_ms") or 0 for g in gastos) / 1000)
+    if os.environ.get("GEMINI_LEGIAO_KEY"):
+        return "\n".join([
+            "📊 Consumo desta rodada (Gemini)",
+            f"Tokens: {n(total)} ({n(soma['input_tokens'])} lidos, {n(soma['output_tokens'])} escritos)",
+            f"Chamadas: {len(gastos)} · tempo: {segundos}s",
+            f"Custo: ~US$ {custo:.3f}, descontado do crédito de US$ 10/mês do Google AI Pro.",
+        ])
     return "\n".join([
         "📊 Consumo desta rodada",
         f"Tokens: {n(total)} no total ({n(soma['input_tokens'] + soma['cache_creation_input_tokens'])} lidos novos, "
@@ -188,8 +235,8 @@ def temas_postados(historico, reel=False):
 
 
 def main():
-    if not os.environ.get("CLAUDE_CODE_OAUTH_TOKEN"):
-        print("Falta o secret CLAUDE_CODE_OAUTH_TOKEN; a Legião não roda.")
+    if not (os.environ.get("GEMINI_LEGIAO_KEY") or os.environ.get("CLAUDE_CODE_OAUTH_TOKEN")):
+        print("Falta o secret GEMINI_LEGIAO_KEY (ou CLAUDE_CODE_OAUTH_TOKEN); a Legião não roda.")
         return
     agora = datetime.now(BRT)
     historico = json.loads(HISTORICO.read_text(encoding="utf-8")) if HISTORICO.exists() else []
