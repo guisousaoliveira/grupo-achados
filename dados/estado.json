@@ -223,29 +223,6 @@
       "aprovado_em": "2026-10-16T13:51-03:00"
     },
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB68717302",
-      "origem": "promonocontext",
-      "link": "https://meli.la/2FSaXRh",
-      "link_produto": "https://www.mercadolivre.com.br/fritadeira-airfryer-digital-serie-2000-xl-na23900-preto/p/MLB68717302",
-      "post_origem": "https://t.me/promonocontext/127595",
-      "link_canal": "https://meli.la/1j8NkHn",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_623991-MLA110960690165_042026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Fritadeira Airfryer Digital Série 2000 Xl Na239/00 Preto",
-      "de": 629.0,
-      "por": 409.0,
-      "lido_ia": true,
-      "cupom": "OFFHOJE",
-      "palavra": "airfryer",
-      "garimpado_em": "2026-10-16T11:21-03:00",
-      "nota": 57.4,
-      "motivo_revisao": "não consegui conferir o preço na loja",
-      "titulo": "Airfryer espaçosa para agilizar a rotina na cozinha",
-      "na_revisao_desde": "2026-10-16T14:21-03:00",
-      "aprovado_em": "2026-10-16T14:38-03:00"
-    },
-    {
       "loja": "shopee",
       "chave": "shopee:1439190466.23898836118",
       "nome": "2/1 PCS Bolsa Mochila De Peito Tiracolo Pochete Bolsa Impermeável Transversal Masculina",
@@ -1982,6 +1959,15 @@
       "link_produto": "https://www.amazon.com.br/dp/B0FLQ54RHB?tag=alphadominu09-20",
       "titulo": "GoPro HERO13 para filmar esportes e aventuras",
       "slot": 14.1
+    },
+    {
+      "chave": "mercadolivre:MLB68717302",
+      "loja": "mercadolivre",
+      "nome": "Fritadeira Airfryer Digital Série 2000 Xl Na239/00 Preto",
+      "data": "2026-10-16T14:38-03:00",
+      "link": "https://meli.la/2FSaXRh",
+      "link_produto": "https://www.mercadolivre.com.br/fritadeira-airfryer-digital-serie-2000-xl-na23900-preto/p/MLB68717302",
+      "titulo": "Airfryer espaçosa para agilizar a rotina na cozinha"
     }
   ],
   "slots_usados": {
@@ -6730,6 +6716,20 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB68717302",
+      "origem": "promonocontext",
+      "link": "https://meli.la/2FSaXRh",
+      "link_produto": "https://www.mercadolivre.com.br/fritadeira-airfryer-digital-serie-2000-xl-na23900-preto/p/MLB68717302",
+      "post_origem": "https://t.me/promonocontext/127595",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_623991-MLA110960690165_042026-O.webp",
+      "nome": "Fritadeira Airfryer Digital Série 2000 Xl Na239/00 Preto",
+      "de": 629.0,
+      "por": 409.0,
+      "cupom": "OFFHOJE",
+      "titulo": "Airfryer espaçosa para agilizar a rotina na cozinha"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0FLQ54RHB",
       "origem": "boletando",
@@ -7249,23 +7249,6 @@
       "de": 78.0,
       "por": 44.9,
       "titulo": "Creatina para render mais"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0GVW8464B",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://link.amazon/B0hATRD5e",
-      "link_produto": "https://link.amazon/B0hATRD5e",
-      "post_origem": "https://www.promobit.com.br/oferta/samsung-combo-smart-tv-43-qled-full-hd-q5f-soundbar-hw-b400f-3116572/",
-      "nome": "Samsung Combo Smart TV 43\" QLED Full HD Q5F + Soundbar HW B400F",
-      "por": 1801.3,
-      "de": 3806.0,
-      "foto": "AgACAgQAAxkDAAID6GrREEDysU4MMTz1X0mIlpYvi25pAALMDmsbkMZdUGYrtL_SmaaKAQADAgADeAADPQQ",
-      "titulo": "TV e soundbar para som e imagem integrados",
-      "parcelas": 12,
-      "parcela_valor": 158.11,
-      "pix": true
     }
   ],
   "lixeira": [
