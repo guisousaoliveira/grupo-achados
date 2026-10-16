@@ -1965,28 +1965,6 @@
       "id": 664,
       "na_revisao_desde": "2026-10-16T12:41-03:00",
       "msg_id": 1129
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0G5RDXV7N",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0G5RDXV7N?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0G5RDXV7N?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/222818",
-      "link_canal": "https://www.amazon.com.br/Cooler-GamerStorm-Redragon-Heatpipes-R-AK400-BKNNMD-AJG/dp/B0G5RDXV7N?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAIEamrSRdFVN7e_Y15KhgdB2xwB6jwdAALMDGsb8y6dUBaQaj68G1iEAQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "nome": "Air Cooler GamerStorm X Redragon AK400 RD Preto 4 Heatpipes Fan 120 mm R-AK400-BKNNMD-AJG",
-      "parcelas": 4,
-      "por": 148.0,
-      "lido_ia": true,
-      "palavra": "cooler",
-      "garimpado_em": "2026-10-16T12:20-03:00",
-      "nota": 18.6,
-      "titulo": "Air cooler para manter o processador frio",
-      "id": 665,
-      "na_revisao_desde": "2026-10-16T12:42-03:00",
-      "msg_id": 1130
     }
   ],
   "proximo_id": 666,
@@ -7165,6 +7143,29 @@
   ],
   "lixeira": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B0G5RDXV7N",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0G5RDXV7N?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0G5RDXV7N?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/222818",
+      "link_canal": "https://www.amazon.com.br/Cooler-GamerStorm-Redragon-Heatpipes-R-AK400-BKNNMD-AJG/dp/B0G5RDXV7N?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAIEamrSRdFVN7e_Y15KhgdB2xwB6jwdAALMDGsb8y6dUBaQaj68G1iEAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "nome": "Air Cooler GamerStorm X Redragon AK400 RD Preto 4 Heatpipes Fan 120 mm R-AK400-BKNNMD-AJG",
+      "parcelas": 4,
+      "por": 148.0,
+      "lido_ia": true,
+      "palavra": "cooler",
+      "garimpado_em": "2026-10-16T12:20-03:00",
+      "nota": 18.6,
+      "titulo": "Air cooler para manter o processador frio",
+      "id": 665,
+      "na_revisao_desde": "2026-10-16T12:42-03:00",
+      "removido_em": "2026-10-16T12:42:43-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:1142080977.58251235467",
       "nome": "Forma Descartável Quadrada para Airfryer 100 Unidades",
@@ -7981,7 +7982,7 @@
       "promooeasy": {
         "achados": 2,
         "aprovados": 1,
-        "reprovados": 0
+        "reprovados": 1
       },
       "boletando": {
         "achados": 2,
@@ -8090,7 +8091,7 @@
     "cooler": {
       "achados": 6,
       "aprovados": 0,
-      "reprovados": 5
+      "reprovados": 6
     },
     "coqueteleira": {
       "achados": 2,
