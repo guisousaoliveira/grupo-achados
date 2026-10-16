@@ -2247,23 +2247,72 @@
       "id": 691,
       "na_revisao_desde": "2026-10-16T16:23-03:00",
       "msg_id": 1182
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB57821770",
+      "origem": "urubupromo",
+      "link": "https://meli.la/199ssBp",
+      "link_produto": "https://www.mercadolivre.com.br/air-fryer-oven-16l-wap-multi-comb-digital-wafc16-painel-touch-220v/p/MLB57821770",
+      "post_origem": "https://t.me/urubupromo/41782",
+      "link_canal": "https://meli.la/1NZpfew",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_831624-MLA93384203743_092025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Air fryer Oven 16L Wap Multi-Comb Digital WAFC16 Painel Touch 220V",
+      "por": 431.32,
+      "lido_ia": true,
+      "cupom": "OFFHOJE",
+      "preco_conferido": true,
+      "preco_cupom": true,
+      "preco_sem_cupom": 479.24,
+      "palavra": "air fryer",
+      "garimpado_em": "2026-10-16T15:10-03:00",
+      "nota": 38.9,
+      "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto",
+      "titulo": "Fritadeira oven espaçosa para assar porções grandes",
+      "id": 692,
+      "na_revisao_desde": "2026-10-16T16:31-03:00",
+      "msg_id": 1183
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0FPRK5P9H",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0FPRK5P9H?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0FPRK5P9H?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/222946",
+      "link_canal": "https://www.amazon.com.br/dp/B0FPRK5P9H/ref=cm_sw_r_as_gl_apa_gl_i_dl_588ARJZTXAR4GF6KKFTJ?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAIEoGrSe5zbHn3TlzL-e367sCD8vRflAAJhDGsbvgWUU8G_A_N2l2JDAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Smart TV Semp 55 Polegadas LED HVA 4K S62 WiFi Bluetooth Google TV 3 HDMI HDR10+ Dolby Audio 55S62",
+      "por": 2299.0,
+      "lido_ia": true,
+      "sem_preco_loja": true,
+      "palavra": "smart tv",
+      "garimpado_em": "2026-10-16T15:11-03:00",
+      "nota": 16.8,
+      "motivo_revisao": "a loja não abriu para eu conferir o preço",
+      "titulo": "TV 55 polegadas para ver filmes e jogos",
+      "id": 693,
+      "na_revisao_desde": "2026-10-16T16:31-03:00",
+      "msg_id": 1184
     }
   ],
-  "proximo_id": 692,
+  "proximo_id": 694,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 85235,
-      "lobaopromo": 190447,
-      "gatunopromos": 125743,
+      "xetdaspromocoes": 85236,
+      "lobaopromo": 190450,
+      "gatunopromos": 125745,
       "pobregram": 42022,
-      "urubupromo": 41786,
-      "tudonapromo": 102186,
-      "promonocontext": 127709,
-      "promooeasy": 223002,
-      "aquitempechincha": 282182,
+      "urubupromo": 41788,
+      "tudonapromo": 102187,
+      "promonocontext": 127712,
+      "promooeasy": 223008,
+      "aquitempechincha": 282187,
       "infoBRpromos": 67705,
       "boletando": 76839,
-      "promotop": 260385,
+      "promotop": 260386,
       "achadosdotb": 11786
     },
     "dia": "2026-10-16",
@@ -4386,28 +4435,27 @@
       "mercadolivre:MLB74143355"
     ],
     "ultima": {
-      "em": "2026-10-16T16:22:38-03:00",
+      "em": "2026-10-16T16:30:24-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 50,
+      "posts_novos": 35,
       "do_nicho": 4,
-      "repetidas": 2,
-      "novas": 1,
+      "repetidas": 4,
+      "novas": 0,
       "limite_dia": false,
       "repetidas_nome": 0,
       "promobit": 0,
-      "fora_do_nicho": 1,
       "soltas": 2,
-      "na_peneira": 4
+      "na_peneira": 2
     },
     "hora": "2026-10-16T16",
     "nesta_hora": 3,
     "promobit_hora": "2026-10-16T16",
     "promobit_nesta_hora": 1,
-    "promobit_visto": 3119695,
+    "promobit_visto": 3119713,
     "nomes": [
       [
         [
@@ -6676,6 +6724,32 @@
           "premium"
         ],
         "2026-10-16T16:23-03:00"
+      ],
+      [
+        [
+          "air",
+          "fryer",
+          "oven",
+          "16l",
+          "wap",
+          "multi",
+          "comb",
+          "digital"
+        ],
+        "2026-10-16T16:30-03:00"
+      ],
+      [
+        [
+          "smart",
+          "tv",
+          "semp",
+          "55",
+          "polegadas",
+          "led",
+          "hva",
+          "4k"
+        ],
+        "2026-10-16T16:31-03:00"
       ]
     ],
     "peneira": [
@@ -6700,45 +6774,6 @@
       },
       {
         "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB57821770",
-        "origem": "urubupromo",
-        "link": "https://www.mercadolivre.com.br/air-fryer-oven-16l-wap-multi-comb-digital-wafc16-painel-touch-220v/p/MLB57821770?matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/air-fryer-oven-16l-wap-multi-comb-digital-wafc16-painel-touch-220v/p/MLB57821770",
-        "post_origem": "https://t.me/urubupromo/41782",
-        "link_canal": "https://meli.la/1NZpfew",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_831624-MLA93384203743_092025-O.webp",
-        "foto_origem": "loja",
-        "nome": "Air fryer Oven 16L Wap Multi-Comb Digital WAFC16 Painel Touch 220V",
-        "por": 431.32,
-        "lido_ia": true,
-        "cupom": "OFFHOJE",
-        "preco_conferido": true,
-        "preco_cupom": true,
-        "preco_sem_cupom": 479.24,
-        "palavra": "air fryer",
-        "garimpado_em": "2026-10-16T15:10-03:00",
-        "nota": 38.9
-      },
-      {
-        "loja": "amazon",
-        "chave": "amazon:B0FPRK5P9H",
-        "origem": "promooeasy",
-        "link": "https://www.amazon.com.br/dp/B0FPRK5P9H?tag=alphadominu09-20",
-        "link_produto": "https://www.amazon.com.br/dp/B0FPRK5P9H?tag=alphadominu09-20",
-        "post_origem": "https://t.me/promooeasy/222946",
-        "link_canal": "https://www.amazon.com.br/dp/B0FPRK5P9H/ref=cm_sw_r_as_gl_apa_gl_i_dl_588ARJZTXAR4GF6KKFTJ?tag=promof26-20",
-        "foto": "https://m.media-amazon.com/images/I/61mUtpPKNVL._AC_SL1000_.jpg",
-        "foto_origem": "loja",
-        "nome": "Smart TV Semp 55 Polegadas LED HVA 4K S62 WiFi Bluetooth Google TV 3 HDMI HDR10+ Dolby Audio 55S62",
-        "por": 2299.0,
-        "lido_ia": true,
-        "sem_preco_loja": true,
-        "palavra": "smart tv",
-        "garimpado_em": "2026-10-16T15:11-03:00",
-        "nota": 16.8
-      },
-      {
-        "loja": "mercadolivre",
         "chave": "mercadolivre:MLB74143355",
         "origem": "promooeasy",
         "link": "https://produto.mercadolivre.com.br/MLB-74143355?matt_word=alphapromo&matt_tool=59136903",
@@ -6757,17 +6792,17 @@
       }
     ],
     "soltas_hora": "2026-10-16T16",
-    "soltas": 4,
-    "shopee_em": "2026-10-16T16:13-03:00",
-    "shopee_indice": 44,
+    "soltas": 6,
+    "shopee_em": "2026-10-16T16:31-03:00",
+    "shopee_indice": 52,
     "soltas_dia_data": "2026-10-16",
-    "soltas_dia": 60,
+    "soltas_dia": 62,
     "soltas_loja": {
       "shopee": 1,
-      "mercadolivre": 2,
-      "amazon": 1
+      "mercadolivre": 3,
+      "amazon": 2
     },
-    "soltas_vez": "2026-10-16T16:1"
+    "soltas_vez": "2026-10-16T16:2"
   },
   "ultimos": [
     {
@@ -8242,7 +8277,7 @@
         "reprovados": 0
       },
       "promooeasy": {
-        "achados": 5,
+        "achados": 6,
         "aprovados": 3,
         "reprovados": 1
       },
@@ -8260,10 +8295,15 @@
         "achados": 1,
         "aprovados": 0,
         "reprovados": 1
+      },
+      "urubupromo": {
+        "achados": 1,
+        "aprovados": 0,
+        "reprovados": 0
       }
     }
   },
-  "aviso_post": "2026-10-16 15:55|mercadolivre:MLB7218965676",
+  "aviso_post": "2026-10-16 16:36|amazon:B00YTY4AB8",
   "garimpo_palavras": {
     "academia": {
       "achados": 30,
@@ -8271,7 +8311,7 @@
       "reprovados": 18
     },
     "air fryer": {
-      "achados": 11,
+      "achados": 12,
       "aprovados": 2,
       "reprovados": 6
     },
@@ -8466,7 +8506,7 @@
       "reprovados": 7
     },
     "smart tv": {
-      "achados": 27,
+      "achados": 28,
       "aprovados": 5,
       "reprovados": 22
     },
