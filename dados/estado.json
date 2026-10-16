@@ -284,6 +284,26 @@
       "titulo": "Mondaine com pulseira de silicone para uso diário",
       "na_revisao_desde": "2026-10-16T11:36-03:00",
       "aprovado_em": "2026-10-16T11:42-03:00"
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0977QVRJS",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0977QVRJS?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0977QVRJS?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/relogio-masculino-timex-easy-reader-indiglo-pretoprata-3118825/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3118825/",
+      "nome": "Relógio Masculino Timex Easy Reader Indiglo PretoPrata",
+      "por": 299.0,
+      "foto": "AgACAgQAAxkDAAIEZ2rSRbHpwKplnFzmzL8TPMStJqBeAAIoDmsbC9FFUY-EgnI8Bon3AQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "palavra": "relogio masculino",
+      "garimpado_em": "2026-10-16T12:00-03:00",
+      "nota": 38.4,
+      "titulo": "Timex com mostrador de fácil leitura no escuro",
+      "na_revisao_desde": "2026-10-16T12:41-03:00",
+      "aprovado_em": "2026-10-16T12:43-03:00"
     }
   ],
   "postados": [
@@ -1943,27 +1963,6 @@
       "id": 661,
       "na_revisao_desde": "2026-10-16T12:41-03:00",
       "msg_id": 1126
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0977QVRJS",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B0977QVRJS?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0977QVRJS?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/relogio-masculino-timex-easy-reader-indiglo-pretoprata-3118825/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3118825/",
-      "nome": "Relógio Masculino Timex Easy Reader Indiglo PretoPrata",
-      "por": 299.0,
-      "foto": "AgACAgQAAxkDAAIEZ2rSRbHpwKplnFzmzL8TPMStJqBeAAIoDmsbC9FFUY-EgnI8Bon3AQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "palavra": "relogio masculino",
-      "garimpado_em": "2026-10-16T12:00-03:00",
-      "nota": 38.4,
-      "titulo": "Timex com mostrador de fácil leitura no escuro",
-      "id": 662,
-      "na_revisao_desde": "2026-10-16T12:41-03:00",
-      "msg_id": 1127
     }
   ],
   "proximo_id": 666,
@@ -7965,7 +7964,7 @@
       },
       "promobit": {
         "achados": 5,
-        "aprovados": 0,
+        "aprovados": 1,
         "reprovados": 4
       },
       "promonocontext": {
@@ -8229,7 +8228,7 @@
     },
     "relogio masculino": {
       "achados": 7,
-      "aprovados": 3,
+      "aprovados": 4,
       "reprovados": 3
     },
     "jogo de soquete": {
