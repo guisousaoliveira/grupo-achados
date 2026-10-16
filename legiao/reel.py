@@ -206,7 +206,7 @@ def main():
     (SAIDA / "post.json").write_text(json.dumps({**post, "tipo": "reel", "aprovado": aprovado, "data": base["DATA"],
                                                 "video": video["name"], "musica": musica["name"]},
                                                ensure_ascii=False, indent=1), encoding="utf-8")
-    (SAIDA / "status.json").write_text(json.dumps({"status": "pendente", "tipo": "reel", "dia": dia, "pasta": pasta,
+    (SAIDA / "status.json").write_text(json.dumps({"status": "pendente" if aprovado else "recusado", "tipo": "reel", "dia": dia, "pasta": pasta,
                                                    "horario": R["horario_post"]}), encoding="utf-8")
 
     enviar_video(arquivo, f"🎬 Legião Alpha – Reel {base['DATA']}\nTema: {post.get('tema', '')}\n"
