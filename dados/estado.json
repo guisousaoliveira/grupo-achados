@@ -1680,8 +1680,31 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [],
-  "proximo_id": 631,
+  "revisar": [
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB44745787",
+      "origem": "promonocontext",
+      "link": "https://www.mercadolivre.com.br/relogio-masculino-orient-prateado-quartzo-analogico-fundo-preto-prova-dagua-100m/p/MLB44745787?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/relogio-masculino-orient-prateado-quartzo-analogico-fundo-preto-prova-dagua-100m/p/MLB44745787",
+      "post_origem": "https://t.me/promonocontext/127087",
+      "link_canal": "https://meli.la/2ywQm9R",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_850271-MLA118397071941_092026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Relógio Masculino Orient Prateado Quartzo Analógico Fundo Preto Prova",
+      "de": 499.0,
+      "por": 247.0,
+      "cupom": "APROVEITA",
+      "palavra": "relogio masculino",
+      "garimpado_em": "2026-10-15T12:40-03:00",
+      "nota": 76.1,
+      "titulo": "Relógio analógico prateado para uso diário",
+      "id": 631,
+      "na_revisao_desde": "2026-10-15T22:06-03:00",
+      "msg_id": 1059
+    }
+  ],
+  "proximo_id": 632,
   "radar": {
     "visto": {
       "xetdaspromocoes": 85097,
@@ -6408,29 +6431,6 @@
       "removido_de": "revisar"
     },
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB44745787",
-      "origem": "promonocontext",
-      "link": "https://www.mercadolivre.com.br/relogio-masculino-orient-prateado-quartzo-analogico-fundo-preto-prova-dagua-100m/p/MLB44745787?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/relogio-masculino-orient-prateado-quartzo-analogico-fundo-preto-prova-dagua-100m/p/MLB44745787",
-      "post_origem": "https://t.me/promonocontext/127087",
-      "link_canal": "https://meli.la/2ywQm9R",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_850271-MLA118397071941_092026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Relógio Masculino Orient Prateado Quartzo Analógico Fundo Preto Prova",
-      "de": 499.0,
-      "por": 247.0,
-      "cupom": "APROVEITA",
-      "palavra": "relogio masculino",
-      "garimpado_em": "2026-10-15T12:40-03:00",
-      "nota": 76.1,
-      "titulo": "Relógio analógico prateado para uso diário",
-      "id": 604,
-      "na_revisao_desde": "2026-10-15T12:40-03:00",
-      "removido_em": "2026-10-15T21:30:19-03:00",
-      "removido_de": "revisar"
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B0F5X4LL89",
       "origem": "promobit",
@@ -6846,7 +6846,7 @@
       "promonocontext": {
         "achados": 5,
         "aprovados": 1,
-        "reprovados": 4
+        "reprovados": 3
       }
     }
   },
@@ -7085,7 +7085,7 @@
     "relogio masculino": {
       "achados": 6,
       "aprovados": 2,
-      "reprovados": 4
+      "reprovados": 3
     },
     "jogo de soquete": {
       "achados": 2,
