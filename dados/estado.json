@@ -258,6 +258,29 @@
       "na_revisao_desde": "2026-10-16T10:48-03:00",
       "de": 3599.9,
       "aprovado_em": "2026-10-16T10:49-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB7013067090",
+      "origem": "promonocontext",
+      "link": "https://meli.la/2ay1cCW",
+      "link_produto": "https://www.mercadolivre.com.br/tenis-masculino-court-classic-clean-s-puma/up/MLBU4130437583?pdp_filters=item_id%3AMLB7013067090",
+      "post_origem": "https://t.me/promonocontext/127519",
+      "link_canal": "https://meli.la/1nDYCFJ",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_638273-MLB113292867907_062026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Tênis Masculino Court Classic Clean S Puma Preto Liso 37 Br",
+      "de": 379.0,
+      "por": 219.0,
+      "lido_ia": true,
+      "cupom": "161040TODOSITE",
+      "preco_loja": 239.99,
+      "palavra": "tenis masculino",
+      "garimpado_em": "2026-10-16T10:20-03:00",
+      "nota": 61.1,
+      "titulo": "Tênis Puma todo preto fácil de combinar",
+      "na_revisao_desde": "2026-10-16T10:41-03:00",
+      "aprovado_em": "2026-10-16T10:49-03:00"
     }
   ],
   "postados": [
@@ -1843,30 +1866,6 @@
   },
   "shopee_buscado_em": "",
   "revisar": [
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB7013067090",
-      "origem": "promonocontext",
-      "link": "https://meli.la/2ay1cCW",
-      "link_produto": "https://www.mercadolivre.com.br/tenis-masculino-court-classic-clean-s-puma/up/MLBU4130437583?pdp_filters=item_id%3AMLB7013067090",
-      "post_origem": "https://t.me/promonocontext/127519",
-      "link_canal": "https://meli.la/1nDYCFJ",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_638273-MLB113292867907_062026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Tênis Masculino Court Classic Clean S Puma Preto Liso 37 Br",
-      "de": 379.0,
-      "por": 219.0,
-      "lido_ia": true,
-      "cupom": "161040TODOSITE",
-      "preco_loja": 239.99,
-      "palavra": "tenis masculino",
-      "garimpado_em": "2026-10-16T10:20-03:00",
-      "nota": 61.1,
-      "titulo": "Tênis Puma todo preto fácil de combinar",
-      "id": 648,
-      "na_revisao_desde": "2026-10-16T10:41-03:00",
-      "msg_id": 1109
-    },
     {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB7245332674",
@@ -7214,7 +7213,7 @@
       },
       "promonocontext": {
         "achados": 4,
-        "aprovados": 1,
+        "aprovados": 2,
         "reprovados": 1
       },
       "lobaopromo": {
@@ -7453,7 +7452,7 @@
     },
     "tenis masculino": {
       "achados": 3,
-      "aprovados": 0,
+      "aprovados": 1,
       "reprovados": 2
     },
     "termogenico": {
