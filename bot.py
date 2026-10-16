@@ -118,8 +118,8 @@ def usar_github():
     return bool(segredo("GITHUB_TOKEN") and _repo()) and not SIMULAR
 
 
-def _github(metodo, corpo=None):
-    url = f"https://api.github.com/repos/{_repo()}/contents/dados/estado.json"
+def _github(metodo, corpo=None, arquivo="dados/estado.json"):
+    url = f"https://api.github.com/repos/{_repo()}/contents/{arquivo}"
     req = urllib.request.Request(url, method=metodo,
                                  data=json.dumps(corpo).encode() if corpo is not None else None,
                                  headers={"Authorization": f"Bearer {segredo('GITHUB_TOKEN')}",
@@ -181,6 +181,10 @@ def salvar_estado(estado, sha):
     if not usar_github():
         salvar_json(ARQ_ESTADO, estado)
         return
+    try:
+        publicar_vitrine(estado)
+    except Exception as e:  # o site fica com a versão anterior; o bot segue normal
+        log(f"Não atualizei a vitrine do site ({e}).")
     texto = json.dumps(estado, ensure_ascii=False, indent=2)
     corpo = {"message": "estado do bot", "content": base64.b64encode(texto.encode("utf-8")).decode()}
     if sha:
@@ -191,6 +195,77 @@ def salvar_estado(estado, sha):
         if e.code in (409, 422):
             raise Conflito() from e
         raise
+
+
+SECOES_SITE = [  # ordem importa: a primeira que bater fica (ex.: "câmera veicular" é Carro, não Tech)
+    ("carro", r"veicular|automotiv|\bcarro|\bmoto\b|capacete|pneu|compressor de ar|para-brisa|retrovisor"),
+    ("academia", r"whey|creatina|pr[eé].?treino|suplement|prote[ií]na|academia|treino|halter|anilha|calistenia|dry ?fit|"
+                 r"coqueteleira|kettlebell|el[aá]stico|esteira|bicicleta|corrida|muscula|yoga|abdominal"),
+    ("relogios", r"rel[oó]gio|smartwatch|\bwatch\b|timex|casio|orient|garmin|amazfit|seiko|invicta|technos"),
+    ("barba", r"barbeador|aparador|barba|perfume|col[oô]nia|desodorante|shampoo|pomada|hidratante|protetor solar|"
+              r"skincare|cabelo|navalha|loç[aã]o|eau de"),
+    ("tech", r"fone|headset|c[aâ]mera|drone|gopro|smart ?tv|\btv\b|notebook|monitor|mouse|teclado|celular|smartphone|"
+             r"power ?bank|carregador|\bssd\b|pendrive|caixa de som|\becho\b|alexa|interruptor|tablet|kindle|console|"
+             r"playstation|ps5|xbox|nintendo|projetor|roteador|webcam|tomada inteligente|l[aâ]mpada inteligente"),
+    ("casa", r"air ?fryer|fritadeira|panela|churras|cafeteira|liquidificador|garrafa|stanley|lumin[aá]ria|aspirador|"
+             r"cozinha|faca|grill|forno|micro.?ondas|ventilador|colch[aã]o|travesseiro|cadeira|mesa|ferramenta|furadeira|"
+             r"parafusadeira|jardim|copo|t[eé]rmic|chaleira|sanduicheira|organizador"),
+    ("estilo", r"camisa|camiseta|cal[cç]a|bermuda|jaqueta|moletom|t[eê]nis|sapat|bota|mochila|carteira|[oó]culos|cinto|"
+               r"bon[eé]|meia|cueca|polo|blazer|mala|bolsa|pochete|chinelo"),
+]
+
+
+def secao_site(item):
+    texto = f"{item.get('nome', '')} {item.get('titulo', '')}".lower()
+    for secao, padrao in SECOES_SITE:
+        if re.search(padrao, texto):
+            return secao
+    return "outros"
+
+
+def foto_publica(item):
+    """Foto que o site consegue mostrar: endereço da loja (o file_id do Telegram não abre fora do Telegram)."""
+    foto = item.get("foto") or ""
+    if foto.startswith("http"):
+        return foto
+    if item.get("loja") == "amazon" and ":" in item.get("chave", ""):
+        return f"https://images-na.ssl-images-amazon.com/images/P/{item['chave'].split(':', 1)[1]}.01.LZZZZZZZ.jpg"
+    return ""
+
+
+def vitrine_site(estado, horas=48, maximo=80):
+    """Ofertas que já saíram no canal (o Telegram sempre vem antes), das últimas `horas`, mais novas primeiro."""
+    corte = (agora() - timedelta(hours=horas)).isoformat(timespec="minutes")
+    ofertas, vistos = [], set()
+    for p in reversed(estado.get("postados", [])):
+        if p.get("data", "") < corte or not p.get("por") or not p.get("link") or p["chave"] in vistos:
+            continue
+        vistos.add(p["chave"])
+        o = {k: p[k] for k in ("titulo", "nome", "loja", "de", "por", "cupom", "pix", "prime", "link", "data",
+                               "foto", "secao", "conferido") if p.get(k)}
+        o["id"] = hashlib.sha1(p["chave"].encode()).hexdigest()[:10]
+        ofertas.append(o)
+        if len(ofertas) >= maximo:
+            break
+    return ofertas
+
+
+def publicar_vitrine(estado):
+    """Grava dados/vitrine.json (lido pelo site alphadominustv.com/promocoes) quando as ofertas mudam."""
+    ofertas = vitrine_site(estado)
+    marca = hashlib.sha1(json.dumps(ofertas, sort_keys=True).encode()).hexdigest()[:12]
+    if estado.get("vitrine_marca") == marca:
+        return
+    texto = json.dumps({"atualizado": agora().isoformat(timespec="minutes"), "ofertas": ofertas}, ensure_ascii=False)
+    corpo = {"message": "vitrine do site", "content": base64.b64encode(texto.encode("utf-8")).decode()}
+    try:
+        corpo["sha"] = _github("GET", arquivo="dados/vitrine.json")["sha"]
+    except urllib.error.HTTPError as e:
+        if e.code != 404:
+            raise
+    _github("PUT", corpo, arquivo="dados/vitrine.json")
+    estado["vitrine_marca"] = marca
+    log(f"Vitrine do site atualizada: {len(ofertas)} oferta(s).")
 
 
 def com_estado(acao, tentativas=3):
@@ -1435,9 +1510,12 @@ def guardar_ultimo(estado, item):
 def registro_postado(item, dt):
     """Linha do histórico (o link vai junto para o Histórico do painel abrir o produto certo)."""
     r = {"chave": item["chave"], "loja": item["loja"], "nome": item["nome"], "data": dt.isoformat(timespec="minutes")}
-    for k in ("link", "link_produto", "titulo"):
+    for k in ("link", "link_produto", "titulo", "de", "por", "cupom", "pix", "prime"):
         if item.get(k):
             r[k] = item[k]
+    if item.get("preco_conferido"):
+        r["conferido"] = True
+    r["foto"], r["secao"] = foto_publica(item), secao_site(item)  # para o site (vitrine_site)
     return r
 
 
