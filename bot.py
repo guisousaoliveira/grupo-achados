@@ -2879,14 +2879,14 @@ def meli_la(url):
 
 
 def encurtar_fila_ml(estado):
-    """Troca o link longo do Mercado Livre da fila pelo meli.la com a sua etiqueta (se ML_COOKIES estiver salvo).
+    """Troca o link longo do Mercado Livre da fila e do Revisar pelo meli.la com a sua etiqueta (se ML_COOKIES estiver salvo).
     Se o login do ML expirar, o post sai com o link longo mesmo e você recebe um aviso por dia."""
     if not segredo("ML_COOKIES"):
         return
     feitos = 0
-    for item in estado["fila"]:
+    for item in estado["fila"] + estado.get("revisar", []):  # a fila primeiro (sai antes)
         link = item.get("link") or ""
-        if item.get("loja") != "mercadolivre" or link.startswith("https://meli.la/") or feitos >= 5:
+        if item.get("loja") != "mercadolivre" or link.startswith("https://meli.la/") or feitos >= 8:
             continue
         feitos += 1
         alvo = item.get("link_produto") or link.split("?")[0]
