@@ -1693,29 +1693,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB3493517270",
-      "origem": "lobaopromo",
-      "link": "https://produto.mercadolivre.com.br/MLB-3493517270-tenis-feminino-original-leve-confortavel-olimp-nice-academia-_JM?pdp_filters=item_id%3AMLB3493517270&matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-3493517270-tenis-feminino-original-leve-confortavel-olimp-nice-academia-_JM?pdp_filters=item_id%3AMLB3493517270",
-      "post_origem": "https://t.me/lobaopromo/189843",
-      "link_canal": "https://meli.la/1U3fRSf",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_897805-MLB110085348355_042026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Tenis Feminino Original Leve Confortável Olimp Nice Academia",
-      "de": 199.0,
-      "por": 82.0,
-      "palavra": "academia",
-      "garimpado_em": "2026-10-15T12:20-03:00",
-      "nota": 73.1,
-      "titulo": "Tênis leve e confortável para caminhada e academia",
-      "id": 630,
-      "na_revisao_desde": "2026-10-15T22:03-03:00",
-      "msg_id": 1057
-    }
-  ],
+  "revisar": [],
   "proximo_id": 631,
   "radar": {
     "visto": {
@@ -6353,6 +6331,28 @@
   ],
   "lixeira": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB3493517270",
+      "origem": "lobaopromo",
+      "link": "https://produto.mercadolivre.com.br/MLB-3493517270-tenis-feminino-original-leve-confortavel-olimp-nice-academia-_JM?pdp_filters=item_id%3AMLB3493517270&matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-3493517270-tenis-feminino-original-leve-confortavel-olimp-nice-academia-_JM?pdp_filters=item_id%3AMLB3493517270",
+      "post_origem": "https://t.me/lobaopromo/189843",
+      "link_canal": "https://meli.la/1U3fRSf",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_897805-MLB110085348355_042026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Tenis Feminino Original Leve Confortável Olimp Nice Academia",
+      "de": 199.0,
+      "por": 82.0,
+      "palavra": "academia",
+      "garimpado_em": "2026-10-15T12:20-03:00",
+      "nota": 73.1,
+      "titulo": "Tênis leve e confortável para caminhada e academia",
+      "id": 630,
+      "na_revisao_desde": "2026-10-15T22:03-03:00",
+      "removido_em": "2026-10-15T22:04:18-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B00T5AVD0C",
       "origem": "promooeasy",
@@ -6858,7 +6858,7 @@
       "lobaopromo": {
         "achados": 9,
         "aprovados": 6,
-        "reprovados": 2
+        "reprovados": 3
       },
       "promobit": {
         "achados": 9,
@@ -6892,7 +6892,7 @@
     "academia": {
       "achados": 24,
       "aprovados": 7,
-      "reprovados": 16
+      "reprovados": 17
     },
     "air fryer": {
       "achados": 7,
