@@ -307,6 +307,29 @@
       "titulo": "Airfryer oven 11L para assar refeições completas",
       "na_revisao_desde": "2026-10-16T19:01-03:00",
       "aprovado_em": "2026-10-16T19:01-03:00"
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0H8R6S35S",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0H8R6S35S?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0H8R6S35S?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/223164",
+      "link_canal": "https://www.amazon.com.br/Halteres-Ajust%C3%A1veis-Anilhas-Kettlebell-Flex%C3%A3o/dp/B0H8R6S35S?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAIEumrSqkZQVteNZOY605zZOCxo_RnSAAI7D2sb2Ts1UbKDgKs_gRAGAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "nome": "Halteres Ajustáveis Kit 6 em 1 até 10 kg com Barra Longa",
+      "pix": true,
+      "por": 169.0,
+      "lido_ia": true,
+      "preco_conferido": true,
+      "palavra": "halter",
+      "garimpado_em": "2026-10-16T19:40-03:00",
+      "nota": 33.6,
+      "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto",
+      "titulo": "Kit de halteres ajustáveis para treinar em casa",
+      "na_revisao_desde": "2026-10-16T19:50-03:00",
+      "aprovado_em": "2026-10-16T19:58-03:00"
     }
   ],
   "postados": [
@@ -2303,32 +2326,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0H8R6S35S",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0H8R6S35S?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0H8R6S35S?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/223164",
-      "link_canal": "https://www.amazon.com.br/Halteres-Ajust%C3%A1veis-Anilhas-Kettlebell-Flex%C3%A3o/dp/B0H8R6S35S?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAIEumrSqkZQVteNZOY605zZOCxo_RnSAAI7D2sb2Ts1UbKDgKs_gRAGAQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "nome": "Halteres Ajustáveis Kit 6 em 1 até 10 kg com Barra Longa",
-      "pix": true,
-      "por": 169.0,
-      "lido_ia": true,
-      "preco_conferido": true,
-      "palavra": "halter",
-      "garimpado_em": "2026-10-16T19:40-03:00",
-      "nota": 33.6,
-      "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto",
-      "titulo": "Kit de halteres ajustáveis para treinar em casa",
-      "id": 711,
-      "na_revisao_desde": "2026-10-16T19:50-03:00",
-      "msg_id": 1210
-    }
-  ],
+  "revisar": [],
   "proximo_id": 712,
   "radar": {
     "visto": {
@@ -8937,7 +8935,7 @@
       },
       "promooeasy": {
         "achados": 13,
-        "aprovados": 4,
+        "aprovados": 5,
         "reprovados": 7
       },
       "boletando": {
@@ -9266,7 +9264,7 @@
     },
     "halter": {
       "achados": 3,
-      "aprovados": 1,
+      "aprovados": 2,
       "reprovados": 0
     },
     "lavadora de alta pressao": {
@@ -9354,7 +9352,8 @@
       "15": 5,
       "16": 2,
       "17": 3,
-      "18": 2
+      "18": 2,
+      "19": 1
     }
   },
   "aviso_ml": "2026-10-16",
