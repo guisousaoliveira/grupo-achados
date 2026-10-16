@@ -112,6 +112,28 @@
       "aviso_validade": true
     },
     {
+      "loja": "shopee",
+      "chave": "shopee:1458574782.42515045410",
+      "nome": "Barbeador Elétrico Feminino 4 em 1 Recarregável, Kit de Aparição para Rosto, Nariz, Pernas e Axilas, Máquina de Barbear",
+      "por": 49.99,
+      "de": 99.98,
+      "foto": "https://cf.shopee.com.br/file/br-11134207-820lp-mmw14ad5z01ua9",
+      "link": "https://s.shopee.com.br/1BCVtr4Je",
+      "link_produto": "https://shopee.com.br/product/1458574782/42515045410",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.8,
+      "vendas": 1494,
+      "palavra": "maquina de barbear",
+      "garimpado_em": "2026-10-16T07:40-03:00",
+      "nota": 70.0,
+      "titulo": "Barbeador para depilar rosto pernas e axilas sem cortes",
+      "aprovado_sozinho": true,
+      "aprovado_em": "2026-10-16T07:41-03:00"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB44745787",
       "origem": "promonocontext",
@@ -258,6 +280,28 @@
       "titulo": "Moedor elétrico para triturar grãos e temperos em casa",
       "na_revisao_desde": "2026-10-16T00:14-03:00",
       "aprovado_em": "2026-10-16T00:53-03:00"
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:1339888238.22599042883",
+      "nome": "BASIKE 2026 Carregador Portátil 20000mAh - Carregamento Rápido 22.5W Power Bank Carregador Saída dupla",
+      "por": 199.99,
+      "de": 298.49,
+      "foto": "https://cf.shopee.com.br/file/br-11134207-820m4-mst7bfnhmbd1a8",
+      "link": "https://s.shopee.com.br/2qVNriFDk9",
+      "link_produto": "https://shopee.com.br/product/1339888238/22599042883",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.9,
+      "vendas": 1978,
+      "palavra": "power bank",
+      "garimpado_em": "2026-10-16T07:20-03:00",
+      "nota": 60.6,
+      "titulo": "Power bank com carga rápida para dois aparelhos",
+      "aprovado_sozinho": true,
+      "aprovado_em": "2026-10-16T07:40-03:00"
     }
   ],
   "postados": [
@@ -1759,17 +1803,17 @@
   },
   "shopee_buscado_em": "",
   "revisar": [],
-  "proximo_id": 637,
+  "proximo_id": 639,
   "radar": {
     "visto": {
       "xetdaspromocoes": 85103,
-      "lobaopromo": 190198,
-      "gatunopromos": 125666,
+      "lobaopromo": 190200,
+      "gatunopromos": 125667,
       "pobregram": 41992,
       "urubupromo": 41750,
       "tudonapromo": 102064,
       "promonocontext": 127387,
-      "promooeasy": 222576,
+      "promooeasy": 222578,
       "aquitempechincha": 282005,
       "infoBRpromos": 67665,
       "boletando": 76808,
@@ -3774,32 +3818,31 @@
       "mercadolivre:MLB69221811",
       "shopee:544014438.11156463595",
       "amazon:B0GJ7G5QNC",
-      "shopee:1339888238.22599042883"
+      "shopee:1339888238.22599042883",
+      "shopee:1458574782.42515045410"
     ],
     "ultima": {
-      "em": "2026-10-16T07:32:05-03:00",
+      "em": "2026-10-16T07:40:18-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
-      "lidos": 13,
-      "falhas": [
-        "xetdaspromocoes"
-      ],
-      "posts_novos": 1,
+      "lidos": 14,
+      "falhas": [],
+      "posts_novos": 7,
       "do_nicho": 0,
       "repetidas": 0,
       "novas": 0,
       "limite_dia": false,
       "repetidas_nome": 0,
       "promobit": 0,
-      "soltas": 0,
-      "na_peneira": 1
+      "soltas": 1,
+      "na_peneira": 0
     },
     "hora": "2026-10-16T07",
     "nesta_hora": 0,
     "promobit_hora": "2026-10-16T07",
     "promobit_nesta_hora": 1,
-    "promobit_visto": 3118076,
+    "promobit_visto": 3118081,
     "nomes": [
       [
         [
@@ -5397,36 +5440,44 @@
           "beta"
         ],
         "2026-10-16T00:14-03:00"
+      ],
+      [
+        [
+          "basike",
+          "2026",
+          "carregador",
+          "portatil",
+          "20000mah",
+          "carregamento",
+          "rapido",
+          "22"
+        ],
+        "2026-10-16T07:40-03:00"
+      ],
+      [
+        [
+          "barbeador",
+          "eletrico",
+          "recarregavel",
+          "aparicao",
+          "rosto",
+          "nariz",
+          "pernas",
+          "axilas"
+        ],
+        "2026-10-16T07:41-03:00"
       ]
     ],
-    "peneira": [
-      {
-        "loja": "shopee",
-        "chave": "shopee:1339888238.22599042883",
-        "nome": "BASIKE 2026 Carregador Portátil 20000mAh - Carregamento Rápido 22.5W Power Bank Carregador Saída dupla",
-        "por": 199.99,
-        "de": 298.49,
-        "foto": "https://cf.shopee.com.br/file/br-11134207-820m4-mst7bfnhmbd1a8",
-        "link": "https://s.shopee.com.br/2qVNriFDk9",
-        "link_produto": "https://shopee.com.br/product/1339888238/22599042883",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 4.9,
-        "vendas": 1978,
-        "palavra": "power bank",
-        "garimpado_em": "2026-10-16T07:20-03:00",
-        "nota": 60.6
-      }
-    ],
+    "peneira": [],
     "soltas_hora": "2026-10-16T07",
-    "soltas": 0,
-    "shopee_em": "2026-10-16T07:20-03:00",
-    "shopee_indice": 20,
+    "soltas": 2,
+    "shopee_em": "2026-10-16T07:40-03:00",
+    "shopee_indice": 28,
     "soltas_dia_data": "2026-10-16",
-    "soltas_dia": 5,
-    "soltas_loja": {}
+    "soltas_dia": 7,
+    "soltas_loja": {
+      "shopee": 2
+    }
   },
   "ultimos": [
     {
@@ -6483,6 +6534,13 @@
         "aprovados": 2,
         "reprovados": 3
       }
+    },
+    "2026-10-16": {
+      "shopee": {
+        "achados": 2,
+        "aprovados": 0,
+        "reprovados": 0
+      }
     }
   },
   "aviso_post": "2026-10-15 23|mercadolivre:MLB21362449",
@@ -6673,7 +6731,7 @@
       "reprovados": 2
     },
     "power bank": {
-      "achados": 12,
+      "achados": 13,
       "aprovados": 3,
       "reprovados": 8
     },
@@ -6815,6 +6873,11 @@
     "moedor de cafe": {
       "achados": 1,
       "aprovados": 1,
+      "reprovados": 0
+    },
+    "maquina de barbear": {
+      "achados": 1,
+      "aprovados": 0,
       "reprovados": 0
     }
   }
