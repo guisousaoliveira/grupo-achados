@@ -182,6 +182,7 @@ def salvar_estado(estado, sha):
         salvar_json(ARQ_ESTADO, estado)
         return
     try:
+        consertar_fotos_vitrine(estado)
         publicar_vitrine(estado)
     except Exception as e:  # o site fica com a versão anterior; o bot segue normal
         log(f"Não atualizei a vitrine do site ({e}).")
@@ -223,11 +224,35 @@ def secao_site(item):
     return "outros"
 
 
+def subir_foto(chave, foto_id):
+    """Foto mandada pelo Telegram (file_id): copia para dados/fotos/ no repositório, que o site consegue abrir."""
+    if SIMULAR or not usar_github() or not foto_id:
+        return ""
+    dados = baixar_foto(foto_id)
+    if not dados or len(dados) < 2000:
+        return ""
+    nome = f"dados/fotos/{hashlib.sha1(chave.encode()).hexdigest()[:10]}.jpg"
+    try:
+        _github("PUT", {"message": "foto do site", "content": base64.b64encode(dados).decode()}, arquivo=nome)
+    except urllib.error.HTTPError as e:
+        if e.code != 422:  # 422 = já existe
+            log(f"Não subi a foto para o site ({e}).")
+            return ""
+    return f"https://raw.githubusercontent.com/{_repo()}/main/{nome}"
+
+
 def foto_publica(item):
     """Foto que o site consegue mostrar: endereço da loja (o file_id do Telegram não abre fora do Telegram)."""
     foto = item.get("foto") or ""
     if foto.startswith("http"):
         return foto
+    if foto:  # foto que veio pelo Telegram: sobe uma cópia (a foto pelo ASIN da Amazon às vezes vem vazia)
+        try:
+            url = subir_foto(item.get("chave", ""), foto)
+            if url:
+                return url
+        except Exception as e:
+            log(f"Não subi a foto para o site ({e}).")
     if item.get("loja") == "amazon" and ":" in item.get("chave", ""):
         return f"https://images-na.ssl-images-amazon.com/images/P/{item['chave'].split(':', 1)[1]}.01.LZZZZZZZ.jpg"
     return ""
@@ -266,6 +291,38 @@ def publicar_vitrine(estado):
     _github("PUT", corpo, arquivo="dados/vitrine.json")
     estado["vitrine_marca"] = marca
     log(f"Vitrine do site atualizada: {len(ofertas)} oferta(s).")
+    limpar_fotos_site(ofertas)
+
+
+def consertar_fotos_vitrine(estado, horas=48):
+    """Post que foi para o site sem foto (ou com a foto vazia da Amazon): usa a foto do post no Telegram."""
+    corte = (agora() - timedelta(hours=horas)).isoformat(timespec="minutes")
+    fotos_tg = {u.get("chave"): u.get("foto") for u in estado.get("ultimos", [])
+                if u.get("foto") and not str(u.get("foto")).startswith("http")}
+    for p in estado.get("postados", []):
+        if p.get("data", "") < corte or p.get("foto_site_ok"):
+            continue
+        foto = p.get("foto") or ""
+        if (not foto or "images-na.ssl-images-amazon.com/images/P/" in foto) and fotos_tg.get(p.get("chave")):
+            url = subir_foto(p["chave"], fotos_tg[p["chave"]])
+            if url:
+                p["foto"] = url
+        p["foto_site_ok"] = True
+
+
+def limpar_fotos_site(ofertas):
+    """Apaga de dados/fotos/ as fotos de ofertas que já saíram do site (o repositório não cresce à toa)."""
+    try:
+        arquivos = _github("GET", arquivo="dados/fotos")
+    except urllib.error.HTTPError:
+        return
+    usadas = {o.get("foto", "").rsplit("/", 1)[-1] for o in ofertas}
+    for a in arquivos if isinstance(arquivos, list) else []:
+        if a.get("name") not in usadas:
+            try:
+                _github("DELETE", {"message": "foto saiu do site", "sha": a["sha"]}, arquivo=a["path"])
+            except urllib.error.HTTPError as e:
+                log(f"Não apaguei a foto antiga {a.get('name')} ({e}).")
 
 
 def com_estado(acao, tentativas=3):
