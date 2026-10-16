@@ -284,29 +284,6 @@
     },
     {
       "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB4296855769",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/2xAHV4B",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-4296855769-camiseta-dryfit-masculina-academia-treino-proteco-uv-_JM?pdp_filters=item_id%3AMLB4296855769",
-      "post_origem": "https://t.me/lobaopromo/190317",
-      "link_canal": "https://meli.la/2mZYvBg",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_681261-MLB97289513052_112025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Camiseta Dryfit Masculina Academia Treino Proteção Uv+",
-      "pix": true,
-      "de": 58.09,
-      "por": 21.34,
-      "lido_ia": true,
-      "cupom": "MELISALVA",
-      "palavra": "academia",
-      "garimpado_em": "2026-10-16T11:30-03:00",
-      "nota": 83.1,
-      "titulo": "Camiseta UV para treinar ao ar livre",
-      "na_revisao_desde": "2026-10-16T11:36-03:00",
-      "aprovado_em": "2026-10-16T11:42-03:00"
-    },
-    {
-      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB68269465",
       "origem": "promonocontext",
       "link": "https://meli.la/2DahZyA",
@@ -1834,6 +1811,15 @@
       "link_produto": "https://meli.la/2HT6MGa",
       "titulo": "Lavadora de alta pressão para limpeza de quintal e garagem",
       "slot": 11
+    },
+    {
+      "chave": "mercadolivre:MLB4296855769",
+      "loja": "mercadolivre",
+      "nome": "Camiseta Dryfit Masculina Academia Treino Proteção Uv+",
+      "data": "2026-10-16T11:42-03:00",
+      "link": "https://meli.la/2xAHV4B",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-4296855769-camiseta-dryfit-masculina-academia-treino-proteco-uv-_JM?pdp_filters=item_id%3AMLB4296855769",
+      "titulo": "Camiseta UV para treinar ao ar livre"
     }
   ],
   "slots_usados": {
@@ -6275,6 +6261,21 @@
   "ultimos": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB4296855769",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/2xAHV4B",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-4296855769-camiseta-dryfit-masculina-academia-treino-proteco-uv-_JM?pdp_filters=item_id%3AMLB4296855769",
+      "post_origem": "https://t.me/lobaopromo/190317",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_681261-MLB97289513052_112025-O.webp",
+      "nome": "Camiseta Dryfit Masculina Academia Treino Proteção Uv+",
+      "pix": true,
+      "de": 58.09,
+      "por": 21.34,
+      "cupom": "MELISALVA",
+      "titulo": "Camiseta UV para treinar ao ar livre"
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB25371983",
       "origem": "promonocontext",
       "link": "https://meli.la/2HT6MGa",
@@ -6797,21 +6798,6 @@
       "origem": "shopee",
       "fonte": "shopee",
       "titulo": "Lanterna de bolso recarregável"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0FCGBD62W",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://link.amazon/B01keYSBF",
-      "link_produto": "https://link.amazon/B01keYSBF",
-      "post_origem": "https://www.promobit.com.br/oferta/corinthians-camisa-polo-retro-kalunga-masculina-preta-m-3114645/",
-      "nome": "Corinthians Camisa Polo Retrô Kalunga Masculina Preta M",
-      "por": 89.33,
-      "de": 219.99,
-      "foto": "AgACAgQAAxkDAAIDmmrQEw0aZ2Hrq_g9tPBeaePZi6bJAAJaD2sbnoeEUpMcdGUw6P_5AQADAgADeAADPQQ",
-      "titulo": "Camisa polo preta para torcer com estilo",
-      "parcelas": 2
     }
   ],
   "lixeira": [
