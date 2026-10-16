@@ -365,6 +365,16 @@ def foto_so_por_arquivo(foto):
 
 
 def publicar(item):
+    publicar_no_canal(item)
+    if not SIMULAR:
+        try:  # Hermes: avisa no privado quem tem essa oferta na lista
+            import hermes
+            hermes.avisar(item)
+        except Exception as e:
+            log(f"Hermes: não consegui avisar ({e}).")
+
+
+def publicar_no_canal(item):
     texto = montar_post(item)
     canal = segredo("TELEGRAM_CHANNEL")
     if SIMULAR:
