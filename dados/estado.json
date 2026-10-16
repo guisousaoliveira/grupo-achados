@@ -295,6 +295,29 @@
       "aprovado_em": "2026-10-16T15:30-03:00"
     },
     {
+      "loja": "amazon",
+      "chave": "amazon:B0FPBP6G49",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0FPBP6G49?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0FPBP6G49?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/222905",
+      "link_canal": "https://www.amazon.com.br/dp/B0FPBP6G49/ref=cm_sw_r_as_gl_apa_gl_i_dl_XC1YEGVR2JYP1D1K4235?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAIEjmrSchHJDV70I-xxwgMOKwuhzUUUAAJQDWsbiTq0Uf_ueE50COGLAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "nome": "PHILIPS, Smart TV, Ambilight THE ONE 65\" 4K 144 Hz, Titan OS, 65PUG8929/78, P5, DTS Play-Fi, Freesync, Dolby Vision e At",
+      "por": 3898.0,
+      "lido_ia": true,
+      "sem_preco_loja": true,
+      "palavra": "smart tv",
+      "garimpado_em": "2026-10-16T14:40-03:00",
+      "nota": 16.8,
+      "motivo_revisao": "a loja não abriu para eu conferir o preço",
+      "titulo": "Smart TV 4K com Ambilight para a sala",
+      "na_revisao_desde": "2026-10-16T15:50-03:00",
+      "de": 4899.0,
+      "aprovado_em": "2026-10-16T16:01-03:00"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:408653169.21077382827",
       "nome": "Kit 250 Forro Papel Airfryer Descartável Forma Antiaderente",
@@ -2182,31 +2205,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0FPBP6G49",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0FPBP6G49?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0FPBP6G49?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/222905",
-      "link_canal": "https://www.amazon.com.br/dp/B0FPBP6G49/ref=cm_sw_r_as_gl_apa_gl_i_dl_XC1YEGVR2JYP1D1K4235?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAIEjmrSchHJDV70I-xxwgMOKwuhzUUUAAJQDWsbiTq0Uf_ueE50COGLAQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "nome": "PHILIPS, Smart TV, Ambilight THE ONE 65\" 4K 144 Hz, Titan OS, 65PUG8929/78, P5, DTS Play-Fi, Freesync, Dolby Vision e At",
-      "por": 3898.0,
-      "lido_ia": true,
-      "sem_preco_loja": true,
-      "palavra": "smart tv",
-      "garimpado_em": "2026-10-16T14:40-03:00",
-      "nota": 16.8,
-      "motivo_revisao": "a loja não abriu para eu conferir o preço",
-      "titulo": "Smart TV 4K com Ambilight para a sala",
-      "id": 686,
-      "na_revisao_desde": "2026-10-16T15:50-03:00",
-      "msg_id": 1166
-    }
-  ],
+  "revisar": [],
   "proximo_id": 688,
   "radar": {
     "visto": {
@@ -8210,7 +8209,7 @@
       },
       "promooeasy": {
         "achados": 5,
-        "aprovados": 2,
+        "aprovados": 3,
         "reprovados": 1
       },
       "boletando": {
@@ -8434,7 +8433,7 @@
     },
     "smart tv": {
       "achados": 27,
-      "aprovados": 4,
+      "aprovados": 5,
       "reprovados": 22
     },
     "smartwatch": {
