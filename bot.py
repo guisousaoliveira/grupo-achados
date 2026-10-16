@@ -2837,6 +2837,58 @@ def cmd_teste_canal():
     print("Mensagem de teste enviada para o canal.")
 
 
+def _cookies_ml():
+    """ML_COOKIES: o texto do cabeçalho Cookie ("a=1; b=2") ou o JSON que a extensão Cookie-Editor exporta."""
+    bruto = segredo("ML_COOKIES")
+    if bruto.startswith("["):
+        try:
+            return "; ".join(f"{c['name']}={c['value']}" for c in json.loads(bruto))
+        except (ValueError, KeyError, TypeError):
+            return ""
+    return bruto
+
+
+def meli_la(url):
+    """Gera o link curto meli.la com a SUA etiqueta, do mesmo jeito que o gerador do painel de afiliados.
+    Não é API oficial: usa o login da conta (cookies). Devolve (link, erro)."""
+    cookies = _cookies_ml()
+    if not cookies:
+        return "", "sem ML_COOKIES"
+    url = url.split("#")[0].rstrip("/")
+    csrf = re.search(r"(?:^|;\s*)_csrf=([^;]+)", cookies)
+    corpo = json.dumps({"url": url, "tag": CONFIG.get("radar", {}).get("ml_matt_word", "")}).encode()
+    req = urllib.request.Request(
+        "https://www.mercadolivre.com.br/affiliate-program/api/v2/stripe/user/links", data=corpo, method="POST",
+        headers={"accept": "application/json, text/plain, */*", "content-type": "application/json",
+                 "x-csrf-token": csrf.group(1) if csrf else "", "cookie": cookies, "referer": url,
+                 "origin": "https://produto.mercadolivre.com.br",
+                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"})
+    try:
+        with urllib.request.urlopen(req, timeout=20) as r:
+            dados = json.loads(r.read().decode("utf-8", "replace"))
+    except urllib.error.HTTPError as e:
+        return "", f"HTTP {e.code}: {e.read()[:300].decode('utf-8', 'replace')}"
+    except (urllib.error.URLError, TimeoutError, ValueError) as e:
+        return "", f"falhou: {e}"
+    curto = dados.get("short_url", "")
+    return (curto, "") if curto.startswith("https://meli.la/") else ("", f"resposta sem link: {str(dados)[:300]}")
+
+
+def cmd_meli_teste(links):
+    """Testa o meli.la automático com um produto do ML (do argumento ou o último que passou pelo bot)."""
+    if not links:
+        estado = carregar_json(ARQ_ESTADO, {})
+        for item in estado.get("lixeira", []) + estado.get("postados", []):
+            if item.get("loja") == "mercadolivre" and "produto.mercadolivre" in (item.get("link_produto") or ""):
+                links = [item["link_produto"]]
+                break
+    for link in links[:3]:
+        curto, erro = meli_la(link)
+        print(f"{link[:90]}\n  -> {curto or 'ERRO ' + erro}")
+        if not curto:
+            sys.exit(1)
+
+
 def main():
     global SIMULAR, FORCAR, CONFIG
     sys.stdout.reconfigure(encoding="utf-8")
@@ -2864,6 +2916,8 @@ def main():
             cmd_shopee_teste(args[1:])
         elif cmd == "titulo-teste":
             cmd_titulo_teste()
+        elif cmd == "meli-teste":
+            cmd_meli_teste(args[1:])
         else:
             print(__doc__)
     except RuntimeError as e:
