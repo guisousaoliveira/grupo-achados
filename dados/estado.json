@@ -2,25 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB2818208621",
-      "origem": "xetdaspromocoes",
-      "link": "https://meli.la/1ii92mv",
-      "link_produto": "https://meli.la/1ii92mv",
-      "post_origem": "https://t.me/xetdaspromocoes/84929",
-      "link_canal": "https://meli.la/1krogo4",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_606926-MLB73819020082_012024-O.webp",
-      "foto_origem": "loja",
-      "nome": "Lanterna Tatica Recarregavel Mais Forte Do Mundo Sitio Led Branco",
-      "por": 21.0,
-      "palavra": "lanterna tatica",
-      "garimpado_em": "2026-10-15T09:40-03:00",
-      "nota": 46.0,
-      "titulo": "Lanterna tática recarregável para iluminação de alta potênci",
-      "na_revisao_desde": "2026-10-15T09:41-03:00",
-      "aprovado_em": "2026-10-15T10:24-03:00"
-    },
-    {
       "loja": "shopee",
       "chave": "shopee:696313634.18196991700",
       "nome": "Fonte Chaveada 12V 50A 600W Bivolt Com Chave Seletora Para Som Automotivo CFTV LED Automação Alta Potência",
@@ -1641,6 +1622,16 @@
       "link_produto": "https://shopee.com.br/product/1509466431/43809108037",
       "titulo": "Ferramenta para cortes e desbastes em metal e alvenaria",
       "slot": 20
+    },
+    {
+      "chave": "mercadolivre:MLB2818208621",
+      "loja": "mercadolivre",
+      "nome": "Lanterna Tatica Recarregavel Mais Forte Do Mundo Sitio Led Branco",
+      "data": "2026-10-15T21:27-03:00",
+      "link": "https://meli.la/1ii92mv",
+      "link_produto": "https://meli.la/1ii92mv",
+      "titulo": "Lanterna tática recarregável para iluminação de alta potênci",
+      "slot": 21
     }
   ],
   "slots_usados": {
@@ -1714,7 +1705,8 @@
       17,
       18,
       19,
-      20
+      20,
+      21
     ]
   },
   "shopee_buscado_em": "",
@@ -6010,6 +6002,18 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB2818208621",
+      "origem": "xetdaspromocoes",
+      "link": "https://meli.la/1ii92mv",
+      "link_produto": "https://meli.la/1ii92mv",
+      "post_origem": "https://t.me/xetdaspromocoes/84929",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_606926-MLB73819020082_012024-O.webp",
+      "nome": "Lanterna Tatica Recarregavel Mais Forte Do Mundo Sitio Led Branco",
+      "por": 21.0,
+      "titulo": "Lanterna tática recarregável para iluminação de alta potênci"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:1509466431.43809108037",
       "nome": "Esmerilhadeira Lixadeira Angular 115mm 11000rpm",
@@ -6540,19 +6544,6 @@
       "origem": "shopee",
       "fonte": "shopee",
       "titulo": "Mochila impermeável com compartimento para notebook e USB"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB80245753",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/2FwSNY7",
-      "link_produto": "https://meli.la/2FwSNY7",
-      "post_origem": "https://t.me/lobaopromo/189551",
-      "foto": "AgACAgQAAxkDAAIDkGrQBPQBDc3ncKvnjF12yVYsjVK6AAJXD2sbu2yFUtcSfoxrzLzSAQADAgADeAADPQQ",
-      "nome": "Mochila Reforçada E Impermeável Para Viagem Mochila Preto Liso",
-      "de": 269.0,
-      "por": 75.0,
-      "titulo": "Mochila impermeável reforçada para viagem e rotina"
     }
   ],
   "lixeira": [
