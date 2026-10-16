@@ -1,7 +1,9 @@
 """Chamado a cada rodada do bot de achados: dispara a Legião Alpha (carrossel e Reel) nos horários do
 config.json (Brasília), uma vez por horário."""
+import base64
 import json
 import os
+import urllib.error
 import urllib.request
 from datetime import datetime, timedelta, timezone
 
@@ -21,10 +23,21 @@ def api(caminho, dados=None):
         return json.loads(corpo) if corpo else {}
 
 
+def ja_tem_post(pasta):
+    """Se já gerou (na mão) o post de hoje e você não recusou, não gera outro por cima."""
+    try:
+        r = api(f"/contents/posts/{pasta}/status.json?ref=legiao-posts")
+    except urllib.error.HTTPError:
+        return False
+    return json.loads(base64.b64decode(r["content"])).get("status") != "recusado"
+
+
 def main():
     agora = datetime.now(BRT)
     for tipo, horas in HORARIOS.items():
         if agora.hour not in horas:  # janela de 1 hora
+            continue
+        if ja_tem_post(agora.strftime("%Y-%m-%d") + ("-reel" if tipo == "reel" else "")):
             continue
         inicio = agora.replace(minute=0, second=0, microsecond=0).astimezone(timezone.utc)
         runs = api(f"/actions/workflows/legiao.yml/runs?created=>={inicio.strftime('%Y-%m-%dT%H:%M:%SZ')}")
