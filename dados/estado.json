@@ -236,29 +236,6 @@
       "titulo": "Cuecas boxer sem costura que não incomodam",
       "na_revisao_desde": "2026-10-16T09:42-03:00",
       "aprovado_em": "2026-10-16T09:43-03:00"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB77830516",
-      "origem": "promonocontext",
-      "link": "https://meli.la/2E81dt9",
-      "link_produto": "https://meli.la/2E81dt9",
-      "post_origem": "https://t.me/promonocontext/127475",
-      "link_canal": "https://meli.la/1WxNRZc",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_643754-MLA116489365617_082026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Bicicleta Ergométrica Spinning Com Volante e Display LCD Guidão",
-      "de": 1099.0,
-      "por": 360.0,
-      "lido_ia": true,
-      "cupom": "161040TODOSITE",
-      "preco_loja": 398.99,
-      "palavra": "bicicleta ergometrica",
-      "garimpado_em": "2026-10-16T09:41-03:00",
-      "nota": 77.4,
-      "titulo": "Spinning para manter o cardio em dia",
-      "na_revisao_desde": "2026-10-16T09:42-03:00",
-      "aprovado_em": "2026-10-16T09:44-03:00"
     }
   ],
   "postados": [
@@ -1727,6 +1704,15 @@
       "link_produto": "https://link.amazon/B0gPY28du",
       "titulo": "Garrafa térmica pequena para manter o café quente",
       "slot": 9.1
+    },
+    {
+      "chave": "mercadolivre:MLB77830516",
+      "loja": "mercadolivre",
+      "nome": "Bicicleta Ergométrica Spinning Com Volante e Display LCD Guidão",
+      "data": "2026-10-16T09:45-03:00",
+      "link": "https://meli.la/2E81dt9",
+      "link_produto": "https://meli.la/2E81dt9",
+      "titulo": "Spinning para manter o cardio em dia"
     }
   ],
   "slots_usados": {
@@ -5700,6 +5686,20 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB77830516",
+      "origem": "promonocontext",
+      "link": "https://meli.la/2E81dt9",
+      "link_produto": "https://meli.la/2E81dt9",
+      "post_origem": "https://t.me/promonocontext/127475",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_643754-MLA116489365617_082026-O.webp",
+      "nome": "Bicicleta Ergométrica Spinning Com Volante e Display LCD Guidão",
+      "de": 1099.0,
+      "por": 360.0,
+      "cupom": "161040TODOSITE",
+      "titulo": "Spinning para manter o cardio em dia"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B07793T84W",
       "origem": "promobit",
@@ -6227,19 +6227,6 @@
       "cupom": "BR15OFFPROMO",
       "por": 180.4,
       "pix": true
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:1746399229.58259501932",
-      "nome": "Suporte de Celular Carro 360º Giratório Universal Multifuncional Ventilacao Ar Condicionado Veicular",
-      "por": 18.99,
-      "de": 39.56,
-      "foto": "AgACAgQAAxkDAAIDdGrPzM43I6pGXS4YF6Fpxuwan-mSAAJvD2sbruo8UeRlngONwSwdAQADAgADeQADPQQ",
-      "link": "https://s.shopee.com.br/5fpWPplALl",
-      "link_produto": "https://shopee.com.br/product/1746399229/58259501932",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "titulo": "Suporte veicular para usar o GPS com segurança"
     }
   ],
   "lixeira": [
