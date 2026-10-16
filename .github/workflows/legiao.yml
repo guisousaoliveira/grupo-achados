@@ -37,6 +37,8 @@ jobs:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           ADMIN_ID: ${{ secrets.ADMIN_ID }}
+          LEGIAO_TELEGRAM_TOKEN: ${{ secrets.LEGIAO_TELEGRAM_TOKEN }}
+          LEGIAO_CHAT_ID: ${{ secrets.LEGIAO_CHAT_ID }}
         run: python3 rodar.py
       - name: Guardar os temas
         if: success()
