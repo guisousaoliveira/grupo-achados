@@ -1959,17 +1959,17 @@
   "radar": {
     "visto": {
       "xetdaspromocoes": 85197,
-      "lobaopromo": 190367,
-      "gatunopromos": 125721,
+      "lobaopromo": 190369,
+      "gatunopromos": 125722,
       "pobregram": 42010,
       "urubupromo": 41777,
-      "tudonapromo": 102152,
-      "promonocontext": 127655,
-      "promooeasy": 222866,
-      "aquitempechincha": 282122,
-      "infoBRpromos": 67695,
+      "tudonapromo": 102154,
+      "promonocontext": 127656,
+      "promooeasy": 222868,
+      "aquitempechincha": 282126,
+      "infoBRpromos": 67696,
       "boletando": 76832,
-      "promotop": 260370,
+      "promotop": 260371,
       "achadosdotb": 11784
     },
     "dia": "2026-10-16",
@@ -4065,28 +4065,27 @@
       "shopee:1204063631.58264024769"
     ],
     "ultima": {
-      "em": "2026-10-16T13:30:22-03:00",
+      "em": "2026-10-16T13:40:20-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 28,
-      "do_nicho": 6,
-      "repetidas": 4,
-      "novas": 1,
+      "posts_novos": 26,
+      "do_nicho": 0,
+      "repetidas": 0,
+      "novas": 0,
       "limite_dia": false,
       "repetidas_nome": 0,
-      "promobit": 1,
-      "fora_do_nicho": 1,
-      "soltas": 2,
+      "promobit": 0,
+      "soltas": 0,
       "na_peneira": 29
     },
     "hora": "2026-10-16T13",
     "nesta_hora": 1,
     "promobit_hora": "2026-10-16T13",
     "promobit_nesta_hora": 1,
-    "promobit_visto": 3119162,
+    "promobit_visto": 3119199,
     "nomes": [
       [
         [
@@ -6085,25 +6084,6 @@
       ]
     ],
     "peneira": [
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB36700711",
-        "origem": "lobaopromo",
-        "link": "https://www.mercadolivre.com.br/caixa-de-som-bluetooth-mifa-a90-potencia-60w-cor-preto/p/MLB36700711?matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/caixa-de-som-bluetooth-mifa-a90-potencia-60w-cor-preto/p/MLB36700711",
-        "post_origem": "https://t.me/lobaopromo/190283",
-        "link_canal": "https://meli.la/1Stgtet",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_684463-MLA110627790059_042026-O.webp",
-        "foto_origem": "loja",
-        "nome": "Caixa De Som Bluetooth Mifa A90 Potência 60w Cor Preto",
-        "por": 266.0,
-        "lido_ia": true,
-        "cupom": "SITE1610",
-        "preco_loja": 296.0,
-        "palavra": "caixa de som",
-        "garimpado_em": "2026-10-16T10:40-03:00",
-        "nota": 36.7
-      },
       {
         "loja": "mercadolivre",
         "chave": "mercadolivre:MLB18115557",
