@@ -2149,7 +2149,9 @@ def produto_do_link(link):
         m = re.search(r"MLB-?(\d{6,})", alvo)
         if m and ("mercadoli" in final or "meli.la" in link):
             prod = re.search(r"https://(?:produto\.mercadolivre\.com\.br/MLB-\d+[^\s\"'<>?#]*|www\.mercadolivre\.com\.br/[^\s\"'<>?#]+/p/MLB\d+)", pagina)
-            url = prod.group(0) if prod else f"https://produto.mercadolivre.com.br/MLB-{m.group(1)}"
+            # Link de catálogo (/p/MLB123) não é anúncio: "produto.mercadolivre.com.br/MLB-123" dá página não encontrada.
+            url = prod.group(0) if prod else (url_catalogo_ml(final) or url_catalogo_ml(link)
+                                              or f"https://produto.mercadolivre.com.br/MLB-{m.group(1)}")
             ident = re.search(r"MLB-?(\d+)", url).group(1)
             achado = {"loja": "mercadolivre", "chave": f"mercadolivre:MLB{ident}", "link_produto": url}
             if "/social/" in final:  # link de afiliado do canal: a vitrine abre para servidores (a página do produto não)
@@ -2172,6 +2174,12 @@ def produto_do_link(link):
                 achado["meu_link"] = meu
         return achado
     return None
+
+
+def url_catalogo_ml(texto):
+    """Endereço limpo do produto de catálogo do ML (…/p/MLB123), ou "" se não for um."""
+    m = re.search(r"https://www\.mercadolivre\.com\.br/[^\s\"'<>?#]+/p/MLB\d+", html.unescape(texto or ""))
+    return m.group(0) if m else ""
 
 
 def produto_principal_vitrine(pagina):
@@ -3101,6 +3109,12 @@ def encurtar_fila_ml(estado):
         return
     feitos = 0
     for item in estado["fila"] + estado.get("revisar", []):  # a fila primeiro (sai antes)
+        if item.get("loja") == "mercadolivre" and "produto.mercadolivre.com.br/MLB-" in (item.get("link_produto") or ""):
+            catalogo = url_catalogo_ml(item.get("link_canal"))  # conserta link de catálogo virado em anúncio inexistente
+            if catalogo and catalogo.rsplit("MLB", 1)[1] == item["link_produto"].rsplit("MLB-", 1)[1]:
+                item["link_produto"] = catalogo
+                item["link"] = catalogo + "?" + item["link"].split("?", 1)[1] if "?" in item.get("link", "") else catalogo
+                item.pop("ml_sem_curto", None)
         link = item.get("link") or ""
         if (item.get("loja") != "mercadolivre" or link.startswith("https://meli.la/") or item.get("ml_sem_curto")
                 or feitos >= 8):
