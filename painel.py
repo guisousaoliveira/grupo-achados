@@ -104,18 +104,20 @@ def pagina_login(erro=""):
     elif erro:
         aviso = f'<p class="erro">{html.escape(erro)}</p>'
     return f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1"><title>Alpha Promo · Painel</title><link rel="icon" type="image/png" href="/painel/logo/leao">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>Mascate · Painel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@1,6..72,500&family=IBM+Plex+Sans:wght@400;600&family=IBM+Plex+Mono:wght@600&display=swap" rel="stylesheet">
 <style>
-*{{box-sizing:border-box}}body{{margin:0;min-height:100vh;display:grid;place-items:center;background:#0b0b0c;color:#ededed;font:15px Inter,system-ui,sans-serif}}
-form{{width:min(360px,calc(100% - 32px));background:#141416;border:1px solid #26262a;border-radius:16px;padding:28px}}
-.marca{{display:flex;align-items:center;gap:10px;margin-bottom:22px}}.selo{{width:40px;height:40px;border-radius:11px;background:#0b0b0c;border:1px solid rgba(212,175,55,.45);display:grid;place-items:center}}.selo img{{height:30px}}
-h1{{font-size:17px;margin:0}}small{{color:#8a8a90}}label{{display:block;font-size:13px;color:#a1a1a8;margin-bottom:6px}}
-input{{width:100%;padding:12px 14px;border-radius:10px;border:1px solid #2c2c31;background:#0e0e10;color:#fff;font:inherit}}input:focus{{outline:none;border-color:#d4af37}}
-button{{width:100%;margin-top:14px;padding:12px;border:0;border-radius:10px;background:#d4af37;color:#0b0b0c;font:600 15px Inter,sans-serif;cursor:pointer}}
-.erro{{background:#2a1515;border:1px solid #5a2323;color:#ffb4b4;padding:10px 12px;border-radius:10px;font-size:13px}}
+:root{{--bg:#EFE4D2;--card:#F7EEDF;--in:#F3E8D6;--line:#C4AE8D;--tx:#2A2018;--mut:#6B5A47;--acc:#8E4B2E;--bt:#2F2620;--bttx:#F7EEDF;--bad:#9E3A2A;--badbg:#F0D3C6}}
+@media (prefers-color-scheme:dark){{:root{{--bg:#1B1511;--card:#241C16;--in:#201913;--line:#4C3D30;--tx:#EFE3CF;--mut:#B5A28A;--acc:#E09A70;--bt:#EFE3CF;--bttx:#1B1511;--bad:#E8846F;--badbg:#3E1F18;color-scheme:dark}}}}
+*{{box-sizing:border-box}}body{{margin:0;min-height:100vh;display:grid;place-items:center;background:var(--bg);color:var(--tx);font:15px "IBM Plex Sans",system-ui,sans-serif}}
+form{{width:min(360px,calc(100% - 32px));background:var(--card);border:1px solid var(--line);border-radius:12px;padding:28px}}
+.marca{{display:flex;align-items:center;gap:10px;margin-bottom:22px}}.marca svg{{width:40px;height:40px}}
+h1{{font:italic 500 28px Newsreader,Georgia,serif;margin:0;line-height:1}}small{{color:var(--mut);font:600 10.5px "IBM Plex Mono",monospace;letter-spacing:.1em;text-transform:uppercase}}label{{display:block;font-size:13px;color:var(--mut);margin-bottom:6px}}
+input{{width:100%;padding:12px 14px;border-radius:8px;border:1px solid var(--line);background:var(--in);color:var(--tx);font:inherit}}input:focus{{outline:none;border-color:var(--acc)}}
+button{{width:100%;margin-top:14px;padding:12px;border:0;border-radius:8px;background:var(--bt);color:var(--bttx);font:600 15px "IBM Plex Sans",sans-serif;cursor:pointer}}
+.erro{{background:var(--badbg);color:var(--bad);padding:10px 12px;border-radius:8px;font-size:13px}}
 </style></head><body><form method="post" action="/painel/entrar">
-<div class="marca"><div class="selo"><img src="/painel/logo/leao" alt=""></div><div><h1>Alpha Promo</h1><small>Painel do grupo de achados</small></div></div>
+<div class="marca"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M6 9.5A3.5 3.5 0 0 1 9.5 6H23l11 11a3 3 0 0 1 0 4.2L21.2 34a3 3 0 0 1-4.2 0L6 23z" fill="var(--acc)"/><circle cx="12.5" cy="12.5" r="2.3" fill="var(--card)"/><text x="21.5" y="27" text-anchor="middle" font-family="Newsreader, Georgia, serif" font-style="italic" font-size="17" font-weight="500" fill="var(--card)">M</text></svg><div><h1>Mascate</h1><small>Canal Alpha Promo</small></div></div>
 {aviso}<label for="s">Senha</label><input id="s" name="senha" type="password" autofocus autocomplete="current-password">
 <button>Entrar</button></form></body></html>"""
 
