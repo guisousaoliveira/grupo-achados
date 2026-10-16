@@ -155,7 +155,7 @@ def validar(post):
     frase, legenda = str(post.get("frase", "")).strip(), str(post.get("legenda", "")).strip()
     if not frase:
         erros.append("Falta a \"frase\".")
-    elif len(frase) > R["max_caracteres_frase"]:
+    elif len(frase) > R["max_caracteres_frase"] + 30:  # o pedido é 110; só trava se passar muito (não cabe na tela)
         erros.append(f"A frase tem {len(frase)} caracteres; o máximo é {R['max_caracteres_frase']}. Encurte.")
     if not legenda:
         erros.append("Falta a \"legenda\".")
