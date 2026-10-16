@@ -5,7 +5,7 @@
       "loja": "shopee",
       "chave": "shopee:1768728309.23295161236",
       "nome": "Barra Fixa Parede Paralela Abdominal Musculação Fitness",
-      "por": 389.99,
+      "por": 351.99,
       "de": 499.99,
       "foto": "https://cf.shopee.com.br/file/sg-11134201-8259q-ms04aostyww81d",
       "link": "https://s.shopee.com.br/4fx2DQr1p5",
@@ -21,7 +21,8 @@
       "nota": 48.7,
       "titulo": "Barra de parede para treinar calistenia em casa",
       "aprovado_sozinho": true,
-      "aprovado_em": "2026-10-16T18:01-03:00"
+      "aprovado_em": "2026-10-16T18:01-03:00",
+      "pix": true
     },
     {
       "loja": "amazon",
