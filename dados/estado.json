@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "shopee",
-      "chave": "shopee:834213091.58263387989",
-      "nome": "Pré Treino 300g Sabor Tangerina | GL Suplemento Alimentar em Pó | Beta-Alanina Cafeína Taurina L-Arginina",
-      "por": 34.99,
-      "de": 89.72,
-      "foto": "https://cf.shopee.com.br/file/br-11134207-820m0-mtckn7obygoy4b",
-      "link": "https://s.shopee.com.br/6VOfbJn6lL",
-      "link_produto": "https://shopee.com.br/product/834213091/58263387989",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.8,
-      "vendas": 256,
-      "palavra": "pre treino",
-      "garimpado_em": "2026-10-15T21:50-03:00",
-      "nota": 77.9,
-      "titulo": "Pré-treino para dar mais energia nos exercícios",
-      "aprovado_sozinho": true,
-      "aprovado_em": "2026-10-16T00:14-03:00"
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB7715359186",
       "origem": "xetdaspromocoes",
@@ -1820,6 +1798,16 @@
       "link": "https://meli.la/2xAHV4B",
       "link_produto": "https://produto.mercadolivre.com.br/MLB-4296855769-camiseta-dryfit-masculina-academia-treino-proteco-uv-_JM?pdp_filters=item_id%3AMLB4296855769",
       "titulo": "Camiseta UV para treinar ao ar livre"
+    },
+    {
+      "chave": "shopee:834213091.58263387989",
+      "loja": "shopee",
+      "nome": "Pré Treino 300g Sabor Tangerina | GL Suplemento Alimentar em Pó | Beta-Alanina Cafeína Taurina L-Arginina",
+      "data": "2026-10-16T11:54-03:00",
+      "link": "https://s.shopee.com.br/6VOfbJn6lL",
+      "link_produto": "https://shopee.com.br/product/834213091/58263387989",
+      "titulo": "Pré-treino para dar mais energia nos exercícios",
+      "slot": 11.1
     }
   ],
   "slots_usados": {
@@ -1904,7 +1892,8 @@
       9.1,
       10,
       10.1,
-      11
+      11,
+      11.1
     ]
   },
   "shopee_buscado_em": "",
@@ -6260,6 +6249,19 @@
   },
   "ultimos": [
     {
+      "loja": "shopee",
+      "chave": "shopee:834213091.58263387989",
+      "nome": "Pré Treino 300g Sabor Tangerina | GL Suplemento Alimentar em Pó | Beta-Alanina Cafeína Taurina L-Arginina",
+      "por": 34.99,
+      "de": 89.72,
+      "foto": "https://cf.shopee.com.br/file/br-11134207-820m0-mtckn7obygoy4b",
+      "link": "https://s.shopee.com.br/6VOfbJn6lL",
+      "link_produto": "https://shopee.com.br/product/834213091/58263387989",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "titulo": "Pré-treino para dar mais energia nos exercícios"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB4296855769",
       "origem": "lobaopromo",
@@ -6785,19 +6787,6 @@
       "de": 75.0,
       "por": 56.9,
       "titulo": "Creatina em pó para o seu treino diário"
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:1325772331.23893407082",
-      "nome": "Mini Lanterna Tática Com Led E Zoom Recarregável Usb Lanterna De Mao 535",
-      "por": 12.99,
-      "de": 35.11,
-      "foto": "AgACAgQAAxkDAAIDm2rQEw-clac2c8Vq7EnsE1iMWn9bAALkD2sbv9REUFLLllhhEIPnAQADAgADeQADPQQ",
-      "link": "https://s.shopee.com.br/4B0j8e9y5b",
-      "link_produto": "https://shopee.com.br/product/1325772331/23893407082",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "titulo": "Lanterna de bolso recarregável"
     }
   ],
   "lixeira": [
