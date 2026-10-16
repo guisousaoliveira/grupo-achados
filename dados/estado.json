@@ -1722,13 +1722,13 @@
   "radar": {
     "visto": {
       "xetdaspromocoes": 85097,
-      "lobaopromo": 190094,
-      "gatunopromos": 125620,
+      "lobaopromo": 190096,
+      "gatunopromos": 125622,
       "pobregram": 41981,
       "urubupromo": 41745,
       "tudonapromo": 102064,
-      "promonocontext": 127372,
-      "promooeasy": 222478,
+      "promonocontext": 127373,
+      "promooeasy": 222479,
       "aquitempechincha": 281992,
       "infoBRpromos": 67658,
       "boletando": 76808,
@@ -1736,7 +1736,7 @@
       "achadosdotb": 11778
     },
     "dia": "2026-10-15",
-    "hoje": 151,
+    "hoje": 153,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -3707,30 +3707,32 @@
       "shopee:834213091.58263387989",
       "shopee:813859357.16380645218",
       "shopee:1346435001.21098276188",
-      "shopee:1397772996.58210535712"
+      "shopee:1397772996.58210535712",
+      "amazon:B0FFTCF8LL",
+      "amazon:B08L5LZGJL"
     ],
     "ultima": {
-      "em": "2026-10-15T21:50:20-03:00",
+      "em": "2026-10-15T21:59:03-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 17,
-      "do_nicho": 1,
+      "posts_novos": 16,
+      "do_nicho": 2,
       "repetidas": 0,
-      "novas": 1,
+      "novas": 2,
       "limite_dia": false,
       "repetidas_nome": 0,
-      "promobit": 0,
+      "promobit": 2,
       "soltas": 0,
-      "na_peneira": 20
+      "na_peneira": 29
     },
     "hora": "2026-10-15T21",
     "nesta_hora": 3,
     "promobit_hora": "2026-10-15T21",
-    "promobit_nesta_hora": 1,
-    "promobit_visto": 3117687,
+    "promobit_nesta_hora": 3,
+    "promobit_visto": 3117707,
     "nomes": [
       [
         [
@@ -5761,6 +5763,42 @@
         "palavra": "pre treino",
         "garimpado_em": "2026-10-15T21:50-03:00",
         "nota": 58.1
+      },
+      {
+        "loja": "amazon",
+        "chave": "amazon:B0FFTCF8LL",
+        "origem": "promobit",
+        "fonte": "promobit",
+        "link": "https://www.amazon.com.br/dp/B0FFTCF8LL?tag=alphadominu09-20",
+        "link_produto": "https://www.amazon.com.br/dp/B0FFTCF8LL?tag=alphadominu09-20",
+        "post_origem": "https://www.promobit.com.br/oferta/basike-power-bank-20000mah-45w-cabo-usb-c-integrado-compacto-cinza-3117696/",
+        "link_canal": "https://www.promobit.com.br/Redirect/to/3117696/",
+        "nome": "Basike Power Bank 20000mAh 45W",
+        "por": 174.0,
+        "de": 193.0,
+        "foto": "https://m.media-amazon.com/images/I/611A4LgaPcL._AC_SL1500_.jpg",
+        "foto_origem": "loja",
+        "palavra": "power bank",
+        "garimpado_em": "2026-10-15T21:59-03:00",
+        "nota": 38.1
+      },
+      {
+        "loja": "amazon",
+        "chave": "amazon:B08L5LZGJL",
+        "origem": "promobit",
+        "fonte": "promobit",
+        "link": "https://www.amazon.com.br/dp/B08L5LZGJL?tag=alphadominu09-20",
+        "link_produto": "https://www.amazon.com.br/dp/B08L5LZGJL?tag=alphadominu09-20",
+        "post_origem": "https://www.promobit.com.br/oferta/oculos-de-sol-kona-hupifeminino-3117699/",
+        "link_canal": "https://www.promobit.com.br/Redirect/to/3117699/",
+        "nome": "Óculos De Sol Kona HupiFeminino",
+        "por": 151.91,
+        "de": 299.9,
+        "foto": "https://m.media-amazon.com/images/I/41racSY3-WL._AC_SL1000_.jpg",
+        "foto_origem": "loja",
+        "palavra": "oculos de sol",
+        "garimpado_em": "2026-10-15T21:59-03:00",
+        "nota": 61.0
       }
     ],
     "soltas_hora": "2026-10-15T21",
