@@ -2,31 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB4239949261",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/1SrAMRZ",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-4239949261-kit-3-bermudas-masculinas-dry-fit-academia-shorts-futebol-_JM?pdp_filters=item_id%3AMLB4239949261",
-      "post_origem": "https://t.me/lobaopromo/190414",
-      "link_canal": "https://meli.la/1ouQ7fK",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_877163-MLB108958990473_032026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Kit 3 Bermudas Masculinas Dry Fit Academia Shorts Futebol",
-      "pix": true,
-      "de": 149.9,
-      "por": 109.99,
-      "lido_ia": true,
-      "preco_conferido": true,
-      "preco_cupom": true,
-      "preco_sem_cupom": 119.99,
-      "palavra": "academia",
-      "garimpado_em": "2026-10-16T15:21-03:00",
-      "nota": 58.5,
-      "titulo": "Três bermudas dry fit para revezar nos treinos",
-      "aprovado_sozinho": true,
-      "aprovado_em": "2026-10-16T16:13-03:00"
-    },
-    {
       "loja": "shopee",
       "chave": "shopee:1604777172.57757302977",
       "nome": "Câmera Veicular Full HD 1080p 3 Lentes (Frontal + Interna + Traseira) com Tela LCD | DVR Automotivo com Visão Noturna",
@@ -2180,6 +2155,22 @@
       "foto": "https://cf.shopee.com.br/file/sg-11134201-8259d-mqll8smzcuf6af",
       "secao": "tech",
       "slot": 20
+    },
+    {
+      "chave": "mercadolivre:MLB4239949261",
+      "loja": "mercadolivre",
+      "nome": "Kit 3 Bermudas Masculinas Dry Fit Academia Shorts Futebol",
+      "data": "2026-10-16T20:27-03:00",
+      "link": "https://meli.la/1SrAMRZ",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-4239949261-kit-3-bermudas-masculinas-dry-fit-academia-shorts-futebol-_JM?pdp_filters=item_id%3AMLB4239949261",
+      "titulo": "Três bermudas dry fit para revezar nos treinos",
+      "de": 149.9,
+      "por": 109.99,
+      "pix": true,
+      "conferido": true,
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_877163-MLB108958990473_032026-O.webp",
+      "secao": "academia",
+      "slot": 20.1
     }
   ],
   "slots_usados": {
@@ -2297,7 +2288,8 @@
       19.1,
       19.2,
       19.3,
-      20
+      20,
+      20.1
     ]
   },
   "shopee_buscado_em": "",
@@ -7266,6 +7258,20 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB4239949261",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/1SrAMRZ",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-4239949261-kit-3-bermudas-masculinas-dry-fit-academia-shorts-futebol-_JM?pdp_filters=item_id%3AMLB4239949261",
+      "post_origem": "https://t.me/lobaopromo/190414",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_877163-MLB108958990473_032026-O.webp",
+      "nome": "Kit 3 Bermudas Masculinas Dry Fit Academia Shorts Futebol",
+      "pix": true,
+      "de": 149.9,
+      "por": 109.99,
+      "titulo": "Três bermudas dry fit para revezar nos treinos"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:1343438067.58264124937",
       "nome": "Interruptor Inteligente WiFi com Tomada e Painel Touch de Vidro Temperado, Compatível com Alexa e Google",
@@ -7788,21 +7794,6 @@
       "origem": "shopee",
       "fonte": "shopee",
       "titulo": "Pré-treino para dar mais energia nos exercícios"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB4296855769",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/2xAHV4B",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-4296855769-camiseta-dryfit-masculina-academia-treino-proteco-uv-_JM?pdp_filters=item_id%3AMLB4296855769",
-      "post_origem": "https://t.me/lobaopromo/190317",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_681261-MLB97289513052_112025-O.webp",
-      "nome": "Camiseta Dryfit Masculina Academia Treino Proteção Uv+",
-      "pix": true,
-      "de": 58.09,
-      "por": 21.34,
-      "cupom": "MELISALVA",
-      "titulo": "Camiseta UV para treinar ao ar livre"
     }
   ],
   "lixeira": [
@@ -9388,5 +9379,5 @@
     }
   },
   "aviso_ml": "2026-10-16",
-  "vitrine_marca": "24465a3614c3"
+  "vitrine_marca": "cd42bda3282e"
 }
