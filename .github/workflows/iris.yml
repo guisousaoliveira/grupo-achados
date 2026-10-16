@@ -1,0 +1,30 @@
+name: iris
+
+# Íris sozinha: o Render chama quando você aprova um post depois do horário, pra postar na hora
+# (sem esperar o próximo ciclo do bot-achados). Mesmo grupo do bot-achados pra nunca postar duas vezes.
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: bot-achados
+  cancel-in-progress: false
+
+jobs:
+  postar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+      actions: write
+    steps:
+      - uses: actions/checkout@v5
+      - name: Íris
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ADMIN_ID: ${{ secrets.ADMIN_ID }}
+          LEGIAO_TELEGRAM_TOKEN: ${{ secrets.LEGIAO_TELEGRAM_TOKEN }}
+          LEGIAO_CHAT_ID: ${{ secrets.LEGIAO_CHAT_ID }}
+          META_PAGE_TOKEN: ${{ secrets.META_PAGE_TOKEN }}
+          META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+        run: python3 legiao/publicar.py

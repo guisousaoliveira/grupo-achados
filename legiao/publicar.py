@@ -78,9 +78,7 @@ def refazer(pasta, status, sha, motivo):
     """Manda a Legião fazer de novo esse post, levando em conta o motivo da recusa."""
     status["aguardando_motivo"] = False
     gravar_status(pasta, status, sha)
-    http(f"https://api.github.com/repos/{REPO}/actions/workflows/legiao.yml/dispatches",
-         {"ref": "main", "inputs": {"tipo": status.get("tipo", "carrossel"), "motivo": motivo[:900], "pasta": pasta}},
-         cabecalhos=GH)
+    disparar("legiao.yml", {"tipo": status.get("tipo", "carrossel"), "motivo": motivo[:900], "pasta": pasta})
 
 
 def ler_motivo(texto):
@@ -109,54 +107,83 @@ def gerar_carrossel_do_dia(dia):
     """Aprovou o Reel: já gera o carrossel do dia (se ainda não foi gerado), sem esperar as 15h."""
     if ler_status(dia)[0]:
         return
-    http(f"https://api.github.com/repos/{REPO}/actions/workflows/legiao.yml/dispatches",
-         {"ref": "main", "inputs": {"tipo": "carrossel"}}, cabecalhos=GH)
+    disparar("legiao.yml", {"tipo": "carrossel"})
     avisar("🦁 Já estou fazendo o carrossel de hoje; chega aqui em alguns minutos pra você aprovar.")
 
 
-def ler_botoes():
-    """Processa os cliques em ✅/❌ (e o motivo depois de um ❌) e confirma pro Telegram que já foram lidos."""
-    updates = tg("getUpdates", {"timeout": 0, "allowed_updates": ["callback_query", "message"]}).get("result", [])
-    for u in updates:
-        msg = u.get("message") or {}
-        if msg.get("text") and str(msg.get("from", {}).get("id")) == str(CHAT) and not msg["text"].startswith("/"):
-            ler_motivo(msg["text"])
-            continue
-        cb = u.get("callback_query")
-        if not cb or not str(cb.get("data", "")).startswith("lg:") or str(cb["from"]["id"]) != str(CHAT):
-            continue
-        _, acao, dia = cb["data"].split(":", 2)
-        if acao == "x":
-            tg("answerCallbackQuery", {"callback_query_id": cb["id"]})
-            continue
-        status, sha = ler_status(dia)
-        if not status:
-            tg("answerCallbackQuery", {"callback_query_id": cb["id"], "text": "Não achei esse post."})
-            continue
-        pediu_motivo = False
-        if status["status"] in ("pendente", "aprovado", "recusado"):
-            pediu_motivo = acao == "no" and status["status"] != "recusado"
-            status["status"] = "aprovado" if acao == "ok" else "recusado"
-            status["aguardando_motivo"] = pediu_motivo
-            if pediu_motivo:
-                status["recusado_em"] = datetime.now(BRT).isoformat()
-            gravar_status(dia, status, sha)
-        ja_passou = datetime.now(BRT).hour >= int(status.get("horario", 18)) or status.get("dia", "") < datetime.now(BRT).strftime("%Y-%m-%d")
-        resposta = {"aprovado": "✅ Aprovado! Posto em instantes." if ja_passou else f"✅ Aprovado! Posto às {status.get('horario', 18)}h.",
-                    "recusado": "❌ Recusado, não vou postar."}.get(status["status"], "Esse já foi postado.")
-        tg("answerCallbackQuery", {"callback_query_id": cb["id"], "text": resposta})
-        msg = cb.get("message") or {}
-        if msg:
-            tg("editMessageReplyMarkup", {"chat_id": msg["chat"]["id"], "message_id": msg["message_id"],
-                                          "reply_markup": {"inline_keyboard": [[{"text": resposta, "callback_data": "lg:x:-"}]]}})
-        if acao == "ok" and status.get("tipo") == "reel" and status["status"] == "aprovado":
-            gerar_carrossel_do_dia(status.get("dia", dia[:10]))
+def disparar(workflow, inputs=None):
+    corpo = {"ref": "main", **({"inputs": inputs} if inputs else {})}
+    http(f"https://api.github.com/repos/{REPO}/actions/workflows/{workflow}/dispatches", corpo, cabecalhos=GH)
+
+
+def tg_tanto_faz(metodo, dados):
+    """Resposta visual do botão: se o Telegram recusar (clique antigo), segue a vida."""
+    try:
+        tg(metodo, dados)
+    except RuntimeError as erro:
+        print("Telegram:", str(erro)[:200])
+
+
+def tratar_update(u):
+    """Um clique em ✅/❌ ou uma mensagem sua no bot da Legião. Roda no Render (na hora, via webhook)
+    ou no GitHub Actions (a cada ciclo, via getUpdates, se o webhook não estiver ligado)."""
+    msg = u.get("message") or {}
+    if msg.get("text") and str(msg.get("from", {}).get("id")) == str(CHAT) and not msg["text"].startswith("/"):
+        ler_motivo(msg["text"])
+        return
+    cb = u.get("callback_query")
+    if not cb or not str(cb.get("data", "")).startswith("lg:") or str(cb["from"]["id"]) != str(CHAT):
+        return
+    _, acao, dia = cb["data"].split(":", 2)
+    if acao == "x":
+        tg_tanto_faz("answerCallbackQuery", {"callback_query_id": cb["id"]})
+        return
+    status, sha = ler_status(dia)
+    if not status:
+        tg_tanto_faz("answerCallbackQuery", {"callback_query_id": cb["id"], "text": "Não achei esse post."})
+        return
+    pediu_motivo = False
+    if status["status"] in ("pendente", "aprovado", "recusado"):
+        pediu_motivo = acao == "no" and (status["status"] != "recusado" or bool(status.get("aguardando_motivo")))
+        status["status"] = "aprovado" if acao == "ok" else "recusado"
+        status["aguardando_motivo"] = pediu_motivo
         if pediu_motivo:
-            avisar("❌ O que não ficou bom? Me manda em uma mensagem (ex.: \"tema fraco\", \"frase muito longa\", "
-                   "\"clipe não combina\") que eu refaço. Se não quiser outro, manda \"não refaz\".")
+            status["recusado_em"] = datetime.now(BRT).isoformat()
+        gravar_status(dia, status, sha)
+    agora = datetime.now(BRT)
+    ja_passou = agora.hour >= int(status.get("horario", 18)) or status.get("dia", "") < agora.strftime("%Y-%m-%d")
+    resposta = {"aprovado": "✅ Aprovado! Posto em instantes." if ja_passou else f"✅ Aprovado! Posto às {status.get('horario', 18)}h.",
+                "recusado": "❌ Recusado, não vou postar."}.get(status["status"], "Esse já foi postado.")
+    tg_tanto_faz("answerCallbackQuery", {"callback_query_id": cb["id"], "text": resposta})
+    m = cb.get("message") or {}
+    if m:
+        tg_tanto_faz("editMessageReplyMarkup", {"chat_id": m["chat"]["id"], "message_id": m["message_id"],
+                                                "reply_markup": {"inline_keyboard": [[{"text": resposta, "callback_data": "lg:x:-"}]]}})
+    if status["status"] == "aprovado" and ja_passou and os.environ.get("RENDER"):
+        disparar("iris.yml")  # no Render: já pede a postagem, sem esperar o próximo ciclo
+    if acao == "ok" and status.get("tipo") == "reel" and status["status"] == "aprovado":
+        gerar_carrossel_do_dia(status.get("dia", dia[:10]))
+    if pediu_motivo:
+        avisar("❌ O que não ficou bom? Me manda em uma mensagem (ex.: \"tema fraco\", \"frase muito longa\", "
+               "\"clipe não combina\") que eu refaço. Se não quiser outro, manda \"não refaz\".")
+
+
+def ler_botoes():
+    """Sem webhook: busca os cliques e mensagens pendentes. Com o webhook do Render ligado, o Telegram
+    recusa o getUpdates (409) e quem trata é o Render."""
+    try:
+        updates = tg("getUpdates", {"timeout": 0, "allowed_updates": ["callback_query", "message"]}).get("result", [])
+    except RuntimeError as erro:
+        if str(erro).startswith("409"):
+            return
+        raise
+    for u in updates:
+        try:
+            tratar_update(u)
+        except Exception as erro:
+            print("Legião: erro tratando update:", str(erro)[:300])
     if updates:
         tg("getUpdates", {"offset": updates[-1]["update_id"] + 1, "timeout": 0})
-
 
 # ---------- Meta ----------
 
