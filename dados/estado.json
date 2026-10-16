@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "shopee",
-      "chave": "shopee:1343438067.58264124937",
-      "nome": "Interruptor Inteligente WiFi com Tomada e Painel Touch de Vidro Temperado, Compatível com Alexa e Google",
-      "por": 59.9,
-      "de": 110.93,
-      "foto": "https://cf.shopee.com.br/file/sg-11134201-8259d-mqll8smzcuf6af",
-      "link": "https://s.shopee.com.br/AUupRzoUfG",
-      "link_produto": "https://shopee.com.br/product/1343438067/58264124937",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.9,
-      "vendas": 484,
-      "palavra": "alexa",
-      "garimpado_em": "2026-10-16T14:11-03:00",
-      "nota": 61.9,
-      "titulo": "Interruptor inteligente para controlar a iluminação por voz",
-      "aprovado_sozinho": true,
-      "aprovado_em": "2026-10-16T16:13-03:00"
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB4239949261",
       "origem": "lobaopromo",
@@ -2188,6 +2166,20 @@
       "conferido": true,
       "foto": "https://images-na.ssl-images-amazon.com/images/P/B0H8R6S35S.01.LZZZZZZZ.jpg",
       "secao": "academia"
+    },
+    {
+      "chave": "shopee:1343438067.58264124937",
+      "loja": "shopee",
+      "nome": "Interruptor Inteligente WiFi com Tomada e Painel Touch de Vidro Temperado, Compatível com Alexa e Google",
+      "data": "2026-10-16T20:10-03:00",
+      "link": "https://s.shopee.com.br/AUupRzoUfG",
+      "link_produto": "https://shopee.com.br/product/1343438067/58264124937",
+      "titulo": "Interruptor inteligente para controlar a iluminação por voz",
+      "de": 110.93,
+      "por": 59.9,
+      "foto": "https://cf.shopee.com.br/file/sg-11134201-8259d-mqll8smzcuf6af",
+      "secao": "tech",
+      "slot": 20
     }
   ],
   "slots_usados": {
@@ -2304,7 +2296,8 @@
       19,
       19.1,
       19.2,
-      19.3
+      19.3,
+      20
     ]
   },
   "shopee_buscado_em": "",
@@ -7234,6 +7227,19 @@
   },
   "ultimos": [
     {
+      "loja": "shopee",
+      "chave": "shopee:1343438067.58264124937",
+      "nome": "Interruptor Inteligente WiFi com Tomada e Painel Touch de Vidro Temperado, Compatível com Alexa e Google",
+      "por": 59.9,
+      "de": 110.93,
+      "foto": "https://cf.shopee.com.br/file/sg-11134201-8259d-mqll8smzcuf6af",
+      "link": "https://s.shopee.com.br/AUupRzoUfG",
+      "link_produto": "https://shopee.com.br/product/1343438067/58264124937",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "titulo": "Interruptor inteligente para controlar a iluminação por voz"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0H8R6S35S",
       "origem": "promooeasy",
@@ -7758,19 +7764,6 @@
       "por": 21.34,
       "cupom": "MELISALVA",
       "titulo": "Camiseta UV para treinar ao ar livre"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB25371983",
-      "origem": "promonocontext",
-      "link": "https://meli.la/2HT6MGa",
-      "link_produto": "https://meli.la/2HT6MGa",
-      "post_origem": "https://t.me/promonocontext/127113",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_681126-MLA115545993062_082026-O.webp",
-      "nome": "Lavadora de Alta Pressão Kärcher Compacta 1.500 PSI/Libras 1400W",
-      "de": 700.0,
-      "por": 299.0,
-      "titulo": "Lavadora de alta pressão para limpeza de quintal e garagem"
     }
   ],
   "lixeira": [
@@ -9356,5 +9349,5 @@
     }
   },
   "aviso_ml": "2026-10-16",
-  "vitrine_marca": "2e32c8e9da12"
+  "vitrine_marca": "24465a3614c3"
 }
