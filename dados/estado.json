@@ -281,6 +281,29 @@
       "titulo": "Tênis Puma todo preto fácil de combinar",
       "na_revisao_desde": "2026-10-16T10:41-03:00",
       "aprovado_em": "2026-10-16T10:49-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB7245332674",
+      "origem": "promonocontext",
+      "link": "https://meli.la/2CHk6Te",
+      "link_produto": "https://www.mercadolivre.com.br/relogio-technos-masculino-steel-de-pulso-quartz-original/up/MLBU4409376975?pdp_filters=item_id%3AMLB7245332674",
+      "post_origem": "https://t.me/promonocontext/127524",
+      "link_canal": "https://meli.la/1x3Ua86",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_707113-MLB117928520530_102026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Relógio Technos Masculino Steel De Pulso Quartz Original Prateado",
+      "pix": true,
+      "por": 198.0,
+      "lido_ia": true,
+      "de": 279.0,
+      "cupom": "OFFHOJE",
+      "palavra": "relogio",
+      "garimpado_em": "2026-10-16T10:20-03:00",
+      "nota": 59.1,
+      "titulo": "Technos em aço versátil para qualquer ocasião",
+      "na_revisao_desde": "2026-10-16T10:41-03:00",
+      "aprovado_em": "2026-10-16T10:49-03:00"
     }
   ],
   "postados": [
@@ -1866,30 +1889,6 @@
   },
   "shopee_buscado_em": "",
   "revisar": [
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB7245332674",
-      "origem": "promonocontext",
-      "link": "https://meli.la/2CHk6Te",
-      "link_produto": "https://www.mercadolivre.com.br/relogio-technos-masculino-steel-de-pulso-quartz-original/up/MLBU4409376975?pdp_filters=item_id%3AMLB7245332674",
-      "post_origem": "https://t.me/promonocontext/127524",
-      "link_canal": "https://meli.la/1x3Ua86",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_707113-MLB117928520530_102026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Relógio Technos Masculino Steel De Pulso Quartz Original Prateado",
-      "pix": true,
-      "por": 198.0,
-      "lido_ia": true,
-      "de": 279.0,
-      "cupom": "OFFHOJE",
-      "palavra": "relogio",
-      "garimpado_em": "2026-10-16T10:20-03:00",
-      "nota": 59.1,
-      "titulo": "Technos em aço versátil para qualquer ocasião",
-      "id": 650,
-      "na_revisao_desde": "2026-10-16T10:41-03:00",
-      "msg_id": 1111
-    },
     {
       "loja": "amazon",
       "chave": "amazon:B0GY9TRH2V",
@@ -7213,7 +7212,7 @@
       },
       "promonocontext": {
         "achados": 4,
-        "aprovados": 2,
+        "aprovados": 3,
         "reprovados": 1
       },
       "lobaopromo": {
@@ -7432,7 +7431,7 @@
     },
     "relogio": {
       "achados": 12,
-      "aprovados": 3,
+      "aprovados": 4,
       "reprovados": 7
     },
     "smart tv": {
