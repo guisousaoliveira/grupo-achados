@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "amazon",
-      "chave": "amazon:B0FPG8KLS8",
-      "origem": "promooeasy",
-      "link": "https://link.amazon/B09GxuZZ1",
-      "link_produto": "https://link.amazon/B09GxuZZ1",
-      "post_origem": "https://t.me/promooeasy/222634",
-      "link_canal": "https://www.amazon.com.br/Smartwatch-HUAWEI-Autonomia-Esportivos-Compat%C3%ADvel/dp/B0FPG8KLS8?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAIETmrSFZNRye3YYsLDIAcGRWjkurzCAAJjDWsbqqesUBSFvG0ZR8C-AQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "nome": "Smartwatch, HUAWEI WATCH GT 6 Pro 46mm, Bateria com Autonomia de Até 21 Dias, Mais de 100 Modos Esportivos, Corrida de T",
-      "pix": true,
-      "parcelas": 12,
-      "por": 1133.84,
-      "lido_ia": true,
-      "palavra": "smartwatch",
-      "garimpado_em": "2026-10-16T09:01-03:00",
-      "nota": 29.5,
-      "titulo": "Huawei Watch para treinar semanas sem precisar carregar",
-      "na_revisao_desde": "2026-10-16T09:16-03:00",
-      "aprovado_em": "2026-10-16T09:19-03:00"
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB1010954920",
       "origem": "lobaopromo",
@@ -1871,6 +1849,16 @@
       "link_produto": "https://meli.la/2SoTzRd",
       "titulo": "Shorts de malha fria para dormir sem calor",
       "slot": 13.1
+    },
+    {
+      "chave": "amazon:B0FPG8KLS8",
+      "loja": "amazon",
+      "nome": "Smartwatch, HUAWEI WATCH GT 6 Pro 46mm, Bateria com Autonomia de Até 21 Dias, Mais de 100 Modos Esportivos, Corrida de T",
+      "data": "2026-10-16T13:39-03:00",
+      "link": "https://link.amazon/B09GxuZZ1",
+      "link_produto": "https://link.amazon/B09GxuZZ1",
+      "titulo": "Huawei Watch para treinar semanas sem precisar carregar",
+      "slot": 13.2
     }
   ],
   "slots_usados": {
@@ -1961,7 +1949,8 @@
       12.1,
       12.2,
       13,
-      13.1
+      13.1,
+      13.2
     ]
   },
   "shopee_buscado_em": "",
@@ -6676,6 +6665,20 @@
   },
   "ultimos": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B0FPG8KLS8",
+      "origem": "promooeasy",
+      "link": "https://link.amazon/B09GxuZZ1",
+      "link_produto": "https://link.amazon/B09GxuZZ1",
+      "post_origem": "https://t.me/promooeasy/222634",
+      "foto": "AgACAgQAAxkDAAIETmrSFZNRye3YYsLDIAcGRWjkurzCAAJjDWsbqqesUBSFvG0ZR8C-AQADAgADeQADPQQ",
+      "nome": "Smartwatch, HUAWEI WATCH GT 6 Pro 46mm, Bateria com Autonomia de Até 21 Dias, Mais de 100 Modos Esportivos, Corrida de T",
+      "pix": true,
+      "parcelas": 12,
+      "por": 1133.84,
+      "titulo": "Huawei Watch para treinar semanas sem precisar carregar"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB3250794241",
       "origem": "lobaopromo",
@@ -7199,18 +7202,6 @@
       "foto": "AgACAgQAAxkDAAIDsGrQniLAV4yV6511xVyN3mdmbCB6AAJCtDEbXlYMUwm_6b4Tt07mAQADAgADeQADPQQ",
       "titulo": "Relógio em aço com cronógrafo para o dia a dia",
       "parcelas": 12
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0BHL6FKYY",
-      "origem": "lobaopromo",
-      "link": "https://link.amazon/B0cTnbVAl",
-      "link_produto": "https://link.amazon/B0cTnbVAl",
-      "post_origem": "https://t.me/lobaopromo/189697",
-      "foto": "AgACAgQAAxkDAAIDr2rQniHzzfWH-0jemzXSuVpGdUKSAAJSDmsbwQc9UNDEvXg1onRNAQADAgADeQADPQQ",
-      "nome": "Creatina Dux Nutrition 300g",
-      "pix": true,
-      "por": 47.22
     }
   ],
   "lixeira": [
