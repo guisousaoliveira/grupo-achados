@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB32101995",
-      "origem": "promonocontext",
-      "link": "https://meli.la/1zZY8kg",
-      "link_produto": "https://www.mercadolivre.com.br/relogio-digital-despertador-mesa-cabeceira-quarto-idoso-cor-branco-micgeek/p/MLB32101995",
-      "post_origem": "https://t.me/promonocontext/127620",
-      "link_canal": "https://meli.la/1imBX5W",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_785462-MLA110586324994_052026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Relógio Digital Despertador Mesa Cabeceira Quarto Idoso Cor Branco",
-      "de": 40.0,
-      "por": 23.0,
-      "lido_ia": true,
-      "preco_conferido": true,
-      "palavra": "relogio",
-      "garimpado_em": "2026-10-16T12:00-03:00",
-      "nota": 67.6,
-      "titulo": "Relógio digital para ver as horas no quarto",
-      "aprovado_sozinho": true,
-      "aprovado_em": "2026-10-16T14:01-03:00"
-    },
-    {
       "loja": "shopee",
       "chave": "shopee:1725907431.58215881722",
       "nome": "Bicicleta Ergométrica para Ginástica em Casa com Monitor Digital Resistente Capacidade de 120kg - V3/2",
@@ -2113,6 +2091,16 @@
       "link_produto": "https://shopee.com.br/product/1439190466/23898836118",
       "titulo": "Mochila transversal impermeável para carregar o essencial",
       "slot": 16.3
+    },
+    {
+      "chave": "mercadolivre:MLB32101995",
+      "loja": "mercadolivre",
+      "nome": "Relógio Digital Despertador Mesa Cabeceira Quarto Idoso Cor Branco",
+      "data": "2026-10-16T17:12-03:00",
+      "link": "https://meli.la/1zZY8kg",
+      "link_produto": "https://www.mercadolivre.com.br/relogio-digital-despertador-mesa-cabeceira-quarto-idoso-cor-branco-micgeek/p/MLB32101995",
+      "titulo": "Relógio digital para ver as horas no quarto",
+      "slot": 17
     }
   ],
   "slots_usados": {
@@ -2217,7 +2205,8 @@
       16,
       16.1,
       16.2,
-      16.3
+      16.3,
+      17
     ]
   },
   "shopee_buscado_em": "",
@@ -6950,6 +6939,19 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB32101995",
+      "origem": "promonocontext",
+      "link": "https://meli.la/1zZY8kg",
+      "link_produto": "https://www.mercadolivre.com.br/relogio-digital-despertador-mesa-cabeceira-quarto-idoso-cor-branco-micgeek/p/MLB32101995",
+      "post_origem": "https://t.me/promonocontext/127620",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_785462-MLA110586324994_052026-O.webp",
+      "nome": "Relógio Digital Despertador Mesa Cabeceira Quarto Idoso Cor Branco",
+      "de": 40.0,
+      "por": 23.0,
+      "titulo": "Relógio digital para ver as horas no quarto"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:1439190466.23898836118",
       "nome": "2/1 PCS Bolsa Mochila De Peito Tiracolo Pochete Bolsa Impermeável Transversal Masculina",
@@ -7473,19 +7475,6 @@
       "origem": "shopee",
       "fonte": "shopee",
       "titulo": "Lavadora de alta pressão para limpeza pesada em casa"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0HF1LQFDD",
-      "origem": "promooeasy",
-      "link": "https://link.amazon/B0gpEKydS",
-      "link_produto": "https://link.amazon/B0gpEKydS",
-      "post_origem": "https://t.me/promooeasy/222015",
-      "foto": "AgACAgQAAxkDAAIDxmrQyemffbltOgnfwH3Bub-yQrNnAAJvD2sbusONUjaDW57VRhggAQADAgADeAADPQQ",
-      "nome": "Stanley Garrafa Térmica Quick Flip Black 710ml",
-      "de": 269.0,
-      "por": 167.39,
-      "titulo": "Garrafa térmica Stanley para manter a água gelada"
     }
   ],
   "lixeira": [
