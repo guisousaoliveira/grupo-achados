@@ -1750,22 +1750,22 @@
   "proximo_id": 643,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 85105,
-      "lobaopromo": 190211,
-      "gatunopromos": 125676,
-      "pobregram": 41996,
-      "urubupromo": 41756,
-      "tudonapromo": 102064,
-      "promonocontext": 127411,
-      "promooeasy": 222629,
+      "xetdaspromocoes": 85109,
+      "lobaopromo": 190214,
+      "gatunopromos": 125677,
+      "pobregram": 41997,
+      "urubupromo": 41758,
+      "tudonapromo": 102067,
+      "promonocontext": 127416,
+      "promooeasy": 222635,
       "aquitempechincha": 282021,
-      "infoBRpromos": 67665,
+      "infoBRpromos": 67666,
       "boletando": 76808,
-      "promotop": 260346,
+      "promotop": 260347,
       "achadosdotb": 11778
     },
     "dia": "2026-10-16",
-    "hoje": 13,
+    "hoje": 15,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -3777,30 +3777,32 @@
       "mercadolivre:MLB3280323716",
       "amazon:B0GVFB3TL2",
       "amazon:B07G7RVZ1V",
-      "amazon:B07L5V2NN2"
+      "amazon:B07L5V2NN2",
+      "amazon:B08R91NTHY",
+      "amazon:B0FPG8KLS8"
     ],
     "ultima": {
-      "em": "2026-10-16T08:50:19-03:00",
+      "em": "2026-10-16T09:00:28-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
       "posts_novos": 37,
-      "do_nicho": 1,
-      "repetidas": 1,
-      "novas": 0,
+      "do_nicho": 6,
+      "repetidas": 4,
+      "novas": 2,
       "limite_dia": false,
       "repetidas_nome": 0,
       "promobit": 0,
       "soltas": 0,
-      "na_peneira": 0
+      "na_peneira": 2
     },
-    "hora": "2026-10-16T08",
-    "nesta_hora": 1,
-    "promobit_hora": "2026-10-16T08",
-    "promobit_nesta_hora": 3,
-    "promobit_visto": 3118161,
+    "hora": "2026-10-16T09",
+    "nesta_hora": 2,
+    "promobit_hora": "2026-10-16T09",
+    "promobit_nesta_hora": 0,
+    "promobit_visto": 3118177,
     "nomes": [
       [
         [
@@ -5474,18 +5476,52 @@
         "2026-10-16T08:41-03:00"
       ]
     ],
-    "peneira": [],
-    "soltas_hora": "2026-10-16T08",
-    "soltas": 4,
-    "shopee_em": "2026-10-16T08:42-03:00",
-    "shopee_indice": 52,
+    "peneira": [
+      {
+        "loja": "amazon",
+        "chave": "amazon:B08R91NTHY",
+        "origem": "lobaopromo",
+        "link": "https://www.amazon.com.br/dp/B08R91NTHY?tag=alphadominu09-20",
+        "link_produto": "https://www.amazon.com.br/dp/B08R91NTHY?tag=alphadominu09-20",
+        "post_origem": "https://t.me/lobaopromo/190213",
+        "link_canal": "https://amzlink.to/az0fEHKkruhBv",
+        "foto": "https://m.media-amazon.com/images/I/612gXC9waVL._AC_SL1200_.jpg",
+        "foto_origem": "loja",
+        "nome": "Fritadeira Air Fryer Philco Oven 4 em 1 12L",
+        "lido_ia": true,
+        "por": 419.0,
+        "de": 580.9,
+        "palavra": "air fryer",
+        "garimpado_em": "2026-10-16T09:00-03:00",
+        "nota": 50.3
+      },
+      {
+        "loja": "amazon",
+        "chave": "amazon:B0FPG8KLS8",
+        "origem": "promooeasy",
+        "link": "https://www.amazon.com.br/dp/B0FPG8KLS8?tag=alphadominu09-20",
+        "link_produto": "https://www.amazon.com.br/dp/B0FPG8KLS8?tag=alphadominu09-20",
+        "post_origem": "https://t.me/promooeasy/222634",
+        "link_canal": "https://www.amazon.com.br/Smartwatch-HUAWEI-Autonomia-Esportivos-Compat%C3%ADvel/dp/B0FPG8KLS8?tag=promof26-20",
+        "foto": "https://m.media-amazon.com/images/I/81VtBu5TGzL._AC_SL1500_.jpg",
+        "foto_origem": "loja",
+        "nome": "Smartwatch, HUAWEI WATCH GT 6 Pro 46mm, Bateria com Autonomia de Até 21 Dias, Mais de 100 Modos Esportivos, Corrida de T",
+        "pix": true,
+        "parcelas": 12,
+        "por": 1133.84,
+        "lido_ia": true,
+        "palavra": "smartwatch",
+        "garimpado_em": "2026-10-16T09:01-03:00",
+        "nota": 29.5
+      }
+    ],
+    "soltas_hora": "2026-10-16T09",
+    "soltas": 0,
+    "shopee_em": "2026-10-16T09:01-03:00",
+    "shopee_indice": 60,
     "soltas_dia_data": "2026-10-16",
     "soltas_dia": 11,
-    "soltas_loja": {
-      "amazon": 2,
-      "shopee": 1,
-      "mercadolivre": 1
-    }
+    "soltas_loja": {}
   },
   "ultimos": [
     {
