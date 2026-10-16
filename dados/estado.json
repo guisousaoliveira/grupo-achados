@@ -1807,13 +1807,13 @@
   "radar": {
     "visto": {
       "xetdaspromocoes": 85103,
-      "lobaopromo": 190202,
-      "gatunopromos": 125669,
+      "lobaopromo": 190203,
+      "gatunopromos": 125670,
       "pobregram": 41992,
       "urubupromo": 41750,
       "tudonapromo": 102064,
       "promonocontext": 127387,
-      "promooeasy": 222581,
+      "promooeasy": 222585,
       "aquitempechincha": 282009,
       "infoBRpromos": 67665,
       "boletando": 76808,
@@ -3820,31 +3820,39 @@
       "amazon:B0GJ7G5QNC",
       "shopee:1339888238.22599042883",
       "shopee:1458574782.42515045410",
-      "mercadolivre:MLB54944960"
+      "mercadolivre:MLB54944960",
+      "shopee:372103398.18097474912",
+      "shopee:1283879487.19498208842",
+      "shopee:316479006.21799547122",
+      "shopee:378433618.22993927573",
+      "shopee:596447381.22794431238",
+      "shopee:1041517511.23193004164",
+      "shopee:1052824153.27892568318",
+      "shopee:487505431.22394273714",
+      "shopee:1424310457.58253008854"
     ],
     "ultima": {
-      "em": "2026-10-16T07:50:20-03:00",
+      "em": "2026-10-16T08:00:28-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 16,
-      "do_nicho": 2,
-      "repetidas": 1,
+      "posts_novos": 13,
+      "do_nicho": 0,
+      "repetidas": 0,
       "novas": 0,
       "limite_dia": false,
       "repetidas_nome": 0,
       "promobit": 0,
-      "fora_do_nicho": 1,
       "soltas": 0,
       "na_peneira": 0
     },
-    "hora": "2026-10-16T07",
-    "nesta_hora": 1,
-    "promobit_hora": "2026-10-16T07",
-    "promobit_nesta_hora": 1,
-    "promobit_visto": 3118086,
+    "hora": "2026-10-16T08",
+    "nesta_hora": 0,
+    "promobit_hora": "2026-10-16T08",
+    "promobit_nesta_hora": 0,
+    "promobit_visto": 3118096,
     "nomes": [
       [
         [
@@ -5470,16 +5478,34 @@
         "2026-10-16T07:41-03:00"
       ]
     ],
-    "peneira": [],
-    "soltas_hora": "2026-10-16T07",
-    "soltas": 2,
-    "shopee_em": "2026-10-16T07:40-03:00",
-    "shopee_indice": 28,
+    "peneira": [
+      {
+        "loja": "shopee",
+        "chave": "shopee:1052824153.27892568318",
+        "nome": "Caneleira de Peso Preta/Rosa Par de 500G,1KG,2KG,3KG,4KG,5KG - Exercício/Crosfit/Academia/Musculação/Fisioterapia/Treino",
+        "por": 22.97,
+        "de": 32.81,
+        "foto": "https://cf.shopee.com.br/file/br-11134207-81z1k-mfemeicjxd6ta7",
+        "link": "https://s.shopee.com.br/9pf8FKPhTh",
+        "link_produto": "https://shopee.com.br/product/1052824153/27892568318",
+        "origem": "shopee",
+        "fonte": "shopee",
+        "foto_origem": "loja",
+        "shopee_api": true,
+        "avaliacao": 4.8,
+        "vendas": 1244,
+        "palavra": "academia",
+        "garimpado_em": "2026-10-16T08:00-03:00",
+        "nota": 59.8
+      }
+    ],
+    "soltas_hora": "2026-10-16T08",
+    "soltas": 0,
+    "shopee_em": "2026-10-16T08:00-03:00",
+    "shopee_indice": 36,
     "soltas_dia_data": "2026-10-16",
     "soltas_dia": 7,
-    "soltas_loja": {
-      "shopee": 2
-    }
+    "soltas_loja": {}
   },
   "ultimos": [
     {
