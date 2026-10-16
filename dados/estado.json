@@ -1685,13 +1685,13 @@
   "radar": {
     "visto": {
       "xetdaspromocoes": 85103,
-      "lobaopromo": 190130,
-      "gatunopromos": 125638,
-      "pobregram": 41988,
+      "lobaopromo": 190134,
+      "gatunopromos": 125639,
+      "pobregram": 41989,
       "urubupromo": 41748,
       "tudonapromo": 102064,
       "promonocontext": 127387,
-      "promooeasy": 222485,
+      "promooeasy": 222487,
       "aquitempechincha": 281997,
       "infoBRpromos": 67660,
       "boletando": 76808,
@@ -3687,27 +3687,27 @@
       "mercadolivre:MLB21836282"
     ],
     "ultima": {
-      "em": "2026-10-15T23:30:25-03:00",
+      "em": "2026-10-15T23:40:21-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 15,
-      "do_nicho": 1,
+      "posts_novos": 12,
+      "do_nicho": 0,
       "repetidas": 0,
-      "novas": 1,
+      "novas": 0,
       "limite_dia": false,
       "repetidas_nome": 0,
       "promobit": 0,
       "soltas": 0,
-      "na_peneira": 26
+      "na_peneira": 25
     },
     "hora": "2026-10-15T23",
     "nesta_hora": 4,
     "promobit_hora": "2026-10-15T23",
     "promobit_nesta_hora": 0,
-    "promobit_visto": 3117868,
+    "promobit_visto": 3117874,
     "nomes": [
       [
         [
@@ -5250,23 +5250,6 @@
     ],
     "peneira": [
       {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB7440270620",
-        "origem": "lobaopromo",
-        "link": "https://www.mercadolivre.com.br/oculos-de-sol-rb3025l-aviador-cores-variadas/up/MLBU4761398859?pdp_filters=item_id%3AMLB7440270620&matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/oculos-de-sol-rb3025l-aviador-cores-variadas/up/MLBU4761398859?pdp_filters=item_id%3AMLB7440270620",
-        "post_origem": "https://t.me/lobaopromo/190072",
-        "link_canal": "https://meli.la/1UMy5c7",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_806390-MLB114941638528_082026-O.webp",
-        "foto_origem": "loja",
-        "nome": "Óculos De Sol Rb3025l Aviador Cores Variadas Verde Preto Dourado 58mm",
-        "de": 639.0,
-        "por": 235.0,
-        "palavra": "oculos de sol",
-        "garimpado_em": "2026-10-15T20:40-03:00",
-        "nota": 74.9
-      },
-      {
         "loja": "amazon",
         "chave": "amazon:B0HD1F237X",
         "origem": "promooeasy",
@@ -5714,8 +5697,8 @@
     ],
     "soltas_hora": "2026-10-15T23",
     "soltas": 0,
-    "shopee_em": "2026-10-15T23:20-03:00",
-    "shopee_indice": 64,
+    "shopee_em": "2026-10-15T23:40-03:00",
+    "shopee_indice": 72,
     "soltas_dia_data": "2026-10-15",
     "soltas_dia": 60,
     "soltas_loja": {}
