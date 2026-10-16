@@ -2,27 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB7715359186",
-      "origem": "xetdaspromocoes",
-      "link": "https://meli.la/2GThwrL",
-      "link_produto": "https://meli.la/2GThwrL",
-      "post_origem": "https://t.me/xetdaspromocoes/85096",
-      "link_canal": "https://meli.la/1BjAX6m",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_750066-MLB118247275335_092026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Relógio De Pulso Masculino Minimalista Old Money Fortuna Marrom Cx",
-      "de": 199.0,
-      "por": 69.0,
-      "cupom": "FORTUNAOCULOS",
-      "palavra": "relogio",
-      "garimpado_em": "2026-10-15T21:40-03:00",
-      "nota": 82.4,
-      "titulo": "Relógio clássico para compor o visual casual masculino",
-      "na_revisao_desde": "2026-10-16T00:13-03:00",
-      "aprovado_em": "2026-10-16T00:25-03:00"
-    },
-    {
       "loja": "shopee",
       "chave": "shopee:1346435001.21098276188",
       "nome": "Pré Treino Bope Sabor 150g - Black Skull",
@@ -1808,6 +1787,16 @@
       "link_produto": "https://shopee.com.br/product/834213091/58263387989",
       "titulo": "Pré-treino para dar mais energia nos exercícios",
       "slot": 11.1
+    },
+    {
+      "chave": "mercadolivre:MLB7715359186",
+      "loja": "mercadolivre",
+      "nome": "Relógio De Pulso Masculino Minimalista Old Money Fortuna Marrom Cx",
+      "data": "2026-10-16T12:14-03:00",
+      "link": "https://meli.la/2GThwrL",
+      "link_produto": "https://meli.la/2GThwrL",
+      "titulo": "Relógio clássico para compor o visual casual masculino",
+      "slot": 12
     }
   ],
   "slots_usados": {
@@ -1893,7 +1882,8 @@
       10,
       10.1,
       11,
-      11.1
+      11.1,
+      12
     ]
   },
   "shopee_buscado_em": "",
@@ -6304,6 +6294,20 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB7715359186",
+      "origem": "xetdaspromocoes",
+      "link": "https://meli.la/2GThwrL",
+      "link_produto": "https://meli.la/2GThwrL",
+      "post_origem": "https://t.me/xetdaspromocoes/85096",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_750066-MLB118247275335_092026-O.webp",
+      "nome": "Relógio De Pulso Masculino Minimalista Old Money Fortuna Marrom Cx",
+      "de": 199.0,
+      "por": 69.0,
+      "cupom": "FORTUNAOCULOS",
+      "titulo": "Relógio clássico para compor o visual casual masculino"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:834213091.58263387989",
       "nome": "Pré Treino 300g Sabor Tangerina | GL Suplemento Alimentar em Pó | Beta-Alanina Cafeína Taurina L-Arginina",
@@ -6828,20 +6832,6 @@
       "de": 59.0,
       "por": 27.0,
       "titulo": "Modelo executivo impermeável para trabalho e estudos"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0HDFV9XDD",
-      "origem": "lobaopromo",
-      "link": "https://link.amazon/B01qJwrQa",
-      "link_produto": "https://link.amazon/B01qJwrQa",
-      "post_origem": "https://t.me/lobaopromo/189569",
-      "foto": "AgACAgQAAxkDAAIDnWrQExEM5hYq2hNaqiCtqBWDGYdOAALhDmsb0GPUUZ-GojoTjgH7AQADAgADeAADPQQ",
-      "nome": "Creatina 500g Growth Supplements",
-      "pix": true,
-      "de": 75.0,
-      "por": 56.9,
-      "titulo": "Creatina em pó para o seu treino diário"
     }
   ],
   "lixeira": [
