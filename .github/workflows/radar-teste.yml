@@ -1,0 +1,19 @@
+name: radar-teste
+
+# Lê os canais agora e mostra no log o que o radar mandaria (com a IA lendo os posts), sem enviar nada.
+on:
+  workflow_dispatch:
+
+jobs:
+  testar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - name: Testar o radar
+        env:
+          SHOPEE_APP_ID: ${{ secrets.SHOPEE_APP_ID }}
+          SHOPEE_SECRET: ${{ secrets.SHOPEE_SECRET }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_LEGIAO_KEY: ${{ secrets.GEMINI_LEGIAO_KEY }}
+        run: python3 bot.py radar-teste

@@ -14,6 +14,7 @@ jobs:
       - name: Gerar as chamadas
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_LEGIAO_KEY: ${{ secrets.GEMINI_LEGIAO_KEY }}
         run: |
           git fetch -q origin main && git checkout origin/main -- dados/estado.json  # ofertas de agora
           python3 bot.py titulo-teste | tee saida.txt

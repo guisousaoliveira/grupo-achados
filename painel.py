@@ -27,7 +27,7 @@ ARQ_HTML = bot.PASTA / "painel.html"
 COOKIE = "painel"
 LOJAS = {"amazon": "Amazon", "mercadolivre": "Mercado Livre", "shopee": "Shopee"}
 CAMPOS = ("nome", "de", "por", "prime", "sem_prime", "cupom", "cupom_loja", "obs", "frase", "link", "link_produto",
-          "loja", "origem", "foto_origem", "aprovado_em", "aviso_validade", "ler_depois", "precisa_link", "chave", "aviso_preco", "titulo", "pix", "garimpado_em", "post_origem", "link_canal", "removido_em", "removido_de", "expirou", "na_revisao_desde", "fonte", "parcelas", "parcela_valor", "shopee_api")
+          "loja", "origem", "foto_origem", "aprovado_em", "aviso_validade", "ler_depois", "precisa_link", "chave", "aviso_preco", "titulo", "pix", "garimpado_em", "post_origem", "link_canal", "removido_em", "removido_de", "expirou", "na_revisao_desde", "fonte", "parcelas", "parcela_valor", "shopee_api", "preco_loja", "preco_conferido")
 
 _fotos = {}  # cache das fotos do Telegram (file_id -> bytes), para a tela abrir rápido
 _estado_cache = {"etag": None, "texto": None}
@@ -299,7 +299,7 @@ def resumo(estado):
             "por_hora": cfg_radar.get("melhores_por_hora", 0),
         },
         "palavras": palavras_json(estado),
-        "ia": bool(bot.segredo("GEMINI_API_KEY")),
+        "ia": bool(bot.chave_ia()),
     }
 
 
@@ -470,7 +470,7 @@ def ia(d):
             "loja": d.get("loja", ""), "cupom": (d.get("cupom") or "").strip(), "pix": bool(d.get("pix")),
             "prime": bool(d.get("prime"))}
     bot.aplicar_parcelas(item, d.get("parcelas") or "")
-    if not bot.segredo("GEMINI_API_KEY"):
+    if not bot.chave_ia():
         texto = bot.gerar_frase(item) if campo == "titulo" else bot.nome_curto(item["nome"], 60)
         return {"texto": texto or "", "sem_chave": True}
     dados = bot.dados_ia(item) + (f"\nTítulo atual: {d['titulo']}" if d.get("titulo") else "")

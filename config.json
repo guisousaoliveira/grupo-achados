@@ -212,6 +212,12 @@
     "max_por_loja_hora": {
       "shopee": 2,
       "outras": 3
+    },
+    "aprovar_conferidas": {
+      "ligado": true,
+      "desconto_minimo": 10,
+      "desconto_max": 80,
+      "fila_max": 16
     }
   },
   "canal_publico": "alphadominuspromo",
