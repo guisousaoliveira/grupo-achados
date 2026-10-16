@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "shopee",
-      "chave": "shopee:995022276.23798435779",
-      "nome": "Grampeador Tapeceiro com Trena 2 Metros + 1000 Grampos e Maleta",
-      "por": 43.96,
-      "de": 118.81,
-      "foto": "AgACAgQAAxkDAAID8GrRHjNd25GAsP54x4M50-FF0C21AAO6MRsnRYRTg2lS249ON3ABAAMCAAN5AAM9BA",
-      "link": "https://s.shopee.com.br/113iZkJtiR",
-      "link_produto": "https://shopee.com.br/product/995022276/23798435779",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.9,
-      "vendas": 420,
-      "palavra": "trena",
-      "garimpado_em": "2026-10-15T14:41-03:00",
-      "nota": 84.8,
-      "titulo": "Grampeador com trena para tapeçaria e pequenos reparos",
-      "na_revisao_desde": "2026-10-15T15:41-03:00",
-      "aprovado_em": "2026-10-15T15:47-03:00"
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB47773451",
       "origem": "lobaopromo",
@@ -1685,6 +1663,15 @@
       "link_produto": "https://meli.la/19BLAXs",
       "titulo": "Pré-treino para dar mais energia nos exercícios",
       "slot": 23
+    },
+    {
+      "chave": "shopee:995022276.23798435779",
+      "loja": "shopee",
+      "nome": "Grampeador Tapeceiro com Trena 2 Metros + 1000 Grampos e Maleta",
+      "data": "2026-10-16T00:54-03:00",
+      "link": "https://s.shopee.com.br/113iZkJtiR",
+      "link_produto": "https://shopee.com.br/product/995022276/23798435779",
+      "titulo": "Grampeador com trena para tapeçaria e pequenos reparos"
     }
   ],
   "slots_usados": {
@@ -5763,6 +5750,19 @@
   },
   "ultimos": [
     {
+      "loja": "shopee",
+      "chave": "shopee:995022276.23798435779",
+      "nome": "Grampeador Tapeceiro com Trena 2 Metros + 1000 Grampos e Maleta",
+      "por": 43.96,
+      "de": 118.81,
+      "foto": "AgACAgQAAxkDAAID8GrRHjNd25GAsP54x4M50-FF0C21AAO6MRsnRYRTg2lS249ON3ABAAMCAAN5AAM9BA",
+      "link": "https://s.shopee.com.br/113iZkJtiR",
+      "link_produto": "https://shopee.com.br/product/995022276/23798435779",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "titulo": "Grampeador com trena para tapeçaria e pequenos reparos"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB21362449",
       "origem": "xetdaspromocoes",
@@ -6289,19 +6289,6 @@
       "origem": "shopee",
       "fonte": "shopee",
       "titulo": "Drone com câmera dupla para filmagens aéreas"
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:1006215031.51250897834",
-      "nome": "Óculos de sol redondos pequenos para homens e mulheres, proteção UV, proteção solar, moda ao ar livre, óculos para",
-      "por": 13.41,
-      "de": 67.05,
-      "foto": "AgACAgQAAxkDAAIDVWrPlI6g_efPJ4HY1bku7GGGbI9IAAL-DWsbc4eMUVauuQ897B4MAQADAgADeAADPQQ",
-      "link": "https://s.shopee.com.br/9zyVK08EO2",
-      "link_produto": "https://shopee.com.br/product/1006215031/51250897834",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "titulo": "Óculos de sol pequenos com proteção UV para o rosto"
     }
   ],
   "lixeira": [
