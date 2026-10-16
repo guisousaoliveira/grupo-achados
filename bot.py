@@ -2779,6 +2779,10 @@ def ciclo(estado):
     except Exception as e:
         log(f"Erro refazendo chamadas: {e}")
     try:
+        encurtar_fila_ml(estado)
+    except Exception as e:
+        log(f"Erro gerando meli.la: {e}")
+    try:
         postar_se_for_hora(estado)
     except Exception as e:
         log(f"Erro ao postar: {e}")
@@ -2872,6 +2876,33 @@ def meli_la(url):
         return "", f"falhou: {e}"
     curto = dados.get("short_url", "")
     return (curto, "") if curto.startswith("https://meli.la/") else ("", f"resposta sem link: {str(dados)[:300]}")
+
+
+def encurtar_fila_ml(estado):
+    """Troca o link longo do Mercado Livre da fila pelo meli.la com a sua etiqueta (se ML_COOKIES estiver salvo).
+    Se o login do ML expirar, o post sai com o link longo mesmo e você recebe um aviso por dia."""
+    if not segredo("ML_COOKIES"):
+        return
+    feitos = 0
+    for item in estado["fila"]:
+        link = item.get("link") or ""
+        if item.get("loja") != "mercadolivre" or link.startswith("https://meli.la/") or feitos >= 5:
+            continue
+        feitos += 1
+        alvo = item.get("link_produto") or link.split("?")[0]
+        curto, erro = meli_la(alvo)
+        if curto:
+            item["link"] = curto
+            log(f"meli.la gerado para {item.get('nome', alvo)[:50]}: {curto}")
+            continue
+        log(f"Não gerei o meli.la ({erro}); fica o link longo.")
+        hoje = agora().date().isoformat()
+        if estado.get("aviso_ml") != hoje:
+            estado["aviso_ml"] = hoje
+            responder_admin("⚠️ Não consegui gerar o link meli.la do Mercado Livre (o login deve ter expirado). "
+                            "Os posts saem com o link longo até você atualizar o ML_COOKIES no GitHub "
+                            "(Cookie-Editor → Export → Header String).")
+        return
 
 
 def cmd_meli_teste(links):
