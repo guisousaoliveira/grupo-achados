@@ -6,5 +6,6 @@
   "cta": "Comente CARTAS",
   "frames_min": 5,
   "frames_max": 7,
-  "rodadas_revisao": 2
+  "rodadas_revisao": 2,
+  "horario_post": 18
 }

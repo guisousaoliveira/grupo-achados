@@ -32,7 +32,7 @@ def _tg(metodo, corpo, tipo):
         raise RuntimeError(f"Telegram recusou ({metodo}): {erro.read().decode(errors='replace')[:300]}") from None
 
 
-def mensagem(texto):
+def mensagem(texto, botoes=None):
     partes, atual = [], ""
     for linha in texto.splitlines(keepends=True):
         if len(atual) + len(linha) > 3900:
@@ -40,9 +40,11 @@ def mensagem(texto):
             atual = ""
         atual += linha
     partes.append(atual)
-    for parte in partes:
-        _tg("sendMessage", json.dumps({"chat_id": CHAT, "text": parte,
-                                       "disable_web_page_preview": True}).encode(), "application/json")
+    for i, parte in enumerate(partes):
+        dados = {"chat_id": CHAT, "text": parte, "disable_web_page_preview": True}
+        if botoes and i == len(partes) - 1:
+            dados["reply_markup"] = {"inline_keyboard": [botoes]}
+        _tg("sendMessage", json.dumps(dados).encode(), "application/json")
 
 
 def fotos(arquivos, legenda, tipo="photo"):
@@ -178,9 +180,14 @@ def main():
     status = "✅ Aprovado pela Atena" if aprovado else "⛔ A Atena REPROVOU (não postar):\n" + "\n".join(f"• {m}" for m in motivos)
     fotos(arquivos, f"🦁 Legião Alpha – {base['DATA']}\nTema: {post.get('tema', '')}")
     fotos(arquivos, "Arquivos em qualidade máxima, pra postar", "document")
-    mensagem(f"{status}\n\n📝 Legenda:\n\n{post['legenda']}\n\n"
-             "Ainda não posto sozinho: falta conectar o Instagram. Por enquanto é só baixar os arquivos acima e postar.\n\n"
-             + consumo())
+    dia = agora.strftime("%Y-%m-%d")
+    (SAIDA / "status.json").write_text(json.dumps({"status": "pendente", "tipo": "carrossel", "dia": dia,
+                                                   "horario": CFG.get("horario_post", 18)}), encoding="utf-8")
+    botoes = [{"text": "✅ Aprovar", "callback_data": f"lg:ok:{dia}"},
+              {"text": "❌ Recusar", "callback_data": f"lg:no:{dia}"}] if aprovado else None
+    mensagem(f"{status}\n\n📝 Legenda:\n\n{post['legenda']}\n\n{consumo()}\n\n"
+             + (f"Aprova pra postar no Instagram e no Facebook às {CFG.get('horario_post', 18)}h?" if aprovado else
+                "Esse não vai ser postado."), botoes)
     if aprovado:
         historico.append({"data": agora.strftime("%Y-%m-%d"), "tema": post.get("tema", "")})
         HISTORICO.write_text(json.dumps(historico, ensure_ascii=False, indent=1), encoding="utf-8")
