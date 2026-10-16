@@ -263,29 +263,6 @@
       "aprovado_em": "2026-10-16T12:41-03:00"
     },
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB68269465",
-      "origem": "promonocontext",
-      "link": "https://meli.la/2DahZyA",
-      "link_produto": "https://www.mercadolivre.com.br/relogio-de-pulso-mondaine-com-corria-de-silicone-cor-preto-fondo-branco-bisel-dourado/p/MLB68269465",
-      "post_origem": "https://t.me/promonocontext/127572",
-      "link_canal": "https://meli.la/2p1mycG",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_796210-MLA117645065731_092026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Relógio De Pulso Mondaine Com Corria De Silicone Cor Preto",
-      "de": 417.0,
-      "por": 150.0,
-      "lido_ia": true,
-      "cupom": "OFFHOJE",
-      "preco_loja": 167.4,
-      "palavra": "relogio",
-      "garimpado_em": "2026-10-16T11:01-03:00",
-      "nota": 83.1,
-      "titulo": "Mondaine com pulseira de silicone para uso diário",
-      "na_revisao_desde": "2026-10-16T11:36-03:00",
-      "aprovado_em": "2026-10-16T11:42-03:00"
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B0977QVRJS",
       "origem": "promobit",
@@ -1871,6 +1848,15 @@
       "link_produto": "https://shopee.com.br/product/1346435001/21098276188",
       "titulo": "Pré-treino para dar mais energia nos exercícios",
       "slot": 12.1
+    },
+    {
+      "chave": "mercadolivre:MLB68269465",
+      "loja": "mercadolivre",
+      "nome": "Relógio De Pulso Mondaine Com Corria De Silicone Cor Preto",
+      "data": "2026-10-16T12:43-03:00",
+      "link": "https://meli.la/2DahZyA",
+      "link_produto": "https://www.mercadolivre.com.br/relogio-de-pulso-mondaine-com-corria-de-silicone-cor-preto-fondo-branco-bisel-dourado/p/MLB68269465",
+      "titulo": "Mondaine com pulseira de silicone para uso diário"
     }
   ],
   "slots_usados": {
@@ -6597,6 +6583,20 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB68269465",
+      "origem": "promonocontext",
+      "link": "https://meli.la/2DahZyA",
+      "link_produto": "https://www.mercadolivre.com.br/relogio-de-pulso-mondaine-com-corria-de-silicone-cor-preto-fondo-branco-bisel-dourado/p/MLB68269465",
+      "post_origem": "https://t.me/promonocontext/127572",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_796210-MLA117645065731_092026-O.webp",
+      "nome": "Relógio De Pulso Mondaine Com Corria De Silicone Cor Preto",
+      "de": 417.0,
+      "por": 150.0,
+      "cupom": "OFFHOJE",
+      "titulo": "Mondaine com pulseira de silicone para uso diário"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:1346435001.21098276188",
       "nome": "Pré Treino Bope Sabor 150g - Black Skull",
@@ -7122,19 +7122,6 @@
       "por": 152.0,
       "cupom": "APROVEITA",
       "titulo": "Relógio prateado para o dia a dia"
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:1337281722.22298585774",
-      "nome": "Bomba De Ar Auxiliador de Partida De Carro 4 Em 1 Multifuncional Compressor Power Bank CASABEAUTY",
-      "por": 171.0,
-      "de": 234.25,
-      "foto": "https://cf.shopee.com.br/file/br-11134211-7r98o-md26txpugmbl59",
-      "link": "https://s.shopee.com.br/3LRcPbeD0l",
-      "link_produto": "https://shopee.com.br/product/1337281722/22298585774",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "titulo": "Compressor portátil para calibrar pneus e emergências automo"
     }
   ],
   "lixeira": [
