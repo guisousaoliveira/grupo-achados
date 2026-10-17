@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "shopee",
-      "chave": "shopee:446247790.23994831748",
-      "nome": "Kit Mass Hipercalórico + Bcaa + Creatina + Glutamina + Coqueteleira - Espartanos",
-      "por": 99.99,
-      "de": 129.86,
-      "foto": "https://cf.shopee.com.br/file/br-11134207-820m5-msfjifb7jtol0a",
-      "link": "https://s.shopee.com.br/50ZtQ9AsX8",
-      "link_produto": "https://shopee.com.br/product/446247790/23994831748",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.8,
-      "vendas": 110,
-      "palavra": "creatina",
-      "garimpado_em": "2026-10-16T22:00-03:00",
-      "nota": 65.9,
-      "titulo": "Kit completo de suplementos para ganho de peso",
-      "aprovado_sozinho": true,
-      "aprovado_em": "2026-10-16T22:08-03:00"
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB25970762",
       "origem": "promonocontext",
@@ -2382,6 +2360,21 @@
       "secao": "casa",
       "slot": 22.2,
       "foto_site_ok": true
+    },
+    {
+      "chave": "shopee:446247790.23994831748",
+      "loja": "shopee",
+      "nome": "Kit Mass Hipercalórico + Bcaa + Creatina + Glutamina + Coqueteleira - Espartanos",
+      "data": "2026-10-16T22:53-03:00",
+      "link": "https://s.shopee.com.br/50ZtQ9AsX8",
+      "link_produto": "https://shopee.com.br/product/446247790/23994831748",
+      "titulo": "Kit completo de suplementos para ganho de peso",
+      "de": 129.86,
+      "por": 99.99,
+      "foto": "https://cf.shopee.com.br/file/br-11134207-820m5-msfjifb7jtol0a",
+      "secao": "academia",
+      "slot": 22.3,
+      "foto_site_ok": true
     }
   ],
   "slots_usados": {
@@ -2509,7 +2502,8 @@
       21.3,
       22,
       22.1,
-      22.2
+      22.2,
+      22.3
     ]
   },
   "shopee_buscado_em": "",
@@ -7644,6 +7638,19 @@
   },
   "ultimos": [
     {
+      "loja": "shopee",
+      "chave": "shopee:446247790.23994831748",
+      "nome": "Kit Mass Hipercalórico + Bcaa + Creatina + Glutamina + Coqueteleira - Espartanos",
+      "por": 99.99,
+      "de": 129.86,
+      "foto": "https://cf.shopee.com.br/file/br-11134207-820m5-msfjifb7jtol0a",
+      "link": "https://s.shopee.com.br/50ZtQ9AsX8",
+      "link_produto": "https://shopee.com.br/product/446247790/23994831748",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "titulo": "Kit completo de suplementos para ganho de peso"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB66128452",
       "origem": "lobaopromo",
@@ -8167,19 +8174,6 @@
       "por": 409.0,
       "cupom": "OFFHOJE",
       "titulo": "Airfryer espaçosa para agilizar a rotina na cozinha"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0FLQ54RHB",
-      "origem": "boletando",
-      "link": "https://www.amazon.com.br/dp/B0FLQ54RHB?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0FLQ54RHB?tag=alphadominu09-20",
-      "post_origem": "https://t.me/boletando/76817",
-      "foto": "AgACAgQAAxkDAAIEWmrSKxUwjCTcBL_5Wljq0pOsSh4UAAIOC2sbx5zsUAM6nEuA6ypoAQADAgADeQADPQQ",
-      "nome": "GoPro HERO13 Black Power Bundle – Kit com Câmera de Ação à Prova d’água 10m, 5.3K60, HLG HDR, 27MP, HyperSmooth 6.0, GPS",
-      "por": 2999.0,
-      "titulo": "GoPro HERO13 para filmar esportes e aventuras",
-      "de": 3599.9
     }
   ],
   "lixeira": [
@@ -9771,5 +9765,5 @@
     }
   },
   "aviso_ml": "2026-10-16",
-  "vitrine_marca": "f7d8c6fe0286"
+  "vitrine_marca": "52885af9d4c8"
 }
