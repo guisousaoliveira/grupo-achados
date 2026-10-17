@@ -2815,20 +2815,72 @@
       "id": 743,
       "na_revisao_desde": "2026-10-17T08:50-03:00",
       "msg_id": 1253
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB4570819989",
+      "origem": "promonocontext",
+      "link": "https://meli.la/28zREP3",
+      "link_produto": "https://www.mercadolivre.com.br/parafusadeira-eletrica-profissional-45-pecas-portatil-usb/up/MLBU3877484328?pdp_filters=item_id%3AMLB4570819989",
+      "post_origem": "https://t.me/promonocontext/127839",
+      "link_canal": "https://meli.la/1WPMZqH",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_942242-MLB109795045107_032026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Parafusadeira Elétrica Profissional 45 Peças Portátil Usb",
+      "pix": true,
+      "por": 37.0,
+      "lido_ia": true,
+      "preco_conferido": true,
+      "palavra": "parafusadeira",
+      "garimpado_em": "2026-10-17T09:40-03:00",
+      "nota": 36.4,
+      "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto",
+      "titulo": "Conjunto com parafusadeira USB para pequenos consertos",
+      "id": 747,
+      "na_revisao_desde": "2026-10-17T09:45-03:00",
+      "msg_id": 1258
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB49204693",
+      "origem": "promooeasy",
+      "link": "https://meli.la/2uAm8iG",
+      "link_produto": "https://www.mercadolivre.com.br/water-cooler-msi-mag-coreliquid-a12-360-argb-preto/p/MLB49204693",
+      "post_origem": "https://t.me/promooeasy/223422",
+      "link_canal": "https://www.mercadolivre.com.br/water-cooler-msi-mag-coreliquid-a12-360-argb-preto/p/MLB49204693?matt_word=promoeasynv&amp;matt_tool=88963738",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_875629-MLA84217866904_052025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Water Cooler MSI Mag Coreliquid A12 360, ARGB, Preto",
+      "parcelas": 7,
+      "por": 339.0,
+      "lido_ia": true,
+      "cupom": "OFFNOMELIHOJE",
+      "palavra": "cooler",
+      "garimpado_em": "2026-10-17T09:40-03:00",
+      "nota": 23.7,
+      "titulo": "Resfriamento líquido para processadores de alto desempenho",
+      "id": 748,
+      "na_revisao_desde": "2026-10-17T09:45-03:00",
+      "msg_id": 1259,
+      "reconferido_em": "2026-10-17T09:45-03:00",
+      "preco_conferido": true,
+      "preco_cupom": true,
+      "preco_sem_cupom": 377.77,
+      "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto"
     }
   ],
-  "proximo_id": 747,
+  "proximo_id": 749,
   "radar": {
     "visto": {
       "xetdaspromocoes": 85301,
-      "lobaopromo": 190743,
-      "gatunopromos": 125893,
+      "lobaopromo": 190748,
+      "gatunopromos": 125895,
       "pobregram": 42059,
       "urubupromo": 41803,
-      "tudonapromo": 102230,
-      "promonocontext": 127839,
-      "promooeasy": 223424,
-      "aquitempechincha": 282292,
+      "tudonapromo": 102231,
+      "promonocontext": 127845,
+      "promooeasy": 223429,
+      "aquitempechincha": 282293,
       "infoBRpromos": 67739,
       "boletando": 76873,
       "promotop": 260404,
@@ -5065,27 +5117,27 @@
       "shopee:1339888238.21198268414"
     ],
     "ultima": {
-      "em": "2026-10-17T09:40:20-03:00",
+      "em": "2026-10-17T09:44:59-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 51,
-      "do_nicho": 5,
-      "repetidas": 3,
-      "novas": 2,
+      "posts_novos": 30,
+      "do_nicho": 2,
+      "repetidas": 2,
+      "novas": 0,
       "limite_dia": false,
       "repetidas_nome": 0,
       "promobit": 0,
-      "soltas": 0,
-      "na_peneira": 8
+      "soltas": 2,
+      "na_peneira": 6
     },
     "hora": "2026-10-17T09",
     "nesta_hora": 5,
     "promobit_hora": "2026-10-17T09",
     "promobit_nesta_hora": 0,
-    "promobit_visto": 3120994,
+    "promobit_visto": 3121016,
     "nomes": [
       [
         [
@@ -7956,6 +8008,31 @@
           "prateado"
         ],
         "2026-10-17T09:20-03:00"
+      ],
+      [
+        [
+          "parafusadeira",
+          "eletrica",
+          "profissional",
+          "45",
+          "pecas",
+          "portatil",
+          "usb"
+        ],
+        "2026-10-17T09:45-03:00"
+      ],
+      [
+        [
+          "water",
+          "cooler",
+          "msi",
+          "mag",
+          "coreliquid",
+          "a12",
+          "360",
+          "argb"
+        ],
+        "2026-10-17T09:45-03:00"
       ]
     ],
     "peneira": [
@@ -8072,59 +8149,19 @@
         "palavra": "creatina",
         "garimpado_em": "2026-10-17T09:01-03:00",
         "nota": 79.4
-      },
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB4570819989",
-        "origem": "promonocontext",
-        "link": "https://www.mercadolivre.com.br/parafusadeira-eletrica-profissional-45-pecas-portatil-usb/up/MLBU3877484328?pdp_filters=item_id%3AMLB4570819989&matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/parafusadeira-eletrica-profissional-45-pecas-portatil-usb/up/MLBU3877484328?pdp_filters=item_id%3AMLB4570819989",
-        "post_origem": "https://t.me/promonocontext/127839",
-        "link_canal": "https://meli.la/1WPMZqH",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_942242-MLB109795045107_032026-O.webp",
-        "foto_origem": "loja",
-        "nome": "Parafusadeira Elétrica Profissional 45 Peças Portátil Usb",
-        "pix": true,
-        "por": 37.0,
-        "lido_ia": true,
-        "preco_conferido": true,
-        "palavra": "parafusadeira",
-        "garimpado_em": "2026-10-17T09:40-03:00",
-        "nota": 36.4
-      },
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB49204693",
-        "origem": "promooeasy",
-        "link": "https://www.mercadolivre.com.br/water-cooler-msi-mag-coreliquid-a12-360-argb-preto/p/MLB49204693?matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/water-cooler-msi-mag-coreliquid-a12-360-argb-preto/p/MLB49204693",
-        "post_origem": "https://t.me/promooeasy/223422",
-        "link_canal": "https://www.mercadolivre.com.br/water-cooler-msi-mag-coreliquid-a12-360-argb-preto/p/MLB49204693?matt_word=promoeasynv&amp;matt_tool=88963738",
-        "foto": "https://cdn1.telesco.pe/file/MpF6trxa4g9N64QFAB94vWumdbdFoPoBRV_cTVT0JUVBYYcD4OVzxb0ynrXXqRlZ6DIiplKYFjE1ZIszSXJGtpydyeqqq2EcnlhcthKkCX__ZcB6V-_gKRhZhTHyyhh5dLvku1Wic1QpYY6O-5KJiUD_IbvwVAo4iGQM0ks1TeAjYgZD2CrEeVAOWwwB-yr3zJj2cpN-P2YEhY4g2BGLJ17vkyO6xeJ1Yoi_bz4qsZqMcljhoeN57Yh6zriK2bosMj3tIP-SY-iPVMdl5D2yYn0dJoa6p2IEwUyNuZxMSvs2gXXIHv81Qmg37HQv08bDuDpSm8BwF8Q_VsmV4Jk28w.jpg",
-        "foto_origem": "canal",
-        "nome": "Water Cooler MSI Mag Coreliquid A12 360, ARGB, Preto",
-        "parcelas": 7,
-        "por": 339.0,
-        "lido_ia": true,
-        "cupom": "OFFNOMELIHOJE",
-        "sem_preco_loja": true,
-        "loja_abriu": false,
-        "palavra": "cooler",
-        "garimpado_em": "2026-10-17T09:40-03:00",
-        "nota": 23.7
       }
     ],
     "soltas_hora": "2026-10-17T09",
-    "soltas": 3,
+    "soltas": 5,
     "shopee_em": "2026-10-17T09:40-03:00",
     "shopee_indice": 24,
     "soltas_dia_data": "2026-10-17",
-    "soltas_dia": 16,
+    "soltas_dia": 18,
     "soltas_loja": {
       "shopee": 2,
-      "mercadolivre": 1
+      "mercadolivre": 3
     },
-    "soltas_vez": "2026-10-17T09:2"
+    "soltas_vez": "2026-10-17T09:3"
   },
   "ultimos": [
     {
@@ -9874,7 +9911,7 @@
     },
     "2026-10-17": {
       "promooeasy": {
-        "achados": 5,
+        "achados": 6,
         "aprovados": 0,
         "reprovados": 1
       },
@@ -9889,7 +9926,7 @@
         "reprovados": 0
       },
       "promonocontext": {
-        "achados": 1,
+        "achados": 2,
         "aprovados": 0,
         "reprovados": 0
       }
@@ -9988,7 +10025,7 @@
       "reprovados": 1
     },
     "cooler": {
-      "achados": 6,
+      "achados": 7,
       "aprovados": 0,
       "reprovados": 6
     },
@@ -10073,7 +10110,7 @@
       "reprovados": 2
     },
     "parafusadeira": {
-      "achados": 9,
+      "achados": 10,
       "aprovados": 2,
       "reprovados": 6
     },
