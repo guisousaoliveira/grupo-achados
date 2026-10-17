@@ -2,32 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB66128452",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/1hD216C",
-      "link_produto": "https://www.mercadolivre.com.br/air-fryer-oven-11-litros-wap-waod4-grey-stone-painel-digital-11-funcoes-127v/p/MLB66128452",
-      "post_origem": "https://t.me/lobaopromo/190518",
-      "link_canal": "https://meli.la/2SXEPym",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_829470-MLA119579536359_102026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Air Fryer Oven 11 Litros Wap Waod4 Grey Stone Painel Digital 11",
-      "pix": true,
-      "por": 266.0,
-      "lido_ia": true,
-      "cupom": "OFFHOJE",
-      "preco_conferido": true,
-      "preco_cupom": true,
-      "preco_sem_cupom": 296.65,
-      "palavra": "air fryer",
-      "garimpado_em": "2026-10-16T18:20-03:00",
-      "nota": 42.9,
-      "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto",
-      "titulo": "Airfryer oven 11L para assar refeições completas",
-      "na_revisao_desde": "2026-10-16T19:01-03:00",
-      "aprovado_em": "2026-10-16T19:01-03:00"
-    },
-    {
       "loja": "shopee",
       "chave": "shopee:446247790.23994831748",
       "nome": "Kit Mass Hipercalórico + Bcaa + Creatina + Glutamina + Coqueteleira - Espartanos",
@@ -2391,6 +2365,23 @@
       "secao": "tech",
       "slot": 22.1,
       "foto_site_ok": true
+    },
+    {
+      "chave": "mercadolivre:MLB66128452",
+      "loja": "mercadolivre",
+      "nome": "Air Fryer Oven 11 Litros Wap Waod4 Grey Stone Painel Digital 11",
+      "data": "2026-10-16T22:40-03:00",
+      "link": "https://meli.la/1hD216C",
+      "link_produto": "https://www.mercadolivre.com.br/air-fryer-oven-11-litros-wap-waod4-grey-stone-painel-digital-11-funcoes-127v/p/MLB66128452",
+      "titulo": "Airfryer oven 11L para assar refeições completas",
+      "por": 266.0,
+      "cupom": "OFFHOJE",
+      "pix": true,
+      "conferido": true,
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_829470-MLA119579536359_102026-O.webp",
+      "secao": "casa",
+      "slot": 22.2,
+      "foto_site_ok": true
     }
   ],
   "slots_usados": {
@@ -2517,7 +2508,8 @@
       21.2,
       21.3,
       22,
-      22.1
+      22.1,
+      22.2
     ]
   },
   "shopee_buscado_em": "",
@@ -7667,6 +7659,20 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB66128452",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/1hD216C",
+      "link_produto": "https://www.mercadolivre.com.br/air-fryer-oven-11-litros-wap-waod4-grey-stone-painel-digital-11-funcoes-127v/p/MLB66128452",
+      "post_origem": "https://t.me/lobaopromo/190518",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_829470-MLA119579536359_102026-O.webp",
+      "nome": "Air Fryer Oven 11 Litros Wap Waod4 Grey Stone Painel Digital 11",
+      "pix": true,
+      "por": 266.0,
+      "cupom": "OFFHOJE",
+      "titulo": "Airfryer oven 11L para assar refeições completas"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0FL4N5RG6",
       "origem": "promooeasy",
@@ -8189,20 +8195,6 @@
       "por": 2999.0,
       "titulo": "GoPro HERO13 para filmar esportes e aventuras",
       "de": 3599.9
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB5579293332",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/32zWAwY",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-5579293332-kit-com-3-conjuntos-academia-masculino-dry-fit-shortscamisa-_JM?pdp_filters=item_id%3AMLB5579293332",
-      "post_origem": "https://t.me/lobaopromo/190226",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_726770-MLB110302024394_052026-O.webp",
-      "nome": "Kit Com 3 Conjuntos Academia Masculino Dry Fit Shorts+camisa",
-      "pix": true,
-      "de": 156.25,
-      "por": 109.08,
-      "titulo": "Conjuntos dry fit respiráveis ideais nos treinos diários"
     }
   ],
   "lixeira": [
@@ -9794,5 +9786,5 @@
     }
   },
   "aviso_ml": "2026-10-16",
-  "vitrine_marca": "8191e1e5086e"
+  "vitrine_marca": "f7d8c6fe0286"
 }
