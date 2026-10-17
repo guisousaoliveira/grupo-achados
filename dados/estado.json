@@ -2,33 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB24459321",
-      "origem": "promooeasy",
-      "link": "https://meli.la/1EqrsZT",
-      "link_produto": "https://www.mercadolivre.com.br/oster-primalatte-touch-red-cafeteira-espresso-1050w-/p/MLB24459321",
-      "post_origem": "https://t.me/promooeasy/223444",
-      "link_canal": "https://www.mercadolivre.com.br/oster-primalatte-touch-red-cafeteira-espresso-1050w-/p/MLB24459321?matt_word=promoeasynv&amp;matt_tool=88963738",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_978484-MLA88402100997_072025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Oster PrimaLatte Touch Red Cafeteira Espresso 1050W",
-      "de": 862.31,
-      "por": 698.47,
-      "lido_ia": true,
-      "cupom": "OFFNOMELIHOJE",
-      "palavra": "cafeteira",
-      "garimpado_em": "2026-10-17T10:00-03:00",
-      "nota": 43.8,
-      "titulo": "Café espresso e cappuccino cremoso feitos em casa",
-      "na_revisao_desde": "2026-10-17T10:21-03:00",
-      "reconferido_em": "2026-10-17T10:21-03:00",
-      "preco_conferido": true,
-      "preco_cupom": true,
-      "preco_sem_cupom": 776.08,
-      "aprovado_sozinho": true,
-      "aprovado_em": "2026-10-17T10:21-03:00"
-    },
-    {
       "loja": "shopee",
       "chave": "shopee:1618883837.58260381358",
       "nome": "Trena 5/10 Metros Profissional Emborrachada Trava Fita Aço Carbono Alta Precisão Resistente",
@@ -2946,6 +2919,23 @@
       "secao": "academia",
       "slot": 13.1,
       "foto_site_ok": true
+    },
+    {
+      "chave": "mercadolivre:MLB24459321",
+      "loja": "mercadolivre",
+      "nome": "Oster PrimaLatte Touch Red Cafeteira Espresso 1050W",
+      "data": "2026-10-17T13:40-03:00",
+      "link": "https://meli.la/1EqrsZT",
+      "link_produto": "https://www.mercadolivre.com.br/oster-primalatte-touch-red-cafeteira-espresso-1050w-/p/MLB24459321",
+      "titulo": "Café espresso e cappuccino cremoso feitos em casa",
+      "de": 862.31,
+      "por": 698.47,
+      "cupom": "OFFNOMELIHOJE",
+      "conferido": true,
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_978484-MLA88402100997_072025-O.webp",
+      "secao": "casa",
+      "slot": 13.2,
+      "foto_site_ok": true
     }
   ],
   "slots_usados": {
@@ -3098,7 +3088,8 @@
       12.2,
       12.3,
       13,
-      13.1
+      13.1,
+      13.2
     ]
   },
   "shopee_buscado_em": "",
@@ -9172,6 +9163,20 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB24459321",
+      "origem": "promooeasy",
+      "link": "https://meli.la/1EqrsZT",
+      "link_produto": "https://www.mercadolivre.com.br/oster-primalatte-touch-red-cafeteira-espresso-1050w-/p/MLB24459321",
+      "post_origem": "https://t.me/promooeasy/223444",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_978484-MLA88402100997_072025-O.webp",
+      "nome": "Oster PrimaLatte Touch Red Cafeteira Espresso 1050W",
+      "de": 862.31,
+      "por": 698.47,
+      "cupom": "OFFNOMELIHOJE",
+      "titulo": "Café espresso e cappuccino cremoso feitos em casa"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:1242044379.23094334327",
       "nome": "Whey Protein One Refil 900g + Creatina Monohidratada Pura 150g + Coqueteleira Fuse 700ml - Dark Lab",
@@ -9697,18 +9702,6 @@
       "pix": true,
       "por": 169.0,
       "titulo": "Kit de halteres ajustáveis para treinar em casa"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB65063041",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/2KFK2un",
-      "link_produto": "https://www.mercadolivre.com.br/camera-de-seguranca-intelbras-imx-c-com-resolucao-2mp-branco/p/MLB65063041",
-      "post_origem": "https://t.me/lobaopromo/190533",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_759638-MLA105504310884_012026-O.webp",
-      "nome": "Câmera de Segurança Intelbras Imx C com resolução 2MP",
-      "por": 159.0,
-      "titulo": "Câmera Intelbras para monitorar a casa pelo celular"
     }
   ],
   "lixeira": [
@@ -11389,5 +11382,5 @@
     }
   },
   "aviso_ml": "2026-10-17",
-  "vitrine_marca": "4e9b0e97b720"
+  "vitrine_marca": "c84ff032180e"
 }
