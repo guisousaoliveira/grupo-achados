@@ -383,6 +383,27 @@
       "nota": 73.1,
       "aprovado_sozinho": true,
       "aprovado_em": "2026-10-17T15:00-03:00"
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:1541994310.22098699572",
+      "nome": "Maquina De Barbear e Aparador Pelos Elétrico 3 Em 1 Kemei 6558",
+      "por": 49.49,
+      "de": 149.97,
+      "foto": "https://cf.shopee.com.br/file/br-11134207-7r98o-mbh1jysdwd0i68",
+      "link": "https://s.shopee.com.br/Lo4vUW8y6",
+      "link_produto": "https://shopee.com.br/product/1541994310/22098699572",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.8,
+      "vendas": 1571,
+      "palavra": "maquina de barbear",
+      "garimpado_em": "2026-10-17T14:00-03:00",
+      "nota": 78.9,
+      "aprovado_sozinho": true,
+      "aprovado_em": "2026-10-17T15:21-03:00"
     }
   ],
   "postados": [
@@ -3281,18 +3302,41 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [],
-  "proximo_id": 788,
+  "revisar": [
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0DMV2VL35",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0DMV2VL35?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0DMV2VL35?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/stanley-garrafa-termica-tumbler-flip-straw-chili-887ml-3121771/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3121771/",
+      "nome": "Stanley Garrafa Térmica Tumbler Flip Straw Chili 887ml",
+      "por": 189.04,
+      "de": 319.0,
+      "foto": "AgACAgQAAxkDAAIFH2rTvJXHjHK-ScTdD4d3y6jLxmBnAAJYvDEb19b8UQOZaAbmj-UaAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "palavra": "garrafa termica",
+      "garimpado_em": "2026-10-17T15:20-03:00",
+      "nota": 72.1,
+      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
+      "id": 789,
+      "na_revisao_desde": "2026-10-17T15:21-03:00",
+      "msg_id": 1311
+    }
+  ],
+  "proximo_id": 790,
   "radar": {
     "visto": {
       "xetdaspromocoes": 85400,
-      "lobaopromo": 190972,
-      "gatunopromos": 125962,
-      "pobregram": 42066,
+      "lobaopromo": 190978,
+      "gatunopromos": 125965,
+      "pobregram": 42068,
       "urubupromo": 41819,
       "tudonapromo": 102304,
-      "promonocontext": 128055,
-      "promooeasy": 223630,
+      "promonocontext": 128056,
+      "promooeasy": 223633,
       "aquitempechincha": 282385,
       "infoBRpromos": 67757,
       "boletando": 76876,
@@ -3300,7 +3344,7 @@
       "achadosdotb": 11787
     },
     "dia": "2026-10-17",
-    "hoje": 75,
+    "hoje": 77,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -5635,30 +5679,32 @@
       "shopee:1125005184.23393229675",
       "shopee:696196245.15590798570",
       "amazon:B01HT60GU6",
-      "amazon:B0FC2SMDFK"
+      "amazon:B0FC2SMDFK",
+      "amazon:B0DMV2VL35",
+      "amazon:B0DX765QV9"
     ],
     "ultima": {
-      "em": "2026-10-17T15:10:37-03:00",
+      "em": "2026-10-17T15:20:23-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 44,
+      "posts_novos": 17,
       "do_nicho": 5,
-      "repetidas": 4,
-      "novas": 1,
+      "repetidas": 3,
+      "novas": 2,
       "limite_dia": false,
       "repetidas_nome": 0,
-      "promobit": 1,
-      "soltas": 0,
+      "promobit": 2,
+      "soltas": 2,
       "na_peneira": 19
     },
     "hora": "2026-10-17T15",
     "nesta_hora": 0,
     "promobit_hora": "2026-10-17T15",
-    "promobit_nesta_hora": 1,
-    "promobit_visto": 3121751,
+    "promobit_nesta_hora": 3,
+    "promobit_visto": 3121774,
     "nomes": [
       [
         [
@@ -9001,6 +9047,31 @@
           "passar"
         ],
         "2026-10-17T15:00-03:00"
+      ],
+      [
+        [
+          "maquina",
+          "barbear",
+          "aparador",
+          "pelos",
+          "eletrico",
+          "kemei",
+          "6558"
+        ],
+        "2026-10-17T15:21-03:00"
+      ],
+      [
+        [
+          "stanley",
+          "garrafa",
+          "termica",
+          "tumbler",
+          "flip",
+          "straw",
+          "chili",
+          "887ml"
+        ],
+        "2026-10-17T15:21-03:00"
       ]
     ],
     "peneira": [
@@ -9183,25 +9254,6 @@
       },
       {
         "loja": "shopee",
-        "chave": "shopee:1541994310.22098699572",
-        "nome": "Maquina De Barbear e Aparador Pelos Elétrico 3 Em 1 Kemei 6558",
-        "por": 49.49,
-        "de": 149.97,
-        "foto": "https://cf.shopee.com.br/file/br-11134207-7r98o-mbh1jysdwd0i68",
-        "link": "https://s.shopee.com.br/Lo4vUW8y6",
-        "link_produto": "https://shopee.com.br/product/1541994310/22098699572",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 4.8,
-        "vendas": 1571,
-        "palavra": "maquina de barbear",
-        "garimpado_em": "2026-10-17T14:00-03:00",
-        "nota": 78.9
-      },
-      {
-        "loja": "shopee",
         "chave": "shopee:1173089813.20698201938",
         "nome": "Tônico Capilar, cabelo, barba e sobrancelha",
         "por": 19.94,
@@ -9369,19 +9421,38 @@
         "palavra": "smartwatch",
         "garimpado_em": "2026-10-17T15:10-03:00",
         "nota": 57.6
+      },
+      {
+        "loja": "amazon",
+        "chave": "amazon:B0DX765QV9",
+        "origem": "promobit",
+        "fonte": "promobit",
+        "link": "https://www.amazon.com.br/dp/B0DX765QV9?tag=alphadominu09-20",
+        "link_produto": "https://www.amazon.com.br/dp/B0DX765QV9?tag=alphadominu09-20",
+        "post_origem": "https://www.promobit.com.br/oferta/smartwatch-militar-masculinorelogio-inteligente-com-chamadastela-hd-de-1452-alcas100-modos-esportivosresistent-3121774/",
+        "link_canal": "https://www.promobit.com.br/Redirect/to/3121774/",
+        "nome": "Smartwatch Militar Masculino,Relógio Inteligente com Chamadas,Tela HD",
+        "por": 255.64,
+        "de": 299.0,
+        "foto": "https://m.media-amazon.com/images/I/71Ov6AWcRuL._AC_SL1500_.jpg",
+        "foto_origem": "loja",
+        "palavra": "smartwatch",
+        "garimpado_em": "2026-10-17T15:20-03:00",
+        "nota": 45.3
       }
     ],
     "soltas_hora": "2026-10-17T15",
-    "soltas": 2,
-    "shopee_em": "2026-10-17T15:00-03:00",
-    "shopee_indice": 52,
+    "soltas": 4,
+    "shopee_em": "2026-10-17T15:21-03:00",
+    "shopee_indice": 60,
     "soltas_dia_data": "2026-10-17",
-    "soltas_dia": 55,
+    "soltas_dia": 57,
     "soltas_loja": {
-      "shopee": 1,
-      "mercadolivre": 1
+      "shopee": 2,
+      "mercadolivre": 1,
+      "amazon": 1
     },
-    "soltas_vez": "2026-10-17T15:0"
+    "soltas_vez": "2026-10-17T15:1"
   },
   "ultimos": [
     {
@@ -10236,12 +10307,12 @@
         "reprovados": 2
       },
       "promobit": {
-        "achados": 8,
+        "achados": 9,
         "aprovados": 2,
         "reprovados": 6
       },
       "shopee": {
-        "achados": 15,
+        "achados": 16,
         "aprovados": 0,
         "reprovados": 3
       },
@@ -10415,7 +10486,7 @@
       "reprovados": 2
     },
     "garrafa termica": {
-      "achados": 11,
+      "achados": 12,
       "aprovados": 7,
       "reprovados": 4
     },
@@ -10605,7 +10676,7 @@
       "reprovados": 0
     },
     "maquina de barbear": {
-      "achados": 1,
+      "achados": 2,
       "aprovados": 0,
       "reprovados": 0
     },
@@ -10684,7 +10755,7 @@
       "12": 5,
       "13": 11,
       "14": 7,
-      "15": 2
+      "15": 3
     }
   },
   "aviso_ml": "2026-10-17",
