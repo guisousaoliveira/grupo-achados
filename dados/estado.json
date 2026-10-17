@@ -185,6 +185,31 @@
       "titulo": "Whey Max Titanium para bater a proteína diária",
       "aprovado_sozinho": true,
       "aprovado_em": "2026-10-16T23:20-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB19693785",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/2KQHaYG",
+      "link_produto": "https://www.mercadolivre.com.br/camera-de-seguranca-wi-fi-externa-tp-link-tapo-c320ws-2k-4mp-ip66-branco/p/MLB19693785",
+      "post_origem": "https://t.me/lobaopromo/190627",
+      "link_canal": "https://meli.la/2W8ipHz",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_764008-MLA99513800470_112025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Câmera de Segurança Wi-Fi Externa TP-Link Tapo C320WS 2K 4MP IP66",
+      "cupom_loja": "Resgate 25% OFF na página do produto.",
+      "de": 329.0,
+      "por": 194.0,
+      "lido_ia": true,
+      "preco_loja": 209.92,
+      "palavra": "camera de seguranca",
+      "garimpado_em": "2026-10-16T22:40-03:00",
+      "nota": 68.0,
+      "motivo_revisao": "o post diz R$ 194,00 e a loja mostra R$ 209,92, e não tem cupom ou Pix que explique a diferença",
+      "titulo": "Câmera externa TP-Link para monitorar a casa",
+      "na_revisao_desde": "2026-10-16T23:20-03:00",
+      "cupom": "Resgate 25% OFF na página do produto.",
+      "aprovado_em": "2026-10-16T23:25-03:00"
     }
   ],
   "postados": [
@@ -2559,33 +2584,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB19693785",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/2KQHaYG",
-      "link_produto": "https://www.mercadolivre.com.br/camera-de-seguranca-wi-fi-externa-tp-link-tapo-c320ws-2k-4mp-ip66-branco/p/MLB19693785",
-      "post_origem": "https://t.me/lobaopromo/190627",
-      "link_canal": "https://meli.la/2W8ipHz",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_764008-MLA99513800470_112025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Câmera de Segurança Wi-Fi Externa TP-Link Tapo C320WS 2K 4MP IP66",
-      "cupom_loja": "Resgate 25% OFF na página do produto.",
-      "de": 329.0,
-      "por": 194.0,
-      "lido_ia": true,
-      "preco_loja": 209.92,
-      "palavra": "camera de seguranca",
-      "garimpado_em": "2026-10-16T22:40-03:00",
-      "nota": 68.0,
-      "motivo_revisao": "o post diz R$ 194,00 e a loja mostra R$ 209,92, e não tem cupom ou Pix que explique a diferença",
-      "titulo": "Câmera externa TP-Link para monitorar a casa",
-      "id": 722,
-      "na_revisao_desde": "2026-10-16T23:20-03:00",
-      "msg_id": 1225
-    }
-  ],
+  "revisar": [],
   "proximo_id": 724,
   "radar": {
     "visto": {
@@ -9378,7 +9377,7 @@
       },
       "lobaopromo": {
         "achados": 17,
-        "aprovados": 12,
+        "aprovados": 13,
         "reprovados": 1
       },
       "promooeasy": {
@@ -9492,7 +9491,7 @@
     },
     "camera de seguranca": {
       "achados": 3,
-      "aprovados": 1,
+      "aprovados": 2,
       "reprovados": 1
     },
     "camisa polo": {
@@ -9808,7 +9807,7 @@
       "18": 2,
       "19": 1,
       "22": 8,
-      "23": 3
+      "23": 4
     }
   },
   "aviso_ml": "2026-10-16",
