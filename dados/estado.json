@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "shopee",
-      "chave": "shopee:1242044379.23094334327",
-      "nome": "Whey Protein One Refil 900g + Creatina Monohidratada Pura 150g + Coqueteleira Fuse 700ml - Dark Lab",
-      "por": 99.9,
-      "de": 178.39,
-      "foto": "https://cf.shopee.com.br/file/br-11134207-820lk-msflj6igmw3o4e",
-      "link": "https://s.shopee.com.br/4VddYZ3owO",
-      "link_produto": "https://shopee.com.br/product/1242044379/23094334327",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.9,
-      "vendas": 485,
-      "palavra": "creatina",
-      "garimpado_em": "2026-10-17T09:01-03:00",
-      "nota": 79.4,
-      "titulo": "Suplementos Dark Lab para sua rotina de treino",
-      "aprovado_sozinho": true,
-      "aprovado_em": "2026-10-17T10:01-03:00"
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB24459321",
       "origem": "promooeasy",
@@ -2908,6 +2886,21 @@
       "secao": "relogios",
       "slot": 13,
       "foto_site_ok": true
+    },
+    {
+      "chave": "shopee:1242044379.23094334327",
+      "loja": "shopee",
+      "nome": "Whey Protein One Refil 900g + Creatina Monohidratada Pura 150g + Coqueteleira Fuse 700ml - Dark Lab",
+      "data": "2026-10-17T13:19-03:00",
+      "link": "https://s.shopee.com.br/4VddYZ3owO",
+      "link_produto": "https://shopee.com.br/product/1242044379/23094334327",
+      "titulo": "Suplementos Dark Lab para sua rotina de treino",
+      "de": 178.39,
+      "por": 99.9,
+      "foto": "https://cf.shopee.com.br/file/br-11134207-820lk-msflj6igmw3o4e",
+      "secao": "academia",
+      "slot": 13.1,
+      "foto_site_ok": true
     }
   ],
   "slots_usados": {
@@ -3059,7 +3052,8 @@
       12.1,
       12.2,
       12.3,
-      13
+      13,
+      13.1
     ]
   },
   "shopee_buscado_em": "",
@@ -9090,6 +9084,19 @@
   },
   "ultimos": [
     {
+      "loja": "shopee",
+      "chave": "shopee:1242044379.23094334327",
+      "nome": "Whey Protein One Refil 900g + Creatina Monohidratada Pura 150g + Coqueteleira Fuse 700ml - Dark Lab",
+      "por": 99.9,
+      "de": 178.39,
+      "foto": "https://cf.shopee.com.br/file/br-11134207-820lk-msflj6igmw3o4e",
+      "link": "https://s.shopee.com.br/4VddYZ3owO",
+      "link_produto": "https://shopee.com.br/product/1242044379/23094334327",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "titulo": "Suplementos Dark Lab para sua rotina de treino"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB6388549544",
       "origem": "promonocontext",
@@ -9614,18 +9621,6 @@
       "nome": "Câmera de Segurança Intelbras Imx C com resolução 2MP",
       "por": 159.0,
       "titulo": "Câmera Intelbras para monitorar a casa pelo celular"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0HCRDWF9C",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0HCRDWF9C?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0HCRDWF9C?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/222912",
-      "foto": "AgACAgQAAxkDAAIEj2rSchgghb7rTMUjjNUPNZecbup_AALTD2sbuI6VUu3548OwnrCMAQADAgADeQADPQQ",
-      "nome": "Toshiba Smart TV QLED FHD 50 Polegadas 50V45SS com Processador HG Inteligência Toshiba AI e Áudio Potente multicanal",
-      "por": 1875.0,
-      "de": 2099.99
     }
   ],
   "lixeira": [
@@ -11301,5 +11296,5 @@
     }
   },
   "aviso_ml": "2026-10-17",
-  "vitrine_marca": "8a6d46436a41"
+  "vitrine_marca": "4e9b0e97b720"
 }
