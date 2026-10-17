@@ -2,29 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB3271283929",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/23Ljd4X",
-      "link_produto": "https://www.mercadolivre.com.br/bolsa-compacta-solze-resistente-para-ferramentas-pequena/up/MLBU1975295652?pdp_filters=item_id%3AMLB3271283929",
-      "post_origem": "https://t.me/lobaopromo/190757",
-      "link_canal": "https://meli.la/1yv7Egu",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_744089-MLB101413346922_122025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Bolsa Compacta Solze Resistente Para Ferramentas Pequena Verde-musgo",
-      "por": 54.0,
-      "lido_ia": true,
-      "cupom": "MELISALVA",
-      "preco_conferido": true,
-      "palavra": "ferramenta",
-      "garimpado_em": "2026-10-17T10:00-03:00",
-      "nota": 48.6,
-      "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto",
-      "titulo": "Organize suas ferramentas essenciais de forma compacta",
-      "na_revisao_desde": "2026-10-17T10:01-03:00",
-      "aprovado_em": "2026-10-17T13:01-03:00"
-    },
-    {
       "loja": "shopee",
       "chave": "shopee:1085770008.22098945621",
       "nome": "Luva para Musculação Treino Grip Protetor de Mão Cross Fit Antiderrapante Halteres e Barras Max Grip Fitness",
@@ -3235,6 +3212,22 @@
       "foto": "https://http2.mlstatic.com/D_NQ_NP_980532-MLA78051184078_082024-O.webp",
       "secao": "estilo",
       "foto_site_ok": true
+    },
+    {
+      "chave": "mercadolivre:MLB3271283929",
+      "loja": "mercadolivre",
+      "nome": "Bolsa Compacta Solze Resistente Para Ferramentas Pequena Verde-musgo",
+      "data": "2026-10-17T16:08-03:00",
+      "link": "https://meli.la/23Ljd4X",
+      "link_produto": "https://www.mercadolivre.com.br/bolsa-compacta-solze-resistente-para-ferramentas-pequena/up/MLBU1975295652?pdp_filters=item_id%3AMLB3271283929",
+      "titulo": "Organize suas ferramentas essenciais de forma compacta",
+      "por": 54.0,
+      "cupom": "MELISALVA",
+      "conferido": true,
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_744089-MLB101413346922_122025-O.webp",
+      "secao": "casa",
+      "slot": 16,
+      "foto_site_ok": true
     }
   ],
   "slots_usados": {
@@ -3397,7 +3390,8 @@
       15,
       15.1,
       15.2,
-      15.3
+      15.3,
+      16
     ]
   },
   "shopee_buscado_em": "",
@@ -9544,6 +9538,19 @@
   "ultimos": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB3271283929",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/23Ljd4X",
+      "link_produto": "https://www.mercadolivre.com.br/bolsa-compacta-solze-resistente-para-ferramentas-pequena/up/MLBU1975295652?pdp_filters=item_id%3AMLB3271283929",
+      "post_origem": "https://t.me/lobaopromo/190757",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_744089-MLB101413346922_122025-O.webp",
+      "nome": "Bolsa Compacta Solze Resistente Para Ferramentas Pequena Verde-musgo",
+      "por": 54.0,
+      "cupom": "MELISALVA",
+      "titulo": "Organize suas ferramentas essenciais de forma compacta"
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB21709516",
       "origem": "lobaopromo",
       "link": "https://meli.la/1H4ZoZA",
@@ -10070,20 +10077,6 @@
       "origem": "shopee",
       "fonte": "shopee",
       "titulo": "Kit completo de suplementos para ganho de peso"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB66128452",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/1hD216C",
-      "link_produto": "https://www.mercadolivre.com.br/air-fryer-oven-11-litros-wap-waod4-grey-stone-painel-digital-11-funcoes-127v/p/MLB66128452",
-      "post_origem": "https://t.me/lobaopromo/190518",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_829470-MLA119579536359_102026-O.webp",
-      "nome": "Air Fryer Oven 11 Litros Wap Waod4 Grey Stone Painel Digital 11",
-      "pix": true,
-      "por": 266.0,
-      "cupom": "OFFHOJE",
-      "titulo": "Airfryer oven 11L para assar refeições completas"
     }
   ],
   "lixeira": [],
@@ -10793,5 +10786,5 @@
     }
   },
   "aviso_ml": "2026-10-17",
-  "vitrine_marca": "22f3fb1569cc"
+  "vitrine_marca": "2309fb8b6925"
 }
