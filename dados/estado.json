@@ -3270,30 +3270,6 @@
       "id": 769,
       "na_revisao_desde": "2026-10-17T12:50-03:00",
       "msg_id": 1285
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0D98VK8PP",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B0D98VK8PP?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0D98VK8PP?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/airfryer-serie-1000-xl-62l-preta-110v-3121417/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3121417/",
-      "nome": "Airfryer Série 1000 XL 6,2L",
-      "por": 296.0,
-      "de": 549.9,
-      "cupom": "ESQUENTA15",
-      "foto": "AgACAgQAAxkDAAIFBmrTmWa44tWLoxT685xLaAABfPSERQACHboxG5AWlVOvd6QrFrnIdgEAAwIAA3kAAz0E",
-      "foto_origem": "loja",
-      "palavra": "airfryer",
-      "garimpado_em": "2026-10-17T12:40-03:00",
-      "nota": 66.2,
-      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
-      "titulo": "Cesto espaçoso para agilizar o preparo diário",
-      "id": 770,
-      "na_revisao_desde": "2026-10-17T12:51-03:00",
-      "msg_id": 1286
     }
   ],
   "proximo_id": 771,
@@ -9845,6 +9821,31 @@
   ],
   "lixeira": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B0D98VK8PP",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0D98VK8PP?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0D98VK8PP?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/airfryer-serie-1000-xl-62l-preta-110v-3121417/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3121417/",
+      "nome": "Airfryer Série 1000 XL 6,2L",
+      "por": 296.0,
+      "de": 549.9,
+      "cupom": "ESQUENTA15",
+      "foto": "AgACAgQAAxkDAAIFBmrTmWa44tWLoxT685xLaAABfPSERQACHboxG5AWlVOvd6QrFrnIdgEAAwIAA3kAAz0E",
+      "foto_origem": "loja",
+      "palavra": "airfryer",
+      "garimpado_em": "2026-10-17T12:40-03:00",
+      "nota": 66.2,
+      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
+      "titulo": "Cesto espaçoso para agilizar o preparo diário",
+      "id": 770,
+      "na_revisao_desde": "2026-10-17T12:51-03:00",
+      "removido_em": "2026-10-17T12:58:00-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB44692293",
       "origem": "promooeasy",
@@ -10780,29 +10781,6 @@
       "na_revisao_desde": "2026-10-15T11:40-03:00",
       "removido_em": "2026-10-15T21:30:19-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B08VPS711D",
-      "origem": "xetdaspromocoes",
-      "link": "https://www.amazon.com.br/dp/B08VPS711D?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B08VPS711D?tag=alphadominu09-20",
-      "post_origem": "https://t.me/xetdaspromocoes/84977",
-      "link_canal": "https://link.amazon/B01vdv1wa",
-      "foto": "AgACAgQAAxkDAAID1mrQ5fBpwQSvyNtlfGP7sLE449OyAALyuTEbxzR1UcCG0_j_sN1NAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Coqueteleira Fume Dux",
-      "por": 19.0,
-      "cupom": "VIRALIZADO15",
-      "prime": true,
-      "palavra": "coqueteleira",
-      "garimpado_em": "2026-10-15T11:40-03:00",
-      "nota": 42.5,
-      "titulo": "Coqueteleira para misturar seus suplementos no pós-treino",
-      "id": 600,
-      "na_revisao_desde": "2026-10-15T11:40-03:00",
-      "removido_em": "2026-10-15T21:30:19-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -11060,7 +11038,7 @@
       "promobit": {
         "achados": 7,
         "aprovados": 0,
-        "reprovados": 1
+        "reprovados": 2
       },
       "shopee": {
         "achados": 10,
@@ -11334,7 +11312,7 @@
     "airfryer": {
       "achados": 10,
       "aprovados": 1,
-      "reprovados": 3
+      "reprovados": 4
     },
     "kit barba": {
       "achados": 1,
