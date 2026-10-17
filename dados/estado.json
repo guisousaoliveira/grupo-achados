@@ -2761,34 +2761,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB28807727",
-      "origem": "promooeasy",
-      "link": "https://meli.la/2KZYXGK",
-      "link_produto": "https://www.mercadolivre.com.br/relogio-champion-masculino-prateado-original-cor-do-fundo-preto/p/MLB28807727",
-      "post_origem": "https://t.me/promooeasy/223340",
-      "link_canal": "https://www.mercadolivre.com.br/relogio-champion-masculino-prateado-original-cor-do-fundo-preto/p/MLB28807727?matt_word=promoeasynv&amp;matt_tool=88963738",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_891825-MLA100033378777_122025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Relógio Masculino Champion CN27670T Cor da Correia Prateado com Fundo Preto Prova D´Agua 50 Metros Minimalista",
-      "de": 399.0,
-      "por": 151.2,
-      "lido_ia": true,
-      "cupom": "RESGATEFULL1710",
-      "palavra": "relogio masculino",
-      "garimpado_em": "2026-10-17T05:07-03:00",
-      "nota": 81.0,
-      "titulo": "Champion minimalista resistente à água com fundo preto",
-      "id": 735,
-      "na_revisao_desde": "2026-10-17T05:08-03:00",
-      "msg_id": 1241,
-      "reconferido_em": "2026-10-17T05:08-03:00",
-      "preco_loja": 217.43,
-      "motivo_revisao": "o post diz R$ 151,20 e a loja mostra R$ 217,43, e não tem cupom ou Pix que explique a diferença"
-    }
-  ],
+  "revisar": [],
   "proximo_id": 741,
   "radar": {
     "visto": {
@@ -8397,6 +8370,33 @@
   ],
   "lixeira": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB28807727",
+      "origem": "promooeasy",
+      "link": "https://meli.la/2KZYXGK",
+      "link_produto": "https://www.mercadolivre.com.br/relogio-champion-masculino-prateado-original-cor-do-fundo-preto/p/MLB28807727",
+      "post_origem": "https://t.me/promooeasy/223340",
+      "link_canal": "https://www.mercadolivre.com.br/relogio-champion-masculino-prateado-original-cor-do-fundo-preto/p/MLB28807727?matt_word=promoeasynv&amp;matt_tool=88963738",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_891825-MLA100033378777_122025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Relógio Masculino Champion CN27670T Cor da Correia Prateado com Fundo Preto Prova D´Agua 50 Metros Minimalista",
+      "de": 399.0,
+      "por": 151.2,
+      "lido_ia": true,
+      "cupom": "RESGATEFULL1710",
+      "palavra": "relogio masculino",
+      "garimpado_em": "2026-10-17T05:07-03:00",
+      "nota": 81.0,
+      "titulo": "Champion minimalista resistente à água com fundo preto",
+      "id": 735,
+      "na_revisao_desde": "2026-10-17T05:08-03:00",
+      "reconferido_em": "2026-10-17T05:08-03:00",
+      "preco_loja": 217.43,
+      "motivo_revisao": "o post diz R$ 151,20 e a loja mostra R$ 217,43, e não tem cupom ou Pix que explique a diferença",
+      "removido_em": "2026-10-17T05:10:30-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0GS56VW48",
       "origem": "promobit",
@@ -9322,28 +9322,6 @@
       "na_revisao_desde": "2026-10-15T11:40-03:00",
       "removido_em": "2026-10-15T21:30:19-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB66055148",
-      "origem": "lobaopromo",
-      "link": "https://www.mercadolivre.com.br/smart-tv-32-philco-roku-tv-dolby-audio-hdr10-p32crb/p/MLB66055148?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/smart-tv-32-philco-roku-tv-dolby-audio-hdr10-p32crb/p/MLB66055148",
-      "post_origem": "https://t.me/lobaopromo/189767",
-      "link_canal": "https://meli.la/136JaNm",
-      "foto": "AgACAgQAAxkDAAID0mrQ2A6Isk2pCCIgD2ZjLxwEXBXMAAJJDGsb0SwFU2ydT58WYjVjAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Smart Tv 32 Philco Roku Tv Dolby Áudio Hdr10 P32crb",
-      "de": 1499.0,
-      "por": 979.0,
-      "palavra": "smart tv",
-      "garimpado_em": "2026-10-15T10:00-03:00",
-      "nota": 46.9,
-      "titulo": "Smart TV de 32 polegadas para quarto ou escritório",
-      "id": 597,
-      "na_revisao_desde": "2026-10-15T10:41-03:00",
-      "removido_em": "2026-10-15T21:30:19-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -9596,7 +9574,7 @@
       "promooeasy": {
         "achados": 5,
         "aprovados": 0,
-        "reprovados": 0
+        "reprovados": 1
       },
       "promobit": {
         "achados": 1,
@@ -9840,7 +9818,7 @@
     "relogio masculino": {
       "achados": 11,
       "aprovados": 5,
-      "reprovados": 3
+      "reprovados": 4
     },
     "jogo de soquete": {
       "achados": 2,
