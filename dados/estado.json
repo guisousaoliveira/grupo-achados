@@ -417,30 +417,6 @@
       "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
       "na_revisao_desde": "2026-10-17T15:31-03:00",
       "aprovado_em": "2026-10-17T15:34-03:00"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB21709516",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/1H4ZoZA",
-      "link_produto": "https://www.mercadolivre.com.br/mochila-casual-jansport-zone-pack-alta-qualidade-resistencia-preto-liso/p/MLB21709516",
-      "post_origem": "https://t.me/lobaopromo/190989",
-      "link_canal": "https://meli.la/1MDPrHh",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_980532-MLA78051184078_082024-O.webp",
-      "foto_origem": "loja",
-      "nome": "Mochila Big Student 34l Buckshot Camo Jansport Buckshot Camo Estampado",
-      "cupom_loja": "Resgate o cupom de 30% OFF do anuncio",
-      "de": 500.0,
-      "por": 192.0,
-      "lido_ia": true,
-      "preco_loja": 297.41,
-      "palavra": "mochila",
-      "garimpado_em": "2026-10-17T15:50-03:00",
-      "nota": 88.4,
-      "motivo_revisao": "o post diz R$ 192,00 e a loja mostra R$ 297,41, e não tem cupom ou Pix que explique a diferença",
-      "na_revisao_desde": "2026-10-17T15:50-03:00",
-      "cupom": "Resgate o cupom de 30% OFF do anuncio",
-      "aprovado_em": "2026-10-17T15:56-03:00"
     }
   ],
   "postados": [
@@ -3223,6 +3199,20 @@
       "foto": "https://http2.mlstatic.com/D_NQ_NP_942242-MLB109795045107_032026-O.webp",
       "secao": "casa",
       "slot": 15.3,
+      "foto_site_ok": true
+    },
+    {
+      "chave": "mercadolivre:MLB21709516",
+      "loja": "mercadolivre",
+      "nome": "Mochila Big Student 34l Buckshot Camo Jansport Buckshot Camo Estampado",
+      "data": "2026-10-17T15:56-03:00",
+      "link": "https://meli.la/1H4ZoZA",
+      "link_produto": "https://www.mercadolivre.com.br/mochila-casual-jansport-zone-pack-alta-qualidade-resistencia-preto-liso/p/MLB21709516",
+      "de": 500.0,
+      "por": 192.0,
+      "cupom": "Resgate o cupom de 30% OFF do anuncio",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_980532-MLA78051184078_082024-O.webp",
+      "secao": "estilo",
       "foto_site_ok": true
     }
   ],
@@ -9504,6 +9494,20 @@
   "ultimos": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB21709516",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/1H4ZoZA",
+      "link_produto": "https://www.mercadolivre.com.br/mochila-casual-jansport-zone-pack-alta-qualidade-resistencia-preto-liso/p/MLB21709516",
+      "post_origem": "https://t.me/lobaopromo/190989",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_980532-MLA78051184078_082024-O.webp",
+      "nome": "Mochila Big Student 34l Buckshot Camo Jansport Buckshot Camo Estampado",
+      "cupom_loja": "Resgate o cupom de 30% OFF do anuncio",
+      "de": 500.0,
+      "por": 192.0,
+      "cupom": "Resgate o cupom de 30% OFF do anuncio"
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB4570819989",
       "origem": "promonocontext",
       "link": "https://meli.la/28zREP3",
@@ -10030,19 +10034,6 @@
       "por": 266.0,
       "cupom": "OFFHOJE",
       "titulo": "Airfryer oven 11L para assar refeições completas"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0FL4N5RG6",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0FL4N5RG6?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0FL4N5RG6?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/223051",
-      "foto": "AgACAgQAAxkDAAIEqmrSji5_RobheDbQ9DMMhXQ5rx5NAAKXDmsbmOl8Uj7gURerBYnNAQADAgADeQADPQQ",
-      "nome": "Smart TV Hisense Hi-QLED UHD 4K 75\" 75Q6QV",
-      "parcelas": 12,
-      "por": 4399.99,
-      "titulo": "Smart TV 75 polegadas 4K para a sala"
     }
   ],
   "lixeira": [],
@@ -10751,5 +10742,5 @@
     }
   },
   "aviso_ml": "2026-10-17",
-  "vitrine_marca": "55d434c0d618"
+  "vitrine_marca": "22f3fb1569cc"
 }
