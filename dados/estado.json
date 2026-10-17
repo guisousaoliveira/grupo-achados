@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "shopee",
-      "chave": "shopee:1398610040.58253687690",
-      "nome": "Óculos de Sol Planta Conceito - Hastes de Sapo Desenho Bico de Pato Unissex UV400 Nariz Removível",
-      "por": 32.97,
-      "de": 89.11,
-      "foto": "https://cf.shopee.com.br/file/br-11134211-820lg-mq686t3ui51c3a",
-      "link": "https://s.shopee.com.br/AUuqdT0aY9",
-      "link_produto": "https://shopee.com.br/product/1398610040/58253687690",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.9,
-      "vendas": 1535,
-      "palavra": "oculos de sol",
-      "garimpado_em": "2026-10-17T08:01-03:00",
-      "nota": 78.3,
-      "titulo": "Óculos de sol UV400 para uso diário",
-      "aprovado_sozinho": true,
-      "aprovado_em": "2026-10-17T08:20-03:00"
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB6388549544",
       "origem": "promonocontext",
@@ -2731,6 +2709,21 @@
       "secao": "academia",
       "slot": 12.2,
       "foto_site_ok": true
+    },
+    {
+      "chave": "shopee:1398610040.58253687690",
+      "loja": "shopee",
+      "nome": "Óculos de Sol Planta Conceito - Hastes de Sapo Desenho Bico de Pato Unissex UV400 Nariz Removível",
+      "data": "2026-10-17T12:51-03:00",
+      "link": "https://s.shopee.com.br/AUuqdT0aY9",
+      "link_produto": "https://shopee.com.br/product/1398610040/58253687690",
+      "titulo": "Óculos de sol UV400 para uso diário",
+      "de": 89.11,
+      "por": 32.97,
+      "foto": "https://cf.shopee.com.br/file/br-11134211-820lg-mq686t3ui51c3a",
+      "secao": "estilo",
+      "slot": 12.3,
+      "foto_site_ok": true
     }
   ],
   "slots_usados": {
@@ -2880,7 +2873,8 @@
       11.3,
       12,
       12.1,
-      12.2
+      12.2,
+      12.3
     ]
   },
   "shopee_buscado_em": "",
@@ -3253,19 +3247,66 @@
       "id": 768,
       "na_revisao_desde": "2026-10-17T12:30-03:00",
       "msg_id": 1284
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0CX1XDR7L",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0CX1XDR7L?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0CX1XDR7L?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/fritadeira-airfryer-serie-3000-philips-walita-com-62l-de-capacidade-preta-2000w-220v-hd920690-3121415/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3121415/",
+      "nome": "Fritadeira Airfryer Série 3000, Philips Walita, Com 6.2l De",
+      "por": 320.0,
+      "de": 799.9,
+      "foto": "https://m.media-amazon.com/images/I/41dFObm4rzL._AC_SL1000_.jpg",
+      "foto_origem": "loja",
+      "palavra": "airfryer",
+      "garimpado_em": "2026-10-17T12:40-03:00",
+      "nota": 69.5,
+      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
+      "titulo": "Prepare porções maiores de uma só vez",
+      "id": 769,
+      "na_revisao_desde": "2026-10-17T12:50-03:00",
+      "msg_id": 1285
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0D98VK8PP",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0D98VK8PP?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0D98VK8PP?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/airfryer-serie-1000-xl-62l-preta-110v-3121417/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3121417/",
+      "nome": "Airfryer Série 1000 XL 6,2L",
+      "por": 296.0,
+      "de": 549.9,
+      "cupom": "ESQUENTA15",
+      "foto": "AgACAgQAAxkDAAIFBmrTmWa44tWLoxT685xLaAABfPSERQACHboxG5AWlVOvd6QrFrnIdgEAAwIAA3kAAz0E",
+      "foto_origem": "loja",
+      "palavra": "airfryer",
+      "garimpado_em": "2026-10-17T12:40-03:00",
+      "nota": 66.2,
+      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
+      "titulo": "Cesto espaçoso para agilizar o preparo diário",
+      "id": 770,
+      "na_revisao_desde": "2026-10-17T12:51-03:00",
+      "msg_id": 1286
     }
   ],
-  "proximo_id": 769,
+  "proximo_id": 771,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 85361,
-      "lobaopromo": 190886,
-      "gatunopromos": 125936,
+      "xetdaspromocoes": 85363,
+      "lobaopromo": 190893,
+      "gatunopromos": 125937,
       "pobregram": 42064,
       "urubupromo": 41813,
-      "tudonapromo": 102277,
-      "promonocontext": 128015,
-      "promooeasy": 223537,
+      "tudonapromo": 102282,
+      "promonocontext": 128016,
+      "promooeasy": 223540,
       "aquitempechincha": 282352,
       "infoBRpromos": 67752,
       "boletando": 76874,
@@ -5577,27 +5618,27 @@
       "shopee:1080128546.22694216257"
     ],
     "ultima": {
-      "em": "2026-10-17T12:40:21-03:00",
+      "em": "2026-10-17T12:50:19-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 28,
-      "do_nicho": 7,
-      "repetidas": 3,
-      "novas": 4,
+      "posts_novos": 31,
+      "do_nicho": 2,
+      "repetidas": 2,
+      "novas": 0,
       "limite_dia": false,
       "repetidas_nome": 0,
-      "promobit": 2,
-      "soltas": 0,
-      "na_peneira": 27
+      "promobit": 0,
+      "soltas": 2,
+      "na_peneira": 26
     },
     "hora": "2026-10-17T12",
     "nesta_hora": 8,
     "promobit_hora": "2026-10-17T12",
     "promobit_nesta_hora": 3,
-    "promobit_visto": 3121427,
+    "promobit_visto": 3121452,
     "nomes": [
       [
         [
@@ -8724,29 +8765,31 @@
           "removivel"
         ],
         "2026-10-17T12:30-03:00"
+      ],
+      [
+        [
+          "fritadeira",
+          "airfryer",
+          "serie",
+          "3000",
+          "philips",
+          "walita",
+          "2l"
+        ],
+        "2026-10-17T12:50-03:00"
+      ],
+      [
+        [
+          "airfryer",
+          "serie",
+          "1000",
+          "xl",
+          "2l"
+        ],
+        "2026-10-17T12:50-03:00"
       ]
     ],
     "peneira": [
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB52876876",
-        "origem": "promooeasy",
-        "link": "https://www.mercadolivre.com.br/kindle-11a-geracao-2024-16gb/p/MLB52876876?matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/kindle-11a-geracao-2024-16gb/p/MLB52876876",
-        "post_origem": "https://t.me/promooeasy/223437",
-        "link_canal": "https://www.mercadolivre.com.br/kindle-11a-geracao-2024-16gb/p/MLB52876876?matt_word=promoeasynv&amp;matt_tool=88963738",
-        "foto": "https://cdn1.telesco.pe/file/r6O7donYlfi84iuA5YpvDMktRxsfNip3TxJOA7_a3uQtKYGospuDhE4IlzaLk3D3GxGY9xTp4WGdmd2ecT2tfs3tSLh25aDw9aWsKLHFUks4CC66RhYcR1nRU8KfnL7sEhS97cZWq1ErYAcQztUk3vXapmqf0x_Yv6e2EaWh_1HjuM2S9IAZF_A0lai6BEEOR8qj08cgdL9znwEN3E1Dnhwu0MqIKrUHhYsu0uaaFRrsSDIwU6s18ZCbDFYJdKxaLV4W6Mz18pt9gB8u6-t04yJpRbfoQOLE9D-SZPXbTx8AsfWUmfGe3BidbihMidFjCqBXcPsDoxtCcPJJccHq4g.jpg",
-        "foto_origem": "canal",
-        "nome": "Kindle 11a Geração 2024 16gb",
-        "por": 763.0,
-        "lido_ia": true,
-        "cupom": "OFFNOMELIHOJE",
-        "sem_preco_loja": true,
-        "loja_abriu": false,
-        "palavra": "kindle",
-        "garimpado_em": "2026-10-17T09:50-03:00",
-        "nota": 28.7
-      },
       {
         "loja": "mercadolivre",
         "chave": "mercadolivre:MLB4657662265",
@@ -9168,43 +9211,6 @@
         "nota": 49.8
       },
       {
-        "loja": "amazon",
-        "chave": "amazon:B0CX1XDR7L",
-        "origem": "promobit",
-        "fonte": "promobit",
-        "link": "https://www.amazon.com.br/dp/B0CX1XDR7L?tag=alphadominu09-20",
-        "link_produto": "https://www.amazon.com.br/dp/B0CX1XDR7L?tag=alphadominu09-20",
-        "post_origem": "https://www.promobit.com.br/oferta/fritadeira-airfryer-serie-3000-philips-walita-com-62l-de-capacidade-preta-2000w-220v-hd920690-3121415/",
-        "link_canal": "https://www.promobit.com.br/Redirect/to/3121415/",
-        "nome": "Fritadeira Airfryer Série 3000, Philips Walita, Com 6.2l De",
-        "por": 320.0,
-        "de": 799.9,
-        "foto": "https://m.media-amazon.com/images/I/41dFObm4rzL._AC_SL1000_.jpg",
-        "foto_origem": "loja",
-        "palavra": "airfryer",
-        "garimpado_em": "2026-10-17T12:40-03:00",
-        "nota": 69.5
-      },
-      {
-        "loja": "amazon",
-        "chave": "amazon:B0D98VK8PP",
-        "origem": "promobit",
-        "fonte": "promobit",
-        "link": "https://www.amazon.com.br/dp/B0D98VK8PP?tag=alphadominu09-20",
-        "link_produto": "https://www.amazon.com.br/dp/B0D98VK8PP?tag=alphadominu09-20",
-        "post_origem": "https://www.promobit.com.br/oferta/airfryer-serie-1000-xl-62l-preta-110v-3121417/",
-        "link_canal": "https://www.promobit.com.br/Redirect/to/3121417/",
-        "nome": "Airfryer Série 1000 XL 6,2L",
-        "por": 296.0,
-        "de": 549.9,
-        "cupom": "ESQUENTA15",
-        "foto": "https://m.media-amazon.com/images/I/510Uj5C7LdL._AC_SL1334_.jpg",
-        "foto_origem": "loja",
-        "palavra": "airfryer",
-        "garimpado_em": "2026-10-17T12:40-03:00",
-        "nota": 66.2
-      },
-      {
         "loja": "mercadolivre",
         "chave": "mercadolivre:MLB6676440714",
         "origem": "xetdaspromocoes",
@@ -9285,19 +9291,32 @@
       }
     ],
     "soltas_hora": "2026-10-17T12",
-    "soltas": 6,
+    "soltas": 8,
     "shopee_em": "2026-10-17T12:40-03:00",
     "shopee_indice": 96,
     "soltas_dia_data": "2026-10-17",
-    "soltas_dia": 37,
+    "soltas_dia": 39,
     "soltas_loja": {
       "shopee": 2,
       "mercadolivre": 3,
-      "amazon": 1
+      "amazon": 3
     },
-    "soltas_vez": "2026-10-17T12:2"
+    "soltas_vez": "2026-10-17T12:3"
   },
   "ultimos": [
+    {
+      "loja": "shopee",
+      "chave": "shopee:1398610040.58253687690",
+      "nome": "Óculos de Sol Planta Conceito - Hastes de Sapo Desenho Bico de Pato Unissex UV400 Nariz Removível",
+      "por": 32.97,
+      "de": 89.11,
+      "foto": "https://cf.shopee.com.br/file/br-11134211-820lg-mq686t3ui51c3a",
+      "link": "https://s.shopee.com.br/AUuqdT0aY9",
+      "link_produto": "https://shopee.com.br/product/1398610040/58253687690",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "titulo": "Óculos de sol UV400 para uso diário"
+    },
     {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB42978348",
@@ -9822,20 +9841,6 @@
       "fonte": "shopee",
       "titulo": "Barra de parede para treinar calistenia em casa",
       "pix": true
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0FNXXLVFJ",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B0FNXXLVFJ?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0FNXXLVFJ?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/hisense-smart-tv-hd-32-polegadas-32a4nv-3119522/",
-      "nome": "Hisense Smart Tv Hd 32\" Polegadas 32a4nv",
-      "por": 829.0,
-      "de": 1149.0,
-      "foto": "AgACAgQAAxkDAAIEjGrSbWI-m249FKI6yf4CsFqSi8cQAALyD2sb8p_kUYehLdzUnfY5AQADAgADeQADPQQ",
-      "titulo": "Smart TV HD de 32 polegadas para o quarto"
     }
   ],
   "lixeira": [
@@ -11053,7 +11058,7 @@
         "reprovados": 1
       },
       "promobit": {
-        "achados": 5,
+        "achados": 7,
         "aprovados": 0,
         "reprovados": 1
       },
@@ -11327,7 +11332,7 @@
       "reprovados": 0
     },
     "airfryer": {
-      "achados": 8,
+      "achados": 10,
       "aprovados": 1,
       "reprovados": 3
     },
@@ -11487,5 +11492,5 @@
     }
   },
   "aviso_ml": "2026-10-17",
-  "vitrine_marca": "36a9553d0061"
+  "vitrine_marca": "267d502458e1"
 }
