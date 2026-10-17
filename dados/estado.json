@@ -375,6 +375,27 @@
       "aprovado_em": "2026-10-17T15:34-03:00"
     },
     {
+      "loja": "shopee",
+      "chave": "shopee:1125005184.23393229675",
+      "nome": "Politriz Lixadeira Esmerilhadeira 1050w 4.1/2 110v ou 220v  Multifunções 6 Velocidades Songhe Tools ECOSEN",
+      "por": 165.99,
+      "de": 503.0,
+      "foto": "https://cf.shopee.com.br/file/cn-11134207-820l4-mg69gpjt493h9a",
+      "link": "https://s.shopee.com.br/AUur4y75BN",
+      "link_produto": "https://shopee.com.br/product/1125005184/23393229675",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.7,
+      "vendas": 446,
+      "palavra": "esmerilhadeira",
+      "garimpado_em": "2026-10-17T14:41-03:00",
+      "nota": 76.4,
+      "aprovado_sozinho": true,
+      "aprovado_em": "2026-10-17T16:20-03:00"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0FC2SMDFK",
       "origem": "promobit",
@@ -3418,27 +3439,53 @@
       "id": 795,
       "na_revisao_desde": "2026-10-17T16:00-03:00",
       "msg_id": 1318
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB43419974",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/2R9bfYb",
+      "link_produto": "https://www.mercadolivre.com.br/air-fryer-oven-philco-15l-painel-digital-paf15a-cor-preto/p/MLB43419974",
+      "post_origem": "https://t.me/lobaopromo/190999",
+      "link_canal": "https://meli.la/1Kaazkk",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_660338-MLA99555245832_122025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Air Fryer Oven Philco 15l Painel Digital Paf15a Cor Preto",
+      "pix": true,
+      "por": 477.0,
+      "lido_ia": true,
+      "cupom": "OFFNOMELIHOJE",
+      "preco_conferido": true,
+      "preco_cupom": true,
+      "preco_sem_cupom": 513.36,
+      "palavra": "air fryer",
+      "garimpado_em": "2026-10-17T16:20-03:00",
+      "nota": 50.5,
+      "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto",
+      "id": 797,
+      "na_revisao_desde": "2026-10-17T16:20-03:00",
+      "msg_id": 1320
     }
   ],
-  "proximo_id": 796,
+  "proximo_id": 798,
   "radar": {
     "visto": {
       "xetdaspromocoes": 85400,
-      "lobaopromo": 190993,
-      "gatunopromos": 125976,
-      "pobregram": 42069,
+      "lobaopromo": 191006,
+      "gatunopromos": 125979,
+      "pobregram": 42070,
       "urubupromo": 41822,
       "tudonapromo": 102304,
-      "promonocontext": 128059,
-      "promooeasy": 223665,
-      "aquitempechincha": 282404,
-      "infoBRpromos": 67762,
+      "promonocontext": 128063,
+      "promooeasy": 223670,
+      "aquitempechincha": 282405,
+      "infoBRpromos": 67764,
       "boletando": 76879,
       "promotop": 260425,
       "achadosdotb": 11787
     },
     "dia": "2026-10-17",
-    "hoje": 82,
+    "hoje": 83,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -5781,30 +5828,32 @@
       "mercadolivre:MLB49655717",
       "shopee:1372008216.58206995455",
       "mercadolivre:MLB21709516",
-      "amazon:B0H7XVFDZ6"
+      "amazon:B0H7XVFDZ6",
+      "mercadolivre:MLB43419974",
+      "shopee:1891292763.58215726245"
     ],
     "ultima": {
-      "em": "2026-10-17T16:10:22-03:00",
+      "em": "2026-10-17T16:20:21-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 33,
-      "do_nicho": 1,
-      "repetidas": 1,
-      "novas": 0,
+      "posts_novos": 40,
+      "do_nicho": 3,
+      "repetidas": 2,
+      "novas": 1,
       "limite_dia": false,
       "repetidas_nome": 0,
       "promobit": 0,
-      "soltas": 0,
-      "na_peneira": 14
+      "soltas": 2,
+      "na_peneira": 13
     },
     "hora": "2026-10-17T16",
-    "nesta_hora": 0,
+    "nesta_hora": 1,
     "promobit_hora": "2026-10-17T16",
     "promobit_nesta_hora": 1,
-    "promobit_visto": 3121903,
+    "promobit_visto": 3121930,
     "nomes": [
       [
         [
@@ -9248,6 +9297,32 @@
           "42mm"
         ],
         "2026-10-17T16:00-03:00"
+      ],
+      [
+        [
+          "politriz",
+          "lixadeira",
+          "esmerilhadeira",
+          "1050w",
+          "110v",
+          "ou",
+          "220v",
+          "multifuncoes"
+        ],
+        "2026-10-17T16:20-03:00"
+      ],
+      [
+        [
+          "air",
+          "fryer",
+          "oven",
+          "philco",
+          "15l",
+          "painel",
+          "digital",
+          "paf15a"
+        ],
+        "2026-10-17T16:20-03:00"
       ]
     ],
     "peneira": [
@@ -9410,25 +9485,6 @@
       },
       {
         "loja": "shopee",
-        "chave": "shopee:1125005184.23393229675",
-        "nome": "Politriz Lixadeira Esmerilhadeira 1050w 4.1/2 110v ou 220v  Multifunções 6 Velocidades Songhe Tools ECOSEN",
-        "por": 165.99,
-        "de": 503.0,
-        "foto": "https://cf.shopee.com.br/file/cn-11134207-820l4-mg69gpjt493h9a",
-        "link": "https://s.shopee.com.br/AUur4y75BN",
-        "link_produto": "https://shopee.com.br/product/1125005184/23393229675",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 4.7,
-        "vendas": 446,
-        "palavra": "esmerilhadeira",
-        "garimpado_em": "2026-10-17T14:41-03:00",
-        "nota": 76.4
-      },
-      {
-        "loja": "shopee",
         "chave": "shopee:696196245.15590798570",
         "nome": "Kit Base Suporte Disco 125mm + 20 Lixas 8 Furos Com Velcro 5\" Furadeira Esmerilhadeira",
         "por": 24.9,
@@ -9524,16 +9580,16 @@
       }
     ],
     "soltas_hora": "2026-10-17T16",
-    "soltas": 2,
-    "shopee_em": "2026-10-17T16:00-03:00",
-    "shopee_indice": 76,
+    "soltas": 4,
+    "shopee_em": "2026-10-17T16:20-03:00",
+    "shopee_indice": 84,
     "soltas_dia_data": "2026-10-17",
-    "soltas_dia": 63,
+    "soltas_dia": 65,
     "soltas_loja": {
-      "shopee": 1,
-      "mercadolivre": 1
+      "shopee": 2,
+      "mercadolivre": 2
     },
-    "soltas_vez": "2026-10-17T16:0"
+    "soltas_vez": "2026-10-17T16:1"
   },
   "ultimos": [
     {
@@ -10338,7 +10394,7 @@
         "reprovados": 6
       },
       "shopee": {
-        "achados": 17,
+        "achados": 18,
         "aprovados": 0,
         "reprovados": 3
       },
@@ -10348,7 +10404,7 @@
         "reprovados": 0
       },
       "lobaopromo": {
-        "achados": 12,
+        "achados": 13,
         "aprovados": 7,
         "reprovados": 2
       },
@@ -10377,7 +10433,7 @@
       "reprovados": 19
     },
     "air fryer": {
-      "achados": 16,
+      "achados": 17,
       "aprovados": 5,
       "reprovados": 8
     },
@@ -10492,7 +10548,7 @@
       "reprovados": 2
     },
     "esmerilhadeira": {
-      "achados": 3,
+      "achados": 4,
       "aprovados": 0,
       "reprovados": 1
     },
@@ -10782,7 +10838,7 @@
       "13": 11,
       "14": 7,
       "15": 8,
-      "16": 1
+      "16": 2
     }
   },
   "aviso_ml": "2026-10-17",
