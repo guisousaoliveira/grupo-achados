@@ -3076,30 +3076,6 @@
       "msg_id": 1270
     },
     {
-      "loja": "shopee",
-      "chave": "shopee:1574084758.58205868634",
-      "nome": "Gaabor Air Fryer 2,8L 800W 360° Ar Quente Timer 60 Min 200°C Antiaderente Sem BPA 8 Menus AF-35M02A",
-      "por": 209.0,
-      "de": 696.67,
-      "foto": "AgACAgQAAxkDAAIE-GrThEuefvLoU-XC9flocDeLuhZKAALkDGsbH7ZVUoHY-WKqxsL-AQADAgADeAADPQQ",
-      "link": "https://s.shopee.com.br/4qGU5RxZm3",
-      "link_produto": "https://shopee.com.br/product/1574084758/58205868634",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.9,
-      "vendas": 809,
-      "palavra": "air fryer",
-      "garimpado_em": "2026-10-17T11:01-03:00",
-      "nota": 89.1,
-      "motivo_revisao": "a fila já está com muita Shopee (metade ou mais)",
-      "titulo": "Fritadeira compacta para refeições práticas sem óleo",
-      "id": 758,
-      "na_revisao_desde": "2026-10-17T11:20-03:00",
-      "msg_id": 1272
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB70102902",
       "origem": "urubupromo",
@@ -9700,6 +9676,31 @@
   ],
   "lixeira": [
     {
+      "loja": "shopee",
+      "chave": "shopee:1574084758.58205868634",
+      "nome": "Gaabor Air Fryer 2,8L 800W 360° Ar Quente Timer 60 Min 200°C Antiaderente Sem BPA 8 Menus AF-35M02A",
+      "por": 209.0,
+      "de": 696.67,
+      "foto": "AgACAgQAAxkDAAIE-GrThEuefvLoU-XC9flocDeLuhZKAALkDGsbH7ZVUoHY-WKqxsL-AQADAgADeAADPQQ",
+      "link": "https://s.shopee.com.br/4qGU5RxZm3",
+      "link_produto": "https://shopee.com.br/product/1574084758/58205868634",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.9,
+      "vendas": 809,
+      "palavra": "air fryer",
+      "garimpado_em": "2026-10-17T11:01-03:00",
+      "nota": 89.1,
+      "motivo_revisao": "a fila já está com muita Shopee (metade ou mais)",
+      "titulo": "Fritadeira compacta para refeições práticas sem óleo",
+      "id": 758,
+      "na_revisao_desde": "2026-10-17T11:20-03:00",
+      "removido_em": "2026-10-17T12:59:33-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB3907928713",
       "origem": "lobaopromo",
@@ -10646,29 +10647,6 @@
       "aprovado_em": "2026-10-16T07:40-03:00",
       "removido_em": "2026-10-16T08:05:48-03:00",
       "removido_de": "fila"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B08L5LZGJL",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B08L5LZGJL?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B08L5LZGJL?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/oculos-de-sol-kona-hupifeminino-3117699/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3117699/",
-      "nome": "Óculos De Sol Kona HupiFeminino",
-      "por": 151.91,
-      "de": 299.9,
-      "foto": "AgACAgQAAxkDAAIEKGrRlpY-3lhXdgZ2O2J7MPTao5G_AAInszEb377tUihzZsJS6iKvAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "palavra": "oculos de sol",
-      "garimpado_em": "2026-10-15T21:59-03:00",
-      "nota": 61.0,
-      "titulo": "Óculos de sol para proteger os olhos ao ar livre",
-      "id": 634,
-      "na_revisao_desde": "2026-10-16T00:14-03:00",
-      "removido_em": "2026-10-16T00:53:45-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -10931,7 +10909,7 @@
       "shopee": {
         "achados": 10,
         "aprovados": 0,
-        "reprovados": 1
+        "reprovados": 2
       },
       "promonocontext": {
         "achados": 3,
@@ -10960,7 +10938,7 @@
     "air fryer": {
       "achados": 16,
       "aprovados": 5,
-      "reprovados": 7
+      "reprovados": 8
     },
     "alexa": {
       "achados": 4,
