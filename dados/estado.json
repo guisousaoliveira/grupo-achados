@@ -259,6 +259,28 @@
       "aprovado_em": "2026-10-17T13:01-03:00"
     },
     {
+      "loja": "shopee",
+      "chave": "shopee:1085770008.22098945621",
+      "nome": "Luva para Musculação Treino Grip Protetor de Mão Cross Fit Antiderrapante Halteres e Barras Max Grip Fitness",
+      "por": 9.98,
+      "de": 90.73,
+      "foto": "https://cf.shopee.com.br/file/br-11134207-81z1k-mf159mcnlekk37",
+      "link": "https://s.shopee.com.br/30oq2Qg1ty",
+      "link_produto": "https://shopee.com.br/product/1085770008/22098945621",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.9,
+      "vendas": 299,
+      "palavra": "halter",
+      "garimpado_em": "2026-10-17T13:03-03:00",
+      "nota": 99.2,
+      "titulo": "Luva antiderrapante para proteger a mão no treino",
+      "aprovado_sozinho": true,
+      "aprovado_em": "2026-10-17T13:20-03:00"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB70102902",
       "origem": "urubupromo",
@@ -305,6 +327,29 @@
       "titulo": "Modelo branco versátil para combinar com tudo",
       "aprovado_sozinho": true,
       "aprovado_em": "2026-10-17T13:02-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB6676440714",
+      "origem": "xetdaspromocoes",
+      "link": "https://meli.la/1EN1dsG",
+      "link_produto": "https://www.mercadolivre.com.br/kit-com-4-cuecas-boxer-cotton-calvin-klein-original/up/MLBU3920092507?pdp_filters=item_id%3AMLB6676440714",
+      "post_origem": "https://t.me/xetdaspromocoes/85359",
+      "link_canal": "https://meli.la/2qeUDTH",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_792238-MLB110040469762_042026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Kit Com 4 Cuecas Boxer Cotton Calvin Klein Original",
+      "pix": true,
+      "de": 389.0,
+      "por": 178.0,
+      "lido_ia": true,
+      "preco_conferido": true,
+      "palavra": "cueca",
+      "garimpado_em": "2026-10-17T12:40-03:00",
+      "nota": 68.2,
+      "titulo": "Kit de cuecas boxer em algodão macio",
+      "aprovado_sozinho": true,
+      "aprovado_em": "2026-10-17T13:20-03:00"
     }
   ],
   "postados": [
@@ -3084,21 +3129,21 @@
       "msg_id": 1290
     }
   ],
-  "proximo_id": 773,
+  "proximo_id": 775,
   "radar": {
     "visto": {
       "xetdaspromocoes": 85370,
-      "lobaopromo": 190908,
-      "gatunopromos": 125942,
+      "lobaopromo": 190913,
+      "gatunopromos": 125944,
       "pobregram": 42064,
       "urubupromo": 41813,
-      "tudonapromo": 102287,
-      "promonocontext": 128023,
-      "promooeasy": 223548,
-      "aquitempechincha": 282355,
+      "tudonapromo": 102289,
+      "promonocontext": 128025,
+      "promooeasy": 223554,
+      "aquitempechincha": 282356,
       "infoBRpromos": 67753,
       "boletando": 76874,
-      "promotop": 260417,
+      "promotop": 260418,
       "achadosdotb": 11787
     },
     "dia": "2026-10-17",
@@ -5406,31 +5451,31 @@
       "shopee:1080128546.22694216257",
       "mercadolivre:MLB4218586005",
       "shopee:1085770008.22098945621",
-      "mercadolivre:MLB7828418544"
+      "mercadolivre:MLB7828418544",
+      "shopee:1114702036.23097146750"
     ],
     "ultima": {
-      "em": "2026-10-17T13:10:19-03:00",
+      "em": "2026-10-17T13:20:23-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 14,
+      "posts_novos": 34,
       "do_nicho": 2,
-      "repetidas": 1,
+      "repetidas": 2,
       "novas": 0,
       "limite_dia": false,
       "repetidas_nome": 0,
       "promobit": 0,
-      "fora_do_nicho": 1,
-      "soltas": 0,
-      "na_peneira": 24
+      "soltas": 2,
+      "na_peneira": 22
     },
     "hora": "2026-10-17T13",
     "nesta_hora": 2,
     "promobit_hora": "2026-10-17T13",
     "promobit_nesta_hora": 0,
-    "promobit_visto": 3121480,
+    "promobit_visto": 3121509,
     "nomes": [
       [
         [
@@ -8605,6 +8650,29 @@
           "43"
         ],
         "2026-10-17T13:02-03:00"
+      ],
+      [
+        [
+          "luva",
+          "musculacao",
+          "treino",
+          "grip",
+          "protetor",
+          "mao",
+          "cross",
+          "fit"
+        ],
+        "2026-10-17T13:20-03:00"
+      ],
+      [
+        [
+          "cuecas",
+          "boxer",
+          "cotton",
+          "calvin",
+          "klein"
+        ],
+        "2026-10-17T13:20-03:00"
       ]
     ],
     "peneira": [
@@ -8973,26 +9041,6 @@
       },
       {
         "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB6676440714",
-        "origem": "xetdaspromocoes",
-        "link": "https://www.mercadolivre.com.br/kit-com-4-cuecas-boxer-cotton-calvin-klein-original/up/MLBU3920092507?pdp_filters=item_id%3AMLB6676440714&matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/kit-com-4-cuecas-boxer-cotton-calvin-klein-original/up/MLBU3920092507?pdp_filters=item_id%3AMLB6676440714",
-        "post_origem": "https://t.me/xetdaspromocoes/85359",
-        "link_canal": "https://meli.la/2qeUDTH",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_792238-MLB110040469762_042026-O.webp",
-        "foto_origem": "loja",
-        "nome": "Kit Com 4 Cuecas Boxer Cotton Calvin Klein Original",
-        "pix": true,
-        "de": 389.0,
-        "por": 178.0,
-        "lido_ia": true,
-        "preco_conferido": true,
-        "palavra": "cueca",
-        "garimpado_em": "2026-10-17T12:40-03:00",
-        "nota": 68.2
-      },
-      {
-        "loja": "mercadolivre",
         "chave": "mercadolivre:MLB65259558",
         "origem": "lobaopromo",
         "link": "https://www.mercadolivre.com.br/jogo-de-ferramentas-kit-multiuso-soquete-14-46-pecas-profissional-com-maleta-completa-aco-cromado-chaves-bits-catraca-reversivel-extensoes-junta-universal-portatil-reforcado-domestico-automotivo/p/MLB65259558?matt_word=alphapromo&matt_tool=59136903",
@@ -9052,35 +9100,35 @@
       },
       {
         "loja": "shopee",
-        "chave": "shopee:1085770008.22098945621",
-        "nome": "Luva para Musculação Treino Grip Protetor de Mão Cross Fit Antiderrapante Halteres e Barras Max Grip Fitness",
-        "por": 9.98,
-        "de": 90.73,
-        "foto": "https://cf.shopee.com.br/file/br-11134207-81z1k-mf159mcnlekk37",
-        "link": "https://s.shopee.com.br/30oq2Qg1ty",
-        "link_produto": "https://shopee.com.br/product/1085770008/22098945621",
+        "chave": "shopee:1114702036.23097146750",
+        "nome": "Maquina De Barbear Aparador Elétrico 3 Em 1 Kemei 6558",
+        "por": 46.99,
+        "de": 99.98,
+        "foto": "https://cf.shopee.com.br/file/br-11134207-7r98o-loel6k0s6k6ha0",
+        "link": "https://s.shopee.com.br/9KitbHwDzJ",
+        "link_produto": "https://shopee.com.br/product/1114702036/23097146750",
         "origem": "shopee",
         "fonte": "shopee",
         "foto_origem": "loja",
         "shopee_api": true,
-        "avaliacao": 4.9,
-        "vendas": 299,
-        "palavra": "halter",
-        "garimpado_em": "2026-10-17T13:03-03:00",
-        "nota": 99.2
+        "avaliacao": 4.8,
+        "vendas": 1865,
+        "palavra": "maquina de barbear",
+        "garimpado_em": "2026-10-17T13:20-03:00",
+        "nota": 70.5
       }
     ],
     "soltas_hora": "2026-10-17T13",
-    "soltas": 2,
-    "shopee_em": "2026-10-17T13:03-03:00",
-    "shopee_indice": 104,
+    "soltas": 4,
+    "shopee_em": "2026-10-17T13:20-03:00",
+    "shopee_indice": 12,
     "soltas_dia_data": "2026-10-17",
-    "soltas_dia": 41,
+    "soltas_dia": 43,
     "soltas_loja": {
-      "shopee": 1,
-      "mercadolivre": 1
+      "shopee": 2,
+      "mercadolivre": 2
     },
-    "soltas_vez": "2026-10-17T13:0"
+    "soltas_vez": "2026-10-17T13:1"
   },
   "ultimos": [
     {
@@ -10866,7 +10914,7 @@
         "reprovados": 6
       },
       "shopee": {
-        "achados": 11,
+        "achados": 12,
         "aprovados": 0,
         "reprovados": 3
       },
@@ -10883,6 +10931,11 @@
       "urubupromo": {
         "achados": 1,
         "aprovados": 1,
+        "reprovados": 0
+      },
+      "xetdaspromocoes": {
+        "achados": 1,
+        "aprovados": 0,
         "reprovados": 0
       }
     }
@@ -11000,7 +11053,7 @@
       "reprovados": 11
     },
     "cueca": {
-      "achados": 13,
+      "achados": 14,
       "aprovados": 1,
       "reprovados": 10
     },
@@ -11180,7 +11233,7 @@
       "reprovados": 0
     },
     "halter": {
-      "achados": 3,
+      "achados": 4,
       "aprovados": 2,
       "reprovados": 0
     },
@@ -11292,7 +11345,7 @@
       "10": 3,
       "11": 1,
       "12": 5,
-      "13": 6
+      "13": 8
     }
   },
   "aviso_ml": "2026-10-17",
