@@ -3,28 +3,6 @@
   "fila": [
     {
       "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB35200276",
-      "origem": "promonocontext",
-      "link": "https://meli.la/2dHRbdL",
-      "link_produto": "https://www.mercadolivre.com.br/kit-ferramentas-200-pecas-c-maleta-titanium-chaves-alicates-martelos-serra-aco-carbono-diy-oficina-casa/p/MLB35200276",
-      "post_origem": "https://t.me/promonocontext/127971",
-      "link_canal": "https://meli.la/1KJy5K2",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_994504-MLA100021825311_122025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Kit Ferramentas 200 Peças c/ Maleta Titanium",
-      "de": 129.0,
-      "por": 63.0,
-      "lido_ia": true,
-      "preco_conferido": true,
-      "palavra": "ferramenta",
-      "garimpado_em": "2026-10-17T11:40-03:00",
-      "nota": 71.3,
-      "titulo": "Kit completo de ferramentas para reparos domésticos essencia",
-      "aprovado_sozinho": true,
-      "aprovado_em": "2026-10-17T12:20-03:00"
-    },
-    {
-      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB5830018268",
       "origem": "lobaopromo",
       "link": "https://meli.la/1vSur2M",
@@ -3100,6 +3078,22 @@
       "secao": "estilo",
       "slot": 14.1,
       "foto_site_ok": true
+    },
+    {
+      "chave": "mercadolivre:MLB35200276",
+      "loja": "mercadolivre",
+      "nome": "Kit Ferramentas 200 Peças c/ Maleta Titanium",
+      "data": "2026-10-17T14:40-03:00",
+      "link": "https://meli.la/2dHRbdL",
+      "link_produto": "https://www.mercadolivre.com.br/kit-ferramentas-200-pecas-c-maleta-titanium-chaves-alicates-martelos-serra-aco-carbono-diy-oficina-casa/p/MLB35200276",
+      "titulo": "Kit completo de ferramentas para reparos domésticos essencia",
+      "de": 129.0,
+      "por": 63.0,
+      "conferido": true,
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_994504-MLA100021825311_122025-O.webp",
+      "secao": "casa",
+      "slot": 14.2,
+      "foto_site_ok": true
     }
   ],
   "slots_usados": {
@@ -3256,7 +3250,8 @@
       13.2,
       13.3,
       14,
-      14.1
+      14.1,
+      14.2
     ]
   },
   "shopee_buscado_em": "",
@@ -9378,6 +9373,19 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB35200276",
+      "origem": "promonocontext",
+      "link": "https://meli.la/2dHRbdL",
+      "link_produto": "https://www.mercadolivre.com.br/kit-ferramentas-200-pecas-c-maleta-titanium-chaves-alicates-martelos-serra-aco-carbono-diy-oficina-casa/p/MLB35200276",
+      "post_origem": "https://t.me/promonocontext/127971",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_994504-MLA100021825311_122025-O.webp",
+      "nome": "Kit Ferramentas 200 Peças c/ Maleta Titanium",
+      "de": 129.0,
+      "por": 63.0,
+      "titulo": "Kit completo de ferramentas para reparos domésticos essencia"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:1385382926.21697974917",
       "nome": "Tênis Masculino presente NATAL ANO NOVO Super confortável - Envio Imediato.",
@@ -9905,20 +9913,6 @@
       "por": 427.0,
       "cupom": "OFFHOJE",
       "titulo": "Air fryer oven 12L que prepara refeições completas"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B07DP2S4PC",
-      "origem": "pobregram",
-      "link": "https://www.amazon.com.br/dp/B07DP2S4PC?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B07DP2S4PC?tag=alphadominu09-20",
-      "post_origem": "https://t.me/pobregram/42027",
-      "foto": "https://m.media-amazon.com/images/I/61H70XOtzkL._AC_SL1413_.jpg",
-      "nome": "Aparador de Pelos Mondial Super Groom 10 (10 Acessórios)",
-      "parcelas": 2,
-      "de": 189.9,
-      "por": 93.68,
-      "titulo": "Aparador completo para cabelo e barba em casa"
     }
   ],
   "lixeira": [
@@ -10648,5 +10642,5 @@
     }
   },
   "aviso_ml": "2026-10-17",
-  "vitrine_marca": "c2be83079da9"
+  "vitrine_marca": "57cac76adfe8"
 }
