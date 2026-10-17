@@ -2623,13 +2623,13 @@
   "radar": {
     "visto": {
       "xetdaspromocoes": 85297,
-      "lobaopromo": 190644,
-      "gatunopromos": 125831,
+      "lobaopromo": 190646,
+      "gatunopromos": 125832,
       "pobregram": 42053,
       "urubupromo": 41803,
       "tudonapromo": 102224,
       "promonocontext": 127821,
-      "promooeasy": 223281,
+      "promooeasy": 223283,
       "aquitempechincha": 282261,
       "infoBRpromos": 67721,
       "boletando": 76865,
@@ -2637,7 +2637,7 @@
       "achadosdotb": 11787
     },
     "dia": "2026-10-16",
-    "hoje": 147,
+    "hoje": 148,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -4829,30 +4829,31 @@
       "amazon:B0BYTG1N1W",
       "mercadolivre:MLB50507430",
       "amazon:B07GM8DVYB",
-      "mercadolivre:MLB36221657"
+      "mercadolivre:MLB36221657",
+      "amazon:B08ZFKB8ZK"
     ],
     "ultima": {
-      "em": "2026-10-16T23:30:22-03:00",
+      "em": "2026-10-16T23:40:19-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 13,
+      "posts_novos": 15,
       "do_nicho": 1,
       "repetidas": 0,
       "novas": 1,
       "limite_dia": false,
       "repetidas_nome": 0,
-      "promobit": 0,
-      "soltas": 2,
-      "na_peneira": 10
+      "promobit": 1,
+      "soltas": 0,
+      "na_peneira": 9
     },
     "hora": "2026-10-16T23",
     "nesta_hora": 2,
     "promobit_hora": "2026-10-16T23",
-    "promobit_nesta_hora": 2,
-    "promobit_visto": 3120623,
+    "promobit_nesta_hora": 3,
+    "promobit_visto": 3120644,
     "nomes": [
       [
         [
@@ -7525,44 +7526,6 @@
     ],
     "peneira": [
       {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB58330663",
-        "origem": "promooeasy",
-        "link": "https://www.mercadolivre.com.br/caixa-de-som-bluetooth-portatil-go-essencial-2-jbl-vermelha-vermelho/p/MLB58330663?matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/caixa-de-som-bluetooth-portatil-go-essencial-2-jbl-vermelha-vermelho/p/MLB58330663",
-        "post_origem": "https://t.me/promooeasy/223195",
-        "link_canal": "https://www.mercadolivre.com.br/caixa-de-som-bluetooth-portatil-go-essencial-2-jbl-vermelha-vermelho/p/MLB58330663?matt_word=promoeasynv&amp;matt_tool=88963738",
-        "foto": "https://cdn1.telesco.pe/file/gbDtuD7NySni7MKB_kVP81u9BsoHPPqjMZMXSJpR8bqK0-oQvoLY2t2C2DwFViJ0iTXBc2k985xcp2iQU-mMMkRy5R9NNF5xfnVo1rSN_oQ4vbzanaqqjg5JoFG9wuyJRPiidS4D_5PNKwpFntGa0sNaI3hU3VY44oHYyxqWBaVWE1PK64ZHmicuBn7x3QHQ7XHeMGG9aSFvCiyXASUlCPAa-iAlrbhNd2YCLo11NA0LfuYOPQbTxYhiEeMAiMxCzGVkq_fg-0t-itEgqWC3Pcv2J11fmK8oKwQtfrXVjJEusc5RX4PXd0F87RR2OUtl8xqfzDkqjuKNuIdd5lxblg.jpg",
-        "foto_origem": "canal",
-        "nome": "Caixa De Som Bluetooth Portátil Go Essencial 2 Jbl Vermelha",
-        "por": 172.0,
-        "lido_ia": true,
-        "sem_preco_loja": true,
-        "loja_abriu": false,
-        "palavra": "caixa de som",
-        "garimpado_em": "2026-10-16T20:40-03:00",
-        "nota": 20.6
-      },
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB64882992",
-        "origem": "promooeasy",
-        "link": "https://www.mercadolivre.com.br/mochila-back-to-campus-essentials-adidas-preto-black-white/p/MLB64882992?matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/mochila-back-to-campus-essentials-adidas-preto-black-white/p/MLB64882992",
-        "post_origem": "https://t.me/promooeasy/223197",
-        "link_canal": "https://www.mercadolivre.com.br/mochila-back-to-campus-essentials-adidas-preto-black-white/p/MLB64882992?matt_word=promoeasynv&amp;matt_tool=88963738",
-        "foto": "https://cdn1.telesco.pe/file/C4AYrP2HC-DEulxQix4-vCq6jY9MXsq1GcL89fZlaqcebesaH24QNlc_MBTiHOu1G0ZmzqwYGYmrndYQ1Rrs-ATxWX3ZyjeVyN1cm6a0sCosjnnX58F7d27eLt10wrOxWohr2zVvZamb8Dt1cu08L3NOS8UocQlhmZeSWjLLNfgLa14h3V6FfeJ9J0HeWMKb2B2MZnaM41JzSTdSajFbd-dCGJoXE8hCrZV39R-u2Zyiuyucfmuo1vGO95n-in0Ink67qAtFQPb53BDXBpK-F1hWEvxDosx3iX1VAJyzuCqihzueYzf6jO39IXK_xJAt0Pj4GBDEWRra2TqSjWgfrQ.jpg",
-        "foto_origem": "canal",
-        "nome": "Mochila Back To Campus Essentials adidas Preto / Black / White",
-        "por": 183.0,
-        "lido_ia": true,
-        "sem_preco_loja": true,
-        "loja_abriu": false,
-        "palavra": "mochila",
-        "garimpado_em": "2026-10-16T20:40-03:00",
-        "nota": 36.0
-      },
-      {
         "loja": "amazon",
         "chave": "amazon:B0DKJJQLK6",
         "origem": "lobaopromo",
@@ -7708,12 +7671,30 @@
         "palavra": "alicate",
         "garimpado_em": "2026-10-16T23:30-03:00",
         "nota": 44.9
+      },
+      {
+        "loja": "amazon",
+        "chave": "amazon:B08ZFKB8ZK",
+        "origem": "promobit",
+        "fonte": "promobit",
+        "link": "https://www.amazon.com.br/dp/B08ZFKB8ZK?tag=alphadominu09-20",
+        "link_produto": "https://www.amazon.com.br/dp/B08ZFKB8ZK?tag=alphadominu09-20",
+        "post_origem": "https://www.promobit.com.br/oferta/azzaro-the-most-wanted-intense-perfume-masculino-fragrancia-ambarada-amadeirada-com-cardamomo-e-toffee-eau-de-parfum-com-longa-fixacao-ideal-p-3120638/",
+        "link_canal": "https://www.promobit.com.br/Redirect/to/3120638/",
+        "nome": "Azzaro, The Most Wanted Intense, Perfume Masculino, Fragrância",
+        "por": 535.97,
+        "de": 879.0,
+        "foto": "https://m.media-amazon.com/images/I/61g0mT0sLWL._AC_SL1500_.jpg",
+        "foto_origem": "loja",
+        "palavra": "perfume masculino",
+        "garimpado_em": "2026-10-16T23:40-03:00",
+        "nota": 76.1
       }
     ],
     "soltas_hora": "2026-10-16T23",
     "soltas": 6,
-    "shopee_em": "2026-10-16T23:20-03:00",
-    "shopee_indice": 20,
+    "shopee_em": "2026-10-16T23:40-03:00",
+    "shopee_indice": 28,
     "soltas_dia_data": "2026-10-16",
     "soltas_dia": 94,
     "soltas_loja": {
@@ -9459,7 +9440,7 @@
       }
     }
   },
-  "aviso_post": "2026-10-16 23:35|mercadolivre:MLB45745391",
+  "aviso_post": "2026-10-16 23:49|amazon:B0C9QSV82F",
   "garimpo_palavras": {
     "academia": {
       "achados": 30,
