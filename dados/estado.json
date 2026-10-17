@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "shopee",
-      "chave": "shopee:1385382926.19697971669",
-      "nome": "Tenis Masculino Casual Unissex Branco 34 Ao 43 Macio Confortável Branco Preto Cinza",
-      "por": 49.98,
-      "de": 199.92,
-      "foto": "https://cf.shopee.com.br/file/br-11134207-7r98o-m1onm1jjd49d51",
-      "link": "https://s.shopee.com.br/2LZ9Ax5cIF",
-      "link_produto": "https://shopee.com.br/product/1385382926/19697971669",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.9,
-      "vendas": 1856,
-      "palavra": "tenis masculino",
-      "garimpado_em": "2026-10-17T12:01-03:00",
-      "nota": 86.4,
-      "titulo": "Modelo branco versátil para combinar com tudo",
-      "aprovado_sozinho": true,
-      "aprovado_em": "2026-10-17T13:02-03:00"
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B0CXY7MGL3",
       "origem": "boletando",
@@ -3280,6 +3258,21 @@
       "secao": "tech",
       "slot": 16.2,
       "foto_site_ok": true
+    },
+    {
+      "chave": "shopee:1385382926.19697971669",
+      "loja": "shopee",
+      "nome": "Tenis Masculino Casual Unissex Branco 34 Ao 43 Macio Confortável Branco Preto Cinza",
+      "data": "2026-10-17T16:52-03:00",
+      "link": "https://s.shopee.com.br/2LZ9Ax5cIF",
+      "link_produto": "https://shopee.com.br/product/1385382926/19697971669",
+      "titulo": "Modelo branco versátil para combinar com tudo",
+      "de": 199.92,
+      "por": 49.98,
+      "foto": "https://cf.shopee.com.br/file/br-11134207-7r98o-m1onm1jjd49d51",
+      "secao": "estilo",
+      "slot": 16.3,
+      "foto_site_ok": true
     }
   ],
   "slots_usados": {
@@ -3445,7 +3438,8 @@
       15.3,
       16,
       16.1,
-      16.2
+      16.2,
+      16.3
     ]
   },
   "shopee_buscado_em": "",
@@ -9652,6 +9646,19 @@
   },
   "ultimos": [
     {
+      "loja": "shopee",
+      "chave": "shopee:1385382926.19697971669",
+      "nome": "Tenis Masculino Casual Unissex Branco 34 Ao 43 Macio Confortável Branco Preto Cinza",
+      "por": 49.98,
+      "de": 199.92,
+      "foto": "https://cf.shopee.com.br/file/br-11134207-7r98o-m1onm1jjd49d51",
+      "link": "https://s.shopee.com.br/2LZ9Ax5cIF",
+      "link_produto": "https://shopee.com.br/product/1385382926/19697971669",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "titulo": "Modelo branco versátil para combinar com tudo"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB70102902",
       "origem": "urubupromo",
@@ -10179,19 +10186,6 @@
       "de": 299.0,
       "foto": "AgACAgQAAxkDAAIEvmrSyqZUy1ejEozEZ_d41peiMYAmAAJFDWsbdSFkUS34l7skC9biAQADAgADeQADPQQ",
       "titulo": "Perfume amadeirado clássico para uso diário"
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:347988064.22292694966",
-      "nome": "Pré-Treino Sixt Army Night 300g Soldiers Nutrition Pré Treino Pre Workout Termogênico Energia Foco Resistência Academia",
-      "por": 59.9,
-      "de": 79.87,
-      "foto": "https://cf.shopee.com.br/file/br-11134207-7r98o-mcatd83t8lijb3",
-      "link": "https://s.shopee.com.br/8AWvBy3IAq",
-      "link_produto": "https://shopee.com.br/product/347988064/22292694966",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "titulo": "Pré-treino para dar energia e foco na academia"
     }
   ],
   "lixeira": [],
@@ -10906,5 +10900,5 @@
     }
   },
   "aviso_ml": "2026-10-17",
-  "vitrine_marca": "44c62cd545f3"
+  "vitrine_marca": "4dcdff993f90"
 }
