@@ -414,6 +414,31 @@
       "nota": 77.6,
       "aprovado_sozinho": true,
       "aprovado_em": "2026-10-17T16:00-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB43419974",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/2R9bfYb",
+      "link_produto": "https://www.mercadolivre.com.br/air-fryer-oven-philco-15l-painel-digital-paf15a-cor-preto/p/MLB43419974",
+      "post_origem": "https://t.me/lobaopromo/190999",
+      "link_canal": "https://meli.la/1Kaazkk",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_660338-MLA99555245832_122025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Air Fryer Oven Philco 15l Painel Digital Paf15a Cor Preto",
+      "pix": true,
+      "por": 477.0,
+      "lido_ia": true,
+      "cupom": "OFFNOMELIHOJE",
+      "preco_conferido": true,
+      "preco_cupom": true,
+      "preco_sem_cupom": 513.36,
+      "palavra": "air fryer",
+      "garimpado_em": "2026-10-17T16:20-03:00",
+      "nota": 50.5,
+      "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto",
+      "na_revisao_desde": "2026-10-17T16:20-03:00",
+      "aprovado_em": "2026-10-17T16:22-03:00"
     }
   ],
   "postados": [
@@ -3433,32 +3458,6 @@
       "id": 795,
       "na_revisao_desde": "2026-10-17T16:00-03:00",
       "msg_id": 1318
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB43419974",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/2R9bfYb",
-      "link_produto": "https://www.mercadolivre.com.br/air-fryer-oven-philco-15l-painel-digital-paf15a-cor-preto/p/MLB43419974",
-      "post_origem": "https://t.me/lobaopromo/190999",
-      "link_canal": "https://meli.la/1Kaazkk",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_660338-MLA99555245832_122025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Air Fryer Oven Philco 15l Painel Digital Paf15a Cor Preto",
-      "pix": true,
-      "por": 477.0,
-      "lido_ia": true,
-      "cupom": "OFFNOMELIHOJE",
-      "preco_conferido": true,
-      "preco_cupom": true,
-      "preco_sem_cupom": 513.36,
-      "palavra": "air fryer",
-      "garimpado_em": "2026-10-17T16:20-03:00",
-      "nota": 50.5,
-      "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto",
-      "id": 797,
-      "na_revisao_desde": "2026-10-17T16:20-03:00",
-      "msg_id": 1320
     }
   ],
   "proximo_id": 798,
@@ -10399,7 +10398,7 @@
       },
       "lobaopromo": {
         "achados": 13,
-        "aprovados": 7,
+        "aprovados": 8,
         "reprovados": 2
       },
       "urubupromo": {
@@ -10428,7 +10427,7 @@
     },
     "air fryer": {
       "achados": 17,
-      "aprovados": 5,
+      "aprovados": 6,
       "reprovados": 8
     },
     "alexa": {
@@ -10832,7 +10831,7 @@
       "13": 11,
       "14": 7,
       "15": 8,
-      "16": 2
+      "16": 3
     }
   },
   "aviso_ml": "2026-10-17",
