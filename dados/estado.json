@@ -366,30 +366,6 @@
       "nota": 85.8,
       "aprovado_sozinho": true,
       "aprovado_em": "2026-10-17T14:00-03:00"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB4689035567",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/29U72uu",
-      "link_produto": "https://www.mercadolivre.com.br/camisa-polo-tommy-hilfiger-masculino-thmw0mw37346/up/MLBU3970416341?pdp_filters=item_id%3AMLB4689035567",
-      "post_origem": "https://t.me/lobaopromo/190928",
-      "link_canal": "https://meli.la/2cUXuMe",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_899933-MLB117834537170_102026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Camisa Polo Tommy Hilfiger Masculino Thmw0mw37346 Desert Sky N/a P",
-      "cupom_loja": "Resgate o cupom de 30% OFF do anuncio",
-      "de": 499.0,
-      "por": 209.0,
-      "lido_ia": true,
-      "preco_loja": 299.99,
-      "palavra": "camisa polo",
-      "garimpado_em": "2026-10-17T13:50-03:00",
-      "nota": 94.1,
-      "motivo_revisao": "o post diz R$ 209,00 e a loja mostra R$ 299,99, e não tem cupom ou Pix que explique a diferença",
-      "na_revisao_desde": "2026-10-17T14:00-03:00",
-      "cupom": "Resgate o cupom de 30% OFF do anuncio",
-      "aprovado_em": "2026-10-17T14:01-03:00"
     }
   ],
   "postados": [
@@ -3032,6 +3008,20 @@
       "foto": "https://cf.shopee.com.br/file/sg-11134201-820na-mo0fri90mz9ib3",
       "secao": "outros",
       "slot": 13.3,
+      "foto_site_ok": true
+    },
+    {
+      "chave": "mercadolivre:MLB4689035567",
+      "loja": "mercadolivre",
+      "nome": "Camisa Polo Tommy Hilfiger Masculino Thmw0mw37346 Desert Sky N/a P",
+      "data": "2026-10-17T14:01-03:00",
+      "link": "https://meli.la/29U72uu",
+      "link_produto": "https://www.mercadolivre.com.br/camisa-polo-tommy-hilfiger-masculino-thmw0mw37346/up/MLBU3970416341?pdp_filters=item_id%3AMLB4689035567",
+      "de": 499.0,
+      "por": 209.0,
+      "cupom": "Resgate o cupom de 30% OFF do anuncio",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_899933-MLB117834537170_102026-O.webp",
+      "secao": "estilo",
       "foto_site_ok": true
     }
   ],
@@ -9290,6 +9280,20 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB4689035567",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/29U72uu",
+      "link_produto": "https://www.mercadolivre.com.br/camisa-polo-tommy-hilfiger-masculino-thmw0mw37346/up/MLBU3970416341?pdp_filters=item_id%3AMLB4689035567",
+      "post_origem": "https://t.me/lobaopromo/190928",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_899933-MLB117834537170_102026-O.webp",
+      "nome": "Camisa Polo Tommy Hilfiger Masculino Thmw0mw37346 Desert Sky N/a P",
+      "cupom_loja": "Resgate o cupom de 30% OFF do anuncio",
+      "de": 499.0,
+      "por": 209.0,
+      "cupom": "Resgate o cupom de 30% OFF do anuncio"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:1618883837.58260381358",
       "nome": "Trena 5/10 Metros Profissional Emborrachada Trava Fita Aço Carbono Alta Precisão Resistente",
@@ -9817,20 +9821,6 @@
       "origem": "shopee",
       "fonte": "shopee",
       "titulo": "Câmera veicular de três lentes para segurança no trânsito"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB4239949261",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/1SrAMRZ",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-4239949261-kit-3-bermudas-masculinas-dry-fit-academia-shorts-futebol-_JM?pdp_filters=item_id%3AMLB4239949261",
-      "post_origem": "https://t.me/lobaopromo/190414",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_877163-MLB108958990473_032026-O.webp",
-      "nome": "Kit 3 Bermudas Masculinas Dry Fit Academia Shorts Futebol",
-      "pix": true,
-      "de": 149.9,
-      "por": 109.99,
-      "titulo": "Três bermudas dry fit para revezar nos treinos"
     }
   ],
   "lixeira": [
@@ -10560,5 +10550,5 @@
     }
   },
   "aviso_ml": "2026-10-17",
-  "vitrine_marca": "372606986cab"
+  "vitrine_marca": "f91581ed0f25"
 }
