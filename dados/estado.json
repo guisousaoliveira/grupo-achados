@@ -2976,29 +2976,6 @@
   "shopee_buscado_em": "",
   "revisar": [
     {
-      "loja": "amazon",
-      "chave": "amazon:B0FXWT7BJK",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B0FXWT7BJK?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0FXWT7BJK?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/zeblaze-stratos-4-smartwatch-relogio-inteligente-masculino-relogio-inteligente-gps-170-esportivo-5atm-a-prova-dagua-chamadas-bluetoothandroid-sm-3120851/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3120851/",
-      "nome": "Zeblaze Stratos 4 Smartwatch Relogio Inteligente Masculino Relógio",
-      "por": 324.48,
-      "de": 379.52,
-      "foto": "https://m.media-amazon.com/images/I/61-Ph9mPlYL._AC_SL1000_.jpg",
-      "foto_origem": "loja",
-      "palavra": "smartwatch",
-      "garimpado_em": "2026-10-17T08:40-03:00",
-      "nota": 46.3,
-      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
-      "titulo": "Smartwatch que monitora seus treinos e notificações",
-      "id": 743,
-      "na_revisao_desde": "2026-10-17T08:50-03:00",
-      "msg_id": 1253
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB4570819989",
       "origem": "promonocontext",
@@ -9651,6 +9628,30 @@
   ],
   "lixeira": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B0FXWT7BJK",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0FXWT7BJK?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0FXWT7BJK?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/zeblaze-stratos-4-smartwatch-relogio-inteligente-masculino-relogio-inteligente-gps-170-esportivo-5atm-a-prova-dagua-chamadas-bluetoothandroid-sm-3120851/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3120851/",
+      "nome": "Zeblaze Stratos 4 Smartwatch Relogio Inteligente Masculino Relógio",
+      "por": 324.48,
+      "de": 379.52,
+      "foto": "https://m.media-amazon.com/images/I/61-Ph9mPlYL._AC_SL1000_.jpg",
+      "foto_origem": "loja",
+      "palavra": "smartwatch",
+      "garimpado_em": "2026-10-17T08:40-03:00",
+      "nota": 46.3,
+      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
+      "titulo": "Smartwatch que monitora seus treinos e notificações",
+      "id": 743,
+      "na_revisao_desde": "2026-10-17T08:50-03:00",
+      "removido_em": "2026-10-17T13:01:07-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:955543641.23498776025",
       "nome": "KL5018 Óculos de sol de metal da moda",
@@ -10602,27 +10603,6 @@
       "na_revisao_desde": "2026-10-16T08:41-03:00",
       "removido_em": "2026-10-16T08:51:16-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB3280323716",
-      "origem": "promonocontext",
-      "link": "https://produto.mercadolivre.com.br/MLB-3280323716-kit-3-samba-canco-de-liganete-cueca-short-malha-fria-pijama-_JM?pdp_filters=item_id%3AMLB3280323716&matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-3280323716-kit-3-samba-canco-de-liganete-cueca-short-malha-fria-pijama-_JM?pdp_filters=item_id%3AMLB3280323716",
-      "post_origem": "https://t.me/promonocontext/127396",
-      "link_canal": "https://meli.la/2WYvcG7",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_690915-MLB104484132577_012026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Kit 3 Samba Canção De Liganete Cueca Short Malha Fria Pijama",
-      "por": 34.0,
-      "palavra": "cueca",
-      "garimpado_em": "2026-10-16T08:20-03:00",
-      "nota": 26.4,
-      "titulo": "Kit de samba-canção em malha fria para dormir",
-      "id": 641,
-      "na_revisao_desde": "2026-10-16T08:41-03:00",
-      "removido_em": "2026-10-16T08:51:12-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -10880,7 +10860,7 @@
       "promobit": {
         "achados": 7,
         "aprovados": 1,
-        "reprovados": 5
+        "reprovados": 6
       },
       "shopee": {
         "achados": 10,
@@ -11114,7 +11094,7 @@
     "smartwatch": {
       "achados": 12,
       "aprovados": 4,
-      "reprovados": 7
+      "reprovados": 8
     },
     "suplemento": {
       "achados": 5,
