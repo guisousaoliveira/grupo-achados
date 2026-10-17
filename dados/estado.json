@@ -326,6 +326,27 @@
       "aprovado_em": "2026-10-17T16:20-03:00"
     },
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB64836370",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/1aG7FUL",
+      "link_produto": "https://www.mercadolivre.com.br/perfume-masculino-voker-vulkan-100ml/p/MLB64836370",
+      "post_origem": "https://t.me/lobaopromo/191019",
+      "link_canal": "https://meli.la/2ACBuSZ",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_943587-MLA112954569841_062026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Perfume Masculino Voker Vulkan 100ml",
+      "de": 131.0,
+      "por": 69.0,
+      "lido_ia": true,
+      "preco_conferido": true,
+      "palavra": "perfume masculino",
+      "garimpado_em": "2026-10-17T16:40-03:00",
+      "nota": 89.8,
+      "aprovado_sozinho": true,
+      "aprovado_em": "2026-10-17T17:00-03:00"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0FC2SMDFK",
       "origem": "promobit",
@@ -413,6 +434,27 @@
       "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto",
       "na_revisao_desde": "2026-10-17T16:20-03:00",
       "aprovado_em": "2026-10-17T16:22-03:00"
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:696196245.15590798570",
+      "nome": "Kit Base Suporte Disco 125mm + 20 Lixas 8 Furos Com Velcro 5\" Furadeira Esmerilhadeira",
+      "por": 24.9,
+      "de": 75.45,
+      "foto": "https://cf.shopee.com.br/file/br-11134207-81z1k-me751v5dzqwx99",
+      "link": "https://s.shopee.com.br/AAI0gM8LrL",
+      "link_produto": "https://shopee.com.br/product/696196245/15590798570",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.9,
+      "vendas": 675,
+      "palavra": "furadeira",
+      "garimpado_em": "2026-10-17T14:41-03:00",
+      "nota": 74.7,
+      "aprovado_sozinho": true,
+      "aprovado_em": "2026-10-17T17:00-03:00"
     }
   ],
   "postados": [
@@ -3515,18 +3557,18 @@
       "msg_id": 1323
     }
   ],
-  "proximo_id": 801,
+  "proximo_id": 803,
   "radar": {
     "visto": {
       "xetdaspromocoes": 85400,
-      "lobaopromo": 191028,
-      "gatunopromos": 125984,
+      "lobaopromo": 191034,
+      "gatunopromos": 125986,
       "pobregram": 42073,
       "urubupromo": 41826,
       "tudonapromo": 102305,
       "promonocontext": 128071,
-      "promooeasy": 223694,
-      "aquitempechincha": 282418,
+      "promooeasy": 223698,
+      "aquitempechincha": 282420,
       "infoBRpromos": 67764,
       "boletando": 76881,
       "promotop": 260425,
@@ -5884,30 +5926,33 @@
       "mercadolivre:MLB52061391",
       "mercadolivre:MLB64836370",
       "shopee:328666563.58255491703",
-      "mercadolivre:MLB19698479"
+      "mercadolivre:MLB19698479",
+      "shopee:344381236.45506315078",
+      "shopee:638380156.22796088452",
+      "shopee:1774410633.58216030784"
     ],
     "ultima": {
-      "em": "2026-10-17T16:50:21-03:00",
+      "em": "2026-10-17T17:00:26-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 43,
-      "do_nicho": 2,
-      "repetidas": 1,
+      "posts_novos": 24,
+      "do_nicho": 0,
+      "repetidas": 0,
       "novas": 0,
       "limite_dia": false,
-      "repetidas_nome": 1,
+      "repetidas_nome": 0,
       "promobit": 0,
-      "soltas": 1,
-      "na_peneira": 11
+      "soltas": 2,
+      "na_peneira": 6
     },
-    "hora": "2026-10-17T16",
-    "nesta_hora": 6,
-    "promobit_hora": "2026-10-17T16",
-    "promobit_nesta_hora": 1,
-    "promobit_visto": 3122002,
+    "hora": "2026-10-17T17",
+    "nesta_hora": 0,
+    "promobit_hora": "2026-10-17T17",
+    "promobit_nesta_hora": 0,
+    "promobit_visto": 3122017,
     "nomes": [
       [
         [
@@ -9415,66 +9460,31 @@
           "android"
         ],
         "2026-10-17T16:50-03:00"
+      ],
+      [
+        [
+          "perfume",
+          "voker",
+          "vulkan",
+          "100ml"
+        ],
+        "2026-10-17T17:00-03:00"
+      ],
+      [
+        [
+          "base",
+          "suporte",
+          "disco",
+          "125mm",
+          "20",
+          "lixas",
+          "furos",
+          "velcro"
+        ],
+        "2026-10-17T17:00-03:00"
       ]
     ],
     "peneira": [
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB6433764280",
-        "origem": "lobaopromo",
-        "link": "https://www.mercadolivre.com.br/kit-12-cuecas-boxer-masculino-polo-wear/up/MLBU781509285?pdp_filters=item_id%3AMLB6433764280&matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/kit-12-cuecas-boxer-masculino-polo-wear/up/MLBU781509285?pdp_filters=item_id%3AMLB6433764280",
-        "post_origem": "https://t.me/lobaopromo/190933",
-        "link_canal": "https://meli.la/1wadeo1",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_685064-MLB77016381269_062024-O.webp",
-        "foto_origem": "loja",
-        "nome": "Kit 12 Cuecas Boxer Masculino Polo Wear Branco",
-        "cupom_loja": "Resgate o cupom de 30% OFF do anuncio",
-        "por": 104.0,
-        "lido_ia": true,
-        "preco_loja": 149.38,
-        "palavra": "cueca",
-        "garimpado_em": "2026-10-17T14:00-03:00",
-        "nota": 34.0
-      },
-      {
-        "loja": "shopee",
-        "chave": "shopee:1889216258.23399659443",
-        "nome": "Aparador de Pelos do Nariz Elétrico Recarregável USB Portátil e Indolor",
-        "por": 13.98,
-        "de": 23.3,
-        "foto": "https://cf.shopee.com.br/file/sg-11134201-825a6-mr392nt8lr0s9e",
-        "link": "https://s.shopee.com.br/1BNBv1SyHD",
-        "link_produto": "https://shopee.com.br/product/1889216258/23399659443",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 4.9,
-        "vendas": 1478,
-        "palavra": "aparador",
-        "garimpado_em": "2026-10-17T14:00-03:00",
-        "nota": 61.3
-      },
-      {
-        "loja": "shopee",
-        "chave": "shopee:1173089813.20698201938",
-        "nome": "Tônico Capilar, cabelo, barba e sobrancelha",
-        "por": 19.94,
-        "de": 28.9,
-        "foto": "https://cf.shopee.com.br/file/sg-11134201-7rdvd-mctck0k1sxg49e",
-        "link": "https://s.shopee.com.br/50ZuU4ENV4",
-        "link_produto": "https://shopee.com.br/product/1173089813/20698201938",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 4.9,
-        "vendas": 1668,
-        "palavra": "barba",
-        "garimpado_em": "2026-10-17T14:00-03:00",
-        "nota": 59.0
-      },
       {
         "loja": "mercadolivre",
         "chave": "mercadolivre:MLB76003616",
@@ -9534,25 +9544,6 @@
         "nota": 54.8
       },
       {
-        "loja": "shopee",
-        "chave": "shopee:696196245.15590798570",
-        "nome": "Kit Base Suporte Disco 125mm + 20 Lixas 8 Furos Com Velcro 5\" Furadeira Esmerilhadeira",
-        "por": 24.9,
-        "de": 75.45,
-        "foto": "https://cf.shopee.com.br/file/br-11134207-81z1k-me751v5dzqwx99",
-        "link": "https://s.shopee.com.br/AAI0gM8LrL",
-        "link_produto": "https://shopee.com.br/product/696196245/15590798570",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 4.9,
-        "vendas": 675,
-        "palavra": "furadeira",
-        "garimpado_em": "2026-10-17T14:41-03:00",
-        "nota": 74.7
-      },
-      {
         "loja": "mercadolivre",
         "chave": "mercadolivre:MLB65479539",
         "origem": "lobaopromo",
@@ -9593,25 +9584,6 @@
         "nota": 23.9
       },
       {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB64836370",
-        "origem": "lobaopromo",
-        "link": "https://www.mercadolivre.com.br/perfume-masculino-voker-vulkan-100ml/p/MLB64836370?matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/perfume-masculino-voker-vulkan-100ml/p/MLB64836370",
-        "post_origem": "https://t.me/lobaopromo/191019",
-        "link_canal": "https://meli.la/2ACBuSZ",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_943587-MLA112954569841_062026-O.webp",
-        "foto_origem": "loja",
-        "nome": "Perfume Masculino Voker Vulkan 100ml",
-        "de": 131.0,
-        "por": 69.0,
-        "lido_ia": true,
-        "preco_conferido": true,
-        "palavra": "perfume masculino",
-        "garimpado_em": "2026-10-17T16:40-03:00",
-        "nota": 89.8
-      },
-      {
         "loja": "shopee",
         "chave": "shopee:328666563.58255491703",
         "nome": "Caixa de som original Alaxe Echo Dot 5ª geração com envio imediato e melhor preço",
@@ -9629,20 +9601,57 @@
         "palavra": "echo dot",
         "garimpado_em": "2026-10-17T16:40-03:00",
         "nota": 72.9
+      },
+      {
+        "loja": "shopee",
+        "chave": "shopee:344381236.45506315078",
+        "nome": "Soundbar JBL  Bluetooth, Cinema SB180, 2.1 Canais, Subwoofer de 6,5\" Sem Fio  110W RMS",
+        "por": 959.0,
+        "de": 1295.95,
+        "foto": "https://cf.shopee.com.br/file/sg-11134201-8261o-mmbuxr8tvxfm4d",
+        "link": "https://s.shopee.com.br/9KitqNryB8",
+        "link_produto": "https://shopee.com.br/product/344381236/45506315078",
+        "origem": "shopee",
+        "fonte": "shopee",
+        "foto_origem": "loja",
+        "shopee_api": true,
+        "avaliacao": 5.0,
+        "vendas": 167,
+        "palavra": "jbl",
+        "garimpado_em": "2026-10-17T17:00-03:00",
+        "nota": 56.0
+      },
+      {
+        "loja": "shopee",
+        "chave": "shopee:1774410633.58216030784",
+        "nome": "Carregador Turbo 200W USB-C + USB-A QC 3.0 Power Delivery Compatível Xiaomi – Super Rápido",
+        "por": 24.89,
+        "de": 85.83,
+        "foto": "https://cf.shopee.com.br/file/sg-11134201-8259r-mrshhs89tssgfd",
+        "link": "https://s.shopee.com.br/30oqIkP12y",
+        "link_produto": "https://shopee.com.br/product/1774410633/58216030784",
+        "origem": "shopee",
+        "fonte": "shopee",
+        "foto_origem": "loja",
+        "shopee_api": true,
+        "avaliacao": 4.8,
+        "vendas": 1624,
+        "palavra": "carregador turbo",
+        "garimpado_em": "2026-10-17T17:00-03:00",
+        "nota": 77.1
       }
     ],
-    "soltas_hora": "2026-10-17T16",
-    "soltas": 7,
-    "shopee_em": "2026-10-17T16:40-03:00",
-    "shopee_indice": 92,
+    "soltas_hora": "2026-10-17T17",
+    "soltas": 2,
+    "shopee_em": "2026-10-17T17:00-03:00",
+    "shopee_indice": 100,
     "soltas_dia_data": "2026-10-17",
-    "soltas_dia": 68,
+    "soltas_dia": 70,
     "soltas_loja": {
-      "shopee": 2,
-      "mercadolivre": 3,
-      "amazon": 2
+      "mercadolivre": 1,
+      "shopee": 1
     },
-    "soltas_vez": "2026-10-17T16:3"
+    "soltas_vez": "2026-10-17T17:0"
   },
   "ultimos": [
     {
@@ -10447,7 +10456,7 @@
         "reprovados": 6
       },
       "shopee": {
-        "achados": 18,
+        "achados": 19,
         "aprovados": 0,
         "reprovados": 3
       },
@@ -10457,7 +10466,7 @@
         "reprovados": 0
       },
       "lobaopromo": {
-        "achados": 13,
+        "achados": 14,
         "aprovados": 8,
         "reprovados": 2
       },
@@ -10483,7 +10492,7 @@
       }
     }
   },
-  "aviso_post": "2026-10-17 15:10|amazon:B0DJ1RD8SH",
+  "aviso_post": "2026-10-17 17:03|amazon:B0CXY7MGL3",
   "garimpo_palavras": {
     "academia": {
       "achados": 31,
@@ -10621,7 +10630,7 @@
       "reprovados": 1
     },
     "furadeira": {
-      "achados": 2,
+      "achados": 3,
       "aprovados": 0,
       "reprovados": 2
     },
@@ -10666,7 +10675,7 @@
       "reprovados": 6
     },
     "perfume masculino": {
-      "achados": 11,
+      "achados": 12,
       "aprovados": 9,
       "reprovados": 2
     },
@@ -10896,7 +10905,8 @@
       "13": 11,
       "14": 7,
       "15": 8,
-      "16": 4
+      "16": 4,
+      "17": 2
     }
   },
   "aviso_ml": "2026-10-17",
