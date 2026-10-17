@@ -97,6 +97,28 @@
       "aprovado_em": "2026-10-16T23:02-03:00"
     },
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB50507430",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/2vFqf1s",
+      "link_produto": "https://www.mercadolivre.com.br/philips-aparador-e-barbeador-eletrico-all-in-one-serie-3000-12-em-1-12-acessorios-para-o-visual-completo-laminas-com-pontas-arredondadas-60-min-sem-fio-mg392115-mg392115/p/MLB50507430",
+      "post_origem": "https://t.me/lobaopromo/190638",
+      "link_canal": "https://meli.la/2drjehv",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_608894-MLA115895780710_092026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Philips Aparador e Barbeador Elétrico All-in-One Série 3000 12 em 1",
+      "de": 262.0,
+      "por": 152.0,
+      "lido_ia": true,
+      "preco_conferido": true,
+      "palavra": "barbeador",
+      "garimpado_em": "2026-10-16T23:00-03:00",
+      "nota": 58.1,
+      "titulo": "Aparador Philips 12 em 1 para barba e cabelo",
+      "aprovado_sozinho": true,
+      "aprovado_em": "2026-10-17T00:00-03:00"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:662618933.22395788400",
       "nome": "Super Whey Refil 900g Max Titanium",
@@ -2588,27 +2610,50 @@
       "id": 726,
       "na_revisao_desde": "2026-10-16T23:50-03:00",
       "msg_id": 1232
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0CXVBVT83",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0CXVBVT83?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0CXVBVT83?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/caixa-de-som-party-box-aiwa-bluetooth-luzes-multicores-aws-pb-04-party-box-aws-pb-04-bivolt-3120535/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3120535/",
+      "nome": "Caixa de Som Party Box, Aiwa, Bluetooth, Luzes Multicores",
+      "por": 1499.0,
+      "de": 2299.0,
+      "foto": "https://m.media-amazon.com/images/I/81iKOC6sJJL._AC_SL1500_.jpg",
+      "foto_origem": "loja",
+      "palavra": "caixa de som",
+      "garimpado_em": "2026-10-16T22:20-03:00",
+      "nota": 48.0,
+      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
+      "titulo": "Caixa de som Bluetooth para animar festas e churrascos",
+      "id": 728,
+      "na_revisao_desde": "2026-10-17T00:00-03:00",
+      "msg_id": 1234
     }
   ],
-  "proximo_id": 727,
+  "proximo_id": 729,
   "radar": {
     "visto": {
       "xetdaspromocoes": 85297,
-      "lobaopromo": 190650,
-      "gatunopromos": 125834,
+      "lobaopromo": 190656,
+      "gatunopromos": 125837,
       "pobregram": 42053,
       "urubupromo": 41803,
       "tudonapromo": 102224,
       "promonocontext": 127821,
-      "promooeasy": 223285,
+      "promooeasy": 223287,
       "aquitempechincha": 282261,
       "infoBRpromos": 67721,
       "boletando": 76865,
       "promotop": 260396,
       "achadosdotb": 11787
     },
-    "dia": "2026-10-16",
-    "hoje": 148,
+    "dia": "2026-10-17",
+    "hoje": 0,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -4804,27 +4849,27 @@
       "amazon:B08ZFKB8ZK"
     ],
     "ultima": {
-      "em": "2026-10-16T23:50:18-03:00",
+      "em": "2026-10-17T00:00:27-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 8,
-      "do_nicho": 0,
-      "repetidas": 0,
+      "posts_novos": 17,
+      "do_nicho": 2,
+      "repetidas": 2,
       "novas": 0,
       "limite_dia": false,
       "repetidas_nome": 0,
       "promobit": 0,
-      "soltas": 1,
-      "na_peneira": 7
+      "soltas": 2,
+      "na_peneira": 4
     },
-    "hora": "2026-10-16T23",
-    "nesta_hora": 2,
-    "promobit_hora": "2026-10-16T23",
-    "promobit_nesta_hora": 3,
-    "promobit_visto": 3120644,
+    "hora": "2026-10-17T00",
+    "nesta_hora": 0,
+    "promobit_hora": "2026-10-17T00",
+    "promobit_nesta_hora": 0,
+    "promobit_visto": 3120654,
     "nomes": [
       [
         [
@@ -7504,27 +7549,35 @@
           "fragrancia"
         ],
         "2026-10-16T23:50-03:00"
+      ],
+      [
+        [
+          "philips",
+          "aparador",
+          "barbeador",
+          "eletrico",
+          "all",
+          "in",
+          "one",
+          "serie"
+        ],
+        "2026-10-17T00:00-03:00"
+      ],
+      [
+        [
+          "caixa",
+          "som",
+          "party",
+          "box",
+          "aiwa",
+          "bluetooth",
+          "luzes",
+          "multicores"
+        ],
+        "2026-10-17T00:00-03:00"
       ]
     ],
     "peneira": [
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB39956201",
-        "origem": "lobaopromo",
-        "link": "https://www.mercadolivre.com.br/cafeina-200mg-60-caps-termogenico-growth-supplements/p/MLB39956201?matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/cafeina-200mg-60-caps-termogenico-growth-supplements/p/MLB39956201",
-        "post_origem": "https://t.me/lobaopromo/190588",
-        "link_canal": "https://meli.la/2AEdBAt",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_769651-MLA99596985544_122025-O.webp",
-        "foto_origem": "loja",
-        "nome": "Cafeína 200mg (60 Caps) Termogênico Growth Supplements",
-        "por": 37.0,
-        "lido_ia": true,
-        "preco_conferido": true,
-        "palavra": "termogenico",
-        "garimpado_em": "2026-10-16T21:00-03:00",
-        "nota": 36.1
-      },
       {
         "loja": "amazon",
         "chave": "amazon:B0FNGMWY42",
@@ -7543,24 +7596,6 @@
         "nota": 33.1
       },
       {
-        "loja": "amazon",
-        "chave": "amazon:B0CXVBVT83",
-        "origem": "promobit",
-        "fonte": "promobit",
-        "link": "https://www.amazon.com.br/dp/B0CXVBVT83?tag=alphadominu09-20",
-        "link_produto": "https://www.amazon.com.br/dp/B0CXVBVT83?tag=alphadominu09-20",
-        "post_origem": "https://www.promobit.com.br/oferta/caixa-de-som-party-box-aiwa-bluetooth-luzes-multicores-aws-pb-04-party-box-aws-pb-04-bivolt-3120535/",
-        "link_canal": "https://www.promobit.com.br/Redirect/to/3120535/",
-        "nome": "Caixa de Som Party Box, Aiwa, Bluetooth, Luzes Multicores",
-        "por": 1499.0,
-        "de": 2299.0,
-        "foto": "https://m.media-amazon.com/images/I/81iKOC6sJJL._AC_SL1500_.jpg",
-        "foto_origem": "loja",
-        "palavra": "caixa de som",
-        "garimpado_em": "2026-10-16T22:20-03:00",
-        "nota": 48.0
-      },
-      {
         "loja": "mercadolivre",
         "chave": "mercadolivre:MLB63281934",
         "origem": "lobaopromo",
@@ -7577,25 +7612,6 @@
         "palavra": "academia",
         "garimpado_em": "2026-10-16T22:50-03:00",
         "nota": 43.9
-      },
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB50507430",
-        "origem": "lobaopromo",
-        "link": "https://www.mercadolivre.com.br/philips-aparador-e-barbeador-eletrico-all-in-one-serie-3000-12-em-1-12-acessorios-para-o-visual-completo-laminas-com-pontas-arredondadas-60-min-sem-fio-mg392115-mg392115/p/MLB50507430?matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/philips-aparador-e-barbeador-eletrico-all-in-one-serie-3000-12-em-1-12-acessorios-para-o-visual-completo-laminas-com-pontas-arredondadas-60-min-sem-fio-mg392115-mg392115/p/MLB50507430",
-        "post_origem": "https://t.me/lobaopromo/190638",
-        "link_canal": "https://meli.la/2drjehv",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_608894-MLA115895780710_092026-O.webp",
-        "foto_origem": "loja",
-        "nome": "Philips Aparador e Barbeador Elétrico All-in-One Série 3000 12 em 1",
-        "de": 262.0,
-        "por": 152.0,
-        "lido_ia": true,
-        "preco_conferido": true,
-        "palavra": "barbeador",
-        "garimpado_em": "2026-10-16T23:00-03:00",
-        "nota": 58.1
       },
       {
         "loja": "amazon",
@@ -7636,18 +7652,17 @@
         "nota": 44.9
       }
     ],
-    "soltas_hora": "2026-10-16T23",
-    "soltas": 7,
-    "shopee_em": "2026-10-16T23:40-03:00",
-    "shopee_indice": 28,
-    "soltas_dia_data": "2026-10-16",
-    "soltas_dia": 95,
+    "soltas_hora": "2026-10-17T00",
+    "soltas": 2,
+    "shopee_em": "2026-10-17T00:00-03:00",
+    "shopee_indice": 36,
+    "soltas_dia_data": "2026-10-17",
+    "soltas_dia": 2,
     "soltas_loja": {
-      "mercadolivre": 3,
-      "amazon": 3,
-      "shopee": 1
+      "mercadolivre": 1,
+      "amazon": 1
     },
-    "soltas_vez": "2026-10-16T23:3"
+    "soltas_vez": "2026-10-17T00:0"
   },
   "ultimos": [
     {
@@ -9336,7 +9351,7 @@
         "reprovados": 1
       },
       "promobit": {
-        "achados": 15,
+        "achados": 16,
         "aprovados": 8,
         "reprovados": 6
       },
@@ -9346,7 +9361,7 @@
         "reprovados": 1
       },
       "lobaopromo": {
-        "achados": 18,
+        "achados": 19,
         "aprovados": 13,
         "reprovados": 2
       },
@@ -9420,7 +9435,7 @@
       "reprovados": 2
     },
     "barbeador": {
-      "achados": 4,
+      "achados": 5,
       "aprovados": 0,
       "reprovados": 4
     },
@@ -9450,7 +9465,7 @@
       "reprovados": 5
     },
     "caixa de som": {
-      "achados": 19,
+      "achados": 20,
       "aprovados": 2,
       "reprovados": 16
     },
@@ -9778,6 +9793,9 @@
       "19": 1,
       "22": 8,
       "23": 4
+    },
+    "2026-10-17": {
+      "0": 1
     }
   },
   "aviso_ml": "2026-10-16",
