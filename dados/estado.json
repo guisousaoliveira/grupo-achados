@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "shopee",
-      "chave": "shopee:1085770008.22098945621",
-      "nome": "Luva para Musculação Treino Grip Protetor de Mão Cross Fit Antiderrapante Halteres e Barras Max Grip Fitness",
-      "por": 9.98,
-      "de": 90.73,
-      "foto": "https://cf.shopee.com.br/file/br-11134207-81z1k-mf159mcnlekk37",
-      "link": "https://s.shopee.com.br/30oq2Qg1ty",
-      "link_produto": "https://shopee.com.br/product/1085770008/22098945621",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.9,
-      "vendas": 299,
-      "palavra": "halter",
-      "garimpado_em": "2026-10-17T13:03-03:00",
-      "nota": 99.2,
-      "titulo": "Luva antiderrapante para proteger a mão no treino",
-      "aprovado_sozinho": true,
-      "aprovado_em": "2026-10-17T13:20-03:00"
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB70102902",
       "origem": "urubupromo",
@@ -3249,6 +3227,21 @@
       "secao": "casa",
       "slot": 16,
       "foto_site_ok": true
+    },
+    {
+      "chave": "shopee:1085770008.22098945621",
+      "loja": "shopee",
+      "nome": "Luva para Musculação Treino Grip Protetor de Mão Cross Fit Antiderrapante Halteres e Barras Max Grip Fitness",
+      "data": "2026-10-17T16:22-03:00",
+      "link": "https://s.shopee.com.br/30oq2Qg1ty",
+      "link_produto": "https://shopee.com.br/product/1085770008/22098945621",
+      "titulo": "Luva antiderrapante para proteger a mão no treino",
+      "de": 90.73,
+      "por": 9.98,
+      "foto": "https://cf.shopee.com.br/file/br-11134207-81z1k-mf159mcnlekk37",
+      "secao": "academia",
+      "slot": 16.1,
+      "foto_site_ok": true
     }
   ],
   "slots_usados": {
@@ -3412,7 +3405,8 @@
       15.1,
       15.2,
       15.3,
-      16
+      16,
+      16.1
     ]
   },
   "shopee_buscado_em": "",
@@ -9593,6 +9587,19 @@
   },
   "ultimos": [
     {
+      "loja": "shopee",
+      "chave": "shopee:1085770008.22098945621",
+      "nome": "Luva para Musculação Treino Grip Protetor de Mão Cross Fit Antiderrapante Halteres e Barras Max Grip Fitness",
+      "por": 9.98,
+      "de": 90.73,
+      "foto": "https://cf.shopee.com.br/file/br-11134207-81z1k-mf159mcnlekk37",
+      "link": "https://s.shopee.com.br/30oq2Qg1ty",
+      "link_produto": "https://shopee.com.br/product/1085770008/22098945621",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "titulo": "Luva antiderrapante para proteger a mão no treino"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB3271283929",
       "origem": "lobaopromo",
@@ -10120,19 +10127,6 @@
       "por": 450.0,
       "cupom": "OFFHOJE",
       "titulo": "Relógio de couro preto para o dia a dia"
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:446247790.23994831748",
-      "nome": "Kit Mass Hipercalórico + Bcaa + Creatina + Glutamina + Coqueteleira - Espartanos",
-      "por": 99.99,
-      "de": 129.86,
-      "foto": "https://cf.shopee.com.br/file/br-11134207-820m5-msfjifb7jtol0a",
-      "link": "https://s.shopee.com.br/50ZtQ9AsX8",
-      "link_produto": "https://shopee.com.br/product/446247790/23994831748",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "titulo": "Kit completo de suplementos para ganho de peso"
     }
   ],
   "lixeira": [],
@@ -10842,5 +10836,5 @@
     }
   },
   "aviso_ml": "2026-10-17",
-  "vitrine_marca": "2309fb8b6925"
+  "vitrine_marca": "080126118fff"
 }
