@@ -2,29 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB6676440714",
-      "origem": "xetdaspromocoes",
-      "link": "https://meli.la/1EN1dsG",
-      "link_produto": "https://www.mercadolivre.com.br/kit-com-4-cuecas-boxer-cotton-calvin-klein-original/up/MLBU3920092507?pdp_filters=item_id%3AMLB6676440714",
-      "post_origem": "https://t.me/xetdaspromocoes/85359",
-      "link_canal": "https://meli.la/2qeUDTH",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_792238-MLB110040469762_042026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Kit Com 4 Cuecas Boxer Cotton Calvin Klein Original",
-      "pix": true,
-      "de": 389.0,
-      "por": 178.0,
-      "lido_ia": true,
-      "preco_conferido": true,
-      "palavra": "cueca",
-      "garimpado_em": "2026-10-17T12:40-03:00",
-      "nota": 68.2,
-      "titulo": "Kit de cuecas boxer em algodão macio",
-      "aprovado_sozinho": true,
-      "aprovado_em": "2026-10-17T13:20-03:00"
-    },
-    {
       "loja": "shopee",
       "chave": "shopee:1059412251.22998163314",
       "nome": "Bicicleta Ergométrica Vertical Gallant Flow (GBE1HBTB-PT)",
@@ -3307,6 +3284,23 @@
       "secao": "tech",
       "slot": 17,
       "foto_site_ok": true
+    },
+    {
+      "chave": "mercadolivre:MLB6676440714",
+      "loja": "mercadolivre",
+      "nome": "Kit Com 4 Cuecas Boxer Cotton Calvin Klein Original",
+      "data": "2026-10-17T17:18-03:00",
+      "link": "https://meli.la/1EN1dsG",
+      "link_produto": "https://www.mercadolivre.com.br/kit-com-4-cuecas-boxer-cotton-calvin-klein-original/up/MLBU3920092507?pdp_filters=item_id%3AMLB6676440714",
+      "titulo": "Kit de cuecas boxer em algodão macio",
+      "de": 389.0,
+      "por": 178.0,
+      "pix": true,
+      "conferido": true,
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_792238-MLB110040469762_042026-O.webp",
+      "secao": "estilo",
+      "slot": 17.1,
+      "foto_site_ok": true
     }
   ],
   "slots_usados": {
@@ -3474,7 +3468,8 @@
       16.1,
       16.2,
       16.3,
-      17
+      17,
+      17.1
     ]
   },
   "shopee_buscado_em": "",
@@ -9688,6 +9683,20 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB6676440714",
+      "origem": "xetdaspromocoes",
+      "link": "https://meli.la/1EN1dsG",
+      "link_produto": "https://www.mercadolivre.com.br/kit-com-4-cuecas-boxer-cotton-calvin-klein-original/up/MLBU3920092507?pdp_filters=item_id%3AMLB6676440714",
+      "post_origem": "https://t.me/xetdaspromocoes/85359",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_792238-MLB110040469762_042026-O.webp",
+      "nome": "Kit Com 4 Cuecas Boxer Cotton Calvin Klein Original",
+      "pix": true,
+      "de": 389.0,
+      "por": 178.0,
+      "titulo": "Kit de cuecas boxer em algodão macio"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0CXY7MGL3",
       "origem": "boletando",
@@ -10212,20 +10221,6 @@
       "de": 299.0,
       "foto": "https://m.media-amazon.com/images/I/615U7klnYVL._AC_SL1500_.jpg",
       "titulo": "Power bank portátil para carregar o celular na rua"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB45745391",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/1bWux1D",
-      "link_produto": "https://www.mercadolivre.com.br/mochila-viagem-40l-grande-expansivel-antifurto-impermeavel-aviao-mala-de-mao-item-pessoal-masculina-feminina-yorepek-liso/p/MLB45745391",
-      "post_origem": "https://t.me/lobaopromo/190556",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_811368-MLA116853651215_082026-O.webp",
-      "nome": "Mochila Viagem 40L Grande Expansível Antifurto Impermeável Aviao Mala",
-      "de": 200.0,
-      "por": 115.0,
-      "cupom": "ECONOMIZEI",
-      "titulo": "Mochila grande expansível para viagens e voos"
     }
   ],
   "lixeira": [],
@@ -10941,5 +10936,5 @@
     }
   },
   "aviso_ml": "2026-10-17",
-  "vitrine_marca": "0bf14ecf80b0"
+  "vitrine_marca": "849970c01bf7"
 }
