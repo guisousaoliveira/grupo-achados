@@ -2639,21 +2639,21 @@
   "radar": {
     "visto": {
       "xetdaspromocoes": 85297,
-      "lobaopromo": 190656,
-      "gatunopromos": 125837,
+      "lobaopromo": 190661,
+      "gatunopromos": 125840,
       "pobregram": 42053,
       "urubupromo": 41803,
       "tudonapromo": 102224,
       "promonocontext": 127821,
-      "promooeasy": 223287,
+      "promooeasy": 223298,
       "aquitempechincha": 282261,
-      "infoBRpromos": 67721,
-      "boletando": 76865,
+      "infoBRpromos": 67724,
+      "boletando": 76866,
       "promotop": 260396,
       "achadosdotb": 11787
     },
     "dia": "2026-10-17",
-    "hoje": 0,
+    "hoje": 1,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -4846,30 +4846,31 @@
       "mercadolivre:MLB50507430",
       "amazon:B07GM8DVYB",
       "mercadolivre:MLB36221657",
-      "amazon:B08ZFKB8ZK"
+      "amazon:B08ZFKB8ZK",
+      "mercadolivre:MLB28765604"
     ],
     "ultima": {
-      "em": "2026-10-17T00:00:27-03:00",
+      "em": "2026-10-17T00:10:20-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 17,
-      "do_nicho": 2,
-      "repetidas": 2,
-      "novas": 0,
+      "posts_novos": 27,
+      "do_nicho": 1,
+      "repetidas": 0,
+      "novas": 1,
       "limite_dia": false,
       "repetidas_nome": 0,
       "promobit": 0,
-      "soltas": 2,
-      "na_peneira": 4
+      "soltas": 0,
+      "na_peneira": 5
     },
     "hora": "2026-10-17T00",
-    "nesta_hora": 0,
+    "nesta_hora": 1,
     "promobit_hora": "2026-10-17T00",
     "promobit_nesta_hora": 0,
-    "promobit_visto": 3120654,
+    "promobit_visto": 3120659,
     "nomes": [
       [
         [
@@ -7650,6 +7651,27 @@
         "palavra": "alicate",
         "garimpado_em": "2026-10-16T23:30-03:00",
         "nota": 44.9
+      },
+      {
+        "loja": "mercadolivre",
+        "chave": "mercadolivre:MLB28765604",
+        "origem": "promooeasy",
+        "link": "https://www.mercadolivre.com.br/parafusadeira-e-furadeira-de-impacto-38-wap-k21-id02-2000-mah/p/MLB28765604?matt_word=alphapromo&matt_tool=59136903",
+        "link_produto": "https://www.mercadolivre.com.br/parafusadeira-e-furadeira-de-impacto-38-wap-k21-id02-2000-mah/p/MLB28765604",
+        "post_origem": "https://t.me/promooeasy/223296",
+        "link_canal": "https://www.mercadolivre.com.br/parafusadeira-e-furadeira-de-impacto-38-wap-k21-id02-2000-mah/p/MLB28765604?matt_word=promoeasynv&amp;matt_tool=88963738",
+        "foto": "https://cdn1.telesco.pe/file/AItjVUpFd1q6mFbKGHkz8KEdc0uWFoPQ6GrOOeA7fCFQG4sUwQA4tKIXRvV95XEOKKvEBJ6zKpM4tI3SbwcRxBawI4M7xIFodZmG4x6tyh97_U5EqKTvGrIZkTYG0_FM5P_PnP7IeMWLyJ8L90SZDSdqXh3aUc1jqkDvc8h-YmyEnm8dO3V5Ji2vaskoKb52uzFBDSDTogG9QVjKB7Whw0FlwPfyipwLlUHKogAWV_Xf-_r2KKz31ScYGwpL58THo-b5Nh0-_jZeLxW4hWYf_qf92YuVc_9PaMS4AcCkAOyaJiwMC54Akses_UAlk9R0dSEMSWmgbkGFH42PL111cw.jpg",
+        "foto_origem": "canal",
+        "nome": "Parafusadeira e Furadeira de Impacto 3/8\" WAP K21 ID02 2000 mAh",
+        "de": 260.0,
+        "por": 159.2,
+        "lido_ia": true,
+        "cupom": "RESGATEFULL1710",
+        "sem_preco_loja": true,
+        "loja_abriu": false,
+        "palavra": "parafusadeira",
+        "garimpado_em": "2026-10-17T00:10-03:00",
+        "nota": 54.5
       }
     ],
     "soltas_hora": "2026-10-17T00",
