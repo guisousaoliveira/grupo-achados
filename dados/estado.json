@@ -193,6 +193,28 @@
       "aprovado_em": "2026-10-17T00:21-03:00"
     },
     {
+      "loja": "amazon",
+      "chave": "amazon:B0CXVBVT83",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0CXVBVT83?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0CXVBVT83?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/caixa-de-som-party-box-aiwa-bluetooth-luzes-multicores-aws-pb-04-party-box-aws-pb-04-bivolt-3120535/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3120535/",
+      "nome": "Caixa de Som Party Box, Aiwa, Bluetooth, Luzes Multicores",
+      "por": 1499.0,
+      "de": 2299.0,
+      "foto": "https://m.media-amazon.com/images/I/81iKOC6sJJL._AC_SL1500_.jpg",
+      "foto_origem": "loja",
+      "palavra": "caixa de som",
+      "garimpado_em": "2026-10-16T22:20-03:00",
+      "nota": 48.0,
+      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
+      "titulo": "Caixa de som Bluetooth para animar festas e churrascos",
+      "na_revisao_desde": "2026-10-17T00:00-03:00",
+      "aprovado_em": "2026-10-17T00:32-03:00"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB60012839",
       "origem": "promooeasy",
@@ -2686,29 +2708,6 @@
       "id": 726,
       "na_revisao_desde": "2026-10-16T23:50-03:00",
       "msg_id": 1232
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0CXVBVT83",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B0CXVBVT83?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0CXVBVT83?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/caixa-de-som-party-box-aiwa-bluetooth-luzes-multicores-aws-pb-04-party-box-aws-pb-04-bivolt-3120535/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3120535/",
-      "nome": "Caixa de Som Party Box, Aiwa, Bluetooth, Luzes Multicores",
-      "por": 1499.0,
-      "de": 2299.0,
-      "foto": "https://m.media-amazon.com/images/I/81iKOC6sJJL._AC_SL1500_.jpg",
-      "foto_origem": "loja",
-      "palavra": "caixa de som",
-      "garimpado_em": "2026-10-16T22:20-03:00",
-      "nota": 48.0,
-      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
-      "titulo": "Caixa de som Bluetooth para animar festas e churrascos",
-      "id": 728,
-      "na_revisao_desde": "2026-10-17T00:00-03:00",
-      "msg_id": 1234
     }
   ],
   "proximo_id": 735,
@@ -9511,7 +9510,7 @@
       },
       "promobit": {
         "achados": 18,
-        "aprovados": 9,
+        "aprovados": 10,
         "reprovados": 7
       },
       "promonocontext": {
@@ -9632,7 +9631,7 @@
     },
     "caixa de som": {
       "achados": 20,
-      "aprovados": 2,
+      "aprovados": 3,
       "reprovados": 16
     },
     "caixa termica": {
@@ -9961,7 +9960,7 @@
       "23": 4
     },
     "2026-10-17": {
-      "0": 4
+      "0": 5
     }
   },
   "aviso_ml": "2026-10-16",
