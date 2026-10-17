@@ -313,6 +313,27 @@
       "aprovado_em": "2026-10-17T15:00-03:00"
     },
     {
+      "loja": "amazon",
+      "chave": "amazon:B09TNLP1PP",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B09TNLP1PP?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B09TNLP1PP?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/ray-ban-oculos-de-sol-rb2140-original-wayfarer-classico-pretoverde-50-mm-3121782/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3121782/",
+      "nome": "Ray-Ban Óculos de sol RB2140 Original Wayfarer Clássico pretoverde 50",
+      "por": 586.59,
+      "de": 790.5,
+      "foto": "AgACAgQAAxkDAAIFI2rTw49xwaDLQr2xD8JE1wABWGYmUQACgQ9rG3W_7FDQKDneO2eFQQEAAwIAA3kAAz0E",
+      "foto_origem": "loja",
+      "palavra": "oculos de sol",
+      "garimpado_em": "2026-10-17T15:30-03:00",
+      "nota": 49.0,
+      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
+      "na_revisao_desde": "2026-10-17T15:50-03:00",
+      "aprovado_em": "2026-10-17T15:56-03:00"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:1541994310.22098699572",
       "nome": "Maquina De Barbear e Aparador Pelos Elétrico 3 Em 1 Kemei 6558",
@@ -3369,28 +3390,6 @@
       "id": 792,
       "na_revisao_desde": "2026-10-17T15:50-03:00",
       "msg_id": 1314
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B09TNLP1PP",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B09TNLP1PP?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B09TNLP1PP?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/ray-ban-oculos-de-sol-rb2140-original-wayfarer-classico-pretoverde-50-mm-3121782/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3121782/",
-      "nome": "Ray-Ban Óculos de sol RB2140 Original Wayfarer Clássico pretoverde 50",
-      "por": 586.59,
-      "de": 790.5,
-      "foto": "AgACAgQAAxkDAAIFI2rTw49xwaDLQr2xD8JE1wABWGYmUQACgQ9rG3W_7FDQKDneO2eFQQEAAwIAA3kAAz0E",
-      "foto_origem": "loja",
-      "palavra": "oculos de sol",
-      "garimpado_em": "2026-10-17T15:30-03:00",
-      "nota": 49.0,
-      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
-      "id": 793,
-      "na_revisao_desde": "2026-10-17T15:50-03:00",
-      "msg_id": 1315
     }
   ],
   "proximo_id": 794,
@@ -10302,7 +10301,7 @@
       },
       "promobit": {
         "achados": 11,
-        "aprovados": 4,
+        "aprovados": 5,
         "reprovados": 6
       },
       "shopee": {
@@ -10506,7 +10505,7 @@
     },
     "oculos de sol": {
       "achados": 17,
-      "aprovados": 3,
+      "aprovados": 4,
       "reprovados": 9
     },
     "oneblade": {
@@ -10749,7 +10748,7 @@
       "12": 5,
       "13": 11,
       "14": 7,
-      "15": 6
+      "15": 7
     }
   },
   "aviso_ml": "2026-10-17",
