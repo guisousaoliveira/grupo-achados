@@ -3154,30 +3154,6 @@
     },
     {
       "loja": "amazon",
-      "chave": "amazon:B0D98WR6YM",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B0D98WR6YM?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0D98WR6YM?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/philips-walita-fritadeira-airfryer-serie-2000-62l-painel-touch-220v-3121306/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3121306/",
-      "nome": "Philips Walita Fritadeira Airfryer Série 2000 6,2L",
-      "por": 351.9,
-      "de": 699.9,
-      "cupom": "ESQUENTA15",
-      "foto": "https://images-na.ssl-images-amazon.com/images/P/B0D98WR6YM.01.LZZZZZZZ.jpg",
-      "foto_origem": "loja",
-      "palavra": "airfryer",
-      "garimpado_em": "2026-10-17T11:50-03:00",
-      "nota": 68.3,
-      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
-      "titulo": "Airfryer grande para preparar refeições para a família",
-      "id": 761,
-      "na_revisao_desde": "2026-10-17T11:50-03:00",
-      "msg_id": 1275
-    },
-    {
-      "loja": "amazon",
       "chave": "amazon:B00GY2LASO",
       "origem": "promooeasy",
       "link": "https://www.amazon.com.br/dp/B00GY2LASO?tag=alphadominu09-20",
@@ -9750,6 +9726,31 @@
   ],
   "lixeira": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B0D98WR6YM",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0D98WR6YM?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0D98WR6YM?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/philips-walita-fritadeira-airfryer-serie-2000-62l-painel-touch-220v-3121306/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3121306/",
+      "nome": "Philips Walita Fritadeira Airfryer Série 2000 6,2L",
+      "por": 351.9,
+      "de": 699.9,
+      "cupom": "ESQUENTA15",
+      "foto": "https://images-na.ssl-images-amazon.com/images/P/B0D98WR6YM.01.LZZZZZZZ.jpg",
+      "foto_origem": "loja",
+      "palavra": "airfryer",
+      "garimpado_em": "2026-10-17T11:50-03:00",
+      "nota": 68.3,
+      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
+      "titulo": "Airfryer grande para preparar refeições para a família",
+      "id": 761,
+      "na_revisao_desde": "2026-10-17T11:50-03:00",
+      "removido_em": "2026-10-17T12:58:54-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:317326895.18899895828",
       "nome": "Formas Descartáveis 200 Unidades Para Air Fryer em Papel Forneavél Para Fornos e Microondas",
@@ -10689,30 +10690,6 @@
       "na_revisao_desde": "2026-10-15T13:41-03:00",
       "removido_em": "2026-10-15T21:30:19-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB74678961",
-      "origem": "xetdaspromocoes",
-      "link": "https://www.mercadolivre.com.br/mochila-jiesipote-9242-prova-dagua-reforcada-expansivel-cor-preto/p/MLB74678961?matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/mochila-jiesipote-9242-prova-dagua-reforcada-expansivel-cor-preto/p/MLB74678961",
-      "post_origem": "https://t.me/xetdaspromocoes/85012",
-      "link_canal": "https://meli.la/2Soeyhf",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_974980-MLA112776013576_062026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Mochila jiesipote-9242 À Prova D'água Reforçada Expansível Cor Preto",
-      "pix": true,
-      "de": 289.0,
-      "por": 76.0,
-      "cupom": "FULL1510",
-      "palavra": "mochila",
-      "garimpado_em": "2026-10-15T12:50-03:00",
-      "nota": 100.3,
-      "titulo": "Mochila à prova d'água para o dia a dia",
-      "id": 608,
-      "na_revisao_desde": "2026-10-15T13:41-03:00",
-      "removido_em": "2026-10-15T21:30:19-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -10970,7 +10947,7 @@
       "promobit": {
         "achados": 7,
         "aprovados": 1,
-        "reprovados": 4
+        "reprovados": 5
       },
       "shopee": {
         "achados": 10,
@@ -11244,7 +11221,7 @@
     "airfryer": {
       "achados": 10,
       "aprovados": 1,
-      "reprovados": 5
+      "reprovados": 6
     },
     "kit barba": {
       "achados": 1,
