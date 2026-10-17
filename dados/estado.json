@@ -399,6 +399,28 @@
       "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
       "na_revisao_desde": "2026-10-17T15:21-03:00",
       "aprovado_em": "2026-10-17T15:33-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB4536721878",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/13qZv16",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-4536721878-creatina-pura-500g-pre-treino-300g-shaker-600ml-_JM?pdp_filters=item_id%3AMLB4536721878",
+      "post_origem": "https://t.me/lobaopromo/190950",
+      "link_canal": "https://meli.la/2knWfPu",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_639792-MLB89353357500_082025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Creatina Pura 500g + Pré Treino 300g + Shaker 600ml",
+      "por": 78.9,
+      "lido_ia": true,
+      "preco_conferido": true,
+      "palavra": "creatina",
+      "garimpado_em": "2026-10-17T14:41-03:00",
+      "nota": 53.4,
+      "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto",
+      "na_revisao_desde": "2026-10-17T15:31-03:00",
+      "de": 177.2,
+      "aprovado_em": "2026-10-17T15:34-03:00"
     }
   ],
   "postados": [
@@ -3337,28 +3359,6 @@
       "id": 790,
       "na_revisao_desde": "2026-10-17T15:31-03:00",
       "msg_id": 1312
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB4536721878",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/13qZv16",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-4536721878-creatina-pura-500g-pre-treino-300g-shaker-600ml-_JM?pdp_filters=item_id%3AMLB4536721878",
-      "post_origem": "https://t.me/lobaopromo/190950",
-      "link_canal": "https://meli.la/2knWfPu",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_639792-MLB89353357500_082025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Creatina Pura 500g + Pré Treino 300g + Shaker 600ml",
-      "por": 78.9,
-      "lido_ia": true,
-      "preco_conferido": true,
-      "palavra": "creatina",
-      "garimpado_em": "2026-10-17T14:41-03:00",
-      "nota": 53.4,
-      "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto",
-      "id": 791,
-      "na_revisao_desde": "2026-10-17T15:31-03:00",
-      "msg_id": 1313
     }
   ],
   "proximo_id": 792,
@@ -10389,7 +10389,7 @@
       },
       "lobaopromo": {
         "achados": 11,
-        "aprovados": 5,
+        "aprovados": 6,
         "reprovados": 2
       },
       "urubupromo": {
@@ -10518,7 +10518,7 @@
     },
     "creatina": {
       "achados": 28,
-      "aprovados": 14,
+      "aprovados": 15,
       "reprovados": 11
     },
     "cueca": {
@@ -10821,7 +10821,7 @@
       "12": 5,
       "13": 11,
       "14": 7,
-      "15": 4
+      "15": 5
     }
   },
   "aviso_ml": "2026-10-17",
