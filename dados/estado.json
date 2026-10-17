@@ -2710,28 +2710,6 @@
       "id": 730,
       "na_revisao_desde": "2026-10-17T00:20-03:00",
       "msg_id": 1236
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0FNGMWY42",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B0FNGMWY42?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0FNGMWY42?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/dux-whey-proten-concentrado-churros-3120450/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3120450/",
-      "nome": "Dux - WHEY PROTEN CONCENTRADO CHURROS",
-      "por": 12.0,
-      "foto": "AgACAgQAAxkDAAIE12rS6-ycJu-N81XUIjIIrdiie77AAAL7DmsbDS2dUt_3whk2_J-JAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "palavra": "whey",
-      "garimpado_em": "2026-10-16T21:40-03:00",
-      "nota": 33.1,
-      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
-      "titulo": "Whey Dux de churros para a rotina",
-      "id": 733,
-      "na_revisao_desde": "2026-10-17T00:30-03:00",
-      "msg_id": 1239
     }
   ],
   "proximo_id": 735,
@@ -8387,6 +8365,29 @@
   ],
   "lixeira": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B0FNGMWY42",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0FNGMWY42?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0FNGMWY42?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/dux-whey-proten-concentrado-churros-3120450/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3120450/",
+      "nome": "Dux - WHEY PROTEN CONCENTRADO CHURROS",
+      "por": 12.0,
+      "foto": "AgACAgQAAxkDAAIE12rS6-ycJu-N81XUIjIIrdiie77AAAL7DmsbDS2dUt_3whk2_J-JAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "palavra": "whey",
+      "garimpado_em": "2026-10-16T21:40-03:00",
+      "nota": 33.1,
+      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
+      "titulo": "Whey Dux de churros para a rotina",
+      "id": 733,
+      "na_revisao_desde": "2026-10-17T00:30-03:00",
+      "removido_em": "2026-10-17T00:31:50-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB6665273098",
       "origem": "lobaopromo",
@@ -9312,28 +9313,6 @@
       "na_revisao_desde": "2026-10-15T10:41-03:00",
       "removido_em": "2026-10-15T21:30:19-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0F7XDPRRR",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B0F7XDPRRR?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0F7XDPRRR?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/invicta-relogio-masculino-de-aco-inoxidavel-de-40-mm-3115490/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3115490/",
-      "nome": "Invicta Relógio masculino de aço inoxidável de 40 mm",
-      "por": 284.0,
-      "foto": "AgACAgQAAxkDAAID0GrQ1_xIvs6j7qIrUh1XKXPV6QdcAALZDmsbE2WNUney_YWg9qwbAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "palavra": "relogio masculino",
-      "garimpado_em": "2026-10-15T09:10-03:00",
-      "nota": 37.2,
-      "titulo": "Invicta de aço para compor um visual elegante",
-      "id": 595,
-      "na_revisao_desde": "2026-10-15T10:41-03:00",
-      "removido_em": "2026-10-15T21:30:19-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -9534,7 +9513,7 @@
       "promobit": {
         "achados": 18,
         "aprovados": 8,
-        "reprovados": 6
+        "reprovados": 7
       },
       "promonocontext": {
         "achados": 12,
@@ -9820,7 +9799,7 @@
     "whey": {
       "achados": 14,
       "aprovados": 3,
-      "reprovados": 8
+      "reprovados": 9
     },
     "relogio masculino": {
       "achados": 10,
