@@ -218,6 +218,28 @@
       "preco_sem_cupom": 124.9,
       "aprovado_sozinho": true,
       "aprovado_em": "2026-10-17T00:30-03:00"
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B07GM8DVYB",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B07GM8DVYB?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B07GM8DVYB?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/gillette-mach3-sensitive-carga-aparelho-de-barbear-com-aloe-4-unidades-3120616/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3120616/",
+      "nome": "Gillette Mach3 Sensitive Carga Aparelho De Barbear Com Aloe 4 Unidades",
+      "por": 39.99,
+      "de": 55.13,
+      "foto": "https://m.media-amazon.com/images/I/61c5gyQ0IZL._AC_SL1200_.jpg",
+      "foto_origem": "loja",
+      "palavra": "barbear",
+      "garimpado_em": "2026-10-16T23:20-03:00",
+      "nota": 45.3,
+      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
+      "titulo": "Aparelho e cargas para barbear sem irritação na pele",
+      "na_revisao_desde": "2026-10-17T00:20-03:00",
+      "aprovado_em": "2026-10-17T00:32-03:00"
     }
   ],
   "postados": [
@@ -2687,29 +2709,6 @@
       "id": 728,
       "na_revisao_desde": "2026-10-17T00:00-03:00",
       "msg_id": 1234
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B07GM8DVYB",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B07GM8DVYB?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B07GM8DVYB?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/gillette-mach3-sensitive-carga-aparelho-de-barbear-com-aloe-4-unidades-3120616/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3120616/",
-      "nome": "Gillette Mach3 Sensitive Carga Aparelho De Barbear Com Aloe 4 Unidades",
-      "por": 39.99,
-      "de": 55.13,
-      "foto": "https://m.media-amazon.com/images/I/61c5gyQ0IZL._AC_SL1200_.jpg",
-      "foto_origem": "loja",
-      "palavra": "barbear",
-      "garimpado_em": "2026-10-16T23:20-03:00",
-      "nota": 45.3,
-      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
-      "titulo": "Aparelho e cargas para barbear sem irritação na pele",
-      "id": 730,
-      "na_revisao_desde": "2026-10-17T00:20-03:00",
-      "msg_id": 1236
     }
   ],
   "proximo_id": 735,
@@ -9512,7 +9511,7 @@
       },
       "promobit": {
         "achados": 18,
-        "aprovados": 8,
+        "aprovados": 9,
         "reprovados": 7
       },
       "promonocontext": {
@@ -9608,7 +9607,7 @@
     },
     "barbear": {
       "achados": 3,
-      "aprovados": 0,
+      "aprovados": 1,
       "reprovados": 2
     },
     "barra fixa": {
@@ -9962,7 +9961,7 @@
       "23": 4
     },
     "2026-10-17": {
-      "0": 3
+      "0": 4
     }
   },
   "aviso_ml": "2026-10-16",
