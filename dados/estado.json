@@ -323,31 +323,6 @@
       "titulo": "Kit de cuecas boxer em algodão macio",
       "aprovado_sozinho": true,
       "aprovado_em": "2026-10-17T13:20-03:00"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB4503718165",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/24rqf6j",
-      "link_produto": "https://www.mercadolivre.com.br/tenis-masculino-voyage-iii-oakley/up/MLBU3817137481?pdp_filters=item_id%3AMLB4503718165",
-      "post_origem": "https://t.me/lobaopromo/190851",
-      "link_canal": "https://meli.la/2ktGxq5",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_792370-MLB113711458145_062026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Tenis Masculino Voyage Iii Oakley Off White Liso 43 Br",
-      "cupom_loja": "Resgate o cupom de 30% OFF do anuncio",
-      "de": 450.0,
-      "por": 229.0,
-      "lido_ia": true,
-      "preco_loja": 328.2,
-      "palavra": "tenis masculino",
-      "garimpado_em": "2026-10-17T12:00-03:00",
-      "nota": 70.7,
-      "motivo_revisao": "o post diz R$ 229,00 e a loja mostra R$ 328,20, e não tem cupom ou Pix que explique a diferença",
-      "titulo": "Oakley Voyage para compor seu estilo casual",
-      "na_revisao_desde": "2026-10-17T13:03-03:00",
-      "cupom": "Resgate o cupom de 30% OFF do anuncio",
-      "aprovado_em": "2026-10-17T13:48-03:00"
     }
   ],
   "postados": [
@@ -2960,6 +2935,21 @@
       "foto": "https://http2.mlstatic.com/D_NQ_NP_978484-MLA88402100997_072025-O.webp",
       "secao": "casa",
       "slot": 13.2,
+      "foto_site_ok": true
+    },
+    {
+      "chave": "mercadolivre:MLB4503718165",
+      "loja": "mercadolivre",
+      "nome": "Tenis Masculino Voyage Iii Oakley Off White Liso 43 Br",
+      "data": "2026-10-17T13:48-03:00",
+      "link": "https://meli.la/24rqf6j",
+      "link_produto": "https://www.mercadolivre.com.br/tenis-masculino-voyage-iii-oakley/up/MLBU3817137481?pdp_filters=item_id%3AMLB4503718165",
+      "titulo": "Oakley Voyage para compor seu estilo casual",
+      "de": 450.0,
+      "por": 229.0,
+      "cupom": "Resgate o cupom de 30% OFF do anuncio",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_792370-MLB113711458145_062026-O.webp",
+      "secao": "estilo",
       "foto_site_ok": true
     }
   ],
@@ -9145,6 +9135,21 @@
   "ultimos": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB4503718165",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/24rqf6j",
+      "link_produto": "https://www.mercadolivre.com.br/tenis-masculino-voyage-iii-oakley/up/MLBU3817137481?pdp_filters=item_id%3AMLB4503718165",
+      "post_origem": "https://t.me/lobaopromo/190851",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_792370-MLB113711458145_062026-O.webp",
+      "nome": "Tenis Masculino Voyage Iii Oakley Off White Liso 43 Br",
+      "cupom_loja": "Resgate o cupom de 30% OFF do anuncio",
+      "de": 450.0,
+      "por": 229.0,
+      "titulo": "Oakley Voyage para compor seu estilo casual",
+      "cupom": "Resgate o cupom de 30% OFF do anuncio"
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB24459321",
       "origem": "promooeasy",
       "link": "https://meli.la/1EqrsZT",
@@ -9670,19 +9675,6 @@
       "origem": "shopee",
       "fonte": "shopee",
       "titulo": "Interruptor inteligente para controlar a iluminação por voz"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0H8R6S35S",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0H8R6S35S?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0H8R6S35S?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/223164",
-      "foto": "AgACAgQAAxkDAAIEumrSqkZQVteNZOY605zZOCxo_RnSAAI7D2sb2Ts1UbKDgKs_gRAGAQADAgADeQADPQQ",
-      "nome": "Halteres Ajustáveis Kit 6 em 1 até 10 kg com Barra Longa",
-      "pix": true,
-      "por": 169.0,
-      "titulo": "Kit de halteres ajustáveis para treinar em casa"
     }
   ],
   "lixeira": [
@@ -10406,5 +10398,5 @@
     }
   },
   "aviso_ml": "2026-10-17",
-  "vitrine_marca": "c84ff032180e"
+  "vitrine_marca": "ee94a6576991"
 }
