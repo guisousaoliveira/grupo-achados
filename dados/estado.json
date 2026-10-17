@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "shopee",
-      "chave": "shopee:230709939.42279627399",
-      "nome": "Controle remoto compatível com Google TV Chromecast 4K 2020-2024 (com comando de voz)",
-      "por": 23.21,
-      "de": 33.16,
-      "foto": "https://cf.shopee.com.br/file/sg-11134301-8262y-ml7t601a0uf77a",
-      "link": "https://s.shopee.com.br/9V2IGA16JH",
-      "link_produto": "https://shopee.com.br/product/230709939/42279627399",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.7,
-      "vendas": 102,
-      "palavra": "chromecast",
-      "garimpado_em": "2026-10-16T18:30-03:00",
-      "nota": 55.1,
-      "titulo": "Controle remoto com comando de voz para Chromecast",
-      "aprovado_sozinho": true,
-      "aprovado_em": "2026-10-16T18:50-03:00"
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB7192331052",
       "origem": "lobaopromo",
@@ -2394,6 +2372,21 @@
       "secao": "casa",
       "slot": 21.3,
       "foto_site_ok": true
+    },
+    {
+      "chave": "shopee:230709939.42279627399",
+      "loja": "shopee",
+      "nome": "Controle remoto compatível com Google TV Chromecast 4K 2020-2024 (com comando de voz)",
+      "data": "2026-10-16T22:11-03:00",
+      "link": "https://s.shopee.com.br/9V2IGA16JH",
+      "link_produto": "https://shopee.com.br/product/230709939/42279627399",
+      "titulo": "Controle remoto com comando de voz para Chromecast",
+      "de": 33.16,
+      "por": 23.21,
+      "foto": "https://cf.shopee.com.br/file/sg-11134301-8262y-ml7t601a0uf77a",
+      "secao": "tech",
+      "slot": 22,
+      "foto_site_ok": true
     }
   ],
   "slots_usados": {
@@ -2518,7 +2511,8 @@
       21,
       21.1,
       21.2,
-      21.3
+      21.3,
+      22
     ]
   },
   "shopee_buscado_em": "",
@@ -7712,6 +7706,19 @@
   },
   "ultimos": [
     {
+      "loja": "shopee",
+      "chave": "shopee:230709939.42279627399",
+      "nome": "Controle remoto compatível com Google TV Chromecast 4K 2020-2024 (com comando de voz)",
+      "por": 23.21,
+      "de": 33.16,
+      "foto": "https://cf.shopee.com.br/file/sg-11134301-8262y-ml7t601a0uf77a",
+      "link": "https://s.shopee.com.br/9V2IGA16JH",
+      "link_produto": "https://shopee.com.br/product/230709939/42279627399",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "titulo": "Controle remoto com comando de voz para Chromecast"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB57814615",
       "origem": "xetdaspromocoes",
@@ -8236,19 +8243,6 @@
       "parcelas": 12,
       "por": 1133.84,
       "titulo": "Huawei Watch para treinar semanas sem precisar carregar"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB3250794241",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/2SoTzRd",
-      "link_produto": "https://meli.la/2SoTzRd",
-      "post_origem": "https://t.me/lobaopromo/190219",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_756141-MLB103947190342_012026-O.webp",
-      "nome": "Kit 5 Short De Dormir Cueca Samba Canção Malha Fria Pijama",
-      "de": 78.0,
-      "por": 55.0,
-      "titulo": "Shorts de malha fria para dormir sem calor"
     }
   ],
   "lixeira": [
@@ -9840,5 +9834,5 @@
     }
   },
   "aviso_ml": "2026-10-16",
-  "vitrine_marca": "cc61b9c80150"
+  "vitrine_marca": "962361615a80"
 }
