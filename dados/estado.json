@@ -182,6 +182,50 @@
       "titulo": "Airfryer grande para preparar refeições para a família",
       "aprovado_sozinho": true,
       "aprovado_em": "2026-10-17T12:01-03:00"
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:1385382926.21697974917",
+      "nome": "Tênis Masculino presente NATAL ANO NOVO Super confortável - Envio Imediato.",
+      "por": 50.99,
+      "de": 299.94,
+      "foto": "https://cf.shopee.com.br/file/br-11134207-7r98o-m1onm1jj0h5d63",
+      "link": "https://s.shopee.com.br/3Vl6Z61AvY",
+      "link_produto": "https://shopee.com.br/product/1385382926/21697974917",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.9,
+      "vendas": 1262,
+      "palavra": "tenis masculino",
+      "garimpado_em": "2026-10-17T12:01-03:00",
+      "nota": 89.4,
+      "titulo": "Tênis confortável para o dia a dia",
+      "aprovado_sozinho": true,
+      "aprovado_em": "2026-10-17T12:20-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB35200276",
+      "origem": "promonocontext",
+      "link": "https://www.mercadolivre.com.br/kit-ferramentas-200-pecas-c-maleta-titanium-chaves-alicates-martelos-serra-aco-carbono-diy-oficina-casa/p/MLB35200276?matt_word=alphapromo&matt_tool=59136903",
+      "link_produto": "https://www.mercadolivre.com.br/kit-ferramentas-200-pecas-c-maleta-titanium-chaves-alicates-martelos-serra-aco-carbono-diy-oficina-casa/p/MLB35200276",
+      "post_origem": "https://t.me/promonocontext/127971",
+      "link_canal": "https://meli.la/1KJy5K2",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_994504-MLA100021825311_122025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Kit Ferramentas 200 Peças c/ Maleta Titanium",
+      "de": 129.0,
+      "por": 63.0,
+      "lido_ia": true,
+      "preco_conferido": true,
+      "palavra": "ferramenta",
+      "garimpado_em": "2026-10-17T11:40-03:00",
+      "nota": 71.3,
+      "titulo": "Kit completo de ferramentas para reparos domésticos essencia",
+      "aprovado_sozinho": true,
+      "aprovado_em": "2026-10-17T12:20-03:00"
     }
   ],
   "postados": [
@@ -3174,16 +3218,16 @@
       "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto"
     }
   ],
-  "proximo_id": 765,
+  "proximo_id": 767,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 85355,
-      "lobaopromo": 190865,
-      "gatunopromos": 125930,
+      "xetdaspromocoes": 85356,
+      "lobaopromo": 190875,
+      "gatunopromos": 125932,
       "pobregram": 42064,
       "urubupromo": 41811,
-      "tudonapromo": 102267,
-      "promonocontext": 127999,
+      "tudonapromo": 102272,
+      "promonocontext": 128000,
       "promooeasy": 223531,
       "aquitempechincha": 282348,
       "infoBRpromos": 67750,
@@ -5484,31 +5528,31 @@
       "shopee:1816836837.58263972253",
       "shopee:758422642.23498864499",
       "mercadolivre:MLB5232800294",
-      "mercadolivre:MLB18615748"
+      "mercadolivre:MLB18615748",
+      "shopee:1059412251.22998163314"
     ],
     "ultima": {
-      "em": "2026-10-17T12:10:20-03:00",
+      "em": "2026-10-17T12:20:27-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 56,
-      "do_nicho": 3,
-      "repetidas": 1,
-      "novas": 1,
+      "posts_novos": 31,
+      "do_nicho": 2,
+      "repetidas": 2,
+      "novas": 0,
       "limite_dia": false,
       "repetidas_nome": 0,
       "promobit": 0,
-      "fora_do_nicho": 1,
-      "soltas": 0,
-      "na_peneira": 24
+      "soltas": 2,
+      "na_peneira": 22
     },
     "hora": "2026-10-17T12",
     "nesta_hora": 4,
     "promobit_hora": "2026-10-17T12",
     "promobit_nesta_hora": 1,
-    "promobit_visto": 3121365,
+    "promobit_visto": 3121389,
     "nomes": [
       [
         [
@@ -8588,6 +8632,29 @@
           "2l"
         ],
         "2026-10-17T12:01-03:00"
+      ],
+      [
+        [
+          "tenis",
+          "presente",
+          "natal",
+          "ano",
+          "super",
+          "confortavel",
+          "envio",
+          "imediato"
+        ],
+        "2026-10-17T12:20-03:00"
+      ],
+      [
+        [
+          "ferramentas",
+          "200",
+          "pecas",
+          "maleta",
+          "titanium"
+        ],
+        "2026-10-17T12:20-03:00"
       ]
     ],
     "peneira": [
@@ -8802,25 +8869,6 @@
       },
       {
         "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB35200276",
-        "origem": "promonocontext",
-        "link": "https://www.mercadolivre.com.br/kit-ferramentas-200-pecas-c-maleta-titanium-chaves-alicates-martelos-serra-aco-carbono-diy-oficina-casa/p/MLB35200276?matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/kit-ferramentas-200-pecas-c-maleta-titanium-chaves-alicates-martelos-serra-aco-carbono-diy-oficina-casa/p/MLB35200276",
-        "post_origem": "https://t.me/promonocontext/127971",
-        "link_canal": "https://meli.la/1KJy5K2",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_994504-MLA100021825311_122025-O.webp",
-        "foto_origem": "loja",
-        "nome": "Kit Ferramentas 200 Peças c/ Maleta Titanium",
-        "de": 129.0,
-        "por": 63.0,
-        "lido_ia": true,
-        "preco_conferido": true,
-        "palavra": "ferramenta",
-        "garimpado_em": "2026-10-17T11:40-03:00",
-        "nota": 71.3
-      },
-      {
-        "loja": "mercadolivre",
         "chave": "mercadolivre:MLB4988014387",
         "origem": "xetdaspromocoes",
         "link": "https://www.mercadolivre.com.br/kit-growth-whey-protein-basic-chocolate-1kg--coqueteleira-shaker-academia-preta-600ml/up/MLBU4552152529?pdp_filters=item_id%3AMLB4988014387&matt_word=alphapromo&matt_tool=59136903",
@@ -8992,25 +9040,6 @@
       },
       {
         "loja": "shopee",
-        "chave": "shopee:1385382926.21697974917",
-        "nome": "Tênis Masculino presente NATAL ANO NOVO Super confortável - Envio Imediato.",
-        "por": 50.99,
-        "de": 299.94,
-        "foto": "https://cf.shopee.com.br/file/br-11134207-7r98o-m1onm1jj0h5d63",
-        "link": "https://s.shopee.com.br/3Vl6Z61AvY",
-        "link_produto": "https://shopee.com.br/product/1385382926/21697974917",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 4.9,
-        "vendas": 1262,
-        "palavra": "tenis masculino",
-        "garimpado_em": "2026-10-17T12:01-03:00",
-        "nota": 89.4
-      },
-      {
-        "loja": "shopee",
         "chave": "shopee:1816836837.58263972253",
         "nome": "Kit Óculos de Sol Masculino UV400 Preto Polarizado Estilo Quadrado Moderno Leve",
         "por": 30.38,
@@ -9048,19 +9077,38 @@
         "palavra": "whey",
         "garimpado_em": "2026-10-17T12:10-03:00",
         "nota": 36.4
+      },
+      {
+        "loja": "shopee",
+        "chave": "shopee:1059412251.22998163314",
+        "nome": "Bicicleta Ergométrica Vertical Gallant Flow (GBE1HBTB-PT)",
+        "por": 242.0,
+        "de": 806.67,
+        "foto": "https://cf.shopee.com.br/file/sg-11134201-7rbmq-m5keaexhjf8ece",
+        "link": "https://s.shopee.com.br/Lo4odNQp7",
+        "link_produto": "https://shopee.com.br/product/1059412251/22998163314",
+        "origem": "shopee",
+        "fonte": "shopee",
+        "foto_origem": "loja",
+        "shopee_api": true,
+        "avaliacao": 4.8,
+        "vendas": 359,
+        "palavra": "bicicleta ergometrica",
+        "garimpado_em": "2026-10-17T12:20-03:00",
+        "nota": 85.8
       }
     ],
     "soltas_hora": "2026-10-17T12",
-    "soltas": 2,
-    "shopee_em": "2026-10-17T12:01-03:00",
-    "shopee_indice": 80,
+    "soltas": 4,
+    "shopee_em": "2026-10-17T12:20-03:00",
+    "shopee_indice": 88,
     "soltas_dia_data": "2026-10-17",
-    "soltas_dia": 33,
+    "soltas_dia": 35,
     "soltas_loja": {
-      "shopee": 1,
-      "mercadolivre": 1
+      "shopee": 2,
+      "mercadolivre": 2
     },
-    "soltas_vez": "2026-10-17T12:0"
+    "soltas_vez": "2026-10-17T12:1"
   },
   "ultimos": [
     {
@@ -10823,12 +10871,12 @@
         "reprovados": 1
       },
       "shopee": {
-        "achados": 9,
+        "achados": 10,
         "aprovados": 0,
         "reprovados": 0
       },
       "promonocontext": {
-        "achados": 2,
+        "achados": 3,
         "aprovados": 0,
         "reprovados": 0
       },
@@ -10844,7 +10892,7 @@
       }
     }
   },
-  "aviso_post": "2026-10-17 11:12|amazon:B0CXVBVT83",
+  "aviso_post": "2026-10-17 12:23|amazon:B07GM8DVYB",
   "garimpo_palavras": {
     "academia": {
       "achados": 31,
@@ -10972,7 +11020,7 @@
       "reprovados": 1
     },
     "ferramenta": {
-      "achados": 10,
+      "achados": 11,
       "aprovados": 3,
       "reprovados": 5
     },
@@ -11062,7 +11110,7 @@
       "reprovados": 4
     },
     "tenis masculino": {
-      "achados": 3,
+      "achados": 4,
       "aprovados": 1,
       "reprovados": 2
     },
@@ -11248,9 +11296,9 @@
       "9": 3,
       "10": 3,
       "11": 1,
-      "12": 1
+      "12": 3
     }
   },
-  "aviso_ml": "2026-10-16",
+  "aviso_ml": "2026-10-17",
   "vitrine_marca": "a405bed6d38a"
 }
