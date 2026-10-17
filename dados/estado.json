@@ -189,6 +189,28 @@
       "titulo": "Mochila grande expansível para viagens e voos",
       "na_revisao_desde": "2026-10-16T22:09-03:00",
       "aprovado_em": "2026-10-16T22:10-03:00"
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0C9QSV82F",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0C9QSV82F?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0C9QSV82F?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/geonav-power-bank-carregador-portatil-universal-por-inducao-10000mah-carregamento-rapido-suporte-dobravel-compativel-com-magsafe-pb10mags-3120260/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3120260/",
+      "nome": "Geonav Power Bank",
+      "por": 149.89,
+      "de": 299.0,
+      "foto": "https://m.media-amazon.com/images/I/615U7klnYVL._AC_SL1500_.jpg",
+      "foto_origem": "loja",
+      "palavra": "power bank",
+      "garimpado_em": "2026-10-16T20:10-03:00",
+      "nota": 63.0,
+      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
+      "titulo": "Power bank portátil para carregar o celular na rua",
+      "na_revisao_desde": "2026-10-16T22:09-03:00",
+      "aprovado_em": "2026-10-16T22:10-03:00"
     }
   ],
   "postados": [
@@ -2525,29 +2547,6 @@
       "na_revisao_desde": "2026-10-16T22:08-03:00",
       "msg_id": 1217,
       "reconferido_em": "2026-10-16T22:09-03:00"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0C9QSV82F",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B0C9QSV82F?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0C9QSV82F?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/geonav-power-bank-carregador-portatil-universal-por-inducao-10000mah-carregamento-rapido-suporte-dobravel-compativel-com-magsafe-pb10mags-3120260/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3120260/",
-      "nome": "Geonav Power Bank",
-      "por": 149.89,
-      "de": 299.0,
-      "foto": "https://m.media-amazon.com/images/I/615U7klnYVL._AC_SL1500_.jpg",
-      "foto_origem": "loja",
-      "palavra": "power bank",
-      "garimpado_em": "2026-10-16T20:10-03:00",
-      "nota": 63.0,
-      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
-      "titulo": "Power bank portátil para carregar o celular na rua",
-      "id": 719,
-      "na_revisao_desde": "2026-10-16T22:09-03:00",
-      "msg_id": 1220
     }
   ],
   "proximo_id": 720,
@@ -9400,7 +9399,7 @@
       },
       "promobit": {
         "achados": 12,
-        "aprovados": 5,
+        "aprovados": 6,
         "reprovados": 5
       },
       "promonocontext": {
@@ -9639,7 +9638,7 @@
     },
     "power bank": {
       "achados": 14,
-      "aprovados": 3,
+      "aprovados": 4,
       "reprovados": 8
     },
     "pre treino": {
@@ -9839,7 +9838,7 @@
       "17": 3,
       "18": 2,
       "19": 1,
-      "22": 4
+      "22": 5
     }
   },
   "aviso_ml": "2026-10-16",
