@@ -2,29 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB18726361",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/2LXJ18t",
-      "link_produto": "https://www.mercadolivre.com.br/creatina-em-po-100g-creapure-growth-supplements/p/MLB18726361",
-      "post_origem": "https://t.me/lobaopromo/190615",
-      "link_canal": "https://meli.la/2VsvnVD",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_659835-MLA98760176203_112025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Creatina Em Pó 100g Creapure Growth Supplements",
-      "de": 109.0,
-      "por": 69.23,
-      "lido_ia": true,
-      "preco_loja": 69.23,
-      "palavra": "creatina",
-      "garimpado_em": "2026-10-16T21:50-03:00",
-      "nota": 78.6,
-      "motivo_revisao": "o post diz R$ 59,00 e a loja mostra R$ 69,23, e não tem cupom ou Pix que explique a diferença",
-      "titulo": "Creatina Creapure Growth para ganho de força",
-      "na_revisao_desde": "2026-10-16T23:00-03:00",
-      "aprovado_em": "2026-10-16T23:02-03:00"
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B0F3PT467Y",
       "origem": "promobit",
@@ -2610,6 +2587,21 @@
       "secao": "casa",
       "slot": 8,
       "foto_site_ok": true
+    },
+    {
+      "chave": "mercadolivre:MLB18726361",
+      "loja": "mercadolivre",
+      "nome": "Creatina Em Pó 100g Creapure Growth Supplements",
+      "data": "2026-10-17T08:32-03:00",
+      "link": "https://meli.la/2LXJ18t",
+      "link_produto": "https://www.mercadolivre.com.br/creatina-em-po-100g-creapure-growth-supplements/p/MLB18726361",
+      "titulo": "Creatina Creapure Growth para ganho de força",
+      "de": 109.0,
+      "por": 69.23,
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_659835-MLA98760176203_112025-O.webp",
+      "secao": "academia",
+      "slot": 8.1,
+      "foto_site_ok": true
     }
   ],
   "slots_usados": {
@@ -2745,7 +2737,8 @@
       23.3
     ],
     "2026-10-17": [
-      8
+      8,
+      8.1
     ]
   },
   "shopee_buscado_em": "",
@@ -7968,6 +7961,19 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB18726361",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/2LXJ18t",
+      "link_produto": "https://www.mercadolivre.com.br/creatina-em-po-100g-creapure-growth-supplements/p/MLB18726361",
+      "post_origem": "https://t.me/lobaopromo/190615",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_659835-MLA98760176203_112025-O.webp",
+      "nome": "Creatina Em Pó 100g Creapure Growth Supplements",
+      "de": 109.0,
+      "por": 69.23,
+      "titulo": "Creatina Creapure Growth para ganho de força"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0BLSZW19L",
       "origem": "lobaopromo",
@@ -8489,20 +8495,6 @@
       "de": 200.0,
       "por": 63.0,
       "titulo": "Kit Polo Wear em microfibra para uso diário"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB69665003",
-      "origem": "promonocontext",
-      "link": "https://meli.la/1aFKrxa",
-      "link_produto": "https://www.mercadolivre.com.br/maquina-de-corte-acabamento-profissional-com-aparador-de-nariz-cabelo-pelo-barbear-maquininha-detalhes-sem-fio-preto-catalogo/p/MLB69665003",
-      "post_origem": "https://t.me/promonocontext/127680",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_904181-MLA110739785462_052026-O.webp",
-      "nome": "Máquina De Corte Acabamento Profissional Com Aparador De Nariz Cabelo",
-      "de": 129.0,
-      "por": 57.0,
-      "cupom": "ATIVE O CUPOM NA PAGINA",
-      "titulo": "Máquina para cabelo e barba com aparador nasal"
     }
   ],
   "lixeira": [
@@ -10135,5 +10127,5 @@
     }
   },
   "aviso_ml": "2026-10-16",
-  "vitrine_marca": "2611188e249d"
+  "vitrine_marca": "1fad0651a594"
 }
