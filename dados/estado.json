@@ -2571,32 +2571,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB6665273098",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/2F9bEgN",
-      "link_produto": "https://www.mercadolivre.com.br/churrasqueira-bafinho-tambor-portatil-com-grelha-churrassco/up/MLBU3926125150?pdp_filters=item_id%3AMLB6665273098",
-      "post_origem": "https://t.me/lobaopromo/190635",
-      "link_canal": "https://meli.la/2Em15Ac",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_971064-MLB111964187256_062026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Churrasqueira Bafinho Tambor Portátil Com Grelha Churrassco Preto",
-      "de": 77.0,
-      "por": 57.0,
-      "lido_ia": true,
-      "preco_loja": 67.13,
-      "palavra": "churrasqueira",
-      "garimpado_em": "2026-10-16T22:50-03:00",
-      "nota": 67.3,
-      "motivo_revisao": "o post diz R$ 57,00 e a loja mostra R$ 67,13, e não tem cupom ou Pix que explique a diferença",
-      "titulo": "Churrasqueira portátil para assar carne na varanda",
-      "id": 724,
-      "na_revisao_desde": "2026-10-16T23:30-03:00",
-      "msg_id": 1228
-    }
-  ],
+  "revisar": [],
   "proximo_id": 726,
   "radar": {
     "visto": {
@@ -8224,6 +8199,31 @@
   ],
   "lixeira": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB6665273098",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/2F9bEgN",
+      "link_produto": "https://www.mercadolivre.com.br/churrasqueira-bafinho-tambor-portatil-com-grelha-churrassco/up/MLBU3926125150?pdp_filters=item_id%3AMLB6665273098",
+      "post_origem": "https://t.me/lobaopromo/190635",
+      "link_canal": "https://meli.la/2Em15Ac",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_971064-MLB111964187256_062026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Churrasqueira Bafinho Tambor Portátil Com Grelha Churrassco Preto",
+      "de": 77.0,
+      "por": 57.0,
+      "lido_ia": true,
+      "preco_loja": 67.13,
+      "palavra": "churrasqueira",
+      "garimpado_em": "2026-10-16T22:50-03:00",
+      "nota": 67.3,
+      "motivo_revisao": "o post diz R$ 57,00 e a loja mostra R$ 67,13, e não tem cupom ou Pix que explique a diferença",
+      "titulo": "Churrasqueira portátil para assar carne na varanda",
+      "id": 724,
+      "na_revisao_desde": "2026-10-16T23:30-03:00",
+      "removido_em": "2026-10-16T23:49:20-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0B8PDL7D4",
       "origem": "promobit",
@@ -9146,28 +9146,6 @@
       "na_revisao_desde": "2026-10-15T10:41-03:00",
       "removido_em": "2026-10-15T21:30:19-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB4589990049",
-      "origem": "xetdaspromocoes",
-      "link": "https://www.mercadolivre.com.br/kit-4-cuecas-algodao-polo-wear-sortido/up/MLBU3892480246?pdp_filters=item_id%3AMLB4589990049&matt_word=alphapromo&matt_tool=59136903",
-      "link_produto": "https://www.mercadolivre.com.br/kit-4-cuecas-algodao-polo-wear-sortido/up/MLBU3892480246?pdp_filters=item_id%3AMLB4589990049",
-      "post_origem": "https://t.me/xetdaspromocoes/84949",
-      "link_canal": "https://meli.la/1JGy2s6",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_906047-MLB111188885833_052026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Kit 4 Cuecas Algodão Polo Wear Sortido Sortido Liso M",
-      "de": 129.0,
-      "por": 68.0,
-      "palavra": "cueca",
-      "garimpado_em": "2026-10-15T10:20-03:00",
-      "nota": 58.9,
-      "titulo": "Cuecas de algodão que garantem conforto diário",
-      "id": 594,
-      "na_revisao_desde": "2026-10-15T10:41-03:00",
-      "removido_em": "2026-10-15T21:30:19-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -9378,7 +9356,7 @@
       "lobaopromo": {
         "achados": 18,
         "aprovados": 13,
-        "reprovados": 1
+        "reprovados": 2
       },
       "promooeasy": {
         "achados": 13,
@@ -9772,7 +9750,7 @@
     "churrasqueira": {
       "achados": 3,
       "aprovados": 2,
-      "reprovados": 0
+      "reprovados": 1
     },
     "pre-treino": {
       "achados": 1,
