@@ -188,6 +188,15 @@ def validar_formato(post):
     return erros
 
 
+def data_alvo():
+    """Dia do post: hoje, ou o dia pedido em DATA_ALVO (AAAA-MM-DD) pra deixar o post de amanhã pronto antes."""
+    agora = datetime.now(BRT)
+    pedido = os.environ.get("DATA_ALVO", "").strip()
+    if not pedido:
+        return agora
+    return datetime.strptime(pedido, "%Y-%m-%d").replace(hour=agora.hour, minute=agora.minute, tzinfo=BRT)
+
+
 def pedido_de_refazer():
     """Quando você recusa e manda o motivo, a Íris dispara de novo com MOTIVO e PASTA: vira correção obrigatória."""
     motivo = os.environ.get("MOTIVO", "").strip()
@@ -238,7 +247,7 @@ def main():
     if not (os.environ.get("GEMINI_LEGIAO_KEY") or os.environ.get("CLAUDE_CODE_OAUTH_TOKEN")):
         print("Falta o secret GEMINI_LEGIAO_KEY (ou CLAUDE_CODE_OAUTH_TOKEN); a Legião não roda.")
         return
-    agora = datetime.now(BRT)
+    agora = data_alvo()
     historico = json.loads(HISTORICO.read_text(encoding="utf-8")) if HISTORICO.exists() else []
     if os.environ.get("MOTIVO"):  # refazendo: o tema recusado de hoje não conta como "já postado"
         historico = [h for h in historico if h.get("data") != agora.strftime("%Y-%m-%d")]

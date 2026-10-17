@@ -78,14 +78,16 @@ def refazer(pasta, status, sha, motivo):
     """Manda a Legião fazer de novo esse post, levando em conta o motivo da recusa."""
     status["aguardando_motivo"] = False
     gravar_status(pasta, status, sha)
-    disparar("legiao.yml", {"tipo": status.get("tipo", "carrossel"), "motivo": motivo[:900], "pasta": pasta})
+    disparar("legiao.yml", {"tipo": status.get("tipo", "carrossel"), "motivo": motivo[:900], "pasta": pasta,
+                            "data": status.get("dia", pasta[:10])})
 
 
 def ler_motivo(texto):
     """Sua mensagem depois de um ❌ vira o motivo, e a Legião refaz o post."""
     hoje = datetime.now(BRT)
     candidatos = []
-    for dia in (hoje.strftime("%Y-%m-%d"), (hoje - timedelta(days=1)).strftime("%Y-%m-%d")):
+    for dia in ((hoje + timedelta(days=1)).strftime("%Y-%m-%d"), hoje.strftime("%Y-%m-%d"),
+                (hoje - timedelta(days=1)).strftime("%Y-%m-%d")):
         for pasta in (dia, f"{dia}-reel"):
             status, sha = ler_status(pasta)
             if status and status.get("aguardando_motivo"):
@@ -107,8 +109,9 @@ def gerar_carrossel_do_dia(dia):
     """Aprovou o Reel: já gera o carrossel do dia (se ainda não foi gerado), sem esperar as 15h."""
     if ler_status(dia)[0]:
         return
-    disparar("legiao.yml", {"tipo": "carrossel"})
-    avisar("🦁 Já estou fazendo o carrossel de hoje; chega aqui em alguns minutos pra você aprovar.")
+    disparar("legiao.yml", {"tipo": "carrossel", "data": dia})
+    quando = "de hoje" if dia == datetime.now(BRT).strftime("%Y-%m-%d") else f"do dia {dia[8:10]}/{dia[5:7]}"
+    avisar(f"🦁 Já estou fazendo o carrossel {quando}; chega aqui em alguns minutos pra você aprovar.")
 
 
 def disparar(workflow, inputs=None):
@@ -151,8 +154,10 @@ def tratar_update(u):
             status["recusado_em"] = datetime.now(BRT).isoformat()
         gravar_status(dia, status, sha)
     agora = datetime.now(BRT)
-    ja_passou = agora.hour >= int(status.get("horario", 18)) or status.get("dia", "") < agora.strftime("%Y-%m-%d")
-    resposta = {"aprovado": "✅ Aprovado! Posto em instantes." if ja_passou else f"✅ Aprovado! Posto às {status.get('horario', 18)}h.",
+    dia_post, hoje = status.get("dia", dia[:10]), agora.strftime("%Y-%m-%d")
+    ja_passou = dia_post < hoje or (dia_post == hoje and agora.hour >= int(status.get("horario", 18)))
+    quando = f"às {status.get('horario', 18)}h" if dia_post <= hoje else f"dia {dia_post[8:10]}/{dia_post[5:7]} às {status.get('horario', 18)}h"
+    resposta = {"aprovado": "✅ Aprovado! Posto em instantes." if ja_passou else f"✅ Aprovado! Posto {quando}.",
                 "recusado": "❌ Recusado, não vou postar."}.get(status["status"], "Esse já foi postado.")
     tg_tanto_faz("answerCallbackQuery", {"callback_query_id": cb["id"], "text": resposta})
     m = cb.get("message") or {}

@@ -23,6 +23,10 @@ on:
         description: "1 = só manda a prévia, sem guardar nem pedir aprovação"
         required: false
         default: ""
+      data:
+        description: "dia do post (AAAA-MM-DD); vazio = hoje. Serve pra deixar o post de amanhã pronto antes"
+        required: false
+        default: ""
 
 permissions:
   contents: write  # guarda o post na branch legiao-posts pra Íris publicar
@@ -71,6 +75,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PASTA: ${{ inputs.pasta }}
           TESTE: ${{ inputs.teste }}
+          DATA_ALVO: ${{ inputs.data }}
         run: python3 ${{ (inputs.tipo || 'carrossel') == 'reel' && 'reel.py' || 'rodar.py' }}
       - name: Guardar os temas dos Reels
         if: success() && hashFiles('legiao/historico_reel.json') != ''
