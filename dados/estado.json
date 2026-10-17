@@ -3127,27 +3127,52 @@
       "id": 772,
       "na_revisao_desde": "2026-10-17T13:03-03:00",
       "msg_id": 1290
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB35275350",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/2GLDwZW",
+      "link_produto": "https://www.mercadolivre.com.br/relogio-garmin-forerunner-165-com-monitor-cardiaco-de-pulso-e-gps-branco-e-cinza/p/MLB35275350",
+      "post_origem": "https://t.me/lobaopromo/190919",
+      "link_canal": "https://meli.la/2nHAN72",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_702610-MLA90654058401_082025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Relógio Garmin Com Monitor Cardíaco E Gps Lily 2 Active 38mm Verde",
+      "cupom_loja": "Resgate o cupom de 30% OFF do anuncio",
+      "de": 3149.0,
+      "por": 2174.0,
+      "lido_ia": true,
+      "preco_loja": 3106.0,
+      "palavra": "relogio",
+      "garimpado_em": "2026-10-17T13:30-03:00",
+      "nota": 68.1,
+      "motivo_revisao": "o post diz R$ 2.174,00 e a loja mostra R$ 3.106,00, e não tem cupom ou Pix que explique a diferença",
+      "titulo": "Monitore treinos e batimentos com precisão Garmin",
+      "id": 775,
+      "na_revisao_desde": "2026-10-17T13:31-03:00",
+      "msg_id": 1293
     }
   ],
-  "proximo_id": 775,
+  "proximo_id": 776,
   "radar": {
     "visto": {
       "xetdaspromocoes": 85370,
-      "lobaopromo": 190913,
-      "gatunopromos": 125944,
+      "lobaopromo": 190920,
+      "gatunopromos": 125945,
       "pobregram": 42064,
-      "urubupromo": 41813,
-      "tudonapromo": 102289,
-      "promonocontext": 128025,
-      "promooeasy": 223554,
-      "aquitempechincha": 282356,
+      "urubupromo": 41815,
+      "tudonapromo": 102290,
+      "promonocontext": 128029,
+      "promooeasy": 223560,
+      "aquitempechincha": 282361,
       "infoBRpromos": 67753,
       "boletando": 76874,
-      "promotop": 260418,
+      "promotop": 260419,
       "achadosdotb": 11787
     },
     "dia": "2026-10-17",
-    "hoje": 57,
+    "hoje": 59,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -5452,10 +5477,12 @@
       "mercadolivre:MLB4218586005",
       "shopee:1085770008.22098945621",
       "mercadolivre:MLB7828418544",
-      "shopee:1114702036.23097146750"
+      "shopee:1114702036.23097146750",
+      "mercadolivre:MLB35275350",
+      "mercadolivre:MLB5613363198"
     ],
     "ultima": {
-      "em": "2026-10-17T13:20:23-03:00",
+      "em": "2026-10-17T13:30:29-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
@@ -5463,19 +5490,19 @@
       "falhas": [],
       "posts_novos": 34,
       "do_nicho": 2,
-      "repetidas": 2,
-      "novas": 0,
+      "repetidas": 0,
+      "novas": 2,
       "limite_dia": false,
       "repetidas_nome": 0,
       "promobit": 0,
-      "soltas": 2,
-      "na_peneira": 22
+      "soltas": 1,
+      "na_peneira": 23
     },
     "hora": "2026-10-17T13",
-    "nesta_hora": 2,
+    "nesta_hora": 4,
     "promobit_hora": "2026-10-17T13",
     "promobit_nesta_hora": 0,
-    "promobit_visto": 3121509,
+    "promobit_visto": 3121524,
     "nomes": [
       [
         [
@@ -8673,28 +8700,22 @@
           "klein"
         ],
         "2026-10-17T13:20-03:00"
+      ],
+      [
+        [
+          "relogio",
+          "garmin",
+          "monitor",
+          "cardiaco",
+          "gps",
+          "lily",
+          "active",
+          "38mm"
+        ],
+        "2026-10-17T13:30-03:00"
       ]
     ],
     "peneira": [
-      {
-        "loja": "shopee",
-        "chave": "shopee:1704861643.58266337621",
-        "nome": "Chave De Impacto Sem Escovas 500Nm 48V Sem Fio 1/2 Pol Com 2 Baterias E Carregador Para Mecânica Automotiva",
-        "por": 165.99,
-        "de": 360.85,
-        "foto": "https://cf.shopee.com.br/file/br-11134207-820ld-msz92kbyyv46bf",
-        "link": "https://s.shopee.com.br/5VWApth3jY",
-        "link_produto": "https://shopee.com.br/product/1704861643/58266337621",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 4.8,
-        "vendas": 375,
-        "palavra": "chave de impacto",
-        "garimpado_em": "2026-10-17T10:21-03:00",
-        "nota": 76.2
-      },
       {
         "loja": "shopee",
         "chave": "shopee:1372008216.22699027435",
@@ -9116,19 +9137,38 @@
         "palavra": "maquina de barbear",
         "garimpado_em": "2026-10-17T13:20-03:00",
         "nota": 70.5
+      },
+      {
+        "loja": "mercadolivre",
+        "chave": "mercadolivre:MLB5613363198",
+        "origem": "promonocontext",
+        "link": "https://www.mercadolivre.com.br/relogio-masculino-couro-azul-caixa-prata-saint-germain-42mm/up/MLBU3378234294?pdp_filters=item_id%3AMLB5613363198&matt_word=alphapromo&matt_tool=59136903",
+        "link_produto": "https://www.mercadolivre.com.br/relogio-masculino-couro-azul-caixa-prata-saint-germain-42mm/up/MLBU3378234294?pdp_filters=item_id%3AMLB5613363198",
+        "post_origem": "https://t.me/promonocontext/128029",
+        "link_canal": "https://meli.la/23ZGeHS",
+        "foto": "https://http2.mlstatic.com/D_NQ_NP_794248-MLB90576636869_082025-O.webp",
+        "foto_origem": "loja",
+        "nome": "Relógio Masculino Couro Azul Caixa Prata Saint Germain 42mm Preto",
+        "pix": true,
+        "por": 92.0,
+        "lido_ia": true,
+        "preco_conferido": true,
+        "palavra": "relogio masculino",
+        "garimpado_em": "2026-10-17T13:30-03:00",
+        "nota": 47.3
       }
     ],
     "soltas_hora": "2026-10-17T13",
-    "soltas": 4,
+    "soltas": 5,
     "shopee_em": "2026-10-17T13:20-03:00",
     "shopee_indice": 12,
     "soltas_dia_data": "2026-10-17",
-    "soltas_dia": 43,
+    "soltas_dia": 44,
     "soltas_loja": {
       "shopee": 2,
-      "mercadolivre": 2
+      "mercadolivre": 3
     },
-    "soltas_vez": "2026-10-17T13:1"
+    "soltas_vez": "2026-10-17T13:2"
   },
   "ultimos": [
     {
@@ -10924,7 +10964,7 @@
         "reprovados": 0
       },
       "lobaopromo": {
-        "achados": 7,
+        "achados": 8,
         "aprovados": 3,
         "reprovados": 1
       },
@@ -11138,7 +11178,7 @@
       "reprovados": 2
     },
     "relogio": {
-      "achados": 18,
+      "achados": 19,
       "aprovados": 7,
       "reprovados": 7
     },
