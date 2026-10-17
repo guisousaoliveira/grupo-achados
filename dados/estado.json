@@ -2,30 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB6907847024",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/21g9c8T",
-      "link_produto": "https://www.mercadolivre.com.br/relogio-masculino-couro-aco-inoxidavel-preto-social/up/MLBU4045655127?pdp_filters=item_id%3AMLB6907847024",
-      "post_origem": "https://t.me/lobaopromo/190577",
-      "link_canal": "https://meli.la/2jHhjyJ",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_910571-MLB116279629539_082026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Relogio Masculino Couro Aco Inoxidavel Preto Social Preto Prateado",
-      "de": 82.0,
-      "por": 30.0,
-      "lido_ia": true,
-      "cupom": "CUPOMON",
-      "preco_loja": 54.99,
-      "palavra": "relogio masculino",
-      "garimpado_em": "2026-10-16T20:40-03:00",
-      "nota": 91.8,
-      "motivo_revisao": "o post diz R$ 30,00 e a loja mostra R$ 54,99, e não tem cupom ou Pix que explique a diferença",
-      "titulo": "Relógio social sóbrio para usar no trabalho",
-      "na_revisao_desde": "2026-10-16T22:08-03:00",
-      "aprovado_em": "2026-10-16T22:10-03:00"
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B0BLSZW19L",
       "origem": "lobaopromo",
@@ -2585,6 +2561,20 @@
       "conferido": true,
       "foto": "https://http2.mlstatic.com/D_NQ_NP_754380-MLA117622146633_092026-O.webp",
       "secao": "carro",
+      "foto_site_ok": true
+    },
+    {
+      "chave": "mercadolivre:MLB6907847024",
+      "loja": "mercadolivre",
+      "nome": "Relogio Masculino Couro Aco Inoxidavel Preto Social Preto Prateado",
+      "data": "2026-10-17T05:11-03:00",
+      "link": "https://meli.la/21g9c8T",
+      "link_produto": "https://www.mercadolivre.com.br/relogio-masculino-couro-aco-inoxidavel-preto-social/up/MLBU4045655127?pdp_filters=item_id%3AMLB6907847024",
+      "titulo": "Relógio social sóbrio para usar no trabalho",
+      "de": 82.0,
+      "por": 38.49,
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_910571-MLB116279629539_082026-O.webp",
+      "secao": "relogios",
       "foto_site_ok": true
     }
   ],
@@ -7792,6 +7782,19 @@
   "ultimos": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB6907847024",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/21g9c8T",
+      "link_produto": "https://www.mercadolivre.com.br/relogio-masculino-couro-aco-inoxidavel-preto-social/up/MLBU4045655127?pdp_filters=item_id%3AMLB6907847024",
+      "post_origem": "https://t.me/lobaopromo/190577",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_910571-MLB116279629539_082026-O.webp",
+      "nome": "Relogio Masculino Couro Aco Inoxidavel Preto Social Preto Prateado",
+      "de": 82.0,
+      "por": 38.49,
+      "titulo": "Relógio social sóbrio para usar no trabalho"
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB74933617",
       "origem": "promooeasy",
       "link": "https://meli.la/1rnd29A",
@@ -8314,19 +8317,6 @@
       "de": 159.0,
       "titulo": "Proteção solar UV400 com armação em acetato",
       "cupom": "Aplique o Cupom de R$ 10 OFF no Anúncio  (logo abaixo do preço)"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB7218965676",
-      "origem": "promonocontext",
-      "link": "https://meli.la/1cHHDPs",
-      "link_produto": "https://www.mercadolivre.com.br/relogio-poedagar-suico--masculino-aco-inox-old-money-ccaixa/up/MLBU4370134385?pdp_filters=item_id%3AMLB7218965676",
-      "post_origem": "https://t.me/promonocontext/127634",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_760581-MLB114915939023_072026-O.webp",
-      "nome": "Relógio Poedagar Suiço Masculino Aço Inox Old Money C/caixa Branco",
-      "de": 249.0,
-      "por": 95.0,
-      "titulo": "Visual old money com acabamento em aço inox"
     }
   ],
   "lixeira": [
@@ -9953,5 +9943,5 @@
     }
   },
   "aviso_ml": "2026-10-16",
-  "vitrine_marca": "2a982878f720"
+  "vitrine_marca": "8132697aeeb1"
 }
