@@ -212,7 +212,7 @@ SECOES_SITE = [  # ordem importa: a primeira que bater fica (ex.: "câmera veicu
              r"cozinha|faca|grill|forno|micro.?ondas|ventilador|colch[aã]o|travesseiro|cadeira|mesa|ferramenta|furadeira|"
              r"parafusadeira|jardim|copo|t[eé]rmic|chaleira|sanduicheira|organizador"),
     ("estilo", r"camisa|camiseta|cal[cç]a|bermuda|jaqueta|moletom|t[eê]nis|sapat|bota|mochila|carteira|[oó]culos|cinto|"
-               r"bon[eé]|meia|cueca|polo|blazer|mala|bolsa|pochete|chinelo"),
+               r"bon[eé]|meia|cueca|polo|blazer|mala|bolsa|pochete|chinelo|colar|corrente|pulseira|alfaiataria"),
 ]
 
 
