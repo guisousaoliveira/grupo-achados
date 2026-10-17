@@ -3024,23 +3024,74 @@
       "id": 757,
       "na_revisao_desde": "2026-10-17T11:01-03:00",
       "msg_id": 1270
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:1574084758.58205868634",
+      "nome": "Gaabor Air Fryer 2,8L 800W 360° Ar Quente Timer 60 Min 200°C Antiaderente Sem BPA 8 Menus AF-35M02A",
+      "por": 209.0,
+      "de": 696.67,
+      "foto": "AgACAgQAAxkDAAIE-GrThEuefvLoU-XC9flocDeLuhZKAALkDGsbH7ZVUoHY-WKqxsL-AQADAgADeAADPQQ",
+      "link": "https://s.shopee.com.br/4qGU5RxZm3",
+      "link_produto": "https://shopee.com.br/product/1574084758/58205868634",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.9,
+      "vendas": 809,
+      "palavra": "air fryer",
+      "garimpado_em": "2026-10-17T11:01-03:00",
+      "nota": 89.1,
+      "motivo_revisao": "a fila já está com muita Shopee (metade ou mais)",
+      "titulo": "Fritadeira compacta para refeições práticas sem óleo",
+      "id": 758,
+      "na_revisao_desde": "2026-10-17T11:20-03:00",
+      "msg_id": 1272
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB70102902",
+      "origem": "urubupromo",
+      "link": "https://meli.la/2CnWqKa",
+      "link_produto": "https://www.mercadolivre.com.br/caixa-de-som-boombox-sabala-bluetooth-54-portatil-potente-dr909-200w-estereo-39000mah-app-20khz-tws-ipx66-preto/p/MLB70102902",
+      "post_origem": "https://t.me/urubupromo/41806",
+      "link_canal": "https://meli.la/1Eokm7q",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_614188-MLA116522689453_082026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Caixa De Som Boombox sabala Bluetooth 5.4 Portátil potente dr909 200w",
+      "pix": true,
+      "por": 1127.0,
+      "lido_ia": true,
+      "cupom": "SITE50",
+      "preco_conferido": true,
+      "preco_cupom": true,
+      "preco_sem_cupom": 1173.0,
+      "palavra": "caixa de som",
+      "garimpado_em": "2026-10-17T10:30-03:00",
+      "nota": 38.7,
+      "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto",
+      "titulo": "Som potente de 200W para qualquer ambiente",
+      "id": 759,
+      "na_revisao_desde": "2026-10-17T11:21-03:00",
+      "msg_id": 1273
     }
   ],
-  "proximo_id": 758,
+  "proximo_id": 760,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 85302,
-      "lobaopromo": 190807,
-      "gatunopromos": 125917,
+      "xetdaspromocoes": 85303,
+      "lobaopromo": 190811,
+      "gatunopromos": 125918,
       "pobregram": 42063,
-      "urubupromo": 41808,
-      "tudonapromo": 102245,
-      "promonocontext": 127950,
-      "promooeasy": 223488,
-      "aquitempechincha": 282326,
-      "infoBRpromos": 67746,
+      "urubupromo": 41809,
+      "tudonapromo": 102246,
+      "promonocontext": 127960,
+      "promooeasy": 223492,
+      "aquitempechincha": 282330,
+      "infoBRpromos": 67747,
       "boletando": 76874,
-      "promotop": 260411,
+      "promotop": 260412,
       "achadosdotb": 11787
     },
     "dia": "2026-10-17",
@@ -5303,30 +5354,33 @@
       "shopee:1574084758.58205868634",
       "shopee:811879342.19899300761",
       "shopee:811879342.22794193064",
-      "shopee:445163047.55464184185"
+      "shopee:445163047.55464184185",
+      "shopee:448670448.58268619112",
+      "shopee:1593878986.23399450989",
+      "shopee:1263962250.58217350836"
     ],
     "ultima": {
-      "em": "2026-10-17T11:10:22-03:00",
+      "em": "2026-10-17T11:20:23-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 34,
-      "do_nicho": 6,
-      "repetidas": 6,
+      "posts_novos": 45,
+      "do_nicho": 3,
+      "repetidas": 3,
       "novas": 0,
       "limite_dia": false,
       "repetidas_nome": 0,
       "promobit": 0,
-      "soltas": 0,
-      "na_peneira": 14
+      "soltas": 2,
+      "na_peneira": 12
     },
     "hora": "2026-10-17T11",
     "nesta_hora": 3,
     "promobit_hora": "2026-10-17T11",
     "promobit_nesta_hora": 0,
-    "promobit_visto": 3121228,
+    "promobit_visto": 3121260,
     "nomes": [
       [
         [
@@ -8317,6 +8371,32 @@
           "solze"
         ],
         "2026-10-17T11:01-03:00"
+      ],
+      [
+        [
+          "gaabor",
+          "air",
+          "fryer",
+          "8l",
+          "800w",
+          "360",
+          "ar",
+          "quente"
+        ],
+        "2026-10-17T11:20-03:00"
+      ],
+      [
+        [
+          "caixa",
+          "som",
+          "boombox",
+          "sabala",
+          "bluetooth",
+          "portatil",
+          "potente",
+          "dr909"
+        ],
+        "2026-10-17T11:20-03:00"
       ]
     ],
     "peneira": [
@@ -8395,28 +8475,6 @@
         "palavra": "chave de impacto",
         "garimpado_em": "2026-10-17T10:21-03:00",
         "nota": 76.2
-      },
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB70102902",
-        "origem": "urubupromo",
-        "link": "https://www.mercadolivre.com.br/caixa-de-som-boombox-sabala-bluetooth-54-portatil-potente-dr909-200w-estereo-39000mah-app-20khz-tws-ipx66-preto/p/MLB70102902?matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/caixa-de-som-boombox-sabala-bluetooth-54-portatil-potente-dr909-200w-estereo-39000mah-app-20khz-tws-ipx66-preto/p/MLB70102902",
-        "post_origem": "https://t.me/urubupromo/41806",
-        "link_canal": "https://meli.la/1Eokm7q",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_614188-MLA116522689453_082026-O.webp",
-        "foto_origem": "loja",
-        "nome": "Caixa De Som Boombox sabala Bluetooth 5.4 Portátil potente dr909 200w",
-        "pix": true,
-        "por": 1127.0,
-        "lido_ia": true,
-        "cupom": "SITE50",
-        "preco_conferido": true,
-        "preco_cupom": true,
-        "preco_sem_cupom": 1173.0,
-        "palavra": "caixa de som",
-        "garimpado_em": "2026-10-17T10:30-03:00",
-        "nota": 38.7
       },
       {
         "loja": "shopee",
@@ -8515,25 +8573,6 @@
       },
       {
         "loja": "shopee",
-        "chave": "shopee:1574084758.58205868634",
-        "nome": "Gaabor Air Fryer 2,8L 800W 360° Ar Quente Timer 60 Min 200°C Antiaderente Sem BPA 8 Menus AF-35M02A",
-        "por": 209.0,
-        "de": 696.67,
-        "foto": "https://cf.shopee.com.br/file/br-11134207-820m4-mlfsz7i49ix363",
-        "link": "https://s.shopee.com.br/4qGU5RxZm3",
-        "link_produto": "https://shopee.com.br/product/1574084758/58205868634",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 4.9,
-        "vendas": 809,
-        "palavra": "air fryer",
-        "garimpado_em": "2026-10-17T11:01-03:00",
-        "nota": 89.1
-      },
-      {
-        "loja": "shopee",
         "chave": "shopee:811879342.19899300761",
         "nome": "Air Fryer Oven Britânia 12L Bella Cuccina 1500W BCFR05",
         "por": 339.9,
@@ -8588,19 +8627,38 @@
         "palavra": "air fryer",
         "garimpado_em": "2026-10-17T11:01-03:00",
         "nota": 61.5
+      },
+      {
+        "loja": "shopee",
+        "chave": "shopee:1263962250.58217350836",
+        "nome": "Mini Liquidificador Portátil 400ML 6 Lâminas Elétrico para Sucos, Shakes e Smoothies BP-6016",
+        "por": 29.8,
+        "de": 49.67,
+        "foto": "https://cf.shopee.com.br/file/sg-11134201-825b8-mslo6cinf5dw17",
+        "link": "https://s.shopee.com.br/80DVsce3XN",
+        "link_produto": "https://shopee.com.br/product/1263962250/58217350836",
+        "origem": "shopee",
+        "fonte": "shopee",
+        "foto_origem": "loja",
+        "shopee_api": true,
+        "avaliacao": 4.7,
+        "vendas": 254,
+        "palavra": "liquidificador portatil",
+        "garimpado_em": "2026-10-17T11:21-03:00",
+        "nota": 61.1
       }
     ],
     "soltas_hora": "2026-10-17T11",
-    "soltas": 2,
-    "shopee_em": "2026-10-17T11:01-03:00",
-    "shopee_indice": 56,
+    "soltas": 4,
+    "shopee_em": "2026-10-17T11:21-03:00",
+    "shopee_indice": 64,
     "soltas_dia_data": "2026-10-17",
-    "soltas_dia": 26,
+    "soltas_dia": 28,
     "soltas_loja": {
-      "shopee": 1,
-      "mercadolivre": 1
+      "shopee": 2,
+      "mercadolivre": 2
     },
-    "soltas_vez": "2026-10-17T11:0"
+    "soltas_vez": "2026-10-17T11:1"
   },
   "ultimos": [
     {
@@ -10363,7 +10421,7 @@
         "reprovados": 1
       },
       "shopee": {
-        "achados": 7,
+        "achados": 8,
         "aprovados": 0,
         "reprovados": 0
       },
@@ -10374,6 +10432,11 @@
       },
       "lobaopromo": {
         "achados": 3,
+        "aprovados": 0,
+        "reprovados": 0
+      },
+      "urubupromo": {
+        "achados": 1,
         "aprovados": 0,
         "reprovados": 0
       }
@@ -10387,7 +10450,7 @@
       "reprovados": 18
     },
     "air fryer": {
-      "achados": 13,
+      "achados": 14,
       "aprovados": 5,
       "reprovados": 6
     },
@@ -10442,7 +10505,7 @@
       "reprovados": 5
     },
     "caixa de som": {
-      "achados": 20,
+      "achados": 21,
       "aprovados": 3,
       "reprovados": 16
     },
