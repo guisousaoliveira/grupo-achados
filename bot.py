@@ -431,6 +431,27 @@ def publicar(item):
             log(f"Hermes: não consegui avisar ({e}).")
 
 
+_FOTOS_SELO = {}
+
+
+def foto_com_selo(item, foto):
+    """Baixa a foto e cola o selo do deus curador da seção (canal e Hermes). None se não der: aí vai a foto normal."""
+    if not foto:
+        return None
+    chave = (item.get("chave"), foto)
+    if chave not in _FOTOS_SELO:
+        dados = None
+        try:
+            import selo
+            original = baixar_foto(foto)
+            if original:
+                dados = selo.carimbar(original, item.get("secao") or secao_site(item))
+        except Exception as e:  # sem Pillow ou foto estranha: segue sem selo
+            log(f"Não coloquei o selo na foto ({e}).")
+        _FOTOS_SELO[chave] = dados
+    return _FOTOS_SELO[chave]
+
+
 def publicar_no_canal(item):
     texto = montar_post(item)
     canal = segredo("TELEGRAM_CHANNEL")
@@ -446,6 +467,17 @@ def publicar_no_canal(item):
         except Exception:
             foto = None
     if foto and len(texto) <= 1024:
+        dados = foto_com_selo(item, foto)
+        if dados:
+            try:
+                enviar_multipart("sendPhoto", {"chat_id": canal, "caption": texto, "parse_mode": "HTML"},
+                                 "photo", dados, "oferta.jpg", "image/jpeg")
+                return
+            except RuntimeError as e:
+                log(f"Foto com selo falhou ({e}), tentando a foto normal.")
+            except OSError as e:  # demorou demais: pode ter saído mesmo assim, então não posta de novo
+                log(f"O Telegram demorou para postar ({e}); considero postado para não duplicar no canal.")
+                return
         if not foto_so_por_arquivo(foto):
             try:
                 telegram("sendPhoto", chat_id=canal, photo=foto, caption=texto, parse_mode="HTML")
@@ -1601,8 +1633,8 @@ def baixar_foto(foto):
         return None
 
 
-def enviar_multipart(metodo, campos, campo_arquivo, dados, nome, tipo):
-    """Manda um arquivo para o Telegram como upload (em vez de passar um endereço)."""
+def enviar_multipart(metodo, campos, campo_arquivo, dados, nome, tipo, token=None):
+    """Manda um arquivo para o Telegram como upload (em vez de passar um endereço). token: outro bot (Hermes)."""
     fronteira = "----achados" + hashlib.md5(dados[:64]).hexdigest()
     partes = []
     for campo, valor in campos.items():
@@ -1613,7 +1645,7 @@ def enviar_multipart(metodo, campos, campo_arquivo, dados, nome, tipo):
     partes.append(f'--{fronteira}\r\nContent-Disposition: form-data; name="{campo_arquivo}"; filename="{nome}"\r\n'
                   f"Content-Type: {tipo}\r\n\r\n".encode() + dados + b"\r\n")
     partes.append(f"--{fronteira}--\r\n".encode())
-    req = urllib.request.Request(f"https://api.telegram.org/bot{segredo('TELEGRAM_TOKEN')}/{metodo}",
+    req = urllib.request.Request(f"https://api.telegram.org/bot{token or segredo('TELEGRAM_TOKEN')}/{metodo}",
                                  data=b"".join(partes),
                                  headers={"Content-Type": f"multipart/form-data; boundary={fronteira}"})
     try:
