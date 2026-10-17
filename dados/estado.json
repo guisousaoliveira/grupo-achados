@@ -3000,34 +3000,6 @@
   "revisar": [
     {
       "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB49204693",
-      "origem": "promooeasy",
-      "link": "https://meli.la/2uAm8iG",
-      "link_produto": "https://www.mercadolivre.com.br/water-cooler-msi-mag-coreliquid-a12-360-argb-preto/p/MLB49204693",
-      "post_origem": "https://t.me/promooeasy/223422",
-      "link_canal": "https://www.mercadolivre.com.br/water-cooler-msi-mag-coreliquid-a12-360-argb-preto/p/MLB49204693?matt_word=promoeasynv&amp;matt_tool=88963738",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_875629-MLA84217866904_052025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Water Cooler MSI Mag Coreliquid A12 360, ARGB, Preto",
-      "parcelas": 7,
-      "por": 339.0,
-      "lido_ia": true,
-      "cupom": "OFFNOMELIHOJE",
-      "palavra": "cooler",
-      "garimpado_em": "2026-10-17T09:40-03:00",
-      "nota": 23.7,
-      "titulo": "Resfriamento líquido para processadores de alto desempenho",
-      "id": 748,
-      "na_revisao_desde": "2026-10-17T09:45-03:00",
-      "msg_id": 1259,
-      "reconferido_em": "2026-10-17T09:45-03:00",
-      "preco_conferido": true,
-      "preco_cupom": true,
-      "preco_sem_cupom": 377.77,
-      "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto"
-    },
-    {
-      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB3271283929",
       "origem": "lobaopromo",
       "link": "https://meli.la/23Ljd4X",
@@ -9627,6 +9599,35 @@
   ],
   "lixeira": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB49204693",
+      "origem": "promooeasy",
+      "link": "https://meli.la/2uAm8iG",
+      "link_produto": "https://www.mercadolivre.com.br/water-cooler-msi-mag-coreliquid-a12-360-argb-preto/p/MLB49204693",
+      "post_origem": "https://t.me/promooeasy/223422",
+      "link_canal": "https://www.mercadolivre.com.br/water-cooler-msi-mag-coreliquid-a12-360-argb-preto/p/MLB49204693?matt_word=promoeasynv&amp;matt_tool=88963738",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_875629-MLA84217866904_052025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Water Cooler MSI Mag Coreliquid A12 360, ARGB, Preto",
+      "parcelas": 7,
+      "por": 339.0,
+      "lido_ia": true,
+      "cupom": "OFFNOMELIHOJE",
+      "palavra": "cooler",
+      "garimpado_em": "2026-10-17T09:40-03:00",
+      "nota": 23.7,
+      "titulo": "Resfriamento líquido para processadores de alto desempenho",
+      "id": 748,
+      "na_revisao_desde": "2026-10-17T09:45-03:00",
+      "reconferido_em": "2026-10-17T09:45-03:00",
+      "preco_conferido": true,
+      "preco_cupom": true,
+      "preco_sem_cupom": 377.77,
+      "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto",
+      "removido_em": "2026-10-17T13:01:35-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0FXWT7BJK",
       "origem": "promobit",
@@ -10579,29 +10580,6 @@
       "na_revisao_desde": "2026-10-16T08:41-03:00",
       "removido_em": "2026-10-16T08:51:16-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B07G7RVZ1V",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B07G7RVZ1V?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B07G7RVZ1V?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/integralmedica-barra-de-proteina-whey-protein-crisp-bar-doce-de-coco-snack-proteico-pre-e-pos-treino-displa-3118131/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3118131/",
-      "nome": "Integralmédica - Barra de Proteína Whey Protein Crisp Bar Doce de",
-      "por": 57.5,
-      "de": 125.27,
-      "foto": "AgACAgQAAxkDAAIERmrSDVq2Qw1FmKr-ZiThjeWS9DSDAAK0DGsb2LhMU62gMgraLs-OAQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "palavra": "whey",
-      "garimpado_em": "2026-10-16T08:30-03:00",
-      "nota": 66.6,
-      "titulo": "Barra de proteína para consumo pós-treino prático",
-      "id": 639,
-      "na_revisao_desde": "2026-10-16T08:41-03:00",
-      "removido_em": "2026-10-16T08:51:16-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -10854,7 +10832,7 @@
       "promooeasy": {
         "achados": 8,
         "aprovados": 1,
-        "reprovados": 1
+        "reprovados": 2
       },
       "promobit": {
         "achados": 7,
@@ -10978,7 +10956,7 @@
     "cooler": {
       "achados": 7,
       "aprovados": 0,
-      "reprovados": 6
+      "reprovados": 7
     },
     "coqueteleira": {
       "achados": 2,
