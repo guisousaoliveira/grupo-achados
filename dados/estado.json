@@ -4948,8 +4948,8 @@
       "soltas": 0,
       "na_peneira": 9
     },
-    "hora": "2026-10-17T00",
-    "nesta_hora": 9,
+    "hora": "2026-10-17T01",
+    "nesta_hora": 0,
     "promobit_hora": "2026-10-17T00",
     "promobit_nesta_hora": 1,
     "promobit_visto": 3120724,
@@ -7902,7 +7902,8 @@
       "mercadolivre": 3,
       "amazon": 3
     },
-    "soltas_vez": "2026-10-17T00:3"
+    "soltas_vez": "2026-10-17T00:3",
+    "pausado": true
   },
   "ultimos": [
     {
