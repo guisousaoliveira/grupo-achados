@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "amazon",
-      "chave": "amazon:B0GPT6C2N9",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0GPT6C2N9?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0GPT6C2N9?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/223569",
-      "link_canal": "https://www.amazon.com.br/JBL-Ouvido-Open-ear-Estojo-Carregamento/dp/B0GPT6C2N9?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAIFEGrTp3K3qD5yGC4gO-iCPqoR7VLnAAKeDWsbhvDVURF420uHwyvMAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "JBL Sense Pro, Fone de Ouvido Bluetooth Open-Ear com Som Espacial - Preto",
-      "por": 759.99,
-      "lido_ia": true,
-      "preco_conferido": true,
-      "palavra": "jbl",
-      "garimpado_em": "2026-10-17T13:50-03:00",
-      "nota": 22.3,
-      "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto",
-      "na_revisao_desde": "2026-10-17T13:50-03:00",
-      "de": 999.0,
-      "aprovado_em": "2026-10-17T13:52-03:00"
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB61249562",
       "origem": "promooeasy",
@@ -3338,6 +3316,21 @@
       "secao": "academia",
       "slot": 17.2,
       "foto_site_ok": true
+    },
+    {
+      "chave": "amazon:B0GPT6C2N9",
+      "loja": "amazon",
+      "nome": "JBL Sense Pro, Fone de Ouvido Bluetooth Open-Ear com Som Espacial - Preto",
+      "data": "2026-10-17T17:55-03:00",
+      "link": "https://www.amazon.com.br/dp/B0GPT6C2N9?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0GPT6C2N9?tag=alphadominu09-20",
+      "de": 999.0,
+      "por": 759.99,
+      "conferido": true,
+      "foto": "https://raw.githubusercontent.com/guisousaoliveira/grupo-achados/main/dados/fotos/a59c76eb77.jpg",
+      "secao": "tech",
+      "slot": 17.3,
+      "foto_site_ok": true
     }
   ],
   "slots_usados": {
@@ -3507,7 +3500,8 @@
       16.3,
       17,
       17.1,
-      17.2
+      17.2,
+      17.3
     ]
   },
   "shopee_buscado_em": "",
@@ -10607,6 +10601,18 @@
   },
   "ultimos": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B0GPT6C2N9",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0GPT6C2N9?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0GPT6C2N9?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/223569",
+      "foto": "AgACAgQAAxkDAAIFEGrTp3K3qD5yGC4gO-iCPqoR7VLnAAKeDWsbhvDVURF420uHwyvMAQADAgADeAADPQQ",
+      "nome": "JBL Sense Pro, Fone de Ouvido Bluetooth Open-Ear com Som Espacial - Preto",
+      "por": 759.99,
+      "de": 999.0
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:1059412251.22998163314",
       "nome": "Bicicleta Ergométrica Vertical Gallant Flow (GBE1HBTB-PT)",
@@ -11130,19 +11136,6 @@
       "de": 82.0,
       "por": 38.49,
       "titulo": "Relógio social sóbrio para usar no trabalho"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB74933617",
-      "origem": "promooeasy",
-      "link": "https://meli.la/1rnd29A",
-      "link_produto": "https://www.mercadolivre.com.br/auxiliar-de-partida-bateria-carro-compressor-de-ar-portatil-12v-4-funcoes-em-1-inflador-digital-calibrador-pneu-power-bank-lanterna-led-emergencia-automotiva-moto-suv-bicicleta-caminhonete-midiafone/p/MLB74933617",
-      "post_origem": "https://t.me/promooeasy/223348",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_754380-MLA117622146633_092026-O.webp",
-      "nome": "Auxiliar De Partida Bateria Carro Compressor De Ar Portátil 12V 4 funções em 1",
-      "de": 390.0,
-      "por": 178.66,
-      "titulo": "Auxiliar de partida com compressor para emergências na estrada"
     }
   ],
   "lixeira": [],
@@ -11863,5 +11856,5 @@
     }
   },
   "aviso_ml": "2026-10-17",
-  "vitrine_marca": "9bfeac03a8fb"
+  "vitrine_marca": "049fcd45a958"
 }
