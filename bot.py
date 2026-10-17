@@ -540,7 +540,7 @@ def montar_post(item):
         blocos.append(f"🎟️ {e(item['cupom_loja'])}")
     loja = {"amazon": "Amazon", "mercadolivre": "Mercado Livre", "shopee": "Shopee"}.get(item.get("loja"), "")
     # Link à mostra: link escondido em texto faz o Telegram perguntar "abrir este link?" e perde clique.
-    blocos.append((f"🏪 Loja: <b>{loja}</b>\n" if loja else "") + f"👉 {e(item['link'])}")
+    blocos.append((f"🏪 Loja: <b>{loja}</b>\n" if loja else "") + e(item["link"]))
     rodape = CONFIG.get("rodape", "")
     if rodape:
         blocos.append(e(rodape))
