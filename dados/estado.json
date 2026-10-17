@@ -395,6 +395,28 @@
       "aprovado_em": "2026-10-17T15:34-03:00"
     },
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB5613363198",
+      "origem": "promonocontext",
+      "link": "https://meli.la/2N8wU3V",
+      "link_produto": "https://www.mercadolivre.com.br/relogio-masculino-couro-azul-caixa-prata-saint-germain-42mm/up/MLBU3378234294?pdp_filters=item_id%3AMLB5613363198",
+      "post_origem": "https://t.me/promonocontext/128029",
+      "link_canal": "https://meli.la/23ZGeHS",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_794248-MLB90576636869_082025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Relógio Masculino Couro Azul Caixa Prata Saint Germain 42mm Preto",
+      "pix": true,
+      "por": 92.0,
+      "lido_ia": true,
+      "preco_conferido": true,
+      "palavra": "relogio masculino",
+      "garimpado_em": "2026-10-17T13:30-03:00",
+      "nota": 47.3,
+      "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto",
+      "na_revisao_desde": "2026-10-17T16:00-03:00",
+      "aprovado_em": "2026-10-17T16:22-03:00"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:1832084394.58268216325",
       "nome": "Disco de Desbaste de Madeira 100mm, alta durabilidade, para esmerilhadeira",
@@ -3435,31 +3457,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB5613363198",
-      "origem": "promonocontext",
-      "link": "https://meli.la/2N8wU3V",
-      "link_produto": "https://www.mercadolivre.com.br/relogio-masculino-couro-azul-caixa-prata-saint-germain-42mm/up/MLBU3378234294?pdp_filters=item_id%3AMLB5613363198",
-      "post_origem": "https://t.me/promonocontext/128029",
-      "link_canal": "https://meli.la/23ZGeHS",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_794248-MLB90576636869_082025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Relógio Masculino Couro Azul Caixa Prata Saint Germain 42mm Preto",
-      "pix": true,
-      "por": 92.0,
-      "lido_ia": true,
-      "preco_conferido": true,
-      "palavra": "relogio masculino",
-      "garimpado_em": "2026-10-17T13:30-03:00",
-      "nota": 47.3,
-      "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto",
-      "id": 795,
-      "na_revisao_desde": "2026-10-17T16:00-03:00",
-      "msg_id": 1318
-    }
-  ],
+  "revisar": [],
   "proximo_id": 798,
   "radar": {
     "visto": {
@@ -10393,7 +10391,7 @@
       },
       "promonocontext": {
         "achados": 4,
-        "aprovados": 1,
+        "aprovados": 2,
         "reprovados": 0
       },
       "lobaopromo": {
@@ -10652,7 +10650,7 @@
     },
     "relogio masculino": {
       "achados": 12,
-      "aprovados": 5,
+      "aprovados": 6,
       "reprovados": 4
     },
     "jogo de soquete": {
@@ -10831,7 +10829,7 @@
       "13": 11,
       "14": 7,
       "15": 8,
-      "16": 3
+      "16": 4
     }
   },
   "aviso_ml": "2026-10-17",
