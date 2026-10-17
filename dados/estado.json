@@ -2383,13 +2383,13 @@
   "radar": {
     "visto": {
       "xetdaspromocoes": 85280,
-      "lobaopromo": 190595,
-      "gatunopromos": 125808,
+      "lobaopromo": 190598,
+      "gatunopromos": 125809,
       "pobregram": 42044,
       "urubupromo": 41798,
       "tudonapromo": 102224,
-      "promonocontext": 127791,
-      "promooeasy": 223207,
+      "promonocontext": 127792,
+      "promooeasy": 223210,
       "aquitempechincha": 282246,
       "infoBRpromos": 67719,
       "boletando": 76860,
@@ -2397,7 +2397,7 @@
       "achadosdotb": 11787
     },
     "dia": "2026-10-16",
-    "hoje": 133,
+    "hoje": 134,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -4569,27 +4569,28 @@
       "amazon:B0DKJJQLK6",
       "amazon:B0799M31S3",
       "mercadolivre:MLB39956201",
-      "mercadolivre:MLB45444859"
+      "mercadolivre:MLB45444859",
+      "amazon:B0BLSZW19L"
     ],
     "ultima": {
-      "em": "2026-10-16T21:10:21-03:00",
-      "pedido": "",
-      "forcado": false,
+      "em": "2026-10-16T21:14:47-03:00",
+      "pedido": "cd0118e8da",
+      "forcado": true,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 14,
-      "do_nicho": 2,
+      "posts_novos": 8,
+      "do_nicho": 3,
       "repetidas": 2,
-      "novas": 0,
+      "novas": 1,
       "limite_dia": false,
       "repetidas_nome": 0,
       "promobit": 0,
       "soltas": 0,
-      "na_peneira": 19
+      "na_peneira": 20
     },
     "hora": "2026-10-16T21",
-    "nesta_hora": 2,
+    "nesta_hora": 3,
     "promobit_hora": "2026-10-16T21",
     "promobit_nesta_hora": 1,
     "promobit_visto": 3120411,
@@ -7471,6 +7472,27 @@
         "palavra": "termogenico",
         "garimpado_em": "2026-10-16T21:00-03:00",
         "nota": 36.1
+      },
+      {
+        "loja": "amazon",
+        "chave": "amazon:B0BLSZW19L",
+        "origem": "lobaopromo",
+        "link": "https://www.amazon.com.br/dp/B0BLSZW19L?tag=alphadominu09-20",
+        "link_produto": "https://www.amazon.com.br/dp/B0BLSZW19L?tag=alphadominu09-20",
+        "post_origem": "https://t.me/lobaopromo/190597",
+        "link_canal": "https://amzlink.to/az0ktP4I8HIdC",
+        "foto": "https://m.media-amazon.com/images/I/51cuJ-xzcAL._AC_SL1000_.jpg",
+        "foto_origem": "loja",
+        "nome": "Churrasqueira Elétrica De Mesa Bbq Show Elgin 110V",
+        "pix": true,
+        "de": 129.0,
+        "por": 84.45,
+        "lido_ia": true,
+        "sem_preco_loja": true,
+        "loja_abriu": true,
+        "palavra": "churrasqueira",
+        "garimpado_em": "2026-10-16T21:14-03:00",
+        "nota": 66.8
       }
     ],
     "soltas_hora": "2026-10-16T21",
@@ -7480,7 +7502,7 @@
     "soltas_dia_data": "2026-10-16",
     "soltas_dia": 80,
     "soltas_loja": {},
-    "soltas_vez": "2026-10-16T21:0"
+    "soltas_vez": "2026-10-16T21:1"
   },
   "ultimos": [
     {
