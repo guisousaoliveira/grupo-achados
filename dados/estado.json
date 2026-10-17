@@ -2525,17 +2525,17 @@
   "proximo_id": 720,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 85289,
-      "lobaopromo": 190623,
-      "gatunopromos": 125821,
+      "xetdaspromocoes": 85293,
+      "lobaopromo": 190626,
+      "gatunopromos": 125822,
       "pobregram": 42053,
-      "urubupromo": 41800,
+      "urubupromo": 41802,
       "tudonapromo": 102224,
-      "promonocontext": 127811,
-      "promooeasy": 223245,
+      "promonocontext": 127813,
+      "promooeasy": 223250,
       "aquitempechincha": 282258,
       "infoBRpromos": 67720,
-      "boletando": 76861,
+      "boletando": 76864,
       "promotop": 260394,
       "achadosdotb": 11787
     },
@@ -4727,27 +4727,27 @@
       "amazon:B0H6W3NJXL"
     ],
     "ultima": {
-      "em": "2026-10-16T22:20:19-03:00",
+      "em": "2026-10-16T22:30:23-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 31,
-      "do_nicho": 5,
-      "repetidas": 3,
-      "novas": 1,
+      "posts_novos": 23,
+      "do_nicho": 2,
+      "repetidas": 2,
+      "novas": 0,
       "limite_dia": false,
-      "repetidas_nome": 1,
-      "promobit": 1,
+      "repetidas_nome": 0,
+      "promobit": 0,
       "soltas": 0,
-      "na_peneira": 17
+      "na_peneira": 16
     },
     "hora": "2026-10-16T22",
     "nesta_hora": 1,
     "promobit_hora": "2026-10-16T22",
     "promobit_nesta_hora": 2,
-    "promobit_visto": 3120543,
+    "promobit_visto": 3120549,
     "nomes": [
       [
         [
@@ -7355,26 +7355,6 @@
     "peneira": [
       {
         "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB7090513438",
-        "origem": "lobaopromo",
-        "link": "https://www.mercadolivre.com.br/smartwatch-aurafit-g12-gps-resistencia-a-agua-3atm-preto/up/MLBU4199778997?pdp_filters=item_id%3AMLB7090513438&matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/smartwatch-aurafit-g12-gps-resistencia-a-agua-3atm-preto/up/MLBU4199778997?pdp_filters=item_id%3AMLB7090513438",
-        "post_origem": "https://t.me/lobaopromo/190548",
-        "link_canal": "https://meli.la/2vrZ9n1",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_634437-MLB114100775731_072026-O.webp",
-        "foto_origem": "loja",
-        "nome": "Smartwatch Aurafit G12",
-        "de": 419.0,
-        "por": 204.0,
-        "lido_ia": true,
-        "cupom": "ECONOMIZEI",
-        "preco_loja": 291.62,
-        "palavra": "smartwatch",
-        "garimpado_em": "2026-10-16T19:30-03:00",
-        "nota": 78.5
-      },
-      {
-        "loja": "mercadolivre",
         "chave": "mercadolivre:MLB18723723",
         "origem": "xetdaspromocoes",
         "link": "https://www.mercadolivre.com.br/barra-de-proteinas-nutrata-whey-grego-40g-sabor-mousse-de-maracuja-x-480g-12-un/p/MLB18723723?matt_word=alphapromo&matt_tool=59136903",
@@ -7683,7 +7663,7 @@
       "amazon": 3,
       "shopee": 2
     },
-    "soltas_vez": "2026-10-16T22:1"
+    "soltas_vez": "2026-10-16T22:2"
   },
   "ultimos": [
     {
