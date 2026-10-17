@@ -2,31 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB25970762",
-      "origem": "promonocontext",
-      "link": "https://meli.la/2fbJ5UT",
-      "link_produto": "https://www.mercadolivre.com.br/relogio-masculino-de-couro-de-quartzo-preto-tommy-hilfiger/p/MLB25970762",
-      "post_origem": "https://t.me/promonocontext/127765",
-      "link_canal": "https://meli.la/2MjRNQ2",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_858935-MLU77144326326_062024-O.webp",
-      "foto_origem": "loja",
-      "nome": "Relógio Masculino de Couro de Quartzo Preto Tommy Hilfiger",
-      "de": 990.0,
-      "por": 450.0,
-      "lido_ia": true,
-      "cupom": "OFFHOJE",
-      "preco_conferido": true,
-      "preco_cupom": true,
-      "preco_sem_cupom": 500.94,
-      "palavra": "relogio masculino",
-      "garimpado_em": "2026-10-16T19:50-03:00",
-      "nota": 84.4,
-      "titulo": "Relógio de couro preto para o dia a dia",
-      "aprovado_sozinho": true,
-      "aprovado_em": "2026-10-16T22:08-03:00"
-    },
-    {
       "loja": "shopee",
       "chave": "shopee:347988064.22292694966",
       "nome": "Pré-Treino Sixt Army Night 300g Soldiers Nutrition Pré Treino Pre Workout Termogênico Energia Foco Resistência Academia",
@@ -2374,6 +2349,22 @@
       "foto": "https://cf.shopee.com.br/file/br-11134207-820m5-msfjifb7jtol0a",
       "secao": "academia",
       "slot": 22.3,
+      "foto_site_ok": true
+    },
+    {
+      "chave": "mercadolivre:MLB25970762",
+      "loja": "mercadolivre",
+      "nome": "Relógio Masculino de Couro de Quartzo Preto Tommy Hilfiger",
+      "data": "2026-10-16T23:01-03:00",
+      "link": "https://meli.la/2fbJ5UT",
+      "link_produto": "https://www.mercadolivre.com.br/relogio-masculino-de-couro-de-quartzo-preto-tommy-hilfiger/p/MLB25970762",
+      "titulo": "Relógio de couro preto para o dia a dia",
+      "de": 990.0,
+      "por": 450.0,
+      "cupom": "OFFHOJE",
+      "conferido": true,
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_858935-MLU77144326326_062024-O.webp",
+      "secao": "relogios",
       "foto_site_ok": true
     }
   ],
@@ -7671,6 +7662,20 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB25970762",
+      "origem": "promonocontext",
+      "link": "https://meli.la/2fbJ5UT",
+      "link_produto": "https://www.mercadolivre.com.br/relogio-masculino-de-couro-de-quartzo-preto-tommy-hilfiger/p/MLB25970762",
+      "post_origem": "https://t.me/promonocontext/127765",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_858935-MLU77144326326_062024-O.webp",
+      "nome": "Relógio Masculino de Couro de Quartzo Preto Tommy Hilfiger",
+      "de": 990.0,
+      "por": 450.0,
+      "cupom": "OFFHOJE",
+      "titulo": "Relógio de couro preto para o dia a dia"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:446247790.23994831748",
       "nome": "Kit Mass Hipercalórico + Bcaa + Creatina + Glutamina + Coqueteleira - Espartanos",
@@ -8193,20 +8198,6 @@
       "por": 219.0,
       "cupom": "161040TODOSITE",
       "titulo": "Tênis Puma todo preto fácil de combinar"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB68717302",
-      "origem": "promonocontext",
-      "link": "https://meli.la/2FSaXRh",
-      "link_produto": "https://www.mercadolivre.com.br/fritadeira-airfryer-digital-serie-2000-xl-na23900-preto/p/MLB68717302",
-      "post_origem": "https://t.me/promonocontext/127595",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_623991-MLA110960690165_042026-O.webp",
-      "nome": "Fritadeira Airfryer Digital Série 2000 Xl Na239/00 Preto",
-      "de": 629.0,
-      "por": 409.0,
-      "cupom": "OFFHOJE",
-      "titulo": "Airfryer espaçosa para agilizar a rotina na cozinha"
     }
   ],
   "lixeira": [
@@ -9798,5 +9789,5 @@
     }
   },
   "aviso_ml": "2026-10-16",
-  "vitrine_marca": "52885af9d4c8"
+  "vitrine_marca": "05f1171e2371"
 }
