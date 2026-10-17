@@ -166,6 +166,28 @@
       "aprovado_em": "2026-10-17T00:32-03:00"
     },
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB42978348",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/1CWktEk",
+      "link_produto": "https://www.mercadolivre.com.br/bicicleta-ergometrica-bike-spinning-6kg-sensacao-inercia-fitness-preto-e-vermelho-sevenfit-para-cardio/p/MLB42978348",
+      "post_origem": "https://t.me/lobaopromo/190769",
+      "link_canal": "https://meli.la/32yfXtg",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_745785-MLA114987927277_072026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Bicicleta Ergométrica Bike Spinning 6kg Sensação Inércia Fitness",
+      "de": 1094.0,
+      "por": 460.0,
+      "lido_ia": true,
+      "preco_conferido": true,
+      "palavra": "bicicleta ergometrica",
+      "garimpado_em": "2026-10-17T10:30-03:00",
+      "nota": 78.3,
+      "titulo": "Bike de spinning para fazer cardio em casa",
+      "aprovado_sozinho": true,
+      "aprovado_em": "2026-10-17T10:31-03:00"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:1398610040.58253687690",
       "nome": "Óculos de Sol Planta Conceito - Hastes de Sapo Desenho Bico de Pato Unissex UV400 Nariz Removível",
@@ -2952,25 +2974,25 @@
       "msg_id": 1264
     }
   ],
-  "proximo_id": 754,
+  "proximo_id": 755,
   "radar": {
     "visto": {
       "xetdaspromocoes": 85301,
-      "lobaopromo": 190768,
-      "gatunopromos": 125904,
-      "pobregram": 42061,
-      "urubupromo": 41805,
-      "tudonapromo": 102236,
-      "promonocontext": 127909,
-      "promooeasy": 223450,
-      "aquitempechincha": 282305,
-      "infoBRpromos": 67741,
+      "lobaopromo": 190778,
+      "gatunopromos": 125909,
+      "pobregram": 42062,
+      "urubupromo": 41806,
+      "tudonapromo": 102239,
+      "promonocontext": 127919,
+      "promooeasy": 223463,
+      "aquitempechincha": 282314,
+      "infoBRpromos": 67742,
       "boletando": 76873,
-      "promotop": 260408,
+      "promotop": 260409,
       "achadosdotb": 11787
     },
     "dia": "2026-10-17",
-    "hoje": 29,
+    "hoje": 32,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -5206,30 +5228,34 @@
       "amazon:B09TBBVXL8",
       "mercadolivre:MLB4657662265",
       "mercadolivre:MLB4716282936",
-      "shopee:1704861643.58266337621"
+      "shopee:1704861643.58266337621",
+      "mercadolivre:MLB42978348",
+      "mercadolivre:MLB70102902",
+      "mercadolivre:MLB26499476"
     ],
     "ultima": {
-      "em": "2026-10-17T10:20:22-03:00",
+      "em": "2026-10-17T10:30:23-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 49,
-      "do_nicho": 6,
-      "repetidas": 6,
-      "novas": 0,
+      "posts_novos": 68,
+      "do_nicho": 10,
+      "repetidas": 7,
+      "novas": 2,
       "limite_dia": false,
       "repetidas_nome": 0,
       "promobit": 0,
-      "soltas": 2,
-      "na_peneira": 6
+      "fora_do_nicho": 1,
+      "soltas": 1,
+      "na_peneira": 8
     },
     "hora": "2026-10-17T10",
-    "nesta_hora": 4,
+    "nesta_hora": 7,
     "promobit_hora": "2026-10-17T10",
     "promobit_nesta_hora": 3,
-    "promobit_visto": 3121104,
+    "promobit_visto": 3121141,
     "nomes": [
       [
         [
@@ -8173,6 +8199,19 @@
           "1050w"
         ],
         "2026-10-17T10:20-03:00"
+      ],
+      [
+        [
+          "bicicleta",
+          "ergometrica",
+          "bike",
+          "spinning",
+          "6kg",
+          "sensacao",
+          "inercia",
+          "fitness"
+        ],
+        "2026-10-17T10:31-03:00"
       ]
     ],
     "peneira": [
@@ -8308,19 +8347,41 @@
         "palavra": "chave de impacto",
         "garimpado_em": "2026-10-17T10:21-03:00",
         "nota": 76.2
+      },
+      {
+        "loja": "mercadolivre",
+        "chave": "mercadolivre:MLB70102902",
+        "origem": "urubupromo",
+        "link": "https://www.mercadolivre.com.br/caixa-de-som-boombox-sabala-bluetooth-54-portatil-potente-dr909-200w-estereo-39000mah-app-20khz-tws-ipx66-preto/p/MLB70102902?matt_word=alphapromo&matt_tool=59136903",
+        "link_produto": "https://www.mercadolivre.com.br/caixa-de-som-boombox-sabala-bluetooth-54-portatil-potente-dr909-200w-estereo-39000mah-app-20khz-tws-ipx66-preto/p/MLB70102902",
+        "post_origem": "https://t.me/urubupromo/41806",
+        "link_canal": "https://meli.la/1Eokm7q",
+        "foto": "https://http2.mlstatic.com/D_NQ_NP_614188-MLA116522689453_082026-O.webp",
+        "foto_origem": "loja",
+        "nome": "Caixa De Som Boombox sabala Bluetooth 5.4 Portátil potente dr909 200w",
+        "pix": true,
+        "por": 1127.0,
+        "lido_ia": true,
+        "cupom": "SITE50",
+        "preco_conferido": true,
+        "preco_cupom": true,
+        "preco_sem_cupom": 1173.0,
+        "palavra": "caixa de som",
+        "garimpado_em": "2026-10-17T10:30-03:00",
+        "nota": 38.7
       }
     ],
     "soltas_hora": "2026-10-17T10",
-    "soltas": 4,
+    "soltas": 5,
     "shopee_em": "2026-10-17T10:21-03:00",
     "shopee_indice": 40,
     "soltas_dia_data": "2026-10-17",
-    "soltas_dia": 22,
+    "soltas_dia": 23,
     "soltas_loja": {
       "shopee": 2,
-      "mercadolivre": 2
+      "mercadolivre": 3
     },
-    "soltas_vez": "2026-10-17T10:1"
+    "soltas_vez": "2026-10-17T10:2"
   },
   "ultimos": [
     {
@@ -10093,7 +10154,7 @@
         "reprovados": 0
       },
       "lobaopromo": {
-        "achados": 1,
+        "achados": 2,
         "aprovados": 0,
         "reprovados": 0
       }
@@ -10147,7 +10208,7 @@
       "reprovados": 2
     },
     "bicicleta ergometrica": {
-      "achados": 3,
+      "achados": 4,
       "aprovados": 1,
       "reprovados": 1
     },
@@ -10501,7 +10562,7 @@
       "5": 2,
       "8": 2,
       "9": 3,
-      "10": 2
+      "10": 3
     }
   },
   "aviso_ml": "2026-10-16",
