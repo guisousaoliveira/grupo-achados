@@ -3178,30 +3178,6 @@
       "msg_id": 1276
     },
     {
-      "loja": "shopee",
-      "chave": "shopee:317326895.18899895828",
-      "nome": "Formas Descartáveis 200 Unidades Para Air Fryer em Papel Forneavél Para Fornos e Microondas",
-      "por": 12.89,
-      "de": 30.69,
-      "foto": "AgACAgQAAxkDAAIE_WrTjbFGdwitt2p1JrTZ2447-qbkAALPDmsbVxN9Un2faPOXZ3ZlAQADAgADeQADPQQ",
-      "link": "https://s.shopee.com.br/4VddgpyqRt",
-      "link_produto": "https://shopee.com.br/product/317326895/18899895828",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.8,
-      "vendas": 1491,
-      "palavra": "air fryer",
-      "garimpado_em": "2026-10-17T11:01-03:00",
-      "nota": 81.9,
-      "motivo_revisao": "a fila já está com muita Shopee (metade ou mais)",
-      "titulo": "Formas descartáveis para manter sua air fryer limpa",
-      "id": 763,
-      "na_revisao_desde": "2026-10-17T12:01-03:00",
-      "msg_id": 1277
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B00GY2LASO",
       "origem": "promooeasy",
@@ -9775,6 +9751,31 @@
   ],
   "lixeira": [
     {
+      "loja": "shopee",
+      "chave": "shopee:317326895.18899895828",
+      "nome": "Formas Descartáveis 200 Unidades Para Air Fryer em Papel Forneavél Para Fornos e Microondas",
+      "por": 12.89,
+      "de": 30.69,
+      "foto": "AgACAgQAAxkDAAIE_WrTjbFGdwitt2p1JrTZ2447-qbkAALPDmsbVxN9Un2faPOXZ3ZlAQADAgADeQADPQQ",
+      "link": "https://s.shopee.com.br/4VddgpyqRt",
+      "link_produto": "https://shopee.com.br/product/317326895/18899895828",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.8,
+      "vendas": 1491,
+      "palavra": "air fryer",
+      "garimpado_em": "2026-10-17T11:01-03:00",
+      "nota": 81.9,
+      "motivo_revisao": "a fila já está com muita Shopee (metade ou mais)",
+      "titulo": "Formas descartáveis para manter sua air fryer limpa",
+      "id": 763,
+      "na_revisao_desde": "2026-10-17T12:01-03:00",
+      "removido_em": "2026-10-17T12:58:29-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B09SVQTDJB",
       "origem": "promobit",
@@ -10713,30 +10714,6 @@
       "na_revisao_desde": "2026-10-15T13:41-03:00",
       "removido_em": "2026-10-15T21:30:19-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:495151609.58254442135",
-      "nome": "Kit 3x Pomada Modeladora Capilar Incolor Premium 80g Infinity Looks Hair –Efeito Brilho e Molhado, Fixação Alta",
-      "por": 12.5,
-      "de": 20.83,
-      "foto": "AgACAgQAAxkDAAID3GrQ9A2ZP9eOs0lllsLq0A8JDPFOAAL6D2sb0AKNUuXqGoHCLE3tAQADAgADeQADPQQ",
-      "link": "https://s.shopee.com.br/40hJwq2o3W",
-      "link_produto": "https://shopee.com.br/product/495151609/58254442135",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.8,
-      "vendas": 143,
-      "palavra": "pomada modeladora",
-      "garimpado_em": "2026-10-15T11:40-03:00",
-      "nota": 63.5,
-      "titulo": "Kit com três pomadas para fixar o penteado",
-      "id": 606,
-      "na_revisao_desde": "2026-10-15T12:41-03:00",
-      "removido_em": "2026-10-15T21:30:19-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -10999,7 +10976,7 @@
       "shopee": {
         "achados": 10,
         "aprovados": 0,
-        "reprovados": 0
+        "reprovados": 1
       },
       "promonocontext": {
         "achados": 3,
@@ -11028,7 +11005,7 @@
     "air fryer": {
       "achados": 16,
       "aprovados": 5,
-      "reprovados": 6
+      "reprovados": 7
     },
     "alexa": {
       "achados": 4,
