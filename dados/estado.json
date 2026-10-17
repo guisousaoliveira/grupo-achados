@@ -2578,26 +2578,73 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [],
-  "proximo_id": 724,
+  "revisar": [
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB6665273098",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/2F9bEgN",
+      "link_produto": "https://www.mercadolivre.com.br/churrasqueira-bafinho-tambor-portatil-com-grelha-churrassco/up/MLBU3926125150?pdp_filters=item_id%3AMLB6665273098",
+      "post_origem": "https://t.me/lobaopromo/190635",
+      "link_canal": "https://meli.la/2Em15Ac",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_971064-MLB111964187256_062026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Churrasqueira Bafinho Tambor Portátil Com Grelha Churrassco Preto",
+      "de": 77.0,
+      "por": 57.0,
+      "lido_ia": true,
+      "preco_loja": 67.13,
+      "palavra": "churrasqueira",
+      "garimpado_em": "2026-10-16T22:50-03:00",
+      "nota": 67.3,
+      "motivo_revisao": "o post diz R$ 57,00 e a loja mostra R$ 67,13, e não tem cupom ou Pix que explique a diferença",
+      "titulo": "Churrasqueira portátil para assar carne na varanda",
+      "id": 724,
+      "na_revisao_desde": "2026-10-16T23:30-03:00",
+      "msg_id": 1228
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0B8PDL7D4",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0B8PDL7D4?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0B8PDL7D4?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/garrafa-termica-quick-flip-stanley-710ml-3120343/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3120343/",
+      "nome": "Garrafa térmica Quick Flip Stanley|710ml",
+      "por": 167.0,
+      "foto": "AgACAgQAAxkDAAIEzWrS3dKxL8aETEYSMRhprJs-cL9SAAKMuDEbZJIVURRPcxwlJwQ5AQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "palavra": "garrafa termica",
+      "garimpado_em": "2026-10-16T20:40-03:00",
+      "nota": 50.5,
+      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
+      "titulo": "Garrafa térmica Stanley para manter a água gelada",
+      "id": 725,
+      "na_revisao_desde": "2026-10-16T23:30-03:00",
+      "msg_id": 1229
+    }
+  ],
+  "proximo_id": 726,
   "radar": {
     "visto": {
       "xetdaspromocoes": 85297,
-      "lobaopromo": 190643,
-      "gatunopromos": 125829,
+      "lobaopromo": 190644,
+      "gatunopromos": 125831,
       "pobregram": 42053,
       "urubupromo": 41803,
       "tudonapromo": 102224,
       "promonocontext": 127821,
-      "promooeasy": 223275,
+      "promooeasy": 223281,
       "aquitempechincha": 282261,
       "infoBRpromos": 67721,
-      "boletando": 76864,
-      "promotop": 260394,
+      "boletando": 76865,
+      "promotop": 260396,
       "achadosdotb": 11787
     },
     "dia": "2026-10-16",
-    "hoje": 146,
+    "hoje": 147,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -4788,30 +4835,31 @@
       "mercadolivre:MLB6665273098",
       "amazon:B0BYTG1N1W",
       "mercadolivre:MLB50507430",
-      "amazon:B07GM8DVYB"
+      "amazon:B07GM8DVYB",
+      "mercadolivre:MLB36221657"
     ],
     "ultima": {
-      "em": "2026-10-16T23:20:18-03:00",
+      "em": "2026-10-16T23:30:22-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 18,
-      "do_nicho": 2,
-      "repetidas": 1,
+      "posts_novos": 13,
+      "do_nicho": 1,
+      "repetidas": 0,
       "novas": 1,
       "limite_dia": false,
       "repetidas_nome": 0,
-      "promobit": 1,
+      "promobit": 0,
       "soltas": 2,
-      "na_peneira": 11
+      "na_peneira": 10
     },
     "hora": "2026-10-16T23",
-    "nesta_hora": 1,
+    "nesta_hora": 2,
     "promobit_hora": "2026-10-16T23",
     "promobit_nesta_hora": 2,
-    "promobit_visto": 3120622,
+    "promobit_visto": 3120623,
     "nomes": [
       [
         [
@@ -7458,26 +7506,31 @@
           "titanium"
         ],
         "2026-10-16T23:20-03:00"
+      ],
+      [
+        [
+          "churrasqueira",
+          "bafinho",
+          "tambor",
+          "portatil",
+          "grelha",
+          "churrassco"
+        ],
+        "2026-10-16T23:30-03:00"
+      ],
+      [
+        [
+          "garrafa",
+          "termica",
+          "quick",
+          "flip",
+          "stanley",
+          "710ml"
+        ],
+        "2026-10-16T23:30-03:00"
       ]
     ],
     "peneira": [
-      {
-        "loja": "amazon",
-        "chave": "amazon:B0B8PDL7D4",
-        "origem": "promobit",
-        "fonte": "promobit",
-        "link": "https://www.amazon.com.br/dp/B0B8PDL7D4?tag=alphadominu09-20",
-        "link_produto": "https://www.amazon.com.br/dp/B0B8PDL7D4?tag=alphadominu09-20",
-        "post_origem": "https://www.promobit.com.br/oferta/garrafa-termica-quick-flip-stanley-710ml-3120343/",
-        "link_canal": "https://www.promobit.com.br/Redirect/to/3120343/",
-        "nome": "Garrafa térmica Quick Flip Stanley|710ml",
-        "por": 167.0,
-        "foto": "https://m.media-amazon.com/images/I/41lDoNkNEcL._AC_SL1500_.jpg",
-        "foto_origem": "loja",
-        "palavra": "garrafa termica",
-        "garimpado_em": "2026-10-16T20:40-03:00",
-        "nota": 50.5
-      },
       {
         "loja": "mercadolivre",
         "chave": "mercadolivre:MLB58330663",
@@ -7608,25 +7661,6 @@
       },
       {
         "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB6665273098",
-        "origem": "lobaopromo",
-        "link": "https://www.mercadolivre.com.br/churrasqueira-bafinho-tambor-portatil-com-grelha-churrassco/up/MLBU3926125150?pdp_filters=item_id%3AMLB6665273098&matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/churrasqueira-bafinho-tambor-portatil-com-grelha-churrassco/up/MLBU3926125150?pdp_filters=item_id%3AMLB6665273098",
-        "post_origem": "https://t.me/lobaopromo/190635",
-        "link_canal": "https://meli.la/2Em15Ac",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_971064-MLB111964187256_062026-O.webp",
-        "foto_origem": "loja",
-        "nome": "Churrasqueira Bafinho Tambor Portátil Com Grelha Churrassco Preto",
-        "de": 77.0,
-        "por": 57.0,
-        "lido_ia": true,
-        "preco_loja": 67.13,
-        "palavra": "churrasqueira",
-        "garimpado_em": "2026-10-16T22:50-03:00",
-        "nota": 67.3
-      },
-      {
-        "loja": "mercadolivre",
         "chave": "mercadolivre:MLB50507430",
         "origem": "lobaopromo",
         "link": "https://www.mercadolivre.com.br/philips-aparador-e-barbeador-eletrico-all-in-one-serie-3000-12-em-1-12-acessorios-para-o-visual-completo-laminas-com-pontas-arredondadas-60-min-sem-fio-mg392115-mg392115/p/MLB50507430?matt_word=alphapromo&matt_tool=59136903",
@@ -7661,20 +7695,40 @@
         "palavra": "barbear",
         "garimpado_em": "2026-10-16T23:20-03:00",
         "nota": 45.3
+      },
+      {
+        "loja": "mercadolivre",
+        "chave": "mercadolivre:MLB36221657",
+        "origem": "promooeasy",
+        "link": "https://www.mercadolivre.com.br/kit-cortador-de-unha-portatil-estojo-alicate-manicure-12-pc-desencravador-de-unha-manicure-alicate-lixa-profissional-tesoura-empurrador-de-cuticulas-pinca-portatil-dobravel/p/MLB36221657?matt_word=alphapromo&matt_tool=59136903",
+        "link_produto": "https://www.mercadolivre.com.br/kit-cortador-de-unha-portatil-estojo-alicate-manicure-12-pc-desencravador-de-unha-manicure-alicate-lixa-profissional-tesoura-empurrador-de-cuticulas-pinca-portatil-dobravel/p/MLB36221657",
+        "post_origem": "https://t.me/promooeasy/223280",
+        "link_canal": "https://www.mercadolivre.com.br/kit-cortador-de-unha-portatil-estojo-alicate-manicure-12-pc-desencravador-de-unha-manicure-alicate-lixa-profissional-tesoura-empurrador-de-cuticulas-pinca-portatil-dobravel/p/MLB36221657?matt_word=promoeasynv&amp;matt_tool=88963738",
+        "foto": "https://cdn1.telesco.pe/file/gdq2kht3NTeP21txzlBr5xVNk1-tpMwBTTw-4q1YAfXL9QJFoB_u2csdUP4Ht3ZrcpFYLK_hXHCaQY5YLBziNJ_j8j8iJkTZd9Un7GKmKjSC5auu4wkEThyLyiXbOB5762fItU2IVZFwXpiomAKoe4qfFL5BTHAnrIJm5CyabCFUNzevTmN5Qkb6Gj95aqMo9r5X649BIkRTkGQV34bC2b_LScQfAz_zgqWKkBX1zASkXHNQtQMsoSFjaWn2WNtDadyfXjonzp-7LWedtWO2P8qiG5OPWEFGTWKupPW4gsWkGXOVBMLAAyxNMZCPOaxNYOWZRAo2zzWikquP4ucCsw.jpg",
+        "foto_origem": "canal",
+        "nome": "Kit Cortador De Unha Portátil Estojo Alicate Manicure 12 Pç Desencravador De Unha Manicure Alicate Lixa Profissional Tes",
+        "de": 35.9,
+        "por": 23.9,
+        "lido_ia": true,
+        "sem_preco_loja": true,
+        "loja_abriu": false,
+        "palavra": "alicate",
+        "garimpado_em": "2026-10-16T23:30-03:00",
+        "nota": 44.9
       }
     ],
     "soltas_hora": "2026-10-16T23",
-    "soltas": 4,
+    "soltas": 6,
     "shopee_em": "2026-10-16T23:20-03:00",
     "shopee_indice": 20,
     "soltas_dia_data": "2026-10-16",
-    "soltas_dia": 92,
+    "soltas_dia": 94,
     "soltas_loja": {
-      "mercadolivre": 2,
-      "amazon": 1,
+      "mercadolivre": 3,
+      "amazon": 2,
       "shopee": 1
     },
-    "soltas_vez": "2026-10-16T23:1"
+    "soltas_vez": "2026-10-16T23:2"
   },
   "ultimos": [
     {
@@ -9359,7 +9413,7 @@
         "reprovados": 1
       },
       "promobit": {
-        "achados": 13,
+        "achados": 14,
         "aprovados": 8,
         "reprovados": 5
       },
@@ -9369,7 +9423,7 @@
         "reprovados": 1
       },
       "lobaopromo": {
-        "achados": 17,
+        "achados": 18,
         "aprovados": 13,
         "reprovados": 1
       },
@@ -9410,7 +9464,7 @@
       }
     }
   },
-  "aviso_post": "2026-10-16 23:25|amazon:B000CNKITS",
+  "aviso_post": "2026-10-16 23:35|mercadolivre:MLB45745391",
   "garimpo_palavras": {
     "academia": {
       "achados": 30,
@@ -9553,7 +9607,7 @@
       "reprovados": 2
     },
     "garrafa termica": {
-      "achados": 9,
+      "achados": 10,
       "aprovados": 7,
       "reprovados": 2
     },
@@ -9763,7 +9817,7 @@
       "reprovados": 0
     },
     "churrasqueira": {
-      "achados": 2,
+      "achados": 3,
       "aprovados": 2,
       "reprovados": 0
     },
