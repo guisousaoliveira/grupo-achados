@@ -2507,26 +2507,74 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [],
-  "proximo_id": 720,
+  "revisar": [
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB18726361",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/2LXJ18t",
+      "link_produto": "https://www.mercadolivre.com.br/creatina-em-po-100g-creapure-growth-supplements/p/MLB18726361",
+      "post_origem": "https://t.me/lobaopromo/190615",
+      "link_canal": "https://meli.la/2VsvnVD",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_659835-MLA98760176203_112025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Creatina Em Pó 100g Creapure Growth Supplements",
+      "de": 109.0,
+      "por": 59.0,
+      "lido_ia": true,
+      "preco_loja": 69.23,
+      "palavra": "creatina",
+      "garimpado_em": "2026-10-16T21:50-03:00",
+      "nota": 78.6,
+      "motivo_revisao": "o post diz R$ 59,00 e a loja mostra R$ 69,23, e não tem cupom ou Pix que explique a diferença",
+      "titulo": "Creatina Creapure Growth para ganho de força",
+      "id": 720,
+      "na_revisao_desde": "2026-10-16T23:00-03:00",
+      "msg_id": 1222
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0F3PT467Y",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0F3PT467Y?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0F3PT467Y?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/mondial-aparador-de-pelos-praticgroom-preto-bivolt-bg-09-3120452/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3120452/",
+      "nome": "MONDIAL Aparador de Pelos PraticGroom, Preto, Bivolt",
+      "por": 75.9,
+      "de": 179.9,
+      "foto": "AgACAgQAAxkDAAIEx2rS1uMehIuWzj_GaORaNxkNNxJEAAKGDWsblvmtUV9IKTZuZ36DAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "palavra": "aparador",
+      "garimpado_em": "2026-10-16T21:40-03:00",
+      "nota": 60.7,
+      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
+      "titulo": "Aparador bivolt para manter a higiene corporal",
+      "id": 721,
+      "na_revisao_desde": "2026-10-16T23:01-03:00",
+      "msg_id": 1223
+    }
+  ],
+  "proximo_id": 722,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 85296,
-      "lobaopromo": 190637,
-      "gatunopromos": 125825,
+      "xetdaspromocoes": 85297,
+      "lobaopromo": 190639,
+      "gatunopromos": 125826,
       "pobregram": 42053,
       "urubupromo": 41803,
       "tudonapromo": 102224,
-      "promonocontext": 127818,
-      "promooeasy": 223262,
+      "promonocontext": 127819,
+      "promooeasy": 223266,
       "aquitempechincha": 282260,
-      "infoBRpromos": 67720,
+      "infoBRpromos": 67721,
       "boletando": 76864,
       "promotop": 260394,
       "achadosdotb": 11787
     },
     "dia": "2026-10-16",
-    "hoje": 143,
+    "hoje": 145,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -4714,30 +4762,33 @@
       "mercadolivre:MLB19693785",
       "shopee:662618933.22395788400",
       "mercadolivre:MLB63281934",
-      "mercadolivre:MLB6665273098"
+      "mercadolivre:MLB6665273098",
+      "amazon:B0BYTG1N1W",
+      "mercadolivre:MLB50507430"
     ],
     "ultima": {
-      "em": "2026-10-16T22:50:17-03:00",
+      "em": "2026-10-16T23:00:25-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 26,
-      "do_nicho": 3,
-      "repetidas": 1,
-      "novas": 2,
+      "posts_novos": 13,
+      "do_nicho": 2,
+      "repetidas": 0,
+      "novas": 1,
       "limite_dia": false,
       "repetidas_nome": 0,
+      "fora_do_nicho": 1,
       "promobit": 0,
-      "soltas": 0,
-      "na_peneira": 15
+      "soltas": 2,
+      "na_peneira": 13
     },
-    "hora": "2026-10-16T22",
-    "nesta_hora": 4,
-    "promobit_hora": "2026-10-16T22",
-    "promobit_nesta_hora": 2,
-    "promobit_visto": 3120584,
+    "hora": "2026-10-16T23",
+    "nesta_hora": 1,
+    "promobit_hora": "2026-10-16T23",
+    "promobit_nesta_hora": 1,
+    "promobit_visto": 3120591,
     "nomes": [
       [
         [
@@ -7340,28 +7391,29 @@
           "bank"
         ],
         "2026-10-16T22:09-03:00"
+      ],
+      [
+        [
+          "creatina",
+          "100g",
+          "creapure",
+          "growth",
+          "supplements"
+        ],
+        "2026-10-16T23:00-03:00"
+      ],
+      [
+        [
+          "mondial",
+          "aparador",
+          "pelos",
+          "praticgroom",
+          "bivolt"
+        ],
+        "2026-10-16T23:00-03:00"
       ]
     ],
     "peneira": [
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB5800224038",
-        "origem": "lobaopromo",
-        "link": "https://www.mercadolivre.com.br/churrasqueira-portatil-camping-praia-compacta-galvanizada/up/MLBU3487389163?pdp_filters=item_id%3AMLB5800224038&matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/churrasqueira-portatil-camping-praia-compacta-galvanizada/up/MLBU3487389163?pdp_filters=item_id%3AMLB5800224038",
-        "post_origem": "https://t.me/lobaopromo/190564",
-        "link_canal": "https://meli.la/2yKur68",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_863155-MLB114268098492_082026-O.webp",
-        "foto_origem": "loja",
-        "nome": "Churrasqueira Portátil Camping Praia Compacta Galvanizada Prateado",
-        "de": 78.0,
-        "por": 62.4,
-        "lido_ia": true,
-        "preco_conferido": true,
-        "palavra": "churrasqueira",
-        "garimpado_em": "2026-10-16T20:00-03:00",
-        "nota": 58.1
-      },
       {
         "loja": "mercadolivre",
         "chave": "mercadolivre:MLB48946085",
@@ -7493,43 +7545,6 @@
       },
       {
         "loja": "amazon",
-        "chave": "amazon:B0F3PT467Y",
-        "origem": "promobit",
-        "fonte": "promobit",
-        "link": "https://www.amazon.com.br/dp/B0F3PT467Y?tag=alphadominu09-20",
-        "link_produto": "https://www.amazon.com.br/dp/B0F3PT467Y?tag=alphadominu09-20",
-        "post_origem": "https://www.promobit.com.br/oferta/mondial-aparador-de-pelos-praticgroom-preto-bivolt-bg-09-3120452/",
-        "link_canal": "https://www.promobit.com.br/Redirect/to/3120452/",
-        "nome": "MONDIAL Aparador de Pelos PraticGroom, Preto, Bivolt",
-        "por": 75.9,
-        "de": 179.9,
-        "foto": "https://m.media-amazon.com/images/I/61BiB8EyBYL._AC_SL1500_.jpg",
-        "foto_origem": "loja",
-        "palavra": "aparador",
-        "garimpado_em": "2026-10-16T21:40-03:00",
-        "nota": 60.7
-      },
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB18726361",
-        "origem": "lobaopromo",
-        "link": "https://www.mercadolivre.com.br/creatina-em-po-100g-creapure-growth-supplements/p/MLB18726361?matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/creatina-em-po-100g-creapure-growth-supplements/p/MLB18726361",
-        "post_origem": "https://t.me/lobaopromo/190615",
-        "link_canal": "https://meli.la/2VsvnVD",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_659835-MLA98760176203_112025-O.webp",
-        "foto_origem": "loja",
-        "nome": "Creatina Em Pó 100g Creapure Growth Supplements",
-        "de": 109.0,
-        "por": 59.0,
-        "lido_ia": true,
-        "preco_loja": 69.23,
-        "palavra": "creatina",
-        "garimpado_em": "2026-10-16T21:50-03:00",
-        "nota": 78.6
-      },
-      {
-        "loja": "amazon",
         "chave": "amazon:B0CXVBVT83",
         "origem": "promobit",
         "fonte": "promobit",
@@ -7621,20 +7636,38 @@
         "palavra": "churrasqueira",
         "garimpado_em": "2026-10-16T22:50-03:00",
         "nota": 67.3
+      },
+      {
+        "loja": "mercadolivre",
+        "chave": "mercadolivre:MLB50507430",
+        "origem": "lobaopromo",
+        "link": "https://www.mercadolivre.com.br/philips-aparador-e-barbeador-eletrico-all-in-one-serie-3000-12-em-1-12-acessorios-para-o-visual-completo-laminas-com-pontas-arredondadas-60-min-sem-fio-mg392115-mg392115/p/MLB50507430?matt_word=alphapromo&matt_tool=59136903",
+        "link_produto": "https://www.mercadolivre.com.br/philips-aparador-e-barbeador-eletrico-all-in-one-serie-3000-12-em-1-12-acessorios-para-o-visual-completo-laminas-com-pontas-arredondadas-60-min-sem-fio-mg392115-mg392115/p/MLB50507430",
+        "post_origem": "https://t.me/lobaopromo/190638",
+        "link_canal": "https://meli.la/2drjehv",
+        "foto": "https://http2.mlstatic.com/D_NQ_NP_608894-MLA115895780710_092026-O.webp",
+        "foto_origem": "loja",
+        "nome": "Philips Aparador e Barbeador Elétrico All-in-One Série 3000 12 em 1",
+        "de": 262.0,
+        "por": 152.0,
+        "lido_ia": true,
+        "preco_conferido": true,
+        "palavra": "barbeador",
+        "garimpado_em": "2026-10-16T23:00-03:00",
+        "nota": 58.1
       }
     ],
-    "soltas_hora": "2026-10-16T22",
-    "soltas": 8,
-    "shopee_em": "2026-10-16T22:40-03:00",
-    "shopee_indice": 104,
+    "soltas_hora": "2026-10-16T23",
+    "soltas": 2,
+    "shopee_em": "2026-10-16T23:01-03:00",
+    "shopee_indice": 12,
     "soltas_dia_data": "2026-10-16",
-    "soltas_dia": 88,
+    "soltas_dia": 90,
     "soltas_loja": {
-      "mercadolivre": 3,
-      "amazon": 3,
-      "shopee": 2
+      "mercadolivre": 1,
+      "amazon": 1
     },
-    "soltas_vez": "2026-10-16T22:3"
+    "soltas_vez": "2026-10-16T23:0"
   },
   "ultimos": [
     {
@@ -9321,7 +9354,7 @@
         "reprovados": 1
       },
       "promobit": {
-        "achados": 12,
+        "achados": 13,
         "aprovados": 7,
         "reprovados": 5
       },
@@ -9331,7 +9364,7 @@
         "reprovados": 1
       },
       "lobaopromo": {
-        "achados": 15,
+        "achados": 16,
         "aprovados": 11,
         "reprovados": 1
       },
@@ -9395,7 +9428,7 @@
       "reprovados": 4
     },
     "aparador": {
-      "achados": 7,
+      "achados": 8,
       "aprovados": 0,
       "reprovados": 4
     },
@@ -9480,7 +9513,7 @@
       "reprovados": 1
     },
     "creatina": {
-      "achados": 25,
+      "achados": 26,
       "aprovados": 13,
       "reprovados": 11
     },
