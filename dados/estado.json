@@ -3224,29 +3224,6 @@
       "id": 767,
       "na_revisao_desde": "2026-10-17T12:30-03:00",
       "msg_id": 1283
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B09SVQTDJB",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B09SVQTDJB?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B09SVQTDJB?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/cafeteira-eletrica-electrolux-inox-filtro-permanente-removivel-sistema-corta-pingos-capacidade-12l-30-xicaras-funcao-manter-aquecido-ecm20-220v-3121327/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3121327/",
-      "nome": "Cafeteira Elétrica Electrolux Inox Filtro Permanente Removivel",
-      "por": 123.41,
-      "de": 209.0,
-      "foto": "https://m.media-amazon.com/images/I/41QniS6pVmL._AC_SL1000_.jpg",
-      "foto_origem": "loja",
-      "palavra": "cafeteira",
-      "garimpado_em": "2026-10-17T12:00-03:00",
-      "nota": 59.2,
-      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
-      "titulo": "Cafeteira em inox para o café do dia a dia",
-      "id": 768,
-      "na_revisao_desde": "2026-10-17T12:30-03:00",
-      "msg_id": 1284
     }
   ],
   "proximo_id": 771,
@@ -9799,6 +9776,30 @@
   "lixeira": [
     {
       "loja": "amazon",
+      "chave": "amazon:B09SVQTDJB",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B09SVQTDJB?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B09SVQTDJB?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/cafeteira-eletrica-electrolux-inox-filtro-permanente-removivel-sistema-corta-pingos-capacidade-12l-30-xicaras-funcao-manter-aquecido-ecm20-220v-3121327/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3121327/",
+      "nome": "Cafeteira Elétrica Electrolux Inox Filtro Permanente Removivel",
+      "por": 123.41,
+      "de": 209.0,
+      "foto": "https://m.media-amazon.com/images/I/41QniS6pVmL._AC_SL1000_.jpg",
+      "foto_origem": "loja",
+      "palavra": "cafeteira",
+      "garimpado_em": "2026-10-17T12:00-03:00",
+      "nota": 59.2,
+      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
+      "titulo": "Cafeteira em inox para o café do dia a dia",
+      "id": 768,
+      "na_revisao_desde": "2026-10-17T12:30-03:00",
+      "removido_em": "2026-10-17T12:58:11-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "amazon",
       "chave": "amazon:B0CX1XDR7L",
       "origem": "promobit",
       "fonte": "promobit",
@@ -10736,29 +10737,6 @@
       "na_revisao_desde": "2026-10-15T12:41-03:00",
       "removido_em": "2026-10-15T21:30:19-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0F5X4LL89",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B0F5X4LL89?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0F5X4LL89?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/samsung-smart-tv-50-crystal-uhd-4k-u8600f-2025-3115770/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3115770/",
-      "nome": "Samsung Smart TV 50\" Crystal UHD 4K U8600F 2025",
-      "por": 2127.99,
-      "de": 2599.99,
-      "foto": "AgACAgQAAxkDAAID2GrQ5fKly6DjVH9WpZSIKmHtIXt8AAKCDWsbGC7lUrWg7Llcmn3QAQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "palavra": "smart tv",
-      "garimpado_em": "2026-10-15T10:30-03:00",
-      "nota": 31.6,
-      "titulo": "Smart TV de 50 polegadas para sala ampla",
-      "id": 602,
-      "na_revisao_desde": "2026-10-15T11:40-03:00",
-      "removido_em": "2026-10-15T21:30:19-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -11016,7 +10994,7 @@
       "promobit": {
         "achados": 7,
         "aprovados": 0,
-        "reprovados": 3
+        "reprovados": 4
       },
       "shopee": {
         "achados": 10,
@@ -11100,7 +11078,7 @@
     "cafeteira": {
       "achados": 9,
       "aprovados": 2,
-      "reprovados": 5
+      "reprovados": 6
     },
     "caixa de som": {
       "achados": 22,
