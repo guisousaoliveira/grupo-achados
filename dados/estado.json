@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "shopee",
-      "chave": "shopee:347988064.22292694966",
-      "nome": "Pré-Treino Sixt Army Night 300g Soldiers Nutrition Pré Treino Pre Workout Termogênico Energia Foco Resistência Academia",
-      "por": 59.9,
-      "de": 79.87,
-      "foto": "https://cf.shopee.com.br/file/br-11134207-7r98o-mcatd83t8lijb3",
-      "link": "https://s.shopee.com.br/8AWvBy3IAq",
-      "link_produto": "https://shopee.com.br/product/347988064/22292694966",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.9,
-      "vendas": 215,
-      "palavra": "pre-treino",
-      "garimpado_em": "2026-10-16T22:00-03:00",
-      "nota": 54.6,
-      "titulo": "Pré-treino para dar energia e foco na academia",
-      "aprovado_sozinho": true,
-      "aprovado_em": "2026-10-16T22:08-03:00"
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B000CNKITS",
       "origem": "promobit",
@@ -2411,6 +2389,21 @@
       "foto": "https://http2.mlstatic.com/D_NQ_NP_858935-MLU77144326326_062024-O.webp",
       "secao": "relogios",
       "foto_site_ok": true
+    },
+    {
+      "chave": "shopee:347988064.22292694966",
+      "loja": "shopee",
+      "nome": "Pré-Treino Sixt Army Night 300g Soldiers Nutrition Pré Treino Pre Workout Termogênico Energia Foco Resistência Academia",
+      "data": "2026-10-16T23:04-03:00",
+      "link": "https://s.shopee.com.br/8AWvBy3IAq",
+      "link_produto": "https://shopee.com.br/product/347988064/22292694966",
+      "titulo": "Pré-treino para dar energia e foco na academia",
+      "de": 79.87,
+      "por": 59.9,
+      "foto": "https://cf.shopee.com.br/file/br-11134207-7r98o-mcatd83t8lijb3",
+      "secao": "academia",
+      "slot": 23,
+      "foto_site_ok": true
     }
   ],
   "slots_usados": {
@@ -2539,7 +2532,8 @@
       22,
       22.1,
       22.2,
-      22.3
+      22.3,
+      23
     ]
   },
   "shopee_buscado_em": "",
@@ -7659,6 +7653,19 @@
   },
   "ultimos": [
     {
+      "loja": "shopee",
+      "chave": "shopee:347988064.22292694966",
+      "nome": "Pré-Treino Sixt Army Night 300g Soldiers Nutrition Pré Treino Pre Workout Termogênico Energia Foco Resistência Academia",
+      "por": 59.9,
+      "de": 79.87,
+      "foto": "https://cf.shopee.com.br/file/br-11134207-7r98o-mcatd83t8lijb3",
+      "link": "https://s.shopee.com.br/8AWvBy3IAq",
+      "link_produto": "https://shopee.com.br/product/347988064/22292694966",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "titulo": "Pré-treino para dar energia e foco na academia"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB25970762",
       "origem": "promonocontext",
@@ -8181,20 +8188,6 @@
       "de": 279.0,
       "cupom": "OFFHOJE",
       "titulo": "Technos em aço versátil para qualquer ocasião"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB7013067090",
-      "origem": "promonocontext",
-      "link": "https://meli.la/2ay1cCW",
-      "link_produto": "https://www.mercadolivre.com.br/tenis-masculino-court-classic-clean-s-puma/up/MLBU4130437583?pdp_filters=item_id%3AMLB7013067090",
-      "post_origem": "https://t.me/promonocontext/127519",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_638273-MLB113292867907_062026-O.webp",
-      "nome": "Tênis Masculino Court Classic Clean S Puma Preto Liso 37 Br",
-      "de": 379.0,
-      "por": 219.0,
-      "cupom": "161040TODOSITE",
-      "titulo": "Tênis Puma todo preto fácil de combinar"
     }
   ],
   "lixeira": [
@@ -9787,5 +9780,5 @@
     }
   },
   "aviso_ml": "2026-10-16",
-  "vitrine_marca": "05f1171e2371"
+  "vitrine_marca": "84a5f265afb1"
 }
