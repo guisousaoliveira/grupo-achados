@@ -211,6 +211,30 @@
       "titulo": "Power bank portátil para carregar o celular na rua",
       "na_revisao_desde": "2026-10-16T22:09-03:00",
       "aprovado_em": "2026-10-16T22:10-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB6907847024",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/21g9c8T",
+      "link_produto": "https://www.mercadolivre.com.br/relogio-masculino-couro-aco-inoxidavel-preto-social/up/MLBU4045655127?pdp_filters=item_id%3AMLB6907847024",
+      "post_origem": "https://t.me/lobaopromo/190577",
+      "link_canal": "https://meli.la/2jHhjyJ",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_910571-MLB116279629539_082026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Relogio Masculino Couro Aco Inoxidavel Preto Social Preto Prateado",
+      "de": 82.0,
+      "por": 30.0,
+      "lido_ia": true,
+      "cupom": "CUPOMON",
+      "preco_loja": 54.99,
+      "palavra": "relogio masculino",
+      "garimpado_em": "2026-10-16T20:40-03:00",
+      "nota": 91.8,
+      "motivo_revisao": "o post diz R$ 30,00 e a loja mostra R$ 54,99, e não tem cupom ou Pix que explique a diferença",
+      "titulo": "Relógio social sóbrio para usar no trabalho",
+      "na_revisao_desde": "2026-10-16T22:08-03:00",
+      "aprovado_em": "2026-10-16T22:10-03:00"
     }
   ],
   "postados": [
@@ -2473,31 +2497,6 @@
   },
   "shopee_buscado_em": "",
   "revisar": [
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB6907847024",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/21g9c8T",
-      "link_produto": "https://www.mercadolivre.com.br/relogio-masculino-couro-aco-inoxidavel-preto-social/up/MLBU4045655127?pdp_filters=item_id%3AMLB6907847024",
-      "post_origem": "https://t.me/lobaopromo/190577",
-      "link_canal": "https://meli.la/2jHhjyJ",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_910571-MLB116279629539_082026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Relogio Masculino Couro Aco Inoxidavel Preto Social Preto Prateado",
-      "de": 82.0,
-      "por": 30.0,
-      "lido_ia": true,
-      "cupom": "CUPOMON",
-      "preco_loja": 54.99,
-      "palavra": "relogio masculino",
-      "garimpado_em": "2026-10-16T20:40-03:00",
-      "nota": 91.8,
-      "motivo_revisao": "o post diz R$ 30,00 e a loja mostra R$ 54,99, e não tem cupom ou Pix que explique a diferença",
-      "titulo": "Relógio social sóbrio para usar no trabalho",
-      "id": 712,
-      "na_revisao_desde": "2026-10-16T22:08-03:00",
-      "msg_id": 1213
-    },
     {
       "loja": "amazon",
       "chave": "amazon:B000CNKITS",
@@ -9409,7 +9408,7 @@
       },
       "lobaopromo": {
         "achados": 15,
-        "aprovados": 9,
+        "aprovados": 10,
         "reprovados": 1
       },
       "promooeasy": {
@@ -9683,7 +9682,7 @@
     },
     "relogio masculino": {
       "achados": 10,
-      "aprovados": 4,
+      "aprovados": 5,
       "reprovados": 3
     },
     "jogo de soquete": {
@@ -9838,7 +9837,7 @@
       "17": 3,
       "18": 2,
       "19": 1,
-      "22": 5
+      "22": 6
     }
   },
   "aviso_ml": "2026-10-16",
