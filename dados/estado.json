@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "amazon",
-      "chave": "amazon:B0CXY7MGL3",
-      "origem": "boletando",
-      "link": "https://www.amazon.com.br/dp/B0CXY7MGL3?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0CXY7MGL3?tag=alphadominu09-20",
-      "post_origem": "https://t.me/boletando/76875",
-      "link_canal": "https://boletando.com/oferta/269417/",
-      "foto": "AgACAgQAAxkDAAIFD2rTp3JgyQABdixuAUss1QeycDzuUwACRgtrGwbLbFCIjfYqQhDRoAEAAwIAA3gAAz0E",
-      "foto_origem": "loja",
-      "nome": "Drone DJI Mini 3 Standard",
-      "lido_ia": true,
-      "por": 3867.45,
-      "preco_loja": 3867.45,
-      "palavra": "drone",
-      "garimpado_em": "2026-10-17T13:50-03:00",
-      "nota": 42.3,
-      "motivo_revisao": "o post diz R$ 3.990,00 e a loja mostra R$ 3.867,45, e não tem cupom ou Pix que explique a diferença",
-      "na_revisao_desde": "2026-10-17T13:50-03:00",
-      "de": 5215.5,
-      "aprovado_em": "2026-10-17T13:54-03:00"
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB6676440714",
       "origem": "xetdaspromocoes",
@@ -3315,6 +3293,20 @@
       "secao": "estilo",
       "slot": 16.3,
       "foto_site_ok": true
+    },
+    {
+      "chave": "amazon:B0CXY7MGL3",
+      "loja": "amazon",
+      "nome": "Drone DJI Mini 3 Standard",
+      "data": "2026-10-17T17:03-03:00",
+      "link": "https://www.amazon.com.br/dp/B0CXY7MGL3?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0CXY7MGL3?tag=alphadominu09-20",
+      "de": 5215.5,
+      "por": 3867.45,
+      "foto": "https://raw.githubusercontent.com/guisousaoliveira/grupo-achados/main/dados/fotos/08fda72e48.jpg",
+      "secao": "tech",
+      "slot": 17,
+      "foto_site_ok": true
     }
   ],
   "slots_usados": {
@@ -3481,7 +3473,8 @@
       16,
       16.1,
       16.2,
-      16.3
+      16.3,
+      17
     ]
   },
   "shopee_buscado_em": "",
@@ -9655,6 +9648,18 @@
   },
   "ultimos": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B0CXY7MGL3",
+      "origem": "boletando",
+      "link": "https://www.amazon.com.br/dp/B0CXY7MGL3?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0CXY7MGL3?tag=alphadominu09-20",
+      "post_origem": "https://t.me/boletando/76875",
+      "foto": "AgACAgQAAxkDAAIFD2rTp3JgyQABdixuAUss1QeycDzuUwACRgtrGwbLbFCIjfYqQhDRoAEAAwIAA3gAAz0E",
+      "nome": "Drone DJI Mini 3 Standard",
+      "por": 3867.45,
+      "de": 5215.5
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:1385382926.19697971669",
       "nome": "Tenis Masculino Casual Unissex Branco 34 Ao 43 Macio Confortável Branco Preto Cinza",
@@ -10181,20 +10186,6 @@
       "por": 115.0,
       "cupom": "ECONOMIZEI",
       "titulo": "Mochila grande expansível para viagens e voos"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B000CNKITS",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B000CNKITS?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B000CNKITS?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/azzaro-pour-homme-perfume-masculino-eau-de-toilette-3120325/",
-      "nome": "Azzaro Pour Homme Perfume Masculino Eau De Toilette",
-      "por": 179.99,
-      "de": 299.0,
-      "foto": "AgACAgQAAxkDAAIEvmrSyqZUy1ejEozEZ_d41peiMYAmAAJFDWsbdSFkUS34l7skC9biAQADAgADeQADPQQ",
-      "titulo": "Perfume amadeirado clássico para uso diário"
     }
   ],
   "lixeira": [],
@@ -10910,5 +10901,5 @@
     }
   },
   "aviso_ml": "2026-10-17",
-  "vitrine_marca": "4dcdff993f90"
+  "vitrine_marca": "0bf14ecf80b0"
 }
