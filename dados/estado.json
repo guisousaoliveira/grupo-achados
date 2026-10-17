@@ -207,6 +207,32 @@
       "titulo": "Caixa de som potente para festas e eventos",
       "na_revisao_desde": "2026-10-17T11:50-03:00",
       "aprovado_em": "2026-10-17T12:58-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB4362152290",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/2y39iRn",
+      "link_produto": "https://www.mercadolivre.com.br/pochete-cartucheira-de-perna-para-ferramentas-solze-preto/up/MLBU1988410510?pdp_filters=item_id%3AMLB4362152290",
+      "post_origem": "https://t.me/lobaopromo/190797",
+      "link_canal": "https://meli.la/1wL8okh",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_867550-MLB107418588215_022026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Pochete Cartucheira De Perna Para Ferramentas Solze Preto Preto",
+      "por": 57.0,
+      "lido_ia": true,
+      "cupom": "DESCONTOSML",
+      "preco_conferido": true,
+      "preco_cupom": true,
+      "preco_sem_cupom": 76.71,
+      "palavra": "ferramenta",
+      "garimpado_em": "2026-10-17T11:00-03:00",
+      "nota": 48.6,
+      "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto",
+      "titulo": "Acesso rápido às ferramentas direto na perna",
+      "na_revisao_desde": "2026-10-17T11:01-03:00",
+      "de": 97.0,
+      "aprovado_em": "2026-10-17T13:00-03:00"
     }
   ],
   "postados": [
@@ -3024,32 +3050,6 @@
       "id": 750,
       "na_revisao_desde": "2026-10-17T10:01-03:00",
       "msg_id": 1262
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB4362152290",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/2y39iRn",
-      "link_produto": "https://www.mercadolivre.com.br/pochete-cartucheira-de-perna-para-ferramentas-solze-preto/up/MLBU1988410510?pdp_filters=item_id%3AMLB4362152290",
-      "post_origem": "https://t.me/lobaopromo/190797",
-      "link_canal": "https://meli.la/1wL8okh",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_867550-MLB107418588215_022026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Pochete Cartucheira De Perna Para Ferramentas Solze Preto Preto",
-      "por": 57.0,
-      "lido_ia": true,
-      "cupom": "DESCONTOSML",
-      "preco_conferido": true,
-      "preco_cupom": true,
-      "preco_sem_cupom": 76.71,
-      "palavra": "ferramenta",
-      "garimpado_em": "2026-10-17T11:00-03:00",
-      "nota": 48.6,
-      "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto",
-      "titulo": "Acesso rápido às ferramentas direto na perna",
-      "id": 757,
-      "na_revisao_desde": "2026-10-17T11:01-03:00",
-      "msg_id": 1270
     },
     {
       "loja": "mercadolivre",
@@ -10895,7 +10895,7 @@
       },
       "lobaopromo": {
         "achados": 6,
-        "aprovados": 1,
+        "aprovados": 2,
         "reprovados": 1
       },
       "urubupromo": {
@@ -11034,7 +11034,7 @@
     },
     "ferramenta": {
       "achados": 11,
-      "aprovados": 3,
+      "aprovados": 4,
       "reprovados": 5
     },
     "fritadeira": {
@@ -11309,7 +11309,8 @@
       "9": 3,
       "10": 3,
       "11": 1,
-      "12": 5
+      "12": 5,
+      "13": 1
     }
   },
   "aviso_ml": "2026-10-17",
