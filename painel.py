@@ -117,7 +117,7 @@ input{{width:100%;padding:12px 14px;border-radius:8px;border:1px solid var(--lin
 button{{width:100%;margin-top:14px;padding:12px;border:0;border-radius:8px;background:var(--bt);color:var(--bttx);font:600 15px "IBM Plex Sans",sans-serif;cursor:pointer}}
 .erro{{background:var(--badbg);color:var(--bad);padding:10px 12px;border-radius:8px;font-size:13px}}
 </style></head><body><form method="post" action="/painel/entrar">
-<div class="marca"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M6 9.5A3.5 3.5 0 0 1 9.5 6H23l11 11a3 3 0 0 1 0 4.2L21.2 34a3 3 0 0 1-4.2 0L6 23z" fill="var(--acc)"/><circle cx="12.5" cy="12.5" r="2.3" fill="var(--card)"/><text x="21.5" y="27" text-anchor="middle" font-family="Newsreader, Georgia, serif" font-style="italic" font-size="17" font-weight="500" fill="var(--card)">M</text></svg><div><h1>Mascate</h1><small>Canal Alpha Promo</small></div></div>
+<div class="marca"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M6 9.5A3.5 3.5 0 0 1 9.5 6H23l11 11a3 3 0 0 1 0 4.2L21.2 34a3 3 0 0 1-4.2 0L6 23z" fill="var(--acc)"/><circle cx="12.5" cy="12.5" r="2.3" fill="var(--card)"/><text x="21.5" y="27" text-anchor="middle" font-family="Newsreader, Georgia, serif" font-style="italic" font-size="17" font-weight="500" fill="var(--card)">M</text></svg><div><h1>Mascate</h1><small>Canal Ofertas do Olimpo</small></div></div>
 {aviso}<label for="s">Senha</label><input id="s" name="senha" type="password" autofocus autocomplete="current-password">
 <button>Entrar</button></form></body></html>"""
 
@@ -293,7 +293,7 @@ def resumo(estado):
         "usados_hoje": estado["slots_usados"].get(hoje, []),
         "validade_horas": bot.CONFIG.get("validade_horas", 12),
         "canal": bot.CONFIG.get("canal_publico", ""),
-        "canal_nome": bot.CONFIG.get("canal_nome", "Alpha Promo"),
+        "canal_nome": bot.CONFIG.get("canal_nome", "Ofertas do Olimpo"),
         "chamada": bot.chamada_ligada(),  # false: post sem a chamada, o painel esconde o campo Título
         "fila": fila,
         "revisar": [item_json(x, str(x["id"])) for x in sorted(estado["revisar"], key=lambda x: x["id"], reverse=True)],
@@ -467,7 +467,7 @@ def tirar_botoes(msg_id):
 
 # ---------------------------------------------------------------- IA (Gemini)
 
-PEDIDO_IA = """Você escreve ofertas para o Alpha Promo, um canal de promoções no Telegram com público masculino
+PEDIDO_IA = """Você escreve ofertas para o Ofertas do Olimpo, um canal de promoções no Telegram com público masculino
 de 18 a 35 anos (academia, estilo, cuidados, tecnologia, games, ferramentas, casa, cozinha, churrasco e carro).
 Com os dados abaixo, escreva {pedido}. Responda só com o texto, numa linha, sem aspas.
 {regra}

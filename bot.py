@@ -2220,7 +2220,7 @@ def limpar_estado(estado):
 # ---------------------------------------------------------------- radar de ofertas
 # Lê a página pública dos canais de promoção (t.me/s/canal, sem login e sem usar sua conta),
 # fica só com o que é do seu nicho, troca o link da Amazon pelo seu e manda para você revisar.
-# Nunca copia o texto do canal: nome e preço viram o post no padrão do Alpha Promo, com frase própria.
+# Nunca copia o texto do canal: nome e preço viram o post no padrão do Ofertas do Olimpo, com frase própria.
 
 ASIN = re.compile(r"/(?:dp|gp/product|gp/aw/d|d|exec/obidos/ASIN)/([A-Z0-9]{10})(?:[/?&#]|$)")
 LINK_LOJA = re.compile(r"https?://[^\s\"'<>]*(?:amazon\.com\.br|amzn\.to|amzn\.divulgador\.link|"

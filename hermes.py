@@ -1,4 +1,4 @@
-"""Hermes: robô de alertas do Alpha Promo (@HermesAlphaPromoBot).
+"""Hermes: robô de alertas do Ofertas do Olimpo (@HermesAlphaPromoBot).
 
 Cada pessoa monta a lista dela (seções e produtos) na tela do Hermes, que abre dentro do Telegram
 (alphadominustv.com/hermes). Quando o canal posta uma oferta que bate com a lista, o Hermes manda
@@ -238,7 +238,7 @@ def tratar_lista(handler, metodo):
         try:
             api("sendMessage", chat_id=uid, parse_mode="HTML",
                 text="✅ <b>Alertas ativados!</b>\n\n" + resumo(u) +
-                     "\n\nQuando sair uma oferta assim no Alpha Promo, eu te aviso aqui.",
+                     "\n\nQuando sair uma oferta assim no Ofertas do Olimpo, eu te aviso aqui.",
                 reply_markup=botao_lista("✏️ Editar lista"))
         except Exception as e:
             bot.log(f"Hermes: não consegui confirmar no privado ({e}).")
@@ -250,7 +250,7 @@ def tratar_lista(handler, metodo):
 
 # ---------------------------------------------------------------- conversa com o bot
 
-BOAS_VINDAS = ("Sou o <b>Hermes</b>, o mensageiro do Alpha Promo. ⚡\n\n"
+BOAS_VINDAS = ("Sou o <b>Hermes</b>, o mensageiro do Olimpo. ⚡\n\n"
                "Escolha seções (academia, relógios, barba, tech…) ou produtos (whey, Casio, air fryer…) "
                "e eu te aviso aqui quando sair uma promoção que combina com você.\n\n"
                "Se preferir, mande o nome do produto por mensagem.")
@@ -314,8 +314,8 @@ def configurar(base, segredo_webhook):
                                        {"command": "voltar", "description": "Ligar alertas de novo"},
                                        {"command": "apagar", "description": "Apagar minha lista"}])
         api("setMyDescription", description="Monte sua lista de produtos e seções e receba no privado as "
-                                            "promoções do Alpha Promo que combinam com você. Links de afiliado.")
-        api("setMyShortDescription", short_description="Alertas de promoção do Alpha Promo, do seu jeito.")
+                                            "promoções do Ofertas do Olimpo que combinam com você. Links de afiliado.")
+        api("setMyShortDescription", short_description="Alertas de promoção do Ofertas do Olimpo, do seu jeito.")
         bot.log("Hermes ligado: webhook, botão 'Minha lista' e comandos.")
     except Exception as e:
         bot.log(f"Hermes: não consegui configurar ({e}).")

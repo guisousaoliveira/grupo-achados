@@ -246,7 +246,8 @@
     "melhores_por_vez": 2,
     "soltar_cada_minutos": 15
   },
-  "canal_publico": "alphadominuspromo",
+  "canal_publico": "ofertasdoolimpo",
+  "canal_nome": "Ofertas do Olimpo",
   "aviso_antes_minutos": 10,
   "complementos": {
     "geral": [

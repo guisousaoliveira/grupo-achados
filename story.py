@@ -1,10 +1,11 @@
-"""Gera imagens de story (1080x1920) no padrão Alpha Dominus: preto, dourado, Playfair + Inter.
+"""Gera imagens de story (1080x1920) no visual do site Ofertas do Olimpo (alphadominustv.com/promocoes, tema escuro):
+papel escuro, dourado, gravuras de templo e colunas, medalhões dos deuses curadores, Cinzel + Montserrat + Inter.
 
   story_fixo(canal)            -> PNG do story fixo de divulgação do canal
   story_oferta(item, foto)     -> PNG de "prova": oferta que já saiu no canal
   story_venda(item, foto)      -> PNG para vender: foto, preço e vagas para os stickers de link (produto e canal)
 
-Precisa do Pillow (pip install pillow). As fontes e o leão ficam em assets/.
+Precisa do Pillow (pip install pillow). Fontes em assets/fontes, gravuras e marca em assets/olimpo, medalhões em assets/deuses.
 """
 
 import io
@@ -15,12 +16,26 @@ from PIL import Image, ImageChops, ImageDraw, ImageFilter, ImageFont, ImageOps
 
 PASTA = Path(__file__).resolve().parent / "assets"
 L, A = 1080, 1920
-PRETO = (10, 10, 10)
-CARTAO = (22, 22, 22)
-DOURADO = (212, 175, 55)
-DOURADO_ESCURO = (181, 149, 47)
-BRANCO = (245, 245, 245)
-CINZA = (150, 150, 150)
+# Cores do tema escuro do site (variáveis --papel, --ouro, --txt... de promocoes.html)
+PAPEL = (18, 15, 10)
+SUP = (29, 25, 18)
+PLACA = (239, 230, 210)       # fundo claro do card da foto
+TXT = (241, 232, 212)
+TXT2 = (198, 183, 151)
+DIM = (143, 129, 104)
+OURO = (212, 175, 55)
+OURO_VIV = (230, 194, 90)
+GRAV = (168, 133, 63)         # cor das gravuras
+TINTA = (20, 15, 5)
+LINHA = (92, 76, 27)          # dourado a 38% sobre o papel
+PRETO, CARTAO, DOURADO, DOURADO_ESCURO, BRANCO, CINZA = TINTA, SUP, OURO, GRAV, TXT, TXT2
+OLIMPO = PASTA / "olimpo"
+CURADORES = {  # seção do site: (deus, medalhão, cor da seção, nome da seção) — o mesmo do selo.py e do site
+    "academia": ("Ares", "ares", (184, 67, 46), "Academia"), "relogios": ("Cronos", "cronos", (79, 111, 168), "Relógios"),
+    "barba": ("Apolo", "apolo", (217, 134, 42), "Barba"), "casa": ("Héstia", "hestia", (111, 140, 69), "Casa"),
+    "tech": ("Atena", "atena", (47, 138, 143), "Tech"), "carro": ("Hefesto", "hefesto", (125, 135, 144), "Carro"),
+    "estilo": ("Perseu", "perseu", (138, 85, 168), "Estilo"), "outros": ("Zeus", "todas", (201, 160, 58), "Todas"),
+}
 # Faixa de baixo fica livre para o sticker de link do Instagram.
 FAIXA_STICKER = 280
 
@@ -41,25 +56,27 @@ FRASES = [
     "O próximo pode ser seu.",
     "Ativa as notificações.",
     "Preço baixo dura pouco.",
-    "Isso aqui é o Alpha Promo.",
+    "Isso aqui é o Olimpo.",
     "Economia de homem esperto.",
     "Entra antes da próxima.",
     "Só quem segue vê a tempo.",
     "Mais uma promo do dia.",
+    "Escolhida pela curadoria.",
+    "Preço conferido na loja.",
 ]
 
 # Textos que dá para mudar no painel (aba Stories > Personalizar). Fica guardado em estado["story_cfg"].
 PADRAO = {
     "frases": FRASES,
-    "cabecalho": "SAIU NO ALPHA PROMO",
+    "cabecalho": "SAIU NO OLIMPO",
     "mostrar_desconto": True,
     "mostrar_de": True,
-    "fixo_subtitulo": "PROMOÇÕES PARA O HOMEM QUE SE CUIDA",
-    "fixo_texto": "Chega de pagar mais caro. Encontramos os melhores preços da internet para você economizar de verdade.",
+    "fixo_subtitulo": "PROMOÇÕES PARA O HOMEM QUE SABE O QUE COMPRA",
+    "fixo_texto": "Academia, relógio, barba, casa, tech, carro e estilo. O preço é conferido na loja antes de publicar.",
     "fixo_rotulo": "O QUE VOCÊ VAI ENCONTRAR NO CANAL",
-    "fixo_itens": ["Promoções diárias: tech, estilo, treino e casa",
-                   "As melhores ofertas da Amazon, Shopee e Mercado Livre",
-                   "Cupons e preços conferidos, todo dia"],
+    "fixo_itens": ["Promoções todo dia, das 8h às 23h",
+                   "Amazon, Mercado Livre e Shopee",
+                   "Cupons e preço no Pix avisados no post"],
     "fixo_chamada": "100% gratuito. Toque para entrar.",
 }
 
@@ -93,22 +110,131 @@ def reais(v):
     return "R$ " + f"{v:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
 
 
+def _gravura(nome, largura, cor, opacidade, espelhar=False):
+    """Gravura do site (templo, colunas, céu) como no CSS: a forma vira máscara pintada numa cor só."""
+    m = Image.open(OLIMPO / f"{nome}.png").convert("L")
+    m = m.resize((largura, round(m.height * largura / m.width)), Image.LANCZOS)
+    if espelhar:
+        m = ImageOps.mirror(m)
+    camada = Image.new("RGBA", m.size, cor + (0,))
+    camada.putalpha(m.point(lambda v: round(v * opacidade)))
+    return camada
+
+
+_FUNDO = []
+
+
 def fundo():
-    img = Image.new("RGB", (L, A), PRETO)
+    """Papel escuro do site com o céu de colunata em cima, colunas nas laterais, grão e moldura fina dourada.
+    É sempre igual: monta uma vez e devolve uma cópia."""
+    if not _FUNDO:
+        _FUNDO.append(_montar_fundo())
+    return _FUNDO[0].copy()
+
+
+def _montar_fundo():
+    img = Image.new("RGBA", (L, A), PAPEL + (255,))
     brilho = Image.new("L", (L, A), 0)
-    d = ImageDraw.Draw(brilho)
-    d.ellipse((-200, -300, L + 200, 900), fill=70)
-    brilho = brilho.filter(ImageFilter.GaussianBlur(220))
-    ouro = Image.new("RGB", (L, A), (60, 48, 12))
-    img = Image.composite(ouro, img, brilho)
+    ImageDraw.Draw(brilho).ellipse((-240, -420, L + 240, 760), fill=46)
+    brilho = brilho.filter(ImageFilter.GaussianBlur(200))
+    img = Image.composite(Image.new("RGBA", (L, A), (70, 55, 18, 255)), img, brilho)
+    img.alpha_composite(_gravura("ceu", 1240, OURO, 0.13), (-80, -30))
+    col = _gravura("colunas", 360, GRAV, 0.30)
+    img.alpha_composite(col, (-110, A - col.height + 60))
+    col_d = _gravura("colunas", 360, GRAV, 0.17, espelhar=True)
+    img.alpha_composite(col_d, (L - col_d.width + 110, A - col_d.height + 60))
+    grao = Image.open(OLIMPO / "grao.png").convert("RGBA")
+    grao.putalpha(grao.getchannel("A").point(lambda v: round(v * 0.32)))
+    for x in range(0, L, grao.width):
+        for y in range(0, A, grao.height):
+            img.alpha_composite(grao, (x, y))
+    img = img.convert("RGB")
     d = ImageDraw.Draw(img)
-    d.rectangle((40, 40, L - 40, A - 40), outline=(60, 50, 20), width=2)
+    d.rectangle((40, 40, L - 40, A - 40), outline=LINHA, width=2)
+    d.rectangle((52, 52, L - 52, A - 52), outline=(40, 33, 15), width=1)
     return img
 
 
+def marca_icone(altura, cor=OURO):
+    """Medalhão da marca (raposa de Hermes) pintado de dourado, como o .icone do site."""
+    m = Image.open(OLIMPO / "marca.png").convert("LA").getchannel("A")
+    m = m.resize((altura, altura), Image.LANCZOS)
+    ic = Image.new("RGBA", (altura, altura), cor + (0,))
+    ic.putalpha(m)
+    return ic
+
+
+def marca(img, y, icone=84, grande=50, pequeno=21):
+    """OFERTAS / DO OLIMPO ao lado do medalhão, centralizado, igual ao topo do site."""
+    d = ImageDraw.Draw(img)
+    fb, fs = fonte("Montserrat-ExtraBold.ttf", grande), fonte("Montserrat-ExtraBold.ttf", pequeno)
+    esp = round(pequeno * 0.32)
+    wb = d.textlength("OFERTAS", font=fb) + grande * 0.02 * 6
+    ws = sum(d.textlength(c, font=fs) for c in "DO OLIMPO") + esp * 8
+    gap = round(icone * 0.22)
+    total = icone + gap + max(wb, ws)
+    x = round((L - total) / 2)
+    ic = marca_icone(icone)
+    img.paste(ic, (x, y), ic)
+    tx = x + icone + gap
+    ty = y + (icone - (grande * 0.9 + pequeno + pequeno * 0.4)) / 2
+    for c in "OFERTAS":
+        d.text((tx, ty), c, font=fb, fill=TXT, anchor="la")
+        tx += d.textlength(c, font=fb) + grande * 0.02
+    tx = x + icone + gap
+    ty2 = ty + grande * 0.9 + pequeno * 0.45
+    for c in "DO OLIMPO":
+        d.text((tx, ty2), c, font=fs, fill=OURO)
+        tx += d.textlength(c, font=fs) + esp
+    return y + icone
+
+
+def medalhao(secao, diam, aro=4):
+    """Medalhão redondo do deus da seção, com aro na cor da seção (o mesmo do site)."""
+    deus, arq, cor, _ = CURADORES.get(secao, CURADORES["outros"])
+    med = Image.open(PASTA / "deuses" / f"{arq}.png").convert("RGBA").resize((diam, diam), Image.LANCZOS)
+    base = Image.new("RGBA", (diam, diam), PLACA + (255,))
+    base.alpha_composite(med)
+    mascara = Image.new("L", (diam, diam), 0)
+    ImageDraw.Draw(mascara).ellipse((0, 0, diam - 1, diam - 1), fill=255)
+    saida = Image.new("RGBA", (diam, diam), (0, 0, 0, 0))
+    saida.paste(base, (0, 0), mascara)
+    ImageDraw.Draw(saida).ellipse((1, 1, diam - 2, diam - 2), outline=cor + (255,), width=aro)
+    return saida
+
+
+def secao_do(item):
+    if item.get("secao") in CURADORES:
+        return item["secao"]
+    try:
+        import bot
+        return bot.secao_site(item)
+    except Exception:
+        return "outros"
+
+
+def selo_curador(img, secao, x1, y1):
+    """Selo do curador no canto de baixo do card (o mesmo das fotos do canal): medalhão + nome do deus."""
+    deus, _, cor, _ = CURADORES.get(secao, CURADORES["outros"])
+    d = ImageDraw.Draw(img)
+    f = fonte("Cinzel-ExtraBold.ttf", 30)
+    letras, esp = deus.upper(), 4
+    tw = sum(d.textlength(c, font=f) for c in letras) + esp * (len(letras) - 1)
+    h, diam = 70, 60
+    w = 5 + diam + 14 + tw + 24
+    x0, y0 = x1 - w, y1 - h
+    d.rounded_rectangle((x0, y0, x1, y1), radius=h // 2, fill=PLACA, outline=cor, width=3)
+    med = medalhao(secao, diam, 3)
+    img.paste(med, (int(x0 + 5), int(y0 + 5)), med)
+    x = x0 + 5 + diam + 14
+    for c in letras:
+        d.text((x, y0 + h / 2 + 2), c, font=f, fill=cor, anchor="lm")
+        x += d.textlength(c, font=f) + esp
+
+
 def leao(altura):
-    img = Image.open(PASTA / "leao.png").convert("RGBA")
-    return img.resize((int(img.width * altura / img.height), altura), Image.LANCZOS)
+    """Mantido para quem ainda chama: agora devolve o medalhão da marca."""
+    return marca_icone(altura)
 
 
 def centro(d, y, texto, f, cor, espaco=0):
@@ -121,6 +247,17 @@ def centro(d, y, texto, f, cor, espaco=0):
         return
     w = d.textlength(texto, font=f)
     d.text(((L - w) / 2, y), texto, font=f, fill=cor)
+
+
+def legenda_setas(d, y, texto, f, cor, espaco=4):
+    """Texto centralizado entre dois triângulos desenhados (a Cinzel não tem o ▼)."""
+    tw = sum(d.textlength(c, font=f) for c in texto) + espaco * (len(texto) - 1)
+    lado, gap = round(f.size * 0.62), round(f.size * 0.75)
+    x = (L - tw) / 2
+    cy = y + f.size * 0.55
+    for cx in (x - gap - lado / 2, x + tw + gap + lado / 2):
+        d.polygon(((cx - lado / 2, cy - lado * 0.38), (cx + lado / 2, cy - lado * 0.38), (cx, cy + lado * 0.48)), fill=cor)
+    centro(d, y, texto, f, cor, espaco=espaco)
 
 
 def quebrar(d, texto, f, largura, max_linhas=3):
@@ -139,6 +276,18 @@ def quebrar(d, texto, f, largura, max_linhas=3):
         while d.textlength(linhas[-1] + "…", font=f) > largura and " " in linhas[-1]:
             linhas[-1] = linhas[-1].rsplit(" ", 1)[0]
         linhas[-1] += "…"
+    return linhas
+
+
+def equilibrar(d, texto, f, largura, max_linhas=3):
+    """Como quebrar(), mas com as linhas do mesmo tamanho (sem uma palavra sozinha na última)."""
+    linhas = quebrar(d, texto, f, largura, max_linhas)
+    n, w = len(linhas), largura
+    while n > 1 and w > largura * 0.5:
+        teste = quebrar(d, texto, f, w - 10, max_linhas)
+        if len(teste) > n or teste[-1].endswith("…"):
+            break
+        linhas, w = teste, w - 10
     return linhas
 
 
@@ -172,33 +321,23 @@ def selo_loja(img, loja, x, y, altura=72):
 
 def rodape(img, d, canal, chamada):
     y = A - FAIXA_STICKER - 210
-    centro(d, y, chamada, fonte("Inter-SemiBold.ttf", 40), BRANCO)
+    centro(d, y, chamada, fonte("Inter-SemiBold.ttf", 40), TXT)
+    pilula_canal(img, d, y + 75, canal, altura=92, tamanho=46)
+    legenda_setas(d, A - FAIXA_STICKER + 36, "TOQUE NO LINK", fonte("Cinzel-ExtraBold.ttf", 28), GRAV, espaco=5)
+
+
+def pilula_canal(img, d, y, canal, altura=78, tamanho=40):
+    """Botão claro com o ícone do Telegram e t.me/canal (o botão "Entrar no Telegram" do site, no tema escuro)."""
     alvo = f"t.me/{canal}" if canal else "Canal no Telegram"
-    f = fonte("Inter-ExtraBold.ttf", 46)
-    tw = d.textlength(alvo, font=f)
-    r = 27
-    w = tw + 2 * r + 22 + 90
-    x0 = (L - w) / 2
-    d.rounded_rectangle((x0, y + 75, x0 + w, y + 165), radius=45, fill=DOURADO)
-    tg = logo("telegram", 2 * r)
-    if tg is not None:
-        img.paste(tg, (int(x0 + 45), int(y + 120 - r)), tg)
-    d.text((x0 + 45 + 2 * r + 22, y + 120), alvo, font=f, fill=PRETO, anchor="lm")
-    centro(d, A - FAIXA_STICKER + 40, "▼  toque no link  ▼", fonte("Inter-Regular.ttf", 30), DOURADO_ESCURO)
-
-
-def pilula_canal(img, d, y, canal, altura=78):
-    """Pílula dourada com o ícone do Telegram e t.me/canal (a mesma do story de prova, um pouco menor)."""
-    alvo = f"t.me/{canal}"
-    f = fonte("Inter-ExtraBold.ttf", 40)
+    f = fonte("Inter-ExtraBold.ttf", tamanho)
     r = altura // 2 - 12
     w = d.textlength(alvo, font=f) + 2 * r + 20 + 76
     x0 = (L - w) / 2
-    d.rounded_rectangle((x0, y, x0 + w, y + altura), radius=altura // 2, fill=DOURADO)
+    d.rounded_rectangle((x0, y, x0 + w, y + altura), radius=altura // 2, fill=PLACA)
     tg = logo("telegram", 2 * r)
     if tg is not None:
         img.paste(tg, (int(x0 + 38), int(y + altura / 2 - r)), tg)
-    d.text((x0 + 38 + 2 * r + 20, y + altura / 2), alvo, font=f, fill=PRETO, anchor="lm")
+    d.text((x0 + 38 + 2 * r + 20, y + altura / 2), alvo, font=f, fill=TINTA, anchor="lm")
 
 
 def png(img):
@@ -219,33 +358,46 @@ def story_fixo(canal="", cfg=None):
     c = config(cfg)
     img = fundo()
     d = ImageDraw.Draw(img)
-    lv = leao(240)
-    img.paste(lv, ((L - lv.width) // 2, 140), lv)
-    centro(d, 405, "ALPHA PROMO", fonte("Playfair-Black.ttf", 112), DOURADO)
-    centro(d, 545, c["fixo_subtitulo"].upper(), fonte("Inter-SemiBold.ttf", 30), CINZA, espaco=3)
-    divisor(d, 625)
+    ic = marca_icone(230)
+    img.paste(ic, ((L - ic.width) // 2, 120), ic)
+    fb = fonte("Montserrat-ExtraBold.ttf", 118)
+    centro(d, 372, "OFERTAS", fb, TXT, espaco=3)
+    centro(d, 508, "DO OLIMPO", fonte("Montserrat-ExtraBold.ttf", 44), OURO, espaco=14)
+    f_sub = fonte("Cinzel-ExtraBold.ttf", 30)
+    for i, linha in enumerate(equilibrar(d, c["fixo_subtitulo"].upper(), f_sub, L - 240, 2)):
+        centro(d, 592 + i * 44, linha, f_sub, TXT2, espaco=3)
+    divisor(d, 700)
 
-    f = fonte("Inter-SemiBold.ttf", 42)
-    y = 680
-    for linha in quebrar(d, c["fixo_texto"], f, L - 150, 4):
-        centro(d, y, linha, f, BRANCO)
-        y += 56
+    f = fonte("Inter-SemiBold.ttf", 38)
+    y = 740
+    for linha in equilibrar(d, c["fixo_texto"], f, L - 170, 3):
+        centro(d, y, linha, f, TXT)
+        y += 52
 
-    y += 44
-    centro(d, y, c["fixo_rotulo"].upper(), fonte("Inter-ExtraBold.ttf", 28), DOURADO, espaco=3)
-    y += 66
-    itens = list(zip(("package", "shopping-cart", "ticket-percent"), c["fixo_itens"]))
-    f = fonte("Inter-Regular.ttf", 38)
-    x = 120
-    for nome, texto in itens:
-        ic = icone(nome, 56)
-        linhas = quebrar(d, texto, f, L - x - 80 - 110, 2)
-        altura = len(linhas) * 50
-        if ic is not None:
-            img.paste(ic, (x, int(y + (altura - 56) / 2) + 2), ic)
-        for i, linha in enumerate(linhas):
-            d.text((x + 80, y + i * 52), linha, font=f, fill=BRANCO)
-        y += altura + 30
+    # os curadores do canal, como na faixa de seções do site
+    y += 34
+    centro(d, y, c["fixo_rotulo"].upper(), fonte("Cinzel-ExtraBold.ttf", 27), OURO, espaco=4)
+    y += 62
+    secoes = ["academia", "relogios", "barba", "casa", "tech", "carro", "estilo"]
+    diam, passo = 118, 136
+    f_s, f_d = fonte("Inter-SemiBold.ttf", 25), fonte("Cinzel-ExtraBold.ttf", 22)
+    x0 = (L - passo * len(secoes) + (passo - diam)) / 2
+    for i, sec in enumerate(secoes):
+        deus, _, cor, nome = CURADORES[sec]
+        x = x0 + i * passo
+        med = medalhao(sec, diam, 4)
+        img.paste(med, (int(x), int(y)), med)
+        cx = x + diam / 2
+        d.text((cx, y + diam + 14), nome, font=f_s, fill=TXT, anchor="ma")
+        d.text((cx, y + diam + 48), deus.upper(), font=f_d, fill=OURO, anchor="ma")
+    y += diam + 104
+
+    f = fonte("Inter-Regular.ttf", 34)
+    x = (L - max(d.textlength(t, font=f) for t in c["fixo_itens"]) - 34) / 2
+    for texto in c["fixo_itens"]:  # lista alinhada à esquerda, o bloco no centro
+        d.regular_polygon((x + 8, y + 22, 8), 4, fill=OURO)
+        d.text((x + 34, y), texto, font=f, fill=TXT2)
+        y += 54
     rodape(img, d, canal, c["fixo_chamada"])
     return png(img)
 
@@ -295,88 +447,102 @@ def usar_cheia(foto, encaixe):
         return False
 
 
+def card_produto(img, item, foto, caixa, encaixe, c, raio=44):
+    """Card claro com a foto (fundo branco da loja some no papel claro, como no site), desconto, loja e curador."""
+    d = ImageDraw.Draw(img)
+    cx0, cy0, cx1, cy1 = caixa
+    d.rounded_rectangle(caixa, radius=raio, fill=PLACA, outline=LINHA, width=2)
+    if foto and usar_cheia(foto, encaixe):
+        try:
+            foto_cheia(img, foto, caixa, raio)
+        except Exception:
+            foto = None
+    elif foto:
+        try:
+            topo = cy0 + 105  # abaixo do selo da loja e do desconto
+            f_img = encaixar_foto(foto, cx1 - cx0 - 90, cy1 - topo - 100)
+            px, py = cx0 + (cx1 - cx0 - f_img.width) // 2, topo + (cy1 - 90 - topo - f_img.height) // 2
+            area = img.crop((px, py, px + f_img.width, py + f_img.height))
+            img.paste(ImageChops.multiply(area, f_img), (px, py))  # branco da foto vira o creme do card
+        except Exception:
+            foto = None
+    if not foto:
+        ic = marca_icone(300, GRAV)
+        img.paste(ic, ((cx0 + cx1 - ic.width) // 2, (cy0 + cy1 - ic.height) // 2), ic)
+    de, por = item.get("de"), item.get("por")
+    if de and por and de > por and c["mostrar_desconto"]:
+        f = fonte("Inter-ExtraBold.ttf", 50)
+        t = f"−{round((1 - por / de) * 100)}%"
+        w = d.textlength(t, font=f) + 60
+        d.rounded_rectangle((cx1 - w - 24, cy0 + 24, cx1 - 24, cy0 + 110), radius=43, fill=TINTA)
+        d.text((cx1 - w + 6, cy0 + 67), t, font=f, fill=TXT, anchor="lm")
+    selo_loja(img, item.get("loja", ""), cx0 + 24, cy0 + 30, 80)
+    selo_curador(img, secao_do(item), cx1 - 24, cy1 - 24)
+
+
+def nome_e_preco(img, item, y, c, f_nome_tam=44, preco_tam=112):
+    d = ImageDraw.Draw(img)
+    f_nome = fonte("Inter-SemiBold.ttf", f_nome_tam)
+    for linha in quebrar(d, item.get("nome", ""), f_nome, L - 220, 2):
+        centro(d, y, linha, f_nome, TXT)
+        y += round(f_nome_tam * 1.32)
+    loja = {"amazon": "na Amazon", "mercadolivre": "no Mercado Livre", "shopee": "na Shopee"}.get(item.get("loja", ""))
+    if loja:
+        centro(d, y + 4, loja, fonte("Inter-Regular.ttf", 30), DIM)
+        y += 50
+    y += 10
+    de, por = item.get("de"), item.get("por")
+    if de and por and de > por and c["mostrar_de"]:
+        f_de = fonte("Inter-Regular.ttf", 36)
+        t = f"de {reais(de)}"
+        w = d.textlength(t, font=f_de)
+        x = (L - w) / 2
+        d.text((x, y), t, font=f_de, fill=TXT2)
+        d.line((x + d.textlength("de ", font=f_de), y + 24, x + w, y + 24), fill=TXT2, width=3)
+        y += 50
+    if por:
+        centro(d, y - 6, reais(por), fonte("Cinzel-ExtraBold.ttf", preco_tam), OURO_VIV)
+        y += round(preco_tam * 1.2)
+    return y
+
+
 def story_oferta(item, foto=None, canal="", frase=None, cfg=None, encaixe="auto"):
     c = config(cfg)
     img = fundo()
     d = ImageDraw.Draw(img)
-    lv = leao(110)
-    img.paste(lv, ((L - lv.width) // 2, 95), lv)
-    centro(d, 230, c["cabecalho"].upper(), fonte("Inter-ExtraBold.ttf", 38), DOURADO, espaco=6)
-
-    # Cartão branco com a foto do produto
-    cx0, cy0, cx1, cy1 = 170, 320, L - 170, 960
-    d.rounded_rectangle((cx0, cy0, cx1, cy1), radius=40, fill=(255, 255, 255))
-    if not foto:  # sem foto: o leão no lugar
-        d.rounded_rectangle((cx0, cy0, cx1, cy1), radius=40, fill=CARTAO, outline=(60, 50, 20), width=2)
-        lv2 = leao(380)
-        img.paste(lv2, ((L - lv2.width) // 2, cy0 + (cy1 - cy0 - lv2.height) // 2), lv2)
-    if foto and usar_cheia(foto, encaixe):
-        try:
-            foto_cheia(img, foto, (cx0, cy0, cx1, cy1), 40)
-            foto = None  # já colou
-        except Exception:
-            pass
-    if foto:
-        try:
-            f_img = encaixar_foto(foto, cx1 - cx0 - 80, cy1 - cy0 - 80)
-            img.paste(f_img, (cx0 + (cx1 - cx0 - f_img.width) // 2, cy0 + (cy1 - cy0 - f_img.height) // 2))
-        except Exception:
-            pass
-    de, por = item.get("de"), item.get("por")
-    if de and por and de > por and c["mostrar_desconto"]:
-        off = round((1 - por / de) * 100)
-        f = fonte("Inter-ExtraBold.ttf", 52)
-        texto = f"-{off}%"
-        w = d.textlength(texto, font=f) + 60
-        d.rounded_rectangle((cx1 - w + 30, cy0 - 35, cx1 + 30, cy0 + 55), radius=45, fill=DOURADO)
-        d.text((cx1 - w + 60, cy0 - 25), texto, font=f, fill=PRETO)
-    selo_loja(img, item.get("loja", ""), cx0 - 30, cy0 - 36)
-
-    f_nome = fonte("Inter-SemiBold.ttf", 46)
-    y = 1000
-    for linha in quebrar(d, item.get("nome", ""), f_nome, L - 200, 2):
-        centro(d, y, linha, f_nome, BRANCO)
-        y += 60
-    y += 20
-    if de and por and de > por and c["mostrar_de"]:
-        f_de = fonte("Inter-Regular.ttf", 42)
-        t = f"de {reais(de)}"
-        w = d.textlength(t, font=f_de)
-        x = (L - w) / 2
-        d.text((x, y), t, font=f_de, fill=CINZA)
-        d.line((x + d.textlength("de ", font=f_de), y + 28, x + w, y + 28), fill=CINZA, width=3)
-        y += 62
-    if por:
-        centro(d, y - 10, f"por {reais(por)}", fonte("Playfair-Black.ttf", 104), DOURADO)
+    marca(img, 96, icone=78, grande=46, pequeno=19)
+    topo_frase(d, 222, c["cabecalho"])
+    card_produto(img, item, foto, (150, 300, L - 150, 930), encaixe, c, 40)
+    nome_e_preco(img, item, 966, c, 42, 100)
     rodape(img, d, canal, frase or random.choice(c["frases"]))
     return png(img)
 
 
 def topo_frase(d, y, texto, largura=L - 180):
-    """Frase do topo do story de venda: caixa alta espaçada, diminui a fonte até caber (até 2 linhas)."""
+    """Frase do topo: Cinzel dourada em caixa alta, diminui até caber (até 2 linhas)."""
     texto = texto.upper()
-    for tam in (34, 31, 28, 26):
-        f = fonte("Inter-ExtraBold.ttf", tam)
-        esp = max(3, tam // 5)
+    for tam in (40, 36, 33, 30):
+        f = fonte("Cinzel-ExtraBold.ttf", tam)
+        esp = max(3, tam // 7)
         if sum(d.textlength(ch, font=f) for ch in texto) + esp * len(texto) <= largura:
-            centro(d, y, texto, f, DOURADO, espaco=esp)
+            centro(d, y, texto, f, OURO, espaco=esp)
             return
-    f = fonte("Inter-ExtraBold.ttf", 28)
+    f = fonte("Cinzel-ExtraBold.ttf", 30)
     for i, linha in enumerate(quebrar(d, texto, f, largura - 60, 2)):
-        centro(d, y - 6 + i * 38, linha, f, DOURADO, espaco=3)
+        centro(d, y - 10 + i * 40, linha, f, OURO, espaco=3)
 
 
 def vaga_sticker(d, y, w, h, legenda, dica):
     """Legenda e um espaço tracejado onde você cola o sticker de link do Instagram."""
-    centro(d, y, legenda, fonte("Inter-ExtraBold.ttf", 30), DOURADO, espaco=4)
-    x0, y0, cor = (L - w) / 2, y + 58, (110, 92, 30)
+    legenda_setas(d, y, legenda, fonte("Cinzel-ExtraBold.ttf", 31), OURO, espaco=4)
+    x0, y0, cor = (L - w) / 2, y + 60, GRAV
     for x in range(int(x0 + h / 2), int(x0 + w - h / 2), 26):
         d.line((x, y0, x + 14, y0), fill=cor, width=3)
         d.line((x, y0 + h, x + 14, y0 + h), fill=cor, width=3)
     d.arc((x0, y0, x0 + h, y0 + h), 90, 270, fill=cor, width=3)
     d.arc((x0 + w - h, y0, x0 + w, y0 + h), 270, 90, fill=cor, width=3)
     f = fonte("Inter-Regular.ttf", 28)
-    d.text(((L - d.textlength(dica, font=f)) / 2, y0 + h / 2), dica, font=f, fill=(95, 95, 95), anchor="lm")
+    d.text(((L - d.textlength(dica, font=f)) / 2, y0 + h / 2), dica, font=f, fill=DIM, anchor="lm")
     return y0 + h
 
 
@@ -387,61 +553,20 @@ def story_venda(item, foto=None, canal="", frase=None, cfg=None, encaixe="auto",
     c = config(cfg)
     img = fundo()
     d = ImageDraw.Draw(img)
-    lv = leao(76)
-    img.paste(lv, ((L - lv.width) // 2, 150), lv)
-    topo_frase(d, 245, frase or random.choice(c["frases"]))
-
-    cx0, cy0, cx1, cy1 = 120, 320, L - 120, 975
-    d.rounded_rectangle((cx0, cy0, cx1, cy1), radius=44, fill=(255, 255, 255))
-    if foto and usar_cheia(foto, encaixe):
-        try:
-            foto_cheia(img, foto, (cx0, cy0, cx1, cy1), 44)
-        except Exception:
-            foto = None
-    elif foto:
-        try:
-            topo = cy0 + 105  # abaixo do selo da loja e do desconto
-            f_img = encaixar_foto(foto, cx1 - cx0 - 90, cy1 - topo - 40)
-            img.paste(f_img, (cx0 + (cx1 - cx0 - f_img.width) // 2, topo + (cy1 - 40 - topo - f_img.height) // 2))
-        except Exception:
-            foto = None
-    if not foto:
-        d.rounded_rectangle((cx0, cy0, cx1, cy1), radius=44, fill=CARTAO, outline=(60, 50, 20), width=2)
-        lv2 = leao(360)
-        img.paste(lv2, ((L - lv2.width) // 2, cy0 + (cy1 - cy0 - lv2.height) // 2), lv2)
-    de, por = item.get("de"), item.get("por")
-    if de and por and de > por and c["mostrar_desconto"]:
-        f = fonte("Inter-ExtraBold.ttf", 50)
-        t = f"-{round((1 - por / de) * 100)}%"
-        w = d.textlength(t, font=f) + 60
-        d.rounded_rectangle((cx1 - w - 24, cy0 + 24, cx1 - 24, cy0 + 110), radius=43, fill=DOURADO)
-        d.text((cx1 - w + 6, cy0 + 67), t, font=f, fill=PRETO, anchor="lm")
-    selo_loja(img, item.get("loja", ""), cx0 + 24, cy0 + 30, 80)
-
-    f_nome = fonte("Inter-SemiBold.ttf", 44)
-    y = 1010
-    for linha in quebrar(d, item.get("nome", ""), f_nome, L - 220, 2):
-        centro(d, y, linha, f_nome, BRANCO)
-        y += 58
-    y += 18
-    if de and por and de > por and c["mostrar_de"]:
-        f_de = fonte("Inter-Regular.ttf", 38)
-        t = f"de {reais(de)}"
-        w = d.textlength(t, font=f_de)
-        x = (L - w) / 2
-        d.text((x, y), t, font=f_de, fill=CINZA)
-        d.line((x + d.textlength("de ", font=f_de), y + 25, x + w, y + 25), fill=CINZA, width=3)
-        y += 52
-    if por:
-        centro(d, y - 8, reais(por), fonte("Playfair-Black.ttf", 112), DOURADO)
+    marca(img, 92, icone=74, grande=44, pequeno=18)
+    topo_frase(d, 214, frase or random.choice(c["frases"]))
+    card_produto(img, item, foto, (120, 290, L - 120, 935), encaixe, c)
+    nome_e_preco(img, item, 968, c)
 
     f_pe = fonte("Inter-Regular.ttf", 32)
     if link == "canal":
-        fim = vaga_sticker(d, 1400, 640, 120, "▼  LINK DESSA PROMO NO CANAL  ▼", "cole aqui o link do canal")
-        centro(d, fim + 50, "e mais promoções todo dia", f_pe, CINZA)
+        fim = vaga_sticker(d, 1400, 640, 120, "LINK DESSA PROMO NO CANAL", "cole aqui o link do canal")
+        centro(d, fim + 50, "e mais promoções todo dia", f_pe, TXT2)
     else:
-        fim = vaga_sticker(d, 1378, 640, 108, "▼  TOQUE PARA COMPRAR  ▼", "cole aqui o link do produto")
-        if canal:  # o canal vai na pílula do Telegram (sem clique: o Instagram só deixa um link por story)
-            centro(d, fim + 40, "MAIS PROMOÇÕES TODO DIA NO CANAL", fonte("Inter-ExtraBold.ttf", 26), CINZA, espaco=3)
+        fim = vaga_sticker(d, 1386, 640, 108, "TOQUE PARA COMPRAR", "cole aqui o link do produto")
+        if canal:  # o canal vai no botão do Telegram (sem clique: o Instagram só deixa um link por story)
+            centro(d, fim + 40, "MAIS PROMOÇÕES TODO DIA NO CANAL", fonte("Inter-ExtraBold.ttf", 25), DIM, espaco=3)
             pilula_canal(img, d, fim + 76, canal)
     return png(img)
+
+
