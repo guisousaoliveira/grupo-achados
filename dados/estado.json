@@ -2,30 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB57814615",
-      "origem": "xetdaspromocoes",
-      "link": "https://meli.la/33vp8HX",
-      "link_produto": "https://meli.la/33vp8HX",
-      "post_origem": "https://t.me/xetdaspromocoes/85258",
-      "link_canal": "https://meli.la/1uzH8qU",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_603432-MLA100081970191_122025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Churrasqueira Móvel A Carvão Portátil para Família",
-      "cupom_loja": "Aplique o Cupom de R$ 2 OFF no Anúncio 🎟️ (logo abaixo do preço)",
-      "por": 39.0,
-      "lido_ia": true,
-      "preco_conferido": true,
-      "palavra": "churrasqueira",
-      "garimpado_em": "2026-10-16T18:00-03:00",
-      "nota": 41.0,
-      "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto",
-      "titulo": "Churrasqueira móvel para assar carne onde quiser",
-      "na_revisao_desde": "2026-10-16T18:01-03:00",
-      "cupom": "Aplique o Cupom de R$ 2 OFF no Anúncio (logo abaixo do preço)",
-      "aprovado_em": "2026-10-16T19:01-03:00"
-    },
-    {
       "loja": "shopee",
       "chave": "shopee:230709939.42279627399",
       "nome": "Controle remoto compatível com Google TV Chromecast 4K 2020-2024 (com comando de voz)",
@@ -2237,6 +2213,22 @@
       "secao": "casa",
       "slot": 21.2,
       "foto_site_ok": true
+    },
+    {
+      "chave": "mercadolivre:MLB57814615",
+      "loja": "mercadolivre",
+      "nome": "Churrasqueira Móvel A Carvão Portátil para Família",
+      "data": "2026-10-16T21:53-03:00",
+      "link": "https://meli.la/33vp8HX",
+      "link_produto": "https://meli.la/33vp8HX",
+      "titulo": "Churrasqueira móvel para assar carne onde quiser",
+      "por": 39.0,
+      "cupom": "Aplique o Cupom de R$ 2 OFF no Anúncio (logo abaixo do preço)",
+      "conferido": true,
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_603432-MLA100081970191_122025-O.webp",
+      "secao": "casa",
+      "slot": 21.3,
+      "foto_site_ok": true
     }
   ],
   "slots_usados": {
@@ -2360,7 +2352,8 @@
       20.3,
       21,
       21.1,
-      21.2
+      21.2,
+      21.3
     ]
   },
   "shopee_buscado_em": "",
@@ -7550,6 +7543,20 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB57814615",
+      "origem": "xetdaspromocoes",
+      "link": "https://meli.la/33vp8HX",
+      "link_produto": "https://meli.la/33vp8HX",
+      "post_origem": "https://t.me/xetdaspromocoes/85258",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_603432-MLA100081970191_122025-O.webp",
+      "nome": "Churrasqueira Móvel A Carvão Portátil para Família",
+      "cupom_loja": "Aplique o Cupom de R$ 2 OFF no Anúncio 🎟️ (logo abaixo do preço)",
+      "por": 39.0,
+      "titulo": "Churrasqueira móvel para assar carne onde quiser",
+      "cupom": "Aplique o Cupom de R$ 2 OFF no Anúncio (logo abaixo do preço)"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:1309397871.23694657658",
       "nome": "Luminária Espeto Solar 7W LED Verde Jardim Quintal Fachada Bivolt IP65 Placa Solar Iluminação Externa Decorativa",
@@ -8073,19 +8080,6 @@
       "de": 78.0,
       "por": 55.0,
       "titulo": "Shorts de malha fria para dormir sem calor"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B08R91NTHY",
-      "origem": "lobaopromo",
-      "link": "https://www.amazon.com.br/dp/B08R91NTHY?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B08R91NTHY?tag=alphadominu09-20",
-      "post_origem": "https://t.me/lobaopromo/190213",
-      "foto": "AgACAgQAAxkDAAIETGrSFXDywZPzL9UCrUAn4PQUS87wAAJbDmsbzTedU0x3UnTT_f3mAQADAgADeAADPQQ",
-      "nome": "Fritadeira Air Fryer Philco Oven 4 em 1 12L",
-      "por": 419.0,
-      "de": 580.9,
-      "titulo": "Air fryer oven espaçosa para refeições completas"
     }
   ],
   "lixeira": [
@@ -9671,5 +9665,5 @@
     }
   },
   "aviso_ml": "2026-10-16",
-  "vitrine_marca": "dffe6384ce62"
+  "vitrine_marca": "cc61b9c80150"
 }
