@@ -120,6 +120,28 @@
       "aprovado_em": "2026-10-17T00:21-03:00"
     },
     {
+      "loja": "shopee",
+      "chave": "shopee:1274163316.23098737531",
+      "nome": "Óculos de Sol Retrô da moda Fashion UV400 Haste Dourada",
+      "por": 18.99,
+      "de": 40.4,
+      "foto": "https://cf.shopee.com.br/file/br-11134207-81z1k-mi3m2b9be8zq53",
+      "link": "https://s.shopee.com.br/80DVesA6ck",
+      "link_produto": "https://shopee.com.br/product/1274163316/23098737531",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.9,
+      "vendas": 1217,
+      "palavra": "oculos de sol",
+      "garimpado_em": "2026-10-17T08:01-03:00",
+      "nota": 72.3,
+      "titulo": "Modelo retrô com haste dourada e proteção UV400",
+      "aprovado_sozinho": true,
+      "aprovado_em": "2026-10-17T09:01-03:00"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0CXVBVT83",
       "origem": "promobit",
@@ -140,6 +162,28 @@
       "titulo": "Caixa de som Bluetooth para animar festas e churrascos",
       "na_revisao_desde": "2026-10-17T00:00-03:00",
       "aprovado_em": "2026-10-17T00:32-03:00"
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:952984700.19699847442",
+      "nome": "Óculos de Sol masculino e feminina3",
+      "por": 34.99,
+      "de": 79.52,
+      "foto": "https://cf.shopee.com.br/file/sg-11134201-7rdvy-mcm1xh32lsqfab",
+      "link": "https://s.shopee.com.br/9APT315fG1",
+      "link_produto": "https://shopee.com.br/product/952984700/19699847442",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.9,
+      "vendas": 938,
+      "palavra": "oculos de sol",
+      "garimpado_em": "2026-10-17T08:01-03:00",
+      "nota": 74.1,
+      "titulo": "Armação versátil para dias de sol forte",
+      "aprovado_sozinho": true,
+      "aprovado_em": "2026-10-17T09:00-03:00"
     },
     {
       "loja": "mercadolivre",
@@ -2761,17 +2805,17 @@
       "msg_id": 1253
     }
   ],
-  "proximo_id": 744,
+  "proximo_id": 746,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 85297,
-      "lobaopromo": 190713,
-      "gatunopromos": 125878,
-      "pobregram": 42055,
+      "xetdaspromocoes": 85300,
+      "lobaopromo": 190718,
+      "gatunopromos": 125883,
+      "pobregram": 42057,
       "urubupromo": 41803,
       "tudonapromo": 102224,
-      "promonocontext": 127823,
-      "promooeasy": 223397,
+      "promonocontext": 127826,
+      "promooeasy": 223399,
       "aquitempechincha": 282277,
       "infoBRpromos": 67724,
       "boletando": 76867,
@@ -4999,30 +5043,31 @@
       "shopee:353738133.22399025767",
       "shopee:1102645121.23397133764",
       "amazon:B0FXWT7BJK",
-      "shopee:1628836223.19298294533"
+      "shopee:1628836223.19298294533",
+      "shopee:1242044379.23094334327"
     ],
     "ultima": {
-      "em": "2026-10-17T08:50:21-03:00",
+      "em": "2026-10-17T09:00:28-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
       "posts_novos": 28,
-      "do_nicho": 1,
-      "repetidas": 1,
+      "do_nicho": 2,
+      "repetidas": 2,
       "novas": 0,
       "limite_dia": false,
       "repetidas_nome": 0,
       "promobit": 0,
-      "soltas": 1,
-      "na_peneira": 7
+      "soltas": 2,
+      "na_peneira": 5
     },
-    "hora": "2026-10-17T08",
-    "nesta_hora": 1,
-    "promobit_hora": "2026-10-17T08",
-    "promobit_nesta_hora": 1,
-    "promobit_visto": 3120881,
+    "hora": "2026-10-17T09",
+    "nesta_hora": 0,
+    "promobit_hora": "2026-10-17T09",
+    "promobit_nesta_hora": 0,
+    "promobit_visto": 3120897,
     "nomes": [
       [
         [
@@ -7861,6 +7906,27 @@
           "relogio"
         ],
         "2026-10-17T08:50-03:00"
+      ],
+      [
+        [
+          "oculos",
+          "sol",
+          "feminina3"
+        ],
+        "2026-10-17T09:00-03:00"
+      ],
+      [
+        [
+          "oculos",
+          "sol",
+          "retro",
+          "moda",
+          "fashion",
+          "uv400",
+          "haste",
+          "dourada"
+        ],
+        "2026-10-17T09:00-03:00"
       ]
     ],
     "peneira": [
@@ -7904,25 +7970,6 @@
       },
       {
         "loja": "shopee",
-        "chave": "shopee:1274163316.23098737531",
-        "nome": "Óculos de Sol Retrô da moda Fashion UV400 Haste Dourada",
-        "por": 18.99,
-        "de": 40.4,
-        "foto": "https://cf.shopee.com.br/file/br-11134207-81z1k-mi3m2b9be8zq53",
-        "link": "https://s.shopee.com.br/80DVesA6ck",
-        "link_produto": "https://shopee.com.br/product/1274163316/23098737531",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 4.9,
-        "vendas": 1217,
-        "palavra": "oculos de sol",
-        "garimpado_em": "2026-10-17T08:01-03:00",
-        "nota": 72.3
-      },
-      {
-        "loja": "shopee",
         "chave": "shopee:1006215031.24273618299",
         "nome": "Homens Mulheres Dirigindo Óculos De Sol Proteção Uv Para Andar De Bicicleta",
         "por": 9.9,
@@ -7939,25 +7986,6 @@
         "palavra": "oculos de sol",
         "garimpado_em": "2026-10-17T08:01-03:00",
         "nota": 65.7
-      },
-      {
-        "loja": "shopee",
-        "chave": "shopee:952984700.19699847442",
-        "nome": "Óculos de Sol masculino e feminina3",
-        "por": 34.99,
-        "de": 79.52,
-        "foto": "https://cf.shopee.com.br/file/sg-11134201-7rdvy-mcm1xh32lsqfab",
-        "link": "https://s.shopee.com.br/9APT315fG1",
-        "link_produto": "https://shopee.com.br/product/952984700/19699847442",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 4.9,
-        "vendas": 938,
-        "palavra": "oculos de sol",
-        "garimpado_em": "2026-10-17T08:01-03:00",
-        "nota": 74.1
       },
       {
         "loja": "shopee",
@@ -7996,19 +8024,37 @@
         "palavra": "gopro",
         "garimpado_em": "2026-10-17T08:40-03:00",
         "nota": 59.4
+      },
+      {
+        "loja": "shopee",
+        "chave": "shopee:1242044379.23094334327",
+        "nome": "Whey Protein One Refil 900g + Creatina Monohidratada Pura 150g + Coqueteleira Fuse 700ml - Dark Lab",
+        "por": 99.9,
+        "de": 178.39,
+        "foto": "https://cf.shopee.com.br/file/br-11134207-820lk-msflj6igmw3o4e",
+        "link": "https://s.shopee.com.br/4VddYZ3owO",
+        "link_produto": "https://shopee.com.br/product/1242044379/23094334327",
+        "origem": "shopee",
+        "fonte": "shopee",
+        "foto_origem": "loja",
+        "shopee_api": true,
+        "avaliacao": 4.9,
+        "vendas": 485,
+        "palavra": "creatina",
+        "garimpado_em": "2026-10-17T09:01-03:00",
+        "nota": 79.4
       }
     ],
-    "soltas_hora": "2026-10-17T08",
-    "soltas": 3,
-    "shopee_em": "2026-10-17T08:40-03:00",
-    "shopee_indice": 100,
+    "soltas_hora": "2026-10-17T09",
+    "soltas": 2,
+    "shopee_em": "2026-10-17T09:01-03:00",
+    "shopee_indice": 8,
     "soltas_dia_data": "2026-10-17",
-    "soltas_dia": 13,
+    "soltas_dia": 15,
     "soltas_loja": {
-      "shopee": 2,
-      "amazon": 1
+      "shopee": 2
     },
-    "soltas_vez": "2026-10-17T08:3"
+    "soltas_vez": "2026-10-17T09:0"
   },
   "ultimos": [
     {
@@ -9769,7 +9815,7 @@
         "reprovados": 1
       },
       "shopee": {
-        "achados": 2,
+        "achados": 4,
         "aprovados": 0,
         "reprovados": 0
       }
@@ -9943,7 +9989,7 @@
       "reprovados": 7
     },
     "oculos de sol": {
-      "achados": 13,
+      "achados": 15,
       "aprovados": 3,
       "reprovados": 8
     },
@@ -10175,7 +10221,8 @@
     "2026-10-17": {
       "0": 6,
       "5": 2,
-      "8": 2
+      "8": 2,
+      "9": 2
     }
   },
   "aviso_ml": "2026-10-16",
