@@ -2,31 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB7192331052",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/1tjDaDq",
-      "link_produto": "https://meli.la/1tjDaDq",
-      "post_origem": "https://t.me/lobaopromo/190509",
-      "link_canal": "https://meli.la/1kzf8pu",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_987578-MLB114712738017_072026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Perfume Masculino Midnight Blue 100ml Importado Original Alta Fixação",
-      "pix": true,
-      "por": 66.65,
-      "lido_ia": true,
-      "aviso_preco": true,
-      "preco_loja": 55.19,
-      "palavra": "perfume masculino",
-      "garimpado_em": "2026-10-16T18:10-03:00",
-      "nota": 54.5,
-      "motivo_revisao": "o post diz R$ 249,99 e a loja mostra R$ 55,19, e não tem cupom ou Pix que explique a diferença",
-      "titulo": "Perfume importado com alta fixação para o dia a dia",
-      "na_revisao_desde": "2026-10-16T18:20-03:00",
-      "de": 239.0,
-      "aprovado_em": "2026-10-16T19:00-03:00"
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B0FL4N5RG6",
       "origem": "promooeasy",
@@ -2408,6 +2383,21 @@
       "foto": "https://cf.shopee.com.br/file/sg-11134301-8262y-ml7t601a0uf77a",
       "secao": "tech",
       "slot": 22,
+      "foto_site_ok": true
+    },
+    {
+      "chave": "mercadolivre:MLB7192331052",
+      "loja": "mercadolivre",
+      "nome": "Perfume Masculino Midnight Blue 100ml Importado Original Alta Fixação",
+      "data": "2026-10-16T22:11-03:00",
+      "link": "https://meli.la/1tjDaDq",
+      "link_produto": "https://meli.la/1tjDaDq",
+      "titulo": "Perfume importado com alta fixação para o dia a dia",
+      "de": 239.0,
+      "por": 66.65,
+      "pix": true,
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_987578-MLB114712738017_072026-O.webp",
+      "secao": "barba",
       "foto_site_ok": true
     }
   ],
@@ -7704,6 +7694,20 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB7192331052",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/1tjDaDq",
+      "link_produto": "https://meli.la/1tjDaDq",
+      "post_origem": "https://t.me/lobaopromo/190509",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_987578-MLB114712738017_072026-O.webp",
+      "nome": "Perfume Masculino Midnight Blue 100ml Importado Original Alta Fixação",
+      "pix": true,
+      "por": 66.65,
+      "titulo": "Perfume importado com alta fixação para o dia a dia",
+      "de": 239.0
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:230709939.42279627399",
       "nome": "Controle remoto compatível com Google TV Chromecast 4K 2020-2024 (com comando de voz)",
@@ -8227,20 +8231,6 @@
       "de": 288.63,
       "por": 129.99,
       "titulo": "Cuecas boxer sem costura que não incomodam"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0FPG8KLS8",
-      "origem": "promooeasy",
-      "link": "https://link.amazon/B09GxuZZ1",
-      "link_produto": "https://link.amazon/B09GxuZZ1",
-      "post_origem": "https://t.me/promooeasy/222634",
-      "foto": "AgACAgQAAxkDAAIETmrSFZNRye3YYsLDIAcGRWjkurzCAAJjDWsbqqesUBSFvG0ZR8C-AQADAgADeQADPQQ",
-      "nome": "Smartwatch, HUAWEI WATCH GT 6 Pro 46mm, Bateria com Autonomia de Até 21 Dias, Mais de 100 Modos Esportivos, Corrida de T",
-      "pix": true,
-      "parcelas": 12,
-      "por": 1133.84,
-      "titulo": "Huawei Watch para treinar semanas sem precisar carregar"
     }
   ],
   "lixeira": [
@@ -9832,5 +9822,5 @@
     }
   },
   "aviso_ml": "2026-10-16",
-  "vitrine_marca": "962361615a80"
+  "vitrine_marca": "1be127df460b"
 }
