@@ -284,6 +284,60 @@
       "titulo": "Aparelho e cargas para barbear sem irritação na pele",
       "na_revisao_desde": "2026-10-17T00:20-03:00",
       "aprovado_em": "2026-10-17T00:32-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB74933617",
+      "origem": "promooeasy",
+      "link": "https://meli.la/1rnd29A",
+      "link_produto": "https://www.mercadolivre.com.br/auxiliar-de-partida-bateria-carro-compressor-de-ar-portatil-12v-4-funcoes-em-1-inflador-digital-calibrador-pneu-power-bank-lanterna-led-emergencia-automotiva-moto-suv-bicicleta-caminhonete-midiafone/p/MLB74933617",
+      "post_origem": "https://t.me/promooeasy/223348",
+      "link_canal": "https://www.mercadolivre.com.br/auxiliar-de-partida-bateria-carro-compressor-de-ar-portatil-12v-4-funcoes-em-1-inflador-digital-calibrador-pneu-power-bank-lanterna-led-emergencia-automotiva-moto-suv-bicicleta-caminhonete-midiafone/p/MLB74933617?matt_word=promoeasynv&amp;matt_tool=88963738",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_754380-MLA117622146633_092026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Auxiliar De Partida Bateria Carro Compressor De Ar Portátil 12V 4 funções em 1",
+      "de": 390.0,
+      "por": 142.93,
+      "lido_ia": true,
+      "cupom": "RESGATEFULL1710",
+      "palavra": "compressor de ar",
+      "garimpado_em": "2026-10-17T05:07-03:00",
+      "nota": 69.3,
+      "titulo": "Auxiliar de partida com compressor para emergências na estra",
+      "na_revisao_desde": "2026-10-17T05:08-03:00",
+      "reconferido_em": "2026-10-17T05:08-03:00",
+      "preco_conferido": true,
+      "preco_cupom": true,
+      "preco_sem_cupom": 178.66,
+      "aprovado_sozinho": true,
+      "aprovado_em": "2026-10-17T05:08-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB44692293",
+      "origem": "promooeasy",
+      "link": "https://meli.la/1o5JVPn",
+      "link_produto": "https://www.mercadolivre.com.br/liquidificador-portatil-obld700-220-power-blender-2-jarras-oster/p/MLB44692293",
+      "post_origem": "https://t.me/promooeasy/223341",
+      "link_canal": "https://www.mercadolivre.com.br/liquidificador-portatil-obld700-220-power-blender-2-jarras-oster/p/MLB44692293?matt_word=promoeasynv&amp;matt_tool=88963738",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_841300-MLA109896865252_042026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Liquidificador Portátil OBLD700-220 Power Blender 2 Jarras Oster",
+      "de": 156.9,
+      "por": 115.48,
+      "lido_ia": true,
+      "cupom": "RESGATEFULL1710",
+      "palavra": "liquidificador portatil",
+      "garimpado_em": "2026-10-17T05:07-03:00",
+      "nota": 44.6,
+      "titulo": "Liquidificador Oster com duas jarras para vitaminas e sucos",
+      "na_revisao_desde": "2026-10-17T05:08-03:00",
+      "reconferido_em": "2026-10-17T05:08-03:00",
+      "preco_conferido": true,
+      "preco_cupom": true,
+      "preco_sem_cupom": 144.35,
+      "aprovado_sozinho": true,
+      "aprovado_em": "2026-10-17T05:08-03:00"
     }
   ],
   "postados": [
@@ -2707,18 +2761,67 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [],
-  "proximo_id": 735,
+  "revisar": [
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0GS56VW48",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0GS56VW48?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0GS56VW48?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/modus-garrafa-termica-950ml-parede-dupla-de-isolamento-24horas-gelado-3120770/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3120770/",
+      "nome": "Modus Garrafa Térmica 950ml",
+      "por": 53.97,
+      "foto": "AgACAgQAAxkDAAIE2mrTLQdnDZdGAa9wOHIwLnD3iuwtAAI8EGsbV6odUc7SbnFNmym0AQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "palavra": "garrafa termica",
+      "garimpado_em": "2026-10-17T05:07-03:00",
+      "nota": 49.6,
+      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
+      "titulo": "Garrafa térmica 950ml para água sempre gelada",
+      "id": 736,
+      "na_revisao_desde": "2026-10-17T05:08-03:00",
+      "msg_id": 1242
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB28807727",
+      "origem": "promooeasy",
+      "link": "https://meli.la/2KZYXGK",
+      "link_produto": "https://www.mercadolivre.com.br/relogio-champion-masculino-prateado-original-cor-do-fundo-preto/p/MLB28807727",
+      "post_origem": "https://t.me/promooeasy/223340",
+      "link_canal": "https://www.mercadolivre.com.br/relogio-champion-masculino-prateado-original-cor-do-fundo-preto/p/MLB28807727?matt_word=promoeasynv&amp;matt_tool=88963738",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_891825-MLA100033378777_122025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Relógio Masculino Champion CN27670T Cor da Correia Prateado com Fundo Preto Prova D´Agua 50 Metros Minimalista",
+      "de": 399.0,
+      "por": 151.2,
+      "lido_ia": true,
+      "cupom": "RESGATEFULL1710",
+      "palavra": "relogio masculino",
+      "garimpado_em": "2026-10-17T05:07-03:00",
+      "nota": 81.0,
+      "titulo": "Champion minimalista resistente à água com fundo preto",
+      "id": 735,
+      "na_revisao_desde": "2026-10-17T05:08-03:00",
+      "msg_id": 1241,
+      "reconferido_em": "2026-10-17T05:08-03:00",
+      "preco_loja": 217.43,
+      "motivo_revisao": "o post diz R$ 151,20 e a loja mostra R$ 217,43, e não tem cupom ou Pix que explique a diferença"
+    }
+  ],
+  "proximo_id": 741,
   "radar": {
     "visto": {
       "xetdaspromocoes": 85297,
-      "lobaopromo": 190682,
-      "gatunopromos": 125850,
+      "lobaopromo": 190691,
+      "gatunopromos": 125856,
       "pobregram": 42053,
       "urubupromo": 41803,
       "tudonapromo": 102224,
       "promonocontext": 127821,
-      "promooeasy": 223338,
+      "promooeasy": 223349,
       "aquitempechincha": 282261,
       "infoBRpromos": 67724,
       "boletando": 76866,
@@ -2726,7 +2829,7 @@
       "achadosdotb": 11787
     },
     "dia": "2026-10-17",
-    "hoje": 10,
+    "hoje": 14,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -4929,30 +5032,34 @@
       "amazon:B0HHK9J94J",
       "amazon:B0955BGR9T",
       "mercadolivre:MLB50493068",
-      "mercadolivre:MLB47320998"
+      "mercadolivre:MLB47320998",
+      "amazon:B0GS56VW48",
+      "mercadolivre:MLB28807727",
+      "mercadolivre:MLB44692293",
+      "mercadolivre:MLB74933617"
     ],
     "ultima": {
-      "em": "2026-10-17T00:50:17-03:00",
-      "pedido": "",
-      "forcado": false,
+      "em": "2026-10-17T05:07:29-03:00",
+      "pedido": "11408fabe3",
+      "forcado": true,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 22,
+      "posts_novos": 36,
       "do_nicho": 4,
-      "repetidas": 1,
-      "novas": 3,
+      "repetidas": 0,
+      "novas": 4,
       "limite_dia": false,
       "repetidas_nome": 0,
-      "promobit": 0,
-      "soltas": 0,
-      "na_peneira": 9
+      "promobit": 1,
+      "soltas": 4,
+      "na_peneira": 0
     },
     "hora": "2026-10-17T05",
-    "nesta_hora": 0,
-    "promobit_hora": "2026-10-17T00",
+    "nesta_hora": 3,
+    "promobit_hora": "2026-10-17T05",
     "promobit_nesta_hora": 1,
-    "promobit_visto": 3120724,
+    "promobit_visto": 3120786,
     "nomes": [
       [
         [
@@ -7706,203 +7813,68 @@
           "churros"
         ],
         "2026-10-17T00:30-03:00"
+      ],
+      [
+        [
+          "relogio",
+          "champion",
+          "cn27670t",
+          "correia",
+          "prateado",
+          "fundo",
+          "prova",
+          "agua"
+        ],
+        "2026-10-17T05:07-03:00"
+      ],
+      [
+        [
+          "modus",
+          "garrafa",
+          "termica",
+          "950ml"
+        ],
+        "2026-10-17T05:08-03:00"
+      ],
+      [
+        [
+          "auxiliar",
+          "partida",
+          "bateria",
+          "carro",
+          "compressor",
+          "ar",
+          "portatil",
+          "12v"
+        ],
+        "2026-10-17T05:08-03:00"
+      ],
+      [
+        [
+          "liquidificador",
+          "portatil",
+          "obld700",
+          "220",
+          "power",
+          "blender",
+          "jarras",
+          "oster"
+        ],
+        "2026-10-17T05:08-03:00"
       ]
     ],
-    "peneira": [
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB63281934",
-        "origem": "lobaopromo",
-        "link": "https://www.mercadolivre.com.br/kit-20-itens-esportivos-para-treino-em-casa-academia-fitness-funcional-com-elasticos-extensor-puxadores-massageador-faixas-elasticas-mini-band-p-exercicios-ginastica-fisioterapia-topsand-activewear/p/MLB63281934?matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/kit-20-itens-esportivos-para-treino-em-casa-academia-fitness-funcional-com-elasticos-extensor-puxadores-massageador-faixas-elasticas-mini-band-p-exercicios-ginastica-fisioterapia-topsand-activewear/p/MLB63281934",
-        "post_origem": "https://t.me/lobaopromo/190633",
-        "link_canal": "https://meli.la/1xfLQJC",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_990345-MLA115532130447_082026-O.webp",
-        "foto_origem": "loja",
-        "nome": "Kit 20 Itens Esportivos Para Treino Em Casa Academia Fitness",
-        "por": 48.97,
-        "lido_ia": true,
-        "preco_conferido": true,
-        "palavra": "academia",
-        "garimpado_em": "2026-10-16T22:50-03:00",
-        "nota": 43.9
-      },
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB36221657",
-        "origem": "promooeasy",
-        "link": "https://www.mercadolivre.com.br/kit-cortador-de-unha-portatil-estojo-alicate-manicure-12-pc-desencravador-de-unha-manicure-alicate-lixa-profissional-tesoura-empurrador-de-cuticulas-pinca-portatil-dobravel/p/MLB36221657?matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/kit-cortador-de-unha-portatil-estojo-alicate-manicure-12-pc-desencravador-de-unha-manicure-alicate-lixa-profissional-tesoura-empurrador-de-cuticulas-pinca-portatil-dobravel/p/MLB36221657",
-        "post_origem": "https://t.me/promooeasy/223280",
-        "link_canal": "https://www.mercadolivre.com.br/kit-cortador-de-unha-portatil-estojo-alicate-manicure-12-pc-desencravador-de-unha-manicure-alicate-lixa-profissional-tesoura-empurrador-de-cuticulas-pinca-portatil-dobravel/p/MLB36221657?matt_word=promoeasynv&amp;matt_tool=88963738",
-        "foto": "https://cdn1.telesco.pe/file/gdq2kht3NTeP21txzlBr5xVNk1-tpMwBTTw-4q1YAfXL9QJFoB_u2csdUP4Ht3ZrcpFYLK_hXHCaQY5YLBziNJ_j8j8iJkTZd9Un7GKmKjSC5auu4wkEThyLyiXbOB5762fItU2IVZFwXpiomAKoe4qfFL5BTHAnrIJm5CyabCFUNzevTmN5Qkb6Gj95aqMo9r5X649BIkRTkGQV34bC2b_LScQfAz_zgqWKkBX1zASkXHNQtQMsoSFjaWn2WNtDadyfXjonzp-7LWedtWO2P8qiG5OPWEFGTWKupPW4gsWkGXOVBMLAAyxNMZCPOaxNYOWZRAo2zzWikquP4ucCsw.jpg",
-        "foto_origem": "canal",
-        "nome": "Kit Cortador De Unha Portátil Estojo Alicate Manicure 12 Pç Desencravador De Unha Manicure Alicate Lixa Profissional Tes",
-        "de": 35.9,
-        "por": 23.9,
-        "lido_ia": true,
-        "sem_preco_loja": true,
-        "loja_abriu": false,
-        "palavra": "alicate",
-        "garimpado_em": "2026-10-16T23:30-03:00",
-        "nota": 44.9
-      },
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB28765604",
-        "origem": "promooeasy",
-        "link": "https://www.mercadolivre.com.br/parafusadeira-e-furadeira-de-impacto-38-wap-k21-id02-2000-mah/p/MLB28765604?matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/parafusadeira-e-furadeira-de-impacto-38-wap-k21-id02-2000-mah/p/MLB28765604",
-        "post_origem": "https://t.me/promooeasy/223296",
-        "link_canal": "https://www.mercadolivre.com.br/parafusadeira-e-furadeira-de-impacto-38-wap-k21-id02-2000-mah/p/MLB28765604?matt_word=promoeasynv&amp;matt_tool=88963738",
-        "foto": "https://cdn1.telesco.pe/file/AItjVUpFd1q6mFbKGHkz8KEdc0uWFoPQ6GrOOeA7fCFQG4sUwQA4tKIXRvV95XEOKKvEBJ6zKpM4tI3SbwcRxBawI4M7xIFodZmG4x6tyh97_U5EqKTvGrIZkTYG0_FM5P_PnP7IeMWLyJ8L90SZDSdqXh3aUc1jqkDvc8h-YmyEnm8dO3V5Ji2vaskoKb52uzFBDSDTogG9QVjKB7Whw0FlwPfyipwLlUHKogAWV_Xf-_r2KKz31ScYGwpL58THo-b5Nh0-_jZeLxW4hWYf_qf92YuVc_9PaMS4AcCkAOyaJiwMC54Akses_UAlk9R0dSEMSWmgbkGFH42PL111cw.jpg",
-        "foto_origem": "canal",
-        "nome": "Parafusadeira e Furadeira de Impacto 3/8\" WAP K21 ID02 2000 mAh",
-        "de": 260.0,
-        "por": 159.2,
-        "lido_ia": true,
-        "cupom": "RESGATEFULL1710",
-        "sem_preco_loja": true,
-        "loja_abriu": false,
-        "palavra": "parafusadeira",
-        "garimpado_em": "2026-10-17T00:10-03:00",
-        "nota": 54.5
-      },
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB23144235",
-        "origem": "promooeasy",
-        "link": "https://www.mercadolivre.com.br/100-whey-protein-concentrado-900g-sabor-natural-proteina-100-pura-3vs-nutrition/p/MLB23144235?matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/100-whey-protein-concentrado-900g-sabor-natural-proteina-100-pura-3vs-nutrition/p/MLB23144235",
-        "post_origem": "https://t.me/promooeasy/223302",
-        "link_canal": "https://www.mercadolivre.com.br/100-whey-protein-concentrado-900g-sabor-natural-proteina-100-pura-3vs-nutrition/p/MLB23144235?matt_word=promoeasynv&amp;matt_tool=88963738",
-        "foto": "https://cdn1.telesco.pe/file/a7q-AAPSG4ZXQJ8e0L8Gs6zRyAe0068huxpUoDuV0GjHqj_wU59QTaQWzWq-dQS_1V0A_FOL4OSqC9A56xKKpRg1EyF4cBPdE0W8YQ3gFgsc9-qRvF1ahIdzwfm7pZ6ovRzXdOT9DyB9zRcT9cqUkIBkWfDmWc68Cpfpfoj47gHJWzxl_dDXYMkPGkepBDqlbCcAdnqqui-NWYeYD6xBHbdxVecMDzv3Mi9WVRWFJV4y3a-pBZZO1K-feziq15oBcE-lNe-NLSpVpjW69wsCuXoingwpaGEcELvKTmabU92X7Vda75dcKjzPEz4zCIzVkGuQqowD4tKM6cKvDem2NA.jpg",
-        "foto_origem": "canal",
-        "nome": "100% WHEY Protein Concentrado 900g Sabor Natural - Proteína 100% Pura - 3VS Nutrition",
-        "de": 319.99,
-        "por": 146.46,
-        "lido_ia": true,
-        "cupom": "RESGATEFULL1710",
-        "sem_preco_loja": true,
-        "loja_abriu": false,
-        "palavra": "whey",
-        "garimpado_em": "2026-10-17T00:20-03:00",
-        "nota": 64.6
-      },
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB61630221",
-        "origem": "promooeasy",
-        "link": "https://www.mercadolivre.com.br/whey-protein-adaptogen-science-tasty-gourmet-3w-em-po-sem-sabor-x-900g/p/MLB61630221?matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/whey-protein-adaptogen-science-tasty-gourmet-3w-em-po-sem-sabor-x-900g/p/MLB61630221",
-        "post_origem": "https://t.me/promooeasy/223314",
-        "link_canal": "https://www.mercadolivre.com.br/whey-protein-adaptogen-science-tasty-gourmet-3w-em-po-sem-sabor-x-900g/p/MLB61630221?matt_word=promoeasynv&amp;matt_tool=88963738",
-        "foto": "https://cdn1.telesco.pe/file/S7FQr3MpcbyxZwQdSfTNf4Y-dzYCS4KIIr_eL89hcyTxxhghsheg276Uq-gFssY0ftRWHwiBXxdl57YCUxPoJiD-_P41pg9ovHDYMKHhU_vqtyGXI1kKcV_OK5oxZSdNGI3IuV4vp3iZupLjh2bn0NDmxwKTKCMTbjM1hAXClctGLu3_2gWw-DkGWn_XLRMWUhlooOVmzTbtBOuPGNnpUUIe4iDnnFSsLKWflnLW-nmya1c3fhCrdQ1CDtwD-xvTK5V-ToBVqkQvD8UmJOOX5g7ZPHrxFmYV1dQKRvLeLy1Krm-6mB-y5ufdR-svj8dcpaNJJCBgh0zfZNCLw__7Pg.jpg",
-        "foto_origem": "canal",
-        "nome": "Whey protein Adaptogen Science Tasty Gourmet 3w em pó Sem sabor 900g",
-        "de": 299.0,
-        "por": 186.5,
-        "lido_ia": true,
-        "cupom": "RESGATEFULL1710",
-        "sem_preco_loja": true,
-        "loja_abriu": false,
-        "palavra": "whey",
-        "garimpado_em": "2026-10-17T00:30-03:00",
-        "nota": 54.7
-      },
-      {
-        "loja": "amazon",
-        "chave": "amazon:B0HHK9J94J",
-        "origem": "promobit",
-        "fonte": "promobit",
-        "link": "https://www.amazon.com.br/dp/B0HHK9J94J?tag=alphadominu09-20",
-        "link_produto": "https://www.amazon.com.br/dp/B0HHK9J94J?tag=alphadominu09-20",
-        "post_origem": "https://www.promobit.com.br/oferta/jbl-partybox-330-caixa-de-som-bluetooth-portatil-para-festas-preta-3120698/",
-        "link_canal": "https://www.promobit.com.br/Redirect/to/3120698/",
-        "nome": "JBL PartyBox 330",
-        "por": 2706.55,
-        "de": 3499.0,
-        "foto": "https://m.media-amazon.com/images/I/81m1xcmSK2L._AC_SL1500_.jpg",
-        "foto_origem": "loja",
-        "palavra": "jbl",
-        "garimpado_em": "2026-10-17T00:40-03:00",
-        "nota": 43.0
-      },
-      {
-        "loja": "amazon",
-        "chave": "amazon:B0955BGR9T",
-        "origem": "lobaopromo",
-        "link": "https://www.amazon.com.br/dp/B0955BGR9T?tag=alphadominu09-20",
-        "link_produto": "https://www.amazon.com.br/dp/B0955BGR9T?tag=alphadominu09-20",
-        "post_origem": "https://t.me/lobaopromo/190681",
-        "link_canal": "https://amzlink.to/az0lYChN9akVG",
-        "foto": "https://m.media-amazon.com/images/I/71wvN7GZ2mL._AC_SL1500_.jpg",
-        "foto_origem": "loja",
-        "nome": "Cafeteira Elétrica Mondial Dolce Arome Black, 550W, 220V",
-        "pix": true,
-        "de": 139.0,
-        "por": 84.5,
-        "lido_ia": true,
-        "sem_preco_loja": true,
-        "loja_abriu": true,
-        "palavra": "cafeteira",
-        "garimpado_em": "2026-10-17T00:50-03:00",
-        "nota": 64.1
-      },
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB50493068",
-        "origem": "promooeasy",
-        "link": "https://www.mercadolivre.com.br/elgin-air-fryer-fritadeira-air-fryer/p/MLB50493068?matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/elgin-air-fryer-fritadeira-air-fryer/p/MLB50493068",
-        "post_origem": "https://t.me/promooeasy/223331",
-        "link_canal": "https://www.mercadolivre.com.br/elgin-air-fryer-fritadeira-air-fryer/p/MLB50493068?matt_word=promoeasynv&amp;matt_tool=88963738",
-        "foto": "https://cdn1.telesco.pe/file/k-LnaxJ6w5ySzNZQsW4T574D4ldgUxnP0gewctqIWJtogtJn95wIDz7PjcI4vz0JNWYYtUB37dzQyGEqL0vbuDX7GaSQ065Hg8CZzGbeCHWIOC4gNOWLkvLcTshO8RU5DuygKZWvWsgLiVe1dGMZJArvWmApv7xcWDBTKRQfcTsmQsedZxMz6rlemjzPkB7aV5NIF1svmcYTh57I5Tc37nPhyo3oYtB8vhnVlDeGfM5bGHdXjozFZ1H1Ov0s0A73piLVcJqnt2SWAfv_mAgFYstWo_0lh3gy6kB9-C525pAY_rnK0BOoIj5manUbWlSf-V5aJFE2zgCBceRwVv47fA.jpg",
-        "foto_origem": "canal",
-        "nome": "Air Fryer Fritadeira Elétrica Elgin Start Fry 3,5l Cor Preto",
-        "de": 249.9,
-        "por": 156.0,
-        "lido_ia": true,
-        "cupom": "RESGATEFULL1710",
-        "sem_preco_loja": true,
-        "loja_abriu": false,
-        "palavra": "air fryer",
-        "garimpado_em": "2026-10-17T00:50-03:00",
-        "nota": 61.3
-      },
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB47320998",
-        "origem": "promooeasy",
-        "link": "https://www.mercadolivre.com.br/xiaomi-smart-band-mi-band-9-active-relogio-preto-lisa/p/MLB47320998?matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/xiaomi-smart-band-mi-band-9-active-relogio-preto-lisa/p/MLB47320998",
-        "post_origem": "https://t.me/promooeasy/223332",
-        "link_canal": "https://www.mercadolivre.com.br/xiaomi-smart-band-mi-band-9-active-relogio-preto-lisa/p/MLB47320998?matt_word=promoeasynv&amp;matt_tool=88963738",
-        "foto": "https://cdn1.telesco.pe/file/S0mIOoLdRqB1rTYaA5Od1Acw5uUa_xnXA7FliLHw_SneKRtBvu6T6wi_iNZRTasbtoGFWbJYOAw2dFtS-POkVLa6QVsPALF9suIuSWxoB4x5TiXRS2TyaNbn7vMNV6RYmfyeOPeHopLPAjJ7tOIYvzPWHbl1acQ6ydPa7Tq5ZwmLdl5Fx66OwYMKAQwvT3bzoDHwk0MfyomPIBtUaWQnJbnCDD5ktb14x2c7NlSlcz0m0BfbGuvmH3KXgWTLmwHCpmvMiz7rR8XIFgG_Oz_ngVswoMK3dAEKQ_9ebja_zOwMfHO4H_NL7FgtSOQkDKaEhwCrP1ikqa1C-YOslqgYaw.jpg",
-        "foto_origem": "canal",
-        "nome": "Xiaomi Smart Band Mi Band 9 Active Relógio Preto Lisa",
-        "de": 389.9,
-        "por": 155.98,
-        "lido_ia": true,
-        "cupom": "RESGATEFULL1710",
-        "sem_preco_loja": true,
-        "loja_abriu": false,
-        "palavra": "relogio",
-        "garimpado_em": "2026-10-17T00:50-03:00",
-        "nota": 77.0
-      }
-    ],
-    "soltas_hora": "2026-10-17T00",
-    "soltas": 6,
+    "peneira": [],
+    "soltas_hora": "2026-10-17T05",
+    "soltas": 4,
     "shopee_em": "2026-10-17T00:40-03:00",
     "shopee_indice": 52,
     "soltas_dia_data": "2026-10-17",
-    "soltas_dia": 6,
+    "soltas_dia": 10,
     "soltas_loja": {
       "mercadolivre": 3,
-      "amazon": 3
+      "amazon": 1
     },
-    "soltas_vez": "2026-10-17T00:3",
+    "soltas_vez": "2026-10-17T05:0",
     "pausado": true
   },
   "ultimos": [
@@ -9645,7 +9617,12 @@
     },
     "2026-10-17": {
       "promooeasy": {
-        "achados": 2,
+        "achados": 5,
+        "aprovados": 0,
+        "reprovados": 0
+      },
+      "promobit": {
+        "achados": 1,
         "aprovados": 0,
         "reprovados": 0
       }
@@ -9794,7 +9771,7 @@
       "reprovados": 2
     },
     "garrafa termica": {
-      "achados": 10,
+      "achados": 11,
       "aprovados": 7,
       "reprovados": 3
     },
@@ -9809,7 +9786,7 @@
       "reprovados": 1
     },
     "liquidificador portatil": {
-      "achados": 1,
+      "achados": 2,
       "aprovados": 0,
       "reprovados": 1
     },
@@ -9884,7 +9861,7 @@
       "reprovados": 9
     },
     "relogio masculino": {
-      "achados": 10,
+      "achados": 11,
       "aprovados": 5,
       "reprovados": 3
     },
@@ -10012,6 +9989,11 @@
       "achados": 1,
       "aprovados": 0,
       "reprovados": 0
+    },
+    "compressor de ar": {
+      "achados": 1,
+      "aprovados": 0,
+      "reprovados": 0
     }
   },
   "radar_cfg": {
@@ -10044,7 +10026,8 @@
       "23": 4
     },
     "2026-10-17": {
-      "0": 6
+      "0": 6,
+      "5": 2
     }
   },
   "aviso_ml": "2026-10-16",
