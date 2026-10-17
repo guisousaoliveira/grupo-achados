@@ -287,33 +287,6 @@
     },
     {
       "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB74933617",
-      "origem": "promooeasy",
-      "link": "https://meli.la/1rnd29A",
-      "link_produto": "https://www.mercadolivre.com.br/auxiliar-de-partida-bateria-carro-compressor-de-ar-portatil-12v-4-funcoes-em-1-inflador-digital-calibrador-pneu-power-bank-lanterna-led-emergencia-automotiva-moto-suv-bicicleta-caminhonete-midiafone/p/MLB74933617",
-      "post_origem": "https://t.me/promooeasy/223348",
-      "link_canal": "https://www.mercadolivre.com.br/auxiliar-de-partida-bateria-carro-compressor-de-ar-portatil-12v-4-funcoes-em-1-inflador-digital-calibrador-pneu-power-bank-lanterna-led-emergencia-automotiva-moto-suv-bicicleta-caminhonete-midiafone/p/MLB74933617?matt_word=promoeasynv&amp;matt_tool=88963738",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_754380-MLA117622146633_092026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Auxiliar De Partida Bateria Carro Compressor De Ar Portátil 12V 4 funções em 1",
-      "de": 390.0,
-      "por": 142.93,
-      "lido_ia": true,
-      "cupom": "RESGATEFULL1710",
-      "palavra": "compressor de ar",
-      "garimpado_em": "2026-10-17T05:07-03:00",
-      "nota": 69.3,
-      "titulo": "Auxiliar de partida com compressor para emergências na estra",
-      "na_revisao_desde": "2026-10-17T05:08-03:00",
-      "reconferido_em": "2026-10-17T05:08-03:00",
-      "preco_conferido": true,
-      "preco_cupom": true,
-      "preco_sem_cupom": 178.66,
-      "aprovado_sozinho": true,
-      "aprovado_em": "2026-10-17T05:08-03:00"
-    },
-    {
-      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB44692293",
       "origem": "promooeasy",
       "link": "https://meli.la/1o5JVPn",
@@ -2624,6 +2597,21 @@
       "foto": "https://m.media-amazon.com/images/I/615U7klnYVL._AC_SL1500_.jpg",
       "secao": "tech",
       "slot": 23.3,
+      "foto_site_ok": true
+    },
+    {
+      "chave": "mercadolivre:MLB74933617",
+      "loja": "mercadolivre",
+      "nome": "Auxiliar De Partida Bateria Carro Compressor De Ar Portátil 12V 4 funções em 1",
+      "data": "2026-10-17T05:11-03:00",
+      "link": "https://meli.la/1rnd29A",
+      "link_produto": "https://www.mercadolivre.com.br/auxiliar-de-partida-bateria-carro-compressor-de-ar-portatil-12v-4-funcoes-em-1-inflador-digital-calibrador-pneu-power-bank-lanterna-led-emergencia-automotiva-moto-suv-bicicleta-caminhonete-midiafone/p/MLB74933617",
+      "titulo": "Auxiliar de partida com compressor para emergências na estrada",
+      "de": 390.0,
+      "por": 178.66,
+      "conferido": true,
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_754380-MLA117622146633_092026-O.webp",
+      "secao": "carro",
       "foto_site_ok": true
     }
   ],
@@ -7830,6 +7818,19 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB74933617",
+      "origem": "promooeasy",
+      "link": "https://meli.la/1rnd29A",
+      "link_produto": "https://www.mercadolivre.com.br/auxiliar-de-partida-bateria-carro-compressor-de-ar-portatil-12v-4-funcoes-em-1-inflador-digital-calibrador-pneu-power-bank-lanterna-led-emergencia-automotiva-moto-suv-bicicleta-caminhonete-midiafone/p/MLB74933617",
+      "post_origem": "https://t.me/promooeasy/223348",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_754380-MLA117622146633_092026-O.webp",
+      "nome": "Auxiliar De Partida Bateria Carro Compressor De Ar Portátil 12V 4 funções em 1",
+      "de": 390.0,
+      "por": 178.66,
+      "titulo": "Auxiliar de partida com compressor para emergências na estrada"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0C9QSV82F",
       "origem": "promobit",
@@ -8353,19 +8354,6 @@
       "de": 249.0,
       "por": 95.0,
       "titulo": "Visual old money com acabamento em aço inox"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0977QVRJS",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B0977QVRJS?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0977QVRJS?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/relogio-masculino-timex-easy-reader-indiglo-pretoprata-3118825/",
-      "nome": "Relógio Masculino Timex Easy Reader Indiglo PretoPrata",
-      "por": 299.0,
-      "foto": "AgACAgQAAxkDAAIEZ2rSRbHpwKplnFzmzL8TPMStJqBeAAIoDmsbC9FFUY-EgnI8Bon3AQADAgADeAADPQQ",
-      "titulo": "Timex com mostrador de fácil leitura no escuro"
     }
   ],
   "lixeira": [
@@ -9986,5 +9974,5 @@
     }
   },
   "aviso_ml": "2026-10-16",
-  "vitrine_marca": "25307f349bdc"
+  "vitrine_marca": "2a982878f720"
 }
