@@ -2,29 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "amazon",
-      "chave": "amazon:B00GY2LASO",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B00GY2LASO?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B00GY2LASO?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/223470",
-      "link_canal": "https://www.amazon.com.br/gp/product/B00GY2LASO?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAIE9GrTfWS2GYr-2PTlZ_Jvn4PI1HkJAAJ6D2sboDKlUsdkj-SM-uZNAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "Bálsamo Pós-Barba Nivea Men 100ml",
-      "por": 30.88,
-      "lido_ia": true,
-      "palavra": "barba",
-      "garimpado_em": "2026-10-17T10:50-03:00",
-      "nota": 22.1,
-      "titulo": "Alívio imediato contra a ardência da lâmina",
-      "na_revisao_desde": "2026-10-17T10:51-03:00",
-      "reconferido_em": "2026-10-17T12:01-03:00",
-      "preco_conferido": true,
-      "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto",
-      "aprovado_em": "2026-10-17T13:00-03:00"
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB4570819989",
       "origem": "promonocontext",
@@ -3194,6 +3171,21 @@
       "secao": "casa",
       "slot": 15.1,
       "foto_site_ok": true
+    },
+    {
+      "chave": "amazon:B00GY2LASO",
+      "loja": "amazon",
+      "nome": "Bálsamo Pós-Barba Nivea Men 100ml",
+      "data": "2026-10-17T15:37-03:00",
+      "link": "https://www.amazon.com.br/dp/B00GY2LASO?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B00GY2LASO?tag=alphadominu09-20",
+      "titulo": "Alívio imediato contra a ardência da lâmina",
+      "por": 30.88,
+      "conferido": true,
+      "foto": "https://raw.githubusercontent.com/guisousaoliveira/grupo-achados/main/dados/fotos/cae88718f3.jpg",
+      "secao": "barba",
+      "slot": 15.2,
+      "foto_site_ok": true
     }
   ],
   "slots_usados": {
@@ -3354,7 +3346,8 @@
       14.2,
       14.3,
       15,
-      15.1
+      15.1,
+      15.2
     ]
   },
   "shopee_buscado_em": "",
@@ -9520,6 +9513,18 @@
   },
   "ultimos": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B00GY2LASO",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B00GY2LASO?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B00GY2LASO?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/223470",
+      "foto": "AgACAgQAAxkDAAIE9GrTfWS2GYr-2PTlZ_Jvn4PI1HkJAAJ6D2sboDKlUsdkj-SM-uZNAQADAgADeAADPQQ",
+      "nome": "Bálsamo Pós-Barba Nivea Men 100ml",
+      "por": 30.88,
+      "titulo": "Alívio imediato contra a ardência da lâmina"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB4362152290",
       "origem": "lobaopromo",
@@ -10049,19 +10054,6 @@
       "por": 66.65,
       "titulo": "Perfume importado com alta fixação para o dia a dia",
       "de": 239.0
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:230709939.42279627399",
-      "nome": "Controle remoto compatível com Google TV Chromecast 4K 2020-2024 (com comando de voz)",
-      "por": 23.21,
-      "de": 33.16,
-      "foto": "https://cf.shopee.com.br/file/sg-11134301-8262y-ml7t601a0uf77a",
-      "link": "https://s.shopee.com.br/9V2IGA16JH",
-      "link_produto": "https://shopee.com.br/product/230709939/42279627399",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "titulo": "Controle remoto com comando de voz para Chromecast"
     }
   ],
   "lixeira": [
@@ -10823,5 +10815,5 @@
     }
   },
   "aviso_ml": "2026-10-17",
-  "vitrine_marca": "7344bf55ba59"
+  "vitrine_marca": "b74a948eb3c1"
 }
