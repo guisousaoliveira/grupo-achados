@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB42978348",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/1CWktEk",
-      "link_produto": "https://www.mercadolivre.com.br/bicicleta-ergometrica-bike-spinning-6kg-sensacao-inercia-fitness-preto-e-vermelho-sevenfit-para-cardio/p/MLB42978348",
-      "post_origem": "https://t.me/lobaopromo/190769",
-      "link_canal": "https://meli.la/32yfXtg",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_745785-MLA114987927277_072026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Bicicleta Ergométrica Bike Spinning 6kg Sensação Inércia Fitness",
-      "de": 1094.0,
-      "por": 460.0,
-      "lido_ia": true,
-      "preco_conferido": true,
-      "palavra": "bicicleta ergometrica",
-      "garimpado_em": "2026-10-17T10:30-03:00",
-      "nota": 78.3,
-      "titulo": "Bike de spinning para fazer cardio em casa",
-      "aprovado_sozinho": true,
-      "aprovado_em": "2026-10-17T10:31-03:00"
-    },
-    {
       "loja": "shopee",
       "chave": "shopee:1398610040.58253687690",
       "nome": "Óculos de Sol Planta Conceito - Hastes de Sapo Desenho Bico de Pato Unissex UV400 Nariz Removível",
@@ -2737,6 +2715,22 @@
       "secao": "outros",
       "slot": 12.1,
       "foto_site_ok": true
+    },
+    {
+      "chave": "mercadolivre:MLB42978348",
+      "loja": "mercadolivre",
+      "nome": "Bicicleta Ergométrica Bike Spinning 6kg Sensação Inércia Fitness",
+      "data": "2026-10-17T12:39-03:00",
+      "link": "https://meli.la/1CWktEk",
+      "link_produto": "https://www.mercadolivre.com.br/bicicleta-ergometrica-bike-spinning-6kg-sensacao-inercia-fitness-preto-e-vermelho-sevenfit-para-cardio/p/MLB42978348",
+      "titulo": "Bike de spinning para fazer cardio em casa",
+      "de": 1094.0,
+      "por": 460.0,
+      "conferido": true,
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_745785-MLA114987927277_072026-O.webp",
+      "secao": "academia",
+      "slot": 12.2,
+      "foto_site_ok": true
     }
   ],
   "slots_usados": {
@@ -2885,7 +2879,8 @@
       11.1,
       11.3,
       12,
-      12.1
+      12.1,
+      12.2
     ]
   },
   "shopee_buscado_em": "",
@@ -9182,6 +9177,19 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB42978348",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/1CWktEk",
+      "link_produto": "https://www.mercadolivre.com.br/bicicleta-ergometrica-bike-spinning-6kg-sensacao-inercia-fitness-preto-e-vermelho-sevenfit-para-cardio/p/MLB42978348",
+      "post_origem": "https://t.me/lobaopromo/190769",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_745785-MLA114987927277_072026-O.webp",
+      "nome": "Bicicleta Ergométrica Bike Spinning 6kg Sensação Inércia Fitness",
+      "de": 1094.0,
+      "por": 460.0,
+      "titulo": "Bike de spinning para fazer cardio em casa"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B07GM8DVYB",
       "origem": "promobit",
@@ -9706,19 +9714,6 @@
       "de": 1149.0,
       "foto": "AgACAgQAAxkDAAIEjGrSbWI-m249FKI6yf4CsFqSi8cQAALyD2sb8p_kUYehLdzUnfY5AQADAgADeQADPQQ",
       "titulo": "Smart TV HD de 32 polegadas para o quarto"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0FPBP6G49",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0FPBP6G49?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0FPBP6G49?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/222905",
-      "foto": "AgACAgQAAxkDAAIEjmrSchHJDV70I-xxwgMOKwuhzUUUAAJQDWsbiTq0Uf_ueE50COGLAQADAgADeQADPQQ",
-      "nome": "PHILIPS, Smart TV, Ambilight THE ONE 65\" 4K 144 Hz, Titan OS, 65PUG8929/78, P5, DTS Play-Fi, Freesync, Dolby Vision e At",
-      "por": 3898.0,
-      "titulo": "Smart TV 4K com Ambilight para a sala",
-      "de": 4899.0
     }
   ],
   "lixeira": [
@@ -11370,5 +11365,5 @@
     }
   },
   "aviso_ml": "2026-10-17",
-  "vitrine_marca": "185a0a48392c"
+  "vitrine_marca": "36a9553d0061"
 }
