@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "shopee",
-      "chave": "shopee:1274163316.23098737531",
-      "nome": "Óculos de Sol Retrô da moda Fashion UV400 Haste Dourada",
-      "por": 18.99,
-      "de": 40.4,
-      "foto": "https://cf.shopee.com.br/file/br-11134207-81z1k-mi3m2b9be8zq53",
-      "link": "https://s.shopee.com.br/80DVesA6ck",
-      "link_produto": "https://shopee.com.br/product/1274163316/23098737531",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.9,
-      "vendas": 1217,
-      "palavra": "oculos de sol",
-      "garimpado_em": "2026-10-17T08:01-03:00",
-      "nota": 72.3,
-      "titulo": "Modelo retrô com haste dourada e proteção UV400",
-      "aprovado_sozinho": true,
-      "aprovado_em": "2026-10-17T09:01-03:00"
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B0CXVBVT83",
       "origem": "promobit",
@@ -2694,6 +2672,21 @@
       "secao": "tech",
       "slot": 10.1,
       "foto_site_ok": true
+    },
+    {
+      "chave": "shopee:1274163316.23098737531",
+      "loja": "shopee",
+      "nome": "Óculos de Sol Retrô da moda Fashion UV400 Haste Dourada",
+      "data": "2026-10-17T10:55-03:00",
+      "link": "https://s.shopee.com.br/80DVesA6ck",
+      "link_produto": "https://shopee.com.br/product/1274163316/23098737531",
+      "titulo": "Modelo retrô com haste dourada e proteção UV400",
+      "de": 40.4,
+      "por": 18.99,
+      "foto": "https://cf.shopee.com.br/file/br-11134207-81z1k-mi3m2b9be8zq53",
+      "secao": "estilo",
+      "slot": 10.3,
+      "foto_site_ok": true
     }
   ],
   "slots_usados": {
@@ -2836,7 +2829,8 @@
       9.1,
       9.2,
       10,
-      10.1
+      10.1,
+      10.3
     ]
   },
   "shopee_buscado_em": "",
@@ -8493,6 +8487,19 @@
   },
   "ultimos": [
     {
+      "loja": "shopee",
+      "chave": "shopee:1274163316.23098737531",
+      "nome": "Óculos de Sol Retrô da moda Fashion UV400 Haste Dourada",
+      "por": 18.99,
+      "de": 40.4,
+      "foto": "https://cf.shopee.com.br/file/br-11134207-81z1k-mi3m2b9be8zq53",
+      "link": "https://s.shopee.com.br/80DVesA6ck",
+      "link_produto": "https://shopee.com.br/product/1274163316/23098737531",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "titulo": "Modelo retrô com haste dourada e proteção UV400"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB54025710",
       "origem": "promooeasy",
@@ -9017,20 +9024,6 @@
       "de": 129.0,
       "foto": "https://m.media-amazon.com/images/I/51kh9gWb2eL._AC_SL1000_.jpg",
       "titulo": "Cafeteira elétrica para preparar o café do dia a dia"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB3409386341",
-      "origem": "xetdaspromocoes",
-      "link": "https://meli.la/1hbJzq8",
-      "link_produto": "https://www.mercadolivre.com.br/relogio-casio-digital-vintage-prata-unissex-original-barato/up/MLBU1444693825?pdp_filters=item_id%3AMLB3409386341",
-      "post_origem": "https://t.me/xetdaspromocoes/85207",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_981501-MLB115302231556_082026-O.webp",
-      "nome": "Relógio Casio Digital Vintage Prata Unissex Original Barato Prata",
-      "de": 499.0,
-      "por": 155.0,
-      "cupom": "OFFHOJE",
-      "titulo": "Relógio vintage prata para o dia a dia"
     }
   ],
   "lixeira": [
@@ -10675,5 +10668,5 @@
     }
   },
   "aviso_ml": "2026-10-16",
-  "vitrine_marca": "5edd2726d11f"
+  "vitrine_marca": "d1d15048651f"
 }
