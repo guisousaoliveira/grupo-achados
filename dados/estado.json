@@ -185,6 +185,28 @@
       "na_revisao_desde": "2026-10-17T12:30-03:00",
       "cupom": "Resgate o cupom de 30% OFF do anuncio",
       "aprovado_em": "2026-10-17T12:58-03:00"
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0DJ1RD8SH",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0DJ1RD8SH?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0DJ1RD8SH?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/jbl-caixa-de-som-partybox-stage-320-bluetooth-portatil-show-de-luzes-a-prova-de-respingos-240w-rms-branca-3121283/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3121283/",
+      "nome": "JBL Caixa de Som PartyBox Stage 320 Bluetooth Portátil Show de Luzes",
+      "por": 2503.0,
+      "de": 3899.0,
+      "foto": "https://i.promobit.com.br/268/452563726517922473538831305585.jpg",
+      "foto_origem": "canal",
+      "palavra": "caixa de som",
+      "garimpado_em": "2026-10-17T11:40-03:00",
+      "nota": 51.1,
+      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
+      "titulo": "Caixa de som potente para festas e eventos",
+      "na_revisao_desde": "2026-10-17T11:50-03:00",
+      "aprovado_em": "2026-10-17T12:58-03:00"
     }
   ],
   "postados": [
@@ -3153,29 +3175,6 @@
       "id": 761,
       "na_revisao_desde": "2026-10-17T11:50-03:00",
       "msg_id": 1275
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0DJ1RD8SH",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B0DJ1RD8SH?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0DJ1RD8SH?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/jbl-caixa-de-som-partybox-stage-320-bluetooth-portatil-show-de-luzes-a-prova-de-respingos-240w-rms-branca-3121283/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3121283/",
-      "nome": "JBL Caixa de Som PartyBox Stage 320 Bluetooth Portátil Show de Luzes",
-      "por": 2503.0,
-      "de": 3899.0,
-      "foto": "https://i.promobit.com.br/268/452563726517922473538831305585.jpg",
-      "foto_origem": "canal",
-      "palavra": "caixa de som",
-      "garimpado_em": "2026-10-17T11:40-03:00",
-      "nota": 51.1,
-      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
-      "titulo": "Caixa de som potente para festas e eventos",
-      "id": 762,
-      "na_revisao_desde": "2026-10-17T11:50-03:00",
-      "msg_id": 1276
     },
     {
       "loja": "amazon",
@@ -10970,7 +10969,7 @@
       },
       "promobit": {
         "achados": 7,
-        "aprovados": 0,
+        "aprovados": 1,
         "reprovados": 4
       },
       "shopee": {
@@ -11059,7 +11058,7 @@
     },
     "caixa de som": {
       "achados": 22,
-      "aprovados": 3,
+      "aprovados": 4,
       "reprovados": 16
     },
     "caixa termica": {
@@ -11399,7 +11398,7 @@
       "9": 3,
       "10": 3,
       "11": 1,
-      "12": 4
+      "12": 5
     }
   },
   "aviso_ml": "2026-10-17",
