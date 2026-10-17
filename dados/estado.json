@@ -160,6 +160,31 @@
       "titulo": "Kit completo de ferramentas para reparos domésticos essencia",
       "aprovado_sozinho": true,
       "aprovado_em": "2026-10-17T12:20-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB5830018268",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/1vSur2M",
+      "link_produto": "https://www.mercadolivre.com.br/camisa-polo-quadri-adler-foxton/up/MLBU3501690417?pdp_filters=item_id%3AMLB5830018268",
+      "post_origem": "https://t.me/lobaopromo/190879",
+      "link_canal": "https://meli.la/2dN2AGS",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_929969-MLB116216531320_092026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Camisa Polo Quadri Adler Foxton Cáqui Lisa G",
+      "cupom_loja": "Resgate o cupom de 30% OFF do anuncio",
+      "de": 328.0,
+      "por": 117.0,
+      "lido_ia": true,
+      "preco_loja": 178.45,
+      "palavra": "camisa polo",
+      "garimpado_em": "2026-10-17T12:30-03:00",
+      "nota": 95.5,
+      "motivo_revisao": "o post diz R$ 117,00 e a loja mostra R$ 178,45, e não tem cupom ou Pix que explique a diferença",
+      "titulo": "Camisa polo lisa para compor o visual casual",
+      "na_revisao_desde": "2026-10-17T12:30-03:00",
+      "cupom": "Resgate o cupom de 30% OFF do anuncio",
+      "aprovado_em": "2026-10-17T12:58-03:00"
     }
   ],
   "postados": [
@@ -3199,31 +3224,6 @@
       "reconferido_em": "2026-10-17T12:01-03:00",
       "preco_conferido": true,
       "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB5830018268",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/1vSur2M",
-      "link_produto": "https://www.mercadolivre.com.br/camisa-polo-quadri-adler-foxton/up/MLBU3501690417?pdp_filters=item_id%3AMLB5830018268",
-      "post_origem": "https://t.me/lobaopromo/190879",
-      "link_canal": "https://meli.la/2dN2AGS",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_929969-MLB116216531320_092026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Camisa Polo Quadri Adler Foxton Cáqui Lisa G",
-      "cupom_loja": "Resgate o cupom de 30% OFF do anuncio",
-      "de": 328.0,
-      "por": 117.0,
-      "lido_ia": true,
-      "preco_loja": 178.45,
-      "palavra": "camisa polo",
-      "garimpado_em": "2026-10-17T12:30-03:00",
-      "nota": 95.5,
-      "motivo_revisao": "o post diz R$ 117,00 e a loja mostra R$ 178,45, e não tem cupom ou Pix que explique a diferença",
-      "titulo": "Camisa polo lisa para compor o visual casual",
-      "id": 767,
-      "na_revisao_desde": "2026-10-17T12:30-03:00",
-      "msg_id": 1283
     }
   ],
   "proximo_id": 771,
@@ -11008,7 +11008,7 @@
       },
       "lobaopromo": {
         "achados": 6,
-        "aprovados": 0,
+        "aprovados": 1,
         "reprovados": 0
       },
       "urubupromo": {
@@ -11097,7 +11097,7 @@
     },
     "camisa polo": {
       "achados": 8,
-      "aprovados": 5,
+      "aprovados": 6,
       "reprovados": 1
     },
     "chave de impacto": {
@@ -11422,7 +11422,7 @@
       "9": 3,
       "10": 3,
       "11": 1,
-      "12": 3
+      "12": 4
     }
   },
   "aviso_ml": "2026-10-17",
