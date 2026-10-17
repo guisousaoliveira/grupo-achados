@@ -417,6 +417,30 @@
       "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
       "na_revisao_desde": "2026-10-17T15:31-03:00",
       "aprovado_em": "2026-10-17T15:34-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB21709516",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/1H4ZoZA",
+      "link_produto": "https://www.mercadolivre.com.br/mochila-casual-jansport-zone-pack-alta-qualidade-resistencia-preto-liso/p/MLB21709516",
+      "post_origem": "https://t.me/lobaopromo/190989",
+      "link_canal": "https://meli.la/1MDPrHh",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_980532-MLA78051184078_082024-O.webp",
+      "foto_origem": "loja",
+      "nome": "Mochila Big Student 34l Buckshot Camo Jansport Buckshot Camo Estampado",
+      "cupom_loja": "Resgate o cupom de 30% OFF do anuncio",
+      "de": 500.0,
+      "por": 192.0,
+      "lido_ia": true,
+      "preco_loja": 297.41,
+      "palavra": "mochila",
+      "garimpado_em": "2026-10-17T15:50-03:00",
+      "nota": 88.4,
+      "motivo_revisao": "o post diz R$ 192,00 e a loja mostra R$ 297,41, e não tem cupom ou Pix que explique a diferença",
+      "na_revisao_desde": "2026-10-17T15:50-03:00",
+      "cupom": "Resgate o cupom de 30% OFF do anuncio",
+      "aprovado_em": "2026-10-17T15:56-03:00"
     }
   ],
   "postados": [
@@ -3366,32 +3390,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB21709516",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/1H4ZoZA",
-      "link_produto": "https://www.mercadolivre.com.br/mochila-casual-jansport-zone-pack-alta-qualidade-resistencia-preto-liso/p/MLB21709516",
-      "post_origem": "https://t.me/lobaopromo/190989",
-      "link_canal": "https://meli.la/1MDPrHh",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_980532-MLA78051184078_082024-O.webp",
-      "foto_origem": "loja",
-      "nome": "Mochila Big Student 34l Buckshot Camo Jansport Buckshot Camo Estampado",
-      "cupom_loja": "Resgate o cupom de 30% OFF do anuncio",
-      "de": 500.0,
-      "por": 192.0,
-      "lido_ia": true,
-      "preco_loja": 297.41,
-      "palavra": "mochila",
-      "garimpado_em": "2026-10-17T15:50-03:00",
-      "nota": 88.4,
-      "motivo_revisao": "o post diz R$ 192,00 e a loja mostra R$ 297,41, e não tem cupom ou Pix que explique a diferença",
-      "id": 792,
-      "na_revisao_desde": "2026-10-17T15:50-03:00",
-      "msg_id": 1314
-    }
-  ],
+  "revisar": [],
   "proximo_id": 794,
   "radar": {
     "visto": {
@@ -10316,7 +10315,7 @@
       },
       "lobaopromo": {
         "achados": 12,
-        "aprovados": 6,
+        "aprovados": 7,
         "reprovados": 2
       },
       "urubupromo": {
@@ -10500,7 +10499,7 @@
     },
     "mochila": {
       "achados": 18,
-      "aprovados": 8,
+      "aprovados": 9,
       "reprovados": 7
     },
     "oculos de sol": {
@@ -10748,7 +10747,7 @@
       "12": 5,
       "13": 11,
       "14": 7,
-      "15": 7
+      "15": 8
     }
   },
   "aviso_ml": "2026-10-17",
