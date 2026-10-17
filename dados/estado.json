@@ -2963,27 +2963,52 @@
       "id": 751,
       "na_revisao_desde": "2026-10-17T10:20-03:00",
       "msg_id": 1264
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B00GY2LASO",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B00GY2LASO?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B00GY2LASO?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/223470",
+      "link_canal": "https://www.amazon.com.br/gp/product/B00GY2LASO?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAIE9GrTfWS2GYr-2PTlZ_Jvn4PI1HkJAAJ6D2sboDKlUsdkj-SM-uZNAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Bálsamo Pós-Barba Nivea Men 100ml",
+      "por": 30.88,
+      "lido_ia": true,
+      "sem_preco_loja": true,
+      "loja_abriu": false,
+      "palavra": "barba",
+      "garimpado_em": "2026-10-17T10:50-03:00",
+      "nota": 22.1,
+      "motivo_revisao": "a loja não abriu para eu conferir o preço; tento de novo a cada hora",
+      "titulo": "Alívio imediato contra a ardência da lâmina",
+      "id": 755,
+      "na_revisao_desde": "2026-10-17T10:51-03:00",
+      "msg_id": 1268,
+      "reconferido_em": "2026-10-17T10:51-03:00"
     }
   ],
-  "proximo_id": 755,
+  "proximo_id": 756,
   "radar": {
     "visto": {
       "xetdaspromocoes": 85301,
-      "lobaopromo": 190786,
-      "gatunopromos": 125910,
+      "lobaopromo": 190794,
+      "gatunopromos": 125913,
       "pobregram": 42063,
       "urubupromo": 41806,
-      "tudonapromo": 102240,
-      "promonocontext": 127927,
-      "promooeasy": 223469,
-      "aquitempechincha": 282315,
-      "infoBRpromos": 67742,
+      "tudonapromo": 102242,
+      "promonocontext": 127934,
+      "promooeasy": 223480,
+      "aquitempechincha": 282317,
+      "infoBRpromos": 67746,
       "boletando": 76873,
-      "promotop": 260409,
+      "promotop": 260410,
       "achadosdotb": 11787
     },
     "dia": "2026-10-17",
-    "hoje": 32,
+    "hoje": 34,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -5225,30 +5250,32 @@
       "mercadolivre:MLB26499476",
       "shopee:1618883837.58260381358",
       "shopee:1372008216.22699027435",
-      "shopee:1506325632.58216112418"
+      "shopee:1506325632.58216112418",
+      "amazon:B00GY2LASO",
+      "mercadolivre:MLB50368907"
     ],
     "ultima": {
-      "em": "2026-10-17T10:40:25-03:00",
+      "em": "2026-10-17T10:50:21-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 38,
+      "posts_novos": 55,
       "do_nicho": 6,
-      "repetidas": 6,
-      "novas": 0,
+      "repetidas": 4,
+      "novas": 2,
       "limite_dia": false,
       "repetidas_nome": 0,
       "promobit": 0,
-      "soltas": 0,
-      "na_peneira": 8
+      "soltas": 1,
+      "na_peneira": 12
     },
     "hora": "2026-10-17T10",
-    "nesta_hora": 7,
+    "nesta_hora": 9,
     "promobit_hora": "2026-10-17T10",
     "promobit_nesta_hora": 3,
-    "promobit_visto": 3121171,
+    "promobit_visto": 3121197,
     "nomes": [
       [
         [
@@ -8205,6 +8232,17 @@
           "fitness"
         ],
         "2026-10-17T10:31-03:00"
+      ],
+      [
+        [
+          "balsamo",
+          "pos",
+          "barba",
+          "nivea",
+          "men",
+          "100ml"
+        ],
+        "2026-10-17T10:50-03:00"
       ]
     ],
     "peneira": [
@@ -8419,19 +8457,39 @@
         "palavra": "compressor de ar",
         "garimpado_em": "2026-10-17T10:40-03:00",
         "nota": 55.2
+      },
+      {
+        "loja": "mercadolivre",
+        "chave": "mercadolivre:MLB50368907",
+        "origem": "promooeasy",
+        "link": "https://www.mercadolivre.com.br/smart-tv-tcl-65-polegadas-qd-mini-led-4k-c6k-wifi-bluetooth-google-tv-4-hdmi-144hz-hdr10-65c6k/p/MLB50368907?matt_word=alphapromo&matt_tool=59136903",
+        "link_produto": "https://www.mercadolivre.com.br/smart-tv-tcl-65-polegadas-qd-mini-led-4k-c6k-wifi-bluetooth-google-tv-4-hdmi-144hz-hdr10-65c6k/p/MLB50368907",
+        "post_origem": "https://t.me/promooeasy/223476",
+        "link_canal": "https://www.mercadolivre.com.br/smart-tv-tcl-65-polegadas-qd-mini-led-4k-c6k-wifi-bluetooth-google-tv-4-hdmi-144hz-hdr10-65c6k/p/MLB50368907?matt_word=promoeasynv&amp;matt_tool=88963738",
+        "foto": "https://cdn1.telesco.pe/file/FoHSXN0ksB2CJgoxyp1OAHukk6Ecqnq9KgT6QeYWmr-oc0dpvak0Dncs-hBMd4AU6QNbKAk4SXJ3XQ9fjhkjx4FplhNGx8S48aQvYtjWP4t2Z5Jjaxvy9hFjvDorIPxETbkYQtENqD2_91yxxIRscVmqM-WTENEX2OWK17z-gOws1VaiXQWRiIFHzvKTPA2bTe1xS2YnqrrX3qWttBmuhpdXR8-qsdnoM-4yNicumBHRiMQqLylQ9jlbQfoN3k6pp4nkpikpucnXGrXkZtJN4Feg01fLJOS7-Amu7bMaQS4ZXd0ilupcoOAeCbNOieKyfetNGlDEQQXRjV_zPhg2vg.jpg",
+        "foto_origem": "canal",
+        "nome": "Smart Tv Tcl 65 Polegadas Qd-Mini Led 4k C6k Wifi Bluetooth Google Tv 4 Hdmi 144hz Hdr10+ 65c6k",
+        "por": 4102.0,
+        "lido_ia": true,
+        "sem_preco_loja": true,
+        "loja_abriu": false,
+        "palavra": "smart tv",
+        "garimpado_em": "2026-10-17T10:50-03:00",
+        "nota": 24.0
       }
     ],
     "soltas_hora": "2026-10-17T10",
-    "soltas": 5,
+    "soltas": 6,
     "shopee_em": "2026-10-17T10:40-03:00",
     "shopee_indice": 48,
     "soltas_dia_data": "2026-10-17",
-    "soltas_dia": 23,
+    "soltas_dia": 24,
     "soltas_loja": {
       "shopee": 2,
-      "mercadolivre": 3
+      "mercadolivre": 3,
+      "amazon": 1
     },
-    "soltas_vez": "2026-10-17T10:2"
+    "soltas_vez": "2026-10-17T10:3"
   },
   "ultimos": [
     {
@@ -10185,7 +10243,7 @@
     },
     "2026-10-17": {
       "promooeasy": {
-        "achados": 7,
+        "achados": 8,
         "aprovados": 0,
         "reprovados": 1
       },
@@ -10239,7 +10297,7 @@
       "reprovados": 4
     },
     "barba": {
-      "achados": 3,
+      "achados": 4,
       "aprovados": 0,
       "reprovados": 2
     },
