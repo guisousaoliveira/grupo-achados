@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB58760342",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/19fLCbM",
-      "link_produto": "https://www.mercadolivre.com.br/air-fryer-philips-essential-airfryer-xl-hd9270-de-62l-preto/p/MLB58760342",
-      "post_origem": "https://t.me/lobaopromo/190830",
-      "link_canal": "https://meli.la/1CHt4rm",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_806264-MLA99550695498_122025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Air Fryer Philips Essential Airfryer Xl Hd9270 De 6.2l Preto",
-      "lido_ia": true,
-      "por": 320.0,
-      "de": 699.0,
-      "preco_conferido": true,
-      "palavra": "air fryer",
-      "garimpado_em": "2026-10-17T11:40-03:00",
-      "nota": 79.4,
-      "titulo": "Airfryer grande para preparar refeições para a família",
-      "aprovado_sozinho": true,
-      "aprovado_em": "2026-10-17T12:01-03:00"
-    },
-    {
       "loja": "shopee",
       "chave": "shopee:1385382926.21697974917",
       "nome": "Tênis Masculino presente NATAL ANO NOVO Super confortável - Envio Imediato.",
@@ -3023,6 +3001,22 @@
       "foto": "https://http2.mlstatic.com/D_NQ_NP_899933-MLB117834537170_102026-O.webp",
       "secao": "estilo",
       "foto_site_ok": true
+    },
+    {
+      "chave": "mercadolivre:MLB58760342",
+      "loja": "mercadolivre",
+      "nome": "Air Fryer Philips Essential Airfryer Xl Hd9270 De 6.2l Preto",
+      "data": "2026-10-17T14:06-03:00",
+      "link": "https://meli.la/19fLCbM",
+      "link_produto": "https://www.mercadolivre.com.br/air-fryer-philips-essential-airfryer-xl-hd9270-de-62l-preto/p/MLB58760342",
+      "titulo": "Airfryer grande para preparar refeições para a família",
+      "de": 699.0,
+      "por": 320.0,
+      "conferido": true,
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_806264-MLA99550695498_122025-O.webp",
+      "secao": "casa",
+      "slot": 14,
+      "foto_site_ok": true
     }
   ],
   "slots_usados": {
@@ -3177,7 +3171,8 @@
       13,
       13.1,
       13.2,
-      13.3
+      13.3,
+      14
     ]
   },
   "shopee_buscado_em": "",
@@ -9281,6 +9276,19 @@
   "ultimos": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB58760342",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/19fLCbM",
+      "link_produto": "https://www.mercadolivre.com.br/air-fryer-philips-essential-airfryer-xl-hd9270-de-62l-preto/p/MLB58760342",
+      "post_origem": "https://t.me/lobaopromo/190830",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_806264-MLA99550695498_122025-O.webp",
+      "nome": "Air Fryer Philips Essential Airfryer Xl Hd9270 De 6.2l Preto",
+      "por": 320.0,
+      "de": 699.0,
+      "titulo": "Airfryer grande para preparar refeições para a família"
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB4689035567",
       "origem": "lobaopromo",
       "link": "https://meli.la/29U72uu",
@@ -9808,19 +9816,6 @@
       "por": 431.32,
       "cupom": "OFFHOJE",
       "titulo": "Fritadeira oven espaçosa para assar porções grandes"
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:1604777172.57757302977",
-      "nome": "Câmera Veicular Full HD 1080p 3 Lentes (Frontal + Interna + Traseira) com Tela LCD | DVR Automotivo com Visão Noturna",
-      "por": 77.98,
-      "de": 199.95,
-      "foto": "https://cf.shopee.com.br/file/sg-11134201-82606-mlx59strsr9c41",
-      "link": "https://s.shopee.com.br/BUcolK1Hw",
-      "link_produto": "https://shopee.com.br/product/1604777172/57757302977",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "titulo": "Câmera veicular de três lentes para segurança no trânsito"
     }
   ],
   "lixeira": [
@@ -10550,5 +10545,5 @@
     }
   },
   "aviso_ml": "2026-10-17",
-  "vitrine_marca": "f91581ed0f25"
+  "vitrine_marca": "6b3b8b955b8c"
 }
