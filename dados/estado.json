@@ -3265,7 +3265,7 @@
   "proximo_id": 785,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 85380,
+      "xetdaspromocoes": 85381,
       "lobaopromo": 190941,
       "gatunopromos": 125953,
       "pobregram": 42064,
@@ -3280,7 +3280,7 @@
       "achadosdotb": 11787
     },
     "dia": "2026-10-17",
-    "hoje": 69,
+    "hoje": 70,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -5603,30 +5603,31 @@
       "amazon:B09BGYJRSL",
       "mercadolivre:MLB76003616",
       "shopee:1543591764.58205560982",
-      "shopee:1774690884.58269547182"
+      "shopee:1774690884.58269547182",
+      "mercadolivre:MLB3935795737"
     ],
     "ultima": {
-      "em": "2026-10-17T14:19:28-03:00",
-      "pedido": "99d26be9a9",
-      "forcado": true,
+      "em": "2026-10-17T14:20:22-03:00",
+      "pedido": "",
+      "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 21,
-      "do_nicho": 2,
-      "repetidas": 1,
-      "novas": 1,
+      "posts_novos": 10,
+      "do_nicho": 1,
+      "repetidas": 0,
+      "novas": 0,
       "limite_dia": false,
-      "repetidas_nome": 0,
+      "repetidas_nome": 1,
       "promobit": 0,
-      "soltas": 4,
-      "na_peneira": 19
+      "soltas": 0,
+      "na_peneira": 20
     },
     "hora": "2026-10-17T14",
-    "nesta_hora": 5,
+    "nesta_hora": 6,
     "promobit_hora": "2026-10-17T14",
     "promobit_nesta_hora": 0,
-    "promobit_visto": 3121624,
+    "promobit_visto": 3121637,
     "nomes": [
       [
         [
