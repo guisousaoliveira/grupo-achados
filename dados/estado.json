@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "amazon",
-      "chave": "amazon:B0F3PT467Y",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B0F3PT467Y?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0F3PT467Y?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/mondial-aparador-de-pelos-praticgroom-preto-bivolt-bg-09-3120452/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3120452/",
-      "nome": "MONDIAL Aparador de Pelos PraticGroom, Preto, Bivolt",
-      "por": 75.9,
-      "de": 179.9,
-      "foto": "AgACAgQAAxkDAAIEx2rS1uMehIuWzj_GaORaNxkNNxJEAAKGDWsblvmtUV9IKTZuZ36DAQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "palavra": "aparador",
-      "garimpado_em": "2026-10-16T21:40-03:00",
-      "nota": 60.7,
-      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
-      "titulo": "Aparador bivolt para manter a higiene corporal",
-      "na_revisao_desde": "2026-10-16T23:01-03:00",
-      "aprovado_em": "2026-10-16T23:02-03:00"
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB50507430",
       "origem": "lobaopromo",
@@ -2602,6 +2580,21 @@
       "secao": "academia",
       "slot": 8.1,
       "foto_site_ok": true
+    },
+    {
+      "chave": "amazon:B0F3PT467Y",
+      "loja": "amazon",
+      "nome": "MONDIAL Aparador de Pelos PraticGroom, Preto, Bivolt",
+      "data": "2026-10-17T08:55-03:00",
+      "link": "https://www.amazon.com.br/dp/B0F3PT467Y?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0F3PT467Y?tag=alphadominu09-20",
+      "titulo": "Aparador bivolt para manter a higiene corporal",
+      "de": 179.9,
+      "por": 75.9,
+      "foto": "https://raw.githubusercontent.com/guisousaoliveira/grupo-achados/main/dados/fotos/8b56877ad2.jpg",
+      "secao": "barba",
+      "slot": 8.3,
+      "foto_site_ok": true
     }
   ],
   "slots_usados": {
@@ -2738,7 +2731,8 @@
     ],
     "2026-10-17": [
       8,
-      8.1
+      8.1,
+      8.3
     ]
   },
   "shopee_buscado_em": "",
@@ -8018,6 +8012,20 @@
   },
   "ultimos": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B0F3PT467Y",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0F3PT467Y?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0F3PT467Y?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/mondial-aparador-de-pelos-praticgroom-preto-bivolt-bg-09-3120452/",
+      "nome": "MONDIAL Aparador de Pelos PraticGroom, Preto, Bivolt",
+      "por": 75.9,
+      "de": 179.9,
+      "foto": "AgACAgQAAxkDAAIEx2rS1uMehIuWzj_GaORaNxkNNxJEAAKGDWsblvmtUV9IKTZuZ36DAQADAgADeQADPQQ",
+      "titulo": "Aparador bivolt para manter a higiene corporal"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB18726361",
       "origem": "lobaopromo",
@@ -8539,19 +8547,6 @@
       "de": 149.99,
       "por": 49.4,
       "titulo": "Meias Puma atoalhadas para treinar com conforto"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB3756911067",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/1a3S5Zc",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-3756911067-kit-6-cuecas-boxer-polo-wear-microfibra-sem-costura-original-_JM?pdp_filters=item_id%3AMLB3756911067",
-      "post_origem": "https://t.me/lobaopromo/190324",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_794927-MLB85659268782_062025-O.webp",
-      "nome": "Kit 6 Cuecas Boxer Polo Wear Microfibra Sem Costura Original",
-      "de": 200.0,
-      "por": 63.0,
-      "titulo": "Kit Polo Wear em microfibra para uso diário"
     }
   ],
   "lixeira": [
@@ -10184,5 +10179,5 @@
     }
   },
   "aviso_ml": "2026-10-16",
-  "vitrine_marca": "1fad0651a594"
+  "vitrine_marca": "c21cbd22fab0"
 }
