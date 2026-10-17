@@ -3316,27 +3316,71 @@
       "id": 789,
       "na_revisao_desde": "2026-10-17T15:21-03:00",
       "msg_id": 1311
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0FC2SMDFK",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0FC2SMDFK?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0FC2SMDFK?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/amazfit-smartwatch-balance-2-original-47mm-amoled-display-de-vidro-safira-mapas-offline-gps-dual-band-21-dias-de-auto-3121739/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3121739/",
+      "nome": "Amazfit Smartwatch Balance 2 Original 47mm AMOLED Display de Vidro",
+      "por": 1234.05,
+      "de": 1899.0,
+      "foto": "https://m.media-amazon.com/images/I/71-Z+fO8DpL._AC_SL1447_.jpg",
+      "foto_origem": "loja",
+      "palavra": "smartwatch",
+      "garimpado_em": "2026-10-17T15:10-03:00",
+      "nota": 57.6,
+      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
+      "id": 790,
+      "na_revisao_desde": "2026-10-17T15:31-03:00",
+      "msg_id": 1312
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB4536721878",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/13qZv16",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-4536721878-creatina-pura-500g-pre-treino-300g-shaker-600ml-_JM?pdp_filters=item_id%3AMLB4536721878",
+      "post_origem": "https://t.me/lobaopromo/190950",
+      "link_canal": "https://meli.la/2knWfPu",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_639792-MLB89353357500_082025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Creatina Pura 500g + Pré Treino 300g + Shaker 600ml",
+      "por": 78.9,
+      "lido_ia": true,
+      "preco_conferido": true,
+      "palavra": "creatina",
+      "garimpado_em": "2026-10-17T14:41-03:00",
+      "nota": 53.4,
+      "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto",
+      "id": 791,
+      "na_revisao_desde": "2026-10-17T15:31-03:00",
+      "msg_id": 1313
     }
   ],
-  "proximo_id": 790,
+  "proximo_id": 792,
   "radar": {
     "visto": {
       "xetdaspromocoes": 85400,
-      "lobaopromo": 190978,
-      "gatunopromos": 125965,
+      "lobaopromo": 190984,
+      "gatunopromos": 125966,
       "pobregram": 42068,
       "urubupromo": 41819,
       "tudonapromo": 102304,
       "promonocontext": 128056,
-      "promooeasy": 223633,
-      "aquitempechincha": 282385,
-      "infoBRpromos": 67757,
+      "promooeasy": 223640,
+      "aquitempechincha": 282391,
+      "infoBRpromos": 67759,
       "boletando": 76876,
       "promotop": 260425,
       "achadosdotb": 11787
     },
     "dia": "2026-10-17",
-    "hoje": 77,
+    "hoje": 80,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -5673,30 +5717,33 @@
       "amazon:B01HT60GU6",
       "amazon:B0FC2SMDFK",
       "amazon:B0DMV2VL35",
-      "amazon:B0DX765QV9"
+      "amazon:B0DX765QV9",
+      "amazon:B09TNLP1PP",
+      "mercadolivre:MLB65479539",
+      "mercadolivre:MLB49655717"
     ],
     "ultima": {
-      "em": "2026-10-17T15:20:23-03:00",
+      "em": "2026-10-17T15:30:27-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 17,
+      "posts_novos": 35,
       "do_nicho": 5,
-      "repetidas": 3,
-      "novas": 2,
+      "repetidas": 2,
+      "novas": 3,
       "limite_dia": false,
       "repetidas_nome": 0,
-      "promobit": 2,
+      "promobit": 1,
       "soltas": 2,
       "na_peneira": 19
     },
     "hora": "2026-10-17T15",
-    "nesta_hora": 0,
+    "nesta_hora": 2,
     "promobit_hora": "2026-10-17T15",
-    "promobit_nesta_hora": 3,
-    "promobit_visto": 3121774,
+    "promobit_nesta_hora": 4,
+    "promobit_visto": 3121799,
     "nomes": [
       [
         [
@@ -9064,28 +9111,34 @@
           "887ml"
         ],
         "2026-10-17T15:21-03:00"
+      ],
+      [
+        [
+          "amazfit",
+          "smartwatch",
+          "balance",
+          "47mm",
+          "amoled",
+          "display",
+          "vidro"
+        ],
+        "2026-10-17T15:31-03:00"
+      ],
+      [
+        [
+          "creatina",
+          "pura",
+          "500g",
+          "pre",
+          "treino",
+          "300g",
+          "shaker",
+          "600ml"
+        ],
+        "2026-10-17T15:31-03:00"
       ]
     ],
     "peneira": [
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB6956990956",
-        "origem": "promonocontext",
-        "link": "https://www.mercadolivre.com.br/kit-2-creatina-integralmedica-300g--coqueteleira-600ml/up/MLBU4099189042?pdp_filters=item_id%3AMLB6956990956&matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/kit-2-creatina-integralmedica-300g--coqueteleira-600ml/up/MLBU4099189042?pdp_filters=item_id%3AMLB6956990956",
-        "post_origem": "https://t.me/promonocontext/128010",
-        "link_canal": "https://meli.la/2m2ewsK",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_895038-MLB112636222302_062026-O.webp",
-        "foto_origem": "loja",
-        "nome": "Kit 2 Creatina Integralmedica 300g + Coqueteleira 600ml Neutro",
-        "pix": true,
-        "por": 94.0,
-        "lido_ia": true,
-        "preco_conferido": true,
-        "palavra": "creatina",
-        "garimpado_em": "2026-10-17T12:30-03:00",
-        "nota": 49.8
-      },
       {
         "loja": "mercadolivre",
         "chave": "mercadolivre:MLB65259558",
@@ -9303,24 +9356,6 @@
         "nota": 72.1
       },
       {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB4536721878",
-        "origem": "lobaopromo",
-        "link": "https://produto.mercadolivre.com.br/MLB-4536721878-creatina-pura-500g-pre-treino-300g-shaker-600ml-_JM?pdp_filters=item_id%3AMLB4536721878&matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://produto.mercadolivre.com.br/MLB-4536721878-creatina-pura-500g-pre-treino-300g-shaker-600ml-_JM?pdp_filters=item_id%3AMLB4536721878",
-        "post_origem": "https://t.me/lobaopromo/190950",
-        "link_canal": "https://meli.la/2knWfPu",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_639792-MLB89353357500_082025-O.webp",
-        "foto_origem": "loja",
-        "nome": "Creatina Pura 500g + Pré Treino 300g + Shaker 600ml",
-        "por": 78.9,
-        "lido_ia": true,
-        "preco_conferido": true,
-        "palavra": "creatina",
-        "garimpado_em": "2026-10-17T14:41-03:00",
-        "nota": 53.4
-      },
-      {
         "loja": "shopee",
         "chave": "shopee:1398191070.40431656367",
         "nome": "Esmerilhadeira Angular Sem Fio Brushless 48V Litio 2 Baterias 4 OU 3 Velocidades com LED",
@@ -9398,24 +9433,6 @@
       },
       {
         "loja": "amazon",
-        "chave": "amazon:B0FC2SMDFK",
-        "origem": "promobit",
-        "fonte": "promobit",
-        "link": "https://www.amazon.com.br/dp/B0FC2SMDFK?tag=alphadominu09-20",
-        "link_produto": "https://www.amazon.com.br/dp/B0FC2SMDFK?tag=alphadominu09-20",
-        "post_origem": "https://www.promobit.com.br/oferta/amazfit-smartwatch-balance-2-original-47mm-amoled-display-de-vidro-safira-mapas-offline-gps-dual-band-21-dias-de-auto-3121739/",
-        "link_canal": "https://www.promobit.com.br/Redirect/to/3121739/",
-        "nome": "Amazfit Smartwatch Balance 2 Original 47mm AMOLED Display de Vidro",
-        "por": 1234.05,
-        "de": 1899.0,
-        "foto": "https://m.media-amazon.com/images/I/71-Z+fO8DpL._AC_SL1447_.jpg",
-        "foto_origem": "loja",
-        "palavra": "smartwatch",
-        "garimpado_em": "2026-10-17T15:10-03:00",
-        "nota": 57.6
-      },
-      {
-        "loja": "amazon",
         "chave": "amazon:B0DX765QV9",
         "origem": "promobit",
         "fonte": "promobit",
@@ -9431,20 +9448,78 @@
         "palavra": "smartwatch",
         "garimpado_em": "2026-10-17T15:20-03:00",
         "nota": 45.3
+      },
+      {
+        "loja": "amazon",
+        "chave": "amazon:B09TNLP1PP",
+        "origem": "promobit",
+        "fonte": "promobit",
+        "link": "https://www.amazon.com.br/dp/B09TNLP1PP?tag=alphadominu09-20",
+        "link_produto": "https://www.amazon.com.br/dp/B09TNLP1PP?tag=alphadominu09-20",
+        "post_origem": "https://www.promobit.com.br/oferta/ray-ban-oculos-de-sol-rb2140-original-wayfarer-classico-pretoverde-50-mm-3121782/",
+        "link_canal": "https://www.promobit.com.br/Redirect/to/3121782/",
+        "nome": "Ray-Ban Óculos de sol RB2140 Original Wayfarer Clássico pretoverde 50",
+        "por": 586.59,
+        "de": 790.5,
+        "foto": "https://m.media-amazon.com/images/I/411VKitVXGL._AC_SL1500_.jpg",
+        "foto_origem": "loja",
+        "palavra": "oculos de sol",
+        "garimpado_em": "2026-10-17T15:30-03:00",
+        "nota": 49.0
+      },
+      {
+        "loja": "mercadolivre",
+        "chave": "mercadolivre:MLB65479539",
+        "origem": "lobaopromo",
+        "link": "https://www.mercadolivre.com.br/proteina-bodybuilders-whey-concentrado-em-po-sabor-chocolate-x-2kg-4-un/p/MLB65479539?matt_word=alphapromo&matt_tool=59136903",
+        "link_produto": "https://www.mercadolivre.com.br/proteina-bodybuilders-whey-concentrado-em-po-sabor-chocolate-x-2kg-4-un/p/MLB65479539",
+        "post_origem": "https://t.me/lobaopromo/190981",
+        "link_canal": "https://meli.la/1Pgh4pu",
+        "foto": "https://http2.mlstatic.com/D_NQ_NP_754792-MLA107008782097_022026-O.webp",
+        "foto_origem": "loja",
+        "nome": "Proteína Bodybuilders Whey Concentrado em pó sabor Chocolate x 2kg 4",
+        "pix": true,
+        "por": 78.99,
+        "lido_ia": true,
+        "preco_conferido": true,
+        "palavra": "whey",
+        "garimpado_em": "2026-10-17T15:30-03:00",
+        "nota": 40.0
+      },
+      {
+        "loja": "mercadolivre",
+        "chave": "mercadolivre:MLB49655717",
+        "origem": "promooeasy",
+        "link": "https://www.mercadolivre.com.br/water-cooler-gamdias-aura-gl360-lite-preto-argb-am5-lga-1851/p/MLB49655717?matt_word=alphapromo&matt_tool=59136903",
+        "link_produto": "https://www.mercadolivre.com.br/water-cooler-gamdias-aura-gl360-lite-preto-argb-am5-lga-1851/p/MLB49655717",
+        "post_origem": "https://t.me/promooeasy/223639",
+        "link_canal": "https://www.mercadolivre.com.br/water-cooler-gamdias-aura-gl360-lite-preto-argb-am5-lga-1851/p/MLB49655717?matt_word=promoeasynv&amp;matt_tool=88963738",
+        "foto": "https://cdn1.telesco.pe/file/oY_VzOsaBNUw7tXw1RUQD8Woz2JiGeYL1-GgnlI9GePDmptHmnRQOeh-mbRff0Y0It50ThTn0zb2edmmyDf6XIyutEpIZzXj9DduDHDvNghib1ZaKqwdMEMIEi-eJ2Fj9byjHD7_udOV8X2Nj-cJ-w8Ee-0uClxcjQUMjAcrtxDglrMAHIbK0U5AXaQTPzNHGbVkNNx_WRxu6M7emZaVE4NshxCXTjI0ezcJIIyiBlsqnwS5nIEcjeBnzHxl7M_I5D9luz0pnjoPndh7z32E04YjZc63TNenqjUkWHN5_B58e-Vl40eSz54M3QiTDUAlHvr7l04vDX3Pp8uFXhOUFg.jpg",
+        "foto_origem": "canal",
+        "nome": "Water Cooler Gamdias Aura Gl360 Lite Preto ARGB Am5 Lga 1851",
+        "pix": true,
+        "por": 270.0,
+        "lido_ia": true,
+        "cupom": "OFFNOMELIHOJE",
+        "sem_preco_loja": true,
+        "loja_abriu": false,
+        "palavra": "cooler",
+        "garimpado_em": "2026-10-17T15:30-03:00",
+        "nota": 23.9
       }
     ],
     "soltas_hora": "2026-10-17T15",
-    "soltas": 4,
+    "soltas": 6,
     "shopee_em": "2026-10-17T15:21-03:00",
     "shopee_indice": 60,
     "soltas_dia_data": "2026-10-17",
-    "soltas_dia": 57,
+    "soltas_dia": 59,
     "soltas_loja": {
       "shopee": 2,
-      "mercadolivre": 1,
-      "amazon": 1
+      "mercadolivre": 2,
+      "amazon": 2
     },
-    "soltas_vez": "2026-10-17T15:1"
+    "soltas_vez": "2026-10-17T15:2"
   },
   "ultimos": [
     {
@@ -10299,7 +10374,7 @@
         "reprovados": 2
       },
       "promobit": {
-        "achados": 9,
+        "achados": 10,
         "aprovados": 2,
         "reprovados": 6
       },
@@ -10314,7 +10389,7 @@
         "reprovados": 0
       },
       "lobaopromo": {
-        "achados": 10,
+        "achados": 11,
         "aprovados": 5,
         "reprovados": 2
       },
@@ -10443,7 +10518,7 @@
       "reprovados": 1
     },
     "creatina": {
-      "achados": 27,
+      "achados": 28,
       "aprovados": 14,
       "reprovados": 11
     },
@@ -10543,7 +10618,7 @@
       "reprovados": 24
     },
     "smartwatch": {
-      "achados": 12,
+      "achados": 13,
       "aprovados": 4,
       "reprovados": 8
     },
