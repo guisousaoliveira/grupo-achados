@@ -3627,20 +3627,44 @@
       "reconferido_em": "2026-10-17T17:30-03:00",
       "preco_loja": 289.0,
       "motivo_revisao": "o post diz R$ 199,00 e a loja mostra R$ 289,00, e não tem cupom ou Pix que explique a diferença"
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0GR1DZZZX",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0GR1DZZZX?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0GR1DZZZX?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/223703",
+      "link_canal": "https://www.amazon.com.br/JBL-Ouvido-Bluetooth-Over-Ear-Bateria/dp/B0GR1DZZZX?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAIFNGrT36HZrTG9b8waEMYe6cA2isagAAJwD2sbQFIdUGWy0H2bUjqOAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "nome": "JBL, Fone de Ouvido Bluetooth Over-Ear, Tune 730BT, Sem Fio, Até 76 Horas de Bateria - Azul",
+      "por": 262.71,
+      "lido_ia": true,
+      "sem_preco_loja": true,
+      "loja_abriu": true,
+      "palavra": "jbl",
+      "garimpado_em": "2026-10-17T17:10-03:00",
+      "nota": 28.6,
+      "motivo_revisao": "a página da loja abriu, mas não mostra preço (esgotado ou sem vendedor principal)",
+      "id": 808,
+      "na_revisao_desde": "2026-10-17T17:50-03:00",
+      "msg_id": 1332,
+      "reconferido_em": "2026-10-17T17:50-03:00"
     }
   ],
-  "proximo_id": 808,
+  "proximo_id": 809,
   "radar": {
     "visto": {
       "xetdaspromocoes": 85401,
-      "lobaopromo": 191062,
-      "gatunopromos": 125997,
+      "lobaopromo": 191070,
+      "gatunopromos": 125998,
       "pobregram": 42074,
       "urubupromo": 41829,
-      "tudonapromo": 102312,
-      "promonocontext": 128084,
-      "promooeasy": 223726,
-      "aquitempechincha": 282431,
+      "tudonapromo": 102313,
+      "promonocontext": 128087,
+      "promooeasy": 223728,
+      "aquitempechincha": 282434,
       "infoBRpromos": 67764,
       "boletando": 76884,
       "promotop": 260425,
@@ -6171,27 +6195,27 @@
       "shopee:663461151.58204219260"
     ],
     "ultima": {
-      "em": "2026-10-17T17:40:22-03:00",
+      "em": "2026-10-17T17:50:20-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 38,
-      "do_nicho": 2,
-      "repetidas": 1,
-      "novas": 1,
+      "posts_novos": 25,
+      "do_nicho": 3,
+      "repetidas": 3,
+      "novas": 0,
       "limite_dia": false,
       "repetidas_nome": 0,
       "promobit": 0,
-      "soltas": 0,
-      "na_peneira": 27
+      "soltas": 1,
+      "na_peneira": 41
     },
     "hora": "2026-10-17T17",
     "nesta_hora": 5,
     "promobit_hora": "2026-10-17T17",
     "promobit_nesta_hora": 0,
-    "promobit_visto": 3122089,
+    "promobit_visto": 3122096,
     "nomes": [
       [
         [
@@ -9771,28 +9795,22 @@
           "mah"
         ],
         "2026-10-17T17:30-03:00"
+      ],
+      [
+        [
+          "jbl",
+          "fone",
+          "ouvido",
+          "bluetooth",
+          "over",
+          "ear",
+          "tune",
+          "730bt"
+        ],
+        "2026-10-17T17:50-03:00"
       ]
     ],
     "peneira": [
-      {
-        "loja": "shopee",
-        "chave": "shopee:1398191070.40431656367",
-        "nome": "Esmerilhadeira Angular Sem Fio Brushless 48V Litio 2 Baterias 4 OU 3 Velocidades com LED",
-        "por": 189.98,
-        "de": 275.33,
-        "foto": "https://cf.shopee.com.br/file/cn-11134207-820l4-mpugydlfnll946",
-        "link": "https://s.shopee.com.br/9pfAHk9cXB",
-        "link_produto": "https://shopee.com.br/product/1398191070/40431656367",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 4.7,
-        "vendas": 649,
-        "palavra": "esmerilhadeira",
-        "garimpado_em": "2026-10-17T14:41-03:00",
-        "nota": 54.8
-      },
       {
         "loja": "mercadolivre",
         "chave": "mercadolivre:MLB49655717",
@@ -9851,25 +9869,6 @@
         "palavra": "jbl",
         "garimpado_em": "2026-10-17T17:00-03:00",
         "nota": 56.0
-      },
-      {
-        "loja": "amazon",
-        "chave": "amazon:B0GR1DZZZX",
-        "origem": "promooeasy",
-        "link": "https://www.amazon.com.br/dp/B0GR1DZZZX?tag=alphadominu09-20",
-        "link_produto": "https://www.amazon.com.br/dp/B0GR1DZZZX?tag=alphadominu09-20",
-        "post_origem": "https://t.me/promooeasy/223703",
-        "link_canal": "https://www.amazon.com.br/JBL-Ouvido-Bluetooth-Over-Ear-Bateria/dp/B0GR1DZZZX?tag=promof26-20",
-        "foto": "https://m.media-amazon.com/images/I/61UjplmhfJL._AC_SL1500_.jpg",
-        "foto_origem": "loja",
-        "nome": "JBL, Fone de Ouvido Bluetooth Over-Ear, Tune 730BT, Sem Fio, Até 76 Horas de Bateria - Azul",
-        "por": 262.71,
-        "lido_ia": true,
-        "sem_preco_loja": true,
-        "loja_abriu": true,
-        "palavra": "jbl",
-        "garimpado_em": "2026-10-17T17:10-03:00",
-        "nota": 28.6
       },
       {
         "loja": "shopee",
@@ -10594,17 +10593,17 @@
       }
     ],
     "soltas_hora": "2026-10-17T17",
-    "soltas": 6,
+    "soltas": 7,
     "shopee_em": "2026-10-17T17:40-03:00",
     "shopee_indice": 116,
     "soltas_dia_data": "2026-10-17",
-    "soltas_dia": 74,
+    "soltas_dia": 75,
     "soltas_loja": {
       "mercadolivre": 3,
       "shopee": 2,
-      "amazon": 1
+      "amazon": 2
     },
-    "soltas_vez": "2026-10-17T17:2"
+    "soltas_vez": "2026-10-17T17:3"
   },
   "ultimos": [
     {
@@ -11395,7 +11394,7 @@
     },
     "2026-10-17": {
       "promooeasy": {
-        "achados": 12,
+        "achados": 13,
         "aprovados": 3,
         "reprovados": 2
       },
@@ -11594,7 +11593,7 @@
       "reprovados": 4
     },
     "jbl": {
-      "achados": 5,
+      "achados": 6,
       "aprovados": 1,
       "reprovados": 2
     },
