@@ -256,6 +256,29 @@
       "preco_conferido": true,
       "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto",
       "aprovado_em": "2026-10-17T13:00-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB4570819989",
+      "origem": "promonocontext",
+      "link": "https://meli.la/28zREP3",
+      "link_produto": "https://www.mercadolivre.com.br/parafusadeira-eletrica-profissional-45-pecas-portatil-usb/up/MLBU3877484328?pdp_filters=item_id%3AMLB4570819989",
+      "post_origem": "https://t.me/promonocontext/127839",
+      "link_canal": "https://meli.la/1WPMZqH",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_942242-MLB109795045107_032026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Parafusadeira Elétrica Profissional 45 Peças Portátil Usb",
+      "pix": true,
+      "por": 37.0,
+      "lido_ia": true,
+      "preco_conferido": true,
+      "palavra": "parafusadeira",
+      "garimpado_em": "2026-10-17T09:40-03:00",
+      "nota": 36.4,
+      "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto",
+      "titulo": "Conjunto com parafusadeira USB para pequenos consertos",
+      "na_revisao_desde": "2026-10-17T09:45-03:00",
+      "aprovado_em": "2026-10-17T13:01-03:00"
     }
   ],
   "postados": [
@@ -2975,30 +2998,6 @@
   },
   "shopee_buscado_em": "",
   "revisar": [
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB4570819989",
-      "origem": "promonocontext",
-      "link": "https://meli.la/28zREP3",
-      "link_produto": "https://www.mercadolivre.com.br/parafusadeira-eletrica-profissional-45-pecas-portatil-usb/up/MLBU3877484328?pdp_filters=item_id%3AMLB4570819989",
-      "post_origem": "https://t.me/promonocontext/127839",
-      "link_canal": "https://meli.la/1WPMZqH",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_942242-MLB109795045107_032026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Parafusadeira Elétrica Profissional 45 Peças Portátil Usb",
-      "pix": true,
-      "por": 37.0,
-      "lido_ia": true,
-      "preco_conferido": true,
-      "palavra": "parafusadeira",
-      "garimpado_em": "2026-10-17T09:40-03:00",
-      "nota": 36.4,
-      "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto",
-      "titulo": "Conjunto com parafusadeira USB para pequenos consertos",
-      "id": 747,
-      "na_revisao_desde": "2026-10-17T09:45-03:00",
-      "msg_id": 1258
-    },
     {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB49204693",
@@ -10869,7 +10868,7 @@
       },
       "promonocontext": {
         "achados": 3,
-        "aprovados": 0,
+        "aprovados": 1,
         "reprovados": 0
       },
       "lobaopromo": {
@@ -11063,7 +11062,7 @@
     },
     "parafusadeira": {
       "achados": 10,
-      "aprovados": 2,
+      "aprovados": 3,
       "reprovados": 6
     },
     "perfume masculino": {
@@ -11289,7 +11288,7 @@
       "10": 3,
       "11": 1,
       "12": 5,
-      "13": 2
+      "13": 3
     }
   },
   "aviso_ml": "2026-10-17",
