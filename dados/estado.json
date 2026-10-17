@@ -2595,28 +2595,6 @@
       "id": 724,
       "na_revisao_desde": "2026-10-16T23:30-03:00",
       "msg_id": 1228
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0B8PDL7D4",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B0B8PDL7D4?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0B8PDL7D4?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/garrafa-termica-quick-flip-stanley-710ml-3120343/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3120343/",
-      "nome": "Garrafa térmica Quick Flip Stanley|710ml",
-      "por": 167.0,
-      "foto": "AgACAgQAAxkDAAIEzWrS3dKxL8aETEYSMRhprJs-cL9SAAKMuDEbZJIVURRPcxwlJwQ5AQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "palavra": "garrafa termica",
-      "garimpado_em": "2026-10-16T20:40-03:00",
-      "nota": 50.5,
-      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
-      "titulo": "Garrafa térmica Stanley para manter a água gelada",
-      "id": 725,
-      "na_revisao_desde": "2026-10-16T23:30-03:00",
-      "msg_id": 1229
     }
   ],
   "proximo_id": 726,
@@ -8246,6 +8224,29 @@
   ],
   "lixeira": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B0B8PDL7D4",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0B8PDL7D4?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0B8PDL7D4?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/garrafa-termica-quick-flip-stanley-710ml-3120343/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3120343/",
+      "nome": "Garrafa térmica Quick Flip Stanley|710ml",
+      "por": 167.0,
+      "foto": "AgACAgQAAxkDAAIEzWrS3dKxL8aETEYSMRhprJs-cL9SAAKMuDEbZJIVURRPcxwlJwQ5AQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "palavra": "garrafa termica",
+      "garimpado_em": "2026-10-16T20:40-03:00",
+      "nota": 50.5,
+      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
+      "titulo": "Garrafa térmica Stanley para manter a água gelada",
+      "id": 725,
+      "na_revisao_desde": "2026-10-16T23:30-03:00",
+      "removido_em": "2026-10-16T23:49:16-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB74143355",
       "origem": "promooeasy",
@@ -9167,30 +9168,6 @@
       "na_revisao_desde": "2026-10-15T10:41-03:00",
       "removido_em": "2026-10-15T21:30:19-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:1351300386.25937949008",
-      "nome": "Parafusadeira furadeira elétrica 1200W furadeira de impacto  martelete rompedor bosch 220V Original",
-      "por": 329.26,
-      "de": 645.61,
-      "foto": "AgACAgQAAxkDAAIDzmrQ1-ACQuMBA3M6Uv72f4mi86sBAALGDWsbHyFdUZZ0pw2wqCNOAQADAgADeAADPQQ",
-      "link": "https://s.shopee.com.br/5fpXqOOgcb",
-      "link_produto": "https://shopee.com.br/product/1351300386/25937949008",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.8,
-      "vendas": 712,
-      "palavra": "parafusadeira",
-      "garimpado_em": "2026-10-15T10:20-03:00",
-      "nota": 70.0,
-      "titulo": "Martelete rompedor para perfurações pesadas em concreto",
-      "id": 593,
-      "na_revisao_desde": "2026-10-15T10:40-03:00",
-      "removido_em": "2026-10-15T21:30:19-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -9391,7 +9368,7 @@
       "promobit": {
         "achados": 14,
         "aprovados": 8,
-        "reprovados": 5
+        "reprovados": 6
       },
       "promonocontext": {
         "achados": 12,
@@ -9585,7 +9562,7 @@
     "garrafa termica": {
       "achados": 10,
       "aprovados": 7,
-      "reprovados": 2
+      "reprovados": 3
     },
     "jbl": {
       "achados": 3,
