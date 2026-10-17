@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB50507430",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/2vFqf1s",
-      "link_produto": "https://www.mercadolivre.com.br/philips-aparador-e-barbeador-eletrico-all-in-one-serie-3000-12-em-1-12-acessorios-para-o-visual-completo-laminas-com-pontas-arredondadas-60-min-sem-fio-mg392115-mg392115/p/MLB50507430",
-      "post_origem": "https://t.me/lobaopromo/190638",
-      "link_canal": "https://meli.la/2drjehv",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_608894-MLA115895780710_092026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Philips Aparador e Barbeador Elétrico All-in-One Série 3000 12 em 1",
-      "de": 262.0,
-      "por": 152.0,
-      "lido_ia": true,
-      "preco_conferido": true,
-      "palavra": "barbeador",
-      "garimpado_em": "2026-10-16T23:00-03:00",
-      "nota": 58.1,
-      "titulo": "Aparador Philips 12 em 1 para barba e cabelo",
-      "aprovado_sozinho": true,
-      "aprovado_em": "2026-10-17T00:00-03:00"
-    },
-    {
       "loja": "shopee",
       "chave": "shopee:662618933.22395788400",
       "nome": "Super Whey Refil 900g Max Titanium",
@@ -2639,6 +2617,22 @@
       "secao": "barba",
       "slot": 8.3,
       "foto_site_ok": true
+    },
+    {
+      "chave": "mercadolivre:MLB50507430",
+      "loja": "mercadolivre",
+      "nome": "Philips Aparador e Barbeador Elétrico All-in-One Série 3000 12 em 1",
+      "data": "2026-10-17T09:16-03:00",
+      "link": "https://meli.la/2vFqf1s",
+      "link_produto": "https://www.mercadolivre.com.br/philips-aparador-e-barbeador-eletrico-all-in-one-serie-3000-12-em-1-12-acessorios-para-o-visual-completo-laminas-com-pontas-arredondadas-60-min-sem-fio-mg392115-mg392115/p/MLB50507430",
+      "titulo": "Aparador Philips 12 em 1 para barba e cabelo",
+      "de": 262.0,
+      "por": 152.0,
+      "conferido": true,
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_608894-MLA115895780710_092026-O.webp",
+      "secao": "barba",
+      "slot": 9,
+      "foto_site_ok": true
     }
   ],
   "slots_usados": {
@@ -2776,7 +2770,8 @@
     "2026-10-17": [
       8,
       8.1,
-      8.3
+      8.3,
+      9
     ]
   },
   "shopee_buscado_em": "",
@@ -8058,6 +8053,19 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB50507430",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/2vFqf1s",
+      "link_produto": "https://www.mercadolivre.com.br/philips-aparador-e-barbeador-eletrico-all-in-one-serie-3000-12-em-1-12-acessorios-para-o-visual-completo-laminas-com-pontas-arredondadas-60-min-sem-fio-mg392115-mg392115/p/MLB50507430",
+      "post_origem": "https://t.me/lobaopromo/190638",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_608894-MLA115895780710_092026-O.webp",
+      "nome": "Philips Aparador e Barbeador Elétrico All-in-One Série 3000 12 em 1",
+      "de": 262.0,
+      "por": 152.0,
+      "titulo": "Aparador Philips 12 em 1 para barba e cabelo"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0F3PT467Y",
       "origem": "promobit",
@@ -8580,19 +8588,6 @@
       "de": 423.12,
       "foto": "AgACAgQAAxkDAAIEdGrSVgZSevZaqM-IG8wyb3vyd8jKAALRDmsbBpMdUTquI-r0W7cbAQADAgADeQADPQQ",
       "titulo": "Timex de couro clássico para o dia a dia"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB5230772384",
-      "origem": "promooeasy",
-      "link": "https://meli.la/2jNUBhg",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-5230772384-6-pares-meias-puma-cano-medio-alto-atoalhada-academia-sport-_JM?pdp_filters=item_id%3AMLB5230772384",
-      "post_origem": "https://t.me/promooeasy/222815",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_720199-MLB116655968171_082026-O.webp",
-      "nome": "6 Pares Meias Puma Cano Médio Alto Atoalhada Academia Sport",
-      "de": 149.99,
-      "por": 49.4,
-      "titulo": "Meias Puma atoalhadas para treinar com conforto"
     }
   ],
   "lixeira": [
@@ -10226,5 +10221,5 @@
     }
   },
   "aviso_ml": "2026-10-16",
-  "vitrine_marca": "c21cbd22fab0"
+  "vitrine_marca": "264ddc90017b"
 }
