@@ -2,31 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB19693785",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/2KQHaYG",
-      "link_produto": "https://www.mercadolivre.com.br/camera-de-seguranca-wi-fi-externa-tp-link-tapo-c320ws-2k-4mp-ip66-branco/p/MLB19693785",
-      "post_origem": "https://t.me/lobaopromo/190627",
-      "link_canal": "https://meli.la/2W8ipHz",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_764008-MLA99513800470_112025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Câmera de Segurança Wi-Fi Externa TP-Link Tapo C320WS 2K 4MP IP66",
-      "cupom_loja": "Resgate 25% OFF na página do produto.",
-      "de": 329.0,
-      "por": 194.0,
-      "lido_ia": true,
-      "preco_loja": 209.92,
-      "palavra": "camera de seguranca",
-      "garimpado_em": "2026-10-16T22:40-03:00",
-      "nota": 68.0,
-      "motivo_revisao": "o post diz R$ 194,00 e a loja mostra R$ 209,92, e não tem cupom ou Pix que explique a diferença",
-      "titulo": "Câmera externa TP-Link para monitorar a casa",
-      "na_revisao_desde": "2026-10-16T23:20-03:00",
-      "cupom": "Resgate 25% OFF na página do produto.",
-      "aprovado_em": "2026-10-16T23:25-03:00"
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B08ZFKB8ZK",
       "origem": "promobit",
@@ -2649,6 +2624,22 @@
       "secao": "academia",
       "slot": 9.1,
       "foto_site_ok": true
+    },
+    {
+      "chave": "mercadolivre:MLB19693785",
+      "loja": "mercadolivre",
+      "nome": "Câmera de Segurança Wi-Fi Externa TP-Link Tapo C320WS 2K 4MP IP66",
+      "data": "2026-10-17T09:56-03:00",
+      "link": "https://meli.la/2KQHaYG",
+      "link_produto": "https://www.mercadolivre.com.br/camera-de-seguranca-wi-fi-externa-tp-link-tapo-c320ws-2k-4mp-ip66-branco/p/MLB19693785",
+      "titulo": "Câmera externa TP-Link para monitorar a casa",
+      "de": 329.0,
+      "por": 194.0,
+      "cupom": "Resgate 25% OFF na página do produto.",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_764008-MLA99513800470_112025-O.webp",
+      "secao": "tech",
+      "slot": 9.2,
+      "foto_site_ok": true
     }
   ],
   "slots_usados": {
@@ -2788,7 +2779,8 @@
       8.1,
       8.3,
       9,
-      9.1
+      9.1,
+      9.2
     ]
   },
   "shopee_buscado_em": "",
@@ -8186,6 +8178,21 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB19693785",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/2KQHaYG",
+      "link_produto": "https://www.mercadolivre.com.br/camera-de-seguranca-wi-fi-externa-tp-link-tapo-c320ws-2k-4mp-ip66-branco/p/MLB19693785",
+      "post_origem": "https://t.me/lobaopromo/190627",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_764008-MLA99513800470_112025-O.webp",
+      "nome": "Câmera de Segurança Wi-Fi Externa TP-Link Tapo C320WS 2K 4MP IP66",
+      "cupom_loja": "Resgate 25% OFF na página do produto.",
+      "de": 329.0,
+      "por": 194.0,
+      "titulo": "Câmera externa TP-Link para monitorar a casa",
+      "cupom": "Resgate 25% OFF na página do produto."
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:662618933.22395788400",
       "nome": "Super Whey Refil 900g Max Titanium",
@@ -8707,19 +8714,6 @@
       "de": 40.0,
       "por": 23.0,
       "titulo": "Relógio digital para ver as horas no quarto"
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:1439190466.23898836118",
-      "nome": "2/1 PCS Bolsa Mochila De Peito Tiracolo Pochete Bolsa Impermeável Transversal Masculina",
-      "por": 13.99,
-      "de": 60.83,
-      "foto": "https://cf.shopee.com.br/file/br-11134207-820l8-mnz0mrbfmyo14d",
-      "link": "https://s.shopee.com.br/1qcr5LJI2b",
-      "link_produto": "https://shopee.com.br/product/1439190466/23898836118",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "titulo": "Mochila transversal impermeável para carregar o essencial"
     }
   ],
   "lixeira": [
@@ -10358,5 +10352,5 @@
     }
   },
   "aviso_ml": "2026-10-16",
-  "vitrine_marca": "e5ded4bd98c3"
+  "vitrine_marca": "25d636293ff2"
 }
