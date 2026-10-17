@@ -323,6 +323,28 @@
       "titulo": "Kit de cuecas boxer em algodão macio",
       "aprovado_sozinho": true,
       "aprovado_em": "2026-10-17T13:20-03:00"
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0GPT6C2N9",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0GPT6C2N9?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0GPT6C2N9?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/223569",
+      "link_canal": "https://www.amazon.com.br/JBL-Ouvido-Open-ear-Estojo-Carregamento/dp/B0GPT6C2N9?tag=promof26-20",
+      "foto": "AgACAgQAAxkDAAIFEGrTp3K3qD5yGC4gO-iCPqoR7VLnAAKeDWsbhvDVURF420uHwyvMAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "JBL Sense Pro, Fone de Ouvido Bluetooth Open-Ear com Som Espacial - Preto",
+      "por": 759.99,
+      "lido_ia": true,
+      "preco_conferido": true,
+      "palavra": "jbl",
+      "garimpado_em": "2026-10-17T13:50-03:00",
+      "nota": 22.3,
+      "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto",
+      "na_revisao_desde": "2026-10-17T13:50-03:00",
+      "de": 999.0,
+      "aprovado_em": "2026-10-17T13:52-03:00"
     }
   ],
   "postados": [
@@ -3130,28 +3152,6 @@
       "id": 776,
       "na_revisao_desde": "2026-10-17T13:50-03:00",
       "msg_id": 1295
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0GPT6C2N9",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0GPT6C2N9?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0GPT6C2N9?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/223569",
-      "link_canal": "https://www.amazon.com.br/JBL-Ouvido-Open-ear-Estojo-Carregamento/dp/B0GPT6C2N9?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAIFEGrTp3K3qD5yGC4gO-iCPqoR7VLnAAKeDWsbhvDVURF420uHwyvMAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "JBL Sense Pro, Fone de Ouvido Bluetooth Open-Ear com Som Espacial - Preto",
-      "por": 759.99,
-      "lido_ia": true,
-      "preco_conferido": true,
-      "palavra": "jbl",
-      "garimpado_em": "2026-10-17T13:50-03:00",
-      "nota": 22.3,
-      "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto",
-      "id": 777,
-      "na_revisao_desde": "2026-10-17T13:50-03:00",
-      "msg_id": 1296
     }
   ],
   "proximo_id": 778,
@@ -10026,7 +10026,7 @@
     "2026-10-17": {
       "promooeasy": {
         "achados": 9,
-        "aprovados": 1,
+        "aprovados": 2,
         "reprovados": 2
       },
       "promobit": {
@@ -10215,7 +10215,7 @@
     },
     "jbl": {
       "achados": 4,
-      "aprovados": 0,
+      "aprovados": 1,
       "reprovados": 2
     },
     "kindle": {
@@ -10471,7 +10471,7 @@
       "10": 3,
       "11": 1,
       "12": 5,
-      "13": 9
+      "13": 10
     }
   },
   "aviso_ml": "2026-10-17",
