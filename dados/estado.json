@@ -366,6 +366,30 @@
       "nota": 85.8,
       "aprovado_sozinho": true,
       "aprovado_em": "2026-10-17T14:00-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB4689035567",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/29U72uu",
+      "link_produto": "https://www.mercadolivre.com.br/camisa-polo-tommy-hilfiger-masculino-thmw0mw37346/up/MLBU3970416341?pdp_filters=item_id%3AMLB4689035567",
+      "post_origem": "https://t.me/lobaopromo/190928",
+      "link_canal": "https://meli.la/2cUXuMe",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_899933-MLB117834537170_102026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Camisa Polo Tommy Hilfiger Masculino Thmw0mw37346 Desert Sky N/a P",
+      "cupom_loja": "Resgate o cupom de 30% OFF do anuncio",
+      "de": 499.0,
+      "por": 209.0,
+      "lido_ia": true,
+      "preco_loja": 299.99,
+      "palavra": "camisa polo",
+      "garimpado_em": "2026-10-17T13:50-03:00",
+      "nota": 94.1,
+      "motivo_revisao": "o post diz R$ 209,00 e a loja mostra R$ 299,99, e não tem cupom ou Pix que explique a diferença",
+      "na_revisao_desde": "2026-10-17T14:00-03:00",
+      "cupom": "Resgate o cupom de 30% OFF do anuncio",
+      "aprovado_em": "2026-10-17T14:01-03:00"
     }
   ],
   "postados": [
@@ -3167,32 +3191,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB4689035567",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/29U72uu",
-      "link_produto": "https://www.mercadolivre.com.br/camisa-polo-tommy-hilfiger-masculino-thmw0mw37346/up/MLBU3970416341?pdp_filters=item_id%3AMLB4689035567",
-      "post_origem": "https://t.me/lobaopromo/190928",
-      "link_canal": "https://meli.la/2cUXuMe",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_899933-MLB117834537170_102026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Camisa Polo Tommy Hilfiger Masculino Thmw0mw37346 Desert Sky N/a P",
-      "cupom_loja": "Resgate o cupom de 30% OFF do anuncio",
-      "de": 499.0,
-      "por": 209.0,
-      "lido_ia": true,
-      "preco_loja": 299.99,
-      "palavra": "camisa polo",
-      "garimpado_em": "2026-10-17T13:50-03:00",
-      "nota": 94.1,
-      "motivo_revisao": "o post diz R$ 209,00 e a loja mostra R$ 299,99, e não tem cupom ou Pix que explique a diferença",
-      "id": 778,
-      "na_revisao_desde": "2026-10-17T14:00-03:00",
-      "msg_id": 1297
-    }
-  ],
+  "revisar": [],
   "proximo_id": 780,
   "radar": {
     "visto": {
@@ -10131,7 +10130,7 @@
       },
       "lobaopromo": {
         "achados": 9,
-        "aprovados": 4,
+        "aprovados": 5,
         "reprovados": 2
       },
       "urubupromo": {
@@ -10230,7 +10229,7 @@
     },
     "camisa polo": {
       "achados": 9,
-      "aprovados": 6,
+      "aprovados": 7,
       "reprovados": 1
     },
     "chave de impacto": {
@@ -10557,7 +10556,7 @@
       "11": 1,
       "12": 5,
       "13": 11,
-      "14": 1
+      "14": 2
     }
   },
   "aviso_ml": "2026-10-17",
