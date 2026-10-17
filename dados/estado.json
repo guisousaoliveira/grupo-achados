@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "amazon",
-      "chave": "amazon:B0C9QSV82F",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B0C9QSV82F?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0C9QSV82F?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/geonav-power-bank-carregador-portatil-universal-por-inducao-10000mah-carregamento-rapido-suporte-dobravel-compativel-com-magsafe-pb10mags-3120260/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3120260/",
-      "nome": "Geonav Power Bank",
-      "por": 149.89,
-      "de": 299.0,
-      "foto": "https://m.media-amazon.com/images/I/615U7klnYVL._AC_SL1500_.jpg",
-      "foto_origem": "loja",
-      "palavra": "power bank",
-      "garimpado_em": "2026-10-16T20:10-03:00",
-      "nota": 63.0,
-      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
-      "titulo": "Power bank portátil para carregar o celular na rua",
-      "na_revisao_desde": "2026-10-16T22:09-03:00",
-      "aprovado_em": "2026-10-16T22:10-03:00"
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB6907847024",
       "origem": "lobaopromo",
@@ -2436,6 +2414,21 @@
       "secao": "estilo",
       "slot": 23.2,
       "foto_site_ok": true
+    },
+    {
+      "chave": "amazon:B0C9QSV82F",
+      "loja": "amazon",
+      "nome": "Geonav Power Bank",
+      "data": "2026-10-16T23:49-03:00",
+      "link": "https://www.amazon.com.br/dp/B0C9QSV82F?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0C9QSV82F?tag=alphadominu09-20",
+      "titulo": "Power bank portátil para carregar o celular na rua",
+      "de": 299.0,
+      "por": 149.89,
+      "foto": "https://m.media-amazon.com/images/I/615U7klnYVL._AC_SL1500_.jpg",
+      "secao": "tech",
+      "slot": 23.3,
+      "foto_site_ok": true
     }
   ],
   "slots_usados": {
@@ -2567,7 +2560,8 @@
       22.3,
       23,
       23.1,
-      23.2
+      23.2,
+      23.3
     ]
   },
   "shopee_buscado_em": "",
@@ -7659,6 +7653,20 @@
   },
   "ultimos": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B0C9QSV82F",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0C9QSV82F?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0C9QSV82F?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/geonav-power-bank-carregador-portatil-universal-por-inducao-10000mah-carregamento-rapido-suporte-dobravel-compativel-com-magsafe-pb10mags-3120260/",
+      "nome": "Geonav Power Bank",
+      "por": 149.89,
+      "de": 299.0,
+      "foto": "https://m.media-amazon.com/images/I/615U7klnYVL._AC_SL1500_.jpg",
+      "titulo": "Power bank portátil para carregar o celular na rua"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB45745391",
       "origem": "lobaopromo",
@@ -8181,20 +8189,6 @@
       "por": 299.0,
       "foto": "AgACAgQAAxkDAAIEZ2rSRbHpwKplnFzmzL8TPMStJqBeAAIoDmsbC9FFUY-EgnI8Bon3AQADAgADeAADPQQ",
       "titulo": "Timex com mostrador de fácil leitura no escuro"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB5877188254",
-      "origem": "xetdaspromocoes",
-      "link": "https://meli.la/24CYbax",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-5877188254-kit-3-shorts-2-em-1-masculino-de-compresso-corrida-academia-_JM?pdp_filters=item_id%3AMLB5877188254",
-      "post_origem": "https://t.me/xetdaspromocoes/85157",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_949957-MLB115601154336_092026-O.webp",
-      "nome": "Kit 3 Shorts 2 Em 1 Masculino De Compressão Corrida Academia",
-      "de": 109.0,
-      "por": 53.0,
-      "cupom": "TUDOEMPROMO",
-      "titulo": "Bermudas com compressão interna para corrida e academia"
     }
   ],
   "lixeira": [
@@ -9789,5 +9783,5 @@
     }
   },
   "aviso_ml": "2026-10-16",
-  "vitrine_marca": "4525bc58690b"
+  "vitrine_marca": "25307f349bdc"
 }
