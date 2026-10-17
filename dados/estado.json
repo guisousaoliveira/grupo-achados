@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "amazon",
-      "chave": "amazon:B000CNKITS",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B000CNKITS?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B000CNKITS?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/azzaro-pour-homme-perfume-masculino-eau-de-toilette-3120325/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3120325/",
-      "nome": "Azzaro Pour Homme Perfume Masculino Eau De Toilette",
-      "por": 179.99,
-      "de": 299.0,
-      "foto": "AgACAgQAAxkDAAIEvmrSyqZUy1ejEozEZ_d41peiMYAmAAJFDWsbdSFkUS34l7skC9biAQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "palavra": "perfume masculino",
-      "garimpado_em": "2026-10-16T20:30-03:00",
-      "nota": 74.4,
-      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
-      "titulo": "Perfume amadeirado clássico para uso diário",
-      "na_revisao_desde": "2026-10-16T22:08-03:00",
-      "aprovado_em": "2026-10-16T22:11-03:00"
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB45745391",
       "origem": "lobaopromo",
@@ -2451,6 +2429,21 @@
       "secao": "academia",
       "slot": 23,
       "foto_site_ok": true
+    },
+    {
+      "chave": "amazon:B000CNKITS",
+      "loja": "amazon",
+      "nome": "Azzaro Pour Homme Perfume Masculino Eau De Toilette",
+      "data": "2026-10-16T23:25-03:00",
+      "link": "https://www.amazon.com.br/dp/B000CNKITS?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B000CNKITS?tag=alphadominu09-20",
+      "titulo": "Perfume amadeirado clássico para uso diário",
+      "de": 299.0,
+      "por": 179.99,
+      "foto": "https://raw.githubusercontent.com/guisousaoliveira/grupo-achados/main/dados/fotos/e7f3e25bcf.jpg",
+      "secao": "barba",
+      "slot": 23.1,
+      "foto_site_ok": true
     }
   ],
   "slots_usados": {
@@ -2580,7 +2573,8 @@
       22.1,
       22.2,
       22.3,
-      23
+      23,
+      23.1
     ]
   },
   "shopee_buscado_em": "",
@@ -7684,6 +7678,20 @@
   },
   "ultimos": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B000CNKITS",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B000CNKITS?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B000CNKITS?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/azzaro-pour-homme-perfume-masculino-eau-de-toilette-3120325/",
+      "nome": "Azzaro Pour Homme Perfume Masculino Eau De Toilette",
+      "por": 179.99,
+      "de": 299.0,
+      "foto": "AgACAgQAAxkDAAIEvmrSyqZUy1ejEozEZ_d41peiMYAmAAJFDWsbdSFkUS34l7skC9biAQADAgADeQADPQQ",
+      "titulo": "Perfume amadeirado clássico para uso diário"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:347988064.22292694966",
       "nome": "Pré-Treino Sixt Army Night 300g Soldiers Nutrition Pré Treino Pre Workout Termogênico Energia Foco Resistência Academia",
@@ -8204,21 +8212,6 @@
       "nome": "Drone DJI Lito 1 Standard (Sem tela) Fotos 8K, Grava HDR 4K/60 FPS, Bateria 36 min, Até 15km, Vários modos, ActiveTrack,",
       "por": 2729.0,
       "titulo": "Drone DJI com gravação 4K e ActiveTrack"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB7245332674",
-      "origem": "promonocontext",
-      "link": "https://meli.la/2CHk6Te",
-      "link_produto": "https://www.mercadolivre.com.br/relogio-technos-masculino-steel-de-pulso-quartz-original/up/MLBU4409376975?pdp_filters=item_id%3AMLB7245332674",
-      "post_origem": "https://t.me/promonocontext/127524",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_707113-MLB117928520530_102026-O.webp",
-      "nome": "Relógio Technos Masculino Steel De Pulso Quartz Original Prateado",
-      "pix": true,
-      "por": 198.0,
-      "de": 279.0,
-      "cupom": "OFFHOJE",
-      "titulo": "Technos em aço versátil para qualquer ocasião"
     }
   ],
   "lixeira": [
@@ -9811,5 +9804,5 @@
     }
   },
   "aviso_ml": "2026-10-16",
-  "vitrine_marca": "84a5f265afb1"
+  "vitrine_marca": "f5d90aca338b"
 }
