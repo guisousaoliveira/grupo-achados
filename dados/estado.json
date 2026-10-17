@@ -2,30 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB45745391",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/1bWux1D",
-      "link_produto": "https://www.mercadolivre.com.br/mochila-viagem-40l-grande-expansivel-antifurto-impermeavel-aviao-mala-de-mao-item-pessoal-masculina-feminina-yorepek-liso/p/MLB45745391",
-      "post_origem": "https://t.me/lobaopromo/190556",
-      "link_canal": "https://meli.la/1d5cq3z",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_811368-MLA116853651215_082026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Mochila Viagem 40L Grande Expansível Antifurto Impermeável Aviao Mala",
-      "de": 200.0,
-      "por": 115.0,
-      "lido_ia": true,
-      "cupom": "ECONOMIZEI",
-      "preco_loja": 165.0,
-      "palavra": "mochila",
-      "garimpado_em": "2026-10-16T19:40-03:00",
-      "nota": 78.8,
-      "motivo_revisao": "o post diz R$ 115,00 e a loja mostra R$ 165,00, e não tem cupom ou Pix que explique a diferença",
-      "titulo": "Mochila grande expansível para viagens e voos",
-      "na_revisao_desde": "2026-10-16T22:09-03:00",
-      "aprovado_em": "2026-10-16T22:10-03:00"
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B0C9QSV82F",
       "origem": "promobit",
@@ -2444,6 +2420,22 @@
       "secao": "barba",
       "slot": 23.1,
       "foto_site_ok": true
+    },
+    {
+      "chave": "mercadolivre:MLB45745391",
+      "loja": "mercadolivre",
+      "nome": "Mochila Viagem 40L Grande Expansível Antifurto Impermeável Aviao Mala",
+      "data": "2026-10-16T23:35-03:00",
+      "link": "https://meli.la/1bWux1D",
+      "link_produto": "https://www.mercadolivre.com.br/mochila-viagem-40l-grande-expansivel-antifurto-impermeavel-aviao-mala-de-mao-item-pessoal-masculina-feminina-yorepek-liso/p/MLB45745391",
+      "titulo": "Mochila grande expansível para viagens e voos",
+      "de": 200.0,
+      "por": 115.0,
+      "cupom": "ECONOMIZEI",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_811368-MLA116853651215_082026-O.webp",
+      "secao": "estilo",
+      "slot": 23.2,
+      "foto_site_ok": true
     }
   ],
   "slots_usados": {
@@ -2574,7 +2566,8 @@
       22.2,
       22.3,
       23,
-      23.1
+      23.1,
+      23.2
     ]
   },
   "shopee_buscado_em": "",
@@ -7732,6 +7725,20 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB45745391",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/1bWux1D",
+      "link_produto": "https://www.mercadolivre.com.br/mochila-viagem-40l-grande-expansivel-antifurto-impermeavel-aviao-mala-de-mao-item-pessoal-masculina-feminina-yorepek-liso/p/MLB45745391",
+      "post_origem": "https://t.me/lobaopromo/190556",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_811368-MLA116853651215_082026-O.webp",
+      "nome": "Mochila Viagem 40L Grande Expansível Antifurto Impermeável Aviao Mala",
+      "de": 200.0,
+      "por": 115.0,
+      "cupom": "ECONOMIZEI",
+      "titulo": "Mochila grande expansível para viagens e voos"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B000CNKITS",
       "origem": "promobit",
@@ -8254,18 +8261,6 @@
       "por": 53.0,
       "cupom": "TUDOEMPROMO",
       "titulo": "Bermudas com compressão interna para corrida e academia"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0GY9TRH2V",
-      "origem": "boletando",
-      "link": "https://www.amazon.com.br/dp/B0GY9TRH2V?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0GY9TRH2V?tag=alphadominu09-20",
-      "post_origem": "https://t.me/boletando/76818",
-      "foto": "AgACAgQAAxkDAAIEWWrSKwpBQ4FmwHnKL0toN6ks_kGKAALtDWsbq81cUhSL6LtQ2HAvAQADAgADeAADPQQ",
-      "nome": "Drone DJI Lito 1 Standard (Sem tela) Fotos 8K, Grava HDR 4K/60 FPS, Bateria 36 min, Até 15km, Vários modos, ActiveTrack,",
-      "por": 2729.0,
-      "titulo": "Drone DJI com gravação 4K e ActiveTrack"
     }
   ],
   "lixeira": [
@@ -9858,5 +9853,5 @@
     }
   },
   "aviso_ml": "2026-10-16",
-  "vitrine_marca": "f5d90aca338b"
+  "vitrine_marca": "4525bc58690b"
 }
