@@ -3026,30 +3026,6 @@
       "msg_id": 1262
     },
     {
-      "loja": "shopee",
-      "chave": "shopee:955543641.23498776025",
-      "nome": "KL5018 Óculos de sol de metal da moda",
-      "por": 15.0,
-      "de": 30.0,
-      "foto": "AgACAgQAAxkDAAIE8GrTdjD6ujWRwlGxzpWCxo-WYGXUAAIeDGsbApAFUF4YCx9AmlebAQADAgADeAADPQQ",
-      "link": "https://s.shopee.com.br/8KqM3U8pwm",
-      "link_produto": "https://shopee.com.br/product/955543641/23498776025",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.9,
-      "vendas": 1149,
-      "palavra": "oculos de sol",
-      "garimpado_em": "2026-10-17T08:01-03:00",
-      "nota": 70.5,
-      "motivo_revisao": "a fila já está com muita Shopee (metade ou mais)",
-      "titulo": "Design em metal para compor o visual urbano",
-      "id": 751,
-      "na_revisao_desde": "2026-10-17T10:20-03:00",
-      "msg_id": 1264
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB4362152290",
       "origem": "lobaopromo",
@@ -9677,6 +9653,31 @@
   "lixeira": [
     {
       "loja": "shopee",
+      "chave": "shopee:955543641.23498776025",
+      "nome": "KL5018 Óculos de sol de metal da moda",
+      "por": 15.0,
+      "de": 30.0,
+      "foto": "AgACAgQAAxkDAAIE8GrTdjD6ujWRwlGxzpWCxo-WYGXUAAIeDGsbApAFUF4YCx9AmlebAQADAgADeAADPQQ",
+      "link": "https://s.shopee.com.br/8KqM3U8pwm",
+      "link_produto": "https://shopee.com.br/product/955543641/23498776025",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.9,
+      "vendas": 1149,
+      "palavra": "oculos de sol",
+      "garimpado_em": "2026-10-17T08:01-03:00",
+      "nota": 70.5,
+      "motivo_revisao": "a fila já está com muita Shopee (metade ou mais)",
+      "titulo": "Design em metal para compor o visual urbano",
+      "id": 751,
+      "na_revisao_desde": "2026-10-17T10:20-03:00",
+      "removido_em": "2026-10-17T12:59:50-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "shopee",
       "chave": "shopee:1574084758.58205868634",
       "nome": "Gaabor Air Fryer 2,8L 800W 360° Ar Quente Timer 60 Min 200°C Antiaderente Sem BPA 8 Menus AF-35M02A",
       "por": 209.0,
@@ -10623,30 +10624,6 @@
       "na_revisao_desde": "2026-10-16T08:41-03:00",
       "removido_em": "2026-10-16T08:51:12-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:1339888238.22599042883",
-      "nome": "BASIKE 2026 Carregador Portátil 20000mAh - Carregamento Rápido 22.5W Power Bank Carregador Saída dupla",
-      "por": 199.99,
-      "de": 298.49,
-      "foto": "https://cf.shopee.com.br/file/br-11134207-820m4-mst7bfnhmbd1a8",
-      "link": "https://s.shopee.com.br/2qVNriFDk9",
-      "link_produto": "https://shopee.com.br/product/1339888238/22599042883",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.9,
-      "vendas": 1978,
-      "palavra": "power bank",
-      "garimpado_em": "2026-10-16T07:20-03:00",
-      "nota": 60.6,
-      "titulo": "Power bank com carga rápida para dois aparelhos",
-      "aprovado_sozinho": true,
-      "aprovado_em": "2026-10-16T07:40-03:00",
-      "removido_em": "2026-10-16T08:05:48-03:00",
-      "removido_de": "fila"
     }
   ],
   "garimpo": {
@@ -10909,7 +10886,7 @@
       "shopee": {
         "achados": 10,
         "aprovados": 0,
-        "reprovados": 2
+        "reprovados": 3
       },
       "promonocontext": {
         "achados": 3,
@@ -11098,7 +11075,7 @@
     "oculos de sol": {
       "achados": 16,
       "aprovados": 3,
-      "reprovados": 8
+      "reprovados": 9
     },
     "oneblade": {
       "achados": 2,
