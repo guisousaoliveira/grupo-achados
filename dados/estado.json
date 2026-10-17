@@ -2565,18 +2565,42 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [],
-  "proximo_id": 726,
+  "revisar": [
+    {
+      "loja": "amazon",
+      "chave": "amazon:B08ZFKB8ZK",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B08ZFKB8ZK?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B08ZFKB8ZK?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/azzaro-the-most-wanted-intense-perfume-masculino-fragrancia-ambarada-amadeirada-com-cardamomo-e-toffee-eau-de-parfum-com-longa-fixacao-ideal-p-3120638/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3120638/",
+      "nome": "Azzaro, The Most Wanted Intense, Perfume Masculino, Fragrância",
+      "por": 535.97,
+      "de": 879.0,
+      "foto": "https://m.media-amazon.com/images/I/61g0mT0sLWL._AC_SL1500_.jpg",
+      "foto_origem": "loja",
+      "palavra": "perfume masculino",
+      "garimpado_em": "2026-10-16T23:40-03:00",
+      "nota": 76.1,
+      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
+      "titulo": "Fragrância marcante para encontros e eventos noturnos",
+      "id": 726,
+      "na_revisao_desde": "2026-10-16T23:50-03:00",
+      "msg_id": 1232
+    }
+  ],
+  "proximo_id": 727,
   "radar": {
     "visto": {
       "xetdaspromocoes": 85297,
-      "lobaopromo": 190646,
-      "gatunopromos": 125832,
+      "lobaopromo": 190650,
+      "gatunopromos": 125834,
       "pobregram": 42053,
       "urubupromo": 41803,
       "tudonapromo": 102224,
       "promonocontext": 127821,
-      "promooeasy": 223283,
+      "promooeasy": 223285,
       "aquitempechincha": 282261,
       "infoBRpromos": 67721,
       "boletando": 76865,
@@ -4780,21 +4804,21 @@
       "amazon:B08ZFKB8ZK"
     ],
     "ultima": {
-      "em": "2026-10-16T23:40:19-03:00",
+      "em": "2026-10-16T23:50:18-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 15,
-      "do_nicho": 1,
+      "posts_novos": 8,
+      "do_nicho": 0,
       "repetidas": 0,
-      "novas": 1,
+      "novas": 0,
       "limite_dia": false,
       "repetidas_nome": 0,
-      "promobit": 1,
-      "soltas": 0,
-      "na_peneira": 9
+      "promobit": 0,
+      "soltas": 1,
+      "na_peneira": 7
     },
     "hora": "2026-10-16T23",
     "nesta_hora": 2,
@@ -7469,28 +7493,20 @@
           "710ml"
         ],
         "2026-10-16T23:30-03:00"
+      ],
+      [
+        [
+          "azzaro",
+          "most",
+          "wanted",
+          "intense",
+          "perfume",
+          "fragrancia"
+        ],
+        "2026-10-16T23:50-03:00"
       ]
     ],
     "peneira": [
-      {
-        "loja": "amazon",
-        "chave": "amazon:B0DKJJQLK6",
-        "origem": "lobaopromo",
-        "link": "https://www.amazon.com.br/dp/B0DKJJQLK6?tag=alphadominu09-20",
-        "link_produto": "https://www.amazon.com.br/dp/B0DKJJQLK6?tag=alphadominu09-20",
-        "post_origem": "https://t.me/lobaopromo/190584",
-        "link_canal": "https://amzlink.to/az0ZWkPu04ntJ",
-        "foto": "https://m.media-amazon.com/images/I/4172ElF8ZmL._AC_SL1500_.jpg",
-        "foto_origem": "loja",
-        "nome": "Fone de Ouvido JBL Wave Buds 2",
-        "lido_ia": true,
-        "por": 211.5,
-        "sem_preco_loja": true,
-        "loja_abriu": true,
-        "palavra": "jbl",
-        "garimpado_em": "2026-10-16T20:50-03:00",
-        "nota": 34.4
-      },
       {
         "loja": "mercadolivre",
         "chave": "mercadolivre:MLB39956201",
@@ -7618,38 +7634,20 @@
         "palavra": "alicate",
         "garimpado_em": "2026-10-16T23:30-03:00",
         "nota": 44.9
-      },
-      {
-        "loja": "amazon",
-        "chave": "amazon:B08ZFKB8ZK",
-        "origem": "promobit",
-        "fonte": "promobit",
-        "link": "https://www.amazon.com.br/dp/B08ZFKB8ZK?tag=alphadominu09-20",
-        "link_produto": "https://www.amazon.com.br/dp/B08ZFKB8ZK?tag=alphadominu09-20",
-        "post_origem": "https://www.promobit.com.br/oferta/azzaro-the-most-wanted-intense-perfume-masculino-fragrancia-ambarada-amadeirada-com-cardamomo-e-toffee-eau-de-parfum-com-longa-fixacao-ideal-p-3120638/",
-        "link_canal": "https://www.promobit.com.br/Redirect/to/3120638/",
-        "nome": "Azzaro, The Most Wanted Intense, Perfume Masculino, Fragrância",
-        "por": 535.97,
-        "de": 879.0,
-        "foto": "https://m.media-amazon.com/images/I/61g0mT0sLWL._AC_SL1500_.jpg",
-        "foto_origem": "loja",
-        "palavra": "perfume masculino",
-        "garimpado_em": "2026-10-16T23:40-03:00",
-        "nota": 76.1
       }
     ],
     "soltas_hora": "2026-10-16T23",
-    "soltas": 6,
+    "soltas": 7,
     "shopee_em": "2026-10-16T23:40-03:00",
     "shopee_indice": 28,
     "soltas_dia_data": "2026-10-16",
-    "soltas_dia": 94,
+    "soltas_dia": 95,
     "soltas_loja": {
       "mercadolivre": 3,
-      "amazon": 2,
+      "amazon": 3,
       "shopee": 1
     },
-    "soltas_vez": "2026-10-16T23:2"
+    "soltas_vez": "2026-10-16T23:3"
   },
   "ultimos": [
     {
@@ -9338,7 +9336,7 @@
         "reprovados": 1
       },
       "promobit": {
-        "achados": 14,
+        "achados": 15,
         "aprovados": 8,
         "reprovados": 6
       },
@@ -9572,7 +9570,7 @@
       "reprovados": 6
     },
     "perfume masculino": {
-      "achados": 10,
+      "achados": 11,
       "aprovados": 8,
       "reprovados": 2
     },
