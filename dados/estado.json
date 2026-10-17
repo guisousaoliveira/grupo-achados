@@ -3286,21 +3286,21 @@
   "radar": {
     "visto": {
       "xetdaspromocoes": 85400,
-      "lobaopromo": 190966,
-      "gatunopromos": 125959,
+      "lobaopromo": 190972,
+      "gatunopromos": 125962,
       "pobregram": 42066,
       "urubupromo": 41819,
-      "tudonapromo": 102302,
+      "tudonapromo": 102304,
       "promonocontext": 128055,
-      "promooeasy": 223620,
-      "aquitempechincha": 282377,
+      "promooeasy": 223630,
+      "aquitempechincha": 282385,
       "infoBRpromos": 67757,
       "boletando": 76876,
-      "promotop": 260424,
+      "promotop": 260425,
       "achadosdotb": 11787
     },
     "dia": "2026-10-17",
-    "hoje": 74,
+    "hoje": 75,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -5634,30 +5634,31 @@
       "shopee:1656174999.58208733185",
       "shopee:1125005184.23393229675",
       "shopee:696196245.15590798570",
-      "amazon:B01HT60GU6"
+      "amazon:B01HT60GU6",
+      "amazon:B0FC2SMDFK"
     ],
     "ultima": {
-      "em": "2026-10-17T15:00:28-03:00",
+      "em": "2026-10-17T15:10:37-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 39,
-      "do_nicho": 4,
+      "posts_novos": 44,
+      "do_nicho": 5,
       "repetidas": 4,
-      "novas": 0,
+      "novas": 1,
       "limite_dia": false,
       "repetidas_nome": 0,
-      "promobit": 0,
-      "soltas": 2,
-      "na_peneira": 24
+      "promobit": 1,
+      "soltas": 0,
+      "na_peneira": 19
     },
     "hora": "2026-10-17T15",
     "nesta_hora": 0,
     "promobit_hora": "2026-10-17T15",
-    "promobit_nesta_hora": 0,
-    "promobit_visto": 3121724,
+    "promobit_nesta_hora": 1,
+    "promobit_visto": 3121751,
     "nomes": [
       [
         [
@@ -9005,27 +9006,6 @@
     "peneira": [
       {
         "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB18615748",
-        "origem": "promonocontext",
-        "link": "https://www.mercadolivre.com.br/suplemento-vo2-whey-bar-chocolate-12-unidades-integralmedica-chocolate/p/MLB18615748?matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/suplemento-vo2-whey-bar-chocolate-12-unidades-integralmedica-chocolate/p/MLB18615748",
-        "post_origem": "https://t.me/promonocontext/127997",
-        "link_canal": "https://meli.la/1yoiAFB",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_800008-MLA100033360707_122025-O.webp",
-        "foto_origem": "loja",
-        "nome": "Suplemento Vo2 Whey Bar Chocolate 12 Unidades Integralmédica Chocolate",
-        "pix": true,
-        "por": 56.0,
-        "lido_ia": true,
-        "preco_conferido": true,
-        "preco_cupom": true,
-        "preco_sem_cupom": 59.9,
-        "palavra": "whey",
-        "garimpado_em": "2026-10-17T12:10-03:00",
-        "nota": 36.4
-      },
-      {
-        "loja": "mercadolivre",
         "chave": "mercadolivre:MLB6956990956",
         "origem": "promonocontext",
         "link": "https://www.mercadolivre.com.br/kit-2-creatina-integralmedica-300g--coqueteleira-600ml/up/MLBU4099189042?pdp_filters=item_id%3AMLB6956990956&matt_word=alphapromo&matt_tool=59136903",
@@ -9371,6 +9351,24 @@
         "palavra": "furadeira",
         "garimpado_em": "2026-10-17T14:41-03:00",
         "nota": 74.7
+      },
+      {
+        "loja": "amazon",
+        "chave": "amazon:B0FC2SMDFK",
+        "origem": "promobit",
+        "fonte": "promobit",
+        "link": "https://www.amazon.com.br/dp/B0FC2SMDFK?tag=alphadominu09-20",
+        "link_produto": "https://www.amazon.com.br/dp/B0FC2SMDFK?tag=alphadominu09-20",
+        "post_origem": "https://www.promobit.com.br/oferta/amazfit-smartwatch-balance-2-original-47mm-amoled-display-de-vidro-safira-mapas-offline-gps-dual-band-21-dias-de-auto-3121739/",
+        "link_canal": "https://www.promobit.com.br/Redirect/to/3121739/",
+        "nome": "Amazfit Smartwatch Balance 2 Original 47mm AMOLED Display de Vidro",
+        "por": 1234.05,
+        "de": 1899.0,
+        "foto": "https://m.media-amazon.com/images/I/71-Z+fO8DpL._AC_SL1447_.jpg",
+        "foto_origem": "loja",
+        "palavra": "smartwatch",
+        "garimpado_em": "2026-10-17T15:10-03:00",
+        "nota": 57.6
       }
     ],
     "soltas_hora": "2026-10-17T15",
