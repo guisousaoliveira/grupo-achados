@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "shopee",
-      "chave": "shopee:1274163316.22798713695",
-      "nome": "Óculos de sol de Madeira Bambu Premium Masculino Quadrado,  Proteção UV400",
-      "por": 14.12,
-      "de": 36.21,
-      "foto": "https://cf.shopee.com.br/file/br-11134207-820lm-mnyoq7ebzdvm11",
-      "link": "https://s.shopee.com.br/8fTCS67ZGw",
-      "link_produto": "https://shopee.com.br/product/1274163316/22798713695",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.8,
-      "vendas": 840,
-      "palavra": "oculos de sol",
-      "garimpado_em": "2026-10-17T08:01-03:00",
-      "nota": 77.1,
-      "titulo": "Óculos quadrado em bambu com proteção UV400",
-      "aprovado_sozinho": true,
-      "aprovado_em": "2026-10-17T08:21-03:00"
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B07GM8DVYB",
       "origem": "promobit",
@@ -2707,6 +2685,21 @@
       "secao": "casa",
       "slot": 11.3,
       "foto_site_ok": true
+    },
+    {
+      "chave": "shopee:1274163316.22798713695",
+      "loja": "shopee",
+      "nome": "Óculos de sol de Madeira Bambu Premium Masculino Quadrado,  Proteção UV400",
+      "data": "2026-10-17T12:02-03:00",
+      "link": "https://s.shopee.com.br/8fTCS67ZGw",
+      "link_produto": "https://shopee.com.br/product/1274163316/22798713695",
+      "titulo": "Óculos quadrado em bambu com proteção UV400",
+      "de": 36.21,
+      "por": 14.12,
+      "foto": "https://cf.shopee.com.br/file/br-11134207-820lm-mnyoq7ebzdvm11",
+      "secao": "estilo",
+      "slot": 12,
+      "foto_site_ok": true
     }
   ],
   "slots_usados": {
@@ -2853,7 +2846,8 @@
       10.3,
       11,
       11.1,
-      11.3
+      11.3,
+      12
     ]
   },
   "shopee_buscado_em": "",
@@ -9046,6 +9040,19 @@
   },
   "ultimos": [
     {
+      "loja": "shopee",
+      "chave": "shopee:1274163316.22798713695",
+      "nome": "Óculos de sol de Madeira Bambu Premium Masculino Quadrado,  Proteção UV400",
+      "por": 14.12,
+      "de": 36.21,
+      "foto": "https://cf.shopee.com.br/file/br-11134207-820lm-mnyoq7ebzdvm11",
+      "link": "https://s.shopee.com.br/8fTCS67ZGw",
+      "link_produto": "https://shopee.com.br/product/1274163316/22798713695",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "titulo": "Óculos quadrado em bambu com proteção UV400"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB60012839",
       "origem": "promooeasy",
@@ -9570,20 +9577,6 @@
       "de": 200.0,
       "por": 92.0,
       "titulo": "Relógio prateado clássico para o dia a dia"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0FPBQQ4TN",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B0FPBQQ4TN?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0FPBQQ4TN?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/philips-smart-tv-ambilight-55-4k-titan-os-55pug810078-comando-de-voz-hdr10-dolby-atmos-vrrallm-bluetooth-3118977/",
-      "nome": "PHILIPS, Smart TV Ambilight 55\" 4K, Titan OS, 55PUG810078, Comando de",
-      "por": 2423.88,
-      "de": 3199.0,
-      "foto": "https://m.media-amazon.com/images/I/61HN+7ldJnL._AC_SL1500_.jpg",
-      "titulo": "Smart TV 4K com Ambilight para a sala"
     }
   ],
   "lixeira": [
@@ -11235,5 +11228,5 @@
     }
   },
   "aviso_ml": "2026-10-16",
-  "vitrine_marca": "825256e9c8ad"
+  "vitrine_marca": "a405bed6d38a"
 }
