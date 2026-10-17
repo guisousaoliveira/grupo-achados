@@ -231,6 +231,33 @@
       "titulo": "Suplementos Dark Lab para sua rotina de treino",
       "aprovado_sozinho": true,
       "aprovado_em": "2026-10-17T10:01-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB24459321",
+      "origem": "promooeasy",
+      "link": "https://meli.la/1EqrsZT",
+      "link_produto": "https://www.mercadolivre.com.br/oster-primalatte-touch-red-cafeteira-espresso-1050w-/p/MLB24459321",
+      "post_origem": "https://t.me/promooeasy/223444",
+      "link_canal": "https://www.mercadolivre.com.br/oster-primalatte-touch-red-cafeteira-espresso-1050w-/p/MLB24459321?matt_word=promoeasynv&amp;matt_tool=88963738",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_978484-MLA88402100997_072025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Oster PrimaLatte Touch Red Cafeteira Espresso 1050W",
+      "de": 862.31,
+      "por": 698.47,
+      "lido_ia": true,
+      "cupom": "OFFNOMELIHOJE",
+      "palavra": "cafeteira",
+      "garimpado_em": "2026-10-17T10:00-03:00",
+      "nota": 43.8,
+      "titulo": "Café espresso e cappuccino cremoso feitos em casa",
+      "na_revisao_desde": "2026-10-17T10:21-03:00",
+      "reconferido_em": "2026-10-17T10:21-03:00",
+      "preco_conferido": true,
+      "preco_cupom": true,
+      "preco_sem_cupom": 776.08,
+      "aprovado_sozinho": true,
+      "aprovado_em": "2026-10-17T10:21-03:00"
     }
   ],
   "postados": [
@@ -2899,23 +2926,47 @@
       "id": 750,
       "na_revisao_desde": "2026-10-17T10:01-03:00",
       "msg_id": 1262
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:955543641.23498776025",
+      "nome": "KL5018 Óculos de sol de metal da moda",
+      "por": 15.0,
+      "de": 30.0,
+      "foto": "AgACAgQAAxkDAAIE8GrTdjD6ujWRwlGxzpWCxo-WYGXUAAIeDGsbApAFUF4YCx9AmlebAQADAgADeAADPQQ",
+      "link": "https://s.shopee.com.br/8KqM3U8pwm",
+      "link_produto": "https://shopee.com.br/product/955543641/23498776025",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.9,
+      "vendas": 1149,
+      "palavra": "oculos de sol",
+      "garimpado_em": "2026-10-17T08:01-03:00",
+      "nota": 70.5,
+      "motivo_revisao": "a fila já está com muita Shopee (metade ou mais)",
+      "titulo": "Design em metal para compor o visual urbano",
+      "id": 751,
+      "na_revisao_desde": "2026-10-17T10:20-03:00",
+      "msg_id": 1264
     }
   ],
-  "proximo_id": 751,
+  "proximo_id": 754,
   "radar": {
     "visto": {
       "xetdaspromocoes": 85301,
-      "lobaopromo": 190762,
-      "gatunopromos": 125901,
+      "lobaopromo": 190768,
+      "gatunopromos": 125904,
       "pobregram": 42061,
-      "urubupromo": 41803,
-      "tudonapromo": 102234,
-      "promonocontext": 127890,
-      "promooeasy": 223447,
-      "aquitempechincha": 282304,
+      "urubupromo": 41805,
+      "tudonapromo": 102236,
+      "promonocontext": 127909,
+      "promooeasy": 223450,
+      "aquitempechincha": 282305,
       "infoBRpromos": 67741,
       "boletando": 76873,
-      "promotop": 260407,
+      "promotop": 260408,
       "achadosdotb": 11787
     },
     "dia": "2026-10-17",
@@ -5154,31 +5205,31 @@
       "amazon:B0G87JBFPP",
       "amazon:B09TBBVXL8",
       "mercadolivre:MLB4657662265",
-      "mercadolivre:MLB4716282936"
+      "mercadolivre:MLB4716282936",
+      "shopee:1704861643.58266337621"
     ],
     "ultima": {
-      "em": "2026-10-17T10:10:23-03:00",
+      "em": "2026-10-17T10:20:22-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 46,
-      "do_nicho": 11,
+      "posts_novos": 49,
+      "do_nicho": 6,
       "repetidas": 6,
-      "novas": 1,
+      "novas": 0,
       "limite_dia": false,
       "repetidas_nome": 0,
-      "fora_do_nicho": 4,
       "promobit": 0,
-      "soltas": 0,
-      "na_peneira": 8
+      "soltas": 2,
+      "na_peneira": 6
     },
     "hora": "2026-10-17T10",
     "nesta_hora": 4,
     "promobit_hora": "2026-10-17T10",
     "promobit_nesta_hora": 3,
-    "promobit_visto": 3121080,
+    "promobit_visto": 3121104,
     "nomes": [
       [
         [
@@ -8100,6 +8151,28 @@
           "musgo"
         ],
         "2026-10-17T10:01-03:00"
+      ],
+      [
+        [
+          "kl5018",
+          "oculos",
+          "sol",
+          "metal",
+          "moda"
+        ],
+        "2026-10-17T10:20-03:00"
+      ],
+      [
+        [
+          "oster",
+          "primalatte",
+          "touch",
+          "red",
+          "cafeteira",
+          "espresso",
+          "1050w"
+        ],
+        "2026-10-17T10:20-03:00"
       ]
     ],
     "peneira": [
@@ -8121,25 +8194,6 @@
         "palavra": "oculos de sol",
         "garimpado_em": "2026-10-17T08:01-03:00",
         "nota": 66.3
-      },
-      {
-        "loja": "shopee",
-        "chave": "shopee:955543641.23498776025",
-        "nome": "KL5018 Óculos de sol de metal da moda",
-        "por": 15.0,
-        "de": 30.0,
-        "foto": "https://cf.shopee.com.br/file/br-11134207-7r98o-mcw38nrusow1fe",
-        "link": "https://s.shopee.com.br/8KqM3U8pwm",
-        "link_produto": "https://shopee.com.br/product/955543641/23498776025",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 4.9,
-        "vendas": 1149,
-        "palavra": "oculos de sol",
-        "garimpado_em": "2026-10-17T08:01-03:00",
-        "nota": 70.5
       },
       {
         "loja": "shopee",
@@ -8220,27 +8274,6 @@
       },
       {
         "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB24459321",
-        "origem": "promooeasy",
-        "link": "https://www.mercadolivre.com.br/oster-primalatte-touch-red-cafeteira-espresso-1050w-/p/MLB24459321?matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/oster-primalatte-touch-red-cafeteira-espresso-1050w-/p/MLB24459321",
-        "post_origem": "https://t.me/promooeasy/223444",
-        "link_canal": "https://www.mercadolivre.com.br/oster-primalatte-touch-red-cafeteira-espresso-1050w-/p/MLB24459321?matt_word=promoeasynv&amp;matt_tool=88963738",
-        "foto": "https://cdn1.telesco.pe/file/new3HyyqxAieWEfNkSDgyeH0M_Uf4oiNnEd4L7A3xA3pphomhLVuIxq50w4BpYo0aGFsz8jpX1Z89ZOSReJc8dXpQrVz5tv43pl_JsnMGQyY8LjZ8p6Z1GsP0vTxrLh6p__EoBBLL6vlq62NzhLAFTKR1PT1fhSnxFb9e1Ck2xaWbJTwk87UXpPfFaMxPsO4lDH209nZuIEloaWoYZHXND0lhlO4wFgbQNQbbFcewQvYWEc8ZElkdE-RpGOJnGNYY8p_jf2_-znQeibzZtL145dy41GtUsgSsGlh2-c-NLRnqlwm34P33aEckDh3CMHr6CLj6zc-kxPsKo1_GLvQdg.jpg",
-        "foto_origem": "canal",
-        "nome": "Oster PrimaLatte Touch Red Cafeteira Espresso 1050W",
-        "de": 862.31,
-        "por": 698.47,
-        "lido_ia": true,
-        "cupom": "OFFNOMELIHOJE",
-        "sem_preco_loja": true,
-        "loja_abriu": false,
-        "palavra": "cafeteira",
-        "garimpado_em": "2026-10-17T10:00-03:00",
-        "nota": 43.8
-      },
-      {
-        "loja": "mercadolivre",
         "chave": "mercadolivre:MLB4657662265",
         "origem": "promonocontext",
         "link": "https://www.mercadolivre.com.br/tenis-masculino-break-start-adidas/up/MLBU3938341703?pdp_filters=item_id%3AMLB4657662265&matt_word=alphapromo&matt_tool=59136903",
@@ -8256,19 +8289,38 @@
         "palavra": "tenis masculino",
         "garimpado_em": "2026-10-17T10:10-03:00",
         "nota": 38.2
+      },
+      {
+        "loja": "shopee",
+        "chave": "shopee:1704861643.58266337621",
+        "nome": "Chave De Impacto Sem Escovas 500Nm 48V Sem Fio 1/2 Pol Com 2 Baterias E Carregador Para Mecânica Automotiva",
+        "por": 165.99,
+        "de": 360.85,
+        "foto": "https://cf.shopee.com.br/file/br-11134207-820ld-msz92kbyyv46bf",
+        "link": "https://s.shopee.com.br/5VWApth3jY",
+        "link_produto": "https://shopee.com.br/product/1704861643/58266337621",
+        "origem": "shopee",
+        "fonte": "shopee",
+        "foto_origem": "loja",
+        "shopee_api": true,
+        "avaliacao": 4.8,
+        "vendas": 375,
+        "palavra": "chave de impacto",
+        "garimpado_em": "2026-10-17T10:21-03:00",
+        "nota": 76.2
       }
     ],
     "soltas_hora": "2026-10-17T10",
-    "soltas": 2,
-    "shopee_em": "2026-10-17T10:01-03:00",
-    "shopee_indice": 32,
+    "soltas": 4,
+    "shopee_em": "2026-10-17T10:21-03:00",
+    "shopee_indice": 40,
     "soltas_dia_data": "2026-10-17",
-    "soltas_dia": 20,
+    "soltas_dia": 22,
     "soltas_loja": {
-      "shopee": 1,
-      "mercadolivre": 1
+      "shopee": 2,
+      "mercadolivre": 2
     },
-    "soltas_vez": "2026-10-17T10:0"
+    "soltas_vez": "2026-10-17T10:1"
   },
   "ultimos": [
     {
@@ -10021,7 +10073,7 @@
     },
     "2026-10-17": {
       "promooeasy": {
-        "achados": 6,
+        "achados": 7,
         "aprovados": 0,
         "reprovados": 1
       },
@@ -10031,7 +10083,7 @@
         "reprovados": 1
       },
       "shopee": {
-        "achados": 5,
+        "achados": 6,
         "aprovados": 0,
         "reprovados": 0
       },
@@ -10105,7 +10157,7 @@
       "reprovados": 2
     },
     "cafeteira": {
-      "achados": 7,
+      "achados": 8,
       "aprovados": 2,
       "reprovados": 5
     },
@@ -10215,7 +10267,7 @@
       "reprovados": 7
     },
     "oculos de sol": {
-      "achados": 15,
+      "achados": 16,
       "aprovados": 3,
       "reprovados": 8
     },
@@ -10449,7 +10501,7 @@
       "5": 2,
       "8": 2,
       "9": 3,
-      "10": 1
+      "10": 2
     }
   },
   "aviso_ml": "2026-10-16",
