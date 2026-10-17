@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "shopee",
-      "chave": "shopee:1385382926.21697974917",
-      "nome": "Tênis Masculino presente NATAL ANO NOVO Super confortável - Envio Imediato.",
-      "por": 50.99,
-      "de": 299.94,
-      "foto": "https://cf.shopee.com.br/file/br-11134207-7r98o-m1onm1jj0h5d63",
-      "link": "https://s.shopee.com.br/3Vl6Z61AvY",
-      "link_produto": "https://shopee.com.br/product/1385382926/21697974917",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.9,
-      "vendas": 1262,
-      "palavra": "tenis masculino",
-      "garimpado_em": "2026-10-17T12:01-03:00",
-      "nota": 89.4,
-      "titulo": "Tênis confortável para o dia a dia",
-      "aprovado_sozinho": true,
-      "aprovado_em": "2026-10-17T12:20-03:00"
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB35200276",
       "origem": "promonocontext",
@@ -3017,6 +2995,21 @@
       "secao": "casa",
       "slot": 14,
       "foto_site_ok": true
+    },
+    {
+      "chave": "shopee:1385382926.21697974917",
+      "loja": "shopee",
+      "nome": "Tênis Masculino presente NATAL ANO NOVO Super confortável - Envio Imediato.",
+      "data": "2026-10-17T14:18-03:00",
+      "link": "https://s.shopee.com.br/3Vl6Z61AvY",
+      "link_produto": "https://shopee.com.br/product/1385382926/21697974917",
+      "titulo": "Tênis confortável para o dia a dia",
+      "de": 299.94,
+      "por": 50.99,
+      "foto": "https://cf.shopee.com.br/file/br-11134207-7r98o-m1onm1jj0h5d63",
+      "secao": "estilo",
+      "slot": 14.1,
+      "foto_site_ok": true
     }
   ],
   "slots_usados": {
@@ -3172,7 +3165,8 @@
       13.1,
       13.2,
       13.3,
-      14
+      14,
+      14.1
     ]
   },
   "shopee_buscado_em": "",
@@ -9243,6 +9237,19 @@
   },
   "ultimos": [
     {
+      "loja": "shopee",
+      "chave": "shopee:1385382926.21697974917",
+      "nome": "Tênis Masculino presente NATAL ANO NOVO Super confortável - Envio Imediato.",
+      "por": 50.99,
+      "de": 299.94,
+      "foto": "https://cf.shopee.com.br/file/br-11134207-7r98o-m1onm1jj0h5d63",
+      "link": "https://s.shopee.com.br/3Vl6Z61AvY",
+      "link_produto": "https://shopee.com.br/product/1385382926/21697974917",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "titulo": "Tênis confortável para o dia a dia"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB58760342",
       "origem": "lobaopromo",
@@ -9771,19 +9778,6 @@
       "de": 189.9,
       "por": 93.68,
       "titulo": "Aparador completo para cabelo e barba em casa"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB57821770",
-      "origem": "urubupromo",
-      "link": "https://meli.la/199ssBp",
-      "link_produto": "https://www.mercadolivre.com.br/air-fryer-oven-16l-wap-multi-comb-digital-wafc16-painel-touch-220v/p/MLB57821770",
-      "post_origem": "https://t.me/urubupromo/41782",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_831624-MLA93384203743_092025-O.webp",
-      "nome": "Air fryer Oven 16L Wap Multi-Comb Digital WAFC16 Painel Touch 220V",
-      "por": 431.32,
-      "cupom": "OFFHOJE",
-      "titulo": "Fritadeira oven espaçosa para assar porções grandes"
     }
   ],
   "lixeira": [
@@ -10513,5 +10507,5 @@
     }
   },
   "aviso_ml": "2026-10-17",
-  "vitrine_marca": "6b3b8b955b8c"
+  "vitrine_marca": "c2be83079da9"
 }
