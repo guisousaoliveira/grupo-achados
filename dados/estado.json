@@ -2763,28 +2763,6 @@
   "shopee_buscado_em": "",
   "revisar": [
     {
-      "loja": "amazon",
-      "chave": "amazon:B0GS56VW48",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B0GS56VW48?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0GS56VW48?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/modus-garrafa-termica-950ml-parede-dupla-de-isolamento-24horas-gelado-3120770/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3120770/",
-      "nome": "Modus Garrafa Térmica 950ml",
-      "por": 53.97,
-      "foto": "AgACAgQAAxkDAAIE2mrTLQdnDZdGAa9wOHIwLnD3iuwtAAI8EGsbV6odUc7SbnFNmym0AQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "palavra": "garrafa termica",
-      "garimpado_em": "2026-10-17T05:07-03:00",
-      "nota": 49.6,
-      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
-      "titulo": "Garrafa térmica 950ml para água sempre gelada",
-      "id": 736,
-      "na_revisao_desde": "2026-10-17T05:08-03:00",
-      "msg_id": 1242
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB28807727",
       "origem": "promooeasy",
@@ -8420,6 +8398,29 @@
   "lixeira": [
     {
       "loja": "amazon",
+      "chave": "amazon:B0GS56VW48",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0GS56VW48?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0GS56VW48?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/modus-garrafa-termica-950ml-parede-dupla-de-isolamento-24horas-gelado-3120770/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3120770/",
+      "nome": "Modus Garrafa Térmica 950ml",
+      "por": 53.97,
+      "foto": "AgACAgQAAxkDAAIE2mrTLQdnDZdGAa9wOHIwLnD3iuwtAAI8EGsbV6odUc7SbnFNmym0AQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "palavra": "garrafa termica",
+      "garimpado_em": "2026-10-17T05:07-03:00",
+      "nota": 49.6,
+      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
+      "titulo": "Garrafa térmica 950ml para água sempre gelada",
+      "id": 736,
+      "na_revisao_desde": "2026-10-17T05:08-03:00",
+      "removido_em": "2026-10-17T05:09:33-03:00",
+      "removido_de": "revisar"
+    },
+    {
+      "loja": "amazon",
       "chave": "amazon:B0FNGMWY42",
       "origem": "promobit",
       "fonte": "promobit",
@@ -9343,30 +9344,6 @@
       "na_revisao_desde": "2026-10-15T10:41-03:00",
       "removido_em": "2026-10-15T21:30:19-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:1783863681.58214839689",
-      "nome": "18 EM 1 Alicate Automático Decapador Crimpador Eletricista Descacador Fios Decapador Fio Automático",
-      "por": 19.99,
-      "de": 29.84,
-      "foto": "AgACAgQAAxkDAAID0WrQ2Aij3SLcJwgVhBi8H0QM_33AAALRD2sb4vCkULIBcjnJYYhaAQADAgADeQADPQQ",
-      "link": "https://s.shopee.com.br/40hJrKmYsh",
-      "link_produto": "https://shopee.com.br/product/1783863681/58214839689",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.9,
-      "vendas": 2373,
-      "palavra": "alicate",
-      "garimpado_em": "2026-10-15T10:20-03:00",
-      "nota": 59.3,
-      "titulo": "Alicate automático para agilizar seus reparos elétricos",
-      "id": 596,
-      "na_revisao_desde": "2026-10-15T10:41-03:00",
-      "removido_em": "2026-10-15T21:30:19-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -9624,7 +9601,7 @@
       "promobit": {
         "achados": 1,
         "aprovados": 0,
-        "reprovados": 0
+        "reprovados": 1
       }
     }
   },
@@ -9773,7 +9750,7 @@
     "garrafa termica": {
       "achados": 11,
       "aprovados": 7,
-      "reprovados": 3
+      "reprovados": 4
     },
     "jbl": {
       "achados": 3,
