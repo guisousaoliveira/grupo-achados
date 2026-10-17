@@ -2369,13 +2369,13 @@
   "radar": {
     "visto": {
       "xetdaspromocoes": 85281,
-      "lobaopromo": 190612,
+      "lobaopromo": 190615,
       "gatunopromos": 125815,
-      "pobregram": 42050,
+      "pobregram": 42051,
       "urubupromo": 41799,
       "tudonapromo": 102224,
-      "promonocontext": 127802,
-      "promooeasy": 223220,
+      "promonocontext": 127803,
+      "promooeasy": 223225,
       "aquitempechincha": 282250,
       "infoBRpromos": 67719,
       "boletando": 76860,
@@ -2383,7 +2383,7 @@
       "achadosdotb": 11787
     },
     "dia": "2026-10-16",
-    "hoje": 136,
+    "hoje": 137,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -4559,30 +4559,31 @@
       "amazon:B0BLSZW19L",
       "amazon:B0FNGMWY42",
       "amazon:B0F3PT467Y",
-      "shopee:1331022593.58266246883"
+      "shopee:1331022593.58266246883",
+      "mercadolivre:MLB18726361"
     ],
     "ultima": {
-      "em": "2026-10-16T21:42:34-03:00",
-      "pedido": "a2b509b3f4",
-      "forcado": true,
+      "em": "2026-10-16T21:50:20-03:00",
+      "pedido": "",
+      "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 5,
-      "do_nicho": 0,
-      "repetidas": 0,
-      "novas": 0,
+      "posts_novos": 17,
+      "do_nicho": 3,
+      "repetidas": 2,
+      "novas": 1,
       "limite_dia": false,
       "repetidas_nome": 0,
       "promobit": 0,
       "soltas": 0,
-      "na_peneira": 22
+      "na_peneira": 23
     },
     "hora": "2026-10-16T21",
-    "nesta_hora": 3,
+    "nesta_hora": 4,
     "promobit_hora": "2026-10-16T21",
     "promobit_nesta_hora": 3,
-    "promobit_visto": 3120464,
+    "promobit_visto": 3120473,
     "nomes": [
       [
         [
@@ -7517,6 +7518,25 @@
         "palavra": "aparador",
         "garimpado_em": "2026-10-16T21:40-03:00",
         "nota": 60.7
+      },
+      {
+        "loja": "mercadolivre",
+        "chave": "mercadolivre:MLB18726361",
+        "origem": "lobaopromo",
+        "link": "https://www.mercadolivre.com.br/creatina-em-po-100g-creapure-growth-supplements/p/MLB18726361?matt_word=alphapromo&matt_tool=59136903",
+        "link_produto": "https://www.mercadolivre.com.br/creatina-em-po-100g-creapure-growth-supplements/p/MLB18726361",
+        "post_origem": "https://t.me/lobaopromo/190615",
+        "link_canal": "https://meli.la/2VsvnVD",
+        "foto": "https://http2.mlstatic.com/D_NQ_NP_659835-MLA98760176203_112025-O.webp",
+        "foto_origem": "loja",
+        "nome": "Creatina Em Pó 100g Creapure Growth Supplements",
+        "de": 109.0,
+        "por": 59.0,
+        "lido_ia": true,
+        "preco_loja": 69.23,
+        "palavra": "creatina",
+        "garimpado_em": "2026-10-16T21:50-03:00",
+        "nota": 78.6
       }
     ],
     "soltas_hora": "2026-10-16T21",
@@ -7526,7 +7546,7 @@
     "soltas_dia_data": "2026-10-16",
     "soltas_dia": 80,
     "soltas_loja": {},
-    "soltas_vez": "2026-10-16T21:2"
+    "soltas_vez": "2026-10-16T21:3"
   },
   "ultimos": [
     {
