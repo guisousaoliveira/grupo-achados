@@ -3127,32 +3127,6 @@
       "msg_id": 1273
     },
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB3907928713",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/2xFJ2bh",
-      "link_produto": "https://produto.mercadolivre.com.br/MLB-3907928713-tenis-masculino-academia-corrida-casual-uso-diario-esportivo-_JM?pdp_filters=item_id%3AMLB3907928713",
-      "post_origem": "https://t.me/lobaopromo/190820",
-      "link_canal": "https://meli.la/2A1HyJo",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_755744-MLB96773883294_112025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Tenis Masculino Academia Corrida Casual Uso Diario Esportivo",
-      "por": 97.95,
-      "lido_ia": true,
-      "cupom": "CUPOMON",
-      "preco_conferido": true,
-      "preco_cupom": true,
-      "preco_sem_cupom": 139.9,
-      "palavra": "academia",
-      "garimpado_em": "2026-10-17T11:30-03:00",
-      "nota": 49.1,
-      "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto",
-      "titulo": "Modelo versátil para treinos e rotina diária",
-      "id": 760,
-      "na_revisao_desde": "2026-10-17T11:31-03:00",
-      "msg_id": 1274
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B00GY2LASO",
       "origem": "promooeasy",
@@ -9726,6 +9700,33 @@
   ],
   "lixeira": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB3907928713",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/2xFJ2bh",
+      "link_produto": "https://produto.mercadolivre.com.br/MLB-3907928713-tenis-masculino-academia-corrida-casual-uso-diario-esportivo-_JM?pdp_filters=item_id%3AMLB3907928713",
+      "post_origem": "https://t.me/lobaopromo/190820",
+      "link_canal": "https://meli.la/2A1HyJo",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_755744-MLB96773883294_112025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Tenis Masculino Academia Corrida Casual Uso Diario Esportivo",
+      "por": 97.95,
+      "lido_ia": true,
+      "cupom": "CUPOMON",
+      "preco_conferido": true,
+      "preco_cupom": true,
+      "preco_sem_cupom": 139.9,
+      "palavra": "academia",
+      "garimpado_em": "2026-10-17T11:30-03:00",
+      "nota": 49.1,
+      "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto",
+      "titulo": "Modelo versátil para treinos e rotina diária",
+      "id": 760,
+      "na_revisao_desde": "2026-10-17T11:31-03:00",
+      "removido_em": "2026-10-17T12:59:20-03:00",
+      "removido_de": "revisar"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0D98WR6YM",
       "origem": "promobit",
@@ -10668,28 +10669,6 @@
       "na_revisao_desde": "2026-10-16T00:14-03:00",
       "removido_em": "2026-10-16T00:53:45-03:00",
       "removido_de": "revisar"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B00T5AVD0C",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B00T5AVD0C?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B00T5AVD0C?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/222201",
-      "link_canal": "https://www.amazon.com.br/dp/B00T5AVD0C?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAID4WrRAjA043ztgJFZS1P6NfRN95mOAAKoujEbsn9EULaIZa9UOWVQAQADAgADeAADPQQ",
-      "foto_origem": "loja",
-      "nome": "2 Lâminas de Reposição Philips OneBlade + Frete Grátis",
-      "de": 179.9,
-      "por": 98.91,
-      "palavra": "oneblade",
-      "garimpado_em": "2026-10-15T13:40-03:00",
-      "nota": 49.6,
-      "titulo": "Lâminas extras para manter a barba sempre feita",
-      "id": 610,
-      "na_revisao_desde": "2026-10-15T13:41-03:00",
-      "removido_em": "2026-10-15T21:30:19-03:00",
-      "removido_de": "revisar"
     }
   ],
   "garimpo": {
@@ -10962,7 +10941,7 @@
       "lobaopromo": {
         "achados": 6,
         "aprovados": 1,
-        "reprovados": 0
+        "reprovados": 1
       },
       "urubupromo": {
         "achados": 1,
@@ -10976,7 +10955,7 @@
     "academia": {
       "achados": 31,
       "aprovados": 10,
-      "reprovados": 18
+      "reprovados": 19
     },
     "air fryer": {
       "achados": 16,
