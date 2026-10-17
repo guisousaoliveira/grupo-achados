@@ -323,6 +323,31 @@
       "titulo": "Kit de cuecas boxer em algodão macio",
       "aprovado_sozinho": true,
       "aprovado_em": "2026-10-17T13:20-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB4503718165",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/24rqf6j",
+      "link_produto": "https://www.mercadolivre.com.br/tenis-masculino-voyage-iii-oakley/up/MLBU3817137481?pdp_filters=item_id%3AMLB4503718165",
+      "post_origem": "https://t.me/lobaopromo/190851",
+      "link_canal": "https://meli.la/2ktGxq5",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_792370-MLB113711458145_062026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Tenis Masculino Voyage Iii Oakley Off White Liso 43 Br",
+      "cupom_loja": "Resgate o cupom de 30% OFF do anuncio",
+      "de": 450.0,
+      "por": 229.0,
+      "lido_ia": true,
+      "preco_loja": 328.2,
+      "palavra": "tenis masculino",
+      "garimpado_em": "2026-10-17T12:00-03:00",
+      "nota": 70.7,
+      "motivo_revisao": "o post diz R$ 229,00 e a loja mostra R$ 328,20, e não tem cupom ou Pix que explique a diferença",
+      "titulo": "Oakley Voyage para compor seu estilo casual",
+      "na_revisao_desde": "2026-10-17T13:03-03:00",
+      "cupom": "Resgate o cupom de 30% OFF do anuncio",
+      "aprovado_em": "2026-10-17T13:48-03:00"
     }
   ],
   "postados": [
@@ -3093,33 +3118,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB4503718165",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/24rqf6j",
-      "link_produto": "https://www.mercadolivre.com.br/tenis-masculino-voyage-iii-oakley/up/MLBU3817137481?pdp_filters=item_id%3AMLB4503718165",
-      "post_origem": "https://t.me/lobaopromo/190851",
-      "link_canal": "https://meli.la/2ktGxq5",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_792370-MLB113711458145_062026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Tenis Masculino Voyage Iii Oakley Off White Liso 43 Br",
-      "cupom_loja": "Resgate o cupom de 30% OFF do anuncio",
-      "de": 450.0,
-      "por": 229.0,
-      "lido_ia": true,
-      "preco_loja": 328.2,
-      "palavra": "tenis masculino",
-      "garimpado_em": "2026-10-17T12:00-03:00",
-      "nota": 70.7,
-      "motivo_revisao": "o post diz R$ 229,00 e a loja mostra R$ 328,20, e não tem cupom ou Pix que explique a diferença",
-      "titulo": "Oakley Voyage para compor seu estilo casual",
-      "id": 772,
-      "na_revisao_desde": "2026-10-17T13:03-03:00",
-      "msg_id": 1290
-    }
-  ],
+  "revisar": [],
   "proximo_id": 776,
   "radar": {
     "visto": {
@@ -9983,7 +9982,7 @@
       },
       "lobaopromo": {
         "achados": 8,
-        "aprovados": 3,
+        "aprovados": 4,
         "reprovados": 2
       },
       "urubupromo": {
@@ -10217,7 +10216,7 @@
     },
     "tenis masculino": {
       "achados": 6,
-      "aprovados": 1,
+      "aprovados": 2,
       "reprovados": 2
     },
     "termogenico": {
@@ -10403,7 +10402,7 @@
       "10": 3,
       "11": 1,
       "12": 5,
-      "13": 8
+      "13": 9
     }
   },
   "aviso_ml": "2026-10-17",
