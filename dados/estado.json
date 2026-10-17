@@ -2,32 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB54495903",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/2A3ezaY",
-      "link_produto": "https://www.mercadolivre.com.br/fritadeira-air-fryer-oven-electrolux-por-rita-lobo-12l-digital-vermelha-escura-experience-1700w-eaf86/p/MLB54495903",
-      "post_origem": "https://t.me/lobaopromo/190425",
-      "link_canal": "https://meli.la/266JtUu",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_700687-MLA99992929393_112025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Fritadeira Air Fryer Oven Electrolux por Rita Lobo 12L Digital",
-      "pix": true,
-      "por": 427.0,
-      "lido_ia": true,
-      "cupom": "OFFHOJE",
-      "preco_conferido": true,
-      "preco_cupom": true,
-      "preco_sem_cupom": 474.9,
-      "palavra": "air fryer",
-      "garimpado_em": "2026-10-16T15:40-03:00",
-      "nota": 42.9,
-      "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto",
-      "titulo": "Air fryer oven 12L que prepara refeições completas",
-      "na_revisao_desde": "2026-10-16T16:23-03:00",
-      "aprovado_em": "2026-10-16T19:01-03:00"
-    },
-    {
       "loja": "shopee",
       "chave": "shopee:1309397871.23694657658",
       "nome": "Luminária Espeto Solar 7W LED Verde Jardim Quintal Fachada Bivolt IP65 Placa Solar Iluminação Externa Decorativa",
@@ -2253,6 +2227,23 @@
       "secao": "barba",
       "slot": 21,
       "foto_site_ok": true
+    },
+    {
+      "chave": "mercadolivre:MLB54495903",
+      "loja": "mercadolivre",
+      "nome": "Fritadeira Air Fryer Oven Electrolux por Rita Lobo 12L Digital",
+      "data": "2026-10-16T21:24-03:00",
+      "link": "https://meli.la/2A3ezaY",
+      "link_produto": "https://www.mercadolivre.com.br/fritadeira-air-fryer-oven-electrolux-por-rita-lobo-12l-digital-vermelha-escura-experience-1700w-eaf86/p/MLB54495903",
+      "titulo": "Air fryer oven 12L que prepara refeições completas",
+      "por": 427.0,
+      "cupom": "OFFHOJE",
+      "pix": true,
+      "conferido": true,
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_700687-MLA99992929393_112025-O.webp",
+      "secao": "casa",
+      "slot": 21.1,
+      "foto_site_ok": true
     }
   ],
   "slots_usados": {
@@ -2374,7 +2365,8 @@
       20.1,
       20.2,
       20.3,
-      21
+      21,
+      21.1
     ]
   },
   "shopee_buscado_em": "",
@@ -7506,6 +7498,20 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB54495903",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/2A3ezaY",
+      "link_produto": "https://www.mercadolivre.com.br/fritadeira-air-fryer-oven-electrolux-por-rita-lobo-12l-digital-vermelha-escura-experience-1700w-eaf86/p/MLB54495903",
+      "post_origem": "https://t.me/lobaopromo/190425",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_700687-MLA99992929393_112025-O.webp",
+      "nome": "Fritadeira Air Fryer Oven Electrolux por Rita Lobo 12L Digital",
+      "pix": true,
+      "por": 427.0,
+      "cupom": "OFFHOJE",
+      "titulo": "Air fryer oven 12L que prepara refeições completas"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B07DP2S4PC",
       "origem": "pobregram",
@@ -8028,20 +8034,6 @@
       "de": 78.0,
       "por": 35.98,
       "titulo": "Moedor elétrico para triturar grãos e temperos em casa"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB68269465",
-      "origem": "promonocontext",
-      "link": "https://meli.la/2DahZyA",
-      "link_produto": "https://www.mercadolivre.com.br/relogio-de-pulso-mondaine-com-corria-de-silicone-cor-preto-fondo-branco-bisel-dourado/p/MLB68269465",
-      "post_origem": "https://t.me/promonocontext/127572",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_796210-MLA117645065731_092026-O.webp",
-      "nome": "Relógio De Pulso Mondaine Com Corria De Silicone Cor Preto",
-      "de": 417.0,
-      "por": 150.0,
-      "cupom": "OFFHOJE",
-      "titulo": "Mondaine com pulseira de silicone para uso diário"
     }
   ],
   "lixeira": [
@@ -9627,5 +9619,5 @@
     }
   },
   "aviso_ml": "2026-10-16",
-  "vitrine_marca": "c17b57d13fae"
+  "vitrine_marca": "5cc1c440ce03"
 }
