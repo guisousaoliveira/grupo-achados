@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "shopee",
-      "chave": "shopee:1618883837.58260381358",
-      "nome": "Trena 5/10 Metros Profissional Emborrachada Trava Fita Aço Carbono Alta Precisão Resistente",
-      "por": 13.9,
-      "de": 39.71,
-      "foto": "https://cf.shopee.com.br/file/sg-11134201-820na-mo0fri90mz9ib3",
-      "link": "https://s.shopee.com.br/6VOi35nBHH",
-      "link_produto": "https://shopee.com.br/product/1618883837/58260381358",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.8,
-      "vendas": 324,
-      "palavra": "trena",
-      "garimpado_em": "2026-10-17T10:40-03:00",
-      "nota": 91.1,
-      "titulo": "Trena resistente com fita de alta precisão",
-      "aprovado_sozinho": true,
-      "aprovado_em": "2026-10-17T11:01-03:00"
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB58760342",
       "origem": "lobaopromo",
@@ -2973,6 +2951,21 @@
       "foto": "https://http2.mlstatic.com/D_NQ_NP_792370-MLB113711458145_062026-O.webp",
       "secao": "estilo",
       "foto_site_ok": true
+    },
+    {
+      "chave": "shopee:1618883837.58260381358",
+      "loja": "shopee",
+      "nome": "Trena 5/10 Metros Profissional Emborrachada Trava Fita Aço Carbono Alta Precisão Resistente",
+      "data": "2026-10-17T13:53-03:00",
+      "link": "https://s.shopee.com.br/6VOi35nBHH",
+      "link_produto": "https://shopee.com.br/product/1618883837/58260381358",
+      "titulo": "Trena resistente com fita de alta precisão",
+      "de": 39.71,
+      "por": 13.9,
+      "foto": "https://cf.shopee.com.br/file/sg-11134201-820na-mo0fri90mz9ib3",
+      "secao": "outros",
+      "slot": 13.3,
+      "foto_site_ok": true
     }
   ],
   "slots_usados": {
@@ -3126,7 +3119,8 @@
       12.3,
       13,
       13.1,
-      13.2
+      13.2,
+      13.3
     ]
   },
   "shopee_buscado_em": "",
@@ -9206,6 +9200,19 @@
   },
   "ultimos": [
     {
+      "loja": "shopee",
+      "chave": "shopee:1618883837.58260381358",
+      "nome": "Trena 5/10 Metros Profissional Emborrachada Trava Fita Aço Carbono Alta Precisão Resistente",
+      "por": 13.9,
+      "de": 39.71,
+      "foto": "https://cf.shopee.com.br/file/sg-11134201-820na-mo0fri90mz9ib3",
+      "link": "https://s.shopee.com.br/6VOi35nBHH",
+      "link_produto": "https://shopee.com.br/product/1618883837/58260381358",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "titulo": "Trena resistente com fita de alta precisão"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB4503718165",
       "origem": "lobaopromo",
@@ -9734,19 +9741,6 @@
       "de": 149.9,
       "por": 109.99,
       "titulo": "Três bermudas dry fit para revezar nos treinos"
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:1343438067.58264124937",
-      "nome": "Interruptor Inteligente WiFi com Tomada e Painel Touch de Vidro Temperado, Compatível com Alexa e Google",
-      "por": 59.9,
-      "de": 110.93,
-      "foto": "https://cf.shopee.com.br/file/sg-11134201-8259d-mqll8smzcuf6af",
-      "link": "https://s.shopee.com.br/AUupRzoUfG",
-      "link_produto": "https://shopee.com.br/product/1343438067/58264124937",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "titulo": "Interruptor inteligente para controlar a iluminação por voz"
     }
   ],
   "lixeira": [
@@ -10475,5 +10469,5 @@
     }
   },
   "aviso_ml": "2026-10-17",
-  "vitrine_marca": "ee94a6576991"
+  "vitrine_marca": "372606986cab"
 }
