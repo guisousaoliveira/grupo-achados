@@ -164,6 +164,33 @@
       "na_revisao_desde": "2026-10-16T23:20-03:00",
       "cupom": "Resgate 25% OFF na página do produto.",
       "aprovado_em": "2026-10-16T23:25-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB54025710",
+      "origem": "promooeasy",
+      "link": "https://meli.la/1SNiF2c",
+      "link_produto": "https://www.mercadolivre.com.br/basike-power-bank-20000mah-rapido-portatil-45w-rapido-com-display-cor-branco-power-3-saidas-com-cabo-embutido-usb-c-para-samsung-iphone-xiaomi-motorola-celular-tablet-macbook-b203b202-prata/p/MLB54025710",
+      "post_origem": "https://t.me/promooeasy/223305",
+      "link_canal": "https://www.mercadolivre.com.br/basike-power-bank-20000mah-rapido-portatil-45w-rapido-com-display-cor-branco-power-3-saidas-com-cabo-embutido-usb-c-para-samsung-iphone-xiaomi-motorola-celular-tablet-macbook-b203b202-prata/p/MLB54025710?matt_word=promoeasynv&amp;matt_tool=88963738",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_757014-MLA99938929309_112025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Basike Power Bank 20.000mah Rápido Portátil 45w Rápido Com Display Cor Branco Power 3-saídas Com Cabo Embutido Usb-c Par",
+      "de": 315.38,
+      "por": 151.12,
+      "lido_ia": true,
+      "cupom": "RESGATEFULL1710",
+      "palavra": "power bank",
+      "garimpado_em": "2026-10-17T00:20-03:00",
+      "nota": 65.6,
+      "titulo": "Carregador portátil de 45W com cabo embutido",
+      "na_revisao_desde": "2026-10-17T00:20-03:00",
+      "reconferido_em": "2026-10-17T00:21-03:00",
+      "preco_conferido": true,
+      "preco_cupom": true,
+      "preco_sem_cupom": 188.9,
+      "aprovado_sozinho": true,
+      "aprovado_em": "2026-10-17T00:21-03:00"
     }
   ],
   "postados": [
@@ -2633,19 +2660,42 @@
       "id": 728,
       "na_revisao_desde": "2026-10-17T00:00-03:00",
       "msg_id": 1234
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B07GM8DVYB",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B07GM8DVYB?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B07GM8DVYB?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/gillette-mach3-sensitive-carga-aparelho-de-barbear-com-aloe-4-unidades-3120616/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3120616/",
+      "nome": "Gillette Mach3 Sensitive Carga Aparelho De Barbear Com Aloe 4 Unidades",
+      "por": 39.99,
+      "de": 55.13,
+      "foto": "https://m.media-amazon.com/images/I/61c5gyQ0IZL._AC_SL1200_.jpg",
+      "foto_origem": "loja",
+      "palavra": "barbear",
+      "garimpado_em": "2026-10-16T23:20-03:00",
+      "nota": 45.3,
+      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
+      "titulo": "Aparelho e cargas para barbear sem irritação na pele",
+      "id": 730,
+      "na_revisao_desde": "2026-10-17T00:20-03:00",
+      "msg_id": 1236
     }
   ],
-  "proximo_id": 729,
+  "proximo_id": 732,
   "radar": {
     "visto": {
       "xetdaspromocoes": 85297,
-      "lobaopromo": 190661,
-      "gatunopromos": 125840,
+      "lobaopromo": 190668,
+      "gatunopromos": 125843,
       "pobregram": 42053,
       "urubupromo": 41803,
       "tudonapromo": 102224,
       "promonocontext": 127821,
-      "promooeasy": 223298,
+      "promooeasy": 223309,
       "aquitempechincha": 282261,
       "infoBRpromos": 67724,
       "boletando": 76866,
@@ -2653,7 +2703,7 @@
       "achadosdotb": 11787
     },
     "dia": "2026-10-17",
-    "hoje": 1,
+    "hoje": 4,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -4847,30 +4897,33 @@
       "amazon:B07GM8DVYB",
       "mercadolivre:MLB36221657",
       "amazon:B08ZFKB8ZK",
-      "mercadolivre:MLB28765604"
+      "mercadolivre:MLB28765604",
+      "mercadolivre:MLB4700283122",
+      "mercadolivre:MLB23144235",
+      "mercadolivre:MLB54025710"
     ],
     "ultima": {
-      "em": "2026-10-17T00:10:20-03:00",
+      "em": "2026-10-17T00:20:18-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 27,
-      "do_nicho": 1,
-      "repetidas": 0,
-      "novas": 1,
+      "posts_novos": 31,
+      "do_nicho": 7,
+      "repetidas": 4,
+      "novas": 2,
       "limite_dia": false,
-      "repetidas_nome": 0,
+      "repetidas_nome": 1,
       "promobit": 0,
-      "soltas": 0,
+      "soltas": 2,
       "na_peneira": 5
     },
     "hora": "2026-10-17T00",
-    "nesta_hora": 1,
+    "nesta_hora": 4,
     "promobit_hora": "2026-10-17T00",
     "promobit_nesta_hora": 0,
-    "promobit_visto": 3120659,
+    "promobit_visto": 3120675,
     "nomes": [
       [
         [
@@ -7576,6 +7629,31 @@
           "multicores"
         ],
         "2026-10-17T00:00-03:00"
+      ],
+      [
+        [
+          "basike",
+          "power",
+          "bank",
+          "20",
+          "000mah",
+          "rapido",
+          "portatil",
+          "45w"
+        ],
+        "2026-10-17T00:20-03:00"
+      ],
+      [
+        [
+          "gillette",
+          "mach3",
+          "sensitive",
+          "carga",
+          "aparelho",
+          "barbear",
+          "aloe"
+        ],
+        "2026-10-17T00:20-03:00"
       ]
     ],
     "peneira": [
@@ -7613,24 +7691,6 @@
         "palavra": "academia",
         "garimpado_em": "2026-10-16T22:50-03:00",
         "nota": 43.9
-      },
-      {
-        "loja": "amazon",
-        "chave": "amazon:B07GM8DVYB",
-        "origem": "promobit",
-        "fonte": "promobit",
-        "link": "https://www.amazon.com.br/dp/B07GM8DVYB?tag=alphadominu09-20",
-        "link_produto": "https://www.amazon.com.br/dp/B07GM8DVYB?tag=alphadominu09-20",
-        "post_origem": "https://www.promobit.com.br/oferta/gillette-mach3-sensitive-carga-aparelho-de-barbear-com-aloe-4-unidades-3120616/",
-        "link_canal": "https://www.promobit.com.br/Redirect/to/3120616/",
-        "nome": "Gillette Mach3 Sensitive Carga Aparelho De Barbear Com Aloe 4 Unidades",
-        "por": 39.99,
-        "de": 55.13,
-        "foto": "https://m.media-amazon.com/images/I/61c5gyQ0IZL._AC_SL1200_.jpg",
-        "foto_origem": "loja",
-        "palavra": "barbear",
-        "garimpado_em": "2026-10-16T23:20-03:00",
-        "nota": 45.3
       },
       {
         "loja": "mercadolivre",
@@ -7672,19 +7732,40 @@
         "palavra": "parafusadeira",
         "garimpado_em": "2026-10-17T00:10-03:00",
         "nota": 54.5
+      },
+      {
+        "loja": "mercadolivre",
+        "chave": "mercadolivre:MLB23144235",
+        "origem": "promooeasy",
+        "link": "https://www.mercadolivre.com.br/100-whey-protein-concentrado-900g-sabor-natural-proteina-100-pura-3vs-nutrition/p/MLB23144235?matt_word=alphapromo&matt_tool=59136903",
+        "link_produto": "https://www.mercadolivre.com.br/100-whey-protein-concentrado-900g-sabor-natural-proteina-100-pura-3vs-nutrition/p/MLB23144235",
+        "post_origem": "https://t.me/promooeasy/223302",
+        "link_canal": "https://www.mercadolivre.com.br/100-whey-protein-concentrado-900g-sabor-natural-proteina-100-pura-3vs-nutrition/p/MLB23144235?matt_word=promoeasynv&amp;matt_tool=88963738",
+        "foto": "https://cdn1.telesco.pe/file/a7q-AAPSG4ZXQJ8e0L8Gs6zRyAe0068huxpUoDuV0GjHqj_wU59QTaQWzWq-dQS_1V0A_FOL4OSqC9A56xKKpRg1EyF4cBPdE0W8YQ3gFgsc9-qRvF1ahIdzwfm7pZ6ovRzXdOT9DyB9zRcT9cqUkIBkWfDmWc68Cpfpfoj47gHJWzxl_dDXYMkPGkepBDqlbCcAdnqqui-NWYeYD6xBHbdxVecMDzv3Mi9WVRWFJV4y3a-pBZZO1K-feziq15oBcE-lNe-NLSpVpjW69wsCuXoingwpaGEcELvKTmabU92X7Vda75dcKjzPEz4zCIzVkGuQqowD4tKM6cKvDem2NA.jpg",
+        "foto_origem": "canal",
+        "nome": "100% WHEY Protein Concentrado 900g Sabor Natural - Proteína 100% Pura - 3VS Nutrition",
+        "de": 319.99,
+        "por": 146.46,
+        "lido_ia": true,
+        "cupom": "RESGATEFULL1710",
+        "sem_preco_loja": true,
+        "loja_abriu": false,
+        "palavra": "whey",
+        "garimpado_em": "2026-10-17T00:20-03:00",
+        "nota": 64.6
       }
     ],
     "soltas_hora": "2026-10-17T00",
-    "soltas": 2,
-    "shopee_em": "2026-10-17T00:00-03:00",
-    "shopee_indice": 36,
+    "soltas": 4,
+    "shopee_em": "2026-10-17T00:20-03:00",
+    "shopee_indice": 44,
     "soltas_dia_data": "2026-10-17",
-    "soltas_dia": 2,
+    "soltas_dia": 4,
     "soltas_loja": {
-      "mercadolivre": 1,
-      "amazon": 1
+      "mercadolivre": 2,
+      "amazon": 2
     },
-    "soltas_vez": "2026-10-17T00:0"
+    "soltas_vez": "2026-10-17T00:1"
   },
   "ultimos": [
     {
@@ -9373,7 +9454,7 @@
         "reprovados": 1
       },
       "promobit": {
-        "achados": 16,
+        "achados": 17,
         "aprovados": 8,
         "reprovados": 6
       },
@@ -9422,6 +9503,13 @@
         "aprovados": 0,
         "reprovados": 1
       }
+    },
+    "2026-10-17": {
+      "promooeasy": {
+        "achados": 1,
+        "aprovados": 0,
+        "reprovados": 0
+      }
     }
   },
   "aviso_post": "2026-10-16 23:49|amazon:B0C9QSV82F",
@@ -9462,7 +9550,7 @@
       "reprovados": 4
     },
     "barbear": {
-      "achados": 2,
+      "achados": 3,
       "aprovados": 0,
       "reprovados": 2
     },
@@ -9612,7 +9700,7 @@
       "reprovados": 2
     },
     "power bank": {
-      "achados": 14,
+      "achados": 15,
       "aprovados": 4,
       "reprovados": 8
     },
@@ -9817,7 +9905,7 @@
       "23": 4
     },
     "2026-10-17": {
-      "0": 1
+      "0": 2
     }
   },
   "aviso_ml": "2026-10-16",
