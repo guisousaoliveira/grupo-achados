@@ -2,29 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "amazon",
-      "chave": "amazon:B0FL4N5RG6",
-      "origem": "promooeasy",
-      "link": "https://www.amazon.com.br/dp/B0FL4N5RG6?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0FL4N5RG6?tag=alphadominu09-20",
-      "post_origem": "https://t.me/promooeasy/223051",
-      "link_canal": "https://www.amazon.com.br/dp/B0FL4N5RG6?tag=promof26-20",
-      "foto": "AgACAgQAAxkDAAIEqmrSji5_RobheDbQ9DMMhXQ5rx5NAAKXDmsbmOl8Uj7gURerBYnNAQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "nome": "Smart TV Hisense Hi-QLED UHD 4K 75\" 75Q6QV",
-      "parcelas": 12,
-      "por": 4399.99,
-      "lido_ia": true,
-      "preco_conferido": true,
-      "palavra": "smart tv",
-      "garimpado_em": "2026-10-16T17:20-03:00",
-      "nota": 23.1,
-      "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto",
-      "titulo": "Smart TV 75 polegadas 4K para a sala",
-      "na_revisao_desde": "2026-10-16T17:50-03:00",
-      "aprovado_em": "2026-10-16T19:01-03:00"
-    },
-    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB66128452",
       "origem": "lobaopromo",
@@ -2399,6 +2376,21 @@
       "foto": "https://http2.mlstatic.com/D_NQ_NP_987578-MLB114712738017_072026-O.webp",
       "secao": "barba",
       "foto_site_ok": true
+    },
+    {
+      "chave": "amazon:B0FL4N5RG6",
+      "loja": "amazon",
+      "nome": "Smart TV Hisense Hi-QLED UHD 4K 75\" 75Q6QV",
+      "data": "2026-10-16T22:23-03:00",
+      "link": "https://www.amazon.com.br/dp/B0FL4N5RG6?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0FL4N5RG6?tag=alphadominu09-20",
+      "titulo": "Smart TV 75 polegadas 4K para a sala",
+      "por": 4399.99,
+      "conferido": true,
+      "foto": "https://raw.githubusercontent.com/guisousaoliveira/grupo-achados/main/dados/fotos/6253a398fd.jpg",
+      "secao": "tech",
+      "slot": 22.1,
+      "foto_site_ok": true
     }
   ],
   "slots_usados": {
@@ -2524,7 +2516,8 @@
       21.1,
       21.2,
       21.3,
-      22
+      22,
+      22.1
     ]
   },
   "shopee_buscado_em": "",
@@ -7694,6 +7687,19 @@
   },
   "ultimos": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B0FL4N5RG6",
+      "origem": "promooeasy",
+      "link": "https://www.amazon.com.br/dp/B0FL4N5RG6?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0FL4N5RG6?tag=alphadominu09-20",
+      "post_origem": "https://t.me/promooeasy/223051",
+      "foto": "AgACAgQAAxkDAAIEqmrSji5_RobheDbQ9DMMhXQ5rx5NAAKXDmsbmOl8Uj7gURerBYnNAQADAgADeQADPQQ",
+      "nome": "Smart TV Hisense Hi-QLED UHD 4K 75\" 75Q6QV",
+      "parcelas": 12,
+      "por": 4399.99,
+      "titulo": "Smart TV 75 polegadas 4K para a sala"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB7192331052",
       "origem": "lobaopromo",
@@ -8217,20 +8223,6 @@
       "de": 156.25,
       "por": 109.08,
       "titulo": "Conjuntos dry fit respiráveis ideais nos treinos diários"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB1010954920",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/2D8vKNH",
-      "link_produto": "https://meli.la/2D8vKNH",
-      "post_origem": "https://t.me/lobaopromo/190229",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_724774-MLB100762267821_122025-O.webp",
-      "nome": "Kit 6 Cuecas Lupo Boxer Box Sem Costura Basic Microfibra",
-      "pix": true,
-      "de": 288.63,
-      "por": 129.99,
-      "titulo": "Cuecas boxer sem costura que não incomodam"
     }
   ],
   "lixeira": [
@@ -9822,5 +9814,5 @@
     }
   },
   "aviso_ml": "2026-10-16",
-  "vitrine_marca": "1be127df460b"
+  "vitrine_marca": "8191e1e5086e"
 }
