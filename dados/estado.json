@@ -2723,7 +2723,7 @@
       "urubupromo": 41803,
       "tudonapromo": 102224,
       "promonocontext": 127821,
-      "promooeasy": 223349,
+      "promooeasy": 223358,
       "aquitempechincha": 282261,
       "infoBRpromos": 67724,
       "boletando": 76866,
@@ -4957,11 +4957,11 @@
       "soltas": 4,
       "na_peneira": 0
     },
-    "hora": "2026-10-17T06",
+    "hora": "2026-10-17T07",
     "nesta_hora": 0,
-    "promobit_hora": "2026-10-17T05",
-    "promobit_nesta_hora": 1,
-    "promobit_visto": 3120786,
+    "promobit_hora": "2026-10-17T07",
+    "promobit_nesta_hora": 0,
+    "promobit_visto": 3120796,
     "nomes": [
       [
         [
@@ -7766,18 +7766,14 @@
       ]
     ],
     "peneira": [],
-    "soltas_hora": "2026-10-17T05",
-    "soltas": 4,
-    "shopee_em": "2026-10-17T00:40-03:00",
-    "shopee_indice": 52,
+    "soltas_hora": "2026-10-17T07",
+    "soltas": 0,
+    "shopee_em": "2026-10-17T07:00-03:00",
+    "shopee_indice": 60,
     "soltas_dia_data": "2026-10-17",
     "soltas_dia": 10,
-    "soltas_loja": {
-      "mercadolivre": 3,
-      "amazon": 1
-    },
-    "soltas_vez": "2026-10-17T05:0",
-    "pausado": true
+    "soltas_loja": {},
+    "soltas_vez": "2026-10-17T07:0"
   },
   "ultimos": [
     {
