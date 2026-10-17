@@ -179,7 +179,7 @@ def main():
         return
     if not os.environ.get("GOOGLE_SA_JSON"):
         raise RuntimeError("Falta o secret GOOGLE_SA_JSON (conta de serviço do Google) pra pegar os clipes do Drive.")
-    agora = datetime.now(BRT)
+    agora = rodar.data_alvo()
     historico = json.loads(HISTORICO.read_text(encoding="utf-8")) if HISTORICO.exists() else []
     usados = list(historico)  # clipes e músicas já usados (inclusive o do post recusado)
     if os.environ.get("MOTIVO"):  # refazendo: o tema recusado de hoje não conta como "já postado"
