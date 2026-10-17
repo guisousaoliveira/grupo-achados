@@ -140,6 +140,29 @@
       "na_revisao_desde": "2026-10-16T22:08-03:00",
       "reconferido_em": "2026-10-16T22:09-03:00",
       "aprovado_em": "2026-10-16T22:10-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB18726361",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/2LXJ18t",
+      "link_produto": "https://www.mercadolivre.com.br/creatina-em-po-100g-creapure-growth-supplements/p/MLB18726361",
+      "post_origem": "https://t.me/lobaopromo/190615",
+      "link_canal": "https://meli.la/2VsvnVD",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_659835-MLA98760176203_112025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Creatina Em Pó 100g Creapure Growth Supplements",
+      "de": 109.0,
+      "por": 69.23,
+      "lido_ia": true,
+      "preco_loja": 69.23,
+      "palavra": "creatina",
+      "garimpado_em": "2026-10-16T21:50-03:00",
+      "nota": 78.6,
+      "motivo_revisao": "o post diz R$ 59,00 e a loja mostra R$ 69,23, e não tem cupom ou Pix que explique a diferença",
+      "titulo": "Creatina Creapure Growth para ganho de força",
+      "na_revisao_desde": "2026-10-16T23:00-03:00",
+      "aprovado_em": "2026-10-16T23:02-03:00"
     }
   ],
   "postados": [
@@ -2499,30 +2522,6 @@
   },
   "shopee_buscado_em": "",
   "revisar": [
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB18726361",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/2LXJ18t",
-      "link_produto": "https://www.mercadolivre.com.br/creatina-em-po-100g-creapure-growth-supplements/p/MLB18726361",
-      "post_origem": "https://t.me/lobaopromo/190615",
-      "link_canal": "https://meli.la/2VsvnVD",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_659835-MLA98760176203_112025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Creatina Em Pó 100g Creapure Growth Supplements",
-      "de": 109.0,
-      "por": 59.0,
-      "lido_ia": true,
-      "preco_loja": 69.23,
-      "palavra": "creatina",
-      "garimpado_em": "2026-10-16T21:50-03:00",
-      "nota": 78.6,
-      "motivo_revisao": "o post diz R$ 59,00 e a loja mostra R$ 69,23, e não tem cupom ou Pix que explique a diferença",
-      "titulo": "Creatina Creapure Growth para ganho de força",
-      "id": 720,
-      "na_revisao_desde": "2026-10-16T23:00-03:00",
-      "msg_id": 1222
-    },
     {
       "loja": "amazon",
       "chave": "amazon:B0F3PT467Y",
@@ -9356,7 +9355,7 @@
       },
       "lobaopromo": {
         "achados": 16,
-        "aprovados": 11,
+        "aprovados": 12,
         "reprovados": 1
       },
       "promooeasy": {
@@ -9505,7 +9504,7 @@
     },
     "creatina": {
       "achados": 26,
-      "aprovados": 13,
+      "aprovados": 14,
       "reprovados": 11
     },
     "cueca": {
@@ -9785,7 +9784,8 @@
       "17": 3,
       "18": 2,
       "19": 1,
-      "22": 8
+      "22": 8,
+      "23": 1
     }
   },
   "aviso_ml": "2026-10-16",
