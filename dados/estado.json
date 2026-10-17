@@ -2717,13 +2717,13 @@
   "radar": {
     "visto": {
       "xetdaspromocoes": 85297,
-      "lobaopromo": 190696,
-      "gatunopromos": 125862,
+      "lobaopromo": 190697,
+      "gatunopromos": 125865,
       "pobregram": 42053,
       "urubupromo": 41803,
       "tudonapromo": 102224,
       "promonocontext": 127821,
-      "promooeasy": 223361,
+      "promooeasy": 223367,
       "aquitempechincha": 282261,
       "infoBRpromos": 67724,
       "boletando": 76867,
@@ -4941,15 +4941,15 @@
       "mercadolivre:MLB74933617"
     ],
     "ultima": {
-      "em": "2026-10-17T07:40:21-03:00",
+      "em": "2026-10-17T07:50:21-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 7,
-      "do_nicho": 2,
-      "repetidas": 2,
+      "posts_novos": 12,
+      "do_nicho": 3,
+      "repetidas": 3,
       "novas": 0,
       "limite_dia": false,
       "repetidas_nome": 0,
@@ -4961,7 +4961,7 @@
     "nesta_hora": 0,
     "promobit_hora": "2026-10-17T07",
     "promobit_nesta_hora": 0,
-    "promobit_visto": 3120801,
+    "promobit_visto": 3120806,
     "nomes": [
       [
         [
@@ -7773,7 +7773,7 @@
     "soltas_dia_data": "2026-10-17",
     "soltas_dia": 10,
     "soltas_loja": {},
-    "soltas_vez": "2026-10-17T07:2"
+    "soltas_vez": "2026-10-17T07:3"
   },
   "ultimos": [
     {
