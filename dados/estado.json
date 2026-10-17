@@ -421,6 +421,27 @@
       "na_revisao_desde": "2026-10-17T15:31-03:00",
       "de": 177.2,
       "aprovado_em": "2026-10-17T15:34-03:00"
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0FC2SMDFK",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0FC2SMDFK?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0FC2SMDFK?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/amazfit-smartwatch-balance-2-original-47mm-amoled-display-de-vidro-safira-mapas-offline-gps-dual-band-21-dias-de-auto-3121739/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3121739/",
+      "nome": "Amazfit Smartwatch Balance 2 Original 47mm AMOLED Display de Vidro",
+      "por": 1234.05,
+      "de": 1899.0,
+      "foto": "https://m.media-amazon.com/images/I/71-Z+fO8DpL._AC_SL1447_.jpg",
+      "foto_origem": "loja",
+      "palavra": "smartwatch",
+      "garimpado_em": "2026-10-17T15:10-03:00",
+      "nota": 57.6,
+      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
+      "na_revisao_desde": "2026-10-17T15:31-03:00",
+      "aprovado_em": "2026-10-17T15:34-03:00"
     }
   ],
   "postados": [
@@ -3337,30 +3358,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0FC2SMDFK",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B0FC2SMDFK?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0FC2SMDFK?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/amazfit-smartwatch-balance-2-original-47mm-amoled-display-de-vidro-safira-mapas-offline-gps-dual-band-21-dias-de-auto-3121739/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3121739/",
-      "nome": "Amazfit Smartwatch Balance 2 Original 47mm AMOLED Display de Vidro",
-      "por": 1234.05,
-      "de": 1899.0,
-      "foto": "https://m.media-amazon.com/images/I/71-Z+fO8DpL._AC_SL1447_.jpg",
-      "foto_origem": "loja",
-      "palavra": "smartwatch",
-      "garimpado_em": "2026-10-17T15:10-03:00",
-      "nota": 57.6,
-      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
-      "id": 790,
-      "na_revisao_desde": "2026-10-17T15:31-03:00",
-      "msg_id": 1312
-    }
-  ],
+  "revisar": [],
   "proximo_id": 792,
   "radar": {
     "visto": {
@@ -10374,7 +10372,7 @@
       },
       "promobit": {
         "achados": 10,
-        "aprovados": 3,
+        "aprovados": 4,
         "reprovados": 6
       },
       "shopee": {
@@ -10618,7 +10616,7 @@
     },
     "smartwatch": {
       "achados": 13,
-      "aprovados": 4,
+      "aprovados": 5,
       "reprovados": 8
     },
     "suplemento": {
@@ -10821,7 +10819,7 @@
       "12": 5,
       "13": 11,
       "14": 7,
-      "15": 5
+      "15": 6
     }
   },
   "aviso_ml": "2026-10-17",
