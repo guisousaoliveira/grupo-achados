@@ -2,27 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "shopee",
-      "chave": "shopee:1059412251.22998163314",
-      "nome": "Bicicleta Ergométrica Vertical Gallant Flow (GBE1HBTB-PT)",
-      "por": 242.0,
-      "de": 806.67,
-      "foto": "https://cf.shopee.com.br/file/sg-11134201-7rbmq-m5keaexhjf8ece",
-      "link": "https://s.shopee.com.br/Lo4odNQp7",
-      "link_produto": "https://shopee.com.br/product/1059412251/22998163314",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "foto_origem": "loja",
-      "shopee_api": true,
-      "avaliacao": 4.8,
-      "vendas": 359,
-      "palavra": "bicicleta ergometrica",
-      "garimpado_em": "2026-10-17T12:20-03:00",
-      "nota": 85.8,
-      "aprovado_sozinho": true,
-      "aprovado_em": "2026-10-17T14:19-03:00"
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B0GPT6C2N9",
       "origem": "promooeasy",
@@ -3345,6 +3324,20 @@
       "secao": "estilo",
       "slot": 17.1,
       "foto_site_ok": true
+    },
+    {
+      "chave": "shopee:1059412251.22998163314",
+      "loja": "shopee",
+      "nome": "Bicicleta Ergométrica Vertical Gallant Flow (GBE1HBTB-PT)",
+      "data": "2026-10-17T17:33-03:00",
+      "link": "https://s.shopee.com.br/Lo4odNQp7",
+      "link_produto": "https://shopee.com.br/product/1059412251/22998163314",
+      "de": 806.67,
+      "por": 242.0,
+      "foto": "https://cf.shopee.com.br/file/sg-11134201-7rbmq-m5keaexhjf8ece",
+      "secao": "academia",
+      "slot": 17.2,
+      "foto_site_ok": true
     }
   ],
   "slots_usados": {
@@ -3513,7 +3506,8 @@
       16.2,
       16.3,
       17,
-      17.1
+      17.1,
+      17.2
     ]
   },
   "shopee_buscado_em": "",
@@ -10224,6 +10218,18 @@
   },
   "ultimos": [
     {
+      "loja": "shopee",
+      "chave": "shopee:1059412251.22998163314",
+      "nome": "Bicicleta Ergométrica Vertical Gallant Flow (GBE1HBTB-PT)",
+      "por": 242.0,
+      "de": 806.67,
+      "foto": "https://cf.shopee.com.br/file/sg-11134201-7rbmq-m5keaexhjf8ece",
+      "link": "https://s.shopee.com.br/Lo4odNQp7",
+      "link_produto": "https://shopee.com.br/product/1059412251/22998163314",
+      "origem": "shopee",
+      "fonte": "shopee"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB6676440714",
       "origem": "xetdaspromocoes",
@@ -10748,20 +10754,6 @@
       "de": 390.0,
       "por": 178.66,
       "titulo": "Auxiliar de partida com compressor para emergências na estrada"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0C9QSV82F",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B0C9QSV82F?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0C9QSV82F?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/geonav-power-bank-carregador-portatil-universal-por-inducao-10000mah-carregamento-rapido-suporte-dobravel-compativel-com-magsafe-pb10mags-3120260/",
-      "nome": "Geonav Power Bank",
-      "por": 149.89,
-      "de": 299.0,
-      "foto": "https://m.media-amazon.com/images/I/615U7klnYVL._AC_SL1500_.jpg",
-      "titulo": "Power bank portátil para carregar o celular na rua"
     }
   ],
   "lixeira": [],
@@ -11482,5 +11474,5 @@
     }
   },
   "aviso_ml": "2026-10-17",
-  "vitrine_marca": "849970c01bf7"
+  "vitrine_marca": "9bfeac03a8fb"
 }
