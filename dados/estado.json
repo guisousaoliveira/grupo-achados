@@ -2,31 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB5830018268",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/1vSur2M",
-      "link_produto": "https://www.mercadolivre.com.br/camisa-polo-quadri-adler-foxton/up/MLBU3501690417?pdp_filters=item_id%3AMLB5830018268",
-      "post_origem": "https://t.me/lobaopromo/190879",
-      "link_canal": "https://meli.la/2dN2AGS",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_929969-MLB116216531320_092026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Camisa Polo Quadri Adler Foxton Cáqui Lisa G",
-      "cupom_loja": "Resgate o cupom de 30% OFF do anuncio",
-      "de": 328.0,
-      "por": 117.0,
-      "lido_ia": true,
-      "preco_loja": 178.45,
-      "palavra": "camisa polo",
-      "garimpado_em": "2026-10-17T12:30-03:00",
-      "nota": 95.5,
-      "motivo_revisao": "o post diz R$ 117,00 e a loja mostra R$ 178,45, e não tem cupom ou Pix que explique a diferença",
-      "titulo": "Camisa polo lisa para compor o visual casual",
-      "na_revisao_desde": "2026-10-17T12:30-03:00",
-      "cupom": "Resgate o cupom de 30% OFF do anuncio",
-      "aprovado_em": "2026-10-17T12:58-03:00"
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B0DJ1RD8SH",
       "origem": "promobit",
@@ -3115,6 +3090,22 @@
       "secao": "casa",
       "slot": 14.2,
       "foto_site_ok": true
+    },
+    {
+      "chave": "mercadolivre:MLB5830018268",
+      "loja": "mercadolivre",
+      "nome": "Camisa Polo Quadri Adler Foxton Cáqui Lisa G",
+      "data": "2026-10-17T14:51-03:00",
+      "link": "https://meli.la/1vSur2M",
+      "link_produto": "https://www.mercadolivre.com.br/camisa-polo-quadri-adler-foxton/up/MLBU3501690417?pdp_filters=item_id%3AMLB5830018268",
+      "titulo": "Camisa polo lisa para compor o visual casual",
+      "de": 328.0,
+      "por": 117.0,
+      "cupom": "Resgate o cupom de 30% OFF do anuncio",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_929969-MLB116216531320_092026-O.webp",
+      "secao": "estilo",
+      "slot": 14.3,
+      "foto_site_ok": true
     }
   ],
   "slots_usados": {
@@ -3272,7 +3263,8 @@
       13.3,
       14,
       14.1,
-      14.2
+      14.2,
+      14.3
     ]
   },
   "shopee_buscado_em": "",
@@ -9492,6 +9484,21 @@
   "ultimos": [
     {
       "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB5830018268",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/1vSur2M",
+      "link_produto": "https://www.mercadolivre.com.br/camisa-polo-quadri-adler-foxton/up/MLBU3501690417?pdp_filters=item_id%3AMLB5830018268",
+      "post_origem": "https://t.me/lobaopromo/190879",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_929969-MLB116216531320_092026-O.webp",
+      "nome": "Camisa Polo Quadri Adler Foxton Cáqui Lisa G",
+      "cupom_loja": "Resgate o cupom de 30% OFF do anuncio",
+      "de": 328.0,
+      "por": 117.0,
+      "titulo": "Camisa polo lisa para compor o visual casual",
+      "cupom": "Resgate o cupom de 30% OFF do anuncio"
+    },
+    {
+      "loja": "mercadolivre",
       "chave": "mercadolivre:MLB35200276",
       "origem": "promonocontext",
       "link": "https://meli.la/2dHRbdL",
@@ -10017,20 +10024,6 @@
       "origem": "shopee",
       "fonte": "shopee",
       "titulo": "Luminária solar verde para iluminar o jardim"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB54495903",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/2A3ezaY",
-      "link_produto": "https://www.mercadolivre.com.br/fritadeira-air-fryer-oven-electrolux-por-rita-lobo-12l-digital-vermelha-escura-experience-1700w-eaf86/p/MLB54495903",
-      "post_origem": "https://t.me/lobaopromo/190425",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_700687-MLA99992929393_112025-O.webp",
-      "nome": "Fritadeira Air Fryer Oven Electrolux por Rita Lobo 12L Digital",
-      "pix": true,
-      "por": 427.0,
-      "cupom": "OFFHOJE",
-      "titulo": "Air fryer oven 12L que prepara refeições completas"
     }
   ],
   "lixeira": [
@@ -10760,5 +10753,5 @@
     }
   },
   "aviso_ml": "2026-10-17",
-  "vitrine_marca": "57cac76adfe8"
+  "vitrine_marca": "7dcc253991cb"
 }
