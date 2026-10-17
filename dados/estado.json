@@ -3086,27 +3086,74 @@
       "id": 760,
       "na_revisao_desde": "2026-10-17T11:31-03:00",
       "msg_id": 1274
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0D98WR6YM",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0D98WR6YM?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0D98WR6YM?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/philips-walita-fritadeira-airfryer-serie-2000-62l-painel-touch-220v-3121306/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3121306/",
+      "nome": "Philips Walita Fritadeira Airfryer Série 2000 6,2L",
+      "por": 351.9,
+      "de": 699.9,
+      "cupom": "ESQUENTA15",
+      "foto": "https://images-na.ssl-images-amazon.com/images/P/B0D98WR6YM.01.LZZZZZZZ.jpg",
+      "foto_origem": "loja",
+      "palavra": "airfryer",
+      "garimpado_em": "2026-10-17T11:50-03:00",
+      "nota": 68.3,
+      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
+      "titulo": "Airfryer grande para preparar refeições para a família",
+      "id": 761,
+      "na_revisao_desde": "2026-10-17T11:50-03:00",
+      "msg_id": 1275
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0DJ1RD8SH",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0DJ1RD8SH?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0DJ1RD8SH?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/jbl-caixa-de-som-partybox-stage-320-bluetooth-portatil-show-de-luzes-a-prova-de-respingos-240w-rms-branca-3121283/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3121283/",
+      "nome": "JBL Caixa de Som PartyBox Stage 320 Bluetooth Portátil Show de Luzes",
+      "por": 2503.0,
+      "de": 3899.0,
+      "foto": "https://i.promobit.com.br/268/452563726517922473538831305585.jpg",
+      "foto_origem": "canal",
+      "palavra": "caixa de som",
+      "garimpado_em": "2026-10-17T11:40-03:00",
+      "nota": 51.1,
+      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
+      "titulo": "Caixa de som potente para festas e eventos",
+      "id": 762,
+      "na_revisao_desde": "2026-10-17T11:50-03:00",
+      "msg_id": 1276
     }
   ],
-  "proximo_id": 761,
+  "proximo_id": 763,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 85328,
-      "lobaopromo": 190832,
-      "gatunopromos": 125924,
+      "xetdaspromocoes": 85340,
+      "lobaopromo": 190842,
+      "gatunopromos": 125925,
       "pobregram": 42064,
-      "urubupromo": 41810,
-      "tudonapromo": 102253,
-      "promonocontext": 127978,
-      "promooeasy": 223513,
-      "aquitempechincha": 282338,
-      "infoBRpromos": 67747,
+      "urubupromo": 41811,
+      "tudonapromo": 102259,
+      "promonocontext": 127987,
+      "promooeasy": 223518,
+      "aquitempechincha": 282340,
+      "infoBRpromos": 67748,
       "boletando": 76874,
       "promotop": 260414,
       "achadosdotb": 11787
     },
     "dia": "2026-10-17",
-    "hoje": 42,
+    "hoje": 44,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -5375,30 +5422,32 @@
       "mercadolivre:MLB58760342",
       "mercadolivre:MLB35200276",
       "shopee:1463394548.23599114025",
-      "shopee:373745451.19442582758"
+      "shopee:373745451.19442582758",
+      "amazon:B0D98WR6YM",
+      "mercadolivre:MLB4988014387"
     ],
     "ultima": {
-      "em": "2026-10-17T11:40:20-03:00",
+      "em": "2026-10-17T11:50:27-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 68,
-      "do_nicho": 10,
+      "posts_novos": 59,
+      "do_nicho": 9,
       "repetidas": 7,
-      "novas": 3,
+      "novas": 2,
       "limite_dia": false,
       "repetidas_nome": 0,
       "promobit": 1,
-      "soltas": 0,
+      "soltas": 2,
       "na_peneira": 15
     },
     "hora": "2026-10-17T11",
-    "nesta_hora": 6,
+    "nesta_hora": 7,
     "promobit_hora": "2026-10-17T11",
-    "promobit_nesta_hora": 2,
-    "promobit_visto": 3121285,
+    "promobit_nesta_hora": 3,
+    "promobit_visto": 3121316,
     "nomes": [
       [
         [
@@ -8427,6 +8476,31 @@
           "esportivo"
         ],
         "2026-10-17T11:30-03:00"
+      ],
+      [
+        [
+          "philips",
+          "walita",
+          "fritadeira",
+          "airfryer",
+          "serie",
+          "2000",
+          "2l"
+        ],
+        "2026-10-17T11:50-03:00"
+      ],
+      [
+        [
+          "jbl",
+          "caixa",
+          "som",
+          "partybox",
+          "stage",
+          "320",
+          "bluetooth",
+          "portatil"
+        ],
+        "2026-10-17T11:50-03:00"
       ]
     ],
     "peneira": [
@@ -8659,24 +8733,6 @@
         "nota": 61.1
       },
       {
-        "loja": "amazon",
-        "chave": "amazon:B0DJ1RD8SH",
-        "origem": "promobit",
-        "fonte": "promobit",
-        "link": "https://www.amazon.com.br/dp/B0DJ1RD8SH?tag=alphadominu09-20",
-        "link_produto": "https://www.amazon.com.br/dp/B0DJ1RD8SH?tag=alphadominu09-20",
-        "post_origem": "https://www.promobit.com.br/oferta/jbl-caixa-de-som-partybox-stage-320-bluetooth-portatil-show-de-luzes-a-prova-de-respingos-240w-rms-branca-3121283/",
-        "link_canal": "https://www.promobit.com.br/Redirect/to/3121283/",
-        "nome": "JBL Caixa de Som PartyBox Stage 320 Bluetooth Portátil Show de Luzes",
-        "por": 2503.0,
-        "de": 3899.0,
-        "foto": "https://i.promobit.com.br/268/452563726517922473538831305585.jpg",
-        "foto_origem": "canal",
-        "palavra": "caixa de som",
-        "garimpado_em": "2026-10-17T11:40-03:00",
-        "nota": 51.1
-      },
-      {
         "loja": "mercadolivre",
         "chave": "mercadolivre:MLB58760342",
         "origem": "lobaopromo",
@@ -8713,19 +8769,39 @@
         "palavra": "ferramenta",
         "garimpado_em": "2026-10-17T11:40-03:00",
         "nota": 71.3
+      },
+      {
+        "loja": "mercadolivre",
+        "chave": "mercadolivre:MLB4988014387",
+        "origem": "xetdaspromocoes",
+        "link": "https://www.mercadolivre.com.br/kit-growth-whey-protein-basic-chocolate-1kg--coqueteleira-shaker-academia-preta-600ml/up/MLBU4552152529?pdp_filters=item_id%3AMLB4988014387&matt_word=alphapromo&matt_tool=59136903",
+        "link_produto": "https://www.mercadolivre.com.br/kit-growth-whey-protein-basic-chocolate-1kg--coqueteleira-shaker-academia-preta-600ml/up/MLBU4552152529?pdp_filters=item_id%3AMLB4988014387",
+        "post_origem": "https://t.me/xetdaspromocoes/85334",
+        "link_canal": "https://meli.la/1W2v4c8",
+        "foto": "https://http2.mlstatic.com/D_NQ_NP_761536-MLB114206150934_082026-O.webp",
+        "foto_origem": "loja",
+        "nome": "Kit Growth: Whey Protein Basic Chocolate 1kg + Coqueteleira Shaker",
+        "de": 112.0,
+        "por": 85.0,
+        "lido_ia": true,
+        "preco_conferido": true,
+        "palavra": "whey",
+        "garimpado_em": "2026-10-17T11:50-03:00",
+        "nota": 56.0
       }
     ],
     "soltas_hora": "2026-10-17T11",
-    "soltas": 5,
+    "soltas": 7,
     "shopee_em": "2026-10-17T11:40-03:00",
     "shopee_indice": 72,
     "soltas_dia_data": "2026-10-17",
-    "soltas_dia": 29,
+    "soltas_dia": 31,
     "soltas_loja": {
       "shopee": 2,
-      "mercadolivre": 3
+      "mercadolivre": 3,
+      "amazon": 2
     },
-    "soltas_vez": "2026-10-17T11:2"
+    "soltas_vez": "2026-10-17T11:3"
   },
   "ultimos": [
     {
@@ -10484,7 +10560,7 @@
         "reprovados": 1
       },
       "promobit": {
-        "achados": 2,
+        "achados": 4,
         "aprovados": 0,
         "reprovados": 1
       },
@@ -10573,7 +10649,7 @@
       "reprovados": 5
     },
     "caixa de som": {
-      "achados": 21,
+      "achados": 22,
       "aprovados": 3,
       "reprovados": 16
     },
@@ -10758,7 +10834,7 @@
       "reprovados": 0
     },
     "airfryer": {
-      "achados": 7,
+      "achados": 8,
       "aprovados": 1,
       "reprovados": 3
     },
