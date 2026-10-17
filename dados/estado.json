@@ -145,6 +145,28 @@
       "aprovado_em": "2026-10-16T22:08-03:00"
     },
     {
+      "loja": "amazon",
+      "chave": "amazon:B000CNKITS",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B000CNKITS?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B000CNKITS?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/azzaro-pour-homme-perfume-masculino-eau-de-toilette-3120325/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3120325/",
+      "nome": "Azzaro Pour Homme Perfume Masculino Eau De Toilette",
+      "por": 179.99,
+      "de": 299.0,
+      "foto": "AgACAgQAAxkDAAIEvmrSyqZUy1ejEozEZ_d41peiMYAmAAJFDWsbdSFkUS34l7skC9biAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "palavra": "perfume masculino",
+      "garimpado_em": "2026-10-16T20:30-03:00",
+      "nota": 74.4,
+      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
+      "titulo": "Perfume amadeirado clássico para uso diário",
+      "na_revisao_desde": "2026-10-16T22:08-03:00",
+      "aprovado_em": "2026-10-16T22:11-03:00"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB45745391",
       "origem": "lobaopromo",
@@ -2516,31 +2538,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "amazon",
-      "chave": "amazon:B000CNKITS",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B000CNKITS?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B000CNKITS?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/azzaro-pour-homme-perfume-masculino-eau-de-toilette-3120325/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3120325/",
-      "nome": "Azzaro Pour Homme Perfume Masculino Eau De Toilette",
-      "por": 179.99,
-      "de": 299.0,
-      "foto": "AgACAgQAAxkDAAIEvmrSyqZUy1ejEozEZ_d41peiMYAmAAJFDWsbdSFkUS34l7skC9biAQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "palavra": "perfume masculino",
-      "garimpado_em": "2026-10-16T20:30-03:00",
-      "nota": 74.4,
-      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
-      "titulo": "Perfume amadeirado clássico para uso diário",
-      "id": 713,
-      "na_revisao_desde": "2026-10-16T22:08-03:00",
-      "msg_id": 1214
-    }
-  ],
+  "revisar": [],
   "proximo_id": 720,
   "radar": {
     "visto": {
@@ -9391,7 +9389,7 @@
       },
       "promobit": {
         "achados": 12,
-        "aprovados": 6,
+        "aprovados": 7,
         "reprovados": 5
       },
       "promonocontext": {
@@ -9625,7 +9623,7 @@
     },
     "perfume masculino": {
       "achados": 10,
-      "aprovados": 7,
+      "aprovados": 8,
       "reprovados": 2
     },
     "power bank": {
@@ -9830,7 +9828,7 @@
       "17": 3,
       "18": 2,
       "19": 1,
-      "22": 7
+      "22": 8
     }
   },
   "aviso_ml": "2026-10-16",
