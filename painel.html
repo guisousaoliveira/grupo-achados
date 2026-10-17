@@ -688,8 +688,11 @@ function quando(iso){
 }
 
 /* -------- montagem do post (igual ao bot) -------- */
+// config "chamada_ia": false -> o post vai sem a chamada (nome e preço direto)
+const comChamada = () => !E || E.chamada !== false;
+const tituloDe = x => comChamada() ? x.titulo : '';
 function montarPost(x){
-  const b = x.titulo ? [`${x.emoji_titulo || '🚨'} <b>${esc(x.titulo.toUpperCase())}</b>`, `📦 ${esc(x.nome || 'Nome do produto')}`]
+  const b = tituloDe(x) ? [`${x.emoji_titulo || '🚨'} <b>${esc(tituloDe(x).toUpperCase())}</b>`, `📦 ${esc(x.nome || 'Nome do produto')}`]
     : [`📦 <b>${esc(x.nome || 'Nome do produto')}</b>`];
   const p = [];
   const o = offDe(x);
@@ -964,7 +967,7 @@ function cardRevisao(x){
   const nomeLoja = LOJAS[x.loja] || 'loja';
   return `<div class="of rc" data-edit="revisar" data-id="${esc(x.id)}" title="Clique para revisar">
     <div class="rc-tp">${loja(x.loja)}<span class="rc-f">${fonte}${x.garimpado_em ? ` · <span class="${velho ? 'velho' : ''}">${horaDia(x.garimpado_em)}</span>` : ''}</span></div>
-    <div class="rc-cp">${foto(x)}<div style="min-width:0">${x.titulo ? `<div class="tit">${esc(x.titulo)}</div>` : ''}<div class="nm">${esc(x.nome || x.link)}</div>${precoHTML(x)}${seloRevisao(x)}</div></div>
+    <div class="rc-cp">${foto(x)}<div style="min-width:0">${tituloDe(x) ? `<div class="tit">${esc(tituloDe(x))}</div>` : ''}<div class="nm">${esc(x.nome || x.link)}</div>${precoHTML(x)}${seloRevisao(x)}</div></div>
     <div class="rc-bt">
       <button class="btn gold" ${x.falta.length ? 'disabled title="Complete pelo editor"' : ''} onclick="fazer(this,'rev_aprovar','${x.id}')">${ic('check',16)}Aprovar</button>
       <button class="ib" title="Editar" onclick="editar('revisar','${x.id}')">${ic('editar',16)}</button>
@@ -980,7 +983,7 @@ function lixeira(){
       E.lixeira.length ? `<button class="btn ghost" onclick="confirmar('Esvaziar a lixeira?', 'Os ${E.lixeira.length} itens somem de vez e não dá para restaurar.', 'Esvaziar', b => fazer(b,'lixeira_esvaziar'))">${ic('lixo',16)}Esvaziar lixeira</button>` : '')
     + (E.lixeira.length ? `<div class="list">${E.lixeira.map(x => `<div class="of" ${x.url ? `data-url="${esc(x.url)}"` : ''}>${foto(x)}
       <div style="min-width:0"><div class="meta">${loja(x.loja)}<span>${x.removido_de === 'fila' ? 'tirada da fila' : x.expirou ? 'venceu sem revisão' : 'descartada da revisão'} ${quando(x.removido_em)}</span></div>
-        ${x.titulo ? `<div class="tit">${esc(x.titulo)}</div>` : ''}<div class="nm">${esc(x.nome || x.link)}</div>${x.por ? precoHTML(x) : ''}</div>
+        ${tituloDe(x) ? `<div class="tit">${esc(tituloDe(x))}</div>` : ''}<div class="nm">${esc(x.nome || x.link)}</div>${x.por ? precoHTML(x) : ''}</div>
       <div class="side-acts"><button class="btn gold sm" onclick="fazer(this,'lixeira_restaurar',${esc(JSON.stringify(x.id))})">Restaurar ${x.removido_de === 'fila' ? 'na fila' : 'em Revisar'}</button>
         <button class="btn sm ghost" onclick="fazer(this,'lixeira_apagar',${esc(JSON.stringify(x.id))})">${ic('lixo',15)}Apagar de vez</button></div>
     </div>`).join('')}</div>`
@@ -1086,7 +1089,7 @@ async function gerarLink(lojaId, url){
 function editorHTML(x, p){
   return `<div class="ed"><div class="f">
     <div id="${p}-alerta"></div>
-    <div class="fl"><label>Título (chamada no topo do post) <span>opcional</span></label><div class="in-ia"><input class="in" id="${p}-titulo" value="${esc(x.titulo)}" placeholder="Ex.: Troca o celular e ganha o relógio">${botaoIA(p, 'titulo')}</div></div>
+    <div class="fl"${comChamada() ? '' : ' style="display:none"'}><label>Título (chamada no topo do post) <span>opcional</span></label><div class="in-ia"><input class="in" id="${p}-titulo" value="${esc(x.titulo)}" placeholder="Ex.: Troca o celular e ganha o relógio">${botaoIA(p, 'titulo')}</div></div>
     <div class="fl"><label>Nome do produto <span id="${p}-cnt"></span></label><div class="in-ia"><input class="in" id="${p}-nome" value="${esc(x.nome)}" placeholder="Ex.: Creatina Growth 250g">${botaoIA(p, 'nome')}</div></div>
     <div class="two">
       <div class="fl"><label>Preço antes (De)</label><input class="in" id="${p}-de" inputmode="decimal" value="${num(x.de)}" placeholder="opcional"></div>

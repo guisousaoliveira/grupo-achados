@@ -294,6 +294,7 @@ def resumo(estado):
         "validade_horas": bot.CONFIG.get("validade_horas", 12),
         "canal": bot.CONFIG.get("canal_publico", ""),
         "canal_nome": bot.CONFIG.get("canal_nome", "Alpha Promo"),
+        "chamada": bot.chamada_ligada(),  # false: post sem a chamada, o painel esconde o campo Título
         "fila": fila,
         "revisar": [item_json(x, str(x["id"])) for x in sorted(estado["revisar"], key=lambda x: x["id"], reverse=True)],
         "ultimos": [item_json(x, bot.id_story(x)) for x in estado.get("ultimos", [])],
