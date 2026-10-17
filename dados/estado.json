@@ -2,33 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB60012839",
-      "origem": "promooeasy",
-      "link": "https://meli.la/1LxfAYV",
-      "link_produto": "https://www.mercadolivre.com.br/parafusadeira-furadeira-de-impacto-a-bateria-21v-38-bivolt-1400-rpm-com-acessorios-e-maleta-tb-21pzw-the-black-tools/p/MLB60012839",
-      "post_origem": "https://t.me/promooeasy/223317",
-      "link_canal": "https://www.mercadolivre.com.br/parafusadeira-furadeira-de-impacto-a-bateria-21v-38-bivolt-1400-rpm-com-acessorios-e-maleta-tb-21pzw-the-black-tools/p/MLB60012839?matt_word=promoeasynv&amp;matt_tool=88963738",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_660718-MLA99503122958_112025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Parafusadeira Furadeira De Impacto A Bateria 21V 3/8” Bivolt 1400 Rpm Com Acessórios E Maleta TB-21PZW The Black Tools",
-      "de": 259.9,
-      "por": 99.92,
-      "lido_ia": true,
-      "cupom": "RESGATEFULL1710",
-      "palavra": "parafusadeira",
-      "garimpado_em": "2026-10-17T00:30-03:00",
-      "nota": 68.2,
-      "titulo": "Parafusadeira a bateria para serviços em casa",
-      "na_revisao_desde": "2026-10-17T00:30-03:00",
-      "reconferido_em": "2026-10-17T00:30-03:00",
-      "preco_conferido": true,
-      "preco_cupom": true,
-      "preco_sem_cupom": 124.9,
-      "aprovado_sozinho": true,
-      "aprovado_em": "2026-10-17T00:30-03:00"
-    },
-    {
       "loja": "shopee",
       "chave": "shopee:1274163316.22798713695",
       "nome": "Óculos de sol de Madeira Bambu Premium Masculino Quadrado,  Proteção UV400",
@@ -2695,6 +2668,23 @@
       "secao": "estilo",
       "slot": 11.1,
       "foto_site_ok": true
+    },
+    {
+      "chave": "mercadolivre:MLB60012839",
+      "loja": "mercadolivre",
+      "nome": "Parafusadeira Furadeira De Impacto A Bateria 21V 3/8” Bivolt 1400 Rpm Com Acessórios E Maleta TB-21PZW The Black Tools",
+      "data": "2026-10-17T11:50-03:00",
+      "link": "https://meli.la/1LxfAYV",
+      "link_produto": "https://www.mercadolivre.com.br/parafusadeira-furadeira-de-impacto-a-bateria-21v-38-bivolt-1400-rpm-com-acessorios-e-maleta-tb-21pzw-the-black-tools/p/MLB60012839",
+      "titulo": "Parafusadeira a bateria para serviços em casa",
+      "de": 259.9,
+      "por": 99.92,
+      "cupom": "RESGATEFULL1710",
+      "conferido": true,
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_660718-MLA99503122958_112025-O.webp",
+      "secao": "casa",
+      "slot": 11.3,
+      "foto_site_ok": true
     }
   ],
   "slots_usados": {
@@ -2840,7 +2830,8 @@
       10.1,
       10.3,
       11,
-      11.1
+      11.1,
+      11.3
     ]
   },
   "shopee_buscado_em": "",
@@ -8738,6 +8729,20 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB60012839",
+      "origem": "promooeasy",
+      "link": "https://meli.la/1LxfAYV",
+      "link_produto": "https://www.mercadolivre.com.br/parafusadeira-furadeira-de-impacto-a-bateria-21v-38-bivolt-1400-rpm-com-acessorios-e-maleta-tb-21pzw-the-black-tools/p/MLB60012839",
+      "post_origem": "https://t.me/promooeasy/223317",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_660718-MLA99503122958_112025-O.webp",
+      "nome": "Parafusadeira Furadeira De Impacto A Bateria 21V 3/8” Bivolt 1400 Rpm Com Acessórios E Maleta TB-21PZW The Black Tools",
+      "de": 259.9,
+      "por": 99.92,
+      "cupom": "RESGATEFULL1710",
+      "titulo": "Parafusadeira a bateria para serviços em casa"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:952984700.19699847442",
       "nome": "Óculos de Sol masculino e feminina3",
@@ -9262,19 +9267,6 @@
       "de": 3199.0,
       "foto": "https://m.media-amazon.com/images/I/61HN+7ldJnL._AC_SL1500_.jpg",
       "titulo": "Smart TV 4K com Ambilight para a sala"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB48812123",
-      "origem": "promonocontext",
-      "link": "https://meli.la/2U2VHix",
-      "link_produto": "https://www.mercadolivre.com.br/whey-protein-bold-sabor-cookies-cream-900g/p/MLB48812123",
-      "post_origem": "https://t.me/promonocontext/127661",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_650074-MLA100047343909_122025-O.webp",
-      "nome": "Whey Protein Bold Sabor Cookies & Cream 900g",
-      "de": 299.0,
-      "por": 209.0,
-      "titulo": "Whey sabor cookies para bater a proteína diária"
     }
   ],
   "lixeira": [
@@ -10925,5 +10917,5 @@
     }
   },
   "aviso_ml": "2026-10-16",
-  "vitrine_marca": "e8894defd360"
+  "vitrine_marca": "825256e9c8ad"
 }
