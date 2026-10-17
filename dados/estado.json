@@ -2,28 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "amazon",
-      "chave": "amazon:B0CXVBVT83",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B0CXVBVT83?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0CXVBVT83?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/caixa-de-som-party-box-aiwa-bluetooth-luzes-multicores-aws-pb-04-party-box-aws-pb-04-bivolt-3120535/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3120535/",
-      "nome": "Caixa de Som Party Box, Aiwa, Bluetooth, Luzes Multicores",
-      "por": 1499.0,
-      "de": 2299.0,
-      "foto": "https://m.media-amazon.com/images/I/81iKOC6sJJL._AC_SL1500_.jpg",
-      "foto_origem": "loja",
-      "palavra": "caixa de som",
-      "garimpado_em": "2026-10-16T22:20-03:00",
-      "nota": 48.0,
-      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
-      "titulo": "Caixa de som Bluetooth para animar festas e churrascos",
-      "na_revisao_desde": "2026-10-17T00:00-03:00",
-      "aprovado_em": "2026-10-17T00:32-03:00"
-    },
-    {
       "loja": "shopee",
       "chave": "shopee:952984700.19699847442",
       "nome": "Óculos de Sol masculino e feminina3",
@@ -2709,6 +2687,21 @@
       "secao": "estilo",
       "slot": 10.3,
       "foto_site_ok": true
+    },
+    {
+      "chave": "amazon:B0CXVBVT83",
+      "loja": "amazon",
+      "nome": "Caixa de Som Party Box, Aiwa, Bluetooth, Luzes Multicores",
+      "data": "2026-10-17T11:13-03:00",
+      "link": "https://www.amazon.com.br/dp/B0CXVBVT83?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0CXVBVT83?tag=alphadominu09-20",
+      "titulo": "Caixa de som Bluetooth para animar festas e churrascos",
+      "de": 2299.0,
+      "por": 1499.0,
+      "foto": "https://m.media-amazon.com/images/I/81iKOC6sJJL._AC_SL1500_.jpg",
+      "secao": "tech",
+      "slot": 11,
+      "foto_site_ok": true
     }
   ],
   "slots_usados": {
@@ -2852,7 +2845,8 @@
       9.2,
       10,
       10.1,
-      10.3
+      10.3,
+      11
     ]
   },
   "shopee_buscado_em": "",
@@ -8610,6 +8604,20 @@
   },
   "ultimos": [
     {
+      "loja": "amazon",
+      "chave": "amazon:B0CXVBVT83",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0CXVBVT83?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0CXVBVT83?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/caixa-de-som-party-box-aiwa-bluetooth-luzes-multicores-aws-pb-04-party-box-aws-pb-04-bivolt-3120535/",
+      "nome": "Caixa de Som Party Box, Aiwa, Bluetooth, Luzes Multicores",
+      "por": 1499.0,
+      "de": 2299.0,
+      "foto": "https://m.media-amazon.com/images/I/81iKOC6sJJL._AC_SL1500_.jpg",
+      "titulo": "Caixa de som Bluetooth para animar festas e churrascos"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:1274163316.23098737531",
       "nome": "Óculos de Sol Retrô da moda Fashion UV400 Haste Dourada",
@@ -9133,20 +9141,6 @@
       "origem": "shopee",
       "fonte": "shopee",
       "titulo": "Termogênico com cafeína e vitaminas para dar energia no trei"
-    },
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0GXX1XDWZ",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B0GXX1XDWZ?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0GXX1XDWZ?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/cafeteira-eletrica-essential-coffee-elgin-19-xicaras-jarra-de-vidro-110v-3119268/",
-      "nome": "Cafeteira Elétrica Essential Coffee Elgin",
-      "por": 79.8,
-      "de": 129.0,
-      "foto": "https://m.media-amazon.com/images/I/51kh9gWb2eL._AC_SL1000_.jpg",
-      "titulo": "Cafeteira elétrica para preparar o café do dia a dia"
     }
   ],
   "lixeira": [
@@ -10792,5 +10786,5 @@
     }
   },
   "aviso_ml": "2026-10-16",
-  "vitrine_marca": "d1d15048651f"
+  "vitrine_marca": "3c87fef84bad"
 }
