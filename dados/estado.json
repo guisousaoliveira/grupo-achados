@@ -163,6 +163,28 @@
       "titulo": "Creatina Creapure Growth para ganho de força",
       "na_revisao_desde": "2026-10-16T23:00-03:00",
       "aprovado_em": "2026-10-16T23:02-03:00"
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0F3PT467Y",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0F3PT467Y?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0F3PT467Y?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/mondial-aparador-de-pelos-praticgroom-preto-bivolt-bg-09-3120452/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3120452/",
+      "nome": "MONDIAL Aparador de Pelos PraticGroom, Preto, Bivolt",
+      "por": 75.9,
+      "de": 179.9,
+      "foto": "AgACAgQAAxkDAAIEx2rS1uMehIuWzj_GaORaNxkNNxJEAAKGDWsblvmtUV9IKTZuZ36DAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "palavra": "aparador",
+      "garimpado_em": "2026-10-16T21:40-03:00",
+      "nota": 60.7,
+      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
+      "titulo": "Aparador bivolt para manter a higiene corporal",
+      "na_revisao_desde": "2026-10-16T23:01-03:00",
+      "aprovado_em": "2026-10-16T23:02-03:00"
     }
   ],
   "postados": [
@@ -2521,31 +2543,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "amazon",
-      "chave": "amazon:B0F3PT467Y",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B0F3PT467Y?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B0F3PT467Y?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/mondial-aparador-de-pelos-praticgroom-preto-bivolt-bg-09-3120452/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3120452/",
-      "nome": "MONDIAL Aparador de Pelos PraticGroom, Preto, Bivolt",
-      "por": 75.9,
-      "de": 179.9,
-      "foto": "AgACAgQAAxkDAAIEx2rS1uMehIuWzj_GaORaNxkNNxJEAAKGDWsblvmtUV9IKTZuZ36DAQADAgADeQADPQQ",
-      "foto_origem": "loja",
-      "palavra": "aparador",
-      "garimpado_em": "2026-10-16T21:40-03:00",
-      "nota": 60.7,
-      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
-      "titulo": "Aparador bivolt para manter a higiene corporal",
-      "id": 721,
-      "na_revisao_desde": "2026-10-16T23:01-03:00",
-      "msg_id": 1223
-    }
-  ],
+  "revisar": [],
   "proximo_id": 722,
   "radar": {
     "visto": {
@@ -9345,7 +9343,7 @@
       },
       "promobit": {
         "achados": 13,
-        "aprovados": 7,
+        "aprovados": 8,
         "reprovados": 5
       },
       "promonocontext": {
@@ -9419,7 +9417,7 @@
     },
     "aparador": {
       "achados": 8,
-      "aprovados": 0,
+      "aprovados": 1,
       "reprovados": 4
     },
     "barba": {
@@ -9785,7 +9783,7 @@
       "18": 2,
       "19": 1,
       "22": 8,
-      "23": 1
+      "23": 2
     }
   },
   "aviso_ml": "2026-10-16",
