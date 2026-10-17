@@ -96,6 +96,75 @@
       "titulo": "Airfryer oven 11L para assar refeições completas",
       "na_revisao_desde": "2026-10-16T19:01-03:00",
       "aprovado_em": "2026-10-16T19:01-03:00"
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:446247790.23994831748",
+      "nome": "Kit Mass Hipercalórico + Bcaa + Creatina + Glutamina + Coqueteleira - Espartanos",
+      "por": 99.99,
+      "de": 129.86,
+      "foto": "https://cf.shopee.com.br/file/br-11134207-820m5-msfjifb7jtol0a",
+      "link": "https://s.shopee.com.br/50ZtQ9AsX8",
+      "link_produto": "https://shopee.com.br/product/446247790/23994831748",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.8,
+      "vendas": 110,
+      "palavra": "creatina",
+      "garimpado_em": "2026-10-16T22:00-03:00",
+      "nota": 65.9,
+      "titulo": "Kit completo de suplementos para ganho de peso",
+      "aprovado_sozinho": true,
+      "aprovado_em": "2026-10-16T22:08-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB25970762",
+      "origem": "promonocontext",
+      "link": "https://meli.la/2fbJ5UT",
+      "link_produto": "https://www.mercadolivre.com.br/relogio-masculino-de-couro-de-quartzo-preto-tommy-hilfiger/p/MLB25970762",
+      "post_origem": "https://t.me/promonocontext/127765",
+      "link_canal": "https://meli.la/2MjRNQ2",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_858935-MLU77144326326_062024-O.webp",
+      "foto_origem": "loja",
+      "nome": "Relógio Masculino de Couro de Quartzo Preto Tommy Hilfiger",
+      "de": 990.0,
+      "por": 450.0,
+      "lido_ia": true,
+      "cupom": "OFFHOJE",
+      "preco_conferido": true,
+      "preco_cupom": true,
+      "preco_sem_cupom": 500.94,
+      "palavra": "relogio masculino",
+      "garimpado_em": "2026-10-16T19:50-03:00",
+      "nota": 84.4,
+      "titulo": "Relógio de couro preto para o dia a dia",
+      "aprovado_sozinho": true,
+      "aprovado_em": "2026-10-16T22:08-03:00"
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:347988064.22292694966",
+      "nome": "Pré-Treino Sixt Army Night 300g Soldiers Nutrition Pré Treino Pre Workout Termogênico Energia Foco Resistência Academia",
+      "por": 59.9,
+      "de": 79.87,
+      "foto": "https://cf.shopee.com.br/file/br-11134207-7r98o-mcatd83t8lijb3",
+      "link": "https://s.shopee.com.br/8AWvBy3IAq",
+      "link_produto": "https://shopee.com.br/product/347988064/22292694966",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.9,
+      "vendas": 215,
+      "palavra": "pre-treino",
+      "garimpado_em": "2026-10-16T22:00-03:00",
+      "nota": 54.6,
+      "titulo": "Pré-treino para dar energia e foco na academia",
+      "aprovado_sozinho": true,
+      "aprovado_em": "2026-10-16T22:08-03:00"
     }
   ],
   "postados": [
@@ -2357,19 +2426,143 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [],
-  "proximo_id": 712,
+  "revisar": [
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB6907847024",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/21g9c8T",
+      "link_produto": "https://www.mercadolivre.com.br/relogio-masculino-couro-aco-inoxidavel-preto-social/up/MLBU4045655127?pdp_filters=item_id%3AMLB6907847024",
+      "post_origem": "https://t.me/lobaopromo/190577",
+      "link_canal": "https://meli.la/2jHhjyJ",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_910571-MLB116279629539_082026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Relogio Masculino Couro Aco Inoxidavel Preto Social Preto Prateado",
+      "de": 82.0,
+      "por": 30.0,
+      "lido_ia": true,
+      "cupom": "CUPOMON",
+      "preco_loja": 54.99,
+      "palavra": "relogio masculino",
+      "garimpado_em": "2026-10-16T20:40-03:00",
+      "nota": 91.8,
+      "motivo_revisao": "o post diz R$ 30,00 e a loja mostra R$ 54,99, e não tem cupom ou Pix que explique a diferença",
+      "titulo": "Relógio social sóbrio para usar no trabalho",
+      "id": 712,
+      "na_revisao_desde": "2026-10-16T22:08-03:00",
+      "msg_id": 1213
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B000CNKITS",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B000CNKITS?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B000CNKITS?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/azzaro-pour-homme-perfume-masculino-eau-de-toilette-3120325/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3120325/",
+      "nome": "Azzaro Pour Homme Perfume Masculino Eau De Toilette",
+      "por": 179.99,
+      "de": 299.0,
+      "foto": "AgACAgQAAxkDAAIEvmrSyqZUy1ejEozEZ_d41peiMYAmAAJFDWsbdSFkUS34l7skC9biAQADAgADeQADPQQ",
+      "foto_origem": "loja",
+      "palavra": "perfume masculino",
+      "garimpado_em": "2026-10-16T20:30-03:00",
+      "nota": 74.4,
+      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
+      "titulo": "Perfume amadeirado clássico para uso diário",
+      "id": 713,
+      "na_revisao_desde": "2026-10-16T22:08-03:00",
+      "msg_id": 1214
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0BLSZW19L",
+      "origem": "lobaopromo",
+      "link": "https://www.amazon.com.br/dp/B0BLSZW19L?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0BLSZW19L?tag=alphadominu09-20",
+      "post_origem": "https://t.me/lobaopromo/190597",
+      "link_canal": "https://amzlink.to/az0ktP4I8HIdC",
+      "foto": "AgACAgQAAxkDAAIEwWrSyqo_-mIfOB63BL9SOWiNTP3FAALCDGsb3nqdUzirDNEcMA2KAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "nome": "Churrasqueira Elétrica De Mesa Bbq Show Elgin 110V",
+      "pix": true,
+      "de": 129.0,
+      "por": 84.45,
+      "lido_ia": true,
+      "sem_preco_loja": true,
+      "loja_abriu": true,
+      "palavra": "churrasqueira",
+      "garimpado_em": "2026-10-16T21:14-03:00",
+      "nota": 66.8,
+      "motivo_revisao": "a página da loja abriu, mas não mostra preço (esgotado ou sem vendedor principal)",
+      "titulo": "Churrasqueira elétrica compacta para assar carne na mesa",
+      "id": 716,
+      "na_revisao_desde": "2026-10-16T22:08-03:00",
+      "msg_id": 1217,
+      "reconferido_em": "2026-10-16T22:09-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB45745391",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/1bWux1D",
+      "link_produto": "https://www.mercadolivre.com.br/mochila-viagem-40l-grande-expansivel-antifurto-impermeavel-aviao-mala-de-mao-item-pessoal-masculina-feminina-yorepek-liso/p/MLB45745391",
+      "post_origem": "https://t.me/lobaopromo/190556",
+      "link_canal": "https://meli.la/1d5cq3z",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_811368-MLA116853651215_082026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Mochila Viagem 40L Grande Expansível Antifurto Impermeável Aviao Mala",
+      "de": 200.0,
+      "por": 115.0,
+      "lido_ia": true,
+      "cupom": "ECONOMIZEI",
+      "preco_loja": 165.0,
+      "palavra": "mochila",
+      "garimpado_em": "2026-10-16T19:40-03:00",
+      "nota": 78.8,
+      "motivo_revisao": "o post diz R$ 115,00 e a loja mostra R$ 165,00, e não tem cupom ou Pix que explique a diferença",
+      "titulo": "Mochila grande expansível para viagens e voos",
+      "id": 718,
+      "na_revisao_desde": "2026-10-16T22:09-03:00",
+      "msg_id": 1219
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0C9QSV82F",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0C9QSV82F?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0C9QSV82F?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/geonav-power-bank-carregador-portatil-universal-por-inducao-10000mah-carregamento-rapido-suporte-dobravel-compativel-com-magsafe-pb10mags-3120260/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3120260/",
+      "nome": "Geonav Power Bank",
+      "por": 149.89,
+      "de": 299.0,
+      "foto": "https://m.media-amazon.com/images/I/615U7klnYVL._AC_SL1500_.jpg",
+      "foto_origem": "loja",
+      "palavra": "power bank",
+      "garimpado_em": "2026-10-16T20:10-03:00",
+      "nota": 63.0,
+      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
+      "titulo": "Power bank portátil para carregar o celular na rua",
+      "id": 719,
+      "na_revisao_desde": "2026-10-16T22:09-03:00",
+      "msg_id": 1220
+    }
+  ],
+  "proximo_id": 720,
   "radar": {
     "visto": {
-      "xetdaspromocoes": 85283,
+      "xetdaspromocoes": 85285,
       "lobaopromo": 190617,
-      "gatunopromos": 125817,
+      "gatunopromos": 125818,
       "pobregram": 42053,
       "urubupromo": 41800,
       "tudonapromo": 102224,
-      "promonocontext": 127803,
-      "promooeasy": 223234,
-      "aquitempechincha": 282256,
+      "promonocontext": 127805,
+      "promooeasy": 223238,
+      "aquitempechincha": 282257,
       "infoBRpromos": 67719,
       "boletando": 76860,
       "promotop": 260394,
@@ -4561,27 +4754,27 @@
       "shopee:337962769.6163671076"
     ],
     "ultima": {
-      "em": "2026-10-16T22:00:27-03:00",
-      "pedido": "",
-      "forcado": false,
+      "em": "2026-10-16T22:08:21-03:00",
+      "pedido": "c5bde0e28a",
+      "forcado": true,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 37,
-      "do_nicho": 3,
-      "repetidas": 2,
+      "posts_novos": 20,
+      "do_nicho": 0,
+      "repetidas": 0,
       "novas": 0,
       "limite_dia": false,
-      "repetidas_nome": 1,
+      "repetidas_nome": 0,
       "promobit": 0,
-      "soltas": 0,
-      "na_peneira": 23
+      "soltas": 8,
+      "na_peneira": 17
     },
     "hora": "2026-10-16T22",
     "nesta_hora": 1,
     "promobit_hora": "2026-10-16T22",
     "promobit_nesta_hora": 0,
-    "promobit_visto": 3120503,
+    "promobit_visto": 3120515,
     "nomes": [
       [
         [
@@ -7094,6 +7287,96 @@
           "longa"
         ],
         "2026-10-16T19:50-03:00"
+      ],
+      [
+        [
+          "relogio",
+          "couro",
+          "aco",
+          "inoxidavel",
+          "social",
+          "prateado"
+        ],
+        "2026-10-16T22:08-03:00"
+      ],
+      [
+        [
+          "azzaro",
+          "pour",
+          "homme",
+          "perfume",
+          "eau",
+          "toilette"
+        ],
+        "2026-10-16T22:08-03:00"
+      ],
+      [
+        [
+          "mass",
+          "hipercalorico",
+          "bcaa",
+          "creatina",
+          "glutamina",
+          "coqueteleira",
+          "espartanos"
+        ],
+        "2026-10-16T22:08-03:00"
+      ],
+      [
+        [
+          "relogio",
+          "couro",
+          "quartzo",
+          "tommy",
+          "hilfiger"
+        ],
+        "2026-10-16T22:08-03:00"
+      ],
+      [
+        [
+          "churrasqueira",
+          "eletrica",
+          "mesa",
+          "bbq",
+          "show",
+          "elgin",
+          "110v"
+        ],
+        "2026-10-16T22:08-03:00"
+      ],
+      [
+        [
+          "pre",
+          "treino",
+          "sixt",
+          "army",
+          "night",
+          "300g",
+          "soldiers",
+          "nutrition"
+        ],
+        "2026-10-16T22:08-03:00"
+      ],
+      [
+        [
+          "mochila",
+          "viagem",
+          "40l",
+          "grande",
+          "expansivel",
+          "antifurto",
+          "impermeavel",
+          "aviao"
+        ],
+        "2026-10-16T22:08-03:00"
+      ],
+      [
+        [
+          "geonav",
+          "power",
+          "bank"
+        ],
+        "2026-10-16T22:09-03:00"
       ]
     ],
     "peneira": [
@@ -7157,26 +7440,6 @@
       },
       {
         "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB45745391",
-        "origem": "lobaopromo",
-        "link": "https://www.mercadolivre.com.br/mochila-viagem-40l-grande-expansivel-antifurto-impermeavel-aviao-mala-de-mao-item-pessoal-masculina-feminina-yorepek-liso/p/MLB45745391?matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/mochila-viagem-40l-grande-expansivel-antifurto-impermeavel-aviao-mala-de-mao-item-pessoal-masculina-feminina-yorepek-liso/p/MLB45745391",
-        "post_origem": "https://t.me/lobaopromo/190556",
-        "link_canal": "https://meli.la/1d5cq3z",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_811368-MLA116853651215_082026-O.webp",
-        "foto_origem": "loja",
-        "nome": "Mochila Viagem 40L Grande Expansível Antifurto Impermeável Aviao Mala",
-        "de": 200.0,
-        "por": 115.0,
-        "lido_ia": true,
-        "cupom": "ECONOMIZEI",
-        "preco_loja": 165.0,
-        "palavra": "mochila",
-        "garimpado_em": "2026-10-16T19:40-03:00",
-        "nota": 78.8
-      },
-      {
-        "loja": "mercadolivre",
         "chave": "mercadolivre:MLB4181567053",
         "origem": "promonocontext",
         "link": "https://produto.mercadolivre.com.br/MLB-4181567053-kit-6-cueca-polo-wear-microfibra-6-meia-cano-medio-algodo-_JM?pdp_filters=item_id%3AMLB4181567053&matt_word=alphapromo&matt_tool=59136903",
@@ -7193,28 +7456,6 @@
         "palavra": "cueca",
         "garimpado_em": "2026-10-16T19:40-03:00",
         "nota": 46.8
-      },
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB25970762",
-        "origem": "promonocontext",
-        "link": "https://www.mercadolivre.com.br/relogio-masculino-de-couro-de-quartzo-preto-tommy-hilfiger/p/MLB25970762?matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/relogio-masculino-de-couro-de-quartzo-preto-tommy-hilfiger/p/MLB25970762",
-        "post_origem": "https://t.me/promonocontext/127765",
-        "link_canal": "https://meli.la/2MjRNQ2",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_858935-MLU77144326326_062024-O.webp",
-        "foto_origem": "loja",
-        "nome": "Relógio Masculino de Couro de Quartzo Preto Tommy Hilfiger",
-        "de": 990.0,
-        "por": 450.0,
-        "lido_ia": true,
-        "cupom": "OFFHOJE",
-        "preco_conferido": true,
-        "preco_cupom": true,
-        "preco_sem_cupom": 500.94,
-        "palavra": "relogio masculino",
-        "garimpado_em": "2026-10-16T19:50-03:00",
-        "nota": 84.4
       },
       {
         "loja": "mercadolivre",
@@ -7294,24 +7535,6 @@
         "nota": 58.1
       },
       {
-        "loja": "amazon",
-        "chave": "amazon:B0C9QSV82F",
-        "origem": "promobit",
-        "fonte": "promobit",
-        "link": "https://www.amazon.com.br/dp/B0C9QSV82F?tag=alphadominu09-20",
-        "link_produto": "https://www.amazon.com.br/dp/B0C9QSV82F?tag=alphadominu09-20",
-        "post_origem": "https://www.promobit.com.br/oferta/geonav-power-bank-carregador-portatil-universal-por-inducao-10000mah-carregamento-rapido-suporte-dobravel-compativel-com-magsafe-pb10mags-3120260/",
-        "link_canal": "https://www.promobit.com.br/Redirect/to/3120260/",
-        "nome": "Geonav Power Bank",
-        "por": 149.89,
-        "de": 299.0,
-        "foto": "https://m.media-amazon.com/images/I/615U7klnYVL._AC_SL1500_.jpg",
-        "foto_origem": "loja",
-        "palavra": "power bank",
-        "garimpado_em": "2026-10-16T20:10-03:00",
-        "nota": 63.0
-      },
-      {
         "loja": "mercadolivre",
         "chave": "mercadolivre:MLB48946085",
         "origem": "promooeasy",
@@ -7333,24 +7556,6 @@
       },
       {
         "loja": "amazon",
-        "chave": "amazon:B000CNKITS",
-        "origem": "promobit",
-        "fonte": "promobit",
-        "link": "https://www.amazon.com.br/dp/B000CNKITS?tag=alphadominu09-20",
-        "link_produto": "https://www.amazon.com.br/dp/B000CNKITS?tag=alphadominu09-20",
-        "post_origem": "https://www.promobit.com.br/oferta/azzaro-pour-homme-perfume-masculino-eau-de-toilette-3120325/",
-        "link_canal": "https://www.promobit.com.br/Redirect/to/3120325/",
-        "nome": "Azzaro Pour Homme Perfume Masculino Eau De Toilette",
-        "por": 179.99,
-        "de": 299.0,
-        "foto": "https://m.media-amazon.com/images/I/61xKlHoVKhL._AC_SL1500_.jpg",
-        "foto_origem": "loja",
-        "palavra": "perfume masculino",
-        "garimpado_em": "2026-10-16T20:30-03:00",
-        "nota": 74.4
-      },
-      {
-        "loja": "amazon",
         "chave": "amazon:B0B8PDL7D4",
         "origem": "promobit",
         "fonte": "promobit",
@@ -7365,26 +7570,6 @@
         "palavra": "garrafa termica",
         "garimpado_em": "2026-10-16T20:40-03:00",
         "nota": 50.5
-      },
-      {
-        "loja": "mercadolivre",
-        "chave": "mercadolivre:MLB6907847024",
-        "origem": "lobaopromo",
-        "link": "https://www.mercadolivre.com.br/relogio-masculino-couro-aco-inoxidavel-preto-social/up/MLBU4045655127?pdp_filters=item_id%3AMLB6907847024&matt_word=alphapromo&matt_tool=59136903",
-        "link_produto": "https://www.mercadolivre.com.br/relogio-masculino-couro-aco-inoxidavel-preto-social/up/MLBU4045655127?pdp_filters=item_id%3AMLB6907847024",
-        "post_origem": "https://t.me/lobaopromo/190577",
-        "link_canal": "https://meli.la/2jHhjyJ",
-        "foto": "https://http2.mlstatic.com/D_NQ_NP_910571-MLB116279629539_082026-O.webp",
-        "foto_origem": "loja",
-        "nome": "Relogio Masculino Couro Aco Inoxidavel Preto Social Preto Prateado",
-        "de": 82.0,
-        "por": 30.0,
-        "lido_ia": true,
-        "cupom": "CUPOMON",
-        "preco_loja": 54.99,
-        "palavra": "relogio masculino",
-        "garimpado_em": "2026-10-16T20:40-03:00",
-        "nota": 91.8
       },
       {
         "loja": "mercadolivre",
@@ -7463,27 +7648,6 @@
       },
       {
         "loja": "amazon",
-        "chave": "amazon:B0BLSZW19L",
-        "origem": "lobaopromo",
-        "link": "https://www.amazon.com.br/dp/B0BLSZW19L?tag=alphadominu09-20",
-        "link_produto": "https://www.amazon.com.br/dp/B0BLSZW19L?tag=alphadominu09-20",
-        "post_origem": "https://t.me/lobaopromo/190597",
-        "link_canal": "https://amzlink.to/az0ktP4I8HIdC",
-        "foto": "https://m.media-amazon.com/images/I/51cuJ-xzcAL._AC_SL1000_.jpg",
-        "foto_origem": "loja",
-        "nome": "Churrasqueira Elétrica De Mesa Bbq Show Elgin 110V",
-        "pix": true,
-        "de": 129.0,
-        "por": 84.45,
-        "lido_ia": true,
-        "sem_preco_loja": true,
-        "loja_abriu": true,
-        "palavra": "churrasqueira",
-        "garimpado_em": "2026-10-16T21:14-03:00",
-        "nota": 66.8
-      },
-      {
-        "loja": "amazon",
         "chave": "amazon:B0FNGMWY42",
         "origem": "promobit",
         "fonte": "promobit",
@@ -7535,53 +7699,19 @@
         "palavra": "creatina",
         "garimpado_em": "2026-10-16T21:50-03:00",
         "nota": 78.6
-      },
-      {
-        "loja": "shopee",
-        "chave": "shopee:446247790.23994831748",
-        "nome": "Kit Mass Hipercalórico + Bcaa + Creatina + Glutamina + Coqueteleira - Espartanos",
-        "por": 99.99,
-        "de": 129.86,
-        "foto": "https://cf.shopee.com.br/file/br-11134207-820m5-msfjifb7jtol0a",
-        "link": "https://s.shopee.com.br/50ZtQ9AsX8",
-        "link_produto": "https://shopee.com.br/product/446247790/23994831748",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 4.8,
-        "vendas": 110,
-        "palavra": "creatina",
-        "garimpado_em": "2026-10-16T22:00-03:00",
-        "nota": 65.9
-      },
-      {
-        "loja": "shopee",
-        "chave": "shopee:347988064.22292694966",
-        "nome": "Pré-Treino Sixt Army Night 300g Soldiers Nutrition Pré Treino Pre Workout Termogênico Energia Foco Resistência Academia",
-        "por": 59.9,
-        "de": 79.87,
-        "foto": "https://cf.shopee.com.br/file/br-11134207-7r98o-mcatd83t8lijb3",
-        "link": "https://s.shopee.com.br/8AWvBy3IAq",
-        "link_produto": "https://shopee.com.br/product/347988064/22292694966",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 4.9,
-        "vendas": 215,
-        "palavra": "pre-treino",
-        "garimpado_em": "2026-10-16T22:00-03:00",
-        "nota": 54.6
       }
     ],
     "soltas_hora": "2026-10-16T22",
-    "soltas": 0,
+    "soltas": 8,
     "shopee_em": "2026-10-16T22:00-03:00",
     "shopee_indice": 88,
     "soltas_dia_data": "2026-10-16",
-    "soltas_dia": 80,
-    "soltas_loja": {},
+    "soltas_dia": 88,
+    "soltas_loja": {
+      "mercadolivre": 3,
+      "amazon": 3,
+      "shopee": 2
+    },
     "soltas_vez": "2026-10-16T22:0"
   },
   "ultimos": [
@@ -9265,22 +9395,22 @@
     },
     "2026-10-16": {
       "shopee": {
-        "achados": 19,
+        "achados": 21,
         "aprovados": 0,
         "reprovados": 1
       },
       "promobit": {
-        "achados": 10,
+        "achados": 12,
         "aprovados": 5,
         "reprovados": 5
       },
       "promonocontext": {
-        "achados": 11,
+        "achados": 12,
         "aprovados": 6,
         "reprovados": 1
       },
       "lobaopromo": {
-        "achados": 12,
+        "achados": 15,
         "aprovados": 8,
         "reprovados": 1
       },
@@ -9429,7 +9559,7 @@
       "reprovados": 1
     },
     "creatina": {
-      "achados": 24,
+      "achados": 25,
       "aprovados": 13,
       "reprovados": 11
     },
@@ -9484,7 +9614,7 @@
       "reprovados": 1
     },
     "mochila": {
-      "achados": 16,
+      "achados": 17,
       "aprovados": 7,
       "reprovados": 7
     },
@@ -9504,12 +9634,12 @@
       "reprovados": 6
     },
     "perfume masculino": {
-      "achados": 9,
+      "achados": 10,
       "aprovados": 7,
       "reprovados": 2
     },
     "power bank": {
-      "achados": 13,
+      "achados": 14,
       "aprovados": 3,
       "reprovados": 8
     },
@@ -9554,7 +9684,7 @@
       "reprovados": 8
     },
     "relogio masculino": {
-      "achados": 8,
+      "achados": 10,
       "aprovados": 4,
       "reprovados": 3
     },
@@ -9674,8 +9804,13 @@
       "reprovados": 0
     },
     "churrasqueira": {
-      "achados": 1,
+      "achados": 2,
       "aprovados": 1,
+      "reprovados": 0
+    },
+    "pre-treino": {
+      "achados": 1,
+      "aprovados": 0,
       "reprovados": 0
     }
   },
@@ -9704,7 +9839,8 @@
       "16": 2,
       "17": 3,
       "18": 2,
-      "19": 1
+      "19": 1,
+      "22": 3
     }
   },
   "aviso_ml": "2026-10-16",
