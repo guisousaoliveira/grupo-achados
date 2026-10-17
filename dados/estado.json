@@ -2,32 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB70102902",
-      "origem": "urubupromo",
-      "link": "https://meli.la/2CnWqKa",
-      "link_produto": "https://www.mercadolivre.com.br/caixa-de-som-boombox-sabala-bluetooth-54-portatil-potente-dr909-200w-estereo-39000mah-app-20khz-tws-ipx66-preto/p/MLB70102902",
-      "post_origem": "https://t.me/urubupromo/41806",
-      "link_canal": "https://meli.la/1Eokm7q",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_614188-MLA116522689453_082026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Caixa De Som Boombox sabala Bluetooth 5.4 Portátil potente dr909 200w",
-      "pix": true,
-      "por": 1127.0,
-      "lido_ia": true,
-      "cupom": "SITE50",
-      "preco_conferido": true,
-      "preco_cupom": true,
-      "preco_sem_cupom": 1173.0,
-      "palavra": "caixa de som",
-      "garimpado_em": "2026-10-17T10:30-03:00",
-      "nota": 38.7,
-      "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto",
-      "titulo": "Som potente de 200W para qualquer ambiente",
-      "na_revisao_desde": "2026-10-17T11:21-03:00",
-      "aprovado_em": "2026-10-17T13:01-03:00"
-    },
-    {
       "loja": "shopee",
       "chave": "shopee:1385382926.19697971669",
       "nome": "Tenis Masculino Casual Unissex Branco 34 Ao 43 Macio Confortável Branco Preto Cinza",
@@ -3289,6 +3263,23 @@
       "secao": "academia",
       "slot": 16.1,
       "foto_site_ok": true
+    },
+    {
+      "chave": "mercadolivre:MLB70102902",
+      "loja": "mercadolivre",
+      "nome": "Caixa De Som Boombox sabala Bluetooth 5.4 Portátil potente dr909 200w",
+      "data": "2026-10-17T16:38-03:00",
+      "link": "https://meli.la/2CnWqKa",
+      "link_produto": "https://www.mercadolivre.com.br/caixa-de-som-boombox-sabala-bluetooth-54-portatil-potente-dr909-200w-estereo-39000mah-app-20khz-tws-ipx66-preto/p/MLB70102902",
+      "titulo": "Som potente de 200W para qualquer ambiente",
+      "por": 1127.0,
+      "cupom": "SITE50",
+      "pix": true,
+      "conferido": true,
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_614188-MLA116522689453_082026-O.webp",
+      "secao": "tech",
+      "slot": 16.2,
+      "foto_site_ok": true
     }
   ],
   "slots_usados": {
@@ -3453,7 +3444,8 @@
       15.2,
       15.3,
       16,
-      16.1
+      16.1,
+      16.2
     ]
   },
   "shopee_buscado_em": "",
@@ -9622,6 +9614,20 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB70102902",
+      "origem": "urubupromo",
+      "link": "https://meli.la/2CnWqKa",
+      "link_produto": "https://www.mercadolivre.com.br/caixa-de-som-boombox-sabala-bluetooth-54-portatil-potente-dr909-200w-estereo-39000mah-app-20khz-tws-ipx66-preto/p/MLB70102902",
+      "post_origem": "https://t.me/urubupromo/41806",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_614188-MLA116522689453_082026-O.webp",
+      "nome": "Caixa De Som Boombox sabala Bluetooth 5.4 Portátil potente dr909 200w",
+      "pix": true,
+      "por": 1127.0,
+      "cupom": "SITE50",
+      "titulo": "Som potente de 200W para qualquer ambiente"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:1085770008.22098945621",
       "nome": "Luva para Musculação Treino Grip Protetor de Mão Cross Fit Antiderrapante Halteres e Barras Max Grip Fitness",
@@ -10148,20 +10154,6 @@
       "origem": "shopee",
       "fonte": "shopee",
       "titulo": "Pré-treino para dar energia e foco na academia"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB25970762",
-      "origem": "promonocontext",
-      "link": "https://meli.la/2fbJ5UT",
-      "link_produto": "https://www.mercadolivre.com.br/relogio-masculino-de-couro-de-quartzo-preto-tommy-hilfiger/p/MLB25970762",
-      "post_origem": "https://t.me/promonocontext/127765",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_858935-MLU77144326326_062024-O.webp",
-      "nome": "Relógio Masculino de Couro de Quartzo Preto Tommy Hilfiger",
-      "de": 990.0,
-      "por": 450.0,
-      "cupom": "OFFHOJE",
-      "titulo": "Relógio de couro preto para o dia a dia"
     }
   ],
   "lixeira": [],
@@ -10876,5 +10868,5 @@
     }
   },
   "aviso_ml": "2026-10-17",
-  "vitrine_marca": "080126118fff"
+  "vitrine_marca": "44c62cd545f3"
 }
