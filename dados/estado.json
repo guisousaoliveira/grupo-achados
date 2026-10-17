@@ -214,6 +214,28 @@
       "aprovado_em": "2026-10-17T00:30-03:00"
     },
     {
+      "loja": "shopee",
+      "chave": "shopee:1274163316.22798713695",
+      "nome": "Óculos de sol de Madeira Bambu Premium Masculino Quadrado,  Proteção UV400",
+      "por": 14.12,
+      "de": 36.21,
+      "foto": "https://cf.shopee.com.br/file/br-11134207-820lm-mnyoq7ebzdvm11",
+      "link": "https://s.shopee.com.br/8fTCS67ZGw",
+      "link_produto": "https://shopee.com.br/product/1274163316/22798713695",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.8,
+      "vendas": 840,
+      "palavra": "oculos de sol",
+      "garimpado_em": "2026-10-17T08:01-03:00",
+      "nota": 77.1,
+      "titulo": "Óculos quadrado em bambu com proteção UV400",
+      "aprovado_sozinho": true,
+      "aprovado_em": "2026-10-17T08:21-03:00"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B07GM8DVYB",
       "origem": "promobit",
@@ -234,6 +256,28 @@
       "titulo": "Aparelho e cargas para barbear sem irritação na pele",
       "na_revisao_desde": "2026-10-17T00:20-03:00",
       "aprovado_em": "2026-10-17T00:32-03:00"
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:1398610040.58253687690",
+      "nome": "Óculos de Sol Planta Conceito - Hastes de Sapo Desenho Bico de Pato Unissex UV400 Nariz Removível",
+      "por": 32.97,
+      "de": 89.11,
+      "foto": "https://cf.shopee.com.br/file/br-11134211-820lg-mq686t3ui51c3a",
+      "link": "https://s.shopee.com.br/AUuqdT0aY9",
+      "link_produto": "https://shopee.com.br/product/1398610040/58253687690",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.9,
+      "vendas": 1535,
+      "palavra": "oculos de sol",
+      "garimpado_em": "2026-10-17T08:01-03:00",
+      "nota": 78.3,
+      "titulo": "Óculos de sol UV400 para uso diário",
+      "aprovado_sozinho": true,
+      "aprovado_em": "2026-10-17T08:20-03:00"
     }
   ],
   "postados": [
@@ -2706,21 +2750,21 @@
   },
   "shopee_buscado_em": "",
   "revisar": [],
-  "proximo_id": 741,
+  "proximo_id": 743,
   "radar": {
     "visto": {
       "xetdaspromocoes": 85297,
-      "lobaopromo": 190703,
-      "gatunopromos": 125870,
+      "lobaopromo": 190704,
+      "gatunopromos": 125872,
       "pobregram": 42053,
       "urubupromo": 41803,
       "tudonapromo": 102224,
       "promonocontext": 127821,
-      "promooeasy": 223373,
-      "aquitempechincha": 282261,
+      "promooeasy": 223383,
+      "aquitempechincha": 282264,
       "infoBRpromos": 67724,
       "boletando": 76867,
-      "promotop": 260396,
+      "promotop": 260398,
       "achadosdotb": 11787
     },
     "dia": "2026-10-17",
@@ -4945,27 +4989,27 @@
       "shopee:1102645121.23397133764"
     ],
     "ultima": {
-      "em": "2026-10-17T08:10:30-03:00",
+      "em": "2026-10-17T08:20:21-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 15,
+      "posts_novos": 32,
       "do_nicho": 0,
       "repetidas": 0,
       "novas": 0,
       "limite_dia": false,
       "repetidas_nome": 0,
       "promobit": 0,
-      "soltas": 0,
-      "na_peneira": 8
+      "soltas": 2,
+      "na_peneira": 6
     },
     "hora": "2026-10-17T08",
     "nesta_hora": 1,
     "promobit_hora": "2026-10-17T08",
     "promobit_nesta_hora": 0,
-    "promobit_visto": 3120825,
+    "promobit_visto": 3120840,
     "nomes": [
       [
         [
@@ -7767,28 +7811,35 @@
           "oster"
         ],
         "2026-10-17T05:08-03:00"
+      ],
+      [
+        [
+          "oculos",
+          "sol",
+          "planta",
+          "conceito",
+          "hastes",
+          "sapo",
+          "desenho",
+          "bico"
+        ],
+        "2026-10-17T08:20-03:00"
+      ],
+      [
+        [
+          "oculos",
+          "sol",
+          "madeira",
+          "bambu",
+          "premium",
+          "quadrado",
+          "protecao",
+          "uv400"
+        ],
+        "2026-10-17T08:20-03:00"
       ]
     ],
     "peneira": [
-      {
-        "loja": "shopee",
-        "chave": "shopee:1398610040.58253687690",
-        "nome": "Óculos de Sol Planta Conceito - Hastes de Sapo Desenho Bico de Pato Unissex UV400 Nariz Removível",
-        "por": 32.97,
-        "de": 89.11,
-        "foto": "https://cf.shopee.com.br/file/br-11134211-820lg-mq686t3ui51c3a",
-        "link": "https://s.shopee.com.br/AUuqdT0aY9",
-        "link_produto": "https://shopee.com.br/product/1398610040/58253687690",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 4.9,
-        "vendas": 1535,
-        "palavra": "oculos de sol",
-        "garimpado_em": "2026-10-17T08:01-03:00",
-        "nota": 78.3
-      },
       {
         "loja": "shopee",
         "chave": "shopee:230709939.41229623791",
@@ -7886,25 +7937,6 @@
       },
       {
         "loja": "shopee",
-        "chave": "shopee:1274163316.22798713695",
-        "nome": "Óculos de sol de Madeira Bambu Premium Masculino Quadrado,  Proteção UV400",
-        "por": 14.12,
-        "de": 36.21,
-        "foto": "https://cf.shopee.com.br/file/br-11134207-820lm-mnyoq7ebzdvm11",
-        "link": "https://s.shopee.com.br/8fTCS67ZGw",
-        "link_produto": "https://shopee.com.br/product/1274163316/22798713695",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 4.8,
-        "vendas": 840,
-        "palavra": "oculos de sol",
-        "garimpado_em": "2026-10-17T08:01-03:00",
-        "nota": 77.1
-      },
-      {
-        "loja": "shopee",
         "chave": "shopee:1295890416.23697970496",
         "nome": "Óculos De Sol Quadrados Masculinos Pena Metal De Alta Qualidade",
         "por": 18.95,
@@ -7924,13 +7956,15 @@
       }
     ],
     "soltas_hora": "2026-10-17T08",
-    "soltas": 0,
-    "shopee_em": "2026-10-17T08:01-03:00",
-    "shopee_indice": 84,
+    "soltas": 2,
+    "shopee_em": "2026-10-17T08:21-03:00",
+    "shopee_indice": 92,
     "soltas_dia_data": "2026-10-17",
-    "soltas_dia": 10,
-    "soltas_loja": {},
-    "soltas_vez": "2026-10-17T08:0"
+    "soltas_dia": 12,
+    "soltas_loja": {
+      "shopee": 2
+    },
+    "soltas_vez": "2026-10-17T08:1"
   },
   "ultimos": [
     {
@@ -9689,6 +9723,11 @@
         "achados": 1,
         "aprovados": 0,
         "reprovados": 1
+      },
+      "shopee": {
+        "achados": 2,
+        "aprovados": 0,
+        "reprovados": 0
       }
     }
   },
@@ -9860,7 +9899,7 @@
       "reprovados": 7
     },
     "oculos de sol": {
-      "achados": 11,
+      "achados": 13,
       "aprovados": 3,
       "reprovados": 8
     },
@@ -10091,7 +10130,8 @@
     },
     "2026-10-17": {
       "0": 6,
-      "5": 2
+      "5": 2,
+      "8": 2
     }
   },
   "aviso_ml": "2026-10-16",
