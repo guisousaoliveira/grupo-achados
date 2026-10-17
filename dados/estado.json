@@ -2,33 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB54025710",
-      "origem": "promooeasy",
-      "link": "https://meli.la/1SNiF2c",
-      "link_produto": "https://www.mercadolivre.com.br/basike-power-bank-20000mah-rapido-portatil-45w-rapido-com-display-cor-branco-power-3-saidas-com-cabo-embutido-usb-c-para-samsung-iphone-xiaomi-motorola-celular-tablet-macbook-b203b202-prata/p/MLB54025710",
-      "post_origem": "https://t.me/promooeasy/223305",
-      "link_canal": "https://www.mercadolivre.com.br/basike-power-bank-20000mah-rapido-portatil-45w-rapido-com-display-cor-branco-power-3-saidas-com-cabo-embutido-usb-c-para-samsung-iphone-xiaomi-motorola-celular-tablet-macbook-b203b202-prata/p/MLB54025710?matt_word=promoeasynv&amp;matt_tool=88963738",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_757014-MLA99938929309_112025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Basike Power Bank 20.000mah Rápido Portátil 45w Rápido Com Display Cor Branco Power 3-saídas Com Cabo Embutido Usb-c Par",
-      "de": 315.38,
-      "por": 151.12,
-      "lido_ia": true,
-      "cupom": "RESGATEFULL1710",
-      "palavra": "power bank",
-      "garimpado_em": "2026-10-17T00:20-03:00",
-      "nota": 65.6,
-      "titulo": "Carregador portátil de 45W com cabo embutido",
-      "na_revisao_desde": "2026-10-17T00:20-03:00",
-      "reconferido_em": "2026-10-17T00:21-03:00",
-      "preco_conferido": true,
-      "preco_cupom": true,
-      "preco_sem_cupom": 188.9,
-      "aprovado_sozinho": true,
-      "aprovado_em": "2026-10-17T00:21-03:00"
-    },
-    {
       "loja": "shopee",
       "chave": "shopee:1274163316.23098737531",
       "nome": "Óculos de Sol Retrô da moda Fashion UV400 Haste Dourada",
@@ -2704,6 +2677,23 @@
       "secao": "barba",
       "slot": 10,
       "foto_site_ok": true
+    },
+    {
+      "chave": "mercadolivre:MLB54025710",
+      "loja": "mercadolivre",
+      "nome": "Basike Power Bank 20.000mah Rápido Portátil 45w Rápido Com Display Cor Branco Power 3-saídas Com Cabo Embutido Usb-c Par",
+      "data": "2026-10-17T10:33-03:00",
+      "link": "https://meli.la/1SNiF2c",
+      "link_produto": "https://www.mercadolivre.com.br/basike-power-bank-20000mah-rapido-portatil-45w-rapido-com-display-cor-branco-power-3-saidas-com-cabo-embutido-usb-c-para-samsung-iphone-xiaomi-motorola-celular-tablet-macbook-b203b202-prata/p/MLB54025710",
+      "titulo": "Carregador portátil de 45W com cabo embutido",
+      "de": 315.38,
+      "por": 151.12,
+      "cupom": "RESGATEFULL1710",
+      "conferido": true,
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_757014-MLA99938929309_112025-O.webp",
+      "secao": "tech",
+      "slot": 10.1,
+      "foto_site_ok": true
     }
   ],
   "slots_usados": {
@@ -2845,7 +2835,8 @@
       9,
       9.1,
       9.2,
-      10
+      10,
+      10.1
     ]
   },
   "shopee_buscado_em": "",
@@ -8385,6 +8376,20 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB54025710",
+      "origem": "promooeasy",
+      "link": "https://meli.la/1SNiF2c",
+      "link_produto": "https://www.mercadolivre.com.br/basike-power-bank-20000mah-rapido-portatil-45w-rapido-com-display-cor-branco-power-3-saidas-com-cabo-embutido-usb-c-para-samsung-iphone-xiaomi-motorola-celular-tablet-macbook-b203b202-prata/p/MLB54025710",
+      "post_origem": "https://t.me/promooeasy/223305",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_757014-MLA99938929309_112025-O.webp",
+      "nome": "Basike Power Bank 20.000mah Rápido Portátil 45w Rápido Com Display Cor Branco Power 3-saídas Com Cabo Embutido Usb-c Par",
+      "de": 315.38,
+      "por": 151.12,
+      "cupom": "RESGATEFULL1710",
+      "titulo": "Carregador portátil de 45W com cabo embutido"
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B08ZFKB8ZK",
       "origem": "promobit",
@@ -8909,19 +8914,6 @@
       "por": 155.0,
       "cupom": "OFFHOJE",
       "titulo": "Relógio vintage prata para o dia a dia"
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:1725907431.58215881722",
-      "nome": "Bicicleta Ergométrica para Ginástica em Casa com Monitor Digital Resistente Capacidade de 120kg - V3/2",
-      "por": 469.99,
-      "de": 1620.66,
-      "foto": "https://cf.shopee.com.br/file/br-11134207-820lf-mrpk6n2okmpxf6",
-      "link": "https://s.shopee.com.br/8V9l2xPyU4",
-      "link_produto": "https://shopee.com.br/product/1725907431/58215881722",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "titulo": "Bicicleta ergométrica para pedalar em casa com praticidade"
     }
   ],
   "lixeira": [
@@ -10566,5 +10558,5 @@
     }
   },
   "aviso_ml": "2026-10-16",
-  "vitrine_marca": "2203d0229392"
+  "vitrine_marca": "5edd2726d11f"
 }
