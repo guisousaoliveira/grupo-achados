@@ -509,7 +509,7 @@ def montar_post(item):
     # Título (a chamada) em cima, depois o nome. Emoji em cada linha: título (🚨 ou 🔥, sorteado por oferta,
     # sempre o mesmo para a mesma oferta), 📦 produto, 💰 preço, 🎟️ cupom e 🛒 link.
     # "frase" é o nome antigo do título (ofertas que já estavam na fila).
-    titulo = item.get("titulo") or item.get("frase")
+    titulo = (item.get("titulo") or item.get("frase")) if chamada_ligada() else ""
     if titulo:
         blocos = [f"{emoji_titulo(item)} <b>{e(titulo.upper())}</b>", f"📦 {e(item['nome'])}"]
     else:
@@ -545,6 +545,11 @@ def montar_post(item):
     if rodape:
         blocos.append(e(rodape))
     return "\n\n".join(blocos)
+
+
+def chamada_ligada():
+    """config "chamada_ia": false tira a chamada do post (fica nome e preço direto) e a IA não é chamada para isso."""
+    return CONFIG.get("chamada_ia", True) is not False
 
 
 def emoji_titulo(item):
@@ -1122,6 +1127,8 @@ def titulo_reserva(item):
 def refazer_titulos(estado, maximo=4):
     """Ofertas que ficaram com a chamada reserva (a IA estava fora do ar ou sem cota): tenta a IA de novo.
     Se você já mudou a chamada, não mexe."""
+    if not chamada_ligada():
+        return
     feitos = 0
     for item in estado["revisar"] + estado["fila"]:
         reserva = item.get("titulo_reserva")
@@ -1142,7 +1149,7 @@ def refazer_titulos(estado, maximo=4):
 
 
 def mandar_para_revisao(estado, item):
-    if not (item.get("titulo") or item.get("frase")) and item.get("nome"):
+    if chamada_ligada() and not (item.get("titulo") or item.get("frase")) and item.get("nome"):
         item["titulo"] = gerar_titulo(item, titulos_recentes(estado))
         if not item["titulo"]:  # IA fora do ar ou sem cota: chamada reserva, e a IA tenta de novo nas próximas rodadas
             item["titulo"] = item["titulo_reserva"] = titulo_reserva(item)
@@ -1393,9 +1400,9 @@ def aprovar_sozinha(estado, item):
         return nao("sem foto")
     if not item.get("link"):
         return nao("sem link")
-    if not item.get("titulo"):
+    if chamada_ligada() and not item.get("titulo"):
         item["titulo"] = gerar_titulo(item, titulos_recentes(estado))
-    if not item["titulo"]:  # sem chamada da IA: vai para o Revisar (lá ganha a chamada reserva)
+    if chamada_ligada() and not item["titulo"]:  # sem chamada da IA: vai para o Revisar (lá ganha a chamada reserva)
         return nao("a IA não conseguiu escrever a chamada")
     item["id"] = estado["proximo_id"]
     estado["proximo_id"] += 1
@@ -1404,7 +1411,8 @@ def aprovar_sozinha(estado, item):
     item.pop("motivo_revisao", None)
     resposta = aprovar(estado, item)
     log(f"Aprovada sozinha ({motivo}): {item['nome'][:60]} ({off}% off).")
-    responder_admin(f"🤖 Aprovei sozinho ({motivo}): <b>{html.escape(item['titulo'])}</b>\n📦 {html.escape(item['nome'])}\n"
+    chamada = f"<b>{html.escape(item['titulo'])}</b>\n" if item.get("titulo") else ""
+    responder_admin(f"🤖 Aprovei sozinho ({motivo}): {chamada}📦 {html.escape(item['nome'])}\n"
                     f"💰 {reais(por)} ({off}% off)\n{resposta} Para tirar, use o painel (Fila).")
     return True
 
@@ -3213,7 +3221,7 @@ def cmd_previa(texto):
     if erro:
         print(erro)
         return
-    if item.get("nome") and not item.get("titulo"):
+    if chamada_ligada() and item.get("nome") and not item.get("titulo"):
         item["titulo"] = gerar_frase(item)
     print("Como fica no canal (o Telegram transforma <b> em negrito e <s> em riscado):\n")
     print(montar_post(item) if item.get("nome") else f"(sem nome) {item['link']}")

@@ -20,6 +20,7 @@
   "validade_horas": 12,
   "revisar_validade_horas": 12,
   "rodape": "",
+  "chamada_ia": false,
   "palavras": {
     "Academia": [
       "creatina",

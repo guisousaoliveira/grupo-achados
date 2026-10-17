@@ -424,7 +424,7 @@ def ler_link(texto):
             foto = bot.foto_amazon_por_asin(m.group(1))
             if foto:
                 item["foto"] = foto
-    if not item.get("titulo") and item.get("nome"):
+    if bot.chamada_ligada() and not item.get("titulo") and item.get("nome"):
         item["titulo"] = bot.gerar_titulo(item) or bot.gerar_frase(item)
     estado, _ = bot.carregar_estado()
     aviso = ""
