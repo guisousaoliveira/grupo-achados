@@ -2,32 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB4362152290",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/2y39iRn",
-      "link_produto": "https://www.mercadolivre.com.br/pochete-cartucheira-de-perna-para-ferramentas-solze-preto/up/MLBU1988410510?pdp_filters=item_id%3AMLB4362152290",
-      "post_origem": "https://t.me/lobaopromo/190797",
-      "link_canal": "https://meli.la/1wL8okh",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_867550-MLB107418588215_022026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Pochete Cartucheira De Perna Para Ferramentas Solze Preto Preto",
-      "por": 57.0,
-      "lido_ia": true,
-      "cupom": "DESCONTOSML",
-      "preco_conferido": true,
-      "preco_cupom": true,
-      "preco_sem_cupom": 76.71,
-      "palavra": "ferramenta",
-      "garimpado_em": "2026-10-17T11:00-03:00",
-      "nota": 48.6,
-      "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto",
-      "titulo": "Acesso rápido às ferramentas direto na perna",
-      "na_revisao_desde": "2026-10-17T11:01-03:00",
-      "de": 97.0,
-      "aprovado_em": "2026-10-17T13:00-03:00"
-    },
-    {
       "loja": "amazon",
       "chave": "amazon:B00GY2LASO",
       "origem": "promooeasy",
@@ -3139,6 +3113,23 @@
       "secao": "tech",
       "slot": 15,
       "foto_site_ok": true
+    },
+    {
+      "chave": "mercadolivre:MLB4362152290",
+      "loja": "mercadolivre",
+      "nome": "Pochete Cartucheira De Perna Para Ferramentas Solze Preto Preto",
+      "data": "2026-10-17T15:27-03:00",
+      "link": "https://meli.la/2y39iRn",
+      "link_produto": "https://www.mercadolivre.com.br/pochete-cartucheira-de-perna-para-ferramentas-solze-preto/up/MLBU1988410510?pdp_filters=item_id%3AMLB4362152290",
+      "titulo": "Acesso rápido às ferramentas direto na perna",
+      "de": 97.0,
+      "por": 57.0,
+      "cupom": "DESCONTOSML",
+      "conferido": true,
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_867550-MLB107418588215_022026-O.webp",
+      "secao": "casa",
+      "slot": 15.1,
+      "foto_site_ok": true
     }
   ],
   "slots_usados": {
@@ -3298,7 +3289,8 @@
       14.1,
       14.2,
       14.3,
-      15
+      15,
+      15.1
     ]
   },
   "shopee_buscado_em": "",
@@ -9456,6 +9448,20 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB4362152290",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/2y39iRn",
+      "link_produto": "https://www.mercadolivre.com.br/pochete-cartucheira-de-perna-para-ferramentas-solze-preto/up/MLBU1988410510?pdp_filters=item_id%3AMLB4362152290",
+      "post_origem": "https://t.me/lobaopromo/190797",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_867550-MLB107418588215_022026-O.webp",
+      "nome": "Pochete Cartucheira De Perna Para Ferramentas Solze Preto Preto",
+      "por": 57.0,
+      "cupom": "DESCONTOSML",
+      "titulo": "Acesso rápido às ferramentas direto na perna",
+      "de": 97.0
+    },
+    {
       "loja": "amazon",
       "chave": "amazon:B0DJ1RD8SH",
       "origem": "promobit",
@@ -9984,20 +9990,6 @@
       "origem": "shopee",
       "fonte": "shopee",
       "titulo": "Controle remoto com comando de voz para Chromecast"
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB57814615",
-      "origem": "xetdaspromocoes",
-      "link": "https://meli.la/33vp8HX",
-      "link_produto": "https://meli.la/33vp8HX",
-      "post_origem": "https://t.me/xetdaspromocoes/85258",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_603432-MLA100081970191_122025-O.webp",
-      "nome": "Churrasqueira Móvel A Carvão Portátil para Família",
-      "cupom_loja": "Aplique o Cupom de R$ 2 OFF no Anúncio 🎟️ (logo abaixo do preço)",
-      "por": 39.0,
-      "titulo": "Churrasqueira móvel para assar carne onde quiser",
-      "cupom": "Aplique o Cupom de R$ 2 OFF no Anúncio (logo abaixo do preço)"
     }
   ],
   "lixeira": [
@@ -10759,5 +10751,5 @@
     }
   },
   "aviso_ml": "2026-10-17",
-  "vitrine_marca": "27998bdd06b3"
+  "vitrine_marca": "7344bf55ba59"
 }
