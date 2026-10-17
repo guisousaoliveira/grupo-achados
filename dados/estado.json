@@ -2,29 +2,6 @@
   "offset_telegram": 217357892,
   "fila": [
     {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB6388549544",
-      "origem": "promonocontext",
-      "link": "https://meli.la/1NywmH3",
-      "link_produto": "https://www.mercadolivre.com.br/opk-original-conjunto-de-relogio-e-colares-masculino-6010/up/MLBU3816309213?pdp_filters=item_id%3AMLB6388549544",
-      "post_origem": "https://t.me/promonocontext/127830",
-      "link_canal": "https://meli.la/2Pw7uow",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_655611-MLB107993788653_032026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Opk Original Conjunto De Relógio E Colares Masculino 6010 Prateado",
-      "pix": true,
-      "de": 225.0,
-      "por": 118.0,
-      "lido_ia": true,
-      "preco_conferido": true,
-      "palavra": "relogio",
-      "garimpado_em": "2026-10-17T09:20-03:00",
-      "nota": 74.7,
-      "titulo": "Kit de acessórios prateados para valorizar o visual",
-      "aprovado_sozinho": true,
-      "aprovado_em": "2026-10-17T09:21-03:00"
-    },
-    {
       "loja": "shopee",
       "chave": "shopee:1242044379.23094334327",
       "nome": "Whey Protein One Refil 900g + Creatina Monohidratada Pura 150g + Coqueteleira Fuse 700ml - Dark Lab",
@@ -2914,6 +2891,23 @@
       "secao": "estilo",
       "slot": 12.3,
       "foto_site_ok": true
+    },
+    {
+      "chave": "mercadolivre:MLB6388549544",
+      "loja": "mercadolivre",
+      "nome": "Opk Original Conjunto De Relógio E Colares Masculino 6010 Prateado",
+      "data": "2026-10-17T13:06-03:00",
+      "link": "https://meli.la/1NywmH3",
+      "link_produto": "https://www.mercadolivre.com.br/opk-original-conjunto-de-relogio-e-colares-masculino-6010/up/MLBU3816309213?pdp_filters=item_id%3AMLB6388549544",
+      "titulo": "Kit de acessórios prateados para valorizar o visual",
+      "de": 225.0,
+      "por": 118.0,
+      "pix": true,
+      "conferido": true,
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_655611-MLB107993788653_032026-O.webp",
+      "secao": "relogios",
+      "slot": 13,
+      "foto_site_ok": true
     }
   ],
   "slots_usados": {
@@ -3064,7 +3058,8 @@
       12,
       12.1,
       12.2,
-      12.3
+      12.3,
+      13
     ]
   },
   "shopee_buscado_em": "",
@@ -9112,6 +9107,20 @@
   },
   "ultimos": [
     {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB6388549544",
+      "origem": "promonocontext",
+      "link": "https://meli.la/1NywmH3",
+      "link_produto": "https://www.mercadolivre.com.br/opk-original-conjunto-de-relogio-e-colares-masculino-6010/up/MLBU3816309213?pdp_filters=item_id%3AMLB6388549544",
+      "post_origem": "https://t.me/promonocontext/127830",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_655611-MLB107993788653_032026-O.webp",
+      "nome": "Opk Original Conjunto De Relógio E Colares Masculino 6010 Prateado",
+      "pix": true,
+      "de": 225.0,
+      "por": 118.0,
+      "titulo": "Kit de acessórios prateados para valorizar o visual"
+    },
+    {
       "loja": "shopee",
       "chave": "shopee:1398610040.58253687690",
       "nome": "Óculos de Sol Planta Conceito - Hastes de Sapo Desenho Bico de Pato Unissex UV400 Nariz Removível",
@@ -9634,20 +9643,6 @@
       "nome": "Toshiba Smart TV QLED FHD 50 Polegadas 50V45SS com Processador HG Inteligência Toshiba AI e Áudio Potente multicanal",
       "por": 1875.0,
       "de": 2099.99
-    },
-    {
-      "loja": "shopee",
-      "chave": "shopee:1768728309.23295161236",
-      "nome": "Barra Fixa Parede Paralela Abdominal Musculação Fitness",
-      "por": 351.99,
-      "de": 499.99,
-      "foto": "https://cf.shopee.com.br/file/sg-11134201-8259q-ms04aostyww81d",
-      "link": "https://s.shopee.com.br/4fx2DQr1p5",
-      "link_produto": "https://shopee.com.br/product/1768728309/23295161236",
-      "origem": "shopee",
-      "fonte": "shopee",
-      "titulo": "Barra de parede para treinar calistenia em casa",
-      "pix": true
     }
   ],
   "lixeira": [
@@ -11323,5 +11318,5 @@
     }
   },
   "aviso_ml": "2026-10-17",
-  "vitrine_marca": "267d502458e1"
+  "vitrine_marca": "8a6d46436a41"
 }
