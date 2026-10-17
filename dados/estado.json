@@ -3118,31 +3118,6 @@
       "id": 772,
       "na_revisao_desde": "2026-10-17T13:03-03:00",
       "msg_id": 1290
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB35275350",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/2GLDwZW",
-      "link_produto": "https://www.mercadolivre.com.br/relogio-garmin-forerunner-165-com-monitor-cardiaco-de-pulso-e-gps-branco-e-cinza/p/MLB35275350",
-      "post_origem": "https://t.me/lobaopromo/190919",
-      "link_canal": "https://meli.la/2nHAN72",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_702610-MLA90654058401_082025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Relógio Garmin Com Monitor Cardíaco E Gps Lily 2 Active 38mm Verde",
-      "cupom_loja": "Resgate o cupom de 30% OFF do anuncio",
-      "de": 3149.0,
-      "por": 2174.0,
-      "lido_ia": true,
-      "preco_loja": 3106.0,
-      "palavra": "relogio",
-      "garimpado_em": "2026-10-17T13:30-03:00",
-      "nota": 68.1,
-      "motivo_revisao": "o post diz R$ 2.174,00 e a loja mostra R$ 3.106,00, e não tem cupom ou Pix que explique a diferença",
-      "titulo": "Monitore treinos e batimentos com precisão Garmin",
-      "id": 775,
-      "na_revisao_desde": "2026-10-17T13:31-03:00",
-      "msg_id": 1293
     }
   ],
   "proximo_id": 776,
@@ -9711,7 +9686,34 @@
       "titulo": "Kit de halteres ajustáveis para treinar em casa"
     }
   ],
-  "lixeira": [],
+  "lixeira": [
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB35275350",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/2GLDwZW",
+      "link_produto": "https://www.mercadolivre.com.br/relogio-garmin-forerunner-165-com-monitor-cardiaco-de-pulso-e-gps-branco-e-cinza/p/MLB35275350",
+      "post_origem": "https://t.me/lobaopromo/190919",
+      "link_canal": "https://meli.la/2nHAN72",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_702610-MLA90654058401_082025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Relógio Garmin Com Monitor Cardíaco E Gps Lily 2 Active 38mm Verde",
+      "cupom_loja": "Resgate o cupom de 30% OFF do anuncio",
+      "de": 3149.0,
+      "por": 2174.0,
+      "lido_ia": true,
+      "preco_loja": 3106.0,
+      "palavra": "relogio",
+      "garimpado_em": "2026-10-17T13:30-03:00",
+      "nota": 68.1,
+      "motivo_revisao": "o post diz R$ 2.174,00 e a loja mostra R$ 3.106,00, e não tem cupom ou Pix que explique a diferença",
+      "titulo": "Monitore treinos e batimentos com precisão Garmin",
+      "id": 775,
+      "na_revisao_desde": "2026-10-17T13:31-03:00",
+      "removido_em": "2026-10-17T13:46:59-03:00",
+      "removido_de": "revisar"
+    }
+  ],
   "garimpo": {
     "2026-10-12": {
       "promooeasy": {
@@ -9982,7 +9984,7 @@
       "lobaopromo": {
         "achados": 8,
         "aprovados": 3,
-        "reprovados": 1
+        "reprovados": 2
       },
       "urubupromo": {
         "achados": 1,
@@ -10196,7 +10198,7 @@
     "relogio": {
       "achados": 19,
       "aprovados": 7,
-      "reprovados": 7
+      "reprovados": 8
     },
     "smart tv": {
       "achados": 30,
