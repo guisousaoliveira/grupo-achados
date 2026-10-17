@@ -347,6 +347,27 @@
       "aprovado_em": "2026-10-17T14:00-03:00"
     },
     {
+      "loja": "amazon",
+      "chave": "amazon:B00284C9U0",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B00284C9U0?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B00284C9U0?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/relogio-timex-expedition-quartzo-pretobranco-3121642/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3121642/",
+      "nome": "Relógio Timex Expedition Quartzo PretoBranco",
+      "por": 276.0,
+      "de": 307.85,
+      "foto": "AgACAgQAAxkDAAIFGWrTsM6kQaE5QYUB_ldh9wkKS7TkAAIMDGsbHDO8UO1_0AAB10JByQEAAwIAA3gAAz0E",
+      "foto_origem": "loja",
+      "palavra": "relogio",
+      "garimpado_em": "2026-10-17T14:30-03:00",
+      "nota": 49.8,
+      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
+      "na_revisao_desde": "2026-10-17T14:30-03:00",
+      "aprovado_em": "2026-10-17T14:48-03:00"
+    },
+    {
       "loja": "mercadolivre",
       "chave": "mercadolivre:MLB4988014387",
       "origem": "xetdaspromocoes",
@@ -3255,30 +3276,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "amazon",
-      "chave": "amazon:B00284C9U0",
-      "origem": "promobit",
-      "fonte": "promobit",
-      "link": "https://www.amazon.com.br/dp/B00284C9U0?tag=alphadominu09-20",
-      "link_produto": "https://www.amazon.com.br/dp/B00284C9U0?tag=alphadominu09-20",
-      "post_origem": "https://www.promobit.com.br/oferta/relogio-timex-expedition-quartzo-pretobranco-3121642/",
-      "link_canal": "https://www.promobit.com.br/Redirect/to/3121642/",
-      "nome": "Relógio Timex Expedition Quartzo PretoBranco",
-      "por": 267.0,
-      "de": 307.85,
-      "foto": "AgACAgQAAxkDAAIFGWrTsM6kQaE5QYUB_ldh9wkKS7TkAAIMDGsbHDO8UO1_0AAB10JByQEAAwIAA3gAAz0E",
-      "foto_origem": "loja",
-      "palavra": "relogio",
-      "garimpado_em": "2026-10-17T14:30-03:00",
-      "nota": 49.8,
-      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
-      "id": 785,
-      "na_revisao_desde": "2026-10-17T14:30-03:00",
-      "msg_id": 1305
-    }
-  ],
+  "revisar": [],
   "proximo_id": 786,
   "radar": {
     "visto": {
@@ -10317,7 +10315,7 @@
       },
       "promobit": {
         "achados": 8,
-        "aprovados": 1,
+        "aprovados": 2,
         "reprovados": 6
       },
       "shopee": {
@@ -10551,7 +10549,7 @@
     },
     "relogio": {
       "achados": 20,
-      "aprovados": 7,
+      "aprovados": 8,
       "reprovados": 8
     },
     "smart tv": {
@@ -10758,7 +10756,7 @@
       "11": 1,
       "12": 5,
       "13": 11,
-      "14": 6
+      "14": 7
     }
   },
   "aviso_ml": "2026-10-17",
