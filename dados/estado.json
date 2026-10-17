@@ -279,6 +279,55 @@
       "titulo": "Conjunto com parafusadeira USB para pequenos consertos",
       "na_revisao_desde": "2026-10-17T09:45-03:00",
       "aprovado_em": "2026-10-17T13:01-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB3271283929",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/23Ljd4X",
+      "link_produto": "https://www.mercadolivre.com.br/bolsa-compacta-solze-resistente-para-ferramentas-pequena/up/MLBU1975295652?pdp_filters=item_id%3AMLB3271283929",
+      "post_origem": "https://t.me/lobaopromo/190757",
+      "link_canal": "https://meli.la/1yv7Egu",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_744089-MLB101413346922_122025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Bolsa Compacta Solze Resistente Para Ferramentas Pequena Verde-musgo",
+      "por": 54.0,
+      "lido_ia": true,
+      "cupom": "MELISALVA",
+      "preco_conferido": true,
+      "palavra": "ferramenta",
+      "garimpado_em": "2026-10-17T10:00-03:00",
+      "nota": 48.6,
+      "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto",
+      "titulo": "Organize suas ferramentas essenciais de forma compacta",
+      "na_revisao_desde": "2026-10-17T10:01-03:00",
+      "aprovado_em": "2026-10-17T13:01-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB70102902",
+      "origem": "urubupromo",
+      "link": "https://meli.la/2CnWqKa",
+      "link_produto": "https://www.mercadolivre.com.br/caixa-de-som-boombox-sabala-bluetooth-54-portatil-potente-dr909-200w-estereo-39000mah-app-20khz-tws-ipx66-preto/p/MLB70102902",
+      "post_origem": "https://t.me/urubupromo/41806",
+      "link_canal": "https://meli.la/1Eokm7q",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_614188-MLA116522689453_082026-O.webp",
+      "foto_origem": "loja",
+      "nome": "Caixa De Som Boombox sabala Bluetooth 5.4 Portátil potente dr909 200w",
+      "pix": true,
+      "por": 1127.0,
+      "lido_ia": true,
+      "cupom": "SITE50",
+      "preco_conferido": true,
+      "preco_cupom": true,
+      "preco_sem_cupom": 1173.0,
+      "palavra": "caixa de som",
+      "garimpado_em": "2026-10-17T10:30-03:00",
+      "nota": 38.7,
+      "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto",
+      "titulo": "Som potente de 200W para qualquer ambiente",
+      "na_revisao_desde": "2026-10-17T11:21-03:00",
+      "aprovado_em": "2026-10-17T13:01-03:00"
     }
   ],
   "postados": [
@@ -2997,59 +3046,7 @@
     ]
   },
   "shopee_buscado_em": "",
-  "revisar": [
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB3271283929",
-      "origem": "lobaopromo",
-      "link": "https://meli.la/23Ljd4X",
-      "link_produto": "https://www.mercadolivre.com.br/bolsa-compacta-solze-resistente-para-ferramentas-pequena/up/MLBU1975295652?pdp_filters=item_id%3AMLB3271283929",
-      "post_origem": "https://t.me/lobaopromo/190757",
-      "link_canal": "https://meli.la/1yv7Egu",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_744089-MLB101413346922_122025-O.webp",
-      "foto_origem": "loja",
-      "nome": "Bolsa Compacta Solze Resistente Para Ferramentas Pequena Verde-musgo",
-      "por": 54.0,
-      "lido_ia": true,
-      "cupom": "MELISALVA",
-      "preco_conferido": true,
-      "palavra": "ferramenta",
-      "garimpado_em": "2026-10-17T10:00-03:00",
-      "nota": 48.6,
-      "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto",
-      "titulo": "Organize suas ferramentas essenciais de forma compacta",
-      "id": 750,
-      "na_revisao_desde": "2026-10-17T10:01-03:00",
-      "msg_id": 1262
-    },
-    {
-      "loja": "mercadolivre",
-      "chave": "mercadolivre:MLB70102902",
-      "origem": "urubupromo",
-      "link": "https://meli.la/2CnWqKa",
-      "link_produto": "https://www.mercadolivre.com.br/caixa-de-som-boombox-sabala-bluetooth-54-portatil-potente-dr909-200w-estereo-39000mah-app-20khz-tws-ipx66-preto/p/MLB70102902",
-      "post_origem": "https://t.me/urubupromo/41806",
-      "link_canal": "https://meli.la/1Eokm7q",
-      "foto": "https://http2.mlstatic.com/D_NQ_NP_614188-MLA116522689453_082026-O.webp",
-      "foto_origem": "loja",
-      "nome": "Caixa De Som Boombox sabala Bluetooth 5.4 Portátil potente dr909 200w",
-      "pix": true,
-      "por": 1127.0,
-      "lido_ia": true,
-      "cupom": "SITE50",
-      "preco_conferido": true,
-      "preco_cupom": true,
-      "preco_sem_cupom": 1173.0,
-      "palavra": "caixa de som",
-      "garimpado_em": "2026-10-17T10:30-03:00",
-      "nota": 38.7,
-      "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto",
-      "titulo": "Som potente de 200W para qualquer ambiente",
-      "id": 759,
-      "na_revisao_desde": "2026-10-17T11:21-03:00",
-      "msg_id": 1273
-    }
-  ],
+  "revisar": [],
   "proximo_id": 771,
   "radar": {
     "visto": {
@@ -10851,12 +10848,12 @@
       },
       "lobaopromo": {
         "achados": 6,
-        "aprovados": 2,
+        "aprovados": 3,
         "reprovados": 1
       },
       "urubupromo": {
         "achados": 1,
-        "aprovados": 0,
+        "aprovados": 1,
         "reprovados": 0
       }
     }
@@ -10925,7 +10922,7 @@
     },
     "caixa de som": {
       "achados": 22,
-      "aprovados": 4,
+      "aprovados": 5,
       "reprovados": 16
     },
     "caixa termica": {
@@ -10990,7 +10987,7 @@
     },
     "ferramenta": {
       "achados": 11,
-      "aprovados": 4,
+      "aprovados": 5,
       "reprovados": 5
     },
     "fritadeira": {
@@ -11266,7 +11263,7 @@
       "10": 3,
       "11": 1,
       "12": 5,
-      "13": 3
+      "13": 5
     }
   },
   "aviso_ml": "2026-10-17",
