@@ -231,6 +231,28 @@
       "titulo": "Kit de acessórios prateados para valorizar o visual",
       "aprovado_sozinho": true,
       "aprovado_em": "2026-10-17T09:21-03:00"
+    },
+    {
+      "loja": "shopee",
+      "chave": "shopee:1242044379.23094334327",
+      "nome": "Whey Protein One Refil 900g + Creatina Monohidratada Pura 150g + Coqueteleira Fuse 700ml - Dark Lab",
+      "por": 99.9,
+      "de": 178.39,
+      "foto": "https://cf.shopee.com.br/file/br-11134207-820lk-msflj6igmw3o4e",
+      "link": "https://s.shopee.com.br/4VddYZ3owO",
+      "link_produto": "https://shopee.com.br/product/1242044379/23094334327",
+      "origem": "shopee",
+      "fonte": "shopee",
+      "foto_origem": "loja",
+      "shopee_api": true,
+      "avaliacao": 4.9,
+      "vendas": 485,
+      "palavra": "creatina",
+      "garimpado_em": "2026-10-17T09:01-03:00",
+      "nota": 79.4,
+      "titulo": "Suplementos Dark Lab para sua rotina de treino",
+      "aprovado_sozinho": true,
+      "aprovado_em": "2026-10-17T10:01-03:00"
     }
   ],
   "postados": [
@@ -2859,27 +2881,51 @@
       "preco_cupom": true,
       "preco_sem_cupom": 377.77,
       "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB3271283929",
+      "origem": "lobaopromo",
+      "link": "https://meli.la/23Ljd4X",
+      "link_produto": "https://www.mercadolivre.com.br/bolsa-compacta-solze-resistente-para-ferramentas-pequena/up/MLBU1975295652?pdp_filters=item_id%3AMLB3271283929",
+      "post_origem": "https://t.me/lobaopromo/190757",
+      "link_canal": "https://meli.la/1yv7Egu",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_744089-MLB101413346922_122025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Bolsa Compacta Solze Resistente Para Ferramentas Pequena Verde-musgo",
+      "por": 54.0,
+      "lido_ia": true,
+      "cupom": "MELISALVA",
+      "preco_conferido": true,
+      "palavra": "ferramenta",
+      "garimpado_em": "2026-10-17T10:00-03:00",
+      "nota": 48.6,
+      "motivo_revisao": "o post não tem o preço \"de\", então não sei o desconto",
+      "titulo": "Organize suas ferramentas essenciais de forma compacta",
+      "id": 750,
+      "na_revisao_desde": "2026-10-17T10:01-03:00",
+      "msg_id": 1262
     }
   ],
-  "proximo_id": 749,
+  "proximo_id": 751,
   "radar": {
     "visto": {
       "xetdaspromocoes": 85301,
-      "lobaopromo": 190751,
-      "gatunopromos": 125897,
-      "pobregram": 42059,
+      "lobaopromo": 190760,
+      "gatunopromos": 125900,
+      "pobregram": 42061,
       "urubupromo": 41803,
-      "tudonapromo": 102231,
-      "promonocontext": 127851,
-      "promooeasy": 223437,
-      "aquitempechincha": 282294,
-      "infoBRpromos": 67740,
+      "tudonapromo": 102233,
+      "promonocontext": 127868,
+      "promooeasy": 223446,
+      "aquitempechincha": 282299,
+      "infoBRpromos": 67741,
       "boletando": 76873,
-      "promotop": 260404,
+      "promotop": 260405,
       "achadosdotb": 11787
     },
     "dia": "2026-10-17",
-    "hoje": 22,
+    "hoje": 24,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -5107,30 +5153,32 @@
       "mercadolivre:MLB4570819989",
       "mercadolivre:MLB49204693",
       "shopee:1339888238.21198268414",
-      "mercadolivre:MLB52876876"
+      "mercadolivre:MLB52876876",
+      "mercadolivre:MLB3271283929",
+      "mercadolivre:MLB24459321"
     ],
     "ultima": {
-      "em": "2026-10-17T09:50:22-03:00",
+      "em": "2026-10-17T10:00:30-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 31,
+      "posts_novos": 59,
       "do_nicho": 5,
-      "repetidas": 4,
-      "novas": 1,
+      "repetidas": 3,
+      "novas": 2,
       "limite_dia": false,
       "repetidas_nome": 0,
       "promobit": 0,
-      "soltas": 0,
+      "soltas": 2,
       "na_peneira": 7
     },
-    "hora": "2026-10-17T09",
-    "nesta_hora": 6,
-    "promobit_hora": "2026-10-17T09",
+    "hora": "2026-10-17T10",
+    "nesta_hora": 2,
+    "promobit_hora": "2026-10-17T10",
     "promobit_nesta_hora": 0,
-    "promobit_visto": 3121032,
+    "promobit_visto": 3121057,
     "nomes": [
       [
         [
@@ -8026,6 +8074,32 @@
           "argb"
         ],
         "2026-10-17T09:45-03:00"
+      ],
+      [
+        [
+          "whey",
+          "protein",
+          "one",
+          "refil",
+          "900g",
+          "creatina",
+          "monohidratada",
+          "pura"
+        ],
+        "2026-10-17T10:00-03:00"
+      ],
+      [
+        [
+          "bolsa",
+          "compacta",
+          "solze",
+          "resistente",
+          "ferramentas",
+          "pequena",
+          "verde",
+          "musgo"
+        ],
+        "2026-10-17T10:01-03:00"
       ]
     ],
     "peneira": [
@@ -8125,25 +8199,6 @@
         "nota": 59.4
       },
       {
-        "loja": "shopee",
-        "chave": "shopee:1242044379.23094334327",
-        "nome": "Whey Protein One Refil 900g + Creatina Monohidratada Pura 150g + Coqueteleira Fuse 700ml - Dark Lab",
-        "por": 99.9,
-        "de": 178.39,
-        "foto": "https://cf.shopee.com.br/file/br-11134207-820lk-msflj6igmw3o4e",
-        "link": "https://s.shopee.com.br/4VddYZ3owO",
-        "link_produto": "https://shopee.com.br/product/1242044379/23094334327",
-        "origem": "shopee",
-        "fonte": "shopee",
-        "foto_origem": "loja",
-        "shopee_api": true,
-        "avaliacao": 4.9,
-        "vendas": 485,
-        "palavra": "creatina",
-        "garimpado_em": "2026-10-17T09:01-03:00",
-        "nota": 79.4
-      },
-      {
         "loja": "mercadolivre",
         "chave": "mercadolivre:MLB52876876",
         "origem": "promooeasy",
@@ -8162,19 +8217,40 @@
         "palavra": "kindle",
         "garimpado_em": "2026-10-17T09:50-03:00",
         "nota": 28.7
+      },
+      {
+        "loja": "mercadolivre",
+        "chave": "mercadolivre:MLB24459321",
+        "origem": "promooeasy",
+        "link": "https://www.mercadolivre.com.br/oster-primalatte-touch-red-cafeteira-espresso-1050w-/p/MLB24459321?matt_word=alphapromo&matt_tool=59136903",
+        "link_produto": "https://www.mercadolivre.com.br/oster-primalatte-touch-red-cafeteira-espresso-1050w-/p/MLB24459321",
+        "post_origem": "https://t.me/promooeasy/223444",
+        "link_canal": "https://www.mercadolivre.com.br/oster-primalatte-touch-red-cafeteira-espresso-1050w-/p/MLB24459321?matt_word=promoeasynv&amp;matt_tool=88963738",
+        "foto": "https://cdn1.telesco.pe/file/new3HyyqxAieWEfNkSDgyeH0M_Uf4oiNnEd4L7A3xA3pphomhLVuIxq50w4BpYo0aGFsz8jpX1Z89ZOSReJc8dXpQrVz5tv43pl_JsnMGQyY8LjZ8p6Z1GsP0vTxrLh6p__EoBBLL6vlq62NzhLAFTKR1PT1fhSnxFb9e1Ck2xaWbJTwk87UXpPfFaMxPsO4lDH209nZuIEloaWoYZHXND0lhlO4wFgbQNQbbFcewQvYWEc8ZElkdE-RpGOJnGNYY8p_jf2_-znQeibzZtL145dy41GtUsgSsGlh2-c-NLRnqlwm34P33aEckDh3CMHr6CLj6zc-kxPsKo1_GLvQdg.jpg",
+        "foto_origem": "canal",
+        "nome": "Oster PrimaLatte Touch Red Cafeteira Espresso 1050W",
+        "de": 862.31,
+        "por": 698.47,
+        "lido_ia": true,
+        "cupom": "OFFNOMELIHOJE",
+        "sem_preco_loja": true,
+        "loja_abriu": false,
+        "palavra": "cafeteira",
+        "garimpado_em": "2026-10-17T10:00-03:00",
+        "nota": 43.8
       }
     ],
-    "soltas_hora": "2026-10-17T09",
-    "soltas": 5,
-    "shopee_em": "2026-10-17T09:40-03:00",
-    "shopee_indice": 24,
+    "soltas_hora": "2026-10-17T10",
+    "soltas": 2,
+    "shopee_em": "2026-10-17T10:01-03:00",
+    "shopee_indice": 32,
     "soltas_dia_data": "2026-10-17",
-    "soltas_dia": 18,
+    "soltas_dia": 20,
     "soltas_loja": {
-      "shopee": 2,
-      "mercadolivre": 3
+      "shopee": 1,
+      "mercadolivre": 1
     },
-    "soltas_vez": "2026-10-17T09:3"
+    "soltas_vez": "2026-10-17T10:0"
   },
   "ultimos": [
     {
@@ -9936,12 +10012,17 @@
         "reprovados": 1
       },
       "shopee": {
-        "achados": 4,
+        "achados": 5,
         "aprovados": 0,
         "reprovados": 0
       },
       "promonocontext": {
         "achados": 2,
+        "aprovados": 0,
+        "reprovados": 0
+      },
+      "lobaopromo": {
+        "achados": 1,
         "aprovados": 0,
         "reprovados": 0
       }
@@ -10055,7 +10136,7 @@
       "reprovados": 1
     },
     "creatina": {
-      "achados": 26,
+      "achados": 27,
       "aprovados": 14,
       "reprovados": 11
     },
@@ -10075,7 +10156,7 @@
       "reprovados": 1
     },
     "ferramenta": {
-      "achados": 8,
+      "achados": 9,
       "aprovados": 3,
       "reprovados": 5
     },
@@ -10348,7 +10429,8 @@
       "0": 6,
       "5": 2,
       "8": 2,
-      "9": 3
+      "9": 3,
+      "10": 1
     }
   },
   "aviso_ml": "2026-10-16",
