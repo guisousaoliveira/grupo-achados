@@ -191,6 +191,33 @@
       "preco_sem_cupom": 188.9,
       "aprovado_sozinho": true,
       "aprovado_em": "2026-10-17T00:21-03:00"
+    },
+    {
+      "loja": "mercadolivre",
+      "chave": "mercadolivre:MLB60012839",
+      "origem": "promooeasy",
+      "link": "https://meli.la/1LxfAYV",
+      "link_produto": "https://www.mercadolivre.com.br/parafusadeira-furadeira-de-impacto-a-bateria-21v-38-bivolt-1400-rpm-com-acessorios-e-maleta-tb-21pzw-the-black-tools/p/MLB60012839",
+      "post_origem": "https://t.me/promooeasy/223317",
+      "link_canal": "https://www.mercadolivre.com.br/parafusadeira-furadeira-de-impacto-a-bateria-21v-38-bivolt-1400-rpm-com-acessorios-e-maleta-tb-21pzw-the-black-tools/p/MLB60012839?matt_word=promoeasynv&amp;matt_tool=88963738",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_660718-MLA99503122958_112025-O.webp",
+      "foto_origem": "loja",
+      "nome": "Parafusadeira Furadeira De Impacto A Bateria 21V 3/8” Bivolt 1400 Rpm Com Acessórios E Maleta TB-21PZW The Black Tools",
+      "de": 259.9,
+      "por": 99.92,
+      "lido_ia": true,
+      "cupom": "RESGATEFULL1710",
+      "palavra": "parafusadeira",
+      "garimpado_em": "2026-10-17T00:30-03:00",
+      "nota": 68.2,
+      "titulo": "Parafusadeira a bateria para serviços em casa",
+      "na_revisao_desde": "2026-10-17T00:30-03:00",
+      "reconferido_em": "2026-10-17T00:30-03:00",
+      "preco_conferido": true,
+      "preco_cupom": true,
+      "preco_sem_cupom": 124.9,
+      "aprovado_sozinho": true,
+      "aprovado_em": "2026-10-17T00:30-03:00"
     }
   ],
   "postados": [
@@ -2683,19 +2710,41 @@
       "id": 730,
       "na_revisao_desde": "2026-10-17T00:20-03:00",
       "msg_id": 1236
+    },
+    {
+      "loja": "amazon",
+      "chave": "amazon:B0FNGMWY42",
+      "origem": "promobit",
+      "fonte": "promobit",
+      "link": "https://www.amazon.com.br/dp/B0FNGMWY42?tag=alphadominu09-20",
+      "link_produto": "https://www.amazon.com.br/dp/B0FNGMWY42?tag=alphadominu09-20",
+      "post_origem": "https://www.promobit.com.br/oferta/dux-whey-proten-concentrado-churros-3120450/",
+      "link_canal": "https://www.promobit.com.br/Redirect/to/3120450/",
+      "nome": "Dux - WHEY PROTEN CONCENTRADO CHURROS",
+      "por": 12.0,
+      "foto": "AgACAgQAAxkDAAIE12rS6-ycJu-N81XUIjIIrdiie77AAAL7DmsbDS2dUt_3whk2_J-JAQADAgADeAADPQQ",
+      "foto_origem": "loja",
+      "palavra": "whey",
+      "garimpado_em": "2026-10-16T21:40-03:00",
+      "nota": 33.1,
+      "motivo_revisao": "a IA não conseguiu ler o post (fora do ar ou sem cota)",
+      "titulo": "Whey Dux de churros para a rotina",
+      "id": 733,
+      "na_revisao_desde": "2026-10-17T00:30-03:00",
+      "msg_id": 1239
     }
   ],
-  "proximo_id": 732,
+  "proximo_id": 735,
   "radar": {
     "visto": {
       "xetdaspromocoes": 85297,
-      "lobaopromo": 190668,
-      "gatunopromos": 125843,
+      "lobaopromo": 190670,
+      "gatunopromos": 125845,
       "pobregram": 42053,
       "urubupromo": 41803,
       "tudonapromo": 102224,
       "promonocontext": 127821,
-      "promooeasy": 223309,
+      "promooeasy": 223320,
       "aquitempechincha": 282261,
       "infoBRpromos": 67724,
       "boletando": 76866,
@@ -2703,7 +2752,7 @@
       "achadosdotb": 11787
     },
     "dia": "2026-10-17",
-    "hoje": 4,
+    "hoje": 6,
     "chaves": [
       "shopee:473616631.41365763294",
       "amazon:B00N6AKNQW",
@@ -4900,30 +4949,32 @@
       "mercadolivre:MLB28765604",
       "mercadolivre:MLB4700283122",
       "mercadolivre:MLB23144235",
-      "mercadolivre:MLB54025710"
+      "mercadolivre:MLB54025710",
+      "mercadolivre:MLB61630221",
+      "mercadolivre:MLB60012839"
     ],
     "ultima": {
-      "em": "2026-10-17T00:20:18-03:00",
+      "em": "2026-10-17T00:30:21-03:00",
       "pedido": "",
       "forcado": false,
       "canais": 13,
       "lidos": 14,
       "falhas": [],
-      "posts_novos": 31,
-      "do_nicho": 7,
-      "repetidas": 4,
+      "posts_novos": 25,
+      "do_nicho": 2,
+      "repetidas": 0,
       "novas": 2,
       "limite_dia": false,
-      "repetidas_nome": 1,
+      "repetidas_nome": 0,
       "promobit": 0,
       "soltas": 2,
       "na_peneira": 5
     },
     "hora": "2026-10-17T00",
-    "nesta_hora": 4,
+    "nesta_hora": 6,
     "promobit_hora": "2026-10-17T00",
     "promobit_nesta_hora": 0,
-    "promobit_visto": 3120675,
+    "promobit_visto": 3120695,
     "nomes": [
       [
         [
@@ -7654,26 +7705,32 @@
           "aloe"
         ],
         "2026-10-17T00:20-03:00"
+      ],
+      [
+        [
+          "parafusadeira",
+          "furadeira",
+          "impacto",
+          "bateria",
+          "21v",
+          "bivolt",
+          "1400",
+          "rpm"
+        ],
+        "2026-10-17T00:30-03:00"
+      ],
+      [
+        [
+          "dux",
+          "whey",
+          "proten",
+          "concentrado",
+          "churros"
+        ],
+        "2026-10-17T00:30-03:00"
       ]
     ],
     "peneira": [
-      {
-        "loja": "amazon",
-        "chave": "amazon:B0FNGMWY42",
-        "origem": "promobit",
-        "fonte": "promobit",
-        "link": "https://www.amazon.com.br/dp/B0FNGMWY42?tag=alphadominu09-20",
-        "link_produto": "https://www.amazon.com.br/dp/B0FNGMWY42?tag=alphadominu09-20",
-        "post_origem": "https://www.promobit.com.br/oferta/dux-whey-proten-concentrado-churros-3120450/",
-        "link_canal": "https://www.promobit.com.br/Redirect/to/3120450/",
-        "nome": "Dux - WHEY PROTEN CONCENTRADO CHURROS",
-        "por": 12.0,
-        "foto": "https://images-na.ssl-images-amazon.com/images/P/B0FNGMWY42.01.LZZZZZZZ.jpg",
-        "foto_origem": "loja",
-        "palavra": "whey",
-        "garimpado_em": "2026-10-16T21:40-03:00",
-        "nota": 33.1
-      },
       {
         "loja": "mercadolivre",
         "chave": "mercadolivre:MLB63281934",
@@ -7753,19 +7810,40 @@
         "palavra": "whey",
         "garimpado_em": "2026-10-17T00:20-03:00",
         "nota": 64.6
+      },
+      {
+        "loja": "mercadolivre",
+        "chave": "mercadolivre:MLB61630221",
+        "origem": "promooeasy",
+        "link": "https://www.mercadolivre.com.br/whey-protein-adaptogen-science-tasty-gourmet-3w-em-po-sem-sabor-x-900g/p/MLB61630221?matt_word=alphapromo&matt_tool=59136903",
+        "link_produto": "https://www.mercadolivre.com.br/whey-protein-adaptogen-science-tasty-gourmet-3w-em-po-sem-sabor-x-900g/p/MLB61630221",
+        "post_origem": "https://t.me/promooeasy/223314",
+        "link_canal": "https://www.mercadolivre.com.br/whey-protein-adaptogen-science-tasty-gourmet-3w-em-po-sem-sabor-x-900g/p/MLB61630221?matt_word=promoeasynv&amp;matt_tool=88963738",
+        "foto": "https://cdn1.telesco.pe/file/S7FQr3MpcbyxZwQdSfTNf4Y-dzYCS4KIIr_eL89hcyTxxhghsheg276Uq-gFssY0ftRWHwiBXxdl57YCUxPoJiD-_P41pg9ovHDYMKHhU_vqtyGXI1kKcV_OK5oxZSdNGI3IuV4vp3iZupLjh2bn0NDmxwKTKCMTbjM1hAXClctGLu3_2gWw-DkGWn_XLRMWUhlooOVmzTbtBOuPGNnpUUIe4iDnnFSsLKWflnLW-nmya1c3fhCrdQ1CDtwD-xvTK5V-ToBVqkQvD8UmJOOX5g7ZPHrxFmYV1dQKRvLeLy1Krm-6mB-y5ufdR-svj8dcpaNJJCBgh0zfZNCLw__7Pg.jpg",
+        "foto_origem": "canal",
+        "nome": "Whey protein Adaptogen Science Tasty Gourmet 3w em pó Sem sabor 900g",
+        "de": 299.0,
+        "por": 186.5,
+        "lido_ia": true,
+        "cupom": "RESGATEFULL1710",
+        "sem_preco_loja": true,
+        "loja_abriu": false,
+        "palavra": "whey",
+        "garimpado_em": "2026-10-17T00:30-03:00",
+        "nota": 54.7
       }
     ],
     "soltas_hora": "2026-10-17T00",
-    "soltas": 4,
+    "soltas": 6,
     "shopee_em": "2026-10-17T00:20-03:00",
     "shopee_indice": 44,
     "soltas_dia_data": "2026-10-17",
-    "soltas_dia": 4,
+    "soltas_dia": 6,
     "soltas_loja": {
-      "mercadolivre": 2,
-      "amazon": 2
+      "mercadolivre": 3,
+      "amazon": 3
     },
-    "soltas_vez": "2026-10-17T00:1"
+    "soltas_vez": "2026-10-17T00:2"
   },
   "ultimos": [
     {
@@ -9454,7 +9532,7 @@
         "reprovados": 1
       },
       "promobit": {
-        "achados": 17,
+        "achados": 18,
         "aprovados": 8,
         "reprovados": 6
       },
@@ -9506,7 +9584,7 @@
     },
     "2026-10-17": {
       "promooeasy": {
-        "achados": 1,
+        "achados": 2,
         "aprovados": 0,
         "reprovados": 0
       }
@@ -9690,7 +9768,7 @@
       "reprovados": 2
     },
     "parafusadeira": {
-      "achados": 8,
+      "achados": 9,
       "aprovados": 2,
       "reprovados": 6
     },
@@ -9740,7 +9818,7 @@
       "reprovados": 1
     },
     "whey": {
-      "achados": 13,
+      "achados": 14,
       "aprovados": 3,
       "reprovados": 8
     },
@@ -9905,7 +9983,7 @@
       "23": 4
     },
     "2026-10-17": {
-      "0": 2
+      "0": 3
     }
   },
   "aviso_ml": "2026-10-16",
