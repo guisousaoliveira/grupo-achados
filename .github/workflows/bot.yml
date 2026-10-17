@@ -29,6 +29,9 @@ jobs:
     timeout-minutes: 25
     steps:
       - uses: actions/checkout@v5
+      - name: Instalar o Pillow (selo dos deuses na foto)
+        continue-on-error: true
+        run: pip install -q pillow
       - name: Rodar o bot
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}

@@ -369,11 +369,17 @@ def avisar(item):
     botoes = {"inline_keyboard": [[{"text": f"🛒 Ver na {loja}", "url": item["link"]}],
                                   [{"text": "✏️ Editar lista", "web_app": {"url": URL_TELA}}]]}
     texto, foto, enviados, saiu = texto_aviso(item), bot.foto_publica(item), 0, []
+    com_selo = bot.foto_com_selo(item, item.get("foto") or foto)
     for uid in alvos:
         try:
-            if foto:
+            if foto or com_selo:
                 try:
-                    api("sendPhoto", chat_id=uid, photo=foto, caption=texto, parse_mode="HTML", reply_markup=botoes)
+                    if com_selo:
+                        bot.enviar_multipart("sendPhoto", {"chat_id": uid, "caption": texto, "parse_mode": "HTML",
+                                                           "reply_markup": botoes}, "photo", com_selo, "oferta.jpg",
+                                             "image/jpeg", token=token())
+                    else:
+                        api("sendPhoto", chat_id=uid, photo=foto, caption=texto, parse_mode="HTML", reply_markup=botoes)
                 except RuntimeError as e:
                     if "blocked" in str(e) or "deactivated" in str(e) or "chat not found" in str(e):
                         raise
